@@ -35,6 +35,18 @@
     color: rgb(87, 81, 81);
   }
 
+  @media(max-width:600px){
+    .clanek {
+      border: none;
+      border-bottom:2px solid grey;
+      border-radius:0;
+    }
+
+    .clanek:last-child {
+      border-bottom:none;
+    }
+  }
+
   .clanek:hover {
     border: 2px solid black;
     color:black;

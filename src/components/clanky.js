@@ -69,9 +69,9 @@ export default {
             okres: 'okres',
             obec: 'obec',
             jmeno: 'jmeno',
-            popisCesty: 'dsafdsafdsafdsafdsaafdsaafdsaafdsafdsaf',
+            popisCesty: 'dsafdafdsaf',
             kdyVznikl: 'safdsaf',
-            popis: 'afdsaafdsaadsafdsafdsafdsafdsafdsa',
+            popis: 'afdsaafdsaaa',
             galerie: [
 
 
@@ -100,9 +100,9 @@ export default {
             okres: 'okres',
             obec: 'obec',
             jmeno: 'jmeno',
-            popisCesty: 'dsafdsafdsafdsafdsaafdsaafdsaafdsafdsaf',
+            popisCesty: 'dsafdsafdsafdafdsaf',
             kdyVznikl: 'safdsaf',
-            popis: 'afdsaafdsaadsafdsafdsafdsafdsafdsa',
+            popis: 'afdsaafdsaaa',
             galerie: [
 
 
@@ -130,9 +130,9 @@ export default {
             okres: 'okres',
             obec: 'obec',
             jmeno: 'jmeno',
-            popisCesty: 'dsafdsafdsafdsafdsaafdsaafdsaafdsafdsaf',
+            popisCesty: 'dsafdsafdsafdsaafdsaf',
             kdyVznikl: 'safdsaf',
-            popis: 'afdsaafdsaadsafdsafdsafdsafdsafdsa',
+            popis: 'afdsaafdsaadsa',
             galerie: [
 
 
@@ -159,9 +159,9 @@ export default {
             okres: 'okres',
             obec: 'obec',
             jmeno: 'jmeno',
-            popisCesty: 'dsafdsafdsafdsafdsaafdsaafdsaafdsafdsaf',
+            popisCesty: 'dsafdsafdsafdafdsaf',
             kdyVznikl: 'safdsaf',
-            popis: 'afdsaafdsaadsafdsafdsafdsafdsafdsa',
+            popis: 'afdsaafdsaadsa',
             galerie: [
 
 

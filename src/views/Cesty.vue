@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="pomnicky">
+    <div id="cesty">
       <div id="pozadi1">
         <img src="./../assets/cesty.jpg" alt="hory" />
       </div>
@@ -8,7 +8,7 @@
       <div id="transbox1"></div>
 
       <h1>Cesty</h1>
-      <p id="textCesty">
+      <p id="textCesty" v-bind:class="{ responsive: menuUkazat || oknoUkazat }">
         Tady bude uvodni text. Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Dignissimos suscipit fuga natus, delectus autem
         voluptates? Consequuntur vitae minus quae dignissimos aspernatur, veniam
@@ -27,8 +27,11 @@
         >
           <router-link v-bind:to="`/cesty/${kategorie.rok}`">
             <div
-              class="cestyKategorie"
-              v-bind:class="{ active: kategorie.rok == vybranyRok }"
+              class="cestyKategorie cestyMenu"
+              v-bind:class="{
+                active: kategorie.rok == vybranyRok,
+                responsive: menuUkazat && !oknoUkazat,
+              }"
             >
               {{ kategorie.rok }}
             </div>
@@ -36,7 +39,11 @@
         </div>
       </div>
 
-      <div id="kontejner">
+      <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <div class="kontejner" v-if="oknoUkazat">
         <div id="oknoPomnicky" v-if="clankyPodKategorie">
           <OknoClanky v-bind:clanky="clankyPodKategorie" />
         </div>
@@ -70,6 +77,8 @@
           { id: 7, rok: 2014 },
           { id: 8, rok: 2013 },
         ],
+        menuUkazat: false,
+        oknoUkazat: false,
       };
     },
 
@@ -80,13 +89,19 @@
             clanek.kategorie === "cesty" && clanek.datum.slice(-4) == rok
         );
 
-        this.vybranyRok=rok;
-        
+        this.vybranyRok = rok;
 
         if (this.clankyPodKategorie.length === 0) {
           this.clankyPodKategorie = null;
         }
-        
+
+        this.oknoUkazat = true;
+        this.menuUkazat = false;
+      },
+
+      toggleMenu() {
+        this.menuUkazat = !this.menuUkazat;
+        this.oknoUkazat = false;
       },
     },
 
@@ -97,22 +112,25 @@
           clanek.datum.slice(-4) == this.$route.params.rok
       );
       this.vybranyRok = this.$route.params.rok;
-      
-     if(this.clankyPodKategorie.length===0){
-       this.clankyPodKategorie=null;
-     }
+
+      if (this.clankyPodKategorie.length === 0) {
+        this.clankyPodKategorie = null;
+        this.oknoUkazat = false;
+      } else {
+        this.oknoUkazat = true;
+      }
     },
   };
 </script>
 
 <style>
-  #pomnicky {
+  #cesty {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(40, 60px);
   }
 
-  h1 {
+  #cesty h1 {
     grid-row: 1/3;
     grid-column: 3/5;
     justify-self: center;
@@ -127,6 +145,22 @@
     font-size: 20p;
   }
 
+  @media screen and (max-width: 600px) {
+    #cesty h1 {
+      grid-row: 2/3;
+      grid-column: 1/7;
+      padding-top: 30px;
+      font-size: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #textCesty {
+      grid-row: 3/6;
+      grid-column: 1/7;
+      margin-top: 20px;
+    }
+  }
   #cestyNavigace {
     grid-column: 1/2;
     grid-row: 1/9;
@@ -153,6 +187,16 @@
     font-size: 16px;
   }
 
+  @media (max-width: 600px) {
+    #cesty .cestyKategorie.cestyMenu {
+      display: none;
+    }
+  }
+
+  #cesty .cestyKategorie.responsive {
+    display: flex;
+  }
+
   .cestyKategorie:hover {
     color: #13131d;
     background-color: #9aacab;
@@ -162,14 +206,14 @@
     background-color: #497e6e;
   }
 
-  #domu {
+  /* #domu {
     background-color: mediumturquoise;
     margin-bottom: 20px;
   }
 
   #domu a {
     background-color: mediumturquoise;
-  }
+  } */
 
   #pozadi1 {
     grid-column: 1 / 7;
@@ -186,16 +230,31 @@
     margin-right: 0;
   }
 
-  #kontejner {
+  #cesty .kontejner {
     grid-column: 2/7;
-    grid-row: 4/20;
+    grid-row: 3/20;
   }
 
-  #oknoPomnicky {
-    background-color: white;
-    margin: 30px;
-    padding: 30px;
-    border-radius: 10px;
-    font-size: 20px;
-  }
+   @media (max-width: 600px) {
+    #cesty h1 {
+      grid-row:2/3;
+    }
+
+   #cesty .kontejner {
+      grid-column: 1/7;
+      grid-row: 3/20;
+      width: 100vw;
+      font-size: 15px;
+      margin: 0;
+      margin-top: 20px;
+      padding: 0;
+    }
+
+     #cesty #oknoPomnicky {
+      margin: 0;
+      padding: 0;
+      border-radius: 0;
+      font-size: 15px;
+    }
+   }
 </style>

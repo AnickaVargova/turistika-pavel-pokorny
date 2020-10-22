@@ -6,7 +6,7 @@
 
     <div id="transbox1"></div>
 
-    <h1 v-bind:class="{ responsive: menuUkazat || oknoUkazat }">Pomníčky</h1>
+    <h1>Pomníčky</h1>
 
     <p
       id="pomnickyText"
@@ -137,12 +137,12 @@
     grid-template-rows: repeat(40, 60px);
   }
 
-  h1 {
+  #pomnicky h1 {
     grid-row: 1/3;
-    grid-column: 3/5;
+    grid-column: 1/7;
     justify-self: center;
     align-self: center;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #pomnickyText {
@@ -154,13 +154,18 @@
 
   @media screen and (max-width: 600px) {
     #pomnicky h1 {
-      grid-row: 3/4;
-      grid-column: 1/5;
+      grid-row: 2/3;
+      grid-column: 1/7;
+      padding-top: 30px;
+      font-size: 30px;
+      margin:0;
+      padding:0; 
     }
 
     #pomnickyText {
-      grid-row: 4/6;
+      grid-row: 3/6;
       grid-column: 1/7;
+      margin-top: 20px;
     }
   }
 
@@ -226,7 +231,8 @@
 
   @media (max-width: 600px) {
     #domu {
-      width: 100px;
+      min-width: 100px;
+      margin-bottom: 50px;
     }
   }
 
@@ -245,23 +251,27 @@
     margin-right: 0;
   }
 
- .kontejner {
+ #pomnicky .kontejner {
     grid-column: 2/7;
-    grid-row: 1/20;
+    grid-row: 2/20;
   }
 
   #oknoPomnicky {
     background-color: white;
-    margin: 30px;
-    padding: 10px;
+    margin: 0;
+    padding: 30px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   @media (max-width: 600px) {
-  .kontejner {
+    #pomnicky h1 {
+      grid-row:2/3;
+    }
+
+   #pomnicky .kontejner {
       grid-column: 1/7;
-      grid-row: 2/20;
+      grid-row: 3/20;
       width: 100vw;
       font-size: 15px;
       margin: 0;
@@ -269,7 +279,7 @@
       padding: 0;
     }
 
-    #pomnicky #oknoPomnicky {
+     #pomnicky #oknoPomnicky {
       margin: 0;
       padding: 0;
       border-radius: 0;

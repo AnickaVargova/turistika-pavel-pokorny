@@ -136,12 +136,12 @@
   }
 
   table {
-    margin: 10px;
+    /* margin: 10px; */
     padding: 10px;
   }
 
   tr {
-    height: 30px;
+    height: 20px;
   }
 
   td:nth-child(odd) {
@@ -210,11 +210,16 @@
   }
 
 @media(max-width:600px){
+ 
   #oknoPomnicky .ramecek {
     border: none;
     border-bottom: 1px solid grey;
     border-radius: 0;
     margin: 0;
+  }
+
+  #oknoPomnicky .ramecek:last-child {
+    border-bottom:none;
   }
 
    #mapaPomnicky {

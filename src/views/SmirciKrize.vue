@@ -11,7 +11,7 @@
       </router-link>
     </div>
     <h1>Smírčí kříže</h1>
-    <p>
+    <p id="krizeText">
       Tady bude uvodni text. Lorem ipsum dolor sit amet consectetur adipisicing
       elit. Dignissimos suscipit fuga natus, delectus autem voluptates?
       Consequuntur vitae minus quae dignissimos aspernatur, veniam perferendis
@@ -19,9 +19,9 @@
     </p>
 
     <div id="kontejnerKrize">
-      <div id="oknoKrize" >
+     
         <OknoPomnicky v-bind:clanky="clankySmirciKrize" />
-      </div>
+     
     </div>
   </div>
 </template>
@@ -60,6 +60,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(40, 60px);
+    
   }
 
   #kontejnerDomu {
@@ -76,11 +77,42 @@
     font-size: 40px;
   }
 
-  #krize p {
+  #krizeText {
     grid-row: 3/5;
     grid-column: 1/7;
     margin: 40px;
     font-size: 20p;
+  }
+
+   #kontejnerKrize {
+    grid-column: 1/7;
+    grid-row: 5;
+  }
+
+  @media(max-width: 600px)  {
+
+    #krizeText {
+      font-size:15px;
+      grid-row: 3/6;
+      margin-top: 20px;
+      margin-bottom: 20px;
+     
+    }
+
+    #kontejnerKrize {
+      grid-row:6;
+      width: 100vw;
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #krize #oknoPomnicky {
+      margin: 0;
+      padding: 0;
+      border-radius: 0;
+      font-size: 15px;
+    }
   }
 
   #pomnickyNavigace {
@@ -109,14 +141,14 @@
     font-size: 13px;
   }
 
-  #domu {
+  /* #domu {
     background-color: mediumturquoise;
     margin-bottom: 20px;
   }
 
   #domu a {
     background-color: rgb(137, 173, 172);
-  }
+  } */
 
   #pozadi1 {
     grid-column: 1 / 7;
@@ -124,6 +156,7 @@
     width: 100vw;
     height: 300vh;
   }
+
   #krize #transbox1 {
     grid-column: 1 / 7;
     grid-row: 1 / 20;
@@ -133,19 +166,7 @@
     margin-right: 0;
   }
 
-  #kontejnerKrize {
-    grid-column: 1/5;
-    grid-row: 5/20;
-  }
-
-  #oknoKrize {
-    background-color: white;
-    margin: 30px;
-    padding: 30px;
-    border-radius: 10px;
-    font-size: 20px;
-  }
-
+ 
   #krize #pozadi1 img {
     object-fit: cover;
   }

@@ -159,14 +159,14 @@
     background-color: #497e6e;
   }
 
-  #domu {
+  /* #domu {
     background-color: mediumturquoise;
     margin-bottom: 20px;
   }
 
   #domu a {
     background-color: mediumturquoise;
-  }
+  } */
 
   #pozadi1 {
     grid-column: 1 / 7;
@@ -188,11 +188,11 @@
     grid-row: 4/20;
   }
 
-  #oknoPomnicky {
+  /* #oknoPomnicky {
     background-color: white;
     margin: 30px;
     padding: 30px;
     border-radius: 10px;
     font-size: 20px;
-  }
+  } */
 </style>

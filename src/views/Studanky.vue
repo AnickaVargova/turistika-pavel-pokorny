@@ -6,7 +6,7 @@
 
     <div id="transbox1"></div>
 
-    <h1 v-bind:class="{ responsive: menuUkazat || oknoUkazat }">Studánky</h1>
+    <h1>Studánky</h1>
     <p
       id="studankyText"
       v-bind:class="{ responsive: menuUkazat || oknoUkazat }"
@@ -130,7 +130,7 @@
 
   #studanky h1 {
     grid-row: 1/3;
-    grid-column: 3/5;
+    grid-column: 1/7;
     justify-self: center;
     align-self: center;
     font-size: 40px;
@@ -145,14 +145,24 @@
 
   @media screen and (max-width: 600px) {
     #studanky h1 {
-      grid-row: 3/4;
-      grid-column: 1/5;
+      font-size: 30px;
+      grid-row: 2/3;
+      grid-column: 1/7;
+      padding-top: 30px;
+      margin:0;
+      padding:0;
     }
 
      #studankyText {
-      grid-row: 4/6;
+      grid-row: 3/6;
       grid-column: 1/7;
+      font-size: 15px;
+      margin-top: 20px;
     }
+
+     #studanky #pomnickyNavigace {
+       grid-row: 3/20;
+     }
   }
 
   @media (max-width: 600px) {
@@ -171,18 +181,18 @@
     grid-row: 1/20;
   }
 
-  #oknoPomnicky {
+  /* #oknoPomnicky {
     background-color: white;
     margin: 30px;
     padding: 30px;
     border-radius: 10px;
     font-size: 20px;
-  }
+  } */
 
   @media (max-width: 600px) {
     #studanky .kontejner {
       grid-column: 1/7;
-      grid-row: 2/20;
+      grid-row: 3/20;
       width: 100vw;
       font-size: 15px;
       margin: 0;
