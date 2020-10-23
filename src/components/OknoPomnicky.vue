@@ -67,7 +67,7 @@
                 v-bind:to="
                   `/fotodetail/${clanek.podkategorie}/${obrazek.fotka}`
                 "
-                ><img v-bind:src="require(`./../assets/${obrazek.fotka}`)"
+                ><img v-bind:src="require(`./../assets/${obrazek.fotka}`)" alt="Fotodetail"
               /></router-link>
             </div>
           </div>
@@ -136,8 +136,7 @@
   }
 
   table {
-    /* margin: 10px; */
-    padding: 10px;
+  padding: 10px;
   }
 
   tr {

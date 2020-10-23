@@ -1,6 +1,10 @@
 <template>
   <div id="detailClanku">
-    <router-link v-bind:to="`/${detailClanku.kategorie}/${this.$route.params.rok}`">
+    <router-link
+      v-bind:to="
+        `/${detailClanku.kategorie}/${this.$route.params.podkategorie}`
+      "
+    >
       <div class="pomnicekKategorie" id="zpetNaClanky">
         Zpět na články
       </div>
@@ -8,13 +12,15 @@
     <h1>{{ detailClanku.nadpis }}</h1>
     <h3>{{ detailClanku.datum }}</h3>
 
-    <!-- <div class="mapouter"><iframe width="300" height="180" id="gmap_canvas" src="https://maps.google.com/maps?q=Javorova%2012%2C%20Brno&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a></div> -->
-
     <div id="textClanku">
-      <router-link v-bind:to="`/fotodetail/${detailClanku.id}/${detailClanku.fotkaUvod.fotka}`">
+      <router-link
+        v-bind:to="
+          `/fotodetail/${detailClanku.podkategorie}/${detailClanku.fotkaUvod.fotka}`
+        "
+      >
         <figure id="fotoUvod">
           <img
-            v-bind:src="require(`./../assets/${detailClanku.fotkaUvod.fotka}`)"
+            v-bind:src="require(`./../assets/${detailClanku.fotkaUvod.fotka}`)" v-bind:alt="detailClanku.jmeno"
           />
           <figcaption>{{ detailClanku.fotkaUvod.popisek }}</figcaption>
         </figure>
@@ -30,9 +36,13 @@
         v-for="(obrazek, index) in detailClanku.galerie"
         v-bind:key="index"
       >
-        <router-link v-bind:to="`/fotodetail/${detailClanku.id}/${obrazek.fotka}`">
+        <router-link
+          v-bind:to="
+            `/fotodetail/${detailClanku.podkategorie}/${obrazek.fotka}`
+          "
+        >
           <figure>
-            <img v-bind:src="require(`./../assets/${obrazek.fotka}`)" />
+            <img v-bind:src="require(`./../assets/${obrazek.fotka}`)" v-bind:alt="obrazek.popisek" />
             <figcaption>{{ obrazek.popisek }}</figcaption>
           </figure>
         </router-link>
@@ -60,12 +70,9 @@
             this.clanek = clanek;
             return clanek;
           }
-         
         }
       },
     },
-
-  
   };
 </script>
 
@@ -74,13 +81,20 @@
     margin: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30px 30px 30px auto 400px 400px;
+    grid-template-rows: 30px 30px 30px auto repeat(6, 400px);
     gap: 20px;
+  }
+
+  @media (max-width: 600px) {
+    #detailClanku p {
+      font-size: 15px;
+    }
   }
 
   #zpetNaClanky {
     width: 50%;
-   
+    min-width: 80px;
+    padding: 10px;
   }
 
   #detailClanku h1 {
@@ -94,6 +108,7 @@
   #fotoUvod {
     height: 200px;
     width: 30%;
+    min-width: 150px;
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -103,18 +118,11 @@
 
   #textClanku {
     grid-column: 1 / span 3;
-    grid-row: 4 / span 1;
+    grid-row: 3/5;
     margin-bottom: 20px;
   }
 
-  @media (max-width: 700px) {
-    #fotoUvod {
-      height: 30%;
-      width: 100%;
-      float: none;
-    }
-  }
-
+  
   #fotoUvod img {
     width: 100%;
     height: 100%;
@@ -133,7 +141,7 @@
   }
 
   .obrazek {
-    flex-basis: 33.33%
+    flex-basis: 33.33%;
   }
 
   .obrazek figure {
@@ -143,7 +151,6 @@
     margin-left: 0;
   }
 
-  
   #detailClanku img {
     border: 2px solid white;
     border-radius: 5px;
@@ -158,8 +165,11 @@
     grid-column: 1 / span3;
     display: flex;
     justify-content: start;
-   
   }
 
-  
+  @media (max-width: 600px) {
+    #galerieClanek {
+      flex-direction: column;
+    }
+  }
 </style>

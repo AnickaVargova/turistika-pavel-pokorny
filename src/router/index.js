@@ -10,9 +10,6 @@ import Studanky from '../views/Studanky.vue'
 import SmirciKrize from '../views/SmirciKrize.vue'
 import Cesty from '../views/Cesty.vue'
 import Vypraveni from '../views/Vypraveni.vue'
-import Kontakt from '../views/Kontakt.vue'
-import MojeRajce from '../views/MojeRajce.vue'
-
 
 
 Vue.use(VueRouter)
@@ -34,7 +31,7 @@ const routes = [{
         component: Odkazy
     },
     {
-        path: '/detail/:rok/:id',
+        path: '/detail/:podkategorie/:id',
         name: 'Detail',
         component: Detail
     },
@@ -70,28 +67,17 @@ const routes = [{
     },
 
     {
-        path: '/cesty/:rok',
+        path: '/cesty/:kategorie',
         name: 'Cesty',
         component: Cesty
     },
 
 
     {
-        path: '/vypraveni/:rok',
+        path: '/vypraveni/:kategorie',
         name: 'Vypraveni',
         component: Vypraveni
     },
-    {
-        path: '/kontakt',
-        name: 'Kontakt',
-        component: Kontakt
-    },
-    {
-        path: '/mojerajce',
-        name: 'MojeRajce',
-        component: MojeRajce
-    },
-
 
 ]
 

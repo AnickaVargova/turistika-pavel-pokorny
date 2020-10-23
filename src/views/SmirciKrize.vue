@@ -1,7 +1,7 @@
 <template>
   <div id="krize">
     <div id="pozadi1">
-      <img src="./../assets/kriz.jpg" alt="kříž" />
+      <img src="./../assets/kriz.jpg" alt="Fotografie kříže" />
     </div>
 
     <div id="transbox1"></div>
@@ -19,9 +19,7 @@
     </p>
 
     <div id="kontejnerKrize">
-     
-        <OknoPomnicky v-bind:clanky="clankySmirciKrize" />
-     
+      <OknoPomnicky v-bind:clanky="clankySmirciKrize" />
     </div>
   </div>
 </template>
@@ -37,21 +35,14 @@
     data() {
       return {
         clanky: vsechnyClanky.data,
-        
       };
     },
 
     computed: {
-      clankySmirciKrize(){
-        return this.clanky.filter(clanek=>clanek.kategorie==='krize');
-      }
+      clankySmirciKrize() {
+        return this.clanky.filter((clanek) => clanek.kategorie === "krize");
+      },
     },
-
-   
-
-    created(){
-      console.log(this.clanky.filter(clanek=>clanek.kategorie==='krize'));
-    }
   };
 </script>
 
@@ -60,7 +51,6 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(40, 60px);
-    
   }
 
   #kontejnerDomu {
@@ -70,11 +60,19 @@
   }
 
   #krize h1 {
-    grid-row: 1/3;
-    grid-column: 2/5;
+    grid-row: 2/3;
+    grid-column: 1/7;
     justify-self: center;
     align-self: center;
     font-size: 40px;
+  }
+
+  @media (max-width: 600px) {
+    #krize h1 {
+      font-size: 30px;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   #krizeText {
@@ -84,23 +82,21 @@
     font-size: 20p;
   }
 
-   #kontejnerKrize {
+  #kontejnerKrize {
     grid-column: 1/7;
     grid-row: 5;
   }
 
-  @media(max-width: 600px)  {
-
+  @media (max-width: 600px) {
     #krizeText {
-      font-size:15px;
+      font-size: 15px;
       grid-row: 3/6;
       margin-top: 20px;
       margin-bottom: 20px;
-     
     }
 
     #kontejnerKrize {
-      grid-row:6;
+      grid-row: 6;
       width: 100vw;
       font-size: 15px;
       margin: 0;
@@ -123,34 +119,7 @@
     flex-direction: column;
   }
 
-  .pomnicekKategorie {
-    flex-basis: 100px;
-    border: 2px solid black;
-    margin: 3px;
-    height: 30px;
-    font-weight: bold;
-    color: black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: flex-start;
-    padding: 2%;
-    align-items: center;
-    text-transform: uppercase;
-    box-shadow: 5px 2px 2px #395250;
-    background-color: #6bc5aa;
-    font-size: 13px;
-  }
-
-  /* #domu {
-    background-color: mediumturquoise;
-    margin-bottom: 20px;
-  }
-
-  #domu a {
-    background-color: rgb(137, 173, 172);
-  } */
-
-  #pozadi1 {
+   #pozadi1 {
     grid-column: 1 / 7;
     grid-row: 1 / 20;
     width: 100vw;
@@ -166,7 +135,6 @@
     margin-right: 0;
   }
 
- 
   #krize #pozadi1 img {
     object-fit: cover;
   }

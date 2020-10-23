@@ -1,35 +1,24 @@
 <template>
   <div id="fotodetail">
     <figure>
-      <img v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)" />
+      <img v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)" v-bind:alt="vybranaFotka.popisek" />
       <figcaption>{{ vybranaFotka.popisek }}</figcaption>
-      <!-- <router-link v-bind:to="`/detail/${vybranyIndex}`"
-        ><button>Zpět na článek</button></router-link
-      > -->
-      <!-- nesmi se davat stejne fotky k ruznym clankum -->
+     
       <router-link
-        v-if="vybranaKategorie === 'cesty'"
-        v-bind:to="`/detail/${vybranyRok}/${vybranyIndex}`"
+        v-if="vybranaKategorie === 'cesty'||vybranaKategorie === 'vypraveni'"
+        v-bind:to="`/detail/${this.$route.params.podkategorie}/${vybranyIndex}`"
         ><button class='pomnicekKategorie'>Zpět</button></router-link
       >
       <router-link
-        v-if="vybranaKategorie === 'pomnicky'"
-        v-bind:to="`/pomnicky/${this.$route.params.podkategorie}`"
+        v-if="vybranaKategorie === 'pomnicky'||vybranaKategorie === 'studanky'"
+        v-bind:to="`/${vybranaKategorie}/${this.$route.params.podkategorie}`"
         ><button class='pomnicekKategorie'>Zpět</button></router-link
       >
-      <router-link
-        v-if="vybranaKategorie === 'studanky'"
-        v-bind:to="`/studanky/${this.$route.params.podkategorie}`"
-        ><button class='pomnicekKategorie'>Zpět</button></router-link
-      >
+     
       <router-link v-if="vybranaKategorie === 'krize'" to="/smirciKrize"
         ><button class='pomnicekKategorie'>Zpět</button></router-link
       >
-      <router-link
-        v-if="vybranaKategorie === 'vypraveni'"
-        v-bind:to="`/detail/${vybranyRok}/${vybranyIndex}`"
-        ><button class='pomnicekKategorie'>Zpět</button></router-link
-      >
+      
     </figure>
   </div>
 </template>
@@ -64,7 +53,7 @@
                 this.vybranyRok = clanek.datum.slice(-4);
                 }
                 this.vybranaKategorie = clanek.kategorie;
-                console.log(this.vybranaKategorie);
+               
               }
             }
             if(clanek.fotkaUvod){
@@ -99,24 +88,19 @@
   }
 
   #fotodetail figcaption {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
   }
 
   #fotodetail button {
-    /* font-weight: bold;
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    color: black;
-    padding: 10px;
-    margin: 0;
-    background-color: lightblue;
-    text-transform: uppercase;
-    border: 2px solid black; */
+   
     position: absolute;
     bottom: -60px;
     right: 0;
     width: 100px;
+    justify-content: right;
+    padding-left: 0;
+    padding-right: 30px;
    
   }
 

@@ -6,17 +6,16 @@
 
     <div id="transbox1"></div>
 
-    <router-link id="domuOnas" to="/">
-      <div class="cestyKategorie">Domů</div>
+    <router-link class="kontejnerDomuOnas" to="/">
+      <div class="pomnicekKategorie" id="domuOnas">Domů</div>
     </router-link>
 
     <h1>Sympatické weby</h1>
     <div id="oknoOdkazy">
       <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
         <a v-bind:href="odkaz.adresa" target="_blank">{{ odkaz.jmeno }}</a>
-        <span>{{odkaz.popis}}</span>
+        <span>{{ odkaz.popis }}</span>
       </div>
-
     </div>
   </div>
 </template>
@@ -44,20 +43,22 @@
   }
 
   #odkazy h1 {
-    grid-column: 3/5;
-    grid-row: 1/3;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #oknoOdkazy {
-    grid-column: 1/3;
+    grid-column: 1/7;
     grid-row: 3/10;
-    margin: 5%;
-     }
+    margin: 30px;
+    line-height: 1.5;
+  }
 
   #oknoOdkazy .odkazy {
     font-size: 30px;
-    
-    
   }
 
   .odkazy a {
@@ -75,5 +76,15 @@
 
   #odkazy span {
     font-size: 20px;
+  }
+
+  @media (max-width: 600px) {
+    #oknoOdkazy .odkazy {
+      font-size: 20px;
+    }
+
+    #odkazy span {
+      font-size: 15px;
+    }
   }
 </style>

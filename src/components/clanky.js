@@ -21,10 +21,8 @@ export default {
 
             ],
             odkazy: null,
-
             latitude: 49.271570851444096,
             longitude: 16.70127868652344,
-
             naposledObnoveno: '25.9.2020',
             proMne: " XX/996    24-413-96   2019–023",
 
@@ -184,6 +182,7 @@ export default {
             id: 7,
             datum: '20.07.2019',
             kategorie: 'cesty',
+            podkategorie: 2,
             nadpis: 'Brno1',
             text: ['Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ', ' Sed vestibulum, massa ut ullamcorper malesuada, massa tellus mattis elit, vel hendrerit leo nisl in ipsum. Curabitur tincidunt ut nulla vitae dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id felis in justo pretium tempor ut quis elit. Nam consectetur lacus eget efficitur consequat. Morbi libero neque, bibendum sit amet sem et, placerat pellentesque massa. Nunc risus mauris, venenatis id viverra eu, tempus consectetur massa. Suspendisse lorem sem, gravida eget sagittis tincidunt, egestas eget nibh. Sed maximus est eu leo blandit, ut iaculis ipsum volutpat.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. '],
             galerie: [
@@ -201,6 +200,7 @@ export default {
             id: 8,
             datum: '20.07.2020',
             kategorie: 'vypraveni',
+            podkategorie: 1,
             nadpis: 'Brno2',
             text: ['Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ', ' Sed vestibulum, massa ut ullamcorper malesuada, massa tellus mattis elit, vel hendrerit leo nisl in ipsum. Curabitur tincidunt ut nulla vitae dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id felis in justo pretium tempor ut quis elit. Nam consectetur lacus eget efficitur consequat. Morbi libero neque, bibendum sit amet sem et, placerat pellentesque massa. Nunc risus mauris, venenatis id viverra eu, tempus consectetur massa. Suspendisse lorem sem, gravida eget sagittis tincidunt, egestas eget nibh. Sed maximus est eu leo blandit, ut iaculis ipsum volutpat.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. '],
             galerie: [
@@ -213,94 +213,6 @@ export default {
 
         },
 
-        // {
-        //     id: 8,
-        //     kategorie: 'studanky',
-        //     podkategorie: 1,
-        //     druh: 'druh',
-        //     okres: 'okres',
-        //     obec: 'obec',
-        //     jmeno: 'jmeno',
-        //     popisCesty: 'dsafdsafdsafdsafdsaafdsaafdsaafdsafdsaf',
-        //     kdyVznikl: 'safdsaf',
-        //     popis: 'afdsaafdsaadsafdsafdsafdsafdsafdsa',
-        //     galerie: [
 
-        //         { fotka: 'foto05.jpg', popisek: 'popisek5' },
-        //         { fotka: 'foto06.jpg', popisek: 'popisek6' },
-        //         { fotka: 'foto07.jpg', popisek: 'popisek7' },
-
-        //     ],
-        //     odkazy: [{
-        //         nazev: "Google",
-        //         adresa: "https://www.google.com"
-        //     }, {
-        //         nazev: "Google",
-        //         adresa: "https://www.google.com"
-        //     }],
-        //     mapa: 'tady bude mapa',
-        //     sirka: 14.4378,
-        //     delka: 50.0755,
-        //     naposledObnoveno: 'datum',
-        // },
-
-        // {
-        //     id: 10,
-        //     datum: '15.08.2018',
-        //     kategorie: 'hory',
-        //     nadpis: 'Pomnicky2',
-        //     text: ['In egestas laoreet mauris, vehicula vulputate enim scelerisque quis. Nulla a bibendum mauris, et congue turpis. Pellentesque nec purus vitae arcu vehicula maximus. Nam in risus ac ipsum cursus ultrices et at turpis. Phasellus sit amet nisl velit. Quisque ante metus, egestas vel aliquet a, feugiat ut lorem. Pellentesque hendrerit mauris in lacus malesuada tincidunt. Cras eu mi dolor. Sed feugiat ligula nec ligula consequat rutrum. Proin sagittis massa id nunc tristique, sodales interdum risus laoreet. Donec efficitur convallis magna non efficitur. Donec eleifend lectus id commodo scelerisque. '],
-        //     galerie: [
-
-        //         { fotka: 'foto05.jpg', popisek: 'popisek5' },
-        //         { fotka: 'foto06.jpg', popisek: 'popisek6' },
-        //         { fotka: 'foto07.jpg', popisek: 'popisek7' },
-        //         { fotka: 'foto08.jpg', popisek: 'popisek8' },
-        //         { fotka: 'foto09.jpg', popisek: 'popisek9' },
-        //         { fotka: 'foto10.jpg', popisek: 'popisek10' },
-        //         { fotka: 'foto11.jpg', popisek: 'popisek11' },
-        //         { fotka: 'foto12.jpg', popisek: 'popisek12' },
-        //     ],
-        //     fotkaUvod: { fotka: 'foto08.jpg', popisek: 'popisek8' }
-        // },
-        // {
-        //     id: 11,
-        //     datum: '06.07.2017',
-        //     kategorie: 'hory',
-        //     nadpis: 'Hory2',
-        //     text: ['In egestas laoreet mauris, vehicula vulputate enim scelerisque quis. Nulla a bibendum mauris, et congue turpis. Pellentesque nec purus vitae arcu vehicula maximus. Nam in risus ac ipsum cursus ultrices et at turpis. Phasellus sit amet nisl velit. Quisque ante metus, egestas vel aliquet a, feugiat ut lorem. Pellentesque hendrerit mauris in lacus malesuada tincidunt. Cras eu mi dolor. Sed feugiat ligula nec ligula consequat rutrum. Proin sagittis massa id nunc tristique, sodales interdum risus laoreet. Donec efficitur convallis magna non efficitur. Donec eleifend lectus id commodo scelerisque. a'],
-        //     galerie: [
-
-
-        //         { fotka: 'foto05.jpg', popisek: 'popisek5' },
-        //         { fotka: 'foto06.jpg', popisek: 'popisek6' },
-        //         { fotka: 'foto07.jpg', popisek: 'popisek7' },
-        //         { fotka: 'foto08.jpg', popisek: 'popisek8' },
-        //         { fotka: 'foto09.jpg', popisek: 'popisek9' },
-        //         { fotka: 'foto10.jpg', popisek: 'popisek10' },
-        //         { fotka: 'foto11.jpg', popisek: 'popisek11' },
-        //         { fotka: 'foto12.jpg', popisek: 'popisek12' },
-        //     ],
-        //     fotkaUvod: { fotka: 'foto09.jpg', popisek: 'popisek9' }
-        // },
-        // {
-        //     id: 12,
-        //     datum: '06.07.2019',
-        //     kategorie: 'hory',
-        //     nadpis: 'Hory3',
-        //     text: ['In egestas laoreet mauris, vehicula vulputate enim scelerisque quis. Nulla a bibendum mauris, et congue turpis. Pellentesque nec purus vitae arcu vehicula maximus. Nam in risus ac ipsum cursus ultrices et at turpis. Phasellus sit amet nisl velit. Quisque ante metus, egestas vel aliquet a, feugiat ut lorem. Pellentesque hendrerit mauris in lacus malesuada tincidunt. Cras eu mi dolor. Sed feugiat ligula nec ligula consequat rutrum. Proin sagittis massa id nunc tristique, sodales interdum risus laoreet. Donec efficitur convallis magna non efficitur. Donec eleifend lectus id commodo scelerisque. a'],
-        //     galerie: [
-
-        //         { fotka: 'foto05.jpg', popisek: 'popisek5' },
-        //         { fotka: 'foto06.jpg', popisek: 'popisek6' },
-        //         { fotka: 'foto07.jpg', popisek: 'popisek7' },
-        //         { fotka: 'foto08.jpg', popisek: 'popisek8' },
-        //         { fotka: 'foto09.jpg', popisek: 'popisek9' },
-        //         { fotka: 'foto10.jpg', popisek: 'popisek10' },
-        //         { fotka: 'foto11.jpg', popisek: 'popisek11' },
-        //         { fotka: 'foto12.jpg', popisek: 'popisek12' },
-        //     ],
-        //     fotkaUvod: { fotka: 'foto10.jpg', popisek: 'popisek10' }
-        // },
     ]
 }

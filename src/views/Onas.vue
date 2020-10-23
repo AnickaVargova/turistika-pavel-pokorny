@@ -6,19 +6,19 @@
 
     <div id="transbox1"></div>
 
-     <router-link id="domuOnas" to="/">
-          <div class="cestyKategorie">Domů</div>
-        </router-link>
+    <router-link class="kontejnerDomuOnas" to="/">
+      <div class="pomnicekKategorie" id="domuOnas">Domů</div>
+    </router-link>
 
     <h1>O nás</h1>
-    
-      <div id="foto"><img src="@/assets/hikers.jpg" alt="portret" /></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum velit
-        dolore, iste aut odio ea in vero fuga, magni, deserunt voluptatem
-        distinctio! Mollitia vitae ullam, vel alias excepturi minima veniam?
-      </p>
-    
+
+    <div id="foto"><img src="@/assets/hikers.jpg" alt="My na cestách" /></div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum velit
+      dolore, iste aut odio ea in vero fuga, magni, deserunt voluptatem
+      distinctio! Mollitia vitae ullam, vel alias excepturi minima veniam?
+    </p>
+
     <a id="kontakt" href="mailto:someone@example.com?Subject=Pozdrav"
       >Kontakt</a
     >
@@ -30,7 +30,6 @@
 </script>
 
 <style>
-
   #onas {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -41,36 +40,39 @@
     background-color: rgba(220, 241, 229, 0.8);
   }
 
+  .kontejnerDomuOnas {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
 
   #onas h1 {
-    grid-column: 3/5;
-    grid-row: 1/3;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
   }
 
   #domuOnas {
-    margin: 5%;
-    width: 50%;
-    grid-column: 1/3;
-    grid-row: 1/3;
+    margin: 20px;
+    width: 80px;
+    height: 20px;
+
+    background-color: mediumturquoise;
   }
 
-  #foto {
+  #onas #foto {
     grid-column: 1/3;
-    grid-row: 3/7;
+    grid-row: 2/7;
     border: 2px solid black;
-    margin: 5%;  
+    margin: 5%;
   }
 
   #onas p {
-  grid-column: 3/7;
-  grid-row: 3/5;
-  font-size: 20px;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    grid-column: 3/7;
+    grid-row: 3/5;
+    font-size: 20px;
   }
 
   #kontakt {
@@ -81,6 +83,33 @@
     font-size: 30px;
     color: rgb(23, 59, 37);
     text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    #onas #foto {
+      grid-column: 1/7;
+      grid-row: 3/6;
+    }
+
+    #onas p {
+      grid-row: 6/8;
+      grid-column: 1/7;
+      font-size: 15px;
+      margin: 20px;
+    }
+
+    #kontakt {
+      grid-row: 8/9;
+      grid-column: 1/2;
+      font-size: 20px;
+      margin: 20px;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   #kontakt:hover,

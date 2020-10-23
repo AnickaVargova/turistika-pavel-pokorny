@@ -1,12 +1,12 @@
 <template>
   <div>
     <div v-for="(clanek, index) in clanky" v-bind:key="index">
-      <router-link v-bind:to="`/detail/${Number(clanek.datum.slice(-4))}/${clanek.id}`">
+      <router-link v-bind:to="`/detail/${clanek.podkategorie}/${clanek.id}`">
         <div class="clanek">
         <h2>{{ clanek.nadpis }}</h2>
         <h3>{{ clanek.datum }}</h3>
         <div class="clanekFoto">
-          <img v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka}`)" />
+          <img v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka}`)" v-bind:alt="clanek.jmeno" />
         </div>
         <p>{{ clanek.kratkyText }}</p>
         </div>
