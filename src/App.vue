@@ -15,7 +15,7 @@
   }
 
   h1 {
-    font-family:  'Raleway', sans-serif;
+    font-family:  'Patrick Hand', cursive;
     text-align: center;
     color: #2c3e50;
   }

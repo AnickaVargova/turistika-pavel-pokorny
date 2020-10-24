@@ -12,7 +12,7 @@
 
     <h1>O nás</h1>
 
-    <div id="foto"><img src="@/assets/hikers.jpg" alt="My na cestách" /></div>
+    <div id="foto"><img src='@/assets/hikers.jpg' alt="My na cestách" /></div>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum velit
       dolore, iste aut odio ea in vero fuga, magni, deserunt voluptatem

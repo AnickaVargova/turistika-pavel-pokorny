@@ -212,7 +212,5 @@ export default {
             fotkaUvod: { fotka: 'obraz.jpg', popisek: 'popisek2' }
 
         },
-
-
     ]
 }
