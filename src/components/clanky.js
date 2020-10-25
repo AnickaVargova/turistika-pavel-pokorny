@@ -10,6 +10,7 @@ export default {
             okres: 'Brno-venkov',
             obec: 'Babice nad Svitavou',
             jmeno: 'Souček, Bedřich; Památník lesního Součka',
+            napis: 'BEDŘICH SOUČEK // VYNIKAJÍCÍ LESNÍK // ZANÍCENÝ PĚSTITEL JEDLE // A CIZOKRAJNÝCH DŘEVIN // 1.11.1905 18.4.1995 // 2005',
             popisCesty: '1400 metrů JJV od kostela v Babicích. V údolí, kterým vede Rosenauerova lesní silnice,   na staré lesní cestě asi 150 metrů od místa, kde vyústí na silnici do Babic.',
             kdyVznikl: '2005',
             popis: ' Pomník vysoký dva metry, ze dvou dřevěných bytelných pylonů seříznutých do špic, mezi nimi je kamenná deska, zepředu leštěná.',

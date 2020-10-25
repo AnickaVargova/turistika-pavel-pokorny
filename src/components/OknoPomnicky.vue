@@ -56,6 +56,11 @@
           <td>{{ clanek.popis }}</td>
         </tr>
         <tr>
+          <td>Nápis:</td>
+          <td>{{ clanek.napis }}</td>
+        </tr>
+
+        <tr>
           <td>Fotky:</td>
           <div id="fotogalerie">
             <div
