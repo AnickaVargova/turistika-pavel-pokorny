@@ -79,7 +79,6 @@
     grid-row: 3/5;
     grid-column: 1/7;
     margin: 40px;
-    font-size: 20p;
   }
 
   #kontejnerKrize {
@@ -119,7 +118,7 @@
     flex-direction: column;
   }
 
-   #pozadi1 {
+  #pozadi1 {
     grid-column: 1 / 7;
     grid-row: 1 / 20;
     width: 100vw;

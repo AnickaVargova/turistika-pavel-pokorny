@@ -43,8 +43,7 @@
 </template>
 
 <script>
-  //doplnit fotky do dalsich clanku
-  //vyplet console logy a nefunkcni veci
+  
   export default {
     data() {
       return {

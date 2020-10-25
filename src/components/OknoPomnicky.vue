@@ -208,7 +208,7 @@
   td .pomnicekKategorie {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 5%;
+    padding-left: 10px;
     width: 100%;
     height: 100%;
   }
