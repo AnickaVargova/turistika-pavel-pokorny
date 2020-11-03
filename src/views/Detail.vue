@@ -164,7 +164,7 @@
   #galerieClanek {
     grid-column: 1 / span3;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   @media (max-width: 600px) {

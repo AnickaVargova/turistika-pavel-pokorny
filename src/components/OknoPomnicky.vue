@@ -85,9 +85,10 @@
               v-for="(odkaz, index) in clanek.odkazy"
               v-bind:key="index"
             >
-              <a v-bind:href="odkaz.adresa" target="_blank"
+              <span v-if="odkaz.adresa"><a  v-bind:href="odkaz.adresa" target="_blank"
                 >{{ odkaz.adresa }}
-              </a>
+              </a></span>
+              <span v-else>{{odkaz.nazev}}</span>
             </p>
           </td>
         </tr>
