@@ -41,8 +41,8 @@
           <td>Jméno:</td>
           <td>{{ clanek.jmeno }}</td>
         </tr>
-        <tr>
-          <td>Název:</td>
+        <tr v-if="clanek.nazev">
+          <td >Název:</td>
           <td>{{ clanek.nazev }}</td>
         </tr>
         <tr>

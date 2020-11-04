@@ -93,25 +93,14 @@
         if (this.clankyPodKategorie.length === 0) {
           this.clankyPodKategorie = null;
         }
+        this.seradClanky();
 
         this.oknoUkazat = true;
         this.menuUkazat = false;
       },
 
-      toggleMenu() {
-        this.menuUkazat = !this.menuUkazat;
-        this.oknoUkazat = false;
-      },
-    },
-
-    created() {
-      this.clankyPodKategorie = this.clanky
-        .filter(
-          (clanek) =>
-            clanek.kategorie === this.params.stranka &&
-            clanek.podkategorie == this.$route.params.kategorie
-        )
-        .sort((a, b) => {
+      seradClanky() {
+        this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
           let x = a.jmeno.toLowerCase();
           let y = b.jmeno.toLowerCase();
           if (x < y) {
@@ -122,6 +111,21 @@
           }
           return 0;
         });
+      },
+
+      toggleMenu() {
+        this.menuUkazat = !this.menuUkazat;
+        this.oknoUkazat = false;
+      },
+    },
+
+    created() {
+      this.clankyPodKategorie = this.clanky.filter(
+        (clanek) =>
+          clanek.kategorie === this.params.stranka &&
+          clanek.podkategorie == this.$route.params.kategorie
+      );
+      this.seradClanky();
 
       this.vybraneId = this.$route.params.kategorie;
       if (this.clankyPodKategorie.length === 0) {
