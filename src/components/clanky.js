@@ -7,7 +7,8 @@ export default {
       druh: "Lesnický slavín",
       okres: "Brno-venkov",
       obec: "Babice nad Svitavou",
-      jmeno: "Souček, Bedřich; Památník lesního Součka",
+      jmeno: "Souček, Bedřich",
+      nazev: "Památník lesního Součka",
       napis:
         "BEDŘICH SOUČEK // VYNIKAJÍCÍ LESNÍK // ZANÍCENÝ PĚSTITEL JEDLE // A CIZOKRAJNÝCH DŘEVIN // 1.11.1905 18.4.1995 // 2005",
       popisCesty:
@@ -33,7 +34,8 @@ export default {
       druh: "Lesnický slavín",
       okres: "Brno-venkov",
       obec: "Olomučany",
-      jmeno: "Grabner, Leopold; Památník Leopolda Grabnera",
+      jmeno: "Grabner, Leopold",
+      nazev: "Památník Leopolda Grabnera",
       kdyVznikl: "1929",
       popisCesty:
         "1500 metrů JJV od kaple v Olomučanech. Na V straně plošiny Výškůvka nad svahem. Vede sem odbočka z červeně značené cesty.",
@@ -63,7 +65,8 @@ export default {
       druh: "Lesnický slavín",
       okres: "Blansko",
       obec: "Jedovnice",
-      jmeno: "Doležal, Bohumil; Pomník Bohumila Doležala",
+      jmeno: "Doležal, Bohumil",
+      nazev: "Pomník Bohumila Doležala",
       kdyVznikl: "slavnostní odhalení 14.10.2011 ke 100. výročí narození.",
       popisCesty:
         "2300 metrů SSV od kaple v Bukovině. Na rozlehlé plošině Proklestu ukřižovatky lesních silnic a cest. Kolem vede zeleně značená cesta.",
@@ -94,7 +97,8 @@ export default {
       druh: "Dopravní tragédie",
       okres: "Brno-venkov",
       obec: "Tvarožná",
-      jmeno: "Soffer, Bedřich; Sloup závodníka Bedřicha Soffera",
+      jmeno: "Soffer, Bedřich",
+      nazev: "Sloup závodníka Bedřicha Soffera",
       kdyVznikl:
         "Slavnostní odhalení 5.9.1929 rok po havárii. Rekonstrukce 2014. ",
       popisCesty:
@@ -122,7 +126,8 @@ export default {
       druh: "Dopravní tragédie",
       okres: "Žďár nad Sázavou",
       obec: "Březské",
-      jmeno: "Nešpor, František;  Pomníček zootechnika Nešpora",
+      jmeno: "Nešpor, František",
+      nazev: "Pomníček zootechnika Nešpora",
       kdyVznikl: "po roce 1975",
       popisCesty:
         "1900 metrů SZ od kostela ve Velké Bíteši. U silnice z Bíteše do Vlkova, poblíž rybníka Skříňka.",
@@ -177,7 +182,8 @@ export default {
       druh: "Dopravní tragédie",
       okres: "Brno-venkov",
       obec: "Tvarožná",
-      jmeno: "Křížky Pavlišovy rodiny; Pavlišová, Lenka",
+      jmeno: "Pavlišová, Lenka",
+      nazev: "Křížky Pavlišovy rodiny",
       kdyVznikl: "2016 ",
       popisCesty:
         "700 metrů JV od kostela ve Tvarožné, na křižovatce hlavní a vedlejší silnice. Na druhé straně křižovatky je sloup Bedřicha Soffera.",
@@ -206,7 +212,8 @@ export default {
       druh: "Letecké tragédie",
       okres: "Blansko",
       obec: "Tasovice",
-      jmeno: "Návesník Michal; Pomníček kapitána Návesníka",
+      jmeno: "Návesník, Michal",
+      nazev: "Pomníček kapitána Návesníka",
       kdyVznikl: "po roce 1996 ",
       popisCesty: "1200m SV od Tasovic, na konci cesty přes chatovou osadu.",
       popis:

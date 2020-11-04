@@ -1,6 +1,5 @@
 <template>
   <div id="oknoPomnicky">
-    
     <div
       v-bind:class="{ ramecek: vybraneId !== clanek.id }"
       v-for="clanek in clanky"
@@ -38,9 +37,13 @@
           <td>Obec:</td>
           <td>{{ clanek.obec }}</td>
         </tr>
-        <tr>
+        <tr v-if="clanek.jmeno">
           <td>Jméno:</td>
           <td>{{ clanek.jmeno }}</td>
+        </tr>
+        <tr>
+          <td>Název:</td>
+          <td>{{ clanek.nazev }}</td>
         </tr>
         <tr>
           <td>Kde se nachází?</td>
@@ -76,23 +79,27 @@
                 v-bind:to="
                   `/fotodetail/${clanek.podkategorie}/${obrazek.fotka}`
                 "
-                ><img v-bind:src="require(`./../assets/${obrazek.fotka}`)" alt="Fotodetail"
+                ><img
+                  v-bind:src="require(`./../assets/${obrazek.fotka}`)"
+                  alt="Fotodetail"
               /></router-link>
             </div>
           </div>
         </tr>
         <tr>
           <td>Odkazy:</td>
-          <td >
-            <p 
+          <td>
+            <p
               class="odkaz"
               v-for="(odkaz, index) in clanek.odkazy"
               v-bind:key="index"
             >
-              <span v-if="odkaz.adresa"><a  v-bind:href="odkaz.adresa" target="_blank"
-                >{{ odkaz.adresa }}
-              </a></span>
-              <span v-else>{{odkaz.nazev}}</span>
+              <span v-if="odkaz.adresa"
+                ><a v-bind:href="odkaz.adresa" target="_blank"
+                  >{{ odkaz.adresa }}
+                </a></span
+              >
+              <span v-else>{{ odkaz.nazev }}</span>
             </p>
           </td>
         </tr>
@@ -133,20 +140,17 @@
       schovejMapu() {
         this.vybraneId = undefined;
       },
+
+      
     },
+
    
   };
 </script>
 
 <style>
-  .ramecek {
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin: 10px;
-  }
-
   table {
-  padding: 10px;
+    padding: 10px;
   }
 
   tr {
@@ -156,15 +160,15 @@
   td:nth-child(odd) {
     font-weight: bold;
     vertical-align: top;
+    width: 15%;
   }
 
   .odkaz {
     margin: 0 !important;
-      
   }
 
   .odkaz a {
-     color: rgb(23, 59, 37) !important;
+    color: rgb(23, 59, 37) !important;
     text-decoration: underline;
   }
 
@@ -173,7 +177,6 @@
     color: darkolivegreen !important;
   }
 
-   
   #fotogalerie {
     display: flex;
     justify-content: flex-start;
@@ -192,8 +195,15 @@
     border: 2px solid black;
   }
 
+  .ramecek {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 70vw;
+  }
+
   #mapaPomnicky {
-   
     width: 70vw;
     height: 80vh;
     margin: auto;
@@ -202,13 +212,18 @@
   #mapaPomnicky iframe {
     height: 90%;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 2px solid grey;
     border-radius: 10px;
   }
 
   #mapaPomnicky iframe:hover {
     border: 2px solid black;
+  }
+
+  #mapaPomnicky .pomnicekKategorie {
+    padding-left: 2%;
+    margin-bottom: 20px;
   }
 
   td .pomnicekKategorie {
@@ -219,34 +234,31 @@
     height: 100%;
   }
 
-@media(max-width:600px){
- 
-  #oknoPomnicky .ramecek {
-    border: none;
-    border-bottom: 1px solid grey;
-    border-radius: 0;
-    margin: 0;
-  }
+  @media (max-width: 600px) {
+    #oknoPomnicky .ramecek {
+      border: none;
+      border-bottom: 1px solid grey;
+      border-radius: 0;
+      margin: 0;
+      width: 100vw;
+    }
 
-  #oknoPomnicky .ramecek:last-child {
-    border-bottom:none;
-  }
+    #oknoPomnicky .ramecek:last-child {
+      border-bottom: none;
+    }
 
-   #mapaPomnicky {
-    width: 100vw;
-    height: 90vh;
-  }
+    #mapaPomnicky {
+      width: 100vw;
+      height: 90vh;
+    }
 
-  #mapaPomnicky iframe {
-    border: none;
-    border-radius: 0;
-  }
+    #mapaPomnicky iframe {
+      border: none;
+      border-radius: 0;
+    }
 
-  #mapaPomnicky iframe:hover {
-    border: none;
-   
+    #mapaPomnicky iframe:hover {
+      border: none;
+    }
   }
-  
-}
-  
 </style>

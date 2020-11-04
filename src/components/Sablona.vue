@@ -105,11 +105,23 @@
     },
 
     created() {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) =>
-          clanek.kategorie === this.params.stranka &&
-          clanek.podkategorie == this.$route.params.kategorie
-      );
+      this.clankyPodKategorie = this.clanky
+        .filter(
+          (clanek) =>
+            clanek.kategorie === this.params.stranka &&
+            clanek.podkategorie == this.$route.params.kategorie
+        )
+        .sort((a, b) => {
+          let x = a.jmeno.toLowerCase();
+          let y = b.jmeno.toLowerCase();
+          if (x < y) {
+            return -1;
+          }
+          if (x > y) {
+            return 1;
+          }
+          return 0;
+        });
 
       this.vybraneId = this.$route.params.kategorie;
       if (this.clankyPodKategorie.length === 0) {
