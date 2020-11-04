@@ -52,12 +52,16 @@
         </tr>
 
         <tr>
-          <td>Popis pomníčku:</td>
+          <td>Popis:</td>
           <td>{{ clanek.popis }}</td>
         </tr>
         <tr>
           <td>Nápis:</td>
           <td>{{ clanek.napis }}</td>
+        </tr>
+        <tr>
+          <td>Poznámka:</td>
+          <td>{{ clanek.pozn }}</td>
         </tr>
 
         <tr>
@@ -151,6 +155,7 @@
 
   td:nth-child(odd) {
     font-weight: bold;
+    vertical-align: top;
   }
 
   .odkaz {

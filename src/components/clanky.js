@@ -74,11 +74,11 @@ export default {
       odkazy: [
         {
           nazev: "wikipedie",
-          adresa: 'https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal',
+          adresa: "https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal",
         },
       ],
       pozn:
-        "Bohumil Doležal byl profesorem hospodářské úpravy lesů na Lesnické fakultěVysoké školy zemědělské v Brně. Vychoval a ovlivnil generace lesních inženýrů. V roce1992 ho Mendela poctila čestným doktorátem. ",
+        "Bohumil Doležal byl profesorem hospodářské úpravy lesů na Lesnické fakultě Vysoké školy zemědělské v Brně. Vychoval a ovlivnil generace lesních inženýrů. V roce 1992 ho Mendelova univerzita poctila čestným doktorátem. ",
       naposledObnoveno: "2.11.2020",
       latitude: 49.271570851444096,
       longitude: 16.70127868652344,
@@ -96,11 +96,11 @@ export default {
       obec: "Tvarožná",
       jmeno: "Soffer, Bedřich; Sloup závodníka Bedřicha Soffera",
       kdyVznikl:
-        "slavnostní odhalení 5.9.1929 rok po havárii. Rekonstrukce 2014. ",
+        "Slavnostní odhalení 5.9.1929 rok po havárii. Rekonstrukce 2014. ",
       popisCesty:
         "700 metrů JV od kostela ve Tvarožné, na křižovatce hlavní a vedlejší silnice.",
       popis:
-        "z betonového soklu s nápisem ční trojboký betonový sloup do výšky pěti metrů",
+        "Z betonového soklu s nápisem ční trojboký betonový sloup do výšky pěti metrů",
       napis: "BEDŘICH // SOFFER // + 5.9.1928 //",
       odkazy: [{ nazev: "Encyklopedie Brna. " }],
       pozn:
@@ -122,7 +122,7 @@ export default {
       okres: "Žďár nad Sázavou",
       obec: "Březské",
       jmeno: "Nešpor, František;  Pomníček zootechnika Nešpora",
-      kdyVznikl: "po 1975. ",
+      kdyVznikl: "po roce 1975",
       popisCesty:
         "1900 metrů SZ od kostela ve Velké Bíteši. U silnice z Bíteše do Vlkova, poblíž rybníka Skříňka.",
       popis:
@@ -131,7 +131,7 @@ export default {
         "FRANTIŠEK // NEŠPOR // ZOOTECHNIK Z MILEŠÍNA // TRAGICKY ZEMŘEL 4.3.1975 // VE VĚKU 25 R. //",
       odkazy: null,
       pozn: null,
-      naposledObnoveno: "3.11..2020",
+      naposledObnoveno: "3.11.2020",
       latitude: 49.271570851444096,
       longitude: 16.70127868652344,
       galerie: [
@@ -150,14 +150,14 @@ export default {
       jmeno: "Pád letadla u Mohyly míru",
       kdyVznikl: "29.5.2013 ",
       popisCesty:
-        "1100 metrů SSV od kostela v Újezdu. Na J svahu Staré hory u vrstevnicové cesty mezi vinicemi která odbočuje ze silnice mezi serpentinami.",
+        "1100 metrů SSV od kostela v Újezdu. Na J svahu Staré hory u vrstevnicové cesty mezi vinicemi, která odbočuje ze silnice mezi serpentinami.",
       popis:
         "Ze soklu vystupuje hranatý opracovaný kámen, nad ním kovový svícen, na kamenu připevněna bronzová deska s nápisem.",
       napis:
         "10. ŘÍJNA 1962 // SE V TĚCHTO MÍSTECH // ZŘÍTILO DOPRAVNÍ LETADLO // LINKY BRATISLAVA - BRNO // ZBUDOVÁNO K PAMÁTCE OBĚTEM NEŠTĚSTÍ //",
       odkazy: null,
       pozn:
-        "Dopravní letadlo IL 14M na pravidelné lince z Košic do Prahy mělo mezipřistání v Brně. Před letištěm v Tuřanech se dostalo do husté mlhy, která pokrývala vrchol Staré hory. Havárii zavinil pilot, který nedodržel výšku nad terénem. Letadlo zavadilo křídlem o úbočí kopce a zřítilo se do vinic. Zahynulo 13 osob ze 38 cestujících a 4 členů p osádky. Mnoho zraněných zachránili obyvatelé Újezda, kteří pracovali ve vinicích a byli první na místě nehody, protože trosky se vzňaly a posléze vybuchly. Pomník vytvořil místní umělecký kovář Ivo Lorenz.",
+        "Dopravní letadlo IL 14M na pravidelné lince z Košic do Prahy mělo mezipřistání v Brně. Před letištěm v Tuřanech se dostalo do husté mlhy, která pokrývala vrchol Staré hory. Havárii zavinil pilot, který nedodržel výšku nad terénem. Letadlo zavadilo křídlem o úbočí kopce a zřítilo se do vinic. Zahynulo 13 osob ze 38 cestujících a 4 členů posádky. Mnoho zraněných zachránili obyvatelé Újezda, kteří pracovali ve vinicích a byli první na místě nehody, protože trosky se vzňaly a posléze vybuchly. Pomník vytvořil místní umělecký kovář Ivo Lorenz.",
       naposledObnoveno: "3.11..2020",
       latitude: 49.271570851444096,
       longitude: 16.70127868652344,
@@ -174,7 +174,7 @@ export default {
       druh: "Dopravní tragédie",
       okres: "Brno-venkov",
       obec: "Tvarožná",
-      jmeno: "Křížky Pavlišovy rodiny    Pavlišová, Lenka",
+      jmeno: "Křížky Pavlišovy rodiny; Pavlišová, Lenka",
       kdyVznikl: "2016 ",
       popisCesty:
         "700 metrů JV od kostela ve Tvarožné, na křižovatce hlavní a vedlejší silnice. Na druhé straně křižovatky je sloup Bedřicha Soffera.",
@@ -194,44 +194,44 @@ export default {
       ],
       proMe: "XX/1037 24-431-52 19--123",
     },
+
     {
       id: 8,
       kategorie: "pomnicky",
       podkategorie: 3,
       druh: "Letecké tragédie",
       okres: "Blansko",
-      obec: "GTasovice",
-      jmeno: "Návesník Michal   Pomníček kapitána Návesníka",
-      kdyVznikl: "po 1996 ",
+      obec: "Tasovice",
+      jmeno: "Návesník Michal; Pomníček kapitána Návesníka",
+      kdyVznikl: "po roce 1996 ",
       popisCesty: "1200m SV od Tasovic, na konci cesty přes chatovou osadu.",
       popis:
-        "Do nízkého kamenného soklu je vsazena kamenná deska nepravidelného tvaru Na vyleštěné ploše ze předu je znak letectva s nápisem.",
+        "Do nízkého kamenného soklu je vsazena kamenná deska nepravidelného tvaru. Na vyleštěné ploše zepředu je znak letectva s nápisem.",
       napis:
-        "10. ŘÍJNA 1962 // SE V TĚCHTO MÍSTECH // ZŘÍTILO DOPRAVNÍ LETADLO // LINKY BRATISLAVA - BRNO // ZBUDOVÁNO K PAMÁTCE OBĚTEM NEŠTĚSTÍ //",
-      odkazy: null,
+        "ZDE 1. 11. 1996 //VE  VĚKU 28 LET TRAG. ZAHYNUL // KPT. ING. MICHAL NÁVESNÍK // PILOT // 32 ZÁKLADNY TL NÁMĚŠŤ N. OSL. // ČEST  JEHO  PAMÁTCE",
       pozn:
-        "Dopravní letadlo IL 14M na pravidelné lince z Košic do Prahy mělo mezipřistání v Brně. Před letištěm v Tuřanech se dostalo do husté mlhy, která pokrývala vrchol Staré hory. Havárii zavinil pilot, který nedodržel výšku nad terénem. Letadlo zavadilo křídlem o úbočí kopce a zřítilo se do vinic. Zahynulo 13 osob ze 38 cestujících a 4 členů p osádky. Mnoho zraněných zachránili obyvatelé Újezda, kteří pracovali ve vinicích a byli první na místě nehody, protože trosky se vzňaly a posléze vybuchly. Pomník vytvořil místní umělecký kovář Ivo Lorenz.",
+        "Pilot ze základny taktického letectva v Náměšti prováděl výcvik vyšší pilotáže na stroji Suchoj SU22M4. Při výkrutech se dostal do oblačnosti  a narazil do země ve vysoké rychlosti. Pilot se snažil zachránit stroj do posledního okamžiku, kráter za chatami byl 7 metrů hluboký, byly poškozeny i střechy tří chat.",
       naposledObnoveno: "3.11..2020",
       latitude: 49.271570851444096,
       longitude: 16.70127868652344,
       galerie: [
-        { fotka: "padLetadla1.jpg", popisek: "Pád letadla" },
-        { fotka: "padLetadla2.jpg", popisek: "Pád letadla" },
+        { fotka: "navesnik1.jpg", popisek: "Michal Návesník" },
+        { fotka: "navesnik2.jpg", popisek: "Michal Návesník" },
       ],
-      proMe: "XX/1034 24-431-44 2019---115",
+      proMe: "XX/985 24-141-43 2018--105",
     },
 
     {
       id: 100,
       kategorie: "studanky",
       podkategorie: 1,
-      druh: "druh",
-      okres: "okres",
-      obec: "obec",
-      jmeno: "jmeno",
-      popisCesty: "dsafdsafdsafdafdsaf",
-      kdyVznikl: "safdsaf",
-      popis: "afdsaafdsaaa",
+      druh: "",
+      okres: "",
+      obec: "",
+      jmeno: "",
+      popisCesty: "",
+      kdyVznikl: "",
+      popis: "",
       galerie: [{ fotka: "foto07.jpg", popisek: "popisek7" }],
       odkazy: [
         {
@@ -245,20 +245,20 @@ export default {
       ],
       latitude: 49.2386725171185,
       longitude: 16.679992675781254,
-      naposledObnoveno: "datum",
+      naposledObnoveno: "",
     },
 
     {
       id: 101,
       kategorie: "studanky",
       podkategorie: 2,
-      druh: "druh",
-      okres: "okres",
-      obec: "obec",
-      jmeno: "jmeno",
-      popisCesty: "dsafdsafdsafdsaafdsaf",
-      kdyVznikl: "safdsaf",
-      popis: "afdsaafdsaadsa",
+      druh: "",
+      okres: "",
+      obec: "",
+      jmeno: "",
+      popisCesty: "",
+      kdyVznikl: "",
+      popis: "",
       galerie: [{ fotka: "foto08.jpg", popisek: "popisek8" }],
       odkazy: [
         {
@@ -278,13 +278,13 @@ export default {
       id: 102,
       kategorie: "krize",
       podkategorie: 1,
-      druh: "druh",
-      okres: "okres",
-      obec: "obec",
-      jmeno: "jmeno",
-      popisCesty: "dsafdsafdsafdafdsaf",
-      kdyVznikl: "safdsaf",
-      popis: "afdsaafdsaadsa",
+      druh: "",
+      okres: "",
+      obec: "",
+      jmeno: "",
+      popisCesty: "",
+      kdyVznikl: "",
+      popis: "",
       galerie: [{ fotka: "foto09.jpg", popisek: "popisek9" }],
       odkazy: [
         {
@@ -298,16 +298,16 @@ export default {
       ],
       latitude: 49.2386725171185,
       longitude: 16.679992675781254,
-      naposledObnoveno: "datum",
+      naposledObnoveno: "",
     },
     {
       id: 103,
       datum: "20.07.2019",
       kategorie: "cesty",
       podkategorie: 2,
-      nadpis: "Brno1",
+      nadpis: "Cesta 1",
       text: [
-        "Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
+        "Tady bude text. Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
         " Sed vestibulum, massa ut ullamcorper malesuada, massa tellus mattis elit, vel hendrerit leo nisl in ipsum. Curabitur tincidunt ut nulla vitae dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id felis in justo pretium tempor ut quis elit. Nam consectetur lacus eget efficitur consequat. Morbi libero neque, bibendum sit amet sem et, placerat pellentesque massa. Nunc risus mauris, venenatis id viverra eu, tempus consectetur massa. Suspendisse lorem sem, gravida eget sagittis tincidunt, egestas eget nibh. Sed maximus est eu leo blandit, ut iaculis ipsum volutpat.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
       ],
@@ -324,9 +324,9 @@ export default {
       datum: "20.07.2020",
       kategorie: "vypraveni",
       podkategorie: 1,
-      nadpis: "Brno2",
+      nadpis: "Vyprávění 1",
       text: [
-        "Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
+        "Tady bude text. Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
         " Sed vestibulum, massa ut ullamcorper malesuada, massa tellus mattis elit, vel hendrerit leo nisl in ipsum. Curabitur tincidunt ut nulla vitae dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id felis in justo pretium tempor ut quis elit. Nam consectetur lacus eget efficitur consequat. Morbi libero neque, bibendum sit amet sem et, placerat pellentesque massa. Nunc risus mauris, venenatis id viverra eu, tempus consectetur massa. Suspendisse lorem sem, gravida eget sagittis tincidunt, egestas eget nibh. Sed maximus est eu leo blandit, ut iaculis ipsum volutpat.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
       ],

@@ -6,12 +6,9 @@
 
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
-      <h1>Tady bude krátký text o tomto webu.</h1>
+      <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-        vitae consequuntur nisi culpa dolorum voluptate perspiciatis voluptas,
-        modi qui molestias dignissimos deserunt temporibus perferendis autem,
-        mollitia ipsum. Voluptatibus, placeat officiis.
+       Až je dokončíme, najdete zde nejrůznější zajímavá místa v okolí Brna i jinde. Tak nám držte palce, ať se to brzy povede. 
       </p>
     </div>
 
