@@ -8,7 +8,7 @@
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
       <p>
-       Až je dokončíme, najdete zde nejrůznější zajímavá místa v okolí Brna i jinde. Tak nám držte palce, ať se to brzy povede. 
+       Až je dokončíme, najdete zde nejrůznější zajímavá místa v okolí Brna i jinde. Jediné, co zatím funguje, jak má, je odkaz na Moje rajče.
       </p>
     </div>
 
