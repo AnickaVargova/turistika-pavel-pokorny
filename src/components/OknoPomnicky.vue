@@ -39,7 +39,7 @@
         </tr>
         <tr v-if="clanek.jmeno">
           <td>Jméno:</td>
-          <td>{{ clanek.jmeno }}</td>
+          <td><strong>{{ clanek.jmeno }}</strong></td>
         </tr>
         <tr v-if="clanek.nazev">
           <td >Název:</td>
