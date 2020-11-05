@@ -71,12 +71,12 @@ export default {
       popisCesty:
         "2300 metrů SSV od kaple v Bukovině. Na rozlehlé plošině Proklestu ukřižovatky lesních silnic a cest. Kolem vede zeleně značená cesta.",
       popis:
-        "Výpravný pomník vysoký 2 metry dala postavit Vysoká škola zemědělská. Ztrojuhelníkového betonového soklu vztyčeny tři leštěné žulové desky, završené trojbokýmjehlanem. Nápisy na všech třech deskách.",
+        "Výpravný pomník vysoký 2 metry dala postavit Vysoká škola zemědělská. Z trojuhelníkového betonového soklu vztyčeny tři leštěné žulové desky, završené trojbokýmjehlanem. Nápisy na všech třech deskách.",
       napis:
         "PROF. DR. TECHN. ING. // BOHUMIL DOLEŽAL // DRSC., DR.H.C. // 2.3.1911 3.8.2000// Další texty na zbylých dvou deskách.",
       odkazy: [
         {
-          nazev: "wikipedie",
+          nazev: "Wikipedie",
           adresa: "https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal",
         },
       ],

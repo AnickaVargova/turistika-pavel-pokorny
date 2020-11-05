@@ -96,7 +96,7 @@
             >
               <span v-if="odkaz.adresa"
                 ><a v-bind:href="odkaz.adresa" target="_blank"
-                  >{{ odkaz.adresa }}
+                  >{{ odkaz.nazev }}
                 </a></span
               >
               <span v-else>{{ odkaz.nazev }}</span>

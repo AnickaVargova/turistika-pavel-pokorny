@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="oknoPomnicky">
     <div v-for="(clanek, index) in clanky" v-bind:key="index">
       <router-link v-bind:to="`/detail/${clanek.podkategorie}/${clanek.id}`">
         <div class="clanek">
