@@ -47,7 +47,7 @@
     </a>
 
     <div class="kontejner" v-if="oknoUkazat">
-      <div id="oknoPomnicky" v-if="clankyPodKategorie">
+      <div v-if="clankyPodKategorie">
         <OknoPomnicky
           v-if="params.stranka === 'pomnicky' || params.stranka === 'studanky'"
           v-bind:clanky="clankyPodKategorie"
