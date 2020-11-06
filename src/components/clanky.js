@@ -23,6 +23,7 @@ export default {
       odkazy: null,
       latitude: 49.2722947,
       longitude: 16.6990928,
+      odkazMapa: "https://frame.mapy.cz/s/gocapatutu",
       naposledObnoveno: "25.9.2020",
       proMne: " XX/996    24-413-96   2019–023",
     },
@@ -52,6 +53,7 @@ export default {
       naposledObnoveno: "2.11.2020",
       latitude: 49.3170267,
       longitude: 16.678225,
+      odkazMapa: "https://frame.mapy.cz/s/dafukomeko",
       galerie: [
         { fotka: "grabner1.jpg", popisek: "Leopold Grabner" },
         { fotka: "grabner2.jpg", popisek: "Leopold Grabner" },
@@ -85,6 +87,7 @@ export default {
       naposledObnoveno: "2.11.2020",
       latitude: 49.3156981,
       longitude: 16.7864683,
+      odkazMapa: "https://frame.mapy.cz/s/duhosocana",
       galerie: [
         { fotka: "dolezal1.jpg", popisek: "Bohumil Doležal" },
         { fotka: "dolezal2.jpg", popisek: "Bohumil Doležal" },
@@ -110,9 +113,9 @@ export default {
       pozn:
         "Bedřich Soffer (1898 – 1928) byl známý brněnský sportovec a automobilový závodník, majitel autoškoly a tovární jezdec Zbrojovky. Neštěstí se stalo při zkušební jízdě s novým speciálním šestiválcem Z 6V s maximální rychlostí 180 km za hod. Auto jelo směrem od Vyškova, ve vysoké rychlosti dostalo smyk, vyletělo ze silnice a několikrát se převrátilo. Řidič si volantem poranil hrudník, vyletěl z vozu a dopadl hlavou na kámen 11 metrů daleko. Zemřel při převozu do nemocnice. Spolujezdec, 24 letý mechanik, přežil s těžkým zraněním. Pomník zbudoval brněnský Automotoklub a je asi nejstarším pomníkem autohavárii v brněnském okolí. Dodnes se u něj pořádají vzpomínkové akce s veterány. ",
       naposledObnoveno: "3.11..2020",
+      odkazMapa: "https://frame.mapy.cz/s/jebesufefa",
       latitude: 49.1852547,
       longitude: 16.7816189,
-
       galerie: [
         { fotka: "soffer1.jpg", popisek: "Bedřich Soffer" },
         { fotka: "soffer2.jpg", popisek: "Bedřich Soffer" },
@@ -141,6 +144,7 @@ export default {
       latitude: 49.3054267,
       longitude: 16.2120983,
 
+      odkazMapa: "https://frame.mapy.cz/s/lujuhujapa",
       galerie: [
         { fotka: "nespor1.jpg", popisek: "František Nešpor" },
         { fotka: "nespor2.jpg", popisek: "František Nešpor" },
@@ -166,9 +170,9 @@ export default {
       pozn:
         "Dopravní letadlo IL 14M na pravidelné lince z Košic do Prahy mělo mezipřistání v Brně. Před letištěm v Tuřanech se dostalo do husté mlhy, která pokrývala vrchol Staré hory. Havárii zavinil pilot, který nedodržel výšku nad terénem. Letadlo zavadilo křídlem o úbočí kopce a zřítilo se do vinic. Zahynulo 13 osob ze 38 cestujících a 4 členů posádky. Mnoho zraněných zachránili obyvatelé Újezda, kteří pracovali ve vinicích a byli první na místě nehody, protože trosky se vzňaly a posléze vybuchly. Pomník vytvořil místní umělecký kovář Ivo Lorenz.",
       naposledObnoveno: "3.11..2020",
+      odkazMapa: "https://frame.mapy.cz/s/jetajefala",
       latitude: 49.1132592,
       longitude: 16.7640458,
-
       galerie: [
         { fotka: "padLetadla1.jpg", popisek: "Pád letadla" },
         { fotka: "padLetadla2.jpg", popisek: "Pád letadla" },
@@ -219,9 +223,9 @@ export default {
       pozn:
         "Mladý 24 letý řidič dodávky nedal přednost autu na hlavní silnici. V něm se vracela z výletu čtyřčlenná rodina Pavlišových. Prudký náraz vymrštil oba vozy daleko do pole. Matka s tříletou dcerou zemřely na místě, šestiletý syn zemřel po převozu do nemocnice. Otec těžce raněn s doživotními následky. Za nepozornost dostal řidič čtyřletý trest a povinnost uhradit 13 milionů Kč jako újmu rodině.",
       naposledObnoveno: "3.11..2020",
+      odkazMapa: "https://frame.mapy.cz/s/relenemeso",
       latitude: 49.1850794,
       longitude: 16.78075,
-
       galerie: [
         { fotka: "pavlisovi1.jpg", popisek: "Křížky Pavlišovy rodiny" },
         { fotka: "pavlisovi2.jpg", popisek: "Křížky Pavlišovy rodiny" },
@@ -250,6 +254,7 @@ export default {
       naposledObnoveno: "3.11..2020",
       latitude: 49.5036592,
       longitude: 16.4534561,
+      odkazMapa: "https://frame.mapy.cz/s/comofotace",
 
       galerie: [
         { fotka: "navesnik1.jpg", popisek: "Michal Návesník" },

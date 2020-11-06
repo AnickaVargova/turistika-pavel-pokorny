@@ -1,15 +1,14 @@
 <template>
   <div id="oknoPomnicky">
-    
     <div
       v-bind:class="{ ramecek: vybraneId !== clanek.id }"
       v-for="clanek in clanky"
       v-bind:key="clanek.id"
     >
-    <h2>{{clanek.nazev?clanek.nazev:clanek.jmeno}}</h2>
+      <h2>{{ clanek.nazev ? clanek.nazev : clanek.jmeno }}</h2>
       <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
         <div style="width: 100%; height:100%">
-          <iframe
+          <!-- <iframe
             scrolling="no"
             marginheight="0"
             marginwidth="0"
@@ -19,9 +18,19 @@
             width="100%"
             height="600"
             frameborder="0"
-          ></iframe>
-        
-          <!-- <iframe style="border:none" src="https://frame.mapy.cz/s/lohaguleba" width="400" height="280" frameborder="0"></iframe> -->
+          ></iframe> -->
+
+          <!-- <iframe
+            style="border:none"
+            v-bind:src="`https://frame.mapy.cz/s/${clanek.klicoveSlovo}`"
+            width="400"
+            height="280"
+            frameborder="0"
+          ></iframe> -->
+
+           <iframe style="border:none" v-bind:src="clanek.odkazMapa" width="400" height="280" frameborder="0"></iframe>
+
+
           <button class="pomnicekKategorie" v-on:click="schovejMapu">
             Schovat mapu
           </button>
@@ -29,7 +38,7 @@
       </div>
 
       <table v-else>
-          <tr>
+        <tr>
           <td>Druh:</td>
           <td>{{ clanek.druh }}</td>
         </tr>
@@ -43,10 +52,12 @@
         </tr>
         <tr v-if="clanek.jmeno">
           <td>Jméno:</td>
-          <td><strong>{{ clanek.jmeno }}</strong></td>
+          <td>
+            <strong>{{ clanek.jmeno }}</strong>
+          </td>
         </tr>
         <tr v-else>
-          <td >Název:</td>
+          <td>Název:</td>
           <td>{{ clanek.nazev }}</td>
         </tr>
         <tr>
@@ -144,19 +155,14 @@
       schovejMapu() {
         this.vybraneId = undefined;
       },
-
-      
     },
-
-   
   };
 </script>
 
 <style>
   #pomnicky h2 {
     text-align: center;
-    color:    #448050;
-;
+    color: #448050;
   }
 
   table {
