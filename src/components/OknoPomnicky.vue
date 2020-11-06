@@ -18,6 +18,8 @@
             height="600"
             frameborder="0"
           ></iframe>
+        
+          <!-- <iframe style="border:none" src="https://frame.mapy.cz/s/lohaguleba" width="400" height="280" frameborder="0"></iframe> -->
           <button class="pomnicekKategorie" v-on:click="schovejMapu">
             Schovat mapu
           </button>

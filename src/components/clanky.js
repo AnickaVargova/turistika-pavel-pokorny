@@ -191,7 +191,31 @@ export default {
         "Dva křížky vedle sebe z kovového materiálu, vyšší je 1,2 metru vysoký, s plechovou tabulkou amatérské výroby.",
       napis:
         "LENKA PAVLIŠOVÁ ROZ. VRŇÁKOVÁ // 30.1.1987 // DOMINIK PAVLIŠ // 18.1.2010 // BARUNKA PAVLIŠOVÁ // 5.4.2013 // + 5.7.2016 //",
-      odkazy: [{ nazev: "Blesk net" }],
+      odkazy: [
+        {
+          nazev: "Blesk net",
+          adresa:
+            "https://www.blesk.cz/clanek/regiony-brno-brno-krimi/497687/ctyri-roky-a-13-milionu-pro-pozustale-nedal-prednost-a-zabil-mamu-29-a-jeji-dve-deti-3-a-6.html",
+        },
+        {
+          nazev: "idnes.cz",
+          adresa:
+            "https://www.idnes.cz/zpravy/cerna-kronika/tragicka-nehoda-brnensko-smrt-deti.A160706_090909_krimi_mav",
+        },
+      ],
+      odkazy: [
+        {
+          nazev: "blesk.cz",
+          adresa:
+            "https://www.blesk.cz/clanek/regiony-brno-brno-krimi/497687/ctyri-roky-a-13-milionu-pro-pozustale-nedal-prednost-a-zabil-mamu-29-a-jeji-dve-deti-3-a-6.html",
+        },
+        {
+          nazev: "idnes.cz",
+          adresa:
+            "https://www.idnes.cz/zpravy/cerna-kronika/tragicka-nehoda-brnensko-smrt-deti.A160706_090909_krimi_mav",
+        },
+      ],
+
       pozn:
         "Mladý 24 letý řidič dodávky nedal přednost autu na hlavní silnici. V něm se vracela z výletu čtyřčlenná rodina Pavlišových. Prudký náraz vymrštil oba vozy daleko do pole. Matka s tříletou dcerou zemřely na místě, šestiletý syn zemřel po převozu do nemocnice. Otec těžce raněn s doživotními následky. Za nepozornost dostal řidič čtyřletý trest a povinnost uhradit 13 milionů Kč jako újmu rodině.",
       naposledObnoveno: "3.11..2020",
