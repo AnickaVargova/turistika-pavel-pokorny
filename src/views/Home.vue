@@ -8,14 +8,15 @@
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
       <p>
-       Až je dokončíme, najdete zde nejrůznější zajímavá místa v okolí Brna i jinde. Jediné, co zatím funguje, jak má, je odkaz na Moje rajče.
+        Až je dokončíme, najdete zde nejrůznější zajímavá místa v okolí Brna i
+        jinde. Jediné, co zatím funguje, jak má, je odkaz na Moje rajče.
       </p>
     </div>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
       <router-link to="/pomnicky">Pomníčky </router-link>
 
-      <router-link to="/studanky">Studánky </router-link>
+      <!-- <router-link to="/studanky">Studánky </router-link> -->
 
       <router-link to="/smircikrize">Smírčí kříže </router-link>
 
@@ -27,7 +28,7 @@
 
       <router-link to="/odkazy">Sympatické weby</router-link>
 
-      <a href="mailto:someone@example.com?Subject=Pozdrav"> Kontakt</a>
+      <a href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"> Kontakt</a>
 
       <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
         Moje rajče</a
@@ -36,15 +37,23 @@
     <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
       <i class="fa fa-bars"></i>
     </a>
+    <div id="pocitadlo">
+      <a href="https://www.toplist.cz/stat/1802686/">
+        <img
+          src="https://www.toplist.cz/count.asp?id=1802686&amp;logo=mc&amp;http=https%3A//www.google.com/&amp;wi=1440&amp;he=900&amp;cd=24&amp;t=Turistika Pavel Pokorný"
+          style="border: 1; width: 88px; height: 60px"
+          alt="Toplist"
+        />
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
-  
   export default {
     data() {
       return {
-      responsive: false,
+        responsive: false,
       };
     },
 
@@ -68,9 +77,26 @@
     margin-top: 20px;
   }
 
+  #pocitadlo {
+   
+    grid-row: 1/2;
+    grid-column: 5/6;
+    margin: auto;
+    margin-top: 20px;
+    
+  }
+
+ 
+
   @media (max-width: 600px) {
     .icon {
       display: block;
+    }
+    #pocitadlo {
+      grid-column: 1/2;
+      grid-row: 8/9;
+      margin-left: 40px;
+      
     }
   }
   .home {
@@ -205,4 +231,3 @@
     background-color: #30524f;
   }
 </style>
-

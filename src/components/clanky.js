@@ -127,7 +127,7 @@ export default {
       okres: "Žďár nad Sázavou",
       obec: "Březské",
       jmeno: "Nešpor, František",
-      nazev: "Pomníček Františka Nešpora",
+      nazev: "Pomníček zootechnika Nešpora",
       kdyVznikl: "po roce 1975",
       popisCesty:
         "1900 metrů SZ od kostela ve Velké Bíteši. U silnice z Bíteše do Vlkova, poblíž rybníka Skříňka.",

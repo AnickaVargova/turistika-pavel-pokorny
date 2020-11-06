@@ -1,10 +1,12 @@
 <template>
   <div id="oknoPomnicky">
+    
     <div
       v-bind:class="{ ramecek: vybraneId !== clanek.id }"
       v-for="clanek in clanky"
       v-bind:key="clanek.id"
     >
+    <h2>{{clanek.nazev?clanek.nazev:clanek.jmeno}}</h2>
       <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
         <div style="width: 100%; height:100%">
           <iframe
@@ -27,7 +29,7 @@
       </div>
 
       <table v-else>
-        <tr>
+          <tr>
           <td>Druh:</td>
           <td>{{ clanek.druh }}</td>
         </tr>
@@ -43,7 +45,7 @@
           <td>Jméno:</td>
           <td><strong>{{ clanek.jmeno }}</strong></td>
         </tr>
-        <tr v-if="clanek.nazev">
+        <tr v-else>
           <td >Název:</td>
           <td>{{ clanek.nazev }}</td>
         </tr>
@@ -151,6 +153,12 @@
 </script>
 
 <style>
+  #pomnicky h2 {
+    text-align: center;
+    color:    #448050;
+;
+  }
+
   table {
     padding: 10px;
   }
