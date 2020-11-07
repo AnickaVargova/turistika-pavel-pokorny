@@ -27,8 +27,8 @@
             { id: 8, nazev: 2013 },
           ],
           stranka: "cesty",
-          background: "cesty.jpg",
-          backgroundDescription: "Foto krajiny",
+          background: "horyMlha.jpg",
+          backgroundDescription: "Pozadí",
         },
       };
     },

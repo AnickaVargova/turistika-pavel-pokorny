@@ -1,7 +1,7 @@
 <template>
   <div id="krize">
     <div id="pozadi1">
-      <img src="./../assets/kriz.jpg" alt="Fotografie kříže" />
+      <img src="./../assets/pozadiKapky.jpg" alt="Pozadí" />
     </div>
 
     <div id="transbox1"></div>
@@ -50,7 +50,10 @@
   #krize {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(40, 60px);
+  }
+
+  #krize #domu {
+    margin-bottom: 0;
   }
 
   #kontejnerDomu {
@@ -65,6 +68,7 @@
     justify-self: center;
     align-self: center;
     font-size: 40px;
+    margin: 0;
   }
 
   @media (max-width: 600px) {
@@ -84,6 +88,8 @@
   #kontejnerKrize {
     grid-column: 1/7;
     grid-row: 5;
+    padding: 30px;
+    padding-top: 0;
   }
 
   @media (max-width: 600px) {
@@ -98,7 +104,6 @@
       grid-row: 6;
       width: 100vw;
       font-size: 15px;
-      margin: 0;
       padding: 0;
     }
 
@@ -118,18 +123,17 @@
     flex-direction: column;
   }
 
-  #pozadi1 {
+  #krize #pozadi1 {
     grid-column: 1 / 7;
     grid-row: 1 / 20;
     width: 100vw;
-    height: 300vh;
+    height: auto;
   }
 
   #krize #transbox1 {
     grid-column: 1 / 7;
     grid-row: 1 / 20;
     width: 100vw;
-    height: 300vh;
     background-color: rgba(196, 226, 208, 0.8);
     margin-right: 0;
   }

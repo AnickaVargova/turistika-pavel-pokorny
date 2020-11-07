@@ -27,8 +27,8 @@
           { id: 8, nazev: 2013 },
         ],
         stranka: "vypraveni",
-        background: "history.jpg",
-        backgroundDescription: "Historická fotografie",
+        background: "zaveje.jpg",
+        backgroundDescription: "Pozadí",
         }
       };
     },

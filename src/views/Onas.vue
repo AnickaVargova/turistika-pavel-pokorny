@@ -1,7 +1,7 @@
 <template>
   <div id="onas">
     <div id="pozadi1">
-      <img src="./../assets/drevo.jpg" alt="hory" />
+      <img src="./../assets/bileTahy.jpg" alt="Pozadí" />
     </div>
 
     <div id="transbox1"></div>
@@ -19,7 +19,7 @@
       distinctio! Mollitia vitae ullam, vel alias excepturi minima veniam?
     </p>
 
-    <a id="kontakt" href="mailto:someone@example.com?Subject=Pozdrav"
+    <a id="kontakt" href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"
       >Kontakt</a
     >
   </div>
@@ -37,7 +37,7 @@
   }
 
   #onas #transbox1 {
-    background-color: rgba(220, 241, 229, 0.8);
+    background-color: rgba(220, 241, 229, 0.6);
   }
 
   .kontejnerDomuOnas {

@@ -34,8 +34,8 @@
           { id: 15, nazev: "Zaniklé" },
         ],
         stranka: "pomnicky",
-        background: "pomnicek.jpg",
-        backgroundDescription: "Foto pomníčku",
+        background: "pozadiPomnicky.jpg",
+        backgroundDescription:"Pozadí",
       
         }
       };

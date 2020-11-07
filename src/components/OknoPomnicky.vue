@@ -162,7 +162,7 @@
 <style>
   #pomnicky h2 {
     text-align: center;
-    color: #448050;
+    color: #3b6e5d;
   }
 
   table {

@@ -109,7 +109,8 @@ export default {
       popis:
         "Z betonového soklu s nápisem ční trojboký betonový sloup do výšky pěti metrů",
       napis: "BEDŘICH // SOFFER // + 5.9.1928 //",
-      odkazy: [{ nazev: "Encyklopedie Brna" }],
+      odkazy: [{nazev: 'Encyklopedie Brna ', adresa: 'https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=7402'}],
+
       pozn:
         "Bedřich Soffer (1898 – 1928) byl známý brněnský sportovec a automobilový závodník, majitel autoškoly a tovární jezdec Zbrojovky. Neštěstí se stalo při zkušební jízdě s novým speciálním šestiválcem Z 6V s maximální rychlostí 180 km za hod. Auto jelo směrem od Vyškova, ve vysoké rychlosti dostalo smyk, vyletělo ze silnice a několikrát se převrátilo. Řidič si volantem poranil hrudník, vyletěl z vozu a dopadl hlavou na kámen 11 metrů daleko. Zemřel při převozu do nemocnice. Spolujezdec, 24 letý mechanik, přežil s těžkým zraněním. Pomník zbudoval brněnský Automotoklub a je asi nejstarším pomníkem autohavárii v brněnském okolí. Dodnes se u něj pořádají vzpomínkové akce s veterány. ",
       naposledObnoveno: "3.11..2020",

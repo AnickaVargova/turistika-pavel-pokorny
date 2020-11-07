@@ -1,7 +1,7 @@
 <template>
   <div id="odkazy">
     <div id="pozadi1">
-      <img src="./../assets/drevo.jpg" alt="hory" />
+      <img src="./../assets/presypy.jpg" alt="Pozadí" />
     </div>
 
     <div id="transbox1"></div>
@@ -11,11 +11,14 @@
     </router-link>
 
     <h1>Sympatické weby</h1>
+
+    
     <div id="oknoOdkazy">
-      <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
+      <p>Tady budou různé odkazy.</p>
+      <!-- <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
         <a v-bind:href="odkaz.adresa" target="_blank">{{ odkaz.jmeno }}</a>
         <span>{{ odkaz.popis }}</span>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -39,7 +42,7 @@
   }
 
   #odkazy #transbox1 {
-    background-color: rgba(220, 241, 229, 0.8);
+    background-color: rgba(183, 202, 202, 0.6);
   }
 
   #odkazy h1 {

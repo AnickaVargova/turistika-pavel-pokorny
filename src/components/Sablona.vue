@@ -6,9 +6,7 @@
         v-bind:alt="`${params.backgroundDescription}`"
       />
     </div>
-
     <div id="transbox1"></div>
-
     <h1>{{ params.nadpis }}</h1>
 
     <p id="pomnickyText" v-bind:class="{ responsive: menuUkazat }">
@@ -52,6 +50,7 @@
           v-if="params.stranka === 'pomnicky' || params.stranka === 'studanky'"
           v-bind:clanky="clankyPodKategorie"
         />
+
         <OknoClanky
           v-if="params.stranka === 'cesty' || params.stranka === 'vypraveni'"
           v-bind:clanky="clankyPodKategorie"
@@ -142,11 +141,11 @@
   #pomnicky {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(40, 60px);
+    min-height: 100vw;
   }
 
   #pomnicky h1 {
-    grid-row: 1/3;
+    grid-row: 1/2;
     grid-column: 1/7;
     justify-self: center;
     align-self: center;
@@ -156,13 +155,18 @@
   #pomnickyText {
     grid-row: 2/3;
     grid-column: 2/7;
-    margin: 40px;
+    margin: 20px;
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 600px) {
+    #pomnicky {
+      height: 100wh;
+      grid-template-rows: repeat(16, 60px);
+    }
     #pomnicky h1 {
       grid-row: 2/3;
-      grid-column: 1/7;
+      grid-column: 2/7;
       padding-top: 30px;
       font-size: 30px;
       margin: 0;
@@ -171,7 +175,7 @@
     }
 
     #pomnickyText {
-      grid-row: 3/6;
+      grid-row: 3/16;
       grid-column: 1/7;
       font-size: 15px;
       margin-bottom: 0;
@@ -252,22 +256,23 @@
 
   #pozadi1 {
     grid-column: 1 / 7;
-    grid-row: 1 / 20;
+    grid-row-start: 1;
+    grid-row-end: 40;
     width: 100vw;
-    height: 300vh;
+  
   }
   #transbox1 {
     grid-column: 1 / 7;
-    grid-row: 1 / 20;
+    grid-row: 1 / 40;
     width: 100vw;
-    height: 300vh;
-    background-color: rgba(220, 241, 229, 0.7);
+    background-color: rgba(220, 241, 240, 0.5);
     margin-right: 0;
   }
 
   #pomnicky .kontejner {
     grid-column: 2/7;
     grid-row: 4/20;
+    margin-bottom: 20px;
   }
 
   #oknoPomnicky {

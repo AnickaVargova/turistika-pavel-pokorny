@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div id="pozadi">
-      <img src="./../assets/foto01.jpg" alt="hory" />
+      <img src="./../assets/uvodniStrana.jpg" alt="hory" />
     </div>
 
     <div id="transbox"></div>
@@ -94,7 +94,7 @@
     }
     #pocitadlo {
       grid-column: 1/2;
-      grid-row: 8/9;
+      grid-row: 9/10;
       margin-left: 40px;
       
     }
@@ -104,9 +104,11 @@
     -moz-osx-font-smoothing: grayscale;
     display: grid;
     grid-template-columns: repeat(6, 20%);
-    grid-template-rows: repeat(40, 60px);
+    grid-template-rows: repeat(14, 60px);
     margin: 0;
     padding: 0;
+    height: 100vh;
+    overflow: hidden;
   }
 
   #uvodniText {
@@ -136,7 +138,7 @@
     grid-row: 1/15;
     grid-column: 1/7;
     width: 100vw;
-    height: 300vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(40, 60px);
@@ -145,7 +147,7 @@
   #pozadi img {
     grid-column: 1 / 7;
     grid-row: 1 / 14;
-    height: 300vh;
+    height: 100vh;
     width: 100vw;
     object-fit: cover;
   }
@@ -154,7 +156,7 @@
     grid-column: 1 / 7;
     grid-row: 1 / 14;
     width: 100vw;
-    height: 300vh;
+    height: 100vh;
     background-color: rgba(160, 193, 221, 0.5);
     margin-right: 0;
   }
