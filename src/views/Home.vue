@@ -12,6 +12,13 @@
         jinde. Jediné, co zatím funguje, jak má, je odkaz na Moje rajče.
       </p>
     </div>
+    <footer>
+      <small
+        >&copy; <span>Copyright 2020&nbsp</span><a href="mailto:anna.vargova@seznam.cz?Subject=''"
+          > Anna Vargová</a
+        ></small
+      >
+    </footer>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
       <router-link to="/pomnicky">Pomníčky </router-link>
@@ -78,15 +85,11 @@
   }
 
   #pocitadlo {
-   
     grid-row: 1/2;
     grid-column: 5/6;
     margin: auto;
     margin-top: 20px;
-    
   }
-
- 
 
   @media (max-width: 600px) {
     .icon {
@@ -96,7 +99,6 @@
       grid-column: 1/2;
       grid-row: 9/10;
       margin-left: 40px;
-      
     }
   }
   .home {
@@ -220,16 +222,24 @@
     width: 100%;
   }
 
-  #pomnickyFiltry {
-    grid-column: 5 / span 1;
-    grid-row: 2/4;
-    background-color: #9aacab;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 3px;
-  }
-
   #pomnickyFiltry li:hover {
     background-color: #30524f;
+  }
+
+  footer {
+    grid-row: 13/14;
+    grid-column: 1/3;
+    margin-left: 20px;
+    padding-top: 40px;
+    color: black;
+  }
+
+  footer a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  footer a:hover {
+    color: rgb(34, 32, 32);
   }
 </style>
