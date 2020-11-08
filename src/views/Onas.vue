@@ -58,8 +58,13 @@
     margin: 20px;
     width: 80px;
     height: 20px;
-
     background-color: mediumturquoise;
+  }
+
+  
+  #domuOnas:hover {
+    color: #13131d;
+    background-color: #9aacab;
   }
 
   #onas #foto {
