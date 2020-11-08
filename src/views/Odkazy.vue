@@ -53,7 +53,7 @@
 
   #oknoOdkazy {
     grid-column: 1/7;
-    grid-row:3/8;
+    grid-row:3/10;
     margin: 20px;
     background-color: rgb(240, 233, 223);
     border: 2px solid grey;
