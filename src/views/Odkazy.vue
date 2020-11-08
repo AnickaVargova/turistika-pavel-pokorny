@@ -12,13 +12,11 @@
 
     <h1>Sympatické weby</h1>
 
-    
     <div id="oknoOdkazy">
-      <p>Tady budou různé odkazy.</p>
-      <!-- <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
+      <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
         <a v-bind:href="odkaz.adresa" target="_blank">{{ odkaz.jmeno }}</a>
         <span>{{ odkaz.popis }}</span>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -55,13 +53,18 @@
 
   #oknoOdkazy {
     grid-column: 1/7;
-    grid-row: 3/10;
-    margin: 30px;
-    line-height: 1.5;
+    grid-row:3/8;
+    margin: 20px;
+    background-color: rgb(240, 233, 223);
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 20px;
   }
 
   #oknoOdkazy .odkazy {
-    font-size: 30px;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 20px;
   }
 
   .odkazy a {
@@ -78,12 +81,23 @@
   }
 
   #odkazy span {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   @media (max-width: 600px) {
+    #oknoOdkazy {
+    grid-column: 1/7;
+    grid-row:3/11;
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(240, 233, 223);
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    }
+
     #oknoOdkazy .odkazy {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     #odkazy span {
