@@ -106,17 +106,10 @@
         }
 
         this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
+          return a.jmeno.localeCompare(b.jmeno, 'cs', {sensitivity: 'accent'});
           
-          let x = a.jmeno.toLowerCase();
-          let y = b.jmeno.toLowerCase();
-          if (x < y) {
-            return -1;
-          }
-          if (x > y) {
-            return 1;
-          }
-          return 0;
         });
+        
       },
 
       toggleMenu() {

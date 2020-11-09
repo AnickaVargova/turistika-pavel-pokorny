@@ -58,7 +58,8 @@
         </tr>
         <tr v-else>
           <td>Název:</td>
-          <td>{{ clanek.nazev }}</td>
+          <td v-if="clanek.jmeno!==clanek.nazev">{{ clanek.nazev }}</td>
+          <td v-else><strong>{{ clanek.nazev }}</strong></td>
         </tr>
         <tr>
           <td>Kde se nachází?</td>

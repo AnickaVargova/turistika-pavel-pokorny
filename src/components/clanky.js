@@ -21,8 +21,8 @@ export default {
         { fotka: "soucek2.jpg", popisek: null },
       ],
       odkazy: null,
-      latitude: '49.2723700N, 16.6993850E',    
-      odkazMapa:  "https://frame.mapy.cz/s/kohuludoze",
+      latitude: "49.2723700N, 16.6993850E",
+      odkazMapa: "https://frame.mapy.cz/s/kohuludoze",
       naposledObnoveno: "9.11.2020",
       proMne: " XX/996    24-413-96   2019–023",
     },
@@ -78,7 +78,8 @@ export default {
       odkazy: [
         {
           nazev: "Wikipedie",
-          adresa: "https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal_(lesn%C3%ADk)",
+          adresa:
+            "https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal_(lesn%C3%ADk)",
         },
       ],
       pozn:
@@ -108,7 +109,13 @@ export default {
       popis:
         "Z betonového soklu s nápisem ční trojboký betonový sloup do výšky pěti metrů",
       napis: "BEDŘICH // SOFFER // + 5.9.1928 //",
-      odkazy: [{nazev: 'Encyklopedie Brna ', adresa: 'https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=7402'}],
+      odkazy: [
+        {
+          nazev: "Encyklopedie Brna ",
+          adresa:
+            "https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=7402",
+        },
+      ],
 
       pozn:
         "Bedřich Soffer (1898 – 1928) byl známý brněnský sportovec a automobilový závodník, majitel autoškoly a tovární jezdec Zbrojovky. Neštěstí se stalo při zkušební jízdě s novým speciálním šestiválcem Z 6V s maximální rychlostí 180 km za hod. Auto jelo směrem od Vyškova, ve vysoké rychlosti dostalo smyk, vyletělo ze silnice a několikrát se převrátilo. Řidič si volantem poranil hrudník, vyletěl z vozu a dopadl hlavou na kámen 11 metrů daleko. Zemřel při převozu do nemocnice. Spolujezdec, 24 letý mechanik, přežil s těžkým zraněním. Pomník zbudoval brněnský Automotoklub a je asi nejstarším pomníkem autohavárii v brněnském okolí. Dodnes se u něj pořádají vzpomínkové akce s veterány. ",
@@ -158,7 +165,7 @@ export default {
       druh: "Letecké tragédie",
       okres: "Brno-venkov",
       obec: "Újezd u Brna",
-      jmeno: '',
+      jmeno: "",
       nazev: "Pád letadla u Mohyly míru",
       kdyVznikl: "29.5.2013 ",
       popisCesty:
@@ -265,55 +272,140 @@ export default {
     },
     {
       id: 9,
-      kategorie: 'pomnicky',
+      kategorie: "pomnicky",
       podkategorie: 3,
-      druh: 'Letecké tragédie',
-      okres: 'Brno-venkov',
-      obec: 'Javůrek',
-      jmeno: 'Voženílek, Zdeněk',
-      nazev: 'Pomník poručíka Voženílka',
-      kdyVznikl:   'po roce 1951 ', 
-      popisCesty: '2,7 km V od Javůrku, 300 m SV od rozcestí Javůrecké polesí na zelené značce. Na mírném svahu v řídkém listnatém lese, bez cest. Těžko se hledá.',
-      popis: 'Omšelý pomník vysoký 1,3 m je z kamenů slepených betonem. Na soklu je zužující se hranol pomníku. V něm je vsazena tmavá leštěná deska s vybledlou fotkou muže v kukle.',
-      napis: 'ZDE TRAGICKY ZAHYNUL // DNE 13. 3. 1951  VE VĚKU  24  LET // PILOT A PORUČÍK  LETECTVA // ZDENĚK // VOŽENÍLEK //',
-      odkazy: [{nazev: 'www.vets.cz', adresa: 'https://www.vets.cz/vpm/33898-pomnik-zdenek-vozenilek/'}],
-      pozn: 'Při přeletu z Plzně do Malacek se letoun Avia S199 “Mezek” dostal do oblasti se sníženou viditelností. Klesl pod úroveň oblačnosti až nad stromy. Pilot  prudce zvýšil výkon motoru, letoun vlivem gyroskopického efektu vrtule se překlopil a narazil do země rychlostí 300 km/hod.  ',
-      naposledObnoveno : '4.11.2020',
-      souradnice: '49.2565350N, 16.4005575E',
-      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/fabubajeha" width="400" height="280" frameborder="0"></iframe>',
+      druh: "Letecké tragédie",
+      okres: "Brno-venkov",
+      obec: "Javůrek",
+      jmeno: "Voženílek, Zdeněk",
+      nazev: "Pomník poručíka Voženílka",
+      kdyVznikl: "po roce 1951 ",
+      popisCesty:
+        "2,7 km V od Javůrku, 300 m SV od rozcestí Javůrecké polesí na zelené značce. Na mírném svahu v řídkém listnatém lese, bez cest. Těžko se hledá.",
+      popis:
+        "Omšelý pomník vysoký 1,3 m je z kamenů slepených betonem. Na soklu je zužující se hranol pomníku. V něm je vsazena tmavá leštěná deska s vybledlou fotkou muže v kukle.",
+      napis:
+        "ZDE TRAGICKY ZAHYNUL // DNE 13. 3. 1951  VE VĚKU  24  LET // PILOT A PORUČÍK  LETECTVA // ZDENĚK // VOŽENÍLEK //",
+      odkazy: [
+        {
+          nazev: "www.vets.cz",
+          adresa: "https://www.vets.cz/vpm/33898-pomnik-zdenek-vozenilek/",
+        },
+      ],
+      pozn:
+        "Při přeletu z Plzně do Malacek se letoun Avia S199 “Mezek” dostal do oblasti se sníženou viditelností. Klesl pod úroveň oblačnosti až nad stromy. Pilot  prudce zvýšil výkon motoru, letoun vlivem gyroskopického efektu vrtule se překlopil a narazil do země rychlostí 300 km/hod.  ",
+      naposledObnoveno: "4.11.2020",
+      souradnice: "49.2565350N, 16.4005575E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/fabubajeha" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/fabubajeha",
       galerie: [
-      {fotka: 'vozenilek1.jpg' , popisek: 'Zdeněk Voženílek'},
-      {fotka: 'vozenilek2.jpg', popisek: 'Zdeněk Voženílek'},
+        { fotka: "vozenilek1.jpg", popisek: "Zdeněk Voženílek" },
+        { fotka: "vozenilek2.jpg", popisek: "Zdeněk Voženílek" },
       ],
-      proMe: 'XX/960  24-323-32  2018--022',
-      },
-      {
-        id: 10,
-        kategorie: 'pomnicky',
-        podkategorie: 4,
-        druh: 'Napoleonské',
-        okres:' Brno-venkov ',
-        obec: ' Jiříkovice ',
-        jmeno: ' Brassinne, Norbert ',
-        nazev: '  Památník Norberta Brassinna ',
-        kdyVznikl:   ' odhalen 20.11.2000 ',
-        popisCesty: 'Na SV kraji Jiříkovic u rozcestí na místě hromadného hrobu.',
-        popis :  'Neopracovaný balvan vysoký 1,3 m a na něm leštěná žulová deska. Pískovcový pomník navrhl Miloslav Pražák.',
-        napis: ' OBĚTEM // Z  VÁlEČNÝCH   LET 1805  AŽ  1809 // A  NA  PAMÁTKU // NORBERTA  BRASSINA (1907 - 1988) // POUTNÍKA  MÍRU  NA  SLAVKOVSKÉM // BOJIŠTI V LETECH 1966 - 1984 // . Totéž francouzsky.',
-        odkazy:[{nazev: ' Wikipedie ', adresa:' https://cs.wikipedia.org/wiki/Seznam_pam%C3%A1tek_Slavkovsk%C3%A9ho_boji%C5%A1t%C4%9B'}],
-        pozn: ' Norbert Brassine byl belgický hostinský od Waterloo, který v uniformě francouzského granátníka putoval po napoleonských bojištích. Vícekrát navštívil Československo, Brno, Slavkov, Mohylu míru a stál při založení tradice jiříkovických ohňů, konaných v předvečer vzpomínek na slavkovskou bitvu. ',
-        naposledObnoveno : ' 8.11.2020  ',
-        souradnice: '49.1719731N, 16.7600117E',
-        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/lubazelafo" width="400" height="280" frameborder="0"></iframe>',
-        odkazMapa: "https://frame.mapy.cz/s/lubazelafo",
-        galerie: [
-        {fotka: 'brassinne1.jpg', popisek: 'Norbert Brassinne'},
-        {fotka: 'brassinne2.jpg', popisek: 'Norbert Brassinne'}],
-               
-        proMe:' XX/1036  24-431-51  19--121 ',
+      proMe: "XX/960  24-323-32  2018--022",
+    },
+    {
+      id: 10,
+      kategorie: "pomnicky",
+      podkategorie: 4,
+      druh: "Napoleonské",
+      okres: " Brno-venkov ",
+      obec: " Jiříkovice ",
+      jmeno: " Brassinne, Norbert ",
+      nazev: "  Památník Norberta Brassinna ",
+      kdyVznikl: " odhalen 20.11.2000 ",
+      popisCesty: "Na SV kraji Jiříkovic u rozcestí na místě hromadného hrobu.",
+      popis:
+        "Neopracovaný balvan vysoký 1,3 m a na něm leštěná žulová deska. Pískovcový pomník navrhl Miloslav Pražák.",
+      napis:
+        " OBĚTEM // Z  VÁlEČNÝCH   LET 1805  AŽ  1809 // A  NA  PAMÁTKU // NORBERTA  BRASSINA (1907 - 1988) // POUTNÍKA  MÍRU  NA  SLAVKOVSKÉM // BOJIŠTI V LETECH 1966 - 1984 // . Totéž francouzsky.",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa:
+            " https://cs.wikipedia.org/wiki/Seznam_pam%C3%A1tek_Slavkovsk%C3%A9ho_boji%C5%A1t%C4%9B",
         },
-        
+      ],
+      pozn:
+        " Norbert Brassinne byl belgický hostinský od Waterloo, který v uniformě francouzského granátníka putoval po napoleonských bojištích. Vícekrát navštívil Československo, Brno, Slavkov, Mohylu míru a stál při založení tradice jiříkovických ohňů, konaných v předvečer vzpomínek na slavkovskou bitvu. ",
+      naposledObnoveno: " 8.11.2020  ",
+      souradnice: "49.1719731N, 16.7600117E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/lubazelafo" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/lubazelafo",
+      galerie: [
+        { fotka: "brassinne1.jpg", popisek: "Norbert Brassinne" },
+        { fotka: "brassinne2.jpg", popisek: "Norbert Brassinne" },
+      ],
+
+      proMe: " XX/1036  24-431-51  19--121 ",
+    },
+
+    {
+      id: 11,
+      kategorie: "pomnicky",
+      podkategorie: 4,
+      druh: " Napoleonské  ",
+      okres: " Brno-venkov  ",
+      obec: " Jiříkovice ",
+      jmeno: null,
+      nazev: " Strom přátelství u Jiříkovic  ",
+      kdyVznikl: " 2. 12. 2005 při vzpomínkách na 200. výročí bitvy u Slavkova ",
+      popisCesty:
+        " 300 m Z od středu Jiříkovic na okraji obce u silnice na Šlapanice.  ",
+      popis:
+        "Umělý pahorek, do něj zasazen buk. Pod stromem nepravidelná obdelníková kamenná deska, zasazená do soklu.",
+
+      napis:
+        " STROM  PŘÁTELSTVÍ // VYSAZEN K 200. VÝROČÍ // BITVY U SLAVKOVA //  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn: " ",
+      naposledObnoveno: " 9.11.2020  ",
+      souradnice: "49.1662103N, 16.7547458E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/fubenododo" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/fubenododo",
+
+      galerie: [
+        {
+          fotka: "stromPratelstvi1.jpg",
+          popisek: "Strom přátelství u Jiříkovic",
+        },
+        {
+          fotka: "stromPratelstvi2.jpg",
+          popisek: "Strom přátelství u Jiříkovic",
+        },
+      ],
+      proMe: " XX/1035  24-431-49  19--121 ",
+    },
+    {
+      id: 12,
+      kategorie: 'pomnicky',
+      podkategorie: 4,
+      druh: ' Napoleonské  ',
+      okres:' Brno-venkov ',
+      obec: ' Prace ',
+      jmeno: null,
+      nazev: ' Pomník bitvě v Prace ',
+      kdyVznikl:   ' 2005 ', 
+      popisCesty: ' Na jižním okraji, hned za obcí, u silnice k Mohyle míru.  ',
+      popis: 'Moderní pomník je vysoký 1,2 m, ze tří trojúhelníkových kamenných desek, do jejichž středu jsou vloženy tři plechové kříže. Před pomníkem na zemi je plechový terč s nápisem.',
+      napis: ' Do plechu křížů vypáleny tři delší nápisy. Kovový terč: // ZBUDOVALA  OBEC  PRACE // K  VÝROČÍ  BITVY U SLAVKOVA // 1805 - 2005 //  ',
+      odkazy:[{nazev: ' Pietní místa ', adresa:'https://www.vets.cz/vpm/mista/obec/4118-prace/'}],
+      pozn: '  ',
+      naposledObnoveno : ' 9.11.2020 ',
+      souradnice: '49.1344400N, 16.7641247E',
+      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/napabupebu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa:'https://frame.mapy.cz/s/napabupebu',
+      galerie: [
+      {fotka: 'bitvaPrace1.jpg' , popisek: 'Pomník bitvě v Prace'},
+      {fotka: 'bitvaPrace2.jpg', popisek: 'Pomník bitvě v Prace'},
+      {fotka: 'bitvaPrace3.jpg', popisek: 'Pomník bitvě v Prace'},
+            ],
+      
+      proMe: ' XX/997  24-431-38  19--031  ',
+      },
       
 
     {
@@ -324,7 +416,7 @@ export default {
       okres: "",
       obec: "",
       jmeno: "",
-      nazev:'',
+      nazev: "",
       popisCesty: "",
       kdyVznikl: "",
       popis: "",
@@ -352,7 +444,7 @@ export default {
       okres: "",
       obec: "",
       jmeno: "",
-      nazev:'',
+      nazev: "",
       popisCesty: "",
       kdyVznikl: "",
       popis: "",
@@ -379,7 +471,7 @@ export default {
       okres: "",
       obec: "",
       jmeno: "",
-      nazev:'',
+      nazev: "",
       popisCesty: "",
       kdyVznikl: "",
       popis: "",
@@ -403,8 +495,8 @@ export default {
       datum: "20.07.2019",
       kategorie: "cesty",
       podkategorie: 2,
-      jmeno:'',
-      nazev:'',
+      jmeno: "",
+      nazev: "",
       nadpis: "Cesta 1",
       text: [
         "Tady bude text. Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
