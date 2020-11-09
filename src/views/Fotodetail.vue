@@ -12,12 +12,20 @@
         v-bind:to="`/detail/${this.$route.params.podkategorie}/${vybranyIndex}`"
         ><button class="pomnicekKategorie">Zpět</button></router-link
       >
-      <router-link
+      <!-- <router-link
         v-if="
           vybranaKategorie === 'pomnicky' || vybranaKategorie === 'studanky'
         "
         v-bind:to="`/${vybranaKategorie}/${this.$route.params.podkategorie}`"
         ><button class="pomnicekKategorie">Zpět</button></router-link
+      > -->
+
+      <a
+        v-if="
+          vybranaKategorie === 'pomnicky' || vybranaKategorie === 'studanky'
+        "
+        @click="$router.go(-1)"
+        ><button class="pomnicekKategorie">Zpět</button></a
       >
 
       <router-link v-if="vybranaKategorie === 'krize'" to="/smirciKrize"
@@ -103,7 +111,6 @@
     justify-content: right;
     padding-left: 0;
     padding-right: 30px;
-    
   }
 
   #fotodetail button:active,
