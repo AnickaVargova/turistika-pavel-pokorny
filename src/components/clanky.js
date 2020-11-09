@@ -406,7 +406,32 @@ export default {
       
       proMe: ' XX/997  24-431-38  19--031  ',
       },
-      
+      {
+        id: 13 ,
+        kategorie: 'pomnicky',
+        podkategorie: 5 ,
+        druh: ' Válečné  ',
+        okres:' Brno-venkov ',
+        obec: ' Velatice ',
+        jmeno: ' Velatické děti  ',
+        nazev: ' Pomník třem zahynulým dětem z Velatic ', 
+        kdyVznikl:   ' 1948,  obnoven 2017 ', 
+        popisCesty: ' Za Velaticemi u silnice do Mokré, 300 m od kraje vsi.   ',
+        popis: 'Pískovcový pomník vysoký 2,5 m, nahoře s křížkem a bílou deskou s reliefem tří dětí, pod ní bílá deska s texty.',
+        napis: ' VĚNOVÁNO // KE CTI A CHVÁLE BOŽÍ // A NA PAMĚT  ZAHYNULÝCH  DĚTÍ //  KARLA  KOUSALÍKA // 13.10.1940 //  JOSEFA  MACHÁČKA  // 20.1.1941 // JOSEFA  KŘÍŽE // 16.9.1942 // KTEŘÍ  BYLI  USMRCENI  // GRANÁTEM 21.5.1946 // níže   L.P. 1948 ',
+        odkazy:[{nazev: ' Pietní místa ', adresa:' https://www.vets.cz/vpm/mista/obec/4182-velatice/'}, 
+        {nazev: 'Velatický zpravodaj č. 1 / 2018 s. 19'}],
+        pozn: ' Skupinka chlapců našla nevybuchlý granát a odnesla jej pod lípu u vodovodní jímky, kde granát vybuchl. Tři zabil, další dva byli zraněni. Neštěstí se stalo přesně rok poté, co v obci zahynul podobným způsobem Josef Kuklínek. ',
+        naposledObnoveno : ' 9.11.2020 ',
+        souradnice: '49.2020106N, 16.7526622E',
+        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/buzomozotu" width="400" height="280" frameborder="0"></iframe>',
+        odkazMapa:'https://frame.mapy.cz/s/buzomozotu',
+        galerie:
+        [ {fotka: 'velatickeDeti1.jpg' , popisek: 'Pomník třem zahynulým dětem z Velatic'},
+        {fotka: 'velatickeDeti2.jpg', popisek: 'Pomník třem zahynulým dětem z Velatic'}],
+        proMe: ' X/302 24-        19---123 ',
+        },
+         
 
     {
       id: 100,
