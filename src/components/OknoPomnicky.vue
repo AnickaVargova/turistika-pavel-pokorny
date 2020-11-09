@@ -50,7 +50,7 @@
           <td>Obec:</td>
           <td>{{ clanek.obec }}</td>
         </tr>
-        <tr v-if="clanek.jmeno">
+        <tr v-if="clanek.jmeno!==clanek.nazev">
           <td>Jméno:</td>
           <td>
             <strong>{{ clanek.jmeno }}</strong>

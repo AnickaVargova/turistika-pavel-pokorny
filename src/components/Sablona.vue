@@ -99,7 +99,14 @@
       },
 
       seradClanky() {
+        for (let clanek of this.clankyPodKategorie){
+          if(!clanek.jmeno){
+            clanek.jmeno=clanek.nazev;
+          }
+        }
+
         this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
+          
           let x = a.jmeno.toLowerCase();
           let y = b.jmeno.toLowerCase();
           if (x < y) {
