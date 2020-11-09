@@ -21,10 +21,9 @@ export default {
         { fotka: "soucek2.jpg", popisek: null },
       ],
       odkazy: null,
-      latitude: 49.2722947,
-      longitude: 16.6990928,
-      odkazMapa: "https://frame.mapy.cz/s/gocapatutu",
-      naposledObnoveno: "25.9.2020",
+      latitude: '49.2723700N, 16.6993850E',    
+      odkazMapa:  "https://frame.mapy.cz/s/kohuludoze",
+      naposledObnoveno: "9.11.2020",
       proMne: " XX/996    24-413-96   2019–023",
     },
 
@@ -79,12 +78,12 @@ export default {
       odkazy: [
         {
           nazev: "Wikipedie",
-          adresa: "https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal",
+          adresa: "https://cs.wikipedia.org/wiki/Bohumil_Dole%C5%BEal_(lesn%C3%ADk)",
         },
       ],
       pozn:
         "Bohumil Doležal byl profesorem hospodářské úpravy lesů na Lesnické fakultě Vysoké školy zemědělské v Brně. Vychoval a ovlivnil generace lesních inženýrů. V roce 1992 ho Mendelova univerzita poctila čestným doktorátem. ",
-      naposledObnoveno: "2.11.2020",
+      naposledObnoveno: "9.11.2020",
       latitude: 49.3156981,
       longitude: 16.7864683,
       odkazMapa: "https://frame.mapy.cz/s/duhosocana",
@@ -159,7 +158,7 @@ export default {
       druh: "Letecké tragédie",
       okres: "Brno-venkov",
       obec: "Újezd u Brna",
-      jmeno: "Pád letadla u Mohyly míru",
+      nazev: "Pád letadla u Mohyly míru",
       kdyVznikl: "29.5.2013 ",
       popisCesty:
         "1100 metrů SSV od kostela v Újezdu. Na J svahu Staré hory u vrstevnicové cesty mezi vinicemi, která odbočuje ze silnice mezi serpentinami.",
