@@ -277,5 +277,9 @@
     #mapaPomnicky iframe:hover {
       border: none;
     }
+
+    .jednaFotka {
+      height: 100px;
+    }
   }
 </style>
