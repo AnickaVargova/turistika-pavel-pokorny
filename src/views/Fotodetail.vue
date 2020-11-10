@@ -78,18 +78,19 @@
   #fotodetail {
     padding: 30px;
     padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
   }
 
   #fotodetail figure {
-    width: 80vw;
-    margin: auto;
+    height: 80vh;
     margin-top: 30px;
     position: relative;
+    border: 2px solid grey;
+    border-radius: 5px;
   }
 
   #fotodetail img {
-    border: 2px solid grey;
-    border-radius: 5px;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -97,12 +98,14 @@
 
   #fotodetail figcaption {
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
+   
   }
 
   #fotodetail button {
     position: absolute;
     right: 0;
+    bottom: -60px;
     width: 100px;
     justify-content: right;
     padding-left: 0;
@@ -112,5 +115,21 @@
   #fotodetail button:active,
   #fotodetail button:hover {
     background-color: grey;
+  }
+
+  @media(max-width: 600px){
+
+    #fotodetail {
+      padding-top: 100px;
+    }
+
+    #fotodetail figure {
+      height: auto;
+      margin: 0;
+    }
+
+    #fotodetail button {
+      bottom: -100px;
+    }
   }
 </style>
