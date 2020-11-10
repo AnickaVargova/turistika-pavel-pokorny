@@ -7,11 +7,11 @@
       />
       <figcaption>{{ vybranaFotka.popisek }}</figcaption>
 
-      <router-link
+      <!-- <router-link
         v-if="vybranaKategorie === 'cesty' || vybranaKategorie === 'vypraveni'"
         v-bind:to="`/detail/${this.$route.params.podkategorie}/${vybranyIndex}`"
         ><button class="pomnicekKategorie">Zpět</button></router-link
-      >
+      > -->
       <!-- <router-link
         v-if="
           vybranaKategorie === 'pomnicky' || vybranaKategorie === 'studanky'
@@ -20,17 +20,13 @@
         ><button class="pomnicekKategorie">Zpět</button></router-link
       > -->
 
-      <a
-        v-if="
-          vybranaKategorie === 'pomnicky' || vybranaKategorie === 'studanky'
-        "
-        @click="$router.go(-1)"
+      <a @click="$router.go(-1)"
         ><button class="pomnicekKategorie">Zpět</button></a
       >
 
-      <router-link v-if="vybranaKategorie === 'krize'" to="/smirciKrize"
+      <!-- <router-link v-if="vybranaKategorie === 'krize'" to="/smirciKrize"
         ><button class="pomnicekKategorie">Zpět</button></router-link
-      >
+      > -->
     </figure>
   </div>
 </template>

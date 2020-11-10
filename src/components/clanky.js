@@ -431,7 +431,60 @@ export default {
         {fotka: 'velatickeDeti2.jpg', popisek: 'Pomník třem zahynulým dětem z Velatic'}],
         proMe: ' X/302 24-        19---123 ',
         },
-         
+        {
+          id: 14 ,
+          kategorie: 'pomnicky',
+          podkategorie: 5 ,
+          druh: ' Válečné ',
+          okres: ' Žďár nad Sázavou ',
+          obec: ' Velká Bíteš  ',
+          jmeno: ' Obětem prusko-rakouské války  ',
+          nazev: 'Památka obětem prusko-rakouské války  ',
+          kdyVznikl:   '  ', 
+          popisCesty: ' leží 2,3 km SSV od kostela ve Velké Bíteši v údolí Bílého potoka při lesní cestě asi 400 m SZ od  velkého silničního mostu.  ',
+          popis:'Výrazný pomník vysoký 2 metry tvoří tři kamenné hranoly nahoře zkosené, z přední strany v neopracovaném stavu. Na čtvrtém nižším hranolu sepnuté ruce z patinované sádry drží látku. Do ní vyryt nápis.',
+          napis: ' OBĚTEM // PRUSKO //  -  // RAKOUSKÉ // VÁLKY //  1866  ',
+          odkazy:[{nazev: '  ', adresa:'  '}],
+          pozn: ' Socha není signovaná. Jde bezpochyby o dílo bítešského sochaře Lubomíra Laciny. ',
+          naposledObnoveno : ' 9.11.2020 ',
+          souradnice: '49.3098139N, 16.2373369E',
+          kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/necevojace" width="400" height="280" frameborder="0"></iframe>',
+          odkazMapa: 'https://frame.mapy.cz/s/necevojace',
+          galerie: 
+          
+          [ {fotka: 'obetemValky1.jpg' , popisek: 'Památka obětem prusko-rakouské války '},
+          {fotka: 'obetemValky2.jpg', popisek:'Památka obětem prusko-rakouské války '},
+          {fotka: 'obetemValky3.jpg', popisek:'Památka obětem prusko-rakouské války '}],
+          proMe: ' XX/1028  24-312-78  19-106 ',
+          },
+          {
+            id: 15 ,
+            kategorie: 'pomnicky',
+            podkategorie: 5 ,
+            druh: '  Válečné ',
+            okres: ' Brno-venkov',
+            obec: ' Tvarožná ',
+            jmeno: ' Daněk, Karel  ',
+            nazev: ' Daňkův kříž ',
+            kdyVznikl:   ' 1918 ', 
+            popisCesty: ' Leží 600 metrů J od kostela ve Tvarožné, na pláni u státní silnice.  ',
+            popis: 'Bílý celokamenný kříž z mramoru s pozlaceným Kristem, výška 4 m.',
+            napis: ' TENTO  SVATÝ  KŘÍŽ // JEST  VĚNOVÁN // KE  CTI A SLÁVĚ  BOŽÍ // A NA  PAMÁTKU  MANŽELA // KARLA  DAŇKA // KTERÝ 13. ČERVENCE 1915 // U LVOVA  ZEMŘEL // V 41. ROCE  VĚKU  SVÉHO // A TAM  TÉŽ  POCHOVÁN. // … L P 1918  ',
+            odkazy:[{nazev: ' Tvarožná obec ', adresa:' https://www.tvarozna.cz/obec/vyznamne-pamatky-a-krajinne-prvky/dankuv-kriz  '}],
+            pozn:  null,
+            naposledObnoveno : ' 9.11.2020 ',
+            souradnice: '49.1848883N, 16.7769117E',
+            kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/lopazukaha" width="400" height="280" frameborder="0"></iframe>',
+            odkazMapa: ' https://frame.mapy.cz/s/lopazukaha   ',
+            galerie: 
+            
+            [ {fotka: 'dankuvKriz1.jpg' , popisek: 'Daňkův kříž '},
+            {fotka: 'dankuvKriz2.jpg', popisek:'Daňkův kříž '}],
+             proMe: 'XX/1038  24-431-8   19/123  ',
+            },
+            
+          
+           
 
     {
       id: 100,
