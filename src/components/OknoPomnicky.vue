@@ -200,10 +200,10 @@
   }
 
   .jednaFotka {
-    flex-basis: 15%;
+    /* flex-basis: 15%; */
     border: 2px solid grey;
     border-radius: 3px;
-    height: 50px;
+    height: 150px;
     margin: 20px;
     margin-left: 0;
   }
