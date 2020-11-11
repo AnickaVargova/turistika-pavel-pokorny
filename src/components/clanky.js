@@ -351,7 +351,8 @@ export default {
       obec: " Jiříkovice ",
       jmeno: null,
       nazev: " Strom přátelství u Jiříkovic  ",
-      kdyVznikl: " 2. 12. 2005 při vzpomínkách na 200. výročí bitvy u Slavkova ",
+      kdyVznikl:
+        " 2. 12. 2005 při vzpomínkách na 200. výročí bitvy u Slavkova ",
       popisCesty:
         " 300 m Z od středu Jiříkovic na okraji obce u silnice na Šlapanice.  ",
       popis:
@@ -381,110 +382,190 @@ export default {
     },
     {
       id: 12,
-      kategorie: 'pomnicky',
+      kategorie: "pomnicky",
       podkategorie: 4,
-      druh: ' Napoleonské  ',
-      okres:' Brno-venkov ',
-      obec: ' Prace ',
+      druh: " Napoleonské  ",
+      okres: " Brno-venkov ",
+      obec: " Prace ",
       jmeno: null,
-      nazev: ' Pomník bitvě v Prace ',
-      kdyVznikl:   ' 2005 ', 
-      popisCesty: ' Na jižním okraji, hned za obcí, u silnice k Mohyle míru.  ',
-      popis: 'Moderní pomník je vysoký 1,2 m, ze tří trojúhelníkových kamenných desek, do jejichž středu jsou vloženy tři plechové kříže. Před pomníkem na zemi je plechový terč s nápisem.',
-      napis: ' Do plechu křížů vypáleny tři delší nápisy. Kovový terč: // ZBUDOVALA  OBEC  PRACE // K  VÝROČÍ  BITVY U SLAVKOVA // 1805 - 2005 //  ',
-      odkazy:[{nazev: ' Pietní místa ', adresa:'https://www.vets.cz/vpm/mista/obec/4118-prace/'}],
-      pozn: '  ',
-      naposledObnoveno : ' 9.11.2020 ',
-      souradnice: '49.1344400N, 16.7641247E',
-      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/napabupebu" width="400" height="280" frameborder="0"></iframe>',
-      odkazMapa:'https://frame.mapy.cz/s/napabupebu',
+      nazev: " Pomník bitvě v Prace ",
+      kdyVznikl: " 2005 ",
+      popisCesty: " Na jižním okraji, hned za obcí, u silnice k Mohyle míru.  ",
+      popis:
+        "Moderní pomník je vysoký 1,2 m, ze tří trojúhelníkových kamenných desek, do jejichž středu jsou vloženy tři plechové kříže. Před pomníkem na zemi je plechový terč s nápisem.",
+      napis:
+        " Do plechu křížů vypáleny tři delší nápisy. Kovový terč: // ZBUDOVALA  OBEC  PRACE // K  VÝROČÍ  BITVY U SLAVKOVA // 1805 - 2005 //  ",
+      odkazy: [
+        {
+          nazev: " Pietní místa ",
+          adresa: "https://www.vets.cz/vpm/mista/obec/4118-prace/",
+        },
+      ],
+      pozn: "  ",
+      naposledObnoveno: " 9.11.2020 ",
+      souradnice: "49.1344400N, 16.7641247E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/napabupebu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/napabupebu",
       galerie: [
-      {fotka: 'bitvaPrace1.jpg' , popisek: 'Pomník bitvě v Prace'},
-      {fotka: 'bitvaPrace2.jpg', popisek: 'Pomník bitvě v Prace'},
-      {fotka: 'bitvaPrace3.jpg', popisek: 'Pomník bitvě v Prace'},
-            ],
-      
-      proMe: ' XX/997  24-431-38  19--031  ',
-      },
-      {
-        id: 13 ,
-        kategorie: 'pomnicky',
-        podkategorie: 5 ,
-        druh: ' Válečné  ',
-        okres:' Brno-venkov ',
-        obec: ' Velatice ',
-        jmeno: ' Velatické děti  ',
-        nazev: ' Pomník třem zahynulým dětem z Velatic ', 
-        kdyVznikl:   ' 1948,  obnoven 2017 ', 
-        popisCesty: ' Za Velaticemi u silnice do Mokré, 300 m od kraje vsi.   ',
-        popis: 'Pískovcový pomník vysoký 2,5 m, nahoře s křížkem a bílou deskou s reliefem tří dětí, pod ní bílá deska s texty.',
-        napis: ' VĚNOVÁNO // KE CTI A CHVÁLE BOŽÍ // A NA PAMĚT  ZAHYNULÝCH  DĚTÍ //  KARLA  KOUSALÍKA // 13.10.1940 //  JOSEFA  MACHÁČKA  // 20.1.1941 // JOSEFA  KŘÍŽE // 16.9.1942 // KTEŘÍ  BYLI  USMRCENI  // GRANÁTEM 21.5.1946 // níže   L.P. 1948 ',
-        odkazy:[{nazev: ' Pietní místa ', adresa:' https://www.vets.cz/vpm/mista/obec/4182-velatice/'}, 
-        {nazev: 'Velatický zpravodaj č. 1 / 2018 s. 19'}],
-        pozn: ' Skupinka chlapců našla nevybuchlý granát a odnesla jej pod lípu u vodovodní jímky, kde granát vybuchl. Tři zabil, další dva byli zraněni. Neštěstí se stalo přesně rok poté, co v obci zahynul podobným způsobem Josef Kuklínek. ',
-        naposledObnoveno : ' 9.11.2020 ',
-        souradnice: '49.2020106N, 16.7526622E',
-        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/buzomozotu" width="400" height="280" frameborder="0"></iframe>',
-        odkazMapa:'https://frame.mapy.cz/s/buzomozotu',
-        galerie:
-        [ {fotka: 'velatickeDeti1.jpg' , popisek: 'Pomník třem zahynulým dětem z Velatic'},
-        {fotka: 'velatickeDeti2.jpg', popisek: 'Pomník třem zahynulým dětem z Velatic'}],
-        proMe: ' X/302 24-        19---123 ',
+        { fotka: "bitvaPrace1.jpg", popisek: "Pomník bitvě v Prace" },
+        { fotka: "bitvaPrace2.jpg", popisek: "Pomník bitvě v Prace" },
+        { fotka: "bitvaPrace3.jpg", popisek: "Pomník bitvě v Prace" },
+      ],
+
+      proMe: " XX/997  24-431-38  19--031  ",
+    },
+    {
+      id: 13,
+      kategorie: "pomnicky",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Brno-venkov ",
+      obec: " Velatice ",
+      jmeno: " Velatické děti  ",
+      nazev: " Pomník třem zahynulým dětem z Velatic ",
+      kdyVznikl: " 1948,  obnoven 2017 ",
+      popisCesty: " Za Velaticemi u silnice do Mokré, 300 m od kraje vsi.   ",
+      popis:
+        "Pískovcový pomník vysoký 2,5 m, nahoře s křížkem a bílou deskou s reliefem tří dětí, pod ní bílá deska s texty.",
+      napis:
+        " VĚNOVÁNO // KE CTI A CHVÁLE BOŽÍ // A NA PAMĚT  ZAHYNULÝCH  DĚTÍ //  KARLA  KOUSALÍKA // 13.10.1940 //  JOSEFA  MACHÁČKA  // 20.1.1941 // JOSEFA  KŘÍŽE // 16.9.1942 // KTEŘÍ  BYLI  USMRCENI  // GRANÁTEM 21.5.1946 // níže   L.P. 1948 ",
+      odkazy: [
+        {
+          nazev: " Pietní místa ",
+          adresa: " https://www.vets.cz/vpm/mista/obec/4182-velatice/",
+        },
+        { nazev: "Velatický zpravodaj č. 1 / 2018 s. 19" },
+      ],
+      pozn:
+        " Skupinka chlapců našla nevybuchlý granát a odnesla jej pod lípu u vodovodní jímky, kde granát vybuchl. Tři zabil, další dva byli zraněni. Neštěstí se stalo přesně rok poté, co v obci zahynul podobným způsobem Josef Kuklínek. ",
+      naposledObnoveno: " 9.11.2020 ",
+      souradnice: "49.2020106N, 16.7526622E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/buzomozotu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/buzomozotu",
+      galerie: [
+        {
+          fotka: "velatickeDeti1.jpg",
+          popisek: "Pomník třem zahynulým dětem z Velatic",
         },
         {
-          id: 14 ,
-          kategorie: 'pomnicky',
-          podkategorie: 5 ,
-          druh: ' Válečné ',
-          okres: ' Žďár nad Sázavou ',
-          obec: ' Velká Bíteš  ',
-          jmeno: ' Obětem prusko-rakouské války  ',
-          nazev: 'Památka obětem prusko-rakouské války  ',
-          kdyVznikl:   '  ', 
-          popisCesty: ' leží 2,3 km SSV od kostela ve Velké Bíteši v údolí Bílého potoka při lesní cestě asi 400 m SZ od  velkého silničního mostu.  ',
-          popis:'Výrazný pomník vysoký 2 metry tvoří tři kamenné hranoly nahoře zkosené, z přední strany v neopracovaném stavu. Na čtvrtém nižším hranolu sepnuté ruce z patinované sádry drží látku. Do ní vyryt nápis.',
-          napis: ' OBĚTEM // PRUSKO //  -  // RAKOUSKÉ // VÁLKY //  1866  ',
-          odkazy:[{nazev: '  ', adresa:'  '}],
-          pozn: ' Socha není signovaná. Jde bezpochyby o dílo bítešského sochaře Lubomíra Laciny. ',
-          naposledObnoveno : ' 9.11.2020 ',
-          souradnice: '49.3098139N, 16.2373369E',
-          kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/necevojace" width="400" height="280" frameborder="0"></iframe>',
-          odkazMapa: 'https://frame.mapy.cz/s/necevojace',
-          galerie: 
+          fotka: "velatickeDeti2.jpg",
+          popisek: "Pomník třem zahynulým dětem z Velatic",
+        },
+      ],
+      proMe: " X/302 24-        19---123 ",
+    },
+    {
+      id: 14,
+      kategorie: "pomnicky",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Žďár nad Sázavou ",
+      obec: " Velká Bíteš  ",
+      jmeno: " Obětem prusko-rakouské války  ",
+      nazev: "Památka obětem prusko-rakouské války  ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " leží 2,3 km SSV od kostela ve Velké Bíteši v údolí Bílého potoka při lesní cestě asi 400 m SZ od  velkého silničního mostu.  ",
+      popis:
+        "Výrazný pomník vysoký 2 metry tvoří tři kamenné hranoly nahoře zkosené, z přední strany v neopracovaném stavu. Na čtvrtém nižším hranolu sepnuté ruce z patinované sádry drží látku. Do ní vyryt nápis.",
+      napis: " OBĚTEM // PRUSKO //  -  // RAKOUSKÉ // VÁLKY //  1866  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn:
+        " Socha není signovaná. Jde bezpochyby o dílo bítešského sochaře Lubomíra Laciny. ",
+      naposledObnoveno: " 9.11.2020 ",
+      souradnice: "49.3098139N, 16.2373369E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/necevojace" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/necevojace",
+      galerie: [
+        {
+          fotka: "obetemValky1.jpg",
+          popisek: "Památka obětem prusko-rakouské války ",
+        },
+        {
+          fotka: "obetemValky2.jpg",
+          popisek: "Památka obětem prusko-rakouské války ",
+        },
+        {
+          fotka: "obetemValky3.jpg",
+          popisek: "Památka obětem prusko-rakouské války ",
+        },
+      ],
+      proMe: " XX/1028  24-312-78  19-106 ",
+    },
+    {
+      id: 15,
+      kategorie: "pomnicky",
+      podkategorie: 5,
+      druh: "  Válečné ",
+      okres: " Brno-venkov",
+      obec: " Tvarožná ",
+      jmeno: " Daněk, Karel  ",
+      nazev: " Daňkův kříž ",
+      kdyVznikl: " 1918 ",
+      popisCesty:
+        " Leží 600 metrů J od kostela ve Tvarožné, na pláni u státní silnice.  ",
+      popis: "Bílý celokamenný kříž z mramoru s pozlaceným Kristem, výška 4 m.",
+      napis:
+        " TENTO  SVATÝ  KŘÍŽ // JEST  VĚNOVÁN // KE  CTI A SLÁVĚ  BOŽÍ // A NA  PAMÁTKU  MANŽELA // KARLA  DAŇKA // KTERÝ 13. ČERVENCE 1915 // U LVOVA  ZEMŘEL // V 41. ROCE  VĚKU  SVÉHO // A TAM  TÉŽ  POCHOVÁN. // … L P 1918  ",
+      odkazy: [
+        {
+          nazev: " Tvarožná obec ",
+          adresa:
+            " https://www.tvarozna.cz/obec/vyznamne-pamatky-a-krajinne-prvky/dankuv-kriz  ",
+        },
+      ],
+      pozn: null,
+      naposledObnoveno: " 9.11.2020 ",
+      souradnice: "49.1848883N, 16.7769117E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/lopazukaha" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: " https://frame.mapy.cz/s/lopazukaha   ",
+      galerie: [
+        { fotka: "dankuvKriz1.jpg", popisek: "Daňkův kříž " },
+        { fotka: "dankuvKriz2.jpg", popisek: "Daňkův kříž " },
+      ],
+      proMe: "XX/1038  24-431-8   19/123  ",
+    },
+
+    {
+      id: 16,
+      kategorie: "pomnicky",
+      podkategorie: 6,
+      druh: " Tragédie bleskem  ",
+      okres: " Blansko ",
+      obec: " Kuničky ",
+      jmeno: " Kalovi, Anežka a Milan  ",
+      nazev: " Pomník Anežce a Milanovi Kalovým ",
+      kdyVznikl: " po roce 1964 ",
+      popisCesty:
+        " Asi 700 m JZ od kaple v Kuničkách, na poloviční cestě z Obory do Kuniček, v lese, vede tu červená značka.  ",
+      popis:
+        "Lomový balvan vysoký 1,6 metru ponechán v přírodním stavu. Na straně k cestě je leštěná žulová deska s hůře čitelným textem.",
+      napis:
+        " NA  TOMTO  MÍSTĚ // DNE 28. 6. 1964 ZAHYNULI  ZASAŽENI  BLESKEM //  NOVOMANŽELÉ // ANEŽKA  KALOVÁ // ROZ. DVOŘÁČKOVÁ // MILAN  KALA // VE VĚKU  24  A  29  LET  OBA Z KUNIČEK //  ... ",
+      pozn:
+        " V neděli 28. června 1964 se v Rájci v zámecké zahradě konala slavnost. Z ní před silnou bouřkou spěchali domů novomanželé řidič Michal Kala s těhotnou manželkou Anežkou. V dešti si zuli boty a schovávali se pod deštníkem s ocelovou špicí. Kolem 17 hodiny je zasáhl blesk. Našli je v pondělí ráno, ještě se drželi za ruce... ",
+      odkazy: [
+        {
+          nazev: "Zpravodaj města Rájec-Jestřebí č. 10/2008 s. 18 ",
           
-          [ {fotka: 'obetemValky1.jpg' , popisek: 'Památka obětem prusko-rakouské války '},
-          {fotka: 'obetemValky2.jpg', popisek:'Památka obětem prusko-rakouské války '},
-          {fotka: 'obetemValky3.jpg', popisek:'Památka obětem prusko-rakouské války '}],
-          proMe: ' XX/1028  24-312-78  19-106 ',
-          },
-          {
-            id: 15 ,
-            kategorie: 'pomnicky',
-            podkategorie: 5 ,
-            druh: '  Válečné ',
-            okres: ' Brno-venkov',
-            obec: ' Tvarožná ',
-            jmeno: ' Daněk, Karel  ',
-            nazev: ' Daňkův kříž ',
-            kdyVznikl:   ' 1918 ', 
-            popisCesty: ' Leží 600 metrů J od kostela ve Tvarožné, na pláni u státní silnice.  ',
-            popis: 'Bílý celokamenný kříž z mramoru s pozlaceným Kristem, výška 4 m.',
-            napis: ' TENTO  SVATÝ  KŘÍŽ // JEST  VĚNOVÁN // KE  CTI A SLÁVĚ  BOŽÍ // A NA  PAMÁTKU  MANŽELA // KARLA  DAŇKA // KTERÝ 13. ČERVENCE 1915 // U LVOVA  ZEMŘEL // V 41. ROCE  VĚKU  SVÉHO // A TAM  TÉŽ  POCHOVÁN. // … L P 1918  ',
-            odkazy:[{nazev: ' Tvarožná obec ', adresa:' https://www.tvarozna.cz/obec/vyznamne-pamatky-a-krajinne-prvky/dankuv-kriz  '}],
-            pozn:  null,
-            naposledObnoveno : ' 9.11.2020 ',
-            souradnice: '49.1848883N, 16.7769117E',
-            kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/lopazukaha" width="400" height="280" frameborder="0"></iframe>',
-            odkazMapa: ' https://frame.mapy.cz/s/lopazukaha   ',
-            galerie: 
-            
-            [ {fotka: 'dankuvKriz1.jpg' , popisek: 'Daňkův kříž '},
-            {fotka: 'dankuvKriz2.jpg', popisek:'Daňkův kříž '}],
-             proMe: 'XX/1038  24-431-8   19/123  ',
-            },
-            
-          
-           
+        },
+      ],
+      naposledObnoveno: " 10.11.2020 ",
+      souradnice: "49.4299089N, 16.6732819E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/kenumugavu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/kenumugavu ",
+      galerie: [
+        { fotka: "kalovi1.jpg", datum: "březen 2012" },
+        { fotka: "kalovi2.jpg", datum: "březen 2012" },
+      ],
+
+      proMe: "XVIII/723  24-233-60  12--031  ",
+    },
 
     {
       id: 100,

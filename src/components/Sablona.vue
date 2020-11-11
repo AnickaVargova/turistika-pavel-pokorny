@@ -182,6 +182,8 @@
       margin-left: 20px;
       margin-right: 20px;
     }
+
+    
   }
 
   .pomnickyNavigace {
@@ -221,6 +223,11 @@
   }
 
   @media (max-width: 600px) {
+    .pomnickyNavigace {
+      grid-row: 1/16;
+      grid-column: 1/5;
+    }
+
     #pomnicky .pomnicekKategorie.pomnicekMenu {
       display: none;
     }
@@ -250,7 +257,7 @@
   @media (max-width: 600px) {
     #domu {
       min-width: 100px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
     }
   }
 
@@ -286,6 +293,7 @@
   @media (max-width: 600px) {
     #pomnicky h1 {
       grid-row: 2/3;
+      grid-column: 1/7;
     }
 
     #pomnicky .kontejner {
