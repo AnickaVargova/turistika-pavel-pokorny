@@ -17,8 +17,8 @@ export default {
       popis:
         " Pomník vysoký dva metry, ze dvou dřevěných bytelných pylonů seříznutých do špic, mezi nimi je kamenná deska, zepředu leštěná.",
       galerie: [
-        { fotka: "soucek1.jpg", popisek: null },
-        { fotka: "soucek2.jpg", popisek: null },
+        { fotka: "soucek1.jpg", popisek: null, datum: 'únor  2019' },
+        { fotka: "soucek2.jpg", popisek: null, datum: 'únor  2019' },
       ],
       odkazy: null,
       latitude: "49.2723700N, 16.6993850E",
@@ -54,9 +54,9 @@ export default {
       longitude: 16.678225,
       odkazMapa: "https://frame.mapy.cz/s/dafukomeko",
       galerie: [
-        { fotka: "grabner1.jpg", popisek: "Leopold Grabner" },
-        { fotka: "grabner2.jpg", popisek: "Leopold Grabner" },
-        { fotka: "grabner3.jpg", popisek: "Leopold Grabner" },
+        { fotka: "grabner1.jpg", popisek: "Leopold Grabner", datum: 'prosinec 2017' },
+        { fotka: "grabner2.jpg", popisek: "Leopold Grabner", datum: 'prosinec 2017' },
+        { fotka: "grabner3.jpg", popisek: "Leopold Grabner", datum: 'prosinec 2017' },
       ],
     },
     {
@@ -89,8 +89,8 @@ export default {
       longitude: 16.7864683,
       odkazMapa: "https://frame.mapy.cz/s/duhosocana",
       galerie: [
-        { fotka: "dolezal1.jpg", popisek: "Bohumil Doležal" },
-        { fotka: "dolezal2.jpg", popisek: "Bohumil Doležal" },
+        { fotka: "dolezal1.jpg", popisek: "Bohumil Doležal", datum: 'březen 2017' },
+        { fotka: "dolezal2.jpg", popisek: "Bohumil Doležal", datum: 'březen 2017' },
       ],
     },
     {
@@ -124,8 +124,8 @@ export default {
       latitude: 49.1852547,
       longitude: 16.7816189,
       galerie: [
-        { fotka: "soffer1.jpg", popisek: "Bedřich Soffer" },
-        { fotka: "soffer2.jpg", popisek: "Bedřich Soffer" },
+        { fotka: "soffer1.jpg", popisek: "Bedřich Soffer", datum: 'prosinec 2019' },
+        { fotka: "soffer2.jpg", popisek: "Bedřich Soffer", datum: 'prosinec 2019' },
       ],
       proMe: "V/153 24-431-52 2019–123",
     },
@@ -153,8 +153,8 @@ export default {
 
       odkazMapa: "https://frame.mapy.cz/s/lujuhujapa",
       galerie: [
-        { fotka: "nespor1.jpg", popisek: "František Nešpor" },
-        { fotka: "nespor2.jpg", popisek: "František Nešpor" },
+        { fotka: "nespor1.jpg", popisek: "František Nešpor", datum: 'říjen  2019' },
+        { fotka: "nespor2.jpg", popisek: "František Nešpor", datum: 'říjen  2019' },
       ],
       proMe: "XX / 1030 24-312-81 2019–106",
     },
@@ -182,8 +182,8 @@ export default {
       latitude: 49.1132592,
       longitude: 16.7640458,
       galerie: [
-        { fotka: "padLetadla1.jpg", popisek: "Pád letadla" },
-        { fotka: "padLetadla2.jpg", popisek: "Pád letadla" },
+        { fotka: "padLetadla1.jpg", popisek: "Pád letadla", datum: 'listopad 2019' },
+        { fotka: "padLetadla2.jpg", popisek: "Pád letadla", datum: 'listopad 2019' },
       ],
       proMe: "XX/1034 24-431-44 2019---115",
     },
@@ -235,9 +235,9 @@ export default {
       latitude: 49.1850794,
       longitude: 16.78075,
       galerie: [
-        { fotka: "pavlisovi1.jpg", popisek: "Křížky Pavlišovy rodiny" },
-        { fotka: "pavlisovi2.jpg", popisek: "Křížky Pavlišovy rodiny" },
-        { fotka: "pavlisovi3.jpg", popisek: "Křížky Pavlišovy rodiny" },
+        { fotka: "pavlisovi1.jpg", popisek: "Křížky Pavlišovy rodiny", datum: 'prosinec 2019' },
+        { fotka: "pavlisovi2.jpg", popisek: "Křížky Pavlišovy rodiny", datum: 'prosinec 2019'  },
+        { fotka: "pavlisovi3.jpg", popisek: "Křížky Pavlišovy rodiny", datum: 'prosinec 2019'  },
       ],
       proMe: "XX/1037 24-431-52 19--123",
     },
@@ -265,8 +265,8 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/comofotace",
 
       galerie: [
-        { fotka: "navesnik1.jpg", popisek: "Michal Návesník" },
-        { fotka: "navesnik2.jpg", popisek: "Michal Návesník" },
+        { fotka: "navesnik1.jpg", popisek: "Michal Návesník", datum: 'říjen 2018' },
+        { fotka: "navesnik2.jpg", popisek: "Michal Návesník", datum: 'říjen 2018' },
       ],
       proMe: "XX/985 24-141-43 2018--105",
     },
@@ -300,8 +300,8 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/fabubajeha" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/fabubajeha",
       galerie: [
-        { fotka: "vozenilek1.jpg", popisek: "Zdeněk Voženílek" },
-        { fotka: "vozenilek2.jpg", popisek: "Zdeněk Voženílek" },
+        { fotka: "vozenilek1.jpg", popisek: "Zdeněk Voženílek", datum: 'únor 2018' },
+        { fotka: "vozenilek2.jpg", popisek: "Zdeněk Voženílek", datum: 'únor 2018' },
       ],
       proMe: "XX/960  24-323-32  2018--022",
     },
@@ -335,8 +335,8 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/lubazelafo" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/lubazelafo",
       galerie: [
-        { fotka: "brassinne1.jpg", popisek: "Norbert Brassinne" },
-        { fotka: "brassinne2.jpg", popisek: "Norbert Brassinne" },
+        { fotka: "brassinne1.jpg", popisek: "Norbert Brassinne", datum: 'prosinec 2019' },
+        { fotka: "brassinne2.jpg", popisek: "Norbert Brassinne", datum: 'prosinec 2019' },
       ],
 
       proMe: " XX/1036  24-431-51  19--121 ",
@@ -372,10 +372,12 @@ export default {
         {
           fotka: "stromPratelstvi1.jpg",
           popisek: "Strom přátelství u Jiříkovic",
+          datum: 'prosinec 2019',
         },
         {
           fotka: "stromPratelstvi2.jpg",
           popisek: "Strom přátelství u Jiříkovic",
+          datum: 'prosinec 2019',
         },
       ],
       proMe: " XX/1035  24-431-49  19--121 ",
@@ -408,9 +410,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/napabupebu" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/napabupebu",
       galerie: [
-        { fotka: "bitvaPrace1.jpg", popisek: "Pomník bitvě v Prace" },
-        { fotka: "bitvaPrace2.jpg", popisek: "Pomník bitvě v Prace" },
-        { fotka: "bitvaPrace3.jpg", popisek: "Pomník bitvě v Prace" },
+        { fotka: "bitvaPrace1.jpg", popisek: "Pomník bitvě v Prace", datum: 'březen 2019' },
+        { fotka: "bitvaPrace2.jpg", popisek: "Pomník bitvě v Prace", datum: 'březen 2019' },
+        { fotka: "bitvaPrace3.jpg", popisek: "Pomník bitvě v Prace", datum: 'březen 2019' },
       ],
 
       proMe: " XX/997  24-431-38  19--031  ",
@@ -448,10 +450,12 @@ export default {
         {
           fotka: "velatickeDeti1.jpg",
           popisek: "Pomník třem zahynulým dětem z Velatic",
+          datum: 'prosinec 2019',
         },
         {
           fotka: "velatickeDeti2.jpg",
           popisek: "Pomník třem zahynulým dětem z Velatic",
+          datum: 'prosinec 2019',
         },
       ],
       proMe: " X/302 24-        19---123 ",
@@ -483,14 +487,17 @@ export default {
         {
           fotka: "obetemValky1.jpg",
           popisek: "Památka obětem prusko-rakouské války ",
+          datum: 'říjen 2019',
         },
         {
           fotka: "obetemValky2.jpg",
           popisek: "Památka obětem prusko-rakouské války ",
+          datum: 'říjen 2019',
         },
         {
           fotka: "obetemValky3.jpg",
           popisek: "Památka obětem prusko-rakouské války ",
+          datum: 'říjen 2019',
         },
       ],
       proMe: " XX/1028  24-312-78  19-106 ",
@@ -524,8 +531,8 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/lopazukaha" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: " https://frame.mapy.cz/s/lopazukaha   ",
       galerie: [
-        { fotka: "dankuvKriz1.jpg", popisek: "Daňkův kříž " },
-        { fotka: "dankuvKriz2.jpg", popisek: "Daňkův kříž " },
+        { fotka: "dankuvKriz1.jpg", popisek: "Daňkův kříž ", datum: 'prosinec 2019' },
+        { fotka: "dankuvKriz2.jpg", popisek: "Daňkův kříž ", datum: 'prosinec 2019' },
       ],
       proMe: "XX/1038  24-431-8   19/123  ",
     },

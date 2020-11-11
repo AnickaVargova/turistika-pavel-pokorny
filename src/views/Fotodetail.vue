@@ -5,7 +5,7 @@
         v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
         v-bind:alt="vybranaFotka.popisek"
       />
-      <figcaption>{{ vybranaFotka.datum }}</figcaption>
+      <figcaption>({{ vybranaFotka.datum }})</figcaption>
 
       <!-- <router-link
         v-if="vybranaKategorie === 'cesty' || vybranaKategorie === 'vypraveni'"
