@@ -701,6 +701,40 @@ export default {
       ],
       proMe: "XV/530  24-314-21  20--062 ",
     },
+    {
+      id: 18,
+      kategorie: "pomnicky",
+      podkategorie: 11,
+      druh: " Literární  ",
+      okres: " Brno - venkov ",
+      obec: " Babice ",
+      jmeno: " Marcha, Jaroslav  ",
+      nazev: " Deska spisovatele Marchy ",
+      kdyVznikl:
+        " Slavnostní odhalení 29. 12. 2011, padesát let od úmrtí, uspořádal Školní lesní podnik Křtiny. ",
+      popisCesty:
+        " 2 km SV od Babic a nad Adamovem je rozhledna Alexandrovka. K její podezdívce ze Z strany je připevněna deska. Všeobecně známé místo.  ",
+      popis: "Deska z černé žuly, do ní vyryt text.",
+      napis:
+        " JAROSLAV  MARCHA // SPISOVATEL A NOVINÁŘ // 26. 5. 1880  +29. 12. 1961  // OJ  VY  LESY,  NADE  VŠECHNY  LESY // MÉ  ZASNĚNÉ  ADAMOVSKÉ  LESY !  ",
+      odkazy: [
+        {
+          nazev: " Odhalení desky ",
+          adresa:
+            "http://www.slpkrtiny.cz/slp-krtiny/napsali-o-nas/vzpominkova-slavnost-a2118814",
+        },
+      ],
+      pozn:
+        " Jaroslav Marcha, vlastním jménem Dominik Nejezchleb, byl rodák z Babic, žil v Brně. Spisovatel, novinář, politik. Poslanec i senátor za agrárníky v letech 1920-38. Politicky i literárně byl samouk. Napsal asi 20 knih. ",
+      naposledObnoveno: " 11.11.2020 ",
+      souradnice: "49.2978825N, 16.6727103E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/fojelokaca" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/fojelokaca",
+      galerie: [{ fotka: "marcha.jpg", datum: "červen 2017" }],
+
+      proMe: "XX/954   24-411-115 17--064 ",
+    },
 
     {
       id: 100,
