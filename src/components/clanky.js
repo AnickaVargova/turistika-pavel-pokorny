@@ -723,6 +723,7 @@ export default {
           adresa:
             "http://www.slpkrtiny.cz/slp-krtiny/napsali-o-nas/vzpominkova-slavnost-a2118814",
         },
+        {nazev: 'Encyklopedie Brna  ', adresa:'https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=2007'},
       ],
       pozn:
         " Jaroslav Marcha, vlastním jménem Dominik Nejezchleb, byl rodák z Babic, žil v Brně. Spisovatel, novinář, politik. Poslanec i senátor za agrárníky v letech 1920-38. Politicky i literárně byl samouk. Napsal asi 20 knih. ",
