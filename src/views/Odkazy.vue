@@ -39,6 +39,10 @@
     grid-template-rows: repeat(40, 60px);
   }
 
+  #odkazy .pomnicekKategorie {
+    min-width: 0;
+  }
+
   #odkazy #transbox1 {
     background-color: rgba(183, 202, 202, 0.6);
   }

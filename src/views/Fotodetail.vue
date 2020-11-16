@@ -99,7 +99,6 @@
   #fotodetail figcaption {
     font-size: 15px;
     margin-top: 20px;
-   
   }
 
   #fotodetail button {
@@ -112,13 +111,15 @@
     padding-right: 30px;
   }
 
+  #fotodetail .pomnicekKategorie {
+    min-width: 0;
+  }
   #fotodetail button:active,
   #fotodetail button:hover {
     background-color: grey;
   }
 
-  @media(max-width: 600px){
-
+  @media (max-width: 600px) {
     #fotodetail {
       padding-top: 100px;
     }

@@ -241,6 +241,7 @@
   #mapaPomnicky .pomnicekKategorie {
     padding-left: 2%;
     margin-bottom: 20px;
+    min-width: 0;
   }
 
   td .pomnicekKategorie {

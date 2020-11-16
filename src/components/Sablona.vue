@@ -99,17 +99,17 @@
       },
 
       seradClanky() {
-        for (let clanek of this.clankyPodKategorie){
-          if(!clanek.jmeno){
-            clanek.jmeno=clanek.nazev;
+        for (let clanek of this.clankyPodKategorie) {
+          if (!clanek.jmeno) {
+            clanek.jmeno = clanek.nazev;
           }
         }
 
         this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
-          return a.jmeno.localeCompare(b.jmeno, 'cs', {sensitivity: 'accent'});
-          
+          return a.jmeno.localeCompare(b.jmeno, "cs", {
+            sensitivity: "accent",
+          });
         });
-        
       },
 
       toggleMenu() {
@@ -159,8 +159,6 @@
     margin-bottom: 0;
   }
 
-  
-
   @media screen and (max-width: 600px) {
     #pomnicky {
       height: 100wh;
@@ -184,8 +182,6 @@
       margin-left: 20px;
       margin-right: 20px;
     }
-
-    
   }
 
   .pomnickyNavigace {
@@ -194,12 +190,8 @@
     margin: 23px;
     display: flex;
     flex-direction: column;
-    
   }
 
- 
-
-    
   p.responsive,
   h1.responsive {
     display: none;
@@ -262,12 +254,10 @@
     min-width: 95%;
     max-width: 170px;
     height: 30px;
-
   }
 
   @media (max-width: 600px) {
     #domu {
-     
       min-width: 100px;
       max-width: 150px;
       margin-bottom: 70px;
@@ -279,7 +269,6 @@
     grid-row-start: 1;
     grid-row-end: 40;
     width: 100vw;
-  
   }
   #transbox1 {
     grid-column: 1 / 7;
