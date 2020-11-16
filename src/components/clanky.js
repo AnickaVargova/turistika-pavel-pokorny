@@ -752,7 +752,7 @@ export default {
       kdyVznikl:
         " 1893 na památku loučení faráře Kosmáka s místními lidmi. Od té doby byl nejméně třikrát opravován. ",
       popisCesty:
-        " JV od Tvarožné, 200 m za vsí, u silnice k motorestu Rohlenka. Na odbočce žluté značky.  ",
+        " JZ od Tvarožné, 200 m za vsí, u silnice k motorestu Rohlenka. Na odbočce žluté značky. 60 kroků od něj má pomník generál Valhubert.",
       popis:
         "Dřevěný vyřezávaný a zdobený kříž, vysoký asi 6 metrů. Vedle roste velký jeřáb břek.",
       napis: "  1893  //  1943  ",
@@ -877,7 +877,7 @@ export default {
         " ZDE  ZEMŘEL  TRAGICKOU  SMRTÍ // PŘI  BUDOVÁNÍ  PLYNOVÉ  TRASY // NÁŠ  SPOLUPRACOVNÍK // ANTONÍN  BARTL //  + 11. 9. 1955 // ČEST  JEHO  PAMÁTCE // ZAMĚSTNANCI  DOPRAVY // N. P. OCELOSTAVBY  BRNO  ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn: null,
-      naposledObnoveno: "  ",
+      naposledObnoveno: "16.11.2020",
       souradnice: "49.1885494N, 16.4693444E",
       kodMapa:
         '<iframe style="border:none" src="https://frame.mapy.cz/s/meguhatola" width="400" height="280" frameborder="0"></iframe>',

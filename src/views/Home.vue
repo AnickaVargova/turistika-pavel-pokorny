@@ -7,7 +7,7 @@
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
-      <h2>Tento text je veden jako rozpracovaný:</h2>
+      <h2>Jediné, co funguje, jak má, je tlačítko  MOJE  RAJČE.</h2>
       <p>
          
         Naše webové stránky se zabývají regionální vlastivědou v Brně a okolí, turistikou a
@@ -122,12 +122,24 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: grid;
-    grid-template-columns: repeat(6, 20%);
-    grid-template-rows: repeat(14, 60px);
+    grid-template-columns: repeat(5, 1fr);
+    min-height: 100vh;
+    /* grid-template-rows: repeat(14, 60px); */
     margin: 0;
     padding: 0;
+    /* height: 100vh;
+     */
+  }
+
+  @media(min-width: 900px){
+    body {
     height: 100vh;
-    overflow: hidden;
+       }
+
+   #pozadi {
+     height: 100vh;
+     /* overflow: hidden; */
+   }
   }
 
   #uvodniText {
@@ -160,28 +172,30 @@
   }
 
   #pozadi {
-    grid-row: 1/15;
-    grid-column: 1/7;
+    grid-row-start: 1;
+    grid-column: 1/6;
+    grid-row-end: 40;
     width: 100vw;
-    height: 100vh;
-    display: grid;
+    /* height: 100vh; */
+    /* display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(40, 60px);
+    grid-template-rows: repeat(40, 60px); */
   }
 
   #pozadi img {
     grid-column: 1 / 7;
-    grid-row: 1 / 14;
-    height: 100vh;
+    /* grid-row: 1 / 14; */
+    
+    /* height: 100vh; */
     width: 100vw;
     object-fit: cover;
   }
 
   #transbox {
     grid-column: 1 / 7;
-    grid-row: 1 / 14;
+    grid-row: 1 / 40;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: rgba(160, 193, 221, 0.5);
     margin-right: 0;
   }
