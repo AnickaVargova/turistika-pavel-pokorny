@@ -7,15 +7,32 @@
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
+      <h2>Tento text je veden jako rozpracovaný:</h2>
       <p>
-        Až je dokončíme, najdete zde nejrůznější zajímavá místa v okolí Brna i
-        jinde. Jediné, co zatím funguje, jak má, je odkaz na Moje rajče.
+         
+        Naše webové stránky se zabývají regionální vlastivědou v Brně a okolí, turistikou a
+        cestováním po republice i po Evropě. Popisují pomníčky, smírčí kříže,
+        studánky a další objekty turistického zájmu v okruhu zhruba třiceti
+        kilometrů od Brna, tedy oblast vymezenou Vyškovem a Ždánicemi na
+        východě, Novomlýnskými nádržemi na jihu, Moravským Krumlovem, Náměští a
+        Velkou Bíteší na západě a Nedvědicemi a Boskovicemi na severu. Až na
+        výjimky se nalézají v přírodě, mimo zástavbu. Pomníky v intravilánu obcí
+        nehledáme. Návodem se pro nás stala Kniha o Jizerských horách od
+        Miloslava Nevrlého, která vyšla poprvé v roce 1978 a od té doby ještě
+        čtyřikrát. Navazovala na odvěkou touhu člověka hledat, nalézat,
+        objevovat. V osmdesátých letech jsme začali hledat pomníčky kolem Brna a
+        dosud nepřestali. Tehdy byly k dispozici jen nepřesné mapy a GPS ještě
+        nebylo vynalezeno. Počet těchto objektů přesahuje odhadem tisícovku a
+        mění se, některé přibývají, jiné zanikají. Doufáme, že tyto stránky se
+        mohou stát vaší inspirací k výletům a vyjížďkám do spanilého okolí
+        brněnského.
       </p>
     </div>
     <footer>
       <small
-        >&copy; <span>Copyright 2020&nbsp</span><a href="mailto:anna.vargova@seznam.cz?Subject=''"
-          > Anna Vargová</a
+        >&copy; <span>Copyright 2020&nbsp</span
+        ><a href="mailto:anna.vargova@seznam.cz?Subject=''">
+          Anna Vargová</a
         ></small
       >
     </footer>
@@ -116,6 +133,7 @@
   #uvodniText {
     justify-content: center;
     align-items: center;
+    line-height: 1.5;
     grid-column: 2 / 6;
     grid-row: 2 / 6;
     margin: 5%;
@@ -123,6 +141,11 @@
 
   #uvodniText h1 {
     font-size: 40px;
+  }
+
+   #uvodniText h2 {
+    font-family:  'Patrick Hand', cursive;
+    color: #2c3e50;
   }
 
   @media (max-width: 600px) {

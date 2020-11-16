@@ -723,7 +723,11 @@ export default {
           adresa:
             "http://www.slpkrtiny.cz/slp-krtiny/napsali-o-nas/vzpominkova-slavnost-a2118814",
         },
-        {nazev: 'Encyklopedie Brna  ', adresa:'https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=2007'},
+        {
+          nazev: "Encyklopedie Brna  ",
+          adresa:
+            "https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=2007",
+        },
       ],
       pozn:
         " Jaroslav Marcha, vlastním jménem Dominik Nejezchleb, byl rodák z Babic, žil v Brně. Spisovatel, novinář, politik. Poslanec i senátor za agrárníky v letech 1920-38. Politicky i literárně byl samouk. Napsal asi 20 knih. ",
@@ -735,6 +739,155 @@ export default {
       galerie: [{ fotka: "marcha.jpg", datum: "červen 2017" }],
 
       proMe: "XX/954   24-411-115 17--064 ",
+    },
+    {
+      id: 19,
+      kategorie: "pomnicky",
+      podkategorie: 11,
+      druh: " Literární  ",
+      okres: " Brno - venkov ",
+      obec: " Tvarožná ",
+      jmeno: " Kosmák, Václav  ",
+      nazev: " Kosmákův kříž ",
+      kdyVznikl:
+        " 1893 na památku loučení faráře Kosmáka s místními lidmi. Od té doby byl nejméně třikrát opravován. ",
+      popisCesty:
+        " JV od Tvarožné, 200 m za vsí, u silnice k motorestu Rohlenka. Na odbočce žluté značky.  ",
+      popis:
+        "Dřevěný vyřezávaný a zdobený kříž, vysoký asi 6 metrů. Vedle roste velký jeřáb břek.",
+      napis: "  1893  //  1943  ",
+      odkazy: [
+        {
+          nazev: " Tvarožná ",
+          adresa:
+            " https://www.tvarozna.cz/obec/vyznamne-pamatky-a-krajinne-prvky/kosmakuv-kriz  ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=196  ",
+        },
+      ],
+      pozn:
+        " Původní kříž vyřezal řezbář Plotěný z Jiříkovic, do dnešní doby z něj zbylo jen tělo Krista, ostatní dřevěné části byly nahrazeny. Václav Kosmák (1843 - 1898) byl v letech 1877 - 93 farářem ve Tvarožné a dal tu vystavět nynější kostel. Působil jako prozaik, povídkář a fejetonista, snažící se umravnit národ v náboženském a vlasteneckém duchu. Na konci 19. století byly jeho články a povídky velmi populární, zvláště na moravském venkově. ",
+
+      naposledObnoveno: "11.11.2020  ",
+      souradnice: "49.1876147N, 16.7664583E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/legelefoca" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/legelefoca",
+      galerie: [
+        { fotka: "kosmak1.jpg", datum: "prosinec 2012" },
+        { fotka: "kosmak2.jpg", datum: "prosinec 2019" },
+        { fotka: "kosmak3.jpg", datum: "prosinec 2019" },
+        { fotka: "kosmak4.jpg", datum: "prosinec 2019" },
+      ],
+      proMe: "V/152  24-431-30  19--121 12--122 ",
+    },
+    {
+      id: 20,
+      kategorie: "pomnicky",
+      podkategorie: 11,
+      druh: " Literární  ",
+      okres: " Brno - venkov ",
+      obec: " Bílovice nad Svitavou ",
+      jmeno: " Liška Bystrouška  ",
+      nazev: " Deska lišky Bystroušky ",
+      kdyVznikl:
+        " 30. 5. 1965 byla péčí bílovických občanů odhalena deska. Myslivna postavena v roce 1907 a Školní lesní podnik ji v roce 2007 citlivě zrekonstruoval do původní podoby. ",
+      popisCesty:
+        " Z Bílovic od mostu přes Svitavu 400 m k V údolím po lesní silničce “Červená”. Všeobecně známé místo.  ",
+      popis:
+        "Na průčelní stěně výstavné myslivny je vedle hlavy kapitálního jelena umístěna i bílá deska s nápisem.",
+      napis: " MYSLIVNA // LIŠKY // BYSTROUŠKY  ",
+      odkazy: [
+        {
+          nazev:
+            "Rudolf Těsnohlídek: Liška Bystrouška . 1. vyd. 1920, vyšlo asi patnáctkrát.",
+        },
+        { nazev: "Jindřich Uher: Argonauti z Moravy, 1987. " },
+      ],
+      pozn:
+        " Nedá se jednoznačně určit, že se Těsnohlídkův román o rozverné lišce odehrává v této nebo jiné konkrétní myslivně. Pravda ale je, že Těsnohlídek bydlel v Bílovicích v letech 1914 - 1924, okolí navštěvoval a dobře znal. V době, kdy se mu rozpadalo manželství, se seznámil s dcerou polesného Marienkou “Mici” Marií Kandlerovou, která žila v bílovické myslivně, byla inspiračním zdrojem nejlepších Těsnohlídkových próz a předobrazem samotné lišky Bystroušky. ",
+      naposledObnoveno: " 15.11.2020  ",
+      souradnice: "49.2458928N, 16.6798981E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/matedegose" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/matedegose ",
+      galerie: [
+        { fotka: "bystrouska1.jpg", datum: "prosinec 2017" },
+        { fotka: "bystrouska2.jpg", datum: "prosinec 2017" },
+      ],
+      proMe: "XX/999  24-413-99  17--122 ",
+    },
+
+    {
+      id: 21,
+      kategorie: "pomnicky",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - město ",
+      obec: " Dvorska ",
+      jmeno: " Kaláb, Zdeněk  ",
+      nazev: " Pomníček žokeje Kalába ",
+      kdyVznikl: " po roce 2010 ",
+      popisCesty:
+        " U silnice z Dvorsk do Tuřan na kraji obce Dvorska v rohu dostihové dráhy.  ",
+      popis:
+        "Malý pomníček mezi třemi tújemi. Deska z leštěného kamene vsazena do kamenného soklu. Na desce barevná fotka žokeje a text.",
+      napis:
+        " ZDENĚK  KALÁB // 27. 4. 1964   + 2. 5. 2010 // “AŤ  TI  KONĚ  JDOU” ",
+      odkazy: [
+        {
+          nazev: " Lidovky ",
+          adresa:
+            " https://www.lidovky.cz/lide/pohnute-osudy-klidas-kalab-zemrel-behem-dostihu-pod-telem-sveho-kone.A160525_210702_lide_ELE  ",
+        },
+      ],
+      pozn:
+        " Zdeněk Kaláb byl amatérský rovinový jezdec z Blažovic. Koně byly jeho životní láska, jezdil na nich už od deseti let. V roce 1999 si pořídil svého prvního koně, udělal si amatérskou licenci a začal jezdit dostihy. Občas i zvítězil. V letech 2007-08 nezávodil, jezdil jen rekreačně. Obnovil si licenci a vrátil se na dráhu v roce 2009. Ten den měl ve Dvorskách startovat ve čtyřech dostizích, s tříletým běloušem Richiem patřil k favoritům. Jel se rovinový dostih na 1900 m pro tříleté a starší koně. V poslední zatáčce ale kůň podklouzl, sesunul se k zemi a jezdce zalehl, přes ně přepadl další kůň. Byla to nešťastná náhoda, cizí zavinění nebylo shledáno. Kaláb byl s mnoha zraněními odvezen do nemocnice U svaté Anny, kde v noci zemřel. Na jeho počest se jezdí Memoriál Zdeňka Kalába. ",
+      naposledObnoveno: " 15.11.2020 ",
+      souradnice: "49.1426925N, 16.6981778E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/fenesobadu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/fenesobadu",
+
+      galerie: [
+        { fotka: "kalab1.jpg", datum: "listopad 2019" },
+        { fotka: "kalab2.jpg", datum: "listopad 2019" },
+        { fotka: "kalab3.jpg", datum: "listopad 2019" },
+      ],
+      proMe: "XX/1033  24-431-43  19--115 ",
+    },
+    {
+      id: 22,
+      kategorie: "pomnicky",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: " Popůvky ",
+      jmeno: " Bartl, Antonín  ",
+      nazev: " Pomník Antonína Bartla ",
+      kdyVznikl: " po roce 1955 ",
+      popisCesty:
+        " 1800 m ZSZ od středu Popůvek, na S straně silnice z Popůvek na Kývalku.  ",
+      popis:
+        "Přírodní plochý kámen vysoký 1,2 m zasazený do kamenného základu. Přední strana je ohlazená, je na ní fotka staršího muže a text. Kolem pomníku je ocelová ohrádka.",
+      napis:
+        " ZDE  ZEMŘEL  TRAGICKOU  SMRTÍ // PŘI  BUDOVÁNÍ  PLYNOVÉ  TRASY // NÁŠ  SPOLUPRACOVNÍK // ANTONÍN  BARTL //  + 11. 9. 1955 // ČEST  JEHO  PAMÁTCE // ZAMĚSTNANCI  DOPRAVY // N. P. OCELOSTAVBY  BRNO  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn: null,
+      naposledObnoveno: "  ",
+      souradnice: "49.1885494N, 16.4693444E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/meguhatola" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/meguhatola",
+
+      galerie: [
+        { fotka: "bartl1.jpg", datum: "listopad 2018" },
+        { fotka: "bartl2.jpg", datum: "listopad 2018" },
+      ],
+      proMe: "V/179  24-341-41  18--112 ",
     },
 
     {
