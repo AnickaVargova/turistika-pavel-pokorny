@@ -141,7 +141,7 @@
   #pomnicky {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    min-height: 100vw;
+    min-height: 100vh;
   }
 
   #pomnicky h1 {
@@ -158,6 +158,8 @@
     margin: 20px;
     margin-bottom: 0;
   }
+
+  
 
   @media screen and (max-width: 600px) {
     #pomnicky {
@@ -188,12 +190,16 @@
 
   .pomnickyNavigace {
     grid-column: 1/2;
-    grid-row: 1/16;
+    grid-row: 1/17;
     margin: 23px;
     display: flex;
     flex-direction: column;
+    
   }
 
+ 
+
+    
   p.responsive,
   h1.responsive {
     display: none;
@@ -203,7 +209,7 @@
     flex-basis: 100px;
     border: 2px solid black;
     margin: 3px;
-    height: 30px;
+    height: 40px;
     font-weight: bold;
     color: black;
     border-radius: 10px;
@@ -216,6 +222,8 @@
     box-shadow: 5px 2px 2px #395250;
     background-color: #6bc5aa;
     font-size: 13px;
+    min-width: 95%;
+    max-width: 170px;
   }
 
   .active {
@@ -251,12 +259,17 @@
   #domu {
     background-color: mediumturquoise;
     margin-bottom: 20px;
-    min-width: 80px;
+    min-width: 95%;
+    max-width: 170px;
+    height: 30px;
+
   }
 
   @media (max-width: 600px) {
     #domu {
+     
       min-width: 100px;
+      max-width: 150px;
       margin-bottom: 70px;
     }
   }

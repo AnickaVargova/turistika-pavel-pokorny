@@ -56,11 +56,14 @@
 
   #domuOnas {
     margin: 20px;
-    width: 80px;
+    width: 80px ;
     height: 20px;
     background-color: mediumturquoise;
   }
 
+  #onas .pomnicekKategorie {
+    min-width: 0;
+  }
   
   #domuOnas:hover {
     color: #13131d;
