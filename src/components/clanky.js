@@ -889,6 +889,76 @@ export default {
       ],
       proMe: "V/179  24-341-41  18--112 ",
     },
+    {
+      id: 23,
+      kategorie: "pomnicky",
+      podkategorie: 10,
+      druh: " Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: " Babice nad Svitavou ",
+      jmeno: " Malá sfinga  ",
+      nazev: " Malá sfinga ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " 1300 m VSV od kostela v Adamově, 200 m od rozcestí U sedmi dubů, pod pěšinou značenou zeleně a červeně. Hůře se hledá.  ",
+      popis:
+        "Ze svahu vystupuje drobná skalka vysoká 0,8 metru, ze strany do údolí je vytesána do kamene tvář ženy. Amatérská kamenická práce.",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa: " https://www.adamovaokoli.cz/pamatniky/mala_sfinga.html  ",
+        },
+        {
+          nazev: " Jiří Truhlář: Památníky adamovských lesů. 2003. str. 172 ",
+        },
+      ],
+      pozn: " Tvůrcem sfingy je místní amatérský sochař František Rychlík. ",
+      naposledObnoveno: " 16.11.2020 ",
+      souradnice: "49.3031192N, 16.6629422E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/pazonefoca" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/pazonefoca",
+      galerie: [
+        { fotka: "sfinga1.jpg", datum: "únor 2019" },
+        { fotka: "sfinga2.jpg", datum: "únor 2019" },
+      ],
+      proMe: "XV/543    24-322-79    19--022 ",
+    },
+    {
+      id: 24,
+      kategorie: "pomnicky",
+      podkategorie: 10,
+      druh: " Sochy v přírodě  ",
+      okres: " Brno - venkov  ",
+      obec: " Lažánky ",
+      jmeno: " svatý Hubert lažánecký  ",
+      nazev: " Socha svatého Huberta u Lažánek ",
+      kdyVznikl: " slavnostně vysvěcen 9. 10. 2011 ",
+      popisCesty:
+        " 2300 m S od Lažánek, v Maršovském žlebu poblíž lovecké chaty U javora.  ",
+      popis:
+        "Pískovcový hranol vysoký 2,5 metru. V horní části vystupuje v hlubokém reliéfu hlava jelena s křížkem a hlava svatého Huberta.",
+      napis: " SV.  HUBERT  ",
+      odkazy: [
+        {
+          nazev: " farnost Lažánky ",
+          adresa:
+            " http://nasefarnosti.cz/pls/fwz/fwg_idx.idx?p_oblast_id=3&p_cs_id=7496&p_pc=&p_den= ",
+        },
+      ],
+      pozn:
+        " svatý Hubert je patronem všech myslivců. Socha je signovaná MJ MMXI. Vytvořil ji sochař a restaurátor Jiří Marek z Medlova roku 2011 ",
+      naposledObnoveno: " 16.11.2020 ",
+      souradnice: "49.2999642N, 16.3973200E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/jarujocara" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/jarujocara ",
+      galerie: [
+        { fotka: "hubert1.jpg", datum: "srpen 2019" },
+        { fotka: "hubert2.jpg", datum: "srpen 2019" },
+      ],
+      proMe: "XX/1022  24-321-68  19--085 ",
+    },
 
     {
       id: 100,
