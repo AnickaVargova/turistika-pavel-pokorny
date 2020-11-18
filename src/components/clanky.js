@@ -959,6 +959,82 @@ export default {
       ],
       proMe: "XX/1022  24-321-68  19--085 ",
     },
+    {
+      id: 25,
+      kategorie: "pomnicky",
+      podkategorie: 10,
+      druh: " Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: " Ivančice ",
+      jmeno: " Padlý cyklista  ",
+      nazev: " Pomník neznámému padlému cyklistovi ",
+      kdyVznikl: " 2016 ",
+      popisCesty:
+        " 2 km od kostela v Ivančicích na nově zřízené cyklostezce z Ivančic do Oslavan u můstku přes Jihlavku.   ",
+      popis:
+        "Recesně pojaté sochařské dílo. Umělecky ztvárněný kostitřas vysoký 1,8 m ze dřeva a železa, před ním dřevěná postava zanořená do země a dřevěný sloupek s textem.",
+      napis:
+        " Na kostitřasu : POMNÍK // NEZNÁMÉMU  PADLÉMU // CYKLISTOVI … Na sloupku : MILOŠI // JÁ  JSEM // TI  ŘÍKALA // NEJEZDI // TAK // RYCHLE // VYBOURÁŠ // SE … // MARTA   ",
+      odkazy: [
+        {
+          nazev: " Ivančická zastavení ",
+          adresa:
+            " https://ivancice.colosseum.eu/index.php/cs/informace-pro-turisty/ivancicka-zastaveni/336-zastaveni-pomnik-padlemu-cyklistovi ",
+        },
+      ],
+      pozn:
+        " Autorem sochy je ivančický sochař a řezbář Josef Zahradník. Socha patří do souboru jedenácti ivančických zastavení ozvláštňujících okolí města. Nápis na sloupku se vztahuje k oslavanskému místostarostovi Miloši Musilovi, který se zasadil o zřízení cyklostezky v roce 2015. ",
+      naposledObnoveno: " 17.11.2020 ",
+      souradnice: "49.1081128N, 16.3506286E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/dulovajuma" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/dulovajuma",
+      galerie: [
+        { fotka: "cyklista1.jpg", datum: "duben 2019" },
+        { fotka: "cyklista2.jpg", datum: "duben 2019" },
+        { fotka: "cyklista3.jpg", datum: "duben 2019" },
+      ],
+      proMe: " XX/1006  24-343-57  19--047 ",
+    },
+
+    {
+      id: 26,
+      kategorie: "pomnicky",
+      podkategorie: 12,
+      druh: " Jeskyňářské  ",
+      okres: " Blansko ",
+      obec: " Habrůvka ",
+      jmeno: " Marie Terezie ",
+      nazev: " Dvě historické desky v Býčí skále ",
+      kdyVznikl: " po roce 1801 a v roce 1804 ",
+      popisCesty:
+        " V jeskyni Býčí skála v Josefovském údolí a tehdy nejzazším konci jeskyně před Šenkovým sifonem, asi 300 m od vchodu.  ",
+      popis:
+        "Na ohlazené skalní stěně je knížecí erb a v něm německý text, uvádějící, že lichtenštejnský kníže Alois Josef navštívil tato místa v letech 1792, 1797 a 1801. Naproti je druhá deska psaná latinsky o přítomnosti Františka II., císaře rakouského, a jeho manželky císařovny Marie Terezie.",
+      napis: " viz odkazy",
+      odkazy: [
+        {
+          nazev: " Býčí skála ",
+          adresa:
+            " https://www.byciskala.cz/MaRS/index.php?show=clanek&id=67  ",
+        },
+        {
+          nazev: "Jiří Truhlář: Památníky adamovských lesů, 2003, str. 152-154",
+        },
+      ],
+      pozn: " Jeskyně bývá přístupná veřejnosti jedenkrát ročně v červnu.  ",
+      naposledObnoveno: " 17.11.2020 ",
+      souradnice: "49.3074614N, 16.6947844E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/dugugupolo" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/dugugupolo",
+      galerie: [
+        { fotka: "bycina1.jpg", datum: "červen 2017" },
+        { fotka: "bycina2.jpg", datum: "červen 2017" },
+      ],
+
+      proMe: "XX/975   24-411-130   18--064 ",
+    },
 
     {
       id: 100,
