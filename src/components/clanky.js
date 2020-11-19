@@ -60,15 +60,16 @@ export default {
           datum: "prosinec 2017",
         },
         {
-          fotka: "grabner2.jpg",
-          popisek: "Leopold Grabner",
-          datum: "prosinec 2017",
-        },
-        {
           fotka: "grabner3.jpg",
           popisek: "Leopold Grabner",
           datum: "prosinec 2017",
         },
+        {
+          fotka: "grabner2.jpg",
+          popisek: "Leopold Grabner",
+          datum: "prosinec 2017",
+        },
+        
       ],
     },
     {
@@ -102,15 +103,16 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/duhosocana",
       galerie: [
         {
-          fotka: "dolezal1.jpg",
-          popisek: "Bohumil Doležal",
-          datum: "březen 2017",
-        },
-        {
           fotka: "dolezal2.jpg",
           popisek: "Bohumil Doležal",
           datum: "březen 2017",
         },
+        {
+          fotka: "dolezal1.jpg",
+          popisek: "Bohumil Doležal",
+          datum: "březen 2017",
+        },
+        
       ],
     },
     {
@@ -219,15 +221,16 @@ export default {
       longitude: 16.7640458,
       galerie: [
         {
-          fotka: "padLetadla1.jpg",
-          popisek: "Pád letadla",
-          datum: "listopad 2019",
-        },
-        {
           fotka: "padLetadla2.jpg",
           popisek: "Pád letadla",
           datum: "listopad 2019",
         },
+        {
+          fotka: "padLetadla1.jpg",
+          popisek: "Pád letadla",
+          datum: "listopad 2019",
+        },
+      
       ],
       proMe: "XX/1034 24-431-44 2019---115",
     },
@@ -285,15 +288,16 @@ export default {
           datum: "prosinec 2019",
         },
         {
-          fotka: "pavlisovi2.jpg",
-          popisek: "Křížky Pavlišovy rodiny",
-          datum: "prosinec 2019",
-        },
-        {
           fotka: "pavlisovi3.jpg",
           popisek: "Křížky Pavlišovy rodiny",
           datum: "prosinec 2019",
         },
+        {
+          fotka: "pavlisovi2.jpg",
+          popisek: "Křížky Pavlišovy rodiny",
+          datum: "prosinec 2019",
+        },
+       
       ],
       proMe: "XX/1037 24-431-52 19--123",
     },
@@ -322,15 +326,16 @@ export default {
 
       galerie: [
         {
-          fotka: "navesnik1.jpg",
-          popisek: "Michal Návesník",
-          datum: "říjen 2018",
-        },
-        {
           fotka: "navesnik2.jpg",
           popisek: "Michal Návesník",
           datum: "říjen 2018",
         },
+        {
+          fotka: "navesnik1.jpg",
+          popisek: "Michal Návesník",
+          datum: "říjen 2018",
+        },
+       
       ],
       proMe: "XX/985 24-141-43 2018--105",
     },
@@ -450,15 +455,16 @@ export default {
 
       galerie: [
         {
-          fotka: "stromPratelstvi1.jpg",
-          popisek: "Strom přátelství u Jiříkovic",
-          datum: "prosinec 2019",
-        },
-        {
           fotka: "stromPratelstvi2.jpg",
           popisek: "Strom přátelství u Jiříkovic",
           datum: "prosinec 2019",
         },
+        {
+          fotka: "stromPratelstvi1.jpg",
+          popisek: "Strom přátelství u Jiříkovic",
+          datum: "prosinec 2019",
+        },
+     
       ],
       proMe: " XX/1035  24-431-49  19--121 ",
     },
@@ -491,20 +497,22 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/napabupebu",
       galerie: [
         {
-          fotka: "bitvaPrace1.jpg",
+          fotka: "bitvaPrace3.jpg",
           popisek: "Pomník bitvě v Prace",
           datum: "březen 2019",
         },
+       
         {
           fotka: "bitvaPrace2.jpg",
           popisek: "Pomník bitvě v Prace",
           datum: "březen 2019",
         },
         {
-          fotka: "bitvaPrace3.jpg",
+          fotka: "bitvaPrace1.jpg",
           popisek: "Pomník bitvě v Prace",
           datum: "březen 2019",
         },
+     
       ],
 
       proMe: " XX/997  24-431-38  19--031  ",
@@ -540,15 +548,16 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/buzomozotu",
       galerie: [
         {
-          fotka: "velatickeDeti1.jpg",
-          popisek: "Pomník třem zahynulým dětem z Velatic",
-          datum: "prosinec 2019",
-        },
-        {
           fotka: "velatickeDeti2.jpg",
           popisek: "Pomník třem zahynulým dětem z Velatic",
           datum: "prosinec 2019",
         },
+        {
+          fotka: "velatickeDeti1.jpg",
+          popisek: "Pomník třem zahynulým dětem z Velatic",
+          datum: "prosinec 2019",
+        },
+        
       ],
       proMe: " X/302 24-        19---123 ",
     },
@@ -624,15 +633,16 @@ export default {
       odkazMapa: " https://frame.mapy.cz/s/lopazukaha   ",
       galerie: [
         {
-          fotka: "dankuvKriz1.jpg",
-          popisek: "Daňkův kříž ",
-          datum: "prosinec 2019",
-        },
-        {
           fotka: "dankuvKriz2.jpg",
           popisek: "Daňkův kříž ",
           datum: "prosinec 2019",
         },
+        {
+          fotka: "dankuvKriz1.jpg",
+          popisek: "Daňkův kříž ",
+          datum: "prosinec 2019",
+        },
+      
       ],
       proMe: "XX/1038  24-431-8   19/123  ",
     },
@@ -666,8 +676,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/kenumugavu" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/kenumugavu ",
       galerie: [
-        { fotka: "kalovi1.jpg", datum: "březen 2012" },
         { fotka: "kalovi2.jpg", datum: "březen 2012" },
+        { fotka: "kalovi1.jpg", datum: "březen 2012" },
+       
       ],
 
       proMe: "XVIII/723  24-233-60  12--031  ",
@@ -696,8 +707,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/cenucuhoge" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/cenucuhoge",
       galerie: [
-        { fotka: "smutna1.jpg", datum: "červen 2020" },
         { fotka: "smutna2.jpg", datum: "červen 2020" },
+        { fotka: "smutna1.jpg", datum: "červen 2020" },
+        
       ],
       proMe: "XV/530  24-314-21  20--062 ",
     },
@@ -777,10 +789,13 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/legelefoca" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/legelefoca",
       galerie: [
-        { fotka: "kosmak1.jpg", datum: "prosinec 2012" },
-        { fotka: "kosmak2.jpg", datum: "prosinec 2019" },
+        { fotka: "kosmak4.jpg", datum: "prosinec 2012" },
         { fotka: "kosmak3.jpg", datum: "prosinec 2019" },
-        { fotka: "kosmak4.jpg", datum: "prosinec 2019" },
+        { fotka: "kosmak2.jpg", datum: "prosinec 2019" },
+        { fotka: "kosmak1.jpg", datum: "prosinec 2019" },
+        
+       
+       
       ],
       proMe: "V/152  24-431-30  19--121 12--122 ",
     },
@@ -815,8 +830,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/matedegose" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/matedegose ",
       galerie: [
-        { fotka: "bystrouska1.jpg", datum: "prosinec 2017" },
         { fotka: "bystrouska2.jpg", datum: "prosinec 2017" },
+        { fotka: "bystrouska1.jpg", datum: "prosinec 2017" },
+       
       ],
       proMe: "XX/999  24-413-99  17--122 ",
     },
@@ -853,9 +869,11 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/fenesobadu",
 
       galerie: [
-        { fotka: "kalab1.jpg", datum: "listopad 2019" },
-        { fotka: "kalab2.jpg", datum: "listopad 2019" },
         { fotka: "kalab3.jpg", datum: "listopad 2019" },
+        { fotka: "kalab2.jpg", datum: "listopad 2019" },
+        { fotka: "kalab1.jpg", datum: "listopad 2019" },
+      
+        
       ],
       proMe: "XX/1033  24-431-43  19--115 ",
     },
@@ -884,8 +902,9 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/meguhatola",
 
       galerie: [
-        { fotka: "bartl1.jpg", datum: "listopad 2018" },
         { fotka: "bartl2.jpg", datum: "listopad 2018" },
+        { fotka: "bartl1.jpg", datum: "listopad 2018" },
+        
       ],
       proMe: "V/179  24-341-41  18--112 ",
     },
@@ -919,8 +938,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/pazonefoca" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/pazonefoca",
       galerie: [
-        { fotka: "sfinga1.jpg", datum: "únor 2019" },
         { fotka: "sfinga2.jpg", datum: "únor 2019" },
+        { fotka: "sfinga1.jpg", datum: "únor 2019" },
+        
       ],
       proMe: "XV/543    24-322-79    19--022 ",
     },
@@ -954,8 +974,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/jarujocara" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/jarujocara ",
       galerie: [
-        { fotka: "hubert1.jpg", datum: "srpen 2019" },
         { fotka: "hubert2.jpg", datum: "srpen 2019" },
+        { fotka: "hubert1.jpg", datum: "srpen 2019" },
+       
       ],
       proMe: "XX/1022  24-321-68  19--085 ",
     },
@@ -990,9 +1011,10 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/dulovajuma" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/dulovajuma",
       galerie: [
-        { fotka: "cyklista1.jpg", datum: "duben 2019" },
+      
         { fotka: "cyklista2.jpg", datum: "duben 2019" },
         { fotka: "cyklista3.jpg", datum: "duben 2019" },
+        { fotka: "cyklista1.jpg", datum: "duben 2019" },
       ],
       proMe: " XX/1006  24-343-57  19--047 ",
     },
@@ -1029,8 +1051,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/dugugupolo" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/dugugupolo",
       galerie: [
-        { fotka: "bycina1.jpg", datum: "červen 2017" },
         { fotka: "bycina2.jpg", datum: "červen 2017" },
+        { fotka: "bycina1.jpg", datum: "červen 2017" },
+       
       ],
 
       proMe: "XX/975   24-411-130   18--064 ",
@@ -1090,8 +1113,9 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/pufuzanuje" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: " https://frame.mapy.cz/s/pufuzanuje",
       galerie: [
-        { fotka: "brazda1.jpg", datum: "listopad 2018" },
+        
         { fotka: "brazda2.jpg", datum: "listopad 2018" },
+        { fotka: "brazda1.jpg", datum: "duben 2020" },
       ],
       proMe: " XI/341  24-323-12  20---044 18---112 ",
     },
@@ -1126,10 +1150,11 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/gocejesoce" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/gocejesoce",
       galerie: [
-        { fotka: "spacil1.jpg", datum: "" },
-        { fotka: "spacil2.jpg", datum: "" },
+        { fotka: "spacil2.jpg", datum: "září 2018" },
+        { fotka: "spacil1.jpg", datum: "září 2018" },
+       
       ],
-      proMe: "",
+      proMe: "XX/982   24-412-30   18--091",
     },
     {
       id: 30,
@@ -1160,12 +1185,13 @@ export default {
       souradnice: "49.3140400N, 16.9073100E",
       kodMapa:
         '<iframe style="border:none" src="https://frame.mapy.cz/s/nujazuhebe" width="400" height="280" frameborder="0"></iframe>',
-      odkazMapa: 'https://frame.mapy.cz/s/nujazuhebe',
+      odkazMapa: "https://frame.mapy.cz/s/nujazuhebe",
       galerie: [
-        { fotka: "strajtova1.jpg", datum: "září 2018" },
-        { fotka: "strajtova2.jpg", datum: "září 2018" },
-
         { fotka: "strajtova3.jpg", datum: "září 2018" },
+        { fotka: "strajtova2.jpg", datum: "září 2018" },
+        { fotka: "strajtova1.jpg", datum: "září 2018" },
+
+        
       ],
       proMe: " VIII/ 242  24-412-7   18--091 ",
     },
