@@ -30,7 +30,7 @@
           { id: 11, nazev: "Literární" },
           { id: 12, nazev: "Jeskyňářské" },
           { id: 13, nazev: "Trampské objekty" },
-          { id: 14, nazev: "Liechtensteinské" },
+          { id: 14, nazev: "Lichtenštejnské" },
           { id: 15, nazev: "Církevní" },
           { id: 16, nazev: "Jiné nezařaditelné" },
           { id: 17, nazev: "Zaniklé" },

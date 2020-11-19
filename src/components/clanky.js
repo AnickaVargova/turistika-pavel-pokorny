@@ -1195,6 +1195,64 @@ export default {
       ],
       proMe: " VIII/ 242  24-412-7   18--091 ",
     },
+    {
+      id: 31,
+      kategorie: 'pomnicky',
+      podkategorie: 14,
+      druh: ' Lichtenštejnské  ',
+      okres:' Vyškov  ',
+      obec: 'Bučovice  ',
+      jmeno: ' Jan II z Lichtenštejna  ',
+      nazev: ' Poděkování Janu z Lichtenštejna ',
+      kdyVznikl:   ' 1898 ', 
+      popisCesty: ' 300 metrů S od kostela v Bučovicích na zalesněném kopci, který byl kdysi parkem.  ',
+      popis: 'Kamenný pomník vysoký 1,8 metru, zužující se hranol. Na přední straně je text, vytesaný do kamene.',
+      napis: ' VDĚČNÝ  LID // MĚSTA // BUČOVIC // SVÉMU  DOBRODINCI // JEHO  JASNOSTI // KNÍŽETI // JANU //  Z  // LIECHTENSTEINU // ZAKLADATELI  TĚCHTO  SADŮ // 1898.  ',
+      odkazy:[{nazev: ' euweb ', adresa:' http://www.jubilejnikameny.euweb.cz/bucovicezdanice/bucovice.html '}],
+      pozn: '  ',
+      naposledObnoveno : ' 19.11.2020 ',
+      souradnice: '49.1540617N, 17.0029914E',
+      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/gemazokare" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: 'https://frame.mapy.cz/s/gemazokare',
+      galerie: 
+      [ {fotka: 'lichtenstein1.jpg' , datum: 'květen 2019'},
+      {fotka: 'lichtenstein2.jpg' , datum: 'květen 2019'},
+      ],
+      proMe:' XX/1010 24-432-36  19---051 ',
+      
+      },
+      {
+        id: 32,
+        kategorie: 'pomnicky',
+        podkategorie: 14,
+        druh: ' Lichtenštejnské  ',
+        okres:' Hodonín ',
+        obec: ' Žarošice ',
+        jmeno: ' Jan II z Lichtenštejna  ',
+        nazev: ' Žarošický lichtenštejnský památník ',
+        kdyVznikl:   ' V roce 2015 byl přemístěn a rekonstruován. Na původním místě zbudován v roce 1898. ', 
+        popisCesty: ' 4,4 km S od Žarošic, 250 m od rozcestí U andělíčka, na odbočující rozsoše na Starou horu. Vede tu žlutá značka. ',
+        popis: 'Nově zrekonstruovaný památník na novém místě. Na soklu vyzděném z lomového kamene spočívá kopie původního kamene se začištěnou přední stěnou a stručným textem v němčině.',
+        napis: '  L  JÄHR.  REG.  JUBIL.  MCMVIII , v překladu:  padesátileté výročí vlády 1908  ',
+        odkazy:[{nazev: '  ', adresa:'  '}],
+        pozn: ' Tuto kamennou desku zhotovil hostěnický kameník Jan Šlof. Původní stanoviště památníku bylo nedaleko. Hlavní deska ke 40. výročí vlády knížete Jana se nezachovala. ',
+        naposledObnoveno : ' 18.11.2020 ',
+        souradnice: '49.0836286N, 16.9729703E',
+        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/natebotugo" width="400" height="280" frameborder="0"></iframe>',
+        odkazMapa: 'https://frame.mapy.cz/s/natebotugo ',
+        galerie:
+        
+         [ {fotka: 'zarosice.jpg' , datum: 'květen 2016'},
+        
+        ],
+        
+        proMe:' XIX/906  24-434-18  16---052 ',
+        
+        },
+        
+        
+      
+      
 
     {
       id: 100,
