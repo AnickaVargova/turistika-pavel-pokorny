@@ -20,13 +20,7 @@
             frameborder="0"
           ></iframe> -->
 
-          <!-- <iframe
-            style="border:none"
-            v-bind:src="`https://frame.mapy.cz/s/${clanek.klicoveSlovo}`"
-            width="400"
-            height="280"
-            frameborder="0"
-          ></iframe> -->
+         
 
            <iframe style="border:none" v-bind:src="clanek.odkazMapa" width="400" height="280" frameborder="0"></iframe>
 

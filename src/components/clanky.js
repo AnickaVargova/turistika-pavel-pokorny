@@ -1035,6 +1035,140 @@ export default {
 
       proMe: "XX/975   24-411-130   18--064 ",
     },
+    {
+      id: 27,
+      kategorie: "pomnicky",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - venkov  ",
+      obec: " Hostěnice ",
+      jmeno: " Bajer, Jan  ",
+      nazev: " Bajerova památka ",
+      kdyVznikl: " po roce 1902 ",
+      popisCesty:
+        " 2 km V od kaple v Hostěnicích, v údolí Hostěnického potoka, 100 m od chaty Jelenice u lesní silničky.  ",
+      popis:
+        "Tlustá dřevěná deska nahoře zašpičatělá, neuměle překrytá plechem. Výška 40 cm.  Do ní vypálen křížek a neumělý text. Přibito na stromě.",
+      napis:
+        " ZDE  TRAGICKY  ZEMŘEL // PŘI  SVÁŽENÍ  DŘEVA // DNE  27. 11. 1902 // JAN  BAJER // Z  HOSTĚNIC  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn: null,
+      naposledObnoveno: " 18.11.2020 ",
+      souradnice: "49.2402008N, 16.8020814E",
+      kodMapa:
+        '<iframe style="border:none" src="c" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/kudapehafe",
+      galerie: [{ fotka: "bajer.jpg", datum: "listopad 2019" }],
+      proMe: " XX/1032  24-413-04  19---111 ",
+    },
+    {
+      id: 28,
+      kategorie: "pomnicky",
+      podkategorie: 8,
+      druh: " Lovecké a pytlácké  ",
+      okres: " Brno - město ",
+      obec: " Žebětín ",
+      jmeno: " Brázda  ",
+      nazev: " Kříž hajného Brázdy ",
+      kdyVznikl: " po roce 1892 ",
+      popisCesty:
+        " 2 km JZ od kostela v Žebětíně, ve svahu spadajícím k S, nad přírodní památkou Augšperský potok, u cesty.  ",
+      popis:
+        "Dřevěný solidně udělaný dřevěný kříž vysoký 4 metry, zasazený do betonového základu. Byl rekonstruován na podzim roku 2006. Původní kříž  byl v devadesátých letech velmi sešlý a v mladém smrkovém lese skoro neviditelný. Byla na něm zašlá smaltovaná tabulka zřejmě s datem tragédie.",
+      napis: " Bez nápisu. Na původním kříži  bylo datum  23. 9. 1892.  ",
+      odkazy: [
+        {
+          nazev: " Žebětín ",
+          adresa: " http://vilemwalter.cz/dsa/zebetin.htm ",
+        },
+      ],
+      pozn:
+        " Na tomto místě byl hajný Brázda údajně zastřelen pytlákem. Vrah nebyl nikdy dopaden. ",
+      naposledObnoveno: " 18.11.2020 ",
+      souradnice: "49.1967522N, 16.4640589E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/pufuzanuje" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: " https://frame.mapy.cz/s/pufuzanuje",
+      galerie: [
+        { fotka: "brazda1.jpg", datum: "listopad 2018" },
+        { fotka: "brazda2.jpg", datum: "listopad 2018" },
+      ],
+      proMe: " XI/341  24-323-12  20---044 18---112 ",
+    },
+    {
+      id: 29,
+      kategorie: "pomnicky",
+      podkategorie: 8,
+      druh: " Lovecké a pytlácké  ",
+      okres: " Vyškov ",
+      obec: " Račice ",
+      jmeno: " Spáčil, Oto  ",
+      nazev: " Pomník Oty Spáčila ",
+      kdyVznikl: " po 2013 ",
+      popisCesty:
+        " 3 km SZ od zámku v Račicích v Rakoveckém údolí, nedaleko Dvora Pastviny. Leží na cyklotrase.  ",
+      popis:
+        "Kamenný památník události, o které se hodně mluvilo, je 1,2 metru vysoký, z lomového vrstevnatého kamene. Nahoře je oválný obrázek mladého muže s fotoaparátem, níže leštěná deska s dlouhým textem.",
+      napis:
+        " V  TĚCHTO  MÍSTECH  DNE  4. 8. 2013 // VINOU  NEZODPOVĚDNÉHO  MYSLIVCE // TRAGICKY  ZEMŘEL  VE  VĚKU  29  LET // OTO  SPÁČIL // ...  ",
+      odkazy: [
+        {
+          nazev: " idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/zpravy/myslivec-ktery-misto-srny-zastrelil-muze-byl-obvinen.A131002_091224_brno-zpravy_Ka1 ",
+        },
+      ],
+      pozn:
+        " V letním večeru vyrazili dva kamarádi bivakovat do Rakoveckého údolí. Spali na poli pod širákem. K ránu proběhla kolem nich vyplašená srna. Spáčil se posadil a pohyb uviděl 38letý myslivec, který se vracel z neúspěšné čekané. Prý to byl začátečník a navíc měl něco vypito. Vypálil do tmy z kulovnice a zasáhl Spáčila. Jeho kamarád rozsvítil čelovku a volal o pomoc. Bylo ale pozdě. Myslivec porušil zásadu, že může střílet jen na jasně identifikovaný cíl. Za usmrcení z nedbalosti dostal trest 38 měsíců.",
+      naposledObnoveno: " 18.11.2020 ",
+      souradnice: "49.2995228N, 16.8454189E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/gocejesoce" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/gocejesoce",
+      galerie: [
+        { fotka: "spacil1.jpg", datum: "" },
+        { fotka: "spacil2.jpg", datum: "" },
+      ],
+      proMe: "",
+    },
+    {
+      id: 30,
+      kategorie: "pomnicky",
+      podkategorie: 8,
+      druh: " Lovecké a pytlácké  ",
+      okres: " Vyškov ",
+      obec: " Ježkovice ",
+      jmeno: " Štrajtová, Vlasta  ",
+      nazev: " Pomník Vlasty Štrajtové ",
+      kdyVznikl: " po 1957 ",
+      popisCesty:
+        " 2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na malém návrší blízko modré značky.  ",
+      popis:
+        "Důkladný pomník vyzděný z kamenů se sedlovou střechou je vysoký 2,2 metru.   V jeho štítu je fotografie mladé ženy a pod ní tmavá deska s křížkem a obsáhlým textem.",
+      napis:
+        " DNE  5/11 1957  ODEŠLA  Z  TOHOTO  MÍSTA // DO VĚČNÝCH  LOVIŠŤ  USMRCENA  JELENEM // NAŠE  PŘÍTELKYNĚ // VLASTA  ŠTRAJTOVÁ // NAR. 19. 3. 1922  Z  JEŽKOVIC // ...  ",
+      odkazy: [
+        {
+          nazev: " geocaching ",
+          adresa:
+            " https://www.geocaching.com/geocache/GC40PEV_vlasta-strajtova?guid=27507cdf-505b-4354-8f25-ebcdd4bf4c2b ",
+        },
+      ],
+      pozn:
+        " Byla to nešťastná událost. Několik honců, mezi nimi většina žen, nadhánělo zvěř. Když Vlasta přišla k houštině, musela se předklonit, aby prošla. V houštině spal jelen a když vyskočil, bodl ji parožím do krku. Několik kroků ji vlekl, než ji odhodil. Poranil jí krční tepnu. Bylo po honu. Ženy se snažily zastavit silné krvácení, dva muži běželi do vsi pro pomoc, jiní vyrobili nosítka aby mohli nebohou odnést na kraj lesa. Tam už dorazil lékař, který ale jen konstatoval smrt vykrvácením. Po paní Štrajtové zůstaly dvě malé děti. ",
+      naposledObnoveno: " 18.11.2020 ",
+      souradnice: "49.3140400N, 16.9073100E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/nujazuhebe" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: 'https://frame.mapy.cz/s/nujazuhebe',
+      galerie: [
+        { fotka: "strajtova1.jpg", datum: "září 2018" },
+        { fotka: "strajtova2.jpg", datum: "září 2018" },
+
+        { fotka: "strajtova3.jpg", datum: "září 2018" },
+      ],
+      proMe: " VIII/ 242  24-412-7   18--091 ",
+    },
 
     {
       id: 100,

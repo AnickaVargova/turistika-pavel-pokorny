@@ -21,7 +21,7 @@
       <div
         v-for="kategorie in params.kategoriePomnicky"
         v-bind:key="kategorie.id"
-        v-on:click="handleClick(kategorie.id)"
+        v-on:click="handleClick(kategorie)"
       >
         <router-link v-bind:to="`/${params.stranka}/${kategorie.id}`">
           <div
@@ -82,13 +82,16 @@
     },
 
     methods: {
-      handleClick(id) {
+      handleClick(kategorie) {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
             clanek.kategorie === this.params.stranka &&
-            clanek.podkategorie == id
+            clanek.podkategorie == kategorie.id
         );
-        this.vybraneId = id;
+        this.vybraneId = kategorie.id;
+        for(let clanek of this.clankyPodKategorie){
+          clanek.druh = kategorie.nazev;
+        }
         if (this.clankyPodKategorie.length === 0) {
           this.clankyPodKategorie = null;
         }
@@ -124,6 +127,7 @@
           clanek.kategorie === this.params.stranka &&
           clanek.podkategorie == this.$route.params.kategorie
       );
+
       this.seradClanky();
 
       this.vybraneId = this.$route.params.kategorie;
