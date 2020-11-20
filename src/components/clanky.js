@@ -69,7 +69,6 @@ export default {
           popisek: "Leopold Grabner",
           datum: "prosinec 2017",
         },
-        
       ],
     },
     {
@@ -112,7 +111,6 @@ export default {
           popisek: "Bohumil Doležal",
           datum: "březen 2017",
         },
-        
       ],
     },
     {
@@ -230,7 +228,6 @@ export default {
           popisek: "Pád letadla",
           datum: "listopad 2019",
         },
-      
       ],
       proMe: "XX/1034 24-431-44 2019---115",
     },
@@ -297,7 +294,6 @@ export default {
           popisek: "Křížky Pavlišovy rodiny",
           datum: "prosinec 2019",
         },
-       
       ],
       proMe: "XX/1037 24-431-52 19--123",
     },
@@ -335,7 +331,6 @@ export default {
           popisek: "Michal Návesník",
           datum: "říjen 2018",
         },
-       
       ],
       proMe: "XX/985 24-141-43 2018--105",
     },
@@ -464,7 +459,6 @@ export default {
           popisek: "Strom přátelství u Jiříkovic",
           datum: "prosinec 2019",
         },
-     
       ],
       proMe: " XX/1035  24-431-49  19--121 ",
     },
@@ -501,7 +495,7 @@ export default {
           popisek: "Pomník bitvě v Prace",
           datum: "březen 2019",
         },
-       
+
         {
           fotka: "bitvaPrace2.jpg",
           popisek: "Pomník bitvě v Prace",
@@ -512,7 +506,6 @@ export default {
           popisek: "Pomník bitvě v Prace",
           datum: "březen 2019",
         },
-     
       ],
 
       proMe: " XX/997  24-431-38  19--031  ",
@@ -557,7 +550,6 @@ export default {
           popisek: "Pomník třem zahynulým dětem z Velatic",
           datum: "prosinec 2019",
         },
-        
       ],
       proMe: " X/302 24-        19---123 ",
     },
@@ -642,7 +634,6 @@ export default {
           popisek: "Daňkův kříž ",
           datum: "prosinec 2019",
         },
-      
       ],
       proMe: "XX/1038  24-431-8   19/123  ",
     },
@@ -678,7 +669,6 @@ export default {
       galerie: [
         { fotka: "kalovi2.jpg", datum: "březen 2012" },
         { fotka: "kalovi1.jpg", datum: "březen 2012" },
-       
       ],
 
       proMe: "XVIII/723  24-233-60  12--031  ",
@@ -709,7 +699,6 @@ export default {
       galerie: [
         { fotka: "smutna2.jpg", datum: "červen 2020" },
         { fotka: "smutna1.jpg", datum: "červen 2020" },
-        
       ],
       proMe: "XV/530  24-314-21  20--062 ",
     },
@@ -793,9 +782,6 @@ export default {
         { fotka: "kosmak3.jpg", datum: "prosinec 2019" },
         { fotka: "kosmak2.jpg", datum: "prosinec 2019" },
         { fotka: "kosmak1.jpg", datum: "prosinec 2019" },
-        
-       
-       
       ],
       proMe: "V/152  24-431-30  19--121 12--122 ",
     },
@@ -832,7 +818,6 @@ export default {
       galerie: [
         { fotka: "bystrouska2.jpg", datum: "prosinec 2017" },
         { fotka: "bystrouska1.jpg", datum: "prosinec 2017" },
-       
       ],
       proMe: "XX/999  24-413-99  17--122 ",
     },
@@ -872,8 +857,6 @@ export default {
         { fotka: "kalab3.jpg", datum: "listopad 2019" },
         { fotka: "kalab2.jpg", datum: "listopad 2019" },
         { fotka: "kalab1.jpg", datum: "listopad 2019" },
-      
-        
       ],
       proMe: "XX/1033  24-431-43  19--115 ",
     },
@@ -904,7 +887,6 @@ export default {
       galerie: [
         { fotka: "bartl2.jpg", datum: "listopad 2018" },
         { fotka: "bartl1.jpg", datum: "listopad 2018" },
-        
       ],
       proMe: "V/179  24-341-41  18--112 ",
     },
@@ -940,7 +922,6 @@ export default {
       galerie: [
         { fotka: "sfinga2.jpg", datum: "únor 2019" },
         { fotka: "sfinga1.jpg", datum: "únor 2019" },
-        
       ],
       proMe: "XV/543    24-322-79    19--022 ",
     },
@@ -976,7 +957,6 @@ export default {
       galerie: [
         { fotka: "hubert2.jpg", datum: "srpen 2019" },
         { fotka: "hubert1.jpg", datum: "srpen 2019" },
-       
       ],
       proMe: "XX/1022  24-321-68  19--085 ",
     },
@@ -1011,7 +991,6 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/dulovajuma" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: "https://frame.mapy.cz/s/dulovajuma",
       galerie: [
-      
         { fotka: "cyklista2.jpg", datum: "duben 2019" },
         { fotka: "cyklista3.jpg", datum: "duben 2019" },
         { fotka: "cyklista1.jpg", datum: "duben 2019" },
@@ -1053,7 +1032,6 @@ export default {
       galerie: [
         { fotka: "bycina2.jpg", datum: "červen 2017" },
         { fotka: "bycina1.jpg", datum: "červen 2017" },
-       
       ],
 
       proMe: "XX/975   24-411-130   18--064 ",
@@ -1113,7 +1091,6 @@ export default {
         '<iframe style="border:none" src="https://frame.mapy.cz/s/pufuzanuje" width="400" height="280" frameborder="0"></iframe>',
       odkazMapa: " https://frame.mapy.cz/s/pufuzanuje",
       galerie: [
-        
         { fotka: "brazda2.jpg", datum: "listopad 2018" },
         { fotka: "brazda1.jpg", datum: "duben 2020" },
       ],
@@ -1152,7 +1129,6 @@ export default {
       galerie: [
         { fotka: "spacil2.jpg", datum: "září 2018" },
         { fotka: "spacil1.jpg", datum: "září 2018" },
-       
       ],
       proMe: "XX/982   24-412-30   18--091",
     },
@@ -1190,68 +1166,191 @@ export default {
         { fotka: "strajtova3.jpg", datum: "září 2018" },
         { fotka: "strajtova2.jpg", datum: "září 2018" },
         { fotka: "strajtova1.jpg", datum: "září 2018" },
-
-        
       ],
       proMe: " VIII/ 242  24-412-7   18--091 ",
     },
     {
       id: 31,
-      kategorie: 'pomnicky',
+      kategorie: "pomnicky",
       podkategorie: 14,
-      druh: ' Lichtenštejnské  ',
-      okres:' Vyškov  ',
-      obec: 'Bučovice  ',
-      jmeno: ' Jan II z Lichtenštejna  ',
-      nazev: ' Poděkování Janu z Lichtenštejna ',
-      kdyVznikl:   ' 1898 ', 
-      popisCesty: ' 300 metrů S od kostela v Bučovicích na zalesněném kopci, který byl kdysi parkem.  ',
-      popis: 'Kamenný pomník vysoký 1,8 metru, zužující se hranol. Na přední straně je text, vytesaný do kamene.',
-      napis: ' VDĚČNÝ  LID // MĚSTA // BUČOVIC // SVÉMU  DOBRODINCI // JEHO  JASNOSTI // KNÍŽETI // JANU //  Z  // LIECHTENSTEINU // ZAKLADATELI  TĚCHTO  SADŮ // 1898.  ',
-      odkazy:[{nazev: ' euweb ', adresa:' http://www.jubilejnikameny.euweb.cz/bucovicezdanice/bucovice.html '}],
-      pozn: '  ',
-      naposledObnoveno : ' 19.11.2020 ',
-      souradnice: '49.1540617N, 17.0029914E',
-      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/gemazokare" width="400" height="280" frameborder="0"></iframe>',
-      odkazMapa: 'https://frame.mapy.cz/s/gemazokare',
-      galerie: 
-      [ {fotka: 'lichtenstein1.jpg' , datum: 'květen 2019'},
-      {fotka: 'lichtenstein2.jpg' , datum: 'květen 2019'},
+      druh: " Lichtenštejnské  ",
+      okres: " Vyškov  ",
+      obec: "Bučovice  ",
+      jmeno: " Jan II z Lichtenštejna  ",
+      nazev: " Poděkování Janu z Lichtenštejna ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        " 300 metrů S od kostela v Bučovicích na zalesněném kopci, který byl kdysi parkem.  ",
+      popis:
+        "Kamenný pomník vysoký 1,8 metru, zužující se hranol. Na přední straně je text, vytesaný do kamene.",
+      napis:
+        " VDĚČNÝ  LID // MĚSTA // BUČOVIC // SVÉMU  DOBRODINCI // JEHO  JASNOSTI // KNÍŽETI // JANU //  Z  // LIECHTENSTEINU // ZAKLADATELI  TĚCHTO  SADŮ // 1898.  ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/bucovicezdanice/bucovice.html ",
+        },
       ],
-      proMe:' XX/1010 24-432-36  19---051 ',
+      pozn: "  ",
+      naposledObnoveno: " 19.11.2020 ",
+      souradnice: "49.1540617N, 17.0029914E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/gemazokare" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/gemazokare",
+      galerie: [
+        { fotka: "lichtenstein1.jpg", datum: "květen 2019" },
+        { fotka: "lichtenstein2.jpg", datum: "květen 2019" },
+      ],
+      proMe: " XX/1010 24-432-36  19---051 ",
+    },
+    {
+      id: 32,
+      kategorie: "pomnicky",
+      podkategorie: 14,
+      druh: " Lichtenštejnské  ",
+      okres: " Hodonín ",
+      obec: " Žarošice ",
+      jmeno: " Jan II z Lichtenštejna  ",
+      nazev: " Žarošický lichtenštejnský památník ",
+      kdyVznikl:
+        " V roce 2015 byl přemístěn a rekonstruován. Na původním místě zbudován v roce 1898. ",
+      popisCesty:
+        " 4,4 km S od Žarošic, 250 m od rozcestí U andělíčka, na odbočující rozsoše na Starou horu. Vede tu žlutá značka. ",
+      popis:
+        "Nově zrekonstruovaný památník na novém místě. Na soklu vyzděném z lomového kamene spočívá kopie původního kamene se začištěnou přední stěnou a stručným textem v němčině.",
+      napis:
+        "  L  JÄHR.  REG.  JUBIL.  MCMVIII , v překladu:  padesátileté výročí vlády 1908  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn:
+        " Tuto kamennou desku zhotovil hostěnický kameník Jan Šlof. Původní stanoviště památníku bylo nedaleko. Hlavní deska ke 40. výročí vlády knížete Jana se nezachovala. ",
+      naposledObnoveno: " 18.11.2020 ",
+      souradnice: "49.0836286N, 16.9729703E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/natebotugo" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/natebotugo ",
+      galerie: [{ fotka: "zarosice.jpg", datum: "květen 2016" }],
+
+      proMe: " XIX/906  24-434-18  16---052 ",
+    },
+    {
+      id: 32,
+      kategorie: "pomnicky",
+      podkategorie: 13,
+      druh: " Trampské objekty",
+      okres: " Brno - venkov",
+      obec: " Ketkovice ",
+      jmeno: " Lucan - Jiří Skurovec  ",
+      nazev: " Lucanova památka ",
+      kdyVznikl: " po roce 2005 ",
+      popisCesty:
+        " JZ od Ketkovic na hřbetu vedoucím ze zříceniny Levnov k soutoku Oslavky a Chvojnice. Skalka podoby ploutve v  lese na hřebenu.  ",
+      popis:
+        " Na S straně skalky je připevněna úzká kovová deska dlouhá 60 cm.",
+      napis:
+        " NA  PAMĚŤ  TRAMPŮM // SLUNNÉHO  ÚDOLÍ // …  // a autograf LUCAN  ",
+      odkazy: [
+        {
+          nazev:
+            "Lucan - Jiří Skurovec :  Trampská historie řeky Oslavky, 2004.",
+        },
+      ],
+      pozn:
+        " Jiří Lucan Skurovec (1939 - 2005) byl tramp, redaktor trampského časopisu Oslavanské boudy, pamětník poválečného trampingu na Oslavce. Nedaleko odtud, na Černém víru, měl chatu. ",
+      naposledObnoveno: " 20.11.2020 ",
+      souradnice: "49.1376783N, 16.2361353E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/kadorajete" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/kadorajete",
+      galerie: [
+        { fotka: "lucan1.jpg", datum: "červen 2019" },
+        { fotka: "lucan2.jpg", datum: "červen 2019" },
+      ],
+      proMe: " XX/1017   24-332-70   19---06 ",
+    },
+    {
+      id: 33,
+      kategorie: 'pomnicky',
+      podkategorie: 13,
+      druh: ' Trampské objekty  ',
+      okres:' Třebíč ',
+      obec: ' Sedlec ',
+      jmeno: ' Kožich -  Josef Pelc  ',
+      nazev: ' Křížek Kožicha Pelce  ',
+      kdyVznikl:   ' 2018 ', 
+      popisCesty: ' 2  km V od Sedlce, na hraně údolí Oslavky, mezi vyhlídkou na Holém kopci a Glorietem. Na zelené značce pod silným dubem.  ',
+      popis: 'Dřevěný křížek vysoký 80 cm, mořený do hněda. Do jeho ramen neuměle vypáleny nápisy.',
+      napis: ' * 28. I. // 1972 // P. JOSEF  “KOŽICH”  PELC // + 10. VII. // 2018 // ZDE // SPL  ',
+      odkazy:[{nazev: ' Blesk ', adresa:'https://www.blesk.cz/clanek/zpravy-pribehy/554154/pohreb-oblibeneho-farare-ktery-se-zritil-do-rokle-loucily-se-s-nim-stovky-vericich.html  '}],
+      pozn: ' Otec Josef Pelc byl farářem v Uherském Brodu. Rád jezdil do přírody, hrál na kytaru, cestoval, jezdil na skůtru. V pondělí ráno odsloužil mši a pak vyrazil s přáteli na dovolenou. Namířeno měli až na Wilzonku.  Bivakovali nedaleko Glorietu. Večer se Kožich náhle vzdálil, možná si potřeboval odskočit, a nikdo už ho živého nespatřil. Kamarádi ho hledali celou noc a ráno zalarmovali policii. Nakonec ho našel ve skalách jeho přítel, také kněz, po šedesátimetrovém pádu. Tělo šestačtyřicetiletého kněze vyzvedl z těžce přístupného terénu  policejní vrtulník. ',
+      naposledObnoveno : ' 20.11.2020 ',
+      souradnice: '49.1653369N, 16.1656739E',
+      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/hazejogeda" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: 'https://frame.mapy.cz/s/hazejogeda',
+      galerie:
+      [ {fotka: 'pelc1.jpg' , datum: 'listopad 2018'},
+      {fotka: 'pelc2.jpg' , datum: 'listopad 2018'},
+      {fotka: 'pelc3.jpg' , datum: 'listopad 2018'},
+      ],
+      proMe:' XX/986   24-332-64  18---111 ',
       
       },
       {
-        id: 32,
+        id: 34,
         kategorie: 'pomnicky',
-        podkategorie: 14,
-        druh: ' Lichtenštejnské  ',
-        okres:' Hodonín ',
-        obec: ' Žarošice ',
-        jmeno: ' Jan II z Lichtenštejna  ',
-        nazev: ' Žarošický lichtenštejnský památník ',
-        kdyVznikl:   ' V roce 2015 byl přemístěn a rekonstruován. Na původním místě zbudován v roce 1898. ', 
-        popisCesty: ' 4,4 km S od Žarošic, 250 m od rozcestí U andělíčka, na odbočující rozsoše na Starou horu. Vede tu žlutá značka. ',
-        popis: 'Nově zrekonstruovaný památník na novém místě. Na soklu vyzděném z lomového kamene spočívá kopie původního kamene se začištěnou přední stěnou a stručným textem v němčině.',
-        napis: '  L  JÄHR.  REG.  JUBIL.  MCMVIII , v překladu:  padesátileté výročí vlády 1908  ',
+        podkategorie: 13,
+        druh: ' Trampské objekty ',
+        okres:' Třebíč ',
+        obec: ' Sedlec  ',
+        jmeno: ' Rorejs - Naďa  ',
+        nazev: ' Deska Nadi Rorejse ',
+        kdyVznikl:   ' po roce 2013 ', 
+        popisCesty: ' 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.',
+        popis: 'Kovová deska je připevněna čtyřmi šrouby ke skalnímu podkladu. Do ní vyryt stylizovaný portrét ženy v brýlích a text.', 
+        napis: ' NAĎA  “ROREJS” // 2. 9. 1961 // 5. 7. 2013 // a menším písmem : dívej se kolem // poznávej krásu // pozoruj tichý ptačí let // snad někdy zachytíš // volání času // zasloužíš vrátit se zpět  ',
         odkazy:[{nazev: '  ', adresa:'  '}],
-        pozn: ' Tuto kamennou desku zhotovil hostěnický kameník Jan Šlof. Původní stanoviště památníku bylo nedaleko. Hlavní deska ke 40. výročí vlády knížete Jana se nezachovala. ',
-        naposledObnoveno : ' 18.11.2020 ',
-        souradnice: '49.0836286N, 16.9729703E',
-        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/natebotugo" width="400" height="280" frameborder="0"></iframe>',
-        odkazMapa: 'https://frame.mapy.cz/s/natebotugo ',
+        pozn: ' V dubnu kolem kvetou tařice.  ',
+        naposledObnoveno : ' 20.11.2020 ',
+        souradnice: '49.1660158N, 16.1654244E',
+        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/bubuvesubu" width="400" height="280" frameborder="0"></iframe>',
+        odkazMapa: 'https://frame.mapy.cz/s/bubuvesubu',
         galerie:
-        
-         [ {fotka: 'zarosice.jpg' , datum: 'květen 2016'},
-        
+        [ {fotka: 'rorejs.jpg' , datum: 'duben 2016'}
         ],
         
-        proMe:' XIX/906  24-434-18  16---052 ',
+        proMe:'XIX/900  24-332-23  16---041 ',
         
         },
+        {
+          id:35 ,
+          kategorie: 'pomnicky',
+          podkategorie: 7,
+          druh: ' Lesnické a dřevařské  ',
+          okres:' Brno - venkov ',
+          obec: ' Babice ',
+          jmeno: ' Ševčík, Antonín  ',
+          nazev: ' Ševčíkova památka ',
+          kdyVznikl:   ' po roce 1905 ', 
+          popisCesty: ' 2 km SZ od Babic, na plošině Jelenec, na rozcestí u Skatulovy cesty.  ',
+          popis: 'Kamenná mohylka z vápencových kamenů, vysoká necelý metr. Na ní bílá deska se zašlým textem.',
+          napis: ' ANTONÍN // ŠEVČÍK // * 9./VII. 1852 // + 10./II. 1905   ',
+          odkazy:[{nazev: ' Adamov a okolí ', adresa:' https://www.adamovaokoli.cz/pamatniky/sevcik.html '}, {nazev:
+          'Jiří Truhlář : Památníky adamovských lesů. 2003. str. 136'}],
+          pozn: ' Ševčík, otec dvanácti nezaopatřených dětí, zahynul při práci v lese. Při náledí se na něj převrhl vůz s kládami. Nehoda inspirovala Jaroslava Marchu k napsání povídky Kamarádi z lesa ve sbírce povídek Ptačí chléb. O neštěstí psaly i tehdejší Lidové noviny. ',
+          naposledObnoveno : ' 20.11.2020 ',
+          souradnice: '49.3007161N, 16.6850314E',
+          kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/poledenare" width="400" height="280" frameborder="0"></iframe>',
+          odkazMapa: 'https://frame.mapy.cz/s/poledenare ',
+          galerie: 
+          [ {fotka: 'sevcik1.jpg' , datum: 'červen 2017'},
+          {fotka: 'sevcik2.jpg' , datum: 'únor 2019'},
+          ],
+          proMe:' III/85  24-411-117  17---06  19---02 ',
+          
+          },
+          
+          
         
-        
-      
       
 
     {
