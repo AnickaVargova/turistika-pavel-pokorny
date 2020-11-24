@@ -7,25 +7,26 @@
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
-      <h2>Jediné, co funguje, jak má, je tlačítko  MOJE  RAJČE.</h2>
+      <h2>Jediné, co funguje, jak má, je tlačítko MOJE RAJČE.</h2>
       <p>
-         
-        Naše webové stránky se zabývají regionální vlastivědou v Brně a okolí, turistikou a
-        cestováním po republice i po Evropě. Popisují pomníčky, smírčí kříže,
-        studánky a další objekty turistického zájmu v okruhu zhruba třiceti
-        kilometrů od Brna, tedy oblast vymezenou Vyškovem a Ždánicemi na
-        východě, Novomlýnskými nádržemi na jihu, Moravským Krumlovem, Náměští a
-        Velkou Bíteší na západě a Nedvědicemi a Boskovicemi na severu. Až na
-        výjimky se nalézají v přírodě, mimo zástavbu. Pomníky v intravilánu obcí
-        nehledáme. Návodem se pro nás stala Kniha o Jizerských horách od
-        Miloslava Nevrlého, která vyšla poprvé v roce 1978 a od té doby ještě
-        čtyřikrát. Navazovala na odvěkou touhu člověka hledat, nalézat,
-        objevovat. V osmdesátých letech jsme začali hledat pomníčky kolem Brna a
-        dosud nepřestali. Tehdy byly k dispozici jen nepřesné mapy a GPS ještě
-        nebylo vynalezeno. Počet těchto objektů přesahuje odhadem tisícovku a
-        mění se, některé přibývají, jiné zanikají. Doufáme, že tyto stránky se
-        mohou stát vaší inspirací k výletům a vyjížďkám do spanilého okolí
-        brněnského.
+        Naše webové stránky se zabývají regionální vlastivědou v Brně a okolí,
+        turistikou a cestováním po republice i po Evropě. Popisují pomníčky,
+        smírčí kříže, studánky a další objekty turistického zájmu v okruhu
+        zhruba třiceti kilometrů od Brna, tedy oblast vymezenou Vyškovem a
+        Ždánicemi na východě, Novomlýnskými nádržemi na jihu, Moravským
+        Krumlovem, Náměští a Velkou Bíteší na západě a Nedvědicemi a Boskovicemi
+        na severu. Až na výjimky se nalézají v přírodě, mimo zástavbu. Pomníky v
+        intravilánu obcí nehledáme. Návodem se pro nás stala Kniha o Jizerských
+        horách od Miloslava Nevrlého, která vyšla poprvé v roce 1978 a od té
+        doby ještě čtyřikrát. Navazovala na odvěkou touhu člověka hledat,
+        nalézat, objevovat. V osmdesátých letech jsme začali hledat pomníčky
+        kolem Brna a dosud nepřestali. Tehdy byly k dispozici jen nepřesné mapy
+        a GPS ještě nebylo vynalezeno. Počet těchto objektů přesahuje odhadem
+        tisícovku a mění se, některé přibývají, jiné zanikají. Doufáme, že tyto
+        stránky se mohou stát vaší inspirací k výletům a vyjížďkám do spanilého
+        okolí brněnského. Byli bychom rádi, kdyby jste zažili aspoň zlomek
+        radosti, kterou jsme prožívali my při hledání, neboť hledání je lepší
+        než nalézání.
       </p>
     </div>
     <footer>
@@ -131,15 +132,15 @@
      */
   }
 
-  @media(min-width: 900px){
+  @media (min-width: 900px) {
     body {
-    height: 100vh;
-       }
+      height: 100vh;
+    }
 
-   #pozadi {
-     height: 100vh;
-     /* overflow: hidden; */
-   }
+    #pozadi {
+      height: 100vh;
+      /* overflow: hidden; */
+    }
   }
 
   #uvodniText {
@@ -155,8 +156,8 @@
     font-size: 40px;
   }
 
-   #uvodniText h2 {
-    font-family:  'Patrick Hand', cursive;
+  #uvodniText h2 {
+    font-family: "Patrick Hand", cursive;
     color: #2c3e50;
   }
 
@@ -185,7 +186,7 @@
   #pozadi img {
     grid-column: 1 / 7;
     /* grid-row: 1 / 14; */
-    
+
     /* height: 100vh; */
     width: 100vw;
     object-fit: cover;
@@ -196,7 +197,7 @@
     grid-row: 1 / 40;
     width: 100vw;
     /* height: 100vh; */
-    background-color: rgba(160, 193, 221, 0.5);
+    background-color: rgba(178, 203, 223, 0.6);
     margin-right: 0;
   }
 
