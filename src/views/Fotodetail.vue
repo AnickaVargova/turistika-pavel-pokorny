@@ -39,7 +39,6 @@
       return {
         vybranaFotka: "",
         vybranyIndex: undefined,
-        vybranyRok: undefined,
         vybranaKategorie: undefined,
         clanky: Clanky.data,
       };
@@ -56,9 +55,6 @@
               if (obrazek.fotka == this.$route.params.id) {
                 this.vybranaFotka = obrazek;
                 this.vybranyIndex = clanek.id;
-                if (clanek.datum) {
-                  this.vybranyRok = clanek.datum.slice(-4);
-                }
                 this.vybranaKategorie = clanek.kategorie;
               }
             }

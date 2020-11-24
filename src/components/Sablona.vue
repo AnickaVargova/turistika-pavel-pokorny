@@ -15,7 +15,16 @@
 
     <div class="pomnickyNavigace">
       <router-link to="/">
-        <div class="pomnicekKategorie" id="domu">Domů</div>
+        <div
+          v-bind:class="{
+            pomnicekKategorie: true,
+            kategorieCesty:
+              params.stranka === 'cesty' || params.stranka === 'vypraveni',
+          }"
+          id="domu"
+        >
+          Domů
+        </div>
       </router-link>
 
       <div
@@ -83,15 +92,16 @@
 
     methods: {
       handleClick(kategorie) {
+        console.log(this.params.stranka,kategorie.id);
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
             clanek.kategorie === this.params.stranka &&
             clanek.podkategorie == kategorie.id
         );
         this.vybraneId = kategorie.id;
-        for(let clanek of this.clankyPodKategorie){
-          clanek.druh = kategorie.nazev;
-        }
+        // for (let clanek of this.clankyPodKategorie) {
+        //   clanek.druh = kategorie.nazev;
+        // }
         if (this.clankyPodKategorie.length === 0) {
           this.clankyPodKategorie = null;
         }
@@ -106,6 +116,7 @@
           if (!clanek.jmeno) {
             clanek.jmeno = clanek.nazev;
           }
+         
         }
 
         this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {

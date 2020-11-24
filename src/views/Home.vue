@@ -46,7 +46,7 @@
 
       <router-link to="/cesty/1">Cesty </router-link>
 
-      <router-link to="/vypraveni/1">Vyprávění</router-link>
+      <router-link to="/vypraveni/18">Vyprávění</router-link>
 
       <router-link to="/onas">O nás</router-link>
 

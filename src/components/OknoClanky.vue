@@ -1,9 +1,9 @@
 <template>
   <div id="oknoPomnicky">
     <div v-for="(clanek, index) in clanky" v-bind:key="index">
-      <router-link v-bind:to="`/detail/${clanek.podkategorie}/${clanek.id}`">
+        <router-link v-bind:to="`/detail/${clanek.podkategorie}/${clanek.id}`">
         <div class="clanek">
-        <h2>{{ clanek.nadpis }}</h2>
+        <h2>{{ clanek.nazev }}</h2>
         <h3>{{ clanek.datum }}</h3>
         <div class="clanekFoto">
           <img v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka}`)" v-bind:alt="clanek.jmeno" />
@@ -19,7 +19,7 @@
   
   export default {
     props: ["clanky"],
-  };
+      };
 </script>
 
 <style>

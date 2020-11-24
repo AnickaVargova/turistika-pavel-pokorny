@@ -5,7 +5,9 @@
       v-for="clanek in clanky"
       v-bind:key="clanek.id"
     >
-      <h2>{{ clanek.nazev ? clanek.nazev : clanek.jmeno }}</h2>
+      <h2 style="textAlign:center">
+        {{ clanek.nazev ? clanek.nazev : clanek.jmeno }}
+      </h2>
       <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
         <div style="width: 100%; height:100%">
           <!-- <iframe
@@ -20,10 +22,13 @@
             frameborder="0"
           ></iframe> -->
 
-         
-
-           <iframe style="border:none" v-bind:src="clanek.odkazMapa" width="400" height="280" frameborder="0"></iframe>
-
+          <iframe
+            style="border:none"
+            v-bind:src="clanek.odkazMapa"
+            width="400"
+            height="280"
+            frameborder="0"
+          ></iframe>
 
           <button class="pomnicekKategorie" v-on:click="schovejMapu">
             Schovat mapu
@@ -44,7 +49,7 @@
           <td>Obec:</td>
           <td>{{ clanek.obec }}</td>
         </tr>
-        <tr v-if="clanek.jmeno!==clanek.nazev">
+        <tr v-if="clanek.jmeno !== clanek.nazev">
           <td>Jméno:</td>
           <td>
             <strong>{{ clanek.jmeno }}</strong>
@@ -52,8 +57,10 @@
         </tr>
         <tr v-else>
           <td>Název:</td>
-          <td v-if="clanek.jmeno!==clanek.nazev">{{ clanek.nazev }}</td>
-          <td v-else><strong>{{ clanek.nazev }}</strong></td>
+          <td v-if="clanek.jmeno !== clanek.nazev">{{ clanek.nazev }}</td>
+          <td v-else>
+            <strong>{{ clanek.nazev }}</strong>
+          </td>
         </tr>
         <tr>
           <td>Kde se nachází?</td>
@@ -156,7 +163,7 @@
 
 <style>
   #pomnicky h2 {
-    text-align: center;
+    text-align: start;
     color: #3b6e5d;
   }
 
