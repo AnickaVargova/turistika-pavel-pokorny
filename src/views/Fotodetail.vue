@@ -51,14 +51,16 @@
           if (clanek.fotkaUvod) {
             clanek.galerie.push(clanek.fotkaUvod);
           }
-          for (let obrazek of clanek.galerie) {
-            if (obrazek.fotka == this.$route.params.id) {
-              this.vybranaFotka = obrazek;
-              this.vybranyIndex = clanek.id;
-              if (clanek.datum) {
-                this.vybranyRok = clanek.datum.slice(-4);
+          if (clanek.galerie) {
+            for (let obrazek of clanek.galerie) {
+              if (obrazek.fotka == this.$route.params.id) {
+                this.vybranaFotka = obrazek;
+                this.vybranyIndex = clanek.id;
+                if (clanek.datum) {
+                  this.vybranyRok = clanek.datum.slice(-4);
+                }
+                this.vybranaKategorie = clanek.kategorie;
               }
-              this.vybranaKategorie = clanek.kategorie;
             }
           }
           if (clanek.fotkaUvod) {

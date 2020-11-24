@@ -1270,88 +1270,344 @@ export default {
     },
     {
       id: 33,
-      kategorie: 'pomnicky',
+      kategorie: "pomnicky",
       podkategorie: 13,
-      druh: ' Trampské objekty  ',
-      okres:' Třebíč ',
-      obec: ' Sedlec ',
-      jmeno: ' Kožich -  Josef Pelc  ',
-      nazev: ' Křížek Kožicha Pelce  ',
-      kdyVznikl:   ' 2018 ', 
-      popisCesty: ' 2  km V od Sedlce, na hraně údolí Oslavky, mezi vyhlídkou na Holém kopci a Glorietem. Na zelené značce pod silným dubem.  ',
-      popis: 'Dřevěný křížek vysoký 80 cm, mořený do hněda. Do jeho ramen neuměle vypáleny nápisy.',
-      napis: ' * 28. I. // 1972 // P. JOSEF  “KOŽICH”  PELC // + 10. VII. // 2018 // ZDE // SPL  ',
-      odkazy:[{nazev: ' Blesk ', adresa:'https://www.blesk.cz/clanek/zpravy-pribehy/554154/pohreb-oblibeneho-farare-ktery-se-zritil-do-rokle-loucily-se-s-nim-stovky-vericich.html  '}],
-      pozn: ' Otec Josef Pelc byl farářem v Uherském Brodu. Rád jezdil do přírody, hrál na kytaru, cestoval, jezdil na skůtru. V pondělí ráno odsloužil mši a pak vyrazil s přáteli na dovolenou. Namířeno měli až na Wilzonku.  Bivakovali nedaleko Glorietu. Večer se Kožich náhle vzdálil, možná si potřeboval odskočit, a nikdo už ho živého nespatřil. Kamarádi ho hledali celou noc a ráno zalarmovali policii. Nakonec ho našel ve skalách jeho přítel, také kněz, po šedesátimetrovém pádu. Tělo šestačtyřicetiletého kněze vyzvedl z těžce přístupného terénu  policejní vrtulník. ',
-      naposledObnoveno : ' 20.11.2020 ',
-      souradnice: '49.1653369N, 16.1656739E',
-      kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/hazejogeda" width="400" height="280" frameborder="0"></iframe>',
-      odkazMapa: 'https://frame.mapy.cz/s/hazejogeda',
-      galerie:
-      [ {fotka: 'pelc1.jpg' , datum: 'listopad 2018'},
-      {fotka: 'pelc2.jpg' , datum: 'listopad 2018'},
-      {fotka: 'pelc3.jpg' , datum: 'listopad 2018'},
+      druh: " Trampské objekty  ",
+      okres: " Třebíč ",
+      obec: " Sedlec ",
+      jmeno: " Kožich -  Josef Pelc  ",
+      nazev: " Křížek Kožicha Pelce  ",
+      kdyVznikl: " 2018 ",
+      popisCesty:
+        " 2  km V od Sedlce, na hraně údolí Oslavky, mezi vyhlídkou na Holém kopci a Glorietem. Na zelené značce pod silným dubem.  ",
+      popis:
+        "Dřevěný křížek vysoký 80 cm, mořený do hněda. Do jeho ramen neuměle vypáleny nápisy.",
+      napis:
+        " * 28. I. // 1972 // P. JOSEF  “KOŽICH”  PELC // + 10. VII. // 2018 // ZDE // SPL  ",
+      odkazy: [
+        {
+          nazev: " Blesk ",
+          adresa:
+            "https://www.blesk.cz/clanek/zpravy-pribehy/554154/pohreb-oblibeneho-farare-ktery-se-zritil-do-rokle-loucily-se-s-nim-stovky-vericich.html  ",
+        },
       ],
-      proMe:' XX/986   24-332-64  18---111 ',
-      
-      },
-      {
-        id: 34,
-        kategorie: 'pomnicky',
-        podkategorie: 13,
-        druh: ' Trampské objekty ',
-        okres:' Třebíč ',
-        obec: ' Sedlec  ',
-        jmeno: ' Rorejs - Naďa  ',
-        nazev: ' Deska Nadi Rorejse ',
-        kdyVznikl:   ' po roce 2013 ', 
-        popisCesty: ' 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.',
-        popis: 'Kovová deska je připevněna čtyřmi šrouby ke skalnímu podkladu. Do ní vyryt stylizovaný portrét ženy v brýlích a text.', 
-        napis: ' NAĎA  “ROREJS” // 2. 9. 1961 // 5. 7. 2013 // a menším písmem : dívej se kolem // poznávej krásu // pozoruj tichý ptačí let // snad někdy zachytíš // volání času // zasloužíš vrátit se zpět  ',
-        odkazy:[{nazev: '  ', adresa:'  '}],
-        pozn: ' V dubnu kolem kvetou tařice.  ',
-        naposledObnoveno : ' 20.11.2020 ',
-        souradnice: '49.1660158N, 16.1654244E',
-        kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/bubuvesubu" width="400" height="280" frameborder="0"></iframe>',
-        odkazMapa: 'https://frame.mapy.cz/s/bubuvesubu',
-        galerie:
-        [ {fotka: 'rorejs.jpg' , datum: 'duben 2016'}
-        ],
-        
-        proMe:'XIX/900  24-332-23  16---041 ',
-        
+      pozn:
+        " Otec Josef Pelc byl farářem v Uherském Brodu. Rád jezdil do přírody, hrál na kytaru, cestoval, jezdil na skůtru. V pondělí ráno odsloužil mši a pak vyrazil s přáteli na dovolenou. Namířeno měli až na Wilzonku.  Bivakovali nedaleko Glorietu. Večer se Kožich náhle vzdálil, možná si potřeboval odskočit, a nikdo už ho živého nespatřil. Kamarádi ho hledali celou noc a ráno zalarmovali policii. Nakonec ho našel ve skalách jeho přítel, také kněz, po šedesátimetrovém pádu. Tělo šestačtyřicetiletého kněze vyzvedl z těžce přístupného terénu  policejní vrtulník. ",
+      naposledObnoveno: " 20.11.2020 ",
+      souradnice: "49.1653369N, 16.1656739E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/hazejogeda" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/hazejogeda",
+      galerie: [
+        { fotka: "pelc1.jpg", datum: "listopad 2018" },
+        { fotka: "pelc2.jpg", datum: "listopad 2018" },
+        { fotka: "pelc3.jpg", datum: "listopad 2018" },
+      ],
+      proMe: " XX/986   24-332-64  18---111 ",
+    },
+    {
+      id: 34,
+      kategorie: "pomnicky",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: " Sedlec  ",
+      jmeno: " Rorejs - Naďa  ",
+      nazev: " Deska Nadi Rorejse ",
+      kdyVznikl: " po roce 2013 ",
+      popisCesty:
+        " 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.",
+      popis:
+        "Kovová deska je připevněna čtyřmi šrouby ke skalnímu podkladu. Do ní vyryt stylizovaný portrét ženy v brýlích a text.",
+      napis:
+        " NAĎA  “ROREJS” // 2. 9. 1961 // 5. 7. 2013 // a menším písmem : dívej se kolem // poznávej krásu // pozoruj tichý ptačí let // snad někdy zachytíš // volání času // zasloužíš vrátit se zpět  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn: " V dubnu kolem kvetou tařice.  ",
+      naposledObnoveno: " 20.11.2020 ",
+      souradnice: "49.1660158N, 16.1654244E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/bubuvesubu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/bubuvesubu",
+      galerie: [{ fotka: "rorejs.jpg", datum: "duben 2016" }],
+
+      proMe: "XIX/900  24-332-23  16---041 ",
+    },
+    {
+      id: 35,
+      kategorie: "pomnicky",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - venkov ",
+      obec: " Babice ",
+      jmeno: " Ševčík, Antonín  ",
+      nazev: " Ševčíkova památka ",
+      kdyVznikl: " po roce 1905 ",
+      popisCesty:
+        " 2 km SZ od Babic, na plošině Jelenec, na rozcestí u Skatulovy cesty.  ",
+      popis:
+        "Kamenná mohylka z vápencových kamenů, vysoká necelý metr. Na ní bílá deska se zašlým textem.",
+      napis: " ANTONÍN // ŠEVČÍK // * 9./VII. 1852 // + 10./II. 1905   ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa: " https://www.adamovaokoli.cz/pamatniky/sevcik.html ",
+        },
+        { nazev: "Jiří Truhlář : Památníky adamovských lesů. 2003. str. 136" },
+      ],
+      pozn:
+        " Ševčík, otec dvanácti nezaopatřených dětí, zahynul při práci v lese. Při náledí se na něj převrhl vůz s kládami. Nehoda inspirovala Jaroslava Marchu k napsání povídky Kamarádi z lesa ve sbírce povídek Ptačí chléb. O neštěstí psaly i tehdejší Lidové noviny. ",
+      naposledObnoveno: " 20.11.2020 ",
+      souradnice: "49.3007161N, 16.6850314E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/poledenare" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/poledenare ",
+      galerie: [
+        { fotka: "sevcik1.jpg", datum: "červen 2017" },
+        { fotka: "sevcik2.jpg", datum: "únor 2019" },
+      ],
+      proMe: " III/85  24-411-117  17---06  19---02 ",
+    },
+    {
+      id: 36,
+      kategorie: "pomnicky",
+      podkategorie: 15,
+      druh: " církevní ",
+      okres: " Brno - venkov ",
+      obec: " Tvarožná  ",
+      jmeno: " Rudý mor  ",
+      nazev: " Černý  kříž u Velatic ",
+      kdyVznikl: "  železný v roce 1831,  obnoven za kamenný v roce 1946 ",
+      popisCesty:
+        " 600 m SV od kaple ve Velaticích, na konci polní cesty z Tvarožné, končící ve křovinách u posezení. ",
+      popis: "důkladný kříž z černé žuly vysoký 3 metry, na kamenném soklu.",
+      napis:
+        " zepředu: CHVÁLA  KRISTU // L. P. 1946    ze zadní strany: ČERNÝ  MOR  ROKU  1831, // “HNĚDÝ  MOR”  ROKU 1945, // PÁN  OD  NÁS  ODVRÁTIL // a neuměle: RUDÝ  MOR  1948 - 89 ",
+      odkazy: [
+        {
+          nazev: "Tvarožná  ",
+          adresa:
+            "https://www.tvarozna.cz/obec/vyznamne-pamatky-a-krajinne-prvky/cerny-kriz-u-velatic ",
+        },
+      ],
+      pozn:
+        " Když v roce 1831 zemřelo ve Velaticích za půl roku 70 lidí na choleru, zřídili v Mordovnách kovový kříž. Měl tu být cholerový hřbitov. Ale nemoc ustoupila a nikdo tu pochován nebyl. V 19. století  sem z vděku chodila druhou říjnovou neděli procesí. ",
+      naposledObnoveno: " 22.11.2020 ",
+      souradnice: "49.2024378N, 16.7604536E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/jefosogema" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: " https://frame.mapy.cz/s/jefosogema ",
+      galerie: [
+        { fotka: "mor1.jpg", datum: "prosinec 2019" },
+        { fotka: "mor2.jpg", datum: "prosinec 2019" },
+      ],
+    },
+    {
+      id: 37,
+      kategorie: "pomnicky",
+      podkategorie: 15,
+      druh: " Církevní ",
+      okres: " Brno -venkov ",
+      obec: " Hostěnice  ",
+      jmeno: " Hasičský kříž - Hostěnice  ",
+      nazev: " Hasičský jubilejní kříž u Hostěnic ",
+      kdyVznikl: " slavnostně vysvěcen 15. 10. 2006 ",
+      popisCesty: " 300 metrů J od středu Hostěnic, na konci louky na kopci.  ",
+      popis:
+        "Dřevěný kříž vysoký 5 metrů je zasazen do soklu vyzděném z kamene. V soklu je zasklená nika se soškou sv. Floriána. Uprostřed kříže cedulka.",
+      napis: " 1906 // 2006    a do dřeva kříže vyřezán letopočet  MMVI  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn: "  ",
+      naposledObnoveno: " 18.11.2020 ",
+      souradnice: "49.2365158N, 16.7710903E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/logujajozo" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/logujajozo",
+      galerie: [
+        { fotka: "hasicsky1.jpg", datum: "listopad 2019" },
+        { fotka: "hasicsky2.jpg", datum: "listopad 2019" },
+      ],
+
+      proMe: " XX/1031  24-413-100  19---111",
+    },
+
+    {
+      id: 38,
+      kategorie: "pomnicky",
+      podkategorie: 15,
+      druh: " Církevní ",
+      okres: " Blansko",
+      obec: " Křtiny  ",
+      jmeno: " Prnka, Tomáš  ",
+      nazev: " Památník pátera Prnky ",
+      kdyVznikl: "  ",
+      popisCesty: " 500 metrů VSV od kostela ve Křtinách, u lesní cesty   ",
+      popis:
+        "Moderně pojatá boží muka z dřevěných trámků trčících k obloze, nahoře kovový křížek. Dole bronzový věnec s odlitým textem.",
+      napis: " PANU  DĚKANOVI  TOMÁŠI  PRNKOVI  VĚNUJÍ  LESÁCI  ZE  KŘTIN  ",
+      odkazy: [
+        {
+          nazev: " Wikipedie-Prnka ",
+          adresa: " https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Prnka ",
         },
         {
-          id:35 ,
-          kategorie: 'pomnicky',
-          podkategorie: 7,
-          druh: ' Lesnické a dřevařské  ',
-          okres:' Brno - venkov ',
-          obec: ' Babice ',
-          jmeno: ' Ševčík, Antonín  ',
-          nazev: ' Ševčíkova památka ',
-          kdyVznikl:   ' po roce 1905 ', 
-          popisCesty: ' 2 km SZ od Babic, na plošině Jelenec, na rozcestí u Skatulovy cesty.  ',
-          popis: 'Kamenná mohylka z vápencových kamenů, vysoká necelý metr. Na ní bílá deska se zašlým textem.',
-          napis: ' ANTONÍN // ŠEVČÍK // * 9./VII. 1852 // + 10./II. 1905   ',
-          odkazy:[{nazev: ' Adamov a okolí ', adresa:' https://www.adamovaokoli.cz/pamatniky/sevcik.html '}, {nazev:
-          'Jiří Truhlář : Památníky adamovských lesů. 2003. str. 136'}],
-          pozn: ' Ševčík, otec dvanácti nezaopatřených dětí, zahynul při práci v lese. Při náledí se na něj převrhl vůz s kládami. Nehoda inspirovala Jaroslava Marchu k napsání povídky Kamarádi z lesa ve sbírce povídek Ptačí chléb. O neštěstí psaly i tehdejší Lidové noviny. ',
-          naposledObnoveno : ' 20.11.2020 ',
-          souradnice: '49.3007161N, 16.6850314E',
-          kodMapa:'<iframe style="border:none" src="https://frame.mapy.cz/s/poledenare" width="400" height="280" frameborder="0"></iframe>',
-          odkazMapa: 'https://frame.mapy.cz/s/poledenare ',
-          galerie: 
-          [ {fotka: 'sevcik1.jpg' , datum: 'červen 2017'},
-          {fotka: 'sevcik2.jpg' , datum: 'únor 2019'},
-          ],
-          proMe:' III/85  24-411-117  17---06  19---02 ',
-          
-          },
-          
-          
-        
+          nazev: "Encyklopedie Brna  ",
+          adresa:
+            "https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=18574  ",
+        },
+      ],
+      pozn:
+        " Tomáš Prnka (1926 - 2013) byl oblíbený římskokatolický kněz, v letech 1973 - 2008 byl farářem ve Křtinách. Má velké zásluhy o opravy a zvelebení křtinského poutního chrámu, mimo jiné se zasloužil o zvonohru.  ",
+      naposledObnoveno: " 22.11.2020 ",
+      souradnice: "49.2984972N, 16.7498811E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/munedalufa" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/munedalufa",
+      galerie: [
+        { fotka: "prnka1.jpg", datum: "prosinec 2017" },
+        { fotka: "prnka2.jpg", datum: "prosinec 2017" },
+      ],
+
+      proMe: "XX/952  24-411-122  19---12 ",
+    },
+
+    {
+      id: 39,
+      kategorie: "pomnicky",
+      podkategorie: 16,
+      druh: " jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: " Ketkovice ",
+      jmeno: " Foglar, Jaroslav  ",
+      nazev: " Foglarova louka ",
+      kdyVznikl: " Provizorní cedule skautů z Oslavan je z roku 2008.  ",
+      popisCesty:
+        " 2 km JZ od Ketkovic, v údolí Chvojnice na pravém břehu. Od soutoku Chvojnice s Oslavkou je to po modré značce 1800 m.  ",
+      popis:
+        "Louka u Chvojnice, dlouhá 200 a široká až 40 metrů, na pravém břehu, obklopena lesem. Od SZ je lávka a brod, za ním chaty. Na stromě z JV strany byla v r. 2018 provizorní papírová cedule v plastu.",
+      napis:
+        " V  TĚCHTO  MÍSTECH  V  LÉTĚ  ROKU // 1940  ZA  DRAMATICKÝCH OKOLNOSTÍ // TÁBOŘIL  JAROSLAV  FOGLAR  SE SVÝM // SKAUTSKÝM  ODDÍLEM  ",
+      odkazy: [
+        {
+          nazev:
+            "Vlastivědný věstník moravský, ročník 2008, č. 1, str 18 - 32, autor Jan Břečka.  ",
+        },
+        {
+          nazev: " Wikipedie-Foglar ",
+          adresa: "https://cs.wikipedia.org/wiki/Jaroslav_Foglar ",
+        },
+      ],
+      pozn:
+        " Jaroslav  “Jestřáb”  Foglar (1907 - 1999) byl spisovatel knih pro mládež a organizátor skautského života. Pro svůj oddíl skautů, pražskou Dvojku, organizoval 60 let letní tábory. Jeden z nich, v roce 1940, měl být i v údolí Chvojnice. Místo mu doporučil jeho přítel Josef “Baby” Kratochvíl. Tábor v neutěšené době neměl dlouhého trvání. Přicházely zprávy o likvidaci skautských táborů jinde. Po asi čtrnácti dnech v první půli července 1940 došel úřední dopis, že tábor není povolen a je nutno ho do 48 hodin zlikvidovat. Za zákazem byla snaha německých úřadů zrušit skautské hnutí. Pro Foglara to byla těžká situace, byl jediný dospělý mezi dětmi.  Skauti Dvojky narychlo - jen v teplácích, kroje měli zakázané - opustili údolí kolem 18. července 1940 a už se na Moravu nikdy nevrátili. Tábor dostal dodatečně jméno Tábor psanců.   ",
+      naposledObnoveno: " 22.11.2020 ",
+      souradnice: "49.1449831N, 16.2455231E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/hepomenasu" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/hepomenasu",
+      galerie: [
+        { fotka: "foglar1.jpg", datum: "srpen 2018" },
+        { fotka: "foglar2.jpg", datum: "srpen 2018" },
+      ],
+
+      proMe: "XX/976 24-332-65  18---082 ",
+    },
+    {
+      id: 40,
+      kategorie: "pomnicky",
+      podkategorie: 17,
+      druh: " zaniklé ",
+      okres: "  ",
+      obec: " Pohořelice ",
+      jmeno: " Slovinští skokani na lyžích  ",
+      nazev: " Památka slovinských skokanů ",
+      kdyVznikl: " listopad 1991 ",
+      popisCesty:
+        " U staré státní silnice Brno-Mikulov, asi 200 m od křižovatky na Pohořelice, směrem k Brnu. Dnes zastavěno tělesem rychlostní silnice.  ",
+      popis:
+        "Dřevěný křížek vysoký 0,8 metru, zasazený v betonovém soklu a překrytý plechovou stříškou. Mosazná plechová tabulka.",
+      napis: " BLAŽ  HORVAT  -  MARIAN  KROPAR  //  8. 9. 1990  ",
+      odkazy: [
+        {
+          nazev:
+            " Mladá fronta 13.11.1991: slovinští skokani a trenér Remsa odhalili na místě pomníček. ",
+        },
+      ],
+      pozn:
+        "Oběti dopravní nehody.  Křížek zmizel při výstavbě rychlostní silnice a přestavbě křižovatky asi kolem roku 2000. ",
+      naposledObnoveno: " 22.11.2020 ",
+      souradnice: "48.9957636N, 16.5490097E",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/fopesavede" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/fopesavede",
+      // galerie: [{fotka:undefined, popisek:''}],
+      proMe: " IX/288  34-122-1     ",
+    },
+   
+
+    {
+      id: 41,
+      kategorie: "pomnicky",
+      podkategorie: 17,
+      druh: " zaniklé ",
+      okres: " Vyškov ",
+      obec: " Ježkovice ",
+      jmeno: " Štrajtová, Vlasta  ",
+      nazev: " Obrázek Vlasty Štrajtové ",
+      kdyVznikl: " 1958 ",
+      popisCesty:
+        " 2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je pomník Vlasty Štrajtové.  ",
+      popis:
+        "Na stromě připevněný zasklený obrázek Krista, nahoře bílá soška anděla.",
+      napis:
+        " … // ZDE  NA  HONĚ  NEŠŤASTNĚ  ZAHYNULA  VLASTA  ŠTRAJTOVÁ  5. 11. 1957  SMRTELNĚ  PORANĚNA  JELENEM  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn:
+        " Obrázek zanikl neznámo kdy, v roce 2018 tam nebyl. Možná zánik souvisí s velkou mýtinou v těchto místech vzniklou před rokem 2018. ",
+      naposledObnoveno: " 22.11.2020 ",
+      souradnice: "49.3135139N, 16.9069881E",
+      // galerie: [{fotka:undefined, popisek:''}],
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/jonohuseba" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/jonohuseba",
       
+      proMe: " VIII/243  24-412-7 ",
+    },
+
+    {
+      id: 42,
+      kategorie: "pomnicky",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - venkov ",
+      obec: " Vranov ",
+      jmeno: " Czada, Robert  ",
+      nazev: " Památka adjunkta Czady ",
+      kdyVznikl: " po 1908 ",
+      popisCesty:
+        " 600 metrů JZ od Kateřinského mostu, nad silnicí do Blanska a pod červenou značkou. Na kraji bezcestného žlebu pod skalkou v suťovisku, obtížný přístup.  ",
+      popis:
+        " na lichoběžníkovém kamenu vysokém 0,6 metru je bílá tabulka s obnoveným německým textem ",
+      napis:
+        " FORSTADJUNKT // ROBERT // CZADA // VERUNGLÜCKT // 21. 12. 1908   v překladu: Lesnický mládenec  R. C. postižený nehodou. ",
+      odkazy: [
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů. 2003. str. 138 ",
+        },
+      ],
+      pozn:
+        " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti.",
+        
+        // Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
+      naposledObnoveno: " 20.11.2020 ",
+      souradnice: " 49.3227247N, 16.6259569E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dutejanade" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/dutejanade",
+      galerie: [
+        { fotka: "czada1.jpg", datum: "listopad 2020" },
+        { fotka: "czada2.jpg", datum: "listopad 2020" },
+      ],
+      proMe: " XIV/474  24-322-24  20---11.  ",
+    },
 
     {
       id: 100,
