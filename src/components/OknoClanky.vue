@@ -1,7 +1,7 @@
 <template>
   <div id="oknoPomnicky">
     <div v-for="(clanek, index) in clanky" v-bind:key="index">
-        <router-link v-bind:to="`/detail/${clanek.podkategorie}/${clanek.id}`">
+        <router-link v-bind:to="`/vypraveni/${clanek.podkategorie}/${clanek.id}`">
         <div class="clanek">
         <h2>{{ clanek.nazev }}</h2>
         <h3>{{ clanek.datum }}</h3>
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  
+  //todo: radit clanky podle roku
   export default {
     props: ["clanky"],
       };

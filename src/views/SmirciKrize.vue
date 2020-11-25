@@ -25,6 +25,9 @@
 </template>
 
 <script>
+
+//umisteni:  v Brně, na sever, na východ, na jih, na západ.
+
   import vsechnyClanky from "./../components/clanky.js";
   import OknoPomnicky from "./../components/OknoPomnicky.vue";
   export default {

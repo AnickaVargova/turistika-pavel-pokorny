@@ -10,7 +10,6 @@
     <h1>{{ params.nadpis }}</h1>
 
     <p
-     
       v-bind:class="{
         pomnickyText: true,
         responsive: menuUkazat,
@@ -58,7 +57,12 @@
       </div>
     </div>
 
-    <a v-if="params.stranka === 'pomnicky' || params.stranka === 'kriz'" href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
+    <a
+      v-if="params.stranka === 'pomnicky' || params.stranka === 'kriz'"
+      href="javascript:void(0);"
+      class="icon"
+      v-on:click="toggleMenu"
+    >
       <i class="fa fa-bars"></i>
     </a>
 
@@ -73,6 +77,7 @@
         <OknoPomnicky
           v-if="params.stranka === 'pomnicky' || params.stranka === 'studanky'"
           v-bind:clanky="clankyPodKategorie"
+          v-on:kliknuti="vyfiltrujPomnicek"
         />
 
         <OknoClanky
@@ -106,17 +111,22 @@
     },
 
     methods: {
-      handleClick(kategorie) {
-        console.log(this.params.stranka, kategorie.id);
+      vyfiltrujPomnicek(id) {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
+            clanek.kategorie === this.params.stranka && clanek.id === id
+        );
+      },
+
+      handleClick(kategorie) {
+        this.clankyPodKategorie = this.clanky.filter(
+          (clanek) =>
+            // clanek.kategorie === this.params.stranka &&
+            // clanek.podkategorie == kategorie.id
             clanek.kategorie === this.params.stranka &&
-            clanek.podkategorie == kategorie.id
+            clanek.podkategorie == this.$route.params.kategorie
         );
         this.vybraneId = kategorie.id;
-        // for (let clanek of this.clankyPodKategorie) {
-        //   clanek.druh = kategorie.nazev;
-        // }
         if (this.clankyPodKategorie.length === 0) {
           this.clankyPodKategorie = null;
         }
@@ -147,11 +157,29 @@
     },
 
     created() {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) =>
-          clanek.kategorie === this.params.stranka &&
-          clanek.podkategorie == this.$route.params.kategorie
-      );
+      
+      if (this.$route.params.detailPomnicku) {
+       
+        this.clankyPodKategorie = this.clanky.filter(
+          (clanek) =>
+            
+            clanek.id == this.$route.params.detailPomnicku
+        );
+      }
+
+      else if(this.$route.name==='Vypraveni'){
+        
+        this.clankyPodKategorie=this.clanky.filter(clanek=>clanek.kategorie==='vypraveni');
+        
+      }
+
+      else {
+         this.clankyPodKategorie = this.clanky.filter(
+          (clanek) =>
+            clanek.kategorie === this.params.stranka&& 
+            clanek.podkategorie == this.$route.params.kategorie
+         )
+      }
 
       this.seradClanky();
 
@@ -167,16 +195,14 @@
 </script>
 
 <style>
- 
-
   #pomnicky {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     min-height: 100vh;
   }
 
-   .large {
-    grid-column: 1/7!important;
+  .large {
+    grid-column: 1/7 !important;
     margin: 30px;
   }
 
@@ -196,8 +222,6 @@
   }
 
   @media screen and (max-width: 600px) {
-    
-     
     #pomnicky {
       height: 100wh;
       grid-template-rows: repeat(16, 60px);

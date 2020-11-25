@@ -8,6 +8,7 @@
       <h2 style="textAlign:center">
         {{ clanek.nazev ? clanek.nazev : clanek.jmeno }}
       </h2>
+
       <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
         <div style="width: 100%; height:100%">
           <!-- <iframe
@@ -64,7 +65,10 @@
         </tr>
         <tr>
           <td>Kde se nachází?</td>
-          <td>{{ clanek.popisCesty }}</td>
+          <td v-if="clanek.vnitrniOdkaz&&clanek.odkazKde==='popisCesty'">
+            <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
+          </td>
+          <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
         <tr>
           <td>Kdy vznikl?</td>
@@ -81,9 +85,9 @@
         </tr>
         <tr>
           <td>Poznámka:</td>
-          <td>{{ clanek.pozn }}</td>
+          <td v-if="clanek.vnitrniOdkaz&&clanek.odkazKde==='pozn'"><Klikaci v-bind:clanek="clanek"/></td>
+          <td v-else>{{ clanek.pozn }}</td>
         </tr>
-
         <tr>
           <td>Fotky:</td>
           <div id="fotogalerie">
@@ -137,11 +141,14 @@
 </template>
 
 <script>
+  import Klikaci from "./../components/Klikaci.vue";
   export default {
     props: ["clanky"],
+    components: { Klikaci: Klikaci },
     data() {
       return {
         vybraneId: undefined,
+        testData: undefined,
       };
     },
 
@@ -157,7 +164,13 @@
       schovejMapu() {
         this.vybraneId = undefined;
       },
-    },
+
+      vyfiltrujPomnicek(id){
+        this.$emit('kliknuti', id);
+      }
+
+          },
+   
   };
 </script>
 

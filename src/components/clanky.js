@@ -15,7 +15,7 @@ export default {
         "1400 metrů JJV od kostela v Babicích. V údolí, kterým vede Rosenauerova lesní silnice,   na staré lesní cestě asi 150 metrů od místa, kde vyústí na silnici do Babic.",
       kdyVznikl: "2005",
       popis:
-        " Pomník vysoký dva metry, ze dvou dřevěných bytelných pylonů seříznutých do špic, mezi nimi je kamenná deska, zepředu leštěná.",
+        "Pomník vysoký dva metry, ze dvou dřevěných bytelných pylonů seříznutých do špic, mezi nimi je kamenná deska, zepředu leštěná.",
       galerie: [
         { fotka: "soucek1.jpg", popisek: null, datum: "únor  2019" },
         { fotka: "soucek2.jpg", popisek: null, datum: "únor  2019" },
@@ -1234,7 +1234,7 @@ export default {
       proMe: " XIX/906  24-434-18  16---052 ",
     },
     {
-      id: 32,
+      id: 33,
       kategorie: "pomnicky",
       podkategorie: 13,
       druh: " Trampské objekty",
@@ -1269,7 +1269,7 @@ export default {
       proMe: " XX/1017   24-332-70   19---06 ",
     },
     {
-      id: 33,
+      id: 34,
       kategorie: "pomnicky",
       podkategorie: 13,
       druh: " Trampské objekty  ",
@@ -1306,8 +1306,8 @@ export default {
       proMe: " XX/986   24-332-64  18---111 ",
     },
     {
-      id: 34,
-      kategorie: "pomnicky",
+      id: 35,
+      kategorie: 'pomnicky',
       podkategorie: 13,
       druh: " Trampské objekty ",
       okres: " Třebíč ",
@@ -1317,6 +1317,12 @@ export default {
       kdyVznikl: " po roce 2013 ",
       popisCesty:
         " 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.",
+      vnitrniOdkaz: 34,
+      odkazKategorie: 'pomnicky',
+      odkazKde: 'popisCesty',
+      predOdkazem: '2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a ',
+      textOdkazu: 'křížek Kožicha Pelce',
+      zaOdkazem: '.',
       popis:
         "Kovová deska je připevněna čtyřmi šrouby ke skalnímu podkladu. Do ní vyryt stylizovaný portrét ženy v brýlích a text.",
       napis:
@@ -1333,7 +1339,7 @@ export default {
       proMe: "XIX/900  24-332-23  16---041 ",
     },
     {
-      id: 35,
+      id: 36,
       kategorie: "pomnicky",
       podkategorie: 7,
       druh: " Lesnické a dřevařské  ",
@@ -1368,7 +1374,7 @@ export default {
       proMe: " III/85  24-411-117  17---06  19---02 ",
     },
     {
-      id: 36,
+      id: 37,
       kategorie: "pomnicky",
       podkategorie: 15,
       druh: " církevní ",
@@ -1402,7 +1408,7 @@ export default {
       ],
     },
     {
-      id: 37,
+      id: 38,
       kategorie: "pomnicky",
       podkategorie: 15,
       druh: " Církevní ",
@@ -1431,7 +1437,7 @@ export default {
     },
 
     {
-      id: 38,
+      id: 39,
       kategorie: "pomnicky",
       podkategorie: 15,
       druh: " Církevní ",
@@ -1471,7 +1477,7 @@ export default {
     },
 
     {
-      id: 39,
+      id: 40,
       kategorie: "pomnicky",
       podkategorie: 16,
       druh: " jiné nezařaditelné ",
@@ -1511,7 +1517,7 @@ export default {
       proMe: "XX/976 24-332-65  18---082 ",
     },
     {
-      id: 40,
+      id: 41,
       kategorie: "pomnicky",
       podkategorie: 17,
       druh: " zaniklé ",
@@ -1543,7 +1549,7 @@ export default {
     },
 
     {
-      id: 41,
+      id: 42,
       kategorie: "pomnicky",
       podkategorie: 17,
       druh: " zaniklé ",
@@ -1554,6 +1560,12 @@ export default {
       kdyVznikl: " 1958 ",
       popisCesty:
         " 2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je pomník Vlasty Štrajtové.  ",
+      vnitrniOdkaz: 30,
+      odkazKategorie: 'pomnicky',
+      odkazKde: 'popisCesty',
+      predOdkazem: "2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je ",
+      textOdkazu: "pomník Vlasty Štrajtové",
+      zaOdkazem:'.',
       popis:
         "Na stromě připevněný zasklený obrázek Krista, nahoře bílá soška anděla.",
       napis:
@@ -1572,7 +1584,7 @@ export default {
     },
 
     {
-      id: 42,
+      id: 43,
       kategorie: "pomnicky",
       podkategorie: 7,
       druh: " Lesnické a dřevařské  ",
@@ -1595,7 +1607,12 @@ export default {
       pozn:
         " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti.",
 
-      // Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
+      vnitrniOdkaz: 44,
+      odkazKategorie: 'vypraveni',// Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
+      odkazKde: 'pozn',
+      predOdkazem: " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
+      textOdkazu: 'Vyprávění',
+      zaOdkazem: '.',
       naposledObnoveno: " 20.11.2020 ",
       souradnice: " 49.3227247N, 16.6259569E ",
       kodMapa:
@@ -1608,7 +1625,7 @@ export default {
       proMe: " XIV/474  24-322-24  20---11.  ",
     },
     {
-      id: 43,
+      id: 44,
       datum: "prosinec 2003",
       kategorie: "vypraveni",
       podkategorie: 18,
@@ -1666,130 +1683,18 @@ export default {
       dodatekNadpis: "Přípodotek z listopadu 2020 :",
       dodatekText:
         "Vrátili jsme se k pomníčku po dvanácti letech. Není už tak opuštěn, jak popisuji v textu starém 17 let. Zašlou desku někdo vyčistil, takže svítí do dálky, nápis je obtažen barvou. Z písmene O se stalo C, tedy i jméno na pomníčku se změnilo na Czada. Škoda, když existuje Obama, proč ne Ozada. Klid místa vzal částečně za své. Až sem doléhá hluk frekventované silnice hluboko v údolí. Nahoře nad památníkem zas vede poměrně frekventovaná červeně značená cesta. Utajovat pomník tedy není na místě, když skoro každý má kvalitní mapu v mobilu.",
-
+      vnitrniOdkaz: 43,
+      odkazKategorie: 'pomnicky',
+      odkazKde: 'dodatekText',
+      predOdkazem: 'Naleznete ho ',
+      textOdkazu: 'zde ',
+      zaOdkazem: '.',
       // "Naleznete ho  zde (památka adjunkta Czady).",
 
       fotkaUvod: { fotka: "vypraveniOzada1.jpg", datum: "listopad 2020" },
       galerie: [{ fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" }],
     },
-    {
-      id: 103,
-      datum: "20.07.2019",
-      kategorie: "cesty",
-      podkategorie: 2,
-      jmeno: "",
-      nazev: "Cesta 1",
-      text: [
-        "Tady bude text. Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
-        " Sed vestibulum, massa ut ullamcorper malesuada, massa tellus mattis elit, vel hendrerit leo nisl in ipsum. Curabitur tincidunt ut nulla vitae dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id felis in justo pretium tempor ut quis elit. Nam consectetur lacus eget efficitur consequat. Morbi libero neque, bibendum sit amet sem et, placerat pellentesque massa. Nunc risus mauris, venenatis id viverra eu, tempus consectetur massa. Suspendisse lorem sem, gravida eget sagittis tincidunt, egestas eget nibh. Sed maximus est eu leo blandit, ut iaculis ipsum volutpat.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
-      ],
-      galerie: [
-        { fotka: "foto10.jpg", popisek: "popisek10" },
-        { fotka: "foto11.jpg", popisek: "popisek11" },
-        { fotka: "foto12.jpg", popisek: "popisek12" },
-      ],
-
-      fotkaUvod: { fotka: "foto02.jpg", popisek: "popisek2" },
-    },
-
-    {
-      id: 100,
-      kategorie: "studanky",
-      podkategorie: 1,
-      druh: "",
-      okres: "",
-      obec: "",
-      jmeno: "",
-      nazev: "",
-      popisCesty: "",
-      kdyVznikl: "",
-      popis: "",
-      galerie: [{ fotka: "foto07.jpg", popisek: "popisek7" }],
-      odkazy: [
-        {
-          nazev: "Google",
-          adresa: "https://www.google.com",
-        },
-        {
-          nazev: "Google",
-          adresa: "https://www.google.com",
-        },
-      ],
-      latitude: 49.2386725171185,
-      longitude: 16.679992675781254,
-      naposledObnoveno: "",
-    },
-
-    {
-      id: 101,
-      kategorie: "studanky",
-      podkategorie: 2,
-      druh: "",
-      okres: "",
-      obec: "",
-      jmeno: "",
-      nazev: "",
-      popisCesty: "",
-      kdyVznikl: "",
-      popis: "",
-      galerie: [{ fotka: "foto08.jpg", popisek: "popisek8" }],
-      odkazy: [
-        {
-          nazev: "Google",
-          adresa: "https://www.google.com",
-        },
-        {
-          nazev: "Google",
-          adresa: "https://www.google.com",
-        },
-      ],
-      latitude: 48.2386725171185,
-      longitude: 16.679992675781254,
-      naposledObnoveno: "datum",
-    },
-    {
-      id: 102,
-      kategorie: "krize",
-      podkategorie: 1,
-      druh: "",
-      okres: "",
-      obec: "",
-      jmeno: "",
-      nazev: "",
-      popisCesty: "",
-      kdyVznikl: "",
-      popis: "",
-      galerie: [{ fotka: "foto09.jpg", popisek: "popisek9" }],
-      odkazy: [
-        {
-          nazev: "Google",
-          adresa: "https://www.google.com",
-        },
-        {
-          nazev: "Google",
-          adresa: "https://www.google.com",
-        },
-      ],
-      latitude: 49.2386725171185,
-      longitude: 16.679992675781254,
-      naposledObnoveno: "",
-    },
-
-    {
-      id: 104,
-      datum: "20.07.2020",
-      kategorie: "vypraveni",
-      podkategorie: 1,
-      nazev: "Vyprávění 1",
-      text: [
-        "Tady bude text. Mauris hendrerit finibus urna nec vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
-        " Sed vestibulum, massa ut ullamcorper malesuada, massa tellus mattis elit, vel hendrerit leo nisl in ipsum. Curabitur tincidunt ut nulla vitae dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id felis in justo pretium tempor ut quis elit. Nam consectetur lacus eget efficitur consequat. Morbi libero neque, bibendum sit amet sem et, placerat pellentesque massa. Nunc risus mauris, venenatis id viverra eu, tempus consectetur massa. Suspendisse lorem sem, gravida eget sagittis tincidunt, egestas eget nibh. Sed maximus est eu leo blandit, ut iaculis ipsum volutpat.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula, tortor quis hendrerit pulvinar, tortor nulla bibendum justo, ut convallis sem quam id arcu. Vivamus vitae commodo nunc, malesuada auctor tortor. Vestibulum scelerisque risus augue, sit amet vestibulum sem vehicula at. Morbi sagittis libero ut felis sagittis commodo. Vestibulum non blandit nisi. In rutrum, libero vitae laoreet tempor, tellus leo finibus dui, in elementum enim leo quis lorem. Nam et pellentesque magna. ",
-      ],
-      galerie: [{ fotka: "history.jpg", popisek: "popisek3" }],
-
-      fotkaUvod: { fotka: "obraz.jpg", popisek: "popisek2" },
-    },
+    
+  
   ],
 };

@@ -31,7 +31,7 @@ const routes = [{
         component: Odkazy
     },
     {
-        path: '/detail/:podkategorie/:id',
+        path: '/vypraveni/:podkategorie/:id',
         name: 'Detail',
         component: Detail
     },
@@ -48,6 +48,11 @@ const routes = [{
     {
         path: '/pomnicky/:kategorie',
         name: 'Pomnicky',
+        component: Pomnicky
+    },
+    {
+        path:'/pomnicky/:kategorie/:detailPomnicku',
+        name: 'DetailPomnicku',
         component: Pomnicky
     },
     {
@@ -71,13 +76,13 @@ const routes = [{
         name: 'Cesty',
         component: Cesty
     },
-
-
     {
-        path: '/vypraveni/:kategorie',
+        path: '/vypraveni',
         name: 'Vypraveni',
         component: Vypraveni
     },
+
+   
 
 ]
 

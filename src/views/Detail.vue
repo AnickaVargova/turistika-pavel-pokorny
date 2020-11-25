@@ -3,7 +3,7 @@
     <div id="detailOkno">
       <router-link
         v-bind:to="
-          `/${detailClanku.kategorie}/${this.$route.params.podkategorie}`
+          `/${detailClanku.kategorie}`
         "
       >
         <div class="pomnicekKategorie" id="zpetNaClanky">
@@ -25,7 +25,14 @@
               `/fotodetail/${detailClanku.podkategorie}/${odstavec.foto}`
             "
           >
-            <figure id="fotoText" v-bind:class='{vpravo: odstavec.umisteniFoto==="vpravo", vlevo: odstavec.umisteniFoto==="vlevo", nahore: index===0 }'>
+            <figure
+              id="fotoText"
+              v-bind:class="{
+                vpravo: odstavec.umisteniFoto === 'vpravo',
+                vlevo: odstavec.umisteniFoto === 'vlevo',
+                nahore: index === 0,
+              }"
+            >
               <img
                 v-bind:src="require(`./../assets/${odstavec.foto}`)"
                 v-bind:alt="detailClanku.nazev"
@@ -40,7 +47,16 @@
         <h3 v-if="detailClanku.dodatekNadpis">
           {{ detailClanku.dodatekNadpis }}
         </h3>
-        <p v-if="detailClanku.dodatekText">{{ detailClanku.dodatekText }}</p>
+        <p v-if="detailClanku.dodatekText">
+          {{ detailClanku.dodatekText }}
+        </p>
+        <p
+            v-if="
+              detailClanku.vnitrniOdkaz &&
+                detailClanku.odkazKde === 'dodatekText'
+            "
+            ><Klikaci v-on:kliknuti="vyfiltrujPomnicek" v-bind:clanek="detailClanku"
+          /></p>
       </div>
 
       <!-- <div id="galerieClanek">
@@ -69,10 +85,12 @@
 </template>
 
 <script>
-  //todo: vytvorit objekt s odstavci a fotkami, pokud fotka, tak davat na stridacku nalevo a napravo(float)
+  
   import Clanky from "@/components/clanky.js";
+  import Klikaci from "./../components/Klikaci.vue";
   export default {
     props: ["vybraneClanky"],
+    components: { Klikaci: Klikaci },
     data() {
       return {
         clanky: Clanky.data,
@@ -80,6 +98,13 @@
         rok: undefined,
         detailClanku: undefined,
       };
+    },
+
+    methods:{
+      vyfiltrujPomnicek(id){
+       
+       this.$emit('kliknuti', id);
+      }
     },
 
     created() {
@@ -145,12 +170,11 @@
     height: 200px;
     max-width: 40%;
     min-width: 150px;
-   
   }
 
   .vpravo {
     float: right;
-     margin-right: 0;
+    margin-right: 0;
     margin-bottom: 30px;
     margin-top: 16px;
     margin-left: 30px;
