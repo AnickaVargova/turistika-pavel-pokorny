@@ -197,7 +197,7 @@
     grid-row: 1 / 40;
     width: 100vw;
     /* height: 100vh; */
-    background-color: rgba(178, 203, 223, 0.6);
+    background-color: rgba(178, 203, 223, 0.7);
     margin-right: 0;
   }
 

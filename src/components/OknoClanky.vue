@@ -40,6 +40,7 @@
       border: none;
       border-bottom:2px solid grey;
       border-radius:0;
+      grid-template-rows: auto;
     }
 
     .clanek:last-child {

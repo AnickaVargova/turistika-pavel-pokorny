@@ -9,7 +9,14 @@
     <div id="transbox1"></div>
     <h1>{{ params.nadpis }}</h1>
 
-    <p id="pomnickyText" v-bind:class="{ responsive: menuUkazat }">
+    <p
+     
+      v-bind:class="{
+        pomnickyText: true,
+        responsive: menuUkazat,
+        large: params.stranka === 'vypraveni' || params.stranka === 'cesty',
+      }"
+    >
       {{ params.uvodniText }}
     </p>
 
@@ -27,33 +34,41 @@
         </div>
       </router-link>
 
-      <div
-        v-for="kategorie in params.kategoriePomnicky"
-        v-bind:key="kategorie.id"
-        v-on:click="handleClick(kategorie)"
-      >
-        <router-link v-bind:to="`/${params.stranka}/${kategorie.id}`">
-          <div
-            v-bind:class="{
-              pomnicekKategorie: true,
-              kategorieCesty:
-                params.stranka === 'cesty' || params.stranka === 'vypraveni',
-              active: kategorie.id == vybraneId,
-              responsive: menuUkazat && !oknoUkazat,
-              pomnicekMenu: true,
-            }"
-          >
-            {{ kategorie.nazev }}
-          </div>
-        </router-link>
+      <div v-if="params.stranka === 'pomnicky' || params.stranka === 'kriz'">
+        <div
+          v-for="kategorie in params.kategoriePomnicky"
+          v-bind:key="kategorie.id"
+          v-on:click="handleClick(kategorie)"
+        >
+          <router-link v-bind:to="`/${params.stranka}/${kategorie.id}`">
+            <div
+              v-bind:class="{
+                pomnicekKategorie: true,
+                kategorieCesty:
+                  params.stranka === 'cesty' || params.stranka === 'vypraveni',
+                active: kategorie.id == vybraneId,
+                responsive: menuUkazat && !oknoUkazat,
+                pomnicekMenu: true,
+              }"
+            >
+              {{ kategorie.nazev }}
+            </div>
+          </router-link>
+        </div>
       </div>
     </div>
 
-    <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
+    <a v-if="params.stranka === 'pomnicky' || params.stranka === 'kriz'" href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
       <i class="fa fa-bars"></i>
     </a>
 
-    <div class="kontejner" v-if="oknoUkazat">
+    <div
+      class="kontejner"
+      v-if="oknoUkazat"
+      v-bind:class="{
+        large: params.stranka === 'vypraveni' || params.stranka === 'cesty',
+      }"
+    >
       <div v-if="clankyPodKategorie">
         <OknoPomnicky
           v-if="params.stranka === 'pomnicky' || params.stranka === 'studanky'"
@@ -92,7 +107,7 @@
 
     methods: {
       handleClick(kategorie) {
-        console.log(this.params.stranka,kategorie.id);
+        console.log(this.params.stranka, kategorie.id);
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
             clanek.kategorie === this.params.stranka &&
@@ -116,7 +131,6 @@
           if (!clanek.jmeno) {
             clanek.jmeno = clanek.nazev;
           }
-         
         }
 
         this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
@@ -153,10 +167,17 @@
 </script>
 
 <style>
+ 
+
   #pomnicky {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     min-height: 100vh;
+  }
+
+   .large {
+    grid-column: 1/7!important;
+    margin: 30px;
   }
 
   #pomnicky h1 {
@@ -167,14 +188,16 @@
     font-size: 40px;
   }
 
-  #pomnickyText {
+  .pomnickyText {
     grid-row: 2/3;
     grid-column: 2/7;
-    margin: 20px;
+    margin: 30px;
     margin-bottom: 0;
   }
 
   @media screen and (max-width: 600px) {
+    
+     
     #pomnicky {
       height: 100wh;
       grid-template-rows: repeat(16, 60px);
@@ -189,7 +212,7 @@
       padding: 0;
     }
 
-    #pomnickyText {
+    .pomnickyText {
       grid-row: 3/16;
       grid-column: 1/7;
       font-size: 15px;
@@ -273,7 +296,7 @@
 
   @media (max-width: 600px) {
     #domu {
-      min-width: 100px;
+      min-width: 70px;
       max-width: 150px;
       margin-bottom: 70px;
     }
@@ -296,6 +319,7 @@
   #pomnicky .kontejner {
     grid-column: 2/7;
     grid-row: 4/20;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
@@ -319,7 +343,7 @@
       width: 100vw;
       font-size: 15px;
       margin: 0;
-      margin-top: 20px;
+      margin-top: 40px;
       padding: 0;
     }
 

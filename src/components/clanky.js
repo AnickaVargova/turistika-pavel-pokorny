@@ -1614,27 +1614,63 @@ export default {
       podkategorie: 18,
       nazev: "Jak jsem hledal Ozadovu památku",
       text: [
-        "Ví se o mně, že se už léta zabývám vyhledáváním pomníčků, studánek, smírčích kamenů a dalších památek v brněnském okolí. Odhaduji, že jejich počet se blíží tisícovce. V sedmdesátých letech se mi dostala do rukou obrázková mapa Školního lesního podniku Křtiny se zákresem přírodních a kulturních zajímavostí na sever od Brna. Koncem osmdesátých let jsem se pustil do jejich objevování.",
-        "Byly to blažené doby. Vyrážel jsem do lesů, putoval mezi studánkami a pamětními deskami a pokaždé jich pro sebe několik objevil. Přišla řada i na Roberta Ozadu. Byl to lesní adjunkt, který v roce 1908 zmrzl při výkonu služby. Uvažoval jsem, že bych si k němu odskočil z vycházky k vranovským jesličkám pro rodiče s dětmi, měl ležet jen 1300 metrů od vranovského kostela. Bláhový, neuskutečněný nápad.",
-        "Poprvé jsem se k němu vypravil na jaře 1988. Tehdy jsem měl na svém kontě padesát nalezených pomníčků a nečekal žádné problémy. V syrovém dubnovém odpoledni jsem prošel po strmé hraně mezi údolími Svitavy a potoka Šebrovky, poohlédl se po okolí – a nenašel nic. Jen stádečko muflonů pozorovalo mé podivné počínání. Nevadí, příště budu hledat lépe.",
-        "V dalším roce jsem systematicky propátral celou stráň, kde měl pomníček podle mapy být. Nebyl. Uvažoval jsem: většina pomníků stojí u cest. Prošel jsem je, nebylo jich mnoho. Marně. Nebo: pomníky často stojí ve stráni nad silnicí. Propátral jsem svah nad silnicí. Zbytečně. V údolí kousek od potoka jsem našel bezejmenný upravený pramen vody, a tak jsem ho pro sebe pokřtil na Ozadovu studánku. Aspoň něco.",
-        "Léta běžela. Každoročně jsem tudy procházel, drápal se s Lídou do strmých svahů, vracel se na stejná místa,rozedrán ostružiním, popálen od kopřiv. Míval jsem vidiny, na skalní stěně jsem zahlédl zašlou pamětní desku, ale zblízka to byla jen skvrna na kameni. Po pátém hledání jsem to vzdal. Předpokládal jsem, že pomníček zničily zemní stroje při rozšiřování silnice z Lipůvky do Blanska. V turistických mapách se objevuje jen proto, že jejich tvůrci opisují ze starších podkladů. Na každé mapě byl zakreslen o malý kousek vedle.",
-        "Hledal jsem jiné a jinde, nalezených pomníčků přibývalo po desítkách, po stovkách. Kdykoliv vyšla nová turistická mapa na sever od Brna s novým zákresem pomníku Ozada, dal jsem se znovu zlákat. Marná snaha.",
-        "Až letos jsem se dočkal. Vyšla seriózní knížka o památnících adamovských lesů. Její autor Jiří Truhlář uvedl věci na pravou míru. Myslivecký mládenec se ve skutečnosti jmenoval Czada, asi to byl Němec, v lese uklouzl, zlomil si nohu, dostal otravu a na následky nehody při špatném léčení zemřel. Neštěstí se stalo 21. prosince 1908. Ale nejdůležitější informace byla ta, že pomníček existuje. Nevíra ubíjí, naděje posiluje.",
-        "Hned příští neděli jsem sám vyrazil do vranovských lesů. Bylo nádherné zářijové počasí, na Vranov se sjížděli poutníci i trhovci, jako každé září. Ze žlebu za kopcem rachotily terénní motocykly a jejich kravál se mísil do hlaholu zvonů. Ale ve strmých svazích padajících ke Svitavě byl hvězdný klid. Opět jsem přelézal vývraty, spouštěl se do roklí, traverzoval stezkami zvěře. Našel jsem i polosuché houby, snad jediné bedly na celém Vranovsku v letošním suchém létě. Nakonec, též díky drobnému detailu v Truhlářově knize, jsem pomníček pár metrů před sebou spatřil. Je kamenný, nenápadný, vysoký jen 60 centimetrů. Cesta k němu nevede, nikdo ho nenavštěvuje. Co do skrytosti a opuštěnosti je to král mezi pomníky.",
-        "Na devátý pokus, po patnácti letech hledání se mi splnil sen. Obřadně jsem si opsal nápis z pomníku, je tam jméno Robert Ozada a v mých záznamech dostal pořadové číslo 474. Nejvíce se podobá jizerským pomníčkům Miloslava Nevrlého. Pak jsem ještě chvíli vychutnával zvláštní atmosféru místa. Mám rád tyto divoké oblasti, kde jsem blízko města a současně vzdálen civilizaci.",
-        "Cestu k němu úmyslně nepopíšu. Krásné je nalézání, krásnější je hledání. Stačí jen říct, že pomník existuje a že leží v severních svazích vranovské Baby vysoko nad silnicí vedoucí ke Kateřinskému mostu. Pokud se ho vydáte hledat, bude se plahočit i po čtyřech do strmých kopců, klouzat v suťoviscích, padat přes vývraty, popadat dech v prudkých stoupáních. Potkáte nanejvýš divočáky.",
-        "Trochu je mi líto, že dlouhé hledání skončilo. Ale jsou tu další záhady. Nevíte náhodou o památce parašutisty Žukova pod Kalečníkem, náhrobku maďarského zběha u Prosatína, trampském kříži pod Vickovem, kameni dvou řezníků nad Štěpánovicemi.....?",],
-        dodatekNadpis: "Přípodotek z listopadu 2020 :",
-        dodatekText: "Vrátili jsme se k pomníčku po dvanácti letech. Není už tak opuštěn, jak popisuji v textu starém 17 let. Zašlou desku někdo vyčistil, takže svítí do dálky, nápis je obtažen barvou. Z písmene O se stalo C, tedy i jméno na pomníčku se změnilo na Czada. Škoda, když existuje Obama, proč ne Ozada. Klid místa vzal částečně za své. Až sem doléhá hluk frekventované silnice hluboko v údolí. Nahoře nad památníkem zas vede poměrně frekventovaná červeně značená cesta. Utajovat pomník tedy není na místě, když skoro každý má kvalitní mapu v mobilu.",
-
-        // "Naleznete ho  zde (památka adjunkta Czady).",
-      
-      fotkaUvod: { fotka: "vypraveniOzada1.jpg", datum: "listopad 2020" },
-      galerie: [
-        { fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" },
-      
+        {
+          textOdstavce:
+            "Ví se o mně, že se už léta zabývám vyhledáváním pomníčků, studánek, smírčích kamenů a dalších památek v brněnském okolí. Odhaduji, že jejich počet se blíží tisícovce. V sedmdesátých letech se mi dostala do rukou obrázková mapa Školního lesního podniku Křtiny se zákresem přírodních a kulturních zajímavostí na sever od Brna. Koncem osmdesátých let jsem se pustil do jejich objevování.",
+          foto: "vypraveniOzada1.jpg",
+          umisteniFoto: "vlevo",
+        },
+        {
+          textOdstavce:
+            "Byly to blažené doby. Vyrážel jsem do lesů, putoval mezi studánkami a pamětními deskami a pokaždé jich pro sebe několik objevil. Přišla řada i na Roberta Ozadu. Byl to lesní adjunkt, který v roce 1908 zmrzl při výkonu služby. Uvažoval jsem, že bych si k němu odskočil z vycházky k vranovským jesličkám pro rodiče s dětmi, měl ležet jen 1300 metrů od vranovského kostela. Bláhový, neuskutečněný nápad.",
+        },
+        {
+          textOdstavce:
+            "Poprvé jsem se k němu vypravil na jaře 1988. Tehdy jsem měl na svém kontě padesát nalezených pomníčků a nečekal žádné problémy. V syrovém dubnovém odpoledni jsem prošel po strmé hraně mezi údolími Svitavy a potoka Šebrovky, poohlédl se po okolí – a nenašel nic. Jen stádečko muflonů pozorovalo mé podivné počínání. Nevadí, příště budu hledat lépe.",
+        },
+        {
+          textOdstavce:
+            "V dalším roce jsem systematicky propátral celou stráň, kde měl pomníček podle mapy být. Nebyl. Uvažoval jsem: většina pomníků stojí u cest. Prošel jsem je, nebylo jich mnoho. Marně. Nebo: pomníky často stojí ve stráni nad silnicí. Propátral jsem svah nad silnicí. Zbytečně. V údolí kousek od potoka jsem našel bezejmenný upravený pramen vody, a tak jsem ho pro sebe pokřtil na Ozadovu studánku. Aspoň něco.",
+        },
+        {
+          textOdstavce:
+            "Léta běžela. Každoročně jsem tudy procházel, drápal se s Lídou do strmých svahů, vracel se na stejná místa,rozedrán ostružiním, popálen od kopřiv. Míval jsem vidiny, na skalní stěně jsem zahlédl zašlou pamětní desku, ale zblízka to byla jen skvrna na kameni. Po pátém hledání jsem to vzdal. Předpokládal jsem, že pomníček zničily zemní stroje při rozšiřování silnice z Lipůvky do Blanska. V turistických mapách se objevuje jen proto, že jejich tvůrci opisují ze starších podkladů. Na každé mapě byl zakreslen o malý kousek vedle.",
+          foto: "vypraveniOzada2.jpg",
+          umisteniFoto: "vpravo",
+        },
+        {
+          textOdstavce:
+            "Hledal jsem jiné a jinde, nalezených pomníčků přibývalo po desítkách, po stovkách. Kdykoliv vyšla nová turistická mapa na sever od Brna s novým zákresem pomníku Ozada, dal jsem se znovu zlákat. Marná snaha.",
+        },
+        {
+          textOdstavce:
+            "Až letos jsem se dočkal. Vyšla seriózní knížka o památnících adamovských lesů. Její autor Jiří Truhlář uvedl věci na pravou míru. Myslivecký mládenec se ve skutečnosti jmenoval Czada, asi to byl Němec, v lese uklouzl, zlomil si nohu, dostal otravu a na následky nehody při špatném léčení zemřel. Neštěstí se stalo 21. prosince 1908. Ale nejdůležitější informace byla ta, že pomníček existuje. Nevíra ubíjí, naděje posiluje.",
+        },
+        {
+          textOdstavce:
+            "Hned příští neděli jsem sám vyrazil do vranovských lesů. Bylo nádherné zářijové počasí, na Vranov se sjížděli poutníci i trhovci, jako každé září. Ze žlebu za kopcem rachotily terénní motocykly a jejich kravál se mísil do hlaholu zvonů. Ale ve strmých svazích padajících ke Svitavě byl hvězdný klid. Opět jsem přelézal vývraty, spouštěl se do roklí, traverzoval stezkami zvěře. Našel jsem i polosuché houby, snad jediné bedly na celém Vranovsku v letošním suchém létě. Nakonec, též díky drobnému detailu v Truhlářově knize, jsem pomníček pár metrů před sebou spatřil. Je kamenný, nenápadný, vysoký jen 60 centimetrů. Cesta k němu nevede, nikdo ho nenavštěvuje. Co do skrytosti a opuštěnosti je to král mezi pomníky.",
+        },
+        {
+          textOdstavce:
+            "Na devátý pokus, po patnácti letech hledání se mi splnil sen. Obřadně jsem si opsal nápis z pomníku, je tam jméno Robert Ozada a v mých záznamech dostal pořadové číslo 474. Nejvíce se podobá jizerským pomníčkům Miloslava Nevrlého. Pak jsem ještě chvíli vychutnával zvláštní atmosféru místa. Mám rád tyto divoké oblasti, kde jsem blízko města a současně vzdálen civilizaci.",
+        },
+        {
+          textOdstavce:
+            "Cestu k němu úmyslně nepopíšu. Krásné je nalézání, krásnější je hledání. Stačí jen říct, že pomník existuje a že leží v severních svazích vranovské Baby vysoko nad silnicí vedoucí ke Kateřinskému mostu. Pokud se ho vydáte hledat, bude se plahočit i po čtyřech do strmých kopců, klouzat v suťoviscích, padat přes vývraty, popadat dech v prudkých stoupáních. Potkáte nanejvýš divočáky.",
+        },
+        {
+          textOdstavce:
+            "Trochu je mi líto, že dlouhé hledání skončilo. Ale jsou tu další záhady. Nevíte náhodou o památce parašutisty Žukova pod Kalečníkem, náhrobku maďarského zběha u Prosatína, trampském kříži pod Vickovem, kameni dvou řezníků nad Štěpánovicemi.....?",
+        },
       ],
+      dodatekNadpis: "Přípodotek z listopadu 2020 :",
+      dodatekText:
+        "Vrátili jsme se k pomníčku po dvanácti letech. Není už tak opuštěn, jak popisuji v textu starém 17 let. Zašlou desku někdo vyčistil, takže svítí do dálky, nápis je obtažen barvou. Z písmene O se stalo C, tedy i jméno na pomníčku se změnilo na Czada. Škoda, když existuje Obama, proč ne Ozada. Klid místa vzal částečně za své. Až sem doléhá hluk frekventované silnice hluboko v údolí. Nahoře nad památníkem zas vede poměrně frekventovaná červeně značená cesta. Utajovat pomník tedy není na místě, když skoro každý má kvalitní mapu v mobilu.",
+
+      // "Naleznete ho  zde (památka adjunkta Czady).",
+
+      fotkaUvod: { fotka: "vypraveniOzada1.jpg", datum: "listopad 2020" },
+      galerie: [{ fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" }],
     },
     {
       id: 103,
@@ -1739,7 +1775,7 @@ export default {
       longitude: 16.679992675781254,
       naposledObnoveno: "",
     },
-   
+
     {
       id: 104,
       datum: "20.07.2020",

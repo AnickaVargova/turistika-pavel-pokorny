@@ -14,29 +14,36 @@
       <h3>{{ detailClanku.datum }}</h3>
 
       <div id="textClanku">
-        <router-link
-          v-bind:to="
-            `/fotodetail/${detailClanku.podkategorie}/${detailClanku.fotkaUvod.fotka}`
-          "
+        <div
+          v-for="(odstavec, index) in detailClanku.text"
+          v-bind:key="index"
+          class="odstavec"
         >
-          <figure id="fotoUvod">
-            <img
-              v-bind:src="
-                require(`./../assets/${detailClanku.fotkaUvod.fotka}`)
-              "
-              v-bind:alt="detailClanku.nazev"
-            />
-            <figcaption>{{ detailClanku.fotkaUvod.popisek }}</figcaption>
-          </figure>
-        </router-link>
-        <p v-for="(odstavec, index) in detailClanku.text" v-bind:key="index">
-          {{ odstavec }}
-        </p>
-        <h3 v-if="detailClanku.dodatekNadpis">{{detailClanku.dodatekNadpis}}</h3>
-        <p v-if="detailClanku.dodatekText">{{detailClanku.dodatekText}}</p>
+          <router-link
+            v-if="odstavec.foto"
+            v-bind:to="
+              `/fotodetail/${detailClanku.podkategorie}/${odstavec.foto}`
+            "
+          >
+            <figure id="fotoText" v-bind:class='{vpravo: odstavec.umisteniFoto==="vpravo", vlevo: odstavec.umisteniFoto==="vlevo", nahore: index===0 }'>
+              <img
+                v-bind:src="require(`./../assets/${odstavec.foto}`)"
+                v-bind:alt="detailClanku.nazev"
+              />
+              <figcaption>{{ odstavec.popisek }}</figcaption>
+            </figure>
+          </router-link>
+          <p>
+            {{ odstavec.textOdstavce }}
+          </p>
+        </div>
+        <h3 v-if="detailClanku.dodatekNadpis">
+          {{ detailClanku.dodatekNadpis }}
+        </h3>
+        <p v-if="detailClanku.dodatekText">{{ detailClanku.dodatekText }}</p>
       </div>
 
-      <div id="galerieClanek">
+      <!-- <div id="galerieClanek">
         <div
           class="obrazek"
           v-for="(obrazek, index) in detailClanku.galerie"
@@ -56,32 +63,31 @@
             </figure>
           </router-link>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
+  //todo: vytvorit objekt s odstavci a fotkami, pokud fotka, tak davat na stridacku nalevo a napravo(float)
   import Clanky from "@/components/clanky.js";
   export default {
     props: ["vybraneClanky"],
     data() {
       return {
         clanky: Clanky.data,
-        clanek: undefined,
+
         rok: undefined,
+        detailClanku: undefined,
       };
     },
 
-    computed: {
-      detailClanku() {
-        for (let clanek of this.clanky) {
-          if (clanek.id == this.$route.params.id) {
-            this.clanek = clanek;
-            return clanek;
-          }
+    created() {
+      for (let clanek of this.clanky) {
+        if (clanek.id == this.$route.params.id) {
+          this.detailClanku = clanek;
         }
-      },
+      }
     },
   };
 </script>
@@ -91,7 +97,7 @@
     background-color: beige;
     padding: 2%;
   }
-  
+
   #detailOkno {
     margin: auto;
     /* margin-top: 20px; */
@@ -135,15 +141,31 @@
     grid-column: 1 / 4;
   }
 
-  #fotoUvod {
+  #fotoText {
     height: 200px;
     max-width: 40%;
     min-width: 150px;
+   
+  }
+
+  .vpravo {
+    float: right;
+     margin-right: 0;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    margin-left: 30px;
+  }
+
+  .vlevo {
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
     margin-top: 16px;
     margin-left: 0;
+  }
+
+  .nahore {
+    margin-top: 0;
   }
 
   #textClanku {
@@ -153,7 +175,7 @@
     line-height: 1.5;
   }
 
-  #fotoUvod img {
+  #fotoText img {
     width: 100%;
     height: 100%;
     object-fit: cover;

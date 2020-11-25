@@ -72,7 +72,7 @@
         </tr>
 
         <tr>
-          <td>Popis:</td>
+          <td>Popis pomníčku:</td>
           <td>{{ clanek.popis }}</td>
         </tr>
         <tr>
@@ -128,7 +128,7 @@
           </td>
         </tr>
         <tr>
-          <td>Naposled obnoveno:</td>
+          <td>Naposled editováno:</td>
           <td>{{ clanek.naposledObnoveno }}</td>
         </tr>
       </table>
