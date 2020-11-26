@@ -1318,6 +1318,7 @@ export default {
       popisCesty:
         " 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.",
       vnitrniOdkaz: 34,
+      odkazPodkategorie: 13,
       odkazKategorie: 'pomnicky',
       odkazKde: 'popisCesty',
       predOdkazem: '2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a ',
@@ -1562,6 +1563,7 @@ export default {
         " 2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je pomník Vlasty Štrajtové.  ",
       vnitrniOdkaz: 30,
       odkazKategorie: 'pomnicky',
+      odkazPodkategorie: 8,
       odkazKde: 'popisCesty',
       predOdkazem: "2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je ",
       textOdkazu: "pomník Vlasty Štrajtové",
@@ -1608,7 +1610,8 @@ export default {
         " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti.",
 
       vnitrniOdkaz: 44,
-      odkazKategorie: 'vypraveni',// Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
+      odkazKategorie: 'vypraveni',
+      odkazPodkategorie: 18,// Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
       odkazKde: 'pozn',
       predOdkazem: " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
       textOdkazu: 'Vyprávění',
@@ -1685,6 +1688,7 @@ export default {
         "Vrátili jsme se k pomníčku po dvanácti letech. Není už tak opuštěn, jak popisuji v textu starém 17 let. Zašlou desku někdo vyčistil, takže svítí do dálky, nápis je obtažen barvou. Z písmene O se stalo C, tedy i jméno na pomníčku se změnilo na Czada. Škoda, když existuje Obama, proč ne Ozada. Klid místa vzal částečně za své. Až sem doléhá hluk frekventované silnice hluboko v údolí. Nahoře nad památníkem zas vede poměrně frekventovaná červeně značená cesta. Utajovat pomník tedy není na místě, když skoro každý má kvalitní mapu v mobilu.",
       vnitrniOdkaz: 43,
       odkazKategorie: 'pomnicky',
+      odkazPodkategorie: 7,
       odkazKde: 'dodatekText',
       predOdkazem: 'Naleznete ho ',
       textOdkazu: 'zde ',

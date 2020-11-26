@@ -10,6 +10,7 @@ import Studanky from '../views/Studanky.vue'
 import SmirciKrize from '../views/SmirciKrize.vue'
 import Cesty from '../views/Cesty.vue'
 import Vypraveni from '../views/Vypraveni.vue'
+import DetailPomnicku from '../views/DetailPomnicku.vue'
 
 
 Vue.use(VueRouter)
@@ -51,9 +52,9 @@ const routes = [{
         component: Pomnicky
     },
     {
-        path:'/pomnicky/:kategorie/:detailPomnicku',
+        path:'/pomnicky/:kategorie/:id',
         name: 'DetailPomnicku',
-        component: Pomnicky
+        component: DetailPomnicku
     },
     {
         path: '/studanky',

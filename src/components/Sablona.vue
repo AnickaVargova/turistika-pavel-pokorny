@@ -158,12 +158,12 @@
 
     created() {
       
-      if (this.$route.params.detailPomnicku) {
+      if (this.$route.params.id) {
        
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
             
-            clanek.id == this.$route.params.detailPomnicku
+            clanek.id == this.$route.params.id
         );
       }
 

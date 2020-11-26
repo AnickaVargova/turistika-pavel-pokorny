@@ -1,18 +1,11 @@
 <template>
   <div>
     <span>{{ clanek.predOdkazem }}</span>
-    <span
-      v-if="clanek.kategorie === clanek.odkazKategorie"
-      v-on:click="zobrazOdkaz(clanek.vnitrniOdkaz)"
-      class="vnitrniOdkaz"
-      >{{ clanek.textOdkazu }}</span
-    >
-
-    <span v-else-if="clanek.kategorie !== clanek.odkazKategorie">
+    <span>
       <router-link
         class="vnitrniOdkaz"
         v-bind:to="
-          `/${clanek.odkazKategorie}/${clanek.podkategorie}/${clanek.vnitrniOdkaz}`
+          `/${clanek.odkazKategorie}/${clanek.odkazPodkategorie}/${clanek.vnitrniOdkaz}`
         "
         >{{ clanek.textOdkazu }}</router-link
       >
@@ -22,15 +15,9 @@
 </template>
 
 <script>
-  import vsechnyClanky from "./../components/clanky.js";
   export default {
     props: ["clanek"],
 
-    data() {
-      return {
-        clanky: vsechnyClanky.data,
-      };
-    },
     methods: {
       zobrazOdkaz(id) {
         this.$emit("kliknuti", id);
@@ -41,12 +28,12 @@
 
 <style>
   .vnitrniOdkaz {
-    color: rgb(37, 161, 32);
+    color: rgb(59, 43, 204);
     text-decoration: underline;
   }
 
   .vnitrniOdkaz:hover,
   .vnitrniOdkaz:active {
-    color: rgb(121, 153, 67);
+    color: rgb(93, 102, 143);
   }
 </style>

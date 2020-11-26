@@ -199,13 +199,13 @@
   }
 
   .odkaz a {
-    color: rgb(23, 59, 37) !important;
+    color: rgb(59, 43, 204) !important;
     text-decoration: underline;
   }
 
   .odkaz a:hover,
   .odkaz a:active {
-    color: darkolivegreen !important;
+    color:  rgb(93, 102, 143) !important;
   }
 
   #fotogalerie {
