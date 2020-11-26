@@ -71,6 +71,11 @@ const routes = [{
         name: 'SmirciKrize',
         component: SmirciKrize
     },
+    {
+        path: '/smircikrize/:kategorie',
+        name: 'SmirciKrize',
+        component: SmirciKrize
+    },
 
     {
         path: '/cesty/:kategorie',

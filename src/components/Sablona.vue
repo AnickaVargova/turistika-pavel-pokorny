@@ -33,7 +33,9 @@
         </div>
       </router-link>
 
-      <div v-if="params.stranka === 'pomnicky' || params.stranka === 'kriz'">
+      <div
+        v-if="params.stranka === 'pomnicky' || params.stranka === 'smircikrize'"
+      >
         <div
           v-for="kategorie in params.kategoriePomnicky"
           v-bind:key="kategorie.id"
@@ -58,7 +60,7 @@
     </div>
 
     <a
-      v-if="params.stranka === 'pomnicky' || params.stranka === 'kriz'"
+      v-if="params.stranka === 'pomnicky' || params.stranka === 'smircikrize'"
       href="javascript:void(0);"
       class="icon"
       v-on:click="toggleMenu"
@@ -68,14 +70,18 @@
 
     <div
       class="kontejner"
-      v-if="oknoUkazat"
+      v-if="oknoUkazat&&clankyPodKategorie"
       v-bind:class="{
         large: params.stranka === 'vypraveni' || params.stranka === 'cesty',
       }"
     >
       <div v-if="clankyPodKategorie">
         <OknoPomnicky
-          v-if="params.stranka === 'pomnicky' || params.stranka === 'studanky'"
+          v-if="
+            params.stranka === 'pomnicky' ||
+              params.stranka === 'studanky' ||
+              params.stranka === 'smircikrize'
+          "
           v-bind:clanky="clankyPodKategorie"
           v-on:kliknuti="vyfiltrujPomnicek"
         />
@@ -157,28 +163,20 @@
     },
 
     created() {
-      
       if (this.$route.params.id) {
-       
+        this.clankyPodKategorie = this.clanky.filter(
+          (clanek) => clanek.id == this.$route.params.id
+        );
+      } else if (this.$route.name === "Vypraveni") {
+        this.clankyPodKategorie = this.clanky.filter(
+          (clanek) => clanek.kategorie === "vypraveni"
+        );
+      } else {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
-            
-            clanek.id == this.$route.params.id
-        );
-      }
-
-      else if(this.$route.name==='Vypraveni'){
-        
-        this.clankyPodKategorie=this.clanky.filter(clanek=>clanek.kategorie==='vypraveni');
-        
-      }
-
-      else {
-         this.clankyPodKategorie = this.clanky.filter(
-          (clanek) =>
-            clanek.kategorie === this.params.stranka&& 
+            clanek.kategorie === this.params.stranka &&
             clanek.podkategorie == this.$route.params.kategorie
-         )
+        );
       }
 
       this.seradClanky();

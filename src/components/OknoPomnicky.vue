@@ -38,10 +38,15 @@
       </div>
 
       <table v-else>
-        <tr>
+        <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>Druh:</td>
           <td>{{ clanek.druh }}</td>
         </tr>
+        <tr v-else-if="clanek.kategorie === 'smircikrize'">
+          <td>Umístění:</td>
+          <td>{{ clanek.oblast }}</td>
+        </tr>
+
         <tr>
           <td>Okres:</td>
           <td>{{ clanek.okres }}</td>
@@ -50,46 +55,77 @@
           <td>Obec:</td>
           <td>{{ clanek.obec }}</td>
         </tr>
-        <tr v-if="clanek.jmeno !== clanek.nazev">
+
+        <tr
+          v-if="
+            clanek.jmeno !== clanek.nazev && clanek.kategorie === 'pomnicky'
+          "
+        >
           <td>Jméno:</td>
           <td>
             <strong>{{ clanek.jmeno }}</strong>
           </td>
         </tr>
-        <tr v-else>
+        <tr v-else-if= "clanek.kategorie === 'pomnicky'">
           <td>Název:</td>
-          <td v-if="clanek.jmeno !== clanek.nazev">{{ clanek.nazev }}</td>
-          <td v-else>
+          <td
+            v-if="
+              clanek.jmeno !== clanek.nazev && clanek.kategorie === 'pomnicky'
+            "
+          >
+            {{ clanek.nazev }}
+          </td>
+          <td v-else-if="clanek.kategorie === 'pomnicky'">
             <strong>{{ clanek.nazev }}</strong>
           </td>
         </tr>
-        <tr>
+
+        <tr v-if="clanek.kategorie==='pomnicky'"> 
           <td>Kde se nachází?</td>
-          <td v-if="clanek.vnitrniOdkaz&&clanek.odkazKde==='popisCesty'">
+          <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'popisCesty'">
             <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
           </td>
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
-        <tr>
+
+        <tr v-if="clanek.kategorie==='smircikrize'"> 
+          <td>Kde se nachází?</td>
+          <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'kdeSeNaleza'">
+            <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
+          </td>
+          <td v-else>{{ clanek.kdeSeNaleza }}</td>
+        </tr>
+
+        <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>Kdy vznikl?</td>
           <td>{{ clanek.kdyVznikl }}</td>
         </tr>
 
         <tr>
-          <td>Popis pomníčku:</td>
+          <td v-if="clanek.kategorie === 'pomnicky'">Popis pomníčku:</td>
+           <td v-if="clanek.kategorie === 'smircikrize'">Popis kříže:</td>
           <td>{{ clanek.popis }}</td>
         </tr>
         <tr>
           <td>Nápis:</td>
           <td>{{ clanek.napis }}</td>
         </tr>
+
+        <tr v-if="clanek.kategorie==='smircikrize'">
+          <td>Pověst:</td>
+          <td>{{ clanek.povest }}</td>
+        </tr>
+
+
         <tr>
           <td>Poznámka:</td>
-          <td v-if="clanek.vnitrniOdkaz&&clanek.odkazKde==='pozn'"><Klikaci v-bind:clanek="clanek"/></td>
+          <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'pozn'">
+            <Klikaci v-bind:clanek="clanek" />
+          </td>
           <td v-else>{{ clanek.pozn }}</td>
         </tr>
         <tr>
-          <td>Fotky:</td>
+          <td>Galerie:</td>
           <div id="fotogalerie">
             <div
               v-for="(obrazek, index) in clanek.galerie"
@@ -124,7 +160,7 @@
             </p>
           </td>
         </tr>
-        <tr>
+        <tr v-if="clanek.kategorie==='pomnicky'">
           <td>
             <button class="pomnicekKategorie" v-on:click="ukazMapu(clanek.id)">
               Ukázat na mapě
@@ -165,12 +201,10 @@
         this.vybraneId = undefined;
       },
 
-      vyfiltrujPomnicek(id){
-        this.$emit('kliknuti', id);
-      }
-
-          },
-   
+      vyfiltrujPomnicek(id) {
+        this.$emit("kliknuti", id);
+      },
+    },
   };
 </script>
 
@@ -195,7 +229,8 @@
   }
 
   .odkaz {
-    margin: 0 !important;
+    margin-bottom: 5px !important;
+     margin-top: 0 !important;
   }
 
   .odkaz a {
@@ -205,7 +240,7 @@
 
   .odkaz a:hover,
   .odkaz a:active {
-    color:  rgb(93, 102, 143) !important;
+    color: rgb(93, 102, 143) !important;
   }
 
   #fotogalerie {
