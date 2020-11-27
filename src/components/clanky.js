@@ -429,7 +429,7 @@ export default {
       druh: " Napoleonské  ",
       okres: " Brno-venkov  ",
       obec: " Jiříkovice ",
-      jmeno: 'Strom přátelství u Jiříkovic',
+      jmeno: "Strom přátelství u Jiříkovic",
       nazev: " Strom přátelství u Jiříkovic  ",
       kdyVznikl:
         " 2. 12. 2005 při vzpomínkách na 200. výročí bitvy u Slavkova ",
@@ -469,7 +469,7 @@ export default {
       druh: " Napoleonské  ",
       okres: " Brno-venkov ",
       obec: " Prace ",
-      jmeno: 'Bitva v Prace',
+      jmeno: "Bitva v Prace",
       nazev: " Pomník bitvě v Prace ",
       kdyVznikl: " 2005 ",
       popisCesty: " Na jižním okraji, hned za obcí, u silnice k Mohyle míru.  ",
@@ -1307,7 +1307,7 @@ export default {
     },
     {
       id: 35,
-      kategorie: 'pomnicky',
+      kategorie: "pomnicky",
       podkategorie: 13,
       druh: " Trampské objekty ",
       okres: " Třebíč ",
@@ -1319,11 +1319,12 @@ export default {
         " 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.",
       vnitrniOdkaz: 34,
       odkazPodkategorie: 13,
-      odkazKategorie: 'pomnicky',
-      odkazKde: 'popisCesty',
-      predOdkazem: '2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a ',
-      textOdkazu: 'křížek Kožicha Pelce',
-      zaOdkazem: '.',
+      odkazKategorie: "pomnicky",
+      odkazKde: "popisCesty",
+      predOdkazem:
+        "2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a ",
+      textOdkazu: "křížek Kožicha Pelce",
+      zaOdkazem: ".",
       popis:
         "Kovová deska je připevněna čtyřmi šrouby ke skalnímu podkladu. Do ní vyryt stylizovaný portrét ženy v brýlích a text.",
       napis:
@@ -1562,12 +1563,13 @@ export default {
       popisCesty:
         " 2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je pomník Vlasty Štrajtové.  ",
       vnitrniOdkaz: 30,
-      odkazKategorie: 'pomnicky',
+      odkazKategorie: "pomnicky",
       odkazPodkategorie: 8,
-      odkazKde: 'popisCesty',
-      predOdkazem: "2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je ",
+      odkazKde: "popisCesty",
+      predOdkazem:
+        "2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je ",
       textOdkazu: "pomník Vlasty Štrajtové",
-      zaOdkazem:'.',
+      zaOdkazem: ".",
       popis:
         "Na stromě připevněný zasklený obrázek Krista, nahoře bílá soška anděla.",
       napis:
@@ -1610,12 +1612,13 @@ export default {
         " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti.",
 
       vnitrniOdkaz: 44,
-      odkazKategorie: 'vypraveni',
-      odkazPodkategorie: 18,// Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
-      odkazKde: 'pozn',
-      predOdkazem: " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
-      textOdkazu: 'Vyprávění',
-      zaOdkazem: '.',
+      odkazKategorie: "vypraveni",
+      odkazPodkategorie: 18, // Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
+      odkazKde: "pozn",
+      predOdkazem:
+        " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
+      textOdkazu: "Vyprávění",
+      zaOdkazem: ".",
       naposledObnoveno: " 20.11.2020 ",
       souradnice: " 49.3227247N, 16.6259569E ",
       kodMapa:
@@ -1687,12 +1690,12 @@ export default {
       dodatekText:
         "Vrátili jsme se k pomníčku po dvanácti letech. Není už tak opuštěn, jak popisuji v textu starém 17 let. Zašlou desku někdo vyčistil, takže svítí do dálky, nápis je obtažen barvou. Z písmene O se stalo C, tedy i jméno na pomníčku se změnilo na Czada. Škoda, když existuje Obama, proč ne Ozada. Klid místa vzal částečně za své. Až sem doléhá hluk frekventované silnice hluboko v údolí. Nahoře nad památníkem zas vede poměrně frekventovaná červeně značená cesta. Utajovat pomník tedy není na místě, když skoro každý má kvalitní mapu v mobilu.",
       vnitrniOdkaz: 43,
-      odkazKategorie: 'pomnicky',
+      odkazKategorie: "pomnicky",
       odkazPodkategorie: 7,
-      odkazKde: 'dodatekText',
-      predOdkazem: 'Naleznete ho ',
-      textOdkazu: 'zde ',
-      zaOdkazem: '.',
+      odkazKde: "dodatekText",
+      predOdkazem: "Naleznete ho ",
+      textOdkazu: "zde ",
+      zaOdkazem: ".",
       // "Naleznete ho  zde (památka adjunkta Czady).",
 
       fotkaUvod: { fotka: "vypraveniOzada1.jpg", datum: "listopad 2020" },
@@ -1700,126 +1703,214 @@ export default {
     },
     {
       id: 45,
-      kategorie: 'smircikrize',  
-      oblast: ' V Brně ',
-      podkategorie:   1,
-      okres: ' Brno - město  ',
-      obec: ' Brno - Bohunice  ',
-      cislo: ' 1280  ',
-      jmeno: 'Bohunice 1',
-      kdeSeNaleza:'  V areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 2.  ', 
-      popis:'Plochá kamenná deska je vysoká 65 cm. Nahoře je skoro nečitelný nápis, dole obrys tlapatého kříže.  ',      
-      napis: '  Vyluštit se podařilo jen slovo DVSSI , tedy duši, a dole písmena SEG   ',
-      povest: '  Narodil jsem se v Bohunicích. Jako dítě jsem v padesátých letech o těchto kamenech slýchával, že až se propadnou do země, nastane konec světa. ',         
-      odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Bohunice.html '}, {nazev: ' Encyklopedie Brna ', adresa:' https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=1048 '}, {nazev: ' Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 51. '} ],
-      pozn: 'Kříž se za posledních 100 let vícekrát stěhoval. Původně stál někde na trase cesty z Brna na Jihlavu pod Červeným kopcem na dnešní ulici Vinohrady. Pak byl přemístěn spolu s kamenem 1281 na rozcestí polních cest, dnes křižovatka Vinohrady-Kamenice, kde vydržel do sedmdesátých let a nejméně 50 let zarůstal do země. Tehdy se budovala silnice Kamenice. Kameny překážely a byly přestěhovány do areálu stavěné fakultní nemocnice. Tady v průběhu let vystřídaly tři stanoviště, na tom posledním jsou od roku 2010. Při manipulacích se kámen rozlomil na dva kusy.  ',
-      naposledObnoveno : ' 25.11.2020 ',
-      galerie: 
-      [ {fotka: 'bohunice1-1.jpg' , datum: 'červen 2009'},
-      {fotka: 'bohunice1-2.jpg' , datum: 'prosinec 2017'},
-      {fotka: 'bohunice1-3.jpg' , datum: 'květen 2017'},
-      ],
-      
-      proMe:' XIV/488   24-342-17  6.17 ',     
-      },
-      {
-        id: 46,
-        kategorie: 'smircikrize',  
-        oblast: ' V Brně ',
-        podkategorie:   1,
-        okres: ' Brno - město  ',
-        obec: ' Brno - Bohunice  ',
-        cislo: ' 1281  ',
-        jmeno: 'Bohunice 2',
-        kdeSeNaleza:'   V areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 1.  ', 
-        popis:'  Štíhlá kamenná deska vysoká 110 cm, z přední strany vyryt latinský kříž, pod jehož rameny je oštěp, dýka a rýč.  ',      
-        napis: '  bez nápisu   ',
-        povest: '    ',          
-        odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Bohunice.html '}, {nazev: ' Smírčí kříže ', adresa:' http://www.smircikrize.cz/bohunice.htm '}, {nazev: ' Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 51. '} ],
-        pozn: ' Původně stál někde u staré formanské cesty z Brna na Jihlavu, dnes ulice Vinohrady, vzdálen 400 metrů od kamene Bohunice 1. Neznámo kdy je sestěhovali k sobě na rozcestí za nemocnicí a dále už byly kameny vždy vedle sebe.   ',
-        naposledObnoveno : ' 25.11.2020 ',
-        galerie:
-        [ {fotka: 'bohunice2-1.jpg' , datum: 'červen 2009'},
-        {fotka: 'bohunice2-2.jpg' , datum: 'květen 2017'},
-        {fotka: 'bohunice2-3.jpg' , datum: 'květen 2017'},
-        ],
-        proMe:'  XIV/488  24-342-17  ',     
+      kategorie: "smircikrize",
+      oblast: " V Brně ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Bohunice  ",
+      cislo: " 1280  ",
+      jmeno: "Bohunice 1",
+      kdeSeNaleza:
+        "  V areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 2.  ",
+      popis:
+        "Plochá kamenná deska je vysoká 65 cm. Nahoře je skoro nečitelný nápis, dole obrys tlapatého kříže.  ",
+      napis:
+        "  Vyluštit se podařilo jen slovo DVSSI , tedy duši, a dole písmena SEG   ",
+      povest:
+        "  Narodil jsem se v Bohunicích. Jako dítě jsem v padesátých letech o těchto kamenech slýchával, že až se propadnou do země, nastane konec světa. ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Bohunice.html ",
         },
         {
-          id: 47,
-          kategorie: 'smircikrize',  
-          oblast: ' V Brně ',
-          podkategorie:  1,
-          okres: ' Brno - město  ',
-          obec: ' Brno - Kníničky  ',
-          cislo: ' 1285  ',
-          jmeno: 'Kníničky',
-          kdeSeNaleza:'U silnice od hráze Brněnské přehrady na Osadu, na rozcestí u pomníku U lva, zazděn do tarasu pod pomníkem.   ', 
-          popis:' Kamenná deska celkové výšky 95 cm, spodní část je neopracovaná a určená do země. Z desky vystupuje reliéf kříže se zahrocenými rameny. Pod pravým ramenem je obrys sekery.   ',      
-          napis: '  bez nápisu   ',
-          povest: '    ',          
-          odkazy:[{nazev: ' euweb.  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Kninicky.html '}, {nazev: ' smírčí kříže ', adresa:' http://www.smircikrize.cz/kninicky.htm '}, {nazev: '  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 52. '} ],
-          pozn: ' Původně stával na malém kopečku u vsi Kniničky, která skončila na dně přehrady.', naposledObnoveno : ' 25.11.2020 ',
-          galerie: 
-          [ {fotka: 'kninicky1.jpg' , datum: 'listopad 2020'},
-          {fotka: 'kninicky2.jpg' , datum: 'listopad 2020'},
-          ],
-          proMe:' VIII/ 259  24-324-5  20---11. ',     
-          },
-          {
-            id: 48,
-            kategorie: 'smircikrize',  
-            oblast: ' V Brně ',
-            podkategorie:  1,
-            okres: ' Brno - město  ',
-            obec: ' Brno - Líšeň  ',
-            jmeno:  'Líšeň 1',
-            cislo: ' 1286  ',
-            kdeSeNaleza:'  v Líšni u kostela na náměstí  ', 
-            popis:'  Kamenná deska shora mírně zaoblená, vysoká asi 80 cm.  Do ní vyryt relief latinského kříže a pod ním lovecký tesák.  ',      
-            napis: '     ',
-            povest: '    ',            
-            odkazy:[{nazev: ' euweb ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Lisen.html '}, {nazev: ' smírčí kříže ', adresa:' http://www.smircikrize.cz/lisen.htm '}, {nazev: '  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 53. '} ],
-            pozn: ' Pravděpodobně tu je umístěn druhotně, původní poloha není známa.   ',
-            naposledObnoveno : ' 27.11.2020 ',
-           
-            galerie: 
-            [ {fotka: 'lisen1.jpg' , datum: 'únor 2020'},
-            {fotka: 'lisen2.jpg' , datum: 'únor 2020'},
-            ],
-            proMe:' XVIII/744       20---025  ',     
-            },
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=1048 ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 51. " },
+      ],
+      pozn:
+        "Kříž se za posledních 100 let vícekrát stěhoval. Původně stál někde na trase cesty z Brna na Jihlavu pod Červeným kopcem na dnešní ulici Vinohrady. Pak byl přemístěn spolu s kamenem 1281 na rozcestí polních cest, dnes křižovatka Vinohrady-Kamenice, kde vydržel do sedmdesátých let a nejméně 50 let zarůstal do země. Tehdy se budovala silnice Kamenice. Kameny překážely a byly přestěhovány do areálu stavěné fakultní nemocnice. Tady v průběhu let vystřídaly tři stanoviště, na tom posledním jsou od roku 2010. Při manipulacích se kámen rozlomil na dva kusy.  ",
+      naposledObnoveno: " 25.11.2020 ",
+      galerie: [
+        { fotka: "bohunice1-1.jpg", datum: "červen 2009" },
+        { fotka: "bohunice1-2.jpg", datum: "prosinec 2017" },
+        { fotka: "bohunice1-3.jpg", datum: "květen 2017" },
+      ],
 
-            {
-              id: 49,
-              kategorie: 'smircikrize',  
-              oblast: ' V Brně ',
-              podkategorie:   1,
-              okres: ' Brno - město  ',
-              obec: ' Brno - Líšeň  ',
-              nazev: 'Líšeň 2  ',
-              cislo: '  1982  ', 
-              kdeSeNaleza:'v Líšni u kostela na náměstí  ', 
-              popis:'  Jetelový kříž vysoký 1 metr vystupuje z podstavce tvaru knihy ',      
-              napis: '   pět řádek těžko čitelného textu  ',
-              povest: '    ',            
-              odkazy:[{nazev: '  ', adresa:'  '}, {nazev: '  ', adresa:'  '}, {nazev: '  '} ],
-              pozn: '  Nejedná se o smírčí kříž. Údajně jde o barokní náhrobek Jana Nevoralíka z roku 1726, kdy ještě byl kolem kostela hřbitov.   ',
-              naposledObnoveno : ' 27.11.2020 ',
-              galerie:
-              [ {fotka: 'lisen2-1.jpg' , datum: 'únor 2020'},
-              ],
-              proMe:'XVIII/744  24-413-122   20---025  ',     
-              },
-              
-              
-            
-            
-          
-        
-      
-      
-    
-  
+      proMe: " XIV/488   24-342-17  6.17 ",
+    },
+    {
+      id: 46,
+      kategorie: "smircikrize",
+      oblast: " V Brně ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Bohunice  ",
+      cislo: " 1281  ",
+      jmeno: "Bohunice 2",
+      kdeSeNaleza:
+        "   V areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 1.  ",
+      popis:
+        "  Štíhlá kamenná deska vysoká 110 cm, z přední strany vyryt latinský kříž, pod jehož rameny je oštěp, dýka a rýč.  ",
+      napis: "  bez nápisu   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Bohunice.html ",
+        },
+        {
+          nazev: " Smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/bohunice.htm ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 51. " },
+      ],
+      pozn:
+        " Původně stál někde u staré formanské cesty z Brna na Jihlavu, dnes ulice Vinohrady, vzdálen 400 metrů od kamene Bohunice 1. Neznámo kdy je sestěhovali k sobě na rozcestí za nemocnicí a dále už byly kameny vždy vedle sebe.   ",
+      naposledObnoveno: " 25.11.2020 ",
+      galerie: [
+        { fotka: "bohunice2-1.jpg", datum: "červen 2009" },
+        { fotka: "bohunice2-2.jpg", datum: "květen 2017" },
+        { fotka: "bohunice2-3.jpg", datum: "květen 2017" },
+      ],
+      proMe: "  XIV/488  24-342-17  ",
+    },
+    {
+      id: 47,
+      kategorie: "smircikrize",
+      oblast: " V Brně ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Kníničky  ",
+      cislo: " 1285  ",
+      jmeno: "Kníničky",
+      kdeSeNaleza:
+        "U silnice od hráze Brněnské přehrady na Osadu, na rozcestí u pomníku U lva, zazděn do tarasu pod pomníkem.   ",
+      popis:
+        " Kamenná deska celkové výšky 95 cm, spodní část je neopracovaná a určená do země. Z desky vystupuje reliéf kříže se zahrocenými rameny. Pod pravým ramenem je obrys sekery.   ",
+      napis: "  bez nápisu   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb.  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Kninicky.html ",
+        },
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/kninicky.htm ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 52. " },
+      ],
+      pozn:
+        " Původně stával na malém kopečku u vsi Kniničky, která skončila na dně přehrady.",
+      naposledObnoveno: " 25.11.2020 ",
+      galerie: [
+        { fotka: "kninicky1.jpg", datum: "listopad 2020" },
+        { fotka: "kninicky2.jpg", datum: "listopad 2020" },
+      ],
+      proMe: " VIII/ 259  24-324-5  20---11. ",
+    },
+    {
+      id: 48,
+      kategorie: "smircikrize",
+      oblast: " V Brně ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Líšeň  ",
+      jmeno: "Líšeň 1",
+      cislo: " 1286  ",
+      kdeSeNaleza: "  v Líšni u kostela na náměstí  ",
+      popis:
+        "  Kamenná deska shora mírně zaoblená, vysoká asi 80 cm.  Do ní vyryt relief latinského kříže a pod ním lovecký tesák.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Lisen.html ",
+        },
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/lisen.htm ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 53. " },
+      ],
+      pozn:
+        " Pravděpodobně tu je umístěn druhotně, původní poloha není známa.   ",
+      naposledObnoveno: " 27.11.2020 ",
+
+      galerie: [
+        { fotka: "lisen1.jpg", datum: "únor 2020" },
+        { fotka: "lisen2.jpg", datum: "únor 2020" },
+      ],
+      proMe: " XVIII/744       20---025  ",
+    },
+
+    {
+      id: 49,
+      kategorie: "smircikrize",
+      oblast: " V Brně ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Líšeň  ",
+      nazev: "Líšeň 2  ",
+      cislo: "  1982  ",
+      kdeSeNaleza: "v Líšni u kostela na náměstí  ",
+      popis: "  Jetelový kříž vysoký 1 metr vystupuje z podstavce tvaru knihy ",
+      napis: "   pět řádek těžko čitelného textu  ",
+      povest: "    ",
+      odkazy: [
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Nejedná se o smírčí kříž. Údajně jde o barokní náhrobek Jana Nevoralíka z roku 1726, kdy ještě byl kolem kostela hřbitov.   ",
+      naposledObnoveno: " 27.11.2020 ",
+      galerie: [{ fotka: "lisen2-1.jpg", datum: "únor 2020" }],
+      proMe: "XVIII/744  24-413-122   20---025  ",
+    },
+    {
+      id: 50,
+      kategorie: "smircikrize",
+      oblast: " V Brně  ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Královo Pole  ",
+      nazev: "Královo Pole 1  ",
+      cislo: " 1752  ",
+      kdeSeNaleza: "  Na Slovanském náměstí, v horní částí pod lípou.  ",
+      popis:
+        " Nebyl to smírčí kámen. Na málo opracovaném pískovcovém kamenu vysokém půl metru v kovové ohrádce vystupoval neurčitý obrys, připomínající více kalich než tlapatý kříž, který v něm viděli nadšení hledači křížů v devadesátých letech.   ",
+      napis: "  1415  1915 // 500  LET  UPÁLENÍ // MISTRA  JANA  HUSA   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna  ",
+          adresa:
+            "https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=907",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Kralovo_Pole.html ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 53. " },
+      ],
+      pozn:
+        "  Kámen se při rekonstrukci parku na náměstí v roce 2006 ztratil. V roce 2008 se na stejném místě objevila jeho replika, na které byl na hladké ploše vyryt tlapatý kříž. Vydržel tu rok a někteří badatelé mu stačili dát jméno Královo Pole 2. Ukázalo se, že původní kámen byl pamětní kámen k výročí upálení Jana Husa a byl slavnostně odhalen 6. října 1918 pod lípou, kterou v témže dni zasadili.  Po protestech občanů kámen s křížem zmizel a byl nahrazen pamětním kamenem s vyrytým kalichem a textem nesouvisejícím se smírčími kameny.   ",
+      naposledObnoveno: " 28.11.2020 ",
+      galerie: [
+        { fotka: "kralovoPole1.jpg", datum: "listopad 2020" },
+        { fotka: "kralovoPole2.jpg", datum: "listopad 2020" },
+      ],
+      proMe: "  11.2020  ",
+    },
   ],
 };
