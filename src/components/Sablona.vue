@@ -2,28 +2,34 @@
   <div id="pomnicky">
     <div id="pozadi1">
       <img
-        v-bind:src="require(`./../assets/${params.background}`)"
-        v-bind:alt="`${params.backgroundDescription}`"
+        v-bind:src="require(`./../assets/${innerParams.background}`)"
+        v-bind:alt="`${innerParams.backgroundDescription}`"
       />
     </div>
     <div id="transbox1"></div>
-    <h1>{{ params.nadpis }}</h1>
+    <h1>{{ innerParams.nadpis }}</h1>
 
     <AbecedniSeznam
-      v-if="params.stranka === 'pomnicky' && seznamUkazat"
+      v-if="
+        (innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize') &&
+          seznamUkazat &&
+          !innerParams.detail &&
+          !this.$route.params.kategorie
+      "
       v-bind:clanky="clanky"
-      v-bind:stranka="params.stranka"
+      v-bind:stranka="innerParams.stranka"
       id="abecedniSeznam"
     />
-
+    <!-- responsive: menuUkazat || seznamUkazat, -->
     <p
+      v-if="innerWidth > 600"
       v-bind:class="{
         pomnickyText: true,
-        responsive: menuUkazat || seznamUkazat,
-        large: params.stranka === 'vypraveni' || params.stranka === 'cesty',
+
+        large: innerParams.stranka === 'vypraveni' || innerParams.stranka === 'cesty',
       }"
     >
-      {{ params.uvodniText }}
+      {{ innerParams.uvodniText }}
     </p>
 
     <div class="pomnickyNavigace">
@@ -33,46 +39,46 @@
           domu: true,
           pomnicekKategorie: true,
           kategorieTextCenter:
-            params.stranka === 'cesty' || params.stranka === 'vypraveni',
+            innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni',
         }"
       >
         Domů
       </router-link>
-      <router-link  v-bind:to="`/${params.stranka}`"
-        
-          class="pomnicekKategorie domu"
-          id="seznam"
-          
-          v-if="params.stranka === 'pomnicky'"
-        ><div  v-on:click="toggleSeznam">
+
+      <router-link
+        v-bind:to="`/${innerParams.stranka}`"
+        class="pomnicekKategorie domu"
+        id="seznam"
+        v-if="innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize'"
+        ><div v-on:click="toggleSeznam">
           Abecední seznam
         </div>
       </router-link>
       <div
         class="pomnicekKategorie ukazMenu"
         v-on:click="toggleMenu"
-        v-if="params.stranka === 'pomnicky' || params.stranka === 'smircikrize'"
+        v-if="innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize'"
       >
         Řazení podle skupin
       </div>
 
       <div
         v-if="
-          (params.stranka === 'pomnicky' || params.stranka === 'smircikrize') &&
+          (innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize') &&
             innerWidth >= 600
         "
       >
         <div
-          v-for="kategorie in params.kategoriePomnicky"
+          v-for="kategorie in innerParams.kategoriePomnicky"
           v-bind:key="kategorie.id"
           v-on:click="handleClick(kategorie)"
         >
-          <router-link v-bind:to="`/${params.stranka}/${kategorie.id}`">
+          <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
             <div
               v-bind:class="{
                 pomnicekKategorie: true,
                 kategorieTextCenter:
-                  params.stranka === 'cesty' || params.stranka === 'vypraveni',
+                  innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni',
                 active: kategorie.id == vybraneId,
                 responsive: menuUkazat && !oknoUkazat,
                 pomnicekMenu: true,
@@ -88,23 +94,23 @@
     <!-- kategorie menu, neni potomkem navigace - jen pro mobil -->
     <div
       v-if="
-        (params.stranka === 'pomnicky' || params.stranka === 'smircikrize') &&
+        (innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize') &&
           innerWidth < 600 &&
           menuColumn
       "
       id="kategorieMobil"
     >
       <div
-        v-for="kategorie in params.kategoriePomnicky"
+        v-for="kategorie in innerParams.kategoriePomnicky"
         v-bind:key="kategorie.id"
         v-on:click="handleClick(kategorie)"
       >
-        <router-link v-bind:to="`/${params.stranka}/${kategorie.id}`">
+        <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
           <div
             v-bind:class="{
               pomnicekKategorie: true,
               kategorieTextCenter:
-                params.stranka === 'cesty' || params.stranka === 'vypraveni',
+                innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni',
               active: kategorie.id == vybraneId,
               responsive: menuUkazat && !oknoUkazat,
               pomnicekMenu: true,
@@ -116,26 +122,27 @@
       </div>
     </div>
 
-       <div
+    <div
       class="kontejner"
       v-if="oknoUkazat && clankyPodKategorie"
       v-bind:class="{
-        large: params.stranka === 'vypraveni' || params.stranka === 'cesty',
+        large: innerParams.stranka === 'vypraveni' || innerParams.stranka === 'cesty',
+        bezTextu: innerParams.detail,
       }"
     >
       <div v-if="clankyPodKategorie">
         <OknoPomnicky
           v-if="
-            params.stranka === 'pomnicky' ||
-              params.stranka === 'studanky' ||
-              params.stranka === 'smircikrize'
+            innerParams.stranka === 'pomnicky' ||
+              innerParams.stranka === 'studanky' ||
+              innerParams.stranka === 'smircikrize'
           "
           v-bind:clanky="clankyPodKategorie"
           v-on:kliknuti="vyfiltrujPomnicek"
         />
 
         <OknoClanky
-          v-if="params.stranka === 'cesty' || params.stranka === 'vypraveni'"
+          v-if="innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni'"
           v-bind:clanky="clankyPodKategorie"
         />
       </div>
@@ -149,7 +156,7 @@
   import OknoClanky from "./../components/OknoClanky.vue";
   import AbecedniSeznam from "./../components/AbecedniSeznam.vue";
   export default {
-    props: ["params"],
+    props: ["params", "paramsKrize"],
     components: {
       OknoPomnicky: OknoPomnicky,
       OknoClanky: OknoClanky,
@@ -158,22 +165,26 @@
 
     data() {
       return {
+        innerParams: this.params,
         clanky: vsechnyClanky.data,
         clankyPodKategorie: null,
         vybraneId: undefined,
         menuUkazat: false,
         oknoUkazat: false,
-        seznamUkazat: false,
+        seznamUkazat: true,
         innerWidth: window.innerWidth,
         menuColumn: false,
+
       };
     },
+
+
 
     methods: {
       vyfiltrujPomnicek(id) {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
-            clanek.kategorie === this.params.stranka && clanek.id === id
+            clanek.kategorie === this.innerParams.stranka && clanek.id === id
         );
       },
 
@@ -192,6 +203,7 @@
         this.oknoUkazat = true;
         this.menuUkazat = false;
         this.seznamUkazat = false;
+
       },
 
       seradClanky() {
@@ -218,11 +230,11 @@
           this.seznamUkazat = false;
           this.menuColumn = true;
         }
-       
+
       },
 
       toggleSeznam() {
-        
+
         if (this.innerWidth > 600) {
           this.oknoUkazat = false;
           this.seznamUkazat = !this.seznamUkazat;
@@ -235,6 +247,11 @@
     },
 
     created() {
+      
+    
+      if(this.$route.name==='DetailKrize'){
+        this.innerParams = this.paramsKrize;
+      }
      
       if (this.$route.params.id) {
         this.clankyPodKategorie = this.clanky.filter(
@@ -247,7 +264,7 @@
       } else {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>
-            clanek.kategorie === this.params.stranka &&
+            clanek.kategorie === this.innerParams.stranka &&
             clanek.podkategorie == this.$route.params.kategorie
         );
       }
@@ -261,7 +278,8 @@
       } else {
         this.oknoUkazat = true;
       }
-    },
+     }
+    
   };
 </script>
 
@@ -275,6 +293,10 @@
   .large {
     grid-column: 1/7 !important;
     margin: 30px;
+  }
+
+  .bezTextu {
+    grid-row: 2/20 !important;
   }
 
   #pomnicky h1 {

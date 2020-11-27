@@ -1,5 +1,6 @@
 <template>
-  <Sablona v-bind:params="params"/>
+
+  <Sablona v-bind:params="params" v-bind:paramsKrize="paramsKrize"/>
 </template>
 
 <script>
@@ -35,11 +36,29 @@
           { id: 16, nazev: "Jiné nezařaditelné" },
           { id: 17, nazev: "Zaniklé" },
         ],
-        stranka: "pomnicky",
+        stranka: "pomnicky", 
+        detail: true,
         background: "pozadiPomnicky.jpg",
         backgroundDescription:"Pozadí",
       
-        }
+        },
+         paramsKrize: {
+          nadpis: "Smírčí kříže",
+          uvodniText:
+            "Tady bude uvodni text. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ignissimos suscipit fuga natus, delectus autem voluptates? Consequuntur vitae minus quae dignissimos aspernatur, veniam perferendis  officiis, veritatis dolor ipsum impedit laudantium! Nihil?",
+
+          kategoriePomnicky: [
+            { id: 1, nazev: "V Brně" },
+            { id: 2, nazev: "Na sever" },
+            { id: 3, nazev: "Na východ" },
+            { id: 4, nazev: "Na jih" },
+            { id: 5, nazev: "Na západ" },
+          ],
+          stranka: "smircikrize",
+          detail: true,
+          background: "pozadiKapky.jpg",
+          backgroundDescription: "Pozadí",
+        },
       };
     },
   };

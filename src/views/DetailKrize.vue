@@ -24,12 +24,14 @@
             { id: 5, nazev: "Na západ" },
           ],
           stranka: "smircikrize",
+          detail: true,
           background: "pozadiKapky.jpg",
           backgroundDescription: "Pozadí",
         },
       };
     },
-    
+
+       
   };
 </script>
 
