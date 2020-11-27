@@ -201,7 +201,7 @@ export default {
       druh: "Letecké tragédie",
       okres: "Brno-venkov",
       obec: "Újezd u Brna",
-      jmeno: "",
+      jmeno: "Pád letadla u Mohyly míru",
       nazev: "Pád letadla u Mohyly míru",
       kdyVznikl: "29.5.2013 ",
       popisCesty:
@@ -429,7 +429,7 @@ export default {
       druh: " Napoleonské  ",
       okres: " Brno-venkov  ",
       obec: " Jiříkovice ",
-      jmeno: null,
+      jmeno: 'Strom přátelství u Jiříkovic',
       nazev: " Strom přátelství u Jiříkovic  ",
       kdyVznikl:
         " 2. 12. 2005 při vzpomínkách na 200. výročí bitvy u Slavkova ",
@@ -469,7 +469,7 @@ export default {
       druh: " Napoleonské  ",
       okres: " Brno-venkov ",
       obec: " Prace ",
-      jmeno: null,
+      jmeno: 'Bitva v Prace',
       nazev: " Pomník bitvě v Prace ",
       kdyVznikl: " 2005 ",
       popisCesty: " Na jižním okraji, hned za obcí, u silnice k Mohyle míru.  ",
@@ -1705,7 +1705,8 @@ export default {
       podkategorie:   1,
       okres: ' Brno - město  ',
       obec: ' Brno - Bohunice  ',
-      jmeno: '1280 Bohunice 1',
+      cislo: ' 1280  ',
+      jmeno: 'Bohunice 1',
       kdeSeNaleza:'  V areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 2.  ', 
       popis:'Plochá kamenná deska je vysoká 65 cm. Nahoře je skoro nečitelný nápis, dole obrys tlapatého kříže.  ',      
       napis: '  Vyluštit se podařilo jen slovo DVSSI , tedy duši, a dole písmena SEG   ',
@@ -1728,7 +1729,8 @@ export default {
         podkategorie:   1,
         okres: ' Brno - město  ',
         obec: ' Brno - Bohunice  ',
-        jmeno: '1281 Bohunice 2',
+        cislo: ' 1281  ',
+        jmeno: 'Bohunice 2',
         kdeSeNaleza:'   V areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 1.  ', 
         popis:'  Štíhlá kamenná deska vysoká 110 cm, z přední strany vyryt latinský kříž, pod jehož rameny je oštěp, dýka a rýč.  ',      
         napis: '  bez nápisu   ',
@@ -1750,7 +1752,8 @@ export default {
           podkategorie:  1,
           okres: ' Brno - město  ',
           obec: ' Brno - Kníničky  ',
-          jmeno: '1285 Kníničky',
+          cislo: ' 1285  ',
+          jmeno: 'Kníničky',
           kdeSeNaleza:'U silnice od hráze Brněnské přehrady na Osadu, na rozcestí u pomníku U lva, zazděn do tarasu pod pomníkem.   ', 
           popis:' Kamenná deska celkové výšky 95 cm, spodní část je neopracovaná a určená do země. Z desky vystupuje reliéf kříže se zahrocenými rameny. Pod pravým ramenem je obrys sekery.   ',      
           napis: '  bez nápisu   ',
@@ -1763,7 +1766,55 @@ export default {
           ],
           proMe:' VIII/ 259  24-324-5  20---11. ',     
           },
-          
+          {
+            id: 48,
+            kategorie: 'smircikrize',  
+            oblast: ' V Brně ',
+            podkategorie:  1,
+            okres: ' Brno - město  ',
+            obec: ' Brno - Líšeň  ',
+            jmeno:  'Líšeň 1',
+            cislo: ' 1286  ',
+            kdeSeNaleza:'  v Líšni u kostela na náměstí  ', 
+            popis:'  Kamenná deska shora mírně zaoblená, vysoká asi 80 cm.  Do ní vyryt relief latinského kříže a pod ním lovecký tesák.  ',      
+            napis: '     ',
+            povest: '    ',            
+            odkazy:[{nazev: ' euweb ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Lisen.html '}, {nazev: ' smírčí kříže ', adresa:' http://www.smircikrize.cz/lisen.htm '}, {nazev: '  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 53. '} ],
+            pozn: ' Pravděpodobně tu je umístěn druhotně, původní poloha není známa.   ',
+            naposledObnoveno : ' 27.11.2020 ',
+           
+            galerie: 
+            [ {fotka: 'lisen1.jpg' , datum: 'únor 2020'},
+            {fotka: 'lisen2.jpg' , datum: 'únor 2020'},
+            ],
+            proMe:' XVIII/744       20---025  ',     
+            },
+
+            {
+              id: 49,
+              kategorie: 'smircikrize',  
+              oblast: ' V Brně ',
+              podkategorie:   1,
+              okres: ' Brno - město  ',
+              obec: ' Brno - Líšeň  ',
+              nazev: 'Líšeň 2  ',
+              cislo: '  1982  ', 
+              kdeSeNaleza:'v Líšni u kostela na náměstí  ', 
+              popis:'  Jetelový kříž vysoký 1 metr vystupuje z podstavce tvaru knihy ',      
+              napis: '   pět řádek těžko čitelného textu  ',
+              povest: '    ',            
+              odkazy:[{nazev: '  ', adresa:'  '}, {nazev: '  ', adresa:'  '}, {nazev: '  '} ],
+              pozn: '  Nejedná se o smírčí kříž. Údajně jde o barokní náhrobek Jana Nevoralíka z roku 1726, kdy ještě byl kolem kostela hřbitov.   ',
+              naposledObnoveno : ' 27.11.2020 ',
+              galerie:
+              [ {fotka: 'lisen2-1.jpg' , datum: 'únor 2020'},
+              ],
+              proMe:'XVIII/744  24-413-122   20---025  ',     
+              },
+              
+              
+            
+            
           
         
       

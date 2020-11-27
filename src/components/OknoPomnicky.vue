@@ -56,6 +56,10 @@
           <td>{{ clanek.obec }}</td>
         </tr>
 
+        <tr v-if="clanek.kategorie === 'smircikrize'">
+          <td>Číslo v evidenci:</td>
+          <td> {{ clanek.cislo }}</td>
+        </tr>
         <tr
           v-if="
             clanek.jmeno !== clanek.nazev && clanek.kategorie === 'pomnicky'
@@ -66,7 +70,7 @@
             <strong>{{ clanek.jmeno }}</strong>
           </td>
         </tr>
-        <tr v-else-if= "clanek.kategorie === 'pomnicky'">
+        <tr v-else-if="clanek.kategorie === 'pomnicky'">
           <td>Název:</td>
           <td
             v-if="
@@ -80,7 +84,7 @@
           </td>
         </tr>
 
-        <tr v-if="clanek.kategorie==='pomnicky'"> 
+        <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>Kde se nachází?</td>
           <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'popisCesty'">
             <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
@@ -88,7 +92,7 @@
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
 
-        <tr v-if="clanek.kategorie==='smircikrize'"> 
+        <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Kde se nachází?</td>
           <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'kdeSeNaleza'">
             <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
@@ -103,7 +107,7 @@
 
         <tr>
           <td v-if="clanek.kategorie === 'pomnicky'">Popis pomníčku:</td>
-           <td v-if="clanek.kategorie === 'smircikrize'">Popis kříže:</td>
+          <td v-if="clanek.kategorie === 'smircikrize'">Popis kříže:</td>
           <td>{{ clanek.popis }}</td>
         </tr>
         <tr>
@@ -111,11 +115,10 @@
           <td>{{ clanek.napis }}</td>
         </tr>
 
-        <tr v-if="clanek.kategorie==='smircikrize'">
+        <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Pověst:</td>
           <td>{{ clanek.povest }}</td>
         </tr>
-
 
         <tr>
           <td>Poznámka:</td>
@@ -160,7 +163,7 @@
             </p>
           </td>
         </tr>
-        <tr v-if="clanek.kategorie==='pomnicky'">
+        <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>
             <button class="pomnicekKategorie" v-on:click="ukazMapu(clanek.id)">
               Ukázat na mapě
@@ -230,7 +233,7 @@
 
   .odkaz {
     margin-bottom: 5px !important;
-     margin-top: 0 !important;
+    margin-top: 0 !important;
   }
 
   .odkaz a {

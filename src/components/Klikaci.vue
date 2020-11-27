@@ -3,6 +3,7 @@
     <span>{{ clanek.predOdkazem }}</span>
     <span>
       <router-link
+        
         class="vnitrniOdkaz"
         v-bind:to="
           `/${clanek.odkazKategorie}/${clanek.odkazPodkategorie}/${clanek.vnitrniOdkaz}`
@@ -17,12 +18,7 @@
 <script>
   export default {
     props: ["clanek"],
-
-    methods: {
-      zobrazOdkaz(id) {
-        this.$emit("kliknuti", id);
-      },
-    },
+   
   };
 </script>
 

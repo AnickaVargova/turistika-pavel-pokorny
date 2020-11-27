@@ -150,6 +150,7 @@
     grid-column: 2 / 6;
     grid-row: 2 / 6;
     margin: 5%;
+    text-align: justify;
   }
 
   #uvodniText h1 {

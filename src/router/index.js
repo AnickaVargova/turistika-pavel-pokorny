@@ -11,6 +11,7 @@ import SmirciKrize from '../views/SmirciKrize.vue'
 import Cesty from '../views/Cesty.vue'
 import Vypraveni from '../views/Vypraveni.vue'
 import DetailPomnicku from '../views/DetailPomnicku.vue'
+import DetailKrize from '../views/DetailPomnicku.vue'
 
 
 Vue.use(VueRouter)
@@ -48,7 +49,7 @@ const routes = [{
     },
     {
         path: '/pomnicky/:kategorie',
-        name: 'Pomnicky',
+        name: 'PomnickyKategorie',
         component: Pomnicky
     },
     {
@@ -63,7 +64,7 @@ const routes = [{
     },
     {
         path: '/studanky/:kategorie',
-        name: 'Studanky',
+        name: 'StudankKategorie',
         component: Studanky
     },
     {
@@ -73,8 +74,13 @@ const routes = [{
     },
     {
         path: '/smircikrize/:kategorie',
-        name: 'SmirciKrize',
+        name: 'SmirciKrizeKategorie',
         component: SmirciKrize
+    },
+    {
+        path: '/smircikrize/:kategorie/:id',
+        name: 'DetailKrize',
+        component: DetailKrize
     },
 
     {
