@@ -14,7 +14,8 @@
         params: {
           nadpis: "Vyprávění",
           uvodniText:
-            "Tady bude uvodni text.Lorem ipsum dolor sit amet consectetur adipisicin elit. Dignissimos suscipit fuga natus, delectus autem voluptates? Consequuntur vitae minus quae dignissimos aspernatur, veniam perferendisofficiis, veritatis dolor ipsum impedit laudantium! Nihil?",
+            ['Většina těchto textů vznikla jako dárky k vánocům pro přátele. Už skoro padesát let chodíme vždy na Štědrý den dopoledne k Vranovským jesličkám. Začali jsme s dětmi v kočárcích, teď už i vnuci odrůstají. U jesliček se stalo zvykem podělit všechny kromě cukroví a slivovice i novoročenkami. Zdálo se mi plytké vyrobit jen fotografii s nápisem a tak jsem od devadesátých let vymýšlel tato vlastivědná vypravování. Některá jsou desítky let stará. Jejich úroveň a přínos můžete posoudit sami.          Pavel'],
+
 
           kategoriePomnicky: [
             { id: 1, nazev: 2020 },

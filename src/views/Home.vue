@@ -24,7 +24,7 @@
         a GPS ještě nebylo vynalezeno. Počet těchto objektů přesahuje odhadem
         tisícovku a mění se, některé přibývají, jiné zanikají. Doufáme, že tyto
         stránky se mohou stát vaší inspirací k výletům a vyjížďkám do spanilého
-        okolí brněnského. Byli bychom rádi, kdyby jste zažili aspoň zlomek
+        okolí brněnského. Byli bychom rádi, kdybyste zažili aspoň zlomek
         radosti, kterou jsme prožívali my při hledání, neboť hledání je lepší
         než nalézání.
       </p>

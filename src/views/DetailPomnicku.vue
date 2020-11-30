@@ -44,8 +44,8 @@
         },
          paramsKrize: {
           nadpis: "Smírčí kříže",
-          uvodniText:
-            "Tady bude uvodni text. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ignissimos suscipit fuga natus, delectus autem voluptates? Consequuntur vitae minus quae dignissimos aspernatur, veniam perferendis  officiis, veritatis dolor ipsum impedit laudantium! Nihil?",
+          uvodniText: "",
+           
 
           kategoriePomnicky: [
             { id: 1, nazev: "V Brně" },

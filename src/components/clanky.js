@@ -4,7 +4,7 @@ export default {
       id: 1,
       kategorie: "pomnicky",
       podkategorie: 1,
-      druh: "Lesnický slavín",
+      druh: "Lesnický Slavín",
       okres: "Brno-venkov",
       obec: "Babice nad Svitavou",
       jmeno: "Souček, Bedřich",
@@ -31,7 +31,7 @@ export default {
       id: 2,
       kategorie: "pomnicky",
       podkategorie: 1,
-      druh: "Lesnický slavín",
+      druh: "Lesnický Slavín",
       okres: "Brno-venkov",
       obec: "Olomučany",
       jmeno: "Grabner, Leopold",
@@ -75,7 +75,7 @@ export default {
       id: 3,
       kategorie: "pomnicky",
       podkategorie: 1,
-      druh: "Lesnický slavín",
+      druh: "Lesnický Slavín",
       okres: "Blansko",
       obec: "Jedovnice",
       jmeno: "Doležal, Bohumil",
@@ -1634,6 +1634,7 @@ export default {
       id: 44,
       datum: "prosinec 2003",
       kategorie: "vypraveni",
+      jmeno: "Czada, Robert",
       podkategorie: 18,
       nazev: "Jak jsem hledal Ozadovu památku",
       text: [
@@ -1645,7 +1646,7 @@ export default {
         },
         {
           textOdstavce:
-            "Byly to blažené doby. Vyrážel jsem do lesů, putoval mezi studánkami a pamětními deskami a pokaždé jich pro sebe několik objevil. Přišla řada i na Roberta Ozadu. Byl to lesní adjunkt, který v roce 1908 zmrzl při výkonu služby. Uvažoval jsem, že bych si k němu odskočil z vycházky k vranovským jesličkám pro rodiče s dětmi, měl ležet jen 1300 metrů od vranovského kostela. Bláhový, neuskutečněný nápad.",
+            "Byly to blažené doby. Vyrážel jsem do lesů, putoval mezi studánkami a pamětními deskami a pokaždé jich pro sebe několik objevil. Přišla řada i na Roberta Ozadu. Byl to lesní adjunkt, který v roce 1908 zmrzl při výkonu služby. Uvažoval jsem, že bych si k němu odskočil z vycházky k Vranovským jesličkám pro rodiče s dětmi, měl ležet jen 1300 metrů od vranovského kostela. Bláhový, neuskutečněný nápad.",
         },
         {
           textOdstavce:
@@ -1679,7 +1680,7 @@ export default {
         },
         {
           textOdstavce:
-            "Cestu k němu úmyslně nepopíšu. Krásné je nalézání, krásnější je hledání. Stačí jen říct, že pomník existuje a že leží v severních svazích vranovské Baby vysoko nad silnicí vedoucí ke Kateřinskému mostu. Pokud se ho vydáte hledat, bude se plahočit i po čtyřech do strmých kopců, klouzat v suťoviscích, padat přes vývraty, popadat dech v prudkých stoupáních. Potkáte nanejvýš divočáky.",
+            "Cestu k němu úmyslně nepopíšu. Krásné je nalézání, krásnější je hledání. Stačí jen říct, že pomník existuje a že leží v severních svazích vranovské Baby vysoko nad silnicí vedoucí ke Kateřinskému mostu. Pokud se ho vydáte hledat, budete se plahočit i po čtyřech do strmých kopců, klouzat v suťoviscích, padat přes vývraty, popadat dech v prudkých stoupáních. Potkáte nanejvýš divočáky.",
         },
         {
           textOdstavce:
@@ -1859,7 +1860,7 @@ export default {
       podkategorie: 1,
       okres: " Brno - město  ",
       obec: " Brno - Líšeň  ",
-      nazev: "Líšeň 2  ",
+      jmeno: "Líšeň 2  ",
       cislo: "  1982  ",
       kdeSeNaleza: "v Líšni u kostela na náměstí  ",
       popis: "  Jetelový kříž vysoký 1 metr vystupuje z podstavce tvaru knihy ",
@@ -1883,7 +1884,7 @@ export default {
       podkategorie: 1,
       okres: " Brno - město  ",
       obec: " Brno - Královo Pole  ",
-      nazev: "Královo Pole 1  ",
+      jmeno: "Královo Pole",
       cislo: " 1752  ",
       kdeSeNaleza: "  Na Slovanském náměstí, v horní částí pod lípou.  ",
       popis:
@@ -1911,6 +1912,157 @@ export default {
         { fotka: "kralovoPole2.jpg", datum: "listopad 2020" },
       ],
       proMe: "  11.2020  ",
+    },
+    {
+      id: 51,
+      kategorie: "smircikrize",
+      oblast: "V Brně ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Žabovřesky  ",
+      jmeno: "Žabovřesky  ",
+      cislo: " 0774  ",
+      kdeSeNaleza: "  na ulici Minská u zastávky tramvaje   ",
+      popis:
+        " Ohlazený žulový kámen vysoký 65 cm, z plochy vystupuje nezřetelný latinský kříž. Pro ochranu je obklopen pěti umělecky kroucenými železnými tyčemi   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: "Památkový karalog  ",
+          adresa:
+            " https://www.pamatkovykatalog.cz/pametni-krizovy-kamen-1261951 ",
+        },
+      ],
+      pozn:
+        "  Je velmi starý, vznik se odhaduje na 14. - 15. století. Stojí na původním místě. Dříve daleko od městských hradeb při polní cestě do vsi Vinohrádky pod kopcem. Mohl vytyčovat hranice města.   ",
+      naposledObnoveno: " 29.11.2020 ",
+      galerie: [
+        { fotka: "zabovresky1.jpg", datum: "listopad 2020" },
+        { fotka: "zabovresky2.jpg", datum: "listopad 2020" },
+      ],
+
+      proMe: "    ",
+    },
+    {
+      id: 52,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "Alexovice   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "  Ivančice - Alexovice  ",
+      cislo: "  1754  ",
+      kdeSeNaleza:
+        "  Na kopci Pekárka ve svahu do údolní nivy Jihlavky, nad skálou.  ",
+      popis:
+        "  Pískovcová kamenná deska vysoká 1,2 metru je silně zvětralá. Do ní je vyryt latinský kříž s rozšířenou patou a vlevo neznámý předmět hákovitého tvaru.   ",
+      napis: "     ",
+      povest:
+        " Kámen stojí na místě, odkud se měl zřítit z skály koňský povoz. Jeho vozka přišel o život.   ",
+      odkazy: [
+        {
+          nazev: " Smírčí kříže  ",
+          adresa: "http://www.smircikrize.cz/alexovice.htm  ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 55.  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [
+        { fotka: "alexovice1.jpg", datum: "červenec 2013" },
+        { fotka: "alexovice2.jpg", datum: "červenec 2013" },
+      ],
+      proMe: " XVIII/774, 24-343-37  13---073    ",
+    },
+
+    {
+      id: 53,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "   Biskoupky   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "Biskoupky   ",
+      cislo: " 1658   ",
+      kdeSeNaleza: "  Na kraji vsi u cesty do Hrubšic  ",
+      popis:
+        "  Žulová deska vysoká 1,5 meru s odlomeným levým rohem. Do ní je hluboce vysekán latinský kříž.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Biskoupky.html ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 55.  " },
+      ],
+
+      pozn: "     ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [
+        { fotka: "biskoupky1.jpg", datum: "duben 2018" },
+        { fotka: "biskoupky2.jpg", datum: "duben 2018" },
+      ],
+      proMe: "   XII/357 24-334-3  18---043  ",
+    },
+    {
+      id: 54,
+      kategorie: "smircikrize",
+      oblast: " Na sever   ",
+      jmeno: "   Drásov 1   ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: "  Drásov  ",
+      cislo: " 1659   ",
+      kdeSeNaleza: "  před kostelem v Drásově  ",
+      popis:
+        " Kamenná deska z červeného pískovce vysoká 80 cm, shora ulomená, se zbytkem vyrytého keltského kříže. Vedle stojí kámen Drásov 2 .  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " Euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Drasov.html  ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 56.  " },
+      ],
+      pozn: "  Přemístěn. Původně stával SZ od vsi u potoka.   ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [{ fotka: "drasov1.jpg", datum: "únor 2013" }],
+      proMe: "  2002/431   24-321-38  13---022  ",
+    },
+    {
+      id: 55,
+      kategorie: "smircikrize",
+      oblast: "  Na sever  ",
+      jmeno: "   Drásov 2   ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: " Drásov   ",
+      cislo: "  1660  ",
+      kdeSeNaleza: "  před kostelem v Drásově  ",
+      popis:
+        "  Nahoře zaoblená kamenná deska vysoká 1,1 metru s vyrytým latinským křížem. Vedle stojí kámen Drásov 1.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " Smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/drasov.htm  ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 56.  " },
+      ],
+      pozn:
+        "  Druhotné umístění. Původně stával  V od vsi u bývalého mlýna.   ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [
+        { fotka: "drasov2-1.jpg", datum: "únor 2013" },
+        { fotka: "drasov2-2.jpg", datum: "únor 2013" },
+      ],
+      proMe: "    2002/431   24-321-38  13---022   ",
     },
   ],
 };

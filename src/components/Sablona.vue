@@ -11,7 +11,8 @@
 
     <AbecedniSeznam
       v-if="
-        (innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize') &&
+        (innerParams.stranka === 'pomnicky' ||
+          innerParams.stranka === 'smircikrize') &&
           seznamUkazat &&
           !innerParams.detail &&
           !this.$route.params.kategorie
@@ -21,16 +22,19 @@
       id="abecedniSeznam"
     />
     <!-- responsive: menuUkazat || seznamUkazat, -->
-    <p
+    <div
       v-if="innerWidth > 600"
       v-bind:class="{
         pomnickyText: true,
-
-        large: innerParams.stranka === 'vypraveni' || innerParams.stranka === 'cesty',
+        large:
+          innerParams.stranka === 'vypraveni' ||
+          innerParams.stranka === 'cesty',
       }"
     >
-      {{ innerParams.uvodniText }}
-    </p>
+      <p v-for="(odstavec, index) in innerParams.uvodniText" v-bind:key="index">
+        {{ odstavec }}
+      </p>
+    </div>
 
     <div class="pomnickyNavigace">
       <router-link
@@ -39,7 +43,8 @@
           domu: true,
           pomnicekKategorie: true,
           kategorieTextCenter:
-            innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni',
+            innerParams.stranka === 'cesty' ||
+            innerParams.stranka === 'vypraveni',
         }"
       >
         Domů
@@ -49,7 +54,10 @@
         v-bind:to="`/${innerParams.stranka}`"
         class="pomnicekKategorie domu"
         id="seznam"
-        v-if="innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize'"
+        v-if="
+          innerParams.stranka === 'pomnicky' ||
+            innerParams.stranka === 'smircikrize'
+        "
         ><div v-on:click="toggleSeznam">
           Abecední seznam
         </div>
@@ -57,14 +65,18 @@
       <div
         class="pomnicekKategorie ukazMenu"
         v-on:click="toggleMenu"
-        v-if="innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize'"
+        v-if="
+          innerParams.stranka === 'pomnicky' ||
+            innerParams.stranka === 'smircikrize'
+        "
       >
         Řazení podle skupin
       </div>
 
       <div
         v-if="
-          (innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize') &&
+          (innerParams.stranka === 'pomnicky' ||
+            innerParams.stranka === 'smircikrize') &&
             innerWidth >= 600
         "
       >
@@ -78,7 +90,8 @@
               v-bind:class="{
                 pomnicekKategorie: true,
                 kategorieTextCenter:
-                  innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni',
+                  innerParams.stranka === 'cesty' ||
+                  innerParams.stranka === 'vypraveni',
                 active: kategorie.id == vybraneId,
                 responsive: menuUkazat && !oknoUkazat,
                 pomnicekMenu: true,
@@ -94,7 +107,8 @@
     <!-- kategorie menu, neni potomkem navigace - jen pro mobil -->
     <div
       v-if="
-        (innerParams.stranka === 'pomnicky' || innerParams.stranka === 'smircikrize') &&
+        (innerParams.stranka === 'pomnicky' ||
+          innerParams.stranka === 'smircikrize') &&
           innerWidth < 600 &&
           menuColumn
       "
@@ -110,7 +124,8 @@
             v-bind:class="{
               pomnicekKategorie: true,
               kategorieTextCenter:
-                innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni',
+                innerParams.stranka === 'cesty' ||
+                innerParams.stranka === 'vypraveni',
               active: kategorie.id == vybraneId,
               responsive: menuUkazat && !oknoUkazat,
               pomnicekMenu: true,
@@ -126,7 +141,9 @@
       class="kontejner"
       v-if="oknoUkazat && clankyPodKategorie"
       v-bind:class="{
-        large: innerParams.stranka === 'vypraveni' || innerParams.stranka === 'cesty',
+        large:
+          innerParams.stranka === 'vypraveni' ||
+          innerParams.stranka === 'cesty',
         bezTextu: innerParams.detail,
       }"
     >
@@ -142,7 +159,10 @@
         />
 
         <OknoClanky
-          v-if="innerParams.stranka === 'cesty' || innerParams.stranka === 'vypraveni'"
+          v-if="
+            innerParams.stranka === 'cesty' ||
+              innerParams.stranka === 'vypraveni'
+          "
           v-bind:clanky="clankyPodKategorie"
         />
       </div>
@@ -174,11 +194,8 @@
         seznamUkazat: true,
         innerWidth: window.innerWidth,
         menuColumn: false,
-
       };
     },
-
-
 
     methods: {
       vyfiltrujPomnicek(id) {
@@ -203,7 +220,6 @@
         this.oknoUkazat = true;
         this.menuUkazat = false;
         this.seznamUkazat = false;
-
       },
 
       seradClanky() {
@@ -230,11 +246,9 @@
           this.seznamUkazat = false;
           this.menuColumn = true;
         }
-
       },
 
       toggleSeznam() {
-
         if (this.innerWidth > 600) {
           this.oknoUkazat = false;
           this.seznamUkazat = !this.seznamUkazat;
@@ -248,11 +262,10 @@
 
     created() {
       
-    
-      if(this.$route.name==='DetailKrize'){
+      if (this.$route.name === "DetailKrize") {
         this.innerParams = this.paramsKrize;
       }
-     
+
       if (this.$route.params.id) {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.id == this.$route.params.id
@@ -278,8 +291,7 @@
       } else {
         this.oknoUkazat = true;
       }
-     }
-    
+    },
   };
 </script>
 
