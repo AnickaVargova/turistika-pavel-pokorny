@@ -104,8 +104,8 @@
     right: 0;
     bottom: -60px;
     width: 100px;
-    justify-content: right;
-    padding-left: 0;
+    justify-content: left;
+    padding-left: 30px;
     padding-right: 30px;
   }
 

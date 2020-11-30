@@ -1,11 +1,7 @@
 <template>
   <div id="detailClanku">
     <div id="detailOkno">
-      <router-link
-        v-bind:to="
-          `/${detailClanku.kategorie}`
-        "
-      >
+      <router-link v-bind:to="`/${detailClanku.kategorie}`">
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na články
         </div>
@@ -51,13 +47,18 @@
           {{ detailClanku.dodatekText }}
         </p>
         <p
-            v-if="
-              detailClanku.vnitrniOdkaz &&
-                detailClanku.odkazKde === 'dodatekText'
-            "
-            ><Klikaci v-on:kliknuti="vyfiltrujPomnicek" v-bind:clanek="detailClanku"
-          /></p>
+          v-if="
+            detailClanku.vnitrniOdkaz && detailClanku.odkazKde === 'dodatekText'
+          "
+        >
+          <Klikaci
+            v-on:kliknuti="vyfiltrujPomnicek"
+            v-bind:clanek="detailClanku"
+          />
+        </p>
       </div>
+
+      <!-- pri klikacim odkazu uvnitr textu: zeptat se kazdeho odstavce, zda je klikaci pomoci v-if, pokud je, zavola se misto nej komponenta klikaci, do niz se nacpou parametry toho odstavce-->
 
       <!-- <div id="galerieClanek">
         <div
@@ -85,7 +86,6 @@
 </template>
 
 <script>
-  
   import Clanky from "@/components/clanky.js";
   import Klikaci from "./../components/Klikaci.vue";
   export default {
@@ -100,11 +100,10 @@
       };
     },
 
-    methods:{
-      vyfiltrujPomnicek(id){
-       
-       this.$emit('kliknuti', id);
-      }
+    methods: {
+      vyfiltrujPomnicek(id) {
+        this.$emit("kliknuti", id);
+      },
     },
 
     created() {

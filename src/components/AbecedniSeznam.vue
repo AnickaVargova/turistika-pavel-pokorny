@@ -1,12 +1,15 @@
 <template>
   <div id="abecedniSeznam">
-    <div v-for="clanek in seznam" v-bind:key="clanek.id" class="kontejnerJmeno">
-      <router-link
-        v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
-      >
+    <router-link
+      v-for="clanek in seznam"
+      v-bind:key="clanek.id"
+      v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
+      class="kontejnerJmeno"
+    >
+     
         {{ clanek.jmeno }}
-      </router-link>
-    </div>
+     
+    </router-link>
   </div>
 </template>
 
@@ -19,9 +22,8 @@
         oldPath: this.$route.path,
       };
     },
-    
+
     created() {
-     
       for (let clanek of this.clanky) {
         if (clanek.kategorie === this.stranka) {
           this.seznam.push(clanek);
@@ -57,13 +59,14 @@
     margin: 1px;
     background-color: rgb(231, 231, 208);
     color: black;
+    max-width: 40%;
   }
 
-  .kontejnerJmeno a {
+  .kontejnerJmeno  {
     color: rgb(90, 21, 122);
   }
 
-  .kontejnerJmeno a:hover {
+  .kontejnerJmeno:hover {
     color: grey;
   }
 
@@ -73,6 +76,7 @@
     }
     .kontejnerJmeno {
       width: 50%;
+      max-width: unset;
     }
   }
 
@@ -90,6 +94,7 @@
     }
 
     .kontejnerJmeno {
+      max-width: unset;
       width: 100%;
     }
   }

@@ -22,8 +22,9 @@
       id="abecedniSeznam"
     />
     <!-- responsive: menuUkazat || seznamUkazat, -->
+     
     <div
-      v-if="innerWidth > 600"
+      v-if="innerWidth > 600 || (innerWidth<=600 && !menuUkazat)"
       v-bind:class="{
         pomnickyText: true,
         large:
@@ -54,18 +55,19 @@
         Domů
       </router-link>
 
-      <router-link
-        v-bind:to="`/${innerParams.stranka}`"
+      <div
+        v-on:click="toggleSeznam"
         class="pomnicekKategorie domu"
         id="seznam"
         v-if="
           innerParams.stranka === 'pomnicky' ||
             innerParams.stranka === 'smircikrize'
         "
-        ><div v-on:click="toggleSeznam">
+      >
+        <router-link v-bind:to="`/${innerParams.stranka}`">
           Abecední seznam
-        </div>
-      </router-link>
+        </router-link>
+      </div>
       <div
         class="pomnicekKategorie ukazMenu"
         v-on:click="toggleMenu"
@@ -234,7 +236,7 @@
         }
 
         this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
-          return a.jmeno.localeCompare(b.jmeno, "cs", {
+          return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
             sensitivity: "accent",
           });
         });
@@ -538,16 +540,6 @@
       padding: 0;
       border-radius: 0;
       font-size: 15px;
-    }
-
-    #pomnicky a {
-      color: rgb(59, 43, 204);
-      text-decoration: underline;
-    }
-
-    #pomnicky a:hover,
-    #pomnicky a:active {
-      color: rgb(93, 102, 143);
     }
   }
 </style>
