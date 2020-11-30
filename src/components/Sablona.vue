@@ -31,7 +31,11 @@
           innerParams.stranka === 'cesty',
       }"
     >
-      <p v-for="(odstavec, index) in innerParams.uvodniText" v-bind:key="index">
+      <p
+        v-for="(odstavec, index) in innerParams.uvodniText"
+        v-bind:key="index"
+        v-html="odstavec"
+      >
         {{ odstavec }}
       </p>
     </div>
@@ -261,7 +265,6 @@
     },
 
     created() {
-      
       if (this.$route.name === "DetailKrize") {
         this.innerParams = this.paramsKrize;
       }
@@ -535,6 +538,16 @@
       padding: 0;
       border-radius: 0;
       font-size: 15px;
+    }
+
+    #pomnicky a {
+      color: rgb(59, 43, 204);
+      text-decoration: underline;
+    }
+
+    #pomnicky a:hover,
+    #pomnicky a:active {
+      color: rgb(93, 102, 143);
     }
   }
 </style>
