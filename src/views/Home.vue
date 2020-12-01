@@ -53,12 +53,15 @@
 
       <router-link to="/odkazy">Sympatické weby</router-link>
 
-      <a href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"> Kontakt</a>
+      <a href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav" v-on:click="ukazKontakt"> Kontakt</a>
 
       <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
         Moje rajče</a
       >
+
+      <Kontakt v-if="kontaktViditelny" v-on:zmiz="schovejKontakt"/>
     </div>
+
     <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
       <i class="fa fa-bars"></i>
     </a>
@@ -75,10 +78,15 @@
 </template>
 
 <script>
+  import Kontakt from "./Kontakt.vue";
   export default {
+    components: {
+      Kontakt: Kontakt,
+    },
     data() {
       return {
         responsive: false,
+        kontaktViditelny: false,
       };
     },
 
@@ -86,11 +94,58 @@
       toggleMenu() {
         this.responsive = !this.responsive;
       },
+
+      ukazKontakt(){
+        this.kontaktViditelny = true;
+      },
+
+      schovejKontakt(){
+        this.kontaktViditelny = false;
+      }
     },
   };
 </script>
 
 <style>
+  #malyKontakt {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 5% 10%;
+    margin-left: 20%;
+    align-items: flex-start;
+    box-shadow: 5px 2px 2px #395250;
+    background-color: #6bc5aa;
+    color: #13131d;
+  }
+
+@media(max-width:600px){
+    #malyKontakt {
+      font-weight: normal;
+      border:none;
+      box-shadow: none;
+      background: none;
+      font-size: 14px;
+      margin-left: 20px;
+      padding: 0;
+      width: 90%;
+    }
+
+    #krizekKontejner {
+      padding: auto;
+    }
+
+    #krizekKontejner img {
+      height: auto;
+      padding: 0;
+    }
+}
   .icon {
     display: none;
     grid-column: 5/6;
@@ -208,16 +263,18 @@
   }
 
   .nav {
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 1/11;
     padding: 0;
     display: grid;
     gap: 10px;
     grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: 1fr 1fr;
     margin: 20px;
   }
 
   .nav a {
+    grid-column: 1/2;
     opacity: 1;
     font-weight: bold;
     text-decoration: none;

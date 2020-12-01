@@ -2095,5 +2095,32 @@ export default {
       ],
       proMe: " XV/ 550  24-312-50  20---084    ",
     },
+    {
+      id: 57,
+      kategorie: 'smircikrize',  
+      oblast: '  Na sever  ',
+      jmeno: '   Lelekovice   ',
+      podkategorie:  2 ,
+      okres: ' Brno - venkov  ',
+      obec: '  Lelekovice  ',
+      cislo: '  1749  ',
+      kdeSeNaleza:'  Je vložen do zdiva kostela v Lelekovicích.  ', 
+      popis:' 1,2 metru dlouhá deska z narůžovělého kamene je zazděna naležato do vnější zdi. Z desky vystupuje reliéf latinského kříže s rozšířenou patou.   ',      
+      napis: '     ',
+      povest: '    ',         
+      odkazy:[{nazev: ' Smírčí kříže  ', adresa:' http://www.smircikrize.cz/lelekovice.htm  '}],
+      pozn: '  Dříve byl skrytý pod omítkou.   ',
+      naposledObnoveno : ' 1.12.2020 ',
+      galerie: 
+      
+      [ {fotka: 'lelekovice1.jpg' , datum: 'únor 2019'},
+      {fotka: 'lelekovice2.jpg' , datum: 'únor 2019'},
+      ],
+      
+      proMe:'  XIX/865  24-322-73  19---02   ',     
+      },
+      
+      
+      
   ],
 };
