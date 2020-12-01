@@ -109,12 +109,12 @@
 <style>
   #malyKontakt {
     grid-column: 2/3;
-    grid-row: 7/8;
+    grid-row: 7/9;
     font-weight: bold;
     width: 100%;
     border: 2px solid #2c3e50;
     border-radius: 10px;
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     padding: 0 5% 5% 10%;
@@ -127,6 +127,7 @@
 
 @media(max-width:600px){
     #malyKontakt {
+      grid-row: 7/8;
       font-weight: normal;
       border:none;
       box-shadow: none;
