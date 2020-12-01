@@ -2064,5 +2064,36 @@ export default {
       ],
       proMe: "    2002/431   24-321-38  13---022   ",
     },
+    {
+      id: 56,
+      kategorie: "smircikrize",
+      oblast: "  Na západ  ",
+      jmeno: "  Deblín    ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "  Deblín   ",
+      cislo: "  1987 ",
+      kdeSeNaleza: "  V Deblínském lese, SV od osady Pánov.  ",
+      popis:
+        "  Masivní deska křížového kamene je vysoká 1,2 metru. Z ní vystupuje výrazně převýšený reliéf latinského kříže, uprostřed něho je negativní reliéf malého křížku.  ",
+      napis: "     ",
+      povest:
+        "  Na tomto místě zabil divoký býk řezníka, který ho vedl z Pánova na porážku.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Deblin.html  ",
+        },
+      ],
+      pozn:
+        "   Je to jeden z největších a nejkrásnějších smírčích kamenů na Brněnsku, navíc je na původním stanovišti.  ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [
+        { fotka: "deblin1.jpg", datum: "srpen 2020" },
+        { fotka: "deblin2.jpg", datum: "srpen 2020" },
+      ],
+      proMe: " XV/ 550  24-312-50  20---084    ",
+    },
   ],
 };
