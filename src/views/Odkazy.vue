@@ -7,7 +7,7 @@
     <div id="transbox1"></div>
 
     <router-link class="kontejnerDomuOnas" to="/">
-      <div class="pomnicekKategorie" id="domuOnas">Domů</div>
+      <div class="pomnicekKategorie" id="domuOnas" v-bind:style="{margin:'20px'}">Domů</div>
     </router-link>
 
     <h1>Sympatické weby</h1>
