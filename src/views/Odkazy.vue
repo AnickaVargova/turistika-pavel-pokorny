@@ -39,6 +39,25 @@
     grid-template-rows: repeat(40, 60px);
   }
 
+   #domuOnas {
+    margin-bottom: 40px;
+    width: 80px;
+    height: 20px;
+    background-color: mediumturquoise;
+  }
+
+  
+
+    #domuOnas:hover {
+    color: #13131d;
+    background-color: #9aacab;
+  }
+
+   .kontejnerDomuOnas {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+
   #odkazy .pomnicekKategorie {
     min-width: 0;
   }
@@ -107,5 +126,7 @@
     #odkazy span {
       font-size: 15px;
     }
+
+   
   }
 </style>

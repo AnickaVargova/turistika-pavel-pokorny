@@ -31,10 +31,10 @@
     </div>
     <footer>
       <small
-        >&copy; <span>Copyright 2020&nbsp</span
-        ><a href="mailto:anna.vargova@seznam.cz?Subject=''">
-          Anna Vargová</a
-        ></small
+        >&copy; <span>Copyright 2020&nbsp</span><span>Anna Vargová, </span
+        ><a href="mailto:anna.vargova@seznam.cz?Subject=''"
+          >anna.vargova@seznam.cz
+        </a></small
       >
     </footer>
 
@@ -53,13 +53,18 @@
 
       <router-link to="/odkazy">Sympatické weby</router-link>
 
-      <a href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav" v-on:click="ukazKontakt"> Kontakt</a>
+      <a
+        href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"
+        v-on:click="ukazKontakt"
+      >
+        Kontakt</a
+      >
 
       <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
         Moje rajče</a
       >
 
-      <Kontakt v-if="kontaktViditelny" v-on:zmiz="schovejKontakt"/>
+      <Kontakt v-if="kontaktViditelny" v-on:zmiz="schovejKontakt" />
     </div>
 
     <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
@@ -95,13 +100,13 @@
         this.responsive = !this.responsive;
       },
 
-      ukazKontakt(){
+      ukazKontakt() {
         this.kontaktViditelny = true;
       },
 
-      schovejKontakt(){
+      schovejKontakt() {
         this.kontaktViditelny = false;
-      }
+      },
     },
   };
 </script>
@@ -125,11 +130,11 @@
     color: #13131d;
   }
 
-@media(max-width:600px){
+  @media (max-width: 600px) {
     #malyKontakt {
       grid-row: 7/8;
       font-weight: normal;
-      border:none;
+      border: none;
       box-shadow: none;
       background: none;
       font-size: 14px;
@@ -146,7 +151,7 @@
       height: auto;
       padding: 0;
     }
-}
+  }
   .icon {
     display: none;
     grid-column: 5/6;
@@ -191,6 +196,7 @@
   @media (min-width: 900px) {
     body {
       height: 100vh;
+      width: 100vw;
     }
 
     #pozadi {

@@ -6,7 +6,12 @@
         v-bind:alt="`${innerParams.backgroundDescription}`"
       />
     </div>
-    <div id="transbox1"></div>
+    <div
+      v-if="innerParams.transbox"
+      v-bind:style="{backgroundColor: innerParams.transbox}"
+      id="transbox1"
+    ></div>
+    <div v-else id="transbox1"></div>
     <h1>{{ innerParams.nadpis }}</h1>
 
     <AbecedniSeznam
@@ -22,9 +27,9 @@
       id="abecedniSeznam"
     />
     <!-- responsive: menuUkazat || seznamUkazat, -->
-     
+
     <div
-      v-if="innerWidth > 600 || (innerWidth<=600 && !menuUkazat)"
+      v-if="innerWidth > 600 || (innerWidth <= 600 && !menuUkazat)"
       v-bind:class="{
         pomnickyText: true,
         large:

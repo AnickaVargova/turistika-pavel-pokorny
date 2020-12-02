@@ -1,47 +1,45 @@
 <template>
   <div id="detailClanku">
-    <div id="transboxOnas">
-      <div id="detailOkno">
-        <router-link to="/">
-          <div class="pomnicekKategorie" id="domuOnas">
-            Domů
-          </div>
-        </router-link>
-        <h1 v-bind:style="{marginTop:'0'}">O nás</h1>
-
-        <div id="textClanku">
-          <div
-            v-for="(odstavec, index) in detailClanku.text"
-            v-bind:key="index"
-            class="odstavec"
-          >
-            <router-link
-              v-if="odstavec.foto"
-              v-bind:to="`/fotodetail/onas/${odstavec.foto}`"
-            >
-              <figure
-                v-if="odstavec.foto"
-                id="fotoText"
-                v-bind:class="{
-                  vpravo: odstavec.umisteniFoto === 'vpravo',
-                  vlevo: odstavec.umisteniFoto === 'vlevo',
-                  nahore: index === 0,
-                }"
-              >
-                <img
-                  v-bind:src="require(`./../assets/${odstavec.foto}`)"
-                  alt="My v přírodě"
-                />
-                <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
-              </figure>
-            </router-link>
-            <p>
-              {{ odstavec.textOdstavce }}
-            </p>
-          </div>
+    <div id="detailOkno">
+      <!-- <router-link v-bind:to="`/${detailClanku.kategorie}`">
+        <div class="pomnicekKategorie" id="zpetNaClanky">
+          Zpět na články
         </div>
-        <p id="kontakt">Kontakt: <a href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"
-      >pokorny.pavel1@centrum.cz</a></p>
+      </router-link> -->
+      <h1>O nás</h1>
+
+      <div id="textClanku">
+        <div
+          v-for="(odstavec, index) in detailClanku.text"
+          v-bind:key="index"
+          class="odstavec"
+        >
+          <router-link
+            v-if="odstavec.foto"
+            v-bind:to="
+              `/fotodetail/onas/${odstavec.foto}`
+            "
+          >
+          <figure
+            v-if="odstavec.foto"
+            id="fotoText"
+            v-bind:class="{
+              vpravo: odstavec.umisteniFoto === 'vpravo',
+              vlevo: odstavec.umisteniFoto === 'vlevo',
+              nahore: index === 0,
+            }"
+          >
+            <img
+              v-bind:src="require(`./../assets/${odstavec.foto}`)"
+              alt="My v přírodě"
+            />
+            <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
+          </figure>
+          </router-link>
+          <p>
+            {{ odstavec.textOdstavce }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -66,8 +64,8 @@
             {
               textOdstavce:
                 "Společnou celoživotní vášní je pro nás dva táboření, bivakování a pobyt ve volné přírodě. Začali jsme s tím před padesáti lety, kdy zákazů táboření bylo minimálně a ledacos se tolerovalo. S léty je to u nás a na Slovensku stále těžší. Přibývá zákazů, pravidel a vyhrazených míst na táboření, kterým se vyhýbáme. Naštěstí jsou ještě po Evropě země, kde se volně tábořit dá a nebo je tolerováno, protože nikoho nenapadlo to zakazovat (Balkán, Skandinávie). Programově vyhledáváme skrytá, málo známá a nenavštěvovaná místa, ať je to kolem Brna, po republice nebo na Slovensku.",
-              foto: "onas1.jpg",
-              umisteniFoto: "vpravo",
+                foto: "onas1.jpg",
+                umisteniFoto: "vpravo",
             },
             {
               textOdstavce:
@@ -77,20 +75,13 @@
         },
       };
     },
+    
   };
 </script>
 
 <style>
-
-
   #detailClanku {
-    background-image: url("./../assets/bileTahy.jpg");
-    padding: 0;
-  }
-
-  #transboxOnas {
-    width: 100%;
-    background-color: rgba(234, 235, 224, 0.7);
+    background-color: beige;
     padding: 2%;
   }
 
@@ -121,8 +112,11 @@
     }
   }
 
-  #detailClanku .pomnicekKategorie {
-    min-width: 0;
+  #zpetNaClanky {
+    width: 50%;
+    min-width: 80px;
+    padding: 10px;
+    height: auto;
   }
 
   #detailClanku h1 {
@@ -180,26 +174,8 @@
     color: black;
   }
 
- 
-
-   #kontakt {
-    grid-column: 1/7;
-    grid-row: 6/7;
-    /* margin-left: 5%;
-    margin-right: 5%; */
-    font-size: 20px;
-    color: black
-    /* text-decoration: underline; */
-  }
-
-    #kontakt a {
-    text-decoration: underline;
-     color: rgb(23, 59, 37);
-  }
-
-  #kontakt a:hover,
-  #kontakt a:active {
-    color: darkolivegreen;
+  a {
+    text-decoration: none;
   }
 
   .obrazek {

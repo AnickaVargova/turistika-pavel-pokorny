@@ -1,5 +1,21 @@
 <template>
-  <div id="abecedniSeznam">
+  <div  v-if="stranka==='smircikrize'" id="abecedniSeznam">
+   
+    <router-link
+      v-for="clanek in seznam"
+      v-bind:key="clanek.id"
+      v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
+      class="kontejnerJmeno"
+      v-bind:style="{backgroundColor:'#e9f4f5'}"
+    >
+     
+        {{ clanek.jmeno }}
+     
+    </router-link>
+  </div>
+
+  <div v-else>
+   
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
@@ -11,6 +27,7 @@
      
     </router-link>
   </div>
+  
 </template>
 
 <script>
@@ -57,7 +74,7 @@
     border: 1px solid lightgrey;
     border-radius: 5px;
     margin: 1px;
-    background-color: rgb(231, 231, 208);
+    background-color: #e7e7d0;
     color: black;
     max-width: 40%;
   }

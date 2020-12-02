@@ -7,26 +7,11 @@
       />
       <figcaption>({{ vybranaFotka.datum }})</figcaption>
 
-      <!-- <router-link
-        v-if="vybranaKategorie === 'cesty' || vybranaKategorie === 'vypraveni'"
-        v-bind:to="`/detail/${this.$route.params.podkategorie}/${vybranyIndex}`"
-        ><button class="pomnicekKategorie">Zpět</button></router-link
-      > -->
-      <!-- <router-link
-        v-if="
-          vybranaKategorie === 'pomnicky' || vybranaKategorie === 'studanky'
-        "
-        v-bind:to="`/${vybranaKategorie}/${this.$route.params.podkategorie}`"
-        ><button class="pomnicekKategorie">Zpět</button></router-link
-      > -->
-
+     
       <a @click="$router.go(-1)"
         ><button class="pomnicekKategorie">Zpět</button></a
       >
-
-      <!-- <router-link v-if="vybranaKategorie === 'krize'" to="/smirciKrize"
-        ><button class="pomnicekKategorie">Zpět</button></router-link
-      > -->
+     
     </figure>
   </div>
 </template>
@@ -37,7 +22,7 @@
   export default {
     data() {
       return {
-        vybranaFotka: "",
+        vybranaFotka: {},
         vybranyIndex: undefined,
         vybranaKategorie: undefined,
         clanky: Clanky.data,
@@ -46,21 +31,27 @@
 
     methods: {
       detailFotky() {
-        for (let clanek of this.clanky) {
-          if (clanek.fotkaUvod) {
-            clanek.galerie.push(clanek.fotkaUvod);
-          }
-          if (clanek.galerie) {
-            for (let obrazek of clanek.galerie) {
-              if (obrazek.fotka == this.$route.params.id) {
-                this.vybranaFotka = obrazek;
-                this.vybranyIndex = clanek.id;
-                this.vybranaKategorie = clanek.kategorie;
+        if (this.$route.params.podkategorie === "onas") {
+          this.vybranaFotka.fotka = this.$route.params.id;
+          this.vybranaFotka.popisek = "My na cestách";
+          this.vybranaFotka.datum = "My na cestách";
+        } else {
+          for (let clanek of this.clanky) {
+            if (clanek.fotkaUvod) {
+              clanek.galerie.push(clanek.fotkaUvod);
+            }
+            if (clanek.galerie) {
+              for (let obrazek of clanek.galerie) {
+                if (obrazek.fotka == this.$route.params.id) {
+                  this.vybranaFotka = obrazek;
+                  this.vybranyIndex = clanek.id;
+                  this.vybranaKategorie = clanek.kategorie;
+                }
               }
             }
-          }
-          if (clanek.fotkaUvod) {
-            clanek.galerie.pop();
+            if (clanek.fotkaUvod) {
+              clanek.galerie.pop();
+            }
           }
         }
       },

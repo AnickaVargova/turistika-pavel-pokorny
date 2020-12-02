@@ -1,5 +1,5 @@
 <template>
-  <div id="detailClanku">
+  <div id="detailClanku" v-bind:style ='{backgroundColor:"beige", backgroundImage:"none", padding:"2%"}'>
     <div id="detailOkno">
       <router-link v-bind:to="`/${detailClanku.kategorie}`">
         <div class="pomnicekKategorie" id="zpetNaClanky">

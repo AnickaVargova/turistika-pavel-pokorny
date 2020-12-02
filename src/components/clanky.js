@@ -1985,9 +1985,9 @@ export default {
       okres: " Brno - venkov  ",
       obec: "Biskoupky   ",
       cislo: " 1658   ",
-      kdeSeNaleza: "  Na kraji vsi u cesty do Hrubšic  ",
+      kdeSeNaleza: "  Na okraji vsi u cesty do Hrubšic  ",
       popis:
-        "  Žulová deska vysoká 1,5 meru s odlomeným levým rohem. Do ní je hluboce vysekán latinský kříž.  ",
+        "  Žulová deska vysoká 1,5 metru s odlomeným levým rohem. Do ní je hluboce vysekán latinský kříž.  ",
       napis: "     ",
       povest: "    ",
       odkazy: [
@@ -2097,30 +2097,60 @@ export default {
     },
     {
       id: 57,
-      kategorie: 'smircikrize',  
-      oblast: '  Na sever  ',
-      jmeno: '   Lelekovice   ',
-      podkategorie:  2 ,
-      okres: ' Brno - venkov  ',
-      obec: '  Lelekovice  ',
-      cislo: '  1749  ',
-      kdeSeNaleza:'  Je vložen do zdiva kostela v Lelekovicích.  ', 
-      popis:' 1,2 metru dlouhá deska z narůžovělého kamene je zazděna naležato do vnější zdi. Z desky vystupuje reliéf latinského kříže s rozšířenou patou.   ',      
-      napis: '     ',
-      povest: '    ',         
-      odkazy:[{nazev: ' Smírčí kříže  ', adresa:' http://www.smircikrize.cz/lelekovice.htm  '}],
-      pozn: '  Dříve byl skrytý pod omítkou.   ',
-      naposledObnoveno : ' 1.12.2020 ',
-      galerie: 
-      
-      [ {fotka: 'lelekovice1.jpg' , datum: 'únor 2019'},
-      {fotka: 'lelekovice2.jpg' , datum: 'únor 2019'},
+      kategorie: "smircikrize",
+      oblast: "  Na sever  ",
+      jmeno: "   Lelekovice   ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: "  Lelekovice  ",
+      cislo: "  1749  ",
+      kdeSeNaleza: "  Je vložen do zdiva kostela v Lelekovicích.  ",
+      popis:
+        " 1,2 metru dlouhá deska z narůžovělého kamene je zazděna naležato do vnější zdi. Z desky vystupuje reliéf latinského kříže s rozšířenou patou.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " Smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/lelekovice.htm  ",
+        },
       ],
-      
-      proMe:'  XIX/865  24-322-73  19---02   ',     
-      },
-      
-      
-      
+      pozn: "  Dříve byl skrytý pod omítkou.   ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [
+        { fotka: "lelekovice1.jpg", datum: "únor 2019" },
+        { fotka: "lelekovice2.jpg", datum: "únor 2019" },
+      ],
+
+      proMe: "  XIX/865  24-322-73  19---02   ",
+    },
+
+    {
+      id: 58,
+      kategorie: "smircikrize",
+      oblast: " Na jih   ",
+      jmeno: "Moravany 1   ",
+      podkategorie: 4,
+      okres: " Brno - venkov  ",
+      obec: " Moravany   ",
+      cislo: "  1292  ",
+      kdeSeNaleza: "  Na plochém návrší v poli mezi Moravany a Modřicemi.   ",
+      popis:
+        " Čtvercová kamenná deska vysoká 0,8 metru s nevýrazným reliefem řeckého kříže.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Moravany.html  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 58  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 1.12.2020 ",
+      galerie: [{ fotka: "moravany1.jpg", datum: "leden 2017" }],
+      proMe: "  XIV/489  24-342-18  17---01.      ",
+    },
   ],
 };

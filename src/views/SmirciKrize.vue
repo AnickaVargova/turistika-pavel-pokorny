@@ -36,6 +36,8 @@
           ],
           stranka: "smircikrize",
           background: "pozadiKapky.jpg",
+          transbox: "rgba(220, 241, 240, 0.8)",
+          
           backgroundDescription: "Pozadí",
         },
       };
