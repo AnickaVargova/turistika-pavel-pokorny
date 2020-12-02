@@ -1,5 +1,5 @@
 <template>
-  <div id="detailClanku">
+  <div id="detailClanku" v-bind:style="{padding:'0'}">
     <div id="transboxOnas">
       <div id="detailOkno">
         <router-link to="/">
