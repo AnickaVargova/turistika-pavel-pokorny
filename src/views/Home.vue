@@ -30,8 +30,8 @@
       </p>
     </div>
     <footer>
-      <small
-        >&copy; <span>Copyright 2020&nbsp</span><span>Anna Vargová, </span
+      <small>
+        <span>Stránky vytvořila Anna Vargová, </span
         ><a href="mailto:anna.vargova@seznam.cz?Subject=''"
           >anna.vargova@seznam.cz
         </a></small
@@ -184,10 +184,10 @@
       width: 100vw;
     }
 
-    #pozadi {
+    /* #pozadi {
       height: 100vh;
       /* overflow: hidden; */
-    }
+    /* } */ 
   }
 
   #uvodniText {
@@ -246,7 +246,7 @@
     width: 100vw;
     /* height: 100vh; */
     background-color: rgba(178, 203, 223, 0.7);
-    margin-right: 0;
+       margin-right: 0;
   }
 
   h1 {
@@ -315,9 +315,9 @@
   }
 
   footer {
-    grid-row: 13/14;
-    grid-column: 1/3;
-    margin-left: 20px;
+    grid-row: 39/40;
+    grid-column: 1/6;
+    margin: 0 0 20px 20px;
     padding-top: 40px;
     color: black;
   }
@@ -330,4 +330,11 @@
   footer a:hover {
     color: rgb(34, 32, 32);
   }
+
+   /* @media (max-width: 600px) {
+     footer {
+       margin-left: 5%;
+       padding-left: 5%;
+     }
+   } */
 </style>

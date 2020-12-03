@@ -1,10 +1,7 @@
 <template>
   <div id="odkazy">
-    <div id="pozadi1">
-      <img src="./../assets/presypy.jpg" alt="Pozadí" />
-    </div>
-
-    <div id="transbox1"></div>
+    
+    <div id="transbox1">
 
     <router-link class="kontejnerDomuOnas" to="/">
       <div class="pomnicekKategorie" id="domuOnas" v-bind:style="{margin:'20px'}">Domů</div>
@@ -18,6 +15,7 @@
         <span>{{ odkaz.popis }}</span>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -34,9 +32,8 @@
 
 <style>
   #odkazy {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(40, 60px);
+    
+    background-image: url("./../assets/presypy.jpg")
   }
 
    #domuOnas {
@@ -46,7 +43,7 @@
     background-color: mediumturquoise;
   }
 
-  
+ 
 
     #domuOnas:hover {
     color: #13131d;
@@ -64,6 +61,12 @@
 
   #odkazy #transbox1 {
     background-color: rgba(183, 202, 202, 0.6);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 60px;
   }
 
   #odkazy h1 {
@@ -76,12 +79,13 @@
 
   #oknoOdkazy {
     grid-column: 1/7;
-    grid-row:3/11;
+    grid-row-start:3;
     margin: auto;
     background-color: rgb(240, 233, 223);
     border: 2px solid grey;
     border-radius: 10px;
     padding: 20px;
+    margin-top: 50px;
   }
 
   #oknoOdkazy .odkazy {
@@ -110,13 +114,14 @@
   @media (max-width: 600px) {
     #oknoOdkazy {
     grid-column: 1/7;
-    grid-row:3/11;
-    width: 80vw;
+    grid-row-start:3;
     margin: auto;
     background-color: rgb(240, 233, 223);
     border: 2px solid grey;
     border-radius: 10px;
     padding: 20px;
+    margin-top: 40px;
+  
     }
 
     #oknoOdkazy .odkazy {

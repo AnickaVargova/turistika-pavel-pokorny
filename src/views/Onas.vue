@@ -31,7 +31,7 @@
               >
                 <img
                   v-bind:src="require(`./../assets/${odstavec.foto}`)"
-                  alt="My v přírodě"
+                  v-bind:alt="odstavec.popisek"
                 />
                 <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
               </figure>
