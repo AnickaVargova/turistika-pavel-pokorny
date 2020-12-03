@@ -1613,7 +1613,7 @@ export default {
 
       vnitrniOdkaz: 44,
       odkazKategorie: "vypraveni",
-      odkazPodkategorie: 18, // Viz též Vyprávění.(skok na Jak jsem hledal Ozadovu památku) ",
+      odkazPodkategorie: 18,
       odkazKde: "pozn",
       predOdkazem:
         " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
@@ -2151,6 +2151,294 @@ export default {
       naposledObnoveno: " 1.12.2020 ",
       galerie: [{ fotka: "moravany1.jpg", datum: "leden 2017" }],
       proMe: "  XIV/489  24-342-18  17---01.      ",
+    },
+    {
+      id: 59,
+      kategorie: "smircikrize",
+      oblast: " Na jih   ",
+      jmeno: "   Moravany 2   ",
+      podkategorie: 4,
+      okres: " Brno - venkov  ",
+      obec: " Moravany   ",
+      cislo: " 1867   ",
+      kdeSeNaleza: "  na návsi v Moravanech  ",
+      popis:
+        "  Dnes replika původního kamene. Na přední části kamenné desky je vyryt obraz mužské postavy. Na zadní straně je  těžko čitelný nápis. Na užších stranách  kamene vytesány latinské kříže.  ",
+      napis:
+        "  Devítiřádkový německý text připomíná pokus o vraždu, spáchaný na Řehoři Halderovi.   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/moravany.htm  ",
+        },
+        { nazev: "   ", adresa: "   " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 59  " },
+      ],
+      pozn:
+        "  Původní kámen pocházel z 15. století a stál někde mezi Moravany a Nebovidy.  V posledních stodvaceti letech byl kámen sesekán na výšku 65 cm a přemístěn na náves. Před rokem 2019 byla vyrobena replika původního kamene a nahradila torzo originálu.   ",
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "moravany2-1.jpg", datum: "prosinec 2019" },
+        { fotka: "moravany2-2.jpg", datum: "prosinec 2019" },
+        { fotka: "moravany2-3.jpg", datum: "prosinec 2019" },
+      ],
+
+      proMe: "  XIV/472    19---012   ",
+    },
+    {
+      id: 60,
+      kategorie: "smircikrize",
+      oblast: "  V Brně  ",
+      jmeno: "  Dolní Heršpice    ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - Dolní Heršpice   ",
+      cislo: "  1771  ",
+      kdeSeNaleza: "  na Jižním náměstí v Dolních Heršpicích  ",
+      popis:
+        "  Kamenná deska je vysoká 0,8 metru a do ní je vyryt latinský kříž s rozšířenou patou. Světlá barva spodku kamene je způsobena tím, že tato část byla dlouho v zemi na původním stanovišti. ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_mesto/Dolni_Herspice.html  ",
+        },
+        {
+          nazev: "turistika  ",
+          adresa:
+            " https://www.turistika.cz/mista/brno-dolni-herspice-krizovy-kamen/detail  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 52.  " },
+      ],
+      pozn:
+        "  Kámen stával na původním místě u cesty z Komárova do Modřic, 100 metrů J od dnešního dálničního mostu. Před několika lety ho přemístili na náves. Omylem byl do centrální evidence vložen dvakrát, i pod označením 1753 Přízřenice.   ",
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "dolniHerspice1.jpg", datum: "listopad 2020" },
+        { fotka: "dolniHerspice2.jpg", datum: "listopad 2020" },
+      ],
+
+      proMe: "  XX/1099 24-342-58  11.2020   ",
+    },
+    {
+      id: 61,
+      kategorie: "smircikrize",
+      oblast: "  Na sever  ",
+      jmeno: "   Drásov 4   ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: "  Drásov  ",
+      cislo: " 2023   ",
+      kdeSeNaleza: "  ve zdivu kostelní věže asi 10 metrů nad zemí   ",
+      popis: "   orámovaný latinský kříž ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Drasov.html  ",
+        },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "drasov4-1.jpg", datum: "únor 2013" },
+        { fotka: "drasov4-2.jpg", datum: "únor 2013" },
+      ],
+      proMe: "   2002/431   24-321-38  13---022   ",
+    },
+
+    {
+      id: 62,
+      kategorie: "smircikrize",
+      oblast: " Na jih   ",
+      jmeno: "  Bratčice    ",
+      podkategorie: 4,
+      okres: " Brno - venkov  ",
+      obec: " Bratčice   ",
+      cislo: "  1985  ",
+      kdeSeNaleza:
+        "  V části obce u silnice na Sobotovice, zazděn v cihlové zahradní zdi.  ",
+      popis:
+        " Kamenná deska vysoká 1,1 metru. Z ní vystupuje nízký reliéf latinského kříže. Horní část desky se zdá být odlámána.   ",
+      napis: "     ",
+      povest:
+        "  Měl tu být údajně pochován francouzský voják z napoleonských válek.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bratcice.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/bratcice.htm  ",
+        },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [{ fotka: "bratcice.jpg", datum: "září 2015" }],
+
+      proMe: " XIX/871  24-141-42   15---09.    ",
+    },
+    {
+      id: 63,
+      kategorie: "smircikrize",
+      oblast: "  Na jih  ",
+      jmeno: "  Opatovice 1    ",
+      podkategorie: 4,
+      okres: " Brno - venkov  ",
+      obec: "  Opatovice  ",
+      cislo: " 1788   ",
+      kdeSeNaleza: "  západně od obce na pomezí polí a zahrad   ",
+      popis:
+        "  Kamenná deska vysoká 0,6 metru, shora zakulacená. Na čelní straně vystupuje reliéf řeckého kříže. Na zadní straně nečitelný nápis.  ",
+      napis: "  Z delšího textu jsou k přečtení jen jednotlivá písmena.   ",
+      povest:
+        "  Vypráví o třech vojácích, duelantech, kteří se v souboji měli postřílet, když stáli každý v jednom rohu pomyslného trojúhelníku. O třetím kamenu se ale nic neví.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Opatovice.html  ",
+        },
+        { nazev: "   ", adresa: "   " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001, str. 59.  " },
+      ],
+      pozn: "  Kámen  Opatovice 2 je vzdálen asi 100 metrů.   ",
+
+      vnitrniOdkaz: 64,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 4,
+      odkazKde: "pozn",
+      predOdkazem: "Kámen ",
+      textOdkazu: "Opatovice 2",
+      zaOdkazem: " je vzdálen asi 100 metrů.",
+
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "opatovice1-1.jpg", datum: "říjen 2009" },
+        { fotka: "opatovice1-2.jpg", datum: "leden 2014" },
+        { fotka: "opatovice1-3.jpg", datum: "leden 2014" },
+      ],
+
+      proMe: "  XVII/ 666   24-344-47   14---013  10.2009  ",
+    },
+    {
+      id: 64,
+      kategorie: "smircikrize",
+      oblast: "  Na jih  ",
+      jmeno: "   Opatovice 2   ",
+      podkategorie: 4,
+      okres: " Brno - venkov  ",
+      obec: "  Opatovice  ",
+      cislo: "  1789  ",
+      kdeSeNaleza: " na západ od vsi, u polní cesty   ",
+      popis:
+        "  Kamenná deska vysoká 1,1 metru s ulomeným jedním  rohem. Z ní vystupuje reliéf golgotského kříže. Nápis je těžko čitelný, protože okraje desky jsou otlučené. ",
+      napis:
+        "  ...GES. // ...D...TARU P: T:  // ...CH. P  ROCEŽ NA. // KDE GES T ZASTŘEL // … MANŽELKA GEHO NAPAM // .TKV ZAR // .MV...KVS // ..HO TEN TO KAMEN // DALA POS TAWITI. // GEHOŽ DV SSY P: B: RA // ILOSTI W BYTI.   Do dnešní češtiny přeloženo: ...kde byl zastřelen. Jeho manželka na památku … tento kámen dala postavit. Jeho duši Pane Bože rač milostiv býti.   ",
+      povest: "  Stanoviště druhého duelanta v souboji.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Opatovice.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/opatovice.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 60  " },
+      ],
+      pozn: "  Kámen Opatovice 1 je vzdálen asi 100 metrů.   ",
+
+      vnitrniOdkaz: 63,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 4,
+      odkazKde: "pozn",
+      predOdkazem: "Kámen ",
+      textOdkazu: "Opatovice 1",
+      zaOdkazem: " je vzdálen asi 100 metrů.",
+
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "opatovice2-1.jpg", datum: "říjen 2009" },
+        { fotka: "opatovice2-2.jpg", datum: "leden 2014" },
+        { fotka: "opatovice2-3.jpg", datum: "leden 2014" },
+      ],
+
+      proMe: "  XIII/468  24-344-33   14---013  10.2009   ",
+    },
+    {
+      id: 65,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "  Oslavany 1    ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec:
+        "  Čučice. Leží asi 100 metrů od  hranice katastru Oslavan, na kat. úz. Čučice.  ",
+      cislo: "  1661  ",
+      kdeSeNaleza:
+        "  Leží západně od Oslavan, nad údolím Oslavky, nad cestou, nedaleko zelené značky a rozcestí Kocoury. Těžko se hledá v nepřehledném lese.  ",
+      popis:
+        "  Masivní kamenný hranol vysoký 1 metr má zešikmenou horní plochu. Vpředu i vzadu vystupuje nízký reliéf kříže.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Oslavany.html  ",
+        },
+        { nazev: "   ", adresa: "   " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 60  " },
+      ],
+      pozn: "  Krásný kámen na zajímavém místě.   ",
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "oslavany1.jpg", datum: "duben 2015" },
+        { fotka: "oslavany2.jpg", datum: "duben 2015" },
+      ],
+
+      proMe: "  XIX/851  24-332-58  15---042   ",
+    },
+    {
+      id: 66,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "   Oslavany 2   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "    ",
+      cislo: "  1775  ",
+      kdeSeNaleza: " na SZ od Oslavan u lesní cesty.   ",
+      popis:
+        "  Skoro čtvercová kamenná deska vysoká 0,8 metru je shora odlomena. Z přední  strany je vytesán reliéf templářského kříže v orámování, ze zadní strany je obtížně čitelný text.   ",
+      napis:
+        "  Nejasný a neúplný nápis z roku 1765. Starou češtinou se tu píše o vybírání hnízd a  střelbě z ručnice, možná náhodné.   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/oslavany.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 60  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 3.12.2020 ",
+      galerie: [
+        { fotka: "oslavany2-1.jpg", datum: "duben 2015" },
+        { fotka: "oslavany2-2.jpg", datum: "duben 2015" },
+        { fotka: "oslavany2-3.jpg", datum: "duben 2015" },
+      ],
+
+      proMe: "  XIX/850  24-332-54  15---042   ",
     },
   ],
 };

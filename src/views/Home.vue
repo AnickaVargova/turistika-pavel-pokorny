@@ -53,18 +53,12 @@
 
       <router-link to="/odkazy">Sympatické weby</router-link>
 
-      <a
-        href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"
-        v-on:click="ukazKontakt"
-      >
-        Kontakt</a
-      >
-
+     
       <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
         Moje rajče</a
       >
 
-      <Kontakt v-if="kontaktViditelny" v-on:zmiz="schovejKontakt" />
+    
     </div>
 
     <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
@@ -83,15 +77,13 @@
 </template>
 
 <script>
-  import Kontakt from "./Kontakt.vue";
+ 
   export default {
-    components: {
-      Kontakt: Kontakt,
-    },
+   
     data() {
       return {
         responsive: false,
-        kontaktViditelny: false,
+       
       };
     },
 
@@ -100,19 +92,12 @@
         this.responsive = !this.responsive;
       },
 
-      ukazKontakt() {
-        this.kontaktViditelny = true;
-      },
-
-      schovejKontakt() {
-        this.kontaktViditelny = false;
-      },
     },
   };
 </script>
 
 <style>
-  #malyKontakt {
+  /* #malyKontakt {
     grid-column: 2/3;
     grid-row: 7/9;
     font-weight: bold;
@@ -151,7 +136,7 @@
       height: auto;
       padding: 0;
     }
-  }
+  } */
   .icon {
     display: none;
     grid-column: 5/6;

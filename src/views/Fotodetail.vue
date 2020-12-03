@@ -5,36 +5,51 @@
         v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
         v-bind:alt="vybranaFotka.popisek"
       />
-      <figcaption>({{ vybranaFotka.datum }})</figcaption>
+      <figcaption v-if="vybranaFotka.datum">({{ vybranaFotka.datum }})</figcaption>
+       <figcaption v-else-if="vybranaFotka.popisek">{{ vybranaFotka.popisek }}</figcaption>
 
-     
       <a @click="$router.go(-1)"
         ><button class="pomnicekKategorie">Zpět</button></a
       >
-     
     </figure>
   </div>
 </template>
 
 <script>
   import Detail from "./Detail.vue";
+
   import Clanky from "@/components/clanky.js";
   export default {
+    props: ["popisek"],
     data() {
       return {
         vybranaFotka: {},
         vybranyIndex: undefined,
         vybranaKategorie: undefined,
         clanky: Clanky.data,
+        fotoOnas: [
+          {
+            fotka: "onas1.jpg",
+            popisek: "Rumunsko, Trascau  (září 2016)",
+          },
+          {
+            fotka: "onas2.jpg",
+            popisek: "Polsko, Czarna Hancza  (červenec 2018)",
+          },
+        ],
       };
     },
 
     methods: {
       detailFotky() {
         if (this.$route.params.podkategorie === "onas") {
-          this.vybranaFotka.fotka = this.$route.params.id;
-          this.vybranaFotka.popisek = "My na cestách";
-          this.vybranaFotka.datum = "My na cestách";
+          for (let item of this.fotoOnas) {
+            if (item.fotka == this.$route.params.id) {
+              this.vybranaFotka.fotka = item.fotka;
+              this.vybranaFotka.popisek = item.popisek;
+              
+            }
+          }
         } else {
           for (let clanek of this.clanky) {
             if (clanek.fotkaUvod) {
@@ -59,6 +74,7 @@
 
     created() {
       this.detailFotky();
+      console.log(this.popisek);
     },
   };
 </script>

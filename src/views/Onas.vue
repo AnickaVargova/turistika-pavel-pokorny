@@ -18,6 +18,7 @@
             <router-link
               v-if="odstavec.foto"
               v-bind:to="`/fotodetail/onas/${odstavec.foto}`"
+              v-bind:popisek="odstavec.popisek"
             >
               <figure
                 v-if="odstavec.foto"
@@ -40,8 +41,7 @@
             </p>
           </div>
         </div>
-        <p id="kontakt">Kontakt: <a href="mailto:pokorny.pavel1@centrum.cz?Subject=Pozdrav"
-      >pokorny.pavel1@centrum.cz</a></p>
+        <p id="kontakt">Kontakt: pokorny.pavel1@centrum.cz</p>
       </div>
     </div>
   </div>
@@ -55,8 +55,9 @@
           text: [
             {
               textOdstavce:
-                "Jsme dva turisté, tuláci, cestovatelé silně důchodového věku (Pavel 1948, Lída 1949). Oba odmalička procházíme různými obdobími turistického života, pravda zpočátku každý zvlášť, od roku 1972 společně. V mládí jsme jezdili na hory i na vodu, lezli po skalách i do jeskyní. Kromě dětí, domů, duchovního života, vnoučat, dobrovolné skromnosti, chalupy, zahrad a dalších nemovitostí jsme se v životě zabývali turistikou v nejrůznějších podobách.",
+                "Jsme dva turisté, tuláci, cestovatelé silně důchodového věku (Pavel 1948, Lída 1949). Oba odmalička procházíme různými obdobími turistického života, pravda zpočátku každý zvlášť, od roku 1972 společně. V mládí jsme jezdili na hory i na vodu, lezli po skalách i do jeskyní. Teď už jen běžky nasazujem, bicykly sedláme a pohorky obouváme. Kromě dětí, domů, duchovního života, vnoučat, dobrovolné skromnosti, chalupy, zahrad a dalších nemovitostí jsme se v životě zabývali turistikou v nejrůznějších podobách.",
               foto: "onas2.jpg",
+              popisek: "Polsko, Czarna Hancza  (červenec 2018) ",
               umisteniFoto: "vlevo",
             },
             {
@@ -67,6 +68,7 @@
               textOdstavce:
                 "Společnou celoživotní vášní je pro nás dva táboření, bivakování a pobyt ve volné přírodě. Začali jsme s tím před padesáti lety, kdy zákazů táboření bylo minimálně a ledacos se tolerovalo. S léty je to u nás a na Slovensku stále těžší. Přibývá zákazů, pravidel a vyhrazených míst na táboření, kterým se vyhýbáme. Naštěstí jsou ještě po Evropě země, kde se volně tábořit dá a nebo je tolerováno, protože nikoho nenapadlo to zakazovat (Balkán, Skandinávie). Programově vyhledáváme skrytá, málo známá a nenavštěvovaná místa, ať je to kolem Brna, po republice nebo na Slovensku.",
               foto: "onas1.jpg",
+              popisek: "Rumunsko, Trascau  (září 2016)",
               umisteniFoto: "vpravo",
             },
             {
