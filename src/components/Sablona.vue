@@ -141,7 +141,7 @@
               pomnicekMenu: true,
             }"
           >
-            {{ kategorie.nazev }}
+           {{ kategorie.nazev }} ({{kategorie.pocet}})
           </div>
         </router-link>
       </div>

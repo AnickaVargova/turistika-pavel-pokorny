@@ -53,12 +53,9 @@
 
       <router-link to="/odkazy">Sympatické weby</router-link>
 
-     
       <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
         Moje rajče</a
       >
-
-    
     </div>
 
     <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
@@ -77,13 +74,10 @@
 </template>
 
 <script>
- 
   export default {
-   
     data() {
       return {
         responsive: false,
-       
       };
     },
 
@@ -91,52 +85,11 @@
       toggleMenu() {
         this.responsive = !this.responsive;
       },
-
     },
   };
 </script>
 
 <style>
-  /* #malyKontakt {
-    grid-column: 2/3;
-    grid-row: 7/9;
-    font-weight: bold;
-    width: 100%;
-    border: 2px solid #2c3e50;
-    border-radius: 10px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding: 0 5% 5% 10%;
-    margin-left: 20%;
-    align-items: flex-start;
-    box-shadow: 5px 2px 2px #395250;
-    background-color: #6bc5aa;
-    color: #13131d;
-  }
-
-  @media (max-width: 600px) {
-    #malyKontakt {
-      grid-row: 7/8;
-      font-weight: normal;
-      border: none;
-      box-shadow: none;
-      background: none;
-      font-size: 14px;
-      margin-left: 20px;
-      padding: 0;
-      width: 90%;
-    }
-
-    #krizekKontejner {
-      padding: auto;
-    }
-
-    #krizekKontejner img {
-      height: auto;
-      padding: 0;
-    }
-  } */
   .icon {
     display: none;
     grid-column: 5/6;
@@ -158,11 +111,15 @@
   @media (max-width: 600px) {
     .icon {
       display: block;
+      margin-right: 40px;
+      grid-column: 5/6;
+      justify-self: end;
     }
     #pocitadlo {
-      grid-column: 1/2;
-      grid-row: 9/10;
+      grid-column: 5/6;
+      grid-row: 3/4;
       margin-left: 40px;
+      margin-right: 20px;
     }
   }
   .home {
@@ -170,24 +127,16 @@
     -moz-osx-font-smoothing: grayscale;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    min-height: 100vh;
-    /* grid-template-rows: repeat(14, 60px); */
+    grid-template-rows: 10% auto 12%;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    /* height: 100vh;
-     */
   }
 
   @media (min-width: 900px) {
     body {
-      height: 100vh;
       width: 100vw;
     }
-
-    /* #pozadi {
-      height: 100vh;
-      /* overflow: hidden; */
-    /* } */ 
   }
 
   #uvodniText {
@@ -195,8 +144,9 @@
     align-items: center;
     line-height: 1.5;
     grid-column: 2 / 6;
-    grid-row: 2 / 6;
+    grid-row-start: 2;
     margin: 5%;
+    margin-bottom: 0;
     text-align: justify;
   }
 
@@ -222,31 +172,30 @@
 
   #pozadi {
     grid-row-start: 1;
-    grid-column: 1/6;
-    grid-row-end: 40;
+    grid-column: 1/7;
+    grid-row-end: 4;
     width: 100vw;
-    /* height: 100vh; */
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(40, 60px); */
-  }
+    height: 100vh;
+      }
 
   #pozadi img {
     grid-column: 1 / 7;
-    /* grid-row: 1 / 14; */
-
-    /* height: 100vh; */
-    width: 100vw;
     object-fit: cover;
   }
 
   #transbox {
     grid-column: 1 / 7;
-    grid-row: 1 / 40;
+    grid-row: 1 / 4;
     width: 100vw;
-    /* height: 100vh; */
+    height: 100%;
     background-color: rgba(178, 203, 223, 0.7);
-       margin-right: 0;
+    margin-right: 0;
+  }
+
+  @media (max-width: 900px) {
+    #pozadi {
+      height: 100%;
+    }
   }
 
   h1 {
@@ -255,13 +204,14 @@
   }
 
   .nav {
-    grid-column: 1/3;
-    grid-row: 1/11;
+    grid-column: 1/2;
+    grid-row: 1/4;
     padding: 0;
-    display: grid;
+    display: block;
+
     gap: 10px;
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 1fr;
     margin: 20px;
   }
 
@@ -271,7 +221,8 @@
     font-weight: bold;
     text-decoration: none;
     width: 100%;
-    height: 100%;
+    height: 50px;
+    margin: 5px;
     border: 2px solid #2c3e50;
     border-radius: 10px;
     display: flex;
@@ -315,7 +266,7 @@
   }
 
   footer {
-    grid-row: 39/40;
+    grid-row: 3/4;
     grid-column: 1/6;
     margin: 0 0 20px 20px;
     padding-top: 40px;
@@ -330,11 +281,4 @@
   footer a:hover {
     color: rgb(34, 32, 32);
   }
-
-   /* @media (max-width: 600px) {
-     footer {
-       margin-left: 5%;
-       padding-left: 5%;
-     }
-   } */
 </style>
