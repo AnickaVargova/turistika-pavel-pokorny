@@ -2440,5 +2440,202 @@ export default {
 
       proMe: "  XIX/850  24-332-54  15---042   ",
     },
+    {
+      id: 67,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "   Popůvky   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: " Popůvky   ",
+      cislo: "  1946  ",
+      kdeSeNaleza:
+        "  na SZ od Popůvek u státní silnice poblíž vedení vysokého napětí  ",
+      popis:
+        "  Na silně olámané kamenné desce vysoké 0,7 metru vystupuje neúplný reliéf latinského kříže.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Popuvky.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/rosice.htm  ",
+        },
+      ],
+      pozn: "  Na serveru euweb je tento kříž evidován pod číslem 1928.",
+      naposledObnoveno: " 4.12.2020 ",
+      galerie: [{ fotka: "popuvky1.jpg", datum: "leden 2020" }],
+
+      proMe: "  XX/1045  24-341-53  20---012   ",
+    },
+    {
+      id: 68,
+      kategorie: "smircikrize",
+      oblast: "  Na východ  ",
+      jmeno: "   Podolí 1   ",
+      podkategorie: 3,
+      okres: " Brno - venkov  ",
+      obec: "  Podolí  ",
+      cislo: "  1295  ",
+      kdeSeNaleza: "  S od Podolí na rozhraní polí a zahrad.  ",
+      popis:
+        "  Oválná stéla vysoká 1 metr je silně nakloněná. Na ní je zarámovaný latinský kříž a pod levým ramenem obrázek kola se čtyřmi loukotěmi.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Podoli.html  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 61  " },
+      ],
+      pozn: "  V roce 1893 stával u polní cesty z Podolí do Horákova.   ",
+      naposledObnoveno: " 4.12.2020 ",
+      galerie: [
+        { fotka: "podoli1-1.jpg", datum: "únor 2015" },
+        { fotka: "podoli1-2.jpg", datum: "únor 2020" },
+        { fotka: "podoli1-3.jpg", datum: "únor 2020" },
+      ],
+
+      proMe: "  VI/185  24-413-105  2.2015   20---025   ",
+    },
+    {
+      id: 69,
+      kategorie: "smircikrize",
+      oblast: "  Na východ  ",
+      jmeno: "   Podolí 2   ",
+      podkategorie: 3,
+      okres: " Brno - venkov  ",
+      obec: "  Podolí  ",
+      cislo: "  1579  ",
+      kdeSeNaleza: "  v JV části obce, 100 metrů od obecního úřadu  ",
+      popis:
+        "  Plochá kamenná deska je vysoká skoro metr, do přední plochy byly zahloubeny čtyři prázdná pole mezi rameny a tím vznikl latinský kříž.  ",
+      napis: "     ",
+      povest:
+        "  Měl ležet na hrobě padlých z bitvy u Slavkova. Po jeho přemístění ke studni bylo slyšet kvílení a pláč. Byl tedy přestěhován o kus dál.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže  ",
+          adresa: "  http://www.smircikrize.cz/podoli.htm ",
+        },
+        { nazev: "   ", adresa: "   " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 61  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 4.12.2020 ",
+      galerie: [
+        { fotka: "podoli2-1.jpg", datum: "prosinec 2012" },
+        { fotka: "podoli2-2.jpg", datum: "prosinec 2012" },
+      ],
+
+      proMe: "  XVIII/752  24-431-28  12---122   ",
+    },
+    {
+      id: 70,
+      kategorie: "smircikrize",
+      oblast: " Na jih   ",
+      jmeno: "   Sokolnice   ",
+      podkategorie: 4,
+      okres: " Brno - venkov  ",
+      obec: "  Sokolnice  ",
+      cislo: "  0775  ",
+      kdeSeNaleza: "  na JZ okraji obce obce u bývalého tvrziště Stráž ",
+      popis:
+        " Mohutný kamenný kříž s rozšířenou patou, vysoký 1,6 a široký 0,9 metru. Na Moravě zjevem ojedinělý, častější v Západních Čechách.   ",
+      napis:
+        "  obtížně čitelný letopočet 1798 je zřejmě psán druhotně, kříž je mnohem starší, gotický.   ",
+      povest:
+        " V obrozeneckých dobách se jeho vznik dával do souvislosti s cyrilometodějskou misií.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Sokolnice.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: "  http://www.smircikrize.cz/sokolnice.htm ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 62  " },
+      ],
+      pozn: "   Podle pamětnice byl posunut o několik metrů vedle cesty.   ",
+      naposledObnoveno: " 4.12.2020 ",
+      galerie: [
+        { fotka: "sokolnice1.jpg", datum: "listopad 2019" },
+        { fotka: "sokolnice2.jpg", datum: "listopad 2019" },
+      ],
+
+      proMe: "  XVII/629  24-431-18  19---115   ",
+    },
+    {
+      id: 71,
+      kategorie: "smircikrize",
+      oblast: "  Na východ  ",
+      jmeno: "   Šlapanice 1   ",
+      podkategorie: 3,
+      okres: " Brno - venkov  ",
+      obec: "  Šlapanice  ",
+      cislo: "  1297  ",
+      kdeSeNaleza:
+        " v parčíku na Brněnské ulici. Dříve tu bylo rozcestí cest do Slatiny a Tuřan   ",
+      popis:
+        " Opracovaný plochý kámen je vysoký 1,1 metru. Do něho je zahlouben latinský kříž s nápadně malou hlavou.     ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Slapanice.html  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 62  " },
+      ],
+      pozn: "  Kámen je zřejmě na původním místě, kde bývalo popraviště.    ",
+      naposledObnoveno: " 4.12.2020 ",
+      galerie: [
+        { fotka: "slapanice1.jpg", datum: "březen 2015" },
+        { fotka: "slapanice2.jpg", datum: "březen 2015" },
+      ],
+
+      proMe: "  XIX/843  24-431-35   15---035  ",
+    },
+    {
+      id: 72,
+      kategorie: "smircikrize",
+      oblast: "  Na východ  ",
+      jmeno: "   Šlapanice 2   ",
+      podkategorie: 3,
+      okres: " Brno - venkov  ",
+      obec: "  Šlapanice  ",
+      cislo: "  1756  ",
+      kdeSeNaleza: "  na Masarykově náměstí vedle budovy muzea   ",
+      popis:
+        "  Kamenná deska vysoká 0,7 metru s odlomeným pravým rohem. Na desce je vidět zepředu obrys latinského kříže, v jeho středu neumělá rytina korpusu Krista. Ze zadní strany dvě čáry mohou znázorňovat ostří nože nebo tesáku.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/slapanice.htm  ",
+        },
+        { nazev: "   ", adresa: "   " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 63  " },
+      ],
+      pozn:
+        "  Na náměstí byl přestěhován po válce, kvůli rozšiřování silnice.   ",
+      naposledObnoveno: " 4.12.2020 ",
+      galerie: [
+        { fotka: "slapanice2-1.jpg", datum: "červen 2015" },
+        { fotka: "slapanice2-2.jpg", datum: "červen 2020" },
+      ],
+
+      proMe: "  2000/393  24-431-34  15---035   20---061  ",
+    },
   ],
 };
