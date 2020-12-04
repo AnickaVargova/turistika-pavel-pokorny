@@ -74,7 +74,7 @@
 
     created() {
       this.detailFotky();
-      console.log(this.popisek);
+    
     },
   };
 </script>

@@ -13,7 +13,7 @@
     ></div>
     <div v-else id="transbox1"></div>
     <h1>{{ innerParams.nadpis }}</h1>
-
+ 
     <AbecedniSeznam
       v-if="
         (innerParams.stranka === 'pomnicky' ||
@@ -26,8 +26,7 @@
       v-bind:stranka="innerParams.stranka"
       id="abecedniSeznam"
     />
-    <!-- responsive: menuUkazat || seznamUkazat, -->
-
+    
     <div
       v-if="innerWidth > 600 || (innerWidth <= 600 && !menuUkazat)"
       v-bind:class="{
@@ -108,7 +107,7 @@
                 pomnicekMenu: true,
               }"
             >
-              {{ kategorie.nazev }}
+              {{ kategorie.nazev }} ({{kategorie.pocet}})
             </div>
           </router-link>
         </div>
@@ -205,8 +204,11 @@
         seznamUkazat: true,
         innerWidth: window.innerWidth,
         menuColumn: false,
+       
       };
     },
+
+    
 
     methods: {
       vyfiltrujPomnicek(id) {
@@ -292,8 +294,9 @@
         );
       }
 
+     
       this.seradClanky();
-
+     
       this.vybraneId = this.$route.params.kategorie;
       if (this.clankyPodKategorie.length === 0) {
         this.clankyPodKategorie = null;

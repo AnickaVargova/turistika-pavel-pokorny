@@ -1,9 +1,9 @@
 <template>
-
-  <Sablona v-bind:params="params" v-bind:paramsKrize="paramsKrize"/>
+  <Sablona v-bind:params="params" v-bind:paramsKrize="paramsKrize" />
 </template>
 
 <script>
+  import vsechnyClanky from "./../components/clanky.js";
   import Sablona from "./../components/Sablona.vue";
   export default {
     components: {
@@ -12,40 +12,38 @@
 
     data() {
       return {
-        params:{
-        nadpis: "Pomníčky",
-        uvodniText:
-         '',
+        clanky: vsechnyClanky.data,
+        params: {
+          nadpis: "Pomníčky",
+          uvodniText: "",
 
-        kategoriePomnicky: [
-          { id: 1, nazev: "Lesnický slavín" },
-          { id: 2, nazev: "Dopravní tragédie" },
-          { id: 3, nazev: "Letecké tragédie" },
-          { id: 4, nazev: "Napoleonské" },
-          { id: 5, nazev: "Válečné" },
-          { id: 6, nazev: "Tragédie bleskem" },
-          { id: 7, nazev: "Lesnické a dřevařské" },
-          { id: 8, nazev: "Lovecké a pytlácké" },
-          { id: 9, nazev: "Ostatní tragédie" },
-          { id: 10, nazev: "Sochy v přírodě" },
-          { id: 11, nazev: "Literární" },
-          { id: 12, nazev: "Jeskyňářské" },
-          { id: 13, nazev: "Trampské objekty" },
-          { id: 14, nazev: "Lichtenštejnské" },
-          { id: 15, nazev: "Církevní" },
-          { id: 16, nazev: "Jiné nezařaditelné" },
-          { id: 17, nazev: "Zaniklé" },
-        ],
-        stranka: "pomnicky", 
-        detail: true,
-        background: "pozadiPomnicky.jpg",
-        backgroundDescription:"Pozadí",
-      
+          kategoriePomnicky: [
+            { id: 1, nazev: "Lesnický slavín" },
+            { id: 2, nazev: "Dopravní tragédie" },
+            { id: 3, nazev: "Letecké tragédie" },
+            { id: 4, nazev: "Napoleonské" },
+            { id: 5, nazev: "Válečné" },
+            { id: 6, nazev: "Tragédie bleskem" },
+            { id: 7, nazev: "Lesnické a dřevařské" },
+            { id: 8, nazev: "Lovecké a pytlácké" },
+            { id: 9, nazev: "Ostatní tragédie" },
+            { id: 10, nazev: "Sochy v přírodě" },
+            { id: 11, nazev: "Literární" },
+            { id: 12, nazev: "Jeskyňářské" },
+            { id: 13, nazev: "Trampské objekty" },
+            { id: 14, nazev: "Lichtenštejnské" },
+            { id: 15, nazev: "Církevní" },
+            { id: 16, nazev: "Jiné nezařaditelné" },
+            { id: 17, nazev: "Zaniklé" },
+          ],
+          stranka: "pomnicky",
+          detail: true,
+          background: "pozadiPomnicky.jpg",
+          backgroundDescription: "Pozadí",
         },
-         paramsKrize: {
+        paramsKrize: {
           nadpis: "Smírčí kříže",
           uvodniText: "",
-           
 
           kategoriePomnicky: [
             { id: 1, nazev: "V Brně" },
@@ -61,6 +59,17 @@
         },
       };
     },
+    created(){
+      for(let kategorie of this.params.kategoriePomnicky){
+        kategorie.pocet = this.clanky.filter(clanek=>clanek.podkategorie===kategorie.id).length;
+       
+      }
+      for(let kategorie of this.paramsKrize.kategoriePomnicky){
+        kategorie.pocet = this.clanky.filter(clanek=>clanek.podkategorie===kategorie.id).length;
+       
+      }
+      
+    }
   };
 </script>
 

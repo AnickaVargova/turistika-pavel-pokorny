@@ -5,7 +5,7 @@
 
 <script>
   import Sablona from "./../components/Sablona.vue";
-
+  import vsechnyClanky from "./../components/clanky.js";
   export default {
     components: {
       Sablona: Sablona,
@@ -14,6 +14,7 @@
 
     data() {
       return {
+        clanky: vsechnyClanky.data,
         params: {
           nadpis: "Smírčí kříže",
           uvodniText: [
@@ -28,11 +29,11 @@
 
           // /skok na: http://smircikrize.euweb.cz/index.html /
           kategoriePomnicky: [
-            { id: 1, nazev: "V Brně" },
-            { id: 2, nazev: "Na sever" },
-            { id: 3, nazev: "Na východ" },
-            { id: 4, nazev: "Na jih" },
-            { id: 5, nazev: "Na západ" },
+            { id: 1, nazev: "V Brně", pocet: undefined },
+            { id: 2, nazev: "Na sever", pocet: undefined },
+            { id: 3, nazev: "Na východ", pocet: undefined },
+            { id: 4, nazev: "Na jih", pocet: undefined },
+            { id: 5, nazev: "Na západ", pocet: undefined },
           ],
           stranka: "smircikrize",
           background: "pozadiKapky.jpg",
@@ -42,6 +43,13 @@
         },
       };
     },
+
+    created(){
+      for(let kategorie of this.params.kategoriePomnicky){
+        kategorie.pocet = this.clanky.filter(clanek=>clanek.podkategorie===kategorie.id).length;
+       
+      }
+    }
 
   };
 </script>
