@@ -1929,7 +1929,7 @@ export default {
       povest: "    ",
       odkazy: [
         {
-          nazev: "Památkový karalog  ",
+          nazev: "Památkový katalog  ",
           adresa:
             " https://www.pamatkovykatalog.cz/pametni-krizovy-kamen-1261951 ",
         },
@@ -2233,7 +2233,7 @@ export default {
       obec: "  Drásov  ",
       cislo: " 2023   ",
       kdeSeNaleza: "  ve zdivu kostelní věže asi 10 metrů nad zemí   ",
-      popis: "   orámovaný latinský kříž ",
+      popis: "   orámovaný maltézský kříž na žerdi' ",
       napis: "     ",
       povest: "    ",
       odkazy: [
@@ -2264,7 +2264,7 @@ export default {
       kdeSeNaleza:
         "  V části obce u silnice na Sobotovice, zazděn v cihlové zahradní zdi.  ",
       popis:
-        " Kamenná deska vysoká 1,1 metru. Z ní vystupuje nízký reliéf latinského kříže. Horní část desky se zdá být odlámána.   ",
+        " Kamenná deska vysoká 1,1 metru.  Do ní je zahlouben reliéf latinského kříže. Horní část desky se zdá být odlámána.   ",
       napis: "     ",
       povest:
         "  Měl tu být údajně pochován francouzský voják z napoleonských válek.  ",
@@ -2415,7 +2415,7 @@ export default {
       jmeno: "   Oslavany 2   ",
       podkategorie: 5,
       okres: " Brno - venkov  ",
-      obec: "    ",
+      obec: " Oslavany  ",
       cislo: "  1775  ",
       kdeSeNaleza: " na SZ od Oslavan u lesní cesty.   ",
       popis:
