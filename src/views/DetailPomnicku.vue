@@ -61,11 +61,11 @@
     },
     created(){
       for(let kategorie of this.params.kategoriePomnicky){
-        kategorie.pocet = this.clanky.filter(clanek=>clanek.podkategorie===kategorie.id).length;
+        kategorie.pocet = this.clanky.filter(clanek=> clanek.kategorie === "pomnicky" &&clanek.podkategorie===kategorie.id).length;
        
       }
       for(let kategorie of this.paramsKrize.kategoriePomnicky){
-        kategorie.pocet = this.clanky.filter(clanek=>clanek.podkategorie===kategorie.id).length;
+        kategorie.pocet = this.clanky.filter(clanek=> clanek.kategorie === "smircikrize" &&clanek.podkategorie===kategorie.id).length;
        
       }
       
