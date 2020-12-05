@@ -2545,7 +2545,7 @@ export default {
       okres: " Brno - venkov  ",
       obec: "  Sokolnice  ",
       cislo: "  0775  ",
-      kdeSeNaleza: "  na JZ okraji obce obce u bývalého tvrziště Stráž ",
+      kdeSeNaleza: "  na JZ okraji obce u bývalého tvrziště Stráž ",
       popis:
         " Mohutný kamenný kříž s rozšířenou patou, vysoký 1,6 a široký 0,9 metru. Na Moravě zjevem ojedinělý, častější v Západních Čechách.   ",
       napis:
