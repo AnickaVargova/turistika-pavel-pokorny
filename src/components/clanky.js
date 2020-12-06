@@ -80,11 +80,11 @@ export default {
       obec: "Jedovnice",
       jmeno: "Doležal, Bohumil",
       nazev: "Pomník Bohumila Doležala",
-      kdyVznikl: "slavnostní odhalení 14.10.2011 ke 100. výročí narození.",
+      kdyVznikl: "Slavnostní odhalení 14.10.2011 ke 100. výročí narození.",
       popisCesty:
         "2300 metrů SSV od kaple v Bukovině. Na rozlehlé plošině Proklestu ukřižovatky lesních silnic a cest. Kolem vede zeleně značená cesta.",
       popis:
-        "Výpravný pomník vysoký 2 metry dala postavit Vysoká škola zemědělská. Z trojuhelníkového betonového soklu vztyčeny tři leštěné žulové desky, završené trojbokýmjehlanem. Nápisy na všech třech deskách.",
+        "Výpravný pomník vysoký 2 metry dala postavit Vysoká škola zemědělská. Z trojúhelníkového betonového soklu vztyčeny tři leštěné žulové desky, završené trojbokým jehlanem. Nápisy na všech třech deskách.",
       napis:
         "PROF. DR. TECHN. ING. // BOHUMIL DOLEŽAL // DRSC., DR.H.C. // 2.3.1911 3.8.2000// Další texty na zbylých dvou deskách.",
       odkazy: [
@@ -138,7 +138,7 @@ export default {
       ],
 
       pozn:
-        "Bedřich Soffer (1898 – 1928) byl známý brněnský sportovec a automobilový závodník, majitel autoškoly a tovární jezdec Zbrojovky. Neštěstí se stalo při zkušební jízdě s novým speciálním šestiválcem Z 6V s maximální rychlostí 180 km za hod. Auto jelo směrem od Vyškova, ve vysoké rychlosti dostalo smyk, vyletělo ze silnice a několikrát se převrátilo. Řidič si volantem poranil hrudník, vyletěl z vozu a dopadl hlavou na kámen 11 metrů daleko. Zemřel při převozu do nemocnice. Spolujezdec, 24 letý mechanik, přežil s těžkým zraněním. Pomník zbudoval brněnský Automotoklub a je asi nejstarším pomníkem autohavárii v brněnském okolí. Dodnes se u něj pořádají vzpomínkové akce s veterány. ",
+        "Bedřich Soffer (1898 – 1928) byl známý brněnský sportovec a automobilový závodník, majitel autoškoly a tovární jezdec Zbrojovky. Neštěstí se stalo při zkušební jízdě s novým speciálním šestiválcem Z 6V s maximální rychlostí 180 km za hod. Auto jelo směrem od Vyškova, ve vysoké rychlosti dostalo smyk, vyletělo ze silnice a několikrát se převrátilo. Řidič si volantem poranil hrudník, vyletěl z vozu a dopadl hlavou na kámen 11 metrů daleko. Zemřel při převozu do nemocnice. Spolujezdec, 24letý mechanik, přežil s těžkým zraněním. Pomník zbudoval brněnský Automotoklub a je asi nejstarším pomníkem autohavárie v brněnském okolí. Dodnes se u něj pořádají vzpomínkové akce s veterány. ",
       naposledObnoveno: "3.11..2020",
       odkazMapa: "https://frame.mapy.cz/s/jebesufefa",
       latitude: 49.1852547,
@@ -166,7 +166,7 @@ export default {
       obec: "Březské",
       jmeno: "Nešpor, František",
       nazev: "Pomníček zootechnika Nešpora",
-      kdyVznikl: "po roce 1975",
+      kdyVznikl: "Po 1975.",
       popisCesty:
         "1900 metrů SZ od kostela ve Velké Bíteši. U silnice z Bíteše do Vlkova, poblíž rybníka Skříňka.",
       popis:
@@ -273,7 +273,7 @@ export default {
       ],
 
       pozn:
-        "Mladý 24 letý řidič dodávky nedal přednost autu na hlavní silnici. V něm se vracela z výletu čtyřčlenná rodina Pavlišových. Prudký náraz vymrštil oba vozy daleko do pole. Matka s tříletou dcerou zemřely na místě, šestiletý syn zemřel po převozu do nemocnice. Otec těžce raněn s doživotními následky. Za nepozornost dostal řidič čtyřletý trest a povinnost uhradit 13 milionů Kč jako újmu rodině.",
+        "Mladý 24letý řidič dodávky nedal přednost autu na hlavní silnici. V něm se vracela z výletu čtyřčlenná rodina Pavlišových. Prudký náraz vymrštil oba vozy daleko do pole. Matka s tříletou dcerou zemřely na místě, šestiletý syn zemřel po převozu do nemocnice. Otec těžce raněn s doživotními následky. Za nepozornost dostal řidič čtyřletý trest a povinnost uhradit 13 milionů Kč jako újmu rodině.",
       naposledObnoveno: "3.11..2020",
       odkazMapa: "https://frame.mapy.cz/s/relenemeso",
       latitude: 49.1850794,
@@ -357,7 +357,7 @@ export default {
         },
       ],
       pozn:
-        "Při přeletu z Plzně do Malacek se letoun Avia S199 “Mezek” dostal do oblasti se sníženou viditelností. Klesl pod úroveň oblačnosti až nad stromy. Pilot  prudce zvýšil výkon motoru, letoun vlivem gyroskopického efektu vrtule se překlopil a narazil do země rychlostí 300 km/hod.  ",
+        "Při přeletu z Plzně do Malacek se letoun Avia S199 “Mezek” dostal do oblasti se sníženou viditelností. Klesl pod úroveň oblačnosti až nad stromy. Pilot  prudce zvýšil výkon motoru, letoun se vlivem gyroskopického efektu vrtule překlopil a narazil do země rychlostí 300 km/hod.  ",
       naposledObnoveno: "4.11.2020",
       souradnice: "49.2565350N, 16.4005575E",
       kodMapa:
@@ -436,7 +436,7 @@ export default {
       popisCesty:
         " 300 m Z od středu Jiříkovic na okraji obce u silnice na Šlapanice.  ",
       popis:
-        "Umělý pahorek, do něj zasazen buk. Pod stromem nepravidelná obdelníková kamenná deska, zasazená do soklu.",
+        "Umělý pahorek, do něj zasazen buk. Pod stromem nepravidelná obdélníková kamenná deska, zasazená do soklu.",
 
       napis:
         " STROM  PŘÁTELSTVÍ // VYSAZEN K 200. VÝROČÍ // BITVY U SLAVKOVA //  ",
@@ -469,8 +469,8 @@ export default {
       druh: " Napoleonské  ",
       okres: " Brno-venkov ",
       obec: " Prace ",
-      jmeno: "Bitva v Prace",
-      nazev: " Pomník bitvě v Prace ",
+      jmeno: "Bitva v obci Prace",
+      nazev: " Pomník bitvě v obci Prace ",
       kdyVznikl: " 2005 ",
       popisCesty: " Na jižním okraji, hned za obcí, u silnice k Mohyle míru.  ",
       popis:
@@ -524,7 +524,7 @@ export default {
       popis:
         "Pískovcový pomník vysoký 2,5 m, nahoře s křížkem a bílou deskou s reliefem tří dětí, pod ní bílá deska s texty.",
       napis:
-        " VĚNOVÁNO // KE CTI A CHVÁLE BOŽÍ // A NA PAMĚT  ZAHYNULÝCH  DĚTÍ //  KARLA  KOUSALÍKA // 13.10.1940 //  JOSEFA  MACHÁČKA  // 20.1.1941 // JOSEFA  KŘÍŽE // 16.9.1942 // KTEŘÍ  BYLI  USMRCENI  // GRANÁTEM 21.5.1946 // níže   L.P. 1948 ",
+        " VĚNOVÁNO // KE CTI A CHVÁLE BOŽÍ // A NA PAMĚŤ  ZAHYNULÝCH  DĚTÍ //  KARLA  KOUSALÍKA // 13.10.1940 //  JOSEFA  MACHÁČKA  // 20.1.1941 // JOSEFA  KŘÍŽE // 16.9.1942 // KTEŘÍ  BYLI  USMRCENI  // GRANÁTEM 21.5.1946 // níže   L.P. 1948 ",
       odkazy: [
         {
           nazev: " Pietní místa ",
@@ -564,7 +564,7 @@ export default {
       nazev: "Památka obětem prusko-rakouské války  ",
       kdyVznikl: "  ",
       popisCesty:
-        " leží 2,3 km SSV od kostela ve Velké Bíteši v údolí Bílého potoka při lesní cestě asi 400 m SZ od  velkého silničního mostu.  ",
+        " Leží 2,3 km SSV od kostela ve Velké Bíteši v údolí Bílého potoka při lesní cestě asi 400 m SZ od  velkého silničního mostu.  ",
       popis:
         "Výrazný pomník vysoký 2 metry tvoří tři kamenné hranoly nahoře zkosené, z přední strany v neopracovaném stavu. Na čtvrtém nižším hranolu sepnuté ruce z patinované sádry drží látku. Do ní vyryt nápis.",
       napis: " OBĚTEM // PRUSKO //  -  // RAKOUSKÉ // VÁLKY //  1866  ",
