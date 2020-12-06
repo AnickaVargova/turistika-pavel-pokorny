@@ -2637,5 +2637,193 @@ export default {
 
       proMe: "  2000/393  24-431-34  15---035   20---061  ",
     },
+    {
+      id: 73,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "   Veverská Bítýška   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: " Veverská Bítýška   ",
+      cislo: " 0836R   ",
+      kdeSeNaleza: "  Na poli u silnice z Bítýšky do Hvozdce.  ",
+      popis:
+        "  Kamenná deska vysoká 1,1 metru je nahoře zaoblená. Z ní vystupuje orámování a kříž s rozšiřující se patou  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Veverska_Bityska.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/veverskabityska.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 65  " },
+      ],
+      pozn:
+        "  Kříž byl velmi poškozen zvětráváním kamene. Kolem roku 2010 byl nahrazen kopií.   ",
+      naposledObnoveno: " 6.12.2020 ",
+      galerie: [
+        { fotka: "bityska1.jpg", datum: "leden 2012" },
+        { fotka: "bityska2.jpg", datum: "leden 2012" },
+      ],
+
+      proMe: "  VI/198  24-323-16  12---011   ",
+    },
+    {
+      id: 74,
+      kategorie: "smircikrize",
+      oblast: "  Na západ  ",
+      jmeno: "  Zbraslav 2    ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: " Zbraslav   ",
+      cislo: " 1580   ",
+      kdeSeNaleza:
+        "  Do roku 2006 se nacházel na SZ od Zbraslavi, u silnice ze Zastávky do Bíteše, 400 metrů před Křečkovou hájenkou. Na popud starosty Zbraslavi byl přemístěn do obce.  ",
+      popis:
+        "  Kamenná deska vysoká 0,6 metru, z J strany vystupuje slabě reliéf latinského kříže, který má na břevnu omšelý letopočet.  ",
+      napis: "  1596   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Zbraslav.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: "  http://www.smircikrize.cz/zbraslav.htm ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 66  " },
+      ],
+
+      vnitrniOdkaz: 75,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 5,
+      odkazKde: "pozn",
+      predOdkazem: "Kámen byl nahrazen replikou ",
+      textOdkazu: "Zbraslav 3",
+      zaOdkazem: ".",
+
+      naposledObnoveno: " 6.12.2020 ",
+      galerie: null,
+
+      proMe: "  XV/531  24-314-22     ",
+    },
+    {
+      id: 75,
+      kategorie: "smircikrize",
+      oblast: "  Na západ  ",
+      jmeno: "  Zbraslav 3    ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: " Zbraslav   ",
+      cislo: " 1580R   ",
+      kdeSeNaleza:
+        "   Na SZ od Zbraslavi, u silnice ze Zastávky do Bíteše , 400 metrů před Křečkovou hájenkou, v lese na SV straně silnice. Těžko se hledá. ",
+      popis:
+        "   Bytelná kamenná deska vysoká 0,7 metru, z J strany vystupuje reliéf latinského kříže, který má na břevnu letopočet.  ",
+      napis: "  1596   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Zbraslav.html  ",
+        },
+        { nazev: "   ", adresa: "   " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 265.  ",
+        },
+      ],
+
+      vnitrniOdkaz: 74,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 5,
+      odkazKde: "pozn",
+      predOdkazem: "Do roku 2006 na tomto místě stál originál kamene ",
+      textOdkazu: "Zbraslav 2",
+      zaOdkazem: " , později nahrazen touto replikou. ",
+
+      naposledObnoveno: " 6.12.2020 ",
+      galerie: [
+        { fotka: "zbraslav3-1.jpg", datum: "červen 2020" },
+        { fotka: "zbraslav3-2.jpg", datum: "červen 2020" },
+      ],
+
+      proMe: "   XV/531  24-314-22  20---062   ",
+    },
+
+    {
+      id: 76,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "   Zakřany   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "  Zakřany  ",
+      cislo: "  1301  ",
+      kdeSeNaleza: "  na cestě ze Zakřan do Vysokých Popovic, blízko vsi.  ",
+      popis:
+        " Oválná kamenná plotna 1,1 x 0,9 m leží opřena o svah. Na přední straně má hluboce vyryt  jednoduchý řecký kříž.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Zakrany.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/zakrany.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 65  " },
+      ],
+      pozn:
+        "  Před třiceti lety ležel bez povšimnutí v křoví u cesty, nyní je místo upraveno důstojněji.   ",
+      naposledObnoveno: " 6.12.2020 ",
+      galerie: [
+        { fotka: "zakrany1.jpg", datum: "březen 2013" },
+        { fotka: "zakrany2.jpg", datum: "březen 2013" },
+      ],
+
+      proMe: "  VII/224  24-332-3   13---031   ",
+    },
+    {
+      id: 77,
+      kategorie: "smircikrize",
+      oblast: "  V Brně  ",
+      jmeno: "  Brno -  střed    ",
+      podkategorie: 1,
+      okres: " Brno - město  ",
+      obec: " Brno - střed   ",
+      cislo: "  ----  ",
+      kdeSeNaleza:
+        "  Na ústředním hřbitově na Vídeňské ulici, skupina 30A na kraji.  ",
+      popis:
+        "  Mohutný kříž s rozšiřující se nohou. Novodobý, z tohoto století, vznikl kolem roku 2010.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        { nazev: "   ", adresa: "   " },
+        { nazev: "   ", adresa: "   " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Hřbitovy jsou plné kamenných křížů, smírčímu kříži se podobá asi jen tento. Připomíná ducha nebo anděla na hrobě.   ",
+      naposledObnoveno: " 6.12.2020 ",
+      galerie: [
+        { fotka: "stred1.jpg", datum: "červen 2020" },
+        { fotka: "stred2.jpg", datum: "červen 2020" },
+      ],
+
+      proMe: " hřbitovy1/30A    ",
+    },
   ],
 };
