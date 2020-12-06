@@ -7,7 +7,7 @@
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
-      <h2>Jediné, co funguje, jak má, je tlačítko MOJE RAJČE.</h2>
+      <h2>Postupně doplňujeme pomníčky, smírčí kříže, cesty a vyprávění.</h2>
       <p>
         Naše webové stránky se zabývají regionální vlastivědou v Brně a okolí,
         turistikou a cestováním po republice i po Evropě. Popisují pomníčky,
