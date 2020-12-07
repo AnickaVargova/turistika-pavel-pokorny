@@ -113,6 +113,7 @@
         <tr>
           <td>Nápis:</td>
           <td>{{ clanek.napis }}</td>
+          <td v-else>{{ clanek.napis }}</td>
         </tr>
 
         <tr v-if="clanek.kategorie === 'smircikrize'">

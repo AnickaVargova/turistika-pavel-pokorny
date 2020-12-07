@@ -2825,5 +2825,171 @@ export default {
 
       proMe: " hřbitovy1/30A    ",
     },
+    {
+      id: 78,
+      kategorie: "smircikrize",
+      oblast: "  Na východ  ",
+      jmeno: "  Černčín 1    ",
+      podkategorie: 3,
+      okres: " Vyškov  ",
+      obec: " Bučovice - Černčín   ",
+      cislo: "  0648  ",
+      kdeSeNaleza: " Na návsi před bývalou školou.   ",
+      popis:
+        "  Obdélníkový, pískovcová deska vysoká 0,8 metru je silně zvětralá. Stojí na betonovém podstavci, krytá jednoduchou stříškou. Z plochy vystupuje latinský kříž. Písmo, které pokrývalo plochu desky, je dnes zcela nečitelné.  ",
+      napis:
+        "  Naštěstí před lety někdo nápis přečetl, zapsal a tím ho uchoval. Doslovný text je na fotografii pomníku Černčín 2. Píše se tu, že v říjnu 1606 byl zabit Pavel Vašina z Vícemilic.   ",
+
+      vnitrniOdkaz: 79,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 3,
+      odkazKde: "napis",
+      predOdkazem:
+        "Naštěstí před lety někdo nápis přečetl, zapsal a tím ho uchoval. Doslovný text je na fotografii pomníku ",
+      textOdkazu: "Černčín 2",
+      zaOdkazem:
+        ". Píše se tu, že v říjnu 1606 byl zabit Pavel Vašina z Vícemilic.",
+
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Vyskov/Cerncin.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/cerncin.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 426  " },
+      ],
+      pozn: "  Kříž byl v roce 1930 přemístěn z původního stanoviště.  ",
+      naposledObnoveno: " 7.12.2020 ",
+      galerie: [
+        { fotka: "cerncin1-1.jpg", datum: "květen 2019" },
+        { fotka: "cerncin1-2.jpg", datum: "květen 2019" },
+      ],
+
+      proMe: "  XX/1011 ----  19---051   ",
+    },
+    {
+      id: 79,
+      kategorie: "smircikrize",
+      oblast: " Na  východ ",
+      jmeno: "  Černčín 2    ",
+      podkategorie: 3,
+      okres: "  Vyškov   ",
+      obec: "  Bučovice - Černčín  ",
+      cislo: "  ----  ",
+      kdeSeNaleza: "  VSV od Černčína na okraji přírodní rezervace Hašky.  ",
+      popis:
+        "  Novodobý pomník. Kamenná deska vysoká 1,2 metru, z jedné strany z ní vystupuje reliéf latinského kříže. Z druhé strany je letopočet a na leštěné žulové desce přepsán  text z původního kamene.  ",
+      napis:
+        "  Nahoře: deska s doslovným  nápisem, kde se píše, že v říjnu 1606 zde byl zabit Pavel Vašina, soused z Vícemilic. Viz foto.  Pod ní:  L. P.  2006 .  ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Vyskov/Cerncin.html  ",
+        },
+        { nazev: "   ", adresa: "   " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Je to volně zpracovaná kopie původního kříže Černčín 1 , kterou ke 400. výročí tragédie vyhotovil František Masařík z Černčína. Vzorně vyřešený problém, jak uchovat původní kámen a označit jeho polohu pro budoucnost.     ",
+
+      vnitrniOdkaz: 78,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 3,
+      odkazKde: "pozn",
+      predOdkazem: "Je to volně zpracovaná kopie původního kříže ",
+      textOdkazu: "Černčín 1",
+      zaOdkazem:
+        " , kterou ke 400. výročí tragédie vyhotovil František Masařík z Černčína. Vzorně vyřešený problém, jak uchovat původní kámen a označit jeho polohu pro budoucnost.",
+      naposledObnoveno: " 7.12.2020 ",
+      galerie: [
+        { fotka: "cerncin2-1.jpg", datum: "květen 2019" },
+        { fotka: "cerncin2-2.jpg", datum: "květen 2019" },
+        { fotka: "cerncin2-3.jpg", datum: "květen 2019" },
+      ],
+
+      proMe: "  XX/1012   ---   19---051   ",
+    },
+    {
+      id: 80,
+      kategorie: "smircikrize",
+      oblast: " Na jih  ",
+      jmeno: "  Loděnice    ",
+      podkategorie: 4,
+      okres: "  Brno - venkov  ",
+      obec: " Loděnice   ",
+      cislo: " 1935   ",
+      kdeSeNaleza:
+        " Na Z od Loděnice,  u silnice z Pravlova do Miroslavi, zapuštěn do meze.   ",
+      popis:
+        " Kamenná deska 0,9 x 0,7 metru, v úrovni země. Z plochy vstupuje reliéf latinského kříže.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Lodenice.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/lodenice.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 432  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 7.12.2020 ",
+      galerie: [{ fotka: "lodenice.jpg", datum: "září 2015" }],
+
+      proMe: "  XIX/873  ---   15---094   ",
+    },
+    {
+      id: 81,
+      kategorie: "smircikrize",
+      oblast: " Na jih  ",
+      jmeno: "  Nikolčice    ",
+      podkategorie: 4,
+      okres: "  Břeclav   ",
+      obec: "  Nikolčice   ",
+      cislo: " 1751   ",
+      kdeSeNaleza: " Pod Holým vrchem, blízko rozcestí značených cest.   ",
+      popis:
+        "  Patriarší  kříž, vysoký 1,4 metru, jehož horní břevna byla v minulosti ulomena. Obě strany kříže hustě popsány česky z jedné a německy z druhé strany. ",
+      napis:
+        "  přečetla Eva Nečasová v diplomové práci. Roku 1663 byl zde zabit hustopečský měšťan Konradt Schaller. Doslovný přepis je na fotografii.   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Breclav/Nikolcice.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/nikolcice.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 69  " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 267.  ",
+        },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 7.12.2020 ",
+      galerie: [
+        { fotka: "nikolcice1.jpg", datum: "březen 2018" },
+        { fotka: "nikolcice2.jpg", datum: "březen 2018" },
+        { fotka: "nikolcice3.jpg", datum: "březen 2018" },
+        { fotka: "nikolcice4.jpg", datum: "březen 2018" },
+      ],
+
+      proMe: "  XII/369    13---035   ",
+    },
   ],
 };
