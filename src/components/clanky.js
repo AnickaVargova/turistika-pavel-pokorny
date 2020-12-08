@@ -1731,6 +1731,10 @@ export default {
             " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=1048 ",
         },
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 51. " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 270.  ",
+        },
       ],
       pozn:
         "Kříž se za posledních 100 let vícekrát stěhoval. Původně stál někde na trase cesty z Brna na Jihlavu pod Červeným kopcem na dnešní ulici Vinohrady. Pak byl přemístěn spolu s kamenem 1281 na rozcestí polních cest, dnes křižovatka Vinohrady-Kamenice, kde vydržel do sedmdesátých let a nejméně 50 let zarůstal do země. Tehdy se budovala silnice Kamenice. Kameny překážely a byly přestěhovány do areálu stavěné fakultní nemocnice. Tady v průběhu let vystřídaly tři stanoviště, na tom posledním jsou od roku 2010. Při manipulacích se kámen rozlomil na dva kusy.  ",
@@ -1966,6 +1970,10 @@ export default {
           adresa: "http://www.smircikrize.cz/alexovice.htm  ",
         },
         { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 55.  " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 263.  ",
+        },
       ],
       pozn: "     ",
       naposledObnoveno: " 1.12.2020 ",
@@ -2493,6 +2501,10 @@ export default {
             " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Podoli.html  ",
         },
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 61  " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 262.  ",
+        },
       ],
       pozn: "  V roce 1893 stával u polní cesty z Podolí do Horákova.   ",
       naposledObnoveno: " 4.12.2020 ",
@@ -2836,7 +2848,7 @@ export default {
       cislo: "  0648  ",
       kdeSeNaleza: " Na návsi před bývalou školou.   ",
       popis:
-        "  Obdélníkový, pískovcová deska vysoká 0,8 metru je silně zvětralá. Stojí na betonovém podstavci, krytá jednoduchou stříškou. Z plochy vystupuje latinský kříž. Písmo, které pokrývalo plochu desky, je dnes zcela nečitelné.  ",
+        "  Obdélníková pískovcová deska vysoká 0,8 metru je silně zvětralá. Stojí na betonovém podstavci, krytá jednoduchou stříškou. Z plochy vystupuje latinský kříž. Písmo, které pokrývalo plochu desky, je dnes zcela nečitelné.  ",
       napis:
         "  Naštěstí před lety někdo nápis přečetl, zapsal a tím ho uchoval. Doslovný text je na fotografii pomníku Černčín 2. Píše se tu, že v říjnu 1606 byl zabit Pavel Vašina z Vícemilic.   ",
 
@@ -2990,6 +3002,36 @@ export default {
       ],
 
       proMe: "  XII/369    13---035   ",
+    },
+    {
+      id: 82,
+      kategorie: "smircikrize",
+      oblast: " Na východ   ",
+      jmeno: "  Archlebov    ",
+      podkategorie: 3,
+      okres: "   Hodonín  ",
+      obec: " Archlebov   ",
+      cislo: "  2523  ",
+      kdeSeNaleza: "  Na S od obce u kapličky.   ",
+      popis:
+        " Kamenný hranol vysoký 0,8 metru s ohlazenou přední stěnou. Do ní je vyryt klínový kříž.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Hodonin/Archlebov.html  ",
+        },
+      ],
+      pozn: "  O kříži se poprvé píše v roce 1930 (Vrbas).   ",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        { fotka: "archlebov1.jpg", datum: "říjen 2015" },
+        { fotka: "archlebov2.jpg", datum: "říjen 2015" },
+      ],
+
+      proMe: "  XIX/876  ----   15---105   ",
     },
   ],
 };
