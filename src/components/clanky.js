@@ -3033,5 +3033,99 @@ export default {
 
       proMe: "  XIX/876  ----   15---105   ",
     },
+    {
+      id: 83,
+      kategorie: "smircikrize",
+      oblast: " Na západ  ",
+      jmeno: "   Petrovice 2   ",
+      podkategorie: 5,
+      okres: "  Znojmo   ",
+      obec: "  Petrovice  ",
+      cislo: "  2164  ",
+      kdeSeNaleza:
+        "  Na návsi v Petrovicích, v kapličce pro něj v roce 2008  zbudované.  ",
+      popis:
+        " Pamětní jetelový kříž je pokrytý těžce čitelným německým textem. Noha kříže s letopočtem byla dodělána později.   ",
+      napis:
+        "   Přeložen do češtiny. Říká, že na tomto místě zmrzl ve velké zimě Wenczel Hain.  ",
+      povest:
+        " Údajně to měl být řezník  Ivančic, vykupoval po vsích zvířata na maso. Neštěstí se mohlo přihodit v půli 18. století.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Znojmo/Petrovice.html#1  ",
+        },
+      ],
+      pozn:
+        "  Kříž prý stál u staré cesty do Kadova. Při scelování pozemků odvezen do areálu družstva, kde zapadl do země. V roce 2004 byl vykopán, zrestaurován a postaven na čestné místo na návsi.   ",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        { fotka: "petrovice2-1.jpg", datum: "květen 2020" },
+        { fotka: "petrovice2-2.jpg", datum: "květen 2020" },
+        { fotka: "petrovice2-3.jpg", datum: "květen 2020" },
+      ],
+
+      proMe: "  XX/1070 ----   20---052   ",
+    },
+    {
+      id: 84,
+      kategorie: "smircikrize",
+      oblast: " Na západ  ",
+      jmeno: "  Moravský Krumlov    ",
+      podkategorie: 5,
+      okres: "  Znojmo   ",
+      obec: "  Moravský Krumlov  ",
+      cislo: "  1664  ",
+      kdeSeNaleza: "  V Zámecké ulici zazděn do zdi hotelu.  ",
+      popis:
+        " Oválný kámen vysoký 1,1 metru, v orámování vystupuje jetelový kříž na podstavci. Po obvodu oválu jsou dva řádky textu ve staré češtině.   ",
+      napis:
+        "    LETHA:I613:W NEDIELIPRZED:SWÁTV:MARZI:M…..  …..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR // KHANZLV:TENCZAS:RICHTÁRPRZISEZNY OD:CANA MAVRYCE:SINAFOLTINAVIRA:S...TEM:CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN. Převedeno do současné češtiny: v červenci 1613 byl zde zabit přísežný rychtář Jiří Hanzl.  ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: "  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Znojmo/Moravsky_Krumlov.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/moravskykrumlov.htm  ",
+        },
+        { nazev: "  " },
+      ],
+      pozn: "  Spodní část kamene byla doplněna.   ",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [{ fotka: "krumlov1.jpg", datum: "květen 2020" }],
+
+      proMe: "  XX/1071  24-334-35  20---052   ",
+    },
+    {
+      id: 85,
+      kategorie: 'smircikrize',  
+      oblast: ' Na západ   ',
+      jmeno: '  Kladeruby nad Oslavou    ',
+      podkategorie:   5,
+      okres: '  Třebíč   ',
+      obec: '  Kladeruby nad Oslavou  ',
+      cislo: '  1801  ',
+      kdeSeNaleza:'  Na Z od obce, 200 metrů na J od silnice k Sedlecké myslivně. Těžko se hledá.  ', 
+      popis:'  Torzo smírčího kříže je vysoké 0,5 metru, zachována jen část pod břevny.  ',      
+      napis: '     ',
+      povest: '    ',            
+      odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Trebic/Kladeruby_nad_Oslavou.html '},  {nazev: '  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 403  '} ],
+      pozn: '     ',
+      naposledObnoveno : ' 9.12.2020 ',
+      galerie: 
+      [ 
+      {fotka: 'kladeruby1.jpg' , datum: 'duben 2018'},
+      {fotka: 'kladeruby2.jpg' , datum: 'duben 2018'},
+      ],
+      
+      
+      proMe:'     ',     
+      },
+      
   ],
 };
