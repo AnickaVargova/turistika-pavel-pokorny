@@ -112,7 +112,9 @@
         </tr>
         <tr>
           <td>Nápis:</td>
-          <td>{{ clanek.napis }}</td>
+           <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'napis'">
+            <Klikaci v-bind:clanek="clanek" />
+          </td>
           <td v-else>{{ clanek.napis }}</td>
         </tr>
 
