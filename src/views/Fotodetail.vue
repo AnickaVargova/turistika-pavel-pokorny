@@ -5,8 +5,18 @@
         v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
         v-bind:alt="vybranaFotka.popisek"
       />
-      <figcaption v-if="vybranaFotka.datum">({{ vybranaFotka.datum }})</figcaption>
-       <figcaption v-else-if="vybranaFotka.popisek">{{ vybranaFotka.popisek }}</figcaption>
+      <figcaption v-if="vybranaFotka.datum && !vybranaFotka.poznamka">
+        ({{ vybranaFotka.datum }})
+      </figcaption>
+      <figcaption v-else-if="vybranaFotka.datum && vybranaFotka.poznamka">
+        ({{ vybranaFotka.datum }})
+        <p v-bind:style="{ fontStyle: 'normal' }">{{
+          vybranaFotka.poznamka
+        }}</p>
+      </figcaption>
+      <figcaption v-else-if="vybranaFotka.popisek">
+        {{ vybranaFotka.popisek }}
+      </figcaption>
 
       <a @click="$router.go(-1)"
         ><button class="pomnicekKategorie">Zpět</button></a
@@ -47,7 +57,6 @@
             if (item.fotka == this.$route.params.id) {
               this.vybranaFotka.fotka = item.fotka;
               this.vybranaFotka.popisek = item.popisek;
-              
             }
           }
         } else {
@@ -74,7 +83,6 @@
 
     created() {
       this.detailFotky();
-    
     },
   };
 </script>
@@ -104,6 +112,7 @@
   #fotodetail figcaption {
     font-size: 15px;
     margin-top: 20px;
+   
   }
 
   #fotodetail button {

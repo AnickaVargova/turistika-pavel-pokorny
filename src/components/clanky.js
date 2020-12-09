@@ -3047,7 +3047,7 @@ export default {
       popis:
         " Pamětní jetelový kříž je pokrytý těžce čitelným německým textem. Noha kříže s letopočtem byla dodělána později.   ",
       napis:
-        "   Přeložen do češtiny. Říká, že na tomto místě zmrzl ve velké zimě Wenczel Hain.  ",
+        "     Přeložen do češtiny říká, že na tomto místě zmrzl ve velké zimě Wenczel Hain.  ",
       povest:
         " Údajně to měl být řezník  Ivančic, vykupoval po vsích zvířata na maso. Neštěstí se mohlo přihodit v půli 18. století.   ",
       odkazy: [
@@ -3085,7 +3085,7 @@ export default {
       povest: "    ",
       odkazy: [
         {
-          nazev: "  ",
+          nazev: "euweb",
           adresa:
             " http://smircikrize.euweb.cz/Ceska_Republika/Znojmo/Moravsky_Krumlov.html  ",
         },
@@ -3103,29 +3103,228 @@ export default {
     },
     {
       id: 85,
-      kategorie: 'smircikrize',  
-      oblast: ' Na západ   ',
-      jmeno: '  Kladeruby nad Oslavou    ',
-      podkategorie:   5,
-      okres: '  Třebíč   ',
-      obec: '  Kladeruby nad Oslavou  ',
-      cislo: '  1801  ',
-      kdeSeNaleza:'  Na Z od obce, 200 metrů na J od silnice k Sedlecké myslivně. Těžko se hledá.  ', 
-      popis:'  Torzo smírčího kříže je vysoké 0,5 metru, zachována jen část pod břevny.  ',      
-      napis: '     ',
-      povest: '    ',            
-      odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Trebic/Kladeruby_nad_Oslavou.html '},  {nazev: '  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 403  '} ],
-      pozn: '     ',
-      naposledObnoveno : ' 9.12.2020 ',
-      galerie: 
-      [ 
-      {fotka: 'kladeruby1.jpg' , datum: 'duben 2018'},
-      {fotka: 'kladeruby2.jpg' , datum: 'duben 2018'},
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "  Kladeruby nad Oslavou    ",
+      podkategorie: 5,
+      okres: "  Třebíč   ",
+      obec: "  Kladeruby nad Oslavou  ",
+      cislo: "  1801  ",
+      kdeSeNaleza:
+        "  Na Z od obce, 200 metrů na J od silnice k Sedlecké myslivně. Těžko se hledá.  ",
+      popis:
+        "  Torzo smírčího kříže je vysoké 0,5 metru, zachována jen část pod břevny.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Trebic/Kladeruby_nad_Oslavou.html ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 403  " },
       ],
-      
-      
-      proMe:'     ',     
-      },
-      
+      pozn: "     ",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        { fotka: "kladeruby1.jpg", datum: "duben 2018" },
+        { fotka: "kladeruby2.jpg", datum: "duben 2018" },
+      ],
+
+      proMe: "     ",
+    },
+    {
+      id: 86,
+      kategorie: "smircikrize",
+      oblast: " Na západ   ",
+      jmeno: "  Naloučany 1    ",
+      podkategorie: 5,
+      okres: "  Třebíč   ",
+      obec: " Naloučany   ",
+      cislo: " 0688   ",
+      kdeSeNaleza: "  Uprostřed vsi u kostela.  ",
+      popis:
+        "  Silná obdélníková deska vysoká 0,6 metru, část je ponořena do země. Z obou stran vystupuje výrazný reliéf kříže.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Trebic/Naloucany.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/naloucany.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 406  " },
+      ],
+      pozn: "  Ke kamenu Naloučany 2 je odtud  50 metrů.   ",
+
+      vnitrniOdkaz: 87,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 5,
+      odkazKde: "pozn",
+      predOdkazem: "Ke kamenu ",
+      textOdkazu: "Naloučany 2",
+      zaOdkazem: " je odtud  50 metrů.",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        { fotka: "naloucany1-1.jpg", datum: "srpen 2012" },
+        { fotka: "naloucany1-2.jpg", datum: "srpen 2012" },
+      ],
+
+      proMe: "  XVIII/745  24-313-2  12---08cesty   ",
+    },
+    {
+      id: 87,
+      kategorie: "smircikrize",
+      oblast: " Na západ  ",
+      jmeno: "  Naloučany 2    ",
+      podkategorie: 5,
+      okres: "  Třebíč   ",
+      obec: " Naloučany   ",
+      cislo: "  0689  ",
+      kdeSeNaleza: "  Na návsi, u silnice do Náměště, v opěrné zdi.  ",
+      popis:
+        "  Obdélníková deska vysoká 0,6 m a z ní vystupuje latinský kříž. ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Trebic/Naloucany.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/naloucany.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 406  " },
+      ],
+      pozn: "  Kámen Naloučany 1 je vzdálen 50 metrů.   ",
+
+      vnitrniOdkaz: 86,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 5,
+      odkazKde: "pozn",
+      predOdkazem: "Kámen ",
+      textOdkazu: "Naloučany 1",
+      zaOdkazem: " je vzdálen 50 metrů.",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        { fotka: "naloucany2-1.jpg", datum: "srpen 2012" },
+        { fotka: "naloucany2-2.jpg", datum: "srpen 2012" },
+      ],
+
+      proMe: "  XVIII/746  24-313-2  12---08cesty   ",
+    },
+
+    {
+      id: 88,
+      kategorie: "smircikrize",
+      oblast: " Na západ ",
+      jmeno: "  Košíkov  1    ",
+      podkategorie: 5,
+      okres: "  Žďár nad Sázavou   ",
+      obec: "  Velká Bíteš - Košíkov  ",
+      cislo: " 1651   ",
+      kdeSeNaleza:
+        "  U kostela na hřbitově, dva kameny leží vedle sebe na zemi. ",
+      popis:
+        " Levý, delší kámen je dlouhý 2 metry, rozbitý na tři kusy. Je na něm relief křížkového kříže, jehož pata je rozšířená.   ",
+      napis: "     ",
+      povest:
+        " Pod kameny jsou pochovány “klečanské panny”, jeptišky z Oslavan, které bydlely v Klečanském dvorci.   ",
+      odkazy: [
+        {
+          nazev: "  euweb ",
+          adresa:
+            "  http://smircikrize.euweb.cz/Ceska_Republika/Zdar_nad_Sazavou/Kosikov.html#3 ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/kosikov.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 436  " },
+      ],
+      pozn:
+        "  Vedle něho leží kámen Košíkov 2. Oba kameny se našly při opravě hřbitovní zdi a byly ponechány na místě.  Slouží jako schůdek. ",
+      vnitrniOdkaz: 89,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 5,
+      odkazKde: "pozn",
+      predOdkazem: "Vedle něho leží kámen ",
+      textOdkazu: "Košíkov 2",
+      zaOdkazem:
+        ". Oba kameny se našly při opravě hřbitovní zdi a byly ponechány na místě.  Slouží jako schůdek.",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        {
+          fotka: "kosikov1-1.jpg",
+          datum: "březen 2014",
+          poznamka: "Košíkov 1  je levý, delší.",
+        },
+        {
+          fotka: "kosikov1-2.jpg",
+          datum: "březen 2014",
+          poznamka: "Košíkov 1  je levý, delší.",
+        },
+      ],
+
+      proMe: "  XIX/813  24-314-57  14---032   ",
+    },
+    {
+      id: 89,
+      kategorie: "smircikrize",
+      oblast: " Na západ ",
+      jmeno: "  Košíkov 2     ",
+      podkategorie: 5,
+      okres: "  Žďár nad Sázavou  ",
+      obec: "  Velká Bíteš - Košíkov  ",
+      cislo: " 1652   ",
+      kdeSeNaleza: "  U kostela na hřbitově.  ",
+      popis:
+        " Pravý, kratší kámen je 1,6 metru dlouhý, puklý na tři kusy. I na něm je reliéf křížkového kříže s rozšiřující se patou.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: "  euweb ",
+          adresa:
+            "  http://smircikrize.euweb.cz/Ceska_Republika/Zdar_nad_Sazavou/Kosikov.html#3 ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/kosikov.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 436  " },
+      ],
+      pozn:
+        "  Vedle něho leží kámen Košíkov 1. Oba kameny byly nalezeny při opravě hřbitovní zdi a ponechány na místě.  Slouží jako schůdek. ",
+      vnitrniOdkaz: 88,
+      odkazKategorie: "smircikrize",
+      odkazPodkategorie: 5,
+      odkazKde: "pozn",
+      predOdkazem: "Vedle něho leží kámen ",
+      textOdkazu: "Košíkov 1",
+      zaOdkazem:
+        ". Oba kameny byly nalezeny při opravě hřbitovní zdi a ponechány na místě.  Slouží jako schůdek.",
+      naposledObnoveno: " 9.12.2020 ",
+      galerie: [
+        {
+          fotka: "kosikov2-1.jpg",
+          datum: "březen 2014",
+          poznamka: "Košíkov 2  je pravý, kratší.",
+        },
+        {
+          fotka: "kosikov2-2.jpg",
+          datum: "březen 2014",
+          poznamka: "Košíkov 2  je pravý, kratší.",
+        },
+      ],
+
+      proMe: "  XIX/813  24-314-57  14---032   ",
+    },
   ],
 };
