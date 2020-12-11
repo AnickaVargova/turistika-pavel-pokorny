@@ -3326,5 +3326,149 @@ export default {
 
       proMe: "  XIX/813  24-314-57  14---032   ",
     },
+    {
+      id: 90,
+      kategorie: "smircikrize",
+      oblast: " Na západ  ",
+      jmeno: "   Nové Sady   ",
+      podkategorie: 5,
+      okres: "  Žďár nad Sázavou   ",
+      obec: " Nové Sady   ",
+      cislo: "  0704  ",
+      kdeSeNaleza: "  Na J od obce při polní cestě k  velké borovici. ",
+      popis: "  Torzo spodní části kamene se zbytkem golgotského kříže.  ",
+      napis: "     ",
+      povest:
+        "  Tři řezníci vedli býky na porážku a zdivočelá zvířata je usmrtila. Jinou pověst, pravděpodobnější, uvádí Jurman: Chasníci se pobili, když šli z tancovačky, a tři to zaplatili svými životy.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Zdar_nad_Sazavou/Nove_Sady.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/novesady.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 439.  " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 33.  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 11.12.2020 ",
+      galerie: [
+        { fotka: "novesady1.jpg", datum: "leden 2020" },
+        { fotka: "novesady2.jpg", datum: "leden 2020" },
+      ],
+      proMe: "  XVI/495 24-312-46  20---014   ",
+    },
+    {
+      id: 91,
+      kategorie: "smircikrize",
+      oblast: " Na západ  ",
+      jmeno: "   Sejřek   ",
+      podkategorie: 5,
+      okres: "   Žďár nad Sázavou    ",
+      obec: " Sejřek   ",
+      cislo: "  1464  ",
+      kdeSeNaleza:
+        "  Na JJV od středu obce, naproti kravínu u bažinky.  V létě je sem ztížený přístup kvůli ohradníkům. ",
+      popis:
+        "  Štíhlý mramorový kámen vysoký 0,9 metru má uražený pravý roh. Z plochy vystupuje reliéf kříže. ",
+      napis: "     ",
+      povest:
+        "  Tady se dvě stříhačky ovcí navzájem zapíchly ze žárlivosti nůžkami.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            "  http://smircikrize.euweb.cz/Ceska_Republika/Zdar_nad_Sazavou/Sejrek.html ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/sejrek.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 443  " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 27.  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 11.12.2020 ",
+      galerie: [
+        { fotka: "sejrek1.jpg", datum: "březen 2020" },
+        { fotka: "sejrek2.jpg", datum: "březen 2020" },
+      ],
+      proMe: "  XIII/385  24-134-28  20---031 ",
+    },
+    {
+      id: 92,
+      kategorie: "smircikrize",
+      oblast: "  Na západ  ",
+      jmeno: "   Dolní Loučky   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "  Dolní Loučky  ",
+      cislo: "  1454  ",
+      kdeSeNaleza: "  U kostela, zazděn v ohradní zdi.  ",
+      popis:
+        "  Kamenná deska z červeného drásovského pískovce, široká 0,6 metru. Z ní vystupuje reliéf řeckého kříže a tesařské sekery. Reliéfy přibarveny červenou barvou. ",
+      napis: "     ",
+      povest:
+        " Při opravě střechy spadl tesař a zlámal si vaz. Jurman vypátral ještě jednu pověst: Roku 1741 přepadli faru lupiči. Farář Dismas Wittman se jim postavil na odpor,  jednoho z nich sekerou zabil a druhého zranil.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Zdar_nad_Sazavou/Dolni_Loucky.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/dolniloucky.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. XXX  " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 16.  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 11.12.2020 ",
+      galerie: [{ fotka: "dolniloucky.jpg", datum: "říjen 2009" }],
+      proMe: "  XIII/386  24-321-80  ríjen09  ",
+    },
+    {
+      id: 93,
+      kategorie: "smircikrize",
+      oblast: "  Na západ  ",
+      jmeno: "  Lipůvka   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec:
+        "  Nuzířov. Kámen je vzdálen asi 100 metrů od hranice katastru s Lipůvkou.  ",
+      cislo: "  1726  ",
+      kdeSeNaleza:
+        "  U silnice z Lipůvky do Nuzířova, v lese asi 80 metrů od silnice a rozcestí.  ",
+      popis:
+        "  Subtilní kamenná deska vysoká 0,9 metru . Z ní vystupuje reliéf kříže s rozšiřující se nohou. ",
+      napis: "     ",
+      povest:
+        " Ke kameni se vztahuje několik pověstí, ve kterých vždy šlo o vraždu. V archivu se našlo, že roku 1511 zabil fojt z Lipůvky fojta z Malhostovic, uvádí Nečasová.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Lipuvka.html  ",
+        },
+        {
+          nazev: "  smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/lipuvka.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 47  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 31 ",
+        },
+      ],
+      pozn:
+        "  V březnu 2009 se kámen ztratil. Vzbudilo to mezi lidmi velké pohoršení, mluvila o tom televize, psaly noviny. Zloději patrně došlo pozdě, co způsobil. Po 14 dnech se kámen objevil pohozen o kus dál, poněkud poškozen. Byl zrestaurován a v létě 2009 usazen na původní místo. Při obnově došlo k necitlivému zvýraznění kresby kříže   ",
+      naposledObnoveno: " 11.12.2020 ",
+      galerie: [{ fotka: "lipuvka.jpg", datum: "září 2019" }],
+      proMe: "  XIII/455  24-322-23   19---094  ",
+    },
   ],
 };
