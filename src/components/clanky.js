@@ -3423,7 +3423,7 @@ export default {
           nazev: " smírčí kříže  ",
           adresa: " http://www.smircikrize.cz/dolniloucky.htm  ",
         },
-        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. XXX  " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 434  " },
         { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 16.  " },
       ],
       pozn: "     ",
@@ -3469,6 +3469,158 @@ export default {
       naposledObnoveno: " 11.12.2020 ",
       galerie: [{ fotka: "lipuvka.jpg", datum: "září 2019" }],
       proMe: "  XIII/455  24-322-23   19---094  ",
+    },
+    {
+      id: 94,
+      kategorie: "smircikrize",
+      oblast: "  Na sever  ",
+      jmeno: "  Doubravník 2    ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: " Doubravník   ",
+      cislo: "  1455  ",
+      kdeSeNaleza: "  Ve stoupání na Pláňavu nad hřbitovem.  ",
+      popis:
+        "  Vypracovaná mramorová deska vysoká 0,9 m s uraženým pravým rohem. Reliéf latinského kříže a obrázek vidlí. Sedmiřádkový text starou češtinou.  ",
+      napis:
+        " Špatně čitelné:  .ETHA PANIE  …. // TUTTO …. // ZABIT  PAW… // PAMAT.. //  OD KONE // CZNYHO //  PASTYRZE ",
+      povest:
+        "  Pasáček Pavlík se ukryl do kupky sena a pastýř Konečný ho nechtěně probodl vidlemi při odvozu sena. Jurman to rozvinul do příběhu. ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Doubravnik.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/doubravnik.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 435  " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 18.  " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 268.  ",
+        },
+      ],
+
+      pozn:
+        "  Na jaře 2020 byla deska vyzdvižena na úroveň silnice a vsazena do bytelného podstavce. Už ji nikdo nepřehlédne.  ",
+      naposledObnoveno: " 13.12.2020 ",
+      galerie: [
+        { fotka: "doubravnik2-1.jpg", datum: "březen 2020" },
+        { fotka: "doubravnik2-2.jpg", datum: "březen 2020" },
+      ],
+
+      proMe: "  XX/1060  24-143-40  20---031   ",
+    },
+    {
+      id: 95,
+      kategorie: "smircikrize",
+      oblast: "  Na sever  ",
+      jmeno: "  Tišnov 1    ",
+      podkategorie: 2,
+      okres: " Brno - venkov ",
+      obec: "  Tišnov  ",
+      cislo: "  1483  ",
+      kdeSeNaleza: " U silnice z Tišnova do Deblína u Závisti.   ",
+      popis:
+        "  Metr vysoká deska má poškozený pravý bok. Vystupuje z ní výrazný reliéf latinského kříže s rozšířenou patou.  ",
+      napis: "     ",
+      povest:
+        "  Jurman uvádí hned dvě :  roku 1642 tudy hnali Švédi probošta Weiskopfa z Tišnova a u Svatoslavi ho zabili. U potoka, kde kámen původně stával, přepadli lupiči pana Václava z Černé Hory. Vyvázl jen zázrakem a svého prvorozeného zasvětil církvi.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Tisnov.html ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/tisnov.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 64  " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 42.  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 13.12.2020 ",
+      galerie: [{ fotka: "tisnov1.jpg", datum: "září 2020" }],
+      proMe: "  2000/392  24-321-33  20---091   ",
+    },
+    {
+      id: 97,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "   Malá Lhota   ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "  Černá Hora. Kříž leží asi 200 metrů od katastru Malé Lhoty.  ",
+      cislo: "  1725  ",
+      kdeSeNaleza:
+        "  JV od Malé Lhoty, v trati Na bahnech, u cesty k malému rybníčku  ",
+      popis:
+        " Latinský kříž pravidelného tvaru je vysoký 1,2 metru. Hlava i ramena jsou čtvercového průřezu, na koncích zaoblené.  ",
+      napis: "     ",
+      povest: " Zde byl zabit obchodník s dobytkem a oloupen o peníze.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Mala_Lhota.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/malalhota.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 47 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 38  ",
+        },
+      ],
+      pozn: "  V dolní části je kříž zlomen a znovu spojen betonem.   ",
+      naposledObnoveno: " 14.12.2020 ",
+      galerie: [
+        { fotka: "malalhota1.jpg", datum: "září 2019" },
+        { fotka: "malalhota2.jpg", datum: "září 2019" },
+      ],
+      proMe: "  2002/446  24-144-18  19---094   ",
+    },
+    {
+      id: 96,
+      kategorie: "smircikrize",
+      oblast: "  Na západ  ",
+      jmeno: "   Tišnov 2   ",
+      podkategorie: 21,
+      okres: " Brno - venkov  ",
+      obec: "  Tišnov  ",
+      cislo: "  1484  ",
+      kdeSeNaleza: "  U silnice z Tišnova do Lomničky na okraji města.  ",
+      popis:
+        "  Zaoblená kamenná deska je 1,1 metru vysoká. Z ní vystupuje reliéf latinského kříže, pod levým ramenem je zobrazen meč. V dolní části desky je napříč trhlina.  ",
+      napis: "     ",
+      povest:
+        " Jurman popisuje zabití dvou rejtarů, kteří vybírali výpalné pro polského hejtmana. Stalo se v roce 1620 na Vánoce.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Tisnov.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/tisnov.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 64  " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 11.  " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 14.12.2020 ",
+      galerie: [
+        { fotka: "tisnov2-1.jpg", datum: "květen 2012" },
+        { fotka: "tisnov2-2.jpg", datum: "květen 2012" },
+      ],
+      proMe: "  X/316  24-321-29  5.2012cesty   ",
     },
   ],
 };
