@@ -3622,5 +3622,83 @@ export default {
       ],
       proMe: "  X/316  24-321-29  5.2012cesty   ",
     },
+    {
+      id: 98,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "  Obora    ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "  Obora  ",
+      cislo: "  0363  ",
+      kdeSeNaleza: "  Na návsi.  ",
+      popis:
+        " Nad zemí je vidět jen 25 cm vysoké torzo kamenné desky se zbytkem kříže.  ",
+      napis: "     ",
+      povest:
+        " Nečasová píše o tesařském mistrovi, který přísahal pomstu zednickému mistru kvůli zpackané stavbě zdí boskovického kostela, na které nešel nasadit už zhotovený krov. Ti dva se setkali právě u Obory a dostali se do potyčky se špatným koncem.  Krov na věži kostela v Boskovicích je z roku 1531.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            "  http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Obora.html ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/obora.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 47  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 38  ",
+        },
+      ],
+      pozn:
+        "  Kříž stál u panské kovárny na rozcestí k Huti sv. Antonie. Při rozšiřování cesty v  roce 1931 překážel a musel být přemístěn. Přitom se rozlomil. Původně byl metr vysoký. Není jasné, která část se zachovala. Pod kamenem se našly zbytky kostry dospělého člověka.  ",
+      naposledObnoveno: " 15.12.2020 ",
+      galerie: [{ fotka: "obora.jpg", datum: "srpen 2016" }],
+      proMe: "  XVII/632  24-142-6   16---081   ",
+    },
+    {
+      id: 99,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "  Žernovník    ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "  Žernovník  ",
+      cislo: "  1722  ",
+      kdeSeNaleza: "  Na návsi u kapličky.  ",
+      popis:
+        "  Metr vysoký křížový kámen má zkosené rohy. Z přední strany vystupuje latinský kříž, v jeho středu je letopočet. Pod rameny kříže je znamení šipky a meče. Ze zadní strany je vytesán řecký kříž.  ",
+      napis:
+        "   Letopočet lze číst jako 1419, nebo 1719, nebo 1779. Mohl být vysekán druhotně. ",
+      povest:
+        "  V obci se traduje pověst o zde pochovaném husitském hejtmanovi.  ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Zernovnik.html  ",
+        },
+        {
+          nazev: " smírčí kříže  ",
+          adresa: " http://www.smircikrize.cz/zernovnik.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 50  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 52  ",
+        },
+      ],
+      pozn: "  Původně stával v zahradě nedaleko dnešního místa.   ",
+      naposledObnoveno: " 15.12.2020 ",
+      galerie: [
+        { fotka: "zernovnik1.jpg", datum: "říjen 2020" },
+        { fotka: "zernovnik2.jpg", datum: "říjen 2020" },
+        { fotka: "zernovnik3.jpg", datum: "říjen 2020" },
+      ],
+      proMe: "  2002/425  24-144-13  20---103   ",
+    },
   ],
 };
