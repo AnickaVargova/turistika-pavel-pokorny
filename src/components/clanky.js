@@ -948,7 +948,7 @@ export default {
         },
       ],
       pozn:
-        " svatý Hubert je patronem všech myslivců. Socha je signovaná MJ MMXI. Vytvořil ji sochař a restaurátor Jiří Marek z Medlova roku 2011 ",
+        " Svatý Hubert je patronem všech myslivců. Socha je signovaná MJ MMXI. Vytvořil ji sochař a restaurátor Jiří Marek z Medlova roku 2011 ",
       naposledObnoveno: " 16.11.2020 ",
       souradnice: "49.2999642N, 16.3973200E",
       kodMapa:
@@ -1075,7 +1075,7 @@ export default {
       popisCesty:
         " 2 km JZ od kostela v Žebětíně, ve svahu spadajícím k S, nad přírodní památkou Augšperský potok, u cesty.  ",
       popis:
-        "Dřevěný solidně udělaný dřevěný kříž vysoký 4 metry, zasazený do betonového základu. Byl rekonstruován na podzim roku 2006. Původní kříž  byl v devadesátých letech velmi sešlý a v mladém smrkovém lese skoro neviditelný. Byla na něm zašlá smaltovaná tabulka zřejmě s datem tragédie.",
+        "Solidně udělaný dřevěný kříž vysoký 4 metry, zasazený do betonového základu. Byl rekonstruován na podzim roku 2006. Původní kříž  byl v devadesátých letech velmi sešlý a v mladém smrkovém lese skoro neviditelný. Byla na něm zašlá smaltovaná tabulka zřejmě s datem tragédie.",
       napis: " Bez nápisu. Na původním kříži  bylo datum  23. 9. 1892.  ",
       odkazy: [
         {
@@ -1220,7 +1220,7 @@ export default {
       popis:
         "Nově zrekonstruovaný památník na novém místě. Na soklu vyzděném z lomového kamene spočívá kopie původního kamene se začištěnou přední stěnou a stručným textem v němčině.",
       napis:
-        "  L  JÄHR.  REG.  JUBIL.  MCMVIII , v překladu:  padesátileté výročí vlády 1908  ",
+        "  L  JÄHR.  REG.  JUBIL.  MCMVIII , v překladu:  padesáté výročí vlády 1908  ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn:
         " Tuto kamennou desku zhotovil hostěnický kameník Jan Šlof. Původní stanoviště památníku bylo nedaleko. Hlavní deska ke 40. výročí vlády knížete Jana se nezachovala. ",
@@ -1292,7 +1292,7 @@ export default {
         },
       ],
       pozn:
-        " Otec Josef Pelc byl farářem v Uherském Brodu. Rád jezdil do přírody, hrál na kytaru, cestoval, jezdil na skůtru. V pondělí ráno odsloužil mši a pak vyrazil s přáteli na dovolenou. Namířeno měli až na Wilzonku.  Bivakovali nedaleko Glorietu. Večer se Kožich náhle vzdálil, možná si potřeboval odskočit, a nikdo už ho živého nespatřil. Kamarádi ho hledali celou noc a ráno zalarmovali policii. Nakonec ho našel ve skalách jeho přítel, také kněz, po šedesátimetrovém pádu. Tělo šestačtyřicetiletého kněze vyzvedl z těžce přístupného terénu  policejní vrtulník. ",
+        " Otec Josef Pelc byl farářem v Uherském Brodu. Rád jezdil do přírody, hrál na kytaru, cestoval, jezdil na skútru. V pondělí ráno odsloužil mši a pak vyrazil s přáteli na dovolenou. Namířeno měli až na Wilsonku.  Bivakovali nedaleko Glorietu. Večer se Kožich náhle vzdálil, možná si potřeboval odskočit, a nikdo už ho živého nespatřil. Kamarádi ho hledali celou noc a ráno zalarmovali policii. Nakonec ho našel ve skalách jeho přítel, také kněz, po šedesátimetrovém pádu. Tělo šestačtyřicetiletého kněze vyzvedl z těžce přístupného terénu  policejní vrtulník. ",
       naposledObnoveno: " 20.11.2020 ",
       souradnice: "49.1653369N, 16.1656739E",
       kodMapa:
@@ -1387,7 +1387,7 @@ export default {
       kdyVznikl: "  železný v roce 1831,  obnoven za kamenný v roce 1946 ",
       popisCesty:
         " 600 m SV od kaple ve Velaticích, na konci polní cesty z Tvarožné, končící ve křovinách u posezení. ",
-      popis: "důkladný kříž z černé žuly vysoký 3 metry, na kamenném soklu.",
+      popis: "Důkladný kříž z černé žuly vysoký 3 metry, na kamenném soklu.",
       napis:
         " zepředu: CHVÁLA  KRISTU // L. P. 1946    ze zadní strany: ČERNÝ  MOR  ROKU  1831, // “HNĚDÝ  MOR”  ROKU 1945, // PÁN  OD  NÁS  ODVRÁTIL // a neuměle: RUDÝ  MOR  1948 - 89 ",
       odkazy: [
@@ -1446,7 +1446,7 @@ export default {
       okres: " Blansko",
       obec: " Křtiny  ",
       jmeno: " Prnka, Tomáš  ",
-      nazev: " Památník pátera Prnky ",
+      nazev: " Památník patera Prnky ",
       kdyVznikl: "  ",
       popisCesty: " 500 metrů VSV od kostela ve Křtinách, u lesní cesty   ",
       popis:
