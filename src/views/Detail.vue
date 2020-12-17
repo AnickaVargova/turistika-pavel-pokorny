@@ -48,7 +48,7 @@
         </p>
         <p
           v-if="
-            detailClanku.vnitrniOdkaz && detailClanku.odkazKde === 'dodatekText'
+            detailClanku.vnitrniOdkazy && detailClanku.vnitrniOdkazy[0].odkazKde === 'dodatekText'
           "
         >
           <Klikaci

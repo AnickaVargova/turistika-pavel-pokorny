@@ -1,24 +1,24 @@
 <template>
   <div>
-    <span>{{ clanek.predOdkazem }}</span>
-    <span>
-      <router-link
-        
-        class="vnitrniOdkaz"
-        v-bind:to="
-          `/${clanek.odkazKategorie}/${clanek.odkazPodkategorie}/${clanek.vnitrniOdkaz}`
-        "
-        >{{ clanek.textOdkazu }}</router-link
-      >
+    <span v-for="(odkaz,index) in clanek.vnitrniOdkazy" v-bind:key ="index">
+      <span>{{ odkaz.predOdkazem }}</span>
+      <span>
+        <router-link
+          class="vnitrniOdkaz"
+          v-bind:to="
+            `/${odkaz.odkazKategorie}/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`
+          "
+          >{{ odkaz.textOdkazu }}</router-link
+        >
+      </span>
+      <span>{{ odkaz.zaOdkazem }}</span>
     </span>
-    <span>{{ clanek.zaOdkazem }}</span>
   </div>
 </template>
 
 <script>
   export default {
     props: ["clanek"],
-   
   };
 </script>
 

@@ -1317,14 +1317,18 @@ export default {
       kdyVznikl: " po roce 2013 ",
       popisCesty:
         " 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a křížek Kožicha Pelce.",
-      vnitrniOdkaz: 34,
-      odkazPodkategorie: 13,
-      odkazKategorie: "pomnicky",
-      odkazKde: "popisCesty",
-      predOdkazem:
-        "2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a ",
-      textOdkazu: "křížek Kožicha Pelce",
-      zaOdkazem: ".",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 34,
+          odkazPodkategorie: 13,
+          odkazKategorie: "pomnicky",
+          odkazKde: "popisCesty",
+          predOdkazem:
+            "2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Na skále, čitelná ze strany údolí. Zelená značka s rozcestníkem. Poblíž je Pedyho křížek a ",
+          textOdkazu: "křížek Kožicha Pelce",
+          zaOdkazem: ".",
+        },
+      ],
       popis:
         "Kovová deska je připevněna čtyřmi šrouby ke skalnímu podkladu. Do ní vyryt stylizovaný portrét ženy v brýlích a text.",
       napis:
@@ -1562,14 +1566,18 @@ export default {
       kdyVznikl: " 1958 ",
       popisCesty:
         " 2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je pomník Vlasty Štrajtové.  ",
-      vnitrniOdkaz: 30,
-      odkazKategorie: "pomnicky",
-      odkazPodkategorie: 8,
-      odkazKde: "popisCesty",
-      predOdkazem:
-        "2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je ",
-      textOdkazu: "pomník Vlasty Štrajtové",
-      zaOdkazem: ".",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 30,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 8,
+          odkazKde: "popisCesty",
+          predOdkazem:
+            "2,1  km SV od kaple v Ježkovicích, nad jižním břehem Opatovické nádrže, na křižovatce lesních průseků. 50 metrů k SV odtud je ",
+          textOdkazu: "pomník Vlasty Štrajtové",
+          zaOdkazem: ".",
+        },
+      ],
       popis:
         "Na stromě připevněný zasklený obrázek Krista, nahoře bílá soška anděla.",
       napis:
@@ -1610,15 +1618,18 @@ export default {
       ],
       pozn:
         " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti.",
-
-      vnitrniOdkaz: 44,
-      odkazKategorie: "vypraveni",
-      odkazPodkategorie: 18,
-      odkazKde: "pozn",
-      predOdkazem:
-        " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
-      textOdkazu: "Vyprávění",
-      zaOdkazem: ".",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 44,
+          odkazKategorie: "vypraveni",
+          odkazPodkategorie: 18,
+          odkazKde: "pozn",
+          predOdkazem:
+            " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
+          textOdkazu: "Vyprávění",
+          zaOdkazem: ".",
+        },
+      ],
       naposledObnoveno: " 20.11.2020 ",
       souradnice: " 49.3227247N, 16.6259569E ",
       kodMapa:
@@ -1690,15 +1701,18 @@ export default {
       dodatekNadpis: "Přípodotek z listopadu 2020 :",
       dodatekText:
         "Vrátili jsme se k pomníčku po dvanácti letech. Není už tak opuštěn, jak popisuji v textu starém 17 let. Zašlou desku někdo vyčistil, takže svítí do dálky, nápis je obtažen barvou. Z písmene O se stalo C, tedy i jméno na pomníčku se změnilo na Czada. Škoda, když existuje Obama, proč ne Ozada. Klid místa vzal částečně za své. Až sem doléhá hluk frekventované silnice hluboko v údolí. Nahoře nad památníkem zas vede poměrně frekventovaná červeně značená cesta. Utajovat pomník tedy není na místě, když skoro každý má kvalitní mapu v mobilu.",
-      vnitrniOdkaz: 43,
-      odkazKategorie: "pomnicky",
-      odkazPodkategorie: 7,
-      odkazKde: "dodatekText",
-      predOdkazem: "Naleznete ho ",
-      textOdkazu: "zde ",
-      zaOdkazem: ".",
-      // "Naleznete ho  zde (památka adjunkta Czady).",
-
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 43,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 7,
+          odkazKde: "dodatekText",
+          predOdkazem: "Naleznete ho ",
+          textOdkazu: "zde ",
+          zaOdkazem: ".",
+          // "Naleznete ho  zde (památka adjunkta Czady).",
+        },
+      ],
       fotkaUvod: { fotka: "vypraveniOzada1.jpg", datum: "listopad 2020" },
       galerie: [{ fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" }],
     },
@@ -2318,15 +2332,17 @@ export default {
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001, str. 59.  " },
       ],
       pozn: "  Kámen  Opatovice 2 je vzdálen asi 100 metrů.   ",
-
-      vnitrniOdkaz: 64,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 4,
-      odkazKde: "pozn",
-      predOdkazem: "Kámen ",
-      textOdkazu: "Opatovice 2",
-      zaOdkazem: " je vzdálen asi 100 metrů.",
-
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 64,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 4,
+          odkazKde: "pozn",
+          predOdkazem: "Kámen ",
+          textOdkazu: "Opatovice 2",
+          zaOdkazem: " je vzdálen asi 100 metrů.",
+        },
+      ],
       naposledObnoveno: " 3.12.2020 ",
       galerie: [
         { fotka: "opatovice1-1.jpg", datum: "říjen 2009" },
@@ -2364,15 +2380,17 @@ export default {
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 60  " },
       ],
       pozn: "  Kámen Opatovice 1 je vzdálen asi 100 metrů.   ",
-
-      vnitrniOdkaz: 63,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 4,
-      odkazKde: "pozn",
-      predOdkazem: "Kámen ",
-      textOdkazu: "Opatovice 1",
-      zaOdkazem: " je vzdálen asi 100 metrů.",
-
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 63,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 4,
+          odkazKde: "pozn",
+          predOdkazem: "Kámen ",
+          textOdkazu: "Opatovice 1",
+          zaOdkazem: " je vzdálen asi 100 metrů.",
+        },
+      ],
       naposledObnoveno: " 3.12.2020 ",
       galerie: [
         { fotka: "opatovice2-1.jpg", datum: "říjen 2009" },
@@ -2712,15 +2730,17 @@ export default {
         },
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 66  " },
       ],
-
-      vnitrniOdkaz: 75,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 5,
-      odkazKde: "pozn",
-      predOdkazem: "Kámen byl nahrazen replikou ",
-      textOdkazu: "Zbraslav 3",
-      zaOdkazem: ".",
-
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 75,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 5,
+          odkazKde: "pozn",
+          predOdkazem: "Kámen byl nahrazen replikou ",
+          textOdkazu: "Zbraslav 3",
+          zaOdkazem: ".",
+        },
+      ],
       naposledObnoveno: " 6.12.2020 ",
       galerie: null,
 
@@ -2753,14 +2773,17 @@ export default {
             " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 265.  ",
         },
       ],
-
-      vnitrniOdkaz: 74,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 5,
-      odkazKde: "pozn",
-      predOdkazem: "Do roku 2006 na tomto místě stál originál kamene ",
-      textOdkazu: "Zbraslav 2",
-      zaOdkazem: " , později nahrazen touto replikou. ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 74,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 5,
+          odkazKde: "pozn",
+          predOdkazem: "Do roku 2006 na tomto místě stál originál kamene ",
+          textOdkazu: "Zbraslav 2",
+          zaOdkazem: " , později nahrazen touto replikou. ",
+        },
+      ],
 
       naposledObnoveno: " 6.12.2020 ",
       galerie: [
@@ -2851,16 +2874,19 @@ export default {
         "  Obdélníková pískovcová deska vysoká 0,8 metru je silně zvětralá. Stojí na betonovém podstavci, krytá jednoduchou stříškou. Z plochy vystupuje latinský kříž. Písmo, které pokrývalo plochu desky, je dnes zcela nečitelné.  ",
       napis:
         "  Naštěstí před lety někdo nápis přečetl, zapsal a tím ho uchoval. Doslovný text je na fotografii pomníku Černčín 2. Píše se tu, že v říjnu 1606 byl zabit Pavel Vašina z Vícemilic.   ",
-
-      vnitrniOdkaz: 79,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 3,
-      odkazKde: "napis",
-      predOdkazem:
-        "Naštěstí před lety někdo nápis přečetl, zapsal a tím ho uchoval. Doslovný text je na fotografii pomníku ",
-      textOdkazu: "Černčín 2",
-      zaOdkazem:
-        ". Píše se tu, že v říjnu 1606 byl zabit Pavel Vašina z Vícemilic.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 79,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 3,
+          odkazKde: "napis",
+          predOdkazem:
+            "Naštěstí před lety někdo nápis přečetl, zapsal a tím ho uchoval. Doslovný text je na fotografii pomníku ",
+          textOdkazu: "Černčín 2",
+          zaOdkazem:
+            ". Píše se tu, že v říjnu 1606 byl zabit Pavel Vašina z Vícemilic.",
+        },
+      ],
 
       povest: "    ",
       odkazy: [
@@ -2910,15 +2936,18 @@ export default {
       ],
       pozn:
         "  Je to volně zpracovaná kopie původního kříže Černčín 1 , kterou ke 400. výročí tragédie vyhotovil František Masařík z Černčína. Vzorně vyřešený problém, jak uchovat původní kámen a označit jeho polohu pro budoucnost.     ",
-
-      vnitrniOdkaz: 78,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 3,
-      odkazKde: "pozn",
-      predOdkazem: "Je to volně zpracovaná kopie původního kříže ",
-      textOdkazu: "Černčín 1",
-      zaOdkazem:
-        " , kterou ke 400. výročí tragédie vyhotovil František Masařík z Černčína. Vzorně vyřešený problém, jak uchovat původní kámen a označit jeho polohu pro budoucnost.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 78,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 3,
+          odkazKde: "pozn",
+          predOdkazem: "Je to volně zpracovaná kopie původního kříže ",
+          textOdkazu: "Černčín 1",
+          zaOdkazem:
+            " , kterou ke 400. výročí tragédie vyhotovil František Masařík z Černčína. Vzorně vyřešený problém, jak uchovat původní kámen a označit jeho polohu pro budoucnost.",
+        },
+      ],
       naposledObnoveno: " 7.12.2020 ",
       galerie: [
         { fotka: "cerncin2-1.jpg", datum: "květen 2019" },
@@ -3160,14 +3189,17 @@ export default {
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 406  " },
       ],
       pozn: "  Ke kamenu Naloučany 2 je odtud  50 metrů.   ",
-
-      vnitrniOdkaz: 87,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 5,
-      odkazKde: "pozn",
-      predOdkazem: "Ke kamenu ",
-      textOdkazu: "Naloučany 2",
-      zaOdkazem: " je odtud  50 metrů.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 87,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 5,
+          odkazKde: "pozn",
+          predOdkazem: "Ke kamenu ",
+          textOdkazu: "Naloučany 2",
+          zaOdkazem: " je odtud  50 metrů.",
+        },
+      ],
       naposledObnoveno: " 9.12.2020 ",
       galerie: [
         { fotka: "naloucany1-1.jpg", datum: "srpen 2012" },
@@ -3203,14 +3235,17 @@ export default {
         { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 406  " },
       ],
       pozn: "  Kámen Naloučany 1 je vzdálen 50 metrů.   ",
-
-      vnitrniOdkaz: 86,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 5,
-      odkazKde: "pozn",
-      predOdkazem: "Kámen ",
-      textOdkazu: "Naloučany 1",
-      zaOdkazem: " je vzdálen 50 metrů.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 86,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 5,
+          odkazKde: "pozn",
+          predOdkazem: "Kámen ",
+          textOdkazu: "Naloučany 1",
+          zaOdkazem: " je vzdálen 50 metrů.",
+        },
+      ],
       naposledObnoveno: " 9.12.2020 ",
       galerie: [
         { fotka: "naloucany2-1.jpg", datum: "srpen 2012" },
@@ -3250,14 +3285,18 @@ export default {
       ],
       pozn:
         "  Vedle něho leží kámen Košíkov 2. Oba kameny se našly při opravě hřbitovní zdi a byly ponechány na místě.  Slouží jako schůdek. ",
-      vnitrniOdkaz: 89,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 5,
-      odkazKde: "pozn",
-      predOdkazem: "Vedle něho leží kámen ",
-      textOdkazu: "Košíkov 2",
-      zaOdkazem:
-        ". Oba kameny se našly při opravě hřbitovní zdi a byly ponechány na místě.  Slouží jako schůdek.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 89,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 5,
+          odkazKde: "pozn",
+          predOdkazem: "Vedle něho leží kámen ",
+          textOdkazu: "Košíkov 2",
+          zaOdkazem:
+            ". Oba kameny se našly při opravě hřbitovní zdi a byly ponechány na místě.  Slouží jako schůdek.",
+        },
+      ],
       naposledObnoveno: " 9.12.2020 ",
       galerie: [
         {
@@ -3302,14 +3341,18 @@ export default {
       ],
       pozn:
         "  Vedle něho leží kámen Košíkov 1. Oba kameny byly nalezeny při opravě hřbitovní zdi a ponechány na místě.  Slouží jako schůdek. ",
-      vnitrniOdkaz: 88,
-      odkazKategorie: "smircikrize",
-      odkazPodkategorie: 5,
-      odkazKde: "pozn",
-      predOdkazem: "Vedle něho leží kámen ",
-      textOdkazu: "Košíkov 1",
-      zaOdkazem:
-        ". Oba kameny byly nalezeny při opravě hřbitovní zdi a ponechány na místě.  Slouží jako schůdek.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 88,
+          odkazKategorie: "smircikrize",
+          odkazPodkategorie: 5,
+          odkazKde: "pozn",
+          predOdkazem: "Vedle něho leží kámen ",
+          textOdkazu: "Košíkov 1",
+          zaOdkazem:
+            ". Oba kameny byly nalezeny při opravě hřbitovní zdi a ponechány na místě.  Slouží jako schůdek.",
+        },
+      ],
       naposledObnoveno: " 9.12.2020 ",
       galerie: [
         {
@@ -3700,5 +3743,397 @@ export default {
       ],
       proMe: "  2002/425  24-144-13  20---103   ",
     },
+    {
+      id: 100,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "Újezd u Černé Hory 1    ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "  Újezd u Černé Hory    ",
+      cislo: "  1783  ",
+      kdeSeNaleza:
+        " Zazděn naležato do soklu márnice u kamenné zdi kolem hřbitova.   ",
+      popis:
+        " 1,5 metru dlouhá deska z červeného pískovce. Do ní je zahlouben malý latinský kříž.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Ujezd_u_Cerne_Hory.html  ",
+        },
+        {
+          nazev: " smírčí kameny  ",
+          adresa: "  http://www.smircikrize.cz/ujezducernehory.htm   ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 49  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 49  ",
+        },
+        { nazev: "   " },
+      ],
+      pozn:
+        "  Ve stejné ohradní zdi jsou i kameny 1784 Újezd 2,  1785 Újezd 3 a 1786 Újezd 4.   ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 101,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "Ve stejné ohradní zdi jsou i kameny ",
+          textOdkazu: "1784 Újezd 2",
+          zaOdkazem: "",
+        },
+        {
+          vnitrniOdkaz: 102,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: ",  ",
+          textOdkazu: "1785 Újezd 3",
+          zaOdkazem: " a ",
+        },
+        {
+          vnitrniOdkaz: 103,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "",
+          textOdkazu: "1786 Újezd 4",
+          zaOdkazem: ".",
+        },
+      ],
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [
+        { fotka: "ujezd1-1.jpg", datum: "leden 2016" },
+        { fotka: "ujezd1-2.jpg", datum: "leden 2016" },
+      ],
+      proMe: "  XV/523  24-144-21  16---014   ",
+    },
+    {
+      id: 101,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "Újezd u Černé Hory 2   ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "   Újezd u Černé Hory   ",
+      cislo: "  1784  ",
+      kdeSeNaleza: "   Zazděn do soklu márnice u hřbitova.  ",
+      popis:
+        "  Rohový kvádr dlouhý 1,2 metru a na něm je negativní reliéf latinského kříže.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Ujezd_u_Cerne_Hory.html  ",
+        },
+        {
+          nazev: " smírčí kameny  ",
+          adresa: "  http://www.smircikrize.cz/ujezducernehory.htm   ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 49  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 50  ",
+        },
+        { nazev: "   " },
+      ],
+      pozn:
+        "   Ve stejné ohradní zdi jsou i kameny 1783 Újezd 1,  1785 Újezd 3 a 1786 Újezd 4.   ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 100,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "Ve stejné ohradní zdi jsou i kameny ",
+          textOdkazu: "1783 Újezd 1",
+          zaOdkazem: "",
+        },
+        {
+          vnitrniOdkaz: 102,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: ",  ",
+          textOdkazu: "1785 Újezd 3",
+          zaOdkazem: " a ",
+        },
+        {
+          vnitrniOdkaz: 103,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "",
+          textOdkazu: "1786 Újezd 4",
+          zaOdkazem: ".",
+        },
+      ],
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [{ fotka: "ujezd2.jpg", datum: "leden 2016" }],
+      proMe: "   XV/523  24-144-21  16---014   ",
+    },
+    {
+      id: 102,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "Újezd u Černé Hory 3  ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "   Újezd u Černé Hory   ",
+      cislo: "  1785  ",
+      kdeSeNaleza: "   Zazděn do kamenné zdi kolem hřbitova, ve V rohu.  ",
+      popis:
+        "  Masivní sloupek dlouhý 1,4 metru, z něho vystupuje přes celou plochu reliéf latinského kříže s rozšiřující se patou.",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Ujezd_u_Cerne_Hory.html  ",
+        },
+        {
+          nazev: " smírčí kameny  ",
+          adresa: " http://www.smircikrize.cz/ujezducernehory.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 49  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 51  ",
+        },
+        { nazev: "   " },
+      ],
+      pozn:
+        " Je možné, že se jedná o vzácný nález románského náhrobku.  Ve stejné ohradní zdi jsou i kameny 1784 Újezd 2,  1783 Újezd 1 a 1786 Újezd 4.   ",
+        vnitrniOdkazy: [
+          {
+            vnitrniOdkaz: 101,
+            odkazPodkategorie: 2,
+            odkazKategorie: "smircikrize",
+            odkazKde: "pozn",
+            predOdkazem: "Je možné, že se jedná o vzácný nález románského náhrobku. Ve stejné ohradní zdi jsou i kameny ",
+            textOdkazu: "1784 Újezd 2",
+            zaOdkazem: "",
+          },
+          {
+            vnitrniOdkaz: 100,
+            odkazPodkategorie: 2,
+            odkazKategorie: "smircikrize",
+            odkazKde: "pozn",
+            predOdkazem: ",  ",
+            textOdkazu: "1783 Újezd 1",
+            zaOdkazem: " a ",
+          },
+          {
+            vnitrniOdkaz: 103,
+            odkazPodkategorie: 2,
+            odkazKategorie: "smircikrize",
+            odkazKde: "pozn",
+            predOdkazem: "",
+            textOdkazu: "1786 Újezd 4",
+            zaOdkazem: ".",
+          },
+        ],
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [
+        { fotka: "ujezd3-1.jpg", datum: "leden 2016" },
+        { fotka: "ujezd3-2.jpg", datum: "leden 2016" },
+      ],
+      proMe: "   XV/523  24-144-21  16---014   ",
+    },
+    {
+      id: 103,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "  Újezd u Černé Hory 4    ",
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: "   Újezd u Černé Hory   ",
+      cislo: " 2440   ",
+      kdeSeNaleza:
+        "   Zazděn do kamenné zdi kolem hřbitova, uprostřed Z stěny.  ",
+      popis:
+        "  Kamenná deska je dlouhá 1,4 metru. Do ní je vyryt obrys latinského kříže s rozšířenou patou.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Blansko/Ujezd_u_Cerne_Hory.html  ",
+        },
+        {
+          nazev: " smírčí kameny  ",
+          adresa: " http://www.smircikrize.cz/ujezducernehory.htm  ",
+        },
+        { nazev: "   " },
+      ],
+      pozn:
+        "   Ve stejné ohradní zdi jsou i kameny 1784 Újezd 2,  1785 Újezd 3 a 1783 Újezd 1.   ",
+        vnitrniOdkazy: [
+          {
+            vnitrniOdkaz: 101,
+            odkazPodkategorie: 2,
+            odkazKategorie: "smircikrize",
+            odkazKde: "pozn",
+            predOdkazem: "Ve stejné ohradní zdi jsou i kameny ",
+            textOdkazu: "1784 Újezd 2",
+            zaOdkazem: "",
+          },
+          {
+            vnitrniOdkaz: 102,
+            odkazPodkategorie: 2,
+            odkazKategorie: "smircikrize",
+            odkazKde: "pozn",
+            predOdkazem: ",  ",
+            textOdkazu: "1785 Újezd 3",
+            zaOdkazem: " a ",
+          },
+          {
+            vnitrniOdkaz: 100,
+            odkazPodkategorie: 2,
+            odkazKategorie: "smircikrize",
+            odkazKde: "pozn",
+            predOdkazem: "",
+            textOdkazu: "1786 Újezd 1",
+            zaOdkazem: ".",
+          },
+        ],
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [{ fotka: "ujezd4.jpg", datum: "leden 2016" }],
+      proMe: "   XIX/886  24-144-21  16---014   ",
+    },
+    {
+      id: 104,
+      kategorie: 'smircikrize',  
+      oblast: '  Na západ ',
+      jmeno: '   Rojetín   ',
+      podkategorie:   5,
+      okres: ' Brno - venkov  ',
+      obec: '  Rojetín  ',
+      cislo: '  ----  ',
+      kdeSeNaleza:' Na V od Rojetína, na hřbetu nad Libochovkou, v ostrém zalomení značené cesty.   ', 
+      popis:'  Kamenná deska lichoběžníkového tvaru, vysoká 0,6 metru. Do ní amatérsky zahlouben latinský kříž.   ',      
+      napis: '     ',
+      povest: '    ',            
+      odkazy:  [{nazev: '   '},],
+      pozn: '     ',
+      naposledObnoveno : ' 16.12.2020 ',
+      galerie: 
+      [ 
+      {fotka: 'rojetin1.jpg' , datum: 'únor 2011'},
+      {fotka: 'rojetin2.jpg' , datum: 'květen 2020'},
+      {fotka: 'rojetin3.jpg' , datum: 'květen 2020'},
+      
+      ],
+      proMe:'  XVIII/692  24-134-15  11---021  20---051   ',     
+      },
+      {
+        id: 105,
+        kategorie: 'smircikrize',  
+        oblast: '  Na sever ',
+        jmeno: '  Bukovice 2    ',
+        podkategorie:  5 ,
+        okres: ' Brno - venkov  ',
+        obec: ' Bukovice    ',
+        cislo: '  1978  ',
+        kdeSeNaleza:'  Na návsi u kapličky. Zřejmě původní stanoviště kamene.   ', 
+        popis:'  Hrubě opracovaný pískovcový kámen je vysoký 0,6 metru. Shora je silně poškozen. Z něho málo znatelně vystupuje reliéf golgotského kříže.   ',      
+        napis: '     ',
+        povest: '  Týká se i nedalekého kamene Bukovice 3. Při souboji dvou duelantů o dívku zemřeli oba dva.    ', 
+        vnitrniOdkazy: [
+          {
+            vnitrniOdkaz: 106,
+            odkazPodkategorie: 5,
+            odkazKategorie: "smircikrize",
+            odkazKde: "povest",
+            predOdkazem: "Týká se i nedalekého kamene ",
+            textOdkazu: "Bukovice 3",
+            zaOdkazem: ". Při souboji dvou duelantů o dívku zemřeli oba dva.",
+          },
+        ],           
+        odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bukovice.html  '}, {nazev: ' smírčí kameny  ', adresa:' http://www.smircikrize.cz/bukovice.htm  '}, {nazev: ' Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 44  '},  {nazev: ' Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko.2001. str. 17  '},  {nazev: '   '},],
+        pozn: '     ',
+        naposledObnoveno : ' 16.12.2020 ',
+        galerie: 
+        [ 
+        {fotka: 'bukovice2.jpg' , datum: 'říjen 2020'},
+        
+        ],
+        proMe:'  2002/428  24-143-12  20---103   ',     
+        },
+        {
+          id: 106,
+          kategorie: 'smircikrize',  
+          oblast: '  Na sever ',
+          jmeno: '   Bukovice 3   ',
+          podkategorie:   2,
+          okres: ' Brno - venkov  ',
+          obec: '  Bukovice  ',
+          cislo: '  1979  ',
+          kdeSeNaleza:'  Na soukromém pozemku, na konci zahrady domu č. p. 3.   ', 
+          popis:' Kamenná deska vysoká 0,7 metru má zkosené rohy. Na straně k plotu slabě vystupuje reliéf řeckého kříže.   ',      
+          napis: '     ',
+          povest: ' Dva šlechtici nebo lesníci se tu utkali v souboji o dívku a oba zemřeli v souboji.   ',            
+          odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bukovice.html  '}, {nazev: ' smírčí kameny  ', adresa:' http://www.smircikrize.cz/bukovice.htm  '}, {nazev: ' Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 44  '},  {nazev: ' Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 18  '},  {nazev: '   '},],
+          pozn: '  Tento kámen je vzdálen zhruba 100 metrů od kamene Bukovice 2, se kterým ho pojí stejná pověst.   ',
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 105,
+              odkazPodkategorie: 5,
+              odkazKategorie: "smircikrize",
+              odkazKde: "pozn",
+              predOdkazem: "Tento kámen je vzdálen zhruba 100 metrů od kamene ",
+              textOdkazu: "Bukovice 2",
+              zaOdkazem: ", se kterým ho pojí stejná pověst.",
+            },
+          ],           
+          naposledObnoveno : ' 16.12.2020 ',
+          galerie: 
+          [ 
+          {fotka: 'bukovice3-1.jpg' , datum: 'říjen 2020'},
+          {fotka: 'bukovice3-2.jpg' , datum: 'říjen 2020'},
+          
+          ],
+          proMe:'  XX/1091  24-143-43  20---103   ',     
+          },
+          {
+            id:107 ,
+            kategorie: 'smircikrize',  
+            oblast: '  Na západ ',
+            jmeno: '  Níhov    ',
+            podkategorie:  5 ,
+            okres: ' Brno - venkov  ',
+            obec: '  Níhov  ',
+            cislo: ' ----   ',
+            kdeSeNaleza:'  Na S od Níhova na křižovatce silnic.  ', 
+            popis:'  Novodobá záležitost. Na kamenné desce vysoké 0,7 metru je reliéf jetelového kříže.  ',      
+            napis: '     ',
+            povest: '    ',            
+            odkazy:[   ],
+            pozn: '  Kříž vznikl údajně roku 2015. Možná souvisí se vznikem křížové cesty na blízký vrch Chocholu, kterou zhotovil bítešský sochař Lubomír Lacina.   ',
+            naposledObnoveno : ' 16.12.2020 ',
+            galerie: 
+            [ 
+            {fotka: 'nihov1.jpg' , datum: 'srpen 2020'},
+            {fotka: 'nihov2.jpg' , datum: 'srpen 2020'},
+            
+            ],
+            proMe:'  XX/1080  24-312-95  20---084   ',     
+            },
+            
+            
+          
+        
+        
+      
+      
   ],
 };

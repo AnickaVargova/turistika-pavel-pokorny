@@ -58,7 +58,7 @@
 
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Číslo v evidenci:</td>
-          <td> {{ clanek.cislo }}</td>
+          <td>{{ clanek.cislo }}</td>
         </tr>
         <tr
           v-if="
@@ -86,15 +86,25 @@
 
         <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>Kde se nachází?</td>
-          <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'popisCesty'">
+          <td
+            v-if="
+              clanek.vnitrniOdkazy &&
+                clanek.vnitrniOdkazy[0].odkazKde === 'popisCesty'
+            "
+          >
             <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
           </td>
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
-
+<!-- pridat logicky operator || pokud budou vnitrni odkazy na ruznych mistech, poslat do Klikaci informaci,kde Klikaci je, zobrazit jen odkazy, ktere tam patri -->
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Kde se nachází?</td>
-          <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'kdeSeNaleza'">
+          <td
+            v-if="
+              clanek.vnitrniOdkazy &&
+                clanek.vnitrniOdkazy[0].odkazKde === 'kdeSeNaleza'
+            "
+          >
             <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
           </td>
           <td v-else>{{ clanek.kdeSeNaleza }}</td>
@@ -112,7 +122,12 @@
         </tr>
         <tr>
           <td>Nápis:</td>
-           <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'napis'">
+          <td
+            v-if="
+              clanek.vnitrniOdkazy &&
+                clanek.vnitrniOdkazy[0].odkazKde === 'napis'
+            "
+          >
             <Klikaci v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.napis }}</td>
@@ -120,12 +135,20 @@
 
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Pověst:</td>
-          <td>{{ clanek.povest }}</td>
+          <td v-if="clanek.vnitrniOdkazy && clanek.vnitrniOdkazy[0].odkazKde === 'povest'">
+            <Klikaci v-bind:clanek="clanek"/>
+          </td>
+          <td v-else>{{ clanek.povest }}</td>
         </tr>
 
         <tr>
           <td>Poznámka:</td>
-          <td v-if="clanek.vnitrniOdkaz && clanek.odkazKde === 'pozn'">
+          <td
+            v-if="
+              clanek.vnitrniOdkazy &&
+                clanek.vnitrniOdkazy[0].odkazKde === 'pozn'
+            "
+          >
             <Klikaci v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.pozn }}</td>
