@@ -3733,6 +3733,10 @@ export default {
           nazev:
             " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 52  ",
         },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 260.  ",
+        },
       ],
       pozn: "  Původně stával v zahradě nedaleko dnešního místa.   ",
       naposledObnoveno: " 15.12.2020 ",
@@ -3912,35 +3916,36 @@ export default {
       ],
       pozn:
         " Je možné, že se jedná o vzácný nález románského náhrobku.  Ve stejné ohradní zdi jsou i kameny 1784 Újezd 2,  1783 Újezd 1 a 1786 Újezd 4.   ",
-        vnitrniOdkazy: [
-          {
-            vnitrniOdkaz: 101,
-            odkazPodkategorie: 2,
-            odkazKategorie: "smircikrize",
-            odkazKde: "pozn",
-            predOdkazem: "Je možné, že se jedná o vzácný nález románského náhrobku. Ve stejné ohradní zdi jsou i kameny ",
-            textOdkazu: "1784 Újezd 2",
-            zaOdkazem: "",
-          },
-          {
-            vnitrniOdkaz: 100,
-            odkazPodkategorie: 2,
-            odkazKategorie: "smircikrize",
-            odkazKde: "pozn",
-            predOdkazem: ",  ",
-            textOdkazu: "1783 Újezd 1",
-            zaOdkazem: " a ",
-          },
-          {
-            vnitrniOdkaz: 103,
-            odkazPodkategorie: 2,
-            odkazKategorie: "smircikrize",
-            odkazKde: "pozn",
-            predOdkazem: "",
-            textOdkazu: "1786 Újezd 4",
-            zaOdkazem: ".",
-          },
-        ],
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 101,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem:
+            "Je možné, že se jedná o vzácný nález románského náhrobku. Ve stejné ohradní zdi jsou i kameny ",
+          textOdkazu: "1784 Újezd 2",
+          zaOdkazem: "",
+        },
+        {
+          vnitrniOdkaz: 100,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: ",  ",
+          textOdkazu: "1783 Újezd 1",
+          zaOdkazem: " a ",
+        },
+        {
+          vnitrniOdkaz: 103,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "",
+          textOdkazu: "1786 Újezd 4",
+          zaOdkazem: ".",
+        },
+      ],
       naposledObnoveno: " 16.12.2020 ",
       galerie: [
         { fotka: "ujezd3-1.jpg", datum: "leden 2016" },
@@ -3977,163 +3982,188 @@ export default {
       ],
       pozn:
         "   Ve stejné ohradní zdi jsou i kameny 1784 Újezd 2,  1785 Újezd 3 a 1783 Újezd 1.   ",
-        vnitrniOdkazy: [
-          {
-            vnitrniOdkaz: 101,
-            odkazPodkategorie: 2,
-            odkazKategorie: "smircikrize",
-            odkazKde: "pozn",
-            predOdkazem: "Ve stejné ohradní zdi jsou i kameny ",
-            textOdkazu: "1784 Újezd 2",
-            zaOdkazem: "",
-          },
-          {
-            vnitrniOdkaz: 102,
-            odkazPodkategorie: 2,
-            odkazKategorie: "smircikrize",
-            odkazKde: "pozn",
-            predOdkazem: ",  ",
-            textOdkazu: "1785 Újezd 3",
-            zaOdkazem: " a ",
-          },
-          {
-            vnitrniOdkaz: 100,
-            odkazPodkategorie: 2,
-            odkazKategorie: "smircikrize",
-            odkazKde: "pozn",
-            predOdkazem: "",
-            textOdkazu: "1786 Újezd 1",
-            zaOdkazem: ".",
-          },
-        ],
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 101,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "Ve stejné ohradní zdi jsou i kameny ",
+          textOdkazu: "1784 Újezd 2",
+          zaOdkazem: "",
+        },
+        {
+          vnitrniOdkaz: 102,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: ",  ",
+          textOdkazu: "1785 Újezd 3",
+          zaOdkazem: " a ",
+        },
+        {
+          vnitrniOdkaz: 100,
+          odkazPodkategorie: 2,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "",
+          textOdkazu: "1786 Újezd 1",
+          zaOdkazem: ".",
+        },
+      ],
       naposledObnoveno: " 16.12.2020 ",
       galerie: [{ fotka: "ujezd4.jpg", datum: "leden 2016" }],
       proMe: "   XIX/886  24-144-21  16---014   ",
     },
     {
       id: 104,
-      kategorie: 'smircikrize',  
-      oblast: '  Na západ ',
-      jmeno: '   Rojetín   ',
-      podkategorie:   5,
-      okres: ' Brno - venkov  ',
-      obec: '  Rojetín  ',
-      cislo: '  ----  ',
-      kdeSeNaleza:' Na V od Rojetína, na hřbetu nad Libochovkou, v ostrém zalomení značené cesty.   ', 
-      popis:'  Kamenná deska lichoběžníkového tvaru, vysoká 0,6 metru. Do ní amatérsky zahlouben latinský kříž.   ',      
-      napis: '     ',
-      povest: '    ',            
-      odkazy:  [{nazev: '   '},],
-      pozn: '     ',
-      naposledObnoveno : ' 16.12.2020 ',
-      galerie: 
-      [ 
-      {fotka: 'rojetin1.jpg' , datum: 'únor 2011'},
-      {fotka: 'rojetin2.jpg' , datum: 'květen 2020'},
-      {fotka: 'rojetin3.jpg' , datum: 'květen 2020'},
-      
+      kategorie: "smircikrize",
+      oblast: "  Na západ ",
+      jmeno: "   Rojetín   ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "  Rojetín  ",
+      cislo: "  ----  ",
+      kdeSeNaleza:
+        " Na V od Rojetína, na hřbetu nad Libochovkou, v ostrém zalomení značené cesty.   ",
+      popis:
+        "  Kamenná deska lichoběžníkového tvaru, vysoká 0,6 metru. Do ní amatérsky zahlouben latinský kříž.   ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [{ nazev: "   " }],
+      pozn: "     ",
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [
+        { fotka: "rojetin1.jpg", datum: "únor 2011" },
+        { fotka: "rojetin2.jpg", datum: "květen 2020" },
+        { fotka: "rojetin3.jpg", datum: "květen 2020" },
       ],
-      proMe:'  XVIII/692  24-134-15  11---021  20---051   ',     
-      },
-      {
-        id: 105,
-        kategorie: 'smircikrize',  
-        oblast: '  Na sever ',
-        jmeno: '  Bukovice 2    ',
-        podkategorie:  5 ,
-        okres: ' Brno - venkov  ',
-        obec: ' Bukovice    ',
-        cislo: '  1978  ',
-        kdeSeNaleza:'  Na návsi u kapličky. Zřejmě původní stanoviště kamene.   ', 
-        popis:'  Hrubě opracovaný pískovcový kámen je vysoký 0,6 metru. Shora je silně poškozen. Z něho málo znatelně vystupuje reliéf golgotského kříže.   ',      
-        napis: '     ',
-        povest: '  Týká se i nedalekého kamene Bukovice 3. Při souboji dvou duelantů o dívku zemřeli oba dva.    ', 
-        vnitrniOdkazy: [
-          {
-            vnitrniOdkaz: 106,
-            odkazPodkategorie: 5,
-            odkazKategorie: "smircikrize",
-            odkazKde: "povest",
-            predOdkazem: "Týká se i nedalekého kamene ",
-            textOdkazu: "Bukovice 3",
-            zaOdkazem: ". Při souboji dvou duelantů o dívku zemřeli oba dva.",
-          },
-        ],           
-        odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bukovice.html  '}, {nazev: ' smírčí kameny  ', adresa:' http://www.smircikrize.cz/bukovice.htm  '}, {nazev: ' Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 44  '},  {nazev: ' Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko.2001. str. 17  '},  {nazev: '   '},],
-        pozn: '     ',
-        naposledObnoveno : ' 16.12.2020 ',
-        galerie: 
-        [ 
-        {fotka: 'bukovice2.jpg' , datum: 'říjen 2020'},
-        
-        ],
-        proMe:'  2002/428  24-143-12  20---103   ',     
+      proMe: "  XVIII/692  24-134-15  11---021  20---051   ",
+    },
+    {
+      id: 105,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "  Bukovice 2    ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: " Bukovice    ",
+      cislo: "  1978  ",
+      kdeSeNaleza:
+        "  Na návsi u kapličky. Zřejmě původní stanoviště kamene.   ",
+      popis:
+        "  Hrubě opracovaný pískovcový kámen je vysoký 0,6 metru. Shora je silně poškozen. Z něho málo znatelně vystupuje reliéf golgotského kříže.   ",
+      napis: "     ",
+      povest:
+        "  Týká se i nedalekého kamene Bukovice 3. Při souboji dvou duelantů o dívku zemřeli oba dva.    ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 106,
+          odkazPodkategorie: 5,
+          odkazKategorie: "smircikrize",
+          odkazKde: "povest",
+          predOdkazem: "Týká se i nedalekého kamene ",
+          textOdkazu: "Bukovice 3",
+          zaOdkazem: ". Při souboji dvou duelantů o dívku zemřeli oba dva.",
+        },
+      ],
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bukovice.html  ",
         },
         {
-          id: 106,
-          kategorie: 'smircikrize',  
-          oblast: '  Na sever ',
-          jmeno: '   Bukovice 3   ',
-          podkategorie:   2,
-          okres: ' Brno - venkov  ',
-          obec: '  Bukovice  ',
-          cislo: '  1979  ',
-          kdeSeNaleza:'  Na soukromém pozemku, na konci zahrady domu č. p. 3.   ', 
-          popis:' Kamenná deska vysoká 0,7 metru má zkosené rohy. Na straně k plotu slabě vystupuje reliéf řeckého kříže.   ',      
-          napis: '     ',
-          povest: ' Dva šlechtici nebo lesníci se tu utkali v souboji o dívku a oba zemřeli v souboji.   ',            
-          odkazy:[{nazev: ' euweb  ', adresa:' http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bukovice.html  '}, {nazev: ' smírčí kameny  ', adresa:' http://www.smircikrize.cz/bukovice.htm  '}, {nazev: ' Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 44  '},  {nazev: ' Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 18  '},  {nazev: '   '},],
-          pozn: '  Tento kámen je vzdálen zhruba 100 metrů od kamene Bukovice 2, se kterým ho pojí stejná pověst.   ',
-          vnitrniOdkazy: [
-            {
-              vnitrniOdkaz: 105,
-              odkazPodkategorie: 5,
-              odkazKategorie: "smircikrize",
-              odkazKde: "pozn",
-              predOdkazem: "Tento kámen je vzdálen zhruba 100 metrů od kamene ",
-              textOdkazu: "Bukovice 2",
-              zaOdkazem: ", se kterým ho pojí stejná pověst.",
-            },
-          ],           
-          naposledObnoveno : ' 16.12.2020 ',
-          galerie: 
-          [ 
-          {fotka: 'bukovice3-1.jpg' , datum: 'říjen 2020'},
-          {fotka: 'bukovice3-2.jpg' , datum: 'říjen 2020'},
-          
-          ],
-          proMe:'  XX/1091  24-143-43  20---103   ',     
-          },
-          {
-            id:107 ,
-            kategorie: 'smircikrize',  
-            oblast: '  Na západ ',
-            jmeno: '  Níhov    ',
-            podkategorie:  5 ,
-            okres: ' Brno - venkov  ',
-            obec: '  Níhov  ',
-            cislo: ' ----   ',
-            kdeSeNaleza:'  Na S od Níhova na křižovatce silnic.  ', 
-            popis:'  Novodobá záležitost. Na kamenné desce vysoké 0,7 metru je reliéf jetelového kříže.  ',      
-            napis: '     ',
-            povest: '    ',            
-            odkazy:[   ],
-            pozn: '  Kříž vznikl údajně roku 2015. Možná souvisí se vznikem křížové cesty na blízký vrch Chocholu, kterou zhotovil bítešský sochař Lubomír Lacina.   ',
-            naposledObnoveno : ' 16.12.2020 ',
-            galerie: 
-            [ 
-            {fotka: 'nihov1.jpg' , datum: 'srpen 2020'},
-            {fotka: 'nihov2.jpg' , datum: 'srpen 2020'},
-            
-            ],
-            proMe:'  XX/1080  24-312-95  20---084   ',     
-            },
-            
-            
-          
-        
-        
-      
-      
+          nazev: " smírčí kameny  ",
+          adresa: " http://www.smircikrize.cz/bukovice.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 44  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko.2001. str. 17  ",
+        },
+        { nazev: "   " },
+      ],
+      pozn: "     ",
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [{ fotka: "bukovice2.jpg", datum: "říjen 2020" }],
+      proMe: "  2002/428  24-143-12  20---103   ",
+    },
+    {
+      id: 106,
+      kategorie: "smircikrize",
+      oblast: "  Na sever ",
+      jmeno: "   Bukovice 3   ",
+      podkategorie: 2,
+      okres: " Brno - venkov  ",
+      obec: "  Bukovice  ",
+      cislo: "  1979  ",
+      kdeSeNaleza: "  Na soukromém pozemku, na konci zahrady domu č. p. 3.   ",
+      popis:
+        " Kamenná deska vysoká 0,7 metru má zkosené rohy. Na straně k plotu slabě vystupuje reliéf řeckého kříže.   ",
+      napis: "     ",
+      povest:
+        " Dva šlechtici nebo lesníci se tu utkali v souboji o dívku a oba zemřeli v souboji.   ",
+      odkazy: [
+        {
+          nazev: " euweb  ",
+          adresa:
+            " http://smircikrize.euweb.cz/Ceska_Republika/Brno_venkov/Bukovice.html  ",
+        },
+        {
+          nazev: " smírčí kameny  ",
+          adresa: " http://www.smircikrize.cz/bukovice.htm  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 44  " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 18  ",
+        },
+        { nazev: "   " },
+      ],
+      pozn:
+        "  Tento kámen je vzdálen zhruba 100 metrů od kamene Bukovice 2, se kterým ho pojí stejná pověst.   ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 105,
+          odkazPodkategorie: 5,
+          odkazKategorie: "smircikrize",
+          odkazKde: "pozn",
+          predOdkazem: "Tento kámen je vzdálen zhruba 100 metrů od kamene ",
+          textOdkazu: "Bukovice 2",
+          zaOdkazem: ", se kterým ho pojí stejná pověst.",
+        },
+      ],
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [
+        { fotka: "bukovice3-1.jpg", datum: "říjen 2020" },
+        { fotka: "bukovice3-2.jpg", datum: "říjen 2020" },
+      ],
+      proMe: "  XX/1091  24-143-43  20---103   ",
+    },
+    {
+      id: 107,
+      kategorie: "smircikrize",
+      oblast: "  Na západ ",
+      jmeno: "  Níhov    ",
+      podkategorie: 5,
+      okres: " Brno - venkov  ",
+      obec: "  Níhov  ",
+      cislo: " ----   ",
+      kdeSeNaleza: "  Na S od Níhova na křižovatce silnic.  ",
+      popis:
+        "  Novodobá záležitost. Na kamenné desce vysoké 0,7 metru je reliéf jetelového kříže.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [],
+      pozn:
+        "  Kříž vznikl údajně roku 2015. Možná souvisí se vznikem křížové cesty na blízký vrch Chocholu, kterou zhotovil bítešský sochař Lubomír Lacina.   ",
+      naposledObnoveno: " 16.12.2020 ",
+      galerie: [
+        { fotka: "nihov1.jpg", datum: "srpen 2020" },
+        { fotka: "nihov2.jpg", datum: "srpen 2020" },
+      ],
+      proMe: "  XX/1080  24-312-95  20---084   ",
+    },
   ],
 };
