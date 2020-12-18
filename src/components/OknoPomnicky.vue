@@ -191,7 +191,7 @@
         </tr>
         <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>
-            <button class="pomnicekKategorie" v-on:click="ukazMapu(clanek.id)">
+            <button class="pomnicekKategorie" v-bind:style="{padding:'2%', height: '40px', paddingLeft: '10%'}" v-on:click="ukazMapu(clanek.id)">
               Ukázat na mapě
             </button>
           </td>

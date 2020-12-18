@@ -380,13 +380,13 @@
   .pomnicekKategorie {
     border: 2px solid black;
     margin: 3px;
-    height: 40px;
+    height: 35px;
     font-weight: bold;
     color: black;
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
-    padding: 2%;
+    padding: 0 2%;
     padding-left: 10%;
     align-items: center;
     text-transform: uppercase;

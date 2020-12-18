@@ -37,6 +37,9 @@
   }
 
    #domuOnas {
+    padding: 2%;
+    height: 40px; 
+    padding-left: 10%;
     margin-bottom: 40px;
     width: 80px;
     height: 20px;
