@@ -8,12 +8,12 @@
     </div>
     <div
       v-if="innerParams.transbox"
-      v-bind:style="{backgroundColor: innerParams.transbox}"
+      v-bind:style="{ backgroundColor: innerParams.transbox }"
       id="transbox1"
     ></div>
     <div v-else id="transbox1"></div>
     <h1>{{ innerParams.nadpis }}</h1>
- 
+
     <AbecedniSeznam
       v-if="
         (innerParams.stranka === 'pomnicky' ||
@@ -26,7 +26,7 @@
       v-bind:stranka="innerParams.stranka"
       id="abecedniSeznam"
     />
-    
+
     <div
       v-if="innerWidth > 600 || (innerWidth <= 600 && !menuUkazat)"
       v-bind:class="{
@@ -107,7 +107,7 @@
                 pomnicekMenu: true,
               }"
             >
-              {{ kategorie.nazev }} ({{kategorie.pocet}})
+              {{ kategorie.nazev }} ({{ kategorie.pocet }})
             </div>
           </router-link>
         </div>
@@ -141,7 +141,7 @@
               pomnicekMenu: true,
             }"
           >
-           {{ kategorie.nazev }} ({{kategorie.pocet}})
+            {{ kategorie.nazev }} ({{ kategorie.pocet }})
           </div>
         </router-link>
       </div>
@@ -204,11 +204,8 @@
         seznamUkazat: true,
         innerWidth: window.innerWidth,
         menuColumn: false,
-       
       };
     },
-
-    
 
     methods: {
       vyfiltrujPomnicek(id) {
@@ -236,17 +233,24 @@
       },
 
       seradClanky() {
-        for (let clanek of this.clankyPodKategorie) {
-          if (!clanek.jmeno) {
-            clanek.jmeno = clanek.nazev;
+        if (this.$route.name === "Vypraveni") {
+         
+            this.clankyPodKategorie=this.clankyPodKategorie.sort((a,b)=>b.datum.slice(-4)-a.datum.slice(-4));
+          
+         
+        } else {
+          for (let clanek of this.clankyPodKategorie) {
+            if (!clanek.jmeno) {
+              clanek.jmeno = clanek.nazev;
+            }
           }
-        }
 
-        this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
-          return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
-            sensitivity: "accent",
+          this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
+            return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
+              sensitivity: "accent",
+            });
           });
-        });
+        }
       },
 
       toggleMenu() {
@@ -294,9 +298,8 @@
         );
       }
 
-     
       this.seradClanky();
-     
+
       this.vybraneId = this.$route.params.kategorie;
       if (this.clankyPodKategorie.length === 0) {
         this.clankyPodKategorie = null;
@@ -436,12 +439,6 @@
   #pomnicky .pomnicekKategorie.responsive {
     display: flex;
   }
-
-  /* @media(max-width: 600px){
-    #pomnicky .pomnicekKategorie.responsive {
-      display: none;
-    }
-  } */
 
   .pomnicekKategorie:hover,
   .domu:hover,

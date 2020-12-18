@@ -1622,7 +1622,7 @@ export default {
         {
           vnitrniOdkaz: 44,
           odkazKategorie: "vypraveni",
-          odkazPodkategorie: 18,
+          odkazPodkategorie: 1,
           odkazKde: "pozn",
           predOdkazem:
             " Na pomníčku byl původně vytesáno do desky jméno Ozada, tímto jménem byl pomník označován ve starších mapách. Pozor, poloha v mapách je často zakreslena chybně. V poslední době byla zašlá deska vyčištěna, nápis obtažen barvou a jméno změněno na Czada, což asi odpovídá skutečnosti. Viz též ",
@@ -1645,8 +1645,7 @@ export default {
       id: 44,
       datum: "prosinec 2003",
       kategorie: "vypraveni",
-      jmeno: "Czada, Robert",
-      podkategorie: 18,
+      podkategorie: 1,
       nazev: "Jak jsem hledal Ozadovu památku",
       text: [
         {

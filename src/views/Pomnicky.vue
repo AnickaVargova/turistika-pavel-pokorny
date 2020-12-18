@@ -34,7 +34,7 @@
             { id: 12, nazev: "Jeskyňářské", pocet: undefined },
             { id: 13, nazev: "Trampské objekty", pocet: undefined },
             { id: 14, nazev: "Lichtenštejnské", pocet: undefined },
-            { id: 15, nazev: "Církevní", pocet: undefined },
+            { id: 15, nazev: "Sakrální", pocet: undefined },
             { id: 16, nazev: "Jiné nezařaditelné", pocet: undefined },
             { id: 17, nazev: "Zaniklé", pocet: undefined },
           ],
