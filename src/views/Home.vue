@@ -175,7 +175,7 @@
     grid-column: 1/7;
     grid-row-end: 4;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
       }
 
   #pozadi img {
