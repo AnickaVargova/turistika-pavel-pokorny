@@ -39,15 +39,15 @@
     </footer>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
-      <router-link to="/pomnicky">Pomníčky </router-link>
+      <router-link to="/pomnicky">Pomníčky ({{pocetPomnicku}}) </router-link>
 
       <!-- <router-link to="/studanky">Studánky </router-link> -->
 
-      <router-link to="/smircikrize">Smírčí kříže </router-link>
+      <router-link to="/smircikrize">Smírčí kříže ({{pocetKrizu}})</router-link>
 
-      <router-link to="/cesty/1">Cesty </router-link>
+      <router-link to="/cesty/1">Cesty ({{pocetCest}})</router-link>
 
-      <router-link to="/vypraveni">Vyprávění</router-link>
+      <router-link to="/vypraveni">Vyprávění ({{pocetVypraveni}})</router-link>
 
       <router-link to="/onas">O nás</router-link>
 
@@ -74,10 +74,15 @@
 </template>
 
 <script>
+  import clanky from './../components/clanky.js';
   export default {
     data() {
       return {
         responsive: false,
+        pocetPomnicku: 0,
+        pocetKrizu: 0,
+        pocetCest: 0,
+        pocetVypraveni: 0,
       };
     },
 
@@ -86,6 +91,23 @@
         this.responsive = !this.responsive;
       },
     },
+    created(){
+      for(let clanek of clanky.data){
+        if(clanek.kategorie==='pomnicky'){
+          this.pocetPomnicku++;
+        }
+        else if(clanek.kategorie==='smircikrize'){
+          this.pocetKrizu++;
+        }
+         else if(clanek.kategorie==='cesty'){
+          this.pocetCest++;
+        }
+         else if(clanek.kategorie==='vypraveni'){
+          this.pocetVypraveni++;
+        }
+      }
+      console.log(this.pocetCest);
+    }
   };
 </script>
 

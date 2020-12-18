@@ -14,7 +14,7 @@
         params: {
           nadpis: "Cesty",
           uvodniText: [
-            "Tady bude uvodni text.Lorem ipsum dolor sit amet consectetur adipisicin elit. Dignissimos suscipit fuga natus, delectus autem voluptates? Consequuntur vitae minus quae dignissimos aspernatur, veniam perferendisofficiis, veritatis dolor ipsum impedit laudantium! Nihil?"],
+            "Tady zatím nic není, cesty postupně doplníme."],
 
           kategoriePomnicky: [
             { id: 1, nazev: 2020 },
