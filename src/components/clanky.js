@@ -1005,7 +1005,7 @@ export default {
       druh: " Jeskyňářské  ",
       okres: " Blansko ",
       obec: " Habrůvka ",
-      jmeno: " Marie Terezie ",
+      jmeno: "  František II., císař  ",
       nazev: " Dvě historické desky v Býčí skále ",
       kdyVznikl: " po roce 1801 a v roce 1804 ",
       popisCesty:
@@ -1023,8 +1023,8 @@ export default {
           nazev: "Jiří Truhlář: Památníky adamovských lesů, 2003, str. 152-154",
         },
       ],
-      pozn: " Jeskyně bývá přístupná veřejnosti jedenkrát ročně v červnu.  ",
-      naposledObnoveno: " 17.11.2020 ",
+      pozn: " Jeskyně bývá přístupná veřejnosti jedenkrát ročně v červnu. Císař rakouský František II. (1768 - 1835) vládl Rakousku v letech 1792 - 1835 ,jeho manželkou byla Marie Tereza Neapolsko-sicilská (1772 - 1807).  Oba byli vnuci Marie Terezie, bratranec si vzal sestřenici.",
+      naposledObnoveno: "  19.12.2020  ",
       souradnice: "49.3074614N, 16.6947844E",
       kodMapa:
         '<iframe style="border:none" src="https://frame.mapy.cz/s/dugugupolo" width="400" height="280" frameborder="0"></iframe>',
