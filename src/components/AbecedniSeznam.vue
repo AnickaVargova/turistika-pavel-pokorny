@@ -99,14 +99,14 @@
 
   @media (max-width: 600px) {
     #abecedniSeznam {
-      grid-row-start: 4;
+      grid-row: 4/5;
       grid-column: 1/7;
       align-items: center;
       flex-wrap: nowrap;
     }
 
     #abecedniSeznam {
-      max-height: auto;
+      max-height: unset;
       max-width: 100vw;
     }
 

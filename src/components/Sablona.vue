@@ -12,7 +12,11 @@
       id="transbox1"
     ></div>
     <div v-else id="transbox1"></div>
-    <h1>{{ innerParams.nadpis }}</h1>
+    <h1>
+      <a name="top"></a>
+
+      {{ innerParams.nadpis }}
+    </h1>
 
     <AbecedniSeznam
       v-if="
@@ -45,20 +49,15 @@
       </p>
     </div>
 
-    <div class="pomnickyNavigace">
-      <router-link
-        to="/"
-        v-bind:class="{
-          domu: true,
-          pomnicekKategorie: true,
-          kategorieTextCenter:
-            innerParams.stranka === 'cesty' ||
-            innerParams.stranka === 'vypraveni',
-        }"
-      >
-        Domů
-      </router-link>
+    <router-link to="/" id="tlacitkoDomu" class="pomnicekKategorie">
+      Úvodní strana
+    </router-link>
 
+    <a href="#top" id="odkazNahoru">
+      <button id="tlacitkoNahoru" class="pomnicekKategorie">Nahoru</button>
+    </a>
+
+    <div class="pomnickyNavigace">
       <div
         v-on:click="toggleSeznam"
         class="pomnicekKategorie domu"
@@ -234,10 +233,9 @@
 
       seradClanky() {
         if (this.$route.name === "Vypraveni") {
-         
-            this.clankyPodKategorie=this.clankyPodKategorie.sort((a,b)=>b.datum.slice(-4)-a.datum.slice(-4));
-          
-         
+          this.clankyPodKategorie = this.clankyPodKategorie.sort(
+            (a, b) => b.datum.slice(-4) - a.datum.slice(-4)
+          );
         } else {
           for (let clanek of this.clankyPodKategorie) {
             if (!clanek.jmeno) {
@@ -316,15 +314,17 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     min-height: 100vh;
+    grid-template-rows: minmax(min-content, 150px) auto auto auto;
   }
 
   .large {
     grid-column: 1/7 !important;
+    grid-row: 3/4 !important;
     margin: 30px;
   }
 
   .bezTextu {
-    grid-row: 2/20 !important;
+    grid-row: 2/5 !important;
   }
 
   #pomnicky h1 {
@@ -345,16 +345,16 @@
 
   @media screen and (max-width: 600px) {
     #pomnicky {
-      /* grid-template-rows: repeat(16, 60px); */
-      grid-template-rows: auto;
+       grid-template-rows: minmax(min-content, 150px) minmax(min-content, 50px) auto auto;
     }
+
     #pomnicky h1 {
       grid-row: 2/3;
       grid-column: 1/7;
       padding-top: 30px;
       font-size: 30px;
       margin: 0;
-      margin-top: 50px;
+      /* margin-top: 50px; */
       padding: 0;
     }
 
@@ -370,7 +370,7 @@
 
   .pomnickyNavigace {
     grid-column: 1/2;
-    grid-row: 1/17;
+    grid-row: 1/5;
     margin: 23px;
     display: flex;
     flex-direction: column;
@@ -406,9 +406,40 @@
 
   #kategorieMobil {
     grid-row: 3/4;
-    grid-column: 1/2;
+    grid-column: 1/4;
     margin-top: 20px;
-    min-width: 170px !important;
+  }
+
+  #tlacitkoDomu {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    min-width: unset;
+    max-width: unset;
+    width: 176px !important;
+    padding: 0 10px;
+    height: 35px;
+    background-color: rgb(32, 190, 195);
+  }
+
+  #odkazNahoru {
+    grid-column: 6/7;
+    grid-row: 1/2;
+  }
+
+  #tlacitkoNahoru {
+    position: fixed;
+    top: 60px;
+    margin-top: 10px;
+    right: 20px;
+    min-width: unset;
+    max-width: unset;
+    width: 200px !important;
+    padding: 0 10px;
+    height: 35px;
+    background-color: rgb(32, 190, 195);
   }
 
   @media (max-width: 600px) {
@@ -423,8 +454,26 @@
     .domu,
     #seznam,
     .ukazMenu {
-      height: 40px !important;
+      height: 45px !important;
       flex-basis: 30%;
+    }
+
+    #tlacitkoDomu,
+    #tlacitkoNahoru {
+      height: 45px;
+
+      left: 270px;
+      right: unset;
+    }
+
+    #tlacitkoDomu {
+      top: 10px;
+      width: 70px !important;
+    }
+
+    #tlacitkoNahoru {
+      top: 60px;
+      width: 94px !important;
     }
 
     #pomnicky .pomnicekKategorie.pomnicekMenu {
@@ -498,25 +547,22 @@
   #pozadi1 {
     grid-column: 1 / 7;
     grid-row-start: 1;
-    grid-row-end: 80;
+    grid-row-end: 5;
     width: 100vw;
+    height: 100%;
   }
   #transbox1 {
     grid-column: 1 / 7;
-    grid-row: 1 / 80;
+    grid-row: 1 / 5;
     width: 100vw;
+    height: 100%;
     background-color: rgba(220, 241, 240, 0.5);
     margin-right: 0;
   }
 
-  @media (max-width: 600px) {
-    #pozadi1 {
-      height: 250vh;
-    }
-  }
   #pomnicky .kontejner {
     grid-column: 2/7;
-    grid-row: 4/20;
+    grid-row: 4/5;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -532,7 +578,7 @@
   @media (max-width: 600px) {
     #pomnicky .kontejner {
       grid-column: 1/7;
-      grid-row: 6/20;
+      /* grid-row: 6/20; */
       width: 100vw;
       font-size: 15px;
       margin: 0;
