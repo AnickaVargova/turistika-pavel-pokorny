@@ -170,15 +170,18 @@
     margin: 5%;
     margin-bottom: 0;
     text-align: justify;
+    color:#1e0b3d;
   }
 
   #uvodniText h1 {
     font-size: 40px;
+    color:#1e0b3d
   }
 
   #uvodniText h2 {
     font-family: "Patrick Hand", cursive;
-    color: #2c3e50;
+    color:#1e0b3d;
+    /* color: #2c3e50; */
   }
 
    #pozadi {
@@ -199,7 +202,8 @@
     grid-row: 1 / 4;
     width: 100vw;
     height: 100%;
-    background-color: rgba(178, 203, 223, 0.7);
+    background-color: rgba(246, 244, 250, 0.7);
+    /* background-color: rgba(178, 203, 223, 0.7); */
     margin-right: 0;
   }
 
@@ -208,16 +212,16 @@
     grid-column: 1/6;
     margin: 0 0 20px 20px;
     padding-top: 40px;
-    color: black;
+    color: #1e0b3d;
   }
 
   footer a {
-    color: black;
+    color:#1e0b3d;
     text-decoration: underline;
   }
 
   footer a:hover {
-    color: rgb(34, 32, 32);
+    color: rgb(69, 67, 71);
   }
 
 
@@ -289,8 +293,10 @@
     align-items: center;
     text-transform: uppercase;
     box-shadow: 5px 2px 2px #395250;
-    background-color: #6bc5aa;
+    background-color: #7695dd;
+    /* background-color: #6bc5aa; */
     color: #13131d;
+   
   }
 
   @media (max-width: 600px) {

@@ -1005,7 +1005,7 @@ export default {
       druh: " Jeskyňářské  ",
       okres: " Blansko ",
       obec: " Habrůvka ",
-      jmeno: "  František II., císař  ",
+      jmeno: "František II., císař  ",
       nazev: " Dvě historické desky v Býčí skále ",
       kdyVznikl: " po roce 1801 a v roce 1804 ",
       popisCesty:
