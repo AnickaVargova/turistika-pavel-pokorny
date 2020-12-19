@@ -149,8 +149,8 @@
     -moz-osx-font-smoothing: grayscale;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 10% auto 12%;
-    height: 100vh;
+    grid-template-rows: minmax(min-content, 100px) auto minmax(min-content, 100px);
+    min-height: 100vh;
     margin: 0;
     padding: 0;
   }
@@ -181,18 +181,7 @@
     color: #2c3e50;
   }
 
-  @media (max-width: 600px) {
-    #uvodniText {
-      grid-column: 1/6;
-      padding: 5%;
-    }
-
-    #uvodniText h1 {
-      font-size: 30px;
-    }
-  }
-
-  #pozadi {
+   #pozadi {
     grid-row-start: 1;
     grid-column: 1/7;
     grid-row-end: 4;
@@ -213,6 +202,53 @@
     background-color: rgba(178, 203, 223, 0.7);
     margin-right: 0;
   }
+
+   footer {
+    grid-row: 3/4;
+    grid-column: 1/6;
+    margin: 0 0 20px 20px;
+    padding-top: 40px;
+    color: black;
+  }
+
+  footer a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  footer a:hover {
+    color: rgb(34, 32, 32);
+  }
+
+
+  @media (max-width: 600px) {
+    .home {
+      grid-template-rows: minmax(min-content, 100px) auto minmax(min-content, 100px) minmax(min-content, 100px);
+    }
+
+    #uvodniText {
+      grid-column: 1/6;
+      padding: 5%;
+    }
+
+    #uvodniText h1 {
+      font-size: 30px;
+    }
+
+    #pozadi {
+      grid-row: 1/5;
+    }
+
+    #transbox {
+      grid-row: 1/5;
+    }
+
+    footer {
+      grid-row: 4/5;
+    }
+  }
+
+ 
 
   @media (max-width: 900px) {
     #pozadi {
@@ -287,20 +323,7 @@
     background-color: #30524f;
   }
 
-  footer {
-    grid-row: 3/4;
-    grid-column: 1/6;
-    margin: 0 0 20px 20px;
-    padding-top: 40px;
-    color: black;
-  }
+ 
 
-  footer a {
-    color: black;
-    text-decoration: underline;
-  }
 
-  footer a:hover {
-    color: rgb(34, 32, 32);
-  }
 </style>
