@@ -1825,7 +1825,7 @@ export default {
         { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 52. " },
       ],
       pozn:
-        " Původně stával na malém kopečku u vsi Kniničky, která skončila na dně přehrady.",
+        " Původně stával na malém kopečku u vsi Kníničky, která skončila na dně přehrady.",
       naposledObnoveno: " 25.11.2020 ",
       galerie: [
         { fotka: "kninicky1.jpg", datum: "listopad 2020" },
@@ -1844,7 +1844,7 @@ export default {
       cislo: " 1286  ",
       kdeSeNaleza: "  v Líšni u kostela na náměstí  ",
       popis:
-        "  Kamenná deska shora mírně zaoblená, vysoká asi 80 cm.  Do ní vyryt relief latinského kříže a pod ním lovecký tesák.  ",
+        "  Kamenná deska shora mírně zaoblená, vysoká asi 80 cm.  Do ní vyryt reliéf latinského kříže a pod ním lovecký tesák.  ",
       napis: "     ",
       povest: "    ",
       odkazy: [
@@ -1905,7 +1905,7 @@ export default {
       cislo: " 1752  ",
       kdeSeNaleza: "  Na Slovanském náměstí, v horní částí pod lípou.  ",
       popis:
-        " Nebyl to smírčí kámen. Na málo opracovaném pískovcovém kamenu vysokém půl metru v kovové ohrádce vystupoval neurčitý obrys, připomínající více kalich než tlapatý kříž, který v něm viděli nadšení hledači křížů v devadesátých letech.   ",
+        " Nebyl to smírčí kámen. Na málo opracovaném pískovcovém kamenu  v kovové ohrádce, vysokém půl metru, vystupoval neurčitý obrys, připomínající více kalich než tlapatý kříž, který v něm viděli nadšení hledači křížů v devadesátých letech.   ",
       napis: "  1415  1915 // 500  LET  UPÁLENÍ // MISTRA  JANA  HUSA   ",
       povest: "    ",
       odkazy: [
@@ -1941,7 +1941,7 @@ export default {
       cislo: " 0774  ",
       kdeSeNaleza: "  na ulici Minská u zastávky tramvaje   ",
       popis:
-        " Ohlazený žulový kámen vysoký 65 cm, z plochy vystupuje nezřetelný latinský kříž. Pro ochranu je obklopen pěti umělecky kroucenými železnými tyčemi   ",
+        " Ohlazený žulový kámen vysoký 65 cm, z plochy vystupuje nezřetelný latinský kříž. Pro ochranu je obklopen pěti umělecky kroucenými železnými tyčemi.   ",
       napis: "     ",
       povest: "    ",
       odkazy: [
@@ -1976,7 +1976,7 @@ export default {
         "  Pískovcová kamenná deska vysoká 1,2 metru je silně zvětralá. Do ní je vyryt latinský kříž s rozšířenou patou a vlevo neznámý předmět hákovitého tvaru.   ",
       napis: "     ",
       povest:
-        " Kámen stojí na místě, odkud se měl zřítit z skály koňský povoz. Jeho vozka přišel o život.   ",
+        " Kámen stojí na místě, odkud se měl zřítit ze skály koňský povoz. Jeho vozka přišel o život.   ",
       odkazy: [
         {
           nazev: " Smírčí kříže  ",
@@ -2006,7 +2006,7 @@ export default {
       okres: " Brno - venkov  ",
       obec: "Biskoupky   ",
       cislo: " 1658   ",
-      kdeSeNaleza: "  Na okraji vsi u cesty do Hrubšic  ",
+      kdeSeNaleza: "  Na okraji vsi u cesty do Hrubšic.  ",
       popis:
         "  Žulová deska vysoká 1,5 metru s odlomeným levým rohem. Do ní je hluboce vysekán latinský kříž.  ",
       napis: "     ",
@@ -2157,7 +2157,7 @@ export default {
       cislo: "  1292  ",
       kdeSeNaleza: "  Na plochém návrší v poli mezi Moravany a Modřicemi.   ",
       popis:
-        " Čtvercová kamenná deska vysoká 0,8 metru s nevýrazným reliefem řeckého kříže.   ",
+        " Čtvercová kamenná deska vysoká 0,8 metru s nevýrazným reliéfem řeckého kříže.   ",
       napis: "     ",
       povest: "    ",
       odkazy: [
@@ -2283,7 +2283,7 @@ export default {
       obec: " Bratčice   ",
       cislo: "  1985  ",
       kdeSeNaleza:
-        "  V části obce u silnice na Sobotovice, zazděn v cihlové zahradní zdi.  ",
+        "  Ve V části obce u silnice na Sobotovice, zazděn v cihlové zahradní zdi.  ",
       popis:
         " Kamenná deska vysoká 1,1 metru.  Do ní je zahlouben reliéf latinského kříže. Horní část desky se zdá být odlámána.   ",
       napis: "     ",
@@ -2442,7 +2442,7 @@ export default {
       okres: " Brno - venkov  ",
       obec: " Oslavany  ",
       cislo: "  1775  ",
-      kdeSeNaleza: " na SZ od Oslavan u lesní cesty.   ",
+      kdeSeNaleza: " Na SZ od Oslavan u lesní cesty.   ",
       popis:
         "  Skoro čtvercová kamenná deska vysoká 0,8 metru je shora odlomena. Z přední  strany je vytesán reliéf templářského kříže v orámování, ze zadní strany je obtížně čitelný text.   ",
       napis:
@@ -2544,7 +2544,7 @@ export default {
       cislo: "  1579  ",
       kdeSeNaleza: "  v JV části obce, 100 metrů od obecního úřadu  ",
       popis:
-        "  Plochá kamenná deska je vysoká skoro metr, do přední plochy byly zahloubeny čtyři prázdná pole mezi rameny a tím vznikl latinský kříž.  ",
+        "  Plochá kamenná deska je vysoká skoro metr, do přední plochy byla zahloubena čtyři prázdná pole mezi rameny a tím vznikl latinský kříž.  ",
       napis: "     ",
       povest:
         "  Měl ležet na hrobě padlých z bitvy u Slavkova. Po jeho přemístění ke studni bylo slyšet kvílení a pláč. Byl tedy přestěhován o kus dál.  ",
@@ -2574,9 +2574,9 @@ export default {
       okres: " Brno - venkov  ",
       obec: "  Sokolnice  ",
       cislo: "  0775  ",
-      kdeSeNaleza: "  na JZ okraji obce u bývalého tvrziště Stráž ",
+      kdeSeNaleza: "  Na JZ okraji obce u bývalého tvrziště Stráž. ",
       popis:
-        " Mohutný kamenný kříž s rozšířenou patou, vysoký 1,6 a široký 0,9 metru. Na Moravě zjevem ojedinělý, častější v Západních Čechách.   ",
+        " Mohutný kamenný kříž s rozšířenou patou, vysoký 1,6 a široký 0,9 metru. Na Moravě zjevem ojedinělý, častější v západních Čechách.   ",
       napis:
         "  obtížně čitelný letopočet 1798 je zřejmě psán druhotně, kříž je mnohem starší, gotický.   ",
       povest:
@@ -2612,7 +2612,7 @@ export default {
       obec: "  Šlapanice  ",
       cislo: "  1297  ",
       kdeSeNaleza:
-        " v parčíku na Brněnské ulici. Dříve tu bylo rozcestí cest do Slatiny a Tuřan   ",
+        " V parčíku na Brněnské ulici. Dříve tu bylo rozcestí cest do Slatiny a Tuřan.   ",
       popis:
         " Opracovaný plochý kámen je vysoký 1,1 metru. Do něho je zahlouben latinský kříž s nápadně malou hlavou.     ",
       napis: "     ",
@@ -2802,7 +2802,7 @@ export default {
       okres: " Brno - venkov  ",
       obec: "  Zakřany  ",
       cislo: "  1301  ",
-      kdeSeNaleza: "  na cestě ze Zakřan do Vysokých Popovic, blízko vsi.  ",
+      kdeSeNaleza: "  Na cestě ze Zakřan do Vysokých Popovic, blízko vsi.  ",
       popis:
         " Oválná kamenná plotna 1,1 x 0,9 m leží opřena o svah. Na přední straně má hluboce vyryt  jednoduchý řecký kříž.   ",
       napis: "     ",
