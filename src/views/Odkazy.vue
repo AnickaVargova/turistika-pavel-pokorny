@@ -43,7 +43,7 @@
     margin-bottom: 40px;
     width: 80px;
     height: 20px;
-    background-color: mediumturquoise;
+     background-color: #459ae6;
   }
 
  

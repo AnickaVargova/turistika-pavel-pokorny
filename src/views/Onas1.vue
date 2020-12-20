@@ -87,7 +87,7 @@
     margin: 20px;
     width: 80px;
     height: 20px;
-    background-color: mediumturquoise;
+      background-color: #459ae6;
   }
 
   #onas .pomnicekKategorie {
