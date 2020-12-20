@@ -1712,7 +1712,7 @@ export default {
           // "Naleznete ho  zde (památka adjunkta Czady).",
         },
       ],
-      fotkaUvod: { fotka: "vypraveniOzada1.jpg", datum: "listopad 2020" },
+      fotkaUvod: { fotka: "vypraveniOzada1.jpg"},
       galerie: [{ fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" }],
     },
     {

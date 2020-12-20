@@ -1,5 +1,12 @@
 <template>
-  <div id="detailClanku" v-bind:style ='{backgroundColor:"beige", backgroundImage:"none", padding:"2%"}'>
+  <div
+    id="detailClanku"
+    v-bind:style="{
+      backgroundColor: 'beige',
+      backgroundImage: 'none',
+      padding: '2%',
+    }"
+  >
     <div id="detailOkno">
       <router-link v-bind:to="`/${detailClanku.kategorie}`">
         <div class="pomnicekKategorie" id="zpetNaClanky">
@@ -48,7 +55,8 @@
         </p>
         <p
           v-if="
-            detailClanku.vnitrniOdkazy && detailClanku.vnitrniOdkazy[0].odkazKde === 'dodatekText'
+            detailClanku.vnitrniOdkazy &&
+              detailClanku.vnitrniOdkazy[0].odkazKde === 'dodatekText'
           "
         >
           <Klikaci
@@ -155,6 +163,11 @@
     padding: 10px;
     height: auto;
     background-color: #459ae6;
+  }
+
+  #zpetNaClanky:hover {
+    color: #13131d;
+    background-color: #9aacab;
   }
 
   #detailClanku h1 {

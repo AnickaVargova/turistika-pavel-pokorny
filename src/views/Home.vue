@@ -106,7 +106,7 @@
           this.pocetVypraveni++;
         }
       }
-      console.log(this.pocetCest);
+     
     }
   };
 </script>
