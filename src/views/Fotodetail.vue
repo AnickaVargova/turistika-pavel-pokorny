@@ -123,6 +123,7 @@
     justify-content: left;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #459ae6;
   }
 
   #fotodetail .pomnicekKategorie {

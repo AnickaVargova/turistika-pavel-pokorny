@@ -31,7 +31,11 @@
             frameborder="0"
           ></iframe>
 
-          <button class="pomnicekKategorie" v-on:click="schovejMapu">
+          <button
+            class="pomnicekKategorie"
+            v-on:click="schovejMapu"
+           
+          >
             Schovat mapu
           </button>
         </div>
@@ -96,7 +100,7 @@
           </td>
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
-<!-- pridat logicky operator || pokud budou vnitrni odkazy na ruznych mistech, poslat do Klikaci informaci,kde Klikaci je, zobrazit jen odkazy, ktere tam patri -->
+        <!-- pridat logicky operator || pokud budou vnitrni odkazy na ruznych mistech, poslat do Klikaci informaci,kde Klikaci je, zobrazit jen odkazy, ktere tam patri -->
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Kde se nachází?</td>
           <td
@@ -135,8 +139,13 @@
 
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Pověst:</td>
-          <td v-if="clanek.vnitrniOdkazy && clanek.vnitrniOdkazy[0].odkazKde === 'povest'">
-            <Klikaci v-bind:clanek="clanek"/>
+          <td
+            v-if="
+              clanek.vnitrniOdkazy &&
+                clanek.vnitrniOdkazy[0].odkazKde === 'povest'
+            "
+          >
+            <Klikaci v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.povest }}</td>
         </tr>
@@ -191,7 +200,16 @@
         </tr>
         <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>
-            <button class="pomnicekKategorie" v-bind:style="{padding:'2%', height: '40px', paddingLeft: '10%'}" v-on:click="ukazMapu(clanek.id)">
+            <button
+              class="pomnicekKategorie"
+              v-bind:style="{
+                padding: '2%',
+                height: '40px',
+                paddingLeft: '10%',
+               
+              }"
+              v-on:click="ukazMapu(clanek.id)"
+            >
               Ukázat na mapě
             </button>
           </td>
@@ -240,7 +258,15 @@
 <style>
   #pomnicky h2 {
     text-align: start;
-    color: #3b6e5d;
+    color: #3784c7;
+  }
+
+  #oknoPomnicky button {
+    background-color: #459ae6;
+  }
+
+  #oknoPomnicky button:hover {
+    background-color: #898a8b;
   }
 
   table {

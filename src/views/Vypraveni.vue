@@ -43,6 +43,7 @@
           stranka: "vypraveni",
           background: "zaveje.jpg",
           backgroundDescription: "Pozadí",
+          transbox: "rgba(187, 193, 209, 0.6)",
         },
       };
     },

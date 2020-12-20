@@ -8,7 +8,7 @@
         <div class="clanekFoto">
           <img v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka}`)" v-bind:alt="clanek.jmeno" />
         </div>
-        <p>{{ clanek.kratkyText }}</p>
+        <!-- <p>{{ clanek.kratkyText }}</p> -->
         </div>
       </router-link>
     </div>
@@ -26,13 +26,13 @@
   .clanek {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
     border: 2px solid grey;
     margin: 10px;
     border-radius: 10px;
     padding: 10px;
-    height: 200px;
+    max-height: 200px;
     color: rgb(87, 81, 81);
+   
   }
 
   @media(max-width:600px){
@@ -57,6 +57,7 @@
   .clanek h2 {
     grid-row: 1/2;
     grid-column: 1/2;
+    margin: 5px;
   }
 
   .clanek h3 {
@@ -64,13 +65,14 @@
     grid-column: 1/2;
     justify-items: center;
     align-items: center;
+    margin: 5px;
   }
 
   .clanekFoto {
     grid-row: 1/3;
     grid-column: 2/3;
     width: 100%;
-    height: 100%;
+    height: 148px;
     border: 2px solid grey;
     border-radius: 5px;
   }

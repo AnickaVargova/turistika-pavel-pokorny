@@ -74,13 +74,17 @@
     border: 1px solid lightgrey;
     border-radius: 5px;
     margin: 1px;
-    background-color: #e7e7d0;
+    background-color: #e7e0d0; 
     color: black;
     max-width: 40%;
   }
 
   .kontejnerJmeno  {
-    color: rgb(90, 21, 122);
+    
+    color:#2f5bad; 
+    /* color:#3566c2 */
+    /* color: #3E5682; */
+    /* color: rgb(90, 21, 122); */
   }
 
   .kontejnerJmeno:hover {

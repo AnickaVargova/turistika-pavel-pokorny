@@ -53,23 +53,29 @@
             { id: 5, nazev: "Na západ" },
           ],
           stranka: "smircikrize",
+          transbox: "rgba(211, 214, 214, 0.8)",
           detail: true,
           background: "pozadiKapky.jpg",
           backgroundDescription: "Pozadí",
         },
       };
     },
-    created(){
-      for(let kategorie of this.params.kategoriePomnicky){
-        kategorie.pocet = this.clanky.filter(clanek=> clanek.kategorie === "pomnicky" &&clanek.podkategorie===kategorie.id).length;
-       
+    created() {
+      for (let kategorie of this.params.kategoriePomnicky) {
+        kategorie.pocet = this.clanky.filter(
+          (clanek) =>
+            clanek.kategorie === "pomnicky" &&
+            clanek.podkategorie === kategorie.id
+        ).length;
       }
-      for(let kategorie of this.paramsKrize.kategoriePomnicky){
-        kategorie.pocet = this.clanky.filter(clanek=> clanek.kategorie === "smircikrize" &&clanek.podkategorie===kategorie.id).length;
-       
+      for (let kategorie of this.paramsKrize.kategoriePomnicky) {
+        kategorie.pocet = this.clanky.filter(
+          (clanek) =>
+            clanek.kategorie === "smircikrize" &&
+            clanek.podkategorie === kategorie.id
+        ).length;
       }
-      
-    }
+    },
   };
 </script>
 

@@ -154,6 +154,7 @@
     min-width: 80px;
     padding: 10px;
     height: auto;
+    background-color: #459ae6;
   }
 
   #detailClanku h1 {

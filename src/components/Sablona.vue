@@ -72,7 +72,12 @@
         </router-link>
       </div>
       <div
-        class="pomnicekKategorie ukazMenu"
+        v-bind:class="{
+          pomnicekKategorie: true,
+          ukazMenu: true,
+          hneda: innerParams.stranka === 'pomnicky',
+          tyrkys: innerParams.stranka === 'smircikrize',
+        }"
         v-on:click="toggleMenu"
         v-if="
           innerParams.stranka === 'pomnicky' ||
@@ -97,6 +102,8 @@
           <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
             <div
               v-bind:class="{
+                tyrkys: innerParams.stranka === 'smircikrize',
+                hneda: innerParams.stranka === 'pomnicky',
                 pomnicekKategorie: true,
                 kategorieTextCenter:
                   innerParams.stranka === 'cesty' ||
@@ -105,6 +112,7 @@
                 responsive: menuUkazat && !oknoUkazat,
                 pomnicekMenu: true,
               }"
+              v-bind:style="{ backgroundColor: innerParams.buttonsColor }"
             >
               {{ kategorie.nazev }} ({{ kategorie.pocet }})
             </div>
@@ -138,6 +146,8 @@
               active: kategorie.id == vybraneId,
               responsive: menuUkazat && !oknoUkazat,
               pomnicekMenu: true,
+              hneda: innerParams.stranka === 'pomnicky',
+              tyrkys: innerParams.stranka === 'smircikrize',
             }"
           >
             {{ kategorie.nazev }} ({{ kategorie.pocet }})
@@ -149,7 +159,12 @@
     <div
       class="kontejner"
       v-if="oknoUkazat && clankyPodKategorie"
+      
       v-bind:class="{
+        kontejnerBigMargin: innerParams.stranka === 'vypraveni' ||
+          innerParams.stranka === 'cesty',
+        kontejnerSmallMargin: innerParams.stranka === 'pomnicky' ||
+          innerParams.stranka === 'smircikrize',
         large:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty',
@@ -315,12 +330,15 @@
     grid-template-columns: repeat(6, 1fr);
     min-height: 100vh;
     grid-template-rows: minmax(min-content, 150px) auto auto auto;
+    color: #131e36;
   }
 
   .large {
     grid-column: 1/7 !important;
-    grid-row: 3/4 !important;
-    margin: 30px;
+    justify-self: center;
+    grid-row: 2/3;
+    margin: 60px;
+    max-width: 900px;
   }
 
   .bezTextu {
@@ -333,6 +351,7 @@
     justify-self: center;
     align-self: center;
     font-size: 40px;
+    color: #131e36;
   }
 
   .pomnickyText {
@@ -345,7 +364,7 @@
 
   @media screen and (max-width: 600px) {
     #pomnicky {
-       grid-template-rows: minmax(min-content, 150px) minmax(min-content, 50px) auto auto;
+      grid-template-rows: minmax(min-content, 150px) minmax(min-content, 50px) auto auto;
     }
 
     #pomnicky h1 {
@@ -394,14 +413,25 @@
     align-items: center;
     text-transform: uppercase;
     box-shadow: 5px 2px 2px #395250;
-    background-color: #6bc5aa;
+
+    /* background-color: #38b974;  zelena na krize*/
+
+    /* background-color: #6bc5aa; puvodni*/
     font-size: 13px;
     min-width: 95%;
     max-width: 170px;
   }
 
+  .hneda {
+    background-color: #956c4a;
+  }
+
+  .tyrkys {
+    background-color: #56cdd1;
+  }
+
   .active {
-    background-color: #497e6e;
+    background-color: #898a8b;
   }
 
   #kategorieMobil {
@@ -418,10 +448,11 @@
     right: 20px;
     min-width: unset;
     max-width: unset;
-    width: 176px !important;
+    width: 136px !important;
     padding: 0 10px;
     height: 35px;
-    background-color: rgb(32, 190, 195);
+    background-color: #459ae6;
+    /* background-color: rgb(32, 190, 195); */
   }
 
   #odkazNahoru {
@@ -436,10 +467,15 @@
     right: 20px;
     min-width: unset;
     max-width: unset;
-    width: 200px !important;
+    width: 160px !important;
     padding: 0 10px;
     height: 35px;
-    background-color: rgb(32, 190, 195);
+    background-color: #497399;
+  }
+
+  #tlacitkoDomu:hover,
+  #tlacitkoNahoru:hover {
+    background-color: #898a8b;
   }
 
   @media (max-width: 600px) {
@@ -461,7 +497,6 @@
     #tlacitkoDomu,
     #tlacitkoNahoru {
       height: 45px;
-
       left: 270px;
       right: unset;
     }
@@ -493,7 +528,8 @@
   .domu:hover,
   #seznam:hover {
     color: #13131d;
-    background-color: #9aacab;
+    background-color: #898a8b;
+    /* background-color: #a4a8ac;  */
   }
 
   .kategorieTextCenter {
@@ -502,8 +538,7 @@
   }
 
   .domu {
-    background-color: rgb(32, 190, 195);
-    /* margin-bottom: 20px; */
+    
     min-width: 95%;
     max-width: 170px;
     height: 30px;
@@ -521,7 +556,8 @@
 
   #seznam {
     margin-bottom: 20px;
-    background-color: rgb(110, 130, 172);
+    background-color: #459ae6;
+    /* background-color: rgb(110, 130, 172); */
   }
 
   @media (max-width: 600px) {
@@ -556,19 +592,27 @@
     grid-row: 1 / 5;
     width: 100vw;
     height: 100%;
-    background-color: rgba(220, 241, 240, 0.5);
+    background-color: rgba(204, 175, 127, 0.4);
     margin-right: 0;
   }
 
   #pomnicky .kontejner {
     grid-column: 2/7;
-    grid-row: 4/5;
-    margin-top: 20px;
+    grid-row: 3/4;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
   }
 
+  .kontejnerBigMargin {
+    margin-top: 60px;
+  }
+
+  .kontejnerSmallMargin {
+    margin-top: 20px;
+  }
+
   #oknoPomnicky {
-    background-color: white;
+    background-color: #f5f2ed;
     margin: 0;
     padding: 30px;
     border-radius: 10px;
@@ -578,7 +622,7 @@
   @media (max-width: 600px) {
     #pomnicky .kontejner {
       grid-column: 1/7;
-      /* grid-row: 6/20; */
+      grid-row: 4/5;
       width: 100vw;
       font-size: 15px;
       margin: 0;
