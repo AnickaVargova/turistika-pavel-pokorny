@@ -96,7 +96,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'popisCesty'
             "
           >
-            <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
+            <Klikaci v-bind:clanek="clanek" kdeJsem ='popisCesty' v-on:kliknuti="vyfiltrujPomnicek" />
           </td>
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
@@ -109,7 +109,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'kdeSeNaleza'
             "
           >
-            <Klikaci v-bind:clanek="clanek" v-on:kliknuti="vyfiltrujPomnicek" />
+            <Klikaci v-bind:clanek="clanek" kdeJsem ='kdeSeNaleza' v-on:kliknuti="vyfiltrujPomnicek" />
           </td>
           <td v-else>{{ clanek.kdeSeNaleza }}</td>
         </tr>
@@ -132,7 +132,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'napis'
             "
           >
-            <Klikaci v-bind:clanek="clanek" />
+            <Klikaci kdeJsem='napis' v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.napis }}</td>
         </tr>
@@ -145,7 +145,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'povest'
             "
           >
-            <Klikaci v-bind:clanek="clanek" />
+            <Klikaci v-bind:clanek="clanek" kdeJsem='povest'/>
           </td>
           <td v-else>{{ clanek.povest }}</td>
         </tr>
@@ -158,7 +158,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'pozn'
             "
           >
-            <Klikaci v-bind:clanek="clanek" />
+            <Klikaci kdeJsem ='pozn' v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.pozn }}</td>
         </tr>

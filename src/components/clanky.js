@@ -1023,7 +1023,8 @@ export default {
           nazev: "Jiří Truhlář: Památníky adamovských lesů, 2003, str. 152-154",
         },
       ],
-      pozn: " Jeskyně bývá přístupná veřejnosti jedenkrát ročně v červnu. Císař rakouský František II. (1768 - 1835) vládl Rakousku v letech 1792 - 1835 ,jeho manželkou byla Marie Tereza Neapolsko-sicilská (1772 - 1807).  Oba byli vnuci Marie Terezie, bratranec si vzal sestřenici.",
+      pozn:
+        " Jeskyně bývá přístupná veřejnosti jedenkrát ročně v červnu. Císař rakouský František II. (1768 - 1835) vládl Rakousku v letech 1792 - 1835 ,jeho manželkou byla Marie Tereza Neapolsko-sicilská (1772 - 1807).  Oba byli vnuci Marie Terezie, bratranec si vzal sestřenici.",
       naposledObnoveno: "  19.12.2020  ",
       souradnice: "49.3074614N, 16.6947844E",
       kodMapa:
@@ -1709,10 +1710,9 @@ export default {
           predOdkazem: "Naleznete ho ",
           textOdkazu: "zde ",
           zaOdkazem: ".",
-          // "Naleznete ho  zde (památka adjunkta Czady).",
-        },
+          },
       ],
-      fotkaUvod: { fotka: "vypraveniOzada1.jpg"},
+      fotkaUvod: { fotka: "vypraveniOzada1.jpg" },
       galerie: [{ fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" }],
     },
     {

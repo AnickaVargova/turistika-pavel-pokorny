@@ -329,7 +329,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     min-height: 100vh;
-    grid-template-rows: minmax(min-content, 150px) auto auto auto;
+    grid-template-rows: auto auto auto auto;
     color: #131e36;
   }
 

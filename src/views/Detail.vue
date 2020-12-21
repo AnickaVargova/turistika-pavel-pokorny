@@ -43,9 +43,10 @@
               <figcaption>{{ odstavec.popisek }}</figcaption>
             </figure>
           </router-link>
-          <p>
-            {{ odstavec.textOdstavce }}
+          <p v-if="odstavec.vnitrniOdkazy">
+            <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
           </p>
+          <p v-else>{{ odstavec.textOdstavce }}</p>
         </div>
         <h3 v-if="detailClanku.dodatekNadpis">
           {{ detailClanku.dodatekNadpis }}
@@ -62,6 +63,7 @@
           <Klikaci
             v-on:kliknuti="vyfiltrujPomnicek"
             v-bind:clanek="detailClanku"
+            kdeJsem="dodatekText"
           />
         </p>
       </div>

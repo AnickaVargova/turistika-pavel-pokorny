@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span v-for="(odkaz,index) in clanek.vnitrniOdkazy" v-bind:key ="index">
+    <span v-for="(odkaz, index) in odkazy" v-bind:key="index">
       <span>{{ odkaz.predOdkazem }}</span>
       <span>
         <router-link
@@ -18,7 +18,17 @@
 
 <script>
   export default {
-    props: ["clanek"],
+    props: ["clanek", "kdeJsem"],
+    data() {
+      return {
+        odkazy: undefined,
+      };
+    },
+    created() {
+      this.odkazy = this.clanek.vnitrniOdkazy.filter(
+        (odkaz) => odkaz.odkazKde === this.kdeJsem
+      );
+    },
   };
 </script>
 
