@@ -338,7 +338,14 @@
     justify-self: center;
     grid-row: 2/3;
     margin: 60px;
-    max-width: 900px;
+    width: 900px;
+  }
+
+  @media(max-width: 950px){
+    .large {
+      width: unset;
+      max-width: 900px;
+    }
   }
 
   .bezTextu {
@@ -389,7 +396,7 @@
 
   .pomnickyNavigace {
     grid-column: 1/2;
-    grid-row: 1/5;
+    grid-row: 1/4;
     margin: 23px;
     display: flex;
     flex-direction: column;
@@ -470,7 +477,8 @@
     width: 160px !important;
     padding: 0 10px;
     height: 35px;
-    background-color: #497399;
+     background-color: #459ae6;
+    /* background-color: #497399; */
   }
 
   #tlacitkoDomu:hover,
