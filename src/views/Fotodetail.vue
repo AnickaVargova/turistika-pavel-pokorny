@@ -14,7 +14,7 @@
           vybranaFotka.poznamka
         }}</p>
       </figcaption>
-      <figcaption v-else-if="vybranaFotka.popisek">
+      <figcaption v-else-if="vybranaFotka.popisek && !vybranaFotka.datum && !vybranaFotka.poznamka">
         {{ vybranaFotka.popisek }}
       </figcaption>
 

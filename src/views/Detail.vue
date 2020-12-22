@@ -20,6 +20,7 @@
         <div
           v-for="(odstavec, index) in detailClanku.text"
           v-bind:key="index"
+         
           class="odstavec"
         >
           <router-link
@@ -46,7 +47,7 @@
           <p v-if="odstavec.vnitrniOdkazy">
             <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
           </p>
-          <p v-else>{{ odstavec.textOdstavce }}</p>
+          <p  v-html='odstavec.textOdstavce' v-else>{{ odstavec.textOdstavce }}</p>
         </div>
         <h3 v-if="detailClanku.dodatekNadpis">
           {{ detailClanku.dodatekNadpis }}
@@ -183,8 +184,15 @@
 
   #fotoText {
     height: 200px;
-    max-width: 40%;
-    min-width: 150px;
+   width: min-content;
+   
+  }
+
+  @media (max-width: 600px) {
+    #fotoText {
+      margin-bottom: 35px;
+      height: 150px;
+    }
   }
 
   .vpravo {
@@ -215,16 +223,25 @@
   }
 
   #fotoText img {
-    width: 100%;
+    width: unset;
     height: 100%;
     object-fit: cover;
   }
 
   figcaption {
     font-style: italic;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
     color: black;
+    line-height: 1.2;
+   
+  }
+
+  @media(max-width: 600px){
+    figcaption {
+      font-size: 12px;
+      
+    }
   }
 
   a {

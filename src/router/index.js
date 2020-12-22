@@ -12,6 +12,7 @@ import Cesty from '../views/Cesty.vue'
 import Vypraveni from '../views/Vypraveni.vue'
 import DetailPomnicku from '../views/DetailPomnicku.vue'
 import DetailKrize from '../views/DetailPomnicku.vue'
+import NovePridane from '../views/NovePridane.vue'
 
 
 Vue.use(VueRouter)
@@ -93,7 +94,11 @@ const routes = [{
         name: 'Vypraveni',
         component: Vypraveni
     },
-
+    {
+        path: '/novepridane',
+        name: 'NovePridane',
+        component: NovePridane,
+    },
    
 
 ]

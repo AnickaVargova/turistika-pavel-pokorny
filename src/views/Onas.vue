@@ -138,8 +138,9 @@
 
   #fotoText {
     height: 200px;
-    max-width: 40%;
-    min-width: 150px;
+    width: min-content;
+    /* max-width: 40%;
+    min-width: 150px; */
   }
 
   .vpravo {
@@ -170,14 +171,16 @@
   }
 
   #fotoText img {
-    width: 100%;
+    width: unset;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
+    
   }
 
   figcaption {
     font-style: italic;
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 1.2;
     text-decoration: none;
     color: black;
   }
@@ -215,10 +218,7 @@
     margin-left: 0;
   }
 
-  #detailClanku img {
-    border: 2px solid grey;
-    border-radius: 5px;
-  }
+  
 
   #detailClanku img:hover,
   #detailClanku img:active {

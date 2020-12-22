@@ -2,7 +2,7 @@
   <div id="oknoPomnicky">
     <div
       v-bind:class="{ ramecek: vybraneId !== clanek.id }"
-      v-for="clanek in clanky"
+      v-for="clanek in mojeClanky"
       v-bind:key="clanek.id"
     >
       <h2 style="textAlign:center">
@@ -232,12 +232,13 @@
       return {
         vybraneId: undefined,
         testData: undefined,
+        mojeClanky: this.clanky,
       };
     },
 
     methods: {
       ukazMapu(id) {
-        for (let clanek of this.clanky) {
+        for (let clanek of this.mojeClanky) {
           if (clanek.id === id) {
             this.vybraneId = id;
           }
@@ -251,7 +252,16 @@
       vyfiltrujPomnicek(id) {
         this.$emit("kliknuti", id);
       },
+
+     
     },
+    created(){
+     
+      if(this.$route.name === 'NovePridane'){
+        this.mojeClanky = this.clanky.filter(clanek=>clanek.kategorie==='pomnicky'||clanek.kategorie==='smircikrize')
+       
+      }
+    }
   };
 </script>
 
@@ -321,7 +331,7 @@
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
-    width: 70vw;
+    max-width: 70vw;
   }
 
   #mapaPomnicky {

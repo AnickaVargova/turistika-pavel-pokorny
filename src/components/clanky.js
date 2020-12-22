@@ -1710,7 +1710,7 @@ export default {
           predOdkazem: "Naleznete ho ",
           textOdkazu: "zde ",
           zaOdkazem: ".",
-          },
+        },
       ],
       fotkaUvod: { fotka: "vypraveniOzada1.jpg" },
       galerie: [{ fotka: "vypraveniOzada2.jpg", datum: "listopad 2020" }],
@@ -4163,6 +4163,174 @@ export default {
         { fotka: "nihov2.jpg", datum: "srpen 2020" },
       ],
       proMe: "  XX/1080  24-312-95  20---084   ",
+    },
+    {
+      id: 108,
+      datum: "prosinec 2019",
+      pridano: "22/12/2020",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: "Barokní i jiné sochy v Brně",
+      text: [
+        {
+          textOdstavce:
+            " <p>Přátelé,</p><p>každý Brňan místy, která budu popisovat, šel nejméně stokrát. Přesto si myslím, že se tu dá objevit mnoho neznámých věcí a zajímavých souvislostí.</p><p>Pražáci mají krásnou procházku mezi barokními sochami. Od Mostecké věže přes Karlův most až na Kampu minou 30 barokních sousoší. Dnes je trasa nevratně znehodnocena neustávajícím průvodem cizozemců. Napadlo mě, jestli by se něco podobného nenašlo i v Brně. Našlo. Od Nové radnice ke hlavnímu nádraží najdeme mnoho báječných barokních soch a k tomu spoustu dalších výtvarných artefaktů nejrůznějšího stáří, od středověku po dnešek. Ale text není nafukovací, nebude tu ani slovo o historii, která těmito místy procházela třicet lidských generací. Nedočtete se tu ani o významných stavbách, které mineme, ani o rozsáhlém podzemí, které je stejně velké jako nadzemí. Ze soch se zabývám jen těmi, které jsou venku a stále přístupné.</p><p>Procházku započneme na nádvoří Nové radnice. Hned u vchodu je bronzová <strong>busta Karla staršího ze Žerotína</strong> (1584 – 1636). Vytvořil ji roku 1935 Vincenc Makovský ke 300. výročí smrti významného moravského šlechtice. Podoba je fiktivní, protože Žerotínova tvář se zachovala jen na jediném neumělém obraze. Nad bustou je pozdně <strong>renesanční schodiště se třemi Šalamounovými sloupy</strong>, to jsou ty se šišticemi. Lemovaly vstup do zemské soudnice a měly soudcům připomínat moudrost krále Šalamouna.</p>",
+          foto: "karel-starsi.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " Karel starší ze Žerotína  ",
+        },
+        {
+          textOdstavce:
+            " <strong>Kašna s kovanou mříží</strong> uprostřed prvního nádvoří je tu umístěna druhotně. Pro výstavu soudobé kultury na výstavišti ji v roce 1928 navrhl Plečnikův žák architekt Josef Stejskal a zhotovil umělecký kovář Josef Pešek. Je zdobena dvanácti pracujícími postavami – alegorie měsíců. Město ji dostalo darem a sem ji umístilo po sedmi letech, když se nádvoří rekonstruovalo. Na střeše je možno vidět <strong>chrlič vody</strong> v podobě draka. Původně byly dva, v obou rozích, ale jeden se ztratil, byl ukraden. Ne teď, ale před dvěma sty lety, kdy radnice sloužila jako vojenské skladiště. Chrliče z měděného plechu vytepal roku 1776 zámečnický tovaryš Karel Motter a dnes je na střeše kopie.",
+          foto: "kasna-na-nove.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " Kašna na Nové radnici  ",
+        },
+        {
+          textOdstavce:
+            " <p>V nádvořích Nové radnice je <strong>několik portálů</strong>, ale jen jeden je původní. Je poměrně skromný, zdoben jedním orlem ve štítě, na západním křídle byl postaven spolu s budovou roku 1692. Ostatní čtyři portály sem byly přeneseny na přelomu 19. a 20. století, kdy při velké asanaci zaniklo více cenných renesančních a barokních paláců a alespoň portály jejich bran se zachovaly v radničních dvorech. Hned <strong>troje sluneční hodiny</strong> lze vidět na stěnách prvního nádvoří. Všechny vymaloval roku 1728 vzdělaný premonstrát a matematik Ferdinand Čádecký ze zábrdovického kláštera. Levé na západním křídle ukazují východy a západy slunce, tedy délku dne. Latinský nápis na kartuši v překladu: tak ať sám Bůh ochraňuje moravské stavy a vlast. Na pravých hodinách lze odečíst polohu země v ekliptice. Přeložený nápis zní: Délský bůh chce, aby se odtud zaskvěli moravští stavové. Třetí hodiny na severní fasádě mají latinské nápisy neuměle přeložené: tímto zahřívána, za pomoci této, těmito oporami chráněna, nebem vyvolena, o zemi se opírajíc, vytrvám. Zde očekává moravské stavy příjemná doba. Lze luštit i datum v chronogramu, je to rok 1728.</p><p>Vraťme se před radnici. <strong>Oba radniční portály</strong> jsou zdobeny balkony, jejichž zábradlí tvoří orel s roztaženými křídly. Autor portálů není znám a pravý portál není funkční, postavili ho jen kvůli symetrii budovy. Právě tudy chodí v noci do sněmu duchové moravských pánů, vyhnaných po Bílé hoře, aby v sále nahoře lamentovali nad osudem moravské země.</p>",
+          foto: "puvodni-portal.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " Původní portál se slunečními hodinami.  ",
+        },
+        {
+          textOdstavce:
+            " <p> Hned před radnicí, první socha na začátku řady, obklopena balustrádovou ohrádkou, je <strong>socha svatého Jana Nepomuckého</strong> (asi 1349 – 1393). Je umístěna jinak než sochy na terase, jakoby k nim nepatřila. Byla sem umístěna druhotně, původně stála na hřbitově. Autor nebyl donedávna znám, ale nyní se už ví, že ji vytesal roku 1718 Antonín Riga (asi 1670 – 1728). Tato procházka bude přehlídkou děl většiny brněnských barokních sochařů. Další dvě sochy vytvořil Jan Adam Nesmann (1710 – 1773), je to <strong>Alois Gonzaga</strong> — mladý s křížem v náručí a <strong>Vincenc</strong> — v hábitu s knihou po boku. Tyto sochy vznikly po stavbě rampy v roce 1737 na objednávku dominikánů a podíleli se na nich tři sochaři. Letos jsou některá díla čerstvě restaurovaná a je radost na ně pohledět.</p><p><i>Svatý Alois Gonzaga (1568 – 1591) se narodil jako španělský šlechtic, při právnických studiích v Římě pomáhal chudým nakaženým morem a sám se nakazil. Jeho atributy jsou krucifix a lilie. Svatý Vincenc Ferrerský (1350 – 1419) byl významný španělský dominikánský kazatel, který se snažil usmířit dva soupeřící papeže a odstranit církevní schizma. Zemřel, když rozkol v církvi skončil.</i></p> ",
+          foto: "alois-gonzaga.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " svatý Alois Gonzaga  ",
+        },
+        {
+          textOdstavce:
+            " <p>Další tři sochy vytvořil olomoucký sochař Ondřej Zahner (1709 – 1752). Je to <strong>Ivo</strong> s knihou na dlani, <strong>Florián</strong> s chocholem na přilbě a mlýnským kolem u nohou a <strong>Jan Křtitel</strong> s kovovým křížem a beránkem u nohy. Ten už je na rohu terasy. Všechny sochy, byť autoři jsou různí, zachovávají stejný rokokový styl.</p><p><i>Svatý Ivo (1253 – 1303) byl bretonský kněz a znalec církevního práva, který své znalosti používal ve prospěch slabých, chudých a ubohých. Je zobrazován v taláru se svitky listin v ruce. Svatý Florián (asi 250 – 304), mučedník ze 4. století, pocházel z dnešního Rakouska a byl důstojníkem římské armády. Zastal se křesťanů ve vojsku, byl mučen a posléze svržen z mostu do Enže s mlýnským kamenem na krku. Proto má brnění, přilbu s chocholem a mlýnské kolo u nohou. Svatý Jan Křtitel byl Kristův předchůdce, žil na poušti a živil se kobylkami a medem divokých včel. Celé Judsko k němu chodilo dát se pokřtít vodami řeky Jordán. Nedopadl dobře, dovolil si kritizovat krále Herodesa. Jeho hlavu přinesli královně Salome na stříbrném podnosu.</i></p>",
+          foto: "svaty-ivo.jpg",
+          umisteniFoto: "vpravo",
+          popisek: "svatý Ivo",
+        },
+        {
+          textOdstavce:
+            " <p>Galerie dalších čtyř svatých pokračuje před kostel. Jejich autorem je Josef Winterhalder starší (1702 – 1769). <strong>Václav</strong> má u nohou lva a štít s orlicí, <strong>Ludmila</strong>, jediná ženská postava, je v rozevlátém šatu, <strong>Metoděj</strong> s otevřenou knihou a <strong>Cyril</strong> s kazatelsky zdviženou rukou. Poslední dvě sochy rámují schodiště do kostela.</p><p><i>Svatý Václav (asi 907 – asi 935) český kníže a mučedník, patron České země, začal vládnout kolem roku 925 a jeho bratr Boleslav ho dal zavraždit. Brzy byl prohlášen svatým a začal se budovat svatováclavský kult. Svatá Ludmila (10. století), mučednice a první národní světice, manželka knížete Bořivoje a Václavova babička. Paní dobrotivá, štědrá v almužnách a proslulá dobrými skutky. Roku 920 byla na Tetíně uškrcena vlastní šálou na příkaz své snachy Drahomíry. Svatý Cyril (827 – 869), řeholník, tvůrce glagolského písma, překladatel posvátných knih do staroslověnštiny, vychovatel prvních učedníků. Jméno Cyril přijal jako řeholník v Římě, kde brzy zemřel. Svatý Metoděj (? – 885), druhý z bratří věrozvěstů, první velkomoravský biskup a pokračovatel v Konstantinově díle. Po Metodějově smrti byli učedníci rozehnáni po Balkáně a Naum Ohridský došel až do Makedonie. Metodějův hrob se hledá dodnes.</i></p>",
+          foto: "svata-ludmila.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " svatá Ludmila  ",
+        },
+        {
+          textOdstavce:
+            " Prohlédneme sochy na průčelí chrámu svatého Michala. Úplně nahoře nad trojúhelníkovým štítem je <strong>socha archanděla Michaela</strong>, jak s plamenným mečem v ruce bojuje s ďáblem. V listopadu 2011 se kopie sochy vznášela nad Brnem v podvěsu vrtulníku, který ji po rekonstrukci přinášel na střechu. Byl to nejjednodušší způsob montáže. Originál sochy je zapůjčen do dvorany nového justičního paláce. Další sochy jsou monumenty dominikánských světců. Vlevo nahoře <strong>Hyacint</strong> se soškou v náručí, vpravo nahoře <strong>Tomáš Akvinský</strong> se zlatou monstrancí, vlevo dole <strong>Dominik</strong> s velkým zlatým křížem a vpravo dole <strong>Vincenc z Ferrary</strong> s malým zlatým křížkem a listinami. Uprostřed nad vchodem jsou vidět <strong>dva erby budovatelů</strong> a mecenášů stavby, Lva z Kounic a jeho manželky Eleonory z Dietrichsteina. Tyto sochy vznikly roku 1728, padesát let po stavbě chrámu, v dílně brněnského sochaře Antonína Rigy.  ",
+          foto: "archandel-michael.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " archanděl Michael  ",
+        },
+        {
+          textOdstavce:
+            "<i>Svatý Hyacint (zemř. 1257), polský řeholník ze 13. století, patřil k zakladatelům dominikánského řádu, který pomáhal se svým spolubratrem Česlavem zakládat i u nás. Svatý Tomáš Akvinský (1225 – 1274) byl kněz, řeholník a filosof ve 13. století. Syn italských hrabat vstoupil k údivu všech do žebravého řádu dominikánů. Pro své pronikavé pravdy byl papežem svatořečen, i když mu chyběly zázračné činy. Svatý Dominik (1171 – 1221), kanovník ze Španělska, dal se do boje s nebezpečným učením katarů a k potírání jejich kacířství založil žebravý řád chudých řeholníků. Bývá znázorňován se zlatou hvězdou na čele.</i>",
+
+          foto: "znaky-budovatelu.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " znaky budovatelů chrámu nad vchodem  ",
+        },
+        {
+          textOdstavce:
+            " <p>Vraťme se zpátky na Dominikánské náměstí. Číslo 9, je to dům s reliéfem Panny Marie, je nejužší středověká parcela ve městě, má šířku jen pět metrů. Dříve takto úzkých středověkých městišť bylo více, ale byly pospojovány do větších ploch. Mineme největší architektonickou hrůzu ve vnitřním městě – Velký špalíček a vkročíme do Mečové ulice. V ní vysoko na zdi trůní známý <strong>maskaron radního Haase</strong>. Pověst praví, že chtěl otevřít husitům bránu a vpustit je bez boje do katolického Brna. Plán byl vyzrazen, radní zazděn a pro výstrahu zkameněl. Jméno Haas se mezi měšťany 15. století skutečně objevovalo. Kamenný obličej je asi konec zdobeného kamenného překladu ve zdi Staré radnice.</p>       <p>Došli jsme na Zelný trh. V horní části před čerstvě opraveným Palácem rajhradských opatů stojí <strong>sloup Nejsvětější trojice</strong>. V roce 1729 ho vytesal mladý sochař Antonín Schweigel (1695 – 1761). Pocházel z Tyrol a v Brně žil teprve čtvrtým rokem. Je s podivem, že městská rada zadala tuto práci sochařskému tovaryši, který neměl ve městě ještě domovské právo. Ale chybu neudělala. Je to Schweiglovo nejvýznamnější dílo. Pak založil sochařskou dílnu a věnoval se rodině, neboť měl šest synů, ze všech se stali sochaři nebo kameníci. Nejtalentovanější byl Ondřej, který vedl dílnu a překonal svého otce. Ale zpět k sousoší. Na hranolovém podstavci stojí pilíř a na něm <strong>Bůh Otec, Syn a Duch Svatý</strong>. Pod ním <strong>Panna Maria</strong> stojí na zeměkouli, zezadu je <strong>Jan Nepomucký</strong>, nechybí andílci a barokní ozdoby. Vybudování sloupu zřejmě souviselo se svatořečením Jana Nepomuckého, které proběhlo právě v roce 1729. Svatořečení znamenalo stavbu mnoha soch tomuto světci a Brno nemohlo zůstat pozadu. Po dvou letech bylo sousoší rozšířeno o dva svaté legionáře, <strong>Primitiva</strong> na levém sloupu a <strong>Konstantina</strong> napravo. Uctívání těchto svatých souviselo s tím, že jezuitská kolej získala ostatky těchto osob. Ještě za mých studentských let byli slabí studenti před zkouškou posíláni modlit se k Primitivovi.</p><p><i>Svatí Primitivus a Konstantinus byli římští legionáři z thébské legie, které velel svatý Mořic. Jednotka příkladná co do křesťanské víry odmítla požadavek římského císaře, aby obětovala pohanským božstvům. Císařství to považovalo za vzpouru a dle pověsti dalo všech 6000 příslušníků jednotky zmasakrovat. Stalo se ve Švýcarsku u Svatého Mořice.</i></p>  ",
+          foto: "nejsvetejsi-trojice.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " sloup Nejsvětější trojice  ",
+        },
+        {
+          textOdstavce:
+            "  Nejvýznamnějším barokním dílem na náměstí je ale <strong>kašna Parnas</strong>. Jméno má podle řeckého pohoří, považovaného za sídlo bohů. Brněnští radní ji objednali roku 1590 u vycházející hvězdy rakouského sochařství a architektury, Johana Bernharda Fischera (1656 – 1723), který později obdržel přízvisko z Erlachu. Architekt stavěl kašnu na dálku, v Brně byl jen dvakrát, a stavba se protahovala, protože módní umělec dostával významné zakázky z celého Rakouska. Budování trvalo pět let a lví podíl na dokončení měli proto i další sochaři, zejména vídeňský Tobias Krecker, brněnský Antonín Riga a neznámý Ital. Stavba nedopadla nejlépe. Sochy vznikly dříve než balvanitá trojnožka. Skalisko je příliš monumentální, zřejmě mělo velikostí překonat podobnou kašnu v Olomouci, sochy na bocích se ztrácejí v šedi kamenů. Stavba nebyla řádně založena a dodnes uniká z nádrže voda. Za první republiky byla celá skála hustě porostlá břečťanem, v sedmdesátých letech z ní před vánocemi prodávali ryby. Ústředním motivem sochařské výzdoby je výjev z antické mytologie. Héraklés, syn Diův, byl ve službách mykénského krále Eurysthea a musel pro něj vykonat 12 obtížných úkolů. Předposledním úkolem měl přemoci strážce podsvětní říše, trojhlavého psa Kerbera a přivést ho vladaři. A to je na kašně znázorněno. <strong>Héraklés</strong>, oděn do kůže zabitého lva, přivádí na řetězu z podsvětí, znázorněného jeskyní, trojhlavého zkroceného netvora. Dobrý Héraklés byl ve středověku ochránce měst a vítězil nad silami podsvětí. Na třech pilířích otevřené jeskyně sedí tři mladé a krásné představitelky antických říší, směrem k tržnici <strong>Persie</strong> s okřídleným lvem, k Redutě zpodobení <strong>Řecka</strong> s medvědem a k hotelu <strong>Římské císařství</strong> se čtyřhlavou saní. Na vrcholu skaliska se vypíná <strong>personifikace Evropy</strong>, tedy Svaté říše římské národa německého a u nohou má nestvůru s rohem uprostřed hlavy. Evropa pozvedá žezlo na znamení vlády nad tehdejším světem. Dnešní šéfové v Bruselu by měli z tohoto zpodobení radost.  ",
+          foto: "socha-herakla.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " socha Hérakla na kašně Parnas  ",
+        },
+        {
+          textOdstavce:
+            "  <p>Nejnižší část náměstí zabírá rozlehlá budova Cyrilometodějské záložny stavěné v letech 1913 – 1915. Až u střechy je vyzdobena <strong>čtyřmi sochami z doby stavby</strong> záložny, autory jsou sochaři Václav Hynek Mach a Otomar Rábl. Od severu je to personifikace orby – muž s rádlem, práce – žena s látkou, spořivosti – žena s pokladničkou a průmyslu – muž s palicí. Před Redutou stojí od roku 2008 pozoruhodná <strong>socha Wolfganga Amadea Mozarta</strong> od Kurta Gebauera (nar. 1941). Představuje mladého chlapce stojícího na klavichordu s hlavou dospělého skladatele. Připomíná rok 1767, kdy Mozart jako zázračné dítě v budově Reduty vystupoval. Modelem stál sochaři desetiletý kluk. Bronzová socha na pětimetrovém pískovcovém sloupu váží dva metráky. Před 130 roky neexistovala Květinářská ulice, roh náměstí byl uzavřen velkými vraty a za nimi se mačkaly masné krámy. Nevábné místo malých kotců se společnou střechou sahalo až do dnešní Masarykovy ulice. Zbylo po nich jen znamení na zdi Reduty, <strong>reliéf řeznického cechu</strong>, zkřížená sekera a sekáček.</p><p>Vraťme se nahoru po jižní straně náměstí. Před čtyřmi roky při poslední rekonstrukci plochy náměstí tu vznikly <strong>tři malé fontánky</strong>. Autorem drobných kovových zvířátek naprosto neodpovídajících rozměrům náměstí je pražský sochař a designer Jiří Plieštik (nar. 1956). Radost z nich mají především děti. Na fasádě Dietrichsteinského paláce – dnes Moravského zemského muzea je kamenná deska s <strong>reliéfem maršála Kutuzova</strong>, který tu pobýval tři noci před bitvou u Slavkova. Desku navrhl roku 1955 brněnský sochař František Šenk (1914 – 1978). Nad hlavním vchodem do paláce na kamenné kartuši je umístěna v nízkém reliéfu <strong>bronzová moravská orlice</strong>. Roku 1928 ji vytvořil brněnský sochař a medailér Karl Korschann (1872 – 1943).</p>",
+          foto: "portal-mitrovskych.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " Rokokový portál z paláce Mitrovských  ",
+        },
+        {
+          textOdstavce:
+            " Projdeme Muzejní uličkou do Biskupského dvora. V nejužším místě vlevo si povšimněte <strong>historických oken</strong> na domě číslo 7. Dům patří k nejstarším v Brně, ve 13. století měl věž, v 16. století byl přestavěn a do patra mu zazdili pozdně románské okno z poloviny 13. století. Pod ním jsou tři slepé otvory po oknech v gotické zdi z druhé půle 15. století. Přímo naproti sobě máme <strong>rokokový portál</strong> ze zbořeného paláce Mitrovských, který stál na severní straně náměstí Svobody. Dva atlasové podepírají kamenný balkon s kovanou mříží.   ",
+          foto: "merkurova-kasna.jpg",
+          umisteniFoto: "vlevo",
+          popisek: "Merkurova kašna",
+        },{
+          textOdstavce: ' <p>Uprostřed dvora stojí <strong>torzo monumentální Merkurovy kašny</strong>, někdy se píše o Bendlově kašně. I to, co z ní zbylo, budí obdiv. Čtyři antická božstva představují čtyři živly: dole kovář <strong>Vulkán</strong> s kladivem znamená oheň, bohyně <strong>Ceres</strong> s rohem hojnosti zpodobňuje zemi a bůh <strong>Neptun</strong> vylévá vodu z vázy. Nad nimi personifikaci vzduchu představuje božský <strong>Merkur</strong>, vše skloubeno do dynamicky se proplétajících těl. Je třeba pozorně obejít sousoší ze všech stran. Ve starší literatuře se objevuje i jiný výklad, že spodní mužské postavy představují Svratku a Svitavu a nad nimi bůh obchodu Merkur odkazuje Brno jako město obchodu. Tento výklad je méně pravděpodobný. Tvůrcem kašny byl vídeňský sochař Ignaz Johann Bendl (? – 1730). Podle italských vzorů vytvořil sousoší, které ve své době představovalo špičku v tomto oboru tvorby na sever od Alp.</p><p>Kašna byla odhalena roku 1699 na náměstí Svobody a vydržela tam 160 let, zanikla s úpravou náměstí. Z vodní nádrže průměru 8 metrů se vypínalo šestimetrové sousoší. Stálo v místech dnešního moderního výtvoru. Chtě nechtě se tedy nabízí srovnání. Dnešní fontána vypadá půl roku jako zapomenutá káď na kapry, pamatuji, že je zrovna tady před čtyřiceti lety prodávali. Navíc na podlahu kolem dali verše Básníka. Asi sochaři nikdo neřekl, že po slovech básníků se nešlape. Někdy nádrž v zimě schovávají pod betlém, letos z ní udělali cípatý stůl. Počítám, že tu 160 let nevydrží.</p>   ',
+          foto:'buh-neptun.jpg',
+          umisteniFoto: 'vpravo',
+          popisek: ' bůh Neptun na Merkurově kašně  ',
+          },
+          {
+            textOdstavce: ' Sejdeme dolů po schodech na Kapucínské náměstí. Vpravo na zdi mineme <strong>pamětní desku Jana Sedláka</strong>, vlasteneckého kněze, který tu žil na začátku 20. století. Desku dělal brněnský sochař Josef Axmann (1891 – 1947) a v roce 1934 odlil kovolijec Franta Anýž z Prahy. Před Kapucínským kostelem je rampa s pěti barokními sochami světců spojených s františkánským a kapucínským řádem. Vytvořil je roku 1765 sochař Jan Adam Nesmann, přišedší z Mohuče (1710 – 1773). Od východní strany <strong>Josef z Leonessy</strong> s křížkem v ruce, <strong>Fidelius ze Sigmaringy</strong> dává ruku na</strong> srdce, <strong>František z Assisi</strong> má v rukou knihu a lebku, <strong>Antonín Paduánský</strong> drží v náručí dítě a <strong>Felix z Cantalicia</strong> dává dítěti chléb. Tyto sochy jsou čerstvě opravené. Poslední šestá socha je novodobá. K nerozeznání od ostatních ji 1927 vytesal Čeněk Vosmík a představuje svatého <strong>Vavřince z Brindisi</strong> s křížem a biblí v ruce. Nad hlavním vchodem do kostela je rozměrná <strong>mozaika svatého Františka</strong> z Assisi, jak káže ptákům. V padesátých letech ji navrhl malíř a básník v jedné osobě Vojmír Vokolek. Otočíme-li se od soch dozadu, naskytne se nám v ranním nebo večerním slunci nejkrásnější výhled na katedrálu na Petrově.   ',
+            foto:'rampa-kostela.jpg',
+            umisteniFoto: 'vlevo',
+            popisek: ' rampa u Kapucínského kostela  ', 
+            }, 
+            {
+              textOdstavce: ' <i>Svatý Josef z Leonessy (1556 – 1612) italský kapucínský duchovní, věhlasný kazatel, měl dar uzdravování. Misionář v Cařihradě, kde byl mučen. Svatý Fidel ze Sigmaringy (1577 – 1622) mučedník ze 17. století. Původem Němec, vyhledávaný právník, hájil zadarmo i nemajetné. V 35 letech vstoupil ke kapucínům, později se stal představeným řádu ve Švýcarsku, v době dělení církve na katolíky a kalvinisty po kázání napaden davem kalvinistů a zavražděn. Svatý František z Assisi (1182 – 1226), světec sebezáporu a odříkání, opěvovatel štěstí v neštěstí, zakladatel fratiškánského řádu hlásal absolutní chudobu i když pocházel z bohaté rodiny. Stavitel prvních jesliček, mystik, kterému se na těle objevila stigmata Kristových ran. Svatý Antonín Paduánský (1195 – 1231) kněz a učitel ze 13. století, současník a spolubratr předešlého, na břehu kázal rybám, které houfně připlouvaly. Svatý Felix z Cantalice (1513 – 1587) italský řeholník, ve třiceti letech vstoupil do kapucínského řádu jako laik, neměl vzdělání, ale měl mimořádné intelektuální schopnosti a tedy ho i kardinálové a preláti žádali o rady. Svatý Vavřinec z Brindisi (1559 – 1619) kněz, učitel, vojenský kaplan ve válkách, stal se generálním představitelem řádu kapucínů. Papež ho pověřoval mírovými jednáními po Evropě.</i>   ',
+              foto:'svaty-felix.jpg',
+              umisteniFoto: 'vpravo',
+              popisek: ' svatý Felix z Cantalice dává dítěti chléb  ', 
+              },
+              {
+                textOdstavce: ' <p>Sejdeme na křižovatku s Masarykovou ulicí. Nad hlavou máme <strong>plastiku tří kohoutů</strong>. Začátkem 19. století ji vytvořil Josef Rösler. Nebývala dřív tak vysoko, dům až do konce 19. věku byl jen patrový a kohouti byli nad přízemím. Bylo na ně lépe vidět. Půjdeme 50 kroků po Masarykově vzhůru a dojdeme ke kostelu Máří Magdaleny. Na průčelí ve výklencích jsou dvě barokní sochy, svatí <strong>Martin</strong> vpravo a <strong>Mikuláš</strong> po levé straně vchodu. Obě sochy sem byly přemístěny ze zbouraného kostela svatého Mikuláše na náměstí Svobody. Skulptury vznikly kolem roku 1790 a pocházejí ze sochařské dílny Ondřeje Schweigla (1735 – 1812).</p><p><i>Svatý Martin z Tours (asi 316 – 397) byl římský voják, poustevník a biskup, potíral pohany a obracel je na víru i násilím. Dle legendy neváhal mečem rozpůlit svůj plášť a podělit se o něj s promrzlým žebrákem. Ve snu pak spatřil Krista zabaleného do své půlky pláště. Svatý Mikuláš z Myry (4. století) byl biskupem v Malé Asii a proslul štědrostí a zázraky. Dodnes velmi vzpomínaný světec nebyl nikdy oficiálně za svatého prohlášen.</i></p>   ',
+                foto:'svaty-martin.jpg',
+                umisteniFoto: 'vlevo',
+                popisek: ' svatý Martin z Tours  ',
+                },
+                {
+                  textOdstavce: ' <p>Vraťme se zpět k ústí Masarykovy ulice do Nádražní. Na nejfrekventovanějším nároží v Brně stojíme na místě Židovské brány. Nad rohovým obchodem, kde se říkalo u Lamploty, podle vyhlášeného prvorepublikového lahůdkářství (dnes KFC), se objevil <strong>kamenný reliéf brány</strong>. Ovšem nejedná se o starou Ferdinandovu bránu, jak je tu psáno německy, ale o gotickou podobu Židovské brány ztvárněnou mistrem Pilgramem roku 1518. Pozůstatky této brány uchovávají v Muzeu města Brna na Špilberku. Brána vznikla ve 13. století a byla zbourána 1835, protože byla úzká a překážela vzrůstajícímu provozu povozů. Na jejím místě postavili triumfální neoklasicistní Ferdinandovu bránu k uvítání císaře Ferdinanda V., který s dlouhým průvodem vozů poctil město svou návštěvou. Ani ta dlouho nevydržela. Při noční slavnosti roku 1867 poloslepý hoteliér Laurent Padowetz jako první vyloupl krumpáčem kámen ze zdi a zahájil bourání této brány, předposlední v Brně. Reliéf na domě pochází asi z doby stavby domu v roce 1913. Byl zakryt zřejmě v dobách, kdy se na ulici nemohly vyskytovat žádné německé nápisy a možná se na něj i zapomnělo. Pokud chcete vidět podobu gotické Židovské brány, musíte jít o dvacet kroků dál až na tramvajový ostrůvek. Vystupující arkýř na jižní straně rohového domu představuje obrys staré brány ve skutečné velikosti a málokdo to ví.</p><p>Končí krátká procházka kolem brněnských soch. 24 soch a tři sousoší pamatují dobu baroka. V Brně to jsou až na dvě výjimky originály. Při pražské procházce je jen třetina soch originální, zbytek jsou napodobeniny nebo kopie. Pokud se zrovna nekonají vánoční trhy, nepotkáte kolem soch skoro nikoho, na rozdíl od Prahy. Další sošné baroko můžete vidět na Petrově, u Minoritů, u Milosrdných a také uvnitř většiny brněnských kostelů. Malou inspirací mohou být obrázky, najdete je <span><a href="https://turistapavel.rajce.idnes.cz/201912_Barokni_sochy_v_Brne/" target="_blank" class="vnitrniOdkaz">zde</a></span>.</p>' 
+                  },
+                  
+                  
+                
+              
+            
+          
+
+      ],
+
+      dodatekNadpis: "  ",
+      dodatekText: "  ",
+      fotkaUvod: { fotka: "europa-na-parnasu.jpg" },
+      galerie: [
+        { fotka: "karel-starsi.jpg", popisek: "Karel starší ze Žerotína" },
+        { fotka: "kasna-na-nove.jpg", popisek: "Kašna na Nové radnici" },
+        {
+          fotka: "puvodni-portal.jpg",
+          popisek: " Původní portál se slunečními hodinami.  ",
+        },
+        { fotka: "alois-gonzaga.jpg", popisek: " svatý Alois Gonzaga  " },
+        { fotka: "svaty-ivo.jpg", popisek: "svatý Ivo" },
+        { fotka: "svata-ludmila.jpg", popisek: " svatá Ludmila  " },
+        { fotka: "archandel-michael.jpg", popisek: "archanděl Michael" },
+        {
+          fotka: "znaky-budovatelu.jpg",
+          popisek: " znaky budovatelů chrámu nad vchodem  ",
+        },
+        {
+          fotka: "nejsvetejsi-trojice.jpg",
+          popisek: " sloup Nejsvětější trojice  ",
+        },
+        {
+          fotka: "socha-herakla.jpg",
+          popisek: " socha Hérakla na kašně Parnas  ",
+        },
+        {
+          fotka: "portal-mitrovskych.jpg",
+          popisek: " Rokokový portál z paláce Mitrovských  ",
+        },
+        { fotka: "merkurova-kasna.jpg", popisek: "Merkurova kašna" },
+        { fotka: 'buh-neptun.jpg', popisek: ' bůh Neptun na Merkurově kašně  ' },
+        { fotka: 'rampa-kostela.jpg', popisek: ' rampa u Kapucínského kostela  ' },
+        { fotka: 'svaty-felix.jpg', popisek: ' svatý Felix z Cantalice dává dítěti chléb  ' },
+        { fotka: 'svaty-martin.jpg', popisek: ' svatý Martin z Tours  ' },
+        { fotka: "", popisek: "" },
+        { fotka: "", popisek: "" },
+        { fotka: "", popisek: "" },
+      ],
     },
   ],
 };

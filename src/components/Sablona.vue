@@ -37,7 +37,8 @@
         pomnickyText: true,
         large:
           innerParams.stranka === 'vypraveni' ||
-          innerParams.stranka === 'cesty',
+          innerParams.stranka === 'cesty' ||
+          innerParams.stranka === 'novepridane',
       }"
     >
       <p
@@ -159,15 +160,17 @@
     <div
       class="kontejner"
       v-if="oknoUkazat && clankyPodKategorie"
-      
       v-bind:class="{
-        kontejnerBigMargin: innerParams.stranka === 'vypraveni' ||
+        kontejnerBigMargin:
+          innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty',
-        kontejnerSmallMargin: innerParams.stranka === 'pomnicky' ||
+        kontejnerSmallMargin:
+          innerParams.stranka === 'pomnicky' ||
           innerParams.stranka === 'smircikrize',
         large:
           innerParams.stranka === 'vypraveni' ||
-          innerParams.stranka === 'cesty',
+          innerParams.stranka === 'cesty' ||
+          innerParams.stranka === 'novepridane',
         bezTextu: innerParams.detail,
       }"
     >
@@ -176,7 +179,8 @@
           v-if="
             innerParams.stranka === 'pomnicky' ||
               innerParams.stranka === 'studanky' ||
-              innerParams.stranka === 'smircikrize'
+              innerParams.stranka === 'smircikrize' ||
+              innerParams.stranka === 'novepridane'
           "
           v-bind:clanky="clankyPodKategorie"
           v-on:kliknuti="vyfiltrujPomnicek"
@@ -185,7 +189,8 @@
         <OknoClanky
           v-if="
             innerParams.stranka === 'cesty' ||
-              innerParams.stranka === 'vypraveni'
+              innerParams.stranka === 'vypraveni' ||
+              innerParams.stranka === 'novepridane'
           "
           v-bind:clanky="clankyPodKategorie"
         />
@@ -299,6 +304,12 @@
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.id == this.$route.params.id
         );
+      } else if (this.$route.name === "NovePridane") {
+        this.clankyPodKategorie = this.clanky.filter(
+          (clanek) =>
+            clanek.kategorie === "vypraveni" ||
+            (clanek.kategorie === "pomnicky" && clanek.podkategorie === 1)
+        );
       } else if (this.$route.name === "Vypraveni") {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.kategorie === "vypraveni"
@@ -341,7 +352,7 @@
     width: 900px;
   }
 
-  @media(max-width: 950px){
+  @media (max-width: 950px) {
     .large {
       width: unset;
       max-width: 900px;
@@ -380,7 +391,6 @@
       padding-top: 30px;
       font-size: 30px;
       margin: 0;
-      /* margin-top: 50px; */
       padding: 0;
     }
 
@@ -420,10 +430,6 @@
     align-items: center;
     text-transform: uppercase;
     box-shadow: 5px 2px 2px #395250;
-
-    /* background-color: #38b974;  zelena na krize*/
-
-    /* background-color: #6bc5aa; puvodni*/
     font-size: 13px;
     min-width: 95%;
     max-width: 170px;
@@ -459,7 +465,6 @@
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
-    /* background-color: rgb(32, 190, 195); */
   }
 
   #odkazNahoru {
@@ -477,8 +482,7 @@
     width: 160px !important;
     padding: 0 10px;
     height: 35px;
-     background-color: #459ae6;
-    /* background-color: #497399; */
+    background-color: #459ae6;
   }
 
   #tlacitkoDomu:hover,
@@ -490,7 +494,7 @@
     .pomnickyNavigace {
       flex-direction: row;
       grid-row: 1/2;
-      grid-column: 1 / span 5;
+      grid-column: 1 / span 4;
       width: 95%;
       margin: 10px 0 0 0;
     }
@@ -522,10 +526,6 @@
     #pomnicky .pomnicekKategorie.pomnicekMenu {
       display: none;
     }
-
-    /* #abecedniSeznam {
-      display:none;
-    } */
   }
 
   #pomnicky .pomnicekKategorie.responsive {
@@ -537,7 +537,6 @@
   #seznam:hover {
     color: #13131d;
     background-color: #898a8b;
-    /* background-color: #a4a8ac;  */
   }
 
   .kategorieTextCenter {
@@ -546,7 +545,6 @@
   }
 
   .domu {
-    
     min-width: 95%;
     max-width: 170px;
     height: 30px;
@@ -565,7 +563,6 @@
   #seznam {
     margin-bottom: 20px;
     background-color: #459ae6;
-    /* background-color: rgb(110, 130, 172); */
   }
 
   @media (max-width: 600px) {
@@ -607,7 +604,6 @@
   #pomnicky .kontejner {
     grid-column: 2/7;
     grid-row: 3/4;
-    /* margin-top: 20px; */
     margin-bottom: 20px;
   }
 
