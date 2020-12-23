@@ -118,7 +118,7 @@
   #fotodetail button {
     position: absolute;
     right: 0;
-    bottom: -60px;
+    bottom: -90px;
     width: 100px;
     justify-content: left;
     padding-left: 30px;

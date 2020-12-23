@@ -97,6 +97,7 @@
 </template>
 
 <script>
+//doplnit trim k sablone kvuli mezeram, automaticke doplnovani fotek do galerie. Třídění článků - proč nefunguje? Dodělat unbreakable spaces
   import Clanky from "@/components/clanky.js";
   import Klikaci from "./../components/Klikaci.vue";
   export default {
