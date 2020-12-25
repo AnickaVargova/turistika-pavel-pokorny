@@ -4256,45 +4256,44 @@ export default {
           foto: "merkurova-kasna.jpg",
           umisteniFoto: "vlevo",
           popisek: "Merkurova kašna",
-        },{
-          textOdstavce: ' <p>Uprostřed dvora stojí <strong>torzo monumentální Merkurovy kašny</strong>, někdy se píše o Bendlově kašně. I to, co z ní zbylo, budí obdiv. Čtyři antická božstva představují čtyři živly: dole kovář <strong>Vulkán</strong> s kladivem znamená oheň, bohyně <strong>Ceres</strong> s rohem hojnosti zpodobňuje zemi a bůh <strong>Neptun</strong> vylévá vodu z vázy. Nad nimi personifikaci vzduchu představuje božský <strong>Merkur</strong>, vše skloubeno do dynamicky se proplétajících těl. Je třeba pozorně obejít sousoší ze všech stran. Ve starší literatuře se objevuje i jiný výklad, že spodní mužské postavy představují Svratku a Svitavu a nad nimi bůh obchodu Merkur odkazuje Brno jako město obchodu. Tento výklad je méně pravděpodobný. Tvůrcem kašny byl vídeňský sochař Ignaz Johann Bendl (? – 1730). Podle italských vzorů vytvořil sousoší, které ve své době představovalo špičku v tomto oboru tvorby na sever od Alp.</p><p>Kašna byla odhalena roku 1699 na náměstí Svobody a vydržela tam 160 let, zanikla s úpravou náměstí. Z vodní nádrže průměru 8 metrů se vypínalo šestimetrové sousoší. Stálo v místech dnešního moderního výtvoru. Chtě nechtě se tedy nabízí srovnání. Dnešní fontána vypadá půl roku jako zapomenutá káď na kapry, pamatuji, že je zrovna tady před čtyřiceti lety prodávali. Navíc na podlahu kolem dali verše Básníka. Asi sochaři nikdo neřekl, že po slovech básníků se nešlape. Někdy nádrž v zimě schovávají pod betlém, letos z ní udělali cípatý stůl. Počítám, že tu 160 let nevydrží.</p>   ',
-          foto:'buh-neptun.jpg',
-          umisteniFoto: 'vpravo',
-          popisek: ' bůh Neptun na Merkurově kašně  ',
-          },
-          {
-            textOdstavce: ' Sejdeme dolů po schodech na Kapucínské náměstí. Vpravo na zdi mineme <strong>pamětní desku Jana Sedláka</strong>, vlasteneckého kněze, který tu žil na začátku 20. století. Desku dělal brněnský sochař Josef Axmann (1891 – 1947) a v roce 1934 odlil kovolijec Franta Anýž z Prahy. Před Kapucínským kostelem je rampa s pěti barokními sochami světců spojených s františkánským a kapucínským řádem. Vytvořil je roku 1765 sochař Jan Adam Nesmann, přišedší z Mohuče (1710 – 1773). Od východní strany <strong>Josef z Leonessy</strong> s křížkem v ruce, <strong>Fidelius ze Sigmaringy</strong> dává ruku na</strong> srdce, <strong>František z Assisi</strong> má v rukou knihu a lebku, <strong>Antonín Paduánský</strong> drží v náručí dítě a <strong>Felix z Cantalicia</strong> dává dítěti chléb. Tyto sochy jsou čerstvě opravené. Poslední šestá socha je novodobá. K nerozeznání od ostatních ji 1927 vytesal Čeněk Vosmík a představuje svatého <strong>Vavřince z Brindisi</strong> s křížem a biblí v ruce. Nad hlavním vchodem do kostela je rozměrná <strong>mozaika svatého Františka</strong> z Assisi, jak káže ptákům. V padesátých letech ji navrhl malíř a básník v jedné osobě Vojmír Vokolek. Otočíme-li se od soch dozadu, naskytne se nám v ranním nebo večerním slunci nejkrásnější výhled na katedrálu na Petrově.   ',
-            foto:'rampa-kostela.jpg',
-            umisteniFoto: 'vlevo',
-            popisek: ' rampa u Kapucínského kostela  ', 
-            }, 
-            {
-              textOdstavce: ' <i>Svatý Josef z Leonessy (1556 – 1612) italský kapucínský duchovní, věhlasný kazatel, měl dar uzdravování. Misionář v Cařihradě, kde byl mučen. Svatý Fidel ze Sigmaringy (1577 – 1622) mučedník ze 17. století. Původem Němec, vyhledávaný právník, hájil zadarmo i nemajetné. V 35 letech vstoupil ke kapucínům, později se stal představeným řádu ve Švýcarsku, v době dělení církve na katolíky a kalvinisty po kázání napaden davem kalvinistů a zavražděn. Svatý František z Assisi (1182 – 1226), světec sebezáporu a odříkání, opěvovatel štěstí v neštěstí, zakladatel fratiškánského řádu hlásal absolutní chudobu i když pocházel z bohaté rodiny. Stavitel prvních jesliček, mystik, kterému se na těle objevila stigmata Kristových ran. Svatý Antonín Paduánský (1195 – 1231) kněz a učitel ze 13. století, současník a spolubratr předešlého, na břehu kázal rybám, které houfně připlouvaly. Svatý Felix z Cantalice (1513 – 1587) italský řeholník, ve třiceti letech vstoupil do kapucínského řádu jako laik, neměl vzdělání, ale měl mimořádné intelektuální schopnosti a tedy ho i kardinálové a preláti žádali o rady. Svatý Vavřinec z Brindisi (1559 – 1619) kněz, učitel, vojenský kaplan ve válkách, stal se generálním představitelem řádu kapucínů. Papež ho pověřoval mírovými jednáními po Evropě.</i>   ',
-              foto:'svaty-felix.jpg',
-              umisteniFoto: 'vpravo',
-              popisek: ' svatý Felix z Cantalice dává dítěti chléb  ', 
-              },
-              {
-                textOdstavce: ' <p>Sejdeme na křižovatku s Masarykovou ulicí. Nad hlavou máme <strong>plastiku tří kohoutů</strong>. Začátkem 19. století ji vytvořil Josef Rösler. Nebývala dřív tak vysoko, dům až do konce 19. věku byl jen patrový a kohouti byli nad přízemím. Bylo na ně lépe vidět. Půjdeme 50 kroků po Masarykově vzhůru a dojdeme ke kostelu Máří Magdaleny. Na průčelí ve výklencích jsou dvě barokní sochy, svatí <strong>Martin</strong> vpravo a <strong>Mikuláš</strong> po levé straně vchodu. Obě sochy sem byly přemístěny ze zbouraného kostela svatého Mikuláše na náměstí Svobody. Skulptury vznikly kolem roku 1790 a pocházejí ze sochařské dílny Ondřeje Schweigla (1735 – 1812).</p><p><i>Svatý Martin z Tours (asi 316 – 397) byl římský voják, poustevník a biskup, potíral pohany a obracel je na víru i násilím. Dle legendy neváhal mečem rozpůlit svůj plášť a podělit se o něj s promrzlým žebrákem. Ve snu pak spatřil Krista zabaleného do své půlky pláště. Svatý Mikuláš z Myry (4. století) byl biskupem v Malé Asii a proslul štědrostí a zázraky. Dodnes velmi vzpomínaný světec nebyl nikdy oficiálně za svatého prohlášen.</i></p>   ',
-                foto:'svaty-martin.jpg',
-                umisteniFoto: 'vlevo',
-                popisek: ' svatý Martin z Tours  ',
-                },
-                {
-                  textOdstavce: ' <p>Vraťme se zpět k ústí Masarykovy ulice do Nádražní. Na nejfrekventovanějším nároží v Brně stojíme na místě Židovské brány. Nad rohovým obchodem, kde se říkalo u Lamploty, podle vyhlášeného prvorepublikového lahůdkářství (dnes KFC), se objevil <strong>kamenný reliéf brány</strong>. Ovšem nejedná se o starou Ferdinandovu bránu, jak je tu psáno německy, ale o gotickou podobu Židovské brány ztvárněnou mistrem Pilgramem roku 1518. Pozůstatky této brány uchovávají v Muzeu města Brna na Špilberku. Brána vznikla ve 13. století a byla zbourána 1835, protože byla úzká a překážela vzrůstajícímu provozu povozů. Na jejím místě postavili triumfální neoklasicistní Ferdinandovu bránu k uvítání císaře Ferdinanda V., který s dlouhým průvodem vozů poctil město svou návštěvou. Ani ta dlouho nevydržela. Při noční slavnosti roku 1867 poloslepý hoteliér Laurent Padowetz jako první vyloupl krumpáčem kámen ze zdi a zahájil bourání této brány, předposlední v Brně. Reliéf na domě pochází asi z doby stavby domu v roce 1913. Byl zakryt zřejmě v dobách, kdy se na ulici nemohly vyskytovat žádné německé nápisy a možná se na něj i zapomnělo. Pokud chcete vidět podobu gotické Židovské brány, musíte jít o dvacet kroků dál až na tramvajový ostrůvek. Vystupující arkýř na jižní straně rohového domu představuje obrys staré brány ve skutečné velikosti a málokdo to ví.</p><p>Končí krátká procházka kolem brněnských soch. 24 soch a tři sousoší pamatují dobu baroka. V Brně to jsou až na dvě výjimky originály. Při pražské procházce je jen třetina soch originální, zbytek jsou napodobeniny nebo kopie. Pokud se zrovna nekonají vánoční trhy, nepotkáte kolem soch skoro nikoho, na rozdíl od Prahy. Další sošné baroko můžete vidět na Petrově, u Minoritů, u Milosrdných a také uvnitř většiny brněnských kostelů. Malou inspirací mohou být obrázky, najdete je <span><a href="https://turistapavel.rajce.idnes.cz/201912_Barokni_sochy_v_Brne/" target="_blank" class="vnitrniOdkaz">zde</a></span>.</p>' 
-                  },
-                  
-                  
-                
-              
-            
-          
-
+        },
+        {
+          textOdstavce:
+            " <p>Uprostřed dvora stojí <strong>torzo monumentální Merkurovy kašny</strong>, někdy se píše o Bendlově kašně. I to, co z ní zbylo, budí obdiv. Čtyři antická božstva představují čtyři živly: dole kovář <strong>Vulkán</strong> s kladivem znamená oheň, bohyně <strong>Ceres</strong> s rohem hojnosti zpodobňuje zemi a bůh <strong>Neptun</strong> vylévá vodu z vázy. Nad nimi personifikaci vzduchu představuje božský <strong>Merkur</strong>, vše skloubeno do dynamicky se proplétajících těl. Je třeba pozorně obejít sousoší ze všech stran. Ve starší literatuře se objevuje i jiný výklad, že spodní mužské postavy představují Svratku a Svitavu a nad nimi bůh obchodu Merkur odkazuje Brno jako město obchodu. Tento výklad je méně pravděpodobný. Tvůrcem kašny byl vídeňský sochař Ignaz Johann Bendl (? – 1730). Podle italských vzorů vytvořil sousoší, které ve své době představovalo špičku v tomto oboru tvorby na sever od Alp.</p><p>Kašna byla odhalena roku 1699 na náměstí Svobody a vydržela tam 160 let, zanikla s úpravou náměstí. Z vodní nádrže průměru 8 metrů se vypínalo šestimetrové sousoší. Stálo v místech dnešního moderního výtvoru. Chtě nechtě se tedy nabízí srovnání. Dnešní fontána vypadá půl roku jako zapomenutá káď na kapry, pamatuji, že je zrovna tady před čtyřiceti lety prodávali. Navíc na podlahu kolem dali verše Básníka. Asi sochaři nikdo neřekl, že po slovech básníků se nešlape. Někdy nádrž v zimě schovávají pod betlém, letos z ní udělali cípatý stůl. Počítám, že tu 160 let nevydrží.</p>   ",
+          foto: "buh-neptun.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " bůh Neptun na Merkurově kašně  ",
+        },
+        {
+          textOdstavce:
+            " Sejdeme dolů po schodech na Kapucínské náměstí. Vpravo na zdi mineme <strong>pamětní desku Jana Sedláka</strong>, vlasteneckého kněze, který tu žil na začátku 20. století. Desku dělal brněnský sochař Josef Axmann (1891 – 1947) a v roce 1934 odlil kovolijec Franta Anýž z Prahy. Před Kapucínským kostelem je rampa s pěti barokními sochami světců spojených s františkánským a kapucínským řádem. Vytvořil je roku 1765 sochař Jan Adam Nesmann, přišedší z Mohuče (1710 – 1773). Od východní strany <strong>Josef z Leonessy</strong> s křížkem v ruce, <strong>Fidelius ze Sigmaringy</strong> dává ruku na</strong> srdce, <strong>František z Assisi</strong> má v rukou knihu a lebku, <strong>Antonín Paduánský</strong> drží v náručí dítě a <strong>Felix z Cantalicia</strong> dává dítěti chléb. Tyto sochy jsou čerstvě opravené. Poslední šestá socha je novodobá. K nerozeznání od ostatních ji 1927 vytesal Čeněk Vosmík a představuje svatého <strong>Vavřince z Brindisi</strong> s křížem a biblí v ruce. Nad hlavním vchodem do kostela je rozměrná <strong>mozaika svatého Františka</strong> z Assisi, jak káže ptákům. V padesátých letech ji navrhl malíř a básník v jedné osobě Vojmír Vokolek. Otočíme-li se od soch dozadu, naskytne se nám v ranním nebo večerním slunci nejkrásnější výhled na katedrálu na Petrově.   ",
+          foto: "rampa-kostela.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " rampa u Kapucínského kostela  ",
+        },
+        {
+          textOdstavce:
+            " <i>Svatý Josef z Leonessy (1556 – 1612) italský kapucínský duchovní, věhlasný kazatel, měl dar uzdravování. Misionář v Cařihradě, kde byl mučen. Svatý Fidel ze Sigmaringy (1577 – 1622) mučedník ze 17. století. Původem Němec, vyhledávaný právník, hájil zadarmo i nemajetné. V 35 letech vstoupil ke kapucínům, později se stal představeným řádu ve Švýcarsku, v době dělení církve na katolíky a kalvinisty po kázání napaden davem kalvinistů a zavražděn. Svatý František z Assisi (1182 – 1226), světec sebezáporu a odříkání, opěvovatel štěstí v neštěstí, zakladatel fratiškánského řádu hlásal absolutní chudobu i když pocházel z bohaté rodiny. Stavitel prvních jesliček, mystik, kterému se na těle objevila stigmata Kristových ran. Svatý Antonín Paduánský (1195 – 1231) kněz a učitel ze 13. století, současník a spolubratr předešlého, na břehu kázal rybám, které houfně připlouvaly. Svatý Felix z Cantalice (1513 – 1587) italský řeholník, ve třiceti letech vstoupil do kapucínského řádu jako laik, neměl vzdělání, ale měl mimořádné intelektuální schopnosti a tedy ho i kardinálové a preláti žádali o rady. Svatý Vavřinec z Brindisi (1559 – 1619) kněz, učitel, vojenský kaplan ve válkách, stal se generálním představitelem řádu kapucínů. Papež ho pověřoval mírovými jednáními po Evropě.</i>   ",
+          foto: " svaty-felix.jpg",
+          umisteniFoto: "vpravo",
+          popisek: " svatý Felix z Cantalice dává dítěti chléb  ",
+        },
+        {
+          textOdstavce:
+            " <p>Sejdeme na křižovatku s Masarykovou ulicí. Nad hlavou máme <strong>plastiku tří kohoutů</strong>. Začátkem 19. století ji vytvořil Josef Rösler. Nebývala dřív tak vysoko, dům až do konce 19. věku byl jen patrový a kohouti byli nad přízemím. Bylo na ně lépe vidět. Půjdeme 50 kroků po Masarykově vzhůru a dojdeme ke kostelu Máří Magdaleny. Na průčelí ve výklencích jsou dvě barokní sochy, svatí <strong>Martin</strong> vpravo a <strong>Mikuláš</strong> po levé straně vchodu. Obě sochy sem byly přemístěny ze zbouraného kostela svatého Mikuláše na náměstí Svobody. Skulptury vznikly kolem roku 1790 a pocházejí ze sochařské dílny Ondřeje Schweigla (1735 – 1812).</p><p><i>Svatý Martin z Tours (asi 316 – 397) byl římský voják, poustevník a biskup, potíral pohany a obracel je na víru i násilím. Dle legendy neváhal mečem rozpůlit svůj plášť a podělit se o něj s promrzlým žebrákem. Ve snu pak spatřil Krista zabaleného do své půlky pláště. Svatý Mikuláš z Myry (4. století) byl biskupem v Malé Asii a proslul štědrostí a zázraky. Dodnes velmi vzpomínaný světec nebyl nikdy oficiálně za svatého prohlášen.</i></p>   ",
+          foto: "svaty-martin.jpg",
+          umisteniFoto: "vlevo",
+          popisek: " svatý Martin z Tours  ",
+        },
+        {
+          textOdstavce:
+            ' <p>Vraťme se zpět k ústí Masarykovy ulice do Nádražní. Na nejfrekventovanějším nároží v Brně stojíme na místě Židovské brány. Nad rohovým obchodem, kde se říkalo u Lamploty, podle vyhlášeného prvorepublikového lahůdkářství (dnes KFC), se objevil <strong>kamenný reliéf brány</strong>. Ovšem nejedná se o starou Ferdinandovu bránu, jak je tu psáno německy, ale o gotickou podobu Židovské brány ztvárněnou mistrem Pilgramem roku 1518. Pozůstatky této brány uchovávají v Muzeu města Brna na Špilberku. Brána vznikla ve 13. století a byla zbourána 1835, protože byla úzká a překážela vzrůstajícímu provozu povozů. Na jejím místě postavili triumfální neoklasicistní Ferdinandovu bránu k uvítání císaře Ferdinanda V., který s dlouhým průvodem vozů poctil město svou návštěvou. Ani ta dlouho nevydržela. Při noční slavnosti roku 1867 poloslepý hoteliér Laurent Padowetz jako první vyloupl krumpáčem kámen ze zdi a zahájil bourání této brány, předposlední v Brně. Reliéf na domě pochází asi z doby stavby domu v roce 1913. Byl zakryt zřejmě v dobách, kdy se na ulici nemohly vyskytovat žádné německé nápisy a možná se na něj i zapomnělo. Pokud chcete vidět podobu gotické Židovské brány, musíte jít o dvacet kroků dál až na tramvajový ostrůvek. Vystupující arkýř na jižní straně rohového domu představuje obrys staré brány ve skutečné velikosti a málokdo to ví.</p><p>Končí krátká procházka kolem brněnských soch. 24 soch a tři sousoší pamatují dobu baroka. V Brně to jsou až na dvě výjimky originály. Při pražské procházce je jen třetina soch originální, zbytek jsou napodobeniny nebo kopie. Pokud se zrovna nekonají vánoční trhy, nepotkáte kolem soch skoro nikoho, na rozdíl od Prahy. Další sošné baroko můžete vidět na Petrově, u Minoritů, u Milosrdných a také uvnitř většiny brněnských kostelů. Malou inspirací mohou být obrázky, najdete je <span><a href="https://turistapavel.rajce.idnes.cz/201912_Barokni_sochy_v_Brne/" target="_blank" class="vnitrniOdkaz">zde</a></span>.</p>',
+        },
       ],
 
       dodatekNadpis: "  ",
       dodatekText: "  ",
-      fotkaUvod: { fotka: "europa-na-parnasu.jpg" },
+      fotkaUvod: { fotka: "europa-na-parnasu.jpg", popisek:'Europa na Parnasu'},
       galerie: [
         { fotka: "karel-starsi.jpg", popisek: "Karel starší ze Žerotína" },
         { fotka: "kasna-na-nove.jpg", popisek: "Kašna na Nové radnici" },
@@ -4323,13 +4322,20 @@ export default {
           popisek: " Rokokový portál z paláce Mitrovských  ",
         },
         { fotka: "merkurova-kasna.jpg", popisek: "Merkurova kašna" },
-        { fotka: 'buh-neptun.jpg', popisek: ' bůh Neptun na Merkurově kašně  ' },
-        { fotka: 'rampa-kostela.jpg', popisek: ' rampa u Kapucínského kostela  ' },
-        { fotka: 'svaty-felix.jpg', popisek: ' svatý Felix z Cantalice dává dítěti chléb  ' },
-        { fotka: 'svaty-martin.jpg', popisek: ' svatý Martin z Tours  ' },
-        { fotka: "", popisek: "" },
-        { fotka: "", popisek: "" },
-        { fotka: "", popisek: "" },
+        {
+          fotka: "buh-neptun.jpg",
+          popisek: " bůh Neptun na Merkurově kašně  ",
+        },
+        {
+          fotka: "rampa-kostela.jpg",
+          popisek: " rampa u Kapucínského kostela  ",
+        },
+        {
+          fotka: "svaty-felix.jpg",
+          popisek: " svatý Felix z Cantalice dává dítěti chléb  ",
+        },
+        { fotka: "svaty-martin.jpg", popisek: " svatý Martin z Tours  " },
+     
       ],
     },
   ],

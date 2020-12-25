@@ -7,7 +7,7 @@
           <h3>{{ clanek.datum }}</h3>
           <div class="clanekFoto">
             <img
-              v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka}`)"
+              v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)"
               v-bind:alt="clanek.jmeno"
             />
           </div>

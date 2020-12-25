@@ -33,7 +33,7 @@
                   v-bind:src="require(`./../assets/${odstavec.foto}`)"
                   v-bind:alt="odstavec.popisek"
                 />
-                <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
+                <figcaption>{{ odstavec.popisek }}</figcaption>
               </figure>
             </router-link>
             <p>

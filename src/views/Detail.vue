@@ -8,37 +8,41 @@
     }"
   >
     <div id="detailOkno">
-      <router-link v-bind:to="`/${detailClanku.kategorie}`">
+     
+      <router-link v-bind:to="`/${detailClanku.kategorie}`"> <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na články
         </div>
       </router-link>
+      <a href="#top"  id="tlacitkoNahoruDetail" class="pomnicekKategorie">
+        Nahoru
+      </a>
       <h1>{{ detailClanku.nazev }}</h1>
+
       <h3>{{ detailClanku.datum }}</h3>
 
       <div id="textClanku">
         <div
           v-for="(odstavec, index) in detailClanku.text"
           v-bind:key="index"
-         
           class="odstavec"
         >
           <router-link
             v-if="odstavec.foto"
             v-bind:to="
-              `/fotodetail/${detailClanku.podkategorie}/${odstavec.foto}`
+              `/fotodetail/${detailClanku.podkategorie}/${odstavec.foto.trim()}`
             "
           >
             <figure
               id="fotoText"
               v-bind:class="{
-                vpravo: odstavec.umisteniFoto === 'vpravo',
-                vlevo: odstavec.umisteniFoto === 'vlevo',
+                vpravo: odstavec.umisteniFoto.trim() === 'vpravo',
+                vlevo: odstavec.umisteniFoto.trim() === 'vlevo',
                 nahore: index === 0,
               }"
             >
               <img
-                v-bind:src="require(`./../assets/${odstavec.foto}`)"
+                v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
                 v-bind:alt="detailClanku.nazev"
               />
               <figcaption>{{ odstavec.popisek }}</figcaption>
@@ -47,7 +51,9 @@
           <p v-if="odstavec.vnitrniOdkazy">
             <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
           </p>
-          <p  v-html='odstavec.textOdstavce' v-else>{{ odstavec.textOdstavce }}</p>
+          <p v-html="odstavec.textOdstavce" v-else>
+            {{ odstavec.textOdstavce }}
+          </p>
         </div>
         <h3 v-if="detailClanku.dodatekNadpis">
           {{ detailClanku.dodatekNadpis }}
@@ -68,8 +74,6 @@
           />
         </p>
       </div>
-
-      <!-- pri klikacim odkazu uvnitr textu: zeptat se kazdeho odstavce, zda je klikaci pomoci v-if, pokud je, zavola se misto nej komponenta klikaci, do niz se nacpou parametry toho odstavce-->
 
       <!-- <div id="galerieClanek">
         <div
@@ -97,7 +101,7 @@
 </template>
 
 <script>
-//doplnit trim k sablone kvuli mezeram, automaticke doplnovani fotek do galerie. Třídění článků - proč nefunguje? Dodělat unbreakable spaces
+  //doplnit trim k sablone kvuli mezeram, automaticke doplnovani fotek do galerie.  Dodělat unbreakable spaces
   import Clanky from "@/components/clanky.js";
   import Klikaci from "./../components/Klikaci.vue";
   export default {
@@ -106,7 +110,6 @@
     data() {
       return {
         clanky: Clanky.data,
-
         rok: undefined,
         detailClanku: undefined,
       };
@@ -122,6 +125,7 @@
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
+          this.detailClanku.galerie.unshift(this.detailClanku.fotkaUvod);
         }
       }
     },
@@ -145,6 +149,23 @@
     /* gap: 20px; */
     max-width: 800px;
     background-color: white;
+  }
+
+  #tlacitkoNahoruDetail {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 3px;
+    right: 0;
+    min-width: unset;
+    max-width: unset;
+    padding: 0 10px;
+    height: 35px;
+    background-color: #459ae6;
+    justify-self: flex-end;
+    align-self: start;
   }
 
   @media (max-width: 600px) {
@@ -185,8 +206,7 @@
 
   #fotoText {
     height: 200px;
-   width: min-content;
-   
+    width: min-content;
   }
 
   @media (max-width: 600px) {
@@ -235,13 +255,11 @@
     text-decoration: none;
     color: black;
     line-height: 1.2;
-   
   }
 
-  @media(max-width: 600px){
+  @media (max-width: 600px) {
     figcaption {
       font-size: 12px;
-      
     }
   }
 
@@ -274,6 +292,7 @@
     grid-column: 1 / span3;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   @media (max-width: 600px) {

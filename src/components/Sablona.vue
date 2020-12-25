@@ -253,9 +253,11 @@
 
       seradClanky() {
         if (this.$route.name === "Vypraveni") {
-          this.clankyPodKategorie = this.clankyPodKategorie.sort(
-            (a, b) => b.datum.slice(-4) - a.datum.slice(-4)
+          this.clankyPodKategorie.sort(
+            (a, b) => Number(b.datum.slice(-4)) - Number(a.datum.slice(-4))
+           
           );
+          
         } else {
           for (let clanek of this.clankyPodKategorie) {
             if (!clanek.jmeno) {
