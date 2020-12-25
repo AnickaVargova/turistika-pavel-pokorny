@@ -10,11 +10,15 @@
       </figcaption>
       <figcaption v-else-if="vybranaFotka.datum && vybranaFotka.poznamka">
         ({{ vybranaFotka.datum }})
-        <p v-bind:style="{ fontStyle: 'normal' }">{{
-          vybranaFotka.poznamka
-        }}</p>
+        <p v-bind:style="{ fontStyle: 'normal' }">
+          {{ vybranaFotka.poznamka }}
+        </p>
       </figcaption>
-      <figcaption v-else-if="vybranaFotka.popisek && !vybranaFotka.datum && !vybranaFotka.poznamka">
+      <figcaption
+        v-else-if="
+          vybranaFotka.popisek && !vybranaFotka.datum && !vybranaFotka.poznamka
+        "
+      >
         {{ vybranaFotka.popisek }}
       </figcaption>
 
@@ -63,8 +67,16 @@
           for (let clanek of this.clanky) {
             if (clanek.fotkaUvod) {
               clanek.galerie.push(clanek.fotkaUvod);
-            }
-            if (clanek.galerie) {
+
+              for (let odstavec of clanek.text) {
+                if (odstavec.foto) {
+                  clanek.galerie.push({
+                    fotka: odstavec.foto.trim(),
+                    popisek: odstavec.popisek,
+                  });
+                }
+              }
+
               for (let obrazek of clanek.galerie) {
                 if (obrazek.fotka == this.$route.params.id) {
                   this.vybranaFotka = obrazek;
@@ -112,7 +124,6 @@
   #fotodetail figcaption {
     font-size: 15px;
     margin-top: 20px;
-   
   }
 
   #fotodetail button {

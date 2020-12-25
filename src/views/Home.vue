@@ -9,21 +9,20 @@
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
       <h2>Postupně doplňujeme pomníčky, smírčí kříže, cesty a vyprávění.</h2>
       <p>
-        Naše webové stránky se zabývají regionální vlastivědou v Brně a okolí,
+        Naše webové stránky se zabývají regionální vlastivědou v{{'\xa0'}}Brně a okolí,
         turistikou a cestováním po republice i po Evropě. Popisují pomníčky,
-        smírčí kříže, studánky a další objekty turistického zájmu v okruhu
-        zhruba třiceti kilometrů od Brna, tedy oblast vymezenou Vyškovem a
+        smírčí kříže, studánky a další objekty turistického zájmu v{{'\xa0'}}okruhu
+        zhruba třiceti kilometrů od Brna, tedy oblast vymezenou Vyškovem 
         Ždánicemi na východě, Novomlýnskými nádržemi na jihu, Moravským
         Krumlovem, Náměští a Velkou Bíteší na západě a Nedvědicemi a Boskovicemi
-        na severu. Až na výjimky se nalézají v přírodě, mimo zástavbu. Pomníky v
-        intravilánu obcí nehledáme. Návodem se pro nás stala Kniha o Jizerských
-        horách od Miloslava Nevrlého, která vyšla poprvé v roce 1978 a od té
+        na severu. Až na výjimky se nalézají v{{'\xa0'}}přírodě, mimo zástavbu. Pomníky v{{'\xa0'}}intravilánu obcí nehledáme. Návodem se pro nás stala Kniha o Jizerských
+        horách od Miloslava Nevrlého, která vyšla poprvé v{{'\xa0'}}roce 1978 a od té
         doby ještě čtyřikrát. Navazovala na odvěkou touhu člověka hledat,
-        nalézat, objevovat. V osmdesátých letech jsme začali hledat pomníčky
-        kolem Brna a dosud nepřestali. Tehdy byly k dispozici jen nepřesné mapy
+        nalézat, objevovat. V{{'\xa0'}}osmdesátých letech jsme začali hledat pomníčky
+        kolem Brna a dosud nepřestali. Tehdy byly k{{'\xa0'}}dispozici jen nepřesné mapy
         a GPS ještě nebylo vynalezeno. Počet těchto objektů přesahuje odhadem
         tisícovku a mění se, některé přibývají, jiné zanikají. Doufáme, že tyto
-        stránky se mohou stát vaší inspirací k výletům a vyjížďkám do spanilého
+        stránky se mohou stát vaší inspirací k{{'\xa0'}}výletům a vyjížďkám do spanilého
         okolí brněnského. Byli bychom rádi, kdybyste zažili aspoň zlomek
         radosti, kterou jsme prožívali my při hledání, neboť hledání je lepší
         než nalézání.

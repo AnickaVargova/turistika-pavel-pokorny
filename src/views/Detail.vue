@@ -101,7 +101,7 @@
 </template>
 
 <script>
-  //doplnit trim k sablone kvuli mezeram, automaticke doplnovani fotek do galerie.  Dodělat unbreakable spaces
+ 
   import Clanky from "@/components/clanky.js";
   import Klikaci from "./../components/Klikaci.vue";
   export default {
@@ -125,7 +125,7 @@
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
-          this.detailClanku.galerie.unshift(this.detailClanku.fotkaUvod);
+          // this.detailClanku.galerie.unshift(this.detailClanku.fotkaUvod);
         }
       }
     },

@@ -16,7 +16,7 @@
         params: {
           nadpis: "Pomníčky",
           uvodniText: [
-            "Rozdělení pomníků do skupin je jen orientační, některé památky by mohly patřit do více oddílů. Hranice, co je a co už není pomníček, je tenká. Rozhoduje hlavně, zda má jméno nebo alespoň datum, historie, podoba. Některé skupiny pomníků (letecké tragédie, napoleonské, lichtenštejnské) jsou na jiných webových stránkách zpracovány důkladněji, než tady. Uvádím je v odkazech. Vysvětlení zkratek:  S J V Z  = světové strany,  VSV = východoseverovýchod.",
+            "Rozdělení pomníků do skupin je jen orientační, některé památky by mohly patřit do více oddílů. Hranice, co je a co už není pomníček, je tenká. Rozhoduje hlavně, zda má jméno nebo alespoň datum, historie, podoba. Některé skupiny pomníků (letecké tragédie, napoleonské, lichtenštejnské) jsou na jiných webových stránkách zpracovány důkladněji, než tady. Uvádím je v\xa0odkazech. Vysvětlení zkratek:  S J V Z  = světové strany,  VSV = východoseverovýchod.",
           ],
 
           kategoriePomnicky: [
@@ -29,7 +29,7 @@
             { id: 7, nazev: "Lesnické a dřevařské", pocet: undefined },
             { id: 8, nazev: "Lovecké a pytlácké", pocet: undefined },
             { id: 9, nazev: "Ostatní tragédie", pocet: undefined },
-            { id: 10, nazev: "Sochy v přírodě", pocet: undefined },
+            { id: 10, nazev: "Sochy v\xa0přírodě", pocet: undefined },
             { id: 11, nazev: "Literární", pocet: undefined },
             { id: 12, nazev: "Jeskyňářské", pocet: undefined },
             { id: 13, nazev: "Trampské objekty", pocet: undefined },

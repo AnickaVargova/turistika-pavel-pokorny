@@ -55,25 +55,25 @@
           text: [
             {
               textOdstavce:
-                "Jsme dva turisté, tuláci, cestovatelé silně důchodového věku (Pavel 1948, Lída 1949). Oba odmalička procházíme různými obdobími turistického života, pravda zpočátku každý zvlášť, od roku 1972 společně. V mládí jsme jezdili na hory i na vodu, lezli po skalách i do jeskyní. Teď už jen běžky nasazujem, bicykly sedláme a pohorky obouváme. Kromě dětí, domů, duchovního života, vnoučat, dobrovolné skromnosti, chalupy, zahrad a dalších nemovitostí jsme se v životě zabývali turistikou v nejrůznějších podobách.",
+                "Jsme dva turisté, tuláci, cestovatelé silně důchodového věku (Pavel 1948, Lída 1949). Oba odmalička procházíme různými obdobími turistického života, pravda zpočátku každý zvlášť, od roku 1972 společně. V\xa0mládí jsme jezdili na hory i na vodu, lezli po skalách i do jeskyní. Teď už jen běžky nasazujem, bicykly sedláme a pohorky obouváme. Kromě dětí, domů, duchovního života, vnoučat, dobrovolné skromnosti, chalupy, zahrad a dalších nemovitostí jsme se v\xa0životě zabývali turistikou v\xa0nejrůznějších podobách.",
               foto: "onas2.jpg",
               popisek: "Polsko, Czarna Hancza  (červenec 2018) ",
               umisteniFoto: "vlevo",
             },
             {
               textOdstavce:
-                "Od studentských let se družíme se skupinou přátel, která si kdysi dala jméno Brněnská chasa. S jejími pohrobky se scházíme a jezdíme na hory dodnes.",
+                "Od studentských let se družíme se skupinou přátel, která si kdysi dala jméno Brněnská chasa. S\xa0jejími pohrobky se scházíme a jezdíme na hory dodnes.",
             },
             {
               textOdstavce:
-                "Společnou celoživotní vášní je pro nás dva táboření, bivakování a pobyt ve volné přírodě. Začali jsme s tím před padesáti lety, kdy zákazů táboření bylo minimálně a ledacos se tolerovalo. S léty je to u nás a na Slovensku stále těžší. Přibývá zákazů, pravidel a vyhrazených míst na táboření, kterým se vyhýbáme. Naštěstí jsou ještě po Evropě země, kde se volně tábořit dá a nebo je tolerováno, protože nikoho nenapadlo to zakazovat (Balkán, Skandinávie). Programově vyhledáváme skrytá, málo známá a nenavštěvovaná místa, ať je to kolem Brna, po republice nebo na Slovensku.",
+                "Společnou celoživotní vášní je pro nás dva táboření, bivakování a pobyt ve volné přírodě. Začali jsme s\xa0tím před padesáti lety, kdy zákazů táboření bylo minimálně a ledacos se tolerovalo. S\xa0léty je to u nás a na Slovensku stále těžší. Přibývá zákazů, pravidel a vyhrazených míst na táboření, kterým se vyhýbáme. Naštěstí jsou ještě po Evropě země, kde se volně tábořit dá a nebo je tolerováno, protože nikoho nenapadlo to zakazovat (Balkán, Skandinávie). Programově vyhledáváme skrytá, málo známá a nenavštěvovaná místa, ať je to kolem Brna, po republice nebo na Slovensku.",
               foto: "onas1.jpg",
               popisek: "Rumunsko, Trascau  (září 2016)",
               umisteniFoto: "vpravo",
             },
             {
               textOdstavce:
-                "Na stará kolena jsme rozšířili okruh našich zájmů. Pavel se zabývá regionální vlastivědou Brna a okolí a z jeho pera pocházejí všechna vyprávění na tomto webu. Lída se baví lingvistikou a z těchto vyprávění odstraňuje gramatické a slohové nedostatky. Oba jsme pak propadli botanice na amatérské úrovni a kytičkářství, tedy vyhledávání krásných a vzácných květin v přírodě.",
+                "Na stará kolena jsme rozšířili okruh našich zájmů. Pavel se zabývá regionální vlastivědou Brna a okolí a z\xa0jeho pera pocházejí všechna vyprávění na tomto webu. Lída se baví lingvistikou a z\xa0těchto vyprávění odstraňuje gramatické a slohové nedostatky. Oba jsme pak propadli botanice na amatérské úrovni a kytičkářství, tedy vyhledávání krásných a vzácných květin v\xa0přírodě.",
             },
           ],
         },
