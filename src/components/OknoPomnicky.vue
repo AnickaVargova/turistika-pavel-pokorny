@@ -100,7 +100,7 @@
           </td>
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
-        <!-- pridat logicky operator || pokud budou vnitrni odkazy na ruznych mistech, poslat do Klikaci informaci,kde Klikaci je, zobrazit jen odkazy, ktere tam patri -->
+       
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Kde se nachází?</td>
           <td

@@ -65,18 +65,16 @@
           }
         } else {
           for (let clanek of this.clanky) {
-            if (clanek.fotkaUvod) {
-              clanek.galerie.push(clanek.fotkaUvod);
-
+            
+            if (clanek.text) {
               for (let odstavec of clanek.text) {
-                if (odstavec.foto) {
-                  clanek.galerie.push({
-                    fotka: odstavec.foto.trim(),
-                    popisek: odstavec.popisek,
-                  });
-                }
+                clanek.galerie.push({
+                  fotka: odstavec.foto,
+                  popisek: odstavec.popisek,
+                });
               }
-
+            }
+            if (clanek.galerie) {
               for (let obrazek of clanek.galerie) {
                 if (obrazek.fotka == this.$route.params.id) {
                   this.vybranaFotka = obrazek;
@@ -84,9 +82,6 @@
                   this.vybranaKategorie = clanek.kategorie;
                 }
               }
-            }
-            if (clanek.fotkaUvod) {
-              clanek.galerie.pop();
             }
           }
         }
