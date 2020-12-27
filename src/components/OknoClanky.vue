@@ -1,7 +1,19 @@
 <template>
   <div id="oknoPomnicky">
     <div v-for="(clanek, index) in mojeClanky" v-bind:key="index">
-      <router-link v-bind:to="`/vypraveni/${clanek.podkategorie}/${clanek.id}`">
+      <router-link v-if="stranka==='vypraveni'" v-bind:to="`/vypraveni/${clanek.podkategorie}/${clanek.id}`">
+        <div class="clanek">
+          <h2>{{ clanek.nazev }}</h2>
+          <h3>{{ clanek.datum }}</h3>
+          <div class="clanekFoto">
+            <img
+              v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)"
+              v-bind:alt="clanek.jmeno"
+            />
+          </div>
+        </div>
+      </router-link>
+      <router-link v-else-if="stranka==='novepridane'" v-bind:to="`/novepridane/${clanek.podkategorie}/${clanek.id}`">
         <div class="clanek">
           <h2>{{ clanek.nazev }}</h2>
           <h3>{{ clanek.datum }}</h3>
@@ -19,7 +31,7 @@
 
 <script>
   export default {
-    props: ["clanky"],
+    props: ["clanky", "stranka"],
     data(){
       return {
         mojeClanky: this.clanky,

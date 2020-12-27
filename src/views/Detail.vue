@@ -9,7 +9,14 @@
   >
     <div id="detailOkno">
      
-      <router-link v-bind:to="`/${detailClanku.kategorie}`"> <a name="top"></a>
+      <router-link v-if="this.$route.name==='NovePridane'" to="/novepridane">
+      <a name="top"></a>
+        <div class="pomnicekKategorie" id="zpetNaClanky">
+          Zpět na články
+        </div>
+      </router-link>
+       <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
+      <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na články
         </div>
@@ -112,6 +119,8 @@
         clanky: Clanky.data,
         rok: undefined,
         detailClanku: undefined,
+        stranka: undefined,
+       
       };
     },
 
@@ -125,9 +134,10 @@
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
-          // this.detailClanku.galerie.unshift(this.detailClanku.fotkaUvod);
+         
         }
       }
+      
     },
   };
 </script>

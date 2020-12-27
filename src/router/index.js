@@ -99,7 +99,11 @@ const routes = [{
         name: 'NovePridane',
         component: NovePridane,
     },
-   
+    {
+        path: '/novepridane/:podkategorie/:id',
+        name: 'NovePridane',
+        component: Detail,
+    },
 
 ]
 

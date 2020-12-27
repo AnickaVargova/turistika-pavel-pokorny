@@ -180,7 +180,7 @@
             innerParams.stranka === 'pomnicky' ||
               innerParams.stranka === 'studanky' ||
               innerParams.stranka === 'smircikrize' ||
-              innerParams.stranka === 'novepridane'
+              (innerParams.stranka === 'novepridane' && pomnickyUkazat)
           "
           v-bind:clanky="clankyPodKategorie"
           v-on:kliknuti="vyfiltrujPomnicek"
@@ -190,9 +190,10 @@
           v-if="
             innerParams.stranka === 'cesty' ||
               innerParams.stranka === 'vypraveni' ||
-              innerParams.stranka === 'novepridane'
+              (innerParams.stranka === 'novepridane' && clankyUkazat)
           "
           v-bind:clanky="clankyPodKategorie"
+          v-bind:stranka="innerParams.stranka"
         />
       </div>
     </div>
@@ -223,6 +224,8 @@
         seznamUkazat: true,
         innerWidth: window.innerWidth,
         menuColumn: false,
+        pomnickyUkazat: false,
+        clankyUkazat: false,
       };
     },
 
@@ -255,9 +258,7 @@
         if (this.$route.name === "Vypraveni") {
           this.clankyPodKategorie.sort(
             (a, b) => Number(b.datum.slice(-4)) - Number(a.datum.slice(-4))
-           
           );
-          
         } else {
           for (let clanek of this.clankyPodKategorie) {
             if (!clanek.jmeno) {
@@ -295,6 +296,35 @@
           this.menuUkazat = false;
         }
       },
+
+      filterRecent(clanek) {
+        if (clanek.pridano) {
+          let pridano = clanek.pridano;
+          pridano = Date.parse(
+            pridano.slice(3, 6).concat(pridano.slice(0, 3), pridano.slice(6))
+          );
+
+          let today = new Date().getTime();
+
+          let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
+
+          if (last2weeks<=14) {
+            if (
+              clanek.kategorie === "pomnicky" ||
+              clanek.kategorie === "smircikrize"
+            ) {
+              this.pomnickyUkazat = true;
+            } else if (
+              clanek.kategorie === "vypraveni" ||
+              clanek.kategorie === "cesty"
+            ) {
+              this.clankyUkazat = true;
+            }
+          }
+
+          return last2weeks <= 14;
+        }
+      },
     },
 
     created() {
@@ -307,10 +337,8 @@
           (clanek) => clanek.id == this.$route.params.id
         );
       } else if (this.$route.name === "NovePridane") {
-        this.clankyPodKategorie = this.clanky.filter(
-          (clanek) =>
-            clanek.kategorie === "vypraveni" ||
-            (clanek.kategorie === "pomnicky" && clanek.podkategorie === 1)
+        this.clankyPodKategorie = this.clanky.filter((clanek) =>
+          this.filterRecent(clanek)
         );
       } else if (this.$route.name === "Vypraveni") {
         this.clankyPodKategorie = this.clanky.filter(

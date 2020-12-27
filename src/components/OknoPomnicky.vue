@@ -111,7 +111,7 @@
           >
             <Klikaci v-bind:clanek="clanek" kdeJsem ='kdeSeNaleza' v-on:kliknuti="vyfiltrujPomnicek" />
           </td>
-          <td v-else>{{ clanek.kdeSeNaleza }}</td>
+          <td v-else >{{ clanek.kdeSeNaleza }}</td>
         </tr>
 
         <tr v-if="clanek.kategorie === 'pomnicky'">

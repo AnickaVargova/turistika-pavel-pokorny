@@ -38,7 +38,7 @@
     </footer>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
-      <!-- <router-link to="/novePridane">Nově přidané</router-link> -->
+      <router-link to="/novepridane">Nově přidané</router-link>
 
       <router-link to="/pomnicky">Pomníčky ({{pocetPomnicku}}) </router-link>
 
