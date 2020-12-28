@@ -9,23 +9,27 @@
       <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
       <h2>Postupně doplňujeme pomníčky, smírčí kříže, cesty a vyprávění.</h2>
       <p>
-        Naše webové stránky se zabývají regionální vlastivědou v{{'\xa0'}}Brně a okolí,
-        turistikou a cestováním po republice i po Evropě. Popisují pomníčky,
-        smírčí kříže, studánky a další objekty turistického zájmu v{{'\xa0'}}okruhu
-        zhruba třiceti kilometrů od Brna, tedy oblast vymezenou Vyškovem 
-        Ždánicemi na východě, Novomlýnskými nádržemi na jihu, Moravským
+        Naše webové stránky se zabývají regionální vlastivědou v{{ "\xa0" }}Brně
+        a okolí, turistikou a cestováním po republice i po Evropě. Popisují
+        pomníčky, smírčí kříže, studánky a další objekty turistického zájmu v{{
+          "\xa0"
+        }}okruhu zhruba třiceti kilometrů od Brna, tedy oblast vymezenou
+        Vyškovem Ždánicemi na východě, Novomlýnskými nádržemi na jihu, Moravským
         Krumlovem, Náměští a Velkou Bíteší na západě a Nedvědicemi a Boskovicemi
-        na severu. Až na výjimky se nalézají v{{'\xa0'}}přírodě, mimo zástavbu. Pomníky v{{'\xa0'}}intravilánu obcí nehledáme. Návodem se pro nás stala Kniha o Jizerských
-        horách od Miloslava Nevrlého, která vyšla poprvé v{{'\xa0'}}roce 1978 a od té
-        doby ještě čtyřikrát. Navazovala na odvěkou touhu člověka hledat,
-        nalézat, objevovat. V{{'\xa0'}}osmdesátých letech jsme začali hledat pomníčky
-        kolem Brna a dosud nepřestali. Tehdy byly k{{'\xa0'}}dispozici jen nepřesné mapy
-        a GPS ještě nebylo vynalezeno. Počet těchto objektů přesahuje odhadem
+        na severu. Až na výjimky se nalézají v{{ "\xa0" }}přírodě, mimo
+        zástavbu. Pomníky v{{ "\xa0" }}intravilánu obcí nehledáme. Návodem se
+        pro nás stala Kniha o Jizerských horách od Miloslava Nevrlého, která
+        vyšla poprvé v{{ "\xa0" }}roce 1978 a od té doby ještě čtyřikrát.
+        Navazovala na odvěkou touhu člověka hledat, nalézat, objevovat. V{{
+          "\xa0"
+        }}osmdesátých letech jsme začali hledat pomníčky kolem Brna a dosud
+        nepřestali. Tehdy byly k{{ "\xa0" }}dispozici jen nepřesné mapy a GPS
+        ještě nebylo vynalezeno. Počet těchto objektů přesahuje odhadem
         tisícovku a mění se, některé přibývají, jiné zanikají. Doufáme, že tyto
-        stránky se mohou stát vaší inspirací k{{'\xa0'}}výletům a vyjížďkám do spanilého
-        okolí brněnského. Byli bychom rádi, kdybyste zažili aspoň zlomek
-        radosti, kterou jsme prožívali my při hledání, neboť hledání je lepší
-        než nalézání.
+        stránky se mohou stát vaší inspirací k{{ "\xa0" }}výletům a vyjížďkám do
+        spanilého okolí brněnského. Byli bychom rádi, kdybyste zažili aspoň
+        zlomek radosti, kterou jsme prožívali my při hledání, neboť hledání je
+        lepší než nalézání.
       </p>
     </div>
     <footer>
@@ -38,17 +42,23 @@
     </footer>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
-      <router-link to="/novepridane">Nově přidané</router-link>
+      <router-link to="/novepridane"
+        >Nově přidané ({{ pocetNovych }})</router-link
+      >
 
-      <router-link to="/pomnicky">Pomníčky ({{pocetPomnicku}}) </router-link>
+      <router-link to="/pomnicky">Pomníčky ({{ pocetPomnicku }}) </router-link>
 
       <!-- <router-link to="/studanky">Studánky </router-link> -->
 
-      <router-link to="/smircikrize">Smírčí kříže ({{pocetKrizu}})</router-link>
+      <router-link to="/smircikrize"
+        >Smírčí kříže ({{ pocetKrizu }})</router-link
+      >
 
-      <router-link to="/cesty/1">Cesty ({{pocetCest}})</router-link>
+      <router-link to="/cesty/1">Cesty ({{ pocetCest }})</router-link>
 
-      <router-link to="/vypraveni">Vyprávění ({{pocetVypraveni}})</router-link>
+      <router-link to="/vypraveni"
+        >Vyprávění ({{ pocetVypraveni }})</router-link
+      >
 
       <router-link to="/onas">O nás</router-link>
 
@@ -75,7 +85,7 @@
 </template>
 
 <script>
-  import clanky from './../components/clanky.js';
+  import clanky from "./../components/clanky.js";
   export default {
     data() {
       return {
@@ -84,6 +94,7 @@
         pocetKrizu: 0,
         pocetCest: 0,
         pocetVypraveni: 0,
+        pocetNovych: 0,
       };
     },
 
@@ -91,24 +102,52 @@
       toggleMenu() {
         this.responsive = !this.responsive;
       },
+      filterRecent(clanek) {
+        if (clanek.pridano) {
+          let pridano = clanek.pridano;
+          pridano = Date.parse(
+            pridano.slice(3, 6).concat(pridano.slice(0, 3), pridano.slice(6))
+          );
+
+          let today = new Date().getTime();
+
+          let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
+
+          if (last2weeks <= 14) {
+            if (
+              clanek.kategorie === "pomnicky" ||
+              clanek.kategorie === "smircikrize"
+            ) {
+              this.pomnickyUkazat = true;
+            } else if (
+              clanek.kategorie === "vypraveni" ||
+              clanek.kategorie === "cesty"
+            ) {
+              this.clankyUkazat = true;
+            }
+          }
+
+          return last2weeks <= 14;
+        }
+      },
     },
-    created(){
-      for(let clanek of clanky.data){
-        if(clanek.kategorie==='pomnicky'){
+    created() {
+      for (let clanek of clanky.data) {
+        if (clanek.kategorie === "pomnicky") {
           this.pocetPomnicku++;
-        }
-        else if(clanek.kategorie==='smircikrize'){
+        } else if (clanek.kategorie === "smircikrize") {
           this.pocetKrizu++;
-        }
-         else if(clanek.kategorie==='cesty'){
+        } else if (clanek.kategorie === "cesty") {
           this.pocetCest++;
-        }
-         else if(clanek.kategorie==='vypraveni'){
+        } else if (clanek.kategorie === "vypraveni") {
           this.pocetVypraveni++;
         }
       }
-     
-    }
+      let noveClanky = clanky.data.filter((clanek) =>
+        this.filterRecent(clanek)
+      );
+      this.pocetNovych = noveClanky.length;
+    },
   };
 </script>
 
@@ -150,7 +189,10 @@
     -moz-osx-font-smoothing: grayscale;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(min-content, 100px) auto minmax(min-content, 100px);
+    grid-template-rows: minmax(min-content, 100px) auto minmax(
+        min-content,
+        100px
+      );
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -171,27 +213,27 @@
     margin: 5%;
     margin-bottom: 0;
     text-align: justify;
-    color:#1e0b3d;
+    color: #1e0b3d;
   }
 
   #uvodniText h1 {
     font-size: 40px;
-    color:#1e0b3d
+    color: #1e0b3d;
   }
 
   #uvodniText h2 {
     font-family: "Patrick Hand", cursive;
-    color:#1e0b3d;
+    color: #1e0b3d;
     /* color: #2c3e50; */
   }
 
-   #pozadi {
+  #pozadi {
     grid-row-start: 1;
     grid-column: 1/7;
     grid-row-end: 4;
     width: 100vw;
     height: 100%;
-      }
+  }
 
   #pozadi img {
     grid-column: 1 / 7;
@@ -208,7 +250,7 @@
     margin-right: 0;
   }
 
-   footer {
+  footer {
     grid-row: 3/4;
     grid-column: 1/6;
     margin: 0 0 20px 20px;
@@ -217,7 +259,7 @@
   }
 
   footer a {
-    color:#1e0b3d;
+    color: #1e0b3d;
     text-decoration: underline;
   }
 
@@ -225,10 +267,11 @@
     color: rgb(69, 67, 71);
   }
 
-
   @media (max-width: 600px) {
     .home {
-      grid-template-rows: minmax(min-content, 100px) auto minmax(min-content, 100px) minmax(min-content, 100px);
+      grid-template-rows:
+        minmax(min-content, 100px) auto minmax(min-content, 100px)
+        minmax(min-content, 100px);
     }
 
     #uvodniText {
@@ -252,8 +295,6 @@
       grid-row: 4/5;
     }
   }
-
- 
 
   @media (max-width: 900px) {
     #pozadi {
@@ -297,7 +338,6 @@
     background-color: #7695dd;
     /* background-color: #6bc5aa; */
     color: #13131d;
-   
   }
 
   @media (max-width: 600px) {
@@ -329,8 +369,4 @@
   #pomnickyFiltry li:hover {
     background-color: #30524f;
   }
-
- 
-
-
 </style>
