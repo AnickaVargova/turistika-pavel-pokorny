@@ -372,6 +372,7 @@
     min-height: 100vh;
     grid-template-rows: auto auto auto auto;
     color: #131e36;
+    
   }
 
   .large {
@@ -390,7 +391,7 @@
   }
 
   .bezTextu {
-    grid-row: 2/5 !important;
+    grid-row: 2/4 !important;
   }
 
   #pomnicky h1 {
