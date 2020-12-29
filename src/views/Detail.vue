@@ -8,20 +8,22 @@
     }"
   >
     <div id="detailOkno">
-     
-      <router-link v-if="this.$route.name==='NovePridane'" to="/novepridane">
-      <a name="top"></a>
+      <router-link to="/" id="tlacitkoDomuDetail" class="pomnicekKategorie">
+        Úvodní strana
+      </router-link>
+      <router-link v-if="this.$route.name === 'NovePridane'" to="/novepridane">
+        <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na články
         </div>
       </router-link>
-       <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
-      <a name="top"></a>
+      <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
+        <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na články
         </div>
       </router-link>
-      <a href="#top"  id="tlacitkoNahoruDetail" class="pomnicekKategorie">
+      <a href="#top" id="tlacitkoNahoruDetail" class="pomnicekKategorie">
         Nahoru
       </a>
       <h1>{{ detailClanku.nazev }}</h1>
@@ -108,7 +110,6 @@
 </template>
 
 <script>
- 
   import Clanky from "@/components/clanky.js";
   import Klikaci from "./../components/Klikaci.vue";
   export default {
@@ -120,7 +121,6 @@
         rok: undefined,
         detailClanku: undefined,
         stranka: undefined,
-       
       };
     },
 
@@ -134,10 +134,8 @@
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
-         
         }
       }
-      
     },
   };
 </script>
@@ -162,20 +160,33 @@
   }
 
   #tlacitkoNahoruDetail {
-    grid-row: 1/2;
+    grid-row: 2/3;
     grid-column: 3/4;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 76px;
     margin-top: 3px;
     right: 0;
     min-width: unset;
     max-width: unset;
+    width: 116px;
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
     justify-self: flex-end;
     align-self: start;
+  }
+
+  #tlacitkoDomuDetail {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    min-width: unset;
+    max-width: unset;
+    width: 116px !important;
+    padding: 0 10px;
+    height: 35px;
+    background-color: #459ae6;
+    justify-self: flex-end;
   }
 
   @media (max-width: 600px) {
@@ -189,6 +200,10 @@
 
     #detailOkno p {
       font-size: 15px;
+    }
+
+    #tlacitkoNahoruDetail {
+      top:60px;
     }
   }
 
@@ -223,6 +238,11 @@
     #fotoText {
       margin-bottom: 35px;
       height: 150px;
+    }
+
+    #zpetNaClanky {
+      width:unset;
+      min-width:110px !important;
     }
   }
 

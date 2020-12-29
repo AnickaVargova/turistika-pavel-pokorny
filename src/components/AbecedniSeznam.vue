@@ -1,33 +1,26 @@
 <template>
-  <div  v-if="stranka==='smircikrize'" id="abecedniSeznam">
-   
+  <div v-if="stranka === 'smircikrize'" id="abecedniSeznam">
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
       v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
       class="kontejnerJmeno"
-      v-bind:style="{backgroundColor:'#e9f4f5'}"
+      v-bind:style="{ backgroundColor: '#e9f4f5' }"
     >
-     
-        {{ clanek.jmeno }}
-     
+      {{ clanek.jmeno }}
     </router-link>
   </div>
 
   <div v-else>
-   
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
       v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
       class="kontejnerJmeno"
     >
-     
-        {{ clanek.jmeno }}
-     
+      {{ clanek.jmeno }}
     </router-link>
   </div>
-  
 </template>
 
 <script>
@@ -41,12 +34,25 @@
     },
 
     created() {
+      let seznamJednotlivych = [];
       for (let clanek of this.clanky) {
         if (clanek.kategorie === this.stranka) {
           this.seznam.push(clanek);
         }
       }
 
+      if (this.stranka === "pomnicky") {
+        for (let clanek of this.seznam) {
+          seznamJednotlivych.push(clanek);
+          for (let i = 0; i < seznamJednotlivych.length - 1; i++) {
+            if (seznamJednotlivych[i].nazev === clanek.nazev) {
+              seznamJednotlivych.pop();
+            }
+          }
+        }
+
+        this.seznam = seznamJednotlivych;
+      }
       this.seznam = this.seznam.sort((a, b) => {
         return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
           sensitivity: "accent",
@@ -74,14 +80,13 @@
     border: 1px solid lightgrey;
     border-radius: 5px;
     margin: 1px;
-    background-color: #e7e0d0; 
+    background-color: #e7e0d0;
     color: black;
     max-width: 40%;
   }
 
-  .kontejnerJmeno  {
-    
-    color:#2f5bad; 
+  .kontejnerJmeno {
+    color: #2f5bad;
     /* color:#3566c2 */
     /* color: #3E5682; */
     /* color: rgb(90, 21, 122); */

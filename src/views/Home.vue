@@ -132,20 +132,36 @@
       },
     },
     created() {
-      for (let clanek of clanky.data) {
-        if (clanek.kategorie === "pomnicky") {
+      for (let j=0; j<clanky.data.length;  j++) {
+        if (clanky.data[j].kategorie === "pomnicky") {
           this.pocetPomnicku++;
-        } else if (clanek.kategorie === "smircikrize") {
+        } else if (clanky.data[j].kategorie === "smircikrize") {
           this.pocetKrizu++;
-        } else if (clanek.kategorie === "cesty") {
+        } else if (clanky.data[j].kategorie === "cesty") {
           this.pocetCest++;
-        } else if (clanek.kategorie === "vypraveni") {
+        } else if (clanky.data[j].kategorie === "vypraveni") {
           this.pocetVypraveni++;
         }
+        for (let i=0; i<j; i++){
+            if (clanky.data[j].kategorie === "pomnicky" && clanky.data[j].nazev === clanky.data[i].nazev){
+              this.pocetPomnicku--;
+            }
+          }
       }
       let noveClanky = clanky.data.filter((clanek) =>
         this.filterRecent(clanek)
       );
+      let novaKategorie = [];
+
+        for (let i = 0; i < noveClanky.length; i++) {
+          novaKategorie.push(noveClanky[i]);
+          for (let j = 0; j < i; j++) {
+            if (novaKategorie[j].nazev === noveClanky[i].nazev) {
+              novaKategorie.pop();
+            }
+          }
+        }
+        noveClanky = novaKategorie;
       this.pocetNovych = noveClanky.length;
     },
   };

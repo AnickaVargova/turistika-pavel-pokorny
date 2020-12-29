@@ -472,7 +472,8 @@ export default {
       jmeno: "Bitva  v\xa0obci Prace",
       nazev: " Pomník bitvě  v\xa0obci Prace ",
       kdyVznikl: " 2005 ",
-      popisCesty: " Na jižním okraji, hned za obcí, u silnice k\xa0Mohyle míru.  ",
+      popisCesty:
+        " Na jižním okraji, hned za obcí, u silnice k\xa0Mohyle míru.  ",
       popis:
         "Moderní pomník je vysoký 1,2 m, ze tří trojúhelníkových kamenných desek, do jejichž středu jsou vloženy tři plechové kříže. Před pomníkem na zemi je plechový terč  s\xa0nápisem.",
       napis:
@@ -607,7 +608,8 @@ export default {
       kdyVznikl: " 1918 ",
       popisCesty:
         " Leží 600 metrů J od kostela ve Tvarožné, na pláni u státní silnice.  ",
-      popis: "Bílý celokamenný kříž z\xa0mramoru  s\xa0pozlaceným Kristem, výška 4 m.",
+      popis:
+        "Bílý celokamenný kříž z\xa0mramoru  s\xa0pozlaceným Kristem, výška 4 m.",
       napis:
         " TENTO  SVATÝ  KŘÍŽ // JEST  VĚNOVÁN // KE  CTI A SLÁVĚ  BOŽÍ // A NA  PAMÁTKU  MANŽELA // KARLA  DAŇKA // KTERÝ 13. ČERVENCE 1915 // U LVOVA  ZEMŘEL // V\xa041. ROCE  VĚKU  SVÉHO // A TAM  TÉŽ  POCHOVÁN. // … L P 1918  ",
       odkazy: [
@@ -1389,7 +1391,8 @@ export default {
       obec: " Tvarožná  ",
       jmeno: " Rudý mor  ",
       nazev: " Černý  kříž u Velatic ",
-      kdyVznikl: "  železný  v\xa0roce 1831,  obnoven za kamenný  v\xa0roce 1946 ",
+      kdyVznikl:
+        "  železný  v\xa0roce 1831,  obnoven za kamenný  v\xa0roce 1946 ",
       popisCesty:
         " 600 m SV od kaple ve Velaticích, na konci polní cesty z\xa0Tvarožné, končící ve křovinách u posezení. ",
       popis: "Důkladný kříž z\xa0černé žuly vysoký 3 metry, na kamenném soklu.",
@@ -1880,7 +1883,8 @@ export default {
       jmeno: "Líšeň 2  ",
       cislo: "  1982  ",
       kdeSeNaleza: "v Líšni u kostela na náměstí  ",
-      popis: "  Jetelový kříž vysoký 1 metr vystupuje z\xa0podstavce tvaru knihy ",
+      popis:
+        "  Jetelový kříž vysoký 1 metr vystupuje z\xa0podstavce tvaru knihy ",
       napis: "   pět řádek těžko čitelného textu  ",
       povest: "    ",
       odkazy: [
@@ -2155,7 +2159,8 @@ export default {
       okres: " Brno - venkov  ",
       obec: " Moravany   ",
       cislo: "  1292  ",
-      kdeSeNaleza: "  Na plochém návrší  v\xa0poli mezi Moravany a Modřicemi.   ",
+      kdeSeNaleza:
+        "  Na plochém návrší  v\xa0poli mezi Moravany a Modřicemi.   ",
       popis:
         " Čtvercová kamenná deska vysoká 0,8 metru  s\xa0nevýrazným reliéfem řeckého kříže.   ",
       napis: "     ",
@@ -2318,7 +2323,8 @@ export default {
       kdeSeNaleza: "  západně od obce na pomezí polí a zahrad   ",
       popis:
         "  Kamenná deska vysoká 0,6 metru, shora zakulacená. Na čelní straně vystupuje reliéf řeckého kříže. Na zadní straně nečitelný nápis.  ",
-      napis: "   Z\xa0delšího textu jsou k\xa0přečtení jen jednotlivá písmena.   ",
+      napis:
+        "   Z\xa0delšího textu jsou k\xa0přečtení jen jednotlivá písmena.   ",
       povest:
         "  Vypráví o třech vojácích, duelantech, kteří se  v\xa0souboji měli postřílet, když stáli každý  v\xa0jednom rohu pomyslného trojúhelníku. O třetím kamenu se ale nic neví.   ",
       odkazy: [
@@ -4293,7 +4299,10 @@ export default {
 
       dodatekNadpis: "  ",
       dodatekText: "  ",
-      fotkaUvod: { fotka: "europa-na-parnasu.jpg", popisek:'Europa na Parnasu'},
+      fotkaUvod: {
+        fotka: "europa-na-parnasu.jpg",
+        popisek: "Europa na Parnasu",
+      },
       galerie: [
         { fotka: "karel-starsi.jpg", popisek: "Karel starší ze Žerotína" },
         { fotka: "kasna-na-nove.jpg", popisek: "Kašna na Nové radnici" },
@@ -4335,8 +4344,147 @@ export default {
           popisek: " svatý Felix z\xa0Cantalice dává dítěti chléb  ",
         },
         { fotka: "svaty-martin.jpg", popisek: " svatý Martin z\xa0Tours  " },
-     
       ],
+    },
+    {
+      id: 109,
+      kategorie: "pomnicky",
+      pridano: " 01/01/2021 ",
+      podkategorie: 1,
+      druh: " Lesnický Slavín ",
+      okres: " Brno - venkov ",
+      obec: " Babice   ",
+      jmeno: " Umučení lesníci  ",
+      nazev: " Památník umučených lesníků za německé okupace ",
+      kdyVznikl:
+        " Slavnostně odhalen byl 26. října 1946. Stavět se začal v dubnu 1946. ",
+      popisCesty:
+        " Leží V od Adamova ve svahu Dřínové v trojúhelníku lesních cest. Vede tu červená a žlutá značka. Známé místo.  ",
+      popis:
+        " 7,3 metru vysoká monumentální stavba. Ze západní strany směrem do údolí je obraz Krista v nadživotní velikosti s rozpřaženou náručí. Je vytvořen podle slavné sochy Bertela Thorwaldsena: Žehnající Kristus ve Frue Kirke v Kodani, kde ji viděl prof. Opletal. Socha na něho hluboce zapůsobila. Z východní strany na velké bílé tabuli jsou jména padlých, popravených a umučených lesníků v letech 1939 - 1945.     ",
+      napis:
+        " Pomník je pokryt obsáhlými nápisy ze všech stran, detailně je pojednal Truhlář.Z V strany je jmenovitý seznam 94 obětí s daty narození i úmrtí. Nad jmény ve vlysu je nápis: Památce  //  příslušníků Vysoké školy zemědělské v Brně a všech našich lesníků hrdinsky //  padlých nebo krutě popravených a umučených // za války 1939 - 1945.  Ze Z strany nad obrazem Krista je nápis : Ježíš, ne Caesar, - ne mečem, ale pluhem, // toť smysl našich dějin //  TGM  .  Další verše, citáty, texty lze číst na ostatních plochách.  ",
+      odkazy: [
+        {
+          nazev: " Adamov ",
+          adresa: " https://www.adamovaokoli.cz/pamatniky/lesnici.html ",
+        },
+        {
+          nazev: " Frue Kirke ",
+          adresa:
+            " https://commons.wikimedia.org/wiki/Vor_Frue_Kirke_(K%C3%B8benhavn)#/media/File:Vor_Frue_Kirke_Copenhagen_quire.jpg ",
+        },
+        {
+          nazev:
+            " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 78-83 ",
+        },
+      ],
+      pozn:
+        "  Krásné místo vybrali profesoři Haša a Artner, projekt vypracoval a stavbu řídil prof. Jan Opletal. V roce 1992 byl obraz i nápisy na pomníku restaurovány.  ",
+      naposledObnoveno: " 29.12.2020 ",
+      souradnice: "  49.2982456N, 16.6690953E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/banuhemeta" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/banuhemeta",
+      galerie: [
+        { fotka: "umuceni1.jpg", popisek: "  (květen 2017)  " },
+        { fotka: "umuceni2.jpg", popisek: "  (červen 2011) " },
+      ],
+      proMe: " XX/955  24-411-114  17---05.  11---06.   ",
+    },
+    {
+      id: 110,
+      kategorie: "pomnicky",
+      pridano: "01/01/2021",
+      podkategorie: 1,
+      druh: " Lesnický Slavín, literární ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice   ",
+      jmeno: "Těsnohlídek, Rudolf",
+      nazev: "Památník Rudolfa Těsnohlídka",
+      kdyVznikl: " 1929  ",
+      popisCesty:
+        " 1 km JV od kostela v Bílovicích, v Těsnohlídkově údolí, při rozdvojení dolin. Vede tu zelená značka.  ",
+      popis:
+        "  Jednoduchá mohyla je složena z několika velkých balvanů. V největším  je vsazena tmavá deska s textem.  ",
+      napis: " RUDOLF // TĚSNOHLÍDEK // SPISOVATEL // 1882 - 1928 // 1929  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/pamatnik-rudolfa-tesnohlidka/detail  ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=392  ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 47. ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  V roce 1992 byla původní rozbitá deska nahrazena kopií.  Památník patří současně do Lesnického  Slavína i literárních pomníčků.  ",
+      naposledObnoveno: " 29.12.2020 ",
+      souradnice: " 49.2366908N, 16.6776569E ",
+      odkazMapa: "https://frame.mapy.cz/s/maborogesu",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/maborogesu" width="400" height="280" frameborder="0"></iframe>  ',
+      galerie: [
+        { fotka: "tesnohlidek1.jpg", popisek: "  (prosinec 2016) " },
+        { fotka: "tesnohlidek2.jpg", popisek: "  (prosinec 2016) " },
+        { fotka: "tesnohlidek3.jpg", popisek: "  (prosinec 2016) " },
+      ],
+
+      proMe: " II/61  24-413-126   16---12   ",
+    },
+    {
+      id: 111,
+      kategorie: "pomnicky",
+      pridano: "01/01/2021",
+      podkategorie: 11,
+      druh: " Lesnický Slavín, literární  ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice   ",
+      jmeno: "Těsnohlídek, Rudolf",
+      nazev: "Památník Rudolfa Těsnohlídka",
+      kdyVznikl: " 1929  ",
+      popisCesty:
+        " 1 km JV od kostela v Bílovicích, v Těsnohlídkově údolí, při rozdvojení dolin. Vede tu zelená značka.  ",
+      popis:
+        "  Jednoduchá mohyla je složena z několika velkých balvanů. V největším  je vsazena tmavá deska s textem.  ",
+      napis: " RUDOLF // TĚSNOHLÍDEK // SPISOVATEL // 1882 - 1928 // 1929  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/pamatnik-rudolfa-tesnohlidka/detail  ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=392  ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 47. ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  V roce 1992 byla původní rozbitá deska nahrazena kopií.  Památník patří současně do Lesnického  Slavína i literárních pomníčků.  ",
+      naposledObnoveno: " 29.12.2020 ",
+      souradnice: " 49.2366908N, 16.6776569E ",
+      odkazMapa: "https://frame.mapy.cz/s/maborogesu",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/maborogesu" width="400" height="280" frameborder="0"></iframe>  ',
+      galerie: [
+        { fotka: "tesnohlidek1.jpg", popisek: "  (prosinec 2016) " },
+        { fotka: "tesnohlidek2.jpg", popisek: "  (prosinec 2016) " },
+        { fotka: "tesnohlidek3.jpg", popisek: "  (prosinec 2016) " },
+      ],
+
+      proMe: " II/61  24-413-126   16---12   ",
     },
   ],
 };

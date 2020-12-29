@@ -2,9 +2,9 @@
   <div id="detailClanku" v-bind:style="{padding:'0'}">
     <div id="transboxOnas">
       <div id="detailOkno">
-        <router-link to="/">
+        <router-link v-bind:style="{gridColumn:'3/4', justifySelf:'flex-end'}" to="/">
           <div class="pomnicekKategorie" id="domuOnas">
-            Domů
+            Úvodní strana
           </div>
         </router-link>
         <h1 v-bind:style="{marginTop:'0'}">O nás</h1>

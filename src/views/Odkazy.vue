@@ -1,21 +1,25 @@
 <template>
   <div id="odkazy">
-    
     <div id="transbox1">
+      <router-link class="kontejnerDomuOnas" to="/">
+        <div
+          class="pomnicekKategorie"
+          id="domuOnas"
+          v-bind:style="{ margin: '20px' }"
+        >
+          Úvodní strana
+        </div>
+      </router-link>
 
-    <router-link class="kontejnerDomuOnas" to="/">
-      <div class="pomnicekKategorie" id="domuOnas" v-bind:style="{margin:'20px'}">Domů</div>
-    </router-link>
+      <h1>Sympatické weby</h1>
 
-    <h1>Sympatické weby</h1>
-
-    <div id="oknoOdkazy">
-      <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
-        <a v-bind:href="odkaz.adresa" target="_blank">{{ odkaz.jmeno }}</a>
-        <span>{{ odkaz.popis }}</span>
+      <div id="oknoOdkazy">
+        <div class="odkazy" v-for="(odkaz, index) in odkazy" v-bind:key="index">
+          <a v-bind:href="odkaz.adresa" target="_blank">{{ odkaz.jmeno }}</a>
+          <span>{{ odkaz.popis }}</span>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -32,29 +36,26 @@
 
 <style>
   #odkazy {
-    
-    background-image: url("./../assets/presypy.jpg")
+    background-image: url("./../assets/presypy.jpg");
   }
 
-   #domuOnas {
-    padding: 2%;
-    height: 40px; 
-    padding-left: 10%;
+  #domuOnas {
+   
+    height: 40px;
+    padding: 0 10px;
     margin-bottom: 40px;
-    width: 80px;
-    height: 20px;
-     background-color: #459ae6;
+    width: 116px;
+    height: 35px;
+    background-color: #459ae6;
   }
 
- 
-
-    #domuOnas:hover {
+  #domuOnas:hover {
     color: #13131d;
     background-color: #9aacab;
   }
 
-   .kontejnerDomuOnas {
-    grid-column: 1/3;
+  .kontejnerDomuOnas {
+    grid-column: 6/7;
     grid-row: 1/3;
   }
 
@@ -82,7 +83,7 @@
 
   #oknoOdkazy {
     grid-column: 1/7;
-    grid-row-start:3;
+    grid-row-start: 3;
     margin: auto;
     background-color: rgb(240, 233, 223);
     border: 2px solid grey;
@@ -116,15 +117,14 @@
 
   @media (max-width: 600px) {
     #oknoOdkazy {
-    grid-column: 1/7;
-    grid-row-start:3;
-    margin: auto;
-    background-color: rgb(240, 233, 223);
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 40px;
-  
+      grid-column: 1/7;
+      grid-row-start: 3;
+      margin: auto;
+      background-color: rgb(240, 233, 223);
+      border: 2px solid grey;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 40px;
     }
 
     #oknoOdkazy .odkazy {
@@ -134,7 +134,5 @@
     #odkazy span {
       font-size: 15px;
     }
-
-   
   }
 </style>

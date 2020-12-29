@@ -109,7 +109,7 @@
                 kategorieTextCenter:
                   innerParams.stranka === 'cesty' ||
                   innerParams.stranka === 'vypraveni',
-                active: kategorie.id == vybraneId,
+                active: vybranaId.includes(kategorie.id),
                 responsive: menuUkazat && !oknoUkazat,
                 pomnicekMenu: true,
               }"
@@ -144,7 +144,8 @@
               kategorieTextCenter:
                 innerParams.stranka === 'cesty' ||
                 innerParams.stranka === 'vypraveni',
-              active: kategorie.id == vybraneId,
+
+              active: vybranaId.includes(kategorie.id),
               responsive: menuUkazat && !oknoUkazat,
               pomnicekMenu: true,
               hneda: innerParams.stranka === 'pomnicky',
@@ -219,6 +220,7 @@
         clanky: vsechnyClanky.data,
         clankyPodKategorie: null,
         vybraneId: undefined,
+        vybranaId: [Number(this.$route.params.kategorie)],
         menuUkazat: false,
         oknoUkazat: false,
         seznamUkazat: true,
@@ -244,6 +246,7 @@
             clanek.podkategorie == this.$route.params.kategorie
         );
         this.vybraneId = kategorie.id;
+        this.vybranaId.push(kategorie.id);
         if (this.clankyPodKategorie.length === 0) {
           this.clankyPodKategorie = null;
         }
@@ -308,7 +311,7 @@
 
           let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
 
-          if (last2weeks<=14) {
+          if (last2weeks <= 14) {
             if (
               clanek.kategorie === "pomnicky" ||
               clanek.kategorie === "smircikrize"
@@ -340,6 +343,17 @@
         this.clankyPodKategorie = this.clanky.filter((clanek) =>
           this.filterRecent(clanek)
         );
+        let novaKategorie = [];
+
+        for (let i = 0; i < this.clankyPodKategorie.length; i++) {
+          novaKategorie.push(this.clankyPodKategorie[i]);
+          for (let j = 0; j < i; j++) {
+            if (novaKategorie[j].nazev === this.clankyPodKategorie[i].nazev) {
+              novaKategorie.pop();
+            }
+          }
+        }
+        this.clankyPodKategorie = novaKategorie;
       } else if (this.$route.name === "Vypraveni") {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.kategorie === "vypraveni"
@@ -355,6 +369,19 @@
       this.seradClanky();
 
       this.vybraneId = this.$route.params.kategorie;
+     
+      if (this.$route.name === "DetailPomnicku") {
+        for (let clanek of this.clanky) {
+          if (clanek.id == this.$route.params.id) {
+            let vybrany = clanek;
+            for (let clanek of this.clanky) {
+              if (clanek.nazev === vybrany.nazev && clanek.id !== vybrany.id) {
+                this.vybranaId.push(clanek.podkategorie);
+              }
+            }
+          }
+        }
+      }
       if (this.clankyPodKategorie.length === 0) {
         this.clankyPodKategorie = null;
         this.oknoUkazat = false;
@@ -372,7 +399,6 @@
     min-height: 100vh;
     grid-template-rows: auto auto auto auto;
     color: #131e36;
-    
   }
 
   .large {
@@ -492,7 +518,7 @@
     right: 20px;
     min-width: unset;
     max-width: unset;
-    width: 136px !important;
+    width: 116px !important;
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
@@ -510,7 +536,7 @@
     right: 20px;
     min-width: unset;
     max-width: unset;
-    width: 160px !important;
+    width: 140px !important;
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
