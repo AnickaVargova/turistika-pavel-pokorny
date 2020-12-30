@@ -209,7 +209,7 @@ export default {
       popis:
         "Ze soklu vystupuje hranatý opracovaný kámen, nad ním kovový svícen, na kamenu připevněna bronzová deska  s\xa0nápisem.",
       napis:
-        "10. ŘÍJNA 1962 // SE V\xa0TĚCHTO MÍSTECH // ZŘÍTILO DOPRAVNÍ LETADLO // LINKY BRATISLAVA - BRNO // ZBUDOVÁNO K PAMÁTCE OBĚTEM NEŠTĚSTÍ //",
+        "10. ŘÍJNA 1962 // SE V\xa0TĚCHTO MÍSTECH // ZŘÍTILO DOPRAVNÍ LETADLO // LINKY BRATISLAVA - BRNO // ZBUDOVÁNO K\xa0PAMÁTCE OBĚTEM NEŠTĚSTÍ //",
       odkazy: null,
       pozn:
         "Dopravní letadlo IL 14M na pravidelné lince z\xa0Košic do Prahy mělo mezipřistání  v\xa0Brně. Před letištěm  v\xa0Tuřanech se dostalo do husté mlhy, která pokrývala vrchol Staré hory. Havárii zavinil pilot, který nedodržel výšku nad terénem. Letadlo zavadilo křídlem o úbočí kopce a zřítilo se do vinic. Zahynulo 13 osob ze 38 cestujících a 4 členů posádky. Mnoho zraněných zachránili obyvatelé Újezda, kteří pracovali ve vinicích a byli první na místě nehody, protože trosky se vzňaly a posléze vybuchly. Pomník vytvořil místní umělecký kovář Ivo Lorenz.",
@@ -439,7 +439,7 @@ export default {
         "Umělý pahorek, do něj zasazen buk. Pod stromem nepravidelná obdélníková kamenná deska, zasazená do soklu.",
 
       napis:
-        " STROM  PŘÁTELSTVÍ // VYSAZEN K 200. VÝROČÍ // BITVY U SLAVKOVA //  ",
+        " STROM  PŘÁTELSTVÍ // VYSAZEN K\xa0200. VÝROČÍ // BITVY U SLAVKOVA //  ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn: " ",
       naposledObnoveno: " 9.11.2020  ",
@@ -716,7 +716,7 @@ export default {
       kdyVznikl:
         " Slavnostní odhalení 29. 12. 2011, padesát let od úmrtí, uspořádal Školní lesní podnik Křtiny. ",
       popisCesty:
-        " 2 km SV od Babic a nad Adamovem je rozhledna Alexandrovka. K její podezdívce ze  Z\xa0strany je připevněna deska. Všeobecně známé místo.  ",
+        " 2 km SV od Babic a nad Adamovem je rozhledna Alexandrovka. K\xa0její podezdívce ze  Z\xa0strany je připevněna deska. Všeobecně známé místo.  ",
       popis: "Deska z\xa0černé žuly, do ní vyryt text.",
       napis:
         " JAROSLAV  MARCHA // SPISOVATEL A NOVINÁŘ // 26. 5. 1880  +29. 12. 1961  // OJ  VY  LESY,  NADE  VŠECHNY  LESY // MÉ  ZASNĚNÉ  ADAMOVSKÉ  LESY !  ",
@@ -1123,7 +1123,7 @@ export default {
         },
       ],
       pozn:
-        " V\xa0letním večeru vyrazili dva kamarádi bivakovat do Rakoveckého údolí. Spali na poli pod širákem. K ránu proběhla kolem nich vyplašená srna. Spáčil se posadil a pohyb uviděl 38letý myslivec, který se vracel z\xa0neúspěšné čekané. Prý to byl začátečník a navíc měl něco vypito. Vypálil do tmy z\xa0kulovnice a zasáhl Spáčila. Jeho kamarád rozsvítil čelovku a volal o pomoc. Bylo ale pozdě. Myslivec porušil zásadu, že může střílet jen na jasně identifikovaný cíl. Za usmrcení z\xa0nedbalosti dostal trest 38 měsíců.",
+        " V\xa0letním večeru vyrazili dva kamarádi bivakovat do Rakoveckého údolí. Spali na poli pod širákem. K\xa0ránu proběhla kolem nich vyplašená srna. Spáčil se posadil a pohyb uviděl 38letý myslivec, který se vracel z\xa0neúspěšné čekané. Prý to byl začátečník a navíc měl něco vypito. Vypálil do tmy z\xa0kulovnice a zasáhl Spáčila. Jeho kamarád rozsvítil čelovku a volal o pomoc. Bylo ale pozdě. Myslivec porušil zásadu, že může střílet jen na jasně identifikovaný cíl. Za usmrcení z\xa0nedbalosti dostal trest 38 měsíců.",
       naposledObnoveno: " 18.11.2020 ",
       souradnice: "49.2995228N, 16.8454189E",
       kodMapa:
@@ -4272,7 +4272,7 @@ export default {
         },
         {
           textOdstavce:
-            " Sejdeme dolů po schodech na Kapucínské náměstí. Vpravo na zdi mineme <strong>pamětní desku Jana Sedláka</strong>, vlasteneckého kněze, který tu žil na začátku 20. století. Desku dělal brněnský sochař Josef Axmann (1891 – 1947) a  v\xa0roce 1934 odlil kovolijec Franta Anýž z\xa0Prahy. Před Kapucínským kostelem je rampa  s\xa0pěti barokními sochami světců spojených  s\xa0františkánským a kapucínským řádem. Vytvořil je roku 1765 sochař Jan Adam Nesmann, přišedší z\xa0Mohuče (1710 – 1773). Od východní strany <strong>Josef z\xa0Leonessy</strong>  s\xa0křížkem  v\xa0ruce, <strong>Fidelius ze Sigmaringy</strong> dává ruku na</strong> srdce, <strong>František z\xa0Assisi</strong> má  v\xa0rukou knihu a lebku, <strong>Antonín Paduánský</strong> drží  v\xa0náručí dítě a <strong>Felix z\xa0Cantalicia</strong> dává dítěti chléb. Tyto sochy jsou čerstvě opravené. Poslední šestá socha je novodobá. K nerozeznání od ostatních ji 1927 vytesal Čeněk Vosmík a představuje svatého <strong>Vavřince z\xa0Brindisi</strong>  s\xa0křížem a biblí  v\xa0ruce. Nad hlavním vchodem do kostela je rozměrná <strong>mozaika svatého Františka</strong> z\xa0Assisi, jak káže ptákům. V\xa0padesátých letech ji navrhl malíř a básník  v\xa0jedné osobě Vojmír Vokolek. Otočíme-li se od soch dozadu, naskytne se nám  v\xa0ranním nebo večerním slunci nejkrásnější výhled na katedrálu na Petrově.   ",
+            " Sejdeme dolů po schodech na Kapucínské náměstí. Vpravo na zdi mineme <strong>pamětní desku Jana Sedláka</strong>, vlasteneckého kněze, který tu žil na začátku 20. století. Desku dělal brněnský sochař Josef Axmann (1891 – 1947) a  v\xa0roce 1934 odlil kovolijec Franta Anýž z\xa0Prahy. Před Kapucínským kostelem je rampa  s\xa0pěti barokními sochami světců spojených  s\xa0františkánským a kapucínským řádem. Vytvořil je roku 1765 sochař Jan Adam Nesmann, přišedší z\xa0Mohuče (1710 – 1773). Od východní strany <strong>Josef z\xa0Leonessy</strong>  s\xa0křížkem  v\xa0ruce, <strong>Fidelius ze Sigmaringy</strong> dává ruku na</strong> srdce, <strong>František z\xa0Assisi</strong> má  v\xa0rukou knihu a lebku, <strong>Antonín Paduánský</strong> drží  v\xa0náručí dítě a <strong>Felix z\xa0Cantalicia</strong> dává dítěti chléb. Tyto sochy jsou čerstvě opravené. Poslední šestá socha je novodobá. K\xa0nerozeznání od ostatních ji 1927 vytesal Čeněk Vosmík a představuje svatého <strong>Vavřince z\xa0Brindisi</strong>  s\xa0křížem a biblí  v\xa0ruce. Nad hlavním vchodem do kostela je rozměrná <strong>mozaika svatého Františka</strong> z\xa0Assisi, jak káže ptákům. V\xa0padesátých letech ji navrhl malíř a básník  v\xa0jedné osobě Vojmír Vokolek. Otočíme-li se od soch dozadu, naskytne se nám  v\xa0ranním nebo večerním slunci nejkrásnější výhled na katedrálu na Petrově.   ",
           foto: "rampa-kostela.jpg",
           umisteniFoto: "vlevo",
           popisek: " rampa u Kapucínského kostela  ",
@@ -4357,13 +4357,13 @@ export default {
       jmeno: " Umučení lesníci  ",
       nazev: " Památník umučených lesníků za německé okupace ",
       kdyVznikl:
-        " Slavnostně odhalen byl 26. října 1946. Stavět se začal v dubnu 1946. ",
+        " Slavnostně odhalen byl 26. října 1946. Stavět se začal v\xa0dubnu 1946. ",
       popisCesty:
-        " Leží V od Adamova ve svahu Dřínové v trojúhelníku lesních cest. Vede tu červená a žlutá značka. Známé místo.  ",
+        " Leží V\xa0od Adamova ve svahu Dřínové v\xa0trojúhelníku lesních cest. Vede tu červená a žlutá značka. Známé místo.  ",
       popis:
-        " 7,3 metru vysoká monumentální stavba. Ze západní strany směrem do údolí je obraz Krista v nadživotní velikosti s rozpřaženou náručí. Je vytvořen podle slavné sochy Bertela Thorwaldsena: Žehnající Kristus ve Frue Kirke v Kodani, kde ji viděl prof. Opletal. Socha na něho hluboce zapůsobila. Z východní strany na velké bílé tabuli jsou jména padlých, popravených a umučených lesníků v letech 1939 - 1945.     ",
+        " 7,3 metru vysoká monumentální stavba. Ze západní strany směrem do údolí je obraz Krista v\xa0nadživotní velikosti s\xa0rozpřaženou náručí. Je vytvořen podle slavné sochy Bertela Thorwaldsena: Žehnající Kristus ve Frue Kirke v\xa0Kodani, kde ji viděl prof. Opletal. Socha na něho hluboce zapůsobila. Z\xa0východní strany na velké bílé tabuli jsou jména padlých, popravených a umučených lesníků v\xa0letech 1939 - 1945.     ",
       napis:
-        " Pomník je pokryt obsáhlými nápisy ze všech stran, detailně je pojednal Truhlář.Z V strany je jmenovitý seznam 94 obětí s daty narození i úmrtí. Nad jmény ve vlysu je nápis: Památce  //  příslušníků Vysoké školy zemědělské v Brně a všech našich lesníků hrdinsky //  padlých nebo krutě popravených a umučených // za války 1939 - 1945.  Ze Z strany nad obrazem Krista je nápis : Ježíš, ne Caesar, - ne mečem, ale pluhem, // toť smysl našich dějin //  TGM  .  Další verše, citáty, texty lze číst na ostatních plochách.  ",
+        " Pomník je pokryt obsáhlými nápisy ze všech stran, detailně je pojednal Truhlář.Z V\xa0strany je jmenovitý seznam 94 obětí s\xa0daty narození i úmrtí. Nad jmény ve vlysu je nápis: Památce  //  příslušníků Vysoké školy zemědělské v\xa0Brně a všech našich lesníků hrdinsky //  padlých nebo krutě popravených a umučených // za války 1939 - 1945.  Ze Z\xa0strany nad obrazem Krista je nápis : Ježíš, ne Caesar, - ne mečem, ale pluhem, // toť smysl našich dějin //  TGM  .  Další verše, citáty, texty lze číst na ostatních plochách.  ",
       odkazy: [
         {
           nazev: " Adamov ",
@@ -4380,7 +4380,7 @@ export default {
         },
       ],
       pozn:
-        "  Krásné místo vybrali profesoři Haša a Artner, projekt vypracoval a stavbu řídil prof. Jan Opletal. V roce 1992 byl obraz i nápisy na pomníku restaurovány.  ",
+        "  Krásné místo vybrali profesoři Haša a Artner, projekt vypracoval a stavbu řídil prof. Jan Opletal. V\xa0roce 1992 byl obraz i nápisy na pomníku restaurovány.  ",
       naposledObnoveno: " 29.12.2020 ",
       souradnice: "  49.2982456N, 16.6690953E  ",
       kodMapa:
@@ -4404,9 +4404,9 @@ export default {
       nazev: "Památník Rudolfa Těsnohlídka",
       kdyVznikl: " 1929  ",
       popisCesty:
-        " 1 km JV od kostela v Bílovicích, v Těsnohlídkově údolí, při rozdvojení dolin. Vede tu zelená značka.  ",
+        " 1 km JV od kostela v\xa0Bílovicích, v\xa0Těsnohlídkově údolí, při rozdvojení dolin. Vede tu zelená značka.  ",
       popis:
-        "  Jednoduchá mohyla je složena z několika velkých balvanů. V největším  je vsazena tmavá deska s textem.  ",
+        "  Jednoduchá mohyla je složena z\xa0několika velkých balvanů. V\xa0největším  je vsazena tmavá deska s\xa0textem.  ",
       napis: " RUDOLF // TĚSNOHLÍDEK // SPISOVATEL // 1882 - 1928 // 1929  ",
       odkazy: [
         {
@@ -4425,7 +4425,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        "  V roce 1992 byla původní rozbitá deska nahrazena kopií.  Památník patří současně do Lesnického  Slavína i literárních pomníčků.  ",
+        "  V\xa0roce 1992 byla původní rozbitá deska nahrazena kopií.  Památník patří současně do Lesnického  Slavína i literárních pomníčků.  ",
       naposledObnoveno: " 29.12.2020 ",
       souradnice: " 49.2366908N, 16.6776569E ",
       odkazMapa: "https://frame.mapy.cz/s/maborogesu",
@@ -4451,9 +4451,9 @@ export default {
       nazev: "Památník Rudolfa Těsnohlídka",
       kdyVznikl: " 1929  ",
       popisCesty:
-        " 1 km JV od kostela v Bílovicích, v Těsnohlídkově údolí, při rozdvojení dolin. Vede tu zelená značka.  ",
+        " 1 km JV od kostela v\xa0Bílovicích, v\xa0Těsnohlídkově údolí, při rozdvojení dolin. Vede tu zelená značka.  ",
       popis:
-        "  Jednoduchá mohyla je složena z několika velkých balvanů. V největším  je vsazena tmavá deska s textem.  ",
+        "  Jednoduchá mohyla je složena z\xa0několika velkých balvanů. V\xa0největším  je vsazena tmavá deska s\xa0textem.  ",
       napis: " RUDOLF // TĚSNOHLÍDEK // SPISOVATEL // 1882 - 1928 // 1929  ",
       odkazy: [
         {
@@ -4472,7 +4472,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        "  V roce 1992 byla původní rozbitá deska nahrazena kopií.  Památník patří současně do Lesnického  Slavína i literárních pomníčků.  ",
+        "  V\xa0roce 1992 byla původní rozbitá deska nahrazena kopií.  Památník patří současně do Lesnického  Slavína i literárních pomníčků.  ",
       naposledObnoveno: " 29.12.2020 ",
       souradnice: " 49.2366908N, 16.6776569E ",
       odkazMapa: "https://frame.mapy.cz/s/maborogesu",
@@ -4496,13 +4496,14 @@ export default {
       obec: " Bílovice   ",
       jmeno: " Polanský, Bohuslav  ",
       nazev: " Pomník Bohuslava Polanského  ",
-      kdyVznikl: " Školní lesní podnik Křtiny vybudoval pomník v roce 2005. ",
+      kdyVznikl:
+        " Školní lesní podnik Křtiny vybudoval pomník v\xa0roce 2005. ",
       popisCesty:
-        " 500 metrů V od mostu v Bílovicích, blízko lesní silnice Červená, na kraji louky.  ",
+        " 500 metrů V\xa0od mostu v\xa0Bílovicích, blízko lesní silnice Červená, na kraji louky.  ",
       popis:
-        " Moderní pomník. Mezi tři trojhranné sloupy vysoké dva metry je vložena kamenná deska s autografem a dnes hůře čitelným textem - úryvkem z jeho učebnice.   ",
+        " Moderní pomník. Mezi tři trojhranné sloupy vysoké dva metry je vložena kamenná deska s\xa0autografem a dnes hůře čitelným textem - úryvkem z\xa0jeho učebnice.   ",
       napis:
-        " PROF.  ING.  DR. // BOHUSLAV  POLANSKÝ  Dr. Sc. //  26. 10. 1901 - 9. 9. 1983 // VEDOUCÍ  ÚSTAVU  PĚSTĚNÍ  LESŮ // LESNICKÉ  FAKULTY V BRNĚ  ",
+        " PROF.  ING.  DR. // BOHUSLAV  POLANSKÝ  Dr. Sc. //  26. 10. 1901 - 9. 9. 1983 // VEDOUCÍ  ÚSTAVU  PĚSTĚNÍ  LESŮ // LESNICKÉ  FAKULTY V\xa0BRNĚ  ",
       odkazy: [
         {
           nazev: " Lesnická práce ",
@@ -4514,7 +4515,7 @@ export default {
         },
       ],
       pozn:
-        " Profesor Polanský ke konci života prozradil, že jeho nejoblíbenějším místem v bílovickém polesí  je lesní dílec 370 B západně od Liduščina pomníku. V roce 1983 byl dílec pojmenován jeho jménem a později zde byl postaven pomník.   ",
+        " Profesor Polanský ke konci života prozradil, že jeho nejoblíbenějším místem v\xa0bílovickém polesí  je lesní dílec 370 B západně od Liduščina pomníku. V\xa0roce 1983 byl dílec pojmenován jeho jménem a později zde byl postaven pomník.   ",
       naposledObnoveno: " 1.1.2021 ",
       souradnice: " 49.2438611N, 16.6819997E ",
       odkazMapa: "https://frame.mapy.cz/s/labesozopo",
@@ -4540,10 +4541,11 @@ export default {
       nazev: "  Památník Pocta půdě ",
       kdyVznikl: " 2002 ",
       popisCesty:
-        " Z od Březiny, u lesní silnice Březinka, v rohu chráněného území.  ",
-      popis: "  Deska z leštěného kamene převyšuje povrch země sotva o 5 cm.  ",
+        " Z\xa0od Březiny, u lesní silnice Březinka, v\xa0rohu chráněného území.  ",
+      popis:
+        "  Deska z\xa0leštěného kamene převyšuje povrch země sotva o 5 cm.  ",
       napis:
-        " POCTA PŮDĚ // následuje citát prof. Konšela z roku 1944.PŘI  PŘÍLEŽITOSTI 55. VÝROČÍ  USTAVENÍ // ÚSTAVU  GEOLOGIE A PEDOLOGIE  LDF // MZLU V BRNĚ, KVĚTEN  2002  ",
+        " POCTA PŮDĚ // následuje citát prof. Konšela z\xa0roku 1944.PŘI  PŘÍLEŽITOSTI 55. VÝROČÍ  USTAVENÍ // ÚSTAVU  GEOLOGIE A PEDOLOGIE  LDF // MZLU V\xa0BRNĚ, KVĚTEN  2002  ",
       odkazy: [
         {
           nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 128  ",
@@ -4570,13 +4572,13 @@ export default {
       jmeno: " Pelíšek, Josef  ",
       nazev: " Pomník Josefa Pelíška ",
       kdyVznikl:
-        " Byl odhalen v květnu 2001 při příležitosti Pedologických dnů na Mendelově univerzitě v Brně. ",
+        " Byl odhalen v\xa0květnu 2001 při příležitosti Pedologických dnů na Mendelově univerzitě v\xa0Brně. ",
       popisCesty:
-        " V Josefovském údolí naproti vývěru vody Křtinského potoka. Kolem prochází modrá značka.  Známé místo.  ",
+        " V\xa0Josefovském údolí naproti vývěru vody Křtinského potoka. Kolem prochází modrá značka.  Známé místo.  ",
       popis:
-        "  Moderní pomník je složený ze čtyř leštěných kamenných desek s neopracovanými okraji, výška nejvyšší desky je 1,4 metru. Nejmenší deska s nápisem je z mrákotínské žuly, následuje syenit ze šluknovského výběžku, liberecká žula a nejvyšší je gabro ze středních Čech.   ",
+        "  Moderní pomník je složený ze čtyř leštěných kamenných desek s\xa0neopracovanými okraji, výška nejvyšší desky je 1,4 metru. Nejmenší deska s\xa0nápisem je z\xa0mrákotínské žuly, následuje syenit ze šluknovského výběžku, liberecká žula a nejvyšší je gabro ze středních Čech.   ",
       napis:
-        " LESNÍ  PŮDA  JE  ZÁKLADEM  LESA  // BEZ  PŮDY  NENÍ  DŘEVNÍ  PRODUKCE //  Autograf. //  PROF. ING. JOSEF  PELÍŠEK DR.SC. // 20. 8. 1909 - 23. 5. 1993 // PROFESOR  GEOLOGIE A LESNICKÉ  PEDOLOGIE // NA  LESNICKÉ A DŘEVAŘSKÉ  FAKULTĚ // MENDELOVY ZEMĚDĚLSKÉ A LESNICKÉ  UNIVERSITY // V  BRNĚ ",
+        " LESNÍ  PŮDA  JE  ZÁKLADEM  LESA  // BEZ  PŮDY  NENÍ  DŘEVNÍ  PRODUKCE //  Autograf. //  PROF. ING. JOSEF  PELÍŠEK DR.SC. // 20. 8. 1909 - 23. 5. 1993 // PROFESOR  GEOLOGIE A LESNICKÉ  PEDOLOGIE // NA  LESNICKÉ A DŘEVAŘSKÉ  FAKULTĚ // MENDELOVY ZEMĚDĚLSKÉ A LESNICKÉ  UNIVERSITY // V\xa0BRNĚ ",
       odkazy: [
         {
           nazev: " Encyklopedie Brna  ",
