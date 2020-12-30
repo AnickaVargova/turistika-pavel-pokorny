@@ -13,6 +13,9 @@ import Vypraveni from '../views/Vypraveni.vue'
 import DetailPomnicku from '../views/DetailPomnicku.vue'
 import DetailKrize from '../views/DetailPomnicku.vue'
 import NovePridane from '../views/NovePridane.vue'
+// import VueRouterSitemap      from 'vue-router-sitemap';
+// import path                  from 'path';
+// import { router }            from 'router';
 
 
 Vue.use(VueRouter)
@@ -104,6 +107,11 @@ const routes = [{
         name: 'NovePridane',
         component: Detail,
     },
+    // {
+    //     path: '/sitemap.xml',
+    //     name: 'Sitemap',
+    //     component: Sitemap,
+    // },
 
 ]
 
