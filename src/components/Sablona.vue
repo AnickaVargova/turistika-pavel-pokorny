@@ -566,18 +566,19 @@
     #tlacitkoDomu,
     #tlacitkoNahoru {
       height: 45px;
-      left: 270px;
-      right: unset;
+      right: 10px;
+      left: unset;
+
     }
 
     #tlacitkoDomu {
       top: 10px;
-      width: 70px !important;
+      width: 55px !important;
     }
 
     #tlacitkoNahoru {
       top: 60px;
-      width: 94px !important;
+      width: 79px !important;
     }
 
     #pomnicky .pomnicekKategorie.pomnicekMenu {

@@ -204,6 +204,11 @@
 
     #tlacitkoNahoruDetail {
       top:60px;
+      width:60px !important;
+    }
+
+    #tlacitkoDomuDetail {
+      width:60px !important;
     }
   }
 
