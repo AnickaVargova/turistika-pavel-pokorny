@@ -4486,5 +4486,120 @@ export default {
 
       proMe: " II/61  24-413-126   16---12   ",
     },
+    {
+      id: 112,
+      kategorie: "pomnicky",
+      pridano: " 01/01/2021 ",
+      podkategorie: 1,
+      druh: " Lesnický Slavín ",
+      okres: " Brno - venkov ",
+      obec: " Bílovice   ",
+      jmeno: " Polanský, Bohuslav  ",
+      nazev: " Pomník Bohuslava Polanského  ",
+      kdyVznikl: " Školní lesní podnik Křtiny vybudoval pomník v roce 2005. ",
+      popisCesty:
+        " 500 metrů V od mostu v Bílovicích, blízko lesní silnice Červená, na kraji louky.  ",
+      popis:
+        " Moderní pomník. Mezi tři trojhranné sloupy vysoké dva metry je vložena kamenná deska s autografem a dnes hůře čitelným textem - úryvkem z jeho učebnice.   ",
+      napis:
+        " PROF.  ING.  DR. // BOHUSLAV  POLANSKÝ  Dr. Sc. //  26. 10. 1901 - 9. 9. 1983 // VEDOUCÍ  ÚSTAVU  PĚSTĚNÍ  LESŮ // LESNICKÉ  FAKULTY V BRNĚ  ",
+      odkazy: [
+        {
+          nazev: " Lesnická práce ",
+          adresa:
+            " http://www.lesprace.cz/casopis-lesnicka-prace-archiv/rocnik-79-2000/lesnicka-prace-c-10-00/vzpominka-na-prof-bohuslava-polanskeho ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 131 ",
+        },
+      ],
+      pozn:
+        " Profesor Polanský ke konci života prozradil, že jeho nejoblíbenějším místem v bílovickém polesí  je lesní dílec 370 B západně od Liduščina pomníku. V roce 1983 byl dílec pojmenován jeho jménem a později zde byl postaven pomník.   ",
+      naposledObnoveno: " 1.1.2021 ",
+      souradnice: " 49.2438611N, 16.6819997E ",
+      odkazMapa: "https://frame.mapy.cz/s/labesozopo",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/labesozopo" width="400" height="280" frameborder="0"></iframe>   ',
+      galerie: [
+        { fotka: "polansky1.jpg", popisek: " (prosinec 2017) " },
+        { fotka: "polansky2.jpg", popisek: " (prosinec 2017) " },
+        { fotka: "polansky3.jpg", popisek: "  (prosinec 2017) " },
+      ],
+
+      proMe: " XV/538  24-413-52  17---12   ",
+    },
+    {
+      id: 113,
+      kategorie: "pomnicky",
+      pridano: " 01/01/2021 ",
+      podkategorie: 1,
+      druh: " Lesnický Slavín ",
+      okres: " Brno - venkov ",
+      obec: "  Březina  ",
+      jmeno: " Pocta půdě  ",
+      nazev: "  Památník Pocta půdě ",
+      kdyVznikl: " 2002 ",
+      popisCesty:
+        " Z od Březiny, u lesní silnice Březinka, v rohu chráněného území.  ",
+      popis: "  Deska z leštěného kamene převyšuje povrch země sotva o 5 cm.  ",
+      napis:
+        " POCTA PŮDĚ // následuje citát prof. Konšela z roku 1944.PŘI  PŘÍLEŽITOSTI 55. VÝROČÍ  USTAVENÍ // ÚSTAVU  GEOLOGIE A PEDOLOGIE  LDF // MZLU V BRNĚ, KVĚTEN  2002  ",
+      odkazy: [
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 128  ",
+        },
+      ],
+      pozn: "  U desky byla vysazena lípa.   ",
+      naposledObnoveno: " 30.12.2020 ",
+      souradnice: " 49.2842467N, 16.7376100E ",
+      odkazMapa: "https://frame.mapy.cz/s/jorocaseva",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jorocaseva" width="400" height="280" frameborder="0"></iframe>  ',
+      galerie: [{ fotka: "poctapude.jpg", popisek: "  (prosinec 2014)  " }],
+
+      proMe: "  XIV/486  24-411-59  14---12.    ",
+    },
+    {
+      id: 114,
+      kategorie: "pomnicky",
+      pridano: " 01/01/2021 ",
+      podkategorie: 1,
+      druh: " Lesnický Slavín ",
+      okres: " Brno - venkov ",
+      obec: "  Habrůvka  ",
+      jmeno: " Pelíšek, Josef  ",
+      nazev: " Pomník Josefa Pelíška ",
+      kdyVznikl:
+        " Byl odhalen v květnu 2001 při příležitosti Pedologických dnů na Mendelově univerzitě v Brně. ",
+      popisCesty:
+        " V Josefovském údolí naproti vývěru vody Křtinského potoka. Kolem prochází modrá značka.  Známé místo.  ",
+      popis:
+        "  Moderní pomník je složený ze čtyř leštěných kamenných desek s neopracovanými okraji, výška nejvyšší desky je 1,4 metru. Nejmenší deska s nápisem je z mrákotínské žuly, následuje syenit ze šluknovského výběžku, liberecká žula a nejvyšší je gabro ze středních Čech.   ",
+      napis:
+        " LESNÍ  PŮDA  JE  ZÁKLADEM  LESA  // BEZ  PŮDY  NENÍ  DŘEVNÍ  PRODUKCE //  Autograf. //  PROF. ING. JOSEF  PELÍŠEK DR.SC. // 20. 8. 1909 - 23. 5. 1993 // PROFESOR  GEOLOGIE A LESNICKÉ  PEDOLOGIE // NA  LESNICKÉ A DŘEVAŘSKÉ  FAKULTĚ // MENDELOVY ZEMĚDĚLSKÉ A LESNICKÉ  UNIVERSITY // V  BRNĚ ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna  ",
+          adresa:
+            "https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=7853  ",
+        },
+        { nazev: "  ", adresa: "  " },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 126 ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 1.1.2021 ",
+      souradnice: " 49.3079353N, 16.6921531E ",
+      odkazMapa: "https://frame.mapy.cz/s/jejunopane",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jejunopane", width="400" height="280" frameborder="0"></iframe>  ',
+      galerie: [
+        { fotka: "pelisek1.jpg", popisek: "  (březen 2017) " },
+        { fotka: "pelisek2.jpg", popisek: "  (březen 2017) " },
+      ],
+
+      proMe: " XIII/464  24-411-109  17---034   ",
+    },
   ],
 };

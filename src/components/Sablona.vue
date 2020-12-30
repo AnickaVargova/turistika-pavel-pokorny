@@ -302,7 +302,8 @@
 
       filterRecent(clanek) {
         if (clanek.pridano) {
-          let pridano = clanek.pridano;
+          let pridano = clanek.pridano.trim();
+
           pridano = Date.parse(
             pridano.slice(3, 6).concat(pridano.slice(0, 3), pridano.slice(6))
           );
@@ -310,7 +311,7 @@
           let today = new Date().getTime();
 
           let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
-
+         
           if (last2weeks <= 14) {
             if (
               clanek.kategorie === "pomnicky" ||
@@ -343,16 +344,19 @@
         this.clankyPodKategorie = this.clanky.filter((clanek) =>
           this.filterRecent(clanek)
         );
+
         let novaKategorie = [];
 
         for (let i = 0; i < this.clankyPodKategorie.length; i++) {
           novaKategorie.push(this.clankyPodKategorie[i]);
+
           for (let j = 0; j < i; j++) {
             if (novaKategorie[j].nazev === this.clankyPodKategorie[i].nazev) {
-              novaKategorie.pop();
+              novaKategorie[j].nezobrazuj = true;
             }
           }
         }
+        novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
         this.clankyPodKategorie = novaKategorie;
       } else if (this.$route.name === "Vypraveni") {
         this.clankyPodKategorie = this.clanky.filter(
@@ -369,7 +373,7 @@
       this.seradClanky();
 
       this.vybraneId = this.$route.params.kategorie;
-     
+
       if (this.$route.name === "DetailPomnicku") {
         for (let clanek of this.clanky) {
           if (clanek.id == this.$route.params.id) {
@@ -568,7 +572,6 @@
       height: 45px;
       right: 10px;
       left: unset;
-
     }
 
     #tlacitkoDomu {

@@ -157,10 +157,11 @@
           novaKategorie.push(noveClanky[i]);
           for (let j = 0; j < i; j++) {
             if (novaKategorie[j].nazev === noveClanky[i].nazev) {
-              novaKategorie.pop();
+              novaKategorie[j].nezobrazuj = true;
             }
           }
         }
+        novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
         noveClanky = novaKategorie;
       this.pocetNovych = noveClanky.length;
     },
