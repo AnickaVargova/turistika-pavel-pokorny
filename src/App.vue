@@ -12,7 +12,7 @@
   body {
     font-family: "Raleway", sans-serif;
     margin:0;
-    max-width: 1300px;
+    
   }
 
   h1 {
