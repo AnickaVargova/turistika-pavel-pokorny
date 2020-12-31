@@ -1,6 +1,6 @@
 <template>
   <div id="fotodetail">
-    <figure v-bind:class='{setHeight:!isEdgeChromium}'>
+    <figure v-bind:class="{ setHeight: !isEdgeChromium }">
       <img
         v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
         v-bind:alt="vybranaFotka.popisek"
@@ -41,6 +41,7 @@
         vybranyIndex: undefined,
         vybranaKategorie: undefined,
         clanky: Clanky.data,
+        vybranyClanek: undefined,
         fotoOnas: [
           {
             fotka: "onas1.jpg",
@@ -57,6 +58,7 @@
 
     methods: {
       detailFotky() {
+        
         if (this.$route.params.podkategorie === "onas") {
           for (let item of this.fotoOnas) {
             if (item.fotka == this.$route.params.id) {
@@ -66,14 +68,18 @@
           }
         } else {
           for (let clanek of this.clanky) {
-            
             if (clanek.text) {
+              
+            
               for (let odstavec of clanek.text) {
-                clanek.galerie.push({
-                  fotka: odstavec.foto,
-                  popisek: odstavec.popisek,
-                });
+                if (odstavec.foto) {
+                  clanek.galerie.push({
+                    fotka: odstavec.foto,
+                    popisek: odstavec.popisek,
+                  });
+                }
               }
+             
             }
             if (clanek.galerie) {
               for (let obrazek of clanek.galerie) {
@@ -91,7 +97,7 @@
 
     created() {
       this.detailFotky();
-       // Opera 8.0+
+      // Opera 8.0+
       // var isOpera =
       //   (!!window.opr && !!opr.addons) ||
       //   !!window.opera ||
@@ -126,11 +132,10 @@
 
       // Blink engine detection
       // var isBlink = (isChrome || isOpera) && !!window.CSS;
-      
-     
-     this.isEdgeChromium = isEdgeChromium; 
-    
+
+      this.isEdgeChromium = isEdgeChromium;
     },
+   
   };
 </script>
 

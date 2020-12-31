@@ -4590,7 +4590,8 @@ export default {
           nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 126 ",
         },
       ],
-      pozn: "Pomník navrhl Ivar Otruba. Různobarevné kamenné desky mají znázornit horizonty půdního profilu. Ani umístění není náhodné. Profesor se důkladně zabýval jeskynními sedimenty v Býčí skále už v roce 1942",
+      pozn:
+        "Pomník navrhl Ivar Otruba. Různobarevné kamenné desky mají znázornit horizonty půdního profilu. Ani umístění není náhodné. Profesor se důkladně zabýval jeskynními sedimenty v Býčí skále už v roce 1942",
       naposledObnoveno: " 1.1.2021 ",
       souradnice: " 49.3079353N, 16.6921531E ",
       odkazMapa: "https://frame.mapy.cz/s/jejunopane",
@@ -4602,6 +4603,163 @@ export default {
       ],
 
       proMe: " XIII/464  24-411-109  17---034   ",
+    },
+    {
+      id: 115,
+      datum: " listopad 1994  ",
+      pridano: " 01/01/2021 ",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: " Vyprávění o Lišce Bystroušce  ",
+      text: [
+        {
+          textOdstavce:
+            '  "Drva hlaďunký, bílunký a takovcí kruci lonti mně je u nosa seberou...". Touto přímou řečí revírníka Bartoše uvozuje Rudolf Těsnohlídek svůj román Liška Bystrouška. Jeho zvířecí hrdinka má několik duchovních otců, kteří jí pomohli na svět. Malíř, spisovatel, hudební skladatel. Také krajiny, které obývala, byly tři a dosti od sebe vzdálené.',
+
+          foto: "bystrouskaMarek.jpg",
+          umisteniFoto: " vpravo   ",
+          popisek:
+            " Socha Jiřího Marka Liška Bystrouška na Janáčkově náměstí v Brně.  ",
+        },
+        {
+          textOdstavce:
+            "   <p>První z nich je severní část Drahanské vrchoviny, kopcovitá hrbatina svažující se do Hornomoravského úvalu nedaleko Litovle, kolem hradu Bouzova a Javoříčských jeskyní. Odtud pocházel Stanislav Lolek, malíř – krajinář a myslivec. Studoval malířství na pražské Akademii a na prázdniny se vracíval domů, do Palonína u Loštic. Tam vyslechl ve společnosti, která se scházela v hospodě U jelena, příběh od pana lesního Kořínka. Byl o vychytralé lišce, o příhodách, které vyváděla revírníkovi, jeho psovi, vnukovi, o karetním spolku tří přátel, lesníka, faráře a učitele. Mladý Lolek podle tohoto vyprávění nakreslil 195 ilustrací, vlastně jako školní úlohu. To se stalo někdy kolem roku 1895, liška byla na světě. Dalších pětadvacet let ležely kresby zapomenuty v Lolkově ateliéru v Praze na Vinohradech. Nalezl je tam až koncem roku 1919 redaktor Lidových novin Bohumil Markalous, známý spíše pod pseudonymem Jaromír John. </p>  ",
+          foto: "lolkovastudanka.jpg",
+          umisteniFoto: " vlevo   ",
+          popisek: " Lolkova studánka u Bílovic.  ",
+        },
+
+        {
+          textOdstavce:
+            '  <p>V té době se šéfredaktor brněnských Lidových novin Arnošt Heinrich snažil dát svému listu novou tvář a chtěl, aby denně byla v novinách vtipná kresba. Byl to těžký úkol, protože malíři takto nepracovali, nebyli na to zvyklí. Proto bylo třeba je objíždět, přesvědčovat a vysvětlovat, co se od nich žádá. Nevděčnou prací byl pověřen dr. Markalous, který se znal s pražskými výtvarníky. Jednou dorazil také k Lolkovi. Ten se vymlouval, že je krajinář, že figury nedělá, nanejvýš zvířata. Ale neodbytný návštěvník si všiml, že z hromádky starých zaprášených listů vykukuje čtvrtka s namalovanou holínkou – i tohle vypátrala literární historie. Byl to svazek kreseb o myslivci a lišce. "To jsou jen pitominky z Akademie, nemožné věci", hodnotil kumštýř své začátky.Ale Markalous, pozdější profesor estetiky na univerzitě v Olomouci, stál na svém, že obrázky koupí, což se také stalo prý za 800 korun. </p>   ',
+          foto: "hrobheinricha.jpg",
+          umisteniFoto: "  vpravo  ",
+          popisek:
+            " Hrob šéfredaktora Arnošta Heinricha na Ústředním hřbitově  ",
+        },
+
+        {
+          textOdstavce:
+            "  <p>Ještě pozdě večer v nádražní restauraci si je prohlížel a byl spokojen. Kresby sledovaly jistý děj a byly dobře reprodukovatelné. Do Brna přijel posledním nočním rychlíkem ve čtyři ráno a hned spěchal do redakce na České. Heinrich byl kresbami zklamán, se svazkem ilustrací zacházel poněkud neuctivě, mlátil s ním o stůl a bědoval nad neschopností svých redaktorů, kteří kupují nevhodné věci. </p>   ",
+          foto: "pametnideska.jpg",
+          umisteniFoto: "  vlevo  ",
+          popisek:
+            " Pamětní deska na místě domu v Bílovicích, kde žil Těsnohlídek  ",
+        },
+
+        {
+          textOdstavce:
+            '  <p>Obrázky se pak povalovaly po redakčních stolech a čekalo se na nápad, jak je využít. Nakonec je Heinrich začátkem ledna 1920 dal Těsnohlídkovi se slovy: "Móric, k tomu muší bejt nějaký říkání". Těsnohlídek (Móric byla jeho přezdívka) nebyl tímto úkolem dvakrát nadšen, ale nedalo se nic dělat. V únoru 1920 se do toho dal. První kapitolu zahodil a šel poslouchat, jak mluví dřevaři. Neměl to daleko, bydlel tehdy v Bílovicích a odtud bylo do lesů na všechny strany blízko. Ostatně Těsnohlídek, samotář a citlivý lyrik, měl zdejší krajinu důkladně prochozenou. A pak, v nádherném předjaří, vzniklo půvabné vyprávění. Inspirován probouzející se přírodou, lesy kolem Bílovic a údolími svažujícími se k řece Svitavě, pospojoval textem humorné kresby do jednoduchého příběhu a proložil lyrickými přírodními motivy. Je to rok na myslivně a kolem ní, svět lidí je kriticky nazírán očima zvířat a naopak zvířata se chovají "lidsky", všichni mluví brněnštinou dvacátých let. Knížka je považována za nejlepší Těsnohlídkovo dílo.</p>   ',
+          foto: "myslivna.jpg",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Myslivna Lišky Bystroušky u Bílovic.  ",
+        },
+
+        {
+          textOdstavce:
+            '  <p>Těsnohlídek podle vlastních slov "škrábal tak divoce, že to v tiskárně nemohli přečísti a hrozili stávkou". Jednu šťastnou chybu udělali sazeči hned v nadpisu. Původní název Bystronožka přečetli jako Bystrouška a už to tak zůstalo. "I v matrikách se stávají chyby a nezbylo, než se podrobit", komentoval to autor ve vzpomínkách. </p>',
+          foto: "pamatniktesnohlidka.jpg",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Památník Rudolfa Těsnohlídka u Bílovic.  ",
+        },
+
+        {
+          textOdstavce:
+            '  <p>Liška Bystrouška vycházela v Lidových novinách jako román na pokračování na jaře roku 1920. Vzbudila velkou pozornost čtenářstva a byla vydána knižně poprvé v následujícím roce, do dnešních časů vyšla jedenáctkrát, byla přeložena s citem do ruštiny jako "Lisica plutovka" (Liška šibalka) a necitlivě přepracována pro německé čtenáře. O nové ilustrace se u nás pokusil v roce 1972 Jaroslav Duda. Jeho 55 obrázků má spíše podobu karikatury a tak v zatím posledním vydání z roku 1986 se setkáváme znovu s Lolkovými původními ilustracemi. Dlužno říci, že málokterá próza je tak bohatě ilustrována. Třeba zabijačková historka s liškou ve spižírně je vystižena šestadvaceti obrázky. Je neuvěřitelné, že kresby vznikly podstatně dříve než text, tak dobře do děje zapadají. </p>   ',
+          foto: "janackuvdomek.jpg",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Domek, kde žil Leoš Janáček, dnes  muzeum, Smetanova 14  ",
+        },
+
+        {
+          textOdstavce:
+            "  <p>Román na pokračování zaujal i Leoše Janáčka, tehdy už známého, šedesátisedmiletého hudebního skladatele. Měl v té době mnoho práce s operou Káťa Kabanová a další námět hledal až v roce 1922. Sjednal si schůzku s Těsnohlídkem, aby ho požádal o libreto k nové opeře, nakonec se domluvili, že Janáček napíše libreto sám. To se od literární předlohy odlišuje v závěru, kde Janáček nechává lišku zastřelit. Bystrouška v opeře sice umírá, ale rod mladých lišek zůstává a koloběh života v přírodě je tak zachován. Opera novým, nezvyklým hudebním způsobem vyjádřila přírodní nálady, zpěv ptáků, řeč zvířat, zvuk hmyzu a je velkolepou oslavou velebné přírody. Příhody lišky Bystroušky měly premiéru v roce 1924 a okamžitě měly úspěch. Proslavily prostý příběh na mnoha světových jevištích, kde se hrají dodnes. </p>   ",
+          foto: "varhanickaskola.jpg",
+          umisteniFoto: " vlevo   ",
+          popisek:
+            " Varhanická škola, kterou Janáček založil. Kounicova ulice.  ",
+        },
+
+        {
+          textOdstavce:
+            "  <p>Janáčkova hudba byla ovlivněna krajem, kde se narodil. Na Hukvaldech, kde strávil deset let svého dětství pod oborou zámku, pod Babí hůrou, odkud potůček děťátka přinášel, od malička slýchával šumění starých stromů. To je ta třetí krajina zrodu Bystroušky. Ne náhodou má liška Bystrouška zrovna zde svůj pomníček. Sedí, celá v bronzu, na velkém balvanu v hukvaldské oboře, na památku prvního provedení opery na Hukvaldech. </p>   ",
+          foto: "bustajanacka.jpg",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Busta Janáčka na Varhanické škole v prvním patře.  ",
+        },
+
+        {
+          textOdstavce:
+            '  <p>Když se vydáme z Bílovic od mostu přes Svitavu k východu po lesní silničce zvané Resslovka, dorazíme brzy k výstavné myslivně. Na její zdi byla odhalena pamětní deska "Myslivna lišky Bystroušky". Spisovatel Jaromír Tomeček je názoru, že se děj mohl odehrávat v hájence U jezírka mezi Soběšicemi a Útěchovem. V románu je totiž myslivna pojmenována Jezerní. V úvahu připadá i Resslova myslivna na překrásném místě pod Zadními Hády. Ale pozorný čtenář odhalí, že ani k jedné z nich se nehodí popisy cest, kterými autor nechává procházet revírníka Bartoše. První je moc blízko Bílovic, skoro ve vsi, druhá moc daleko, u třetí chybí "rozvlněná žitniska". Nezbývá, než se smířit s tím, že umístění románu zůstává plodem autorovy fantazie, na což má umělec samozřejmě právo. Bezesporné je, že se děj odehrává v Bílovicích a okolí. K vykreslení postavy revírníka Bartoše posloužil Těsnohlídkovi jeho tchán Kutil z Bílovic, jméno pak dostal od osvíceného lesníka Bartoše ze soběšické hájenky U dubu. I ostatní postavy měly prý reálné předlohy mezi bílovickými občany.</p>',
+          foto: "janacekporici.jpg",
+          umisteniFoto: " vlevo   ",
+          popisek:
+            " Busta Janáčka na Poříčí na bývalém Učitelském ústavu, kde vyučoval.  ",
+        },
+
+        {
+          textOdstavce:
+            "  <p>Na mnoha místech románu padnou místní názvy Babice, Řícmanice, Habrůvka, Nový hrad, Vranov, Jančovská dolina (dnes les Jančovec). Ovšem Černý žleb, kde měla noru početná liščí rodina s malou Bystrouškou, která proplakala celou noc, protože jí lezly zuby podočáky, kde si hrála liščata Černonoska, Oháněček a Peřiderka, ten bychom hledali marně. Ale na tom přece nezáleží. Pokud vyjdete do svahů od Svitavy vzhůru mezi seče a zarůstající stráně, možná jej objevíte sami. Tak jak ho tu nalezl básník a spisovatel Rudolf Těsnohlídek.</p>",
+          foto: "janackovastudanka.jpg",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Janáčkova studánka u Bílovic.  ",
+        },
+
+        {
+          textOdstavce:
+            "  <p>Co lze hledat :<br>Myslivna Lišky Bystroušky – pamětní deska.<br>Místo po domě, kde žil Těsnohlídek v Bílovicích v letech 1908-24, na prostranství před obecním úřadem. Zchátralý dům byl stržen na začátku tohoto století.<br>Těsnohlídkův žleb – úzké údolí roztíná plošinu Hádů.<br>Těsnohlídkův pomník z roku 1929 v Těsnohlídkově žlebu.<br>Pamětní deska Těsnohlídkovi na dětském domově Dagmar, z roku 1968. Brno, Zeleného ulice.<br>Poslední Těsnohlídkovo bydliště, kde žil v letech 1924-28, Kobližná 12.<br>Hrob Rudolfa Těsnohlídka (1882 - 1928), Ústřední hřbitov, skupina 32, číslo 90.<br>Redakce prvorepublikových Lidových novin, palác Chlumeckých, Česká 6, 1. patro.<br>Hrob Arnošta Heinricha (1880 - 1933), šéfredaktora a duše Lidových novin v letech 1919-33, Ústřední hřbitov, skupina 25e, čestný kruh, číslo 55.<br>Lolkova studánka – v horní části Těsnohlídkova žlebu, upravený pramen, podobizna šaramantního muže chovajícího na klíně lišku. Stanislav Lolek (1873 – 1936).<br>Janáčkova studánka u Bílovic, pramen byl upraven roku 1978 a voda patří k nejlepším.<br>Pomník Leoše Janáčka před Janáčkovou operou. Stanislav Hanzl, 1975.<br>Janáčkovo muzeum a busta na balkoně varhanické školy, kterou založil a kde žil, Smetanova 14 , busta Štursa, Kysilka, 1948.<br>Pamětní deska Janáčkovi s portrétem, Mendlovo nám. 1988.<br>Pamětní deska Janáčkovi s reliéfem Besední dům, Zouhar, 1954.<br>Portrétní busta na Učitelském ústavu, kde Janáček působil, Poříčí 5. Zdeněk Makovský, 2008.<br>Hrob Leoše Janáčka (1854 – 1928), Ústřední hřbitov, skupina 25e, čestný kruh, číslo 64.<br></p>",
+        },
+      ],
+      dodatekNadpis: "  ",
+      dodatekText: "  ",
+      fotkaUvod: {fotka:"myslivna.jpg"},
+      galerie: [
+        {
+          fotka: "koblizna.jpg",
+          popisek:
+            "Kobližná 12. Poslední bydliště Rudolfa Těsnohlídka. Foto z prosince 2020. ",
+        },
+        {
+          fotka: "hrobtesnohlidka.jpg",
+          popisek: " Hrob manželů Těsnohlídkových na Ústředním hřbitově. ",
+        },
+        {
+          fotka: "janackovodivadlo.jpg",
+          popisek: " Janáčkovo divadlo v Brně. ",
+        },
+        {
+          fotka: "janacek.jpg",
+          popisek: " Socha Leoše Janáčka před divadlem. ",
+        },
+        {
+          fotka: "hrobjanacka.jpg",
+          popisek: " Hrob Leoše Janáčka na Ústředním hřbitově. ",
+        },
+      ],
+      spodniGalerie: [
+        {
+          fotka: "koblizna.jpg",
+          popisek:
+            "Kobližná 12. Poslední bydliště Rudolfa Těsnohlídka. Foto z prosince 2020. ",
+        },
+        {
+          fotka: "hrobtesnohlidka.jpg",
+          popisek: " Hrob manželů Těsnohlídkových na Ústředním hřbitově. ",
+        },
+        {
+          fotka: "janacek.jpg",
+          popisek: " Socha Leoše Janáčka před divadlem. ",
+        },
+        {
+          fotka: "janackovodivadlo.jpg",
+          popisek: " Janáčkovo divadlo v Brně. ",
+        },
+        
+        {
+          fotka: "hrobjanacka.jpg",
+          popisek: " Hrob Leoše Janáčka na Ústředním hřbitově. ",
+        },
+      ],
     },
   ],
 };

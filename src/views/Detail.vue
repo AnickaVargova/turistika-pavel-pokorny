@@ -54,7 +54,7 @@
                 v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
                 v-bind:alt="detailClanku.nazev"
               />
-              <figcaption>{{ odstavec.popisek }}</figcaption>
+              <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
             </figure>
           </router-link>
           <p v-if="odstavec.vnitrniOdkazy">
@@ -84,27 +84,27 @@
         </p>
       </div>
 
-      <!-- <div id="galerieClanek">
+      <div id="galerieClanek" v-if='detailClanku.spodniGalerie'>
         <div
           class="obrazek"
-          v-for="(obrazek, index) in detailClanku.galerie"
+          v-for="(obrazek, index) in detailClanku.spodniGalerie"
           v-bind:key="index"
         >
           <router-link
             v-bind:to="
-              `/fotodetail/${detailClanku.podkategorie}/${obrazek.fotka}`
+              `/fotodetail/${detailClanku.podkategorie}/${obrazek.fotka.trim()}`
             "
           >
             <figure>
               <img
-                v-bind:src="require(`./../assets/${obrazek.fotka}`)"
+                v-bind:src="require(`./../assets/${obrazek.fotka.trim()}`)"
                 v-bind:alt="obrazek.popisek"
               />
               <figcaption>{{ obrazek.popisek }}</figcaption>
             </figure>
           </router-link>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -121,6 +121,7 @@
         rok: undefined,
         detailClanku: undefined,
         stranka: undefined,
+        
       };
     },
 
@@ -134,6 +135,7 @@
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
+          
         }
       }
     },
@@ -254,7 +256,7 @@
   .vpravo {
     float: right;
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 16px;
     margin-left: 30px;
   }
@@ -262,7 +264,7 @@
   .vlevo {
     float: left;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 16px;
     margin-left: 0;
   }
@@ -303,19 +305,21 @@
   }
 
   .obrazek {
-    flex-basis: 33.33%;
+    flex-basis: 25%;
   }
 
   .obrazek figure {
-    width: 90%;
-    height: 80%;
+   height: 200px;
+   width: min-content;
     object-fit: cover;
     margin-left: 0;
+    margin-bottom: 60px;
   }
 
   #detailClanku img {
     border: 2px solid grey;
     border-radius: 5px;
+    width: unset;
   }
 
   #detailClanku img:hover,
@@ -333,6 +337,12 @@
   @media (max-width: 600px) {
     #galerieClanek {
       flex-direction: column;
+      flex-wrap: nowrap;
+      
+    }
+    #obrazek {
+      flex-basis: unset;
+      
     }
   }
 </style>

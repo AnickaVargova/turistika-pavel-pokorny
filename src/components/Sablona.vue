@@ -54,9 +54,7 @@
       Úvodní strana
     </router-link>
 
-    <a href="#top" id="odkazNahoru">
-      <button id="tlacitkoNahoru" class="pomnicekKategorie">Nahoru</button>
-    </a>
+    <a id="tlacitkoNahoru" class="pomnicekKategorie" href="#top">Nahoru </a>
 
     <div class="pomnickyNavigace">
       <div
@@ -521,34 +519,29 @@
   #tlacitkoDomu {
     grid-column: 6/7;
     grid-row: 1/2;
-    position: sticky;
+    /* position: relative;
     top: 20px;
-    right: 20px;
+    right: 20px; */
     min-width: unset;
     max-width: unset;
     width: 116px !important;
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
-  }
-
-  #odkazNahoru {
-    grid-column: 6/7;
-    grid-row: 1/2;
-    position: sticky;
-    top: 60px;
-    right: 20px;
-
+    margin-top: 20px;
   }
 
   #tlacitkoNahoru {
-    /* position: fixed;
-    top: 60px; */
-    margin-top: 10px;
+    grid-column: 6/7;
+    grid-row: 1/2;
+    position: sticky;
+    top: 70px;
+    left: 0;
     /* right: 20px; */
+    margin-top: 20px;
     min-width: unset;
     max-width: unset;
-    width: 140px !important;
+    width: 116px !important;
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
@@ -578,18 +571,17 @@
     #tlacitkoDomu,
     #tlacitkoNahoru {
       height: 45px;
-      right: 10px;
       left: unset;
     }
 
     #tlacitkoDomu {
       top: 10px;
-      width: 55px !important;
+      width: 60px !important;
     }
 
     #tlacitkoNahoru {
-      top: 60px;
-      width: 79px !important;
+      top: 80px;
+      width: 60px !important;
     }
 
     #pomnicky .pomnicekKategorie.pomnicekMenu {
