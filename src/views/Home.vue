@@ -218,6 +218,9 @@
   @media (min-width: 900px) {
     body {
       width: 100vw;
+      max-width: 1500px;
+      margin: auto;
+      background-color: rgb(230, 236, 243);
     }
   }
 
@@ -248,7 +251,7 @@
     grid-row-start: 1;
     grid-column: 1/7;
     grid-row-end: 4;
-    width: 100vw;
+    width: 100%;
     height: 100%;
   }
 
@@ -260,7 +263,7 @@
   #transbox {
     grid-column: 1 / 7;
     grid-row: 1 / 4;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: rgba(246, 244, 250, 0.7);
     /* background-color: rgba(178, 203, 223, 0.7); */

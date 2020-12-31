@@ -93,7 +93,7 @@
   #transboxOnas {
     width: 100%;
     background-color: rgba(234, 235, 224, 0.7);
-    padding: 2%;
+    /* padding: 2%; */
   }
 
   #detailOkno {

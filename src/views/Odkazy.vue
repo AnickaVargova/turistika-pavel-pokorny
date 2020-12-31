@@ -37,6 +37,7 @@
 <style>
   #odkazy {
     background-image: url("./../assets/presypy.jpg");
+    width: 100%;
   }
 
   #domuOnas {

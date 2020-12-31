@@ -311,7 +311,7 @@
           let today = new Date().getTime();
 
           let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
-         
+
           if (last2weeks <= 14) {
             if (
               clanek.kategorie === "pomnicky" ||
@@ -345,6 +345,9 @@
           this.filterRecent(clanek)
         );
 
+        if (this.clankyPodKategorie.length === 0) {
+          this.clankyPodKategorie = this.clanky.slice(-5);
+        }
         let novaKategorie = [];
 
         for (let i = 0; i < this.clankyPodKategorie.length; i++) {
@@ -357,6 +360,7 @@
           }
         }
         novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
+
         this.clankyPodKategorie = novaKategorie;
       } else if (this.$route.name === "Vypraveni") {
         this.clankyPodKategorie = this.clanky.filter(
@@ -517,7 +521,7 @@
   #tlacitkoDomu {
     grid-column: 6/7;
     grid-row: 1/2;
-    position: fixed;
+    position: sticky;
     top: 20px;
     right: 20px;
     min-width: unset;
@@ -531,13 +535,17 @@
   #odkazNahoru {
     grid-column: 6/7;
     grid-row: 1/2;
+    position: sticky;
+    top: 60px;
+    right: 20px;
+
   }
 
   #tlacitkoNahoru {
-    position: fixed;
-    top: 60px;
+    /* position: fixed;
+    top: 60px; */
     margin-top: 10px;
-    right: 20px;
+    /* right: 20px; */
     min-width: unset;
     max-width: unset;
     width: 140px !important;
@@ -650,13 +658,13 @@
     grid-column: 1 / 7;
     grid-row-start: 1;
     grid-row-end: 5;
-    width: 100vw;
+    width: 100%;
     height: 100%;
   }
   #transbox1 {
     grid-column: 1 / 7;
     grid-row: 1 / 5;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: rgba(204, 175, 127, 0.4);
     margin-right: 0;

@@ -4545,7 +4545,7 @@ export default {
       popis:
         "  Deska z\xa0leštěného kamene převyšuje povrch země sotva o 5 cm.  ",
       napis:
-        " POCTA PŮDĚ // následuje citát prof. Konšela z\xa0roku 1944.PŘI  PŘÍLEŽITOSTI 55. VÝROČÍ  USTAVENÍ // ÚSTAVU  GEOLOGIE A PEDOLOGIE  LDF // MZLU V\xa0BRNĚ, KVĚTEN  2002  ",
+        " POCTA PŮDĚ // následuje citát prof. Konšela z\xa0roku 1944.//PŘI  PŘÍLEŽITOSTI 55. VÝROČÍ  USTAVENÍ // ÚSTAVU  GEOLOGIE A PEDOLOGIE  LDF // MZLU V\xa0BRNĚ, KVĚTEN  2002  ",
       odkazy: [
         {
           nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 128  ",
@@ -4590,7 +4590,7 @@ export default {
           nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 126 ",
         },
       ],
-      pozn: "    ",
+      pozn: "Pomník navrhl Ivar Otruba. Různobarevné kamenné desky mají znázornit horizonty půdního profilu. Ani umístění není náhodné. Profesor se důkladně zabýval jeskynními sedimenty v Býčí skále už v roce 1942",
       naposledObnoveno: " 1.1.2021 ",
       souradnice: " 49.3079353N, 16.6921531E ",
       odkazMapa: "https://frame.mapy.cz/s/jejunopane",
