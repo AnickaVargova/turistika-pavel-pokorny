@@ -107,11 +107,7 @@ const routes = [{
         name: 'NovePridane',
         component: Detail,
     },
-    // {
-    //     path: '/sitemap.xml',
-    //     name: 'Sitemap',
-    //     component: Sitemap,
-    // },
+   
 
 ]
 

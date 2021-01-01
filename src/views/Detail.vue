@@ -100,7 +100,7 @@
                 v-bind:src="require(`./../assets/${obrazek.fotka.trim()}`)"
                 v-bind:alt="obrazek.popisek"
               />
-              <figcaption>{{ obrazek.popisek }}</figcaption>
+              <!-- <figcaption>{{ obrazek.popisek }}</figcaption> -->
             </figure>
           </router-link>
         </div>
@@ -189,6 +189,11 @@
     height: 35px;
     background-color: #459ae6;
     justify-self: flex-end;
+  }
+
+  #tlacitkoDomuDetail:hover,
+  #tlacitkoNahoruDetail:hover {
+    background-color: #898a8b;
   }
 
   @media (max-width: 600px) {

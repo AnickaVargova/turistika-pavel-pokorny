@@ -43,7 +43,7 @@
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
       <router-link to="/novepridane"
-        >Nově přidané ({{ pocetNovych }})</router-link
+        >Naposled přidané ({{ pocetNovych }})</router-link
       >
 
       <router-link to="/pomnicky">Pomníčky ({{ pocetPomnicku }}) </router-link>

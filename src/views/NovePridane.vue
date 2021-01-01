@@ -14,8 +14,8 @@
       return {
         clanky: vsechnyClanky.data,
         params: {
-          nadpis: "Nově přidané",
-          uvodniText: ["Tyto texty jsme přidali v posledních čtrnácti dnech."],
+          nadpis: "Naposled přidané",
+          uvodniText: [""],
           stranka: "novepridane",
           background: "drevo.jpg",
           backgroundDescription: "Pozadí",
