@@ -1,25 +1,39 @@
 <template>
   <div id="oknoPomnicky">
-    <div v-for="(clanek, index) in mojeClanky" v-bind:key="index">
-      <router-link v-if="stranka==='vypraveni'" v-bind:to="`/vypraveni/${clanek.podkategorie}/${clanek.id}`">
+    <div
+      class="kontejnerClanek"
+      v-for="(clanek, index) in mojeClanky"
+      v-bind:key="index"
+    >
+      <router-link
+        v-if="stranka === 'vypraveni'"
+        v-bind:to="`/vypraveni/${clanek.podkategorie}/${clanek.id}`"
+      >
         <div class="clanek">
           <h2>{{ clanek.nazev }}</h2>
           <h3>{{ clanek.datum }}</h3>
           <div class="clanekFoto">
             <img
-              v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)"
+              v-bind:src="
+                require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
+              "
               v-bind:alt="clanek.jmeno"
             />
           </div>
         </div>
       </router-link>
-      <router-link v-else-if="stranka==='novepridane'" v-bind:to="`/novepridane/${clanek.podkategorie}/${clanek.id}`">
+      <router-link
+        v-else-if="stranka === 'novepridane'"
+        v-bind:to="`/novepridane/${clanek.podkategorie}/${clanek.id}`"
+      >
         <div class="clanek">
           <h2>{{ clanek.nazev }}</h2>
           <h3>{{ clanek.datum }}</h3>
           <div class="clanekFoto">
             <img
-              v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)"
+              v-bind:src="
+                require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
+              "
               v-bind:alt="clanek.jmeno"
             />
           </div>
@@ -32,19 +46,17 @@
 <script>
   export default {
     props: ["clanky", "stranka"],
-    data(){
+    data() {
       return {
         mojeClanky: this.clanky,
-      }
+      };
     },
     created() {
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>
-            clanek.kategorie === "vypraveni" ||
-            clanek.kategorie === "cesty"
+            clanek.kategorie === "vypraveni" || clanek.kategorie === "cesty"
         );
-        
       }
     },
   };
@@ -95,22 +107,22 @@
   }
 
   @media (max-width: 600px) {
-    .clanek {
+    .kontejnerClanek {
       border-bottom: 2px solid grey;
-      border-top: none;
-      border-right: none;
-      border-left: none;
+    }
+
+    .kontejnerClanek:last-child {
+      border-bottom: none;
+    }
+
+    .clanek {
+      border: none;
       border-radius: 0;
       grid-template-rows: auto;
       grid-template-columns: 50% 50%;
       max-width: unset;
       width: 90%;
-      
     }
-
-    /* .clanek:last-child {
-      border-bottom: none;
-    } */
   }
 
   .clanek:hover {
@@ -118,6 +130,4 @@
     color: black;
     background-color: whitesmoke;
   }
-
-  
 </style>

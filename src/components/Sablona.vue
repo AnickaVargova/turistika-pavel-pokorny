@@ -174,6 +174,15 @@
       }"
     >
       <div v-if="clankyPodKategorie">
+        <OknoClanky
+          v-if="
+            innerParams.stranka === 'cesty' ||
+              innerParams.stranka === 'vypraveni' ||
+              (innerParams.stranka === 'novepridane' && clankyUkazat)
+          "
+          v-bind:clanky="clankyPodKategorie"
+          v-bind:stranka="innerParams.stranka"
+        />
         <OknoPomnicky
           v-if="
             innerParams.stranka === 'pomnicky' ||
@@ -185,15 +194,7 @@
           v-on:kliknuti="vyfiltrujPomnicek"
         />
 
-        <OknoClanky
-          v-if="
-            innerParams.stranka === 'cesty' ||
-              innerParams.stranka === 'vypraveni' ||
-              (innerParams.stranka === 'novepridane' && clankyUkazat)
-          "
-          v-bind:clanky="clankyPodKategorie"
-          v-bind:stranka="innerParams.stranka"
-        />
+        
       </div>
     </div>
   </div>
@@ -260,7 +261,13 @@
           this.clankyPodKategorie.sort(
             (a, b) => Number(b.datum.slice(-4)) - Number(a.datum.slice(-4))
           );
-        } else {
+        } 
+        else if (this.$route.name === "NovePridane") {
+          this.clankyPodKategorie.sort(
+            (a,b)=>b.id-a.id
+          )
+        }
+        else {
           for (let clanek of this.clankyPodKategorie) {
             if (!clanek.jmeno) {
               clanek.jmeno = clanek.nazev;
@@ -338,28 +345,60 @@
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.id == this.$route.params.id
         );
+
+        //tady zacinaji nove pridane
       } else if (this.$route.name === "NovePridane") {
-        this.clankyPodKategorie = this.clanky.filter((clanek) =>
+       
+        //vyfiltruji se clanky podle data
+              
+        let clanky14dni = this.clanky.filter((clanek) =>
           this.filterRecent(clanek)
         );
 
-        if (this.clankyPodKategorie.length === 0) {
-          this.clankyPodKategorie = this.clanky.slice(-5);
+     
+        //zjisti se, ktere clanky z clanku podle data nejsou v poslednich 10 clancich podle id a tyto clanky se do 10 clanku podle id pridaji
+
+        let poslednich10 = this.clanky.slice(-10);
+                
+        let vysledneNove = [];
+
+        for (let clanek14 of clanky14dni) {
+          let pridat = true;
+          for (let clanek10 of poslednich10) {
+            if (clanek10.id === clanek14.id) {
+              pridat = false;
+              break;
+            }
+          }
+          if (pridat) {
+            vysledneNove.push(clanek14);
+          }
         }
+
+        vysledneNove = vysledneNove.concat(poslednich10);
+     
+      
+        
+        //vyhodi se duplikovane clanky (ruzne id,stejny nazev)
         let novaKategorie = [];
 
-        for (let i = 0; i < this.clankyPodKategorie.length; i++) {
-          novaKategorie.push(this.clankyPodKategorie[i]);
+        for (let i = 0; i < vysledneNove.length; i++) {
+          if(!vysledneNove[i].nazev){
+            vysledneNove[i].nazev = vysledneNove[i].jmeno;
+          }
+          novaKategorie.push(vysledneNove[i]);
 
           for (let j = 0; j < i; j++) {
-            if (novaKategorie[j].nazev === this.clankyPodKategorie[i].nazev) {
+            if (novaKategorie[j].nazev === vysledneNove[i].nazev) {
               novaKategorie[j].nezobrazuj = true;
             }
           }
         }
         novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
-
+       
         this.clankyPodKategorie = novaKategorie;
+
+        //tady konci novePridane
       } else if (this.$route.name === "Vypraveni") {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.kategorie === "vypraveni"
@@ -679,6 +718,7 @@
   #oknoPomnicky {
     background-color: #f5f2ed;
     margin: 0;
+    margin-bottom: 10px;
     padding: 30px;
     border-radius: 10px;
     font-size: 15px;

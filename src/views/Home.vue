@@ -132,7 +132,7 @@
       },
     },
     created() {
-      for (let j=0; j<clanky.data.length;  j++) {
+      for (let j = 0; j < clanky.data.length; j++) {
         if (clanky.data[j].kategorie === "pomnicky") {
           this.pocetPomnicku++;
         } else if (clanky.data[j].kategorie === "smircikrize") {
@@ -142,28 +142,61 @@
         } else if (clanky.data[j].kategorie === "vypraveni") {
           this.pocetVypraveni++;
         }
-        for (let i=0; i<j; i++){
-            if (clanky.data[j].kategorie === "pomnicky" && clanky.data[j].nazev === clanky.data[i].nazev){
-              this.pocetPomnicku--;
-            }
-          }
-      }
-      let noveClanky = clanky.data.filter((clanek) =>
-        this.filterRecent(clanek)
-      );
-      let novaKategorie = [];
-
-        for (let i = 0; i < noveClanky.length; i++) {
-          novaKategorie.push(noveClanky[i]);
-          for (let j = 0; j < i; j++) {
-            if (novaKategorie[j].nazev === noveClanky[i].nazev) {
-              novaKategorie[j].nezobrazuj = true;
-            }
+        for (let i = 0; i < j; i++) {
+          if (
+            clanky.data[j].kategorie === "pomnicky" &&
+            clanky.data[j].nazev === clanky.data[i].nazev
+          ) {
+            this.pocetPomnicku--;
           }
         }
-        novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
-        noveClanky = novaKategorie;
-      this.pocetNovych = noveClanky.length;
+      }
+
+      //vyfiltruji se clanky podle data
+
+      let clanky14dni = clanky.data.filter((clanek) =>
+        this.filterRecent(clanek)
+      );
+
+      //zjisti se, ktere clanky z clanku podle data nejsou v poslednich 10 clancich podle id a tyto clanky se do 10 clanku podle id pridaji
+
+      let poslednich10 = clanky.data.slice(-10);
+
+      let vysledneNove = [];
+
+      for (let clanek14 of clanky14dni) {
+        let pridat = true;
+        for (let clanek10 of poslednich10) {
+          if (clanek10.id === clanek14.id) {
+            pridat = false;
+            break;
+          }
+        }
+        if (pridat) {
+          vysledneNove.push(clanek14);
+        }
+      }
+
+      vysledneNove = vysledneNove.concat(poslednich10);
+
+      //vyhodi se duplikovane clanky (ruzne id,stejny nazev)
+      let novaKategorie = [];
+
+      for (let i = 0; i < vysledneNove.length; i++) {
+        if (!vysledneNove[i].nazev) {
+          vysledneNove[i].nazev = vysledneNove[i].jmeno;
+        }
+        novaKategorie.push(vysledneNove[i]);
+
+        for (let j = 0; j < i; j++) {
+          if (novaKategorie[j].nazev === vysledneNove[i].nazev) {
+            novaKategorie[j].nezobrazuj = true;
+          }
+        }
+      }
+      novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
+
+      this.pocetNovych = novaKategorie.length;
     },
   };
 </script>

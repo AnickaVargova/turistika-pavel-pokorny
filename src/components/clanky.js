@@ -4098,7 +4098,7 @@ export default {
       id: 106,
       kategorie: "smircikrize",
       oblast: "  Na sever ",
-      jmeno: "   Bukovice 3   ",
+      jmeno: "Bukovice 3",
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Bukovice  ",
@@ -4607,7 +4607,7 @@ export default {
     {
       id: 115,
       datum: " listopad 1994  ",
-      pridano: " 01/01/2021 ",
+      pridano: "01/01/2021",
       kategorie: "vypraveni",
       podkategorie: 1,
       nazev: " Vyprávění o Lišce Bystroušce  ",

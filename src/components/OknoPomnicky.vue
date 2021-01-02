@@ -396,5 +396,9 @@
     .jednaFotka {
       height: 100px;
     }
+
+    .ramecek {
+      max-width: unset;
+    }
   }
 </style>
