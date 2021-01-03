@@ -22,6 +22,23 @@
           </div>
         </div>
       </router-link>
+       <router-link
+        v-else-if="stranka === 'cesty'"
+        v-bind:to="`/cesty/${clanek.podkategorie}/${clanek.id}`"
+      >
+        <div class="clanek">
+          <h2>{{ clanek.nazev }}</h2>
+          <h3>{{ clanek.datum }}</h3>
+          <div class="clanekFoto">
+            <img
+              v-bind:src="
+                require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
+              "
+              v-bind:alt="clanek.jmeno"
+            />
+          </div>
+        </div>
+      </router-link>
       <router-link
         v-else-if="stranka === 'novepridane'"
         v-bind:to="`/novepridane/${clanek.podkategorie}/${clanek.id}`"
@@ -52,6 +69,7 @@
       };
     },
     created() {
+      
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>

@@ -403,6 +403,12 @@
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.kategorie === "vypraveni"
         );
+       } else if (this.$route.name === "Cesty") {
+        this.clankyPodKategorie = this.clanky.filter(
+          (clanek) => clanek.kategorie === "cesty"
+          
+        );
+       
       } else {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>

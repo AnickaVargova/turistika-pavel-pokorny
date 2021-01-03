@@ -4712,7 +4712,7 @@ export default {
       ],
       dodatekNadpis: "  ",
       dodatekText: "  ",
-      fotkaUvod: {fotka:"myslivna.jpg"},
+      fotkaUvod: { fotka: "myslivna.jpg" },
       galerie: [
         {
           fotka: "koblizna.jpg",
@@ -4754,12 +4754,51 @@ export default {
           fotka: "janackovodivadlo.jpg",
           popisek: " Janáčkovo divadlo v Brně. ",
         },
-        
+
         {
           fotka: "hrobjanacka.jpg",
           popisek: " Hrob Leoše Janáčka na Ústředním hřbitově. ",
         },
       ],
     },
+    // {
+    //   id:  1000,
+    //   datum: 'leden 2001',
+    //   pridano: '01/01/2021',
+    //   kategorie: 'cesty',
+    //   podkategorie: 1,
+    //   nazev: 'Název',
+    //   fotkaUvod: {fotka:'hrobheinricha.jpg'},
+
+    //   text: [
+    //   {
+    //   textOdstavce: ' "Drva hlaďunký, bílunký a takovcí kruci lonti mně je u nosa seberou...". Touto přímou řečí revírníka Bartoše uvozuje Rudolf Těsnohlídek svůj román Liška Bystrouška. Jeho zvířecí hrdinka má několik duchovních otců, kteří jí pomohli na svět. Malíř, spisovatel, hudební skladatel. Také krajiny, které obývala, byly tři a dosti od sebe vzdálené.',
+    //   },
+    //   {foto: 'hrobjanacka.jpg',
+    //   popisek: 'Hrob Janáčka'},
+    //   {foto: 'janacek.jpg',
+    //   popisek: 'Hrob Janáčka'},
+    //   {
+    //   textOdstavce: ' "Drva hlaďunký, bílunký a takovcí kruci lonti mně je u nosa seberou...". Touto přímou řečí revírníka Bartoše uvozuje Rudolf Těsnohlídek svůj román Liška Bystrouška. Jeho zvířecí hrdinka má několik duchovních otců, kteří jí pomohli na svět. Malíř, spisovatel, hudební skladatel. Také krajiny, které obývala, byly tři a dosti od sebe vzdálené.',
+    //   },
+    // {
+    // textOdstavce: '    ',
+    // },
+    // {
+    // textOdstavce: '    ',
+    // },
+
+    // {foto: '   ',
+    // popisek: '   '},
+    // {foto: '   ',
+    // popisek: '   '},
+    // {foto: '   ',
+    // popisek: '   '},
+    // {foto: '   ',
+    // popisek: '   '},
+
+    // ],
+
+    //   }
   ],
 };

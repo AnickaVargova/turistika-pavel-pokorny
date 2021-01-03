@@ -37,7 +37,7 @@
           class="odstavec"
         >
           <router-link
-            v-if="odstavec.foto"
+            v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
             v-bind:to="
               `/fotodetail/${detailClanku.podkategorie}/${odstavec.foto.trim()}`
             "
@@ -60,9 +60,26 @@
           <p v-if="odstavec.vnitrniOdkazy">
             <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
           </p>
-          <p v-html="odstavec.textOdstavce" v-else>
+          <p
+            v-html="odstavec.textOdstavce"
+            v-else-if="!odstavec.vnitrniOdkazy && odstavec.textOdstavce"
+          >
             {{ odstavec.textOdstavce }}
           </p>
+          <figure
+            v-bind:style='{textAlign:"center"}'
+            v-else-if="
+              odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy
+            "
+          >
+            <img
+              v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
+              v-bind:alt="detailClanku.nazev"
+              v-bind:style="{maxHeight: '60vh'}"
+              class="fotoCesty"
+            />
+              <figcaption>{{ odstavec.popisek }}</figcaption>
+          </figure>
         </div>
         <h3 v-if="detailClanku.dodatekNadpis">
           {{ detailClanku.dodatekNadpis }}
@@ -84,7 +101,7 @@
         </p>
       </div>
 
-      <div id="galerieClanek" v-if='detailClanku.spodniGalerie'>
+      <div id="galerieClanek" v-if="detailClanku.spodniGalerie">
         <div
           class="obrazek"
           v-for="(obrazek, index) in detailClanku.spodniGalerie"
@@ -121,7 +138,6 @@
         rok: undefined,
         detailClanku: undefined,
         stranka: undefined,
-        
       };
     },
 
@@ -135,7 +151,6 @@
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
-          
         }
       }
     },
@@ -210,12 +225,12 @@
     }
 
     #tlacitkoNahoruDetail {
-      top:60px;
-      width:60px !important;
+      top: 60px;
+      width: 60px !important;
     }
 
     #tlacitkoDomuDetail {
-      width:60px !important;
+      width: 60px !important;
     }
   }
 
@@ -253,8 +268,8 @@
     }
 
     #zpetNaClanky {
-      width:unset;
-      min-width:110px !important;
+      width: unset;
+      min-width: 110px !important;
     }
   }
 
@@ -314,8 +329,8 @@
   }
 
   .obrazek figure {
-   height: 200px;
-   width: min-content;
+    height: 200px;
+    width: min-content;
     object-fit: cover;
     margin-left: 0;
     margin-bottom: 60px;
@@ -332,6 +347,10 @@
     border: 2px solid black;
   }
 
+.fotoCesty:hover {
+    border: 2px solid grey !important;
+  }
+
   #galerieClanek {
     grid-column: 1 / span3;
     display: flex;
@@ -343,11 +362,13 @@
     #galerieClanek {
       flex-direction: column;
       flex-wrap: nowrap;
-      
     }
     #obrazek {
       flex-basis: unset;
-      
+    }
+
+    .fotoCesty {
+      width: 100% !important;
     }
   }
 </style>

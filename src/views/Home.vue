@@ -54,7 +54,7 @@
         >Smírčí kříže ({{ pocetKrizu }})</router-link
       >
 
-      <router-link to="/cesty/1">Cesty ({{ pocetCest }})</router-link>
+      <router-link to="/cesty">Cesty ({{ pocetCest }})</router-link>
 
       <router-link to="/vypraveni"
         >Vyprávění ({{ pocetVypraveni }})</router-link
@@ -132,6 +132,7 @@
       },
     },
     created() {
+      
       for (let j = 0; j < clanky.data.length; j++) {
         if (clanky.data[j].kategorie === "pomnicky") {
           this.pocetPomnicku++;
