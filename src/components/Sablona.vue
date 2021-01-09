@@ -41,15 +41,24 @@
           innerParams.stranka === 'novepridane',
       }"
     >
-      <p
+      <!-- <Klikaci v-if="innerParams.vnitrniOdkazy"/> -->
+      <div
         v-for="(odstavec, index) in innerParams.uvodniText"
         v-bind:key="index"
-        v-html="odstavec"
       >
-        {{ odstavec }}
-      </p>
-    </div>
+        <p v-if="odstavec.vnitrniOdkazy">
+          <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
+        </p>
 
+        <p
+          v-html="odstavec.textOdstavce"
+          v-else-if="!odstavec.vnitrniOdkazy && odstavec.textOdstavce"
+        >
+          {{ odstavec.textOdstavce }}
+        </p>
+      </div>
+    </div>
+    <!-- <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" /> : -->
     <router-link to="/" id="tlacitkoDomu" class="pomnicekKategorie">
       Úvodní strana
     </router-link>
@@ -193,8 +202,6 @@
           v-bind:clanky="clankyPodKategorie"
           v-on:kliknuti="vyfiltrujPomnicek"
         />
-
-        
       </div>
     </div>
   </div>
@@ -205,12 +212,14 @@
   import OknoPomnicky from "./../components/OknoPomnicky.vue";
   import OknoClanky from "./../components/OknoClanky.vue";
   import AbecedniSeznam from "./../components/AbecedniSeznam.vue";
+  import Klikaci from "./../components/Klikaci.vue";
   export default {
     props: ["params", "paramsKrize"],
     components: {
       OknoPomnicky: OknoPomnicky,
       OknoClanky: OknoClanky,
       AbecedniSeznam: AbecedniSeznam,
+      Klikaci: Klikaci,
     },
 
     data() {
@@ -261,13 +270,9 @@
           this.clankyPodKategorie.sort(
             (a, b) => Number(b.datum.slice(-4)) - Number(a.datum.slice(-4))
           );
-        } 
-        else if (this.$route.name === "NovePridane") {
-          this.clankyPodKategorie.sort(
-            (a,b)=>b.id-a.id
-          )
-        }
-        else {
+        } else if (this.$route.name === "NovePridane") {
+          this.clankyPodKategorie.sort((a, b) => b.id - a.id);
+        } else {
           for (let clanek of this.clankyPodKategorie) {
             if (!clanek.jmeno) {
               clanek.jmeno = clanek.nazev;
@@ -348,18 +353,16 @@
 
         //tady zacinaji nove pridane
       } else if (this.$route.name === "NovePridane") {
-       
         //vyfiltruji se clanky podle data
-              
+
         let clanky14dni = this.clanky.filter((clanek) =>
           this.filterRecent(clanek)
         );
 
-     
         //zjisti se, ktere clanky z clanku podle data nejsou v poslednich 10 clancich podle id a tyto clanky se do 10 clanku podle id pridaji
 
         let poslednich10 = this.clanky.slice(-10);
-                
+
         let vysledneNove = [];
 
         for (let clanek14 of clanky14dni) {
@@ -376,14 +379,12 @@
         }
 
         vysledneNove = vysledneNove.concat(poslednich10);
-     
-      
-        
+
         //vyhodi se duplikovane clanky (ruzne id,stejny nazev)
         let novaKategorie = [];
 
         for (let i = 0; i < vysledneNove.length; i++) {
-          if(!vysledneNove[i].nazev){
+          if (!vysledneNove[i].nazev) {
             vysledneNove[i].nazev = vysledneNove[i].jmeno;
           }
           novaKategorie.push(vysledneNove[i]);
@@ -395,7 +396,7 @@
           }
         }
         novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
-       
+
         this.clankyPodKategorie = novaKategorie;
 
         //tady konci novePridane
@@ -403,12 +404,10 @@
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.kategorie === "vypraveni"
         );
-       } else if (this.$route.name === "Cesty") {
+      } else if (this.$route.name === "Cesty") {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.kategorie === "cesty"
-          
         );
-       
       } else {
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) =>

@@ -16,7 +16,10 @@
         params: {
           nadpis: "Pomníčky",
           uvodniText: [
-            "Rozdělení pomníků do skupin je jen orientační, některé památky by mohly patřit do více oddílů. Hranice, co je a co už není pomníček, je tenká. Rozhoduje hlavně, zda má jméno nebo alespoň datum, historie, podoba. Některé skupiny pomníků (letecké tragédie, napoleonské, lichtenštejnské) jsou na jiných webových stránkách zpracovány důkladněji, než tady. Uvádím je v\xa0odkazech. Vysvětlení zkratek:  S J V Z  = světové strany,  VSV = východoseverovýchod.",
+            {
+              textOdstavce:
+                "Rozdělení pomníků do skupin je jen orientační, některé památky by mohly patřit do více oddílů. Hranice, co je a co už není pomníček, je tenká. Rozhoduje hlavně, zda má jméno nebo alespoň datum, historie, podoba. Některé skupiny pomníků (letecké tragédie, napoleonské, lichtenštejnské) jsou na jiných webových stránkách zpracovány důkladněji, než tady. Uvádím je v\xa0odkazech. Vysvětlení zkratek:  S J V Z  = světové strany,  VSV = východoseverovýchod.",
+            },
           ],
 
           kategoriePomnicky: [

@@ -14,7 +14,10 @@
         params: {
           nadpis: "Cesty",
           uvodniText: [
-            "Tady zatím nic není, cesty postupně doplníme."],
+            {
+              textOdstavce: "Tady zatím nic není, cesty postupně doplníme.",
+            },
+          ],
 
           kategoriePomnicky: [
             { id: 1, nazev: 2020 },

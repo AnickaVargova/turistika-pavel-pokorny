@@ -4,9 +4,18 @@
       <span>{{ odkaz.predOdkazem }}</span>
       <span>
         <router-link
+         v-if="odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz" 
           class="vnitrniOdkaz"
           v-bind:to="
             `/${odkaz.odkazKategorie}/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`
+          "
+          >{{ odkaz.textOdkazu }}</router-link
+        >
+        <router-link
+          v-else-if="odkaz.odkazKategorie"
+          class="vnitrniOdkaz"
+          v-bind:to="
+            `/${odkaz.odkazKategorie}`
           "
           >{{ odkaz.textOdkazu }}</router-link
         >
@@ -25,6 +34,7 @@
       };
     },
     created() {
+      
       this.odkazy = this.clanek.vnitrniOdkazy.filter(
         (odkaz) => odkaz.odkazKde === this.kdeJsem
       );

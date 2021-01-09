@@ -67,7 +67,7 @@
             {{ odstavec.textOdstavce }}
           </p>
           <figure
-            v-bind:style='{textAlign:"center"}'
+            v-bind:style="{ textAlign: 'center' }"
             v-else-if="
               odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy
             "
@@ -75,10 +75,10 @@
             <img
               v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
               v-bind:alt="detailClanku.nazev"
-              v-bind:style="{maxHeight: '60vh'}"
+              v-bind:style="{ maxHeight: '60vh' }"
               class="fotoCesty"
             />
-              <figcaption>{{ odstavec.popisek }}</figcaption>
+            <figcaption>{{ odstavec.popisek }}</figcaption>
           </figure>
         </div>
         <h3 v-if="detailClanku.dodatekNadpis">
@@ -347,7 +347,7 @@
     border: 2px solid black;
   }
 
-.fotoCesty:hover {
+  .fotoCesty:hover {
     border: 2px solid grey !important;
   }
 

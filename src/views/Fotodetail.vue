@@ -73,8 +73,9 @@
             
               for (let odstavec of clanek.text) {
                 if (odstavec.foto) {
+                  
                   clanek.galerie.push({
-                    fotka: odstavec.foto,
+                    fotka: odstavec.foto.trim(),
                     popisek: odstavec.popisek,
                   });
                 }

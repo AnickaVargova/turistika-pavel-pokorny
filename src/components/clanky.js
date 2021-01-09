@@ -4761,6 +4761,208 @@ export default {
         },
       ],
     },
+    {
+      id: 116,
+      datum: "prosinec 2020",
+      pridano: " 05/01/2021  ",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: " Vyprávění o smírčích křížích na Brněnsku. Východ a jih.  ",
+      text: [
+        {
+          textOdstavce:
+            "<p> Přátelé,</p><p>léta jsem se chystal toto téma písemně pojednat a stejně dlouho jsem to odkládal. Důvod byl prostý, nenašel jsem všechny kříže, vždy jich zbývalo najít a nafotit 40...30...20… . Těžko psát o něčem, kde máte mezery. Letos jsem usoudil, že všechny kříže nenajdu  n i k d y  a tedy budu psát jen o těch které jsem doposud našel.</p>",
+          foto: "nikolciceV2.jpg ",
+          umisteniFoto: "vlevo",
+          popisek: " 1751 Nikolčice   ( březen 2013) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Bylo by na místě definovat, co jsou a nejsou smírčí kříže. Jsou to kamenné historické památky, stavěné ve středověku a začátkem novověku na místech, kde byla prolita krev, později i jako připomínka nešťastné události. Musí mít na sobě znamení kříže. V Čechách se objevují hrubě tesané kříže, na Moravě jsou častější kamenné desky, na kterých je kříž zpodoben. Třetí typ, kruhová stéla s křížem, nebyl u Brna nalezen ani jeden.</p>  ",
+          foto: " lisen1V.jpg   ",
+          umisteniFoto: " vpravo   ",
+          popisek: " 1286 Líšeň 1 (únor 2020)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>  U nás se kříže vyskytují hlavně v západních Čechách, v Krušných horách, na Náchodsku. Na Moravě je jich nejvíce na Jihlavsku, Žďársku, Třebíčsku a Olomoucku. Ani kolem Brna jich není málo, do vzdálenosti 30 km od města jich je nalezeno asi devadesát. Lze vysledovat, že se vyskytují častěji v krajinách, kde mělo v minulosti převahu německé obyvatelstvo.</p>",
+          foto: "  biskoupkyV.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 1658 Biskoupky  (duben 2018)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> O tom, proč kříže vznikaly, jsou různé teorie. Častým důvodem býval důkaz smíření, dnešními slovy šlo o mimosoudní vyrovnání. Někdy, dost vzácně, se podařilo v archívech najít ke konkrétnímu kamenu i smírčí smlouvu z 15. nebo 16. století. Na málokterém kamenu je letopočet – datum tragédie. Tam, kde je, spadá jeho vznik mezi 16. - 18. století.</p>  ",
+          foto: " kninickyV.jpg   ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1285 Kníničky (září 2008)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Hledání smírčích křížů prodělalo v minulých 40 letech zajímavý vývoj. V 70. letech 20. století byly tyto památky hluboce zapomenuty. V 80. letech je začali jednotlivci, zvláště v západních Čechách, vyhledávat a evidovat. Posléze se sdružili a v roce 1984 založili Společnost pro výzkum kamenných křížů při Muzeu v Aši. V devadesátých letech sochař Vladimír Preclík, propadlý hledání křížů, vydal k tomuto tématu dvě výborné knížky: Smírčí kameny (1990) a Kameny pokání (1992). O kameny se začaly zajímat noviny, televize a populární časopisy. Nastala zlatá éra hledání a objevování. I já jsem této módní vlně podlehl a našel pár desítek kamenů. Tehdy vyrážely o víkendech do přírody stovky hledačů a bylo možné se v okolí kamenů potkat se spřízněnou duší. Teď už se to nestává. Boom ještě urychlilo vydání katalogu smírčích křížů. (Kolektiv: Kamenné kříže Čech a Moravy, 1. vydání 1997, 2. doplněné vydání 2001.) Křížů si začaly všímat i místní úřady, zjistily, že ve většině obcí to jsou nejstarší památky. A tak byly zapomenuté kříže vytahovány z křovin a kopřiv na důstojnější místa. Bohužel to s sebou neslo i negativní stránky. Našli se nenechavci, kteří kříže kradli, když zjistili, že mají hodnotu. Jen o málo lepší bylo konání úřadů, které v dobré víře kameny ochránit, je přemísťovaly. Buď na náměstí, nebo ke kostelům, v horších případech do muzeí a depozitářů. Zapomínaly na to, že kámen jen označuje místo neštěstí. Místo je důležité a to přenést nelze. Jistým kompromisem je umístit na původní místo repliku a povětrností zničený kříž deponovat pod střechou (Černčín). Naštěstí módní vlna odezněla a hledačů křížů silně ubylo. Dá se říci, že jejím závěrem – završením bylo vydání reprezentační knihy René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska, 2013. Publikace s mnoha krásnými fotkami křížů na křídovém papíru je ozdobou každé knihovny.</p>  ",
+          foto: " vysleknihyV.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Knihy s tematikou smírčích křížů  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Nedá se ani přibližně říci, kolik vlastně křížů u nás je, protože na jedné straně se staré kříže stále nalézají, vykopávají, na druhé straně se ztrácejí, kradou. Zmíněná Společnost při muzeu v Aši evidovala v roce 2019 u nás 2500 křížů a dalších 5000 kamenných drobných historických památek. Společnost nejen vede registr křížů, ale aktivně pracuje na jejich objevování, záchraně, obnově, pořádá exkurse a výstavy.</p>  ",
+          foto: " malalhotaV.jpg   ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1725 Malá Lhota  (září 2019)  ",
+        },
+        {
+          textOdstavce:
+            "<p> Ke křížům dnes existuje dost obsáhlá literatura, také na internetu poletuje spousta odkazů. Pro nás v Brně má kromě výše uvedených knih ještě význam důkladně psaná brožura Evy Nečasové: Křížové kameny a kamenné kříže okresu Blansko, 2. vyd. 2001, a beletrističtěji pojatá knížečka Hynka Jurmana: Smírčí kameny na Vysočině. Naposled 4. vyd. 2010. Novějšího nevyšlo nic. Brněnsko soubornou publikaci o smírčích křížích postrádá, malou náhradou budiž tento text.</p>  ",
+          foto: "  oslavany1V.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 1661 Oslavany 1  (duben 2015)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> V minulých vyprávěních jsem se často zabýval jen objekty, které se daly hledat v přírodě, mimo sídla lidí. To u křížů není možné, většina z nich opustila původní místa a byla přestěhována na náměstí nebo náves. Nebo se obec rozšířila a pohltila dříve opuštěná místa (Žabovřesky). Budu popisovat jen kříže veřejně přístupné. Ty, které skončily v muzejních depozitářích nebo na soukromých pozemcích a nejsou vidět, článek pomíjí. Zato se zabývá i kříži nehistorickými, vzniklými v době nedávné, pokud se smírčím křížům podobají. Také popisy míst, kde se kříže nalézají, jsou stručné. Důležitá zpráva ale je, že kříž existuje. Jeho nalezení je otázkou času, intuice a náhody.</p>  ",
+          foto: " archlebovV.jpg   ",
+          umisteniFoto: "  vpravo     ",
+          popisek: " 2523 Archlebov (říjen 2015)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Každý kříž má jméno, většinou je to jméno obce, na jejímž území se nachází. Je-li jich více než jeden, pak i pořadové číslo. Před jménem obce je evidenční číslo kříže, které mu přidělila Společnost v Aši. Písmeno R znamená, že se jedná o kopii, repliku. Detailnější informace k jednotlivým křížům lze nalézt jinde. </p>  ",
+          foto: "lisen2V.jpg",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 1982 Líšeň 2 (únor 2020)  ",
+          vnitrniOdkazy: [
+            {
+              odkazKategorie: "smircikrize",
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Každý kříž má jméno, většinou je to jméno obce, na jejímž území se nachází. Je-li jich více než jeden, pak i pořadové číslo. Před jménem obce je evidenční číslo kříže, které mu přidělila Společnost v Aši. Písmeno R znamená, že se jedná o kopii, repliku. Detailnější informace k jednotlivým křížům lze nalézt ",
+              textOdkazu: "jinde",
+              zaOdkazem: ". ",
+            },
+          ],
+        },
+        {
+          textOdstavce:
+            "   <p> Za nejbližšími kříži v Brně není třeba cestovat daleko, stačí na to šalina. Trojka vás zaveze na ulici Minskou, kde u zastávky tramvaje trůní omšelý smírčí kámen <strong>0774 Žabovřesky</strong>. Je velmi starý, odborníci odhadují, že pochází ze 14. - 15. století. Proti zničení ho ochraňuje pět kroucených železných tyčí. Je div, že vydržel na původním místě, stál u polní cesty od brněnských hradeb k hradu Veveří, možná určoval hranici města. </p>  ",
+          foto: " zabovreskyV.jpg   ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " ˇ0774 Žabovřesky  (listopad 2020)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> K dalším kamenům nás sveze tramvaj osmička, na jednu stranu do Líšně, na druhou do Bohunic. V Líšni u kostela jsou dva kameny. <strong>1286 Líšeň 1</strong> je zaoblená deska, kde kromě latinského kříže je vyryt i lovecký tesák. Kámen <strong>1982 Líšeň 2</strong> na východní straně kostela není smírčí, ale náhrobní. Barokní náhrobník v podobě jetelového kříže s dnes nečitelným nápisem je z roku 1726, patřil Janu Nevoralíkovi a pochází z doby, kdy kolem kostela byl hřbitov. V Bohunicích v areálu Fakultní nemocnice před pavilonem H jsou dva kameny. Nižší <strong>1280 Bohunice 1</strong> má na sobě tlapatý kříž, na vyšším <strong>1281 Bohunice 2</strong> je vyryt latinský kříž a pod rameny má oštěp, dýku a rýč. Několik křížů stálo kolem formanské cesty z Brna na Jihlavu, tedy dnešní ulice Vinohrady. Pamatuji jako kluk, že tři kříže stály na rozcestí polních cest za starou nemocnicí. Říkalo se o nich, že až se propadnou do země, nastane konec světa. Když se stavěla silnice v ulici Kamenice, byly kameny stěhovány do areálu nově vznikající nemocnice v kampusu. Tam je přemístili už třikrát. Menší kámen se rozpadl vedví. A další, ten nejmenší, se ztratil úplně. </p>  ",
+          foto: " bohuniceV.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek:
+            " 1280 Bohunice 1  a  1281 Bohunice 2 vpravo (květen 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Za dalším brněnským křížem musíme k přehradě. Kámen <strong>1285 Kníničky</strong> najdeme v  tarasu pomníku u Lva u stejnojmenné restaurace. Má uražený roh a kromě latinského kříže je na něm sekyra. Původně stál u obce na místě, které je dnes pod vodou. Sem ho přemístili v roce 1923, když se budoval pomník padlým z první světové války, dlouho před stěhováním Kníniček. Na Slovanském náměstí objevili nadšení hledači křížů před třiceti lety zašlý kámen<strong> 1757 Královo Pole</strong> a zahrnuli ho do evidence, i když obrazec na kamenu se podobal spíše poháru, než tlapatému kříži. Když se při rekonstrukci parku roku 2006 kámen ztratil, byla vytvořena replika kamene s křížem. To vzbudilo protesty jisté části občanů, protože se ukázalo, že původní kámen byl odhalen v roce 1918 k 500. výročí upálení Jana Husa a k němu zasazena lípa – ta tam stále roste. Kámen s křížem byl odstraněn a nahrazen pamětním kamenem s kalichem, tedy to není křížový kámen.</p>  ",
+          foto: " kralovopoleV.jpg   ",
+          umisteniFoto: "  vpravo     ",
+          popisek: " 1757 Královo Pole  (listopad 2020)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Brněnské hřbitovy jsou plné kamenných křížů. Charakter smírčího kříže má ale asi jen jediný. Najdete ho na Ústředním hřbitově, na kraji skupiny 30A. Mohutný kříž <strong>---- Brno centrum</strong> připomíná vzlétajícího anděla nebo ducha a pochází z tohoto století. Na centrálce se objevil kolem roku 2010. Kámen <strong>1771 Dolní Heršpice</strong> ležel dlouho zapomenut na cestě z Komárova do Modřic, tam, kde dnešní silnice kříží dálnici. Před několika lety ho přestěhovali na Jižní náměstí. Na kamenu je latinský kříž s rozšířenou patou. Světlá část dole ukazuje, kam až byla deska zahrnuta hlínou na původním stanovišti. </p>  ",
+          foto: "  dolniherspiceV.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 1771 Dolní Heršpice  (listopad 2020)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Na východ od Brna je nejblíže do Podolí a do Šlapanic. Kamenná deska <strong>1295 Podolí 1</strong> se nachází na jižním svahu kóty Vinohrady, vetknutá do meze na rozhraní polí a sadů. Shora půlkulatá deska s orámovaným latinským křížem má pod ramenem kříže vyryté loukoťové kolo – symbol, který má cosi napovědět. Pro mě to byl první kámen, který jsem v dospělém věku našel. V časném jaru roku 1990 jsem tu hledal pomník a byl jsem překvapen, když se objevil takový krasavec. O křížích jsem tehdy nevěděl nic. Druhý kříž leží ve východní části vsi, 100 metrů od obecního úřadu a jmenuje se <strong>1579 Podolí 2</strong>. Metrová kamenná deska leží opřená o zídku plotu a latinský kříž vznikl zvláštním způsobem, odebráním materiálu z prázdných polí v ploše desky. Pověst praví, že ležel na hromadném hrobě vojáků bitvy u Slavkova, a když byl přestěhován ke studni, ozýval se z ní nářek a pláč. Musel být odstěhován jinam. </p>  ",
+          foto: " podoli1V.jpg   ",
+          umisteniFoto: "  vpravo     ",
+          popisek: " 1295 Podolí 1  (únor 2020)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Ve Šlapanicích mají dva smírčí kameny. Jeden, <strong>1297 Šlapanice 1</strong>, stojí v parčíku na ulici Brněnská. Dříve tu bylo významné rozcestí cest na Tuřany a Slatinu a na kopečku bylo popraviště. Kámen se zanořeným latinským křížem ho má připomínat. Druhý kámen, <strong>1756 Šlapanice 2</strong>, přemístili na náměstí k muzeu, když se rozšiřovala silnice. Na olámané desce je vyryt zepředu latinský kříž s neumělým tělem Krista, zezadu je náznak nože nebo loveckého tesáku. </p>  ",
+          foto: " slapanice1V.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " 1297 Šlapanice 1 (duben 2015)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p><p> I kámen <strong>1300 Tvarožná</strong> má něco společného s bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s barokním křížem stojí v zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z Brna na Olomouc. </p>  ",
+          foto: " cerncin1.jpg   ",
+          umisteniFoto: "  vpravo     ",
+          popisek: " 0648 Černčín 1  (květen 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Více na východ, až u Bučovic, stojí smírčí kámen <strong>0648 Černčín 1</strong>. Najdeme ho na návsi u bývalé školy. Moudří v této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky <strong>---- Černčín 2</strong> s doslovným textem ve staré češtině. Lze se tu dočíst, že v říjnu 1606 tu byl zabit Pavel Vašina, soused z Vícemilic.</p><p> Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen <strong>2523 Archlebov</strong>. Dá se najít severně od obce u kapličky, první zpráva o něm je z roku 1930, do nízkého kamene je vyryt klínový kříž. </p>  ",
+          foto: "  cerncin2.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek: "  ----Černčín 2 (květen 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí <strong>1292 Moravany 1</strong>, plochá čtvercová deska s řeckým křížem. Na návsi lze najít kopii kamene <strong>1867R Moravany 2</strong>. Originál kamene stál kdesi v polích k Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v 15. století. Před několika lety byl osekaný originál nahrazen replikou. </p>  ",
+          foto: " moravany2V.jpg   ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1867R Moravany 2 (leden 2021)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Další památka je v Bratčicích. Kamenná deska <strong>1985 Bratčice</strong> je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.</p>  ",
+          foto: " opatovice1V.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " 1788 Opatovice 1 (leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny <strong>1788 Opatovice 1</strong> a <strong>1789 Opatovice 2</strong> spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.</p>  ",
+          foto: " opatovice2V.jpg   ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1789 Opatovice 2 (leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Majestátní kříž mají v Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž <strong>0775 Sokolnice</strong> je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v západních Čechách. V obrozeneckých dobách kladli jeho vznik do souvislosti s cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.</p>  ",
+          foto: " sokolniceV.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 0775 Sokolnice  (listopad 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> V Těšanech na návsi u kovárny se objevil kámen <strong>2025 Těšany</strong>. Krásná kamenná deska vysoká 0,7 metru je zabetonovaná v zemi. Z obou stran kamene vystupuje výrazný reliéf latinského kříže. Před sto lety stával u silnice do Borkovan.</p>  ",
+          foto: "  nikolciceV.jpg  ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1751 Nikolčice  ( březen 2013) ",
+        },
+        {
+          textOdstavce:
+            "   <p>K nejzajímavějším křížům Jižní Moravy patří zejména další dva, tvarem i důvodem vzniku se podobající. Oba mají ulomená horní břevna, oba jsou spojeny s tatarským vpádem. Kříž <strong>1856 Přísnotice</strong> se nalézá jihozápadně od vsi na poli rovném jako stůl. Nejlépe se k němu jde ze silnice do Vranovic, ale i odtud je to 300 metrů po poli. Kříž byl původně dvouramenný, asi metr vysoký, ale už dávno o horní břevna přišel. Spodní břevno je popsáno textem o zabití Kryštofa Krause z Grotky roku 1663 při pícování Tatarů.</p><p> V Nikolčicích vede ke kříži odbočka červené značky. <strong>1751 Nikolčice</strong> leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z jedné strany německy, z druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v Blansku a badatelka přes kříže, v rámci své diplomové práce. Píše se v něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v Brně.  </p>  ",
+          foto: " alexoviceV.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 1754 Alexovice   (červenec 2013)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Několik křížů je i na Krumlovsku. V Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska <strong>1754 Alexovice</strong>. Do desky je vyryt latinský kříž s rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s koňmi a vozka zahynul. V Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.<br> <strong>1664 Moravský Krumlov</strong> je deska s vystupujícím jetelovým křížem a v orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl. </p>  ",
+          foto: "  morkrumlovV.jpg  ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1664 Moravský Krumlov  ( květen 2020) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Blízko Loděnice na silnici z Pravlova do Miroslavi se v mezi u silnice vyskytuje kamenná deska <strong>1935 Loděnice</strong> rozměrů 0,9 x 0,7 metru. Z desky vystupuje latinský kříž na podstavci.</p><p> Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž <strong>2164 Petrovice</strong> se zajímavou historií. Stával kdysi dávno u staré cesty z Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v 18. století. V 50. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s letopočtem je přidělána dodatečně.</p>  ",
+          foto: " petroviceV.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " 2164 Petrovice. detail. (květen 2020)  ",
+        },
+        {
+          textOdstavce:
+            '   <p> A to byl poslední kříž, o kterém v tomto vyprávění píši, probral jsem jich 32 a to nejsem ani v polovičce. Na západ a sever je od Brna více smírčích křížů, než na jih a východ. Nezbývá než dokončení vyprávění odložit na příště. Pokud vás napadne nějaké kříže sami vyhledat, je na místě upozornění: <strong>Pozor, hledání je droga</strong>, které se snadno propadne.</p><p> Pokud chcete vidět více barevných obrázků.najdete je <a href="https://turistapavel.rajce.idnes.cz/202012_Smirci_krize_na_Brnensku_vychod_a_jih/" target="_blank" class="vnitrniOdkaz">tady</a>.</p><p>Psáno v Bohunicích o adventu 2020</p>  ',
+        },
+      ],
+      fotkaUvod: { fotka: "uvodV.jpg" },
+      galerie: [],
+    },
     // {
     //   id:  1000,
     //   datum: 'leden 2001',
