@@ -127,7 +127,7 @@ export default {
       popisCesty:
         "700 metrů JV od kostela ve Tvarožné, na křižovatce hlavní a vedlejší silnice.",
       popis:
-        "Z betonového soklu  s\xa0nápisem ční trojboký betonový sloup do výšky pěti metrů",
+        " Z\xa0betonového soklu  s\xa0nápisem ční trojboký betonový sloup do výšky pěti metrů",
       napis: "BEDŘICH // SOFFER // + 5.9.1928 //",
       odkazy: [
         {
@@ -4363,7 +4363,7 @@ export default {
       popis:
         " 7,3 metru vysoká monumentální stavba. Ze západní strany směrem do údolí je obraz Krista v\xa0nadživotní velikosti s\xa0rozpřaženou náručí. Je vytvořen podle slavné sochy Bertela Thorwaldsena: Žehnající Kristus ve Frue Kirke v\xa0Kodani, kde ji viděl prof. Opletal. Socha na něho hluboce zapůsobila. Z\xa0východní strany na velké bílé tabuli jsou jména padlých, popravených a umučených lesníků v\xa0letech 1939 - 1945.     ",
       napis:
-        " Pomník je pokryt obsáhlými nápisy ze všech stran, detailně je pojednal Truhlář.Z V\xa0strany je jmenovitý seznam 94 obětí s\xa0daty narození i úmrtí. Nad jmény ve vlysu je nápis: Památce  //  příslušníků Vysoké školy zemědělské v\xa0Brně a všech našich lesníků hrdinsky //  padlých nebo krutě popravených a umučených // za války 1939 - 1945.  Ze Z\xa0strany nad obrazem Krista je nápis : Ježíš, ne Caesar, - ne mečem, ale pluhem, // toť smysl našich dějin //  TGM  .  Další verše, citáty, texty lze číst na ostatních plochách.  ",
+        " Pomník je pokryt obsáhlými nápisy ze všech stran, detailně je pojednal Truhlář. Z\xa0V\xa0strany je jmenovitý seznam 94 obětí s\xa0daty narození i úmrtí. Nad jmény ve vlysu je nápis: Památce  //  příslušníků Vysoké školy zemědělské v\xa0Brně a všech našich lesníků hrdinsky //  padlých nebo krutě popravených a umučených // za války 1939 - 1945.  Ze Z\xa0strany nad obrazem Krista je nápis : Ježíš, ne Caesar, - ne mečem, ale pluhem, // toť smysl našich dějin //  TGM  .  Další verše, citáty, texty lze číst na ostatních plochách.  ",
       odkazy: [
         {
           nazev: " Adamov ",
@@ -4591,7 +4591,7 @@ export default {
         },
       ],
       pozn:
-        "Pomník navrhl Ivar Otruba. Různobarevné kamenné desky mají znázornit horizonty půdního profilu. Ani umístění není náhodné. Profesor se důkladně zabýval jeskynními sedimenty v Býčí skále už v roce 1942",
+        "Pomník navrhl Ivar Otruba. Různobarevné kamenné desky mají znázornit horizonty půdního profilu. Ani umístění není náhodné. Profesor se důkladně zabýval jeskynními sedimenty v\xa0Býčí skále už v\xa0roce 1942",
       naposledObnoveno: " 1.1.2021 ",
       souradnice: " 49.3079353N, 16.6921531E ",
       odkazMapa: "https://frame.mapy.cz/s/jejunopane",
@@ -4619,11 +4619,11 @@ export default {
           foto: "bystrouskaMarek.jpg",
           umisteniFoto: " vpravo   ",
           popisek:
-            " Socha Jiřího Marka Liška Bystrouška na Janáčkově náměstí v Brně.  ",
+            " Socha Jiřího Marka Liška Bystrouška na Janáčkově náměstí v\xa0Brně.  ",
         },
         {
           textOdstavce:
-            "   <p>První z nich je severní část Drahanské vrchoviny, kopcovitá hrbatina svažující se do Hornomoravského úvalu nedaleko Litovle, kolem hradu Bouzova a Javoříčských jeskyní. Odtud pocházel Stanislav Lolek, malíř – krajinář a myslivec. Studoval malířství na pražské Akademii a na prázdniny se vracíval domů, do Palonína u Loštic. Tam vyslechl ve společnosti, která se scházela v hospodě U jelena, příběh od pana lesního Kořínka. Byl o vychytralé lišce, o příhodách, které vyváděla revírníkovi, jeho psovi, vnukovi, o karetním spolku tří přátel, lesníka, faráře a učitele. Mladý Lolek podle tohoto vyprávění nakreslil 195 ilustrací, vlastně jako školní úlohu. To se stalo někdy kolem roku 1895, liška byla na světě. Dalších pětadvacet let ležely kresby zapomenuty v Lolkově ateliéru v Praze na Vinohradech. Nalezl je tam až koncem roku 1919 redaktor Lidových novin Bohumil Markalous, známý spíše pod pseudonymem Jaromír John. </p>  ",
+            "   <p>První z\xa0nich je severní část Drahanské vrchoviny, kopcovitá hrbatina svažující se do Hornomoravského úvalu nedaleko Litovle, kolem hradu Bouzova a Javoříčských jeskyní. Odtud pocházel Stanislav Lolek, malíř – krajinář a myslivec. Studoval malířství na pražské Akademii a na prázdniny se vracíval domů, do Palonína u Loštic. Tam vyslechl ve společnosti, která se scházela v\xa0hospodě U jelena, příběh od pana lesního Kořínka. Byl o vychytralé lišce, o příhodách, které vyváděla revírníkovi, jeho psovi, vnukovi, o karetním spolku tří přátel, lesníka, faráře a učitele. Mladý Lolek podle tohoto vyprávění nakreslil 195 ilustrací, vlastně jako školní úlohu. To se stalo někdy kolem roku 1895, liška byla na světě. Dalších pětadvacet let ležely kresby zapomenuty v\xa0Lolkově ateliéru v\xa0Praze na Vinohradech. Nalezl je tam až koncem roku 1919 redaktor Lidových novin Bohumil Markalous, známý spíše pod pseudonymem Jaromír John. </p>  ",
           foto: "lolkovastudanka.jpg",
           umisteniFoto: " vlevo   ",
           popisek: " Lolkova studánka u Bílovic.  ",
@@ -4631,7 +4631,7 @@ export default {
 
         {
           textOdstavce:
-            '  <p>V té době se šéfredaktor brněnských Lidových novin Arnošt Heinrich snažil dát svému listu novou tvář a chtěl, aby denně byla v novinách vtipná kresba. Byl to těžký úkol, protože malíři takto nepracovali, nebyli na to zvyklí. Proto bylo třeba je objíždět, přesvědčovat a vysvětlovat, co se od nich žádá. Nevděčnou prací byl pověřen dr. Markalous, který se znal s pražskými výtvarníky. Jednou dorazil také k Lolkovi. Ten se vymlouval, že je krajinář, že figury nedělá, nanejvýš zvířata. Ale neodbytný návštěvník si všiml, že z hromádky starých zaprášených listů vykukuje čtvrtka s namalovanou holínkou – i tohle vypátrala literární historie. Byl to svazek kreseb o myslivci a lišce. "To jsou jen pitominky z Akademie, nemožné věci", hodnotil kumštýř své začátky.Ale Markalous, pozdější profesor estetiky na univerzitě v Olomouci, stál na svém, že obrázky koupí, což se také stalo prý za 800 korun. </p>   ',
+            '<p>V té době se šéfredaktor brněnských Lidových novin Arnošt Heinrich snažil dát svému listu novou tvář a chtěl, aby denně byla v\xa0novinách vtipná kresba. Byl to těžký úkol, protože malíři takto nepracovali, nebyli na to zvyklí. Proto bylo třeba je objíždět, přesvědčovat a vysvětlovat, co se od nich žádá. Nevděčnou prací byl pověřen dr. Markalous, který se znal s\xa0pražskými výtvarníky. Jednou dorazil také k\xa0Lolkovi. Ten se vymlouval, že je krajinář, že figury nedělá, nanejvýš zvířata. Ale neodbytný návštěvník si všiml, že z\xa0hromádky starých zaprášených listů vykukuje čtvrtka s\xa0namalovanou holínkou – i tohle vypátrala literární historie. Byl to svazek kreseb o myslivci a lišce. "To jsou jen pitominky z\xa0Akademie, nemožné věci", hodnotil kumštýř své začátky.Ale Markalous, pozdější profesor estetiky na univerzitě v\xa0Olomouci, stál na svém, že obrázky koupí, což se také stalo prý za 800 korun. </p>',
           foto: "hrobheinricha.jpg",
           umisteniFoto: "  vpravo  ",
           popisek:
@@ -4640,16 +4640,16 @@ export default {
 
         {
           textOdstavce:
-            "  <p>Ještě pozdě večer v nádražní restauraci si je prohlížel a byl spokojen. Kresby sledovaly jistý děj a byly dobře reprodukovatelné. Do Brna přijel posledním nočním rychlíkem ve čtyři ráno a hned spěchal do redakce na České. Heinrich byl kresbami zklamán, se svazkem ilustrací zacházel poněkud neuctivě, mlátil s ním o stůl a bědoval nad neschopností svých redaktorů, kteří kupují nevhodné věci. </p>   ",
+            "  <p>Ještě pozdě večer v\xa0nádražní restauraci si je prohlížel a byl spokojen. Kresby sledovaly jistý děj a byly dobře reprodukovatelné. Do Brna přijel posledním nočním rychlíkem ve čtyři ráno a hned spěchal do redakce na České. Heinrich byl kresbami zklamán, se svazkem ilustrací zacházel poněkud neuctivě, mlátil s\xa0ním o stůl a bědoval nad neschopností svých redaktorů, kteří kupují nevhodné věci. </p>   ",
           foto: "pametnideska.jpg",
           umisteniFoto: "  vlevo  ",
           popisek:
-            " Pamětní deska na místě domu v Bílovicích, kde žil Těsnohlídek  ",
+            " Pamětní deska na místě domu v\xa0Bílovicích, kde žil Těsnohlídek  ",
         },
 
         {
           textOdstavce:
-            '  <p>Obrázky se pak povalovaly po redakčních stolech a čekalo se na nápad, jak je využít. Nakonec je Heinrich začátkem ledna 1920 dal Těsnohlídkovi se slovy: "Móric, k tomu muší bejt nějaký říkání". Těsnohlídek (Móric byla jeho přezdívka) nebyl tímto úkolem dvakrát nadšen, ale nedalo se nic dělat. V únoru 1920 se do toho dal. První kapitolu zahodil a šel poslouchat, jak mluví dřevaři. Neměl to daleko, bydlel tehdy v Bílovicích a odtud bylo do lesů na všechny strany blízko. Ostatně Těsnohlídek, samotář a citlivý lyrik, měl zdejší krajinu důkladně prochozenou. A pak, v nádherném předjaří, vzniklo půvabné vyprávění. Inspirován probouzející se přírodou, lesy kolem Bílovic a údolími svažujícími se k řece Svitavě, pospojoval textem humorné kresby do jednoduchého příběhu a proložil lyrickými přírodními motivy. Je to rok na myslivně a kolem ní, svět lidí je kriticky nazírán očima zvířat a naopak zvířata se chovají "lidsky", všichni mluví brněnštinou dvacátých let. Knížka je považována za nejlepší Těsnohlídkovo dílo.</p>   ',
+            '  <p>Obrázky se pak povalovaly po redakčních stolech a čekalo se na nápad, jak je využít. Nakonec je Heinrich začátkem ledna 1920 dal Těsnohlídkovi se slovy: "Móric, k\xa0tomu muší bejt nějaký říkání". Těsnohlídek (Móric byla jeho přezdívka) nebyl tímto úkolem dvakrát nadšen, ale nedalo se nic dělat. V\xa0únoru 1920 se do toho dal. První kapitolu zahodil a šel poslouchat, jak mluví dřevaři. Neměl to daleko, bydlel tehdy v\xa0Bílovicích a odtud bylo do lesů na všechny strany blízko. Ostatně Těsnohlídek, samotář a citlivý lyrik, měl zdejší krajinu důkladně prochozenou. A pak, v\xa0nádherném předjaří, vzniklo půvabné vyprávění. Inspirován probouzející se přírodou, lesy kolem Bílovic a údolími svažujícími se k\xa0řece Svitavě, pospojoval textem humorné kresby do jednoduchého příběhu a proložil lyrickými přírodními motivy. Je to rok na myslivně a kolem ní, svět lidí je kriticky nazírán očima zvířat a naopak zvířata se chovají "lidsky", všichni mluví brněnštinou dvacátých let. Knížka je považována za nejlepší Těsnohlídkovo dílo.</p>   ',
           foto: "myslivna.jpg",
           umisteniFoto: "  vpravo  ",
           popisek: " Myslivna Lišky Bystroušky u Bílovic.  ",
@@ -4657,7 +4657,7 @@ export default {
 
         {
           textOdstavce:
-            '  <p>Těsnohlídek podle vlastních slov "škrábal tak divoce, že to v tiskárně nemohli přečísti a hrozili stávkou". Jednu šťastnou chybu udělali sazeči hned v nadpisu. Původní název Bystronožka přečetli jako Bystrouška a už to tak zůstalo. "I v matrikách se stávají chyby a nezbylo, než se podrobit", komentoval to autor ve vzpomínkách. </p>',
+            '  <p>Těsnohlídek podle vlastních slov "škrábal tak divoce, že to v\xa0tiskárně nemohli přečísti a hrozili stávkou". Jednu šťastnou chybu udělali sazeči hned v\xa0nadpisu. Původní název Bystronožka přečetli jako Bystrouška a už to tak zůstalo. "I v\xa0matrikách se stávají chyby a nezbylo, než se podrobit", komentoval to autor ve vzpomínkách. </p>',
           foto: "pamatniktesnohlidka.jpg",
           umisteniFoto: "  vlevo  ",
           popisek: " Památník Rudolfa Těsnohlídka u Bílovic.  ",
@@ -4665,7 +4665,7 @@ export default {
 
         {
           textOdstavce:
-            '  <p>Liška Bystrouška vycházela v Lidových novinách jako román na pokračování na jaře roku 1920. Vzbudila velkou pozornost čtenářstva a byla vydána knižně poprvé v následujícím roce, do dnešních časů vyšla jedenáctkrát, byla přeložena s citem do ruštiny jako "Lisica plutovka" (Liška šibalka) a necitlivě přepracována pro německé čtenáře. O nové ilustrace se u nás pokusil v roce 1972 Jaroslav Duda. Jeho 55 obrázků má spíše podobu karikatury a tak v zatím posledním vydání z roku 1986 se setkáváme znovu s Lolkovými původními ilustracemi. Dlužno říci, že málokterá próza je tak bohatě ilustrována. Třeba zabijačková historka s liškou ve spižírně je vystižena šestadvaceti obrázky. Je neuvěřitelné, že kresby vznikly podstatně dříve než text, tak dobře do děje zapadají. </p>   ',
+            '  <p>Liška Bystrouška vycházela v\xa0Lidových novinách jako román na pokračování na jaře roku 1920. Vzbudila velkou pozornost čtenářstva a byla vydána knižně poprvé v\xa0následujícím roce, do dnešních časů vyšla jedenáctkrát, byla přeložena s\xa0citem do ruštiny jako "Lisica plutovka" (Liška šibalka) a necitlivě přepracována pro německé čtenáře. O nové ilustrace se u nás pokusil v\xa0roce 1972 Jaroslav Duda. Jeho 55 obrázků má spíše podobu karikatury a tak v\xa0zatím posledním vydání z\xa0roku 1986 se setkáváme znovu s\xa0Lolkovými původními ilustracemi. Dlužno říci, že málokterá próza je tak bohatě ilustrována. Třeba zabijačková historka s\xa0liškou ve spižírně je vystižena šestadvaceti obrázky. Je neuvěřitelné, že kresby vznikly podstatně dříve než text, tak dobře do děje zapadají. </p>   ',
           foto: "janackuvdomek.jpg",
           umisteniFoto: "  vpravo  ",
           popisek: " Domek, kde žil Leoš Janáček, dnes  muzeum, Smetanova 14  ",
@@ -4673,7 +4673,7 @@ export default {
 
         {
           textOdstavce:
-            "  <p>Román na pokračování zaujal i Leoše Janáčka, tehdy už známého, šedesátisedmiletého hudebního skladatele. Měl v té době mnoho práce s operou Káťa Kabanová a další námět hledal až v roce 1922. Sjednal si schůzku s Těsnohlídkem, aby ho požádal o libreto k nové opeře, nakonec se domluvili, že Janáček napíše libreto sám. To se od literární předlohy odlišuje v závěru, kde Janáček nechává lišku zastřelit. Bystrouška v opeře sice umírá, ale rod mladých lišek zůstává a koloběh života v přírodě je tak zachován. Opera novým, nezvyklým hudebním způsobem vyjádřila přírodní nálady, zpěv ptáků, řeč zvířat, zvuk hmyzu a je velkolepou oslavou velebné přírody. Příhody lišky Bystroušky měly premiéru v roce 1924 a okamžitě měly úspěch. Proslavily prostý příběh na mnoha světových jevištích, kde se hrají dodnes. </p>   ",
+            "  <p>Román na pokračování zaujal i Leoše Janáčka, tehdy už známého, šedesátisedmiletého hudebního skladatele. Měl v\xa0té době mnoho práce s\xa0operou Káťa Kabanová a další námět hledal až v\xa0roce 1922. Sjednal si schůzku s\xa0Těsnohlídkem, aby ho požádal o libreto k\xa0nové opeře, nakonec se domluvili, že Janáček napíše libreto sám. To se od literární předlohy odlišuje v\xa0závěru, kde Janáček nechává lišku zastřelit. Bystrouška v\xa0opeře sice umírá, ale rod mladých lišek zůstává a koloběh života v\xa0přírodě je tak zachován. Opera novým, nezvyklým hudebním způsobem vyjádřila přírodní nálady, zpěv ptáků, řeč zvířat, zvuk hmyzu a je velkolepou oslavou velebné přírody. Příhody lišky Bystroušky měly premiéru v\xa0roce 1924 a okamžitě měly úspěch. Proslavily prostý příběh na mnoha světových jevištích, kde se hrají dodnes. </p>   ",
           foto: "varhanickaskola.jpg",
           umisteniFoto: " vlevo   ",
           popisek:
@@ -4682,15 +4682,15 @@ export default {
 
         {
           textOdstavce:
-            "  <p>Janáčkova hudba byla ovlivněna krajem, kde se narodil. Na Hukvaldech, kde strávil deset let svého dětství pod oborou zámku, pod Babí hůrou, odkud potůček děťátka přinášel, od malička slýchával šumění starých stromů. To je ta třetí krajina zrodu Bystroušky. Ne náhodou má liška Bystrouška zrovna zde svůj pomníček. Sedí, celá v bronzu, na velkém balvanu v hukvaldské oboře, na památku prvního provedení opery na Hukvaldech. </p>   ",
+            "  <p>Janáčkova hudba byla ovlivněna krajem, kde se narodil. Na Hukvaldech, kde strávil deset let svého dětství pod oborou zámku, pod Babí hůrou, odkud potůček děťátka přinášel, od malička slýchával šumění starých stromů. To je ta třetí krajina zrodu Bystroušky. Ne náhodou má liška Bystrouška zrovna zde svůj pomníček. Sedí, celá v\xa0bronzu, na velkém balvanu v\xa0hukvaldské oboře, na památku prvního provedení opery na Hukvaldech. </p>   ",
           foto: "bustajanacka.jpg",
           umisteniFoto: "  vpravo  ",
-          popisek: " Busta Janáčka na Varhanické škole v prvním patře.  ",
+          popisek: " Busta Janáčka na Varhanické škole v\xa0prvním patře.  ",
         },
 
         {
           textOdstavce:
-            '  <p>Když se vydáme z Bílovic od mostu přes Svitavu k východu po lesní silničce zvané Resslovka, dorazíme brzy k výstavné myslivně. Na její zdi byla odhalena pamětní deska "Myslivna lišky Bystroušky". Spisovatel Jaromír Tomeček je názoru, že se děj mohl odehrávat v hájence U jezírka mezi Soběšicemi a Útěchovem. V románu je totiž myslivna pojmenována Jezerní. V úvahu připadá i Resslova myslivna na překrásném místě pod Zadními Hády. Ale pozorný čtenář odhalí, že ani k jedné z nich se nehodí popisy cest, kterými autor nechává procházet revírníka Bartoše. První je moc blízko Bílovic, skoro ve vsi, druhá moc daleko, u třetí chybí "rozvlněná žitniska". Nezbývá, než se smířit s tím, že umístění románu zůstává plodem autorovy fantazie, na což má umělec samozřejmě právo. Bezesporné je, že se děj odehrává v Bílovicích a okolí. K vykreslení postavy revírníka Bartoše posloužil Těsnohlídkovi jeho tchán Kutil z Bílovic, jméno pak dostal od osvíceného lesníka Bartoše ze soběšické hájenky U dubu. I ostatní postavy měly prý reálné předlohy mezi bílovickými občany.</p>',
+            '  <p>Když se vydáme z\xa0Bílovic od mostu přes Svitavu k\xa0východu po lesní silničce zvané Resslovka, dorazíme brzy k\xa0výstavné myslivně. Na její zdi byla odhalena pamětní deska "Myslivna lišky Bystroušky". Spisovatel Jaromír Tomeček je názoru, že se děj mohl odehrávat v\xa0hájence U jezírka mezi Soběšicemi a Útěchovem. V\xa0románu je totiž myslivna pojmenována Jezerní. V\xa0úvahu připadá i Resslova myslivna na překrásném místě pod Zadními Hády. Ale pozorný čtenář odhalí, že ani k\xa0jedné z\xa0nich se nehodí popisy cest, kterými autor nechává procházet revírníka Bartoše. První je moc blízko Bílovic, skoro ve vsi, druhá moc daleko, u třetí chybí "rozvlněná žitniska". Nezbývá, než se smířit s\xa0tím, že umístění románu zůstává plodem autorovy fantazie, na což má umělec samozřejmě právo. Bezesporné je, že se děj odehrává v\xa0Bílovicích a okolí. K vykreslení postavy revírníka Bartoše posloužil Těsnohlídkovi jeho tchán Kutil z\xa0Bílovic, jméno pak dostal od osvíceného lesníka Bartoše ze soběšické hájenky U dubu. I ostatní postavy měly prý reálné předlohy mezi bílovickými občany.</p>',
           foto: "janacekporici.jpg",
           umisteniFoto: " vlevo   ",
           popisek:
@@ -4699,7 +4699,7 @@ export default {
 
         {
           textOdstavce:
-            "  <p>Na mnoha místech románu padnou místní názvy Babice, Řícmanice, Habrůvka, Nový hrad, Vranov, Jančovská dolina (dnes les Jančovec). Ovšem Černý žleb, kde měla noru početná liščí rodina s malou Bystrouškou, která proplakala celou noc, protože jí lezly zuby podočáky, kde si hrála liščata Černonoska, Oháněček a Peřiderka, ten bychom hledali marně. Ale na tom přece nezáleží. Pokud vyjdete do svahů od Svitavy vzhůru mezi seče a zarůstající stráně, možná jej objevíte sami. Tak jak ho tu nalezl básník a spisovatel Rudolf Těsnohlídek.</p>",
+            "  <p>Na mnoha místech románu padnou místní názvy Babice, Řícmanice, Habrůvka, Nový hrad, Vranov, Jančovská dolina (dnes les Jančovec). Ovšem Černý žleb, kde měla noru početná liščí rodina s\xa0malou Bystrouškou, která proplakala celou noc, protože jí lezly zuby podočáky, kde si hrála liščata Černonoska, Oháněček a Peřiderka, ten bychom hledali marně. Ale na tom přece nezáleží. Pokud vyjdete do svahů od Svitavy vzhůru mezi seče a zarůstající stráně, možná jej objevíte sami. Tak jak ho tu nalezl básník a spisovatel Rudolf Těsnohlídek.</p>",
           foto: "janackovastudanka.jpg",
           umisteniFoto: "  vpravo  ",
           popisek: " Janáčkova studánka u Bílovic.  ",
@@ -4707,7 +4707,7 @@ export default {
 
         {
           textOdstavce:
-            "  <p>Co lze hledat :<br>Myslivna Lišky Bystroušky – pamětní deska.<br>Místo po domě, kde žil Těsnohlídek v Bílovicích v letech 1908-24, na prostranství před obecním úřadem. Zchátralý dům byl stržen na začátku tohoto století.<br>Těsnohlídkův žleb – úzké údolí roztíná plošinu Hádů.<br>Těsnohlídkův pomník z roku 1929 v Těsnohlídkově žlebu.<br>Pamětní deska Těsnohlídkovi na dětském domově Dagmar, z roku 1968. Brno, Zeleného ulice.<br>Poslední Těsnohlídkovo bydliště, kde žil v letech 1924-28, Kobližná 12.<br>Hrob Rudolfa Těsnohlídka (1882 - 1928), Ústřední hřbitov, skupina 32, číslo 90.<br>Redakce prvorepublikových Lidových novin, palác Chlumeckých, Česká 6, 1. patro.<br>Hrob Arnošta Heinricha (1880 - 1933), šéfredaktora a duše Lidových novin v letech 1919-33, Ústřední hřbitov, skupina 25e, čestný kruh, číslo 55.<br>Lolkova studánka – v horní části Těsnohlídkova žlebu, upravený pramen, podobizna šaramantního muže chovajícího na klíně lišku. Stanislav Lolek (1873 – 1936).<br>Janáčkova studánka u Bílovic, pramen byl upraven roku 1978 a voda patří k nejlepším.<br>Pomník Leoše Janáčka před Janáčkovou operou. Stanislav Hanzl, 1975.<br>Janáčkovo muzeum a busta na balkoně varhanické školy, kterou založil a kde žil, Smetanova 14 , busta Štursa, Kysilka, 1948.<br>Pamětní deska Janáčkovi s portrétem, Mendlovo nám. 1988.<br>Pamětní deska Janáčkovi s reliéfem Besední dům, Zouhar, 1954.<br>Portrétní busta na Učitelském ústavu, kde Janáček působil, Poříčí 5. Zdeněk Makovský, 2008.<br>Hrob Leoše Janáčka (1854 – 1928), Ústřední hřbitov, skupina 25e, čestný kruh, číslo 64.<br></p>",
+            "  <p>Co lze hledat :<br>Myslivna Lišky Bystroušky – pamětní deska.<br>Místo po domě, kde žil Těsnohlídek v\xa0Bílovicích v\xa0letech 1908-24, na prostranství před obecním úřadem. Zchátralý dům byl stržen na začátku tohoto století.<br>Těsnohlídkův žleb – úzké údolí roztíná plošinu Hádů.<br>Těsnohlídkův pomník z\xa0roku 1929 v\xa0Těsnohlídkově žlebu.<br>Pamětní deska Těsnohlídkovi na dětském domově Dagmar, z\xa0roku 1968. Brno, Zeleného ulice.<br>Poslední Těsnohlídkovo bydliště, kde žil v\xa0letech 1924-28, Kobližná 12.<br>Hrob Rudolfa Těsnohlídka (1882 - 1928), Ústřední hřbitov, skupina 32, číslo 90.<br>Redakce prvorepublikových Lidových novin, palác Chlumeckých, Česká 6, 1. patro.<br>Hrob Arnošta Heinricha (1880 - 1933), šéfredaktora a duše Lidových novin v\xa0letech 1919-33, Ústřední hřbitov, skupina 25e, čestný kruh, číslo 55.<br>Lolkova studánka – v\xa0horní části Těsnohlídkova žlebu, upravený pramen, podobizna šaramantního muže chovajícího na klíně lišku. Stanislav Lolek (1873 – 1936).<br>Janáčkova studánka u Bílovic, pramen byl upraven roku 1978 a voda patří k\xa0nejlepším.<br>Pomník Leoše Janáčka před Janáčkovou operou. Stanislav Hanzl, 1975.<br>Janáčkovo muzeum a busta na balkoně varhanické školy, kterou založil a kde žil, Smetanova 14 , busta Štursa, Kysilka, 1948.<br>Pamětní deska Janáčkovi s\xa0portrétem, Mendlovo nám. 1988.<br>Pamětní deska Janáčkovi s\xa0reliéfem Besední dům, Zouhar, 1954.<br>Portrétní busta na Učitelském ústavu, kde Janáček působil, Poříčí 5. Zdeněk Makovský, 2008.<br>Hrob Leoše Janáčka (1854 – 1928), Ústřední hřbitov, skupina 25e, čestný kruh, číslo 64.<br></p>",
         },
       ],
       dodatekNadpis: "  ",
@@ -4717,7 +4717,7 @@ export default {
         {
           fotka: "koblizna.jpg",
           popisek:
-            "Kobližná 12. Poslední bydliště Rudolfa Těsnohlídka. Foto z prosince 2020. ",
+            "Kobližná 12. Poslední bydliště Rudolfa Těsnohlídka. Foto z\xa0prosince 2020. ",
         },
         {
           fotka: "hrobtesnohlidka.jpg",
@@ -4725,7 +4725,7 @@ export default {
         },
         {
           fotka: "janackovodivadlo.jpg",
-          popisek: " Janáčkovo divadlo v Brně. ",
+          popisek: " Janáčkovo divadlo v\xa0Brně. ",
         },
         {
           fotka: "janacek.jpg",
@@ -4740,7 +4740,7 @@ export default {
         {
           fotka: "koblizna.jpg",
           popisek:
-            "Kobližná 12. Poslední bydliště Rudolfa Těsnohlídka. Foto z prosince 2020. ",
+            "Kobližná 12. Poslední bydliště Rudolfa Těsnohlídka. Foto z\xa0prosince 2020. ",
         },
         {
           fotka: "hrobtesnohlidka.jpg",
@@ -4752,7 +4752,7 @@ export default {
         },
         {
           fotka: "janackovodivadlo.jpg",
-          popisek: " Janáčkovo divadlo v Brně. ",
+          popisek: " Janáčkovo divadlo v\xa0Brně. ",
         },
 
         {
@@ -4778,56 +4778,56 @@ export default {
         },
         {
           textOdstavce:
-            "   <p> Bylo by na místě definovat, co jsou a nejsou smírčí kříže. Jsou to kamenné historické památky, stavěné ve středověku a začátkem novověku na místech, kde byla prolita krev, později i jako připomínka nešťastné události. Musí mít na sobě znamení kříže. V Čechách se objevují hrubě tesané kříže, na Moravě jsou častější kamenné desky, na kterých je kříž zpodoben. Třetí typ, kruhová stéla s křížem, nebyl u Brna nalezen ani jeden.</p>  ",
+            "   <p> Bylo by na místě definovat, co jsou a nejsou smírčí kříže. Jsou to kamenné historické památky, stavěné ve středověku a začátkem novověku na místech, kde byla prolita krev, později i jako připomínka nešťastné události. Musí mít na sobě znamení kříže. V\xa0Čechách se objevují hrubě tesané kříže, na Moravě jsou častější kamenné desky, na kterých je kříž zpodoben. Třetí typ, kruhová stéla s\xa0křížem, nebyl u Brna nalezen ani jeden.</p>  ",
           foto: " lisen1V.jpg   ",
           umisteniFoto: " vpravo   ",
           popisek: " 1286 Líšeň 1 (únor 2020)  ",
         },
         {
           textOdstavce:
-            "   <p>  U nás se kříže vyskytují hlavně v západních Čechách, v Krušných horách, na Náchodsku. Na Moravě je jich nejvíce na Jihlavsku, Žďársku, Třebíčsku a Olomoucku. Ani kolem Brna jich není málo, do vzdálenosti 30 km od města jich je nalezeno asi devadesát. Lze vysledovat, že se vyskytují častěji v krajinách, kde mělo v minulosti převahu německé obyvatelstvo.</p>",
+            "   <p>  U nás se kříže vyskytují hlavně v\xa0západních Čechách, v\xa0Krušných horách, na Náchodsku. Na Moravě je jich nejvíce na Jihlavsku, Žďársku, Třebíčsku a Olomoucku. Ani kolem Brna jich není málo, do vzdálenosti 30 km od města jich je nalezeno asi devadesát. Lze vysledovat, že se vyskytují častěji v\xa0krajinách, kde mělo v\xa0minulosti převahu německé obyvatelstvo.</p>",
           foto: "  biskoupkyV.jpg  ",
           umisteniFoto: "  vlevo  ",
           popisek: " 1658 Biskoupky  (duben 2018)  ",
         },
         {
           textOdstavce:
-            "   <p> O tom, proč kříže vznikaly, jsou různé teorie. Častým důvodem býval důkaz smíření, dnešními slovy šlo o mimosoudní vyrovnání. Někdy, dost vzácně, se podařilo v archívech najít ke konkrétnímu kamenu i smírčí smlouvu z 15. nebo 16. století. Na málokterém kamenu je letopočet – datum tragédie. Tam, kde je, spadá jeho vznik mezi 16. - 18. století.</p>  ",
+            "   <p> O tom, proč kříže vznikaly, jsou různé teorie. Častým důvodem býval důkaz smíření, dnešními slovy šlo o mimosoudní vyrovnání. Někdy, dost vzácně, se podařilo v\xa0archívech najít ke konkrétnímu kamenu i smírčí smlouvu z\xa015. nebo 16. století. Na málokterém kamenu je letopočet – datum tragédie. Tam, kde je, spadá jeho vznik mezi 16. - 18. století.</p>  ",
           foto: " kninickyV.jpg   ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1285 Kníničky (září 2008)  ",
         },
         {
           textOdstavce:
-            "   <p> Hledání smírčích křížů prodělalo v minulých 40 letech zajímavý vývoj. V 70. letech 20. století byly tyto památky hluboce zapomenuty. V 80. letech je začali jednotlivci, zvláště v západních Čechách, vyhledávat a evidovat. Posléze se sdružili a v roce 1984 založili Společnost pro výzkum kamenných křížů při Muzeu v Aši. V devadesátých letech sochař Vladimír Preclík, propadlý hledání křížů, vydal k tomuto tématu dvě výborné knížky: Smírčí kameny (1990) a Kameny pokání (1992). O kameny se začaly zajímat noviny, televize a populární časopisy. Nastala zlatá éra hledání a objevování. I já jsem této módní vlně podlehl a našel pár desítek kamenů. Tehdy vyrážely o víkendech do přírody stovky hledačů a bylo možné se v okolí kamenů potkat se spřízněnou duší. Teď už se to nestává. Boom ještě urychlilo vydání katalogu smírčích křížů. (Kolektiv: Kamenné kříže Čech a Moravy, 1. vydání 1997, 2. doplněné vydání 2001.) Křížů si začaly všímat i místní úřady, zjistily, že ve většině obcí to jsou nejstarší památky. A tak byly zapomenuté kříže vytahovány z křovin a kopřiv na důstojnější místa. Bohužel to s sebou neslo i negativní stránky. Našli se nenechavci, kteří kříže kradli, když zjistili, že mají hodnotu. Jen o málo lepší bylo konání úřadů, které v dobré víře kameny ochránit, je přemísťovaly. Buď na náměstí, nebo ke kostelům, v horších případech do muzeí a depozitářů. Zapomínaly na to, že kámen jen označuje místo neštěstí. Místo je důležité a to přenést nelze. Jistým kompromisem je umístit na původní místo repliku a povětrností zničený kříž deponovat pod střechou (Černčín). Naštěstí módní vlna odezněla a hledačů křížů silně ubylo. Dá se říci, že jejím závěrem – završením bylo vydání reprezentační knihy René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska, 2013. Publikace s mnoha krásnými fotkami křížů na křídovém papíru je ozdobou každé knihovny.</p>  ",
+            "   <p> Hledání smírčích křížů prodělalo v\xa0minulých 40 letech zajímavý vývoj. V\xa070. letech 20. století byly tyto památky hluboce zapomenuty. V\xa080. letech je začali jednotlivci, zvláště v\xa0západních Čechách, vyhledávat a evidovat. Posléze se sdružili a v\xa0roce 1984 založili Společnost pro výzkum kamenných křížů při Muzeu v\xa0Aši. V\xa0devadesátých letech sochař Vladimír Preclík, propadlý hledání křížů, vydal k\xa0tomuto tématu dvě výborné knížky: Smírčí kameny (1990) a Kameny pokání (1992). O kameny se začaly zajímat noviny, televize a populární časopisy. Nastala zlatá éra hledání a objevování. I já jsem této módní vlně podlehl a našel pár desítek kamenů. Tehdy vyrážely o víkendech do přírody stovky hledačů a bylo možné se v\xa0okolí kamenů potkat se spřízněnou duší. Teď už se to nestává. Boom ještě urychlilo vydání katalogu smírčích křížů. (Kolektiv: Kamenné kříže Čech a Moravy, 1. vydání 1997, 2. doplněné vydání 2001.) Křížů si začaly všímat i místní úřady, zjistily, že ve většině obcí to jsou nejstarší památky. A tak byly zapomenuté kříže vytahovány z\xa0křovin a kopřiv na důstojnější místa. Bohužel to s\xa0sebou neslo i negativní stránky. Našli se nenechavci, kteří kříže kradli, když zjistili, že mají hodnotu. Jen o málo lepší bylo konání úřadů, které v\xa0dobré víře kameny ochránit, je přemísťovaly. Buď na náměstí, nebo ke kostelům, v\xa0horších případech do muzeí a depozitářů. Zapomínaly na to, že kámen jen označuje místo neštěstí. Místo je důležité a to přenést nelze. Jistým kompromisem je umístit na původní místo repliku a povětrností zničený kříž deponovat pod střechou (Černčín). Naštěstí módní vlna odezněla a hledačů křížů silně ubylo. Dá se říci, že jejím závěrem – završením bylo vydání reprezentační knihy René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska, 2013. Publikace s\xa0mnoha krásnými fotkami křížů na křídovém papíru je ozdobou každé knihovny.</p>  ",
           foto: " vysleknihyV.jpg   ",
           umisteniFoto: " vlevo   ",
-          popisek: " Knihy s tematikou smírčích křížů  ",
+          popisek: " Knihy s\xa0tematikou smírčích křížů  ",
         },
         {
           textOdstavce:
-            "   <p>Nedá se ani přibližně říci, kolik vlastně křížů u nás je, protože na jedné straně se staré kříže stále nalézají, vykopávají, na druhé straně se ztrácejí, kradou. Zmíněná Společnost při muzeu v Aši evidovala v roce 2019 u nás 2500 křížů a dalších 5000 kamenných drobných historických památek. Společnost nejen vede registr křížů, ale aktivně pracuje na jejich objevování, záchraně, obnově, pořádá exkurse a výstavy.</p>  ",
+            "   <p>Nedá se ani přibližně říci, kolik vlastně křížů u nás je, protože na jedné straně se staré kříže stále nalézají, vykopávají, na druhé straně se ztrácejí, kradou. Zmíněná Společnost při muzeu v\xa0Aši evidovala v\xa0roce 2019 u nás 2500 křížů a dalších 5000 kamenných drobných historických památek. Společnost nejen vede registr křížů, ale aktivně pracuje na jejich objevování, záchraně, obnově, pořádá exkurse a výstavy.</p>  ",
           foto: " malalhotaV.jpg   ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1725 Malá Lhota  (září 2019)  ",
         },
         {
           textOdstavce:
-            "<p> Ke křížům dnes existuje dost obsáhlá literatura, také na internetu poletuje spousta odkazů. Pro nás v Brně má kromě výše uvedených knih ještě význam důkladně psaná brožura Evy Nečasové: Křížové kameny a kamenné kříže okresu Blansko, 2. vyd. 2001, a beletrističtěji pojatá knížečka Hynka Jurmana: Smírčí kameny na Vysočině. Naposled 4. vyd. 2010. Novějšího nevyšlo nic. Brněnsko soubornou publikaci o smírčích křížích postrádá, malou náhradou budiž tento text.</p>  ",
+            "<p> Ke křížům dnes existuje dost obsáhlá literatura, také na internetu poletuje spousta odkazů. Pro nás v\xa0Brně má kromě výše uvedených knih ještě význam důkladně psaná brožura Evy Nečasové: Křížové kameny a kamenné kříže okresu Blansko, 2. vyd. 2001, a beletrističtěji pojatá knížečka Hynka Jurmana: Smírčí kameny na Vysočině. Naposled 4. vyd. 2010. Novějšího nevyšlo nic. Brněnsko soubornou publikaci o smírčích křížích postrádá, malou náhradou budiž tento text.</p>  ",
           foto: "  oslavany1V.jpg  ",
           umisteniFoto: "  vlevo  ",
           popisek: " 1661 Oslavany 1  (duben 2015)  ",
         },
         {
           textOdstavce:
-            "   <p> V minulých vyprávěních jsem se často zabýval jen objekty, které se daly hledat v přírodě, mimo sídla lidí. To u křížů není možné, většina z nich opustila původní místa a byla přestěhována na náměstí nebo náves. Nebo se obec rozšířila a pohltila dříve opuštěná místa (Žabovřesky). Budu popisovat jen kříže veřejně přístupné. Ty, které skončily v muzejních depozitářích nebo na soukromých pozemcích a nejsou vidět, článek pomíjí. Zato se zabývá i kříži nehistorickými, vzniklými v době nedávné, pokud se smírčím křížům podobají. Také popisy míst, kde se kříže nalézají, jsou stručné. Důležitá zpráva ale je, že kříž existuje. Jeho nalezení je otázkou času, intuice a náhody.</p>  ",
+            "   <p> V\xa0minulých vyprávěních jsem se často zabýval jen objekty, které se daly hledat v\xa0přírodě, mimo sídla lidí. To u křížů není možné, většina z\xa0nich opustila původní místa a byla přestěhována na náměstí nebo náves. Nebo se obec rozšířila a pohltila dříve opuštěná místa (Žabovřesky). Budu popisovat jen kříže veřejně přístupné. Ty, které skončily v\xa0muzejních depozitářích nebo na soukromých pozemcích a nejsou vidět, článek pomíjí. Zato se zabývá i kříži nehistorickými, vzniklými v\xa0době nedávné, pokud se smírčím křížům podobají. Také popisy míst, kde se kříže nalézají, jsou stručné. Důležitá zpráva ale je, že kříž existuje. Jeho nalezení je otázkou času, intuice a náhody.</p>  ",
           foto: " archlebovV.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 2523 Archlebov (říjen 2015)  ",
         },
         {
           textOdstavce:
-            "   <p> Každý kříž má jméno, většinou je to jméno obce, na jejímž území se nachází. Je-li jich více než jeden, pak i pořadové číslo. Před jménem obce je evidenční číslo kříže, které mu přidělila Společnost v Aši. Písmeno R znamená, že se jedná o kopii, repliku. Detailnější informace k jednotlivým křížům lze nalézt jinde. </p>  ",
+            "   <p> Každý kříž má jméno, většinou je to jméno obce, na jejímž území se nachází. Je-li jich více než jeden, pak i pořadové číslo. Před jménem obce je evidenční číslo kříže, které mu přidělila Společnost v\xa0Aši. Písmeno R znamená, že se jedná o kopii, repliku. Detailnější informace k\xa0jednotlivým křížům lze nalézt jinde. </p>  ",
           foto: "lisen2V.jpg",
           umisteniFoto: "  vlevo  ",
           popisek: " 1982 Líšeň 2 (únor 2020)  ",
@@ -4836,7 +4836,7 @@ export default {
               odkazKategorie: "smircikrize",
               odkazKde: "odstavec",
               predOdkazem:
-                "Každý kříž má jméno, většinou je to jméno obce, na jejímž území se nachází. Je-li jich více než jeden, pak i pořadové číslo. Před jménem obce je evidenční číslo kříže, které mu přidělila Společnost v Aši. Písmeno R znamená, že se jedná o kopii, repliku. Detailnější informace k jednotlivým křížům lze nalézt ",
+                "Každý kříž má jméno, většinou je to jméno obce, na jejímž území se nachází. Je-li jich více než jeden, pak i pořadové číslo. Před jménem obce je evidenční číslo kříže, které mu přidělila Společnost v\xa0Aši. Písmeno R znamená, že se jedná o kopii, repliku. Detailnější informace k\xa0jednotlivým křížům lze nalézt ",
               textOdkazu: "jinde",
               zaOdkazem: ". ",
             },
@@ -4844,120 +4844,511 @@ export default {
         },
         {
           textOdstavce:
-            "   <p> Za nejbližšími kříži v Brně není třeba cestovat daleko, stačí na to šalina. Trojka vás zaveze na ulici Minskou, kde u zastávky tramvaje trůní omšelý smírčí kámen <strong>0774 Žabovřesky</strong>. Je velmi starý, odborníci odhadují, že pochází ze 14. - 15. století. Proti zničení ho ochraňuje pět kroucených železných tyčí. Je div, že vydržel na původním místě, stál u polní cesty od brněnských hradeb k hradu Veveří, možná určoval hranici města. </p>  ",
+            "   <p> Za nejbližšími kříži v\xa0Brně není třeba cestovat daleko, stačí na to šalina. Trojka vás zaveze na ulici Minskou, kde u zastávky tramvaje trůní omšelý smírčí kámen <strong>0774 Žabovřesky</strong>. Je velmi starý, odborníci odhadují, že pochází ze 14. - 15. století. Proti zničení ho ochraňuje pět kroucených železných tyčí. Je div, že vydržel na původním místě, stál u polní cesty od brněnských hradeb k\xa0hradu Veveří, možná určoval hranici města. </p>  ",
           foto: " zabovreskyV.jpg   ",
           umisteniFoto: "   vpravo    ",
           popisek: " ˇ0774 Žabovřesky  (listopad 2020)  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 51,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Za nejbližšími kříži v\xa0Brně není třeba cestovat daleko, stačí na to šalina. Trojka vás zaveze na ulici Minskou, kde u zastávky tramvaje trůní omšelý smírčí kámen ",
+              textOdkazu: "0774 Žabovřesky",
+              zaOdkazem:
+                ". Je velmi starý, odborníci odhadují, že pochází ze 14. - 15. století. Proti zničení ho ochraňuje pět kroucených železných tyčí. Je div, že vydržel na původním místě, stál u polní cesty od brněnských hradeb k\xa0hradu Veveří, možná určoval hranici města.",
+            },
+          ],
         },
         {
           textOdstavce:
-            "   <p> K dalším kamenům nás sveze tramvaj osmička, na jednu stranu do Líšně, na druhou do Bohunic. V Líšni u kostela jsou dva kameny. <strong>1286 Líšeň 1</strong> je zaoblená deska, kde kromě latinského kříže je vyryt i lovecký tesák. Kámen <strong>1982 Líšeň 2</strong> na východní straně kostela není smírčí, ale náhrobní. Barokní náhrobník v podobě jetelového kříže s dnes nečitelným nápisem je z roku 1726, patřil Janu Nevoralíkovi a pochází z doby, kdy kolem kostela byl hřbitov. V Bohunicích v areálu Fakultní nemocnice před pavilonem H jsou dva kameny. Nižší <strong>1280 Bohunice 1</strong> má na sobě tlapatý kříž, na vyšším <strong>1281 Bohunice 2</strong> je vyryt latinský kříž a pod rameny má oštěp, dýku a rýč. Několik křížů stálo kolem formanské cesty z Brna na Jihlavu, tedy dnešní ulice Vinohrady. Pamatuji jako kluk, že tři kříže stály na rozcestí polních cest za starou nemocnicí. Říkalo se o nich, že až se propadnou do země, nastane konec světa. Když se stavěla silnice v ulici Kamenice, byly kameny stěhovány do areálu nově vznikající nemocnice v kampusu. Tam je přemístili už třikrát. Menší kámen se rozpadl vedví. A další, ten nejmenší, se ztratil úplně. </p>  ",
+            "   <p> K dalším kamenům nás sveze tramvaj osmička, na jednu stranu do Líšně, na druhou do Bohunic. V\xa0Líšni u kostela jsou dva kameny. <strong>1286 Líšeň 1</strong> je zaoblená deska, kde kromě latinského kříže je vyryt i lovecký tesák. Kámen <strong>1982 Líšeň 2</strong> na východní straně kostela není smírčí, ale náhrobní. Barokní náhrobník v\xa0podobě jetelového kříže s\xa0dnes nečitelným nápisem je z\xa0roku 1726, patřil Janu Nevoralíkovi a pochází z\xa0doby, kdy kolem kostela byl hřbitov. V\xa0Bohunicích v\xa0areálu Fakultní nemocnice před pavilonem H jsou dva kameny. Nižší <strong>1280 Bohunice 1</strong> má na sobě tlapatý kříž, na vyšším <strong>1281 Bohunice 2</strong> je vyryt latinský kříž a pod rameny má oštěp, dýku a rýč. Několik křížů stálo kolem formanské cesty z\xa0Brna na Jihlavu, tedy dnešní ulice Vinohrady. Pamatuji jako kluk, že tři kříže stály na rozcestí polních cest za starou nemocnicí. Říkalo se o nich, že až se propadnou do země, nastane konec světa. Když se stavěla silnice v\xa0ulici Kamenice, byly kameny stěhovány do areálu nově vznikající nemocnice v\xa0kampusu. Tam je přemístili už třikrát. Menší kámen se rozpadl vedví. A další, ten nejmenší, se ztratil úplně. </p>  ",
           foto: " bohuniceV.jpg   ",
           umisteniFoto: " vlevo   ",
           popisek:
             " 1280 Bohunice 1  a  1281 Bohunice 2 vpravo (květen 2017)  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 48,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "K dalším kamenům nás sveze tramvaj osmička, na jednu stranu do Líšně, na druhou do Bohunic. V\xa0Líšni u kostela jsou dva kameny. ",
+              textOdkazu: "1286 Líšeň 1",
+              zaOdkazem:
+                " je zaoblená deska, kde kromě latinského kříže je vyryt i lovecký tesák. ",
+            },
+            {
+              vnitrniOdkaz: 49,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem: "Kámen  ",
+              textOdkazu: "1982 Líšeň 2",
+              zaOdkazem:
+                " na východní straně kostela není smírčí, ale náhrobní. Barokní náhrobník v\xa0podobě jetelového kříže s\xa0dnes nečitelným nápisem je z\xa0roku 1726, patřil Janu Nevoralíkovi a pochází z\xa0doby, kdy kolem kostela byl hřbitov. ",
+            },
+            {
+              vnitrniOdkaz: 45,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "V Bohunicích v\xa0areálu Fakultní nemocnice před pavilonem H jsou dva kameny. Nižší ",
+              textOdkazu: "1280 Bohunice 1",
+              zaOdkazem: " má na sobě tlapatý kříž,",
+            },
+            {
+              vnitrniOdkaz: 46,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem: " na vyšším ",
+              textOdkazu: "1281 Bohunice 2",
+              zaOdkazem:
+                " je vyryt latinský kříž a pod rameny má oštěp, dýku a rýč. Několik křížů stálo kolem formanské cesty z\xa0Brna na Jihlavu, tedy dnešní ulice Vinohrady. Pamatuji jako kluk, že tři kříže stály na rozcestí polních cest za starou nemocnicí. Říkalo se o nich, že až se propadnou do země, nastane konec světa. Když se stavěla silnice v\xa0ulici Kamenice, byly kameny stěhovány do areálu nově vznikající nemocnice v\xa0kampusu. Tam je přemístili už třikrát. Menší kámen se rozpadl vedví. A další, ten nejmenší, se ztratil úplně. ",
+            },
+          ],
         },
         {
           textOdstavce:
-            "   <p> Za dalším brněnským křížem musíme k přehradě. Kámen <strong>1285 Kníničky</strong> najdeme v  tarasu pomníku u Lva u stejnojmenné restaurace. Má uražený roh a kromě latinského kříže je na něm sekyra. Původně stál u obce na místě, které je dnes pod vodou. Sem ho přemístili v roce 1923, když se budoval pomník padlým z první světové války, dlouho před stěhováním Kníniček. Na Slovanském náměstí objevili nadšení hledači křížů před třiceti lety zašlý kámen<strong> 1757 Královo Pole</strong> a zahrnuli ho do evidence, i když obrazec na kamenu se podobal spíše poháru, než tlapatému kříži. Když se při rekonstrukci parku roku 2006 kámen ztratil, byla vytvořena replika kamene s křížem. To vzbudilo protesty jisté části občanů, protože se ukázalo, že původní kámen byl odhalen v roce 1918 k 500. výročí upálení Jana Husa a k němu zasazena lípa – ta tam stále roste. Kámen s křížem byl odstraněn a nahrazen pamětním kamenem s kalichem, tedy to není křížový kámen.</p>  ",
+            "   <p> Za dalším brněnským křížem musíme k\xa0přehradě. Kámen <strong>1285 Kníničky</strong> najdeme v\xa0tarasu pomníku u Lva u stejnojmenné restaurace. Má uražený roh a kromě latinského kříže je na něm sekyra. Původně stál u obce na místě, které je dnes pod vodou. Sem ho přemístili v\xa0roce 1923, když se budoval pomník padlým z\xa0první světové války, dlouho před stěhováním Kníniček. Na Slovanském náměstí objevili nadšení hledači křížů před třiceti lety zašlý kámen<strong> 1757 Královo Pole</strong> a zahrnuli ho do evidence, i když obrazec na kamenu se podobal spíše poháru, než tlapatému kříži. Když se při rekonstrukci parku roku 2006 kámen ztratil, byla vytvořena replika kamene s\xa0křížem. To vzbudilo protesty jisté části občanů, protože se ukázalo, že původní kámen byl odhalen v\xa0roce 1918 k\xa0500. výročí upálení Jana Husa a k\xa0němu zasazena lípa – ta tam stále roste. Kámen s\xa0křížem byl odstraněn a nahrazen pamětním kamenem s\xa0kalichem, tedy to není křížový kámen.</p>  ",
           foto: " kralovopoleV.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 1757 Královo Pole  (listopad 2020)  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 47,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Za dalším brněnským křížem musíme k\xa0přehradě. Kámen ",
+              textOdkazu: "1285 Kníničky",
+              zaOdkazem:
+                " najdeme v\xa0 tarasu pomníku u Lva u stejnojmenné restaurace. Má uražený roh a kromě latinského kříže je na něm sekyra. Původně stál u obce na místě, které je dnes pod vodou. Sem ho přemístili v\xa0roce 1923, když se budoval pomník padlým z\xa0první světové války, dlouho před stěhováním Kníniček. ",
+            },
+            {
+              vnitrniOdkaz: 50,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Na Slovanském náměstí objevili nadšení hledači křížů před třiceti lety zašlý kámen ",
+              textOdkazu: "1757 Královo Pole",
+              zaOdkazem:
+                " a zahrnuli ho do evidence, i když obrazec na kamenu se podobal spíše poháru, než tlapatému kříži. Když se při rekonstrukci parku roku 2006 kámen ztratil, byla vytvořena replika kamene s\xa0křížem. To vzbudilo protesty jisté části občanů, protože se ukázalo, že původní kámen byl odhalen v\xa0roce 1918 k\xa0500. výročí upálení Jana Husa a k\xa0němu zasazena lípa – ta tam stále roste. Kámen s\xa0křížem byl odstraněn a nahrazen pamětním kamenem s\xa0kalichem, tedy to není křížový kámen.",
+            },
+          ],
         },
         {
           textOdstavce:
-            "   <p> Brněnské hřbitovy jsou plné kamenných křížů. Charakter smírčího kříže má ale asi jen jediný. Najdete ho na Ústředním hřbitově, na kraji skupiny 30A. Mohutný kříž <strong>---- Brno centrum</strong> připomíná vzlétajícího anděla nebo ducha a pochází z tohoto století. Na centrálce se objevil kolem roku 2010. Kámen <strong>1771 Dolní Heršpice</strong> ležel dlouho zapomenut na cestě z Komárova do Modřic, tam, kde dnešní silnice kříží dálnici. Před několika lety ho přestěhovali na Jižní náměstí. Na kamenu je latinský kříž s rozšířenou patou. Světlá část dole ukazuje, kam až byla deska zahrnuta hlínou na původním stanovišti. </p>  ",
+            "   <p> Brněnské hřbitovy jsou plné kamenných křížů. Charakter smírčího kříže má ale asi jen jediný. Najdete ho na Ústředním hřbitově, na kraji skupiny 30A. Mohutný kříž <strong>---- Brno centrum</strong> připomíná vzlétajícího anděla nebo ducha a pochází z\xa0tohoto století. Na centrálce se objevil kolem roku 2010. Kámen <strong>1771 Dolní Heršpice</strong> ležel dlouho zapomenut na cestě z\xa0Komárova do Modřic, tam, kde dnešní silnice kříží dálnici. Před několika lety ho přestěhovali na Jižní náměstí. Na kamenu je latinský kříž s\xa0rozšířenou patou. Světlá část dole ukazuje, kam až byla deska zahrnuta hlínou na původním stanovišti. </p>  ",
           foto: "  dolniherspiceV.jpg  ",
           umisteniFoto: "  vlevo  ",
           popisek: " 1771 Dolní Heršpice  (listopad 2020)  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 77,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Brněnské hřbitovy jsou plné kamenných křížů. Charakter smírčího kříže má ale asi jen jediný. Najdete ho na Ústředním hřbitově, na kraji skupiny 30A. Mohutný kříž ",
+              textOdkazu: "---- Brno centrum",
+              zaOdkazem:
+                " připomíná vzlétajícího anděla nebo ducha a pochází z\xa0tohoto století. Na centrálce se objevil kolem roku 2010.",
+            },
+            {
+              vnitrniOdkaz: 60,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 1,
+              odkazKde: "odstavec",
+              predOdkazem: " Kámen ",
+              textOdkazu: "1771 Dolní Heršpice",
+              zaOdkazem:
+                " ležel dlouho zapomenut na cestě z\xa0Komárova do Modřic, tam, kde dnešní silnice kříží dálnici. Před několika lety ho přestěhovali na Jižní náměstí. Na kamenu je latinský kříž s\xa0rozšířenou patou. Světlá část dole ukazuje, kam až byla deska zahrnuta hlínou na původním stanovišti.",
+            },
+          ],
         },
+
         {
           textOdstavce:
-            "   <p> Na východ od Brna je nejblíže do Podolí a do Šlapanic. Kamenná deska <strong>1295 Podolí 1</strong> se nachází na jižním svahu kóty Vinohrady, vetknutá do meze na rozhraní polí a sadů. Shora půlkulatá deska s orámovaným latinským křížem má pod ramenem kříže vyryté loukoťové kolo – symbol, který má cosi napovědět. Pro mě to byl první kámen, který jsem v dospělém věku našel. V časném jaru roku 1990 jsem tu hledal pomník a byl jsem překvapen, když se objevil takový krasavec. O křížích jsem tehdy nevěděl nic. Druhý kříž leží ve východní části vsi, 100 metrů od obecního úřadu a jmenuje se <strong>1579 Podolí 2</strong>. Metrová kamenná deska leží opřená o zídku plotu a latinský kříž vznikl zvláštním způsobem, odebráním materiálu z prázdných polí v ploše desky. Pověst praví, že ležel na hromadném hrobě vojáků bitvy u Slavkova, a když byl přestěhován ke studni, ozýval se z ní nářek a pláč. Musel být odstěhován jinam. </p>  ",
+            "   <p> Na východ od Brna je nejblíže do Podolí a do Šlapanic. Kamenná deska <strong>1295 Podolí 1</strong> se nachází na jižním svahu kóty Vinohrady, vetknutá do meze na rozhraní polí a sadů. Shora půlkulatá deska s\xa0orámovaným latinským křížem má pod ramenem kříže vyryté loukoťové kolo – symbol, který má cosi napovědět. Pro mě to byl první kámen, který jsem v\xa0dospělém věku našel. V\xa0časném jaru roku 1990 jsem tu hledal pomník a byl jsem překvapen, když se objevil takový krasavec. O křížích jsem tehdy nevěděl nic. Druhý kříž leží ve východní části vsi, 100 metrů od obecního úřadu a jmenuje se <strong>1579 Podolí 2</strong>. Metrová kamenná deska leží opřená o zídku plotu a latinský kříž vznikl zvláštním způsobem, odebráním materiálu z\xa0prázdných polí v\xa0ploše desky. Pověst praví, že ležel na hromadném hrobě vojáků bitvy u Slavkova, a když byl přestěhován ke studni, ozýval se z\xa0ní nářek a pláč. Musel být odstěhován jinam. </p>  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 68,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Na východ od Brna je nejblíže do Podolí a do Šlapanic. Kamenná deska ",
+              textOdkazu: "1295 Podolí 1",
+              zaOdkazem:
+                " se nachází na jižním svahu kóty Vinohrady, vetknutá do meze na rozhraní polí a sadů. Shora půlkulatá deska s\xa0orámovaným latinským křížem má pod ramenem kříže vyryté loukoťové kolo – symbol, který má cosi napovědět. Pro mě to byl první kámen, který jsem v\xa0dospělém věku našel. V\xa0časném jaru roku 1990 jsem tu hledal pomník a byl jsem překvapen, když se objevil takový krasavec. O křížích jsem tehdy nevěděl nic.",
+            },
+            {
+              vnitrniOdkaz: 69,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Druhý kříž leží ve východní části vsi, 100 metrů od obecního úřadu a jmenuje se  ",
+              textOdkazu: "1579 Podolí 2",
+              zaOdkazem:
+                ". Metrová kamenná deska leží opřená o zídku plotu a latinský kříž vznikl zvláštním způsobem, odebráním materiálu z\xa0prázdných polí v\xa0ploše desky. Pověst praví, že ležel na hromadném hrobě vojáků bitvy u Slavkova, a když byl přestěhován ke studni, ozýval se z\xa0ní nářek a pláč. Musel být odstěhován jinam.",
+            },
+          ],
+
           foto: " podoli1V.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 1295 Podolí 1  (únor 2020)  ",
         },
         {
           textOdstavce:
-            "   <p> Ve Šlapanicích mají dva smírčí kameny. Jeden, <strong>1297 Šlapanice 1</strong>, stojí v parčíku na ulici Brněnská. Dříve tu bylo významné rozcestí cest na Tuřany a Slatinu a na kopečku bylo popraviště. Kámen se zanořeným latinským křížem ho má připomínat. Druhý kámen, <strong>1756 Šlapanice 2</strong>, přemístili na náměstí k muzeu, když se rozšiřovala silnice. Na olámané desce je vyryt zepředu latinský kříž s neumělým tělem Krista, zezadu je náznak nože nebo loveckého tesáku. </p>  ",
+            "   <p> Ve Šlapanicích mají dva smírčí kameny. Jeden, <strong>1297 Šlapanice 1</strong>, stojí v\xa0parčíku na ulici Brněnská. Dříve tu bylo významné rozcestí cest na Tuřany a Slatinu a na kopečku bylo popraviště. Kámen se zanořeným latinským křížem ho má připomínat. Druhý kámen, <strong>1756 Šlapanice 2</strong>, přemístili na náměstí k\xa0muzeu, když se rozšiřovala silnice. Na olámané desce je vyryt zepředu latinský kříž s\xa0neumělým tělem Krista, zezadu je náznak nože nebo loveckého tesáku. </p>  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 71,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem: "Ve Šlapanicích mají dva smírčí kameny. Jeden, ",
+              textOdkazu: "1297 Šlapanice 1",
+              zaOdkazem:
+                ", stojí v\xa0parčíku na ulici Brněnská. Dříve tu bylo významné rozcestí cest na Tuřany a Slatinu a na kopečku bylo popraviště. Kámen se zanořeným latinským křížem ho má připomínat.",
+            },
+            {
+              vnitrniOdkaz: 72,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem: "Druhý kámen, ",
+              textOdkazu: "1756 Šlapanice 2",
+              zaOdkazem:
+                ", přemístili na náměstí k\xa0muzeu, když se rozšiřovala silnice. Na olámané desce je vyryt zepředu latinský kříž s\xa0neumělým tělem Krista, zezadu je náznak nože nebo loveckého tesáku.",
+            },
+          ],
+
           foto: " slapanice1V.jpg   ",
           umisteniFoto: " vlevo   ",
           popisek: " 1297 Šlapanice 1 (duben 2015)  ",
         },
         {
           textOdstavce:
-            "   <p> Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p><p> I kámen <strong>1300 Tvarožná</strong> má něco společného s bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s barokním křížem stojí v zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z Brna na Olomouc. </p>  ",
+            "   <p> Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v\xa0pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v\xa0knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p><p> I kámen <strong>1300 Tvarožná</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
+          //   vnitrniOdkazy:
+          //   [
+          //       {
+          //   vnitrniOdkaz:  ,
+          //   odkazKategorie: 'smircikrize',
+          //   odkazPodkategorie: ,
+          //   odkazKde: 'odstavec',
+          //    predOdkazem: '  ',
+          //    textOdkazu: '     ',
+          //   zaOdkazem: '    ',
+          //      },
+          //  {
+          //   vnitrniOdkaz:  ,
+          //   odkazKategorie: 'smircikrize',
+          //   odkazPodkategorie: ,
+          //   odkazKde: 'odstavec',
+          //    predOdkazem: '  ',
+          //    textOdkazu: '     ',
+          //   zaOdkazem: '    ',
+          //      },
+          //  {
+          //   vnitrniOdkaz:  ,
+          //   odkazKategorie: 'smircikrize',
+          //   odkazPodkategorie: ,
+          //   odkazKde: 'odstavec',
+          //    predOdkazem: '  ',
+          //    textOdkazu: '     ',
+          //   zaOdkazem: '    ',
+          //      },
+
+          //   ]
+
           foto: " cerncin1.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 0648 Černčín 1  (květen 2019)  ",
         },
         {
           textOdstavce:
-            "   <p> Více na východ, až u Bučovic, stojí smírčí kámen <strong>0648 Černčín 1</strong>. Najdeme ho na návsi u bývalé školy. Moudří v této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky <strong>---- Černčín 2</strong> s doslovným textem ve staré češtině. Lze se tu dočíst, že v říjnu 1606 tu byl zabit Pavel Vašina, soused z Vícemilic.</p><p> Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen <strong>2523 Archlebov</strong>. Dá se najít severně od obce u kapličky, první zpráva o něm je z roku 1930, do nízkého kamene je vyryt klínový kříž. </p>  ",
+            "   <p> Více na východ, až u Bučovic, stojí smírčí kámen <strong>0648 Černčín 1</strong>. Najdeme ho na návsi u bývalé školy. Moudří v\xa0této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky <strong>---- Černčín 2</strong> s\xa0doslovným textem ve staré češtině. Lze se tu dočíst, že v\xa0říjnu 1606 tu byl zabit Pavel Vašina, soused z\xa0Vícemilic.</p><p> Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen <strong>2523 Archlebov</strong>. Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž. </p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  78,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 3,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Více na východ, až u Bučovic, stojí smírčí kámen ',
+             textOdkazu: '0648 Černčín 1',
+            zaOdkazem: '. Najdeme ho na návsi u bývalé školy. ',
+               },
+           {
+            vnitrniOdkaz:  79,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 3,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Moudří v\xa0této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky ',
+             textOdkazu: '---- Černčín 2',
+            zaOdkazem: ' s\xa0doslovným textem ve staré češtině. Lze se tu dočíst, že v\xa0říjnu 1606 tu byl zabit Pavel Vašina, soused z\xa0Vícemilic.',
+               },
+           
+            ],
+
           foto: "  cerncin2.jpg  ",
           umisteniFoto: " vlevo   ",
           popisek: "  ----Černčín 2 (květen 2019)  ",
         },
         {
           textOdstavce:
-            "   <p> Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí <strong>1292 Moravany 1</strong>, plochá čtvercová deska s řeckým křížem. Na návsi lze najít kopii kamene <strong>1867R Moravany 2</strong>. Originál kamene stál kdesi v polích k Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v 15. století. Před několika lety byl osekaný originál nahrazen replikou. </p>  ",
+            "<p> Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen <strong>2523 Archlebov</strong>. Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž. </p>  ",
+            vnitrniOdkazy:
+            [
+                
+           {
+            vnitrniOdkaz:  82,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 3,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen  ',
+             textOdkazu: '2523 Archlebov',
+            zaOdkazem: '. Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž.',
+               },
+
+            ],
+        
+        },
+        {
+          textOdstavce:
+            "   <p> Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí <strong>1292 Moravany 1</strong>, plochá čtvercová deska s\xa0řeckým křížem. Na návsi lze najít kopii kamene <strong>1867R Moravany 2</strong>. Originál kamene stál kdesi v\xa0polích k\xa0Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v\xa015. století. Před několika lety byl osekaný originál nahrazen replikou. </p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  58,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí ',
+             textOdkazu: '1292 Moravany 1',
+            zaOdkazem: ', plochá čtvercová deska s\xa0řeckým křížem.    ',
+               },
+           {
+            vnitrniOdkaz:  59,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Na návsi lze najít kopii kamene ',
+             textOdkazu: '1867R Moravany 2',
+            zaOdkazem: '. Originál kamene stál kdesi v\xa0polích k\xa0Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v\xa015. století. Před několika lety byl osekaný originál nahrazen replikou.    ',
+               },
+           
+            ],
+
           foto: " moravany2V.jpg   ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1867R Moravany 2 (leden 2021)  ",
         },
         {
           textOdstavce:
-            "   <p>Další památka je v Bratčicích. Kamenná deska <strong>1985 Bratčice</strong> je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.</p>  ",
+            "   <p>Další památka je v\xa0Bratčicích. Kamenná deska <strong>1985 Bratčice</strong> je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.</p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  62,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Další památka je v\xa0Bratčicích. Kamenná deska ',
+             textOdkazu: '1985 Bratčice',
+            zaOdkazem: ' je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.',
+               },
+           
+            ],
+
           foto: " opatovice1V.jpg   ",
           umisteniFoto: " vlevo   ",
           popisek: " 1788 Opatovice 1 (leden 2014)  ",
         },
         {
           textOdstavce:
-            "   <p> Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny <strong>1788 Opatovice 1</strong> a <strong>1789 Opatovice 2</strong> spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.</p>  ",
+            "   <p> Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny <strong>1788 Opatovice 1</strong> a <strong>1789 Opatovice 2</strong> spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v\xa0Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.</p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  63,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny ',
+             textOdkazu: '1788 Opatovice 1',
+            zaOdkazem: '',
+               },
+           {
+            vnitrniOdkaz:  64,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: ' a ',
+             textOdkazu: '1789 Opatovice 2',
+            zaOdkazem: ' spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v\xa0Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.',
+               },
+           
+            ],
+
           foto: " opatovice2V.jpg   ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1789 Opatovice 2 (leden 2014)  ",
         },
         {
           textOdstavce:
-            "   <p> Majestátní kříž mají v Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž <strong>0775 Sokolnice</strong> je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v západních Čechách. V obrozeneckých dobách kladli jeho vznik do souvislosti s cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.</p>  ",
+            "   <p> Majestátní kříž mají v\xa0Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž <strong>0775 Sokolnice</strong> je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v\xa0západních Čechách. V\xa0obrozeneckých dobách kladli jeho vznik do souvislosti s\xa0cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.</p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  70,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Majestátní kříž mají v\xa0Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž   ',
+             textOdkazu: '0775 Sokolnice',
+            zaOdkazem: ' je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v\xa0západních Čechách. V\xa0obrozeneckých dobách kladli jeho vznik do souvislosti s\xa0cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.',
+               },
+           
+
+            ],
+
           foto: " sokolniceV.jpg   ",
           umisteniFoto: "  vlevo  ",
           popisek: " 0775 Sokolnice  (listopad 2019)  ",
         },
         {
           textOdstavce:
-            "   <p> V Těšanech na návsi u kovárny se objevil kámen <strong>2025 Těšany</strong>. Krásná kamenná deska vysoká 0,7 metru je zabetonovaná v zemi. Z obou stran kamene vystupuje výrazný reliéf latinského kříže. Před sto lety stával u silnice do Borkovan.</p>  ",
-          foto: "  nikolciceV.jpg  ",
+            "   <p> V\xa0Těšanech na návsi u kovárny se objevil kámen <strong>2025 Těšany</strong>. Krásná kamenná deska vysoká 0,7 metru je zabetonovaná v\xa0zemi.  Z\xa0obou stran kamene vystupuje výrazný reliéf latinského kříže. Před sto lety stával u silnice do Borkovan.</p>  ",
+         
+
+          
+        },
+        {
+          textOdstavce:
+            "   <p>K nejzajímavějším křížům Jižní Moravy patří zejména další dva, tvarem i důvodem vzniku se podobající. Oba mají ulomená horní břevna, oba jsou spojeny s\xa0tatarským vpádem. Kříž <strong>1856 Přísnotice</strong> se nalézá jihozápadně od vsi na poli rovném jako stůl. Nejlépe se k\xa0němu jde ze silnice do Vranovic, ale i odtud je to 300 metrů po poli. Kříž byl původně dvouramenný, asi metr vysoký, ale už dávno o horní břevna přišel. Spodní břevno je popsáno textem o zabití Kryštofa Krause z\xa0Grotky roku 1663 při pícování Tatarů.</p>",
+          
+         
+        },
+        {
+          textOdstavce:
+            "  <p> V\xa0Nikolčicích vede ke kříži odbočka červené značky. <strong>1751 Nikolčice</strong> leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z\xa0jedné strany německy, z\xa0druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v\xa0Blansku a badatelka přes kříže, v\xa0rámci své diplomové práce. Píše se v\xa0něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v\xa0Brně.  </p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz: 81 ,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: 'V Nikolčicích vede ke kříži odbočka červené značky. ',
+             textOdkazu: '1751 Nikolčice',
+            zaOdkazem: ' leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z\xa0jedné strany německy, z\xa0druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v\xa0Blansku a badatelka přes kříže, v\xa0rámci své diplomové práce. Píše se v\xa0něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v\xa0Brně.    ',
+               },
+          
+
+            ],
+            foto: "  nikolciceV.jpg  ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1751 Nikolčice  ( březen 2013) ",
+         
         },
         {
           textOdstavce:
-            "   <p>K nejzajímavějším křížům Jižní Moravy patří zejména další dva, tvarem i důvodem vzniku se podobající. Oba mají ulomená horní břevna, oba jsou spojeny s tatarským vpádem. Kříž <strong>1856 Přísnotice</strong> se nalézá jihozápadně od vsi na poli rovném jako stůl. Nejlépe se k němu jde ze silnice do Vranovic, ale i odtud je to 300 metrů po poli. Kříž byl původně dvouramenný, asi metr vysoký, ale už dávno o horní břevna přišel. Spodní břevno je popsáno textem o zabití Kryštofa Krause z Grotky roku 1663 při pícování Tatarů.</p><p> V Nikolčicích vede ke kříži odbočka červené značky. <strong>1751 Nikolčice</strong> leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z jedné strany německy, z druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v Blansku a badatelka přes kříže, v rámci své diplomové práce. Píše se v něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v Brně.  </p>  ",
-          foto: " alexoviceV.jpg   ",
-          umisteniFoto: "  vlevo  ",
-          popisek: " 1754 Alexovice   (červenec 2013)  ",
+            "   <p> Několik křížů je i na Krumlovsku. V\xa0Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska <strong>1754 Alexovice</strong>. Do desky je vyryt latinský kříž s\xa0rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s\xa0koňmi a vozka zahynul. V\xa0Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.</p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  52,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 5,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Několik křížů je i na Krumlovsku. V\xa0Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska ',
+             textOdkazu: '1754 Alexovice',
+            zaOdkazem: ' Do desky je vyryt latinský kříž s\xa0rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s\xa0koňmi a vozka zahynul. V\xa0Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.    ',
+               },
+         
+            ],
+
+            foto: " alexoviceV.jpg   ",
+            umisteniFoto: "  vlevo  ",
+            popisek: " 1754 Alexovice   (červenec 2013)  ",
         },
         {
           textOdstavce:
-            "   <p> Několik křížů je i na Krumlovsku. V Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska <strong>1754 Alexovice</strong>. Do desky je vyryt latinský kříž s rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s koňmi a vozka zahynul. V Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.<br> <strong>1664 Moravský Krumlov</strong> je deska s vystupujícím jetelovým křížem a v orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl. </p>  ",
-          foto: "  morkrumlovV.jpg  ",
-          umisteniFoto: "   vpravo    ",
-          popisek: " 1664 Moravský Krumlov  ( květen 2020) ",
+            "   <p> <strong>1664 Moravský Krumlov</strong> je deska s\xa0vystupujícím jetelovým křížem a v\xa0orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v\xa0červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl. </p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  84,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 5,
+            odkazKde: 'odstavec',
+             predOdkazem: '',
+             textOdkazu: '1664 Moravský Krumlov',
+            zaOdkazem: ' je deska s\xa0vystupujícím jetelovým křížem a v\xa0orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v\xa0červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl.',
+               },
+               
+            ],
+            foto: "  morkrumlovV.jpg  ",
+            umisteniFoto: "   vpravo    ",
+            popisek: " 1664 Moravský Krumlov  ( květen 2020) ",
+         
+        },
+        
+        {
+          textOdstavce:
+            "   <p> Blízko Loděnice na silnici z\xa0Pravlova do Miroslavi se v\xa0mezi u silnice vyskytuje kamenná deska <strong>1935 Loděnice</strong> rozměrů 0,9 x 0,7 metru.  Z\xa0desky vystupuje latinský kříž na podstavci.</p>",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  80,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 4,
+            odkazKde: 'odstavec',
+             predOdkazem: ' Blízko Loděnice na silnici z\xa0Pravlova do Miroslavi se v\xa0mezi u silnice vyskytuje kamenná deska ',
+             textOdkazu: '1935 Loděnice',
+            zaOdkazem: ' rozměrů 0,9 x 0,7 metru.  Z\xa0desky vystupuje latinský kříž na podstavci.     ',
+               },
+           
+
+            ],
+         
         },
         {
           textOdstavce:
-            "   <p> Blízko Loděnice na silnici z Pravlova do Miroslavi se v mezi u silnice vyskytuje kamenná deska <strong>1935 Loděnice</strong> rozměrů 0,9 x 0,7 metru. Z desky vystupuje latinský kříž na podstavci.</p><p> Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž <strong>2164 Petrovice</strong> se zajímavou historií. Stával kdysi dávno u staré cesty z Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v 18. století. V 50. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s letopočtem je přidělána dodatečně.</p>  ",
+            "  <p> Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž <strong>2164 Petrovice</strong> se zajímavou historií. Stával kdysi dávno u staré cesty z\xa0Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z\xa0Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v\xa018. století. V\xa050. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v\xa0roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v\xa0roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z\xa0něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s\xa0letopočtem je přidělána dodatečně.</p>  ",
+            vnitrniOdkazy:
+            [
+                {
+            vnitrniOdkaz:  83,
+            odkazKategorie: 'smircikrize',
+            odkazPodkategorie: 5,
+            odkazKde: 'odstavec',
+             predOdkazem: 'Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž ',
+             textOdkazu: '2164 Petrovice',
+            zaOdkazem: ' se zajímavou historií. Stával kdysi dávno u staré cesty z\xa0Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z\xa0Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v\xa018. století. V\xa050. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v\xa0roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v\xa0roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z\xa0něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s\xa0letopočtem je přidělána dodatečně.',
+               },
+          
+            ],
+
           foto: " petroviceV.jpg   ",
           umisteniFoto: " vlevo   ",
           popisek: " 2164 Petrovice. detail. (květen 2020)  ",
         },
         {
           textOdstavce:
-            '   <p> A to byl poslední kříž, o kterém v tomto vyprávění píši, probral jsem jich 32 a to nejsem ani v polovičce. Na západ a sever je od Brna více smírčích křížů, než na jih a východ. Nezbývá než dokončení vyprávění odložit na příště. Pokud vás napadne nějaké kříže sami vyhledat, je na místě upozornění: <strong>Pozor, hledání je droga</strong>, které se snadno propadne.</p><p> Pokud chcete vidět více barevných obrázků.najdete je <a href="https://turistapavel.rajce.idnes.cz/202012_Smirci_krize_na_Brnensku_vychod_a_jih/" target="_blank" class="vnitrniOdkaz">tady</a>.</p><p>Psáno v Bohunicích o adventu 2020</p>  ',
+            '   <p> A to byl poslední kříž, o kterém v\xa0tomto vyprávění píši, probral jsem jich 32 a to nejsem ani v\xa0polovičce. Na západ a sever je od Brna více smírčích křížů, než na jih a východ. Nezbývá než dokončení vyprávění odložit na příště. Pokud vás napadne nějaké kříže sami vyhledat, je na místě upozornění: <strong>Pozor, hledání je droga</strong>, které se snadno propadne.</p><p> Pokud chcete vidět více barevných obrázků.najdete je <a href="https://turistapavel.rajce.idnes.cz/202012_Smirci_krize_na_Brnensku_vychod_a_jih/" target="_blank" class="vnitrniOdkaz">tady</a>.</p><p>Psáno v\xa0Bohunicích o adventu 2020</p>  ',
         },
       ],
       fotkaUvod: { fotka: "uvodV.jpg" },

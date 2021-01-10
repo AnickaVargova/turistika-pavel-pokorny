@@ -20,7 +20,7 @@
           >{{ odkaz.textOdkazu }}</router-link
         >
       </span>
-      <span>{{ odkaz.zaOdkazem }}</span>
+      <span v-html="odkaz.zaOdkazem">{{ odkaz.zaOdkazem }}</span>
     </span>
   </div>
 </template>
