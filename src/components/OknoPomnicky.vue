@@ -273,6 +273,7 @@
 
   #oknoPomnicky button {
     background-color: #459ae6;
+    
   }
 
   #oknoPomnicky button:hover {
@@ -335,7 +336,7 @@
   }
 
   #mapaPomnicky {
-    width: 70vw;
+    width: 100%;
     height: 80vh;
     margin: auto;
   }

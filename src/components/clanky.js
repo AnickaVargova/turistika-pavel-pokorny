@@ -5079,28 +5079,28 @@ export default {
         {
           textOdstavce:
             "   <p> Více na východ, až u Bučovic, stojí smírčí kámen <strong>0648 Černčín 1</strong>. Najdeme ho na návsi u bývalé školy. Moudří v\xa0této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky <strong>---- Černčín 2</strong> s\xa0doslovným textem ve staré češtině. Lze se tu dočíst, že v\xa0říjnu 1606 tu byl zabit Pavel Vašina, soused z\xa0Vícemilic.</p><p> Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen <strong>2523 Archlebov</strong>. Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž. </p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  78,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 3,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Více na východ, až u Bučovic, stojí smírčí kámen ',
-             textOdkazu: '0648 Černčín 1',
-            zaOdkazem: '. Najdeme ho na návsi u bývalé školy. ',
-               },
-           {
-            vnitrniOdkaz:  79,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 3,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Moudří v\xa0této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky ',
-             textOdkazu: '---- Černčín 2',
-            zaOdkazem: ' s\xa0doslovným textem ve staré češtině. Lze se tu dočíst, že v\xa0říjnu 1606 tu byl zabit Pavel Vašina, soused z\xa0Vícemilic.',
-               },
-           
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 78,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem: "Více na východ, až u Bučovic, stojí smírčí kámen ",
+              textOdkazu: "0648 Černčín 1",
+              zaOdkazem: ". Najdeme ho na návsi u bývalé školy. ",
+            },
+            {
+              vnitrniOdkaz: 79,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Moudří v\xa0této malé obci si poradili šalamounsky. Už před 90 lety dali převézt kámen do obce. Někdo tehdy opsal nápis na kříži, dnes zcela nečitelný. Když se kámen začal povětrností rozpadat, schovali ho pod stříšku. Na původním místě, nad přírodní rezervací Hašky, pak byla právě 400 let po tragédii vztyčena volná kopie kamenné desky ",
+              textOdkazu: "---- Černčín 2",
+              zaOdkazem:
+                " s\xa0doslovným textem ve staré češtině. Lze se tu dočíst, že v\xa0říjnu 1606 tu byl zabit Pavel Vašina, soused z\xa0Vícemilic.",
+            },
+          ],
 
           foto: "  cerncin2.jpg  ",
           umisteniFoto: " vlevo   ",
@@ -5109,47 +5109,45 @@ export default {
         {
           textOdstavce:
             "<p> Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen <strong>2523 Archlebov</strong>. Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž. </p>  ",
-            vnitrniOdkazy:
-            [
-                
-           {
-            vnitrniOdkaz:  82,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 3,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen  ',
-             textOdkazu: '2523 Archlebov',
-            zaOdkazem: '. Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž.',
-               },
-
-            ],
-        
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 82,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Poněkud bokem, až za hřebenem Ždánického lesa leží modernější smírčí kámen  ",
+              textOdkazu: "2523 Archlebov",
+              zaOdkazem:
+                ". Dá se najít severně od obce u kapličky, první zpráva o něm je z\xa0roku 1930, do nízkého kamene je vyryt klínový kříž.",
+            },
+          ],
         },
         {
           textOdstavce:
             "   <p> Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí <strong>1292 Moravany 1</strong>, plochá čtvercová deska s\xa0řeckým křížem. Na návsi lze najít kopii kamene <strong>1867R Moravany 2</strong>. Originál kamene stál kdesi v\xa0polích k\xa0Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v\xa015. století. Před několika lety byl osekaný originál nahrazen replikou. </p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  58,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí ',
-             textOdkazu: '1292 Moravany 1',
-            zaOdkazem: ', plochá čtvercová deska s\xa0řeckým křížem.    ',
-               },
-           {
-            vnitrniOdkaz:  59,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Na návsi lze najít kopii kamene ',
-             textOdkazu: '1867R Moravany 2',
-            zaOdkazem: '. Originál kamene stál kdesi v\xa0polích k\xa0Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v\xa015. století. Před několika lety byl osekaný originál nahrazen replikou.    ',
-               },
-           
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 58,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Vraťme se na jih od Brna. Na území Moravan leží 2 kříže. Na plochém návrší mezi Moravany a Modřicemi stojí ",
+              textOdkazu: "1292 Moravany 1",
+              zaOdkazem: ", plochá čtvercová deska s\xa0řeckým křížem.    ",
+            },
+            {
+              vnitrniOdkaz: 59,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem: "Na návsi lze najít kopii kamene ",
+              textOdkazu: "1867R Moravany 2",
+              zaOdkazem:
+                ". Originál kamene stál kdesi v\xa0polích k\xa0Ostopovicím a měl připomínat pokus vraždy na Řehoři Helderovi v\xa015. století. Před několika lety byl osekaný originál nahrazen replikou.    ",
+            },
+          ],
 
           foto: " moravany2V.jpg   ",
           umisteniFoto: "   vpravo    ",
@@ -5158,19 +5156,18 @@ export default {
         {
           textOdstavce:
             "   <p>Další památka je v\xa0Bratčicích. Kamenná deska <strong>1985 Bratčice</strong> je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.</p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  62,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Další památka je v\xa0Bratčicích. Kamenná deska ',
-             textOdkazu: '1985 Bratčice',
-            zaOdkazem: ' je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.',
-               },
-           
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 62,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem: "Další památka je v\xa0Bratčicích. Kamenná deska ",
+              textOdkazu: "1985 Bratčice",
+              zaOdkazem:
+                " je vysoká 1,1 metru a je zazděná do zahradní zdi u silnice na Sobotovice. Podle pověsti tu byl pochován francouzský voják.",
+            },
+          ],
 
           foto: " opatovice1V.jpg   ",
           umisteniFoto: " vlevo   ",
@@ -5179,28 +5176,28 @@ export default {
         {
           textOdstavce:
             "   <p> Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny <strong>1788 Opatovice 1</strong> a <strong>1789 Opatovice 2</strong> spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v\xa0Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.</p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  63,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny ',
-             textOdkazu: '1788 Opatovice 1',
-            zaOdkazem: '',
-               },
-           {
-            vnitrniOdkaz:  64,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: ' a ',
-             textOdkazu: '1789 Opatovice 2',
-            zaOdkazem: ' spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v\xa0Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.',
-               },
-           
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 63,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Zvláštní je, že většina obcí se nemůže vykázat žádným smírčím kamenem, ale jsou vesnice, které mají na svém katastru i několik těchto památek. Kameny ",
+              textOdkazu: "1788 Opatovice 1",
+              zaOdkazem: "",
+            },
+            {
+              vnitrniOdkaz: 64,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem: " a ",
+              textOdkazu: "1789 Opatovice 2",
+              zaOdkazem:
+                " spolu dokonce souvisejí. Oba najdeme na západ od obce, na pomezí polí a zahrad, asi 100 metrů od sebe. Pověst praví, že tři vojáci tu svedli souboj o ženu a přitom se vzájemně zastřelili. Třetí kámen se ale nenašel. Smírčí kříž <strong>1777 Měnín</strong> převezli kdysi ke kostelu v\xa0Měníně kdesi od Otmarova. Je to krásná plotna vysoká 1,3 metru a je na ní orámovaný latinský kříž.",
+            },
+          ],
 
           foto: " opatovice2V.jpg   ",
           umisteniFoto: "   vpravo    ",
@@ -5209,20 +5206,19 @@ export default {
         {
           textOdstavce:
             "   <p> Majestátní kříž mají v\xa0Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž <strong>0775 Sokolnice</strong> je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v\xa0západních Čechách. V\xa0obrozeneckých dobách kladli jeho vznik do souvislosti s\xa0cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.</p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  70,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Majestátní kříž mají v\xa0Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž   ',
-             textOdkazu: '0775 Sokolnice',
-            zaOdkazem: ' je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v\xa0západních Čechách. V\xa0obrozeneckých dobách kladli jeho vznik do souvislosti s\xa0cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.',
-               },
-           
-
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 70,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Majestátní kříž mají v\xa0Sokolnicích, stojí na JZ okraji obce u starého tvrziště Stráž. Mohutný kamenný kříž   ",
+              textOdkazu: "0775 Sokolnice",
+              zaOdkazem:
+                " je vysoký 1,6 a široký 0,9 metru. Na Moravě je takový zjev ojedinělý, častější je v\xa0západních Čechách. V\xa0obrozeneckých dobách kladli jeho vznik do souvislosti s\xa0cyrilometodějskou misií na naše území. Žádné důkazy to ale nepotvrzují.",
+            },
+          ],
 
           foto: " sokolniceV.jpg   ",
           umisteniFoto: "  vlevo  ",
@@ -5231,116 +5227,105 @@ export default {
         {
           textOdstavce:
             "   <p> V\xa0Těšanech na návsi u kovárny se objevil kámen <strong>2025 Těšany</strong>. Krásná kamenná deska vysoká 0,7 metru je zabetonovaná v\xa0zemi.  Z\xa0obou stran kamene vystupuje výrazný reliéf latinského kříže. Před sto lety stával u silnice do Borkovan.</p>  ",
-         
-
-          
         },
         {
           textOdstavce:
             "   <p>K nejzajímavějším křížům Jižní Moravy patří zejména další dva, tvarem i důvodem vzniku se podobající. Oba mají ulomená horní břevna, oba jsou spojeny s\xa0tatarským vpádem. Kříž <strong>1856 Přísnotice</strong> se nalézá jihozápadně od vsi na poli rovném jako stůl. Nejlépe se k\xa0němu jde ze silnice do Vranovic, ale i odtud je to 300 metrů po poli. Kříž byl původně dvouramenný, asi metr vysoký, ale už dávno o horní břevna přišel. Spodní břevno je popsáno textem o zabití Kryštofa Krause z\xa0Grotky roku 1663 při pícování Tatarů.</p>",
-          
-         
         },
         {
           textOdstavce:
             "  <p> V\xa0Nikolčicích vede ke kříži odbočka červené značky. <strong>1751 Nikolčice</strong> leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z\xa0jedné strany německy, z\xa0druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v\xa0Blansku a badatelka přes kříže, v\xa0rámci své diplomové práce. Píše se v\xa0něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v\xa0Brně.  </p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz: 81 ,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: 'V Nikolčicích vede ke kříži odbočka červené značky. ',
-             textOdkazu: '1751 Nikolčice',
-            zaOdkazem: ' leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z\xa0jedné strany německy, z\xa0druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v\xa0Blansku a badatelka přes kříže, v\xa0rámci své diplomové práce. Píše se v\xa0něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v\xa0Brně.    ',
-               },
-          
-
-            ],
-            foto: "  nikolciceV.jpg  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 81,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "V Nikolčicích vede ke kříži odbočka červené značky. ",
+              textOdkazu: "1751 Nikolčice",
+              zaOdkazem:
+                " leží blízko rozcestí lesních cest pod Holým vrchem a říká se tu U Josífka. Původně byl dvouramenný, patriarší, ale horní břevna byla kdysi uražena. Celý kříž, vysoký 1,4 metru, je popsán, z\xa0jedné strany německy, z\xa0druhé česky. Nápis přečetla Eva Nečasová, pozdější ředitelka muzea v\xa0Blansku a badatelka přes kříže, v\xa0rámci své diplomové práce. Píše se v\xa0něm, že roku 1663 při tatarském vpádu byl zde zabit hustopečský měšťan Konrád Schaller a tělo pohřbeno v\xa0Brně.    ",
+            },
+          ],
+          foto: "  nikolciceV.jpg  ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1751 Nikolčice  ( březen 2013) ",
-         
         },
         {
           textOdstavce:
             "   <p> Několik křížů je i na Krumlovsku. V\xa0Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska <strong>1754 Alexovice</strong>. Do desky je vyryt latinský kříž s\xa0rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s\xa0koňmi a vozka zahynul. V\xa0Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.</p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  52,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 5,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Několik křížů je i na Krumlovsku. V\xa0Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska ',
-             textOdkazu: '1754 Alexovice',
-            zaOdkazem: ' Do desky je vyryt latinský kříž s\xa0rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s\xa0koňmi a vozka zahynul. V\xa0Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.    ',
-               },
-         
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 52,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Několik křížů je i na Krumlovsku. V\xa0Alexovicích, předměstí Ivančic, je na kopci Pekárka nad skálou 1,2 metru vysoká zvětralá pískovcová deska ",
+              textOdkazu: "1754 Alexovice",
+              zaOdkazem:
+                " Do desky je vyryt latinský kříž s\xa0rozšířenou patou. Po levé straně je vidět neznámý předmět, podobný háku. Pověst praví, že se tu zřítil vůz s\xa0koňmi a vozka zahynul. V\xa0Krumlově na hlavní ulici je do zdi hotelu zazděn smírčí kámen vysoký 1,1 metru, oválného tvaru.    ",
+            },
+          ],
 
-            foto: " alexoviceV.jpg   ",
-            umisteniFoto: "  vlevo  ",
-            popisek: " 1754 Alexovice   (červenec 2013)  ",
+          foto: " alexoviceV.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " 1754 Alexovice   (červenec 2013)  ",
         },
         {
           textOdstavce:
             "   <p> <strong>1664 Moravský Krumlov</strong> je deska s\xa0vystupujícím jetelovým křížem a v\xa0orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v\xa0červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl. </p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  84,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 5,
-            odkazKde: 'odstavec',
-             predOdkazem: '',
-             textOdkazu: '1664 Moravský Krumlov',
-            zaOdkazem: ' je deska s\xa0vystupujícím jetelovým křížem a v\xa0orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v\xa0červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl.',
-               },
-               
-            ],
-            foto: "  morkrumlovV.jpg  ",
-            umisteniFoto: "   vpravo    ",
-            popisek: " 1664 Moravský Krumlov  ( květen 2020) ",
-         
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 84,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem: "",
+              textOdkazu: "1664 Moravský Krumlov",
+              zaOdkazem:
+                " je deska s\xa0vystupujícím jetelovým křížem a v\xa0orámování jsou dva řádky textu starou češtinou. Že číst a přepisovat starý text není jednoduché, předvedu hned:</p><p>LETHA›I613›W NEDIELIPRZED›SWÁTV›MARZI›M…..…..NATOMTOMISTE ZAS..GIS SLOWV.I NYM/ZGIR //KHANZLV›TENCZAS›RICHTÁRPRZISEZNY OD›CANA MAVRYCE›SINAFOLTINAVIRA›S...TEM›CEHOŽTODVSSI PANBV HRS //MILOS TIWBE // ITIA MEN.</p><p>Takto jsem text přepsal já, jiní badatelé to přečetli trochu jinak, můžete si to zkusit sami, když se tam dostanete. Přeloženo do moderní češtiny – v\xa0červenci 1613 tu byl zabit přísežný rychtář Jiří Hanzl.",
+            },
+          ],
+          foto: "  morkrumlovV.jpg  ",
+          umisteniFoto: "   vpravo    ",
+          popisek: " 1664 Moravský Krumlov  ( květen 2020) ",
         },
-        
+
         {
           textOdstavce:
             "   <p> Blízko Loděnice na silnici z\xa0Pravlova do Miroslavi se v\xa0mezi u silnice vyskytuje kamenná deska <strong>1935 Loděnice</strong> rozměrů 0,9 x 0,7 metru.  Z\xa0desky vystupuje latinský kříž na podstavci.</p>",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  80,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 4,
-            odkazKde: 'odstavec',
-             predOdkazem: ' Blízko Loděnice na silnici z\xa0Pravlova do Miroslavi se v\xa0mezi u silnice vyskytuje kamenná deska ',
-             textOdkazu: '1935 Loděnice',
-            zaOdkazem: ' rozměrů 0,9 x 0,7 metru.  Z\xa0desky vystupuje latinský kříž na podstavci.     ',
-               },
-           
-
-            ],
-         
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 80,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem:
+                " Blízko Loděnice na silnici z\xa0Pravlova do Miroslavi se v\xa0mezi u silnice vyskytuje kamenná deska ",
+              textOdkazu: "1935 Loděnice",
+              zaOdkazem:
+                " rozměrů 0,9 x 0,7 metru.  Z\xa0desky vystupuje latinský kříž na podstavci.     ",
+            },
+          ],
         },
         {
           textOdstavce:
             "  <p> Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž <strong>2164 Petrovice</strong> se zajímavou historií. Stával kdysi dávno u staré cesty z\xa0Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z\xa0Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v\xa018. století. V\xa050. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v\xa0roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v\xa0roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z\xa0něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s\xa0letopočtem je přidělána dodatečně.</p>  ",
-            vnitrniOdkazy:
-            [
-                {
-            vnitrniOdkaz:  83,
-            odkazKategorie: 'smircikrize',
-            odkazPodkategorie: 5,
-            odkazKde: 'odstavec',
-             predOdkazem: 'Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž ',
-             textOdkazu: '2164 Petrovice',
-            zaOdkazem: ' se zajímavou historií. Stával kdysi dávno u staré cesty z\xa0Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z\xa0Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v\xa018. století. V\xa050. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v\xa0roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v\xa0roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z\xa0něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s\xa0letopočtem je přidělána dodatečně.',
-               },
-          
-            ],
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 83,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Petrovice je malá ves za Moravským Krumlovem. Na návsi mají vystaven kříž ",
+              textOdkazu: "2164 Petrovice",
+              zaOdkazem:
+                " se zajímavou historií. Stával kdysi dávno u staré cesty z\xa0Petrovic do Kadova. Traduje se o něm, že zde zmrzl řezník z\xa0Ivančic, který po vesnicích vykupoval maso a dobytek na porážku. Stalo se někdy v\xa018. století. V\xa050. letech při scelování pozemků kříž zavazel, tak ho odvezli do areálu JZD. Tam zapadl do země a zmizel. Až v\xa0roce 2014 si na něj někdo vzpomněl. Kříž vykopali, zrestaurovali a umístili na čestné místo na náves, v\xa0roce 2018 kvůli němu zbudovali i novou kapličku. Pamětní jetelový kříž je pokryt těžko čitelným německým nápisem, který se podařilo rozluštit jen zčásti. Vyplývá z\xa0něj, že na tomto místě zmrzl ve veliké zimě Wenczel Hain. Noha kříže s\xa0letopočtem je přidělána dodatečně.",
+            },
+          ],
 
           foto: " petroviceV.jpg   ",
           umisteniFoto: " vlevo   ",
@@ -5354,6 +5339,307 @@ export default {
       fotkaUvod: { fotka: "uvodV.jpg" },
       galerie: [],
     },
+
+    {
+      id: 117,
+      kategorie: "pomnicky",
+      pridano: " 12/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Znojmo ",
+      obec: "  Vedrovice  ",
+      jmeno: " Klapal, Jan  ",
+      nazev: " Pomníček Jana Klapala ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " Leží 1 km SV od kostela ve Vedrovicích, na kraji lesa a před plotem obory směrem od Vedrovic.  ",
+      popis:
+        "  Pomníček vysoký 1 metr je z umělého kamene. Do soklu vetknut hranol a v něm je vložena zašlá bílá deska s textem. Nad deskou bývala oválná fotografie.   ",
+      napis:
+        " Je těžko čitelný:  ZDE  NÁHLE  ZEMŘEL // JAN  //  KLAPAL  // HAJNÝ V. V. VE  VĚKU 75 LET  //  ...  ",
+      pozn: "    ",
+      naposledObnoveno: " 12.1.2021 ",
+      souradnice: " 49.0277119N, 16.3848586E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/puhalobeco" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/puhalobeco",
+      galerie: [
+        { fotka: "klapal1.jpg", popisek: " (leden 2017) " },
+        { fotka: "klapal2.jpg", popisek: " (leden 2017) " },
+      ],
+      proMe: "  XX/925  24-343-51  17---012  ",
+    },
+    {
+      id: 118,
+      kategorie: "pomnicky",
+      pridano: " 11/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké    ",
+      okres: " Břeclav ",
+      obec: " Nikolčice   ",
+      jmeno: " Boháček, Josef  ",
+      nazev: " Boháčkova památka ",
+      kdyVznikl: " po 1979 ",
+      popisCesty:
+        " Leží 1100 metrů JZ od kostela v Nikolčicích, na S svahu Liščí hory, na kraji lesa u cesty.  ",
+      popis:
+        " Kamennný pomníček. Ze soklu volně ložených kamenů povstává kamenná deska s vybledlou fotografií a zašlým textem. Pomníček bez péče.   ",
+      napis:
+        "Těžce čitelné:   ZELENÉ  HÁJE // JOSEF //  BOHÁČEK // ZEMŘ. TRAG. ... 1979 // VE VĚKU 4? LET //  …?.... MYSLIVCI  ",
+      pozn: "",
+      naposledObnoveno: " 11.1.2021 ",
+      souradnice: " 48.9889278N, 16.7429656E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cuhasosara" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/cuhasosara",
+      galerie: [
+        { fotka: "bohacek1.jpg", popisek: " (říjen 2016) " },
+        { fotka: "bohacek2.jpg", popisek: " (říjen 2016) " },
+      ],
+
+      proMe: "  XIX/913  34-211-34  Obl.-ost.  ",
+    },
+    {
+      id: 119,
+      kategorie: "pomnicky",
+      pridano: " 11/01/2021 ",
+      podkategorie: 7,
+      druh: "  Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: " Újezd u Rosic   ",
+      jmeno: " Lesáci z Rosic  ",
+      nazev: " Památník lesákům z Rosic a Náměště. ",
+      kdyVznikl: " 1928 ",
+      popisCesty:
+        " Významná křižovatka lesních cest leží 2200 metrů JV od Újezdu, uprostřed lesního komplexu. Místní název U pomníčku. ",
+      popis:
+        "  Na jednom místě je pět různých objektů. Kamenný kříž z roku 2010, v perfektním stavu. Kamenný památník vyzděný ze světlých kamenů vysoký 1,5 metru, nahoře s nápisem 8. V. 1945, níže foto Masaryka, starý státní znak a nápis 1918 - 1928. Dřevěný altán. Improvizovaný oltářík s mariánským obrázkem a votivním textem. Dřevěný přístřešek vysoký 2 metry se dvěma dřevěnými cedulemi s vypáleným textem do dřeva.  ",
+      napis:
+        " Na horní ceduli zdobným písmem:  ...A  LESY // ŠUMÍ  DÁL.  Na spodní ceduli: VĚNOVÁNO  PAMÁTCE  LESÁKůM  Z  ROSIC // A  NÁMĚŠTĚ N/OSL.  ZA  OBĚTAVOU  PRÁCI  PRO LES   ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn:
+        "  V některých mapách se lze setkat i s pojmenováním místa: Pomník padlým z I. a II. světové války. Tomu ale žádný z památníků neodpovídá. Kamenný pomník připomíná vznik republiky.   ",
+      naposledObnoveno: " 11.1.2021 ",
+      souradnice: " 49.2106044N, 16.2748078E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/felufababu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/felufababu",
+      galerie: [
+        { fotka: "lesakumzrosic1.jpg", popisek: " (únor 2014) " },
+        { fotka: "lesakumzrosic2.jpg", popisek: " (únor 2014) " },
+        { fotka: "lesakumzrosic3.jpg", popisek: " (únor 2014) " },
+      ],
+
+      proMe: " XIX/798  24-314-49  14---021   ",
+    },
+    {
+      id: 120,
+      kategorie: "pomnicky",
+      pridano: " 11/01/2021 ",
+      podkategorie: 7,
+      druh: "  Lesnické a dřevařské ",
+      okres: " Prostějov ",
+      obec: " Protivanov   ",
+      jmeno: " Gardelka, Zdeněk  ",
+      nazev: " Kámen Zdeňka Gardelky ",
+      kdyVznikl: " 2013  ",
+      popisCesty:
+        " 3,1 km JJZ od kostela v Protivanově, na významné křižovatce lesních silnic.  ",
+      popis:
+        "  Velký lomový kámen 1,4 x 1 metr je zasazen šikmo do země. Na čelní straně vystupuje relief větví a na ohlazené ploše je text  psacím písmem. ",
+      napis:
+        "   Památce lesáka //  Ing. Zdeňka Gardelky  //  ku prospěchu lesa zde působícího  // v letech 1956 - 2005  ",
+
+      pozn: "",
+      naposledObnoveno: " 11.1.2021 ",
+      souradnice: " 49.4559639N, 16.8273478E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/netakovapa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/netakovapa",
+      galerie: [
+        { fotka: "gardelka1.jpg", popisek: " (září 2013) " },
+        { fotka: "gardelka2.jpg", popisek: " (září 2013) " },
+      ],
+      proMe: " XVIII/782  24-231-2  13---091   ",
+    },
+    {
+      id: 121,
+      kategorie: "pomnicky",
+      pridano: " 11/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké   ",
+      okres: "  Blansko ",
+      obec: "  Hořice  ",
+      jmeno: " Formánek, Antonín  ",
+      nazev: " Deska Antonína Formánka ",
+      kdyVznikl: " po 1966  ",
+      popisCesty:
+        " 1700 metrů SZ od kapličky v Hořicích, na křižovatce lesních silnic u Nepustilovy boudy.  ",
+      popis:
+        "  Do přírodního kamene vysokého 1 metr je zapuštěna kovová deska s textem  ",
+      napis: " …  //  ANT.  FORMÁNEK //  * 30. 3. 1931  + 7. 4. 1966 ",
+
+      pozn: "",
+      naposledObnoveno: "11.1.2021 ",
+      souradnice: " 49.3688517N, 16.6065431E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/jecucajufe" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/jecucajufe",
+      galerie: [
+        { fotka: "formanek1.jpg", popisek: " (září 2015) " },
+        { fotka: "formanek2.jpg", popisek: " (září 2015) " },
+      ],
+      proMe: " XIX/868  24-144-8  15---093   ",
+    },
+    {
+      id: 122,
+      kategorie: "pomnicky",
+      pridano: " 09/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké   ",
+      okres: " Brno - venkov ",
+      obec: "  Opatovice  ",
+      jmeno: " Soukal, Josef  ",
+      nazev: " Štatule ",
+      kdyVznikl: " po 1830 ",
+      popisCesty:
+        " 1100 m Z od kostela v Opatovicích, uprostřed polí, schován v remízku. Původně tu stál Opatovický les a pomník byl na jeho okraji. Regulovaná Svratka je odtud vzdálena asi 400 metrů. Cesta sem nevede.  ",
+      popis:
+        "  Výpravný pomník v neogotickém stylu ve tvaru boží muky je vysoký 2,5 metru je poněkud zanedbán. Lidový název Štatule vznikl zkomolením německého die Statue = socha.  ",
+      napis:
+        "opsán včetně chyb:  Otci svému Josefu Soukalovi, // myslivci kláštera Rajhradského, // na tomto místě od pytláka zastřelené, // mu, pomník tento postavili pozusta, // ly synové :  // Josef, Ján a Anton.  ",
+      odkazy: [
+        {
+          nazev: " Opatovice  ",
+          adresa:
+            " http://www.opatovice.eu/prochazka-s-povidanim-o-historii-opatovic-22-4-2017/d-19885 ",
+        },
+      ],
+      pozn:
+        " Při jarních povodních na Svratce se zvěř uchylovala na hráze, kde byla snadným cílem pytláků. Klášterní myslivec Josef Soukal 30. března 1830 uvolňoval kry v korytě řeky, když od Opatovic padla rána. Soukal si vzal do lodi dobrého veslaře Štětku a rychle pluli k Opatovickému lesu. Před nimi se náhle objevila loďka s pytlákem a zastřelenou srnou. Soukalův člun ji dohonil a Soukal stoje na přídi vyzval pytláka, aby se vzdal. Ten ale sáhl po pušce a  myslivce zasáhl do hrudi. Soukal padl Štětkovi do náruče a pronesl poslední slova: Štětko, braň se, já mám dost. Pytlák František Zapomněl z Blučiny unikl, ale byl záhy dopaden. Dostal 10 let na Špilberku, kde brzy zemřel. Tři Soukalovi synové postavili tento pomník.  ",
+      naposledObnoveno: " 9.1.2021 ",
+      souradnice: " 49.0736650N, 16.6245292E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cenasozelu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/cenasozelu",
+      galerie: [
+        { fotka: "statule1.jpg", popisek: " (leden 2014) " },
+        { fotka: "statule2.jpg", popisek: " (leden 2014) " },
+        { fotka: "statule3.jpg", popisek: " (leden 2014) " },
+      ],
+      proMe: "  XIX/796  24-344-48  14---013  ",
+    },
+    {
+      id: 123,
+      kategorie: "pomnicky",
+      pridano: " 09/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké   ",
+      okres: " Brno - venkov ",
+      obec: "  Pozořice  ",
+      jmeno: " Dana, Franz  ",
+      nazev: " Památka revírníka Dany  ",
+      kdyVznikl: " polovina 19. století. ",
+      popisCesty:
+        "  Leží 300 metrů SSZ od středu obce Jezera, na kraji lesa, dnes i na kraji obce.  ",
+      popis:
+        "  Vápencový kámen vysoký 0,5 metru je přitesán do podoby hranečníku.  ",
+      napis:
+        " Těžce čitelné:   … // ZASTŘELEN // FRANZ  DANA // REVÍRNÍK  //  184?  . Nápis by se dal číst i jinak. Letopočet je buď 1841 nebo 1847.  ",
+      odkazy: [
+        { nazev: " František Neužil: Milostný herbář. 1976. str. 165-167. " },
+      ],
+      pozn:
+        "  František Neužil, rodák z Jezer, se ve svých románech několikrát zmiňuje o zastřeleném revírníkovi.Nejdůkladněji rozvinul pytláckou historku v románu Milostný herbář. V něm maskovaný pytlák pomstí děvče, které vinou revírníka přišlo o řeč. ",
+      naposledObnoveno: " 9.1.2021 ",
+      souradnice: " 49.2200511N, 16.7935414E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/betulajesu",width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/betulajesu",
+      galerie: [
+        { fotka: "dana1.jpg", popisek: " (listopad 2014) " },
+        { fotka: "dana2.jpg", popisek: " (listopad 2016) " },
+      ],
+      proMe: "  XVII/599  24-413-62  Obl.BO 16---111  ",
+    },
+    {
+      id: 124,
+      kategorie: "pomnicky",
+      pridano: " 08/01/2021 ",
+      podkategorie: 7,
+      druh: "  Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Rozdrojovice  ",
+      jmeno: " Drápal, Josef  ",
+      nazev: "Pomníček Josefa Drápala  ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " Leží 600 metrů SSV od kaple v Rozdrojovicích, kousek od kraje lesa nad roklemi.  ",
+      popis:
+        "  Neopracovaný kámen vysoký 0,7 metru je dán svisle do země a o něj  je opřena zašlá bílá deska. Na ní je  text a vybledlá fotka mládence.  ",
+      napis:
+        " JOSEF // DRÁPAL // ZAHYNUL  NA  TOMTO // MÍSTĚ  23. 12. 1942 // KAMARÁDU - KAMARÁDI !  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
+      pozn:
+        "  Mládenec přijel na dovolenou z Reichu, pomáhal v lese a při pokládání dřeva ho zavalila kláda.  ",
+      naposledObnoveno: " 8.1.2021 ",
+      souradnice: " 49.2602933N, 16.5127678E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/bukaludove" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/bukaludove",
+      galerie: [
+        { fotka: "drapal1.jpg", popisek: " (prosinec 2010)" },
+        { fotka: "drapal2.jpg", popisek: " (prosinec 2010)" },
+      ],
+      proMe: "  XVIII/679  24-324-38  obl.BO  ",
+    },
+    {
+      id: 125,
+      kategorie: "pomnicky",
+      pridano: " 07/01/2021 ",
+      podkategorie: 7,
+      druh: "  Lesnické a dřevařské ",
+      okres: " Brno - město ",
+      obec: "  Brno - Soběšice  ",
+      jmeno: " Morávek, Karel  ",
+      nazev: "Pěšina lesmistra Morávka  ",
+      kdyVznikl: " 1934 ",
+      popisCesty:
+        " 1500 metrů SV od kaple v Soběšicích. Na jednom z hřbítků spadajících z planiny Červených vrchů do údolí Melatín. Kolem vede červeně značená cesta po vrstevnici zvaná Morávkova stezka.  ",
+      popis:
+        " Skupina balvanů nad stezkou. Na největším z nich je do svislé plochy vyryt text.   ",
+      napis:
+        " PĚŠINA // LESMISTRA // KARLA  MORÁVKA . Z boku je na kamenu letopočet 1934.  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna  ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=11228 ",
+        },
+        {
+          nazev: " Lesní stezky  ",
+          adresa: " https://lesnistezky.cz/moravkova-stezka-2/ ",
+        },
+        {
+          nazev:
+            " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 139-140. ",
+        },
+      ],
+      pozn:
+        "Karel Morávek (1877 - 1934) byl lesmistr a správce velkostatku v Králově Poli. V lesnictví pracoval na různých pozicích od roku 1892, do Králova Pole přišel roku 1909 jako nadlesní knížecích lesů. Zasloužil se o vybudování této stezky.Dnešní značená cesta jde po lesní cestě za kamenem, původní pěšina vedla před kamenem.  Od roku 1972 vede po pěšině Lesnická naučná stezka. Byla už třikrát obnovena v různých podobách.  ",
+      naposledObnoveno: " 7.1.2021 ",
+      souradnice: " 49.2643942N, 16.6372950E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fanohekube" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fanohekube",
+      galerie: [
+        { fotka: "moravek1.jpg", popisek: " (listopad 2010)" },
+        { fotka: "moravek2.jpg", popisek: " (listopad 2010) " },
+        { fotka: "moravek3.jpg", popisek: " (listopad 2010) " },
+      ],
+      proMe: " I/16  24-324-34  obl.BO   ",
+    },
+
     // {
     //   id:  1000,
     //   datum: 'leden 2001',
