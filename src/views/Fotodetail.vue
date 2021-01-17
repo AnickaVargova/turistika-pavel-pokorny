@@ -1,6 +1,6 @@
 <template>
   <div id="fotodetail">
-    <figure v-bind:class="{ setHeight: !isEdgeChromium }">
+    <figure v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }">
       <img
         v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
         v-bind:alt="vybranaFotka.popisek"
@@ -154,10 +154,15 @@
     position: relative;
     border: 2px solid grey;
     border-radius: 5px;
+   
   }
 
   .setHeight {
     height: 80vh;
+  }
+
+  .setWidth {
+     max-width: 70%; 
   }
 
   #fotodetail img {

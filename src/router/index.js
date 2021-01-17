@@ -109,6 +109,12 @@ const routes = [
     name: "NovePridane",
     component: Detail,
   },
+
+  {
+    path: "/smircikrize/vypraveni/:podkategorie/:id",
+    name: "SmirciKrizeVypraveni",
+    component: Detail,
+  },
 ];
 
 const router = new VueRouter({

@@ -31,11 +31,7 @@
             frameborder="0"
           ></iframe>
 
-          <button
-            class="pomnicekKategorie"
-            v-on:click="schovejMapu"
-           
-          >
+          <button class="pomnicekKategorie" v-on:click="schovejMapu">
             Schovat mapu
           </button>
         </div>
@@ -96,11 +92,15 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'popisCesty'
             "
           >
-            <Klikaci v-bind:clanek="clanek" kdeJsem ='popisCesty' v-on:kliknuti="vyfiltrujPomnicek" />
+            <Klikaci
+              v-bind:clanek="clanek"
+              kdeJsem="popisCesty"
+              v-on:kliknuti="vyfiltrujPomnicek"
+            />
           </td>
           <td v-else>{{ clanek.popisCesty }}</td>
         </tr>
-       
+
         <tr v-if="clanek.kategorie === 'smircikrize'">
           <td>Kde se nachází?</td>
           <td
@@ -109,9 +109,13 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'kdeSeNaleza'
             "
           >
-            <Klikaci v-bind:clanek="clanek" kdeJsem ='kdeSeNaleza' v-on:kliknuti="vyfiltrujPomnicek" />
+            <Klikaci
+              v-bind:clanek="clanek"
+              kdeJsem="kdeSeNaleza"
+              v-on:kliknuti="vyfiltrujPomnicek"
+            />
           </td>
-          <td v-else >{{ clanek.kdeSeNaleza }}</td>
+          <td v-else>{{ clanek.kdeSeNaleza }}</td>
         </tr>
 
         <tr v-if="clanek.kategorie === 'pomnicky'">
@@ -132,7 +136,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'napis'
             "
           >
-            <Klikaci kdeJsem='napis' v-bind:clanek="clanek" />
+            <Klikaci kdeJsem="napis" v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.napis }}</td>
         </tr>
@@ -145,7 +149,7 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'povest'
             "
           >
-            <Klikaci v-bind:clanek="clanek" kdeJsem='povest'/>
+            <Klikaci v-bind:clanek="clanek" kdeJsem="povest" />
           </td>
           <td v-else>{{ clanek.povest }}</td>
         </tr>
@@ -158,17 +162,18 @@
                 clanek.vnitrniOdkazy[0].odkazKde === 'pozn'
             "
           >
-            <Klikaci kdeJsem ='pozn' v-bind:clanek="clanek" />
+            <Klikaci kdeJsem="pozn" v-bind:clanek="clanek" />
           </td>
           <td v-else>{{ clanek.pozn }}</td>
         </tr>
         <tr>
           <td>Galerie:</td>
-          <div id="fotogalerie">
+          <div id="fotogalerie" v-bind:class="{ galerieEdge: isEdgeChromium }">
             <div
               v-for="(obrazek, index) in clanek.galerie"
               v-bind:key="index"
               class="jednaFotka"
+              v-bind:class="{ jednaFotkaEdge: isEdgeChromium }"
             >
               <router-link
                 v-bind:to="
@@ -177,6 +182,7 @@
                 ><img
                   v-bind:src="require(`./../assets/${obrazek.fotka}`)"
                   alt="Fotodetail"
+                  v-bind:class="{ imgEdge: isEdgeChromium }"
               /></router-link>
             </div>
           </div>
@@ -206,7 +212,6 @@
                 padding: '2%',
                 height: '40px',
                 paddingLeft: '10%',
-               
               }"
               v-on:click="ukazMapu(clanek.id)"
             >
@@ -233,6 +238,7 @@
         vybraneId: undefined,
         testData: undefined,
         mojeClanky: this.clanky,
+        isEdgeChromium: false,
       };
     },
 
@@ -252,16 +258,29 @@
       vyfiltrujPomnicek(id) {
         this.$emit("kliknuti", id);
       },
-
-     
     },
-    created(){
-     
-      if(this.$route.name === 'NovePridane'){
-        this.mojeClanky = this.clanky.filter(clanek=>clanek.kategorie==='pomnicky'||clanek.kategorie==='smircikrize')
-       
+    created() {
+      if (this.$route.name === "NovePridane") {
+        this.mojeClanky = this.clanky.filter(
+          (clanek) =>
+            clanek.kategorie === "pomnicky" ||
+            clanek.kategorie === "smircikrize"
+        );
       }
-    }
+
+      var isChrome =
+        !!window.chrome &&
+        (!!window.chrome.webstore || !!window.chrome.runtime);
+
+      // Edge (based on chromium) detection
+      var isEdgeChromium = isChrome && navigator.userAgent.indexOf("Edg") != -1;
+
+      // Blink engine detection
+      // var isBlink = (isChrome || isOpera) && !!window.CSS;
+
+      this.isEdgeChromium = isEdgeChromium;
+      console.log(this.isEdgeChromium);
+    },
   };
 </script>
 
@@ -273,7 +292,6 @@
 
   #oknoPomnicky button {
     background-color: #459ae6;
-    
   }
 
   #oknoPomnicky button:hover {
@@ -314,13 +332,26 @@
     justify-content: flex-start;
   }
 
+  .galerieEdge {
+    flex-wrap: wrap;
+  }
+
   .jednaFotka {
-    /* flex-basis: 15%; */
     border: 2px solid grey;
     border-radius: 3px;
     height: 150px;
     margin: 20px;
     margin-left: 0;
+  }
+
+  .jednaFotkaEdge {
+    width: min-content;
+  }
+
+  .imgEdge {
+    object-fit: cover;
+    width: unset;
+    height: 100%;
   }
 
   .jednaFotka:hover {

@@ -14,7 +14,13 @@
       <router-link v-if="this.$route.name === 'NovePridane'" to="/novepridane">
         <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
-          Zpět na články
+          Zpět na naposled přidané
+        </div>
+      </router-link>
+       <router-link v-else-if="this.$route.name === 'SmirciKrizeVypraveni'" to="/smircikrize">
+        <a name="top"></a>
+        <div class="pomnicekKategorie" id="zpetNaClanky">
+          Zpět na smírčí kříže
         </div>
       </router-link>
       <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
@@ -148,6 +154,7 @@
     },
 
     created() {
+      console.log(this.$route.path);
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
