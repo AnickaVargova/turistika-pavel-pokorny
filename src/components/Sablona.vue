@@ -200,6 +200,8 @@
               (innerParams.stranka === 'novepridane' && pomnickyUkazat)
           "
           v-bind:clanky="clankyPodKategorie"
+          v-bind:podkategorie="this.$route.params.kategorie"
+          v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
           v-on:kliknuti="vyfiltrujPomnicek"
         />
       </div>

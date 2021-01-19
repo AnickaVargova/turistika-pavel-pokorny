@@ -231,7 +231,7 @@
 <script>
   import Klikaci from "./../components/Klikaci.vue";
   export default {
-    props: ["clanky"],
+    props: ["clanky", "podkategorie", "kategoriePomnicky"],
     components: { Klikaci: Klikaci },
     data() {
       return {
@@ -239,6 +239,7 @@
         testData: undefined,
         mojeClanky: this.clanky,
         isEdgeChromium: false,
+        
       };
     },
 
@@ -260,6 +261,7 @@
       },
     },
     created() {
+      console.log(this.podkategorie);
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>
@@ -279,7 +281,7 @@
       // var isBlink = (isChrome || isOpera) && !!window.CSS;
 
       this.isEdgeChromium = isEdgeChromium;
-      console.log(this.isEdgeChromium);
+     
     },
   };
 </script>
