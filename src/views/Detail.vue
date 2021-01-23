@@ -154,7 +154,7 @@
     },
 
     created() {
-      console.log(this.$route.path);
+     
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
@@ -184,11 +184,11 @@
   }
 
   #tlacitkoNahoruDetail {
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 3/4;
     position: -webkit-sticky;
     position: sticky;
-    top: 76px;
+    top: 0;
     margin-top: 3px;
     right: 0;
     min-width: unset;
@@ -203,7 +203,7 @@
 
   #tlacitkoDomuDetail {
     grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 2/3;
     min-width: unset;
     max-width: unset;
     width: 116px !important;
@@ -232,7 +232,7 @@
     }
 
     #tlacitkoNahoruDetail {
-      top: 60px;
+     
       width: 60px !important;
     }
 

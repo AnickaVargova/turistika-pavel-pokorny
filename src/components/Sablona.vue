@@ -328,15 +328,13 @@
               clanek.kategorie === "pomnicky" ||
               clanek.kategorie === "smircikrize"
             ) {
-              
             } else if (
               clanek.kategorie === "vypraveni" ||
               clanek.kategorie === "cesty"
             ) {
-             
             }
           }
-         
+
           return last2weeks <= 14;
         }
       },
@@ -400,12 +398,16 @@
 
         this.clankyPodKategorie = novaKategorie;
 
-        for(let clanek of this.clankyPodKategorie){
-          if (clanek.kategorie === 'pomnicky' || clanek.kategorie === 'smircikrize'){
+        for (let clanek of this.clankyPodKategorie) {
+          if (
+            clanek.kategorie === "pomnicky" ||
+            clanek.kategorie === "smircikrize"
+          ) {
             this.pomnickyUkazat = true;
-          }
-
-          else if (clanek.kategorie === 'cesty' || clanek.kategorie === 'vypraveni'){
+          } else if (
+            clanek.kategorie === "cesty" ||
+            clanek.kategorie === "vypraveni"
+          ) {
             this.clankyUkazat = true;
           }
         }
@@ -500,7 +502,7 @@
 
   @media screen and (max-width: 600px) {
     #pomnicky {
-      grid-template-rows: minmax(min-content, 150px) minmax(min-content, 50px) auto auto;
+      grid-template-rows: minmax(min-content, 120px) minmax(min-content, 50px) auto auto;
     }
 
     #pomnicky h1 {
@@ -574,9 +576,9 @@
   #tlacitkoDomu {
     grid-column: 6/7;
     grid-row: 1/2;
-    /* position: relative;
-    top: 20px;
-    right: 20px; */
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 30px;
     min-width: unset;
     max-width: unset;
     width: 116px !important;
@@ -590,9 +592,10 @@
     grid-column: 6/7;
     grid-row: 1/2;
     position: sticky;
-    top: 70px;
+    top: 0;
     left: 0;
-    /* right: 20px; */
+    justify-self: flex-end;
+    margin-right: 30px;
     margin-top: 20px;
     min-width: unset;
     max-width: unset;
@@ -630,12 +633,13 @@
     }
 
     #tlacitkoDomu {
-      top: 10px;
+      /* top: 10px; */
       width: 60px !important;
     }
 
     #tlacitkoNahoru {
-      top: 80px;
+      /* top: 80px; */
+      margin-top: 13px;
       width: 60px !important;
     }
 
@@ -728,7 +732,7 @@
   }
 
   .kontejnerSmallMargin {
-    margin-top: 20px;
+    margin: 30px;
   }
 
   #oknoPomnicky {

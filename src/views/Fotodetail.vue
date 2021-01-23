@@ -1,6 +1,8 @@
 <template>
   <div id="fotodetail">
-    <figure v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }">
+    <figure
+      v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
+    >
       <img
         v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
         v-bind:alt="vybranaFotka.popisek"
@@ -21,11 +23,10 @@
       >
         {{ vybranaFotka.popisek }}
       </figcaption>
-
-      <a @click="$router.go(-1)"
-        ><button class="pomnicekKategorie">Zpět</button></a
-      >
     </figure>
+    <a @click="$router.go(-1)"
+      ><button class="pomnicekKategorie">Zpět</button></a
+    >
   </div>
 </template>
 
@@ -58,7 +59,6 @@
 
     methods: {
       detailFotky() {
-        
         if (this.$route.params.podkategorie === "onas") {
           for (let item of this.fotoOnas) {
             if (item.fotka == this.$route.params.id) {
@@ -69,18 +69,14 @@
         } else {
           for (let clanek of this.clanky) {
             if (clanek.text) {
-              
-            
               for (let odstavec of clanek.text) {
                 if (odstavec.foto) {
-                  
                   clanek.galerie.push({
                     fotka: odstavec.foto.trim(),
                     popisek: odstavec.popisek,
                   });
                 }
               }
-             
             }
             if (clanek.galerie) {
               for (let obrazek of clanek.galerie) {
@@ -136,7 +132,6 @@
 
       this.isEdgeChromium = isEdgeChromium;
     },
-   
   };
 </script>
 
@@ -154,7 +149,6 @@
     position: relative;
     border: 2px solid grey;
     border-radius: 5px;
-   
   }
 
   .setHeight {
@@ -162,7 +156,7 @@
   }
 
   .setWidth {
-     max-width: 70%; 
+    max-width: 70%;
   }
 
   #fotodetail img {
@@ -178,8 +172,8 @@
 
   #fotodetail button {
     position: absolute;
-    right: 0;
-    bottom: -90px;
+    right: 30px;
+    bottom: 30px;
     width: 100px;
     justify-content: left;
     padding-left: 30px;
@@ -205,8 +199,6 @@
       margin: 0;
     }
 
-    #fotodetail button {
-      bottom: -100px;
-    }
+   
   }
 </style>
