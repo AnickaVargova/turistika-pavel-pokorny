@@ -5640,55 +5640,299 @@ export default {
       proMe: " I/16  24-324-34  obl.BO   ",
     },
     {
-      id:126 ,
-      kategorie: 'pomnicky',
-      pridano: ' 20/01/2021 ',
-      podkategorie:8 ,
-      druh: '  Lovecké a pytlácké ',
-      okres:' Žďár nad Sázavou ',
-      obec: '  Jindřichov  ',
-      jmeno: ' Poslední vlk  ',
-      nazev: 'Pocta poslednímu vlkovi ',
-      kdyVznikl:   ' Po roce 1861 tu býval dřevěný kříž, v roce 1933 vytesal lesní dělník Kafoněk z Pucova současnou subtilní kamennou desku. ', 
-      popisCesty: ' 1 kilometr J od Jindřichova, na hlavní lesní cestě od Velké Bíteše k Bělizně. Vede tu červená značka.   ',
-      popis: '  Plochá kamenná deska s neumělým nápisem. V posledních letech přibyl stojan s naučnou cedulí, zastřešené odpočívadlo, lavice a dřevořezba vlka.  ',
-      napis: '  VLK // 1861  ',
-      pozn: '  Stalo se 28. 3. 1861.  Hajný narazil na stopu a revírník Volešínský usoudil, že patří vlkovi. Lesníci uspořádali hon, obstoupili leč a vytlačili vlka z houštin. Do rány přišel Antonínu Schwedovi, revírníku z košíkovské myslivny. Byla to vyhublá vlčice, vážila 30 kg a měřila i s oháňkou 150 cm. Naložili ji na sáně (28. 3. !!)  a odvezli do náměšťského zámku, kde ji nechali vycpat. Po 160 letech se k nám vlci vracejí, možná tato vlčice nebyla na náměšťském panství poslední a nějakého vlčího chlupu se ještě dočkáme. Na Silvestra odpoledne si tu dávají sraz chataři z chatové osady Bělizna. ',
-      naposledObnoveno : ' 20.1.2021 ',
-      souradnice: ' 49.2529014N, 16.2023608E',
-      kodMapa: ' <iframe style="border:none" src="https://frame.mapy.cz/s/fekubuheja" width="400" height="280" frameborder="0"></iframe>   ',
-      odkazMapa: 'https://frame.mapy.cz/s/fekubuheja',
+      id: 126,
+      kategorie: "pomnicky",
+      pridano: " 20/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Žďár nad Sázavou ",
+      obec: "  Jindřichov  ",
+      jmeno: " Poslední vlk  ",
+      nazev: "Pocta poslednímu vlkovi ",
+      kdyVznikl:
+        " Po roce 1861 tu býval dřevěný kříž, v roce 1933 vytesal lesní dělník Kafoněk z Pucova současnou subtilní kamennou desku. ",
+      popisCesty:
+        " 1 kilometr J od Jindřichova, na hlavní lesní cestě od Velké Bíteše k Bělizně. Vede tu červená značka.   ",
+      popis:
+        "  Plochá kamenná deska s neumělým nápisem. V posledních letech přibyl stojan s naučnou cedulí, zastřešené odpočívadlo, lavice a dřevořezba vlka.  ",
+      napis: "  VLK // 1861  ",
+      pozn:
+        "  Stalo se 28. 3. 1861.  Hajný narazil na stopu a revírník Volešínský usoudil, že patří vlkovi. Lesníci uspořádali hon, obstoupili leč a vytlačili vlka z houštin. Do rány přišel Antonínu Schwedovi, revírníku z košíkovské myslivny. Byla to vyhublá vlčice, vážila 30 kg a měřila i s oháňkou 150 cm. Naložili ji na sáně (28. 3. !!)  a odvezli do náměšťského zámku, kde ji nechali vycpat. Po 160 letech se k nám vlci vracejí, možná tato vlčice nebyla na náměšťském panství poslední a nějakého vlčího chlupu se ještě dočkáme. Na Silvestra odpoledne si tu dávají sraz chataři z chatové osady Bělizna. ",
+      naposledObnoveno: " 20.1.2021 ",
+      souradnice: " 49.2529014N, 16.2023608E",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/fekubuheja" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/fekubuheja",
       galerie: [
-      {fotka: 'vlk1.jpg' , popisek: ' (leden 2020) '},
-      {fotka: 'vlk2.jpg' , popisek: ' (leden 2020) '},
+        { fotka: "vlk1.jpg", popisek: " (leden 2020) " },
+        { fotka: "vlk2.jpg", popisek: " (leden 2020) " },
       ],
-      proMe:' XX/1047  24-314-67  20---014   ',   
-      },
-      {
-        id:127 ,
-        kategorie: 'pomnicky',
-        pridano: ' 20/01/2021 ',
-        podkategorie:8 ,
-        druh: '  Lovecké a pytlácké ',
-        okres:' Brno - venkov ',
-        obec: '  Hostěnice  ',
-        jmeno: ' Nezval, Vlastimil  ',
-        nazev: ' Pomníček Vlastimila Nezvala  ',
-        kdyVznikl:   ' 1998 ', 
-        popisCesty: ' 2,1 kilometru SV od kaple v Hostěnicích, u lesní cesty, nedaleko významného rozcestí.   ',
-        popis: '  Nepravidelný lomový kámen vysoký 1 metr a na něm na rovné ploše je připevněna kovová tabulka. Je na ní fotografie mladého myslivce nad skoleným srncem a text.   ',
-        napis: ' VLASTIMIL  NEZVAL //   * 23. 8. 1948 // + 14. 9. 1988 // NA  VĚČNOU  PAMÁTKU - 1998  ',
-        pozn: '    ',
-        naposledObnoveno : ' 20.1.2021 ',
-        souradnice: ' 49.2494464N, 16.7955769E ',
-        kodMapa: '  <iframe style="border:none" src="https://frame.mapy.cz/s/juhegunura" width="400" height="280" frameborder="0"></iframe>  ',
-        odkazMapa: 'https://frame.mapy.cz/s/juhegunura',
-        galerie: [
-        {fotka: 'nezval1.jpg' , popisek: ' (listopad 2016) '},
-        ],
-        proMe:' 2001/417  24-413-31  16---111   ',   
+      proMe: " XX/1047  24-314-67  20---014   ",
+    },
+    {
+      id: 127,
+      kategorie: "pomnicky",
+      pridano: " 20/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: " Nezval, Vlastimil  ",
+      nazev: " Pomníček Vlastimila Nezvala  ",
+      kdyVznikl: " 1998 ",
+      popisCesty:
+        " 2,1 kilometru SV od kaple v Hostěnicích, u lesní cesty, nedaleko významného rozcestí.   ",
+      popis:
+        "  Nepravidelný lomový kámen vysoký 1 metr a na něm na rovné ploše je připevněna kovová tabulka. Je na ní fotografie mladého myslivce nad skoleným srncem a text.   ",
+      napis:
+        " VLASTIMIL  NEZVAL //   * 23. 8. 1948 // + 14. 9. 1988 // NA  VĚČNOU  PAMÁTKU - 1998  ",
+      pozn: "    ",
+      naposledObnoveno: " 20.1.2021 ",
+      souradnice: " 49.2494464N, 16.7955769E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/juhegunura" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/juhegunura",
+      galerie: [{ fotka: "nezval1.jpg", popisek: " (listopad 2016) " }],
+      proMe: " 2001/417  24-413-31  16---111   ",
+    },
+    {
+      id: 128,
+      kategorie: "pomnicky",
+      pridano: " 20/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Czepl, Karl  ",
+      nazev: " Czeplova smrt ",
+      kdyVznikl: " po 1842 ",
+      popisCesty:
+        " Ze Sedlece 2 km k V na rozcestí lesních cest u Holého kopce. Prochází tu zelená značka. ",
+      popis:
+        " Do kamenného soklu ze začátku 90. let je vsazena historická kamenná deska, nahoře zaoblená. Na ní je relief malého křížku a neumělý těžko čitelný text v němčině.    ",
+      napis:
+        " HIER  STARB // KARL  CZEPL // DEN  9TEN // IUNI  1842.  Přeloženo: zde zemřel K.C.  9. června 1842. ",
+      odkazy: [
+        {
+          nazev: " Lesy ČR ",
+          adresa:
+            " https://lesycr.cz/casopis-clanek/tajemny-nahrobek-na-holem-kopci/ ",
         },
-        
+      ],
+      pozn:
+        "  Karl Czepl byl oběť soubojů mezi pytláky a lesníky. Fořt s hajnými nemilosrdně pronásledovali pytláky v hraběcích lesích. Pokud nějakého dopadli, bez slitování ho zastřelili a zahrabali v lese. Stalo se, že postřelili pytláka Studeného ze Svatoslavi. Ten se zraněný ukryl v lese a druhý den ráno ho našel pastýř ležícího v korytě Oslavky. Tajně ho povozem odvezli  do Březníka, kde těžce zraněný pytlák zemřel. Jeho kamarádi přísahali, že jeho smrt pomstí. Výstřely vylákali fořta do lesa, tam ho obklíčili a zastřelili.   ",
+      naposledObnoveno: " 20.1.2021 ",
+      souradnice: " 49.1708975N, 16.1594986E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/keketusebe" width="400" height="280" frameborder="0"></iframe> ',
+      odkazMapa: "https://frame.mapy.cz/s/keketusebe",
+      galerie: [
+        { fotka: "czepl1.jpg", popisek: " (duben 2009) " },
+        { fotka: "czepl2.jpg", popisek: " (duben 2018) " },
+      ],
+      proMe: " IX/283  24-331-2  4.2009  18---042   ",
+    },
+    {
+      id: 129,
+      kategorie: "pomnicky",
+      pridano: " 21/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: " Hostěnice   ",
+      jmeno: " Řičánek, Vilém  ",
+      nazev: "  Kříž Viléma Řičánka ",
+      kdyVznikl: " třicátá léta 20. století ",
+      popisCesty:
+        " V rozsáhlém komplexu Hostěnického lesa, 1500 metrů JJZ od rozcestí Malá Říčka. Na hřbetu spadajícím do údolí Říčky. Hledá se obtížně.  ",
+      popis:
+        "  Kamenný kříž vysoký 2,5 metru se zašlou světlou deskou s textem. V poslední době je kolem kříže dřevěná ohrádka.   ",
+      napis:
+        " ZDE  NA  TOMTO  MÍSTĚ // NEŠŤASTNOU  NÁHODOU // BYL  ZASTŘELEN // VILÉM // ŘIČÁNEK // 3. 1. 1928 // ...   ",
+      pozn:
+        " Letopočet 1928 vypadá opravený, mohlo tu být původně i 1926 nebo 1929.   ",
+      naposledObnoveno: " 21. 1. 2021 ",
+      souradnice: " 49.2562469N, 16.8023411E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/govezopahe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/govezopahe",
+      galerie: [
+        { fotka: "ricanek1.jpg", popisek: "  (říjen 2010) " },
+        { fotka: "ricanek2.jpg", popisek: "  (říjen 2010) " },
+      ],
+      proMe: "  VI/196  24-413-2  archiv 30.10.10  ",
+    },
+    {
+      id: 130,
+      kategorie: "pomnicky",
+      pridano: " 22/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: "  Nebovidy  ",
+      jmeno: " Bartl, Robert  ",
+      nazev: " Bartlova památka ",
+      kdyVznikl: " po 1954 ",
+      popisCesty:
+        "  2 km ZSZ od kostela v Nebovidech, u lesní cesty nad bažinou, 100 metrů od silnice do Střelic.  ",
+      popis:
+        " Na kamenném základu stojí pískovcový hranol a v něm je vsazena černá deska s fotografií a textem.  ",
+      napis:
+        " Na tomto místě // 27. září 1954 položil život // při ochraně myslivosti //  ROBERT  BARTL // z Nebovid č. 99 // zemř. ve věku 50 let. // … // Myslivci z Nebovid.  ",
+      pozn:
+        "  Pomník znám od malička. Jako děti jsme vyslechli hrůzné pověsti o tom, jak pytláci zastřelili myslivce a zamačkali ho do bažiny.  ",
+      naposledObnoveno: " 22.1.2021 ",
+      souradnice: " 49.1488167N, 16.5290733E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/benohogate" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/benohogate",
+      galerie: [
+        { fotka: "bartlrobert1.jpg", popisek: "  (březen 2014) " },
+        { fotka: "bartlrobert2.jpg", popisek: "  (březen 2014) " },
+      ],
+      proMe: "  IV/212  24-342-27  14---033  ",
+    },
+    {
+      id: 131,
+      kategorie: "pomnicky",
+      pridano: " 21/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - město ",
+      obec: "  Brno - Jundrov  ",
+      jmeno: " Pelikan, Heinrich  ",
+      nazev: " Pelikánova smrt ",
+      kdyVznikl: " po 1899 ",
+      popisCesty:
+        " Nachází se v oboře na Holedné, 300 metrů SZ od hlavního vrcholu Holedné na bočním bezejmenném návrší s výškou 370 metrů nad mořem  ",
+      popis:
+        "  Metr vysoký kamenný památník se vsazenou oválnou kovovou deskou. Na ní je německý text, poslední dobou skoro nečitelný.   ",
+      napis:
+        " HIER  STARB // HERR // HEINRICH  PELIKAN // AM 27 MAI 1899 //  BEI AUSÜBUNG  DES  WAIDWERKS .  Přeloženo: zde zemřel pan H. P. 27. května 1899 při výkonu myslivosti.  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=32973 ",
+        },
+      ],
+      pozn:
+        "  Heinrich Pelikan (1841 - 1899) byl bývalý ředitel továrny na odpočinku a náruživý lovec. V sobotu 27. 5. 1899 se vypravil do jundrovských lesů a kolem 17 hodiny slyšel hajný výstřel z lesa. Pelikána našli až za dva dny, ležel s prostřelenou hlavou v Soví boudě na tomto místě. Příčina úmrtí byla stanovena jako nešťastná událost. Lovec si šel zřejmě do boudy odpočinout, asi upadl na schodech, rána vyšla z nezajištěné zbraně a zasáhla ho do hlavy. V matrice komínské farnosti je zapsáno “zemřel … nahodilým spuštěním střelné zbraně”.  ",
+      naposledObnoveno: " 21. 1. 2021 ",
+      souradnice: " 49.2153906N, 16.5358828E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bevodelotu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/bevodelotu ",
+      galerie: [
+        { fotka: "pelikan1.jpg", popisek: " (březen 2008) " },
+        { fotka: "pelikan2.jpg", popisek: " (březen 2008) " },
+      ],
+      proMe: "  I/31  24-324-29  BM-Holedná  ",
+    },
+    {
+      id: 132,
+      kategorie: "pomnicky",
+      pridano: " 21/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: "  Kanice  ",
+      jmeno: " Lechner, Gustav  ",
+      nazev: " Lechnerova památka ",
+      kdyVznikl: " po 1904 ",
+      popisCesty:
+        " Leží na Hádecké plošině, 900 metrů S od Velké Klajdovky, v zarůstajícím průseku, na území Národní přírodní rezervace. Asi 100 kroků od něho vede žlutě značená cesta. ",
+      popis:
+        " Do hromady vápencových kamenů je vložena kamenná deska. Do ní je vyryt křížek a německý text.   ",
+      napis:
+        "  GUSTAV // LECHNER // FÜRSTL.  FORSTER // GEST.  19  2/4  04 . V překladu: G. L. knížecí lesník zemřel 2. 4. 1904 ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/pamatnik-gustava-lechnera/detail ",
+        },
+        {
+          nazev:
+            " Jiří Truhlář: Památníky adamovských lesů, 2003, str. 135-136. ",
+        },
+      ],
+      pozn:
+        "  Truhlář popsal událost podle kroniky revíru Hády : 2. dubna 1904 brzy ráno šel pan lesní Lechner se synem lovit sluky. Měl s sebou psa a postavil se do průseku, kde dnes stojí památník. Jeho syn šel po průseku dále, takže na sebe neviděli. Asi po půl hodině čekání slyšel syn kňučení a štěkání psa. Vyběhl na návrší dělící obě stanoviště a uviděl jen naříkajícího psa, nikoliv otce. Spěchal blíže a našel ležícího otce, stiženého náhlou mrtvicí. Pod ním ležela nabitá puška. Veškeré oživování bylo marné.  ",
+      naposledObnoveno: " 21.1.2021 ",
+      souradnice: " 49.2255097N, 16.6792578E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/kenusogobe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/kenusogobe",
+      galerie: [
+        { fotka: "lechner1.jpg", popisek: " (září 2018) " },
+        { fotka: "lechner2.jpg", popisek: " (květen 2017) " },
+      ],
+      proMe: "  I/26  24-413-127  17---054  18---093  ",
+    },
+    {
+      id: 133,
+      kategorie: "pomnicky",
+      pridano: " 21/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: " Jinačovice   ",
+      jmeno: " Kučírek, Antonín  ",
+      nazev: " Pomník hajného Kučírka ",
+      kdyVznikl: " po 1905 ",
+      popisCesty:
+        " Leží 800 metrů ZJZ od středu Ivanovic, na hřbetu spadajícím z Velké Baby k V. Na lesním průseku, zeleně značená cesta je vzdálena asi 150 metrů.  ",
+      popis:
+        " Štíhlý komolý jehlan sahá do výšky 3 metry, v horní části umístěna oválná fotografie ve zdobeném rámu, v dolní části je vsazena bílá deska s textem.    ",
+      napis:
+        " Na tomto místě byl // ANTONÍN  KUČÍREK // hajný z Cinsendorfu // dne 18. ledna 1905 od pytláků zastřelen.<br> Cinsendorf, správně Zinsendorf  = Česká, od roku 1921. Název vznikl při založení obce 1784, kdy noví osadníci platili činži, něm. Zins.  ",
+      odkazy: [{ nazev: " Antonín Galla : U nás na Horce, 2008, str. 133. " }],
+      pozn:
+        "  Antonín Galla (1897 - 1972), brněnský houslař, ve své knize vzpomínek na dětství popisuje, jak na honu byl hajný Čódek vyzván, aby panstvo zavedl na místo vraždy: ‘Hajný vykročil, lovci za ním a za nimi my, zvědaví kluci. O té loňské vraždě jsme hodně slyšeli, teď se nám naskytla příležitost  vidět i místo činu. Došli jsme ke kupě kamení uměle navršené, uprostřed níž se tyčil malý dřevěný kříž, na něm tabulka se jménem zabitého hajného a s datem vraždy. Na dotazy střelců Čódek vyprávěl, že hajného Kučírka hledali tři dny, až noha vyčuhující z kupy listí kterým byl přikryt, ukázala, kde nebožtík leží. Dva bratři z Řečkovic, pytláci a vrazi, ho nejen zastřelili, ale také obrali o peníze a o hodinky. Ty hodinky jim však byly osudné. Chtěli je zastavit v zastavárně, ale tam již měli avizo, rovněž všichni hodináři v Brně, tak je zadrželi - a teď sedijó - dokončil svůj výklad Čódek. ‘Vrazi, bratři Kocourkové z Řečkovic, dostali údajně trest smrti, milostí císaře změněný na doživotí.   ",
+      naposledObnoveno: " 21.1.2021 ",
+      souradnice: "49.2597364N, 16.5557858E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/podacobada" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/podacobada",
+      galerie: [
+        { fotka: "kucirek1.jpg", popisek: " (prosinec 2007) " },
+        { fotka: "kucirek2.jpg", popisek: " (duben 2018) " },
+        { fotka: "kucirek3.jpg", popisek: " (duben 2018) " },
+        { fotka: "kucirek4.jpg", popisek: " (duben 2018) " },
+      ],
+      proMe: "  I/22  24-324-63  18---04.  ",
+    },
+    {
+      id: 134,
+      kategorie: "pomnicky",
+      pridano: " 22/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Vranov  ",
+      jmeno: " Obnova hospodaření  ",
+      nazev: " Obnova hospodaření v městských lesích. ",
+      kdyVznikl: "  4. 12. 2007 ",
+      popisCesty:
+        " 1700 metrů Z od kostela na Vranově, na křižovatce lesních cest zvané U jelínka. Rozcestí značených cest.  ",
+      popis:
+        "  Slepencový kámen nepravidelného tvaru je vysoký 1 metr a do něho je vsazena tmavá deska s delším textem.   ",
+      napis:
+        " PAMĚTNÍ  KÁMEN // K 460. VÝROČÍ // ZŘÍZENÍ  SPRÁVY  LESNÍHO  MAJETKU // MĚSTA  BRNA  V  KUŘIMI //  A  //  15. VÝROČÍ // OBNOVENÍ  HOSPODAŘENÍ // V  MĚSTSKÝCH  LESÍCH // 4.  PROSINEC  2007 // LESY  MĚSTA  BRNA a. s.   ",
+
+      pozn: "    ",
+      naposledObnoveno: " 22.1.2021 ",
+      souradnice: " 49.3120233N, 16.5887367E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/celetodana" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/celetodana",
+      galerie: [
+        { fotka: "obnovahospodareni1.jpg", popisek: " (prosinec 2007) " },
+        { fotka: "obnovahospodareni2.jpg", popisek: " (prosinec 2007) " },
+      ],
+      proMe: " XVI/581  24-322-47  12.2007   ",
+    },
 
     // {
     //   id:  1000,
