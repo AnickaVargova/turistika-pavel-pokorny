@@ -49,6 +49,7 @@
     },
 
     created() {
+    
       for (let kategorie of this.params.kategoriePomnicky) {
         kategorie.pocet = this.clanky.filter(
           (clanek) =>

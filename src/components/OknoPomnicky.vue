@@ -231,7 +231,7 @@
 <script>
   import Klikaci from "./../components/Klikaci.vue";
   export default {
-    props: ["clanky", "podkategorie", "kategoriePomnicky"],
+    props: ["clanky", "kategoriePomnicky"],
     components: { Klikaci: Klikaci },
     data() {
       return {
@@ -239,7 +239,6 @@
         testData: undefined,
         mojeClanky: this.clanky,
         isEdgeChromium: false,
-        
       };
     },
 
@@ -261,7 +260,6 @@
       },
     },
     created() {
-      console.log(this.podkategorie);
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>
@@ -269,7 +267,16 @@
             clanek.kategorie === "smircikrize"
         );
       }
-
+     
+      if (this.kategoriePomnicky) {
+        for (let clanek of this.clanky) {
+          for (let podkategorie of this.kategoriePomnicky) {
+            if (clanek.podkategorie === podkategorie.id) {
+              clanek.druh = podkategorie.nazev;
+            }
+          }
+        }
+      }
       var isChrome =
         !!window.chrome &&
         (!!window.chrome.webstore || !!window.chrome.runtime);
@@ -281,7 +288,6 @@
       // var isBlink = (isChrome || isOpera) && !!window.CSS;
 
       this.isEdgeChromium = isEdgeChromium;
-     
     },
   };
 </script>

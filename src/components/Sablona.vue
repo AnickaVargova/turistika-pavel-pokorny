@@ -200,7 +200,6 @@
               (innerParams.stranka === 'novepridane' && pomnickyUkazat)
           "
           v-bind:clanky="clankyPodKategorie"
-          v-bind:podkategorie="this.$route.params.kategorie"
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
           v-on:kliknuti="vyfiltrujPomnicek"
         />
@@ -329,15 +328,15 @@
               clanek.kategorie === "pomnicky" ||
               clanek.kategorie === "smircikrize"
             ) {
-              this.pomnickyUkazat = true;
+              
             } else if (
               clanek.kategorie === "vypraveni" ||
               clanek.kategorie === "cesty"
             ) {
-              this.clankyUkazat = true;
+             
             }
           }
-
+         
           return last2weeks <= 14;
         }
       },
@@ -400,6 +399,16 @@
         novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
 
         this.clankyPodKategorie = novaKategorie;
+
+        for(let clanek of this.clankyPodKategorie){
+          if (clanek.kategorie === 'pomnicky' || clanek.kategorie === 'smircikrize'){
+            this.pomnickyUkazat = true;
+          }
+
+          else if (clanek.kategorie === 'cesty' || clanek.kategorie === 'vypraveni'){
+            this.clankyUkazat = true;
+          }
+        }
 
         //tady konci novePridane
       } else if (this.$route.name === "Vypraveni") {
