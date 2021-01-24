@@ -4690,7 +4690,7 @@ export default {
 
         {
           textOdstavce:
-            '  <p>Když se vydáme z\xa0Bílovic od mostu přes Svitavu k\xa0východu po lesní silničce zvané Resslovka, dorazíme brzy k\xa0výstavné myslivně. Na její zdi byla odhalena pamětní deska "Myslivna lišky Bystroušky". Spisovatel Jaromír Tomeček je názoru, že se děj mohl odehrávat v\xa0hájence U jezírka mezi Soběšicemi a Útěchovem. V\xa0románu je totiž myslivna pojmenována Jezerní. V\xa0úvahu připadá i Resslova myslivna na překrásném místě pod Zadními Hády. Ale pozorný čtenář odhalí, že ani k\xa0jedné z\xa0nich se nehodí popisy cest, kterými autor nechává procházet revírníka Bartoše. První je moc blízko Bílovic, skoro ve vsi, druhá moc daleko, u třetí chybí "rozvlněná žitniska". Nezbývá, než se smířit s\xa0tím, že umístění románu zůstává plodem autorovy fantazie, na což má umělec samozřejmě právo. Bezesporné je, že se děj odehrává v\xa0Bílovicích a okolí. K vykreslení postavy revírníka Bartoše posloužil Těsnohlídkovi jeho tchán Kutil z\xa0Bílovic, jméno pak dostal od osvíceného lesníka Bartoše ze soběšické hájenky U dubu. I ostatní postavy měly prý reálné předlohy mezi bílovickými občany.</p>',
+            '  <p>Když se vydáme z\xa0Bílovic od mostu přes Svitavu k\xa0východu po lesní silničce zvané Resslovka, dorazíme brzy k\xa0výstavné myslivně. Na její zdi byla odhalena pamětní deska "Myslivna lišky Bystroušky". Spisovatel Jaromír Tomeček je názoru, že se děj mohl odehrávat v\xa0hájence U jezírka mezi Soběšicemi a Útěchovem. V\xa0románu je totiž myslivna pojmenována Jezerní. V\xa0úvahu připadá i Resslova myslivna na překrásném místě pod Zadními Hády. Ale pozorný čtenář odhalí, že ani k\xa0jedné z\xa0nich se nehodí popisy cest, kterými autor nechává procházet revírníka Bartoše. První je moc blízko Bílovic, skoro ve vsi, druhá moc daleko, u třetí chybí "rozvlněná žitniska". Nezbývá, než se smířit s\xa0tím, že umístění románu zůstává plodem autorovy fantazie, na což má umělec samozřejmě právo. Bezesporné je, že se děj odehrává v\xa0Bílovicích a okolí. K\xa0vykreslení postavy revírníka Bartoše posloužil Těsnohlídkovi jeho tchán Kutil z\xa0Bílovic, jméno pak dostal od osvíceného lesníka Bartoše ze soběšické hájenky U dubu. I ostatní postavy měly prý reálné předlohy mezi bílovickými občany.</p>',
           foto: "janacekporici.jpg",
           umisteniFoto: " vlevo   ",
           popisek:
@@ -4771,7 +4771,7 @@ export default {
       text: [
         {
           textOdstavce:
-            "<p> Přátelé,</p><p>léta jsem se chystal toto téma písemně pojednat a stejně dlouho jsem to odkládal. Důvod byl prostý, nenašel jsem všechny kříže, vždy jich zbývalo najít a nafotit 40...30...20… . Těžko psát o něčem, kde máte mezery. Letos jsem usoudil, že všechny kříže nenajdu  n i k d y  a tedy budu psát jen o těch které jsem doposud našel.</p>",
+            "<p> Přátelé,</p><p>léta jsem se chystal toto téma písemně pojednat a stejně dlouho jsem to odkládal. Důvod byl prostý, nenašel jsem všechny kříže, vždy jich zbývalo najít a nafotit 40...30...20… . Těžko psát o něčem, kde máte mezery. Letos jsem usoudil, že všechny kříže nenajdu  n\xa0i\xa0k\xa0d\xa0y\xa0\xa0a tedy budu psát jen o těch které jsem doposud našel.</p>",
           foto: "nikolciceV2.jpg ",
           umisteniFoto: "vlevo",
           popisek: " 1751 Nikolčice   ( březen 2013) ",
@@ -5040,39 +5040,7 @@ export default {
         {
           textOdstavce:
             "   <p> Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v\xa0pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v\xa0knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p><p> I kámen <strong>1300 Tvarožná</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
-          //   vnitrniOdkazy:
-          //   [
-          //       {
-          //   vnitrniOdkaz:  ,
-          //   odkazKategorie: 'smircikrize',
-          //   odkazPodkategorie: ,
-          //   odkazKde: 'odstavec',
-          //    predOdkazem: '  ',
-          //    textOdkazu: '     ',
-          //   zaOdkazem: '    ',
-          //      },
-          //  {
-          //   vnitrniOdkaz:  ,
-          //   odkazKategorie: 'smircikrize',
-          //   odkazPodkategorie: ,
-          //   odkazKde: 'odstavec',
-          //    predOdkazem: '  ',
-          //    textOdkazu: '     ',
-          //   zaOdkazem: '    ',
-          //      },
-          //  {
-          //   vnitrniOdkaz:  ,
-          //   odkazKategorie: 'smircikrize',
-          //   odkazPodkategorie: ,
-          //   odkazKde: 'odstavec',
-          //    predOdkazem: '  ',
-          //    textOdkazu: '     ',
-          //   zaOdkazem: '    ',
-          //      },
-
-          //   ]
-
-          foto: " cerncin1.jpg   ",
+            foto: " cerncin1.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 0648 Černčín 1  (květen 2019)  ",
         },
@@ -5354,7 +5322,7 @@ export default {
       popisCesty:
         " Leží 1 km SV od kostela ve Vedrovicích, na kraji lesa a před plotem obory směrem od Vedrovic.  ",
       popis:
-        "  Pomníček vysoký 1 metr je z umělého kamene. Do soklu vetknut hranol a v něm je vložena zašlá bílá deska s textem. Nad deskou bývala oválná fotografie.   ",
+        "  Pomníček vysoký 1 metr je z\xa0umělého kamene. Do soklu vetknut hranol a v\xa0něm je vložena zašlá bílá deska s\xa0textem. Nad deskou bývala oválná fotografie.   ",
       napis:
         " Je těžko čitelný:  ZDE  NÁHLE  ZEMŘEL // JAN  //  KLAPAL  // HAJNÝ V. V. VE  VĚKU 75 LET  //  ...  ",
       pozn: "    ",
@@ -5381,9 +5349,9 @@ export default {
       nazev: " Boháčkova památka ",
       kdyVznikl: " po 1979 ",
       popisCesty:
-        " Leží 1100 metrů JZ od kostela v Nikolčicích, na S svahu Liščí hory, na kraji lesa u cesty.  ",
+        " Leží 1100 metrů JZ od kostela v\xa0Nikolčicích, na S svahu Liščí hory, na kraji lesa u cesty.  ",
       popis:
-        " Kamenný pomníček. Ze soklu volně ložených kamenů povstává kamenná deska s vybledlou fotografií a zašlým textem. Pomníček bez péče.   ",
+        " Kamenný pomníček. Ze soklu volně ložených kamenů povstává kamenná deska s\xa0vybledlou fotografií a zašlým textem. Pomníček bez péče.   ",
       napis:
         "Těžce čitelné:   ZELENÉ  HÁJE // JOSEF //  BOHÁČEK // ZEMŘ. TRAG. ... 1979 // VE VĚKU 4? LET //  …?.... MYSLIVCI  ",
       pozn: "",
@@ -5407,18 +5375,18 @@ export default {
       druh: "  Lesnické a dřevařské ",
       okres: " Brno - venkov ",
       obec: " Újezd u Rosic   ",
-      jmeno: " Lesáci z Rosic  ",
-      nazev: " Památník lesákům z Rosic a Náměště. ",
+      jmeno: " Lesáci z\xa0Rosic  ",
+      nazev: " Památník lesákům z\xa0Rosic a Náměště. ",
       kdyVznikl: " 1928 ",
       popisCesty:
         " Významná křižovatka lesních cest leží 2200 metrů JV od Újezdu, uprostřed lesního komplexu. Místní název U pomníčku. ",
       popis:
-        "  Na jednom místě je pět různých objektů. Kamenný kříž z roku 2010, v perfektním stavu. Kamenný památník vyzděný ze světlých kamenů vysoký 1,5 metru, nahoře s nápisem 8. V. 1945, níže foto Masaryka, starý státní znak a nápis 1918 - 1928. Dřevěný altán. Improvizovaný oltářík s mariánským obrázkem a votivním textem. Dřevěný přístřešek vysoký 2 metry se dvěma dřevěnými cedulemi s textem vypáleným do dřeva.  ",
+        "  Na jednom místě je pět různých objektů. Kamenný kříž z\xa0roku 2010, v\xa0perfektním stavu. Kamenný památník vyzděný ze světlých kamenů vysoký 1,5 metru, nahoře s\xa0nápisem 8. V. 1945, níže foto Masaryka, starý státní znak a nápis 1918 - 1928. Dřevěný altán. Improvizovaný oltářík s\xa0mariánským obrázkem a votivním textem. Dřevěný přístřešek vysoký 2 metry se dvěma dřevěnými cedulemi s\xa0textem vypáleným do dřeva.  ",
       napis:
         " Na horní ceduli zdobným písmem:  ...A  LESY // ŠUMÍ  DÁL.  Na spodní ceduli: VĚNOVÁNO  PAMÁTCE  LESÁKŮM  Z  ROSIC // A  NÁMĚŠTĚ N/OSL.  ZA  OBĚTAVOU  PRÁCI  PRO LES   ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn:
-        "  V některých mapách se lze setkat i s pojmenováním místa: Pomník padlým z I. a II. světové války. Tomu ale žádný z památníků neodpovídá. Kamenný pomník připomíná vznik republiky.   ",
+        "  V některých mapách se lze setkat i s\xa0pojmenováním místa: Pomník padlým z\xa0I. a II. světové války. Tomu ale žádný z\xa0památníků neodpovídá. Kamenný pomník připomíná vznik republiky.   ",
       naposledObnoveno: " 11.1.2021 ",
       souradnice: " 49.2106044N, 16.2748078E ",
       kodMapa:
@@ -5444,11 +5412,11 @@ export default {
       nazev: " Kámen Zdeňka Gardelky ",
       kdyVznikl: " 2013  ",
       popisCesty:
-        " 3,1 km JJZ od kostela v Protivanově, na významné křižovatce lesních silnic.  ",
+        " 3,1 km JJZ od kostela v\xa0Protivanově, na významné křižovatce lesních silnic.  ",
       popis:
         "  Velký lomový kámen 1,4 x 1 metr je zasazen šikmo do země. Na čelní straně vystupuje reliéf větví a na ohlazené ploše je text  psacím písmem. ",
       napis:
-        "   Památce lesáka //  Ing. Zdeňka Gardelky  //  ku prospěchu lesa zde působícího  // v letech 1956 - 2005  ",
+        "   Památce lesáka //  Ing. Zdeňka Gardelky  //  ku prospěchu lesa zde působícího  // v\xa0letech 1956 - 2005  ",
 
       pozn: "",
       naposledObnoveno: " 11.1.2021 ",
@@ -5474,9 +5442,9 @@ export default {
       nazev: " Deska Antonína Formánka ",
       kdyVznikl: " po 1966  ",
       popisCesty:
-        " 1700 metrů SZ od kapličky v Hořicích, na křižovatce lesních silnic u Nepustilovy boudy.  ",
+        " 1700 metrů SZ od kapličky v\xa0 Hořicích, na křižovatce lesních silnic u Nepustilovy boudy.  ",
       popis:
-        "  Do přírodního kamene vysokého 1 metr je zapuštěna kovová deska s textem  ",
+        "  Do přírodního kamene vysokého 1 metr je zapuštěna kovová deska s\xa0textem  ",
       napis: " …  //  ANT.  FORMÁNEK //  * 30. 3. 1931  + 7. 4. 1966 ",
 
       pozn: "",
@@ -5503,9 +5471,9 @@ export default {
       nazev: " Štatule ",
       kdyVznikl: " po 1830 ",
       popisCesty:
-        " 1100 m Z od kostela v Opatovicích, uprostřed polí, schován v remízku. Původně tu stál Opatovický les a pomník byl na jeho okraji. Regulovaná Svratka je odtud vzdálena asi 400 metrů. Cesta sem nevede.  ",
+        " 1100 m Z od kostela v\xa0 Opatovicích, uprostřed polí, schován v\xa0remízku. Původně tu stál Opatovický les a pomník byl na jeho okraji. Regulovaná Svratka je odtud vzdálena asi 400 metrů. Cesta sem nevede.  ",
       popis:
-        "  Výpravný pomník v neogotickém stylu ve tvaru boží muky vysoký 2,5 metru je poněkud zanedbán. Lidový název Štatule vznikl zkomolením německého die Statue = socha.  ",
+        "  Výpravný pomník v\xa0neogotickém stylu ve tvaru boží muky vysoký 2,5 metru je poněkud zanedbán. Lidový název Štatule vznikl zkomolením německého die Statue = socha.  ",
       napis:
         "opsán včetně chyb:  Otci svému Josefu Soukalovi, // myslivci kláštera Rajhradského, // na tomto místě od pytláka zastřelené, // mu, pomník tento postavili pozusta, // ly synové :  // Josef, Ján a Anton.  ",
       odkazy: [
@@ -5516,7 +5484,7 @@ export default {
         },
       ],
       pozn:
-        " Při jarních povodních na Svratce se zvěř uchylovala na hráze, kde byla snadným cílem pytláků. Klášterní myslivec Josef Soukal 30. března 1830 uvolňoval kry v korytě řeky, když od Opatovic padla rána. Soukal si vzal do lodi dobrého veslaře Štětku a rychle pluli k Opatovickému lesu. Před nimi se náhle objevila loďka s pytlákem a zastřelenou srnou. Soukalův člun ji dohonil a Soukal stoje na přídi vyzval pytláka, aby se vzdal. Ten ale sáhl po pušce a  myslivce zasáhl do hrudi. Soukal padl Štětkovi do náruče a pronesl poslední slova: Štětko, braň se, já mám dost. Pytlák František Zapomněl z Blučiny unikl, ale byl záhy dopaden. Dostal 10 let na Špilberku, kde brzy zemřel. Tři Soukalovi synové postavili tento pomník.  ",
+        " Při jarních povodních na Svratce se zvěř uchylovala na hráze, kde byla snadným cílem pytláků. Klášterní myslivec Josef Soukal 30. března 1830 uvolňoval kry v\xa0korytě řeky, když od Opatovic padla rána. Soukal si vzal do lodi dobrého veslaře Štětku a rychle pluli k\xa0Opatovickému lesu. Před nimi se náhle objevila loďka s\xa0pytlákem a zastřelenou srnou. Soukalův člun ji dohonil a Soukal stoje na přídi vyzval pytláka, aby se vzdal. Ten ale sáhl po pušce a  myslivce zasáhl do hrudi. Soukal padl Štětkovi do náruče a pronesl poslední slova: Štětko, braň se, já mám dost. Pytlák František Zapomněl z\xa0Blučiny unikl, ale byl záhy dopaden. Dostal 10 let na Špilberku, kde brzy zemřel. Tři Soukalovi synové postavili tento pomník.  ",
       naposledObnoveno: " 9.1.2021 ",
       souradnice: " 49.0736650N, 16.6245292E ",
       kodMapa:
@@ -5550,7 +5518,7 @@ export default {
         { nazev: " František Neužil: Milostný herbář. 1976. str. 165-167. " },
       ],
       pozn:
-        "  František Neužil, rodák z Jezer, se ve svých románech několikrát zmiňuje o zastřeleném revírníkovi.Nejdůkladněji rozvinul pytláckou historku v románu Milostný herbář. V něm maskovaný pytlák pomstí děvče, které vinou revírníka přišlo o řeč. ",
+        "  František Neužil, rodák z\xa0Jezer, se ve svých románech několikrát zmiňuje o zastřeleném revírníkovi.Nejdůkladněji rozvinul pytláckou historku v\xa0románu Milostný herbář. V\xa0něm maskovaný pytlák pomstí děvče, které vinou revírníka přišlo o řeč. ",
       naposledObnoveno: " 9.1.2021 ",
       souradnice: " 49.2200511N, 16.7935414E ",
       kodMapa:
@@ -5574,14 +5542,14 @@ export default {
       nazev: "Pomníček Josefa Drápala  ",
       kdyVznikl: "  ",
       popisCesty:
-        " Leží 600 metrů SSV od kaple v Rozdrojovicích, kousek od kraje lesa nad roklemi.  ",
+        " Leží 600 metrů SSV od kaple v\xa0Rozdrojovicích, kousek od kraje lesa nad roklemi.  ",
       popis:
         "  Neopracovaný kámen vysoký 0,7 metru je dán svisle do země a o něj  je opřena zašlá bílá deska. Na ní je  text a vybledlá fotka mládence.  ",
       napis:
         " JOSEF // DRÁPAL // ZAHYNUL  NA  TOMTO // MÍSTĚ  23. 12. 1942 // KAMARÁDU - KAMARÁDI !  ",
       odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
       pozn:
-        "  Mládenec přijel na dovolenou z Reichu, pomáhal v lese a při pokládání dřeva ho zavalila kláda.  ",
+        "  Mládenec přijel na dovolenou z\xa0Reichu, pomáhal v\xa0lese a při pokládání dřeva ho zavalila kláda.  ",
       naposledObnoveno: " 8.1.2021 ",
       souradnice: " 49.2602933N, 16.5127678E ",
       kodMapa:
@@ -5605,11 +5573,11 @@ export default {
       nazev: "Pěšina lesmistra Morávka  ",
       kdyVznikl: " 1934 ",
       popisCesty:
-        " 1500 metrů SV od kaple v Soběšicích. Na jednom z hřbítků spadajících z planiny Červených vrchů do údolí Melatín. Kolem vede červeně značená cesta po vrstevnici zvaná Morávkova stezka.  ",
+        " 1500 metrů SV od kaple v\xa0Soběšicích. Na jednom z\xa0hřbítků spadajících z\xa0planiny Červených vrchů do údolí Melatín. Kolem vede červeně značená cesta po vrstevnici zvaná Morávkova stezka.  ",
       popis:
-        " Skupina balvanů nad stezkou. Na největším z nich je do svislé plochy vyryt text.   ",
+        " Skupina balvanů nad stezkou. Na největším z\xa0nich je do svislé plochy vyryt text.   ",
       napis:
-        " PĚŠINA // LESMISTRA // KARLA  MORÁVKA . Z boku je na kamenu letopočet 1934.  ",
+        " PĚŠINA // LESMISTRA // KARLA  MORÁVKA . Z\xa0boku je na kamenu letopočet 1934.  ",
       odkazy: [
         {
           nazev: " Encyklopedie Brna  ",
@@ -5626,7 +5594,7 @@ export default {
         },
       ],
       pozn:
-        "Karel Morávek (1877 - 1934) byl lesmistr a správce velkostatku v Králově Poli. V lesnictví pracoval na různých pozicích od roku 1892, do Králova Pole přišel roku 1909 jako nadlesní knížecích lesů. Zasloužil se o vybudování této stezky.Dnešní značená cesta jde po lesní cestě za kamenem, původní pěšina vedla před kamenem.  Od roku 1972 vede po pěšině Lesnická naučná stezka. Byla už třikrát obnovena v různých podobách.  ",
+        "Karel Morávek (1877 - 1934) byl lesmistr a správce velkostatku v\xa0Králově Poli. V\xa0lesnictví pracoval na různých pozicích od roku 1892, do Králova Pole přišel roku 1909 jako nadlesní knížecích lesů. Zasloužil se o vybudování této stezky.Dnešní značená cesta jde po lesní cestě za kamenem, původní pěšina vedla před kamenem.  Od roku 1972 vede po pěšině Lesnická naučná stezka. Byla už třikrát obnovena v\xa0různých podobách.  ",
       naposledObnoveno: " 7.1.2021 ",
       souradnice: " 49.2643942N, 16.6372950E ",
       kodMapa:
@@ -5650,14 +5618,14 @@ export default {
       jmeno: " Poslední vlk  ",
       nazev: "Pocta poslednímu vlkovi ",
       kdyVznikl:
-        " Po roce 1861 tu býval dřevěný kříž, v roce 1933 vytesal lesní dělník Kafoněk z Pucova současnou subtilní kamennou desku. ",
+        " Po roce 1861 tu býval dřevěný kříž, v\xa0roce 1933 vytesal lesní dělník Kafoněk z\xa0Pucova současnou subtilní kamennou desku. ",
       popisCesty:
-        " 1 kilometr J od Jindřichova, na hlavní lesní cestě od Velké Bíteše k Bělizně. Vede tu červená značka.   ",
+        " 1 kilometr J od Jindřichova, na hlavní lesní cestě od Velké Bíteše k\xa0Bělizně. Vede tu červená značka.   ",
       popis:
-        "  Plochá kamenná deska s neumělým nápisem. V posledních letech přibyl stojan s naučnou cedulí, zastřešené odpočívadlo, lavice a dřevořezba vlka.  ",
+        "  Plochá kamenná deska s\xa0neumělým nápisem. V\xa0posledních letech přibyl stojan s\xa0naučnou cedulí, zastřešené odpočívadlo, lavice a dřevořezba vlka.  ",
       napis: "  VLK // 1861  ",
       pozn:
-        "  Stalo se 28. 3. 1861.  Hajný narazil na stopu a revírník Volešínský usoudil, že patří vlkovi. Lesníci uspořádali hon, obstoupili leč a vytlačili vlka z houštin. Do rány přišel Antonínu Schwedovi, revírníku z košíkovské myslivny. Byla to vyhublá vlčice, vážila 30 kg a měřila i s oháňkou 150 cm. Naložili ji na sáně (28. 3. !!)  a odvezli do náměšťského zámku, kde ji nechali vycpat. Po 160 letech se k nám vlci vracejí, možná tato vlčice nebyla na náměšťském panství poslední a nějakého vlčího chlupu se ještě dočkáme. Na Silvestra odpoledne si tu dávají sraz chataři z chatové osady Bělizna. ",
+        "  Stalo se 28. 3. 1861.  Hajný narazil na stopu a revírník Volešínský usoudil, že patří vlkovi. Lesníci uspořádali hon, obstoupili leč a vytlačili vlka z\xa0houštin. Do rány přišel Antonínu Schwedovi, revírníku z\xa0košíkovské myslivny. Byla to vyhublá vlčice, vážila 30 kg a měřila i s\xa0oháňkou 150 cm. Naložili ji na sáně (28. 3. !!)  a odvezli do náměšťského zámku, kde ji nechali vycpat. Po 160 letech se k\xa0nám vlci vracejí, možná tato vlčice nebyla na náměšťském panství poslední a nějakého vlčího chlupu se ještě dočkáme. Na Silvestra odpoledne si tu dávají sraz chataři z\xa0chatové osady Bělizna. ",
       naposledObnoveno: " 20.1.2021 ",
       souradnice: " 49.2529014N, 16.2023608E",
       kodMapa:
@@ -5681,7 +5649,7 @@ export default {
       nazev: " Pomníček Vlastimila Nezvala  ",
       kdyVznikl: " 1998 ",
       popisCesty:
-        " 2,1 kilometru SV od kaple v Hostěnicích, u lesní cesty, nedaleko významného rozcestí.   ",
+        " 2,1 kilometru SV od kaple v\xa0Hostěnicích, u lesní cesty, nedaleko významného rozcestí.   ",
       popis:
         "  Nepravidelný lomový kámen vysoký 1 metr a na něm na rovné ploše je připevněna kovová tabulka. Je na ní fotografie mladého myslivce nad skoleným srncem a text.   ",
       napis:
@@ -5707,9 +5675,9 @@ export default {
       nazev: " Czeplova smrt ",
       kdyVznikl: " po 1842 ",
       popisCesty:
-        " Ze Sedlece 2 km k V na rozcestí lesních cest u Holého kopce. Prochází tu zelená značka. ",
+        " Ze Sedlece 2 km k\xa0V na rozcestí lesních cest u Holého kopce. Prochází tu zelená značka. ",
       popis:
-        " Do kamenného soklu ze začátku 90. let je vsazena historická kamenná deska, nahoře zaoblená. Na ní je relief malého křížku a neumělý těžko čitelný text v němčině.    ",
+        " Do kamenného soklu ze začátku 90. let je vsazena historická kamenná deska, nahoře zaoblená. Na ní je relief malého křížku a neumělý těžko čitelný text v\xa0němčině.    ",
       napis:
         " HIER  STARB // KARL  CZEPL // DEN  9TEN // IUNI  1842.  Přeloženo: zde zemřel K.C.  9. června 1842. ",
       odkazy: [
@@ -5720,7 +5688,7 @@ export default {
         },
       ],
       pozn:
-        "  Karl Czepl byl oběť soubojů mezi pytláky a lesníky. Fořt s hajnými nemilosrdně pronásledovali pytláky v hraběcích lesích. Pokud nějakého dopadli, bez slitování ho zastřelili a zahrabali v lese. Stalo se, že postřelili pytláka Studeného ze Svatoslavi. Ten se zraněný ukryl v lese a druhý den ráno ho našel pastýř ležícího v korytě Oslavky. Tajně ho povozem odvezli  do Březníka, kde těžce zraněný pytlák zemřel. Jeho kamarádi přísahali, že jeho smrt pomstí. Výstřely vylákali fořta do lesa, tam ho obklíčili a zastřelili.   ",
+        "  Karl Czepl byl oběť soubojů mezi pytláky a lesníky. Fořt s\xa0hajnými nemilosrdně pronásledovali pytláky v\xa0hraběcích lesích. Pokud nějakého dopadli, bez slitování ho zastřelili a zahrabali v\xa0lese. Stalo se, že postřelili pytláka Studeného ze Svatoslavi. Ten se zraněný ukryl v\xa0lese a druhý den ráno ho našel pastýř ležícího v\xa0korytě Oslavky. Tajně ho povozem odvezli  do Březníka, kde těžce zraněný pytlák zemřel. Jeho kamarádi přísahali, že jeho smrt pomstí. Výstřely vylákali fořta do lesa, tam ho obklíčili a zastřelili.   ",
       naposledObnoveno: " 20.1.2021 ",
       souradnice: " 49.1708975N, 16.1594986E ",
       kodMapa:
@@ -5746,7 +5714,7 @@ export default {
       popisCesty:
         " V rozsáhlém komplexu Hostěnického lesa, 1500 metrů JJZ od rozcestí Malá Říčka. Na hřbetu spadajícím do údolí Říčky. Hledá se obtížně.  ",
       popis:
-        "  Kamenný kříž vysoký 2,5 metru se zašlou světlou deskou s textem. V poslední době je kolem kříže dřevěná ohrádka.   ",
+        "  Kamenný kříž vysoký 2,5 metru se zašlou světlou deskou s\xa0textem. V\xa0poslední době je kolem kříže dřevěná ohrádka.   ",
       napis:
         " ZDE  NA  TOMTO  MÍSTĚ // NEŠŤASTNOU  NÁHODOU // BYL  ZASTŘELEN // VILÉM // ŘIČÁNEK // 3. 1. 1928 // ...   ",
       pozn:
@@ -5774,11 +5742,11 @@ export default {
       nazev: " Bartlova památka ",
       kdyVznikl: " po 1954 ",
       popisCesty:
-        "  2 km ZSZ od kostela v Nebovidech, u lesní cesty nad bažinou, 100 metrů od silnice do Střelic.  ",
+        "  2 km ZSZ od kostela v\xa0Nebovidech, u lesní cesty nad bažinou, 100 metrů od silnice do Střelic.  ",
       popis:
-        " Na kamenném základu stojí pískovcový hranol a v něm je vsazena černá deska s fotografií a textem.  ",
+        " Na kamenném základu stojí pískovcový hranol a v\xa0něm je vsazena černá deska s\xa0fotografií a textem.  ",
       napis:
-        " Na tomto místě // 27. září 1954 položil život // při ochraně myslivosti //  ROBERT  BARTL // z Nebovid č. 99 // zemř. ve věku 50 let. // … // Myslivci z Nebovid.  ",
+        " Na tomto místě // 27. září 1954 položil život // při ochraně myslivosti //  ROBERT  BARTL // z\xa0Nebovid č. 99 // zemř. ve věku 50 let. // … // Myslivci z\xa0Nebovid.  ",
       pozn:
         "  Pomník znám odmalička. Jako děti jsme vyslechli hrůzné pověsti o tom, jak pytláci zastřelili myslivce a zamačkali ho do bažiny.  ",
       naposledObnoveno: " 22.1.2021 ",
@@ -5804,7 +5772,7 @@ export default {
       nazev: " Pelikánova smrt ",
       kdyVznikl: " po 1899 ",
       popisCesty:
-        " Nachází se v oboře na Holedné, 300 metrů SZ od hlavního vrcholu Holedné na bočním bezejmenném návrší s výškou 370 metrů nad mořem  ",
+        " Nachází se v\xa0oboře na Holedné, 300 metrů SZ od hlavního vrcholu Holedné na bočním bezejmenném návrší s\xa0výškou 370 metrů nad mořem  ",
       popis:
         "  Metr vysoký kamenný památník se vsazenou oválnou kovovou deskou. Na ní je německý text, poslední dobou skoro nečitelný.   ",
       napis:
@@ -5817,7 +5785,7 @@ export default {
         },
       ],
       pozn:
-        "  Heinrich Pelikan (1841 - 1899) byl bývalý ředitel továrny na odpočinku a náruživý lovec. V sobotu 27. 5. 1899 se vypravil do jundrovských lesů a kolem 17 hodiny slyšel hajný výstřel z lesa. Pelikána našli až za dva dny, ležel s prostřelenou hlavou v Soví boudě na tomto místě. Příčina úmrtí byla stanovena jako nešťastná událost. Lovec si šel zřejmě do boudy odpočinout, asi upadl na schodech, rána vyšla z nezajištěné zbraně a zasáhla ho do hlavy. V matrice komínské farnosti je zapsáno “zemřel … nahodilým spuštěním střelné zbraně”.  ",
+        "  Heinrich Pelikan (1841 - 1899) byl bývalý ředitel továrny na odpočinku a náruživý lovec. V\xa0sobotu 27. 5. 1899 se vypravil do jundrovských lesů a kolem 17 hodiny slyšel hajný výstřel z\xa0lesa. Pelikána našli až za dva dny, ležel s\xa0prostřelenou hlavou v\xa0Soví boudě na tomto místě. Příčina úmrtí byla stanovena jako nešťastná událost. Lovec si šel zřejmě do boudy odpočinout, asi upadl na schodech, rána vyšla z\xa0nezajištěné zbraně a zasáhla ho do hlavy. V\xa0matrice komínské farnosti je zapsáno “zemřel … nahodilým spuštěním střelné zbraně”.  ",
       naposledObnoveno: " 21. 1. 2021 ",
       souradnice: " 49.2153906N, 16.5358828E ",
       kodMapa:
@@ -5841,11 +5809,11 @@ export default {
       nazev: " Lechnerova památka ",
       kdyVznikl: " po 1904 ",
       popisCesty:
-        " Leží na Hádecké plošině, 900 metrů S od Velké Klajdovky, v zarůstajícím průseku, na území Národní přírodní rezervace. Asi 100 kroků od něho vede žlutě značená cesta. ",
+        " Leží na Hádecké plošině, 900 metrů S od Velké Klajdovky, v\xa0zarůstajícím průseku, na území Národní přírodní rezervace. Asi 100 kroků od něho vede žlutě značená cesta. ",
       popis:
         " Do hromady vápencových kamenů je vložena kamenná deska. Do ní je vyryt křížek a německý text.   ",
       napis:
-        "  GUSTAV // LECHNER // FÜRSTL.  FORSTER // GEST.  19  2/4  04 . V překladu: G. L. knížecí lesník zemřel 2. 4. 1904 ",
+        "  GUSTAV // LECHNER // FÜRSTL.  FORSTER // GEST.  19  2/4  04 . V\xa0překladu: G. L. knížecí lesník zemřel 2. 4. 1904 ",
       odkazy: [
         {
           nazev: " turistika ",
@@ -5858,7 +5826,7 @@ export default {
         },
       ],
       pozn:
-        "  Truhlář popsal událost podle kroniky revíru Hády : 2. dubna 1904 brzy ráno šel pan lesní Lechner se synem lovit sluky. Měl s sebou psa a postavil se do průseku, kde dnes stojí památník. Jeho syn šel po průseku dále, takže na sebe neviděli. Asi po půl hodině čekání slyšel syn kňučení a štěkání psa. Vyběhl na návrší dělící obě stanoviště a uviděl jen naříkajícího psa, nikoliv otce. Spěchal blíže a našel ležícího otce, stiženého náhlou mrtvicí. Pod ním ležela nabitá puška. Veškeré oživování bylo marné.  ",
+        "  Truhlář popsal událost podle kroniky revíru Hády : 2. dubna 1904 brzy ráno šel pan lesní Lechner se synem lovit sluky. Měl s\xa0sebou psa a postavil se do průseku, kde dnes stojí památník. Jeho syn šel po průseku dále, takže na sebe neviděli. Asi po půl hodině čekání slyšel syn kňučení a štěkání psa. Vyběhl na návrší dělící obě stanoviště a uviděl jen naříkajícího psa, nikoliv otce. Spěchal blíže a našel ležícího otce, stiženého náhlou mrtvicí. Pod ním ležela nabitá puška. Veškeré oživování bylo marné.  ",
       naposledObnoveno: " 21.1.2021 ",
       souradnice: " 49.2255097N, 16.6792578E ",
       kodMapa:
@@ -5882,14 +5850,14 @@ export default {
       nazev: " Pomník hajného Kučírka ",
       kdyVznikl: " po 1905 ",
       popisCesty:
-        " Leží 800 metrů ZJZ od středu Ivanovic, na hřbetu spadajícím z Velké Baby k V. Na lesním průseku, zeleně značená cesta je vzdálena asi 150 metrů.  ",
+        " Leží 800 metrů ZJZ od středu Ivanovic, na hřbetu spadajícím z\xa0Velké Baby k\xa0V. Na lesním průseku, zeleně značená cesta je vzdálena asi 150 metrů.  ",
       popis:
-        " Štíhlý komolý jehlan sahá do výšky 3 metry, v horní části umístěna oválná fotografie ve zdobeném rámu, v dolní části je vsazena bílá deska s textem.    ",
+        " Štíhlý komolý jehlan sahá do výšky 3 metry, v\xa0horní části umístěna oválná fotografie ve zdobeném rámu, v\xa0dolní části je vsazena bílá deska s\xa0textem.    ",
       napis:
-        " Na tomto místě byl // ANTONÍN  KUČÍREK // hajný z Cinsendorfu // dne 18. ledna 1905 od pytláků zastřelen.<br> Cinsendorf, správně Zinsendorf  = Česká, od roku 1921. Název vznikl při založení obce 1784, kdy noví osadníci platili činži, něm. Zins.  ",
+        " Na tomto místě byl // ANTONÍN  KUČÍREK // hajný z\xa0Cinsendorfu // dne 18. ledna 1905 od pytláků zastřelen.<br> Cinsendorf, správně Zinsendorf  = Česká, od roku 1921. Název vznikl při založení obce 1784, kdy noví osadníci platili činži, něm. Zins.  ",
       odkazy: [{ nazev: " Antonín Galla : U nás na Horce, 2008, str. 133. " }],
       pozn:
-        "  Antonín Galla (1897 - 1972), brněnský houslař, ve své knize vzpomínek na dětství popisuje, jak na honu byl hajný Čódek vyzván, aby panstvo zavedl na místo vraždy: ‘Hajný vykročil, lovci za ním a za nimi my, zvědaví kluci. O té loňské vraždě jsme hodně slyšeli, teď se nám naskytla příležitost  vidět i místo činu. Došli jsme ke kupě kamení uměle navršené, uprostřed níž se tyčil malý dřevěný kříž, na něm tabulka se jménem zabitého hajného a s datem vraždy. Na dotazy střelců Čódek vyprávěl, že hajného Kučírka hledali tři dny, až noha vyčuhující z kupy listí kterým byl přikryt, ukázala, kde nebožtík leží. Dva bratři z Řečkovic, pytláci a vrazi, ho nejen zastřelili, ale také obrali o peníze a o hodinky. Ty hodinky jim však byly osudné. Chtěli je zastavit v zastavárně, ale tam již měli avizo, rovněž všichni hodináři v Brně, tak je zadrželi - a teď sedijó - dokončil svůj výklad Čódek. ‘Vrazi, bratři Kocourkové z Řečkovic, dostali údajně trest smrti, milostí císaře změněný na doživotí.   ",
+        "  Antonín Galla (1897 - 1972), brněnský houslař, ve své knize vzpomínek na dětství popisuje, jak na honu byl hajný Čódek vyzván, aby panstvo zavedl na místo vraždy: ‘Hajný vykročil, lovci za ním a za nimi my, zvědaví kluci. O té loňské vraždě jsme hodně slyšeli, teď se nám naskytla příležitost  vidět i místo činu. Došli jsme ke kupě kamení uměle navršené, uprostřed níž se tyčil malý dřevěný kříž, na něm tabulka se jménem zabitého hajného a s\xa0datem vraždy. Na dotazy střelců Čódek vyprávěl, že hajného Kučírka hledali tři dny, až noha vyčuhující z\xa0kupy listí kterým byl přikryt, ukázala, kde nebožtík leží. Dva bratři z\xa0Řečkovic, pytláci a vrazi, ho nejen zastřelili, ale také obrali o peníze a o hodinky. Ty hodinky jim však byly osudné. Chtěli je zastavit v\xa0zastavárně, ale tam již měli avizo, rovněž všichni hodináři v\xa0Brně, tak je zadrželi - a teď sedijó - dokončil svůj výklad Čódek. ‘Vrazi, bratři Kocourkové z\xa0Řečkovic, dostali údajně trest smrti, milostí císaře změněný na doživotí.   ",
       naposledObnoveno: " 21.1.2021 ",
       souradnice: "49.2597364N, 16.5557858E ",
       kodMapa:
@@ -5912,12 +5880,12 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Vranov  ",
       jmeno: " Obnova hospodaření  ",
-      nazev: " Obnova hospodaření v městských lesích. ",
+      nazev: " Obnova hospodaření v\xa0městských lesích. ",
       kdyVznikl: "  4. 12. 2007 ",
       popisCesty:
         " 1700 metrů Z od kostela na Vranově, na křižovatce lesních cest zvané U jelínka. Rozcestí značených cest.  ",
       popis:
-        "  Slepencový kámen nepravidelného tvaru je vysoký 1 metr a do něho je vsazena tmavá deska s delším textem.   ",
+        "  Slepencový kámen nepravidelného tvaru je vysoký 1 metr a do něho je vsazena tmavá deska s\xa0delším textem.   ",
       napis:
         " PAMĚTNÍ  KÁMEN // K 460. VÝROČÍ // ZŘÍZENÍ  SPRÁVY  LESNÍHO  MAJETKU // MĚSTA  BRNA  V  KUŘIMI //  A  //  15. VÝROČÍ // OBNOVENÍ  HOSPODAŘENÍ // V  MĚSTSKÝCH  LESÍCH // 4.  PROSINEC  2007 // LESY  MĚSTA  BRNA a. s.   ",
 
