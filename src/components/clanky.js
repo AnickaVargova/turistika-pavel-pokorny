@@ -4355,13 +4355,13 @@ export default {
       okres: " Brno - venkov ",
       obec: " Babice   ",
       jmeno: " Umučení lesníci  ",
-      nazev: " Památník umučených lesníků za německé okupace ",
+      nazev: " Památník lesníků umučených za německé okupace ",
       kdyVznikl:
         " Slavnostně odhalen byl 26. října 1946. Stavět se začal v\xa0dubnu 1946. ",
       popisCesty:
         " Leží V\xa0od Adamova ve svahu Dřínové v\xa0trojúhelníku lesních cest. Vede tu červená a žlutá značka. Známé místo.  ",
       popis:
-        " 7,3 metru vysoká monumentální stavba. Ze západní strany směrem do údolí je obraz Krista v\xa0nadživotní velikosti s\xa0rozpřaženou náručí. Je vytvořen podle slavné sochy Bertela Thorwaldsena: Žehnající Kristus ve Frue Kirke v\xa0Kodani, kde ji viděl prof. Opletal. Socha na něho hluboce zapůsobila. Z\xa0východní strany na velké bílé tabuli jsou jména padlých, popravených a umučených lesníků v\xa0letech 1939 - 1945.     ",
+        " 7,3 metru vysoká monumentální stavba. Ze západní strany směrem do údolí je obraz Krista v\xa0nadživotní velikosti s\xa0rozpřaženou náručí. Je vytvořen podle slavné sochy Bertela Thorwaldsena: Žehnající Kristus ve Frue Kirke v\xa0Kodani, kde ji viděl prof. Opletal. Socha na něho hluboce zapůsobila. Z\xa0východní strany na velké bílé tabuli jsou jména lesníků padlých, popravených a umučených  v\xa0letech 1939 - 1945.     ",
       napis:
         " Pomník je pokryt obsáhlými nápisy ze všech stran, detailně je pojednal Truhlář. Z\xa0V\xa0strany je jmenovitý seznam 94 obětí s\xa0daty narození i úmrtí. Nad jmény ve vlysu je nápis: Památce  //  příslušníků Vysoké školy zemědělské v\xa0Brně a všech našich lesníků hrdinsky //  padlých nebo krutě popravených a umučených // za války 1939 - 1945.  Ze Z\xa0strany nad obrazem Krista je nápis : Ježíš, ne Caesar, - ne mečem, ale pluhem, // toť smysl našich dějin //  TGM  .  Další verše, citáty, texty lze číst na ostatních plochách.  ",
       odkazy: [
@@ -4792,14 +4792,14 @@ export default {
         },
         {
           textOdstavce:
-            "   <p> O tom, proč kříže vznikaly, jsou různé teorie. Častým důvodem býval důkaz smíření, dnešními slovy šlo o mimosoudní vyrovnání. Někdy, dost vzácně, se podařilo v\xa0archívech najít ke konkrétnímu kamenu i smírčí smlouvu z\xa015. nebo 16. století. Na málokterém kamenu je letopočet – datum tragédie. Tam, kde je, spadá jeho vznik mezi 16. - 18. století.</p>  ",
+            "   <p> O tom, proč kříže vznikaly, jsou různé teorie. Častým důvodem býval důkaz smíření, dnešními slovy šlo o mimosoudní vyrovnání. Někdy, dost vzácně, se podařilo v\xa0archivech najít ke konkrétnímu kamenu i smírčí smlouvu z\xa015. nebo 16. století. Na málokterém kamenu je letopočet – datum tragédie. Tam, kde je, spadá jeho vznik mezi 16. - 18. století.</p>  ",
           foto: " kninickyV.jpg   ",
           umisteniFoto: "   vpravo    ",
           popisek: " 1285 Kníničky (září 2008)  ",
         },
         {
           textOdstavce:
-            "   <p> Hledání smírčích křížů prodělalo v\xa0minulých 40 letech zajímavý vývoj. V\xa070. letech 20. století byly tyto památky hluboce zapomenuty. V\xa080. letech je začali jednotlivci, zvláště v\xa0západních Čechách, vyhledávat a evidovat. Posléze se sdružili a v\xa0roce 1984 založili Společnost pro výzkum kamenných křížů při Muzeu v\xa0Aši. V\xa0devadesátých letech sochař Vladimír Preclík, propadlý hledání křížů, vydal k\xa0tomuto tématu dvě výborné knížky: Smírčí kameny (1990) a Kameny pokání (1992). O kameny se začaly zajímat noviny, televize a populární časopisy. Nastala zlatá éra hledání a objevování. I já jsem této módní vlně podlehl a našel pár desítek kamenů. Tehdy vyrážely o víkendech do přírody stovky hledačů a bylo možné se v\xa0okolí kamenů potkat se spřízněnou duší. Teď už se to nestává. Boom ještě urychlilo vydání katalogu smírčích křížů. (Kolektiv: Kamenné kříže Čech a Moravy, 1. vydání 1997, 2. doplněné vydání 2001.) Křížů si začaly všímat i místní úřady, zjistily, že ve většině obcí to jsou nejstarší památky. A tak byly zapomenuté kříže vytahovány z\xa0křovin a kopřiv na důstojnější místa. Bohužel to s\xa0sebou neslo i negativní stránky. Našli se nenechavci, kteří kříže kradli, když zjistili, že mají hodnotu. Jen o málo lepší bylo konání úřadů, které v\xa0dobré víře kameny ochránit, je přemísťovaly. Buď na náměstí, nebo ke kostelům, v\xa0horších případech do muzeí a depozitářů. Zapomínaly na to, že kámen jen označuje místo neštěstí. Místo je důležité a to přenést nelze. Jistým kompromisem je umístit na původní místo repliku a povětrností zničený kříž deponovat pod střechou (Černčín). Naštěstí módní vlna odezněla a hledačů křížů silně ubylo. Dá se říci, že jejím závěrem – završením bylo vydání reprezentační knihy René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska, 2013. Publikace s\xa0mnoha krásnými fotkami křížů na křídovém papíru je ozdobou každé knihovny.</p>  ",
+            "   <p> Hledání smírčích křížů prodělalo v\xa0minulých 40 letech zajímavý vývoj. V\xa070. letech 20. století byly tyto památky hluboce zapomenuty. V\xa080. letech je začali jednotlivci, zvláště v\xa0západních Čechách, vyhledávat a evidovat. Posléze se sdružili a v\xa0roce 1984 založili Společnost pro výzkum kamenných křížů při Muzeu v\xa0Aši. V\xa0devadesátých letech sochař Vladimír Preclík, propadlý hledání křížů, vydal k\xa0tomuto tématu dvě výborné knížky: Smírčí kameny (1990) a Kameny pokání (1992). O kameny se začaly zajímat noviny, televize a populární časopisy. Nastala zlatá éra hledání a objevování. I já jsem této módní vlně podlehl a našel pár desítek kamenů. Tehdy vyrážely o víkendech do přírody stovky hledačů a bylo možné se v\xa0okolí kamenů potkat se spřízněnou duší. Teď už se to nestává. Boom ještě urychlilo vydání katalogu smírčích křížů. (Kolektiv: Kamenné kříže Čech a Moravy, 1. vydání 1997, 2. doplněné vydání 2001.) Křížů si začaly všímat i místní úřady, zjistily, že ve většině obcí to jsou nejstarší památky. A tak byly zapomenuté kříže vytahovány z\xa0křovin a kopřiv na důstojnější místa. Bohužel to s\xa0sebou neslo i negativní stránky. Našli se nenechavci, kteří kříže kradli, když zjistili, že mají hodnotu. Jen o málo lepší bylo konání úřadů, které v\xa0dobré víře  kameny ochránit je přemísťovaly. Buď na náměstí, nebo ke kostelům, v\xa0horších případech do muzeí a depozitářů. Zapomínaly na to, že kámen jen označuje místo neštěstí. Místo je důležité a to přenést nelze. Jistým kompromisem je umístit na původní místo repliku a povětrností zničený kříž deponovat pod střechou (Černčín). Naštěstí módní vlna odezněla a hledačů křížů silně ubylo. Dá se říci, že jejím závěrem – završením bylo vydání reprezentační knihy René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska, 2013. Publikace s\xa0mnoha krásnými fotkami křížů na křídovém papíru je ozdobou každé knihovny.</p>  ",
           foto: " vysleknihyV.jpg   ",
           umisteniFoto: " vlevo   ",
           popisek: " Knihy s\xa0tematikou smírčích křížů  ",
@@ -5383,7 +5383,7 @@ export default {
       popisCesty:
         " Leží 1100 metrů JZ od kostela v Nikolčicích, na S svahu Liščí hory, na kraji lesa u cesty.  ",
       popis:
-        " Kamennný pomníček. Ze soklu volně ložených kamenů povstává kamenná deska s vybledlou fotografií a zašlým textem. Pomníček bez péče.   ",
+        " Kamenný pomníček. Ze soklu volně ložených kamenů povstává kamenná deska s vybledlou fotografií a zašlým textem. Pomníček bez péče.   ",
       napis:
         "Těžce čitelné:   ZELENÉ  HÁJE // JOSEF //  BOHÁČEK // ZEMŘ. TRAG. ... 1979 // VE VĚKU 4? LET //  …?.... MYSLIVCI  ",
       pozn: "",
@@ -5413,9 +5413,9 @@ export default {
       popisCesty:
         " Významná křižovatka lesních cest leží 2200 metrů JV od Újezdu, uprostřed lesního komplexu. Místní název U pomníčku. ",
       popis:
-        "  Na jednom místě je pět různých objektů. Kamenný kříž z roku 2010, v perfektním stavu. Kamenný památník vyzděný ze světlých kamenů vysoký 1,5 metru, nahoře s nápisem 8. V. 1945, níže foto Masaryka, starý státní znak a nápis 1918 - 1928. Dřevěný altán. Improvizovaný oltářík s mariánským obrázkem a votivním textem. Dřevěný přístřešek vysoký 2 metry se dvěma dřevěnými cedulemi s vypáleným textem do dřeva.  ",
+        "  Na jednom místě je pět různých objektů. Kamenný kříž z roku 2010, v perfektním stavu. Kamenný památník vyzděný ze světlých kamenů vysoký 1,5 metru, nahoře s nápisem 8. V. 1945, níže foto Masaryka, starý státní znak a nápis 1918 - 1928. Dřevěný altán. Improvizovaný oltářík s mariánským obrázkem a votivním textem. Dřevěný přístřešek vysoký 2 metry se dvěma dřevěnými cedulemi s textem vypáleným do dřeva.  ",
       napis:
-        " Na horní ceduli zdobným písmem:  ...A  LESY // ŠUMÍ  DÁL.  Na spodní ceduli: VĚNOVÁNO  PAMÁTCE  LESÁKůM  Z  ROSIC // A  NÁMĚŠTĚ N/OSL.  ZA  OBĚTAVOU  PRÁCI  PRO LES   ",
+        " Na horní ceduli zdobným písmem:  ...A  LESY // ŠUMÍ  DÁL.  Na spodní ceduli: VĚNOVÁNO  PAMÁTCE  LESÁKŮM  Z  ROSIC // A  NÁMĚŠTĚ N/OSL.  ZA  OBĚTAVOU  PRÁCI  PRO LES   ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn:
         "  V některých mapách se lze setkat i s pojmenováním místa: Pomník padlým z I. a II. světové války. Tomu ale žádný z památníků neodpovídá. Kamenný pomník připomíná vznik republiky.   ",
@@ -5446,7 +5446,7 @@ export default {
       popisCesty:
         " 3,1 km JJZ od kostela v Protivanově, na významné křižovatce lesních silnic.  ",
       popis:
-        "  Velký lomový kámen 1,4 x 1 metr je zasazen šikmo do země. Na čelní straně vystupuje relief větví a na ohlazené ploše je text  psacím písmem. ",
+        "  Velký lomový kámen 1,4 x 1 metr je zasazen šikmo do země. Na čelní straně vystupuje reliéf větví a na ohlazené ploše je text  psacím písmem. ",
       napis:
         "   Památce lesáka //  Ing. Zdeňka Gardelky  //  ku prospěchu lesa zde působícího  // v letech 1956 - 2005  ",
 
@@ -5505,7 +5505,7 @@ export default {
       popisCesty:
         " 1100 m Z od kostela v Opatovicích, uprostřed polí, schován v remízku. Původně tu stál Opatovický les a pomník byl na jeho okraji. Regulovaná Svratka je odtud vzdálena asi 400 metrů. Cesta sem nevede.  ",
       popis:
-        "  Výpravný pomník v neogotickém stylu ve tvaru boží muky je vysoký 2,5 metru je poněkud zanedbán. Lidový název Štatule vznikl zkomolením německého die Statue = socha.  ",
+        "  Výpravný pomník v neogotickém stylu ve tvaru boží muky vysoký 2,5 metru je poněkud zanedbán. Lidový název Štatule vznikl zkomolením německého die Statue = socha.  ",
       napis:
         "opsán včetně chyb:  Otci svému Josefu Soukalovi, // myslivci kláštera Rajhradského, // na tomto místě od pytláka zastřelené, // mu, pomník tento postavili pozusta, // ly synové :  // Josef, Ján a Anton.  ",
       odkazy: [
@@ -5539,7 +5539,7 @@ export default {
       obec: "  Pozořice  ",
       jmeno: " Dana, Franz  ",
       nazev: " Památka revírníka Dany  ",
-      kdyVznikl: " polovina 19. století. ",
+      kdyVznikl: " Polovina 19. století. ",
       popisCesty:
         "  Leží 300 metrů SSZ od středu obce Jezera, na kraji lesa, dnes i na kraji obce.  ",
       popis:
@@ -5780,7 +5780,7 @@ export default {
       napis:
         " Na tomto místě // 27. září 1954 položil život // při ochraně myslivosti //  ROBERT  BARTL // z Nebovid č. 99 // zemř. ve věku 50 let. // … // Myslivci z Nebovid.  ",
       pozn:
-        "  Pomník znám od malička. Jako děti jsme vyslechli hrůzné pověsti o tom, jak pytláci zastřelili myslivce a zamačkali ho do bažiny.  ",
+        "  Pomník znám odmalička. Jako děti jsme vyslechli hrůzné pověsti o tom, jak pytláci zastřelili myslivce a zamačkali ho do bažiny.  ",
       naposledObnoveno: " 22.1.2021 ",
       souradnice: " 49.1488167N, 16.5290733E ",
       kodMapa:
