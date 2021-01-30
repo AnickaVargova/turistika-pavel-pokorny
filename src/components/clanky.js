@@ -5040,7 +5040,7 @@ export default {
         {
           textOdstavce:
             "   <p> Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v\xa0pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v\xa0knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p><p> I kámen <strong>1300 Tvarožná</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
-            foto: " cerncin1.jpg   ",
+          foto: " cerncin1.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 0648 Černčín 1  (květen 2019)  ",
         },
@@ -5900,6 +5900,153 @@ export default {
         { fotka: "obnovahospodareni2.jpg", popisek: " (prosinec 2007) " },
       ],
       proMe: " XVI/581  24-322-47  12.2007   ",
+    },
+    {
+      id: 135,
+      kategorie: "pomnicky",
+      pridano: " 29/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: "  Babice  ",
+      jmeno: " Schweiner a Zeman  ",
+      nazev: " Pomník Schweinera a Zemana ",
+      kdyVznikl: " po 1863 ",
+      popisCesty:
+        " 100 metrů V od železniční zastávky v Babicích v údolí potoka Jančovec. Modrá značka vede nad pomníkem.  ",
+      popis:
+        "  Kamenný pomník je vysoký dva metry. Do soklu z velkých pískovcových kamenů je vetknut vápencový blok a na jeho přední vyhlazené části je umístěn německý text.  ",
+      napis:
+        "  C. SCHWEINER  //  Forstadjunct  //  F. ZEMAN  //  Waldhöger  //  gefallen 10. Juli 1863 . Přeloženo :  C.S. lesnický mládenec, F.Z. hajný, padli 10. července 1863 ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa:
+            " https://www.adamovaokoli.cz/pamatniky/schweiner_a_zeman.html ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 133 ",
+        },
+        { nazev: " Babický zpravodaj, září-říjen 2013, s.4 " },
+      ],
+      pozn:
+        "  Adjunkt Cornelius Schweiner a kanický hajný Filip Zeman se stali obětí přestřelky s pytláky v lichtenštejnských lesích.Našli je 10. července na Dolní louce. Vrazi nebyli nikdy dopadeni.Zašlý pomník se v posledních letech poněkud naklání.  ",
+      naposledObnoveno: " 29.1.2021 ",
+      souradnice: " 49.2767667N, 16.6749386E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dahadusava" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/dahadusava",
+      galerie: [
+        { fotka: "schweiner1.jpg", popisek: " (leden 2012) " },
+        { fotka: "schweiner2.jpg", popisek: " (leden 2012) " },
+      ],
+      proMe: "  I/28  24-413-73  BO---Babice  ",
+    },
+    {
+      id: 136,
+      kategorie: "pomnicky",
+      pridano: " 29/01/2021 ",
+      podkategorie: 8,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Třebíč ",
+      obec: "  Krokočín  ",
+      jmeno: " Kalina, Jan  ",
+      nazev: " Křížek hajného Kaliny ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " 700 metrů V od Jinošovské hájenky, tam kde výrazná lesní cesta kříží průsek a překračuje mělké údolí.  ",
+      popis:
+        "  Železný křížek  je vsazený do kamenného soklu. V kameni je kovová tabulka s textem.   ",
+      napis:
+        " V  TĚCHTO  MÍSTECH  BYL  ZÁKEŘNĚ  ZASTŘELEN  PYTLÁKEM // 11. 6. 1914 //  JAN  KALINA  //  LESNÍ  HAJNÝ .   Text je zřejmě novodobý. ",
+      odkazy: [
+        {
+          nazev: " Silvárium ",
+          adresa:
+            " http://www.silvarium.cz/zpravy-z-oboru-lesnictvi-a-drevarstvi/pred-sto-lety-zastrelil-pytlak-hajneho-horacke-noviny ",
+        },
+      ],
+      pozn:
+        "  V sobotu 11. června 1914 večer slyšel hajný Kalina z lesa výstřel. Vydal se po zvuku a zanedlouho spatřil v lese člověka, který se skláněl nad vyvrženým srncem. Hajný mu ho chtěl odebrat, ale narazil na odpor. Po krátké potyčce si hajný hodil zvíře na záda a odcházel. Nechal pytlákovi zbraň a to byla chyba. Pytlák hajného střelil zezadu a zmizel. Kalinu našli lidé mrtvého až druhý den ráno. Vražda se vyšetřovala, ale za pár dní byl spáchán atentát v Sarajevu, vypukla světová válka a svět měl jiné starosti. Padala podezření na různé pytláky v okolí, ale nic jim nedokázali. Říkalo se, že jméno vraha znal jinošovský farář, kterému se zločinec vyzpovídal. Potrestán nebyl nikdo. ",
+      naposledObnoveno: " 29.1.2021 ",
+      souradnice: " 49.2422578N, 16.2160908E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hozepudodo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/hozepudodo",
+      galerie: [
+        { fotka: "kalina1.jpg", popisek: " (březen 2013) " },
+        { fotka: "kalina2.jpg", popisek: " (březen 2013) " },
+        { fotka: "kalina3.jpg", popisek: " (březen 2013) " },
+      ],
+      proMe: "  XVI/559  24-314-36  14---032  ",
+    },
+
+    {
+      id: 137,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Jundrov  ",
+      jmeno: " Gola, Rudolf  ",
+      nazev: "  Zkosený sloup ",
+      kdyVznikl: " konec 80.let 20. století ",
+      popisCesty:
+        " 250 metrů Z od vrcholu Holedné (kota 391) poblíž rozcestí.  ",
+      popis:
+        "  Trojboký sloup je v půli přeseknut a zkosená špice se dotýká země. Výška pomníku je 3 a půl metru. Na svislé části sloupu je kamenná deska s textem.  ",
+      napis:
+        " PAMÁTCE  ING.  RUDOLFA  GOLY //   *  7. 3. 1915  + 1. 8. 1964 // KTERÝ  SE  ZASLOUŽIL  O  VYBUDOVÁNÍ // BRNĚNSKÝCH  PŘÍMĚSTSKÝCH  LESŮ  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=7103 ",
+        },
+      ],
+      pozn:
+        "  Ze začátku byl pomník schován v hustníku a dlouhá léta byl bez tabulky, tedy se nevědělo, proč tam stojí. Proto název Zkosený sloup. Rudolf Gola byl taxátor městských lesů, sestavil plány těžebních postupů na mnoho let dopředu, podílel se na estetickém zalesňování brněnského okolí. Jeho zásluhou byly vysázeny  háje na březích Brněnské přehrady a zbudovány tři vodní nádrže v údolí Říčky. Zahynul tragicky 1. srpna 1964.  ",
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: " 49.2140592N, 16.5347614E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jurumumaro" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jurumumaro",
+      galerie: [
+        { fotka: "gola1.jpg", popisek: " (březen 2008) " },
+        { fotka: "gola2.jpg", popisek: " (listopad 2019) " },
+      ],
+      proMe: " V/144  24-324-30  3.2008  19---114   ",
+    },
+    {
+      id: 138,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - venkov ",
+      obec: "  Kuřim  ",
+      jmeno: " Koupě lesů  ",
+      nazev: " Připomenutí 400. výročí koupě kuřimských lesů ",
+      kdyVznikl: " 1947 ",
+      popisCesty:
+        "  Na úpatí JZ svahu Kuřimské hory (kóta 435), tam, kde strmá lesní rokle ústí do polí. U lesní cesty. ",
+      popis:
+        "  Špidlatý lomový kámen je vysoký jeden metr. Do svislé plochy je vsazena černá deska s textem.  ",
+      napis:
+        "  NA  PAMĚŤ // 400. VÝROČÍ  KOUPĚ  KUŘIMSKÝCH // LESŮ // 1547 - 1947 // ZEMSKÉ  HLAVNÍ // MĚSTO  BRNO   ",
+
+      pozn: "    ",
+      naposledObnoveno: " XX.1.2021 ",
+      souradnice: " 49.2899042N, 16.5264900E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pekenokuda" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/pekenokuda",
+      galerie: [
+        { fotka: "koupelesu1.jpg", popisek: " (prosinec 2017) " },
+        { fotka: "koupelesu2.jpg", popisek: " (prosinec 2017) " },
+      ],
+      proMe: "  IV/109  24-322-81   17---123  ",
     },
 
     // {
