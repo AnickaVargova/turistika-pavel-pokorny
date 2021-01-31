@@ -6048,6 +6048,106 @@ export default {
       ],
       proMe: "  IV/109  24-322-81   17---123  ",
     },
+    {
+      id: 139,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - venkov ",
+      obec: "  Lažánky  ",
+      jmeno: " Jánošík, Jiří  ",
+      nazev: " Památka na Jiřího Jánošíka  ",
+      kdyVznikl: " po 1987 ",
+      popisCesty:
+        " 2,5 kilometru SZ od kaple v Lažánkách, 300 metrů od rozcestí značených cest Pravková, na zelené značce u cesty.   ",
+      popis:
+        "  Lomový kámen, vysoký jeden metr, je na výšku zasazen do země. Na přední svislé straně je černá leštěná deska s obrázkem mladého lesníka a textem. Původní deska s oválnou fotografií byla poškozena a vyměněna, text mírně změněn.  ",
+      napis:
+        " ZDE  TRAGICKY  ZEMŘEL // JIŘÍ  JÁNOŠÍK //  * 16. 7. 1957   + 25. 3. 1987 // LESNÍ  Z  LAŽÁNEK // ...  ",
+
+      pozn:
+        " Jiří Jánošík byl lesník z Lažánek. Rád sem chodil, toto místo bylo jeho oblíbené. Vybral si ho k dobrovolnému odchodu ze světa.   ",
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: " 49.2962117N, 16.3665919E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gahemotora" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/gahemotora",
+      galerie: [
+        { fotka: "janosik1.jpg", popisek: " ( březen 2016) " },
+        { fotka: "janosik2.jpg", popisek: " ( březen 2016) " },
+      ],
+      proMe: "  XI/330  24-321-26A  16---03.  ",
+    },
+    {
+      id: 140,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Brno - venkov ",
+      obec: " Lipůvka   ",
+      jmeno: " Šotola, Josef  ",
+      nazev: " Památka na Josefa Šotolu ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " SV od Lipůvky na Dubovém kopci. U lesní silničky na kraji lesa. Vede tu červená značka.  ",
+      popis:
+        "  Načervenalý slepencový balvan postavený na výšku je vysoký 1,5 metru. Do svislé plochy na přední straně kamene je vsazena černá leštěná deska s delším textem.  ",
+      napis:
+        " V  TĚCHTO  LESÍCH  PŮSOBIL // MĚSTSKÝ  LESNÍ  HAJNÝ // JOSEF  ŠOTOLA //  *  10. 2. 1918 // KTERÝ  OBĚTOVAL  ŽIVOT  //  ZA  SVOU  VLAST,  //   BYL  UMUČEN  9. 4. 1945  //  V  MAUTHAUSENU   ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=1430 ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Josef Šotola byl mladý lesník, který se v červnu 1943 přistěhoval do Lažan a pracoval  jako hajný v Lipůvce. Na konci války pomáhal partyzánům a v souvislosti s útokem Němců na partyzánský oddíl 3. úderné roty ve Skaličce byl 6. 3. 1945 zatčen gestapem a uvězněn v Kounicových kolejích. Spolu s dalšími asi 200 pomocníky partyzánů byl 8. 4. 1945 transportován do koncentračního tábora Mauthausen. Němci celý transport  popravili v plynové komoře.   ",
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: " 49.3487839N, 16.5728908E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fakovodahu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fakovodahu",
+      galerie: [
+        { fotka: "sotola1.jpg", popisek: " (únor 2017) " },
+        { fotka: "sotola2.jpg", popisek: " (únor 2017) " },
+      ],
+      proMe: "  VI/181  24-322-80  17---02.  ",
+    },
+    {
+      id: 141,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: "  Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Tišnov  ",
+      jmeno: " Prosba Klucanina  ",
+      nazev: " Prosba lesa na Klucanině ",
+      kdyVznikl: " začátek 90. let 20. století ",
+      popisCesty:
+        " Na plochém vrcholu Klucaniny asi 300 metrů JV do rozhledny. Vede tu modrá značka.  ",
+      popis:
+        "  Kamenný pomník vysoký 1,7 metru je vyzděný ze světlých kamenů na cementovou maltu. V něm je zazděna velká bílá deska s textem.  ",
+      napis: "  Známá modlitba  Prosba lesa. ",
+
+      pozn:
+        "  Těžko říci, kdo je autorem modlitby Prosba lesa. Objevil ji profesor Opletal na vstupní bráně jugoslávského pavilonu na světové výstavě v Paříži v roce 1937. Text ve francouzštině si opsal, přeložil a použil poprvé na studánce Prosba lesa u Babic, zbudované v roce 1938. Odtud se text šíří po českých zemích v mnoha kopiích a mírných úpravách.  ",
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: " 49.3452217N, 16.4435858E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/fesupuzebe" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/fesupuzebe",
+      galerie: [
+        { fotka: "prosbaklucanina1.jpg", popisek: " (listopad 2017) " },
+      ],
+      proMe: "  X/318  24-321-63  17---112  ",
+    },
 
     // {
     //   id:  1000,
