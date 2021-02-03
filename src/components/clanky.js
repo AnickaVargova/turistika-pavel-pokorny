@@ -6131,7 +6131,7 @@ export default {
       nazev: " Prosba lesa na Klucanině ",
       kdyVznikl: " začátek 90. let 20. století ",
       popisCesty:
-        " Na plochém vrcholu Klucaniny asi 300 metrů JV do rozhledny. Vede tu modrá značka.  ",
+        " Na plochém vrcholu Klucaniny asi 300 metrů JV od rozhledny. Vede tu modrá značka.  ",
       popis:
         "  Kamenný pomník vysoký 1,7 metru je vyzděný ze světlých kamenů na cementovou maltu. V něm je zazděna velká bílá deska s textem.  ",
       napis: "  Známá modlitba  Prosba lesa. ",
