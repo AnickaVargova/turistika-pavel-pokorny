@@ -15,7 +15,9 @@
           v-else-if="odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz"
           class="vnitrniOdkaz"
           v-bind:to="
-            `/${odkaz.odkazKategorie}/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`
+            `/${odkaz.odkazKategorie.trim()}/${odkaz.odkazPodkategorie}/${
+              odkaz.vnitrniOdkaz
+            }`
           "
           >{{ odkaz.textOdkazu }}</router-link
         >

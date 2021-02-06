@@ -6148,6 +6148,161 @@ export default {
       ],
       proMe: "  X/318  24-321-63  17---112  ",
     },
+    {
+      id: 142,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: "  Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Předklášteří  ",
+      jmeno: " Prosba Pasník  ",
+      nazev: " Prosba lesa na Pasníku  ",
+      kdyVznikl: " zdá se, že na konci 80. let 20. století ",
+      popisCesty:
+        " 1500 metrů JJZ od kostela v Předklášteří, na plochém hřbetu vedoucím na vrchol Pasníku. Na rozcestí lesních cest, vede tudy zelená značka.  ",
+      popis:
+        "  Kamenný pomník je vysoký skoro dva metry. Světlé kameny jsou spojeny cementovou maltou, uprostřed je bílá deska s černým textem.  ",
+      napis: "  Známá modlitba  Prosba lesa.  ",
+
+      pozn:
+        "   Těžko říci, kdo je autorem modlitby Prosba lesa. Objevil ji profesor Opletal na vstupní bráně jugoslávského pavilonu na světové výstavě v Paříži v roce 1937. Text ve francouzštině si opsal, přeložil a použil poprvé na studánce Prosba lesa u Babic, zbudované v roce 1938. Odtud se text šíří po českých zemích v mnoha kopiích a mírných úpravách.   ",
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: "49.3406139N, 16.3954039E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mekebukeju" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/mekebukeju",
+      galerie: [
+        { fotka: "prosbapasnik1.jpg", popisek: " (únor 2016) " },
+        { fotka: "prosbapasnik2.jpg", popisek: " (únor 2016) " },
+      ],
+      proMe: "  VII/211  24-321-37  16--02.  ",
+    },
+    {
+      id: 143,
+      kategorie: "pomnicky",
+      pridano: " 30/01/2021 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Vyškov ",
+      obec: "  Heršpice  ",
+      jmeno: " Wiehl, Julius - pomník  ",
+      nazev: " Pomník Julia Wiehla ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V blízkém okolí je namačkáno nejméně pět vlastivědných památek.  ",
+      popis:
+        "  Pomník vysoký 1,5 metru je vyzděný z opracovaných kamenů, haklíkové zdivo. Do něho je zazděna leštěná žulová deska s hůře čitelným textem.   ",
+      napis:
+        " SVĚTLÉ  PAMÁTCE // JULIA  WIEHLA  // 1847 - 1917 // VĚHLASNÉHO  ZAŘIZOVATELE // A  PĚSTITELE  LESŮ // V  OBLASTI  ŽDÁNICKÉHO  LESA  ",
+      odkazy: [
+        {
+          nazev: " Lesy ČR ",
+          adresa:
+            " https://lesycr.cz/casopis-clanek/julius-wiehl-vehlasny-pestitel-zdanickych-lesu/ ",
+        },
+      ],
+      pozn:
+        "  Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla (skok na ID 144).  ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 144,
+          odkazKategorie: "pomnicky ",
+          odkazPodkategorie: 1,
+          odkazKde: "pozn",
+          predOdkazem:
+            "Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt   ",
+          textOdkazu: "pamětní desku Julia Wiehla (skok na ID 144) ",
+          zaOdkazem: ". ",
+        },
+      ],
+
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: " 49.0909297N, 16.9808969E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/humomutuza" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/humomutuza",
+      galerie: [
+        { fotka: "wiehlpomnik1.jpg", popisek: " (květen 2005) " },
+        { fotka: "wiehlpomnik2.jpg", popisek: " (květen 2005) " },
+      ],
+      proMe: "  IX/275  24-434-7 16---052  ",
+    },
+    {
+      id: 144,
+      kategorie: "pomnicky",
+      pridano: " 31/01/2021 ",
+      podkategorie: 1,
+      druh: "  Lesnický slavín  ",
+      okres: " Blansko ",
+      obec: "  Habrůvka  ",
+      jmeno: " Wiehl, Julius - deska  ",
+      nazev: " Pamětní deska Julia Wiehla ",
+      kdyVznikl: " 1929 ",
+      popisCesty:
+        " 2,5 kilometru SZ od Habrůvky, v údolí zvaném Padouch, 400 metrů od silnice Josefov-Olomučany, na  J šikmé skalní stráni. Dost nenápadný památník na krásném místě.  ",
+      popis:
+        "  Tmavá leštěná kamenná deska je zasazena do stěny bývalého lomu.  ",
+      napis: " JULIUS  //  WIEHL  //  1847 - 1917  //  1929    ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa: " https://www.adamovaokoli.cz/pamatniky/wiehl.html ",
+        },
+        {
+          nazev:
+            "  Jiří Truhlář : Památníky adamovských lesů, 2003, str. 50 - 51 ",
+        },
+      ],
+      pozn:
+        "  Julius Wiehl byl vynikající český lesník, pracoval ve vedoucích funkcích na  několika panstvích. Roku 1895 přišel na lichteštejnské panství  jako vedoucí lesní úředník a 1898 vypracoval lesní plán, který znamenal zásadní zvrat v lesním hospodářství na území dnešního Školního lesního podniku. Cesta pod pamětní deskou se jmenuje Wiehlova cesta. Původně byla deska umístěna výše na skále. Protože byla poškozená, nahradili ji v roce 1998 a změnili sklon, aby neodrážela oblohu a byla čitelná z cesty. To se podařilo jen částečně. ",
+      naposledObnoveno: " 31.1.2021 ",
+      souradnice: " 49.3155739N, 16.6934550E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gufurasoba" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/gufurasoba",
+      galerie: [
+        { fotka: "wiehldeska1.jpg", popisek: "  (červen 2018)" },
+        { fotka: "wiehldeska2.jpg", popisek: "  (červen 2018)" },
+      ],
+      proMe: "   II/46  24-411-83  18---064   ",
+    },
+    {
+      id: 145,
+      kategorie: "pomnicky",
+      pridano: " 31/01/2021 ",
+      podkategorie: 1,
+      druh: "  Lesnický slavín ",
+      okres: " Blansko ",
+      obec: "  Olomučany  ",
+      jmeno: " Wachtl, Jiří  ",
+      nazev: " Památka Jiřího Wachtla  ",
+      kdyVznikl: " 1929 ",
+      popisCesty:
+        " 2 kilometry V od kapličky v Klepačově, na širokém hřbetu Polomu nad Starohraběcí hutí. Na odbočce modré značky.  Toto místo bylo zvoleno k oficiálnímu otevření Lesnického slavínu. Stalo se dne 18. června 1929.  ",
+      popis:
+        "  Několik volně uložených vápencových balvanů na sobě, na největším z nich je tmavá deska s textem.   ",
+      napis: "  JIŘÍ  //  WACHTL //  1847 - 1912  //  1929     ",
+      odkazy: [
+        {
+          nazev:
+            "  Jiří Truhlář : Památníky adamovských lesů, 2003, str. 48 - 49  ",
+        },
+      ],
+      pozn:
+        "  Nápis na desce obsahuje chybu. Správně se lesník jmenoval Jiří Václav Wachtel a byl už pátou generací rodu Wachtlů (Wachtelů), kteří se zabývali lesnictvím. Rod Wachtlů sehrál na Jindřichohradecku zásadní roli v pokroku myslivosti a lesnictví 18. a 19. století. Jiří Václav W. získal zkušenosti v Německu a uplatnil je v jižních Čechách při přirozeném zmlazování lesa. Byl lesním estetikem a ochráncem starých stromů. V minulých letech byl horní balvan pomníku svalen na zemi (viz foto z ledna 2014), v současné době už je pomník v pořádku. ",
+      naposledObnoveno: " 31.1.2021 ",
+      souradnice: " 49.3458369N, 16.6867264E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/capetesepe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/capetesepe",
+      galerie: [
+        { fotka: "wachtl1.jpg", popisek: " (leden 2014) " },
+        { fotka: "wachtl2.jpg", popisek: " (říjen 2020) " },
+        { fotka: "wachtl3.jpg", popisek: " (říjen 2020) " },
+      ],
+      proMe: " II/41  24-411-100  14---014  20---104  ",
+    },
 
     // {
     //   id:  1000,
