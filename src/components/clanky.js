@@ -6188,11 +6188,11 @@ export default {
       obec: "  Heršpice  ",
       jmeno: " Wiehl, Julius - pomník  ",
       nazev: " Pomník Julia Wiehla ",
-      kdyVznikl: "  ",
+      kdyVznikl: " Slavnostně odhalen 9. června 1983  ",
       popisCesty:
         " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V blízkém okolí je namačkáno nejméně pět vlastivědných památek.  ",
       popis:
-        "  Pomník vysoký 1,5 metru je vyzděný z opracovaných kamenů, haklíkové zdivo. Do něho je zazděna leštěná žulová deska s hůře čitelným textem.   ",
+        "  Pomník vysoký 1,6 metru je vyzděný z opracovaných kamenů, haklíkové zdivo. Do něho je zazděna leštěná žulová deska s hůře čitelným textem.   ",
       napis:
         " SVĚTLÉ  PAMÁTCE // JULIA  WIEHLA  // 1847 - 1917 // VĚHLASNÉHO  ZAŘIZOVATELE // A  PĚSTITELE  LESŮ // V  OBLASTI  ŽDÁNICKÉHO  LESA  ",
       odkazy: [
@@ -6203,7 +6203,7 @@ export default {
         },
       ],
       pozn:
-        "  Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla (skok na ID 144).  ",
+        "  Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla.  ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 144,
@@ -6212,7 +6212,7 @@ export default {
           odkazKde: "pozn",
           predOdkazem:
             "Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt   ",
-          textOdkazu: "pamětní desku Julia Wiehla (skok na ID 144) ",
+          textOdkazu: "pamětní desku Julia Wiehla ",
           zaOdkazem: ". ",
         },
       ],
@@ -6223,8 +6223,8 @@ export default {
         ' <iframe style="border:none" src="https://frame.mapy.cz/s/humomutuza" width="400" height="280" frameborder="0"></iframe>   ',
       odkazMapa: "https://frame.mapy.cz/s/humomutuza",
       galerie: [
-        { fotka: "wiehlpomnik1.jpg", popisek: " (květen 2005) " },
-        { fotka: "wiehlpomnik2.jpg", popisek: " (květen 2005) " },
+        { fotka: "wiehlpomnik1.jpg", popisek: " (květen 2016) " },
+        { fotka: "wiehlpomnik2.jpg", popisek: " (květen 2016) " },
       ],
       proMe: "  IX/275  24-434-7 16---052  ",
     },
