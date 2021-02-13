@@ -386,7 +386,7 @@ export default {
       obec: " Jiříkovice ",
       jmeno: " Brassinne, Norbert ",
       nazev: "  Památník Norberta Brassinna ",
-      kdyVznikl: " odhalen 20.11.2000 ",
+      kdyVznikl: " odhalen 25.listopadu 2000 ",
       popisCesty: "Na SV kraji Jiříkovic u rozcestí na místě hromadného hrobu.",
       popis:
         "Neopracovaný balvan vysoký 1,3 m a na něm leštěná žulová deska. Pískovcový pomník navrhl Miloslav Pražák.",
