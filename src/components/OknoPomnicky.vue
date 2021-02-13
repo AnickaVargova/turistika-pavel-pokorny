@@ -138,7 +138,7 @@
           >
             <Klikaci kdeJsem="napis" v-bind:clanek="clanek" />
           </td>
-          <td v-html='clanek.napis' v-else>{{ clanek.napis }}</td>
+          <td v-html="clanek.napis" v-else>{{ clanek.napis }}</td>
         </tr>
 
         <tr v-if="clanek.kategorie === 'smircikrize'">
@@ -164,7 +164,7 @@
           >
             <Klikaci kdeJsem="pozn" v-bind:clanek="clanek" />
           </td>
-          <td v-else>{{ clanek.pozn }}</td>
+          <td v-html="clanek.pozn" v-else>{{ clanek.pozn }}</td>
         </tr>
         <tr>
           <td>Galerie:</td>
@@ -177,10 +177,10 @@
             >
               <router-link
                 v-bind:to="
-                  `/fotodetail/${clanek.podkategorie}/${obrazek.fotka}`
+                  `/fotodetail/${clanek.podkategorie}/${obrazek.fotka.trim()}`
                 "
                 ><img
-                  v-bind:src="require(`./../assets/${obrazek.fotka}`)"
+                  v-bind:src="require(`./../assets/${obrazek.fotka.trim()}`)"
                   alt="Fotodetail"
                   v-bind:class="{ imgEdge: isEdgeChromium }"
               /></router-link>
@@ -267,7 +267,7 @@
             clanek.kategorie === "smircikrize"
         );
       }
-     
+
       if (this.kategoriePomnicky) {
         for (let clanek of this.clanky) {
           for (let podkategorie of this.kategoriePomnicky) {

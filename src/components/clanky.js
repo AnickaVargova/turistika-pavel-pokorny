@@ -6303,6 +6303,342 @@ export default {
       ],
       proMe: " II/41  24-411-100  14---014  20---104  ",
     },
+    {
+      id: 146,
+      kategorie: "pomnicky",
+      pridano: " 7/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Brno - venkov ",
+      obec: "  Podolí  ",
+      jmeno: " Žuráň  ",
+      nazev: " Pomník na Žuráni ",
+      kdyVznikl:
+        " Slavnostní odhalení bylo 5. července 1930 za přítomnosti české i francouzské generality. Místo je od té doby exteritoriálním územím Francie, většinu času tu vlaje francouzská vlajka. ",
+      popisCesty:
+        " Leží 1,5 kilometru JV od kostela v Podolí, na mírném návrší, 300 metrů od státní silnice do Slavkova. Známé místo.  ",
+      popis:
+        " Kubistický pomník ve tvaru stolu umístěném na nízkém soklu. Autorem je arch. Vojtěch Kerhart z Prahy.  Na horní ploše je plastická mapa bojiště Slavkovské bitvy 2. prosince 1805 s postavením jednotek v 7 hodin ráno a Napoleonovo provolání k vítězným vojskům francouzsky a česky. Na Z straně kvádru je Napoleonovo N, na S straně pomníku je dlouhý Napoleonův rozkaz v předvečer bitvy ve francouzštině. Jeho překlad do češtiny byl na J straně kostky a v době okupace byl odstraněn. Zrovna tak nepřežil německou okupaci nápis na V straně pomníku, který vyjadřoval díky Francii a francouzské misi při budování pomníku  ",
+      napis:
+        " VOJÁCI!  MŮJ  NÁROD PŘIVÍTÁ  VÁS S RADOSTÍ A STAČÍ  ŘEKNETE - LI : // BYL  JSEM V BITVĚ U SLAVKOVA  ABY  SE  ODPOVĚDĚLO : HLE //  HRDINA NAPOLEON.  ",
+      odkazy: [
+        {
+          nazev: " Wikipedie - Žuráň ",
+          adresa: " https://cs.wikipedia.org/wiki/%C5%BDur%C3%A1%C5%88 ",
+        },
+        { nazev: "  ", adresa: "  " },
+        {
+          nazev: " Vladimír Ustohal : Napoleonská návrší, 1995, str. 9 - 25. ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        " <p>Místo pozoruhodné trojím způsobem.</p><p> Za prvé: pahorek Žuráně je navršen uměle, v 6. století tu nasypali mohylu o průměru až 80 metrů a výšce možná deseti metrů, která ukrývala hrobky nejvyšší aristokracie té doby. Akademik Poulík v letech 1948 - 50 mohylu prokopal, našel 2 hrobky z doby stěhování národů a několik dalších hrobů z jiných předslovanských dob. Všechny hroby byly vyloupené, tehdejší zloději brali jen šperky. Nejcennější nálezy pocházejí z konce 5. a začátku 6. století.</p><p>Za druhé: z tohoto místa řídil Napoleon v dopoledních hodinách 2. prosince 1805 bitvu u Slavkova. Přenocoval ve svém kočáře na úpatí kopce poblíž Bedřichovic, ráno využil mlhu, která skrývala jeho jednotky v údolí a v osm hodin nařídil pověstný “lví skok” , obsazení Prateckého kopce, čímž rozdělil ruská a rakouská vojska na poloviny, vpadl jim do zad a rozhodl bitvu ve svůj prospěch.</p><p>Za třetí: V roce 1927 navštívil Žuráň francouzský maršál Louis Franchet D’Esperey (1856-1942), veterán 1. světové války, společně s náčelníkem gen. štábu generálem Syrovým. Projevil přání, zda by tu mohl stát jednoduchý pomník. Stalo se do tří let.</p><p> Pomník je častým cílem vandalů a sběračů kovů. V roce 1995 zmizela bronzová mapa bojiště, našla se rozřezaná v Rakousku. </p>",
+      naposledObnoveno: " 7.2.2021 ",
+      souradnice: " 49.1797722N, 16.7384422E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bubebeleku" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/bubebeleku",
+      galerie: [
+        { fotka: "zuran1.jpg", popisek: " (červen 2020) " },
+        { fotka: "zuran2.jpg", popisek: " (červen 2020) " },
+        {
+          fotka: "zuran3.jpg",
+          popisek: " (červen 2020 - mapa bojiště na pomníku) ",
+        },
+      ],
+      proMe: "  V/148  24-431-56  20---061  ",
+    },
+    {
+      id: 147,
+      kategorie: "pomnicky",
+      pridano: " 08/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Brno - venkov ",
+      obec: "  Tvarožná  ",
+      jmeno: " Bagration, Pjotr Ivanovič  ",
+      nazev: " Pamětní desky na Santonu ",
+      kdyVznikl:
+        " Deska generála Claparèda byla odhalena koncem roku 1984 a podobizny generálů Valhuberta a Bagrationa přibyly v roce 1986. ",
+      popisCesty:
+        " Návrší Santon leží JZ od Tvarožné. Na vrcholu je kaple a do její stěny  jsou  zazděny pamětní desky. Nepřehlédnutelné místo.  ",
+      popis:
+        "  Kaple panny Marie Sněžné zničená za napoleonské bitvy byla roku 1832 vystavěna znovu. V  SZ stěně jsou zvenku zasazeny dvě mramorové pamětní desky se jmény a reliéfy válečníků, spojených s tímto místem v bitvě u Slavkova. Vlevo je deska s reliéfem ruského generála Bagrationa, vedle je obdélníková deska s podobou francouzských velitelů Claparèda a Valhuberta. Autorem desek je sochař, malíř a grafik Vladimír Drápal (1921-2015) z Tvarožné. ",
+      napis: " BAGRATION  //  CLAPARÈDE  //  VALHUBERT  ",
+      odkazy: [
+        {
+          nazev: " Tvarožná Drápal ",
+          adresa: " https://www.tvarozna.cz/doc-vladimir-drapal ",
+        },
+        {
+          nazev: " Vladimír Ustohal : Napoleonská návrší, 1995, str. 26 - 36. ",
+        },
+      ],
+      pozn:
+        "  <p>Pjotr Ivanovič Bagration (1765 - 1812) ruský šlechtic a voják gruzínského původu. Ve slavkovské bitvě byl generálporučík. Útočil na S křídle na Tvarožnou a dělostřelecky opevněný Santon. I když svoji bitvu o Tvarožnou vyhrál, hrozilo obklíčení a musil ustoupit. Jako jediný ruský generál ustupoval spořádaně až k Rousínovu. Padl u Borodina.</p><p>Michel Marie Claparède (1770 - 1842) byl v armádě od 23 let. Ve slavkovské bitvě měl hodnost brigádního generála. Se svým plukem lehké pěchoty (18 děl, 1800 mužů) úspěšně bránil Santon proti jednotkám Bagrationa.</p><p>Jean Roger Valhubert (1764 - 6. 12. 1802) byl v armádě od 17 let. Byl stoupencem Velké francouzské revoluce a generálem od roku 1803. Výbuchem dělostřeleckého granátu byl těžce zraněn, převezen do Brna, kde zemřel. Je nejvyšší šarží, která padla na francouzské straně.</p> ",
+      naposledObnoveno: " 8.2.2021 ",
+      souradnice: " 49.1884139N, 16.7637211E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/johagatome" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/johagatome",
+      galerie: [
+        {
+          fotka: "santon1.jpg",
+          popisek: "  Kaple na Santonu (prosinec 2019) ",
+        },
+        { fotka: "santon2.jpg", popisek: "  Bagration (prosinec 2019) " },
+        { fotka: "santon3.jpg", popisek: " Claparède (prosinec 2019) " },
+        { fotka: "santon4.jpg", popisek: " Valhubert (prosinec 2019) " },
+      ],
+      proMe: "  V/150  24-431-32 12---122 19---121  ",
+    },
+    {
+      id: 148,
+      kategorie: "pomnicky",
+      pridano: " 09/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Brno - venkov ",
+      obec: "  Tvarožná  ",
+      jmeno: " Bílý pomník  ",
+      nazev: " Bílý pomník pod Santonem ",
+      kdyVznikl:
+        " V prosinci 1987 byl odhalen za přítomnosti našich, východoněmeckých a rakouských historických vojenských jednotek. ",
+      popisCesty:
+        " Leží JZ od Tvarožné, na úpatí návrší Santon. Kolem po pěšině vede žlutá značka.   ",
+      popis:
+        " Z bílé plotny vystupuje  kříž z bílého mramoru krytý stříškou. Uprostřed kříže je hlava Krista, pod ní je girlanda z růží. Pomník je vysoký asi 1,5 metru.   ",
+      napis:
+        " BLAHOSLAVENÍ // KTEŘÍ  V  PÁNU  UMÍRAJÍ // zkřížené šavle // 2. 12. 1805   ",
+      odkazy: [
+        {
+          nazev:
+            " František Kopecký : Bitva u Slavkova a Morava v letech 1805-1806. 2001. str. 163 ",
+        },
+      ],
+      pozn:
+        "  Pomník vznikl iniciativou Jana Vlčka z Tvarožné. Údajně je na místě hromadného hrobu. Na poli před pomníkem se od roku 1989 konají rekonstrukce Bitvy tří císařů za účasti jezdců na koních, děl, stovek uniformovaných a tisíců diváků. ",
+      naposledObnoveno: " 9.2.2021 ",
+      souradnice: " 49.1889311N, 16.7654236E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cacadasoga" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/cacadasoga",
+      galerie: [
+        { fotka: "bilypomnik1.jpg", popisek: "  (prosinec 2019) " },
+        { fotka: "bilypomnik2.jpg", popisek: "  (prosinec 2012) " },
+        { fotka: "bilypomnik3.jpg", popisek: "  (prosinec 2019) " },
+      ],
+      proMe: "  V/151  24-431-31  12---122  19---121  ",
+    },
+    {
+      id: 149,
+      kategorie: "pomnicky",
+      pridano: " 09/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Vyškov ",
+      obec: "  Křenovice  ",
+      jmeno: " Křenovické hroby  ",
+      nazev: " Křenovické hromadné hroby ",
+      kdyVznikl:
+        " kříž je z roku 1920, pomníček ze třicátých let 20. století. ",
+      popisCesty:
+        " Návrší U krchůvka leží 800 metrů ZSZ od horního nádraží Křenovice, u silnice z Křenovic do Prace. Vede sem odbočka zelené značky. Na malé ploše se nachází čtyři vlastivědné objekty a několik hromadných hrobů. Je tu kříž z roku 1920, pomníček obětem cholery z let 1836 a 1866, pomníček obětem bitvy u Slavkova a za silnicí smírčí kříž 521 Křenovice.  ",
+      popis:
+        " Se Slavkovskou bitvou souvisejí dva z nich. Pomníček vyzděný z lomového kamene do tvaru jehlanu je vysoký 1,2 metru. Na čelní stěně je bílá deska s textem. Za ním stojí pískovcový  kříž na stupňovitém soklu, vysoký 3 metry, s nápisem skoro nečitelným.  ",
+      napis:
+        " Na pomníčku: POSLEDNÍ  ODPOČINEK  //  HRDINŮ  BITVY  // SLAVKOVSKÉ  //  Z  R.  1805 . Na kříži: Památce farníků křenovických // a vojínů bitvy // Slavkovské // jejichž těla // zde v Pánu // odpočívají // věnováno //  L. P. 1920 .",
+
+      pozn:
+        "  Památky se vztahují k několika zde umístěným hromadným hrobům z 19. století. Jeden z nich byl zlikvidován při stavbě silnice. Jeden přibyl, když ho přemístili ze Zbýšova sem.  ",
+      naposledObnoveno: " 9.2.2021 ",
+      souradnice: " 49.1459317N, 16.8149472E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lahahutuce" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/lahahutuce",
+      galerie: [
+        { fotka: "krenovicehrob1.jpg", popisek: " (leden 2021) " },
+        { fotka: "krenovicehrob2.jpg", popisek: " (leden 2021) " },
+        {
+          fotka: "krenovicehrob3.jpg",
+          popisek: " (kříž U krchůvka, leden 2021) ",
+        },
+      ],
+      proMe: "  V/162  XX/1110  24-431-61  21---013  ",
+    },
+    {
+      id: 150,
+      kategorie: "pomnicky",
+      pridano: " 10/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Brno - venkov ",
+      obec: "  Prace  ",
+      jmeno: " Jirčík, František ",
+      nazev: " Pomník generálmajora Jirčíka. ",
+      kdyVznikl: " Slavnostní odhalení bylo 3. prosince 1995 ",
+      popisCesty:
+        " Pratecký kopec (kóta 325) leží na J od vsi Prace. Na návrší stojí Muzeum bitvy u Slavkova a více vlastivědných památek. Mohyla míru, historický kanón, vysázené stromy pocházející z různých evropských končin  a pomník generálmajora Jirčíka na S od muzea.   ",
+      popis:
+        " Do podstavce z žulových kostek je vsazen pískovcový pomník ozdobený císařskou orlicí. Na soklu je historická přilba, dělová koule a litinová deska s delším nápisem.  ",
+      napis:
+        " 2. 12. 1805  //  ZDE  BOJOVALA  ZA  SVOJI // VLAST  PĚŠÍ  BRIGÁDA // GEN.  MAJORA  JIRČÍKA  … Jsou tu vyjmenovány zúčastněné pluky rakouské armády.  ",
+      odkazy: [
+        {
+          nazev: " Wikipedia -Jircik ",
+          adresa: " https://de.wikipedia.org/wiki/Franz_Jircik ",
+        },
+        {
+          nazev:
+            " František Kopecký : Bitva u Slavkova a Morava v letech 1805-1806. 2001. str. 165 ",
+        },
+      ],
+      pozn:
+        "  František Jirčík - Franz Jircik (1758 Kutná Hora - 19?.12.1805)  byl rakouský generálmajor v císařských službách. Válečné zkušenosti získal v tureckých válkách, se svými jednotkami hlídal hranice ve Slavonii. V bitvě u Slavkova velel brigádě 4800 mužů. Byl smrtelně zraněn a zemřel po ústupu v Uherském Hradišti.   ",
+      naposledObnoveno: " 10.2.2021 ",
+      souradnice: " 49.1284856N, 16.7630392E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/kacefacoju" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/kacefacoju",
+      galerie: [
+        { fotka: "jircik1.jpg", popisek: "  (listopad 2019) " },
+        { fotka: "jircik2.jpg", popisek: "  (březen 2019) " },
+        { fotka: "jircik3.jpg", popisek: "  (březen 2019) " },
+      ],
+      proMe: "  2000/394  24-431-64  19---115  ",
+    },
+    {
+      id: 151,
+      kategorie: "pomnicky",
+      pridano: " 10/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Brno - venkov ",
+      obec: "  Zbýšov  ",
+      jmeno: " Tři císaři  ",
+      nazev: " Pomník třem císařům ",
+      kdyVznikl:
+        " Ve vydlážděném kruhu stojící monumentální pomník, zbudovaný k důstojným vzpomínkám 200. výročí bitvy u Slavkova, byl odhalen 17. září 2005 .",
+      popisCesty:
+        " Leží  1,5 kilometru  od kaple ve Zbýšově na výšině (kóta 283), 150 metrů od silnice ze Zbýšova do Blažovic. Prochází tu zelená značka.  ",
+      popis:
+        "  Na třech žulových pylonech se jmény tří císařů je umístěna velká koule, představující legendární slunce nad Slavkovem. Pomník je vysoký 3,5 metru a vedle stojí hrubě otesaný kvádr s deskami z červené žuly a několika nápisy v češtině, ruštině, němčině a francouzštině.    ",
+      napis:
+        " Na pylonech:  NAPOLEON I.   FRANTIŠEK I.   ALEXANDER I.   Na deskách ve čtyřech jazycích:   V  DEN  BITVY  2. PROSINCE  1805 // PROŠLI TĚMITO MÍSTY V RŮZNÝCH  HODINÁCH // CÍSAŘ  FRANCOUZŮ  NAPOLEON I. // RUSKÝ  CAR  ALEXANDER I. // A RAKOUSKÝ  CÍSAŘ  FRANTIŠEK I. // JEJICHŽ  ARMÁDY  TU  BOJOVALY. // TOTO  KRVAVÉ  STŘETNUTÍ  BYLO  NAZVÁNO // “BITVA U SLAVKOVA” NEBO TAKÉ // “BITVA TŘÍ  CÍSAŘŮ” . ",
+      odkazy: [
+        {
+          nazev: " wikipedie - napoleon ",
+          adresa: " https://cs.wikipedia.org/wiki/Napoleon_Bonaparte ",
+        },
+        {
+          nazev: " wikipedia - alexandr ",
+          adresa: " https://cs.wikipedia.org/wiki/Alexandr_I._Pavlovi%C4%8D ",
+        },
+        {
+          nazev: " wikipedia - františek ",
+          adresa:
+            " https://cs.wikipedia.org/wiki/Franti%C5%A1ek_I._Rakousk%C3%BD ",
+        },
+      ],
+      pozn:
+        " <p>Napoleon Bonaparte byl francouzský státník a vojevůdce. Jeho závratnou karieru zahájila Velká francouzská revoluce. Císařem Francie byl v letech 1804 - 1814 a krátce v roce 1815. V době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v Rusku v letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v šestnácti letech letech ho oženila s nevěstou o rok mladší. V bitvě u Slavkova mu bylo 28 let. V oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v roce 1804, v návaznosti na císařský titul Napoleona. V době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl ale kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
+      naposledObnoveno: " 10.2.2021 ",
+      souradnice: " 49.1412844N, 16.7938322E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/musavahace" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/musavahace",
+      galerie: [
+        { fotka: "tricisari1.jpg", popisek: " (prosinec 2012) " },
+        { fotka: "tricisari2.jpg", popisek: " (prosinec 2012) " },
+        { fotka: "tricisari3.jpg", popisek: " (prosinec 2012) " },
+        { fotka: "tricisari4.jpg", popisek: " (leden 2021) " },
+      ],
+      proMe: "  XVIII/754  24-431-32  12---122  21---013  ",
+    },
+    {
+      id: 152,
+      kategorie: "pomnicky",
+      pridano: " 10/02/2021 ",
+      podkategorie: 4,
+      druh: "  Napoleonské  ",
+      okres: " Brno - venkov ",
+      obec: "  Tvarožná  ",
+      jmeno: " Valhubert, Jean  ",
+      nazev: " Pomník generála Valhuberta. ",
+      kdyVznikl: " Zbudovala  obec Tvarožná a odhalila 24. listopadu 2000. ",
+      popisCesty:
+        " Pomník leží JZ od Tvarožné u silnice k Rohlence. 50 metrů od něj je Kosmákův kříž a chráněný břek.  ",
+      popis:
+        "  Kamenný pomník pravidelného tvaru je vysoký dva metry. Do čelní stěny vsazena kovová plaketa a z ní v nízkém reliéfu vystupuje tvář muže s vysokým límcem, tak, jak ji na medaili ztvárnila autorka Milada Othová.    ",
+      napis:
+        " na reliéfu vlevo:  22. X. // 1764 // AVRANCHE   vpravo:  6. XII. // 1805 // BRNO    dole: JEAN . MARIA . MELON  // ROGER // VALHUBERT   ",
+      odkazy: [
+        {
+          nazev: " Militaria ",
+          adresa:
+            " http://www.militaria.cz/cz/clanky/valky-a-valecnici/zivot-a-smrt-generala-valhuberta--12.html ",
+        },
+        {
+          nazev: " Tvarožná ",
+          adresa:
+            " https://www.tvarozna.cz/obec/vyznamne-pamatky-a-krajinne-prvky/pomnik-generala-valhuberta ",
+        },
+        {
+          nazev:
+            " Jan Kux - Miroslav Raška: Historky kolem slavkovského bojiště.1995. str. 136",
+        },
+      ],
+      pozn:
+        " Dlouhé jméno na pomníku nebylo u francouzské šlechty neobvyklé. Po otci se jmenoval Roger. Přízvisko  Valhubert začal používat až v 25 letech, znamenalo to “ z Hubertova údolí”. V bitvě u Slavkova měl za úkol střežit říšskou silnici. Tam ho zasáhla koule z děla, přesné místo události není známo. Ránu si zasypal střelným prachem a ten zapálil - aby se rána dezinfikovala. Zraněného generála odvezli do Šlapanic a posléze do Brna, kde ho přijali v domě rytíře Chlumského na dnešní České 6. Ovšem sněti se neubránil a  není zcela jistý den jeho smrti. Pochován byl na starém brněnském hřbitově, dnes Tyršovy sady, kde má od roku 1969 pomníček v místech, kde mohl být pochován. A velkou sochu mu vztyčili i ve Francii, v rodném městě Avranche.  ",
+      naposledObnoveno: " 10.2.2021 ",
+      souradnice: " 49.1880497N, 16.7666511E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/luhabofamo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/luhabofamo",
+      galerie: [
+        { fotka: "valhubert1.jpg", popisek: " (prosinec 2012) " },
+        { fotka: "valhubert2.jpg", popisek: " (prosinec 2019) " },
+        { fotka: "valhubert3.jpg", popisek: " (prosinec 2012) " },
+      ],
+      proMe: " XIII/453  24-431-15  12---122   ",
+    },
+    {
+      id: 153,
+      kategorie: "pomnicky",
+      pridano: " 08/02/2021 ",
+      podkategorie: 7,
+      druh: "   Lesnické a dřevařské   ",
+      okres: " Brno - venkov ",
+      obec: "  Soběšice   ",
+      jmeno: " Bartoš, František Jan  ",
+      nazev: " Bartošovo návrší ",
+      kdyVznikl: " cedulka tu visí od začátku 21. století ",
+      popisCesty:
+        " Leží na nenápadném návrší Mléna (kóta 407), 1500 metrů SSZ od kláštera klarisek v Soběšicích, nad lesní cestou.  ",
+      popis:
+        "  malá plastová zelená cedulka je připevněna na silném dubu na vrcholu kopce. Vedle jsou patrny základy chaty Výrovka, jejíž dřevěná část byla přestěhována v šedesátých letech do arboreta ve Křtinách.  ",
+      napis: "  NÁVRŠÍ  //  REVÍRNÍKA  //  BARTOŠE  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna - Bartoš ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=13006 ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 129  ",
+        },
+      ],
+      pozn:
+        "  Návrší dostalo jméno po Františku Janu Bartošovi (1873 - 1928), který v roce 1905 byl ustanoven knížecím revírníkem v Soběšicích. Oslava jmenování se uskutečnila právě na tomto návrší u srubu Výrovka. S revírníkem se dobře znal spisovatel Rudolf Těsnohlídek a jméno revírníka Bartoše se objevilo v románu Liška Bystrouška. ",
+      naposledObnoveno: " 8.2.2021 ",
+      souradnice: " 49.2689889N, 16.6163975E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cazatarumo" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/cazatarumo",
+      galerie: [{ fotka: "bartosnavrsi1.jpg", popisek: " (leden 2021) " }],
+      proMe: "  XV/536  24-324-24  BM---Soběš  ",
+    },
 
     // {
     //   id:  1000,
