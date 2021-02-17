@@ -6320,7 +6320,7 @@ export default {
       popis:
         " Kubistický pomník ve tvaru stolu umístěném na nízkém soklu. Autorem je arch. Vojtěch Kerhart z Prahy.  Na horní ploše je plastická mapa bojiště Slavkovské bitvy 2. prosince 1805 s postavením jednotek v 7 hodin ráno a Napoleonovo provolání k vítězným vojskům francouzsky a česky. Na Z straně kvádru je Napoleonovo N, na S straně pomníku je dlouhý Napoleonův rozkaz v předvečer bitvy ve francouzštině. Jeho překlad do češtiny byl na J straně kostky a v době okupace byl odstraněn. Zrovna tak nepřežil německou okupaci nápis na V straně pomníku, který vyjadřoval díky Francii a francouzské misi při budování pomníku  ",
       napis:
-        " VOJÁCI!  MŮJ  NÁROD PŘIVÍTÁ  VÁS S RADOSTÍ A STAČÍ  ŘEKNETE - LI : // BYL  JSEM V BITVĚ U SLAVKOVA  ABY  SE  ODPOVĚDĚLO : HLE //  HRDINA NAPOLEON.  ",
+        " VOJÁCI!  MŮJ  NÁROD PŘIVÍTÁ  VÁS S RADOSTÍ A STAČÍ  ŘEKNETE - LI : // BYL  JSEM V BITVĚ U SLAVKOVA  ABY  SE  ODPOVĚDĚLO : HLE // HRDINA // NAPOLEON.  ",
       odkazy: [
         {
           nazev: " Wikipedie - Žuráň ",
@@ -6542,7 +6542,7 @@ export default {
         },
       ],
       pozn:
-        " <p>Napoleon Bonaparte byl francouzský státník a vojevůdce. Jeho závratnou karieru zahájila Velká francouzská revoluce. Císařem Francie byl v letech 1804 - 1814 a krátce v roce 1815. V době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v Rusku v letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v šestnácti letech letech ho oženila s nevěstou o rok mladší. V bitvě u Slavkova mu bylo 28 let. V oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v roce 1804, v návaznosti na císařský titul Napoleona. V době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl ale kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
+        " <p>Napoleon Bonaparte (1769 - 1821) byl francouzský státník a vojevůdce. Jeho závratnou karieru zahájila Velká francouzská revoluce. Císařem Francie byl v letech 1804 - 1814 a krátce v roce 1815. V době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v Rusku v letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v šestnácti letech letech ho oženila s nevěstou o rok mladší. V bitvě u Slavkova mu bylo 28 let. V oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v roce 1804, v návaznosti na císařský titul Napoleona. V době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl ale kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
       naposledObnoveno: " 10.2.2021 ",
       souradnice: " 49.1412844N, 16.7938322E ",
       kodMapa:
