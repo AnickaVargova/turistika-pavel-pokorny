@@ -70,7 +70,7 @@
     grid-row-start: 3;
     margin: 30px;
     flex-wrap: wrap;
-    max-height: 100vh;
+    max-height: 150vh;
     max-width: 75vw;
   }
 
@@ -82,7 +82,7 @@
     margin: 1px;
     background-color: #e7e0d0;
     color: black;
-    max-width: 40%;
+    width: 33.3%;
   }
 
   .kontejnerJmeno {
@@ -98,11 +98,11 @@
 
   @media (max-width: 900px) {
     #abecedniSeznam {
-      max-height: 100vh;
+      max-height: 200vh;
     }
+
     .kontejnerJmeno {
       width: 50%;
-      max-width: unset;
     }
   }
 
@@ -112,6 +112,7 @@
       grid-column: 1/7;
       align-items: center;
       flex-wrap: nowrap;
+      max-width: 100vw;
     }
 
     #abecedniSeznam {

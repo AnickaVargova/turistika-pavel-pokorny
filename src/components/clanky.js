@@ -5857,7 +5857,7 @@ export default {
         " Na tomto místě byl // ANTONÍN  KUČÍREK // hajný z\xa0Cinsendorfu // dne 18. ledna 1905 od pytláků zastřelen.<br> Cinsendorf, správně Zinsendorf  = Česká, od roku 1921. Název vznikl při založení obce 1784, kdy noví osadníci platili činži, něm. Zins.  ",
       odkazy: [{ nazev: " Antonín Galla : U nás na Horce, 2008, str. 133. " }],
       pozn:
-        "  Antonín Galla (1897 - 1972), brněnský houslař, ve své knize vzpomínek na dětství popisuje, jak na honu byl hajný Čódek vyzván, aby panstvo zavedl na místo vraždy: ‘Hajný vykročil, lovci za ním a za nimi my, zvědaví kluci. O té loňské vraždě jsme hodně slyšeli, teď se nám naskytla příležitost  vidět i místo činu. Došli jsme ke kupě kamení uměle navršené, uprostřed níž se tyčil malý dřevěný kříž, na něm tabulka se jménem zabitého hajného a s\xa0datem vraždy. Na dotazy střelců Čódek vyprávěl, že hajného Kučírka hledali tři dny, až noha vyčuhující z\xa0kupy listí kterým byl přikryt, ukázala, kde nebožtík leží. Dva bratři z\xa0Řečkovic, pytláci a vrazi, ho nejen zastřelili, ale také obrali o peníze a o hodinky. Ty hodinky jim však byly osudné. Chtěli je zastavit v\xa0zastavárně, ale tam již měli avizo, rovněž všichni hodináři v\xa0Brně, tak je zadrželi - a teď sedijó - dokončil svůj výklad Čódek. ‘Vrazi, bratři Kocourkové z\xa0Řečkovic, dostali údajně trest smrti, milostí císaře změněný na doživotí.   ",
+        '  Antonín Galla (1897 - 1972), brněnský houslař, ve své knize vzpomínek na dětství popisuje, jak na honu byl hajný Čódek vyzván, aby panstvo zavedl na místo vraždy: "Hajný vykročil, lovci za ním a za nimi my, zvědaví kluci. O té loňské vraždě jsme hodně slyšeli, teď se nám naskytla příležitost  vidět i místo činu. Došli jsme ke kupě kamení uměle navršené, uprostřed níž se tyčil malý dřevěný kříž, na něm tabulka se jménem zabitého hajného a s\xa0datem vraždy. Na dotazy střelců Čódek vyprávěl, že hajného Kučírka hledali tři dny, až noha vyčuhující z\xa0kupy listí kterým byl přikryt, ukázala, kde nebožtík leží. Dva bratři z\xa0Řečkovic, pytláci a vrazi, ho nejen zastřelili, ale také obrali o peníze a o hodinky. Ty hodinky jim však byly osudné. Chtěli je zastavit v\xa0zastavárně, ale tam již měli avizo, rovněž všichni hodináři v\xa0Brně, tak je zadrželi - a teď sedijó - dokončil svůj výklad Čódek." Vrazi, bratři Kocourkové z\xa0Řečkovic, dostali údajně trest smrti, milostí císaře změněný na doživotí.   ',
       naposledObnoveno: " 21.1.2021 ",
       souradnice: "49.2597364N, 16.5557858E ",
       kodMapa:
@@ -5993,7 +5993,7 @@ export default {
       nazev: "  Zkosený sloup ",
       kdyVznikl: " konec 80.let 20. století ",
       popisCesty:
-        " 250 metrů Z od vrcholu Holedné (kota 391) poblíž rozcestí.  ",
+        " 250 metrů Z od vrcholu Holedné (kóta 391) poblíž rozcestí.  ",
       popis:
         "  Trojboký sloup je v půli přeseknut a zkosená špice se dotýká země. Výška pomníku je 3 a půl metru. Na svislé části sloupu je kamenná deska s textem.  ",
       napis:
@@ -6203,7 +6203,7 @@ export default {
         },
       ],
       pozn:
-        "  Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla.  ",
+        "  Julius Wiehl byl český lesník vynikající v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla.  ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 144,
@@ -6255,7 +6255,7 @@ export default {
         },
       ],
       pozn:
-        "  Julius Wiehl byl vynikající český lesník, pracoval ve vedoucích funkcích na  několika panstvích. Roku 1895 přišel na lichteštejnské panství  jako vedoucí lesní úředník a 1898 vypracoval lesní plán, který znamenal zásadní zvrat v lesním hospodářství na území dnešního Školního lesního podniku. Cesta pod pamětní deskou se jmenuje Wiehlova cesta. Původně byla deska umístěna výše na skále. Protože byla poškozená, nahradili ji v roce 1998 a změnili sklon, aby neodrážela oblohu a byla čitelná z cesty. To se podařilo jen částečně. ",
+        "  Julius Wiehl byl vynikající český lesník, pracoval ve vedoucích funkcích na  několika panstvích. Roku 1895 přišel na lichtenštejnské panství  jako vedoucí lesní úředník a 1898 vypracoval lesní plán, který znamenal zásadní zvrat v lesním hospodářství na území dnešního Školního lesního podniku. Cesta pod pamětní deskou se jmenuje Wiehlova cesta. Původně byla deska umístěna výše na skále. Protože byla poškozená, nahradili ji v roce 1998 a změnili sklon, aby neodrážela oblohu a byla čitelná z cesty. To se podařilo jen částečně. ",
       naposledObnoveno: " 31.1.2021 ",
       souradnice: " 49.3155739N, 16.6934550E ",
       kodMapa:
@@ -6364,7 +6364,7 @@ export default {
       popisCesty:
         " Návrší Santon leží JZ od Tvarožné. Na vrcholu je kaple a do její stěny  jsou  zazděny pamětní desky. Nepřehlédnutelné místo.  ",
       popis:
-        "  Kaple panny Marie Sněžné zničená za napoleonské bitvy byla roku 1832 vystavěna znovu. V  SZ stěně jsou zvenku zasazeny dvě mramorové pamětní desky se jmény a reliéfy válečníků, spojených s tímto místem v bitvě u Slavkova. Vlevo je deska s reliéfem ruského generála Bagrationa, vedle je obdélníková deska s podobou francouzských velitelů Claparèda a Valhuberta. Autorem desek je sochař, malíř a grafik Vladimír Drápal (1921-2015) z Tvarožné. ",
+        "  Kaple Panny Marie Sněžné zničená za napoleonské bitvy byla roku 1832 vystavěna znovu. V  SZ stěně jsou zvenku zasazeny dvě mramorové pamětní desky se jmény a reliéfy válečníků, spojených s tímto místem v bitvě u Slavkova. Vlevo je deska s reliéfem ruského generála Bagrationa, vedle je obdélníková deska s podobou francouzských velitelů Claparèda a Valhuberta. Autorem desek je sochař, malíř a grafik Vladimír Drápal (1921-2015) z Tvarožné. ",
       napis: " BAGRATION  //  CLAPARÈDE  //  VALHUBERT  ",
       odkazy: [
         {
@@ -6442,9 +6442,9 @@ export default {
       jmeno: " Křenovické hroby  ",
       nazev: " Křenovické hromadné hroby ",
       kdyVznikl:
-        " kříž je z roku 1920, pomníček ze třicátých let 20. století. ",
+        " Kříž je z roku 1920, pomníček ze třicátých let 20. století. ",
       popisCesty:
-        " Návrší U krchůvka leží 800 metrů ZSZ od horního nádraží Křenovice, u silnice z Křenovic do Prace. Vede sem odbočka zelené značky. Na malé ploše se nachází čtyři vlastivědné objekty a několik hromadných hrobů. Je tu kříž z roku 1920, pomníček obětem cholery z let 1836 a 1866, pomníček obětem bitvy u Slavkova a za silnicí smírčí kříž 521 Křenovice.  ",
+        " Návrší U krchůvka leží 800 metrů ZSZ od horního nádraží Křenovice, u silnice z Křenovic do vsi Prace. Vede sem odbočka zelené značky. Na malé ploše se nachází čtyři vlastivědné objekty a několik hromadných hrobů. Je tu kříž z roku 1920, pomníček obětem cholery z let 1836 a 1866, pomníček obětem bitvy u Slavkova a za silnicí smírčí kříž 521 Křenovice.  ",
       popis:
         " Se Slavkovskou bitvou souvisejí dva z nich. Pomníček vyzděný z lomového kamene do tvaru jehlanu je vysoký 1,2 metru. Na čelní stěně je bílá deska s textem. Za ním stojí pískovcový  kříž na stupňovitém soklu, vysoký 3 metry, s nápisem skoro nečitelným.  ",
       napis:
@@ -6542,7 +6542,7 @@ export default {
         },
       ],
       pozn:
-        " <p>Napoleon Bonaparte (1769 - 1821) byl francouzský státník a vojevůdce. Jeho závratnou karieru zahájila Velká francouzská revoluce. Císařem Francie byl v letech 1804 - 1814 a krátce v roce 1815. V době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v Rusku v letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v šestnácti letech letech ho oženila s nevěstou o rok mladší. V bitvě u Slavkova mu bylo 28 let. V oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v roce 1804, v návaznosti na císařský titul Napoleona. V době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl ale kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
+        " <p>Napoleon Bonaparte (1769 - 1821) byl francouzský státník a vojevůdce. Jeho závratnou kariéru zahájila Velká francouzská revoluce. Císařem Francie byl v letech 1804 - 1814 a krátce v roce 1815. V době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v Rusku v letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v šestnácti letech letech ho oženila s nevěstou o rok mladší. V bitvě u Slavkova mu bylo 28 let. V oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v roce 1804, v návaznosti na císařský titul Napoleona. V době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
       naposledObnoveno: " 10.2.2021 ",
       souradnice: " 49.1412844N, 16.7938322E ",
       kodMapa:
@@ -6617,7 +6617,7 @@ export default {
       popisCesty:
         " Leží na nenápadném návrší Mléna (kóta 407), 1500 metrů SSZ od kláštera klarisek v Soběšicích, nad lesní cestou.  ",
       popis:
-        "  malá plastová zelená cedulka je připevněna na silném dubu na vrcholu kopce. Vedle jsou patrny základy chaty Výrovka, jejíž dřevěná část byla přestěhována v šedesátých letech do arboreta ve Křtinách.  ",
+        "  Malá plastová zelená cedulka je připevněna na silném dubu na vrcholu kopce. Vedle jsou patrny základy chaty Výrovka, jejíž dřevěná část byla přestěhována v šedesátých letech do arboreta ve Křtinách.  ",
       napis: "  NÁVRŠÍ  //  REVÍRNÍKA  //  BARTOŠE  ",
       odkazy: [
         {
@@ -6638,6 +6638,284 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/cazatarumo",
       galerie: [{ fotka: "bartosnavrsi1.jpg", popisek: " (leden 2021) " }],
       proMe: "  XV/536  24-324-24  BM---Soběš  ",
+    },
+    {
+      id: 154,
+      kategorie: "pomnicky",
+      pridano: " 17/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Blansko ",
+      obec: "  Olomučany  ",
+      jmeno: " Jan II - Olomučany  ",
+      nazev: " Olomučanský lichtenštejnský památník ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        " Leží 1,3 kilometru na V od středu Olomučan, u Klepáčovské lesní cesty. Končí tu odbočka červené značky.  ",
+      popis:
+        "  V kupce vápencových kamenů vysoké 0,6 metru je zasunuta kamenná deska s vyhlazenou přední stěnou. Na ní je latinský text, obnovený v 80. letech 20. století. Po deseti letech byl k památníku umístěn dodatkový text na menším kamenu za deskou.  ",
+      napis:
+        " Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku vlády // 12. listopadu 1898.  Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908. ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/pozorice/olomucany.html ",
+        },
+        {
+          nazev: " wikipedia - Jan II. ",
+          adresa:
+            " https://cs.wikipedia.org/wiki/Jan_II._z_Lichten%C5%A1tejna ",
+        },
+        {
+          nazev:
+            " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 133 - 135 ",
+        },
+      ],
+      pozn:
+        "  V době vzniku před 120 lety byly lichtenštejnské pomníky vyzděné z kamenů a deska byla součástí pomníku. Pomníky se rozpadly a kameny zůstaly na místě. Z 58 zde  vysazených dubů zůstává po 120 letech jen torzo.  ",
+      naposledObnoveno: " 17.2.2021 ",
+      souradnice: "  49.3322400N, 16.6893819E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/jaredunuka" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: "https://frame.mapy.cz/s/jaredunuka", //je odkaz správně?
+
+      galerie: [
+        { fotka: "olomucanskylicht1.jpg", popisek: " (říjen 2020) " },
+        { fotka: "olomucanskylicht2.jpg", popisek: " (leden 2014) " },
+        { fotka: "olomucanskylicht3.jpg", popisek: " (leden 2014) " },
+      ],
+      proMe: "  II/43  24-411-101  14---014  20---104  ",
+    },
+    {
+      id: 155,
+      kategorie: "pomnicky",
+      pridano: " 17/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Blansko ",
+      obec: "  Adamov  ",
+      jmeno: " Adamovský lichtenštejnský památník  ",
+      nazev: "  Jan II - Adamov ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        " Leží 100 metrů na J od železniční stanice Adamov, ve stráni nad chodníkem ke čtvrti Ptačina. Blízko vede žlutá značka.  ",
+      popis:
+        "  Do základů z kamene a betonu jsou zazděny dvě desky. Větší obdélníková je vysoká 0,7 metru a na rovné ploše má latinský text. Vedle ní je menší kámen s nápisem. ",
+      napis:
+        "  Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku vlády // 12. listopadu 1898.  Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908.  ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa: " http://www.jubilejnikameny.euweb.cz/pozorice/adamov.html ",
+        },
+        {
+          nazev: " kafelanka ",
+          adresa: " https://www.kafelanka.cz/adamov/pomnik7.php ",
+        },
+        {
+          nazev:
+            "  Jiří Truhlář : Památníky adamovských lesů, 2003, str. 133 - 135 ",
+        },
+      ],
+      pozn:
+        "  Kníže Jan II z Lichtenštejna (1840 - 1929) se stal v 18 letech panovníkem Lichtenštejnského knížectví a ujal se vlády nad rodovým panstvím, které bylo rozloženo kolem Brna (Křtiny, Pozořice, Bučovice, Ždánice), na Moravě, v Čechách, Rakousku a Lichtenštejnsku. Byl znám dobročinností a mecenášstvím vědy a umění. Nikdy se neoženil, zemřel bez potomků. Ke 40. výročí vládnutí mu lesní personál v každém jeho polesí zbudoval památník a kolem vysadil duby. V brněnském okolí se dochovalo 16 památek, bývalo jich více. Po dalších deseti letech přibyl k desce menší kámen k připomínce 50. výročí vlády. I když kníže vládl celkem 71 let, další tabulky v letech 1918 a 1928 už nikdo nepřidával. Jan II zemřel ve valtickém zámku a byl uložen do rodinné hrobky na Vranově.Památník se původně nacházel na místě dnešního sídliště Ptačina a adamovští vlastivědci ho v roce 1968 přestěhovali k nádraží.   ",
+      naposledObnoveno: " 17.2.2021 ",
+      souradnice: "  49.2943461N, 16.6633428E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/besobujese" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/besobujese",
+      galerie: [
+        { fotka: "adamovskylicht1.jpg", popisek: " (listopad 2011) " },
+        { fotka: "adamovskylicht2.jpg", popisek: " (listopad 2011) " },
+      ],
+      proMe: "  III/81  24-322-84  12---111  ",
+    },
+    {
+      id: 156,
+      kategorie: "pomnicky",
+      pridano: " 18/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Vyškov ",
+      obec: "  Heršpice   ",
+      jmeno: "  Jan II - Zlatý jelen  ",
+      nazev: " Lichtenštejnský památník na Zlatém jelenu  ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V blízkém okolí lze najít pět vlastivědných památek.  ",
+      popis:
+        "  Do betonového základu je svisle vsazena kamenná deska vysoká 0,8 metru. Na čelní ohlazené straně je latinský text.  ",
+      napis:
+        "  Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku vlády // 12. listopadu 1898. ",
+      odkazy: [
+        {
+          nazev: " euweb - Zlatý jelen ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/bucovicezdanice/zlatyjelen.html ",
+        },
+      ],
+      pozn:
+        "  Kámen stál původně východně odtud, na křižovatce Červený kříž se silnicí do Bučovic. Sem ho přivezli v padesátých letech, když se stavěl pomník Jírovskému. Měl být použit do základů pomníku, naštěstí k tomu nedošlo.  ",
+      naposledObnoveno: " 18.2.2021 ",
+      souradnice: " 49.0902536N, 16.9803081E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dazorapana" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/dazorapana",
+      galerie: [
+        { fotka: "zlatyjelenlicht1.jpg", popisek: " (květen 2012) " },
+        { fotka: "zlatyjelenlicht2.jpg", popisek: " (květen 2012) " },
+      ],
+      proMe: "  IX/276  24-434-7  12---052  ",
+    },
+    {
+      id: 157,
+      kategorie: "pomnicky",
+      pridano: " 18/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: " Hostěnický lichtenštejnský památník   ",
+      nazev: "  Jan II - Hostěnice ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        "  Leží 2600 metrů SV od kaple v Hostěnicích, v sedle u rozcestí několika lesních cest.  ",
+      popis:
+        " Kamenný kužel je vyskládán z kamenů kdysi spojených maltou. V kamenech je vložena kamenná deska  1 x 0,6 metru a na ní je text, obnovený v roce 1999.  ",
+      napis:
+        " Duby // Knížete Jana Dobrotivého // ku oslavě // XXXXletého Vladaření // XII.  listopadu MDCCCXCVIII .  ",
+      odkazy: [
+        {
+          nazev: " euweb - Hostěnice ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/pozorice/hostenice.html ",
+        },
+      ],
+      pozn:
+        "  Kolem pomníku se rozkládá zbytek dubiny, která tu byla zasazena v roce 1898, a to 20 dubů letních, 20 dubů zimních a 18 dubů červených. Kníže se ujal vlády v 18 letech a vládl v tom roce rovných 40 let.  ",
+      naposledObnoveno: " 18.2.2021 ",
+      souradnice: " 49.2529528N, 16.8025133E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gadutefece" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/gadutefece",
+      galerie: [
+        { fotka: "hostenicelicht1.jpg", popisek: " (listopad 2018) " },
+        { fotka: "hostenicelicht2.jpg", popisek: " (listopad 2018) " },
+        { fotka: "hostenicelicht3.jpg", popisek: " (listopad 2020) " },
+      ],
+      proMe: "  2001/418  24-413-35  18---113  20---112  ",
+    },
+    {
+      id: 158,
+      kategorie: "pomnicky",
+      pridano: " 18/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: "  Jan II - Ochoz  ",
+      nazev: " Ochozský lichtenštejnský památník ",
+      kdyVznikl: " 1898 , obnoven na začátku tohoto století.",
+      popisCesty:
+        " Leží 3,5 kilometru VSV od kostela v Ochozi, v údolí Říčky, nad lesní silničkou, po které vede červená značka.  ",
+      popis:
+        "  Do hromady naskládaných kamenů je vložena kamenná deska s latinským textem, pod ní skoro v zemi menší kámen s nápisem o 10 let mladším.   ",
+      napis:
+        " Na velké desce:  PRINCEPS  JOANNES  // DICtae hae oVerCVs  posItae //  IVbILaeo  XXXX annVI faVstI  //  regIMInIs  hVIVs  prInGIpIs  // XII  NOVEMBRIS. Opsáno s chybou. Na menším kamenu: L jahr. Reg. Jubil. // MCMVIII.  Střední část oslavného nápisu ke 40. výročí vládnutí knížete Jana je chronogram a dává letopočet 1898.  ",
+      odkazy: [
+        {
+          nazev: " euweb - Ochoz ",
+          adresa: " http://www.jubilejnikameny.euweb.cz/pozorice/ochoz.html ",
+        },
+      ],
+      pozn:
+        "   Kníže Jan II z Lichtenštejna (1840 - 1929) se stal v 18 letech panovníkem Lichtenštejnského knížectví a ujal se vlády nad rodovým panstvím, které bylo rozloženo kolem Brna (Křtiny, Pozořice, Bučovice, Ždánice), na Moravě, v Čechách, Rakousku a Lichtenštejnsku. Byl znám dobročinností a mecenášstvím vědy a umění. Nikdy se neoženil a zemřel bez potomků. Ke 40. výročí vládnutí mu lesní personál v každém jeho polesí zbudoval památník a kolem vysadil duby. V brněnském okolí se dochovalo 16 památek, bývalo jich více. Po dalších deseti letech přibyl k desce menší kámen k připomínce 50. výročí vlády. I když kníže vládl celkem 71 let, další tabulky v letech 1918 a 1928 už nikdo nepřidával. Jan II zemřel ve valtickém zámku a byl uložen do rodinné hrobky na Vranově.",
+      naposledObnoveno: " 18.2.2021 ",
+      souradnice: " 49.2690797N, 16.7835744E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gobanerezo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/gobanerezo",
+      galerie: [
+        { fotka: "ochozlicht1.jpg", popisek: " (říjen 2010) " },
+        { fotka: "ochozlicht2.jpg", popisek: " (říjen 2010) " },
+      ],
+      proMe: "  XVII/673  24-413-68  10---10  ",
+    },
+    {
+      id: 159,
+      kategorie: "pomnicky",
+      pridano: " 19/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: " Lichtenštejnský památník pod Kalečníkem   ",
+      nazev: "  Jan II - Kalečník ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        " 4 kilometry SV od kostela v Pozořicích leží výrazná křižovatka osmi lesních cest pod Kalečníkem. Od ní asi 80 metrů k JZ po lesní silničce. Je dost nenápadný. Vede tu odbočka červené značky.  ",
+      popis:
+        " Z památníku zůstalo jen torzo, menší kámen a i ten je uražený. V hromádce volně ložených kamenů o výšce necelého 0,5 metru je vložen kámen s latinským nápisem na začištěné ploše. Hlavní deska ke knížecímu jubileu vládnutí Jana II z Lichtenštejna se tady nedochovala.  ",
+      napis:
+        "  L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908.  ",
+      odkazy: [
+        {
+          nazev: " euweb - Kalečník  ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/pozorice/kalecnik.html ",
+        },
+      ],
+      pozn:
+        "  Server euweb pojmenovává tento kámen jako Jezera (Kalečník), i když s Jezery nemá nic společného.  ",
+      naposledObnoveno: " 19.2.2021 ",
+      souradnice: " 49.2472133N, 16.8224214E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fugurahone" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fugurahone",
+      galerie: [{ fotka: "kalecniklicht1.jpg", popisek: "  (listopad 2020) " }],
+      proMe: "  XX/1097  24-413-121  20---112  ",
+    },
+    {
+      id: 160,
+      kategorie: "pomnicky",
+      pridano: " 19/02/2021 ",
+      podkategorie: 14,
+      druh: "  Lichtenštejnské  ",
+      okres: " Břeclav ",
+      obec: "  Velké Hostěrádky  ",
+      jmeno: "  Jan II - V. Hostěrádky  ",
+      nazev: " Hostěrádecký lichtenštejnský památník   ",
+      kdyVznikl: " 1898 ",
+      popisCesty:
+        " Leží 3,6 km SSV od kostela ve Velkých Hostěrádkách, u lesní silnice Těšanka prakticky na vrcholu Písečná (kóta 374).  ",
+      popis:
+        "  Hromada volně ložených kamenů je vysoká 1 metr. V ní jsou zaskládány dvě desky s latinskými nápisy. Velká je pravidelná obdélníková, malá vedle je nepravidelného tvaru. ",
+      napis:
+        "  Princ Jean // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898. Opsáno s chybou.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku panování // 12. listopadu 1898. <br> Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: 50 let jubileum panování // 1908.  ",
+      odkazy: [
+        {
+          nazev: " euweb - hostěrádky ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/bucovicezdanice/tesanka.html  ",
+        },
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/lichtenstejnsky-jubilejni-pamatnik-v-katastru-obce-velke-hosteradky/detail ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 19.2.2021 ",
+      souradnice: " 49.0616064N, 16.8926842E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/lepojogeru" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/lepojogeru",
+      galerie: [
+        { fotka: "hosteradkylicht1.jpg", popisek: " (květen 2012) " },
+        { fotka: "hosteradkylicht2.jpg", popisek: " (květen 2012) " },
+      ],
+      proMe: "  XVIII/739  24-434-9  12---052  ",
     },
 
     // {
