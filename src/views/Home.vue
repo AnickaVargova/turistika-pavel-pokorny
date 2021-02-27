@@ -132,7 +132,6 @@
       },
     },
     created() {
-      
       for (let j = 0; j < clanky.data.length; j++) {
         if (clanky.data[j].kategorie === "pomnicky") {
           this.pocetPomnicku++;
@@ -366,7 +365,6 @@
     grid-row: 1/4;
     padding: 0;
     display: block;
-
     gap: 10px;
     grid-template-rows: repeat(7, 1fr);
     grid-template-columns: 1fr;
@@ -390,8 +388,8 @@
     text-transform: uppercase;
     box-shadow: 5px 2px 2px #395250;
     background-color: #7695dd;
-    /* background-color: #6bc5aa; */
     color: #13131d;
+    font-family: "Raleway", sans-serif;
   }
 
   @media (max-width: 600px) {

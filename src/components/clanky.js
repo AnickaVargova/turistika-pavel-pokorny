@@ -1179,8 +1179,9 @@ export default {
       druh: " Lichtenštejnské  ",
       okres: " Vyškov  ",
       obec: "Bučovice  ",
-      jmeno: " Jan II z\xa0Lichtenštejna  ",
-      nazev: " Poděkování Janu z\xa0Lichtenštejna ",
+      jmeno: " Jan II - Bučovice ",
+      nazev: " Poděkování Janu z Lichtenštejna v Bučovicích ",
+
       kdyVznikl: " 1898 ",
       popisCesty:
         " 300 metrů  S\xa0od kostela  v\xa0Bučovicích na zalesněném kopci, který byl kdysi parkem.  ",
@@ -1195,8 +1196,10 @@ export default {
             " http://www.jubilejnikameny.euweb.cz/bucovicezdanice/bucovice.html ",
         },
       ],
-      pozn: "  ",
-      naposledObnoveno: " 19.11.2020 ",
+      pozn:
+        " Pomník ležel dlouho svalený na zemi. V roce 1988 byl znovu vztyčen. Park okolo se v roce 2019 postupně kultivuje. ",
+      naposledObnoveno: " 22. 2. 2021 ",
+
       souradnice: "49.1540617N, 17.0029914E",
       kodMapa:
         '<iframe style="border:none" src="https://frame.mapy.cz/s/gemazokare" width="400" height="280" frameborder="0"></iframe>',
@@ -1214,7 +1217,8 @@ export default {
       druh: " Lichtenštejnské  ",
       okres: " Hodonín ",
       obec: " Žarošice ",
-      jmeno: " Jan II z\xa0Lichtenštejna  ",
+      jmeno: " Jan II - Žarošice  ",
+
       nazev: " Žarošický lichtenštejnský památník ",
       kdyVznikl:
         " V\xa0roce 2015 byl přemístěn a rekonstruován. Na původním místě zbudován  v\xa0roce 1898. ",
@@ -1224,10 +1228,17 @@ export default {
         "Nově zrekonstruovaný památník na novém místě. Na soklu vyzděném z\xa0lomového kamene spočívá kopie původního kamene se začištěnou přední stěnou a stručným textem  v\xa0němčině.",
       napis:
         "  L  JÄHR.  REG.  JUBIL.  MCMVIII ,  v\xa0překladu:  padesáté výročí vlády 1908  ",
-      odkazy: [{ nazev: "  ", adresa: "  " }],
+      odkazy: [
+        {
+          nazev: " euweb - archlebov ",
+          adresa:
+            " http://www.jubilejnikameny.euweb.cz/bucovicezdanice/archlebov.html ",
+        },
+      ],
       pozn:
-        " Tuto kamennou desku zhotovil hostěnický kameník Jan Šlof. Původní stanoviště památníku bylo nedaleko. Hlavní deska ke 40. výročí vlády knížete Jana se nezachovala. ",
-      naposledObnoveno: " 18.11.2020 ",
+        " Tuto kamennou desku zhotovil hostěnický kameník Jan Šlof. Původní stanoviště památníku bylo nedaleko. Hlavní deska ke 40. výročí vlády knížete Jana se nezachovala.    Euweb pojmenová tento pomník jako Archlebov.  ",
+      naposledObnoveno: " 22. 2. 2020 ",
+
       souradnice: "49.0836286N, 16.9729703E",
       kodMapa:
         '<iframe style="border:none" src="https://frame.mapy.cz/s/natebotugo" width="400" height="280" frameborder="0"></iframe>',
@@ -6675,11 +6686,10 @@ export default {
       pozn:
         "  V době vzniku před 120 lety byly lichtenštejnské pomníky vyzděné z kamenů a deska byla součástí pomníku. Pomníky se rozpadly a kameny zůstaly na místě. Z 58 zde  vysazených dubů zůstává po 120 letech jen torzo.  ",
       naposledObnoveno: " 17.2.2021 ",
-      souradnice: "  49.3322400N, 16.6893819E  ",
+      souradnice: " 49.3322400N, 16.6893819E  ",
       kodMapa:
-        ' <iframe style="border:none" src="https://frame.mapy.cz/s/jaredunuka" width="400" height="280" frameborder="0"></iframe>',
-      odkazMapa: "https://frame.mapy.cz/s/jaredunuka", //je odkaz správně?
-
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/mobalebelu" width="400" height="280" frameborder="0"></iframe> ',
+      odkazMapa: "https://frame.mapy.cz/s/mobalebelu",
       galerie: [
         { fotka: "olomucanskylicht1.jpg", popisek: " (říjen 2020) " },
         { fotka: "olomucanskylicht2.jpg", popisek: " (leden 2014) " },
@@ -6695,8 +6705,9 @@ export default {
       druh: "  Lichtenštejnské  ",
       okres: " Blansko ",
       obec: "  Adamov  ",
-      jmeno: " Adamovský lichtenštejnský památník  ",
-      nazev: "  Jan II - Adamov ",
+      jmeno: " Jan II - Adamov  ",
+      nazev: " Adamovský lichtenštejnský památník  ",
+
       kdyVznikl: " 1898 ",
       popisCesty:
         " Leží 100 metrů na J od železniční stanice Adamov, ve stráni nad chodníkem ke čtvrti Ptačina. Blízko vede žlutá značka.  ",
@@ -6776,8 +6787,8 @@ export default {
       druh: "  Lichtenštejnské  ",
       okres: " Brno - venkov ",
       obec: "  Hostěnice  ",
-      jmeno: " Hostěnický lichtenštejnský památník   ",
-      nazev: "  Jan II - Hostěnice ",
+      jmeno: " Jan II - Hostěnice  ",
+      nazev: " Hostěnický lichtenštejnský památník  ",
       kdyVznikl: " 1898 ",
       popisCesty:
         "  Leží 2600 metrů SV od kaple v Hostěnicích, v sedle u rozcestí několika lesních cest.  ",
@@ -6850,8 +6861,9 @@ export default {
       druh: "  Lichtenštejnské  ",
       okres: " Brno - venkov ",
       obec: "  Hostěnice  ",
-      jmeno: " Lichtenštejnský památník pod Kalečníkem   ",
-      nazev: "  Jan II - Kalečník ",
+      jmeno: "  Jan II - Kalečník ",
+      nazev: " Lichtenštejnský památník pod Kalečníkem ",
+
       kdyVznikl: " 1898 ",
       popisCesty:
         " 4 kilometry SV od kostela v Pozořicích leží výrazná křižovatka osmi lesních cest pod Kalečníkem. Od ní asi 80 metrů k JZ po lesní silničce. Je dost nenápadný. Vede tu odbočka červené značky.  ",

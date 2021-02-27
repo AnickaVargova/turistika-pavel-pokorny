@@ -96,9 +96,9 @@
     color: grey;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     #abecedniSeznam {
-      max-height: 200vh;
+      max-height: 250vh;
     }
 
     .kontejnerJmeno {

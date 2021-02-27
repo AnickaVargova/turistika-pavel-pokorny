@@ -553,6 +553,7 @@
     font-size: 13px;
     min-width: 95%;
     max-width: 170px;
+    font-family: "Raleway", sans-serif;
   }
 
   .hneda {
