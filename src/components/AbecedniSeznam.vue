@@ -70,7 +70,7 @@
     grid-row-start: 3;
     margin: 30px;
     flex-wrap: wrap;
-    max-height: 150vh;
+    max-height: 1000px;
     max-width: 75vw;
   }
 
@@ -81,24 +81,27 @@
     border-radius: 5px;
     margin: 1px;
     background-color: #e7e0d0;
-    color: black;
-    width: 33.3%;
-  }
-
-  .kontejnerJmeno {
+    width: 25%;
     color: #2f5bad;
-    /* color:#3566c2 */
-    /* color: #3E5682; */
-    /* color: rgb(90, 21, 122); */
   }
 
   .kontejnerJmeno:hover {
     color: grey;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     #abecedniSeznam {
-      max-height: 250vh;
+      max-height: 1500px;
+    }
+
+    .kontejnerJmeno {
+      width: 32%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    #abecedniSeznam {
+      max-height: 2000px;
     }
 
     .kontejnerJmeno {
@@ -113,11 +116,7 @@
       align-items: center;
       flex-wrap: nowrap;
       max-width: 100vw;
-    }
-
-    #abecedniSeznam {
       max-height: unset;
-      max-width: 100vw;
     }
 
     .kontejnerJmeno {
