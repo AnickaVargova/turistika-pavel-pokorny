@@ -4,7 +4,7 @@
       v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
     >
       <img
-        v-bind:src="require(`./../assets/${vybranaFotka.fotka}`)"
+        v-bind:src="require(`./../assets/${vybranaFotka.fotka.trim()}`)"
         v-bind:alt="vybranaFotka.popisek"
       />
       <figcaption v-if="vybranaFotka.datum && !vybranaFotka.poznamka">
@@ -80,7 +80,7 @@
             }
             if (clanek.galerie) {
               for (let obrazek of clanek.galerie) {
-                if (obrazek.fotka == this.$route.params.id) {
+                if (obrazek.fotka.trim() == this.$route.params.id) {
                   this.vybranaFotka = obrazek;
                   this.vybranyIndex = clanek.id;
                   this.vybranaKategorie = clanek.kategorie;
@@ -198,7 +198,5 @@
       height: auto;
       margin: 0;
     }
-
-   
   }
 </style>

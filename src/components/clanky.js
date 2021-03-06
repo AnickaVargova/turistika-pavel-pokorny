@@ -6929,6 +6929,120 @@ export default {
       ],
       proMe: "  XVIII/739  24-434-9  12---052  ",
     },
+    {
+      id: 163,
+      kategorie: "pomnicky",
+      pridano: " 04/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Příbram  ",
+      jmeno: " Lev - Zastávka  ",
+      nazev: " Zastávecký lev ",
+      kdyVznikl:
+        " Odhaduji, že za 1. republiky, v době vypjatějšího nacionalismu. V 60. letech 20. století byl už relief  dosti omšelý. ",
+      popisCesty:
+        " Leží 1500 metrů Z od kaple v Zastávce, v prudkém svahu nad zářezem železniční trati, blízko železničního mostu.  ",
+      popis:
+        "  Kamenný relief v podobě dvouocasého lva je vyskládán z kamenů pospojovaných betonem. Je v úrovni země a má rozměry 1,6 x 1,2 metru.  ",
+      napis: "   ",
+      pozn:
+        "  Čas od času je relief nabílen barvou. Než barvu smyje déšť, svítí do daleka. Dobře je vidět i z okna vlaku po přejezdu železničního mostu.  ",
+      naposledObnoveno: " 4.3.2021 ",
+      souradnice: " 49.1871464N, 16.3426514E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/corukonana" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/corukonana",
+      galerie: [
+        { fotka: "zastaveckylev1.jpg", popisek: " (březen 2015) " },
+        { fotka: "zastaveckylev2.jpg", popisek: " (březen 2015) " },
+      ],
+      proMe: "  V/171  24-341-46  15---031  ",
+    },
+    {
+      id: 164,
+      kategorie: "pomnicky",
+      pridano: " 04/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Blansko ",
+      obec: "  Bořitov  ",
+      jmeno: " Husitští bojovníci  ",
+      nazev: " Sousoší husitských bojovníků ",
+      kdyVznikl: " 1927 ",
+      popisCesty:
+        " Leží 2,3 kilometru S od Bořitova, na SZ úpatí Velkého Chlumu. Kolem prochází červená značka.  ",
+      popis:
+        "  Do pískovcové skalky, vystupující ze svahu Velkého Chlumu je vytesáno čtyři metry vysoké sousoší tří nejdůležitějších aktérů husitství. Nejvýše stojí Jan Hus s rukou na knize, vedle je Jan Žižka s palcátem a nejníže stojí vousatý Prokop Holý.  ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: " muni - bakalářka ",
+          adresa: " https://is.muni.cz/th/262812/ff_b/Bakalarska_prace.pdf ",
+        },
+        {
+          nazev: " Wikipedia - Rolínek ",
+          adresa: " https://cs.wikipedia.org/wiki/Stanislav_Rol%C3%ADnek ",
+        },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        " <p> Stanislav Rolínek (1902-1931) byl sochař samouk z Bořitova. Je obdivuhodné, že plachý naivní umělec vytvořil takové sousoší primitivními prostředky a bez výtvarného vzdělání. Tímto dílem se proslavil a mohl v Rudce vytvořit monumentální sochu TGM. Jako velký talent byl přijat ke studiu na Akademii, po roce však předčasně umírá.</p><p>Sochy byly dvakrát restaurovány, naposled v roce 1996, kdy musely být některé části měkkého pískovce doplněny.  Nyní jsou známou atrakcí, ale ještě začátkem 90. let byly zapomenuté a silně poničené.</p> ",
+      naposledObnoveno: " 4.3.2021 ",
+      souradnice: " 49.4433908N, 16.5864117E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jazufomale" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jazufomale",
+      galerie: [{ fotka: "husite1.jpg", popisek: " (srpen 2016) " }],
+      proMe: "  X/323  24-144-33  16---081  ",
+    },
+    {
+      id: 165,
+      kategorie: "pomnicky",
+      pridano: " 05/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Lelekovice  ",
+      jmeno: " Lelkovadlo  ",
+      nazev: " Past na lelky u Lelekovic. ",
+      kdyVznikl:
+        " Jaro 2001. Byla to první socha v plenéru od amatérského řezbáře Jana Nováka. Do roku 2006 jich na Vranovsku vyřezal pět: Pohled za nekonečno, Ponávka u Lelekovic, Poseidonův trojzubec a Mojžíšovy desky ",
+      popisCesty:
+        " 2 kilometry S od Lelekovic na rozcestí lesních i turistických cest, kterému se říkalo U lavek. Známé a frekventované místo.  ",
+      popis:
+        "  Dřevěná trojnožka z masivních trámů je vysoká 3 metry. Uvnitř vyřezána zamřížovaná “past na lelky”. Nechybí návod k odlelkování.  Vedle stojí dřevěný rozcestník v podobě sloupu s vyřezanými nápisy.  ",
+      napis:
+        " Kromě tabulky s nápisem Lelkovadlo neboli past na lelky a návodem, je na jedné noze vyřezáno:  J.NOVÁK,  VRANOV,  2001  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/lelkovadlo-past-na-lelky/detail ",
+        },
+        { nazev: " Jan Černohlávek: Babí lom, 2009 str. 85  " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 5.3.2021 ",
+      souradnice: " 49.3119189N, 16.5835267E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/juruhemana" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/juruhemana ",
+      galerie: [
+        { fotka: " lelkovadlo1.jpg", popisek: "  (prosinec 2007) " },
+        {
+          fotka: "lelkovadlo2.jpg",
+          popisek: "  Návod k použití (prosinec 2007) ",
+        },
+        {
+          fotka: "lelkovadlo3.jpg",
+          popisek: "  Pohled vzhůru (prosinec 2007) ",
+        },
+        { fotka: "lelkovadlo4.jpg", popisek: "  (leden 2021) " },
+      ],
+      proMe: "  2001/413  24-322-21  BO---BLom  21---014  ",
+    },
 
     // {
     //   id:  1000,
