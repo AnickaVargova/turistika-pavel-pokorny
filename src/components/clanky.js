@@ -6940,14 +6940,14 @@ export default {
       jmeno: " Lev - Zastávka  ",
       nazev: " Zastávecký lev ",
       kdyVznikl:
-        " Odhaduji, že za 1. republiky, v době vypjatějšího nacionalismu. V 60. letech 20. století byl už relief  dosti omšelý. ",
+        " Odhaduji, že za 1. republiky, v době vypjatějšího nacionalismu. V 60. letech 20. století byl už reliéf  dosti omšelý. ",
       popisCesty:
         " Leží 1500 metrů Z od kaple v Zastávce, v prudkém svahu nad zářezem železniční trati, blízko železničního mostu.  ",
       popis:
-        "  Kamenný relief v podobě dvouocasého lva je vyskládán z kamenů pospojovaných betonem. Je v úrovni země a má rozměry 1,6 x 1,2 metru.  ",
+        "  Kamenný reliéf v podobě dvouocasého lva je vyskládán z kamenů pospojovaných betonem. Je v úrovni země a má rozměry 1,6 x 1,2 metru.  ",
       napis: "   ",
       pozn:
-        "  Čas od času je relief nabílen barvou. Než barvu smyje déšť, svítí do daleka. Dobře je vidět i z okna vlaku po přejezdu železničního mostu.  ",
+        "  Čas od času je reliéf nabílen barvou. Než barvu smyje déšť, svítí do daleka. Dobře je vidět i z okna vlaku po přejezdu železničního mostu.  ",
       naposledObnoveno: " 4.3.2021 ",
       souradnice: " 49.1871464N, 16.3426514E ",
       kodMapa:
@@ -6973,7 +6973,7 @@ export default {
       popisCesty:
         " Leží 2,3 kilometru S od Bořitova, na SZ úpatí Velkého Chlumu. Kolem prochází červená značka.  ",
       popis:
-        "  Do pískovcové skalky, vystupující ze svahu Velkého Chlumu je vytesáno čtyři metry vysoké sousoší tří nejdůležitějších aktérů husitství. Nejvýše stojí Jan Hus s rukou na knize, vedle je Jan Žižka s palcátem a nejníže stojí vousatý Prokop Holý.  ",
+        "  Do pískovcové skalky, vystupující ze svahu Velkého Chlumu, je vytesáno čtyři metry vysoké sousoší tří nejdůležitějších aktérů husitství. Nejvýše stojí Jan Hus s rukou na knize, vedle je Jan Žižka s palcátem a nejníže stojí vousatý Prokop Holý.  ",
       napis: "   ",
       odkazy: [
         {
@@ -7008,7 +7008,7 @@ export default {
       jmeno: " Lelkovadlo  ",
       nazev: " Past na lelky u Lelekovic. ",
       kdyVznikl:
-        " Jaro 2001. Byla to první socha v plenéru od amatérského řezbáře Jana Nováka. Do roku 2006 jich na Vranovsku vyřezal pět: Pohled za nekonečno, Ponávka u Lelekovic, Poseidonův trojzubec a Mojžíšovy desky ",
+        " Jaro 2001. Byla to první socha v plenéru od amatérského řezbáře Jana Nováka. Do roku 2006 jich na Vranovsku vyřezal pět: Pohled za nekonečno, Ponávka u Lelekovic, Poseidónův trojzubec a Mojžíšovy desky ",
       popisCesty:
         " 2 kilometry S od Lelekovic na rozcestí lesních i turistických cest, kterému se říkalo U lavek. Známé a frekventované místo.  ",
       popis:
@@ -7042,6 +7042,280 @@ export default {
         { fotka: "lelkovadlo4.jpg", popisek: "  (leden 2021) " },
       ],
       proMe: "  2001/413  24-322-21  BO---BLom  21---014  ",
+    },
+    {
+      id: 166,
+      kategorie: "pomnicky",
+      pridano: " 05/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Česká  ",
+      jmeno: " Chodec - Česká  ",
+      nazev: " Socha Chodce k České ",
+      kdyVznikl:
+        "  Na  jaře 2008 při slavnosti Dne Ponávky. První z několika soch Václava Kyselky, umístěných v mikroregionu Ponávka. Spojuje je naučná stezka značená vlnovkou. Další sochy stejného autora: Brejlení, Vraní sloup, Améba. ",
+      popisCesty:
+        " Leží 400 metrů na Z od středu České, u červeně značené cesty.  ",
+      popis:
+        "  Dřevěná abstraktní socha z kůlů představuje postavu chodce s holí. Je vysoká 4 metry a je  spojena s lavičkou.   ",
+      napis: "   ",
+      odkazy: [
+        { nazev: " Václav Kyselka ", adresa: " https://www.art-vaky.cz/ " },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Václav Kyselka (nar. 1975) žije a pracuje v Křoví u Tišnova. Zabývá se většinou dřevěnými sochami do zahrad a veřejných prostranství. V Brně a okolí má několik venkovních realisací.  ",
+      naposledObnoveno: " 5.3.2021 ",
+      souradnice: " 49.2811894N, 16.5587247E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/paruromapu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/paruromapu",
+      galerie: [
+        { fotka: "chodec1.jpg", popisek: " (listopad 2011) " },
+        { fotka: "chodec2.jpg", popisek: " (listopad 2011) " },
+        { fotka: "chodec3.jpg", popisek: " (listopad 2011) " },
+        { fotka: "chodec4.jpg", popisek: " (květen 2015) " },
+      ],
+      proMe: "  XVII/598  24-322-85   BO---Česká  15---052  ",
+    },
+    {
+      id: 167,
+      kategorie: "pomnicky",
+      pridano: " 06/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Třebíč ",
+      obec: "  Lesní Jakubov  ",
+      jmeno: " Soukop František  ",
+      nazev: " Památka Františka Soukopa ",
+      kdyVznikl: " 1947 ",
+      popisCesty:
+        " 900 metrů ZJZ od kaple v Lesním Jakubově, v údolí Chvojnice. Socha stojí na louce a je zdaleka vidět. ",
+      popis:
+        "  Na kamenném soklu stojí dvoumetrová pískovcová socha svatého Jana Nepomuckého. Není signovaná. Na soklu jsou nápisy ze tří stran.   ",
+      napis:
+        "Opsáno s chybami. Na čele:  SV. JENE // PŘIMLUV  SE, ABYCHOM K TĚM, // KTEŘÍ  JAZYKEM  NEKLESLI, // PŘIPOČTENI  BYLI  +++++ //. Od Z : NA  PAMÁTKU FR. SOUKOPA // DAL ŽIVOT  ZA  VLAST  VE 26 R // 6. IV. 1943  VE  ŠTUTTGARTĚ //.  Od V :  POSTAVENO  LÉTA  PÁNĚ  1947 ",
+      pozn: "    ",
+      naposledObnoveno: " 6.3.2021 ",
+      souradnice: " 49.2030700N, 16.2319900E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jerotobofu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jerotobofu",
+      galerie: [
+        { fotka: " soukop1.jpg", popisek: " (únor 2014) " },
+        { fotka: " soukop2.jpg", popisek: " (únor 2014) " },
+        { fotka: " soukop3.jpg", popisek: " (únor 2014) " },
+      ],
+      proMe: "  XIX/804  24-314-56  14---021  ",
+    },
+    {
+      id: 179,
+      kategorie: "pomnicky",
+      pridano: " 06/03/2021 ",
+      podkategorie: 5,
+      druh: "  Válečné  ",
+      okres: " Třebíč ",
+      obec: "  Lesní Jakubov  ",
+      jmeno: " Soukop František  ",
+      nazev: " Památka Františka Soukopa ",
+      kdyVznikl: " 1947 ",
+      popisCesty:
+        " 900 metrů ZJZ od kaple v Lesním Jakubově, v údolí Chvojnice. Socha stojí na louce a je zdaleka vidět. ",
+      popis:
+        "  Na kamenném soklu stojí dvoumetrová pískovcová socha svatého Jana Nepomuckého. Není signovaná. Na soklu jsou nápisy ze tří stran.   ",
+      napis:
+        "Opsáno s chybami. Na čele:  SV. JENE // PŘIMLUV  SE, ABYCHOM K TĚM, // KTEŘÍ  JAZYKEM  NEKLESLI, // PŘIPOČTENI  BYLI  +++++ //. Od Z : NA  PAMÁTKU FR. SOUKOPA // DAL ŽIVOT  ZA  VLAST  VE 26 R // 6. IV. 1943  VE  ŠTUTTGARTĚ //.  Od V :  POSTAVENO  LÉTA  PÁNĚ  1947 ",
+      pozn: "    ",
+      naposledObnoveno: " 6.3.2021 ",
+      souradnice: " 49.2030700N, 16.2319900E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jerotobofu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jerotobofu",
+      galerie: [
+        { fotka: " soukop1.jpg", popisek: " (únor 2014) " },
+        { fotka: " soukop2.jpg", popisek: " (únor 2014) " },
+        { fotka: " soukop3.jpg", popisek: " (únor 2014) " },
+      ],
+      proMe: "  XIX/804  24-314-56  14---021  ",
+    },
+    {
+      id: 168,
+      kategorie: "pomnicky",
+      pridano: " 06/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Maloměřice  ",
+      jmeno: " Lojo  ",
+      nazev: " Lojo u Maloměřic ",
+      kdyVznikl: " 2006 ",
+      popisCesty:
+        " Nachází se V od Maloměřic, v pokračování ulice Podzimní, 150 metrů po cestě od jejího konce, na vyřazeném sloupu elektrického vedení. V době vegetace je skoro k nenalezení.  ",
+      popis:
+        " Podivná dvouhlavá plastika vysoká asi 1 metr je připevněna na betonovém sloupu.",
+      napis: "   ",
+      pozn:
+        " Zvláštní dílo landartu stvořil designér Petr Korecký. Kombinovaná technika.    ",
+      naposledObnoveno: " 6.3.2021 ",
+      souradnice: " 49.2226822N, 16.6558661E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jagolosaga" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jagolosaga",
+      galerie: [{ fotka: " lojo1.jpg", popisek: " (prosinec 2014) " }],
+      proMe: "  XIX/827  24-324-50  BM  ",
+    },
+    {
+      id: 169,
+      kategorie: "pomnicky",
+      pridano: " DD/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: " Senorady   ",
+      jmeno: " Kamelot - Orel  ",
+      nazev: " Socha Orla - pocta skupině Kamelot ",
+      kdyVznikl:
+        " 2012. V roce 2017 byla socha vandalsky zničena - někdo jí pilou uřízl hlavu.  ",
+      popisCesty:
+        " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
+      popis:
+        "  1,2 metru vysoká řezba orla s roztaženými křídly, vyřezaná ze špalku dřeva o průměru asi 0,8 metru. Na soklu dokola nápis. Tmavě namořeno.  ",
+      napis: " 30  LET  KAMELOT  ",
+      odkazy: [
+        {
+          nazev: " Toulavej ",
+          adresa:
+            " https://toulavej.estranky.cz/clanky/tramping/tramping-a-jeho-odpurci-.html ",
+        },
+      ],
+      pozn:
+        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku skupiny odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+      naposledObnoveno: " 7.3.2021 ",
+      souradnice: " 49.1373297N, 16.2388583E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fosojufapu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fosojufapu",
+      galerie: [
+        { fotka: " orelkamelot1.jpg", popisek: "  (duben 2015) " },
+        { fotka: " orelkamelot2.jpg", popisek: "  (duben 2015) " },
+        { fotka: " orelkamelot3.jpg", popisek: "  (duben 2015) " },
+      ],
+      proMe: "  XIX/853     15---042  ",
+    },
+    {
+      id: 180,
+      kategorie: "pomnicky",
+      pridano: " DD/03/2021 ",
+      podkategorie: 17,
+      druh: "  Zaniklé  ",
+      okres: " Brno - venkov ",
+      obec: " Senorady   ",
+      jmeno: " Kamelot - Orel  ",
+      nazev: " Socha Orla - pocta skupině Kamelot ",
+      kdyVznikl:
+        " 2012. V roce 2017 byla socha vandalsky zničena - někdo jí pilou uřízl hlavu.  ",
+      popisCesty:
+        " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
+      popis:
+        "  1,2 metru vysoká řezba orla s roztaženými křídly, vyřezaná ze špalku dřeva o průměru asi 0,8 metru. Na soklu dokola nápis. Tmavě namořeno.  ",
+      napis: " 30  LET  KAMELOT  ",
+      odkazy: [
+        {
+          nazev: " Toulavej ",
+          adresa:
+            " https://toulavej.estranky.cz/clanky/tramping/tramping-a-jeho-odpurci-.html ",
+        },
+      ],
+      pozn:
+        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku skupiny odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+      naposledObnoveno: " 7.3.2021 ",
+      souradnice: " 49.1373297N, 16.2388583E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fosojufapu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fosojufapu",
+      galerie: [
+        { fotka: " orelkamelot1.jpg", popisek: "  (duben 2015) " },
+        { fotka: " orelkamelot2.jpg", popisek: "  (duben 2015) " },
+        { fotka: " orelkamelot3.jpg", popisek: "  (duben 2015) " },
+      ],
+      proMe: "  XIX/853     15---042  ",
+    },
+    {
+      id: 170,
+      kategorie: "pomnicky",
+      pridano: " 07/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Senorady  ",
+      jmeno: " Kamelot - Dívka  ",
+      nazev: " Reliéf dívky - pocta skupině Kamelot ",
+      kdyVznikl: " po roce 2017 ",
+      popisCesty:
+        " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
+      popis:
+        " Z dřevěného špalku vysokého asi jeden metr vystupuje tvář dívky v hlubokém reliéfu.  ",
+      napis: "   ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn:
+        " Na stejném místě byla v letech 2012 - 2017 umístěna socha orla - pocta skupině Kamelot.   ",
+      naposledObnoveno: " 7.3.2021 ",
+      souradnice: " 49.1373297N, 16.2388583E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fosojufapu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fosojufapu",
+      galerie: [{ fotka: " divkakamelot1.jpg", popisek: "  (duben 2019) " }],
+      proMe: "    ",
+    },
+    {
+      id: 171,
+      kategorie: "pomnicky",
+      pridano: " 07/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Židenice  ",
+      jmeno: " Památník dělnického hnutí na Bílé hoře  ",
+      nazev: " Bílá hora ",
+      kdyVznikl:
+        " 1967 Spoluautory jsou sochař Ladislav Martínek a architekt Jiří Auermüller. ",
+      popisCesty:
+        " Nachází se nad Juliánovem na vrcholu Bílé hory (kóta 300 metrů) uprostřed lesoparku.  ",
+      popis:
+        " Návrší je bombasticky upraveno kamennými terasami a na nich stojí monumentální abstraktní betonová plastika rozměrů 8 x 3  x 1,5 metru s otvorem uprostřed. Častý cíl sprejerů. Vedle je šikmo položená kamenná deska s reliéfem srpu a kladiva a delším textem.   ",
+      napis:
+        " … //  NA  TĚCHTO  MÍSTECH  SE V ROCE  1869 // SCHÁZEL  BRNĚNSKÝ  PROLETARIÁT, // VEDENÝ  JOSEFEM  HYBEŠEM, // ABY  BOJOVAL  ZA  SVÁ  PRÁVA. //  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=227&qt=pomn%C3%ADk&qc=&qe= ",
+        },
+        {
+          nazev: " Sochařství - Martínek  ",
+          adresa: " http://www.socharstvi.info/autori/ladislav-martinek/ ",
+        },
+        {
+          nazev:
+            " Milena Flodrová: Pamětní desky a pomníky v Brně, 2004, str. 10  ",
+        },
+      ],
+      pozn:
+        "  Celý památník je propagandistický nesmysl ze 60. let. V roce 1869 se tu dělníci nesešli, Hybešovi bylo teprve 19 let. Tábor lidu za všeobecné volební právo, kde měl promluvit redaktor Hybeš, byl svolán na 18. 6. 1893, ale neuskutečnil se, protože byl rozehnán četnictvem. Byl to už 3. tábor lidu, organizovaný sociálně demokratickou stranou, první dva byly v Pisárkách.   ",
+      naposledObnoveno: " 7.3.2021 ",
+      souradnice: " 49.1941722N, 16.6594025E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cazumupumo" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/cazumupumo",
+      galerie: [
+        { fotka: " bilahora1.jpg", popisek: "  (březen 2015) " },
+        { fotka: " bilahora2.jpg", popisek: "  (březen 2015) " },
+        { fotka: " bilahora3.jpg", popisek: "  (březen 2015) " },
+      ],
+      proMe: "  XIX/839  24-342-45  15---035  ",
     },
 
     // {
