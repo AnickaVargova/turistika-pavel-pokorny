@@ -6317,7 +6317,7 @@ export default {
     {
       id: 146,
       kategorie: "pomnicky",
-      pridano: " 7/02/2021 ",
+      pridano: " 07/02/2021 ",
       podkategorie: 4,
       druh: "  Napoleonské  ",
       okres: " Brno - venkov ",
@@ -7170,7 +7170,7 @@ export default {
     {
       id: 169,
       kategorie: "pomnicky",
-      pridano: " DD/03/2021 ",
+      pridano: " 07/03/2021 ",
       podkategorie: 10,
       druh: "  Sochy v přírodě  ",
       okres: " Brno - venkov ",
@@ -7178,7 +7178,7 @@ export default {
       jmeno: " Kamelot - Orel  ",
       nazev: " Socha Orla - pocta skupině Kamelot ",
       kdyVznikl:
-        " 2012. V roce 2017 byla socha vandalsky zničena - někdo jí pilou uřízl hlavu.  ",
+        " 2012. V roce 2017 byla socha vandalsky zničena - někdo orlovi pilou uřízl hlavu.  ",
       popisCesty:
         " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
       popis:
@@ -7192,7 +7192,20 @@ export default {
         },
       ],
       pozn:
-        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku skupiny odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 170,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 10,
+          odkazKde: "pozn",
+          predOdkazem:
+            "Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní  ",
+          textOdkazu: "reliéf dívky",
+          zaOdkazem: " vyřezaný do kmene.",
+        },
+      ],
+
       naposledObnoveno: " 7.3.2021 ",
       souradnice: " 49.1373297N, 16.2388583E ",
       kodMapa:
@@ -7231,6 +7244,18 @@ export default {
       ],
       pozn:
         " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku skupiny odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 170,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 10,
+          odkazKde: "pozn",
+          predOdkazem:
+            "Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní  ",
+          textOdkazu: "reliéf dívky",
+          zaOdkazem: " vyřezaný do kmene.",
+        },
+      ],
       naposledObnoveno: " 7.3.2021 ",
       souradnice: " 49.1373297N, 16.2388583E ",
       kodMapa:
@@ -7262,13 +7287,25 @@ export default {
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn:
         " Na stejném místě byla v letech 2012 - 2017 umístěna socha orla - pocta skupině Kamelot.   ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 180,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 10,
+          odkazKde: "pozn",
+          predOdkazem: " Na stejném místě byla v letech 2012 - 2017 umístěna  ",
+          textOdkazu: "socha orla - pocta skupině Kamelot",
+          zaOdkazem: ".",
+        },
+      ],
+
       naposledObnoveno: " 7.3.2021 ",
       souradnice: " 49.1373297N, 16.2388583E ",
       kodMapa:
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/fosojufapu" width="400" height="280" frameborder="0"></iframe>  ',
       odkazMapa: "https://frame.mapy.cz/s/fosojufapu",
       galerie: [{ fotka: " divkakamelot1.jpg", popisek: "  (duben 2019) " }],
-      proMe: "    ",
+      proMe: "XIX/853  24-332-60  19---047",
     },
     {
       id: 171,
@@ -7278,10 +7315,10 @@ export default {
       druh: "  Sochy v přírodě  ",
       okres: " Brno - město ",
       obec: "  Brno - Židenice  ",
-      jmeno: " Památník dělnického hnutí na Bílé hoře  ",
-      nazev: " Bílá hora ",
+      jmeno: " Bílá hora ",
+      nazev: " Památník dělnického hnutí na Bílé hoře  ",
       kdyVznikl:
-        " 1967 Spoluautory jsou sochař Ladislav Martínek a architekt Jiří Auermüller. ",
+        " 1967. Autory jsou sochař Ladislav Martínek a architekt Jiří Auermüller. ",
       popisCesty:
         " Nachází se nad Juliánovem na vrcholu Bílé hory (kóta 300 metrů) uprostřed lesoparku.  ",
       popis:
@@ -7304,7 +7341,7 @@ export default {
         },
       ],
       pozn:
-        "  Celý památník je propagandistický nesmysl ze 60. let. V roce 1869 se tu dělníci nesešli, Hybešovi bylo teprve 19 let. Tábor lidu za všeobecné volební právo, kde měl promluvit redaktor Hybeš, byl svolán na 18. 6. 1893, ale neuskutečnil se, protože byl rozehnán četnictvem. Byl to už 3. tábor lidu, organizovaný sociálně demokratickou stranou, první dva byly v Pisárkách.   ",
+        "  Celý památník je propagandistický nesmysl ze 60. let. V roce 1869 se tu dělníci nesešli, Hybešovi bylo teprve 19 let. Tábor lidu za všeobecné volební právo, kde měl promluvit redaktor Hybeš, byl svolán na 18. 6. 1893, ale neuskutečnil se, protože byl rozehnán četnictvem. Byl to už 3. tábor lidu, organizovaný sociálně demokratickou stranou, první dva proběhly v Pisárkách.   ",
       naposledObnoveno: " 7.3.2021 ",
       souradnice: " 49.1941722N, 16.6594025E ",
       kodMapa:
@@ -7316,6 +7353,275 @@ export default {
         { fotka: " bilahora3.jpg", popisek: "  (březen 2015) " },
       ],
       proMe: "  XIX/839  24-342-45  15---035  ",
+    },
+    {
+      id: 172,
+      kategorie: "pomnicky",
+      pridano: " 07/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Řečkovice  ",
+      jmeno: " Pegas - Mokrá Hora ",
+      nazev: " Socha Pegasa u Mokré Hory ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " Najdete ho 400 metrů SV od kapličky v Mokré Hoře, v údolí potoka Rakovce, hned za posledním domem. Údolím Rakovce vede modrá značka. ",
+      popis:
+        "  Na dvou seříznutých kmenech stromů je nasazena vícedílná železná socha, tedy hlava, tělo s křídly a ocas. Výška 4 metry, materiál rezavý plech. Moderní landartové umělecké dílo.  ",
+      napis:
+        " Na malém štítku stojí, že pro manžele Kovaříkovy sochu navrhl a vytvořil Ondřej Svoboda.  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/brno-mokra-hora-socha-pegase/detail ",
+        },
+      ],
+      pozn:
+        "  Ondřej Svoboda (nar. 1983), SPŠ slévárenská, umělecký kovář od roku 2001, pracuje v Brně. Tvoří sochy ze železa, někdy v kombinaci se dřevem.  ",
+      naposledObnoveno: " 7.3.2021 ",
+      souradnice: " 49.2614317N, 16.5974592E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/helubacuvo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/helubacuvo",
+      galerie: [
+        { fotka: "pegas1.jpg", popisek: " (prosinec 2015) " },
+        { fotka: "pegas2.jpg", popisek: " (prosinec 2015) " },
+      ],
+      proMe: "  XIX/880  24-324-55  BM---řečk.  ",
+    },
+    {
+      id: 173,
+      kategorie: "pomnicky",
+      pridano: " 08/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Kanice  ",
+      jmeno: " Lev - Kanice  ",
+      nazev: " Kanický lev ",
+      kdyVznikl:
+        " socha vznikla za 1. republiky, na tomto místě byla instalována po roce 1993. ",
+      popisCesty:
+        " Leží na J od středu Kanic, na kraji obce a lesíku. Říká se tu Pískovna u lva.  ",
+      popis:
+        "  Pískovcová socha lva je vysoká jeden metr. Stojí na podstavci ze stejného materiálu a je dost poničená.  ",
+      napis: " Bez nápisu.  ",
+      odkazy: [
+        {
+          nazev: " Vojenská pieta ",
+          adresa: " https://www.vets.cz/vpm/mista/obec/4062-kanice/ ",
+        },
+      ],
+      pozn:
+        "  Socha lva byla součástí pomníku padlých ve světové válce. Protože jinou součástí byla i socha Masaryka, byl pomník na začátku druhé světové války rozebrán a zakopán. Pamětníci ale zemřeli, a tak se na jeho součásti přišlo náhodou až v roce 1993 při výkopech kanalizace. Pomník znovu instalovali na návsi před bývalou školou, ale socha lva byla tak zničená, že nešla opravit. Student sochařství podle ní vytesal tedy nového lva a “starý lev” byl odsunut na konec vsi k lesu.  ",
+      naposledObnoveno: " XX.3.2021 ",
+      souradnice: " 49.2609061N, 16.7129678E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lutacafaja" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/lutacafaja",
+      galerie: [
+        { fotka: " kanickylev1.jpg", popisek: " (leden 2016) " },
+        { fotka: " kanickylev2.jpg", popisek: " (leden 2016) " },
+      ],
+      proMe: "  XIX/883   24-413-86  16---011  ",
+    },
+    {
+      id: 174,
+      kategorie: "pomnicky",
+      pridano: " 08/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Ivančice  ",
+      jmeno: " Ivančice - šnek  ",
+      nazev: " Ivančické zastavení U šneka ",
+      kdyVznikl: " 2015 ",
+      popisCesty:
+        " Leží na J od náměstí na břehu Jihlavky. Vede tu modrá značka a říká se tu na Malovansku.  ",
+      popis:
+        " Komplex výtvarných prvků a dětských prolézaček zabírá plochu 20 x 10 metrů. Hlavní částí je socha hlemýždě vysoká 3 metry a dlouhá 5 metrů, vyzděná z kamenů a doplněná trámy a kovovými prvky. Na hlavě šneka je metr vysoké ucho. Vedle jsou sluneční hodiny, dřevěný gnómon určující čas je vysoký asi 8 metrů. Je tu i odpočívadlo, lavičky, ohniště.    ",
+      napis: " Na lavičce je nápis  DOBRÝ  DEN  a  městský znak Ivančic.  ",
+      odkazy: [
+        {
+          nazev: " Ivančice - šnek ",
+          adresa:
+            " https://ivancice.colosseum.eu/index.php/cs/informace-pro-turisty/ivancicka-zastaveni/228-zastaveni-u-sneka ",
+        },
+      ],
+      pozn:
+        "  Autorem díla je ivančický sochař a řezbář Josef Zahradník. V letech 2009 - 2019 stvořil v okolí dalších 10 Ivančických zastavení : Stromokruh Evropy, U lišky, U žáby, U raka, U ledňáčka, Padlého cyklistu , Zvěrokruh, U dvou bobrů, Ptačí hotel a naposled U tří templářů. ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 25,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 10,
+          odkazKde: "pozn",
+          predOdkazem:
+            " Autorem díla je ivančický sochař a řezbář Josef Zahradník. V letech 2009 - 2019 stvořil v okolí dalších 10 Ivančických zastavení : Stromokruh Evropy, U lišky, U žáby, U raka, U ledňáčka,   ",
+          textOdkazu: "Padlého cyklistu",
+          zaOdkazem:
+            ", Zvěrokruh, U dvou bobrů, Ptačí hotel a naposled U tří templářů. ",
+        },
+      ],
+
+      naposledObnoveno: " 8.3.2021 ",
+      souradnice: " 49.0954306N, 16.3762486E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mosebadada" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/mosebadada",
+      galerie: [
+        { fotka: "ivancicesnek1.jpg", popisek: " (leden 2016) " },
+        { fotka: "ivancicesnek2.jpg", popisek: " (leden 2016) " },
+        { fotka: "ivancicesnek3.jpg", popisek: " (leden 2016) " },
+      ],
+      proMe: "  XIX/885  24-343-50  16---013  ",
+    },
+    {
+      id: 175,
+      kategorie: "pomnicky",
+      pridano: " 08/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Blansko ",
+      obec: "  Bořitov  ",
+      jmeno: "  Lví hlava - Bořitov  ",
+      nazev: " Hlava lva u Bořitova ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " 2,3 km S od kostela v Bořitově, v údolí mezi Velkým Chlumem a Chloumkem (kóta 411). U cesty po S straně, 100 metrů od sochy vede zelená značka. ",
+      popis:
+        "  Z pískovcové skalky vyčnívá neumělá hlava lva. Dosti nenápadné.  ",
+      napis: "   ",
+      pozn:
+        " Autor není znám. Nic nenasvědčuje tomu, že by mohlo jít o začátečnickou práci Stanislava Rolínka, který vytvořil nedaleké sousoší husitských bojovníků. V Rudce před Jeskyní blanických rytířů má Rolínek sochu lva zcela jiné kvality.   ",
+      naposledObnoveno: " 8.3.2021 ",
+      souradnice: " 49.4446000N, 16.5899833E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lenugabuhu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/lenugabuhu",
+      galerie: [{ fotka: " hlavalva1.jpg", popisek: " (srpen 2016) " }],
+      proMe: "  XIX/909  24-144-34  16---081  ",
+    },
+    {
+      id: 176,
+      kategorie: "pomnicky",
+      pridano: " 09/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Blansko ",
+      obec: "  Bořitov  ",
+      jmeno: " Reliéfy - Bořitov  ",
+      nazev: " Pískovcové reliéfy u Bořitova  ",
+      kdyVznikl: "  ",
+      popisCesty:
+        "  Leží S od Bořitova na SZ svahu Velkého Chlumu. Asi 150 metrů od nich je sousoší husitských bojovníků. Mezi reliéfy prochází zeleně značená cesta. ",
+      popis:
+        "  Jde o několik amatérských reliéfů vytesaných do měkkého pískovce. Lze nalézt Spící dívku, hlavy bojovníků, hlavu vojáka, erb na skalní stěně a možná i další.  ",
+      napi: "   ",
+
+      pozn:
+        "  Autor (nebo autoři?) insitních sochařských výtvorů není znám. Není ani žádná zpráva, že by je v roce 1927 vytesal Stanislav Rolínek, tvůrce sousedícího sousoší husitských bojovníků.  ",
+      naposledObnoveno: " XX.3.2021 ",
+      souradnice: " 49.4441500N, 16.5875833E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/komagonodo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/komagonodo",
+      galerie: [
+        {
+          fotka: " reliefyobora1.jpg",
+          popisek: "  (hlavy bojovníků - srpen 2016 ",
+        },
+        {
+          fotka: " reliefyobora2.jpg",
+          popisek: "  (hlava vojáka - srpen 2016 ",
+        },
+        {
+          fotka: " reliefyobora3.jpg",
+          popisek: "  (Spící dívka - srpen 2016 ",
+        },
+      ],
+      proMe: "  XIX/910  24-144-35  16---081  ",
+    },
+    {
+      id: 177,
+      kategorie: "pomnicky",
+      pridano: " 09/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Břeclav ",
+      obec: "  Strachotín  ",
+      jmeno: " Věrozvěsti - Strachotín  ",
+      nazev: " Památník Cyrila a Metoděje ve Strachotíně ",
+      kdyVznikl:
+        " Slavnostní odhalení pomníku se konalo v sobotu 18. srpna 2013 ke 1150. výročí příchodu věrozvěstů na Moravu. Základní kameny k památníku položeny o 11 let dříve. ",
+      popisCesty:
+        " Památník stojí 700 metrů ZSZ  od středu Strachotína, u silnice do Pouzdřan, na hraně srázu nad vinařskými sklepy. Místo krásného výhledu na Pálavu a jezera.",
+      popis:
+        " Zjednodušené sousoší dvojice postav těsně u sebe. Mezera mezi nimi vytváří pravoslavný kříž.  Sousoší vysoké 2,5 metru stojí na hladkém základu s nápisy. Před památníkem je základní kámen ze 4. 5. 2002.  ",
+      napis:
+        " Originál hlaholicí z  misálu z 2. poloviny 9. století a překlad:  NA  KRÁLOVSTVÍ  NAŠE, PANE, // MILOSTÍ  SVOU POHLÉDNI // A NEVYDEJ  NAŠEHO  CIZÍM // A  NÁS  NEDEJ V ZAJETÍ // NÁRODŮM  POHANSKÝM. //   ",
+      odkazy: [
+        {
+          nazev: " Břeclavský deník - odhalení ",
+          adresa:
+            " https://breclavsky.denik.cz/zpravy_region/verozvestove-cyril-a-metodej-uz-bdi-nad-strachotinem-20130818.html ",
+        },
+        {
+          nazev: " Vladimír Matoušek ",
+          adresa: " http://www.vladimirmatousek.net/cs/ ",
+        },
+      ],
+      pozn:
+        "  Tvůrcem památníku je brněnský sochař a řezbář Vladimír Matoušek (nar. 1956). Žije v Kamenné kolonii a od roku 1980 se věnuje volné autorské tvorbě zaměřené na náboženské motivy. Sousoší věrozvěstů na Petrově je také jeho dílem ze stejné doby. <p>Strachotínští odvozují jméno obce od Strachoty, což je překlad jména Metoděje do staročeštiny. Jižně od obce se na břehu Dyje rozkládalo v 9. století významné opevněné staroslovanské hradiště Petrova louka. Není vyloučeno, že tu Metoděj byl. Dnes je archeologická lokalita pod vodou.</p> ",
+      naposledObnoveno: " 9.3.2021 ",
+      souradnice: " 48.9095936N, 16.6455892E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gopacuhahe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/gopacuhahe",
+      galerie: [
+        { fotka: "verozvestistrachotin1.jpg", popisek: " (duben 2017) " },
+        { fotka: "verozvestistrachotin2.jpg", popisek: " (duben 2017) " },
+        { fotka: "verozvestistrachotin3.jpg", popisek: " (duben 2017) " },
+      ],
+      proMe: "  XX/938   34-124-03  17---041  ",
+    },
+    {
+      id: 178,
+      kategorie: "pomnicky",
+      pridano: " 09/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Letkovice ",
+      jmeno: " Ivančice - rak  ",
+      nazev: " Ivančické zastavení U raka ",
+      kdyVznikl: " 2014 ",
+      popisCesty:
+        " Zastavení najdeme 1200 metrů Z od kostela v Ivančicích, na kraji města, u Templářské cyklostezky mířící do Oslavan, při vjezdu do lesa.   ",
+      popis:
+        " Upravené odpočívadlo na cyklostezce. Dřevěná vstupní brána, lavičky, kamenné zídky, uprostřed ohniště, na kamenné zídce kovaná podoba bicyklu. Dominantou je šestimetrová skulptura raka z kamene, dřeva a kovu.   ",
+      napis: " Na opěradle lavičky:  U  RAKA.  ",
+      odkazy: [
+        {
+          nazev: " Ivančice - rak ",
+          adresa:
+            " https://ivancice.colosseum.eu/index.php/cs/informace-pro-turisty/ivancicka-zastaveni/231-zastaveni-u-raka ",
+        },
+      ],
+      pozn:
+        "  Autorem  je ivančický sochař a řezbář Josef Zahradník. V letech 2009 - 2019 stvořil k ozvláštnění krajiny v okolí jedenáct Ivančických zastavení   ",
+      naposledObnoveno: " 9.3.2021 ",
+      souradnice: " 49.1020250N, 16.3606539E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jedolofolo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jedolofolo",
+      galerie: [
+        { fotka: "ivancicerak1.jpg", popisek: " (duben 2019) " },
+        { fotka: "ivancicerak2.jpg", popisek: " (duben 2019) " },
+      ],
+      proMe: "  XX/1004  24-343-55   19---047  ",
     },
 
     // {
