@@ -13,9 +13,11 @@
     "vue-router-sitemap": "0.0.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.8",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
+    "babel-loader": "^8.2.2",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
