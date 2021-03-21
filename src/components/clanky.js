@@ -7416,7 +7416,7 @@ export default {
       ],
       pozn:
         "  Socha lva byla součástí pomníku padlých ve světové válce. Protože jinou součástí byla i socha Masaryka, byl pomník na začátku druhé světové války rozebrán a zakopán. Pamětníci ale zemřeli, a tak se na jeho součásti přišlo náhodou až v roce 1993 při výkopech kanalizace. Pomník znovu instalovali na návsi před bývalou školou, ale socha lva byla tak zničená, že nešla opravit. Student sochařství podle ní vytesal tedy nového lva a “starý lev” byl odsunut na konec vsi k lesu.  ",
-      naposledObnoveno: " XX.3.2021 ",
+      naposledObnoveno: " 8.3.2021 ",
       souradnice: " 49.2609061N, 16.7129678E ",
       kodMapa:
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/lutacafaja" width="400" height="280" frameborder="0"></iframe>  ',
@@ -7523,7 +7523,7 @@ export default {
 
       pozn:
         "  Autor (nebo autoři?) insitních sochařských výtvorů není znám. Není ani žádná zpráva, že by je v roce 1927 vytesal Stanislav Rolínek, tvůrce sousedícího sousoší husitských bojovníků.  ",
-      naposledObnoveno: " XX.3.2021 ",
+      naposledObnoveno: " 9.3.2021 ",
       souradnice: " 49.4441500N, 16.5875833E ",
       kodMapa:
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/komagonodo" width="400" height="280" frameborder="0"></iframe>  ',
@@ -7622,6 +7622,422 @@ export default {
         { fotka: "ivancicerak2.jpg", popisek: " (duben 2019) " },
       ],
       proMe: "  XX/1004  24-343-55   19---047  ",
+    },
+    {
+      id: 181,
+      kategorie: "pomnicky",
+      pridano: " 17/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě  ",
+      okres: " Brno - venkov ",
+      obec: "  Lažánky  ",
+      jmeno: " Vodník - Slunná  ",
+      nazev: " Socha vodníka u nádržky Slunná ",
+      kdyVznikl:
+        " patrně v letech 2016 - 2017 po ukončení stavby retenční nádrže Horní Slunná ",
+      popisCesty:
+        " Socha stojí 1700 metrů SZ od středu Lažánek, v Maršovském žlebu, na břehu retenční nádrže Slunná, blízko cesty.  ",
+      popis:
+        "  Dřevořezba stojícího vousatého vodníka je vysoká 1,2 metru.  Vedle je lavička, pěkné místo. ",
+      napis: "    ",
+      pozn:
+        "  Zdejší lesy trpí suchem, protože leží ve srážkovém stínu Českomoravské vysočiny. Kvůli zadržení skromných srážek zbudovaly Lesy české republiky v roce 2012 retenční nádrž Slunná. Je dlouhá 150 metrů, široká maximálně 50 metrů. Výše pak leží menší nádržka Horní Slunná, postavená v roce 2014, která zarůstá vodním rostlinstvem.  Nad každou zdrží je odkalovací tůň, oddělená prosakovací hrázkou.",
+      naposledObnoveno: " 17.3.2021 ",
+      souradnice: " 49.2942619N, 16.3760181E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/pohofoduso" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/pohofoduso",
+      galerie: [
+        { fotka: " vodnikslunna1.jpg", popisek: " (srpen 2019) " },
+        {
+          fotka: " vodnikslunna2.jpg",
+          popisek: " (spodní nádrž Slunná - srpen 2019) ",
+        },
+      ],
+      proMe: " XX/1023  24-321-68  19---085   ",
+    },
+    {
+      id: 182,
+      kategorie: "pomnicky",
+      pridano: " 17/03/2021 ",
+      podkategorie: 10,
+      druh: "  Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Níhov  ",
+      jmeno: " Zdislava - Níhov  ",
+      nazev: " Sousoší svaté Zdislavy u Níhova ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " Stojí 1,8 kilometru S od kaple v Níhově, na Z straně silničky z Níhova do Rojetína, na loučce u lesa.  ",
+      popis:
+        "  Na metrovém soklu, vyzděném z plochých kamenů, stojí zlatě natřené sousoší svaté Zdislavy se čtyřmi dětmi. Je vysoké asi dva metry, postavy silně převýšené, tváře dramaticky vážné. Atribut této svaté jsou právě děti.  ",
+      napis: "  Sv. Zdislava  + 1252 ",
+      odkazy: [
+        {
+          nazev: " wikipedie - Zdislava ",
+          adresa: " https://cs.wikipedia.org/wiki/Zdislava_z_Lemberka ",
+        },
+      ],
+      pozn:
+        "  Autorem sousoší je bezpochyby bítešský sochař Lubomír Lacina. <br> <strong> Zdislava z Lemberka </strong>  (asi 1220 Křižanov - 1252 Lemberk) byla významná česká šlechtična ze 13. století. Část dětství strávila na Veveří, kde byl její otec purkrabím. Její manžel Havel z Lemberka byl důvěrníkem krále Václava I. Měla zřejmě čtyři děti. Zakládala kostely, kláštery, špitály a osobně se starala o nemocné. Dle kronikářů měla dar uzdravovat nemocné a křísit mrtvé. Zemřela předčasně a je pochovaná v kryptě baziliky v Jablonném, kterou založila. Blahořečena v roce 1907, v roce 1995 ji papež Jan Pavel II. při návštěvě Olomouce prohlásil za svatou. Z kosterních pozůstatků se podařilo vědcům zrekonstruovat podobu její tváře.  ",
+      naposledObnoveno: " 17.3.2021 ",
+      souradnice: " 49.3590622N, 16.2573253E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bomugotuna" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/bomugotuna",
+      galerie: [
+        { fotka: "zdislava1.jpg", popisek: " (květen 2020) " },
+        { fotka: "zdislava2.jpg", popisek: " (květen 2020) " },
+        { fotka: "zdislava3.jpg", popisek: " (květen 2020) " },
+      ],
+      proMe: "  XX/1098  24-312-92  20---051  ",
+    },
+    {
+      id: 183,
+      kategorie: "pomnicky",
+      pridano: " 17/03/2021 ",
+      podkategorie: 15,
+      druh: "  Sakrální  ",
+      okres: " Brno - venkov ",
+      obec: "  Níhov  ",
+      jmeno: " Zdislava - Níhov  ",
+      nazev: " Sousoší svaté Zdislavy u Níhova ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " Stojí 1,8 kilometru S od kaple v Níhově, na Z straně silničky z Níhova do Rojetína, na loučce u lesa.  ",
+      popis:
+        "  Na metrovém soklu, vyzděném z plochých kamenů, stojí zlatě natřené sousoší svaté Zdislavy se čtyřmi dětmi. Je vysoké asi dva metry, postavy silně převýšené, tváře dramaticky vážné. Atribut této svaté jsou právě děti.  ",
+      napis: "  Sv. Zdislava  + 1252 ",
+      odkazy: [
+        {
+          nazev: " wikipedie - Zdislava ",
+          adresa: " https://cs.wikipedia.org/wiki/Zdislava_z_Lemberka ",
+        },
+      ],
+      pozn:
+        "  Autorem sousoší je bezpochyby bítešský sochař Lubomír Lacina. <br><strong> Zdislava z Lemberka </strong>  (asi 1220 Křižanov - 1252 Lemberk) byla významná česká šlechtična ze 13. století. Část dětství strávila na Veveří, kde byl její otec purkrabím. Její manžel Havel z Lemberka byl důvěrníkem krále Václava I. Měla zřejmě čtyři děti. Zakládala kostely, kláštery, špitály a osobně se starala o nemocné. Dle kronikářů měla dar uzdravovat nemocné a křísit mrtvé. Zemřela předčasně a je pochovaná v kryptě baziliky v Jablonném, kterou založila. Blahořečena v roce 1907, v roce 1995 ji papež Jan Pavel II. při návštěvě Olomouce prohlásil za svatou. Z kosterních pozůstatků se podařilo vědcům zrekonstruovat podobu její tváře.  ",
+      naposledObnoveno: " 17.3.2021 ",
+      souradnice: " 49.3590622N, 16.2573253E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bomugotuna" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/bomugotuna",
+      galerie: [
+        { fotka: "zdislava1.jpg", popisek: " (květen 2020) " },
+        { fotka: "zdislava2.jpg", popisek: " (květen 2020) " },
+        { fotka: "zdislava3.jpg", popisek: " (květen 2020) " },
+      ],
+      proMe: "  XX/1098  24-312-92  20---051  ",
+    },
+    {
+      id: 184,
+      kategorie: "pomnicky",
+      pridano: " 17/03/2021 ",
+      podkategorie: 12,
+      druh: "  Jeskyňářské a horolezecké  ",
+      okres: " Blansko ",
+      obec: "  Suchdol v Moravském krasu  ",
+      jmeno: " Wankel, Jindřich - busta  ",
+      nazev: " Busta Jindřicha Wankla v Pustém žlebu ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " V Pustém žlebu, naproti nové budově u vstupu do Punkevních jeskyní.  ",
+      popis:
+        " Na kamenném hranolu spočívá kamenná busta v nadživotní velikosti.   ",
+      napis: "  J.  WANKEL  ",
+      odkazy: [
+        {
+          nazev: " Wikipedie - Wankel ",
+          adresa: " https://cs.wikipedia.org/wiki/Jind%C5%99ich_Wankel ",
+        },
+        {
+          nazev:
+            " Jindřich Wankel: Obrazy z Moravského Švýcarska a jeho minulosti, 1988.  ",
+        },
+      ],
+      pozn:
+        " <strong> Jindřich Wankel </strong> (1821-1897), lékař v Salmovských železárnách v Blansku, má zásluhy v mnoha oborech. Zakladatel moravské archeologie, paleontolog, badatel v jeskyních Moravského krasu. V letech 1867-69 vykopal halštatské pohřebiště v Býčí skále. Sestavil první kostru jeskynního medvěda. Jeho vnuky jsou speleolog a archeolog Karel Absolon a zakladatel nemocnice na Žlutém kopci Jaroslav Bakeš. ",
+      naposledObnoveno: " 17.3.2021 ",
+      souradnice: " 49.3710408N, 16.7255631E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/barelofono" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/barelofono",
+      galerie: [{ fotka: " wankel1.jpg", popisek: " (březen 2018) " }],
+      proMe: " XX/1033  24-233-73  18---031   ",
+    },
+    {
+      id: 185,
+      kategorie: "pomnicky",
+      pridano: " 18/03/2021 ",
+      podkategorie: 11,
+      druh: "  Literární  ",
+      okres: " Brno - venkov ",
+      obec: " Kanice   ",
+      jmeno: " Neumann, Stanislav Kostka  ",
+      nazev: " Pomník S. K. Neumanna na Hádech ",
+      kdyVznikl: " 1959 ",
+      popisCesty:
+        " Leží 1400 metrů S od hotelu Velká Klajdovka, na okraji planiny Hádů nad Těsnohlídkovým žlebem. K místu nad skalním srázem Šumbera vede odbočka modré značky. ",
+      popis:
+        "  Pomník je důkladně vyzděný z vápencových kamenů do výšky dvou metrů, uprostřed čelní stěny zazděná leštěná žulová deska s delším textem. V době vzniku pomníku byl ze skály pěkný výhled.  ",
+      napis:
+        " VELKÝ  BÁSNÍK  PRACUJÍCÍHO  LIDU //  S. K. NEUMANN //  *  5. 6. 1875 // + 28. 6. 1947 //   Následuje úryvek básně Na skalkách ze sbírky Kniha lesů vod a strání. ",
+      odkazy: [
+        {
+          nazev: " wikipedie - Neumann ",
+          adresa: " https://cs.wikipedia.org/wiki/Stanislav_Kostka_Neumann ",
+        },
+        {
+          nazev: " spisovatelé - Neumann ",
+          adresa: " https://www.spisovatele.cz/stanislav-kostka-neumann ",
+        },
+        {
+          nazev:
+            "Božena Neumannová-Hodačová : Byla jsem ženou slavného muže, 1998.  ",
+        },
+        {
+          nazev:
+            " Lexikon české literatury, díl 3, svazek 1, 2000, str. 509 - 516 ",
+        },
+      ],
+      pozn:
+        " <strong> S. K. Neumann</strong> (1875 - 1947), český básník, publicista a bohém. Patřil k buřičům, anarchistům, později komunistům. Do Brna přišel v roce 1906, žil v Řečkovicích a Bílovicích, 1915 narukoval do světové války a z ní se vrátil do Prahy. Z jeho rozsáhlého díla se brněnského okolí týká jen lyrická sbírka básní: Kniha lesů, vod a strání, 1914, a dvě knihy fejetonů: S městem za zády, 1922 a 1923. Poválečným režimem protežovaný básník, národní umělec od listopadu 1945.  ",
+      naposledObnoveno: " 18.3.2021 ",
+      souradnice: " 49.2301653N, 16.6836986E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fasuhorulo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fasuhorulo",
+      galerie: [
+        { fotka: " neumann1.jpg", popisek: " (prosinec 2007) " },
+        { fotka: " neumann2.jpg", popisek: " (prosinec 2017) " },
+        { fotka: " neumann3.jpg", popisek: " (prosinec 2017) " },
+      ],
+      proMe: "  I/27  24-413-124  07---12  17---122",
+    },
+    {
+      id: 186,
+      kategorie: "pomnicky",
+      pridano: " 18/03/2021 ",
+      podkategorie: 11,
+      druh: "  Literární  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Žabovřesky  ",
+      jmeno: " Palacký, František  ",
+      nazev: " Pomník Františka Palackého na Palackého vrchu ",
+      kdyVznikl: " 6. 9. 1908 ",
+      popisCesty:
+        "  Nejvyšší bod, kóta 339, mezi Komínem, Žabovřeskami a Královým Polem je Palackého vrch. Pomník stojí na vrcholu nad zahrádkami. ",
+      popis:
+        " Zužující se kamenný komolý jehlan střízlivého tvaru je vysoký 2,5 metru. Zepředu vloženy tmavé leštěné desky s texty. Tyto desky byly v minulosti několikrát poškozeny a vyměněny.   ",
+      napis:
+        " “VRCH  TENTO TVÝM  // JMÉNEM,  OTČE  VLASTI // ZDOBENÝ, HLAS  VĚČNĚ // SLÁVU  ZÁSLUH  TVÝCH ! // MRTVOU  JSI  VZKŘÍSIL // MINULOST A SLÁVU, // I  NOVÝ  ŽIVOT  SÍLIL  JSI, // SÁM  NEÚSTUPNÝ  BOJOVNÍK // PRO  PRÁVO  KORUNY // SVATOVÁCLAVSKÉ.” //  NEHYNOUCÍ  SLÁVĚ // “OTCE  NÁRODA” //  FR.  PALACKÉHO // VĚNUJE  SOKOL  TYRŠ // V BRNĚ.  DNE 6. IX. 1908 // V průběhu 110 let text doznal mírných úprav. Poslední úprava je z roku 1994.  ",
+      odkazy: [
+        {
+          nazev: " wikipedie - Palacký ",
+          adresa: " https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Palack%C3%BD ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=134 ",
+        },
+        {
+          nazev:
+            " Lexikon české literatury, díl 3, svazek 2, 2000, str. 741 - 753 ",
+        },
+      ],
+      pozn:
+        " <strong> František Palacký</strong>  (1798 - 1876) byl historik, politik a spisovatel. Stal se zakladatelem českého dějepisectví a byl nazýván otcem národa. Jako vychovatel šlechtických dětí mohl studovat a pronikl do vyšší společnosti. Stal se stavovským  historiografem. Své stěžejní dílo pětidílné Dějiny národa českého v Čechách a na Moravě vydával postupně v němčině i češtině od roku 1848 až do smrti. Jeho pohřeb se stal národní manifestací.<br> Za německé okupace byl pomník rozebrán a ukryt, obnoven byl v roce 1945 a dovnitř byla vložena urna s pískem z popraviště v Kounicových kolejích.     ",
+      naposledObnoveno: " 18.3.2021 ",
+      souradnice: " 49.2252036N, 16.5677014E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nuvupuseze" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/nuvupuseze",
+      galerie: [
+        { fotka: " palacky1.jpg", popisek: " (březen 2011) " },
+        { fotka: " palacky2.jpg", popisek: " (listopad 2020) " },
+        { fotka: " palacky3.jpg", popisek: " (listopad 2020) " },
+      ],
+      proMe: "  IV/117  24-324-68  BM---2011 20---116",
+    },
+    {
+      id: 187,
+      kategorie: "pomnicky",
+      pridano: " 19/03/2021 ",
+      podkategorie: 11,
+      druh: "  Literární  ",
+      okres: " Brno - venkov ",
+      obec: "  Javůrek  ",
+      jmeno: " Bezruč, Petr  ",
+      nazev: " Pamětní desky Petru Bezručovi na Šmelcovně. ",
+      kdyVznikl:
+        " Levá rezavá deska byla slavnostně odhalena 24. března 1968 při tradičním srazu turistů Vítání jara, který organizoval Městský výbor turistiky v Brně. Pravá světlá deska je  o desítky let mladší. ",
+      popisCesty:
+        " Desky jsou instalovány na skalní stěně v ostré zátočině lesní cesty, 200 metrů na Z od mostu na Šmelcovně. Vede tu červená značka.  ",
+      popis:
+        "  Levá deska je železný odlitek dlouhý asi 0,4 metru s nápisem. Není jasné, co má odlitá abstrakce představovat. Pravá deska je plaketa s vyobrazením podoby zamračeného básníka z profilu.   ",
+      napis:
+        " Levá deska :  SEM  RÁD  CHODÍVAL // PETR  BEZRUČ // Pravá deska : P. BEZRUČ .  ",
+      odkazy: [
+        {
+          nazev: " wikipedie - Bezruč ",
+          adresa: " https://cs.wikipedia.org/wiki/Petr_Bezru%C4%8D ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: " Petr Bezruč: Slezské písně. Kritická edice, 2014 " },
+        { nazev: "  Lexikon české literatury, díl 1,1985, str. 219 - 226 " },
+      ],
+      pozn:
+        " <strong>Petr Bezruč</strong> (1867 - 1958), významný básník, prozaik, autor Slezských písní. Vlastním jménem Vladimír Vašek žil v Brně v letech 1873 - 1939, povoláním byl poštovním úředníkem. Považoval se celý život za Slezana. Vznik Slezských písní není doposud zcela objasněn, básně se začaly objevovat v roce 1899, autor nebyl znám dalších deset let. Postupně se sbírka rozrostla ze 30 na 70 básní. Bezruč měl rád přírodu, chůzi, jižní Moravu a víno. S přáteli sdružení Noha zakládal tradici vítání jara 1. jarní neděli na Šmelcovně, kterého se v letech 1912 - 1933 účastnil. Dodnes je patronem brněnských turistů.  ",
+      naposledObnoveno: " 19.3.2021 ",
+      souradnice: " 49.2667044N, 16.3520347E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bajukamuba" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/bajukamuba",
+      galerie: [
+        { fotka: " bezruc1.jpg", popisek: " (duben 2012) " },
+        { fotka: " bezruc2.jpg", popisek: " (duben 2012) " },
+      ],
+      proMe: " IV/135  24-324-68  1.4.12 ",
+    },
+    {
+      id: 188,
+      kategorie: "pomnicky",
+      pridano: " 19/03/2021 ",
+      podkategorie: 11,
+      druh: "  Literární  ",
+      okres: " Brno - venkov ",
+      obec: "  Synalov  ",
+      jmeno: " Cimrman, Jára  ",
+      nazev: " Plostika Járy Cimrmana na Sýkoři ",
+      kdyVznikl:
+        " Pomník odhalili 22. 10. 1988 za přítomnosti dvou členů Divadla J. C. Nebylo to bez problémů. Státní lesy i národní výbor odvolaly svůj prvotní souhlas. Kvůli udání na nežádoucí srocování živlů byla socha tvůrci zavčas odstraněna a posléze “reinstalována a reodhalena” v roce 1989 na soukromém pozemku jako součást oplocení. Na původní místo se vrátila až po sedmi letech.  ",
+      popisCesty:
+        "  Leží 1300 metrů od návsi v Synalově, u bývalé hájenky na Sýkoři. Končí zde naučná Cimrmanova stezka, která začíná na náměstí v Lomnici a přes šest zastávek - plahočin vystoupá až sem. Trasa značená žlutě je dlouhá 5 kilometrů.   ",
+      popis:
+        " Hlava z boků ořezaná spočívá na kamenném podstavci. Podle autorů fikce není podoba Mistra známa. Na podstavci malá tabulka se jménem tvůrce, na sloupku dlouhý cimrmanovský text.   ",
+      napis: " AUTOR  PLOSTIKY // Jožka  ZAHRADNÍK //  ",
+      odkazy: [
+        {
+          nazev: " stezka - Kupsa",
+          adresa:
+            " https://www.michalkupsa.cz/blog/vyslap-naucnou-stezkou-jary-cimrmana-188.html ",
+        },
+        {
+          nazev: " stezka - Svatošovi ",
+          adresa: " https://www.svatosi.cz/?p=936306 ",
+        },
+        {
+          nazev:
+            " Cimrman, Smoljak/Svěrák : Hry a semináře, úplné vydání. 2009 ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Autorem hlavy je ivančický sochař a řezbář Josef Zahradník ze Stříbského mlýna.<br>   <strong>Jára Cimrman</strong> je fiktivní český génius z 19. století, kterého v říjnu 1966 vymysleli tvůrci Šebánek, Svěrák a Smoljak pro pořad v Československém rozhlasu. V témže roce založila skupinka čtyř cimrmanologů Divadlo Járy Cimrmana, kde zkoumají pozůstalost a rozvíjejí myšlenky velikána. Daří se jim to v patnácti divadelních hrách, všechny se hrají dodnes. V roce 2005 Jára Cimrman figuroval v televizní anketě Největší Čech. Než ji stačil vyhrát, byl z hodnocení vyřazen a přenechal prvenství Karlu IV.  ",
+      naposledObnoveno: " 19.3.2021 ",
+      souradnice: " 49.4426617N, 16.4030292E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/futukatuge" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/futukatuge",
+      galerie: [
+        { fotka: " cimrman1.jpg", popisek: " (červenec 2009) " },
+        { fotka: " cimrman2.jpg", popisek: " (červenec 2009) " },
+      ],
+      proMe: "  X/296  24-143-5  BL  ",
+    },
+    {
+      id: 189,
+      kategorie: "pomnicky",
+      pridano: " 20/03/2021 ",
+      podkategorie: 11,
+      druh: "  Literární  ",
+      okres: " Blansko ",
+      obec: "  Olomučany  ",
+      jmeno: " Mácha, Karel Hynek  ",
+      nazev: " Máchův pomník u Olomučan  ",
+      kdyVznikl: " 1936, k uctění památky 100. výročí úmrtí básníka ",
+      popisCesty:
+        " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
+      popis:
+        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s vyňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
+      napis:
+        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé vyňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
+      odkazy: [
+        {
+          nazev: "Wikipedie - Mácha ",
+          adresa: " https://cs.wikipedia.org/wiki/Karel_Hynek_M%C3%A1cha ",
+        },
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/skvela-vyhlidka-od-machova-pamatniku/detail ",
+        },
+        {
+          nazev:
+            " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 58 - 63 ",
+        },
+        { nazev: "  Lexikon české literatury, díl 3, 2000, str. 32 - 42 " },
+      ],
+      pozn:
+        " <strong>Karel Hynek Mácha</strong> (1810 - 1836) básník a prozaik, tvůrce básnické povídky Máj, nejvýznamnější představitel romantismu v české literatuře. Rád cestoval pěšky, došel do Itálie a zpět,  navštěvoval zříceniny a romantické krajiny. Zemřel na choleru a vyčerpání a pohřeb měl v den, kdy plánoval svoji svatbu.   ",
+      naposledObnoveno: " 20.3.2021 ",
+      souradnice: " 49.3173678N, 16.6719781E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dasufuroce" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/dasufuroce",
+      galerie: [
+        { fotka: "macha1.jpg", popisek: " (prosinec 2017)" },
+        { fotka: "macha2.jpg", popisek: " (prosinec 2017)" },
+        { fotka: "macha3.jpg", popisek: " (prosinec 2017)" },
+      ],
+      proMe: "  X/308  24-411-47  17---121  ",
+    },
+    {
+      id: 190,
+      kategorie: "pomnicky",
+      pridano: " 20/03/2021 ",
+      podkategorie: 1,
+      druh: "  Lesnický slavín  ",
+      okres: " Blansko ",
+      obec: "  Olomučany  ",
+      jmeno: " Mácha, Karel Hynek  ",
+      nazev: " Máchův pomník u Olomučan  ",
+      kdyVznikl: " 1936, k uctění památky 100. výročí úmrtí básníka ",
+      popisCesty:
+        " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
+      popis:
+        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s vyňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
+      napis:
+        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé vyňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
+      odkazy: [
+        {
+          nazev: "Wikipedie - Mácha ",
+          adresa: " https://cs.wikipedia.org/wiki/Karel_Hynek_M%C3%A1cha ",
+        },
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/skvela-vyhlidka-od-machova-pamatniku/detail ",
+        },
+        {
+          nazev:
+            " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 58 - 63 ",
+        },
+        { nazev: "  Lexikon české literatury, díl 3, 2000, str. 32 - 42 " },
+      ],
+      pozn:
+        " <strong>Karel Hynek Mácha</strong> (1810 - 1836) básník a prozaik, tvůrce básnické povídky Máj, nejvýznamnější představitel romantismu v české literatuře. Rád cestoval pěšky, došel do Itálie a zpět,  navštěvoval zříceniny a romantické krajiny. Zemřel na choleru a vyčerpání a pohřeb měl v den, kdy plánoval svoji svatbu.   ",
+      naposledObnoveno: " 20.3.2021 ",
+      souradnice: " 49.3173678N, 16.6719781E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dasufuroce" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/dasufuroce",
+      galerie: [
+        { fotka: "macha1.jpg", popisek: " (prosinec 2017)" },
+        { fotka: "macha2.jpg", popisek: " (prosinec 2017)" },
+        { fotka: "macha3.jpg", popisek: " (prosinec 2017)" },
+      ],
+      proMe: "  X/308  24-411-47  17---121  ",
     },
 
     // {
