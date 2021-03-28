@@ -17,7 +17,10 @@
           Zpět na naposled přidané
         </div>
       </router-link>
-       <router-link v-else-if="this.$route.name === 'SmirciKrizeVypraveni'" to="/smircikrize">
+      <router-link
+        v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
+        to="/smircikrize"
+      >
         <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na smírčí kříže
@@ -73,6 +76,11 @@
             {{ odstavec.textOdstavce }}
           </p>
           <figure
+            v-bind:class="{
+              figCesty: true,
+              naSirku: !odstavec.naSirku,
+              naVysku: odstavec.naVysku,
+            }"
             v-bind:style="{ textAlign: 'center' }"
             v-else-if="
               odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy
@@ -81,12 +89,23 @@
             <img
               v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
               v-bind:alt="detailClanku.nazev"
-              v-bind:style="{ maxHeight: '60vh' }"
               class="fotoCesty"
             />
             <figcaption>{{ odstavec.popisek }}</figcaption>
           </figure>
         </div>
+        <div id="mapa">
+          <iframe
+            v-if="detailClanku.odkazMapa"
+            style="border:none"
+            v-bind:src="detailClanku.odkazMapa"
+            width="90%"
+            height="400"
+          >
+            frameborder="0" ></iframe
+          >
+        </div>
+
         <h3 v-if="detailClanku.dodatekNadpis">
           {{ detailClanku.dodatekNadpis }}
         </h3>
@@ -154,7 +173,6 @@
     },
 
     created() {
-     
       for (let clanek of this.clanky) {
         if (clanek.id == this.$route.params.id) {
           this.detailClanku = clanek;
@@ -232,7 +250,6 @@
     }
 
     #tlacitkoNahoruDetail {
-     
       width: 60px !important;
     }
 
@@ -307,6 +324,25 @@
     line-height: 1.5;
   }
 
+  .naSirku {
+    width: 90%;
+  }
+
+  .figCesty img {
+    width: 100% !important;
+    object-fit: cover;
+    max-height: 100vh;
+  }
+
+  .naVysku {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .naVysku img {
+    width: unset !important;
+  }
+
   #fotoText img {
     width: unset;
     height: 100%;
@@ -365,7 +401,11 @@
     flex-wrap: wrap;
   }
 
-  @media (max-width: 600px) {
+  #detailClanku #mapa {
+    text-align: center;
+  }
+
+  @media (max-width: 400px) {
     #galerieClanek {
       flex-direction: column;
       flex-wrap: nowrap;
@@ -375,7 +415,17 @@
     }
 
     .fotoCesty {
-      width: 100% !important;
+      max-width: 90vw;
+      margin: auto;
+    }
+
+    .naVysku,
+    .naSirku {
+      max-width: 90vw;
+    }
+
+    .naVysku {
+      margin: 0 auto !important;
     }
   }
 </style>

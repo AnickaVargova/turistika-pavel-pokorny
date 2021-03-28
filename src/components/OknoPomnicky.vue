@@ -11,18 +11,6 @@
 
       <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
         <div style="width: 100%; height:100%">
-          <!-- <iframe
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-            v-bind:src="
-              `https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=${clanek.latitude},%20${clanek.longitude}+(Pomn%C3%AD%C4%8Dek%20test)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed`
-            "
-            width="100%"
-            height="600"
-            frameborder="0"
-          ></iframe> -->
-
           <iframe
             style="border:none"
             v-bind:src="clanek.odkazMapa"

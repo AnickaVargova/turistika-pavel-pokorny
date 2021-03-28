@@ -8039,6 +8039,106 @@ export default {
       ],
       proMe: "  X/308  24-411-47  17---121  ",
     },
+    {
+      id: 161,
+      datum: " Pondělí 30. listopadu 2020  ",
+      pridano: " 24/02/2021 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " První sníh na Radhošti ",
+      fotkaUvod: { fotka: " radhost8.jpg " },
+
+      text: [
+        {
+          textOdstavce:
+            " <i>Sedlo Pindula - Černá hora - Radhošť - Pustevny - Čertův mlýn - Martiňák - Horní Bečva, Valaška. 23 km a 1000 m převýšení.</i> ",
+        },
+        {
+          textOdstavce:
+            "Na horách se očekávala inverze, náš syn měl volno z práce a chtěl vyjet ze zamlženého Brna někam výše. Volba padla na Beskydy. Tedy jsme ráno o půl šesté sedli do jeho auta a za dvě a půl hodiny byli na hřebeni Radhošťských Beskyd v sedle Pindula mezi Rožnovem a Frenštátem. Syn měl svůj běžecký program a my dva jsme vyrazili zasněženou cestou po modré značce prudce nahoru.",
+        },
+        { foto: "radhost1.jpg", naVysku: true },
+        { foto: "radhost2.jpg", naVysku: true },
+        { foto: "radhost3.jpg" },
+        {
+          textOdstavce:
+            " Dole byla mlha, sněhu leželo tak 5 centimetrů, ale jak jsme nabírali výšku, tak ho trochu přibývalo.Na Černé hoře se oblačnost rozpouštěla, ukázalo se slunce, ale do inverze to mělo daleko.",
+        },
+        {
+          foto: "radhost4.jpg",
+          popisek: " Křížek na Černé hoře (listopad 2020)  ",
+        },
+        {
+          foto: "radhost5.jpg",
+          popisek: "  Poprve se ukázal vrcholek Radhoště  ",
+          naVysku: true,
+        },
+        {
+          foto: "radhost6.jpg",
+          naVysku: true,
+          popisek: " Chata Pod kaplí (listopad 2020)  ",
+        },
+        {
+          textOdstavce:
+            "Byl všední den, tedy jsme skoro nikoho nepotkali, pokud ano, tak to byli mladí běžci. Ani nahoře se lyžovat nedalo. Obligátní trasa Kaplička na Radhošti - socha Radegasta - Pustevny byla liduprázdná.",
+        },
+        { foto: "radhost7.jpg" },
+        {
+          foto: "radhost8.jpg",
+          popisek: " Kaple Cyrila a Metoděje na Radhošti (listopad 2020)  ",
+        },
+        { foto: "radhost9.jpg" },
+        { foto: "radhost10.jpg", naVysku: true },
+        {
+          foto: "radhost11.jpg",
+          popisek: "  Sousoší věrozvěstů na Radhošti (listopad 2020) ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "U hotelu Radegast měli otevřené bufetové okénko, ale velkou tržbu tu nedělali, na hoteliéry udeřily špatné časy.",
+        },
+        { foto: "radhost12.jpg", popisek: " Hotel Radegast  " },
+        {
+          textOdstavce:
+            "Kolem zasněžené sochy Radegasta a vyhlídkového altánu Cyrilka jsme došli na Pustevny.",
+        },
+        {
+          foto: "radhost13.jpg",
+          naVysku: true,
+          popisek: "Známá socha pohanského boha Radegasta",
+        },
+        { foto: "radhost14.jpg " },
+        {
+          foto: "radhost15.jpg",
+          popisek: " Vyhlídkový altán Cyrilka nad Pustevnami  ",
+        },
+        {
+          textOdstavce:
+            "Na Pustevnách jsme prohlédli obnovenou chatu Maměnku, bohužel jen zvenku. Opravený je i sousední Libušín, radost se na obě podívat.",
+        },
+        { foto: "radhost16.jpg", popisek: " Uprostřed je Libušín  " },
+        { foto: "radhost17.jpg", popisek: " Parmova hospoda  " },
+        { foto: "radhost18.jpg", popisek: " Chata Maměnka  " },
+        {
+          textOdstavce:
+            "I tady přikročili k výrobě turistických lákadel, stezka v oblacích určitě přitáhne davy lidí a přírody zase kus ubude. Ve výstupu na Čertův mlýn vzpomínám, kdy jsem tuto trasu šel poprvé. Je to 59 roků. U pramene pod Čertovým mlýnem jsme tehdy vařili v kotli polévku.",
+        },
+        { foto: "radhost19.jpg" },
+        { foto: "radhost20.jpg", naVysku: true },
+        {
+          textOdstavce:
+            "Martiňák tehdy vypadal úplně jinak. A pak už jen dlouhý sestup po ledovaté silnici a čekání na odvoz před zavřenou hospodou.",
+        },
+        { foto: "radhost21.jpg", popisek: " Chata Martiňák  " },
+        { foto: "radhost22.jpg", popisek: " Pohled do údolí k Horní Bečvě  " },
+      ],
+      naposledObnoveno: " 24.3.2021 ",
+      souradnice: " 49.4997975N, 18.1864875E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nacatavene" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/nacatavene",
+    },
 
     // {
     //   id:  1000,

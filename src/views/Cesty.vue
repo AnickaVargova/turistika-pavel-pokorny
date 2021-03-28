@@ -13,11 +13,7 @@
       return {
         params: {
           nadpis: "Cesty",
-          uvodniText: [
-            {
-              textOdstavce: "Tady zatím nic není, cesty postupně doplníme.",
-            },
-          ],
+          uvodniText: [],
 
           kategoriePomnicky: [
             { id: 1, nazev: 2020 },
