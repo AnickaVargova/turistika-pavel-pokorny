@@ -8076,19 +8076,22 @@ export default {
         {
           foto: "radhost6.jpg",
           naVysku: true,
-          popisek: " Chata Pod kaplí (listopad 2020)  ",
+          popisek: "   ",
         },
         {
           textOdstavce:
             "Byl všední den, tedy jsme skoro nikoho nepotkali, pokud ano, tak to byli mladí běžci. Ani nahoře se lyžovat nedalo. Obligátní trasa Kaplička na Radhošti - socha Radegasta - Pustevny byla liduprázdná.",
         },
-        { foto: "radhost7.jpg" },
+        { foto: "radhost7.jpg", popisek: " Chata Pod kaplí (listopad 2020)" },
         {
           foto: "radhost8.jpg",
-          popisek: " Kaple Cyrila a Metoděje na Radhošti (listopad 2020)  ",
+          popisek: "Kaple Cyrila a Metoděje na Radhošti (listopad 2020)  ",
         },
         { foto: "radhost9.jpg" },
-        { foto: "radhost10.jpg", naVysku: true },
+        {
+          foto: "radhost10.jpg",
+          naVysku: true,
+        },
         {
           foto: "radhost11.jpg",
           popisek: "  Sousoší věrozvěstů na Radhošti (listopad 2020) ",
