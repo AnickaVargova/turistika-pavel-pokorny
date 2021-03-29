@@ -8118,9 +8118,12 @@ export default {
         },
         {
           textOdstavce:
-            "Na Pustevnách jsme prohlédli obnovenou chatu Maměnku, bohužel jen zvenku. Opravený je i sousední Libušín, radost se na obě podívat.",
+            "Na Pustevnách jsme prohlédli obnovenou chatu Libušín, bohužel jen zvenku. Opravená je i sousední Maměnka, dnes hotel s osmnácti pokoji,  radost se na obě podívat.",
         },
-        { foto: "radhost16.jpg", popisek: " Uprostřed je Libušín  " },
+        {
+          foto: "radhost16.jpg",
+          popisek: " Uprostřed je Libušín (listopad 2020)  ",
+        },
         { foto: "radhost17.jpg", popisek: " Parmova hospoda  " },
         { foto: "radhost18.jpg", popisek: " Chata Maměnka  " },
         {
