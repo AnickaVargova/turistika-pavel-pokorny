@@ -7955,13 +7955,14 @@ export default {
       obec: "  Olomučany  ",
       jmeno: " Mácha, Karel Hynek  ",
       nazev: " Máchův pomník u Olomučan  ",
-      kdyVznikl: " 1936, k uctění památky 100. výročí úmrtí básníka ",
+      kdyVznikl:
+        " 1936, k uctění památky básníka při příležitosti 100. výročí úmrtí. ",
       popisCesty:
         " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
       popis:
-        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s vyňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
+        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s výňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
       napis:
-        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé vyňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
+        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé výňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
       odkazy: [
         {
           nazev: "Wikipedie - Mácha ",
@@ -8002,13 +8003,14 @@ export default {
       obec: "  Olomučany  ",
       jmeno: " Mácha, Karel Hynek  ",
       nazev: " Máchův pomník u Olomučan  ",
-      kdyVznikl: " 1936, k uctění památky 100. výročí úmrtí básníka ",
+      kdyVznikl:
+        " 1936, k uctění památky básníka při příležitosti 100. výročí úmrtí. ",
       popisCesty:
         " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
       popis:
-        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s vyňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
+        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s výňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
       napis:
-        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé vyňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
+        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé výňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
       odkazy: [
         {
           nazev: "Wikipedie - Mácha ",
@@ -8144,46 +8146,153 @@ export default {
       kodMapa:
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/nacatavene" width="400" height="280" frameborder="0"></iframe>  ',
       odkazMapa: "https://frame.mapy.cz/s/nacatavene",
+      galerie: [],
     },
-
-    // {
-    //   id:  1000,
-    //   datum: 'leden 2001',
-    //   pridano: '01/01/2021',
-    //   kategorie: 'cesty',
-    //   podkategorie: 1,
-    //   nazev: 'Název',
-    //   fotkaUvod: {fotka:'hrobheinricha.jpg'},
-
-    //   text: [
-    //   {
-    //   textOdstavce: ' "Drva hlaďunký, bílunký a takovcí kruci lonti mně je u nosa seberou...". Touto přímou řečí revírníka Bartoše uvozuje Rudolf Těsnohlídek svůj román Liška Bystrouška. Jeho zvířecí hrdinka má několik duchovních otců, kteří jí pomohli na svět. Malíř, spisovatel, hudební skladatel. Také krajiny, které obývala, byly tři a dosti od sebe vzdálené.',
-    //   },
-    //   {foto: 'hrobjanacka.jpg',
-    //   popisek: 'Hrob Janáčka'},
-    //   {foto: 'janacek.jpg',
-    //   popisek: 'Hrob Janáčka'},
-    //   {
-    //   textOdstavce: ' "Drva hlaďunký, bílunký a takovcí kruci lonti mně je u nosa seberou...". Touto přímou řečí revírníka Bartoše uvozuje Rudolf Těsnohlídek svůj román Liška Bystrouška. Jeho zvířecí hrdinka má několik duchovních otců, kteří jí pomohli na svět. Malíř, spisovatel, hudební skladatel. Také krajiny, které obývala, byly tři a dosti od sebe vzdálené.',
-    //   },
-    // {
-    // textOdstavce: '    ',
-    // },
-    // {
-    // textOdstavce: '    ',
-    // },
-
-    // {foto: '   ',
-    // popisek: '   '},
-    // {foto: '   ',
-    // popisek: '   '},
-    // {foto: '   ',
-    // popisek: '   '},
-    // {foto: '   ',
-    // popisek: '   '},
-
-    // ],
-
-    //   }
+    {
+      id: 191,
+      kategorie: "pomnicky",
+      pridano: " 29/03/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Mokrá  ",
+      jmeno: " Pacher, Arnošt  ",
+      nazev: " Pacherův kříž ",
+      kdyVznikl:
+        " V roce 1935 dal kříž vybudovat správce podolského velkostatku Pacher jako díkůvzdání za úspěšnou životní cestu. Kříž byl vysvěcen 5. října 1935.  ",
+      popisCesty:
+        " 600 metrů SZ od Mokerské myslivny na skalní hraně plošiny nad údolím Říčky. Skála se jmenuje U kříže. Vede tu pěšina, po které kdysi vedla červená značka, než ji přeložili o 200 metrů k V. Hranice přírodní rezervace Údolí Říčky. Krásné místo, v době vybudování kříže čněla skála nad lesem a poskytovala dokonalý výhled.  ",
+      popis:
+        "  Dřevěný  kříž je vysoký 4 metry a ramena jsou zdobena drobnou řezbou.  ",
+      napis:
+        " Bez nápisu. Opodál stojí od roku 2006 naučná cedule s historií kříže a rodiny Pacherů, kterou zřídila obec Mokrá. Je častým cílem vandala a musí být obnovována.  ",
+      odkazy: [
+        {
+          nazev: " matespospa ",
+          adresa:
+            " https://matespospa.webnode.cz/mokra-horakov-a-okoli/pacheruv-kriz/ ",
+        },
+        {
+          nazev: " cedule ",
+          adresa: " http://mokra-horakov.cz/pacheruv-kriz/g-1112 ",
+        },
+      ],
+      pozn:
+        " <strong> Arnošt Pacher</strong> (1862 - 1945) byl lesník, který se z mladého adjunkta v Mokerské myslivně vypracoval na správce pozořického polesí  a ředitele velkostatku Podolí. Tuto funkci vykonával 37 let, do svých 80 let. V roce 1935 nechal zřídit dřevěný kříž na vyhlídce Nad skalama, jako poděkování za plodný život a za návrat syna z první světové války. Na konci druhé světové války ho ale čekala těžká doba. Byl Němec, manželka a dcera byly Češky.  Rodina se z vily v Podolí před frontou přesunula do Mokerské myslivny a pak za dramatických okolností až do Brna. 30. května 1945 byl zařazen do “divokého” odsunu a došel do Pohořelic. Odtud ho nemocného rodina vyreklamovala zpět do Brna, kde na následky přestálého utrpení umírá 16. června 1945. Pochován je na hřbitově v Podolí.<br>Šedesát let starý vetchý kříž na jaře 1995 shořel, buď od svíčky, nebo vandalstvím. Ale už na podzim téhož roku byl postaven a vysvěcen nový, podobný, na stejném místě.   ",
+      naposledObnoveno: " 29.3.2021 ",
+      souradnice: " 49.2350761N, 16.7369897E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kamahogaje" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/kamahogaje",
+      galerie: [
+        { fotka: "pacher1.jpg", popisek: " (březen 2009) " },
+        { fotka: "pacher2.jpg", popisek: " (listopad 2019) " },
+      ],
+      proMe: "  IV/124 XI/329  24-413-25  Bo---IMG 19---111  ",
+    },
+    {
+      id: 192,
+      kategorie: "pomnicky",
+      pridano: " 30/03/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Sivice  ",
+      jmeno: " Singularisté - Sivice  ",
+      nazev: " Boží muka Singularistů ze Sivic  ",
+      kdyVznikl: " 1913 ",
+      popisCesty:
+        " Leží 2,5 kilometru SSZ od kaple v Sivicích,na plochém lesním hřbetu, na křižovatce lesních cest. Sto metrů odtud vede silnice z Mokré do Hostěnic.  ",
+      popis:
+        "  Čtyřboká pilířová boží muka se čtyřmi výklenky je vysoká asi 3 metry a zakončená nahoře kovovým křížkem. Výklenky zdobí votivní obrázky. Ze Z strany je kamenná deska s textem a malá plechová tabulka.   ",
+      napis:
+        "  Na kamenné desce je nápis skoro nečitelný (stav 2020). Opsáno s chybami: ZNOVU  VYSTAVĚLY // SINKŮLARISTÉ // V  SIVICÍCH // L. P. 1913 // ŘED. A. KUBÍNEK // POK. M. HLADŮVKA  // W. BOČEK  ZEDNÍK //. Na plechové tabulce:  ZNOVU  VYSTAVĚNO  L. P.  1913 // OPRAVENO  L. P. 1993 //   ",
+      odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
+      pozn:
+        " Singularis - jednotlivý, ojedinělý (z latiny).Singularisté bylo sdružení sedláků a domkářů v jedné vesnici, kteří se společně starali o zděděný les. Za Rakouska se les nedělil, vlastnictví bylo v podílech. Podle lesního zákona z roku 1852 začaly ve 2. polovině 19. století vznikat spolky vlastníků lesa. Vydržely až do 50. let století dvacátého. Některé byly obnoveny v 90. letech.<br>Sivickým osadníkům darovala les převoryše kláštera sv. Anny v Brně už v roce 1617. Dala ho 37 usedlým rovným dílem. Listina ve starobylé češtině se zachovala. ",
+      naposledObnoveno: " 30.3.2021 ",
+      souradnice: " 49.2252911N, 16.7733531E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pakokolabe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/pakokolabe",
+      galerie: [
+        { fotka: " singulariste1.jpg", popisek: "  (únor 2020) " },
+        { fotka: " singulariste2.jpg", popisek: "  (únor 2020) " },
+      ],
+      proMe: "  IV/126  24-413-110  20---025  ",
+    },
+    {
+      id: 193,
+      kategorie: "pomnicky",
+      pridano: " 30/03/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Vranov  ",
+      jmeno: " Kolohnát  ",
+      nazev: " Kříž Kolohnát nad Adamovem ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " Nalézá se 1100 metrů V od myslivny na Vranově. Nejjednodušší cesta je začít od vranovské myslivny po lesní silničce, po 800 metrech přelézt svodidla a vydat se k V prudce dolů, po nevýrazném žebru, které se změní v klesající hřbet mezi Čertovým žlebem na S a údolím Pytláckého potoka na J. Ještě než klesneme ke kolejím, uvidíme na průseku kříž. Je za hranicí přírodní rezervace Jelení skok, která blízko něj prochází. Cesta není orientačně jednoduchá a místo je velmi zvláštní.  ",
+      popis:
+        "  V podstavci z volně ložených kamenů je zasazen mohutný železný kříž s litinovým Kristem. Ponurost místa zvyšoval rezavý kříž. Od roku 2013 je kříž zbaven rzi a natřen.  ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa: " https://www.adamovaokoli.cz/stavby/kriz_kolohnat.html ",
+        },
+      ],
+      pozn:
+        "  Název kříže není odvozen jen od jeho velikosti. Stojí na místě, kde v roce 1807 nechali Lichtenštejnové vybudovat dřevěnou kolonádu s vyhlídkou do údolí Svitavy. Německý název Kolonnade se přenesl na později zbudovaný kříž. Kolonáda zanikla s přerušením cesty z Adamova kolejemi ve druhé polovině 19. století.<br> Spekulace, že tu bývala šibenice a popravovalo se, čemuž napovídal místní název lesa Katov, je třeba odsunout do říše bajek. Adamov neměl nikdy hrdelní právo.  ",
+      naposledObnoveno: " 30.3.2021 ",
+      souradnice: " 49.3090442N, 16.6375536E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/nevevojago" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/nevevojago",
+      galerie: [
+        { fotka: "kolohnat1.jpg", popisek: " (listopad 2009) " },
+        { fotka: "kolohnat3.jpg", popisek: " (listopad 2009) " },
+        { fotka: "kolohnat4.jpg", popisek: " (duben 2016) " },
+      ],
+      proMe: "  VI/184 24-322-87   Bo---IMG  16---04.  ",
+    },
+    {
+      id: 194,
+      kategorie: "pomnicky",
+      pridano: " 30/03/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Židlochovice  ",
+      jmeno: " Stern - kříž  ",
+      nazev: " Sternův kříž na Výhonu ",
+      kdyVznikl:
+        " 1764. Původně stál s dalšími barokními sochami téhož autora na mostě přes Svratku.",
+      popisCesty:
+        " Kříž najdeme na Z svahu Výhonu, 1,0 kilometru V od radnice v Židlochovicích. Je v zalesněné části kopce zvané Velký hájek. Blízko je upravená studánka Ve Velkém hájku a rozcestí s modrou značkou.  ",
+      popis:
+        "  Mohutný kamenný kříž s kamenným Kristem je vysoký asi 5 metrů. Krásná barokní práce z místního vápenatého pískovce. Kříž byl dlouho ve špatném stavu a nedávno (2016?) ho restaurovali.   ",
+      napis: " 1764  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/vyhon-sternuv-kriz--1/detail ",
+        },
+      ],
+      pozn:
+        "  Název kříže je dán jménem tvůrce. Sochař z doby baroka <strong>Johann Stern</strong> (+1773), bratr známějšího malíře Karla Sterna, pocházel ze Štýrského Hradce a usadil se v Židlochovicích. Tam lze vidět i jeho další sochy u vchodu do kostela a u vjezdu do nádvoří zámku.  ",
+      naposledObnoveno: " 30.3.2021 ",
+      souradnice: " 49.0366447N, 16.6330433E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fomadavena" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fomadavena",
+      galerie: [
+        { fotka: "stern1.jpg", popisek: " (únor 2021) " },
+        { fotka: "stern2.jpg", popisek: " (únor 2021) " },
+      ],
+      proMe: "  XX/1120  24-344-23  21---023  ",
+    },
   ],
 };

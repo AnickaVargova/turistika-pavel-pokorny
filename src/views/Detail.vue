@@ -328,6 +328,10 @@
     width: 90%;
   }
 
+  .figCesty {
+    margin: auto;
+  }
+
   .figCesty img {
     width: 100% !important;
     object-fit: cover;
@@ -335,12 +339,8 @@
   }
 
   .naVysku {
-    width: 70%;
+    width: 60%;
     margin: 10px auto;
-  }
-
-  .naVysku img {
-    width: unset !important;
   }
 
   #fotoText img {
@@ -351,7 +351,7 @@
 
   figcaption {
     font-style: italic;
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     line-height: 1.2;
