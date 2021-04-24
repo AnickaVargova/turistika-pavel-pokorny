@@ -260,9 +260,11 @@
 
       if (this.kategoriePomnicky) {
         for (let clanek of this.clanky) {
-          for (let podkategorie of this.kategoriePomnicky) {
-            if (clanek.podkategorie === podkategorie.id) {
-              clanek.druh = podkategorie.nazev;
+          if (!clanek.dveId) {
+            for (let podkategorie of this.kategoriePomnicky) {
+              if (clanek.podkategorie === podkategorie.id) {
+                clanek.druh = podkategorie.nazev;
+              }
             }
           }
         }
