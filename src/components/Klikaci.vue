@@ -44,7 +44,7 @@
     },
     created() {
       this.odkazy = this.clanek.vnitrniOdkazy.filter(
-        (odkaz) => odkaz.odkazKde === this.kdeJsem
+        (odkaz) => odkaz.odkazKde.trim() === this.kdeJsem
       );
     },
   };

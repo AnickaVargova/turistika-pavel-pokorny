@@ -8487,6 +8487,19 @@ export default {
         {
           textOdstavce:
             "  Z Výhonu jsme sestupovali po nové modré turistické značce kolem studánky Ve Velkém hájku, minuli Sternův kříž /skok na  ID 194/ a rozcestí Kyndlířky a klesli mezi vinicemi do Nosislavi. V poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 194,
+              odkazKategorie: "pomnicky ",
+              odkazPodkategorie: 15,
+              odkazKde: "odstavec",
+              predOdkazem:
+                " Z Výhonu jsme sestupovali po nové modré turistické značce kolem studánky Ve Velkém hájku, minuli  ",
+              textOdkazu: "Sternův kříž",
+              zaOdkazem:
+                ". V poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.",
+            },
+          ],
         },
         { foto: " vyhon17.jpg " },
         { foto: " vyhon18.jpg  ", popisek: "Pálava z Výhonu " },
@@ -8499,6 +8512,7 @@ export default {
       kodMapa:
         ' <iframe style="border:none" src="https://frame.mapy.cz/s/hujukunoda" width="400" height="280" frameborder="0"></iframe>  ',
       odkazMapa: "https://frame.mapy.cz/s/hujukunoda",
+      galerie: [],
     },
   ],
 };

@@ -71,15 +71,15 @@
             if (clanek.text) {
               for (let odstavec of clanek.text) {
                 if (odstavec.foto) {
-                  clanek.galerie.push({
+                  clanek?.galerie.push({
                     fotka: odstavec.foto.trim(),
                     popisek: odstavec.popisek,
                   });
                 }
               }
             }
-            if (clanek.galerie) {
-              for (let obrazek of clanek.galerie) {
+            if (clanek?.galerie) {
+              for (let obrazek of clanek?.galerie) {
                 if (obrazek.fotka.trim() == this.$route.params.id) {
                   this.vybranaFotka = obrazek;
                   this.vybranyIndex = clanek.id;
