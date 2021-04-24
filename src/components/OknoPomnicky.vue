@@ -112,9 +112,11 @@
         </tr>
 
         <tr>
-          <td v-if="clanek.kategorie === 'pomnicky'">Popis pomníčku:</td>
+          <td v-if="clanek.kategorie === 'pomnicky'">
+            Popis pomníčku:
+          </td>
           <td v-if="clanek.kategorie === 'smircikrize'">Popis kříže:</td>
-          <td>{{ clanek.popis }}</td>
+          <td v-html="clanek.popis">{{ clanek.popis }}</td>
         </tr>
         <tr>
           <td>Nápis:</td>

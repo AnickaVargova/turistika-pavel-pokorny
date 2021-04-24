@@ -330,6 +330,7 @@
 
   .figCesty {
     margin: auto;
+    margin-bottom: 10px;
   }
 
   .figCesty img {

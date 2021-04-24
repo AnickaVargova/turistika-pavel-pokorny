@@ -8294,5 +8294,211 @@ export default {
       ],
       proMe: "  XX/1120  24-344-23  21---023  ",
     },
+    {
+      id: 195,
+      kategorie: "pomnicky",
+      pridano: " 20/04/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - město ",
+      obec: "  Brno - Kníničky  ",
+      jmeno: " Tři kříže - Chudčice  ",
+      nazev: " U tří křížů ",
+      kdyVznikl:
+        " Kamenné kříže pocházejí z roku 1902. Historie tohoto místa je ale daleko starší. Legendy sahají až k době cyrilometodějské. První spolehlivé zprávy jsou z farní kroniky Veverské Bítýšky z konce 17. století, že tu stávala poutní kaple Svatého Kříže. V roce 1764 si ji přijela prohlédnout diecézní komise a konstatovala, že je to kaple prastará. Zachoval se i stručný popis interiéru. Na oltáři byly tři votivní nápisy, nejstarší z roku 1451. Za Josefínských reforem byla stavba zrušena a 1784 zbourána. Místo ní se tu objevily tři dřevěné kříže a místo dostalo nové jméno. ",
+      popisCesty:
+        "Kříže leží 1200 metrů JV od středu Chudčic, na hraně rozsáhlé plošiny. Z Chudčic sem vede křížová cesta se zděnými zastaveními, pochází z roku 1856. Prochází tu modrá a zelená značka. Známé místo, nachází se v přístupné oboře.  ",
+      popis:
+        " Na urovnané plošině průměru asi dvaceti metrů stojí tři kamenné kříže z pískovce, na všech třech je kovový Kristus. Opravily je Lesy české republiky v roce 2020. Do konce 19. století stálo mezi prostředním a S křížem torzo prastarého dubu - dvojáku s obvodem kmene 6 metrů, možná pamatující založení svatyně.   ",
+      napis:
+        "// … // Tyto sv. kříže věnovali // Jan a Františka // PERKOVI // Rodáci z Chudčic // 1902 //  ",
+      odkazy: [
+        {
+          nazev: " Eichler ",
+          adresa:
+            " https://www.obecveverskabityska.cz/prameny/html/d025/d025.html ",
+        },
+        {
+          nazev:
+            "Odehnal, František: Poutní místa Moravy a Slezska, 1995, s. 47-48 ",
+        },
+      ],
+      pozn:
+        "  Tři kříže jsou i poutním místem. Pouť se tu koná první neděli v červnu. ",
+      naposledObnoveno: " 20.4.2021 ",
+      souradnice: " 49.2757250N, 16.4651108E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fezuponosa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fezuponosa",
+      galerie: [
+        { fotka: " trikrize1.jpg", popisek: " (prosinec 2017) " },
+        { fotka: " trikrize2.jpg", popisek: " (listopad 2020) " },
+        { fotka: " trikrize3.jpg", popisek: " (listopad 2020) " },
+      ],
+      proMe: "  IX/268  24-323-48  17---12. 20---111  ",
+    },
+    {
+      id: 196,
+      kategorie: "pomnicky",
+      pridano: " 20/04/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Smolín  ",
+      jmeno: " Haschka, Jakob  ",
+      nazev: " Kříž Jakoba Haschky ",
+      kdyVznikl: " po 1806 ",
+      popisCesty:
+        " 1200 metrů SV od kaple ve Smolíně, u staré státní silnice do Pohořelic. Přístup po frekventované silnici je nebezpečný.  ",
+      popis:
+        "  5 metrů vysoký pozdně barokní kamenný kříž s naivně tvarovaným kamenným Kristem, připomínajícím skřítka s velkou hlavou. Je dílem lidového umělce a kameníka  <strong>Josefa Sackla </strong> (1770-1809 TBC) z Moravského Krumlova. V devadesátých letech byl kříž poškozený a zašlý, v roce 2020 je v perfektním stavu.   ",
+      napis:
+        " Ve staré němčině : JAKOB.HASCHKA. // GEBOHREN.DEN.21. // DECEMBER.1787. // GESTORBEN.DEN.13. // MÄRTZ.1806. // ERRICHTTETE.DIES. // H.[eilige] KREUZ.GLAUB.[igem] // WANDERER. UND. // BETHE.DAMIT.WIR. // DURCH. DEN. TOD. // IESU. ZUM. EWIG. // SELIGEN. LEBEN. // AUFERSTEHEN. // AMEN //<br> Za český překlad děkuji Tomáši Ž. : J. H. narozen 21. prosince 1787, zemřel 13. března 1806, zřídil tento svatý kříž věřícím poutníkům a prosí tímto, abychom my, skrze smrt Ježíše, došli vzkříšením k věčnému blaženému životu. Amen. ",
+      odkazy: [
+        {
+          nazev: " Grunová SOČ ",
+          adresa:
+            " https://socv2.nidv.cz/archiv39/getWork/hash/95f36f41-ed06-11e6-9404-005056bd6e49 ",
+        },
+        {
+          nazev:
+            " Grunová, Štěpánka: Tvůrci a fundátoři postbarokních kamenných křížů Brněnska a Znojemska. Gymnasium Mor.Krumlov ,2017, SOČ, str. 53 ",
+        },
+      ],
+      pozn:
+        "  <strong>Jakob Haschka </strong> byl sirotek, jediné dítě po pololáníkovi z Přibic, který žil ve Smolíně. Zemřel v devatenácti letech na břišní tyfus.<br> V 90. letech 20. století se vyskytl názor, že u kříže byli pochováni Němci zahynulí při “pochodu smrti” z Brna do Pohořelic v květnu 1945. Šlo o legendu. Žádné hroby z této doby tady nebyly nalezeny.  ",
+      naposledObnoveno: " 20.4.2021 ",
+      souradnice: " 49.0138317N, 16.5536406E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dubedavaga" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/dubedavaga",
+      galerie: [
+        { fotka: "haschka1.jpg", popisek: " (září 2020) " },
+        { fotka: "haschka2.jpg", popisek: " (září 2020) " },
+        { fotka: "haschka3.jpg", popisek: " (září 2020) " },
+      ],
+      proMe: " IX/289  34-122-2  20---093   ",
+    },
+    {
+      id: 197,
+      kategorie: "pomnicky",
+      pridano: " 21/04/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - město ",
+      obec: "  Brno - Líšeň  ",
+      jmeno: "  Kostelíček - Líšeň  ",
+      nazev: " Kostelíček v Líšni ",
+      kdyVznikl:
+        " 1914 na základech starší stavby. Historie sahá do roku 1630, kdy byla postavená dřevěná kaple Panny Marie Pomocnice, v roce 1634 ji postavili z kamene a z cihel a přijel ji vysvětit kardinál Dietrichstein. Kaple brzy přestala zvládat nápor poutníků a kolem byl vybudován areál ambitů a dalších tří kapliček, žil tu a o vše pečoval poustevník. Za josefínských reforem byla kaple zrušena a zbourána. Vzývaný oltářní obraz Bohorodičky byl přemístěn do kostela v Líšni. Na prázdném místě byl 1805 postaven kříž, který tu stojí dodnes. ",
+      popisCesty:
+        " Na mírném návrší SV od Líšně, nad Mariánským údolím. Dojedete-li na konečnou autobusu Líšeň hřbitov a vydáte se k J, nemůžete kostelík minout. Nápadné místo s dalekým kruhovým rozhledem.   ",
+      popis:
+        " Obdélníková jednoduchá stavba 4,5 x 10 metrů je zakryta sedlovou střechou s vížkou.  ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: "v Líšni ",
+          adresa: "https://www.vlisni.cz/lisensky-kostelicek  ",
+        },
+        {
+          nazev: " turistika ",
+          adresa: " https://www.turistika.cz/mista/lisensky-kostelicek/detail ",
+        },
+        {
+          nazev:
+            " Odehnal,František: Poutní místa Moravy a Slezska, 1995, s. 19-20 ",
+        },
+      ],
+      pozn:
+        " Poutě tu bývají celý červenec, každou neděli po 2. 7.<br>V roce 1867 tu dal hrabě Belcredi vysázet rozsáhlý třešňový sad, stálo tu 5000 stromů. Proto se začalo kostelíčku říkat Panna Maria v třešních. Trosky sadu tu dožívaly ještě na konci 20. století. V roce 2004 byly znovu vysázeny čtyři řady třešní.<br>Pověst zachycená národopisci v Líšni před sto lety praví, že zbožná majitelka panství paní Eliška Bergrová dala postavit kapli, když se zde její synek uzdravil ze slepoty a vyprávěl, že uviděl Pannu Marii s Ježíškem na ruce ozářenou zvláštním světlem.  ",
+      naposledObnoveno: " 21.4.2021 ",
+      souradnice: " 49.2097217N, 16.7055003E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/redodogota" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/redodogota",
+      galerie: [
+        { fotka: "lisen-kostelik1.jpg", popisek: " (únor 2020) " },
+        { fotka: "lisen-kostelik2.jpg", popisek: " (únor 2020) " },
+      ],
+      proMe: "  XII/367  24-413-130  20---023  ",
+    },
+    {
+      id: 162,
+      datum: " 13. 2. 2021  ",
+      pridano: "21/04/2021",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Oledovatělý  Výhon nad Židlochovicemi ",
+      fotkaUvod: { fotka: " vyhon11.jpg " },
+      text: [
+        {
+          textOdstavce:
+            " <i>Židlochovice - rozc.Skalky nad Bučinou - rozhledna Výhon - Sternův kříž - Kyndlířky - Nosislav - lužními lesy do Židlochovic. 18 km.</i>  ",
+        },
+        {
+          textOdstavce:
+            "V neděli 7. února 2021 nastala na Moravě zvláštní meteorologická situace. Po předchozí oblevě přišlo silné ochlazení a povrch země se silně vychladil. Na něj se začal nasouvat teplejší vlhký vzduch ze Středozemí,  z něj začalo pršet a déšť při podnulových teplotách mrznul. Skoro na celém území republiky začala silná ledovka. V pondělí se chodníky změnily v kluziště, kolabovala doprava, někde se trhaly dráty elektrického vedení a lámaly stromy. Zajímavé bylo, že ledovka sílila směrem k jihu a na jižní Moravě byla nejsilnější. Na vrcholu Výhonu byla na svislých plochách vystavených větru tlustá až 3 centimetry. Ledové počasí v příštích dnech tuto situaci zakonzervovalo.Možnost si prohlédnout následky tohoto zvláštního jevu, opakujícího se jednou za mnoho let, jsme využili hned příští sobotu a vypravili se v malé skupince přátel na Židlochovicko, konkrétně na vrch Výhon s rozhlednou Akátová věž. ",
+        },
+        { foto: " vyhon1.jpg  ", naVysku: true },
+        { foto: " vyhon2.jpg  " },
+        { foto: " vyhon3.jpg  ", naVysku: true },
+
+        {
+          foto: " vyhon4.jpg  ",
+          popisek: " Výstup na Výhon (únor 2021)",
+        },
+        { foto: " vyhon5.jpg  " },
+        { foto: " vyhon6.jpg  ", naVysku: true },
+
+        {
+          foto: " vyhon7.jpg ",
+          popisek: " Na okraji přírodní památky Nové hory ",
+        },
+        { foto: " vyhon8.jpg  " },
+        { foto: " vyhon9.jpg  ", naVysku: true },
+        {
+          textOdstavce:
+            "  Skoro celou cestu nás provázela trasa naučné stezky zvané Krajina Výhonu mezi Židlochovicemi, Blučinou a Výhonem. Na jedenácti tabulích stručně pojednává vlastivědná témata zdejšího okolí. Jenže na čtení tabulí bylo při minus deseti stupni dost zima. ",
+        },
+        {
+          foto: " vyhon10.jpg ",
+          popisek: "Na kopci se objevuje Akátová věž ",
+          naVysku: true,
+        },
+        {
+          foto: " vyhon11.jpg ",
+          popisek: " Kolem rozhledny na asfaltu by se dalo bruslit ",
+        },
+        { foto: " vyhon12.jpg  ", naVysku: true },
+        {
+          textOdstavce:
+            "Rozhledna Akátová věž poskytuje výhled od roku 2009. Ze železa a  akátového dřeva na obklad  ji vyprojektoval ing.arch. Pavel Jura. Na plošinu ve výši 14,5 metru vede 76 kovových schodů. Nahoře jsou umístěny panely s vyobrazením toho, co je nebo mělo by být vidět. Výhledy na Brno i na Pálavu. Nezajímavý vrchol dostal dominantu a důvod k návštěvě. ",
+        },
+        { foto: " vyhon13.jpg  ", naVysku: true },
+        { foto: " vyhon14.jpg  " },
+        { foto: " vyhon15.jpg  ", naVysku: true },
+
+        {
+          textOdstavce:
+            " Na jihovýchodním vrcholu Výhonu, který leží 700 metrů od rozhledny a je snad vyšší o půl metru (kóta 355), postavili v roce 2018 kovový kříž. ",
+        },
+        { foto: " vyhon16.jpg  " },
+        {
+          textOdstavce:
+            "  Z Výhonu jsme sestupovali po nové modré turistické značce kolem studánky Ve Velkém hájku, minuli Sternův kříž /skok na  ID 194/ a rozcestí Kyndlířky a klesli mezi vinicemi do Nosislavi. V poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.  ",
+        },
+        { foto: " vyhon17.jpg " },
+        { foto: " vyhon18.jpg  ", popisek: "Pálava z Výhonu " },
+        { foto: " vyhon19.jpg  ", popisek: "Led na vinici (únor 2021) " },
+        { foto: " vyhon20.jpg  " },
+        { foto: " vyhon21.jpg  " },
+      ],
+      naposledObnoveno: " 21.4.2021 ",
+      souradnice: " 49.0389664N, 16.6421144E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/hujukunoda" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/hujukunoda",
+    },
   ],
 };
