@@ -8524,5 +8524,95 @@ export default {
       odkazMapa: "https://frame.mapy.cz/s/hujukunoda",
       galerie: [],
     },
+    {
+      id: 198,
+      kategorie: "pomnicky",
+      pridano: " 26/04/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Blansko ",
+      obec: "  Křtiny  ",
+      jmeno: " Poklona - Křtiny  ",
+      nazev: " Boží muka Poklona u Křtin ",
+      kdyVznikl:
+        "1999 podle návrhu Petra Všetečky, Aleny Všetečkové a Milivoje Husáka. Vysvěcena byla 16. dubna 2000. ",
+      popisCesty:
+        " Stojí 400 metrů JZ od kostela ve Křtinách u silnice k Výpustku. Vede tu červená a modrá značka a začíná Mariánská Radostná cesta. Místo, kde původně byla studánka k občerstvení přicházejících poutníků. Dnes studánku nahradila pumpa, ale voda není pitná. Na protější straně cesty stávala do 50. let kaplička, odstranili ji při rozšiřování silnice.   ",
+      popis:
+        " Zděná pilířová boží muka je vysoká tři metry a je zakončena sedlovou stříškou. V horní části je kruhový průzor a v něm se při vhodném úhlu pohledu objeví plastika Madony ze škrdlovického skla podle návrhu Milivoje Husáka. V dolní části je kovová deska s textem.  ",
+      napis:
+        " POŽEHNÁNA  V  DEN // 50. VÝROČÍ  KNĚŽSKÉHO  SVĚCENÍ // DĚKANA  P. TOMÁŠE  PRNKY // 16. 4. 2000 //  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/studanka-s-poklonou-ve-krtinach/detail ",
+        },
+        {
+          nazev: "transat ",
+          adresa:
+            "https://www.transat.cz/studanka_s_marianskou_poklonou_ve_krtinach.php  ",
+        },
+        {
+          nazev:
+            "   Jiří Truhlář : Památníky adamovských lesů, 2003, str. 151 ",
+        },
+        { nazev: "  " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 26.4.2021 ",
+      souradnice: " 49.2942531N, 16.7366206E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/curuhotamu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/curuhotamu ",
+      galerie: [
+        { fotka: " bmkrtiny1.jpg", popisek: " (únor 2016) " },
+        { fotka: " bmkrtiny2.jpg", popisek: " (průhled sklem, únor 2016) " },
+        { fotka: " bmkrtiny3.jpg", popisek: " (únor 2016) " },
+      ],
+      proMe: " 1999/389 XIX/890  24-411-56  16---022  ",
+    },
+    {
+      id: 199,
+      kategorie: "pomnicky",
+      pridano: " 27/04/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Kuřim  ",
+      jmeno: " Kaple vodní Kuřim  ",
+      nazev: " Vodní kaple sv. Jana Nepomuckého v Kuřimi ",
+      kdyVznikl:
+        " Kapli postavili zřejmě na začátku 19. století, všude uváděný letopočet vzniku kapličky 1722 není věrohodný. ",
+      popisCesty:
+        " Kaple stojí na J okraji Kuřimi, pod S svahem Kuřimské hory na kraji lesa. Kolem vede žlutá značka.  ",
+      popis:
+        "  Půlkruhová stavba se sedlovou střechou zakončenou křížkem. V horní části je za mříží s monogramem světce umístěna asi 1,5 metru vysoká socha Jana Nepomuckého, v dolní části vytéká voda ze dvou pramenů. Voda není vždy pitná, obecní úřad nechává dělat rozbory a vyvěšuje je u studánky (rok 2021)  ",
+      napis:
+        " Na podstavci sochy v kartuši : Tento svatej Jan // jest ochránce a radost // statku Kauřimského //. Chronogram v textu 1722 je datem vzniku sochy, která původně asi stála jinde. V letech 1685 - 1728 byl zámeckým hejtmanem v Kuřimi jmenován Jan František Kyssanek a ten patrně sochu pořídil.  ",
+      odkazy: [
+        {
+          nazev: "Kuřim-památky ",
+          adresa:
+            "https://www.kurim.cz/cs/navstevnik/pamatky/vodni-kaple-sv-jana-nepomuckeho.html ",
+        },
+        {
+          nazev: " estudánky ",
+          adresa: " https://www.estudanky.eu/875-studanka-sv-jana ",
+        },
+      ],
+      pozn:
+        "  V roce 2013 byla kaplička zrekonstruována, socha světce restaurována a okolí upraveno.  ",
+      naposledObnoveno: " 27.4.2021 ",
+      souradnice: " 49.2955736N, 16.5386403E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fejuhupuve" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fejuhupuve ",
+      galerie: [
+        { fotka: " vodnikurim1.jpg", popisek: "  (únor 2021) " },
+        { fotka: " vodnikurim2.jpg", popisek: "  (únor 2021) " },
+      ],
+      proMe: "  2000/407 XX/1106  24-332-83  21---022  ",
+    },
   ],
 };

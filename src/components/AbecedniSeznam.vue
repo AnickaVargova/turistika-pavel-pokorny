@@ -70,7 +70,7 @@
     grid-row-start: 3;
     margin: 30px;
     flex-wrap: wrap;
-    max-height: 1000px;
+    max-height: 1200px;
     max-width: 75vw;
   }
 
@@ -91,7 +91,7 @@
 
   @media (max-width: 1200px) {
     #abecedniSeznam {
-      max-height: 1500px;
+      max-height: 1700px;
     }
 
     .kontejnerJmeno {
