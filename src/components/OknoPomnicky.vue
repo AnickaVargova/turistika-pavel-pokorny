@@ -198,6 +198,7 @@
           <td>
             <button
               class="pomnicekKategorie"
+              v-if="clanek.odkazMapa"
               v-bind:style="{
                 padding: '2%',
                 height: '40px',

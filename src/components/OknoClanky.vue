@@ -5,71 +5,24 @@
       v-for="(clanek, index) in mojeClanky"
       v-bind:key="index"
     >
-      <router-link
-        v-if="stranka === 'vypraveni'"
-        v-bind:to="`/vypraveni/${clanek.podkategorie}/${clanek.id}`"
-      >
-        <div class="clanek">
-          <h2>{{ clanek.nazev }}</h2>
-          <h3>{{ clanek.datum }}</h3>
-          <div class="clanekFoto">
-            <img
-              v-bind:src="
-                require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
-              "
-              v-bind:alt="clanek.jmeno"
-            />
-          </div>
-        </div>
-      </router-link>
-       <router-link
-        v-else-if="stranka === 'cesty'"
-        v-bind:to="`/cesty/${clanek.podkategorie}/${clanek.id}`"
-      >
-        <div class="clanek">
-          <h2>{{ clanek.nazev }}</h2>
-          <h3>{{ clanek.datum }}</h3>
-          <div class="clanekFoto">
-            <img
-              v-bind:src="
-                require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
-              "
-              v-bind:alt="clanek.jmeno"
-            />
-          </div>
-        </div>
-      </router-link>
-      <router-link
-        v-else-if="stranka === 'novepridane'"
-        v-bind:to="`/novepridane/${clanek.podkategorie}/${clanek.id}`"
-      >
-        <div class="clanek">
-          <h2>{{ clanek.nazev }}</h2>
-          <h3>{{ clanek.datum }}</h3>
-          <div class="clanekFoto">
-            <img
-              v-bind:src="
-                require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
-              "
-              v-bind:alt="clanek.jmeno"
-            />
-          </div>
-        </div>
-      </router-link>
+      <Zalozka v-bind:clanek="clanek" v-bind:stranka="stranka" />
     </div>
   </div>
 </template>
 
 <script>
+  import Zalozka from "./Zalozka";
   export default {
     props: ["clanky", "stranka"],
+    components: {
+      Zalozka: Zalozka,
+    },
     data() {
       return {
         mojeClanky: this.clanky,
       };
     },
     created() {
-      
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>

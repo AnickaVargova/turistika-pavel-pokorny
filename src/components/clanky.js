@@ -8614,5 +8614,187 @@ export default {
       ],
       proMe: "  2000/407 XX/1106  24-332-83  21---022  ",
     },
+    {
+      id: 201,
+      kategorie: "pomnicky",
+      pridano: " 02/05/2021 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Blansko ",
+      obec: "  Doubravice nad Svitavou  ",
+      jmeno: " Funibrouk  ",
+      nazev: "Camp Funibrouk na Nešůrce  ",
+      kdyVznikl:
+        " V roce 1972 si tu osada Aljaška z Unie trampů a samotářů postavila dřevěný srub. Ten po šesti letech někomu tak překážel, že ho v horkém létě 1978 zapálil. Zbylo jen stále kouzelné místo s ohořelými stromy a železná kamínka. Od roku 2004 sem jezdí S.T.S. Usada. ",
+      popisCesty:
+        " Z Doubravice nad Svitavou proti proudu potoka Nešůrky, nedaleko Kuniček.  ",
+      popis:
+        "  na rovném místě potoční terasy je ohniště, do dřeva vyřezaný nápis, přístřešek na dřevo, lebkovník, podsada na stan, zašlá tabulka s historií místa,    ",
+      napis: " 1978 funibrouk 2004  ",
+      odkazy: [
+        {
+          nazev: " ramon71 ",
+          adresa: " https://ramon71.rajce.idnes.cz/Vandrem_na_Funibrouk/ ",
+        },
+      ],
+      pozn:
+        "  V osadní knize jsme se dočetli, že camp nedávno trampové uklidili po nezvaných hostech. Aby se z něj nestalo piknikoviště pro místní mládež, odstranili lavice a jiný trampský nábytek.<br> Úmyslně tu není uvedena mapa a poloha campu. ",
+      naposledObnoveno: " 2.5.2021 ",
+      souradnice: "  ",
+      kodMapa: "    ",
+      galerie: [
+        { fotka: "funibrouk1.jpg", popisek: " (duben 2021) " },
+        { fotka: "funibrouk2.jpg", popisek: " (duben 2021) " },
+        { fotka: "funibrouk3.jpg", popisek: " (duben 2021) " },
+      ],
+      proMe: "  XX/1137  24-233-74  cesty21---04  ",
+    },
+    {
+      id: 202,
+      kategorie: "pomnicky",
+      pridano: " 03/05/2021 ",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Blansko ",
+      obec: "  Újezd u Boskovic  ",
+      jmeno: " Zemljanka - Němčice  ",
+      nazev: " Památník partyzánské zemljanky u Němčic ",
+      kdyVznikl: " 1980. Zemljanka tu byla vykopána v červnu 1943. ",
+      popisCesty:
+        " 1 kilometr S od kostela v Němčicích, SZ od kóty Perný (638 m) nad prudkým svahem. V roce 2021 tu zbyla vykácená paseka po starém smrkovém lese.  ",
+      popis:
+        "  Tři kamenné zídky zapuštěné do terénu ohraničují místo zemljanky. Na prostřední vysoké asi metr je leštěná kamenná deska s hvězdou a textem.  ",
+      napis:
+        " NA  TOMTO  MÍSTĚ  BYLA V ČERVNU 1943 VYBUDOVÁNA  ZA  POMOCI // ČSL.  OBČANŮ  DOLEŽALA  EDMUNDA, STAŇKA  EDUARDA  ST. z LUDÍKOVA // KRÁLE  ANTONÍNA z VALCHOVA a SOVĚTSKÝMI  DŮSTOJNÍKY // LISIČENKEM  ALEXANDREM,  LOGINOVEM  IVANOVEM a VOTINCEVEM  MELENTIJEM // PRVNÍ  PARTYZÁNSKÁ  ZEMLJANKA  NA  BOSKOVICKU // 9. 5. 1980 //  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }],
+      pozn:
+        "  Památník vznikl patrně kvůli návštěvě bývalých sovětských partyzánů na Boskovicku v roce 1980  ",
+      naposledObnoveno: " 3.5.2021 ",
+      souradnice: " 49.4577978N, 16.7133025E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hohomoneva" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/hohomoneva",
+      galerie: [
+        { fotka: "zemljankanemc1.jpg", popisek: " (duben 2021) " },
+        { fotka: "zemljankanemc2.jpg", popisek: " (duben 2021) " },
+      ],
+      proMe: "  XX/1138  24-231-7  cesty21---04  ",
+    },
+    {
+      id: 203,
+      kategorie: "pomnicky",
+      pridano: " 02/05/2021 ",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Prostějov ",
+      obec: "  Protivanov  ",
+      jmeno: " Partyzáni - Skály  ",
+      nazev: " Partyzánský srub a pamětní deska na Skalách ",
+      kdyVznikl:
+        "Chata byla postavena údajně 1810, určitě v první polovině 19. století. Říkalo se jí lovecká chata Hanačka, protože jednu dobu byl štít stavby pokryt hanáckými ornamenty. Deska pochází z roku 1978. ",
+      popisCesty:
+        " 3 kilometry ZSZ od kostela v Protivanově, na plochém vrcholu Skály (724 m). 150 metrů od srubu na Z prochází modrá značka. K chatě odbočuje zarostlá lesní cesta.  ",
+      popis:
+        " menší chata se sedlovou střechou je obložena dřevěnými kuláči. U vchodu je leštěná pamětní deska s delším textem. Chata působí omšele a neudržovaně (rok 2021) ",
+      napis:
+        " “SKÁLY” // 734 N. V. // ZA  DRUHÉ  SVĚTOVÉ  VÁLKY  SLOUŽILA  TATO  CHATA // JAKO  SÍDLO  ODBOJOVÉ  SKUPINY  JURAJ - ÚKRYT // SKUPINY  JERMAK A FAŠISTY  PRONÁSLEDO- // -VANÝCH  OBČANŮ Z OKOLNÍCH OBCÍ // V ROCE 1978  BYLO  TOTO  PAMÁTNÉ  MÍSTO  // OPRAVENO  ČLENY  ČSPB  BENEŠOV, JIMI // PŘEVZATO  DO  UŽÍVÁNÍ A SLOUŽÍ  JAKO // PAMÁTNÍK  ODBOJE //  ",
+      odkazy: [
+        {
+          nazev: " Kocourková-bakalářka ",
+          adresa:
+            " https://is.muni.cz/th/di4yt/bakalarska-prace-odboj-finalni-_1_.pdf ",
+        },
+      ],
+      pozn:
+        " <strong>Partyzánská skupina Jermak</strong> působila v závěru druhé světové války na Drahanské vrchovině a ve svých řadách měla většinou uprchlé sovětské zajatce. 30. 9. 1944 byl její základ vysazen letecky v Rakoveckém údolí v počtu 14 Rusů, seskok se nepodařilo utajit. Historie dalších sedmi měsíců je velmi barvitá (Nýrov, Žďárná, Šerkovice, Javoříčko), ne vše je zcela objasněno. Skupina měla celkem 280 členů, rozdělených do mnoha skupin.<br> </strong>Partyzánský oddíl Juraj</strong> založil na konci války Josef Jakeš, krycím jménem kapitán Juraj. Byl tvořen převážně Čechy. Hlavním úkolem bylo narušovat ústup Němců mezi Prostějovem a Boskovicemi. ",
+      naposledObnoveno: " 2.5.2021 ",
+      souradnice: " 49.4912106N, 16.7976006E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mutuhekadu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/mutuhekadu ",
+      galerie: [
+        { fotka: "partizaniskaly1.jpg", popisek: " (duben 2021) " },
+        { fotka: "partizaniskaly2.jpg", popisek: " (duben 2021) " },
+        { fotka: "partizaniskaly3.jpg", popisek: " (duben 2021) " },
+      ],
+      proMe: " XX/1139  24-231-9  cesty21---04   ",
+    },
+    {
+      id: 204,
+      kategorie: "pomnicky",
+      pridano: " 03/05/2021 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Prostějov ",
+      obec: " Buková   ",
+      jmeno: " Radar - Skalky  ",
+      nazev: " Meteorologická věž na Skalkách. ",
+      kdyVznikl: " 1995. Autorem je Ing.arch. Luděk Šmeral. ",
+      popisCesty:
+        " 1800 metrů od kostela v Benešově, blízko plochého vrcholu Skalky (kóta 735 m), na křižovatce lesních, turistických a lyžařských cest. Vede tu modrá značka.  ",
+      popis:
+        "  Věž je vysoká 35 metrů a bílá báně radaru vyčnívá nad koruny stromů. Z kruhové a zaoblené základny vystupuje štíhlý válec, zakončený ochozem s kopulí. Klenutý vchod je uzavřen mříží. Ve vchodu je kovová destička s textem. .<br> Radar funguje bez obsluhy. V přízemí je dieselagregát, náhradní zdroje a zázemí. Středem věže vede nákladní výtah, kolem je točité schodiště do kruhové místnosti s technikou. Nahoře pod bílou ochrannou kopulí se otáčí a naklápí pětimetrová parabola radaru.  ",
+      napis:
+        " ČESKÝ  HYDROMETEOROLOGICKÝ  ÚSTAV // RADIOLOKAČNÍ STANICE // PROJEKT // KOVOPROJEKTA, a.s. // AUTOR // ING.ARCH. LUDĚK  ŠMERAL // … // 1995   ",
+      odkazy: [
+        {
+          nazev: " root ",
+          adresa:
+            " https://www.root.cz/clanky/na-navsteve-meteoradaru-skalky-kdyz-ctvrt-megawattu-sviti-do-mraku/ ",
+        },
+      ],
+      pozn:
+        "  Občas pořádá meteorologický ústav den otevřených dveří, kdy lze stavbu navštívit, zájem je velký a kapacita  prohlídkové trasy malá. Výhled z horního ochozu je ale velkolepý. ",
+      naposledObnoveno: " 3. 5. 2021 ",
+      souradnice: " 49.5010758N, 16.7884744E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jopafelahu", width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jopafelahu",
+      galerie: [
+        { fotka: "radarskalky1.jpg", popisek: " (duben 2021) " },
+        { fotka: "radarskalky2.jpg", popisek: " (duben 2021) " },
+        { fotka: "radarskalky3.jpg", popisek: " (duben 2021) " },
+      ],
+      proMe: " XX/1141  24-431-11  cesty21---04  ",
+    },
+    {
+      id: 205,
+      kategorie: "pomnicky",
+      pridano: " 03/05/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Prostějov ",
+      obec: "  Buková  ",
+      jmeno: " Piloti - Buková  ",
+      nazev: "Pomník dvěma pilotům u Bukové  ",
+      kdyVznikl:
+        " Po 1988, ze sbírky příslušníků 1. leteckého školního pluku v Přerově. ",
+      popisCesty:
+        " Pomník stojí 1100 metrů od kostela v Bukové, 200 metrů od potoka na kraji lesa. Lesní cesta je označena směrovkami. Letadlo se zřítilo do lesa asi 200 metrů Z od pomníku.  ",
+      popis:
+        " Do betonového základu je vsazena směrové kormidlo tryskového letadla MIG 21. Na svislé ploše je reliéf hlavy Krista, umístěn dodatečně, a plechová tabulka s textem.   ",
+      napis:
+        " NA  TOMTO  MÍSTĚ // DNE 14. 10. 1988 // TRAGICKY  ZAHYNULI // mjr.  ATTILA  SZABÓ  49 let // pplk. ing. JIŘÍ  POHNÁN 37 let // ...   ",
+      odkazy: [
+        {
+          nazev: " letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/584/ ",
+        },
+      ],
+      pozn:
+        "  Oba piloti byli zkušení letečtí instruktoři, pilotoval Jiří Pohnán. Úkolem byl předletový průzkum počasí nad oblastí Konice. MIG 21U odstartoval osudného dne v 7,36 a po devíti minutách zmizel z radaru. Příčina nehody nebyla objasněna. Po ostré zatáčce vlevo ve výšce 2,5 km začal letoun prudce klesat a v mírném úhlu narazil rychlostí 900 km/hod do země. Vzniklý průsek v lese byl dlouhý 400 metrů. Změna trajektorie letu byla úmyslná, možná se chtěl pilot dostat riskantním manévrem do nižší letové hladiny a neodhadl výšku nad terénem.  ",
+      naposledObnoveno: " 3.5.2021 ",
+      souradnice: " 49.5044950N, 16.8141097E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/mecuzekena" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/mecuzekena",
+      galerie: [
+        { fotka: "pilotibukova1.jpg", popisek: " (duben 2021) " },
+        { fotka: "pilotibukova2.jpg", popisek: " (duben 2021) " },
+        { fotka: "pilotibukova3.jpg", popisek: " (duben 2021) " },
+      ],
+      proMe: "  XX/1140  24-231-10  cesty21---04  ",
+    },
   ],
 };
