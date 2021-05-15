@@ -8702,7 +8702,7 @@ export default {
       popis:
         " menší chata se sedlovou střechou je obložena dřevěnými kuláči. U vchodu je leštěná pamětní deska s delším textem. Chata působí omšele a neudržovaně (rok 2021) ",
       napis:
-        " “SKÁLY” // 734 N. V. // ZA  DRUHÉ  SVĚTOVÉ  VÁLKY  SLOUŽILA  TATO  CHATA // JAKO  SÍDLO  ODBOJOVÉ  SKUPINY  JURAJ - ÚKRYT // SKUPINY  JERMAK A FAŠISTY  PRONÁSLEDO- // -VANÝCH  OBČANŮ Z OKOLNÍCH OBCÍ // V ROCE 1978  BYLO  TOTO  PAMÁTNÉ  MÍSTO  // OPRAVENO  ČLENY  ČSPB  BENEŠOV, JIMI // PŘEVZATO  DO  UŽÍVÁNÍ A SLOUŽÍ  JAKO // PAMÁTNÍK  ODBOJE //  ",
+        " “SKÁLY” // 734 N. V. // ZA  DRUHÉ  SVĚTOVÉ  VÁLKY  SLOUŽILA  TATO  CHATA // JAKO  SÍDLO  ODBOJOVÉ  SKUPINY  JURAJ - ÚKRYT // SKUPINY  JERMAK A FAŠISTY  PRONÁSLEDO- // -VANÝCH  OBČANŮ Z OKOLNÍCH OBCÍ // V ROCE 1978  BYLO  TOTO  PAMÁTNÉ  MÍSTO  // OPRAVENO  ČLENY  ČSPB  BENEŠOV, JIMI // PŘEVZATO  DO  UŽÍVÁNÍ A SLOUŽÍ  JAKO // PAMÁTNÍK  ODBOJE //   <br> Opsáno i s chybou v nadmořské výšce. ",
       odkazy: [
         {
           nazev: " Kocourková-bakalářka ",
@@ -8711,7 +8711,7 @@ export default {
         },
       ],
       pozn:
-        " <strong>Partyzánská skupina Jermak</strong> působila v závěru druhé světové války na Drahanské vrchovině a ve svých řadách měla většinou uprchlé sovětské zajatce. 30. 9. 1944 byl její základ vysazen letecky v Rakoveckém údolí v počtu 14 Rusů, seskok se nepodařilo utajit. Historie dalších sedmi měsíců je velmi barvitá (Nýrov, Žďárná, Šerkovice, Javoříčko), ne vše je zcela objasněno. Skupina měla celkem 280 členů, rozdělených do mnoha skupin.<br> </strong>Partyzánský oddíl Juraj</strong> založil na konci války Josef Jakeš, krycím jménem kapitán Juraj. Byl tvořen převážně Čechy. Hlavním úkolem bylo narušovat ústup Němců mezi Prostějovem a Boskovicemi. ",
+        " <strong>Partyzánská skupina Jermak</strong> působila v závěru druhé světové války na Drahanské vrchovině a ve svých řadách měla většinou uprchlé sovětské zajatce. 30. 9. 1944 byl její základ vysazen letecky v Rakoveckém údolí v počtu 14 Rusů, seskok se nepodařilo utajit. Historie dalších sedmi měsíců je velmi barvitá (Nýrov, Žďárná, Šerkovice, Javoříčko), ne vše je zcela objasněno. Skupina měla celkem 280 členů, rozdělených do mnoha skupin.<br> <strong>Partyzánský oddíl Juraj</strong>  založil na konci války Josef Jakeš, krycím jménem kapitán Juraj. Byl tvořen převážně Čechy. Hlavním úkolem bylo narušovat ústup Němců mezi Prostějovem a Boskovicemi. ",
       naposledObnoveno: " 2.5.2021 ",
       souradnice: " 49.4912106N, 16.7976006E ",
       kodMapa:
