@@ -8150,12 +8150,14 @@ export default {
         },
         { foto: "radhost21.jpg", popisek: " Chata Martiňák  " },
         { foto: "radhost22.jpg", popisek: " Pohled do údolí k Horní Bečvě  " },
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/nacatavene" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/nacatavene",
+        },
       ],
       naposledObnoveno: " 24.3.2021 ",
       souradnice: " 49.4997975N, 18.1864875E ",
-      kodMapa:
-        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nacatavene" width="400" height="280" frameborder="0"></iframe>  ',
-      odkazMapa: "https://frame.mapy.cz/s/nacatavene",
       galerie: [],
     },
     {
@@ -8516,12 +8518,15 @@ export default {
         { foto: " vyhon19.jpg  ", popisek: "Led na vinici (únor 2021) " },
         { foto: " vyhon20.jpg  " },
         { foto: " vyhon21.jpg  " },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/hujukunoda" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/hujukunoda",
+        },
       ],
       naposledObnoveno: " 21.4.2021 ",
       souradnice: " 49.0389664N, 16.6421144E ",
-      kodMapa:
-        ' <iframe style="border:none" src="https://frame.mapy.cz/s/hujukunoda" width="400" height="280" frameborder="0"></iframe>  ',
-      odkazMapa: "https://frame.mapy.cz/s/hujukunoda",
+
       galerie: [],
     },
     {
@@ -8795,6 +8800,338 @@ export default {
         { fotka: "pilotibukova3.jpg", popisek: " (duben 2021) " },
       ],
       proMe: "  XX/1140  24-231-10  cesty21---04  ",
+    },
+    {
+      id: 200,
+      datum: " 9. - 11. dubna 2021  ",
+      pridano: " 12/05/2021 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Řehořkovo Kořenecko ",
+      fotkaUvod: { fotka: "  korenec47.jpg  " },
+
+      text: [
+        {
+          textOdstavce:
+            "<p>Už jsme se nemohli dočkat.</p><p><strong>Devlá, vlk už řemen hryže a kůň tryskem běhá rád.</strong> Orkův rok starý výrok nejvíce odpovídá našemu duševnímu stavu. (Devlá znamená romsky povzdech Pane Bože). Po osmnáctiměsíční pauze, způsobené rodinnými problémy a koronavirem, chceme opět putovat se stanem - budem toho ještě schopni? Jen sbalit se nám dalo dost zabrat, úplně jsme vypadli z rutiny.</p><p>Začátkem dubna, půl dne po sněžení, jsme se rozjeli nedaleko. Lákalo nás <strong>Řehořkovo Kořenecko</strong>. Jen pro ten název se třemi EŘ. Kdo to neví, tak Kořenec je vesnice v líbezné krajině Drahanské vrchoviny Přírodní park Řehořkovo Kořenecko zabírá část plošiny mezi Boskovicemi, Protivanovem a Jaroměřicemi. Pan František Řehořek (1890 - 1982) byl krajinář, malíř kořeneckých obyvatel a žil v Kořenci 60 let.</p><p>K vládnímu nařízení neopouštět okres, který jsme tedy porušili, krátkou poznámku. Bydlíme na sídlišti s pětadvaceti tisíci spoluobčanů a při každém opuštění bytu nutně potkáváme lidi. Za tři dny v lesích, neboť vesnice jsme obcházeli obloukem, jsme potkali lidí jen pár. Nejrizikovější z hlediska infekce byla cesta tramvají na nádraží v Brně a zpět. K zásadám tří R je nutno dodat ještě čtvrtou, Rozum. A ještě oříšek pro právníky: vztahuje se zákaz nočního vycházení i na stan?</p>  ",
+        },
+        {
+          textOdstavce: " <h3> První den : pátek 9. dubna 2021</h3>  ",
+        },
+        {
+          textOdstavce:
+            " <i>Doubravice nad Svitavou - údolí potoka Nešůrky - zřícenina Doubravický hrad - Škatulec - zemljanka u Němčic - Žďárná - rozcestí U Skal - PP Louky pod Skalami, 22 km.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Prázdným vlakem jsme dojeli do Doubravice. V obci mě zaujala netradičně pojatá přístavba zřejmě rekreační chalupy.   ",
+        },
+        { foto: " korenec01.jpg  ", popisek: "  Doubravice (duben 2021)  " },
+        {
+          textOdstavce:
+            "  A pak jsme šli údolí potoka Nešůrky stále proti proudu. Zprvu po slušné lesní cestě s lávkami, až ke zřícenině hradu Doubravice nad údolím. Z rozsáhlého hradu toho mnoho nezbylo. Dvojitý hradní příkop ze zranitelné strany, valy na místě hradeb a suťový kužel tam, kde stála obranná věž. Hrad fungoval od poloviny 13. do poloviny 15. století, tedy zhruba 200 let. Patřil několika majitelům a při prodeji roku 1529 se uvádí jako pustý.    ",
+        },
+        { foto: " korenec02.jpg ", popisek: " Údolí Nešůrky  " },
+        { foto: " korenec03.jpg  " },
+        {
+          foto: " korenec04.jpg  ",
+          popisek: " Hradební příkop zříceniny Doubravice (duben 2021)  ",
+        },
+        {
+          textOdstavce:
+            "  Na stráních se silně kácí, cesta se mění v pěšinu a i ta mizí.  ",
+        },
+        { foto: " korenec05.jpg  ", popisek: "   " },
+        { foto: " korenec06.jpg  ", popisek: "   " },
+        { foto: " korenec07.jpg  ", popisek: " vodopádky na Nešůrce  " },
+        {
+          textOdstavce:
+            " V divočejší části údolí přicházíme k plošině a na ní leží trampské tábořiště, camp Funibrouk(skok na ID 201). Trampský národ sem jezdí více jak 40 let. Stála tu i chata Aljaška, než ji někdo zapálil. Teď se ale ráz místa mění, starý smrkový les uschl, byl vytěžen a stíněné údolí se otevírá.   ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 201,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 13,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "V divočejší části údolí přicházíme k plošině a na ní leží trampské tábořiště, camp   ",
+              textOdkazu: "Funibrouk",
+              zaOdkazem:
+                " . Trampský národ sem jezdí více jak 40 let. Stála tu i chata Aljaška, než ji někdo zapálil. Teď se ale ráz místa mění, starý smrkový les uschl, byl vytěžen a stíněné údolí se otevírá.",
+            },
+          ],
+        },
+        {
+          foto: " korenec08.jpg  ",
+          popisek: " camp Funibrouk (duben 2021) ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "  Dál se probíjíme cestou necestou na Škatulec, který býval zalesněný a bez výhledu. Dnes je to jinak, návrší je uprostřed holiny. Bylo jedno, jestli jsme šli po zeleně značené cestě nebo beze značky, pláně jsou vykácené a značky není na co malovat. Všude se pracovalo, vícekrát jsme vyhýbali těžebním strojům. Tak nějak jsem si představoval Šumavu v románech Karla Klostermanna za časů broučkového ráje v 19. století ",
+        },
+        { foto: " korenec09.jpg  " },
+        {
+          foto: " korenec10.jpg  ",
+          popisek: " Výhled z vrcholu Škatulce (duben 2021)  ",
+        },
+        {
+          textOdstavce:
+            " Na zastíněných místech se ještě drží sníh, silné sněhové přeháňky se tu proháněly ještě včera. Dnes je chladno, větrno a co je hlavní, svítí slunce. Zdálky míjíme Němčice i Ludíkov, mezi nimi na vrcholu Perný (638 m) jsme našli památník partyzánské zemljanky (skok na ID 202) . Určitě se schovávala v hustém lese, dnes je to holé.  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 202,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Na zastíněných místech se ještě drží sníh, silné sněhové přeháňky se tu proháněly ještě včera. Dnes je chladno, větrno a co je hlavní, svítí slunce. Zdálky míjíme Němčice i Ludíkov, mezi nimi na vrcholu Perný (638 m) jsme našli  ",
+              textOdkazu: "památník partyzánské zemljanky",
+              zaOdkazem:
+                " . Určitě se schovávala v hustém lese, dnes je to holé.  ",
+            },
+          ],
+        },
+        { foto: " korenec11.jpg  ", naVysku: true },
+        { foto: " korenec12.jpg  ", popisek: " Němčice míjíme zdálky " },
+        {
+          foto: " korenec14.jpg  ",
+          popisek: " Partyzánská zemljanka u Němčic (duben 2021)  ",
+        },
+        {
+          textOdstavce:
+            "  Obloukem se vyhýbáme Ludíkovu po pastvinách, ale vesnici Žďárná minout nemůžeme. Tak si na návsi prohlédneme barokní kostel svatého Bartoloměje z poloviny 18. věku. Postavil ho brněnský stavitel František Antonín Grimm ve tvaru řeckého kříže a uvnitř má zajímavou sochařskou výzdobu. Tam jsme se ale nedostali.   ",
+        },
+        { foto: " korenec15.jpg  ", popisek: " Ludíkov  " },
+        { foto: " korenec16.jpg  ", popisek: " Žďárná  " },
+        {
+          foto: " korenec17.jpg  ",
+          popisek: " kostel svatého Bartoloměje ve Žďárné  ",
+        },
+
+        {
+          textOdstavce:
+            " V lesích občas něco i kvetlo, ale bylo to chudičké. Ze zajímavějších květin stojí za zmínku mokrýš střídavolistý a devětsil bílý u lesních cest. Stan jsme si  postavili na kraji lesa u přírodní památky Louky pod Skalami blízko Protivanova.Tam ale nekvetlo vůbec nic. ",
+        },
+        { foto: " korenec18.jpg  ", popisek: " Mokrýš střídavolistý  " },
+        { foto: " korenec19.jpg  ", popisek: " Devětsil spálený mrazem  " },
+        { foto: " korenec20.jpg  ", popisek: " Devětsil bílý ", naVysku: true },
+        { foto: " korenec21.jpg  ", popisek: " Studená noc u Protivanova  " },
+
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/gosonatona" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/gosonatona",
+        },
+
+        {
+          textOdstavce: "<h3> Druhý den : sobota 10. dubna 2021</h3>   ",
+        },
+        {
+          textOdstavce:
+            " <i>PP Louky pod Skalami - rozcestí U Skal - pramen Luhy-Punkvy - vrchol Skály - pomník pilotům u Bukové - vrchol Skalky - Pavlov - vrchol Paprč - kolem Horního Štěpánova - Brodek u Konice - kolem Runářova - u Sládkovy skály, 28 km.</i>  ",
+        },
+        {
+          textOdstavce: "    ",
+        },
+        {
+          textOdstavce:
+            "  Noc byla dost studená a ráno ležela na loukách kolem jinovatka. Vrátili jsme se na rozcestí U Skal a zamířili k nejvyšším vrcholům Drahanské vrchoviny. Nutně jsme potřebovali doplnit zásobu vody a na odbočce modré značky leží pramen Luhy, která je hlavní zdrojnicí říčky Punkvy. Před patnácti lety pramen zpopularizoval televizní program Zpět k pramenům, pamatuji tu i hrneček s logem České televize, který tu po natáčení nechal herec Luděk Munzar. Studánka je od roku 2017 krásně upravená. Přísně hydrologicky vzniká Punkva soutokem Bílé vody a Luhy v podzemí Amatérské jeskyně a na povrchu se objeví na dně propasti Macocha. My jsme tu načepovali výbornou vodu ze silného pramene, protože jinak jsme na funkční studánku za tři dny nenarazili a byli nuceni brát  potoční vodu vytékající z lesa nebo z toho, co po nich zbylo.",
+        },
+        {
+          foto: " korenec22.jpg  ",
+          popisek: " Pramen Luhy-Punkvy (duben 2021)  ",
+        },
+        { foto: " korenec23.jpg  ", naVysku: true },
+
+        {
+          textOdstavce:
+            "    Na vrcholu Skály (723 m) stojí dřevěný srub. Na něm je umístěna deska partyzánům na Skalách. (skok na ID 203)  Srub vypadá zanedbaně, jeho sláva jako Síně tradic dávno opadla. ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 203,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Na vrcholu Skály (723 m) stojí dřevěný srub. Na něm je umístěna  ",
+              textOdkazu: "deska partyzánům na Skalách",
+              zaOdkazem:
+                "  Srub vypadá zanedbaně, jeho sláva jako Síně tradic dávno opadla. ",
+            },
+          ],
+        },
+        {
+          foto: " korenec24.jpg  ",
+          popisek: " Partyzánský srub na Skalách (duben 2021)  ",
+        },
+        { foto: " korenec25.jpg  ", popisek: "  Pamětní deska na srubu  " },
+
+        {
+          textOdstavce:
+            " Z kopce Skály jsme se vydali po lesních cestách hledat pomník dvěma pilotům (skok na ID 205)  u Bukové. Našli jsme ho snadno, navedly nás malé dřevěné směrovky, které tu nějaký nadšenec rozmístil. V roce 1988 se tu z nezjištěných příčin zřítil MIG 21U se dvěma leteckými instruktory a udělal v lese průsek dlouhý 400 metrů. Z výšky je dodnes vidět  tvar obrovského kříže, který padající stroj vytvořil. Pomník je pěkný, nápaditý, letci se o své mrtvé kamarády umějí postarat.  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 205,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 3,
+              odkazKde: "odstavec",
+              predOdkazem:
+                " Z kopce Skály jsme se vydali po lesních cestách hledat  ",
+              textOdkazu: "pomník dvěma pilotům",
+              zaOdkazem:
+                "  u Bukové. Našli jsme ho snadno, navedly nás malé dřevěné směrovky, které tu nějaký nadšenec rozmístil. V roce 1988 se tu z nezjištěných příčin zřítil MIG 21U se dvěma leteckými instruktory a udělal v lese průsek dlouhý 400 metrů. Z výšky je dodnes vidět  tvar obrovského kříže, který padající stroj vytvořil. Pomník je pěkný, nápaditý, letci se o své mrtvé kamarády umějí postarat.  ",
+            },
+          ],
+        },
+        {
+          foto: " korenec13.jpg  ",
+          popisek: " Pomník dvěma pilotům u Bukové (duben 2021).  ",
+        },
+
+        {
+          textOdstavce:
+            " Průsek v lese po pádu letadla jsme nenašli, také se tu hodně kácí. Zamířili jsme k nejvyššímu bodu Drahanské vrchoviny, tedy kótě Skalky (735 m). Stále do kopce dosud zachovalým smrkovým lesem jsme tam  došli za chvíli. Na plochém vrchu je zachován zbytek staré bučiny a mezi stromy bez listí prosvítá jiná zdejší zajímavost.  ",
+        },
+        { foto: " korenec26.jpg  ", popisek: " Oběd na vrcholu Skalky  " },
+        { foto: " korenec27.jpg  ", naVysku: true },
+
+        {
+          textOdstavce:
+            ' Je to meteorologický radar (skok na ID 204), jeden ze dvou v České republice. Ten druhý je v Brdech a nevím, jestli je tak dobře přístupný. S výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z věže k severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>- ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 204,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 16,
+              odkazKde: "odstavec",
+              predOdkazem: " Je to ",
+              textOdkazu: "meteorologický radar",
+              zaOdkazem:
+                ' jeden ze dvou v České republice. Ten druhý je v Brdech a nevím, jestli je tak dobře přístupný. S výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z věže k severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>, - ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
+            },
+          ],
+        },
+        {
+          foto: " korenec28.jpg  ",
+          popisek: " Meteorologická věž na Skalkách  ",
+          naVysku: true,
+        },
+
+        {
+          textOdstavce:
+            " My jsme k Pavlovu, nejvýše položené horské vísce daleko široko došli pěšky a konečně se dostali ke kýženému Řehořkovu Kořenecku, které tu začíná.  ",
+        },
+        { foto: " korenec29.jpg  ", popisek: "  Pavlov " },
+        { foto: " korenec30.jpg  ", naVysku: true },
+        {
+          foto: " korenec31.jpg  ",
+          popisek: "  Rybníček u Pavlovského dvora. ",
+        },
+        {
+          textOdstavce:
+            " <p>Do Kořence jsme nedošli, do cesty se nám postavil golfový resort Kořenec, krásné osmnáctijamkové hřiště na mírném svahu východně od obce, na ploše 60 hektarů. V mapě z roku 1996 jsou v místech golfového hřiště namalovány dvě přírodní památky, Kořenské pastvisko a Kocourov, obě v návrhu, luční společenstva s výskytem chráněných a ohrožených druhů. Golfový resort tehdy v návrhu nebyl. Zamokřená luka byla vydrenážována, voda svedena do rybníčků, luční společenstva nahrazena nizoučkým trávníčkem. Nabízí se otázky, co je cennější. Zda pohyb stovek hráčů v krásném zdravém přírodním prostředí a pracovní příležitost pro desítky zaměstnanců, nebo jedinečná luční společenstva relativně nedotčené přírody. Netroufám si odpovědět.</p><p>Podle hromádek sněhu to vypadalo, že se golf hrál i za sněžení, a ani koronavir golfisty nezastavil.</p>   ",
+        },
+        { foto: " korenec32.jpg  ", popisek: " Golfové hřiště Kořenec  " },
+        { foto: " korenec33.jpg  " },
+
+        {
+          textOdstavce:
+            " Naštěstí hřiště není oplocené, křižuje ho turistická značka. Po jeho okraji, tak, abychom nedostali míčkem do hlavy, jsme došli pod kopec Paprč ( 721 m). 100 metrů od hřiště to vypadalo jinak, protože do nechráněné stěny zdravého lesa se opřel vítr a vyvrátil i to, co ještě zbývalo. Vzpomněl jsem na slova písničkáře Wabiho Daňka  ...snad ještě na Moravě… kousek lesa zbyl. Nedobrovolně obcházejíce polomy, vystoupali jsme na vyholený kopec a měli Kořenec jak na dlani.  ",
+        },
+        {
+          foto: " korenec34.jpg  ",
+          popisek: " Polomy u Kořence (duben 2021)  ",
+        },
+        {
+          foto: " korenec35.jpg  ",
+          popisek: " Výhled z Paprče na Kořenecko.  ",
+        },
+
+        {
+          textOdstavce:
+            " Další cesta vedla kolem Horního Štěpánova, Brodku u Konice a Runářova. Cestou jsme si užili i jarního vyvalování s kávou na sluníčku v suché trávě. Den byl blažený, modrovětrný.  ",
+        },
+        { foto: " korenec36.jpg  ", popisek: " Odpolední idyla  " },
+        {
+          foto: " korenec37.jpg  ",
+          popisek: " Z Horního Štěpánova je vidět jen věž  ",
+        },
+        { foto: " korenec38.jpg  ", popisek: " Brodek u Konice  " },
+        { foto: " korenec39.jpg  ", popisek: " Vrtule u Brodku  " },
+        { foto: " korenec40.jpg  " },
+        { foto: " korenec41.jpg  ", popisek: " Konicko  " },
+
+        {
+          textOdstavce:
+            " Na noc jsme si vybrali místo nedaleko Konice u Sládkovy skály.  ",
+        },
+        { foto: " korenec42.jpg  " },
+
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/kebenubaru" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/kebenubaru",
+        },
+
+        {
+          textOdstavce: "<h3> Třetí den : neděle 11. dubna 2021</h3>  ",
+        },
+        {
+          textOdstavce:
+            "<i> Pod Sládkovou skálou - Sládkova skála - kolem Šubířova - hradisko Durana - Sklenná Huť - Pohora - Šebetov, 20 km.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Poslední den jsme si nemohli dovolit žádné experimenty s trasou, aby nám neujel zpáteční vlak. Šli jsme raději po značených cestách, což bylo zdlouhavé a někdy i nudné. Prvně jsme dorazili ke Sládkově skále. Je tam starý zatopený lom a trochu záhadný secesní pomník, na kterém je beze slova vysvětlení nápis VĚČNĚ  ZNOVA  PŘEMOŽENI PÍSEŇ  PÍSNÍ  POČÍNÁME - - -. V lomu je hluboká, čistá a vždy studená voda, protože nemá odtok a slunce tam nedosvítí. Zvláštní místo.V létě roku 1917 sem přišla s kamarádkou sedmnáctiletá  <strong>Milada Mackerlová </strong>. Protože bylo vedro, skočila do studené vody a už se živá nevynořila. Její otec byl majitelem sodovkárny v Prostějově a dal jí zbudovat solidní pomník. Verš na pomník vybral její přítel a student gymnázia a patří  tehdy módnímu básníku Otokaru Březinovi.  ",
+        },
+        { foto: " korenec43.jpg  ", popisek: " Zatopený lom Sládkova skála  " },
+        { foto: " korenec44.jpg  ", popisek: " Pomník Milady Mackerlové  " },
+        {
+          foto: " korenec45.jpg  ",
+          popisek: " Verš Otokara Březiny  ",
+          naVysku: true,
+        },
+
+        {
+          textOdstavce:
+            " V severním svahu Sládkovy skály je v mapě zakreslena  <strong>Fialova studánka </strong>, která by měla být i pramenem říčky Romže. Studánku jsme našli, bohužel byla bez vody, která si našla jinou cestu do bažiny pod studánkou. Celá tato oblast je prameništěm několika moravských říček, pramenících nedaleko od sebe. Romže teče do Prostějova, Hloučela také, Punkva do Blanska, Bělá do Boskovic a Nectava do Jaroměřic.Taková střecha Moravy.  ",
+        },
+        {
+          foto: " korenec46.jpg  ",
+          popisek: " Vyschlý pramen Romže (duben 2021) ",
+          naVysku: true,
+        },
+
+        {
+          textOdstavce:
+            " Minuli jsme Slámovu louži u Šubířova a přes údolí došli k  <strong>hradisku Durana </strong> na relativně vysokém kopci. Moc z něj nezbylo, mělký příkop obkružuje oválnou plošinu o průměru asi 50 metrů. Jméno prý pochází od Durancie, manželky olomouckého knížete z 12. století, život na hradisku datovala archeologie do 13. a 14. století. Zajímavá je rozsáhlá rezervace staré bučiny s jedlemi na severní straně kopce.  ",
+        },
+        { foto: " korenec47.jpg  ", popisek: " U Šubířova.  " },
+        {
+          foto: " korenec48.jpg  ",
+          popisek: " Mohyla na nejvyšším bodu Durany  ",
+          naVysku: true,
+        },
+        { foto: " korenec49.jpg  ", popisek: " Hradisko Durana. " },
+
+        {
+          textOdstavce:
+            " Pod osadou Pohora v údolí potoka stojí barokní  <strong>socha svaté Barbory</strong>. Osamělá socha v zalesněné krajině vždy slibuje nějaké překvapení. Socha je pěkná, zachovalá, stojí prý na místě šarvátky pruských a rakouských vojsk v roce 1866 a hromadného hrobu soupeřících stran. Jinde jsem se dočetl, že socha už tu stála před bojem. Těžko rozlišit, co je pověst a co historicky doložená pravda. Sochu jsme prohlédli a nezbylo než mašírovat k vlaku do Šebetova, který jel jen pro nás. Dlouho jsme byli jedinými pasažéry.   ",
+        },
+        {
+          foto: " korenec51.jpg  ",
+          popisek: " Socha sv. Barbory u Pohory.  ",
+          naVysku: true,
+        },
+        { foto: " korenec52.jpg  ", popisek: " (duben 2021)  " },
+        { foto: " korenec53.jpg  ", popisek: " Cesta do Šebetova.  " },
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/faromudopo" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/faromudopo",
+        },
+      ],
     },
   ],
 };

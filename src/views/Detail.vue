@@ -93,17 +93,17 @@
             />
             <figcaption>{{ odstavec.popisek }}</figcaption>
           </figure>
-        </div>
-        <div id="mapa">
-          <iframe
-            v-if="detailClanku.odkazMapa"
-            style="border:none"
-            v-bind:src="detailClanku.odkazMapa"
-            width="90%"
-            height="400"
-          >
-            frameborder="0" ></iframe
-          >
+          <div id="mapa">
+            <iframe
+              v-if="odstavec.odkazMapa"
+              style="border:none"
+              v-bind:src="odstavec.odkazMapa"
+              width="90%"
+              height="400"
+            >
+              frameborder="0" ></iframe
+            >
+          </div>
         </div>
 
         <h3 v-if="detailClanku.dodatekNadpis">
