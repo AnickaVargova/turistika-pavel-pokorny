@@ -8816,7 +8816,8 @@ export default {
             "<p>Už jsme se nemohli dočkat.</p><p><strong>Devlá, vlk už řemen hryže a kůň tryskem běhá rád.</strong> Orkův rok starý výrok nejvíce odpovídá našemu duševnímu stavu. (Devlá znamená romsky povzdech Pane Bože). Po osmnáctiměsíční pauze, způsobené rodinnými problémy a koronavirem, chceme opět putovat se stanem - budem toho ještě schopni? Jen sbalit se nám dalo dost zabrat, úplně jsme vypadli z rutiny.</p><p>Začátkem dubna, půl dne po sněžení, jsme se rozjeli nedaleko. Lákalo nás <strong>Řehořkovo Kořenecko</strong>. Jen pro ten název se třemi EŘ. Kdo to neví, tak Kořenec je vesnice v líbezné krajině Drahanské vrchoviny Přírodní park Řehořkovo Kořenecko zabírá část plošiny mezi Boskovicemi, Protivanovem a Jaroměřicemi. Pan František Řehořek (1890 - 1982) byl krajinář, malíř kořeneckých obyvatel a žil v Kořenci 60 let.</p><p>K vládnímu nařízení neopouštět okres, který jsme tedy porušili, krátkou poznámku. Bydlíme na sídlišti s pětadvaceti tisíci spoluobčanů a při každém opuštění bytu nutně potkáváme lidi. Za tři dny v lesích, neboť vesnice jsme obcházeli obloukem, jsme potkali lidí jen pár. Nejrizikovější z hlediska infekce byla cesta tramvají na nádraží v Brně a zpět. K zásadám tří R je nutno dodat ještě čtvrtou, Rozum. A ještě oříšek pro právníky: vztahuje se zákaz nočního vycházení i na stan?</p>  ",
         },
         {
-          textOdstavce: " <h3> První den : pátek 9. dubna 2021</h3>  ",
+          textOdstavce:
+            " <h2 class='podnadpis'> První den : pátek 9. dubna 2021</h2>  ",
         },
         {
           textOdstavce:
@@ -8925,7 +8926,8 @@ export default {
         },
 
         {
-          textOdstavce: "<h3> Druhý den : sobota 10. dubna 2021</h3>   ",
+          textOdstavce:
+            "<h2 class='podnadpis'> Druhý den : sobota 10. dubna 2021</h2>   ",
         },
         {
           textOdstavce:
@@ -9075,7 +9077,8 @@ export default {
         },
 
         {
-          textOdstavce: "<h3> Třetí den : neděle 11. dubna 2021</h3>  ",
+          textOdstavce:
+            "<h2 class='podnadpis'> Třetí den : neděle 11. dubna 2021</h2>  ",
         },
         {
           textOdstavce:

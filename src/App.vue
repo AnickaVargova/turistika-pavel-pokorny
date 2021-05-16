@@ -14,10 +14,15 @@
     margin: 0;
   }
 
-  h1 {
+  h1,
+  .podnadpis {
     font-family: "Patrick Hand", cursive;
     text-align: center;
     color: #2c3e50;
+  }
+
+  .podnadpis {
+    margin: 40px;
   }
 
   img {

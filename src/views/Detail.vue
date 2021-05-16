@@ -32,9 +32,13 @@
           Zpět na články
         </div>
       </router-link>
-      <a href="#top" id="tlacitkoNahoruDetail" class="pomnicekKategorie">
+      <div
+        id="tlacitkoNahoruDetail"
+        class="pomnicekKategorie"
+        v-on:click="goToTop"
+      >
         Nahoru
-      </a>
+      </div>
       <h1>{{ detailClanku.nazev }}</h1>
 
       <h3>{{ detailClanku.datum }}</h3>
@@ -78,7 +82,6 @@
           <figure
             v-bind:class="{
               figCesty: true,
-              naSirku: !odstavec.naSirku,
               naVysku: odstavec.naVysku,
             }"
             v-bind:style="{ textAlign: 'center' }"
@@ -169,6 +172,11 @@
     methods: {
       vyfiltrujPomnicek(id) {
         this.$emit("kliknuti", id);
+      },
+      goToTop() {
+        this.$router
+          .replace({ hash: "#top" })
+          .then(this.$router.push({ hash: "" }));
       },
     },
 
@@ -336,11 +344,10 @@
   .figCesty img {
     width: 100% !important;
     object-fit: cover;
-    max-height: 100vh;
   }
 
   .naVysku {
-    width: 60%;
+    width: 50%;
     margin: 10px auto;
   }
 
