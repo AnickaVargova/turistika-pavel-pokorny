@@ -71,7 +71,7 @@
             if (clanek.text) {
               for (let odstavec of clanek.text) {
                 if (odstavec.foto) {
-                  clanek?.galerie.push({
+                  clanek?.galerie?.push({
                     fotka: odstavec.foto.trim(),
                     popisek: odstavec.popisek,
                   });
