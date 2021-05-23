@@ -9144,5 +9144,164 @@ export default {
         },
       ],
     },
+    {
+      id: 206,
+      kategorie: "pomnicky",
+      pridano: " 12/05/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Ořechov   ",
+      jmeno: " Kaple - Pelegrínek  ",
+      nazev: " Kaple svatého Peregrina u Ořechova ",
+      fotkaUvod: { fotka: " peregrin2.jpg " },
+      kdyVznikl:
+        " Zděná kaple byla postavena 1863, její dřevěná předchůdkyně někdy v 18. století, protože 1759 už stála. ",
+      popisCesty:
+        " Leží 2,5 kilometru SV od kostela v Ořechově, na okraji srázů spadajících do údolí Bobravy. Na palouku s rozcestím lesních cest.  ",
+      popis:
+        " Zděná stavbička rozměrů 3 x 3 metry se sedlovou střechou. Ve vchodu je železná mříž, uvnitř oltářní obrázek s výjevem uzdravení sv. Peregrina.   ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/orechov-kaple-sv-peregrina/detail ",
+        },
+        {
+          nazev: " hrady ",
+          adresa: " https://www.hrady.cz/kaple-sv-peregrina-orechov ",
+        },
+      ],
+      pozn:
+        "  Kaple bývala první zastávkou na pěších poutích z Brna do Maria-Zell. Nyní tu bývá pouť 2. neděli v květnu.<strong> Svatý Peregrin Laziosi</strong>  (1265 - 1345), Ital z města Forli, stal se mnichem řádu servítů. Je vzýván při bolestech nohou a rakovině, neboť sám se z rakoviny nohy zázračně vyléčil.Někde je uváděn jako svatý Pelegrin. Peregrinus = lat. poutník, cizinec. Pellegrino = ital. poutník, cestující. Pèlerin = franc. poutník, pocestný. Kaple v roce 1759 posloužila jako pomocný trigonometrický bod, když astronom Josef Liesganig vyměřoval tzv. Vídeňský poledník od Soběšic k Vídni, aby zjistil rozměr zeměkoule. Na prostranství před kaplí vysadila Sušilova družina v roce 2018 lípu. Další dvě  lípy vysazené kolem roku 2005 rostou těsně u kaple.  ",
+      naposledObnoveno: " 12.5.2021 ",
+      souradnice: " 49.1245544N, 16.5485225E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/kuzecopopa" width="400" height="280" frameborder="0"></iframe>   ',
+      galerie: [
+        { fotka: "peregrin1.jpg", popisek: " (duben 2021) " },
+        { fotka: "peregrin2.jpg", popisek: " (duben 2021) ", naVysku: true },
+        {
+          fotka: "peregrin3.jpg",
+          popisek: " (oltářní obrázek) ",
+          naVysku: true,
+        },
+      ],
+      proMe: " VI/192  24-342-10  21---042  ",
+    },
+    {
+      id: 207,
+      kategorie: "pomnicky",
+      pridano: " 13/05/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Horákov  ",
+      jmeno: " Kaple - Horákov  ",
+      nazev: "Lesní kaple Mitrovských u Horákova  ",
+      fotkaUvod: { fotka: " kaplehorakov1.jpg " },
+      kdyVznikl: " původní stavba v polovině 30. let. Obnovena 2006. ",
+      popisCesty:
+        " 100 metrů V od Horákovské myslivny, na odbočce červené značky.  ",
+      popis:
+        "  dřevěná srubová stavba kaple se sedlovou střechou a dřevěnou věžičkou.  ",
+      napis: " na průčelí AVE // MARIA  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa:
+            "https://www.turistika.cz/mista/kaplicka-mitrovskych/detail  ",
+        },
+        {
+          nazev: " matespospa ",
+          adresa:
+            " https://matespospa.webnode.cz/mokra-horakov-a-okoli/kaple-mitrovskych/ ",
+        },
+      ],
+      pozn:
+        "  Kapli dal postavit hrabě Hubert Vladimír Mitrovský po smrti jediného syna v polovině 30. let 20.století. Byla z bílých březových kmenů, bohužel stavba bez základu a izolace podléhala rychle zkáze. Pamatuji, že začátkem 60. let byla ve velmi špatném stavu. V polovině 70. let byla stržena a zůstala po ní jen plošina v lese. Roku 2003 vznikla myšlenka kapli obnovit. Projekt - repliku zhotovil Ing.arch. Antonín Závada. Začalo se stavět v srpnu 2005, dokončena byla v létě 2006. Nápis a kříž zhotovil řezbář František Moštěk, obraz Panny Marie lesní provedla technikou na plech líšeňská  malířka betlémů Jana Mošťková.  ",
+      naposledObnoveno: " 13.5.2021 ",
+      souradnice: " 49.2144897N, 16.7367131E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jepevukaco" width="400" height="280" frameborder="0"></iframe>  ',
+      galerie: [
+        { fotka: "kaplehorakov1.jpg", popisek: " (únor 2020) " },
+        {
+          fotka: "kaplehorakov2.jpg",
+          popisek: " Obraz na oltáři. (únor 2020) ",
+        },
+      ],
+      proMe: " XV/552  24-413-54  20---023   ",
+    },
+    {
+      id: 208,
+      kategorie: "pomnicky",
+      pridano: " 16/05/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Babice nad Svitavou  ",
+      jmeno: " Obrázek - Řícmanice  ",
+      nazev: " Obrázek u Řícmanic ",
+      fotkaUvod: { fotka: " uobrázku1.jpg " },
+      kdyVznikl:
+        " Nový obrázek požehnal 27. 6. 2010 biskup Pavel Posád a poté byl nainstalován sem. ",
+      popisCesty:
+        " 1100 metrů SSV od středu Řícmanic, na kraji Konůpkovy louky. Vede tu modře značená cesta.   ",
+      popis:
+        " Dřevěný sloup je vysoký 3,5 metru. Nahoře v rámečku obrázek Panny Marie, níže nápis vyřezaný do dřevěné tabulky, pod ním je tabulka s vlastivědným textem.   ",
+      napis: " U  OBRÁZKU  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa: " https://www.turistika.cz/mista/u-obrazku--2/detail ",
+        },
+      ],
+      pozn:
+        " V minulosti tu býval zavěšen obrázek Panny Marie, odtud pochází i název místa. Bylo to pravděpodobně na připomenutí nešťastné události, která se odehrála nedaleko u cesty k Řícmanicím. V ohybu cesty byl písečník. Podkopaný svah se sesunul a zasypal domkáře Václava Hájka z Řícmanic, který si tam kopal písek. Lidé obrázek umístili na poutní cestu z Brna do Křtin.  ",
+      naposledObnoveno: " 16.5.2021 ",
+      souradnice: " 49.2680142N, 16.6974406E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/davazaduno" width="400" height="280" frameborder="0"></iframe>   ',
+      galerie: [{ fotka: " uobrazku1.jpg", popisek: " (listopad 2011) " }],
+      proMe: "  XVIII/674  24-413-71  obl--BO  ",
+    },
+    {
+      id: 209,
+      kategorie: "pomnicky",
+      pridano: " 16/05/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice nad Svitavou  ",
+      jmeno: " Kříž - Na nivkách  ",
+      nazev: " Kříž Na nivkách u Bílovic ",
+      fotkaUvod: { fotka: " nanivkach1.jpg " },
+      kdyVznikl:
+        " Kříž vyřezal roku 1911 pan Theodor Šenk (1881-1941) podle vzorů používaných na Slovácku.  ",
+      popisCesty:
+        " Kříž stojí 900 metrů SV od středu Bílovic, u poutní cesty Brněnka z Bílovic do Křtin. Prochází tu červená značka.  ",
+      popis:
+        "  Šest metrů vysoký dřevěný kříž s plechovým Kristem je zdobený pozoruhodnými řezbami s náboženskými motivy.   ",
+      napis: "  A.D. 1911 . Vedle kříže je tabulka s vlastivědným textem.  ",
+      odkazy: [
+        {
+          nazev: " turistika ",
+          adresa: " https://www.turistika.cz/mista/kriz-na-nivkach/detail ",
+        },
+      ],
+      pozn:
+        "Když kříž zestárnul a barvy se oloupaly, byl v padesátých letech přetřen jednobarevně na červeno, později byl tmavohnědý. Řezby zanikaly. Až v roce 2009 byl kříž řádně restaurován, řezby zpevněny, dřevo konzervováno. Původní barevnost obnovila podle dochovaných fragmentů malířka Jana Ondrušová-Wünschová.   ",
+      naposledObnoveno: " 16.5.2021 ",
+      souradnice: "49.2539353N, 16.6781542E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/focucacace" width="400" height="280" frameborder="0"></iframe>   ',
+      galerie: [
+        { fotka: "nanivkach1.jpg", popisek: " (březen 2009) " },
+        { fotka: "nanivkach2.jpg", popisek: " (březen 2009) " },
+      ],
+      proMe: "  XVII/645  24-413-64  obl---BO  ",
+    },
   ],
 };
