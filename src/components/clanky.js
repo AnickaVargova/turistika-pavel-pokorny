@@ -8062,6 +8062,7 @@ export default {
     {
       id: 161,
       datum: " Pondělí 30. listopadu 2020  ",
+      formatDatum: "30/11/2020",
       pridano: " 24/02/2021 ",
       kategorie: "cesty",
       podkategorie: 1,
@@ -8446,6 +8447,7 @@ export default {
     {
       id: 162,
       datum: " 13. 2. 2021  ",
+      formatDatum: "13/02/2021",
       pridano: "21/04/2021",
       kategorie: "cesty",
       podkategorie: 1,
@@ -8812,6 +8814,7 @@ export default {
     {
       id: 200,
       datum: " 9. - 11. dubna 2021  ",
+      formatDatum: "09/04/2021",
       pridano: " 12/05/2021 ",
       kategorie: "cesty",
       podkategorie: 1,

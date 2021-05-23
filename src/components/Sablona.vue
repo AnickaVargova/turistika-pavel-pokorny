@@ -266,10 +266,24 @@
         this.seznamUkazat = false;
       },
 
+      getDateNumber(formatDatum) {
+        let date = formatDatum.trim();
+        date = Date.parse(
+          date.slice(3, 6).concat(date.slice(0, 3), date.slice(6))
+        );
+        return date;
+      },
+
       seradClanky() {
         if (this.$route.name === "Vypraveni") {
           this.clankyPodKategorie.sort(
             (a, b) => Number(b.datum.slice(-4)) - Number(a.datum.slice(-4))
+          );
+        } else if (this.$route.name === "Cesty") {
+          this.clankyPodKategorie.sort(
+            (a, b) =>
+              this.getDateNumber(b.formatDatum) -
+              this.getDateNumber(a.formatDatum)
           );
         } else if (this.$route.name === "NovePridane") {
           this.clankyPodKategorie.sort((a, b) => b.id - a.id);
