@@ -9182,6 +9182,7 @@ export default {
       souradnice: " 49.1245544N, 16.5485225E ",
       kodMapa:
         ' <iframe style="border:none" src="https://frame.mapy.cz/s/kuzecopopa" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/kuzecopopa",
       galerie: [
         { fotka: "peregrin1.jpg", popisek: " (duben 2021) " },
         { fotka: "peregrin2.jpg", popisek: " (duben 2021) ", naVysku: true },
@@ -9228,6 +9229,7 @@ export default {
       souradnice: " 49.2144897N, 16.7367131E ",
       kodMapa:
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/jepevukaco" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/jepevukaco",
       galerie: [
         { fotka: "kaplehorakov1.jpg", popisek: " (únor 2020) " },
         {
@@ -9267,6 +9269,7 @@ export default {
       souradnice: " 49.2680142N, 16.6974406E ",
       kodMapa:
         ' <iframe style="border:none" src="https://frame.mapy.cz/s/davazaduno" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/davazaduno",
       galerie: [{ fotka: " uobrazku1.jpg", popisek: " (listopad 2011) " }],
       proMe: "  XVIII/674  24-413-71  obl--BO  ",
     },
@@ -9300,6 +9303,7 @@ export default {
       souradnice: "49.2539353N, 16.6781542E  ",
       kodMapa:
         ' <iframe style="border:none" src="https://frame.mapy.cz/s/focucacace" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/focucacace",
       galerie: [
         { fotka: "nanivkach1.jpg", popisek: " (březen 2009) " },
         { fotka: "nanivkach2.jpg", popisek: " (březen 2009) " },
