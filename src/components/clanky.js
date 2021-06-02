@@ -9,6 +9,8 @@ export default {
       obec: "Babice nad Svitavou",
       jmeno: "Souček, Bedřich",
       nazev: "Památník lesního Součka",
+      fotkaUvod: { fotka: " soucek1.jpg " },
+
       napis:
         "BEDŘICH SOUČEK // VYNIKAJÍCÍ LESNÍK // ZANÍCENÝ PĚSTITEL JEDLE // A CIZOKRAJNÝCH DŘEVIN // 1.11.1905 18.4.1995 // 2005",
       popisCesty:
@@ -36,6 +38,7 @@ export default {
       obec: "Olomučany",
       jmeno: "Grabner, Leopold",
       nazev: "Památník Leopolda Grabnera",
+      fotkaUvod: { fotka: "grabner3.jpg " },
       kdyVznikl: "1929",
       popisCesty:
         "1500 metrů JJV od kaple  v\xa0Olomučanech. Na V\xa0straně plošiny Výškůvka nad svahem. Vede sem odbočka z\xa0červeně značené cesty.",
@@ -79,6 +82,7 @@ export default {
       okres: "Blansko",
       obec: "Jedovnice",
       jmeno: "Doležal, Bohumil",
+      fotkaUvod: { fotka: "dolezal1.jpg " },
       nazev: "Pomník Bohumila Doležala",
       kdyVznikl: "Slavnostní odhalení 14.10.2011 ke 100. výročí narození.",
       popisCesty:
@@ -121,6 +125,8 @@ export default {
       okres: "Brno-venkov",
       obec: "Tvarožná",
       jmeno: "Soffer, Bedřich",
+      fotkaUvod: { fotka: " soffer1.jpg " },
+
       nazev: "Sloup závodníka Bedřicha Soffera",
       kdyVznikl:
         "Slavnostní odhalení 5.9.1929 rok po havárii. Rekonstrukce 2014. ",
@@ -165,6 +171,8 @@ export default {
       okres: "Žďár nad Sázavou",
       obec: "Březské",
       jmeno: "Nešpor, František",
+      fotkaUvod: { fotka: " nespor1.jpg " },
+
       nazev: "Pomníček zootechnika Nešpora",
       kdyVznikl: "Po 1975.",
       popisCesty:
@@ -202,6 +210,8 @@ export default {
       okres: "Brno-venkov",
       obec: "Újezd u Brna",
       jmeno: "Pád letadla u Mohyly míru",
+      fotkaUvod: { fotka: " padLetadla1.jpg " },
+
       nazev: "Pád letadla u Mohyly míru",
       kdyVznikl: "29.5.2013 ",
       popisCesty:
@@ -239,6 +249,7 @@ export default {
       okres: "Brno-venkov",
       obec: "Tvarožná",
       jmeno: "Pavlišová, Lenka",
+      fotkaUvod: { fotka: " pavlisovi1.jpg " },
       nazev: "Křížky Pavlišovy rodiny",
       kdyVznikl: "2016 ",
       popisCesty:
@@ -306,6 +317,8 @@ export default {
       okres: "Blansko",
       obec: "Tasovice",
       jmeno: "Návesník, Michal",
+      fotkaUvod: { fotka: "navesnik2.jpg " },
+
       nazev: "Pomníček kapitána Návesníka",
       kdyVznikl: "po roce 1996 ",
       popisCesty: "1200m SV od Tasovic, na konci cesty přes chatovou osadu.",
@@ -342,6 +355,8 @@ export default {
       okres: "Brno-venkov",
       obec: "Javůrek",
       jmeno: "Voženílek, Zdeněk",
+      fotkaUvod: { fotka: " vozenilek1.jpg " },
+
       nazev: "Pomník poručíka Voženílka",
       kdyVznikl: "po roce 1951 ",
       popisCesty:
@@ -385,6 +400,8 @@ export default {
       okres: " Brno-venkov ",
       obec: " Jiříkovice ",
       jmeno: " Brassinne, Norbert ",
+      fotkaUvod: { fotka: " brassinne1.jpg " },
+
       nazev: "  Památník Norberta Brassinna ",
       kdyVznikl: " odhalen 25.listopadu 2000 ",
       popisCesty: "Na SV kraji Jiříkovic u rozcestí na místě hromadného hrobu.",
@@ -430,6 +447,8 @@ export default {
       okres: " Brno-venkov  ",
       obec: " Jiříkovice ",
       jmeno: "Strom přátelství u Jiříkovic",
+      fotkaUvod: { fotka: " stromPratelstvi1.jpg " },
+
       nazev: " Strom přátelství u Jiříkovic  ",
       kdyVznikl:
         " 2. 12. 2005 při vzpomínkách na 200. výročí bitvy u Slavkova ",
@@ -470,6 +489,8 @@ export default {
       okres: " Brno-venkov ",
       obec: " Prace ",
       jmeno: "Bitva  v\xa0obci Prace",
+      fotkaUvod: { fotka: " bitvaPrace3.jpg " },
+
       nazev: " Pomník bitvě  v\xa0obci Prace ",
       kdyVznikl: " 2005 ",
       popisCesty:
@@ -519,6 +540,7 @@ export default {
       okres: " Brno-venkov ",
       obec: " Velatice ",
       jmeno: " Velatické děti  ",
+      fotkaUvod: { fotka: " velatickeDeti1.jpg " },
       nazev: " Pomník třem zahynulým dětem z\xa0Velatic ",
       kdyVznikl: " 1948,  obnoven 2017 ",
       popisCesty: " Za Velaticemi u silnice do Mokré, 300 m od kraje vsi.   ",
@@ -562,6 +584,8 @@ export default {
       okres: " Žďár nad Sázavou ",
       obec: " Velká Bíteš  ",
       jmeno: " Obětem prusko-rakouské války  ",
+      fotkaUvod: { fotka: " obetemValky3.jpg " },
+
       nazev: "Památka obětem prusko-rakouské války  ",
       kdyVznikl: "  ",
       popisCesty:
@@ -605,6 +629,8 @@ export default {
       obec: " Tvarožná ",
       jmeno: " Daněk, Karel  ",
       nazev: " Daňkův kříž ",
+      fotkaUvod: { fotka: " dankuvKriz2.jpg " },
+
       kdyVznikl: " 1918 ",
       popisCesty:
         " Leží 600 metrů J od kostela ve Tvarožné, na pláni u státní silnice.  ",
@@ -648,6 +674,8 @@ export default {
       okres: " Blansko ",
       obec: " Kuničky ",
       jmeno: " Kalovi, Anežka a Milan  ",
+      fotkaUvod: { fotka: "kalovi2.jpg  " },
+
       nazev: " Pomník Anežce a Milanovi Kalovým ",
       kdyVznikl: " po roce 1964 ",
       popisCesty:
@@ -684,6 +712,8 @@ export default {
       okres: " Brno-venkov ",
       obec: " Stanoviště  ",
       jmeno: " Smutná, Anička  ",
+      fotkaUvod: { fotka: "smutna2.jpg " },
+
       nazev: " Pomník  Aničky Smutné  ",
       kdyVznikl: " po roce 1937 ",
       popisCesty: " SV od vsi Stanoviště u silnice na mírném návrší  ",
@@ -712,6 +742,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Babice ",
       jmeno: " Marcha, Jaroslav  ",
+      fotkaUvod: { fotka: " marcha.jpg " },
+
       nazev: " Deska spisovatele Marchy ",
       kdyVznikl:
         " Slavnostní odhalení 29. 12. 2011, padesát let od úmrtí, uspořádal Školní lesní podnik Křtiny. ",
@@ -751,6 +783,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Tvarožná ",
       jmeno: " Kosmák, Václav  ",
+      fotkaUvod: { fotka: " kosmak4.jpg " },
+
       nazev: " Kosmákův kříž ",
       kdyVznikl:
         " 1893 na památku loučení faráře Kosmáka  s\xa0místními lidmi. Od té doby byl nejméně třikrát opravován. ",
@@ -795,6 +829,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Bílovice nad Svitavou ",
       jmeno: " Liška Bystrouška  ",
+      fotkaUvod: { fotka: "bystrouska2.jpg " },
+
       nazev: " Deska lišky Bystroušky ",
       kdyVznikl:
         " 30. 5. 1965 byla péčí bílovických občanů odhalena deska. Myslivna postavena  v\xa0roce 1907 a Školní lesní podnik ji  v\xa0roce 2007 citlivě zrekonstruoval do původní podoby. ",
@@ -832,6 +868,8 @@ export default {
       okres: " Brno - město ",
       obec: " Dvorska ",
       jmeno: " Kaláb, Zdeněk  ",
+      fotkaUvod: { fotka: " kalab2.jpg " },
+
       nazev: " Pomníček žokeje Kalába ",
       kdyVznikl: " po roce 2010 ",
       popisCesty:
@@ -870,6 +908,7 @@ export default {
       okres: " Brno - venkov ",
       obec: " Popůvky ",
       jmeno: " Bartl, Antonín  ",
+      fotkaUvod: { fotka: " bartl2.jpg " },
       nazev: " Pomník Antonína Bartla ",
       kdyVznikl: " po roce 1955 ",
       popisCesty:
@@ -900,6 +939,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Babice nad Svitavou ",
       jmeno: " Malá sfinga  ",
+      fotkaUvod: { fotka: " sfinga1.jpg " },
+
       nazev: " Malá sfinga ",
       kdyVznikl: "  ",
       popisCesty:
@@ -935,6 +976,8 @@ export default {
       okres: " Brno - venkov  ",
       obec: " Lažánky ",
       jmeno: " svatý Hubert lažánecký  ",
+      fotkaUvod: { fotka: " hubert2.jpg " },
+
       nazev: " Socha svatého Huberta u Lažánek ",
       kdyVznikl: " slavnostně vysvěcen 9. 10. 2011 ",
       popisCesty:
@@ -970,6 +1013,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Ivančice ",
       jmeno: " Padlý cyklista  ",
+      fotkaUvod: { fotka: " cyklista2.jpg " },
+
       nazev: " Pomník neznámému padlému cyklistovi ",
       kdyVznikl: " 2016 ",
       popisCesty:
@@ -1008,6 +1053,8 @@ export default {
       okres: " Blansko ",
       obec: " Habrůvka ",
       jmeno: "František II., císař  ",
+      fotkaUvod: { fotka: " bycina1.jpg " },
+
       nazev: " Dvě historické desky  v\xa0Býčí skále ",
       kdyVznikl: " po roce 1801 a  v\xa0roce 1804 ",
       popisCesty:
@@ -1047,6 +1094,8 @@ export default {
       okres: " Brno - venkov  ",
       obec: " Hostěnice ",
       jmeno: " Bajer, Jan  ",
+      fotkaUvod: { fotka: " bajer.jpg " },
+
       nazev: " Bajerova památka ",
       kdyVznikl: " po roce 1902 ",
       popisCesty:
@@ -1073,6 +1122,8 @@ export default {
       okres: " Brno - město ",
       obec: " Žebětín ",
       jmeno: " Brázda  ",
+      fotkaUvod: { fotka: "brazda1.jpg" },
+
       nazev: " Kříž hajného Brázdy ",
       kdyVznikl: " po roce 1892 ",
       popisCesty:
@@ -1107,6 +1158,7 @@ export default {
       okres: " Vyškov ",
       obec: " Račice ",
       jmeno: " Spáčil, Oto  ",
+      fotkaUvod: { fotka: " spacil2.jpg " },
       nazev: " Pomník Oty Spáčila ",
       kdyVznikl: " po 2013 ",
       popisCesty:
@@ -1143,6 +1195,7 @@ export default {
       okres: " Vyškov ",
       obec: " Ježkovice ",
       jmeno: " Štrajtová, Vlasta  ",
+      fotkaUvod: { fotka: " strajtova3.jpg " },
       nazev: " Pomník Vlasty Štrajtové ",
       kdyVznikl: " po 1957 ",
       popisCesty:
@@ -1180,6 +1233,8 @@ export default {
       okres: " Vyškov  ",
       obec: "Bučovice  ",
       jmeno: " Jan II - Bučovice ",
+      fotkaUvod: { fotka: " lichtenstein2.jpg " },
+
       nazev: " Poděkování Janu z Lichtenštejna v Bučovicích ",
 
       kdyVznikl: " 1898 ",
@@ -1218,6 +1273,7 @@ export default {
       okres: " Hodonín ",
       obec: " Žarošice ",
       jmeno: " Jan II - Žarošice  ",
+      fotkaUvod: { fotka: " zarosice.jpg " },
 
       nazev: " Žarošický lichtenštejnský památník ",
       kdyVznikl:
@@ -1255,6 +1311,8 @@ export default {
       okres: " Brno - venkov",
       obec: " Ketkovice ",
       jmeno: " Lucan - Jiří Skurovec  ",
+      fotkaUvod: { fotka: " lucan2.jpg " },
+
       nazev: " Lucanova památka ",
       kdyVznikl: " po roce 2005 ",
       popisCesty:
@@ -1290,6 +1348,8 @@ export default {
       okres: " Třebíč ",
       obec: " Sedlec ",
       jmeno: " Kožich -  Josef Pelc  ",
+      fotkaUvod: { fotka: " pelc2.jpg " },
+
       nazev: " Křížek Kožicha Pelce  ",
       kdyVznikl: " 2018 ",
       popisCesty:
@@ -1327,6 +1387,8 @@ export default {
       okres: " Třebíč ",
       obec: " Sedlec  ",
       jmeno: " Rorejs - Naďa  ",
+      fotkaUvod: { fotka: " rorejs.jpg " },
+
       nazev: " Deska Nadi Rorejse ",
       kdyVznikl: " po roce 2013 ",
       popisCesty:
@@ -1366,6 +1428,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Babice ",
       jmeno: " Ševčík, Antonín  ",
+      fotkaUvod: { fotka: " sevcik2.jpg " },
+
       nazev: " Ševčíkova památka ",
       kdyVznikl: " po roce 1905 ",
       popisCesty:
@@ -1401,6 +1465,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Tvarožná  ",
       jmeno: " Rudý mor  ",
+      fotkaUvod: { fotka: "mor2.jpg " },
+
       nazev: " Černý  kříž u Velatic ",
       kdyVznikl:
         "  železný  v\xa0roce 1831,  obnoven za kamenný  v\xa0roce 1946 ",
@@ -1436,6 +1502,8 @@ export default {
       okres: " Brno -venkov ",
       obec: " Hostěnice  ",
       jmeno: " Hasičský kříž - Hostěnice  ",
+      fotkaUvod: { fotka: " hasicsky2.jpg " },
+
       nazev: " Hasičský jubilejní kříž u Hostěnic ",
       kdyVznikl: " slavnostně vysvěcen 15. 10. 2006 ",
       popisCesty: " 300 metrů J od středu Hostěnic, na konci louky na kopci.  ",
@@ -1465,6 +1533,8 @@ export default {
       okres: " Blansko",
       obec: " Křtiny  ",
       jmeno: " Prnka, Tomáš  ",
+      fotkaUvod: { fotka: " prnka1.jpg " },
+
       nazev: " Památník patera Prnky ",
       kdyVznikl: "  ",
       popisCesty: " 500 metrů VSV od kostela ve Křtinách, u lesní cesty   ",
@@ -1505,6 +1575,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Ketkovice ",
       jmeno: " Foglar, Jaroslav  ",
+      fotkaUvod: { fotka: " foglar2.jpg " },
+
       nazev: " Foglarova louka ",
       kdyVznikl: " Provizorní cedule skautů z\xa0Oslavan je z\xa0roku 2008.  ",
       popisCesty:
@@ -1577,6 +1649,8 @@ export default {
       okres: " Vyškov ",
       obec: " Ježkovice ",
       jmeno: " Štrajtová, Vlasta  ",
+      fotkaUvod: { fotka: " strajtova1.jpg " },
+
       nazev: " Obrázek Vlasty Štrajtové ",
       kdyVznikl: " 1958 ",
       popisCesty:
@@ -1618,6 +1692,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Vranov ",
       jmeno: " Czada, Robert  ",
+      fotkaUvod: { fotka: " czada2.jpg " },
+
       nazev: " Památka adjunkta Czady ",
       kdyVznikl: " po 1908 ",
       popisCesty:
@@ -5338,6 +5414,8 @@ export default {
       okres: " Znojmo ",
       obec: "  Vedrovice  ",
       jmeno: " Klapal, Jan  ",
+      fotkaUvod: { fotka: " klapal1.jpg " },
+
       nazev: " Pomníček Jana Klapala ",
       kdyVznikl: "  ",
       popisCesty:
@@ -5367,6 +5445,8 @@ export default {
       okres: " Břeclav ",
       obec: " Nikolčice   ",
       jmeno: " Boháček, Josef  ",
+      fotkaUvod: { fotka: " bohacek2.jpg " },
+
       nazev: " Boháčkova památka ",
       kdyVznikl: " po 1979 ",
       popisCesty:
@@ -5397,6 +5477,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Újezd u Rosic   ",
       jmeno: " Lesáci z\xa0Rosic  ",
+      fotkaUvod: { fotka: " lesakumzrosic1.jpg " },
+
       nazev: " Památník lesákům z\xa0Rosic a Náměště. ",
       kdyVznikl: " 1928 ",
       popisCesty:
@@ -5430,6 +5512,8 @@ export default {
       okres: " Prostějov ",
       obec: " Protivanov   ",
       jmeno: " Gardelka, Zdeněk  ",
+      fotkaUvod: { fotka: " gardelka2.jpg " },
+
       nazev: " Kámen Zdeňka Gardelky ",
       kdyVznikl: " 2013  ",
       popisCesty:
@@ -5460,6 +5544,8 @@ export default {
       okres: "  Blansko ",
       obec: "  Hořice  ",
       jmeno: " Formánek, Antonín  ",
+      fotkaUvod: { fotka: " formanek1.jpg " },
+
       nazev: " Deska Antonína Formánka ",
       kdyVznikl: " po 1966  ",
       popisCesty:
@@ -5489,6 +5575,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Opatovice  ",
       jmeno: " Soukal, Josef  ",
+      fotkaUvod: { fotka: "statule1.jpg " },
+
       nazev: " Štatule ",
       kdyVznikl: " po 1830 ",
       popisCesty:
@@ -5527,6 +5615,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Pozořice  ",
       jmeno: " Dana, Franz  ",
+      fotkaUvod: { fotka: " dana1.jpg " },
+
       nazev: " Památka revírníka Dany  ",
       kdyVznikl: " Polovina 19. století. ",
       popisCesty:
@@ -5560,6 +5650,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Rozdrojovice  ",
       jmeno: " Drápal, Josef  ",
+      fotkaUvod: { fotka: " drapal1.jpg " },
+
       nazev: "Pomníček Josefa Drápala  ",
       kdyVznikl: "  ",
       popisCesty:
@@ -5591,6 +5683,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Soběšice  ",
       jmeno: " Morávek, Karel  ",
+      fotkaUvod: { fotka: "moravek2.jpg " },
+
       nazev: "Pěšina lesmistra Morávka  ",
       kdyVznikl: " 1934 ",
       popisCesty:
@@ -5637,6 +5731,8 @@ export default {
       okres: " Žďár nad Sázavou ",
       obec: "  Jindřichov  ",
       jmeno: " Poslední vlk  ",
+      fotkaUvod: { fotka: " vlk2.jpg " },
+
       nazev: "Pocta poslednímu vlkovi ",
       kdyVznikl:
         " Po roce 1861 tu býval dřevěný kříž, v\xa0roce 1933 vytesal lesní dělník Kafoněk z\xa0Pucova současnou subtilní kamennou desku. ",
@@ -5667,6 +5763,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Hostěnice  ",
       jmeno: " Nezval, Vlastimil  ",
+      fotkaUvod: { fotka: " nezval1.jpg " },
+
       nazev: " Pomníček Vlastimila Nezvala  ",
       kdyVznikl: " 1998 ",
       popisCesty:
@@ -5693,6 +5791,8 @@ export default {
       okres: " Třebíč ",
       obec: "  Sedlec  ",
       jmeno: " Czepl, Karl  ",
+      fotkaUvod: { fotka: " czepl1.jpg " },
+
       nazev: " Czeplova smrt ",
       kdyVznikl: " po 1842 ",
       popisCesty:
@@ -5730,6 +5830,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Hostěnice   ",
       jmeno: " Řičánek, Vilém  ",
+      fotkaUvod: { fotka: "ricanek1.jpg " },
+
       nazev: "  Kříž Viléma Řičánka ",
       kdyVznikl: " třicátá léta 20. století ",
       popisCesty:
@@ -5760,6 +5862,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Nebovidy  ",
       jmeno: " Bartl, Robert  ",
+      fotkaUvod: { fotka: " bartlrobert1.jpg " },
+
       nazev: " Bartlova památka ",
       kdyVznikl: " po 1954 ",
       popisCesty:
@@ -5790,6 +5894,7 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Jundrov  ",
       jmeno: " Pelikan, Heinrich  ",
+      fotkaUvod: { fotka: " pelikan1.jpg " },
       nazev: " Pelikánova smrt ",
       kdyVznikl: " po 1899 ",
       popisCesty:
@@ -5827,6 +5932,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Kanice  ",
       jmeno: " Lechner, Gustav  ",
+      fotkaUvod: { fotka: " lechner1.jpg " },
+
       nazev: " Lechnerova památka ",
       kdyVznikl: " po 1904 ",
       popisCesty:
@@ -5868,6 +5975,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Jinačovice   ",
       jmeno: " Kučírek, Antonín  ",
+      fotkaUvod: { fotka: "kucirek2.jpg " },
+
       nazev: " Pomník hajného Kučírka ",
       kdyVznikl: " po 1905 ",
       popisCesty:
@@ -5901,6 +6010,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Vranov  ",
       jmeno: " Obnova hospodaření  ",
+      fotkaUvod: { fotka: "obnovahospodareni1.jpg  " },
+
       nazev: " Obnova hospodaření v\xa0městských lesích. ",
       kdyVznikl: "  4. 12. 2007 ",
       popisCesty:
@@ -5931,6 +6042,7 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Babice  ",
       jmeno: " Schweiner a Zeman  ",
+      fotkaUvod: { fotka: " schweiner1.jpg " },
       nazev: " Pomník Schweinera a Zemana ",
       kdyVznikl: " po 1863 ",
       popisCesty:
@@ -5972,6 +6084,8 @@ export default {
       okres: " Třebíč ",
       obec: "  Krokočín  ",
       jmeno: " Kalina, Jan  ",
+      fotkaUvod: { fotka: " kalina2.jpg " },
+
       nazev: " Křížek hajného Kaliny ",
       kdyVznikl: "  ",
       popisCesty:
@@ -6011,6 +6125,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Jundrov  ",
       jmeno: " Gola, Rudolf  ",
+      fotkaUvod: { fotka: " gola2.jpg " },
+
       nazev: "  Zkosený sloup ",
       kdyVznikl: " konec 80.let 20. století ",
       popisCesty:
@@ -6048,6 +6164,7 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Kuřim  ",
       jmeno: " Koupě lesů  ",
+      fotkaUvod: { fotka: "koupelesu1.jpg" },
       nazev: " Připomenutí 400. výročí koupě kuřimských lesů ",
       kdyVznikl: " 1947 ",
       popisCesty:
@@ -6058,7 +6175,7 @@ export default {
         "  NA  PAMĚŤ // 400. VÝROČÍ  KOUPĚ  KUŘIMSKÝCH // LESŮ // 1547 - 1947 // ZEMSKÉ  HLAVNÍ // MĚSTO  BRNO   ",
 
       pozn: "    ",
-      naposledObnoveno: " XX.1.2021 ",
+      naposledObnoveno: " 30.1.2021 ",
       souradnice: " 49.2899042N, 16.5264900E ",
       kodMapa:
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/pekenokuda" width="400" height="280" frameborder="0"></iframe>  ',
@@ -6078,6 +6195,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Lažánky  ",
       jmeno: " Jánošík, Jiří  ",
+      fotkaUvod: { fotka: " janosik1.jpg " },
+
       nazev: " Památka na Jiřího Jánošíka  ",
       kdyVznikl: " po 1987 ",
       popisCesty:
@@ -6109,6 +6228,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Lipůvka   ",
       jmeno: " Šotola, Josef  ",
+      fotkaUvod: { fotka: " sotola1.jpg " },
+
       nazev: " Památka na Josefa Šotolu ",
       kdyVznikl: "  ",
       popisCesty:
@@ -6149,6 +6270,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Tišnov  ",
       jmeno: " Prosba Klucanina  ",
+      fotkaUvod: { fotka: " prosbaklucanina1.jpg " },
+
       nazev: " Prosba lesa na Klucanině ",
       kdyVznikl: " začátek 90. let 20. století ",
       popisCesty:
@@ -6178,6 +6301,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Předklášteří  ",
       jmeno: " Prosba Pasník  ",
+      fotkaUvod: { fotka: " prosbapasnik1.jpg " },
+
       nazev: " Prosba lesa na Pasníku  ",
       kdyVznikl: " zdá se, že na konci 80. let 20. století ",
       popisCesty:
@@ -6208,6 +6333,8 @@ export default {
       okres: " Vyškov ",
       obec: "  Heršpice  ",
       jmeno: " Wiehl, Julius - pomník  ",
+      fotkaUvod: { fotka: "wiehlpomnik1.jpg " },
+
       nazev: " Pomník Julia Wiehla ",
       kdyVznikl: " Slavnostně odhalen 9. června 1983  ",
       popisCesty:
@@ -6258,6 +6385,8 @@ export default {
       okres: " Blansko ",
       obec: "  Habrůvka  ",
       jmeno: " Wiehl, Julius - deska  ",
+      fotkaUvod: { fotka: " wiehldeska2.jpg " },
+
       nazev: " Pamětní deska Julia Wiehla ",
       kdyVznikl: " 1929 ",
       popisCesty:
@@ -6333,6 +6462,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Podolí  ",
       jmeno: " Žuráň  ",
+      fotkaUvod: { fotka: " zuran2.jpg " },
+
       nazev: " Pomník na Žuráni ",
       kdyVznikl:
         " Slavnostní odhalení bylo 5. července 1930 za přítomnosti české i francouzské generality. Místo je od té doby exteritoriálním územím Francie, většinu času tu vlaje francouzská vlajka. ",
@@ -6379,6 +6510,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Tvarožná  ",
       jmeno: " Bagration, Pjotr Ivanovič  ",
+      fotkaUvod: { fotka: " santon1.jpg " },
+
       nazev: " Pamětní desky na Santonu ",
       kdyVznikl:
         " Deska generála Claparèda byla odhalena koncem roku 1984 a podobizny generálů Valhuberta a Bagrationa přibyly v roce 1986. ",
@@ -6423,6 +6556,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Tvarožná  ",
       jmeno: " Bílý pomník  ",
+      fotkaUvod: { fotka: " bilypomnik2.jpg " },
+
       nazev: " Bílý pomník pod Santonem ",
       kdyVznikl:
         " V prosinci 1987 byl odhalen za přítomnosti našich, východoněmeckých a rakouských historických vojenských jednotek. ",
@@ -6461,6 +6596,8 @@ export default {
       okres: " Vyškov ",
       obec: "  Křenovice  ",
       jmeno: " Křenovické hroby  ",
+      fotkaUvod: { fotka: " krenovicehrob1.jpg " },
+
       nazev: " Křenovické hromadné hroby ",
       kdyVznikl:
         " Kříž je z roku 1920, pomníček ze třicátých let 20. století. ",
@@ -6497,6 +6634,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Prace  ",
       jmeno: " Jirčík, František ",
+      fotkaUvod: { fotka: "  jircik1.jpg " },
+
       nazev: " Pomník generálmajora Jirčíka. ",
       kdyVznikl: " Slavnostní odhalení bylo 3. prosince 1995 ",
       popisCesty:
@@ -6538,6 +6677,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Zbýšov  ",
       jmeno: " Tři císaři  ",
+      fotkaUvod: { fotka: "tricisari1.jpg " },
+
       nazev: " Pomník třem císařům ",
       kdyVznikl:
         " Ve vydlážděném kruhu stojící monumentální pomník, zbudovaný k důstojným vzpomínkám 200. výročí bitvy u Slavkova, byl odhalen 17. září 2005 .",
@@ -6586,6 +6727,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Tvarožná  ",
       jmeno: " Valhubert, Jean  ",
+      fotkaUvod: { fotka: " valhubert1.jpg " },
+
       nazev: " Pomník generála Valhuberta. ",
       kdyVznikl: " Zbudovala  obec Tvarožná a odhalila 24. listopadu 2000. ",
       popisCesty:
@@ -6633,6 +6776,7 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Soběšice   ",
       jmeno: " Bartoš, František Jan  ",
+      fotkaUvod: { fotka: " bartosnavrsi1.jpg " },
       nazev: " Bartošovo návrší ",
       kdyVznikl: " cedulka tu visí od začátku 21. století ",
       popisCesty:
@@ -6669,6 +6813,8 @@ export default {
       okres: " Blansko ",
       obec: "  Olomučany  ",
       jmeno: " Jan II - Olomučany  ",
+      fotkaUvod: { fotka: " olomucanskylicht3.jpg " },
+
       nazev: " Olomučanský lichtenštejnský památník ",
       kdyVznikl: " 1898 ",
       popisCesty:
@@ -6716,6 +6862,8 @@ export default {
       okres: " Blansko ",
       obec: "  Adamov  ",
       jmeno: " Jan II - Adamov  ",
+      fotkaUvod: { fotka: " adamovskylicht1.jpg " },
+
       nazev: " Adamovský lichtenštejnský památník  ",
 
       kdyVznikl: " 1898 ",
@@ -6761,6 +6909,8 @@ export default {
       okres: " Vyškov ",
       obec: "  Heršpice   ",
       jmeno: "  Jan II - Zlatý jelen  ",
+      fotkaUvod: { fotka: " zlatyjelenlicht2.jpg " },
+
       nazev: " Lichtenštejnský památník na Zlatém jelenu  ",
       kdyVznikl: " 1898 ",
       popisCesty:
@@ -6798,6 +6948,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Hostěnice  ",
       jmeno: " Jan II - Hostěnice  ",
+      fotkaUvod: { fotka: "  hostenicelicht3.jpg " },
+
       nazev: " Hostěnický lichtenštejnský památník  ",
       kdyVznikl: " 1898 ",
       popisCesty:
@@ -6836,6 +6988,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Hostěnice  ",
       jmeno: "  Jan II - Ochoz  ",
+      fotkaUvod: { fotka: "  ochozlicht2.jpg " },
+
       nazev: " Ochozský lichtenštejnský památník ",
       kdyVznikl: " 1898 , obnoven na začátku tohoto století.",
       popisCesty:
@@ -6872,6 +7026,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Hostěnice  ",
       jmeno: "  Jan II - Kalečník ",
+      fotkaUvod: { fotka: "kalecniklicht1.jpg " },
+
       nazev: " Lichtenštejnský památník pod Kalečníkem ",
 
       kdyVznikl: " 1898 ",
@@ -6907,6 +7063,8 @@ export default {
       okres: " Břeclav ",
       obec: "  Velké Hostěrádky  ",
       jmeno: "  Jan II - V. Hostěrádky  ",
+      fotkaUvod: { fotka: "  hosteradkylicht2.jpg " },
+
       nazev: " Hostěrádecký lichtenštejnský památník   ",
       kdyVznikl: " 1898 ",
       popisCesty:
@@ -8020,6 +8178,7 @@ export default {
       okres: " Blansko ",
       obec: "  Olomučany  ",
       jmeno: " Mácha, Karel Hynek  ",
+
       nazev: " Máchův pomník u Olomučan  ",
       kdyVznikl:
         " 1936, k uctění památky básníka při příležitosti 100. výročí úmrtí. ",

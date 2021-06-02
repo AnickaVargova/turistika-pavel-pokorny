@@ -187,6 +187,8 @@
           v-if="
             innerParams.stranka === 'cesty' ||
               innerParams.stranka === 'vypraveni' ||
+              innerParams.stranka === 'pomnicky' ||
+              innerParams.stranka === 'smircikrize' ||
               (innerParams.stranka === 'novepridane' && clankyUkazat)
           "
           v-bind:clanky="clankyPodKategorie"
@@ -254,6 +256,7 @@
             clanek.kategorie === this.params.stranka &&
             clanek.podkategorie == this.$route.params.kategorie
         );
+
         this.vybraneId = kategorie.id;
         this.vybranaId.push(kategorie.id);
         if (this.clankyPodKategorie.length === 0) {

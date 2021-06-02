@@ -1,5 +1,5 @@
 <template>
-  <div id="oknoPomnicky">
+  <div id="oknoPomnicky" v-if="!this.pomnickyZalozka">
     <div
       v-bind:class="{ ramecek: vybraneId !== clanek.id }"
       v-for="clanek in mojeClanky"
@@ -230,6 +230,7 @@
         testData: undefined,
         mojeClanky: this.clanky,
         isEdgeChromium: false,
+        pomnickyZalozka: false,
       };
     },
 
@@ -249,8 +250,18 @@
       vyfiltrujPomnicek(id) {
         this.$emit("kliknuti", id);
       },
+
+      getZalozky(pomnicky) {
+        this.pomnickyZalozka = pomnicky.every((pomnicek) => pomnicek.fotkaUvod);
+      },
     },
     created() {
+      if (
+        this.$route.name !== "DetailPomnicku" &&
+        this.$route.name !== "DetailKrize"
+      ) {
+        this.getZalozky(this.mojeClanky);
+      }
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>

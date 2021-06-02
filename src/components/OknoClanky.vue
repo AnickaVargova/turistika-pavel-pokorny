@@ -1,5 +1,5 @@
 <template>
-  <div id="oknoPomnicky">
+  <div id="oknoPomnicky" v-if="this.pomnickyZalozka">
     <div
       class="kontejnerClanek"
       v-for="(clanek, index) in mojeClanky"
@@ -20,7 +20,13 @@
     data() {
       return {
         mojeClanky: this.clanky,
+        pomnickyZalozka: false,
       };
+    },
+    methods: {
+      getZalozky(pomnicky) {
+        this.pomnickyZalozka = pomnicky.every((pomnicek) => pomnicek.fotkaUvod);
+      },
     },
     created() {
       if (this.$route.name === "NovePridane") {
@@ -28,6 +34,12 @@
           (clanek) =>
             clanek.kategorie === "vypraveni" || clanek.kategorie === "cesty"
         );
+      }
+      if (
+        this.$route.name !== "DetailPomnicku" &&
+        this.$route.name !== "DetailKrize"
+      ) {
+        this.getZalozky(this.mojeClanky);
       }
     },
   };
@@ -51,10 +63,19 @@
     grid-row: 1/2;
     grid-column: 1/2;
     margin: 15px;
+    /* margin-bottom: 0; */
+  }
+
+  .clanek h4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: rgb(63, 58, 139);
   }
 
   .clanek h3 {
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 1/2;
     justify-items: center;
     align-items: center;
@@ -63,7 +84,7 @@
   }
 
   .clanekFoto {
-    grid-row: 1/3;
+    grid-row: 1/4;
     grid-column: 2/3;
     width: 100%;
     height: 148px;
@@ -72,8 +93,8 @@
   }
 
   .clanekFoto img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
   }
 
