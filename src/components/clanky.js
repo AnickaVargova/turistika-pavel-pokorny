@@ -9469,5 +9469,242 @@ export default {
       ],
       proMe: "  XVII/645  24-413-64  obl---BO  ",
     },
+    {
+      id: 211,
+      kategorie: "smircikrize",
+      pridano: " 27/05/2021 ",
+      oblast: " Na východ  ",
+      jmeno: " Křenovice  ",
+      fotkaUvod: { fotka: " krenovice2.jpg " },
+      podkategorie: 5,
+      okres: " Brno - venkov   ",
+      obec: " Křenovice  ",
+      cislo: " 521  ",
+      kdeSeNaleza: " Na návrší Z od Křenovic.   ",
+      popis:
+        "  Neforemný kříž s tlustými rameny z jemnozrnného pískovce je vysoký 1,1 metru. Jsou na něm důlky, údajně od střel napoleonských vojáků.   ",
+      napis: "     ",
+      povest:
+        "  Cyrilometodějská legenda, obvyklá u starobyle vypadajících křížů na Moravě.  Také se traduje, že na původním místě usmrtil splašený kůň dívku, která žala trávu. Mohl být i rozcestníkem na Jantarové stezce. ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/krenovice.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: "http://www.smircikrize.euweb.cz/CR/Vyskov/Krenovice.html  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 426 " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013. str. 266.  ",
+        },
+        { nazev: " Preclík, Vladimír: Kameny pokání, 1992, s. 57-62. " },
+      ],
+      pozn:
+        " Omylem byl zaevidován i pod názvem 1296 Prace.<br> Stával původně o několik set metrů dál v poli blíže k Brnu, ale překážel při scelování pozemků ve 30. letech 20. století a tak ho přemístili na toto místo.   ",
+      naposledObnoveno: " 27.5.2021 ",
+      galerie: [
+        { fotka: "krenovice1.jpg", popisek: " (leden 2021) " },
+        { fotka: "krenovice2.jpg", popisek: " (leden 2021) " },
+      ],
+
+      proMe: " XX/1109  24-431-60  21---013  ",
+    },
+    {
+      id: 212,
+      kategorie: "smircikrize",
+      pridano: " 30/05/2021 ",
+      oblast: " Na jih  ",
+      jmeno: " Přísnotice  ",
+      fotkaUvod: { fotka: " prisnotice2.jpg " },
+      podkategorie: 4,
+      okres: "  Brno - venkov  ",
+      obec: " Přísnotice  ",
+      cislo: " 1856  ",
+      kdeSeNaleza: " JZ od Přísnotic v polích, u polní cesty.   ",
+      popis:
+        "  Původně to byl dvouramenný metr vysoký kříž, ale obě horní ramena byla už dříve odlomena. Na kříži dlouhý, dnes těžko čitelný text. Kříž byl nedávno odborně ošetřen a znovu usazen, okolí upraveno (stav 2021).  ",
+      napis:
+        " Opsal kronikář obce ve 30. letech. Mluví se v něm o zabití Kryštofa Krause z Grotky při pícování Tatarů v roce 1663. Kříž dala postavit jeho manželka. Kříž je popsán z obou stran, je možné, že je z jedné strany nápis český a z druhé nápis v němčině. ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/prisnotice.htm ",
+        },
+        {
+          nazev: "památkový katalog ",
+          adresa: "https://pamatkovykatalog.cz/smirci-kriz-15023971 ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 62 " },
+        {
+          nazev:
+            " René Bělohradský a ost.: Kamenné kříže Čech, Moravy a Slezska. 2013 str. 258-259.  ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 30.5.2021 ",
+      galerie: [
+        { fotka: "prisnotice1.jpg", popisek: " (únor 2021) " },
+        { fotka: "prisnotice2.jpg", popisek: " (únor 2021) " },
+        { fotka: "prisnotice3.jpg", popisek: " (únor 2021) " },
+      ],
+      proMe: "  XIV/492  34-122-17  21---021  ",
+    },
+    {
+      id: 213,
+      kategorie: "smircikrize",
+      pridano: " 30/05/2021 ",
+      oblast: " Na jih  ",
+      jmeno: " Hrušovany  ",
+      fotkaUvod: { fotka: "hrusovany2.jpg " },
+      podkategorie: 4,
+      okres: " Brno - venkov   ",
+      obec: " Hrušovany  ",
+      cislo: " 1857  ",
+      kdeSeNaleza:
+        "  V severní části Hrušovan u kaple. Původní poloha kamene byla na místě dnešní pískovny JZ od Hrušovan, při historické cestě z Brna do Vídně. Jak se písečník rozšiřoval, kámen několikrát stěhovali, až skončil v obci v prosklené skříni. ",
+      popis:
+        "  Kámen tvaru kruhové stély je vysoký 0,9 metru. Nad líc kamene vystupuje latinský kříž. Na kříži je německý text.  ",
+      napis:
+        "  Přečetl Vladimír Uminský roku 2013 takto: HANS // NEWBAWR  VON // TAEMITZ + AMAB  SN // MATTHEI // ANNO DNI // MDXCV .  AMAB znamená am Abend. Volně přeloženo: Hans Neubauer z Těmice zemřel večer na svatého Matěje (24. února) 1595.   ",
+      povest:
+        "  Sedlák si odvezl kámen domů a položil na práh, ale ve snu se mu začal objevovat objevovat duch důstojníka. Až kámen vrátil, měl pokoj.  ",
+      odkazy: [
+        {
+          nazev: "Hrušovany ",
+          adresa:
+            " https://www.hrusovanyubrna.cz/pametihodnosti/118-smirci-kriz",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Hrusovany_u_Brna.html ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 57 " },
+      ],
+      pozn:
+        " Smírčí kámen si dali v roce 2014 místní za sklo. Už ho tedy nepoškozují povětrnostní vlivy, ale příliš připomíná muzejní expozici a s místem dávné vraždy nemá už nic společného.  ",
+      naposledObnoveno: " 30.5.2021 ",
+      galerie: [
+        { fotka: "hrusovany1.jpg", popisek: " (únor 2021) " },
+        { fotka: "hrusovany2.jpg", popisek: " (únor 2021) " },
+      ],
+      proMe: "  XX/1115  24-344-56  24---021  ",
+    },
+    {
+      id: 214,
+      kategorie: "smircikrize",
+      pridano: " 31/05/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Štěpánovice 1  ",
+      fotkaUvod: { fotka: " stepanovice12.jpg " },
+      podkategorie: 2,
+      okres: "   Brno - venkov  ",
+      obec: " Štěpánovice  ",
+      cislo: " 1481  ",
+      kdeSeNaleza: " U silnice ze Štěpánovic do Nových Štěpánovic.   ",
+      popis:
+        "  Špičatá kamenná deska je vysoká 0,8 metru. Z ní vystupuje reliéf latinského kříže.  ",
+      napis: "     ",
+      povest: " Na tomto místě vlk roztrhal malé děvče.   ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/stepanovice.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Stepanovice.html ",
+        },
+        { nazev: " Jurman, Hynek: Smírčí kameny na Vysočině, 2000, str. 42 " },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 63 " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 31.5.2021 ",
+      galerie: [
+        { fotka: "stepanovice11.jpg", popisek: " (prosinec 2020) " },
+        { fotka: "stepanovice12.jpg", popisek: " (prosinec 2020) " },
+      ],
+      proMe: "  XIII/461  24-144-10  20---125  ",
+    },
+    {
+      id: 215,
+      kategorie: "smircikrize",
+      pridano: " 31/05/2021 ",
+      oblast: "  Na sever  ",
+      jmeno: " Štěpánovice 2  ",
+      fotkaUvod: { fotka: "stepanovice22.jpg " },
+      podkategorie: 2,
+      okres: "   Brno - venkov  ",
+      obec: " Štěpánovice  ",
+      cislo: " 1482  ",
+      kdeSeNaleza: " Leží Z od Štěpánovic, u rozcestí lesních cest.  ",
+      popis:
+        "  Mramorová deska má rozměr 0,9 x 0,6 metru. Do ní je zahlouben negativní reliéf kříže v kruhu.  ",
+      napis: "     ",
+      povest:
+        "  Podle jedné pověsti se tu dva řezníci ve zlosti vzájemně usmrtili. Podle jiné zabil řezníka zdivočelý býk.  ",
+      odkazy: [
+        {
+          nazev: " Tišnoviny ",
+          adresa:
+            " https://www.tisnoviny.cz/obsah/kamenne-krize-krizove-kameny-iii ",
+        },
+        {
+          nazev: "euweb  ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Stepanovice.html ",
+        },
+        { nazev: " Jurman, Hynek: Smírčí kameny na Vysočině, 2000, str. 34 " },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 63 " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 31.5.2021  ",
+      galerie: [
+        { fotka: "stepanovice21.jpg", popisek: " (prosinec 2020) " },
+        { fotka: "stepanovice22.jpg", popisek: " (prosinec 2020) " },
+      ],
+      proMe: "  XV/547  24-143-24  20---125  ",
+    },
+    {
+      id: 216,
+      kategorie: "smircikrize",
+      pridano: " 31/05/2021 ",
+      oblast: "  Na sever  ",
+      jmeno: " Synalov  ",
+      fotkaUvod: { fotka: " synalov.jpg " },
+      podkategorie: 2,
+      okres: "  Brno - venkov   ",
+      obec: " Strhaře  ",
+      cislo: " ----  ",
+      kdeSeNaleza:
+        " U samoty Žleby na pravé straně potoka Besének, pod mohutnými lipami. Kámen leží 50 metrů od hranice synalovského katastru.    ",
+      popis:
+        "  Kamenná deska je vysoká 0,6 metru. Na ní je vytesána korunka, malý křížek a další podivné znaky.  ",
+      napis:
+        "  Monogram J. O. a číslice 99, možná znamenají letopočet 1899.   ",
+      povest:
+        "  Měl tu být koňský hřbitov hraběcí rodiny Serenyiů z Lomnice.    ",
+      odkazy: [
+        {
+          nazev: " Lesy ČR ",
+          adresa:
+            " https://lesycr.cz/casopis-clanek/historie-sla-proti-proudu-besenku-aneb-co-od-silnice-neuvidite/ ",
+        },
+        {
+          nazev:
+            " Nečasová, Eva: Křížové kameny a kamenné kříže okresu Blansko, 2001, str. 47 ",
+        },
+      ],
+      pozn:
+        " Kamenů bylo prý sedm, ale časem zbyl jen jediný. Na přilehlé louce pořádala rodina Serényiů rodinné slavnosti a kameny prý byly památky na tato setkání. ",
+      naposledObnoveno: " 31.5.2021  ",
+      galerie: [{ fotka: " synalov.jpg", popisek: " (kveten 2021) " }],
+      proMe: "  XX/1146  24-143-46  21---051  ",
+    },
   ],
 };

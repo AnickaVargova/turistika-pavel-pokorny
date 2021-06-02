@@ -37,7 +37,8 @@
       }
       if (
         this.$route.name !== "DetailPomnicku" &&
-        this.$route.name !== "DetailKrize"
+        this.$route.name !== "DetailKrize" &&
+        this.$route.name !== "NovePridane"
       ) {
         this.getZalozky(this.mojeClanky);
       }
