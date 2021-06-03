@@ -383,6 +383,7 @@
 
         for (let clanek14 of clanky14dni) {
           let pridat = true;
+
           for (let clanek10 of poslednich10) {
             if (clanek10.id === clanek14.id) {
               pridat = false;

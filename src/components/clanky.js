@@ -1235,7 +1235,7 @@ export default {
       jmeno: " Jan II - Bučovice ",
       fotkaUvod: { fotka: " lichtenstein2.jpg " },
 
-      nazev: " Poděkování Janu z Lichtenštejna v Bučovicích ",
+      nazev: " Poděkování Janu z\xa0Lichtenštejna v\xa0Bučovicích ",
 
       kdyVznikl: " 1898 ",
       popisCesty:
@@ -1252,7 +1252,7 @@ export default {
         },
       ],
       pozn:
-        " Pomník ležel dlouho svalený na zemi. V roce 1988 byl znovu vztyčen. Park okolo se v roce 2019 postupně kultivuje. ",
+        " Pomník ležel dlouho svalený na zemi. V\xa0roce 1988 byl znovu vztyčen. Park okolo se v\xa0roce 2019 postupně kultivuje. ",
       naposledObnoveno: " 22. 2. 2021 ",
 
       souradnice: "49.1540617N, 17.0029914E",
@@ -4324,7 +4324,7 @@ export default {
         },
         {
           textOdstavce:
-            " <p>Před léty se brněnská historička paní Flodrová zmínila v rozhlasovém pořadu, že na fasádě dominikánského kostela se někde ukrývá míra brněnského lokte. Tehdy jsem zevrubně prohlédl celý spodek fasády kostela a na jižní straně kostela jsem našel záhadný <strong>nápis gotickou majuskulí</strong>, o kterém se nikde nic nepíše. Jestli to s loktem souvisí, nevím, možná časem někdo nápis vyluští.</p><p>Šikmo naproti nápisu se v Dominikánské ulici nachází vchod do Domu pánů z Kunštátu a v něm na nádvoří stojí hodnotná barokní socha <strong>Alegorie zimy</strong> od Ignáce Lengelachera (1698 – 1780). Původně byla určena pro zahradu zámku ve Slavkově. Lengelacher byl významný moravský sochař, který hodně pracoval pro Lichtensteiny a nejvíce jeho soch je rozeseto po jižní Moravě. V Brně máme jen dvě jeho práce. V zadní části arkádového nádvoří visí v patře novodobá realisace. V roce 2008 při příležitosti 1. ročníku festivalu Sochy pro Brno – Brno art open ji stvořil Vídeňan Hans Kupelwieser (nar. 1948). Velkoformátová plastika zvaná <strong>Gonflable</strong> (česky nafouknutelné) připomíná velký polštář z hliníkového plechu, který se nadýmal při instalaci. Plastika byla letos opravena a vyzdvižena do prvního poschodí.</p ",
+            " <p>Před léty se brněnská historička paní Flodrová zmínila v\xa0rozhlasovém pořadu, že na fasádě dominikánského kostela se někde ukrývá míra brněnského lokte. Tehdy jsem zevrubně prohlédl celý spodek fasády kostela a na jižní straně kostela jsem našel záhadný <strong>nápis gotickou majuskulí</strong>, o kterém se nikde nic nepíše. Jestli to s\xa0loktem souvisí, nevím, možná časem někdo nápis vyluští.</p><p>Šikmo naproti nápisu se v\xa0Dominikánské ulici nachází vchod do Domu pánů z\xa0Kunštátu a v\xa0něm na nádvoří stojí hodnotná barokní socha <strong>Alegorie zimy</strong> od Ignáce Lengelachera (1698 – 1780). Původně byla určena pro zahradu zámku ve Slavkově. Lengelacher byl významný moravský sochař, který hodně pracoval pro Lichtensteiny a nejvíce jeho soch je rozeseto po jižní Moravě. V\xa0Brně máme jen dvě jeho práce. V\xa0zadní části arkádového nádvoří visí v\xa0patře novodobá realisace. V\xa0roce 2008 při příležitosti 1. ročníku festivalu Sochy pro Brno – Brno art open ji stvořil Vídeňan Hans Kupelwieser (nar. 1948). Velkoformátová plastika zvaná <strong>Gonflable</strong> (česky nafouknutelné) připomíná velký polštář z\xa0hliníkového plechu, který se nadýmal při instalaci. Plastika byla letos opravena a vyzdvižena do prvního poschodí.</p ",
           foto: "alegorie-zimy.jpg",
           umisteniFoto: " vlevo   ",
           popisek: " Alegorie zimy od Lengelachera",
@@ -6046,9 +6046,9 @@ export default {
       nazev: " Pomník Schweinera a Zemana ",
       kdyVznikl: " po 1863 ",
       popisCesty:
-        " 100 metrů V od železniční zastávky v Babicích v údolí potoka Jančovec. Modrá značka vede nad pomníkem.  ",
+        " 100 metrů V od železniční zastávky v\xa0Babicích v\xa0údolí potoka Jančovec. Modrá značka vede nad pomníkem.  ",
       popis:
-        "  Kamenný pomník je vysoký dva metry. Do soklu z velkých pískovcových kamenů je vetknut vápencový blok a na jeho přední vyhlazené části je umístěn německý text.  ",
+        "  Kamenný pomník je vysoký dva metry. Do soklu z\xa0velkých pískovcových kamenů je vetknut vápencový blok a na jeho přední vyhlazené části je umístěn německý text.  ",
       napis:
         "  C. SCHWEINER  //  Forstadjunct  //  F. ZEMAN  //  Waldhöger  //  gefallen 10. Juli 1863 . Přeloženo :  C.S. lesnický mládenec, F.Z. hajný, padli 10. července 1863 ",
       odkazy: [
@@ -6063,7 +6063,7 @@ export default {
         { nazev: " Babický zpravodaj, září-říjen 2013, s.4 " },
       ],
       pozn:
-        "  Adjunkt Cornelius Schweiner a kanický hajný Filip Zeman se stali obětí přestřelky s pytláky v lichtenštejnských lesích.Našli je 10. července na Dolní louce. Vrazi nebyli nikdy dopadeni.Zašlý pomník se v posledních letech poněkud naklání.  ",
+        "  Adjunkt Cornelius Schweiner a kanický hajný Filip Zeman se stali obětí přestřelky s\xa0pytláky v\xa0lichtenštejnských lesích.Našli je 10. července na Dolní louce. Vrazi nebyli nikdy dopadeni.Zašlý pomník se v\xa0posledních letech poněkud naklání.  ",
       naposledObnoveno: " 29.1.2021 ",
       souradnice: " 49.2767667N, 16.6749386E ",
       kodMapa:
@@ -6091,7 +6091,7 @@ export default {
       popisCesty:
         " 700 metrů V od Jinošovské hájenky, tam kde výrazná lesní cesta kříží průsek a překračuje mělké údolí.  ",
       popis:
-        "  Železný křížek  je vsazený do kamenného soklu. V kameni je kovová tabulka s textem.   ",
+        "  Železný křížek  je vsazený do kamenného soklu. V\xa0kameni je kovová tabulka s\xa0textem.   ",
       napis:
         " V  TĚCHTO  MÍSTECH  BYL  ZÁKEŘNĚ  ZASTŘELEN  PYTLÁKEM // 11. 6. 1914 //  JAN  KALINA  //  LESNÍ  HAJNÝ .   Text je zřejmě novodobý. ",
       odkazy: [
@@ -6102,7 +6102,7 @@ export default {
         },
       ],
       pozn:
-        "  V sobotu 11. června 1914 večer slyšel hajný Kalina z lesa výstřel. Vydal se po zvuku a zanedlouho spatřil v lese člověka, který se skláněl nad vyvrženým srncem. Hajný mu ho chtěl odebrat, ale narazil na odpor. Po krátké potyčce si hajný hodil zvíře na záda a odcházel. Nechal pytlákovi zbraň a to byla chyba. Pytlák hajného střelil zezadu a zmizel. Kalinu našli lidé mrtvého až druhý den ráno. Vražda se vyšetřovala, ale za pár dní byl spáchán atentát v Sarajevu, vypukla světová válka a svět měl jiné starosti. Padala podezření na různé pytláky v okolí, ale nic jim nedokázali. Říkalo se, že jméno vraha znal jinošovský farář, kterému se zločinec vyzpovídal. Potrestán nebyl nikdo. ",
+        "  V sobotu 11. června 1914 večer slyšel hajný Kalina z\xa0lesa výstřel. Vydal se po zvuku a zanedlouho spatřil v\xa0lese člověka, který se skláněl nad vyvrženým srncem. Hajný mu ho chtěl odebrat, ale narazil na odpor. Po krátké potyčce si hajný hodil zvíře na záda a odcházel. Nechal pytlákovi zbraň a to byla chyba. Pytlák hajného střelil zezadu a zmizel. Kalinu našli lidé mrtvého až druhý den ráno. Vražda se vyšetřovala, ale za pár dní byl spáchán atentát v\xa0Sarajevu, vypukla světová válka a svět měl jiné starosti. Padala podezření na různé pytláky v\xa0okolí, ale nic jim nedokázali. Říkalo se, že jméno vraha znal jinošovský farář, kterému se zločinec vyzpovídal. Potrestán nebyl nikdo. ",
       naposledObnoveno: " 29.1.2021 ",
       souradnice: " 49.2422578N, 16.2160908E ",
       kodMapa:
@@ -6132,7 +6132,7 @@ export default {
       popisCesty:
         " 250 metrů Z od vrcholu Holedné (kóta 391) poblíž rozcestí.  ",
       popis:
-        "  Trojboký sloup je v půli přeseknut a zkosená špice se dotýká země. Výška pomníku je 3 a půl metru. Na svislé části sloupu je kamenná deska s textem.  ",
+        "  Trojboký sloup je v\xa0půli přeseknut a zkosená špice se dotýká země. Výška pomníku je 3 a půl metru. Na svislé části sloupu je kamenná deska s\xa0textem.  ",
       napis:
         " PAMÁTCE  ING.  RUDOLFA  GOLY //   *  7. 3. 1915  + 1. 8. 1964 // KTERÝ  SE  ZASLOUŽIL  O  VYBUDOVÁNÍ // BRNĚNSKÝCH  PŘÍMĚSTSKÝCH  LESŮ  ",
       odkazy: [
@@ -6143,7 +6143,7 @@ export default {
         },
       ],
       pozn:
-        "  Ze začátku byl pomník schován v hustníku a dlouhá léta byl bez tabulky, tedy se nevědělo, proč tam stojí. Proto název Zkosený sloup. Rudolf Gola byl taxátor městských lesů, sestavil plány těžebních postupů na mnoho let dopředu, podílel se na estetickém zalesňování brněnského okolí. Jeho zásluhou byly vysázeny  háje na březích Brněnské přehrady a zbudovány tři vodní nádrže v údolí Říčky. Zahynul tragicky 1. srpna 1964.  ",
+        "  Ze začátku byl pomník schován v\xa0hustníku a dlouhá léta byl bez tabulky, tedy se nevědělo, proč tam stojí. Proto název Zkosený sloup. Rudolf Gola byl taxátor městských lesů, sestavil plány těžebních postupů na mnoho let dopředu, podílel se na estetickém zalesňování brněnského okolí. Jeho zásluhou byly vysázeny  háje na březích Brněnské přehrady a zbudovány tři vodní nádrže v\xa0údolí Říčky. Zahynul tragicky 1. srpna 1964.  ",
       naposledObnoveno: " 30.1.2021 ",
       souradnice: " 49.2140592N, 16.5347614E ",
       kodMapa:
@@ -6170,7 +6170,7 @@ export default {
       popisCesty:
         "  Na úpatí JZ svahu Kuřimské hory (kóta 435), tam, kde strmá lesní rokle ústí do polí. U lesní cesty. ",
       popis:
-        "  Špidlatý lomový kámen je vysoký jeden metr. Do svislé plochy je vsazena černá deska s textem.  ",
+        "  Špidlatý lomový kámen je vysoký jeden metr. Do svislé plochy je vsazena černá deska s\xa0textem.  ",
       napis:
         "  NA  PAMĚŤ // 400. VÝROČÍ  KOUPĚ  KUŘIMSKÝCH // LESŮ // 1547 - 1947 // ZEMSKÉ  HLAVNÍ // MĚSTO  BRNO   ",
 
@@ -6200,14 +6200,14 @@ export default {
       nazev: " Památka na Jiřího Jánošíka  ",
       kdyVznikl: " po 1987 ",
       popisCesty:
-        " 2,5 kilometru SZ od kaple v Lažánkách, 300 metrů od rozcestí značených cest Pravková, na zelené značce u cesty.   ",
+        " 2,5 kilometru SZ od kaple v\xa0Lažánkách, 300 metrů od rozcestí značených cest Pravková, na zelené značce u cesty.   ",
       popis:
-        "  Lomový kámen, vysoký jeden metr, je na výšku zasazen do země. Na přední svislé straně je černá leštěná deska s obrázkem mladého lesníka a textem. Původní deska s oválnou fotografií byla poškozena a vyměněna, text mírně změněn.  ",
+        "  Lomový kámen, vysoký jeden metr, je na výšku zasazen do země. Na přední svislé straně je černá leštěná deska s\xa0obrázkem mladého lesníka a textem. Původní deska s\xa0oválnou fotografií byla poškozena a vyměněna, text mírně změněn.  ",
       napis:
         " ZDE  TRAGICKY  ZEMŘEL // JIŘÍ  JÁNOŠÍK //  * 16. 7. 1957   + 25. 3. 1987 // LESNÍ  Z  LAŽÁNEK // ...  ",
 
       pozn:
-        " Jiří Jánošík byl lesník z Lažánek. Rád sem chodil, toto místo bylo jeho oblíbené. Vybral si ho k dobrovolnému odchodu ze světa.   ",
+        " Jiří Jánošík byl lesník z\xa0Lažánek. Rád sem chodil, toto místo bylo jeho oblíbené. Vybral si ho k\xa0dobrovolnému odchodu ze světa.   ",
       naposledObnoveno: " 30.1.2021 ",
       souradnice: " 49.2962117N, 16.3665919E ",
       kodMapa:
@@ -6235,7 +6235,7 @@ export default {
       popisCesty:
         " SV od Lipůvky na Dubovém kopci. U lesní silničky na kraji lesa. Vede tu červená značka.  ",
       popis:
-        "  Načervenalý slepencový balvan postavený na výšku je vysoký 1,5 metru. Do svislé plochy na přední straně kamene je vsazena černá leštěná deska s delším textem.  ",
+        "  Načervenalý slepencový balvan postavený na výšku je vysoký 1,5 metru. Do svislé plochy na přední straně kamene je vsazena černá leštěná deska s\xa0delším textem.  ",
       napis:
         " V  TĚCHTO  LESÍCH  PŮSOBIL // MĚSTSKÝ  LESNÍ  HAJNÝ // JOSEF  ŠOTOLA //  *  10. 2. 1918 // KTERÝ  OBĚTOVAL  ŽIVOT  //  ZA  SVOU  VLAST,  //   BYL  UMUČEN  9. 4. 1945  //  V  MAUTHAUSENU   ",
       odkazy: [
@@ -6249,7 +6249,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        "  Josef Šotola byl mladý lesník, který se v červnu 1943 přistěhoval do Lažan a pracoval  jako hajný v Lipůvce. Na konci války pomáhal partyzánům a v souvislosti s útokem Němců na partyzánský oddíl 3. úderné roty ve Skaličce byl 6. 3. 1945 zatčen gestapem a uvězněn v Kounicových kolejích. Spolu s dalšími asi 200 pomocníky partyzánů byl 8. 4. 1945 transportován do koncentračního tábora Mauthausen. Němci celý transport  popravili v plynové komoře.   ",
+        "  Josef Šotola byl mladý lesník, který se v\xa0červnu 1943 přistěhoval do Lažan a pracoval  jako hajný v\xa0Lipůvce. Na konci války pomáhal partyzánům a v\xa0souvislosti s\xa0útokem Němců na partyzánský oddíl 3. úderné roty ve Skaličce byl 6. 3. 1945 zatčen gestapem a uvězněn v\xa0Kounicových kolejích. Spolu s\xa0dalšími asi 200 pomocníky partyzánů byl 8. 4. 1945 transportován do koncentračního tábora Mauthausen. Němci celý transport  popravili v\xa0plynové komoře.   ",
       naposledObnoveno: " 30.1.2021 ",
       souradnice: " 49.3487839N, 16.5728908E ",
       kodMapa:
@@ -6277,11 +6277,11 @@ export default {
       popisCesty:
         " Na plochém vrcholu Klucaniny asi 300 metrů JV od rozhledny. Vede tu modrá značka.  ",
       popis:
-        "  Kamenný pomník vysoký 1,7 metru je vyzděný ze světlých kamenů na cementovou maltu. V něm je zazděna velká bílá deska s textem.  ",
+        "  Kamenný pomník vysoký 1,7 metru je vyzděný ze světlých kamenů na cementovou maltu. V\xa0něm je zazděna velká bílá deska s\xa0textem.  ",
       napis: "  Známá modlitba  Prosba lesa. ",
 
       pozn:
-        "  Těžko říci, kdo je autorem modlitby Prosba lesa. Objevil ji profesor Opletal na vstupní bráně jugoslávského pavilonu na světové výstavě v Paříži v roce 1937. Text ve francouzštině si opsal, přeložil a použil poprvé na studánce Prosba lesa u Babic, zbudované v roce 1938. Odtud se text šíří po českých zemích v mnoha kopiích a mírných úpravách.  ",
+        "  Těžko říci, kdo je autorem modlitby Prosba lesa. Objevil ji profesor Opletal na vstupní bráně jugoslávského pavilonu na světové výstavě v\xa0Paříži v\xa0roce 1937. Text ve francouzštině si opsal, přeložil a použil poprvé na studánce Prosba lesa u Babic, zbudované v\xa0roce 1938. Odtud se text šíří po českých zemích v\xa0mnoha kopiích a mírných úpravách.  ",
       naposledObnoveno: " 30.1.2021 ",
       souradnice: " 49.3452217N, 16.4435858E ",
       kodMapa:
@@ -6306,13 +6306,13 @@ export default {
       nazev: " Prosba lesa na Pasníku  ",
       kdyVznikl: " zdá se, že na konci 80. let 20. století ",
       popisCesty:
-        " 1500 metrů JJZ od kostela v Předklášteří, na plochém hřbetu vedoucím na vrchol Pasníku. Na rozcestí lesních cest, vede tudy zelená značka.  ",
+        " 1500 metrů JJZ od kostela v\xa0Předklášteří, na plochém hřbetu vedoucím na vrchol Pasníku. Na rozcestí lesních cest, vede tudy zelená značka.  ",
       popis:
-        "  Kamenný pomník je vysoký skoro dva metry. Světlé kameny jsou spojeny cementovou maltou, uprostřed je bílá deska s černým textem.  ",
+        "  Kamenný pomník je vysoký skoro dva metry. Světlé kameny jsou spojeny cementovou maltou, uprostřed je bílá deska s\xa0černým textem.  ",
       napis: "  Známá modlitba  Prosba lesa.  ",
 
       pozn:
-        "   Těžko říci, kdo je autorem modlitby Prosba lesa. Objevil ji profesor Opletal na vstupní bráně jugoslávského pavilonu na světové výstavě v Paříži v roce 1937. Text ve francouzštině si opsal, přeložil a použil poprvé na studánce Prosba lesa u Babic, zbudované v roce 1938. Odtud se text šíří po českých zemích v mnoha kopiích a mírných úpravách.   ",
+        "   Těžko říci, kdo je autorem modlitby Prosba lesa. Objevil ji profesor Opletal na vstupní bráně jugoslávského pavilonu na světové výstavě v\xa0Paříži v\xa0roce 1937. Text ve francouzštině si opsal, přeložil a použil poprvé na studánce Prosba lesa u Babic, zbudované v\xa0roce 1938. Odtud se text šíří po českých zemích v\xa0mnoha kopiích a mírných úpravách.   ",
       naposledObnoveno: " 30.1.2021 ",
       souradnice: "49.3406139N, 16.3954039E  ",
       kodMapa:
@@ -6338,9 +6338,9 @@ export default {
       nazev: " Pomník Julia Wiehla ",
       kdyVznikl: " Slavnostně odhalen 9. června 1983  ",
       popisCesty:
-        " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V blízkém okolí je namačkáno nejméně pět vlastivědných památek.  ",
+        " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V\xa0blízkém okolí je namačkáno nejméně pět vlastivědných památek.  ",
       popis:
-        "  Pomník vysoký 1,6 metru je vyzděný z opracovaných kamenů, haklíkové zdivo. Do něho je zazděna leštěná žulová deska s hůře čitelným textem.   ",
+        "  Pomník vysoký 1,6 metru je vyzděný z\xa0opracovaných kamenů, haklíkové zdivo. Do něho je zazděna leštěná žulová deska s\xa0hůře čitelným textem.   ",
       napis:
         " SVĚTLÉ  PAMÁTCE // JULIA  WIEHLA  // 1847 - 1917 // VĚHLASNÉHO  ZAŘIZOVATELE // A  PĚSTITELE  LESŮ // V  OBLASTI  ŽDÁNICKÉHO  LESA  ",
       odkazy: [
@@ -6351,7 +6351,7 @@ export default {
         },
       ],
       pozn:
-        "  Julius Wiehl byl český lesník vynikající v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla.  ",
+        "  Julius Wiehl byl český lesník vynikající v\xa0mnoha oborech lesního hospodářství. V\xa0roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z\xa0prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt pamětní desku Julia Wiehla.  ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 144,
@@ -6359,7 +6359,7 @@ export default {
           odkazPodkategorie: 1,
           odkazKde: "pozn",
           predOdkazem:
-            "Julius Wiehl byl vynikající český lesník v mnoha oborech lesního hospodářství. V roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt   ",
+            "Julius Wiehl byl vynikající český lesník v\xa0mnoha oborech lesního hospodářství. V\xa0roce 1895 přišel do služeb Lichtenštejnů jako vedoucí lesní úředník. Výrazně ovlivnil hospodaření a výsadbu lesů ve Ždánickém lese, zejména přechodem výmladkového hospodaření na vysokokmenné. Rozdělil lesy novou sítí a dal budovat nové lesní cesty. Jako jeden z\xa0prvních se věnoval estetice lesa.V brněnském okolí to není jediná památka na tohoto lesníka. Nedaleko Býčí skály lze nalézt   ",
           textOdkazu: "pamětní desku Julia Wiehla ",
           zaOdkazem: ". ",
         },
@@ -6390,7 +6390,7 @@ export default {
       nazev: " Pamětní deska Julia Wiehla ",
       kdyVznikl: " 1929 ",
       popisCesty:
-        " 2,5 kilometru SZ od Habrůvky, v údolí zvaném Padouch, 400 metrů od silnice Josefov-Olomučany, na  J šikmé skalní stráni. Dost nenápadný památník na krásném místě.  ",
+        " 2,5 kilometru SZ od Habrůvky, v\xa0údolí zvaném Padouch, 400 metrů od silnice Josefov-Olomučany, na  J šikmé skalní stráni. Dost nenápadný památník na krásném místě.  ",
       popis:
         "  Tmavá leštěná kamenná deska je zasazena do stěny bývalého lomu.  ",
       napis: " JULIUS  //  WIEHL  //  1847 - 1917  //  1929    ",
@@ -6405,7 +6405,7 @@ export default {
         },
       ],
       pozn:
-        "  Julius Wiehl byl vynikající český lesník, pracoval ve vedoucích funkcích na  několika panstvích. Roku 1895 přišel na lichtenštejnské panství  jako vedoucí lesní úředník a 1898 vypracoval lesní plán, který znamenal zásadní zvrat v lesním hospodářství na území dnešního Školního lesního podniku. Cesta pod pamětní deskou se jmenuje Wiehlova cesta. Původně byla deska umístěna výše na skále. Protože byla poškozená, nahradili ji v roce 1998 a změnili sklon, aby neodrážela oblohu a byla čitelná z cesty. To se podařilo jen částečně. ",
+        "  Julius Wiehl byl vynikající český lesník, pracoval ve vedoucích funkcích na  několika panstvích. Roku 1895 přišel na lichtenštejnské panství  jako vedoucí lesní úředník a 1898 vypracoval lesní plán, který znamenal zásadní zvrat v\xa0lesním hospodářství na území dnešního Školního lesního podniku. Cesta pod pamětní deskou se jmenuje Wiehlova cesta. Původně byla deska umístěna výše na skále. Protože byla poškozená, nahradili ji v\xa0roce 1998 a změnili sklon, aby neodrážela oblohu a byla čitelná z\xa0cesty. To se podařilo jen částečně. ",
       naposledObnoveno: " 31.1.2021 ",
       souradnice: " 49.3155739N, 16.6934550E ",
       kodMapa:
@@ -6429,9 +6429,9 @@ export default {
       nazev: " Památka Jiřího Wachtla  ",
       kdyVznikl: " 1929 ",
       popisCesty:
-        " 2 kilometry V od kapličky v Klepačově, na širokém hřbetu Polomu nad Starohraběcí hutí. Na odbočce modré značky.  Toto místo bylo zvoleno k oficiálnímu otevření Lesnického slavínu. Stalo se dne 18. června 1929.  ",
+        " 2 kilometry V od kapličky v\xa0Klepačově, na širokém hřbetu Polomu nad Starohraběcí hutí. Na odbočce modré značky.  Toto místo bylo zvoleno k\xa0oficiálnímu otevření Lesnického slavínu. Stalo se dne 18. června 1929.  ",
       popis:
-        "  Několik volně uložených vápencových balvanů na sobě, na největším z nich je tmavá deska s textem.   ",
+        "  Několik volně uložených vápencových balvanů na sobě, na největším z\xa0nich je tmavá deska s\xa0textem.   ",
       napis: "  JIŘÍ  //  WACHTL //  1847 - 1912  //  1929     ",
       odkazy: [
         {
@@ -6440,7 +6440,7 @@ export default {
         },
       ],
       pozn:
-        "  Nápis na desce obsahuje chybu. Správně se lesník jmenoval Jiří Václav Wachtel a byl už pátou generací rodu Wachtlů (Wachtelů), kteří se zabývali lesnictvím. Rod Wachtlů sehrál na Jindřichohradecku zásadní roli v pokroku myslivosti a lesnictví 18. a 19. století. Jiří Václav W. získal zkušenosti v Německu a uplatnil je v jižních Čechách při přirozeném zmlazování lesa. Byl lesním estetikem a ochráncem starých stromů. V minulých letech byl horní balvan pomníku svalen na zemi (viz foto z ledna 2014), v současné době už je pomník v pořádku. ",
+        "  Nápis na desce obsahuje chybu. Správně se lesník jmenoval Jiří Václav Wachtel a byl už pátou generací rodu Wachtlů (Wachtelů), kteří se zabývali lesnictvím. Rod Wachtlů sehrál na Jindřichohradecku zásadní roli v\xa0pokroku myslivosti a lesnictví 18. a 19. století. Jiří Václav W. získal zkušenosti v\xa0Německu a uplatnil je v\xa0jižních Čechách při přirozeném zmlazování lesa. Byl lesním estetikem a ochráncem starých stromů. V\xa0minulých letech byl horní balvan pomníku svalen na zemi (viz foto z\xa0ledna 2014), v\xa0současné době už je pomník v\xa0pořádku. ",
       naposledObnoveno: " 31.1.2021 ",
       souradnice: " 49.3458369N, 16.6867264E ",
       kodMapa:
@@ -6468,9 +6468,9 @@ export default {
       kdyVznikl:
         " Slavnostní odhalení bylo 5. července 1930 za přítomnosti české i francouzské generality. Místo je od té doby exteritoriálním územím Francie, většinu času tu vlaje francouzská vlajka. ",
       popisCesty:
-        " Leží 1,5 kilometru JV od kostela v Podolí, na mírném návrší, 300 metrů od státní silnice do Slavkova. Známé místo.  ",
+        " Leží 1,5 kilometru JV od kostela v\xa0Podolí, na mírném návrší, 300 metrů od státní silnice do Slavkova. Známé místo.  ",
       popis:
-        " Kubistický pomník ve tvaru stolu umístěném na nízkém soklu. Autorem je arch. Vojtěch Kerhart z Prahy.  Na horní ploše je plastická mapa bojiště Slavkovské bitvy 2. prosince 1805 s postavením jednotek v 7 hodin ráno a Napoleonovo provolání k vítězným vojskům francouzsky a česky. Na Z straně kvádru je Napoleonovo N, na S straně pomníku je dlouhý Napoleonův rozkaz v předvečer bitvy ve francouzštině. Jeho překlad do češtiny byl na J straně kostky a v době okupace byl odstraněn. Zrovna tak nepřežil německou okupaci nápis na V straně pomníku, který vyjadřoval díky Francii a francouzské misi při budování pomníku  ",
+        " Kubistický pomník ve tvaru stolu umístěném na nízkém soklu. Autorem je arch. Vojtěch Kerhart z\xa0Prahy.  Na horní ploše je plastická mapa bojiště Slavkovské bitvy 2. prosince 1805 s\xa0postavením jednotek v\xa07 hodin ráno a Napoleonovo provolání k\xa0vítězným vojskům francouzsky a česky. Na Z straně kvádru je Napoleonovo N, na S straně pomníku je dlouhý Napoleonův rozkaz v\xa0předvečer bitvy ve francouzštině. Jeho překlad do češtiny byl na J straně kostky a v\xa0době okupace byl odstraněn. Zrovna tak nepřežil německou okupaci nápis na V straně pomníku, který vyjadřoval díky Francii a francouzské misi při budování pomníku  ",
       napis:
         " VOJÁCI!  MŮJ  NÁROD PŘIVÍTÁ  VÁS S RADOSTÍ A STAČÍ  ŘEKNETE - LI : // BYL  JSEM V BITVĚ U SLAVKOVA  ABY  SE  ODPOVĚDĚLO : HLE // HRDINA // NAPOLEON.  ",
       odkazy: [
@@ -6485,7 +6485,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        " <p>Místo pozoruhodné trojím způsobem.</p><p> Za prvé: pahorek Žuráně je navršen uměle, v 6. století tu nasypali mohylu o průměru až 80 metrů a výšce možná deseti metrů, která ukrývala hrobky nejvyšší aristokracie té doby. Akademik Poulík v letech 1948 - 50 mohylu prokopal, našel 2 hrobky z doby stěhování národů a několik dalších hrobů z jiných předslovanských dob. Všechny hroby byly vyloupené, tehdejší zloději brali jen šperky. Nejcennější nálezy pocházejí z konce 5. a začátku 6. století.</p><p>Za druhé: z tohoto místa řídil Napoleon v dopoledních hodinách 2. prosince 1805 bitvu u Slavkova. Přenocoval ve svém kočáře na úpatí kopce poblíž Bedřichovic, ráno využil mlhu, která skrývala jeho jednotky v údolí a v osm hodin nařídil pověstný “lví skok” , obsazení Prateckého kopce, čímž rozdělil ruská a rakouská vojska na poloviny, vpadl jim do zad a rozhodl bitvu ve svůj prospěch.</p><p>Za třetí: V roce 1927 navštívil Žuráň francouzský maršál Louis Franchet D’Esperey (1856-1942), veterán 1. světové války, společně s náčelníkem gen. štábu generálem Syrovým. Projevil přání, zda by tu mohl stát jednoduchý pomník. Stalo se do tří let.</p><p> Pomník je častým cílem vandalů a sběračů kovů. V roce 1995 zmizela bronzová mapa bojiště, našla se rozřezaná v Rakousku. </p>",
+        " <p>Místo pozoruhodné trojím způsobem.</p><p> Za prvé: pahorek Žuráně je navršen uměle, v\xa06. století tu nasypali mohylu o průměru až 80 metrů a výšce možná deseti metrů, která ukrývala hrobky nejvyšší aristokracie té doby. Akademik Poulík v\xa0letech 1948 - 50 mohylu prokopal, našel 2 hrobky z\xa0doby stěhování národů a několik dalších hrobů z\xa0jiných předslovanských dob. Všechny hroby byly vyloupené, tehdejší zloději brali jen šperky. Nejcennější nálezy pocházejí z\xa0konce 5. a začátku 6. století.</p><p>Za druhé: z\xa0tohoto místa řídil Napoleon v\xa0dopoledních hodinách 2. prosince 1805 bitvu u Slavkova. Přenocoval ve svém kočáře na úpatí kopce poblíž Bedřichovic, ráno využil mlhu, která skrývala jeho jednotky v\xa0údolí a v\xa0osm hodin nařídil pověstný “lví skok” , obsazení Prateckého kopce, čímž rozdělil ruská a rakouská vojska na poloviny, vpadl jim do zad a rozhodl bitvu ve svůj prospěch.</p><p>Za třetí: V roce 1927 navštívil Žuráň francouzský maršál Louis Franchet D’Esperey (1856-1942), veterán 1. světové války, společně s\xa0náčelníkem gen. štábu generálem Syrovým. Projevil přání, zda by tu mohl stát jednoduchý pomník. Stalo se do tří let.</p><p> Pomník je častým cílem vandalů a sběračů kovů. V\xa0roce 1995 zmizela bronzová mapa bojiště, našla se rozřezaná v\xa0Rakousku. </p>",
       naposledObnoveno: " 7.2.2021 ",
       souradnice: " 49.1797722N, 16.7384422E ",
       kodMapa:
@@ -6514,11 +6514,11 @@ export default {
 
       nazev: " Pamětní desky na Santonu ",
       kdyVznikl:
-        " Deska generála Claparèda byla odhalena koncem roku 1984 a podobizny generálů Valhuberta a Bagrationa přibyly v roce 1986. ",
+        " Deska generála Claparèda byla odhalena koncem roku 1984 a podobizny generálů Valhuberta a Bagrationa přibyly v\xa0roce 1986. ",
       popisCesty:
         " Návrší Santon leží JZ od Tvarožné. Na vrcholu je kaple a do její stěny  jsou  zazděny pamětní desky. Nepřehlédnutelné místo.  ",
       popis:
-        "  Kaple Panny Marie Sněžné zničená za napoleonské bitvy byla roku 1832 vystavěna znovu. V  SZ stěně jsou zvenku zasazeny dvě mramorové pamětní desky se jmény a reliéfy válečníků, spojených s tímto místem v bitvě u Slavkova. Vlevo je deska s reliéfem ruského generála Bagrationa, vedle je obdélníková deska s podobou francouzských velitelů Claparèda a Valhuberta. Autorem desek je sochař, malíř a grafik Vladimír Drápal (1921-2015) z Tvarožné. ",
+        "  Kaple Panny Marie Sněžné zničená za napoleonské bitvy byla roku 1832 vystavěna znovu. V\xa0 SZ stěně jsou zvenku zasazeny dvě mramorové pamětní desky se jmény a reliéfy válečníků, spojených s\xa0tímto místem v\xa0bitvě u Slavkova. Vlevo je deska s\xa0reliéfem ruského generála Bagrationa, vedle je obdélníková deska s\xa0podobou francouzských velitelů Claparèda a Valhuberta. Autorem desek je sochař, malíř a grafik Vladimír Drápal (1921-2015) z\xa0Tvarožné. ",
       napis: " BAGRATION  //  CLAPARÈDE  //  VALHUBERT  ",
       odkazy: [
         {
@@ -6530,7 +6530,7 @@ export default {
         },
       ],
       pozn:
-        "  <p>Pjotr Ivanovič Bagration (1765 - 1812) ruský šlechtic a voják gruzínského původu. Ve slavkovské bitvě byl generálporučík. Útočil na S křídle na Tvarožnou a dělostřelecky opevněný Santon. I když svoji bitvu o Tvarožnou vyhrál, hrozilo obklíčení a musil ustoupit. Jako jediný ruský generál ustupoval spořádaně až k Rousínovu. Padl u Borodina.</p><p>Michel Marie Claparède (1770 - 1842) byl v armádě od 23 let. Ve slavkovské bitvě měl hodnost brigádního generála. Se svým plukem lehké pěchoty (18 děl, 1800 mužů) úspěšně bránil Santon proti jednotkám Bagrationa.</p><p>Jean Roger Valhubert (1764 - 6. 12. 1802) byl v armádě od 17 let. Byl stoupencem Velké francouzské revoluce a generálem od roku 1803. Výbuchem dělostřeleckého granátu byl těžce zraněn, převezen do Brna, kde zemřel. Je nejvyšší šarží, která padla na francouzské straně.</p> ",
+        "  <p>Pjotr Ivanovič Bagration (1765 - 1812) ruský šlechtic a voják gruzínského původu. Ve slavkovské bitvě byl generálporučík. Útočil na S křídle na Tvarožnou a dělostřelecky opevněný Santon. I když svoji bitvu o Tvarožnou vyhrál, hrozilo obklíčení a musil ustoupit. Jako jediný ruský generál ustupoval spořádaně až k\xa0Rousínovu. Padl u Borodina.</p><p>Michel Marie Claparède (1770 - 1842) byl v\xa0armádě od 23 let. Ve slavkovské bitvě měl hodnost brigádního generála. Se svým plukem lehké pěchoty (18 děl, 1800 mužů) úspěšně bránil Santon proti jednotkám Bagrationa.</p><p>Jean Roger Valhubert (1764 - 6. 12. 1802) byl v\xa0armádě od 17 let. Byl stoupencem Velké francouzské revoluce a generálem od roku 1803. Výbuchem dělostřeleckého granátu byl těžce zraněn, převezen do Brna, kde zemřel. Je nejvyšší šarží, která padla na francouzské straně.</p> ",
       naposledObnoveno: " 8.2.2021 ",
       souradnice: " 49.1884139N, 16.7637211E ",
       kodMapa:
@@ -6564,17 +6564,17 @@ export default {
       popisCesty:
         " Leží JZ od Tvarožné, na úpatí návrší Santon. Kolem po pěšině vede žlutá značka.   ",
       popis:
-        " Z bílé plotny vystupuje  kříž z bílého mramoru krytý stříškou. Uprostřed kříže je hlava Krista, pod ní je girlanda z růží. Pomník je vysoký asi 1,5 metru.   ",
+        " Z bílé plotny vystupuje  kříž z\xa0bílého mramoru krytý stříškou. Uprostřed kříže je hlava Krista, pod ní je girlanda z\xa0růží. Pomník je vysoký asi 1,5 metru.   ",
       napis:
         " BLAHOSLAVENÍ // KTEŘÍ  V  PÁNU  UMÍRAJÍ // zkřížené šavle // 2. 12. 1805   ",
       odkazy: [
         {
           nazev:
-            " František Kopecký : Bitva u Slavkova a Morava v letech 1805-1806. 2001. str. 163 ",
+            " František Kopecký : Bitva u Slavkova a Morava v\xa0letech 1805-1806. 2001. str. 163 ",
         },
       ],
       pozn:
-        "  Pomník vznikl iniciativou Jana Vlčka z Tvarožné. Údajně je na místě hromadného hrobu. Na poli před pomníkem se od roku 1989 konají rekonstrukce Bitvy tří císařů za účasti jezdců na koních, děl, stovek uniformovaných a tisíců diváků. ",
+        "  Pomník vznikl iniciativou Jana Vlčka z\xa0Tvarožné. Údajně je na místě hromadného hrobu. Na poli před pomníkem se od roku 1989 konají rekonstrukce Bitvy tří císařů za účasti jezdců na koních, děl, stovek uniformovaných a tisíců diváků. ",
       naposledObnoveno: " 9.2.2021 ",
       souradnice: " 49.1889311N, 16.7654236E ",
       kodMapa:
@@ -6600,16 +6600,16 @@ export default {
 
       nazev: " Křenovické hromadné hroby ",
       kdyVznikl:
-        " Kříž je z roku 1920, pomníček ze třicátých let 20. století. ",
+        " Kříž je z\xa0roku 1920, pomníček ze třicátých let 20. století. ",
       popisCesty:
-        " Návrší U krchůvka leží 800 metrů ZSZ od horního nádraží Křenovice, u silnice z Křenovic do vsi Prace. Vede sem odbočka zelené značky. Na malé ploše se nachází čtyři vlastivědné objekty a několik hromadných hrobů. Je tu kříž z roku 1920, pomníček obětem cholery z let 1836 a 1866, pomníček obětem bitvy u Slavkova a za silnicí smírčí kříž 521 Křenovice.  ",
+        " Návrší U krchůvka leží 800 metrů ZSZ od horního nádraží Křenovice, u silnice z\xa0Křenovic do vsi Prace. Vede sem odbočka zelené značky. Na malé ploše se nachází čtyři vlastivědné objekty a několik hromadných hrobů. Je tu kříž z\xa0roku 1920, pomníček obětem cholery z\xa0let 1836 a 1866, pomníček obětem bitvy u Slavkova a za silnicí smírčí kříž 521 Křenovice.  ",
       popis:
-        " Se Slavkovskou bitvou souvisejí dva z nich. Pomníček vyzděný z lomového kamene do tvaru jehlanu je vysoký 1,2 metru. Na čelní stěně je bílá deska s textem. Za ním stojí pískovcový  kříž na stupňovitém soklu, vysoký 3 metry, s nápisem skoro nečitelným.  ",
+        " Se Slavkovskou bitvou souvisejí dva z\xa0nich. Pomníček vyzděný z\xa0lomového kamene do tvaru jehlanu je vysoký 1,2 metru. Na čelní stěně je bílá deska s\xa0textem. Za ním stojí pískovcový  kříž na stupňovitém soklu, vysoký 3 metry, s\xa0nápisem skoro nečitelným.  ",
       napis:
-        " Na pomníčku: POSLEDNÍ  ODPOČINEK  //  HRDINŮ  BITVY  // SLAVKOVSKÉ  //  Z  R.  1805 . Na kříži: Památce farníků křenovických // a vojínů bitvy // Slavkovské // jejichž těla // zde v Pánu // odpočívají // věnováno //  L. P. 1920 .",
+        " Na pomníčku: POSLEDNÍ  ODPOČINEK  //  HRDINŮ  BITVY  // SLAVKOVSKÉ  //  Z  R.  1805 . Na kříži: Památce farníků křenovických // a vojínů bitvy // Slavkovské // jejichž těla // zde v\xa0Pánu // odpočívají // věnováno //  L. P. 1920 .",
 
       pozn:
-        "  Památky se vztahují k několika zde umístěným hromadným hrobům z 19. století. Jeden z nich byl zlikvidován při stavbě silnice. Jeden přibyl, když ho přemístili ze Zbýšova sem.  ",
+        "  Památky se vztahují k\xa0několika zde umístěným hromadným hrobům z\xa019. století. Jeden z\xa0nich byl zlikvidován při stavbě silnice. Jeden přibyl, když ho přemístili ze Zbýšova sem.  ",
       naposledObnoveno: " 9.2.2021 ",
       souradnice: " 49.1459317N, 16.8149472E ",
       kodMapa:
@@ -6639,9 +6639,9 @@ export default {
       nazev: " Pomník generálmajora Jirčíka. ",
       kdyVznikl: " Slavnostní odhalení bylo 3. prosince 1995 ",
       popisCesty:
-        " Pratecký kopec (kóta 325) leží na J od vsi Prace. Na návrší stojí Muzeum bitvy u Slavkova a více vlastivědných památek. Mohyla míru, historický kanón, vysázené stromy pocházející z různých evropských končin  a pomník generálmajora Jirčíka na S od muzea.   ",
+        " Pratecký kopec (kóta 325) leží na J od vsi Prace. Na návrší stojí Muzeum bitvy u Slavkova a více vlastivědných památek. Mohyla míru, historický kanón, vysázené stromy pocházející z\xa0různých evropských končin  a pomník generálmajora Jirčíka na S od muzea.   ",
       popis:
-        " Do podstavce z žulových kostek je vsazen pískovcový pomník ozdobený císařskou orlicí. Na soklu je historická přilba, dělová koule a litinová deska s delším nápisem.  ",
+        " Do podstavce z\xa0žulových kostek je vsazen pískovcový pomník ozdobený císařskou orlicí. Na soklu je historická přilba, dělová koule a litinová deska s\xa0delším nápisem.  ",
       napis:
         " 2. 12. 1805  //  ZDE  BOJOVALA  ZA  SVOJI // VLAST  PĚŠÍ  BRIGÁDA // GEN.  MAJORA  JIRČÍKA  … Jsou tu vyjmenovány zúčastněné pluky rakouské armády.  ",
       odkazy: [
@@ -6651,11 +6651,11 @@ export default {
         },
         {
           nazev:
-            " František Kopecký : Bitva u Slavkova a Morava v letech 1805-1806. 2001. str. 165 ",
+            " František Kopecký : Bitva u Slavkova a Morava v\xa0letech 1805-1806. 2001. str. 165 ",
         },
       ],
       pozn:
-        "  František Jirčík - Franz Jircik (1758 Kutná Hora - 19?.12.1805)  byl rakouský generálmajor v císařských službách. Válečné zkušenosti získal v tureckých válkách, se svými jednotkami hlídal hranice ve Slavonii. V bitvě u Slavkova velel brigádě 4800 mužů. Byl smrtelně zraněn a zemřel po ústupu v Uherském Hradišti.   ",
+        "  František Jirčík - Franz Jircik (1758 Kutná Hora - 19?.12.1805)  byl rakouský generálmajor v\xa0císařských službách. Válečné zkušenosti získal v\xa0tureckých válkách, se svými jednotkami hlídal hranice ve Slavonii. V\xa0bitvě u Slavkova velel brigádě 4800 mužů. Byl smrtelně zraněn a zemřel po ústupu v\xa0Uherském Hradišti.   ",
       naposledObnoveno: " 10.2.2021 ",
       souradnice: " 49.1284856N, 16.7630392E ",
       kodMapa:
@@ -6681,11 +6681,11 @@ export default {
 
       nazev: " Pomník třem císařům ",
       kdyVznikl:
-        " Ve vydlážděném kruhu stojící monumentální pomník, zbudovaný k důstojným vzpomínkám 200. výročí bitvy u Slavkova, byl odhalen 17. září 2005 .",
+        " Ve vydlážděném kruhu stojící monumentální pomník, zbudovaný k\xa0důstojným vzpomínkám 200. výročí bitvy u Slavkova, byl odhalen 17. září 2005 .",
       popisCesty:
         " Leží  1,5 kilometru  od kaple ve Zbýšově na výšině (kóta 283), 150 metrů od silnice ze Zbýšova do Blažovic. Prochází tu zelená značka.  ",
       popis:
-        "  Na třech žulových pylonech se jmény tří císařů je umístěna velká koule, představující legendární slunce nad Slavkovem. Pomník je vysoký 3,5 metru a vedle stojí hrubě otesaný kvádr s deskami z červené žuly a několika nápisy v češtině, ruštině, němčině a francouzštině.    ",
+        "  Na třech žulových pylonech se jmény tří císařů je umístěna velká koule, představující legendární slunce nad Slavkovem. Pomník je vysoký 3,5 metru a vedle stojí hrubě otesaný kvádr s\xa0deskami z\xa0červené žuly a několika nápisy v\xa0češtině, ruštině, němčině a francouzštině.    ",
       napis:
         " Na pylonech:  NAPOLEON I.   FRANTIŠEK I.   ALEXANDER I.   Na deskách ve čtyřech jazycích:   V  DEN  BITVY  2. PROSINCE  1805 // PROŠLI TĚMITO MÍSTY V RŮZNÝCH  HODINÁCH // CÍSAŘ  FRANCOUZŮ  NAPOLEON I. // RUSKÝ  CAR  ALEXANDER I. // A RAKOUSKÝ  CÍSAŘ  FRANTIŠEK I. // JEJICHŽ  ARMÁDY  TU  BOJOVALY. // TOTO  KRVAVÉ  STŘETNUTÍ  BYLO  NAZVÁNO // “BITVA U SLAVKOVA” NEBO TAKÉ // “BITVA TŘÍ  CÍSAŘŮ” . ",
       odkazy: [
@@ -6704,7 +6704,7 @@ export default {
         },
       ],
       pozn:
-        " <p>Napoleon Bonaparte (1769 - 1821) byl francouzský státník a vojevůdce. Jeho závratnou kariéru zahájila Velká francouzská revoluce. Císařem Francie byl v letech 1804 - 1814 a krátce v roce 1815. V době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v Rusku v letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v šestnácti letech letech ho oženila s nevěstou o rok mladší. V bitvě u Slavkova mu bylo 28 let. V oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v roce 1804, v návaznosti na císařský titul Napoleona. V době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
+        " <p>Napoleon Bonaparte (1769 - 1821) byl francouzský státník a vojevůdce. Jeho závratnou kariéru zahájila Velká francouzská revoluce. Císařem Francie byl v\xa0letech 1804 - 1814 a krátce v\xa0roce 1815. V\xa0době bitvy u Slavkova mu bylo 36 let. Na vrcholu moci vládl většině Evropy. I pád jeho kariéry byl strmý, skončil ve vyhnanství na ostrově Svaté Heleny. Během napoleonských válek zahynul milion Francouzů.</p><p>Car Alexandr I. (1777 - 1825) vládl v\xa0Rusku v\xa0letech 1801 - 1825. Jeho babičkou byla Kateřina Veliká, která vzala do ruky výchovu následníka trůnu a v\xa0šestnácti letech letech ho oženila s\xa0nevěstou o rok mladší. V\xa0bitvě u Slavkova mu bylo 28 let. V\xa0oblasti vojenství mu radil Kutuzov, ale u Slavkova ho neposlechl.</p><p>František I. (1768 - 1835) poslední císař Svaté říše římské národa německého v\xa0letech 1792 - 1806 a první rakouský císař, kterým se sám prohlásil v\xa0roce 1804, v\xa0návaznosti na císařský titul Napoleona. V\xa0době bitvy u Slavkova mu bylo 37 let. Vládl až do smrti, ale skutečnou hlavou Rakouska byl kancléř Metternich. </p><p>Autory pomníku jsou Václav Pyllmajer a Martin Hotárek.</p> ",
       naposledObnoveno: " 10.2.2021 ",
       souradnice: " 49.1412844N, 16.7938322E ",
       kodMapa:
@@ -6732,9 +6732,9 @@ export default {
       nazev: " Pomník generála Valhuberta. ",
       kdyVznikl: " Zbudovala  obec Tvarožná a odhalila 24. listopadu 2000. ",
       popisCesty:
-        " Pomník leží JZ od Tvarožné u silnice k Rohlence. 50 metrů od něj je Kosmákův kříž a chráněný břek.  ",
+        " Pomník leží JZ od Tvarožné u silnice k\xa0Rohlence. 50 metrů od něj je Kosmákův kříž a chráněný břek.  ",
       popis:
-        "  Kamenný pomník pravidelného tvaru je vysoký dva metry. Do čelní stěny vsazena kovová plaketa a z ní v nízkém reliéfu vystupuje tvář muže s vysokým límcem, tak, jak ji na medaili ztvárnila autorka Milada Othová.    ",
+        "  Kamenný pomník pravidelného tvaru je vysoký dva metry. Do čelní stěny vsazena kovová plaketa a z\xa0ní v\xa0nízkém reliéfu vystupuje tvář muže s\xa0vysokým límcem, tak, jak ji na medaili ztvárnila autorka Milada Othová.    ",
       napis:
         " na reliéfu vlevo:  22. X. // 1764 // AVRANCHE   vpravo:  6. XII. // 1805 // BRNO    dole: JEAN . MARIA . MELON  // ROGER // VALHUBERT   ",
       odkazy: [
@@ -6754,7 +6754,7 @@ export default {
         },
       ],
       pozn:
-        " Dlouhé jméno na pomníku nebylo u francouzské šlechty neobvyklé. Po otci se jmenoval Roger. Přízvisko  Valhubert začal používat až v 25 letech, znamenalo to “ z Hubertova údolí”. V bitvě u Slavkova měl za úkol střežit říšskou silnici. Tam ho zasáhla koule z děla, přesné místo události není známo. Ránu si zasypal střelným prachem a ten zapálil - aby se rána dezinfikovala. Zraněného generála odvezli do Šlapanic a posléze do Brna, kde ho přijali v domě rytíře Chlumského na dnešní České 6. Ovšem sněti se neubránil a  není zcela jistý den jeho smrti. Pochován byl na starém brněnském hřbitově, dnes Tyršovy sady, kde má od roku 1969 pomníček v místech, kde mohl být pochován. A velkou sochu mu vztyčili i ve Francii, v rodném městě Avranche.  ",
+        " Dlouhé jméno na pomníku nebylo u francouzské šlechty neobvyklé. Po otci se jmenoval Roger. Přízvisko  Valhubert začal používat až v\xa025 letech, znamenalo to “ z\xa0Hubertova údolí”. V\xa0bitvě u Slavkova měl za úkol střežit říšskou silnici. Tam ho zasáhla koule z\xa0děla, přesné místo události není známo. Ránu si zasypal střelným prachem a ten zapálil - aby se rána dezinfikovala. Zraněného generála odvezli do Šlapanic a posléze do Brna, kde ho přijali v\xa0domě rytíře Chlumského na dnešní České 6. Ovšem sněti se neubránil a  není zcela jistý den jeho smrti. Pochován byl na starém brněnském hřbitově, dnes Tyršovy sady, kde má od roku 1969 pomníček v\xa0místech, kde mohl být pochován. A velkou sochu mu vztyčili i ve Francii, v\xa0rodném městě Avranche.  ",
       naposledObnoveno: " 10.2.2021 ",
       souradnice: " 49.1880497N, 16.7666511E ",
       kodMapa:
@@ -6780,9 +6780,9 @@ export default {
       nazev: " Bartošovo návrší ",
       kdyVznikl: " cedulka tu visí od začátku 21. století ",
       popisCesty:
-        " Leží na nenápadném návrší Mléna (kóta 407), 1500 metrů SSZ od kláštera klarisek v Soběšicích, nad lesní cestou.  ",
+        " Leží na nenápadném návrší Mléna (kóta 407), 1500 metrů SSZ od kláštera klarisek v\xa0Soběšicích, nad lesní cestou.  ",
       popis:
-        "  Malá plastová zelená cedulka je připevněna na silném dubu na vrcholu kopce. Vedle jsou patrny základy chaty Výrovka, jejíž dřevěná část byla přestěhována v šedesátých letech do arboreta ve Křtinách.  ",
+        "  Malá plastová zelená cedulka je připevněna na silném dubu na vrcholu kopce. Vedle jsou patrny základy chaty Výrovka, jejíž dřevěná část byla přestěhována v\xa0šedesátých letech do arboreta ve Křtinách.  ",
       napis: "  NÁVRŠÍ  //  REVÍRNÍKA  //  BARTOŠE  ",
       odkazy: [
         {
@@ -6795,7 +6795,7 @@ export default {
         },
       ],
       pozn:
-        "  Návrší dostalo jméno po Františku Janu Bartošovi (1873 - 1928), který v roce 1905 byl ustanoven knížecím revírníkem v Soběšicích. Oslava jmenování se uskutečnila právě na tomto návrší u srubu Výrovka. S revírníkem se dobře znal spisovatel Rudolf Těsnohlídek a jméno revírníka Bartoše se objevilo v románu Liška Bystrouška. ",
+        "  Návrší dostalo jméno po Františku Janu Bartošovi (1873 - 1928), který v\xa0roce 1905 byl ustanoven knížecím revírníkem v\xa0Soběšicích. Oslava jmenování se uskutečnila právě na tomto návrší u srubu Výrovka. S\xa0revírníkem se dobře znal spisovatel Rudolf Těsnohlídek a jméno revírníka Bartoše se objevilo v\xa0románu Liška Bystrouška. ",
       naposledObnoveno: " 8.2.2021 ",
       souradnice: " 49.2689889N, 16.6163975E ",
       kodMapa:
@@ -6820,9 +6820,9 @@ export default {
       popisCesty:
         " Leží 1,3 kilometru na V od středu Olomučan, u Klepáčovské lesní cesty. Končí tu odbočka červené značky.  ",
       popis:
-        "  V kupce vápencových kamenů vysoké 0,6 metru je zasunuta kamenná deska s vyhlazenou přední stěnou. Na ní je latinský text, obnovený v 80. letech 20. století. Po deseti letech byl k památníku umístěn dodatkový text na menším kamenu za deskou.  ",
+        "  V kupce vápencových kamenů vysoké 0,6 metru je zasunuta kamenná deska s\xa0vyhlazenou přední stěnou. Na ní je latinský text, obnovený v\xa080. letech 20. století. Po deseti letech byl k\xa0památníku umístěn dodatkový text na menším kamenu za deskou.  ",
       napis:
-        " Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku vlády // 12. listopadu 1898.  Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908. ",
+        " Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k\xa0jubileu 40. roku vlády // 12. listopadu 1898.  Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908. ",
       odkazy: [
         {
           nazev: " euweb ",
@@ -6840,7 +6840,7 @@ export default {
         },
       ],
       pozn:
-        "  V době vzniku před 120 lety byly lichtenštejnské pomníky vyzděné z kamenů a deska byla součástí pomníku. Pomníky se rozpadly a kameny zůstaly na místě. Z 58 zde  vysazených dubů zůstává po 120 letech jen torzo.  ",
+        "  V době vzniku před 120 lety byly lichtenštejnské pomníky vyzděné z\xa0kamenů a deska byla součástí pomníku. Pomníky se rozpadly a kameny zůstaly na místě. Z\xa058 zde  vysazených dubů zůstává po 120 letech jen torzo.  ",
       naposledObnoveno: " 17.2.2021 ",
       souradnice: " 49.3322400N, 16.6893819E  ",
       kodMapa:
@@ -6870,9 +6870,9 @@ export default {
       popisCesty:
         " Leží 100 metrů na J od železniční stanice Adamov, ve stráni nad chodníkem ke čtvrti Ptačina. Blízko vede žlutá značka.  ",
       popis:
-        "  Do základů z kamene a betonu jsou zazděny dvě desky. Větší obdélníková je vysoká 0,7 metru a na rovné ploše má latinský text. Vedle ní je menší kámen s nápisem. ",
+        "  Do základů z\xa0kamene a betonu jsou zazděny dvě desky. Větší obdélníková je vysoká 0,7 metru a na rovné ploše má latinský text. Vedle ní je menší kámen s\xa0nápisem. ",
       napis:
-        "  Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku vlády // 12. listopadu 1898.  Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908.  ",
+        "  Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k\xa0jubileu 40. roku vlády // 12. listopadu 1898.  Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908.  ",
       odkazy: [
         {
           nazev: " euweb ",
@@ -6888,7 +6888,7 @@ export default {
         },
       ],
       pozn:
-        "  Kníže Jan II z Lichtenštejna (1840 - 1929) se stal v 18 letech panovníkem Lichtenštejnského knížectví a ujal se vlády nad rodovým panstvím, které bylo rozloženo kolem Brna (Křtiny, Pozořice, Bučovice, Ždánice), na Moravě, v Čechách, Rakousku a Lichtenštejnsku. Byl znám dobročinností a mecenášstvím vědy a umění. Nikdy se neoženil, zemřel bez potomků. Ke 40. výročí vládnutí mu lesní personál v každém jeho polesí zbudoval památník a kolem vysadil duby. V brněnském okolí se dochovalo 16 památek, bývalo jich více. Po dalších deseti letech přibyl k desce menší kámen k připomínce 50. výročí vlády. I když kníže vládl celkem 71 let, další tabulky v letech 1918 a 1928 už nikdo nepřidával. Jan II zemřel ve valtickém zámku a byl uložen do rodinné hrobky na Vranově.Památník se původně nacházel na místě dnešního sídliště Ptačina a adamovští vlastivědci ho v roce 1968 přestěhovali k nádraží.   ",
+        "  Kníže Jan II z\xa0Lichtenštejna (1840 - 1929) se stal v\xa018 letech panovníkem Lichtenštejnského knížectví a ujal se vlády nad rodovým panstvím, které bylo rozloženo kolem Brna (Křtiny, Pozořice, Bučovice, Ždánice), na Moravě, v\xa0Čechách, Rakousku a Lichtenštejnsku. Byl znám dobročinností a mecenášstvím vědy a umění. Nikdy se neoženil, zemřel bez potomků. Ke 40. výročí vládnutí mu lesní personál v\xa0každém jeho polesí zbudoval památník a kolem vysadil duby. V\xa0brněnském okolí se dochovalo 16 památek, bývalo jich více. Po dalších deseti letech přibyl k\xa0desce menší kámen k\xa0připomínce 50. výročí vlády. I když kníže vládl celkem 71 let, další tabulky v\xa0letech 1918 a 1928 už nikdo nepřidával. Jan II zemřel ve valtickém zámku a byl uložen do rodinné hrobky na Vranově.Památník se původně nacházel na místě dnešního sídliště Ptačina a adamovští vlastivědci ho v\xa0roce 1968 přestěhovali k\xa0nádraží.   ",
       naposledObnoveno: " 17.2.2021 ",
       souradnice: "  49.2943461N, 16.6633428E  ",
       kodMapa:
@@ -6914,11 +6914,11 @@ export default {
       nazev: " Lichtenštejnský památník na Zlatém jelenu  ",
       kdyVznikl: " 1898 ",
       popisCesty:
-        " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V blízkém okolí lze najít pět vlastivědných památek.  ",
+        " V lokalitě Zlatý jelen na hřebeni Ždánického lesa, 3,5 kilometru na J od Mouřínova. Rozcestí značených cest, frekventované místo. V\xa0blízkém okolí lze najít pět vlastivědných památek.  ",
       popis:
         "  Do betonového základu je svisle vsazena kamenná deska vysoká 0,8 metru. Na čelní ohlazené straně je latinský text.  ",
       napis:
-        "  Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku vlády // 12. listopadu 1898. ",
+        "  Princ Joan // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898.  V překladu: Kníže Jan // Doubrava k\xa0jubileu 40. roku vlády // 12. listopadu 1898. ",
       odkazy: [
         {
           nazev: " euweb - Zlatý jelen ",
@@ -6927,7 +6927,7 @@ export default {
         },
       ],
       pozn:
-        "  Kámen stál původně východně odtud, na křižovatce Červený kříž se silnicí do Bučovic. Sem ho přivezli v padesátých letech, když se stavěl pomník Jírovskému. Měl být použit do základů pomníku, naštěstí k tomu nedošlo.  ",
+        "  Kámen stál původně východně odtud, na křižovatce Červený kříž se silnicí do Bučovic. Sem ho přivezli v\xa0padesátých letech, když se stavěl pomník Jírovskému. Měl být použit do základů pomníku, naštěstí k\xa0tomu nedošlo.  ",
       naposledObnoveno: " 18.2.2021 ",
       souradnice: " 49.0902536N, 16.9803081E ",
       kodMapa:
@@ -6953,9 +6953,9 @@ export default {
       nazev: " Hostěnický lichtenštejnský památník  ",
       kdyVznikl: " 1898 ",
       popisCesty:
-        "  Leží 2600 metrů SV od kaple v Hostěnicích, v sedle u rozcestí několika lesních cest.  ",
+        "  Leží 2600 metrů SV od kaple v\xa0Hostěnicích, v\xa0sedle u rozcestí několika lesních cest.  ",
       popis:
-        " Kamenný kužel je vyskládán z kamenů kdysi spojených maltou. V kamenech je vložena kamenná deska  1 x 0,6 metru a na ní je text, obnovený v roce 1999.  ",
+        " Kamenný kužel je vyskládán z\xa0kamenů kdysi spojených maltou. V\xa0kamenech je vložena kamenná deska  1 x 0,6 metru a na ní je text, obnovený v\xa0roce 1999.  ",
       napis:
         " Duby // Knížete Jana Dobrotivého // ku oslavě // XXXXletého Vladaření // XII.  listopadu MDCCCXCVIII .  ",
       odkazy: [
@@ -6966,7 +6966,7 @@ export default {
         },
       ],
       pozn:
-        "  Kolem pomníku se rozkládá zbytek dubiny, která tu byla zasazena v roce 1898, a to 20 dubů letních, 20 dubů zimních a 18 dubů červených. Kníže se ujal vlády v 18 letech a vládl v tom roce rovných 40 let.  ",
+        "  Kolem pomníku se rozkládá zbytek dubiny, která tu byla zasazena v\xa0roce 1898, a to 20 dubů letních, 20 dubů zimních a 18 dubů červených. Kníže se ujal vlády v\xa018 letech a vládl v\xa0tom roce rovných 40 let.  ",
       naposledObnoveno: " 18.2.2021 ",
       souradnice: " 49.2529528N, 16.8025133E ",
       kodMapa:
@@ -6993,11 +6993,11 @@ export default {
       nazev: " Ochozský lichtenštejnský památník ",
       kdyVznikl: " 1898 , obnoven na začátku tohoto století.",
       popisCesty:
-        " Leží 3,5 kilometru VSV od kostela v Ochozi, v údolí Říčky, nad lesní silničkou, po které vede červená značka.  ",
+        " Leží 3,5 kilometru VSV od kostela v\xa0Ochozi, v\xa0údolí Říčky, nad lesní silničkou, po které vede červená značka.  ",
       popis:
-        "  Do hromady naskládaných kamenů je vložena kamenná deska s latinským textem, pod ní skoro v zemi menší kámen s nápisem o 10 let mladším.   ",
+        "  Do hromady naskládaných kamenů je vložena kamenná deska s\xa0latinským textem, pod ní skoro v\xa0zemi menší kámen s\xa0nápisem o 10 let mladším.   ",
       napis:
-        " Na velké desce:  PRINCEPS  JOANNES  // DICtae hae oVerCVs  posItae //  IVbILaeo  XXXX annVI faVstI  //  regIMInIs  hVIVs  prInGIpIs  // XII  NOVEMBRIS. Opsáno s chybou. Na menším kamenu: L jahr. Reg. Jubil. // MCMVIII.  Střední část oslavného nápisu ke 40. výročí vládnutí knížete Jana je chronogram a dává letopočet 1898.  ",
+        " Na velké desce:  PRINCEPS  JOANNES  // DICtae hae oVerCVs  posItae //  IVbILaeo  XXXX annVI faVstI  //  regIMInIs  hVIVs  prInGIpIs  // XII  NOVEMBRIS. Opsáno s\xa0chybou. Na menším kamenu: L jahr. Reg. Jubil. // MCMVIII.  Střední část oslavného nápisu ke 40. výročí vládnutí knížete Jana je chronogram a dává letopočet 1898.  ",
       odkazy: [
         {
           nazev: " euweb - Ochoz ",
@@ -7005,7 +7005,7 @@ export default {
         },
       ],
       pozn:
-        "   Kníže Jan II z Lichtenštejna (1840 - 1929) se stal v 18 letech panovníkem Lichtenštejnského knížectví a ujal se vlády nad rodovým panstvím, které bylo rozloženo kolem Brna (Křtiny, Pozořice, Bučovice, Ždánice), na Moravě, v Čechách, Rakousku a Lichtenštejnsku. Byl znám dobročinností a mecenášstvím vědy a umění. Nikdy se neoženil a zemřel bez potomků. Ke 40. výročí vládnutí mu lesní personál v každém jeho polesí zbudoval památník a kolem vysadil duby. V brněnském okolí se dochovalo 16 památek, bývalo jich více. Po dalších deseti letech přibyl k desce menší kámen k připomínce 50. výročí vlády. I když kníže vládl celkem 71 let, další tabulky v letech 1918 a 1928 už nikdo nepřidával. Jan II zemřel ve valtickém zámku a byl uložen do rodinné hrobky na Vranově.",
+        "   Kníže Jan II z\xa0Lichtenštejna (1840 - 1929) se stal v\xa018 letech panovníkem Lichtenštejnského knížectví a ujal se vlády nad rodovým panstvím, které bylo rozloženo kolem Brna (Křtiny, Pozořice, Bučovice, Ždánice), na Moravě, v\xa0Čechách, Rakousku a Lichtenštejnsku. Byl znám dobročinností a mecenášstvím vědy a umění. Nikdy se neoženil a zemřel bez potomků. Ke 40. výročí vládnutí mu lesní personál v\xa0každém jeho polesí zbudoval památník a kolem vysadil duby. V\xa0brněnském okolí se dochovalo 16 památek, bývalo jich více. Po dalších deseti letech přibyl k\xa0desce menší kámen k\xa0připomínce 50. výročí vlády. I když kníže vládl celkem 71 let, další tabulky v\xa0letech 1918 a 1928 už nikdo nepřidával. Jan II zemřel ve valtickém zámku a byl uložen do rodinné hrobky na Vranově.",
       naposledObnoveno: " 18.2.2021 ",
       souradnice: " 49.2690797N, 16.7835744E ",
       kodMapa:
@@ -7032,9 +7032,9 @@ export default {
 
       kdyVznikl: " 1898 ",
       popisCesty:
-        " 4 kilometry SV od kostela v Pozořicích leží výrazná křižovatka osmi lesních cest pod Kalečníkem. Od ní asi 80 metrů k JZ po lesní silničce. Je dost nenápadný. Vede tu odbočka červené značky.  ",
+        " 4 kilometry SV od kostela v\xa0Pozořicích leží výrazná křižovatka osmi lesních cest pod Kalečníkem. Od ní asi 80 metrů k\xa0JZ po lesní silničce. Je dost nenápadný. Vede tu odbočka červené značky.  ",
       popis:
-        " Z památníku zůstalo jen torzo, menší kámen a i ten je uražený. V hromádce volně ložených kamenů o výšce necelého 0,5 metru je vložen kámen s latinským nápisem na začištěné ploše. Hlavní deska ke knížecímu jubileu vládnutí Jana II z Lichtenštejna se tady nedochovala.  ",
+        " Z památníku zůstalo jen torzo, menší kámen a i ten je uražený. V\xa0hromádce volně ložených kamenů o výšce necelého 0,5 metru je vložen kámen s\xa0latinským nápisem na začištěné ploše. Hlavní deska ke knížecímu jubileu vládnutí Jana II z\xa0Lichtenštejna se tady nedochovala.  ",
       napis:
         "  L jähr. Reg. Jubil. // MCMVIII . Přeloženo: Oslava 50 let vlády // 1908.  ",
       odkazy: [
@@ -7045,7 +7045,7 @@ export default {
         },
       ],
       pozn:
-        "  Server euweb pojmenovává tento kámen jako Jezera (Kalečník), i když s Jezery nemá nic společného.  ",
+        "  Server euweb pojmenovává tento kámen jako Jezera (Kalečník), i když s\xa0Jezery nemá nic společného.  ",
       naposledObnoveno: " 19.2.2021 ",
       souradnice: " 49.2472133N, 16.8224214E ",
       kodMapa:
@@ -7070,9 +7070,9 @@ export default {
       popisCesty:
         " Leží 3,6 km SSV od kostela ve Velkých Hostěrádkách, u lesní silnice Těšanka prakticky na vrcholu Písečná (kóta 374).  ",
       popis:
-        "  Hromada volně ložených kamenů je vysoká 1 metr. V ní jsou zaskládány dvě desky s latinskými nápisy. Velká je pravidelná obdélníková, malá vedle je nepravidelného tvaru. ",
+        "  Hromada volně ložených kamenů je vysoká 1 metr. V\xa0ní jsou zaskládány dvě desky s\xa0latinskými nápisy. Velká je pravidelná obdélníková, malá vedle je nepravidelného tvaru. ",
       napis:
-        "  Princ Jean // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898. Opsáno s chybou.  V překladu: Kníže Jan // Doubrava k jubileu 40. roku panování // 12. listopadu 1898. <br> Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: 50 let jubileum panování // 1908.  ",
+        "  Princ Jean // Quercetum // ad 40. ann. Regim. // Jubil. // 12. Nov. 1898. Opsáno s\xa0chybou.  V překladu: Kníže Jan // Doubrava k\xa0jubileu 40. roku panování // 12. listopadu 1898. <br> Text na menším kamenu: L jähr. Reg. Jubil. // MCMVIII . Přeloženo: 50 let jubileum panování // 1908.  ",
       odkazy: [
         {
           nazev: " euweb - hostěrádky ",
@@ -7102,20 +7102,20 @@ export default {
       kategorie: "pomnicky",
       pridano: " 04/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Příbram  ",
       jmeno: " Lev - Zastávka  ",
       nazev: " Zastávecký lev ",
       kdyVznikl:
-        " Odhaduji, že za 1. republiky, v době vypjatějšího nacionalismu. V 60. letech 20. století byl už reliéf  dosti omšelý. ",
+        " Odhaduji, že za 1. republiky, v\xa0době vypjatějšího nacionalismu. V\xa060. letech 20. století byl už reliéf  dosti omšelý. ",
       popisCesty:
-        " Leží 1500 metrů Z od kaple v Zastávce, v prudkém svahu nad zářezem železniční trati, blízko železničního mostu.  ",
+        " Leží 1500 metrů Z od kaple v\xa0Zastávce, v\xa0prudkém svahu nad zářezem železniční trati, blízko železničního mostu.  ",
       popis:
-        "  Kamenný reliéf v podobě dvouocasého lva je vyskládán z kamenů pospojovaných betonem. Je v úrovni země a má rozměry 1,6 x 1,2 metru.  ",
+        "  Kamenný reliéf v\xa0podobě dvouocasého lva je vyskládán z\xa0kamenů pospojovaných betonem. Je v\xa0úrovni země a má rozměry 1,6 x 1,2 metru.  ",
       napis: "   ",
       pozn:
-        "  Čas od času je reliéf nabílen barvou. Než barvu smyje déšť, svítí do daleka. Dobře je vidět i z okna vlaku po přejezdu železničního mostu.  ",
+        "  Čas od času je reliéf nabílen barvou. Než barvu smyje déšť, svítí do daleka. Dobře je vidět i z\xa0okna vlaku po přejezdu železničního mostu.  ",
       naposledObnoveno: " 4.3.2021 ",
       souradnice: " 49.1871464N, 16.3426514E ",
       kodMapa:
@@ -7132,7 +7132,7 @@ export default {
       kategorie: "pomnicky",
       pridano: " 04/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Blansko ",
       obec: "  Bořitov  ",
       jmeno: " Husitští bojovníci  ",
@@ -7141,7 +7141,7 @@ export default {
       popisCesty:
         " Leží 2,3 kilometru S od Bořitova, na SZ úpatí Velkého Chlumu. Kolem prochází červená značka.  ",
       popis:
-        "  Do pískovcové skalky, vystupující ze svahu Velkého Chlumu, je vytesáno čtyři metry vysoké sousoší tří nejdůležitějších aktérů husitství. Nejvýše stojí Jan Hus s rukou na knize, vedle je Jan Žižka s palcátem a nejníže stojí vousatý Prokop Holý.  ",
+        "  Do pískovcové skalky, vystupující ze svahu Velkého Chlumu, je vytesáno čtyři metry vysoké sousoší tří nejdůležitějších aktérů husitství. Nejvýše stojí Jan Hus s\xa0rukou na knize, vedle je Jan Žižka s\xa0palcátem a nejníže stojí vousatý Prokop Holý.  ",
       napis: "   ",
       odkazy: [
         {
@@ -7156,7 +7156,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        " <p> Stanislav Rolínek (1902-1931) byl sochař samouk z Bořitova. Je obdivuhodné, že plachý naivní umělec vytvořil takové sousoší primitivními prostředky a bez výtvarného vzdělání. Tímto dílem se proslavil a mohl v Rudce vytvořit monumentální sochu TGM. Jako velký talent byl přijat ke studiu na Akademii, po roce však předčasně umírá.</p><p>Sochy byly dvakrát restaurovány, naposled v roce 1996, kdy musely být některé části měkkého pískovce doplněny.  Nyní jsou známou atrakcí, ale ještě začátkem 90. let byly zapomenuté a silně poničené.</p> ",
+        " <p> Stanislav Rolínek (1902-1931) byl sochař samouk z\xa0Bořitova. Je obdivuhodné, že plachý naivní umělec vytvořil takové sousoší primitivními prostředky a bez výtvarného vzdělání. Tímto dílem se proslavil a mohl v\xa0Rudce vytvořit monumentální sochu TGM. Jako velký talent byl přijat ke studiu na Akademii, po roce však předčasně umírá.</p><p>Sochy byly dvakrát restaurovány, naposled v\xa0roce 1996, kdy musely být některé části měkkého pískovce doplněny.  Nyní jsou známou atrakcí, ale ještě začátkem 90. let byly zapomenuté a silně poničené.</p> ",
       naposledObnoveno: " 4.3.2021 ",
       souradnice: " 49.4433908N, 16.5864117E ",
       kodMapa:
@@ -7170,19 +7170,19 @@ export default {
       kategorie: "pomnicky",
       pridano: " 05/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Lelekovice  ",
       jmeno: " Lelkovadlo  ",
       nazev: " Past na lelky u Lelekovic. ",
       kdyVznikl:
-        " Jaro 2001. Byla to první socha v plenéru od amatérského řezbáře Jana Nováka. Do roku 2006 jich na Vranovsku vyřezal pět: Pohled za nekonečno, Ponávka u Lelekovic, Poseidónův trojzubec a Mojžíšovy desky ",
+        " Jaro 2001. Byla to první socha v\xa0plenéru od amatérského řezbáře Jana Nováka. Do roku 2006 jich na Vranovsku vyřezal pět: Pohled za nekonečno, Ponávka u Lelekovic, Poseidónův trojzubec a Mojžíšovy desky ",
       popisCesty:
         " 2 kilometry S od Lelekovic na rozcestí lesních i turistických cest, kterému se říkalo U lavek. Známé a frekventované místo.  ",
       popis:
-        "  Dřevěná trojnožka z masivních trámů je vysoká 3 metry. Uvnitř vyřezána zamřížovaná “past na lelky”. Nechybí návod k odlelkování.  Vedle stojí dřevěný rozcestník v podobě sloupu s vyřezanými nápisy.  ",
+        "  Dřevěná trojnožka z\xa0masivních trámů je vysoká 3 metry. Uvnitř vyřezána zamřížovaná “past na lelky”. Nechybí návod k\xa0odlelkování.  Vedle stojí dřevěný rozcestník v\xa0podobě sloupu s\xa0vyřezanými nápisy.  ",
       napis:
-        " Kromě tabulky s nápisem Lelkovadlo neboli past na lelky a návodem, je na jedné noze vyřezáno:  J.NOVÁK,  VRANOV,  2001  ",
+        " Kromě tabulky s\xa0nápisem Lelkovadlo neboli past na lelky a návodem, je na jedné noze vyřezáno:  J.NOVÁK,  VRANOV,  2001  ",
       odkazy: [
         {
           nazev: " turistika ",
@@ -7201,7 +7201,7 @@ export default {
         { fotka: " lelkovadlo1.jpg", popisek: "  (prosinec 2007) " },
         {
           fotka: "lelkovadlo2.jpg",
-          popisek: "  Návod k použití (prosinec 2007) ",
+          popisek: "  Návod k\xa0použití (prosinec 2007) ",
         },
         {
           fotka: "lelkovadlo3.jpg",
@@ -7216,17 +7216,17 @@ export default {
       kategorie: "pomnicky",
       pridano: " 05/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Česká  ",
       jmeno: " Chodec - Česká  ",
-      nazev: " Socha Chodce k České ",
+      nazev: " Socha Chodce k\xa0České ",
       kdyVznikl:
-        "  Na  jaře 2008 při slavnosti Dne Ponávky. První z několika soch Václava Kyselky, umístěných v mikroregionu Ponávka. Spojuje je naučná stezka značená vlnovkou. Další sochy stejného autora: Brejlení, Vraní sloup, Améba. ",
+        "  Na  jaře 2008 při slavnosti Dne Ponávky. První z\xa0několika soch Václava Kyselky, umístěných v\xa0mikroregionu Ponávka. Spojuje je naučná stezka značená vlnovkou. Další sochy stejného autora: Brejlení, Vraní sloup, Améba. ",
       popisCesty:
         " Leží 400 metrů na Z od středu České, u červeně značené cesty.  ",
       popis:
-        "  Dřevěná abstraktní socha z kůlů představuje postavu chodce s holí. Je vysoká 4 metry a je  spojena s lavičkou.   ",
+        "  Dřevěná abstraktní socha z\xa0kůlů představuje postavu chodce s\xa0holí. Je vysoká 4 metry a je  spojena s\xa0lavičkou.   ",
       napis: "   ",
       odkazy: [
         { nazev: " Václav Kyselka ", adresa: " https://www.art-vaky.cz/ " },
@@ -7235,7 +7235,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        "  Václav Kyselka (nar. 1975) žije a pracuje v Křoví u Tišnova. Zabývá se většinou dřevěnými sochami do zahrad a veřejných prostranství. V Brně a okolí má několik venkovních realisací.  ",
+        "  Václav Kyselka (nar. 1975) žije a pracuje v\xa0Křoví u Tišnova. Zabývá se většinou dřevěnými sochami do zahrad a veřejných prostranství. V\xa0Brně a okolí má několik venkovních realisací.  ",
       naposledObnoveno: " 5.3.2021 ",
       souradnice: " 49.2811894N, 16.5587247E ",
       kodMapa:
@@ -7255,18 +7255,18 @@ export default {
       kategorie: "pomnicky",
       pridano: " 06/03/2021 ",
       podkategorie: 10,
-      druh: "  Válečné, sochy v přírodě  ",
+      druh: "  Válečné, sochy v\xa0přírodě  ",
       okres: " Třebíč ",
       obec: "  Lesní Jakubov  ",
       jmeno: " Soukop František  ",
       nazev: " Památka Františka Soukopa ",
       kdyVznikl: " 1947 ",
       popisCesty:
-        " 900 metrů ZJZ od kaple v Lesním Jakubově, v údolí Chvojnice. Socha stojí na louce a je zdaleka vidět. ",
+        " 900 metrů ZJZ od kaple v\xa0Lesním Jakubově, v\xa0údolí Chvojnice. Socha stojí na louce a je zdaleka vidět. ",
       popis:
         "  Na kamenném soklu stojí dvoumetrová pískovcová socha svatého Jana Nepomuckého. Není signovaná. Na soklu jsou nápisy ze tří stran.   ",
       napis:
-        "Opsáno s chybami. Na čele:  SV. JENE // PŘIMLUV  SE, ABYCHOM K TĚM, // KTEŘÍ  JAZYKEM  NEKLESLI, // PŘIPOČTENI  BYLI  +++++ //. Od Z : NA  PAMÁTKU FR. SOUKOPA // DAL ŽIVOT  ZA  VLAST  VE 26 R // 6. IV. 1943  VE  ŠTUTTGARTĚ //.  Od V :  POSTAVENO  LÉTA  PÁNĚ  1947 ",
+        "Opsáno s\xa0chybami. Na čele:  SV. JENE // PŘIMLUV  SE, ABYCHOM K TĚM, // KTEŘÍ  JAZYKEM  NEKLESLI, // PŘIPOČTENI  BYLI  +++++ //. Od Z : NA  PAMÁTKU FR. SOUKOPA // DAL ŽIVOT  ZA  VLAST  VE 26 R // 6. IV. 1943  VE  ŠTUTTGARTĚ //.  Od V :  POSTAVENO  LÉTA  PÁNĚ  1947 ",
       pozn: "    ",
       naposledObnoveno: " 6.3.2021 ",
       souradnice: " 49.2030700N, 16.2319900E ",
@@ -7293,11 +7293,11 @@ export default {
       nazev: " Památka Františka Soukopa ",
       kdyVznikl: " 1947 ",
       popisCesty:
-        " 900 metrů ZJZ od kaple v Lesním Jakubově, v údolí Chvojnice. Socha stojí na louce a je zdaleka vidět. ",
+        " 900 metrů ZJZ od kaple v\xa0Lesním Jakubově, v\xa0údolí Chvojnice. Socha stojí na louce a je zdaleka vidět. ",
       popis:
         "  Na kamenném soklu stojí dvoumetrová pískovcová socha svatého Jana Nepomuckého. Není signovaná. Na soklu jsou nápisy ze tří stran.   ",
       napis:
-        "Opsáno s chybami. Na čele:  SV. JENE // PŘIMLUV  SE, ABYCHOM K TĚM, // KTEŘÍ  JAZYKEM  NEKLESLI, // PŘIPOČTENI  BYLI  +++++ //. Od Z : NA  PAMÁTKU FR. SOUKOPA // DAL ŽIVOT  ZA  VLAST  VE 26 R // 6. IV. 1943  VE  ŠTUTTGARTĚ //.  Od V :  POSTAVENO  LÉTA  PÁNĚ  1947 ",
+        "Opsáno s\xa0chybami. Na čele:  SV. JENE // PŘIMLUV  SE, ABYCHOM K TĚM, // KTEŘÍ  JAZYKEM  NEKLESLI, // PŘIPOČTENI  BYLI  +++++ //. Od Z : NA  PAMÁTKU FR. SOUKOPA // DAL ŽIVOT  ZA  VLAST  VE 26 R // 6. IV. 1943  VE  ŠTUTTGARTĚ //.  Od V :  POSTAVENO  LÉTA  PÁNĚ  1947 ",
       pozn: "    ",
       naposledObnoveno: " 6.3.2021 ",
       souradnice: " 49.2030700N, 16.2319900E ",
@@ -7316,14 +7316,14 @@ export default {
       kategorie: "pomnicky",
       pridano: " 06/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - město ",
       obec: "  Brno - Maloměřice  ",
       jmeno: " Lojo  ",
       nazev: " Lojo u Maloměřic ",
       kdyVznikl: " 2006 ",
       popisCesty:
-        " Nachází se V od Maloměřic, v pokračování ulice Podzimní, 150 metrů po cestě od jejího konce, na vyřazeném sloupu elektrického vedení. V době vegetace je skoro k nenalezení.  ",
+        " Nachází se V od Maloměřic, v\xa0pokračování ulice Podzimní, 150 metrů po cestě od jejího konce, na vyřazeném sloupu elektrického vedení. V\xa0době vegetace je skoro k\xa0nenalezení.  ",
       popis:
         " Podivná dvouhlavá plastika vysoká asi 1 metr je připevněna na betonovém sloupu.",
       napis: "   ",
@@ -7343,17 +7343,17 @@ export default {
       kategorie: "pomnicky",
       pridano: " 07/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě, zaniklé  ",
+      druh: "  Sochy v\xa0přírodě, zaniklé  ",
       okres: " Brno - venkov ",
       obec: " Senorady   ",
       jmeno: " Kamelot - Orel  ",
       nazev: " Socha Orla - pocta skupině Kamelot ",
       kdyVznikl:
-        " 2012. V roce 2017 byla socha vandalsky zničena - někdo orlovi pilou uřízl hlavu.  ",
+        " 2012. V\xa0roce 2017 byla socha vandalsky zničena - někdo orlovi pilou uřízl hlavu.  ",
       popisCesty:
-        " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
+        " S od Senorad v\xa0údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
       popis:
-        "  1,2 metru vysoká řezba orla s roztaženými křídly, vyřezaná ze špalku dřeva o průměru asi 0,8 metru. Na soklu dokola nápis. Tmavě namořeno.  ",
+        "  1,2 metru vysoká řezba orla s\xa0roztaženými křídly, vyřezaná ze špalku dřeva o průměru asi 0,8 metru. Na soklu dokola nápis. Tmavě namořeno.  ",
       napis: " 30  LET  KAMELOT  ",
       odkazy: [
         {
@@ -7363,7 +7363,7 @@ export default {
         },
       ],
       pozn:
-        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v\xa0těchto místech. Roman Horký pak s\xa0přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 170,
@@ -7371,7 +7371,7 @@ export default {
           odkazPodkategorie: 10,
           odkazKde: "pozn",
           predOdkazem:
-            "Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní  ",
+            "Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v\xa0těchto místech. Roman Horký pak s\xa0přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní  ",
           textOdkazu: "reliéf dívky",
           zaOdkazem: " vyřezaný do kmene.",
         },
@@ -7395,17 +7395,17 @@ export default {
       kategorie: "pomnicky",
       pridano: " DD/03/2021 ",
       podkategorie: 17,
-      druh: "  Zaniklé, sochy v přírodě  ",
+      druh: "  Zaniklé, sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: " Senorady   ",
       jmeno: " Kamelot - Orel  ",
       nazev: " Socha Orla - pocta skupině Kamelot ",
       kdyVznikl:
-        " 2012. V roce 2017 byla socha vandalsky zničena - někdo jí pilou uřízl hlavu.  ",
+        " 2012. V\xa0roce 2017 byla socha vandalsky zničena - někdo jí pilou uřízl hlavu.  ",
       popisCesty:
-        " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
+        " S od Senorad v\xa0údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
       popis:
-        "  1,2 metru vysoká řezba orla s roztaženými křídly, vyřezaná ze špalku dřeva o průměru asi 0,8 metru. Na soklu dokola nápis. Tmavě namořeno.  ",
+        "  1,2 metru vysoká řezba orla s\xa0roztaženými křídly, vyřezaná ze špalku dřeva o průměru asi 0,8 metru. Na soklu dokola nápis. Tmavě namořeno.  ",
       napis: " 30  LET  KAMELOT  ",
       odkazy: [
         {
@@ -7415,7 +7415,7 @@ export default {
         },
       ],
       pozn:
-        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku skupiny odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
+        " Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku skupiny odehrál v\xa0těchto místech. Roman Horký pak s\xa0přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní relief dívky, vyřezaný do kmene.  ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 170,
@@ -7423,7 +7423,7 @@ export default {
           odkazPodkategorie: 10,
           odkazKde: "pozn",
           predOdkazem:
-            "Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v těchto místech. Roman Horký pak s přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní  ",
+            "Sochu daroval řezbář Jarda Pecháček svému příteli a frontmanu kapely Kamelot Romanu Horkému na koncertu skupiny 26. května 2012. Ten se ke 30. výročí vzniku Kamelotu odehrál v\xa0těchto místech. Roman Horký pak s\xa0přáteli umístil skulpturu na skalku nad cestou. Vydržela tu pět let. Na stejném místě stojí nyní  ",
           textOdkazu: "reliéf dívky",
           zaOdkazem: " vyřezaný do kmene.",
         },
@@ -7445,27 +7445,28 @@ export default {
       kategorie: "pomnicky",
       pridano: " 07/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Senorady  ",
       jmeno: " Kamelot - Dívka  ",
       nazev: " Reliéf dívky - pocta skupině Kamelot ",
       kdyVznikl: " po roce 2017 ",
       popisCesty:
-        " S od Senorad v údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
+        " S od Senorad v\xa0údolí Oslavky, asi 200 metrů od železného mostu přes řeku. Na skále nad cestou, po které vedou turistické značky.  ",
       popis:
-        " Z dřevěného špalku vysokého asi jeden metr vystupuje tvář dívky v hlubokém reliéfu.  ",
+        " Z dřevěného špalku vysokého asi jeden metr vystupuje tvář dívky v\xa0hlubokém reliéfu.  ",
       napis: "   ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn:
-        " Na stejném místě byla v letech 2012 - 2017 umístěna socha orla - pocta skupině Kamelot.   ",
+        " Na stejném místě byla v\xa0letech 2012 - 2017 umístěna socha orla - pocta skupině Kamelot.   ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 180,
           odkazKategorie: "pomnicky",
           odkazPodkategorie: 10,
           odkazKde: "pozn",
-          predOdkazem: " Na stejném místě byla v letech 2012 - 2017 umístěna  ",
+          predOdkazem:
+            " Na stejném místě byla v\xa0letech 2012 - 2017 umístěna  ",
           textOdkazu: "socha orla - pocta skupině Kamelot",
           zaOdkazem: ".",
         },
@@ -7484,7 +7485,7 @@ export default {
       kategorie: "pomnicky",
       pridano: " 07/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - město ",
       obec: "  Brno - Židenice  ",
       jmeno: " Bílá hora ",
@@ -7494,7 +7495,7 @@ export default {
       popisCesty:
         " Nachází se nad Juliánovem na vrcholu Bílé hory (kóta 300 metrů) uprostřed lesoparku.  ",
       popis:
-        " Návrší je bombasticky upraveno kamennými terasami a na nich stojí monumentální abstraktní betonová plastika rozměrů 8 x 3  x 1,5 metru s otvorem uprostřed. Častý cíl sprejerů. Vedle je šikmo položená kamenná deska s reliéfem srpu a kladiva a delším textem.   ",
+        " Návrší je bombasticky upraveno kamennými terasami a na nich stojí monumentální abstraktní betonová plastika rozměrů 8 x 3  x 1,5 metru s\xa0otvorem uprostřed. Častý cíl sprejerů. Vedle je šikmo položená kamenná deska s\xa0reliéfem srpu a kladiva a delším textem.   ",
       napis:
         " … //  NA  TĚCHTO  MÍSTECH  SE V ROCE  1869 // SCHÁZEL  BRNĚNSKÝ  PROLETARIÁT, // VEDENÝ  JOSEFEM  HYBEŠEM, // ABY  BOJOVAL  ZA  SVÁ  PRÁVA. //  ",
       odkazy: [
@@ -7509,11 +7510,11 @@ export default {
         },
         {
           nazev:
-            " Milena Flodrová: Pamětní desky a pomníky v Brně, 2004, str. 10  ",
+            " Milena Flodrová: Pamětní desky a pomníky v\xa0Brně, 2004, str. 10  ",
         },
       ],
       pozn:
-        "  Celý památník je propagandistický nesmysl ze 60. let. V roce 1869 se tu dělníci nesešli, Hybešovi bylo teprve 19 let. Tábor lidu za všeobecné volební právo, kde měl promluvit redaktor Hybeš, byl svolán na 18. 6. 1893, ale neuskutečnil se, protože byl rozehnán četnictvem. Byl to už 3. tábor lidu, organizovaný sociálně demokratickou stranou, první dva proběhly v Pisárkách.   ",
+        "  Celý památník je propagandistický nesmysl ze 60. let. V\xa0roce 1869 se tu dělníci nesešli, Hybešovi bylo teprve 19 let. Tábor lidu za všeobecné volební právo, kde měl promluvit redaktor Hybeš, byl svolán na 18. 6. 1893, ale neuskutečnil se, protože byl rozehnán četnictvem. Byl to už 3. tábor lidu, organizovaný sociálně demokratickou stranou, první dva proběhly v\xa0Pisárkách.   ",
       naposledObnoveno: " 7.3.2021 ",
       souradnice: " 49.1941722N, 16.6594025E ",
       kodMapa:
@@ -7531,16 +7532,16 @@ export default {
       kategorie: "pomnicky",
       pridano: " 07/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - město ",
       obec: "  Brno - Řečkovice  ",
       jmeno: " Pegas - Mokrá Hora ",
       nazev: " Socha Pegasa u Mokré Hory ",
       kdyVznikl: "  ",
       popisCesty:
-        " Najdete ho 400 metrů SV od kapličky v Mokré Hoře, v údolí potoka Rakovce, hned za posledním domem. Údolím Rakovce vede modrá značka. ",
+        " Najdete ho 400 metrů SV od kapličky v\xa0Mokré Hoře, v\xa0údolí potoka Rakovce, hned za posledním domem. Údolím Rakovce vede modrá značka. ",
       popis:
-        "  Na dvou seříznutých kmenech stromů je nasazena vícedílná železná socha, tedy hlava, tělo s křídly a ocas. Výška 4 metry, materiál rezavý plech. Moderní landartové umělecké dílo.  ",
+        "  Na dvou seříznutých kmenech stromů je nasazena vícedílná železná socha, tedy hlava, tělo s\xa0křídly a ocas. Výška 4 metry, materiál rezavý plech. Moderní landartové umělecké dílo.  ",
       napis:
         " Na malém štítku stojí, že pro manžele Kovaříkovy sochu navrhl a vytvořil Ondřej Svoboda.  ",
       odkazy: [
@@ -7551,7 +7552,7 @@ export default {
         },
       ],
       pozn:
-        "  Ondřej Svoboda (nar. 1983), SPŠ slévárenská, umělecký kovář od roku 2001, pracuje v Brně. Tvoří sochy ze železa, někdy v kombinaci se dřevem.  ",
+        "  Ondřej Svoboda (nar. 1983), SPŠ slévárenská, umělecký kovář od roku 2001, pracuje v\xa0Brně. Tvoří sochy ze železa, někdy v\xa0kombinaci se dřevem.  ",
       naposledObnoveno: " 7.3.2021 ",
       souradnice: " 49.2614317N, 16.5974592E ",
       kodMapa:
@@ -7568,7 +7569,7 @@ export default {
       kategorie: "pomnicky",
       pridano: " 08/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Kanice  ",
       jmeno: " Lev - Kanice  ",
@@ -7587,7 +7588,7 @@ export default {
         },
       ],
       pozn:
-        "  Socha lva byla součástí pomníku padlých ve světové válce. Protože jinou součástí byla i socha Masaryka, byl pomník na začátku druhé světové války rozebrán a zakopán. Pamětníci ale zemřeli, a tak se na jeho součásti přišlo náhodou až v roce 1993 při výkopech kanalizace. Pomník znovu instalovali na návsi před bývalou školou, ale socha lva byla tak zničená, že nešla opravit. Student sochařství podle ní vytesal tedy nového lva a “starý lev” byl odsunut na konec vsi k lesu.  ",
+        "  Socha lva byla součástí pomníku padlých ve světové válce. Protože jinou součástí byla i socha Masaryka, byl pomník na začátku druhé světové války rozebrán a zakopán. Pamětníci ale zemřeli, a tak se na jeho součásti přišlo náhodou až v\xa0roce 1993 při výkopech kanalizace. Pomník znovu instalovali na návsi před bývalou školou, ale socha lva byla tak zničená, že nešla opravit. Student sochařství podle ní vytesal tedy nového lva a “starý lev” byl odsunut na konec vsi k\xa0lesu.  ",
       naposledObnoveno: " 8.3.2021 ",
       souradnice: " 49.2609061N, 16.7129678E ",
       kodMapa:
@@ -7604,7 +7605,7 @@ export default {
       kategorie: "pomnicky",
       pridano: " 08/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Ivančice  ",
       jmeno: " Ivančice - šnek  ",
@@ -7613,7 +7614,7 @@ export default {
       popisCesty:
         " Leží na J od náměstí na břehu Jihlavky. Vede tu modrá značka a říká se tu na Malovansku.  ",
       popis:
-        " Komplex výtvarných prvků a dětských prolézaček zabírá plochu 20 x 10 metrů. Hlavní částí je socha hlemýždě vysoká 3 metry a dlouhá 5 metrů, vyzděná z kamenů a doplněná trámy a kovovými prvky. Na hlavě šneka je metr vysoké ucho. Vedle jsou sluneční hodiny, dřevěný gnómon určující čas je vysoký asi 8 metrů. Je tu i odpočívadlo, lavičky, ohniště.    ",
+        " Komplex výtvarných prvků a dětských prolézaček zabírá plochu 20 x 10 metrů. Hlavní částí je socha hlemýždě vysoká 3 metry a dlouhá 5 metrů, vyzděná z\xa0kamenů a doplněná trámy a kovovými prvky. Na hlavě šneka je metr vysoké ucho. Vedle jsou sluneční hodiny, dřevěný gnómon určující čas je vysoký asi 8 metrů. Je tu i odpočívadlo, lavičky, ohniště.    ",
       napis: " Na lavičce je nápis  DOBRÝ  DEN  a  městský znak Ivančic.  ",
       odkazy: [
         {
@@ -7623,7 +7624,7 @@ export default {
         },
       ],
       pozn:
-        "  Autorem díla je ivančický sochař a řezbář Josef Zahradník. V letech 2009 - 2019 stvořil v okolí dalších 10 Ivančických zastavení : Stromokruh Evropy, U lišky, U žáby, U raka, U ledňáčka, Padlého cyklistu , Zvěrokruh, U dvou bobrů, Ptačí hotel a naposled U tří templářů. ",
+        "  Autorem díla je ivančický sochař a řezbář Josef Zahradník. V\xa0letech 2009 - 2019 stvořil v\xa0okolí dalších 10 Ivančických zastavení : Stromokruh Evropy, U lišky, U žáby, U raka, U ledňáčka, Padlého cyklistu , Zvěrokruh, U dvou bobrů, Ptačí hotel a naposled U tří templářů. ",
       vnitrniOdkazy: [
         {
           vnitrniOdkaz: 25,
@@ -7631,7 +7632,7 @@ export default {
           odkazPodkategorie: 10,
           odkazKde: "pozn",
           predOdkazem:
-            " Autorem díla je ivančický sochař a řezbář Josef Zahradník. V letech 2009 - 2019 stvořil v okolí dalších 10 Ivančických zastavení : Stromokruh Evropy, U lišky, U žáby, U raka, U ledňáčka,   ",
+            " Autorem díla je ivančický sochař a řezbář Josef Zahradník. V\xa0letech 2009 - 2019 stvořil v\xa0okolí dalších 10 Ivančických zastavení : Stromokruh Evropy, U lišky, U žáby, U raka, U ledňáčka,   ",
           textOdkazu: "Padlého cyklistu",
           zaOdkazem:
             ", Zvěrokruh, U dvou bobrů, Ptačí hotel a naposled U tří templářů. ",
@@ -7655,19 +7656,19 @@ export default {
       kategorie: "pomnicky",
       pridano: " 08/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Blansko ",
       obec: "  Bořitov  ",
       jmeno: "  Lví hlava - Bořitov  ",
       nazev: " Hlava lva u Bořitova ",
       kdyVznikl: "  ",
       popisCesty:
-        " 2,3 km S od kostela v Bořitově, v údolí mezi Velkým Chlumem a Chloumkem (kóta 411). U cesty po S straně, 100 metrů od sochy vede zelená značka. ",
+        " 2,3 km S od kostela v\xa0Bořitově, v\xa0údolí mezi Velkým Chlumem a Chloumkem (kóta 411). U cesty po S straně, 100 metrů od sochy vede zelená značka. ",
       popis:
         "  Z pískovcové skalky vyčnívá neumělá hlava lva. Dosti nenápadné.  ",
       napis: "   ",
       pozn:
-        " Autor není znám. Nic nenasvědčuje tomu, že by mohlo jít o začátečnickou práci Stanislava Rolínka, který vytvořil nedaleké sousoší husitských bojovníků. V Rudce před Jeskyní blanických rytířů má Rolínek sochu lva zcela jiné kvality.   ",
+        " Autor není znám. Nic nenasvědčuje tomu, že by mohlo jít o začátečnickou práci Stanislava Rolínka, který vytvořil nedaleké sousoší husitských bojovníků. V\xa0Rudce před Jeskyní blanických rytířů má Rolínek sochu lva zcela jiné kvality.   ",
       naposledObnoveno: " 8.3.2021 ",
       souradnice: " 49.4446000N, 16.5899833E ",
       kodMapa:
@@ -7681,7 +7682,7 @@ export default {
       kategorie: "pomnicky",
       pridano: " 09/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Blansko ",
       obec: "  Bořitov  ",
       jmeno: " Reliéfy - Bořitov  ",
@@ -7694,7 +7695,7 @@ export default {
       napi: "   ",
 
       pozn:
-        "  Autor (nebo autoři?) insitních sochařských výtvorů není znám. Není ani žádná zpráva, že by je v roce 1927 vytesal Stanislav Rolínek, tvůrce sousedícího sousoší husitských bojovníků.  ",
+        "  Autor (nebo autoři?) insitních sochařských výtvorů není znám. Není ani žádná zpráva, že by je v\xa0roce 1927 vytesal Stanislav Rolínek, tvůrce sousedícího sousoší husitských bojovníků.  ",
       naposledObnoveno: " 9.3.2021 ",
       souradnice: " 49.4441500N, 16.5875833E ",
       kodMapa:
@@ -7721,19 +7722,19 @@ export default {
       kategorie: "pomnicky",
       pridano: " 09/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Břeclav ",
       obec: "  Strachotín  ",
       jmeno: " Věrozvěsti - Strachotín  ",
       nazev: " Památník Cyrila a Metoděje ve Strachotíně ",
       kdyVznikl:
-        " Slavnostní odhalení pomníku se konalo v sobotu 18. srpna 2013 ke 1150. výročí příchodu věrozvěstů na Moravu. Základní kameny k památníku položeny o 11 let dříve. ",
+        " Slavnostní odhalení pomníku se konalo v\xa0sobotu 18. srpna 2013 ke 1150. výročí příchodu věrozvěstů na Moravu. Základní kameny k\xa0památníku položeny o 11 let dříve. ",
       popisCesty:
         " Památník stojí 700 metrů ZSZ  od středu Strachotína, u silnice do Pouzdřan, na hraně srázu nad vinařskými sklepy. Místo krásného výhledu na Pálavu a jezera.",
       popis:
-        " Zjednodušené sousoší dvojice postav těsně u sebe. Mezera mezi nimi vytváří pravoslavný kříž.  Sousoší vysoké 2,5 metru stojí na hladkém základu s nápisy. Před památníkem je základní kámen ze 4. 5. 2002.  ",
+        " Zjednodušené sousoší dvojice postav těsně u sebe. Mezera mezi nimi vytváří pravoslavný kříž.  Sousoší vysoké 2,5 metru stojí na hladkém základu s\xa0nápisy. Před památníkem je základní kámen ze 4. 5. 2002.  ",
       napis:
-        " Originál hlaholicí z  misálu z 2. poloviny 9. století a překlad:  NA  KRÁLOVSTVÍ  NAŠE, PANE, // MILOSTÍ  SVOU POHLÉDNI // A NEVYDEJ  NAŠEHO  CIZÍM // A  NÁS  NEDEJ V ZAJETÍ // NÁRODŮM  POHANSKÝM. //   ",
+        " Originál hlaholicí z\xa0 misálu z\xa02. poloviny 9. století a překlad:  NA  KRÁLOVSTVÍ  NAŠE, PANE, // MILOSTÍ  SVOU POHLÉDNI // A NEVYDEJ  NAŠEHO  CIZÍM // A  NÁS  NEDEJ V ZAJETÍ // NÁRODŮM  POHANSKÝM. //   ",
       odkazy: [
         {
           nazev: " Břeclavský deník - odhalení ",
@@ -7746,7 +7747,7 @@ export default {
         },
       ],
       pozn:
-        "  Tvůrcem památníku je brněnský sochař a řezbář Vladimír Matoušek (nar. 1956). Žije v Kamenné kolonii a od roku 1980 se věnuje volné autorské tvorbě zaměřené na náboženské motivy. Sousoší věrozvěstů na Petrově je také jeho dílem ze stejné doby. <p>Strachotínští odvozují jméno obce od Strachoty, což je překlad jména Metoděje do staročeštiny. Jižně od obce se na břehu Dyje rozkládalo v 9. století významné opevněné staroslovanské hradiště Petrova louka. Není vyloučeno, že tu Metoděj byl. Dnes je archeologická lokalita pod vodou.</p> ",
+        "  Tvůrcem památníku je brněnský sochař a řezbář Vladimír Matoušek (nar. 1956). Žije v\xa0Kamenné kolonii a od roku 1980 se věnuje volné autorské tvorbě zaměřené na náboženské motivy. Sousoší věrozvěstů na Petrově je také jeho dílem ze stejné doby. <p>Strachotínští odvozují jméno obce od Strachoty, což je překlad jména Metoděje do staročeštiny. Jižně od obce se na břehu Dyje rozkládalo v\xa09. století významné opevněné staroslovanské hradiště Petrova louka. Není vyloučeno, že tu Metoděj byl. Dnes je archeologická lokalita pod vodou.</p> ",
       naposledObnoveno: " 9.3.2021 ",
       souradnice: " 48.9095936N, 16.6455892E ",
       kodMapa:
@@ -7764,16 +7765,16 @@ export default {
       kategorie: "pomnicky",
       pridano: " 09/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Letkovice ",
       jmeno: " Ivančice - rak  ",
       nazev: " Ivančické zastavení U raka ",
       kdyVznikl: " 2014 ",
       popisCesty:
-        " Zastavení najdeme 1200 metrů Z od kostela v Ivančicích, na kraji města, u Templářské cyklostezky mířící do Oslavan, při vjezdu do lesa.   ",
+        " Zastavení najdeme 1200 metrů Z od kostela v\xa0Ivančicích, na kraji města, u Templářské cyklostezky mířící do Oslavan, při vjezdu do lesa.   ",
       popis:
-        " Upravené odpočívadlo na cyklostezce. Dřevěná vstupní brána, lavičky, kamenné zídky, uprostřed ohniště, na kamenné zídce kovaná podoba bicyklu. Dominantou je šestimetrová skulptura raka z kamene, dřeva a kovu.   ",
+        " Upravené odpočívadlo na cyklostezce. Dřevěná vstupní brána, lavičky, kamenné zídky, uprostřed ohniště, na kamenné zídce kovaná podoba bicyklu. Dominantou je šestimetrová skulptura raka z\xa0kamene, dřeva a kovu.   ",
       napis: " Na opěradle lavičky:  U  RAKA.  ",
       odkazy: [
         {
@@ -7783,7 +7784,7 @@ export default {
         },
       ],
       pozn:
-        "  Autorem  je ivančický sochař a řezbář Josef Zahradník. V letech 2009 - 2019 stvořil k ozvláštnění krajiny v okolí jedenáct Ivančických zastavení   ",
+        "  Autorem  je ivančický sochař a řezbář Josef Zahradník. V\xa0letech 2009 - 2019 stvořil k\xa0ozvláštnění krajiny v\xa0okolí jedenáct Ivančických zastavení   ",
       naposledObnoveno: " 9.3.2021 ",
       souradnice: " 49.1020250N, 16.3606539E ",
       kodMapa:
@@ -7800,20 +7801,20 @@ export default {
       kategorie: "pomnicky",
       pridano: " 17/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě  ",
+      druh: "  Sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Lažánky  ",
       jmeno: " Vodník - Slunná  ",
       nazev: " Socha vodníka u nádržky Slunná ",
       kdyVznikl:
-        " patrně v letech 2016 - 2017 po ukončení stavby retenční nádrže Horní Slunná ",
+        " patrně v\xa0letech 2016 - 2017 po ukončení stavby retenční nádrže Horní Slunná ",
       popisCesty:
-        " Socha stojí 1700 metrů SZ od středu Lažánek, v Maršovském žlebu, na břehu retenční nádrže Slunná, blízko cesty.  ",
+        " Socha stojí 1700 metrů SZ od středu Lažánek, v\xa0Maršovském žlebu, na břehu retenční nádrže Slunná, blízko cesty.  ",
       popis:
         "  Dřevořezba stojícího vousatého vodníka je vysoká 1,2 metru.  Vedle je lavička, pěkné místo. ",
       napis: "    ",
       pozn:
-        "  Zdejší lesy trpí suchem, protože leží ve srážkovém stínu Českomoravské vysočiny. Kvůli zadržení skromných srážek zbudovaly Lesy české republiky v roce 2012 retenční nádrž Slunná. Je dlouhá 150 metrů, široká maximálně 50 metrů. Výše pak leží menší nádržka Horní Slunná, postavená v roce 2014, která zarůstá vodním rostlinstvem.  Nad každou zdrží je odkalovací tůň, oddělená prosakovací hrázkou.",
+        "  Zdejší lesy trpí suchem, protože leží ve srážkovém stínu Českomoravské vysočiny. Kvůli zadržení skromných srážek zbudovaly Lesy české republiky v\xa0roce 2012 retenční nádrž Slunná. Je dlouhá 150 metrů, široká maximálně 50 metrů. Výše pak leží menší nádržka Horní Slunná, postavená v\xa0roce 2014, která zarůstá vodním rostlinstvem.  Nad každou zdrží je odkalovací tůň, oddělená prosakovací hrázkou.",
       naposledObnoveno: " 17.3.2021 ",
       souradnice: " 49.2942619N, 16.3760181E ",
       kodMapa:
@@ -7834,16 +7835,16 @@ export default {
       kategorie: "pomnicky",
       pridano: " 17/03/2021 ",
       podkategorie: 10,
-      druh: "  Sochy v přírodě, sakrální ",
+      druh: "  Sochy v\xa0přírodě, sakrální ",
       okres: " Brno - venkov ",
       obec: "  Níhov  ",
       jmeno: " Zdislava - Níhov  ",
       nazev: " Sousoší svaté Zdislavy u Níhova ",
       kdyVznikl: "  ",
       popisCesty:
-        " Stojí 1,8 kilometru S od kaple v Níhově, na Z straně silničky z Níhova do Rojetína, na loučce u lesa.  ",
+        " Stojí 1,8 kilometru S od kaple v\xa0Níhově, na Z straně silničky z\xa0Níhova do Rojetína, na loučce u lesa.  ",
       popis:
-        "  Na metrovém soklu, vyzděném z plochých kamenů, stojí zlatě natřené sousoší svaté Zdislavy se čtyřmi dětmi. Je vysoké asi dva metry, postavy silně převýšené, tváře dramaticky vážné. Atribut této svaté jsou právě děti.  ",
+        "  Na metrovém soklu, vyzděném z\xa0plochých kamenů, stojí zlatě natřené sousoší svaté Zdislavy se čtyřmi dětmi. Je vysoké asi dva metry, postavy silně převýšené, tváře dramaticky vážné. Atribut této svaté jsou právě děti.  ",
       napis: "  Sv. Zdislava  + 1252 ",
       odkazy: [
         {
@@ -7852,7 +7853,7 @@ export default {
         },
       ],
       pozn:
-        "  Autorem sousoší je bezpochyby bítešský sochař Lubomír Lacina. <br> <strong> Zdislava z Lemberka </strong>  (asi 1220 Křižanov - 1252 Lemberk) byla významná česká šlechtična ze 13. století. Část dětství strávila na Veveří, kde byl její otec purkrabím. Její manžel Havel z Lemberka byl důvěrníkem krále Václava I. Měla zřejmě čtyři děti. Zakládala kostely, kláštery, špitály a osobně se starala o nemocné. Dle kronikářů měla dar uzdravovat nemocné a křísit mrtvé. Zemřela předčasně a je pochovaná v kryptě baziliky v Jablonném, kterou založila. Blahořečena v roce 1907, v roce 1995 ji papež Jan Pavel II. při návštěvě Olomouce prohlásil za svatou. Z kosterních pozůstatků se podařilo vědcům zrekonstruovat podobu její tváře.  ",
+        "  Autorem sousoší je bezpochyby bítešský sochař Lubomír Lacina. <br> <strong> Zdislava z\xa0Lemberka </strong>  (asi 1220 Křižanov - 1252 Lemberk) byla významná česká šlechtična ze 13. století. Část dětství strávila na Veveří, kde byl její otec purkrabím. Její manžel Havel z\xa0Lemberka byl důvěrníkem krále Václava I. Měla zřejmě čtyři děti. Zakládala kostely, kláštery, špitály a osobně se starala o nemocné. Dle kronikářů měla dar uzdravovat nemocné a křísit mrtvé. Zemřela předčasně a je pochovaná v\xa0kryptě baziliky v\xa0Jablonném, kterou založila. Blahořečena v\xa0roce 1907, v\xa0roce 1995 ji papež Jan Pavel II. při návštěvě Olomouce prohlásil za svatou. Z\xa0kosterních pozůstatků se podařilo vědcům zrekonstruovat podobu její tváře.  ",
       naposledObnoveno: " 17.3.2021 ",
       souradnice: " 49.3590622N, 16.2573253E ",
       kodMapa:
@@ -7871,16 +7872,16 @@ export default {
       kategorie: "pomnicky",
       pridano: " 17/03/2021 ",
       podkategorie: 15,
-      druh: "  Sakrální, sochy v přírodě  ",
+      druh: "  Sakrální, sochy v\xa0přírodě  ",
       okres: " Brno - venkov ",
       obec: "  Níhov  ",
       jmeno: " Zdislava - Níhov  ",
       nazev: " Sousoší svaté Zdislavy u Níhova ",
       kdyVznikl: "  ",
       popisCesty:
-        " Stojí 1,8 kilometru S od kaple v Níhově, na Z straně silničky z Níhova do Rojetína, na loučce u lesa.  ",
+        " Stojí 1,8 kilometru S od kaple v\xa0Níhově, na Z straně silničky z\xa0Níhova do Rojetína, na loučce u lesa.  ",
       popis:
-        "  Na metrovém soklu, vyzděném z plochých kamenů, stojí zlatě natřené sousoší svaté Zdislavy se čtyřmi dětmi. Je vysoké asi dva metry, postavy silně převýšené, tváře dramaticky vážné. Atribut této svaté jsou právě děti.  ",
+        "  Na metrovém soklu, vyzděném z\xa0plochých kamenů, stojí zlatě natřené sousoší svaté Zdislavy se čtyřmi dětmi. Je vysoké asi dva metry, postavy silně převýšené, tváře dramaticky vážné. Atribut této svaté jsou právě děti.  ",
       napis: "  Sv. Zdislava  + 1252 ",
       odkazy: [
         {
@@ -7889,7 +7890,7 @@ export default {
         },
       ],
       pozn:
-        "  Autorem sousoší je bezpochyby bítešský sochař Lubomír Lacina. <br><strong> Zdislava z Lemberka </strong>  (asi 1220 Křižanov - 1252 Lemberk) byla významná česká šlechtična ze 13. století. Část dětství strávila na Veveří, kde byl její otec purkrabím. Její manžel Havel z Lemberka byl důvěrníkem krále Václava I. Měla zřejmě čtyři děti. Zakládala kostely, kláštery, špitály a osobně se starala o nemocné. Dle kronikářů měla dar uzdravovat nemocné a křísit mrtvé. Zemřela předčasně a je pochovaná v kryptě baziliky v Jablonném, kterou založila. Blahořečena v roce 1907, v roce 1995 ji papež Jan Pavel II. při návštěvě Olomouce prohlásil za svatou. Z kosterních pozůstatků se podařilo vědcům zrekonstruovat podobu její tváře.  ",
+        "  Autorem sousoší je bezpochyby bítešský sochař Lubomír Lacina. <br><strong> Zdislava z\xa0Lemberka </strong>  (asi 1220 Křižanov - 1252 Lemberk) byla významná česká šlechtična ze 13. století. Část dětství strávila na Veveří, kde byl její otec purkrabím. Její manžel Havel z\xa0Lemberka byl důvěrníkem krále Václava I. Měla zřejmě čtyři děti. Zakládala kostely, kláštery, špitály a osobně se starala o nemocné. Dle kronikářů měla dar uzdravovat nemocné a křísit mrtvé. Zemřela předčasně a je pochovaná v\xa0kryptě baziliky v\xa0Jablonném, kterou založila. Blahořečena v\xa0roce 1907, v\xa0roce 1995 ji papež Jan Pavel II. při návštěvě Olomouce prohlásil za svatou. Z\xa0kosterních pozůstatků se podařilo vědcům zrekonstruovat podobu její tváře.  ",
       naposledObnoveno: " 17.3.2021 ",
       souradnice: " 49.3590622N, 16.2573253E ",
       kodMapa:
@@ -7909,14 +7910,14 @@ export default {
       podkategorie: 12,
       druh: "  Jeskyňářské a horolezecké  ",
       okres: " Blansko ",
-      obec: "  Suchdol v Moravském krasu  ",
+      obec: "  Suchdol v\xa0Moravském krasu  ",
       jmeno: " Wankel, Jindřich - busta  ",
-      nazev: " Busta Jindřicha Wankla v Pustém žlebu ",
+      nazev: " Busta Jindřicha Wankla v\xa0Pustém žlebu ",
       kdyVznikl: "  ",
       popisCesty:
         " V Pustém žlebu, naproti nové budově u vstupu do Punkevních jeskyní.  ",
       popis:
-        " Na kamenném hranolu spočívá kamenná busta v nadživotní velikosti.   ",
+        " Na kamenném hranolu spočívá kamenná busta v\xa0nadživotní velikosti.   ",
       napis: "  J.  WANKEL  ",
       odkazy: [
         {
@@ -7925,11 +7926,11 @@ export default {
         },
         {
           nazev:
-            " Jindřich Wankel: Obrazy z Moravského Švýcarska a jeho minulosti, 1988.  ",
+            " Jindřich Wankel: Obrazy z\xa0Moravského Švýcarska a jeho minulosti, 1988.  ",
         },
       ],
       pozn:
-        " <strong> Jindřich Wankel </strong> (1821-1897), lékař v Salmovských železárnách v Blansku, má zásluhy v mnoha oborech. Zakladatel moravské archeologie, paleontolog, badatel v jeskyních Moravského krasu. V letech 1867-69 vykopal halštatské pohřebiště v Býčí skále. Sestavil první kostru jeskynního medvěda. Jeho vnuky jsou speleolog a archeolog Karel Absolon a zakladatel nemocnice na Žlutém kopci Jaroslav Bakeš. ",
+        " <strong> Jindřich Wankel </strong> (1821-1897), lékař v\xa0Salmovských železárnách v\xa0Blansku, má zásluhy v\xa0mnoha oborech. Zakladatel moravské archeologie, paleontolog, badatel v\xa0jeskyních Moravského krasu. V\xa0letech 1867-69 vykopal halštatské pohřebiště v\xa0Býčí skále. Sestavil první kostru jeskynního medvěda. Jeho vnuky jsou speleolog a archeolog Karel Absolon a zakladatel nemocnice na Žlutém kopci Jaroslav Bakeš. ",
       naposledObnoveno: " 17.3.2021 ",
       souradnice: " 49.3710408N, 16.7255631E ",
       kodMapa:
@@ -7950,9 +7951,9 @@ export default {
       nazev: " Pomník S. K. Neumanna na Hádech ",
       kdyVznikl: " 1959 ",
       popisCesty:
-        " Leží 1400 metrů S od hotelu Velká Klajdovka, na okraji planiny Hádů nad Těsnohlídkovým žlebem. K místu nad skalním srázem Šumbera vede odbočka modré značky. ",
+        " Leží 1400 metrů S od hotelu Velká Klajdovka, na okraji planiny Hádů nad Těsnohlídkovým žlebem . K\xa0místu nad skalním srázem Šumbera vede odbočka modré značky. ",
       popis:
-        "  Pomník je důkladně vyzděný z vápencových kamenů do výšky dvou metrů, uprostřed čelní stěny zazděná leštěná žulová deska s delším textem. V době vzniku pomníku byl ze skály pěkný výhled.  ",
+        "  Pomník je důkladně vyzděný z\xa0vápencových kamenů do výšky dvou metrů, uprostřed čelní stěny zazděná leštěná žulová deska s\xa0delším textem. V\xa0době vzniku pomníku byl ze skály pěkný výhled.  ",
       napis:
         " VELKÝ  BÁSNÍK  PRACUJÍCÍHO  LIDU //  S. K. NEUMANN //  *  5. 6. 1875 // + 28. 6. 1947 //   Následuje úryvek básně Na skalkách ze sbírky Kniha lesů vod a strání. ",
       odkazy: [
@@ -7974,7 +7975,7 @@ export default {
         },
       ],
       pozn:
-        " <strong> S. K. Neumann</strong> (1875 - 1947), český básník, publicista a bohém. Patřil k buřičům, anarchistům, později komunistům. Do Brna přišel v roce 1906, žil v Řečkovicích a Bílovicích, 1915 narukoval do světové války a z ní se vrátil do Prahy. Z jeho rozsáhlého díla se brněnského okolí týká jen lyrická sbírka básní: Kniha lesů, vod a strání, 1914, a dvě knihy fejetonů: S městem za zády, 1922 a 1923. Poválečným režimem protežovaný básník, národní umělec od listopadu 1945.  ",
+        " <strong> S. K. Neumann</strong> (1875 - 1947), český básník, publicista a bohém. Patřil k\xa0buřičům, anarchistům, později komunistům. Do Brna přišel v\xa0roce 1906, žil v\xa0Řečkovicích a Bílovicích, 1915 narukoval do světové války a z\xa0ní se vrátil do Prahy. Z\xa0jeho rozsáhlého díla se brněnského okolí týká jen lyrická sbírka básní: Kniha lesů, vod a strání, 1914, a dvě knihy fejetonů: S městem za zády, 1922 a 1923. Poválečným režimem protežovaný básník, národní umělec od listopadu 1945.  ",
       naposledObnoveno: " 18.3.2021 ",
       souradnice: " 49.2301653N, 16.6836986E ",
       kodMapa:
@@ -8001,9 +8002,9 @@ export default {
       popisCesty:
         "  Nejvyšší bod, kóta 339, mezi Komínem, Žabovřeskami a Královým Polem je Palackého vrch. Pomník stojí na vrcholu nad zahrádkami. ",
       popis:
-        " Zužující se kamenný komolý jehlan střízlivého tvaru je vysoký 2,5 metru. Zepředu vloženy tmavé leštěné desky s texty. Tyto desky byly v minulosti několikrát poškozeny a vyměněny.   ",
+        " Zužující se kamenný komolý jehlan střízlivého tvaru je vysoký 2,5 metru. Zepředu vloženy tmavé leštěné desky s\xa0texty. Tyto desky byly v\xa0minulosti několikrát poškozeny a vyměněny.   ",
       napis:
-        " “VRCH  TENTO TVÝM  // JMÉNEM,  OTČE  VLASTI // ZDOBENÝ, HLAS  VĚČNĚ // SLÁVU  ZÁSLUH  TVÝCH ! // MRTVOU  JSI  VZKŘÍSIL // MINULOST A SLÁVU, // I  NOVÝ  ŽIVOT  SÍLIL  JSI, // SÁM  NEÚSTUPNÝ  BOJOVNÍK // PRO  PRÁVO  KORUNY // SVATOVÁCLAVSKÉ.” //  NEHYNOUCÍ  SLÁVĚ // “OTCE  NÁRODA” //  FR.  PALACKÉHO // VĚNUJE  SOKOL  TYRŠ // V BRNĚ.  DNE 6. IX. 1908 // V průběhu 110 let text doznal mírných úprav. Poslední úprava je z roku 1994.  ",
+        " “VRCH  TENTO TVÝM  // JMÉNEM,  OTČE  VLASTI // ZDOBENÝ, HLAS  VĚČNĚ // SLÁVU  ZÁSLUH  TVÝCH ! // MRTVOU  JSI  VZKŘÍSIL // MINULOST A SLÁVU, // I  NOVÝ  ŽIVOT  SÍLIL  JSI, // SÁM  NEÚSTUPNÝ  BOJOVNÍK // PRO  PRÁVO  KORUNY // SVATOVÁCLAVSKÉ.” //  NEHYNOUCÍ  SLÁVĚ // “OTCE  NÁRODA” //  FR.  PALACKÉHO // VĚNUJE  SOKOL  TYRŠ // V BRNĚ.  DNE 6. IX. 1908 // V průběhu 110 let text doznal mírných úprav. Poslední úprava je z\xa0roku 1994.  ",
       odkazy: [
         {
           nazev: " wikipedie - Palacký ",
@@ -8020,7 +8021,7 @@ export default {
         },
       ],
       pozn:
-        " <strong> František Palacký</strong>  (1798 - 1876) byl historik, politik a spisovatel. Stal se zakladatelem českého dějepisectví a byl nazýván otcem národa. Jako vychovatel šlechtických dětí mohl studovat a pronikl do vyšší společnosti. Stal se stavovským  historiografem. Své stěžejní dílo pětidílné Dějiny národa českého v Čechách a na Moravě vydával postupně v němčině i češtině od roku 1848 až do smrti. Jeho pohřeb se stal národní manifestací.<br> Za německé okupace byl pomník rozebrán a ukryt, obnoven byl v roce 1945 a dovnitř byla vložena urna s pískem z popraviště v Kounicových kolejích.     ",
+        " <strong> František Palacký</strong>  (1798 - 1876) byl historik, politik a spisovatel. Stal se zakladatelem českého dějepisectví a byl nazýván otcem národa. Jako vychovatel šlechtických dětí mohl studovat a pronikl do vyšší společnosti. Stal se stavovským  historiografem. Své stěžejní dílo pětidílné Dějiny národa českého v\xa0Čechách a na Moravě vydával postupně v\xa0němčině i češtině od roku 1848 až do smrti. Jeho pohřeb se stal národní manifestací.<br> Za německé okupace byl pomník rozebrán a ukryt, obnoven byl v\xa0roce 1945 a dovnitř byla vložena urna s\xa0pískem z\xa0popraviště v\xa0Kounicových kolejích.     ",
       naposledObnoveno: " 18.3.2021 ",
       souradnice: " 49.2252036N, 16.5677014E ",
       kodMapa:
@@ -8044,11 +8045,11 @@ export default {
       jmeno: " Bezruč, Petr  ",
       nazev: " Pamětní desky Petru Bezručovi na Šmelcovně. ",
       kdyVznikl:
-        " Levá rezavá deska byla slavnostně odhalena 24. března 1968 při tradičním srazu turistů Vítání jara, který organizoval Městský výbor turistiky v Brně. Pravá světlá deska je  o desítky let mladší. ",
+        " Levá rezavá deska byla slavnostně odhalena 24. března 1968 při tradičním srazu turistů Vítání jara, který organizoval Městský výbor turistiky v\xa0Brně. Pravá světlá deska je  o desítky let mladší. ",
       popisCesty:
-        " Desky jsou instalovány na skalní stěně v ostré zátočině lesní cesty, 200 metrů na Z od mostu na Šmelcovně. Vede tu červená značka.  ",
+        " Desky jsou instalovány na skalní stěně v\xa0ostré zátočině lesní cesty, 200 metrů na Z od mostu na Šmelcovně. Vede tu červená značka.  ",
       popis:
-        "  Levá deska je železný odlitek dlouhý asi 0,4 metru s nápisem. Není jasné, co má odlitá abstrakce představovat. Pravá deska je plaketa s vyobrazením podoby zamračeného básníka z profilu.   ",
+        "  Levá deska je železný odlitek dlouhý asi 0,4 metru s\xa0nápisem. Není jasné, co má odlitá abstrakce představovat. Pravá deska je plaketa s\xa0vyobrazením podoby zamračeného básníka z\xa0profilu.   ",
       napis:
         " Levá deska :  SEM  RÁD  CHODÍVAL // PETR  BEZRUČ // Pravá deska : P. BEZRUČ .  ",
       odkazy: [
@@ -8061,7 +8062,7 @@ export default {
         { nazev: "  Lexikon české literatury, díl 1,1985, str. 219 - 226 " },
       ],
       pozn:
-        " <strong>Petr Bezruč</strong> (1867 - 1958), významný básník, prozaik, autor Slezských písní. Vlastním jménem Vladimír Vašek žil v Brně v letech 1873 - 1939, povoláním byl poštovním úředníkem. Považoval se celý život za Slezana. Vznik Slezských písní není doposud zcela objasněn, básně se začaly objevovat v roce 1899, autor nebyl znám dalších deset let. Postupně se sbírka rozrostla ze 30 na 70 básní. Bezruč měl rád přírodu, chůzi, jižní Moravu a víno. S přáteli sdružení Noha zakládal tradici vítání jara 1. jarní neděli na Šmelcovně, kterého se v letech 1912 - 1933 účastnil. Dodnes je patronem brněnských turistů.  ",
+        " <strong>Petr Bezruč</strong> (1867 - 1958), významný básník, prozaik, autor Slezských písní. Vlastním jménem Vladimír Vašek žil v\xa0Brně v\xa0letech 1873 - 1939, povoláním byl poštovním úředníkem. Považoval se celý život za Slezana. Vznik Slezských písní není doposud zcela objasněn, básně se začaly objevovat v\xa0roce 1899, autor nebyl znám dalších deset let. Postupně se sbírka rozrostla ze 30 na 70 básní. Bezruč měl rád přírodu, chůzi, jižní Moravu a víno. S\xa0přáteli sdružení Noha zakládal tradici vítání jara 1. jarní neděli na Šmelcovně, kterého se v\xa0letech 1912 - 1933 účastnil. Dodnes je patronem brněnských turistů.  ",
       naposledObnoveno: " 19.3.2021 ",
       souradnice: " 49.2667044N, 16.3520347E ",
       kodMapa:
@@ -8084,11 +8085,11 @@ export default {
       jmeno: " Cimrman, Jára  ",
       nazev: " Plostika Járy Cimrmana na Sýkoři ",
       kdyVznikl:
-        " Pomník odhalili 22. 10. 1988 za přítomnosti dvou členů Divadla J. C. Nebylo to bez problémů. Státní lesy i národní výbor odvolaly svůj prvotní souhlas. Kvůli udání na nežádoucí srocování živlů byla socha tvůrci zavčas odstraněna a posléze “reinstalována a reodhalena” v roce 1989 na soukromém pozemku jako součást oplocení. Na původní místo se vrátila až po sedmi letech.  ",
+        " Pomník odhalili 22. 10. 1988 za přítomnosti dvou členů Divadla J. C. Nebylo to bez problémů. Státní lesy i národní výbor odvolaly svůj prvotní souhlas. Kvůli udání na nežádoucí srocování živlů byla socha tvůrci zavčas odstraněna a posléze “reinstalována a reodhalena” v\xa0roce 1989 na soukromém pozemku jako součást oplocení. Na původní místo se vrátila až po sedmi letech.  ",
       popisCesty:
-        "  Leží 1300 metrů od návsi v Synalově, u bývalé hájenky na Sýkoři. Končí zde naučná Cimrmanova stezka, která začíná na náměstí v Lomnici a přes šest zastávek - plahočin vystoupá až sem. Trasa značená žlutě je dlouhá 5 kilometrů.   ",
+        "  Leží 1300 metrů od návsi v\xa0Synalově, u bývalé hájenky na Sýkoři. Končí zde naučná Cimrmanova stezka, která začíná na náměstí v\xa0Lomnici a přes šest zastávek - plahočin vystoupá až sem. Trasa značená žlutě je dlouhá 5 kilometrů.   ",
       popis:
-        " Hlava z boků ořezaná spočívá na kamenném podstavci. Podle autorů fikce není podoba Mistra známa. Na podstavci malá tabulka se jménem tvůrce, na sloupku dlouhý cimrmanovský text.   ",
+        " Hlava z\xa0boků ořezaná spočívá na kamenném podstavci. Podle autorů fikce není podoba Mistra známa. Na podstavci malá tabulka se jménem tvůrce, na sloupku dlouhý cimrmanovský text.   ",
       napis: " AUTOR  PLOSTIKY // Jožka  ZAHRADNÍK //  ",
       odkazy: [
         {
@@ -8107,7 +8108,7 @@ export default {
         { nazev: "  " },
       ],
       pozn:
-        "  Autorem hlavy je ivančický sochař a řezbář Josef Zahradník ze Stříbského mlýna.<br>   <strong>Jára Cimrman</strong> je fiktivní český génius z 19. století, kterého v říjnu 1966 vymysleli tvůrci Šebánek, Svěrák a Smoljak pro pořad v Československém rozhlasu. V témže roce založila skupinka čtyř cimrmanologů Divadlo Járy Cimrmana, kde zkoumají pozůstalost a rozvíjejí myšlenky velikána. Daří se jim to v patnácti divadelních hrách, všechny se hrají dodnes. V roce 2005 Jára Cimrman figuroval v televizní anketě Největší Čech. Než ji stačil vyhrát, byl z hodnocení vyřazen a přenechal prvenství Karlu IV.  ",
+        "  Autorem hlavy je ivančický sochař a řezbář Josef Zahradník ze Stříbského mlýna.<br>   <strong>Jára Cimrman</strong> je fiktivní český génius z\xa019. století, kterého v\xa0říjnu 1966 vymysleli tvůrci Šebánek, Svěrák a Smoljak pro pořad v\xa0Československém rozhlasu. V\xa0témže roce založila skupinka čtyř cimrmanologů Divadlo Járy Cimrmana, kde zkoumají pozůstalost a rozvíjejí myšlenky velikána. Daří se jim to v\xa0patnácti divadelních hrách, všechny se hrají dodnes. V\xa0roce 2005 Jára Cimrman figuroval v\xa0televizní anketě Největší Čech. Než ji stačil vyhrát, byl z\xa0hodnocení vyřazen a přenechal prvenství Karlu IV.  ",
       naposledObnoveno: " 19.3.2021 ",
       souradnice: " 49.4426617N, 16.4030292E ",
       kodMapa:
@@ -8131,13 +8132,13 @@ export default {
       jmeno: " Mácha, Karel Hynek  ",
       nazev: " Máchův pomník u Olomučan  ",
       kdyVznikl:
-        " 1936, k uctění památky básníka při příležitosti 100. výročí úmrtí. ",
+        " 1936, k\xa0uctění památky básníka při příležitosti 100. výročí úmrtí. ",
       popisCesty:
-        " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
+        " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s\xa0rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
       popis:
-        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s výňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
+        "  Monumentální pomník. Z\xa0kamene vyzděný čtyřhran má na stěnách mramorové desky s\xa0výňatky Máje, kryje ho kulatá betonová deska s\xa0nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z\xa0nich tu roste ještě dnes.  ",
       napis:
-        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé výňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
+        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé výňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v\xa0roce 2012. ",
       odkazy: [
         {
           nazev: "Wikipedie - Mácha ",
@@ -8155,7 +8156,7 @@ export default {
         { nazev: "  Lexikon české literatury, díl 3, 2000, str. 32 - 42 " },
       ],
       pozn:
-        " <strong>Karel Hynek Mácha</strong> (1810 - 1836) básník a prozaik, tvůrce básnické povídky Máj, nejvýznamnější představitel romantismu v české literatuře. Rád cestoval pěšky, došel do Itálie a zpět,  navštěvoval zříceniny a romantické krajiny. Zemřel na choleru a vyčerpání a pohřeb měl v den, kdy plánoval svoji svatbu.   ",
+        " <strong>Karel Hynek Mácha</strong> (1810 - 1836) básník a prozaik, tvůrce básnické povídky Máj, nejvýznamnější představitel romantismu v\xa0české literatuře. Rád cestoval pěšky, došel do Itálie a zpět,  navštěvoval zříceniny a romantické krajiny. Zemřel na choleru a vyčerpání a pohřeb měl v\xa0den, kdy plánoval svoji svatbu.   ",
       naposledObnoveno: " 20.3.2021 ",
       souradnice: " 49.3173678N, 16.6719781E ",
       kodMapa:
@@ -8181,13 +8182,13 @@ export default {
 
       nazev: " Máchův pomník u Olomučan  ",
       kdyVznikl:
-        " 1936, k uctění památky básníka při příležitosti 100. výročí úmrtí. ",
+        " 1936, k\xa0uctění památky básníka při příležitosti 100. výročí úmrtí. ",
       popisCesty:
-        " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
+        " 2 kilometry na J od Olomučan. Vede sem žlutá a červená značka. Všeobecně známé a navštěvované místo. Pro pomník největšího českého básníka vybral prof. Opletal důstojné místo na vrcholu kopce (kóta 505 m) s\xa0rozhledem, jako výraz vděku lesníků za úchvatné líčení přírodních krás.  ",
       popis:
-        "  Monumentální pomník. Z kamene vyzděný čtyřhran má na stěnách mramorové desky s výňatky Máje, kryje ho kulatá betonová deska s nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z nich tu roste ještě dnes.  ",
+        "  Monumentální pomník. Z\xa0kamene vyzděný čtyřhran má na stěnách mramorové desky s\xa0výňatky Máje, kryje ho kulatá betonová deska s\xa0nápisy a zakončen je betonovou polokoulí. Na boku ční modřínový zkosený sloup jako symbol básníkova předčasného skonu. Výška pomníku je 5,2 metru, kolem něj byly vysazeny limby a kosodřevina a část z\xa0nich tu roste ještě dnes.  ",
       napis:
-        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé výňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v roce 2012. ",
+        " Všechny stěny pomníku jsou pokryty množstvím textů, důkladně je přepsal Truhlář. Jsou to obsáhlé výňatky ze čtyř zpěvů Máje, vyobrazení Máchy podle Myslbekovy sochy na Petříně (podoba básníka není známa), epitaf, seznam básníkova díla a další údaje. Naposled byly nápisy obnoveny v\xa0roce 2012. ",
       odkazy: [
         {
           nazev: "Wikipedie - Mácha ",
@@ -8205,7 +8206,7 @@ export default {
         { nazev: "  Lexikon české literatury, díl 3, 2000, str. 32 - 42 " },
       ],
       pozn:
-        " <strong>Karel Hynek Mácha</strong> (1810 - 1836) básník a prozaik, tvůrce básnické povídky Máj, nejvýznamnější představitel romantismu v české literatuře. Rád cestoval pěšky, došel do Itálie a zpět,  navštěvoval zříceniny a romantické krajiny. Zemřel na choleru a vyčerpání a pohřeb měl v den, kdy plánoval svoji svatbu.   ",
+        " <strong>Karel Hynek Mácha</strong> (1810 - 1836) básník a prozaik, tvůrce básnické povídky Máj, nejvýznamnější představitel romantismu v\xa0české literatuře. Rád cestoval pěšky, došel do Itálie a zpět,  navštěvoval zříceniny a romantické krajiny. Zemřel na choleru a vyčerpání a pohřeb měl v\xa0den, kdy plánoval svoji svatbu.   ",
       naposledObnoveno: " 20.3.2021 ",
       souradnice: " 49.3173678N, 16.6719781E ",
       kodMapa:
@@ -8235,7 +8236,7 @@ export default {
         },
         {
           textOdstavce:
-            "Na horách se očekávala inverze, náš syn měl volno z práce a chtěl vyjet ze zamlženého Brna někam výše. Volba padla na Beskydy. Tedy jsme ráno o půl šesté sedli do jeho auta a za dvě a půl hodiny byli na hřebeni Radhošťských Beskyd v sedle Pindula mezi Rožnovem a Frenštátem. Syn měl svůj běžecký program a my dva jsme vyrazili zasněženou cestou po modré značce prudce nahoru.",
+            "Na horách se očekávala inverze, náš syn měl volno z\xa0práce a chtěl vyjet ze zamlženého Brna někam výše. Volba padla na Beskydy. Tedy jsme ráno o půl šesté sedli do jeho auta a za dvě a půl hodiny byli na hřebeni Radhošťských Beskyd v\xa0sedle Pindula mezi Rožnovem a Frenštátem. Syn měl svůj běžecký program a my dva jsme vyrazili zasněženou cestou po modré značce prudce nahoru.",
         },
         { foto: "radhost1.jpg", naVysku: true },
         { foto: "radhost2.jpg", naVysku: true },
@@ -8298,7 +8299,7 @@ export default {
         },
         {
           textOdstavce:
-            "Na Pustevnách jsme prohlédli obnovenou chatu Libušín, bohužel jen zvenku. Opravená je i sousední Maměnka, dnes hotel s osmnácti pokoji,  radost se na obě podívat.",
+            "Na Pustevnách jsme prohlédli obnovenou chatu Libušín, bohužel jen zvenku. Opravená je i sousední Maměnka, dnes hotel s\xa0osmnácti pokoji,  radost se na obě podívat.",
         },
         {
           foto: "radhost16.jpg",
@@ -8308,7 +8309,7 @@ export default {
         { foto: "radhost18.jpg", popisek: " Chata Maměnka  " },
         {
           textOdstavce:
-            "I tady přikročili k výrobě turistických lákadel, stezka v oblacích určitě přitáhne davy lidí a přírody zase kus ubude. Ve výstupu na Čertův mlýn vzpomínám, kdy jsem tuto trasu šel poprvé. Je to 59 roků. U pramene pod Čertovým mlýnem jsme tehdy vařili v kotli polévku.",
+            "I tady přikročili k\xa0výrobě turistických lákadel, stezka v\xa0oblacích určitě přitáhne davy lidí a přírody zase kus ubude. Ve výstupu na Čertův mlýn vzpomínám, kdy jsem tuto trasu šel poprvé. Je to 59 roků. U pramene pod Čertovým mlýnem jsme tehdy vařili v\xa0kotli polévku.",
         },
         { foto: "radhost19.jpg" },
         { foto: "radhost20.jpg", naVysku: true },
@@ -8317,7 +8318,10 @@ export default {
             "Martiňák tehdy vypadal úplně jinak. A pak už jen dlouhý sestup po ledovaté silnici a čekání na odvoz před zavřenou hospodou.",
         },
         { foto: "radhost21.jpg", popisek: " Chata Martiňák  " },
-        { foto: "radhost22.jpg", popisek: " Pohled do údolí k Horní Bečvě  " },
+        {
+          foto: "radhost22.jpg",
+          popisek: " Pohled do údolí k\xa0Horní Bečvě  ",
+        },
         {
           kodMapa:
             '  <iframe style="border:none" src="https://frame.mapy.cz/s/nacatavene" width="400" height="280" frameborder="0"></iframe>  ',
@@ -8341,11 +8345,11 @@ export default {
       kdyVznikl:
         " V roce 1935 dal kříž vybudovat správce podolského velkostatku Pacher jako díkůvzdání za úspěšnou životní cestu. Kříž byl vysvěcen 5. října 1935.  ",
       popisCesty:
-        " 600 metrů SZ od Mokerské myslivny na skalní hraně plošiny nad údolím Říčky. Skála se jmenuje U kříže. Vede tu pěšina, po které kdysi vedla červená značka, než ji přeložili o 200 metrů k V. Hranice přírodní rezervace Údolí Říčky. Krásné místo, v době vybudování kříže čněla skála nad lesem a poskytovala dokonalý výhled.  ",
+        " 600 metrů SZ od Mokerské myslivny na skalní hraně plošiny nad údolím Říčky. Skála se jmenuje U kříže. Vede tu pěšina, po které kdysi vedla červená značka, než ji přeložili o 200 metrů k\xa0V. Hranice přírodní rezervace Údolí Říčky. Krásné místo, v\xa0době vybudování kříže čněla skála nad lesem a poskytovala dokonalý výhled.  ",
       popis:
         "  Dřevěný  kříž je vysoký 4 metry a ramena jsou zdobena drobnou řezbou.  ",
       napis:
-        " Bez nápisu. Opodál stojí od roku 2006 naučná cedule s historií kříže a rodiny Pacherů, kterou zřídila obec Mokrá. Je častým cílem vandala a musí být obnovována.  ",
+        " Bez nápisu. Opodál stojí od roku 2006 naučná cedule s\xa0historií kříže a rodiny Pacherů, kterou zřídila obec Mokrá. Je častým cílem vandala a musí být obnovována.  ",
       odkazy: [
         {
           nazev: " matespospa ",
@@ -8358,7 +8362,7 @@ export default {
         },
       ],
       pozn:
-        " <strong> Arnošt Pacher</strong> (1862 - 1945) byl lesník, který se z mladého adjunkta v Mokerské myslivně vypracoval na správce pozořického polesí  a ředitele velkostatku Podolí. Tuto funkci vykonával 37 let, do svých 80 let. V roce 1935 nechal zřídit dřevěný kříž na vyhlídce Nad skalama, jako poděkování za plodný život a za návrat syna z první světové války. Na konci druhé světové války ho ale čekala těžká doba. Byl Němec, manželka a dcera byly Češky.  Rodina se z vily v Podolí před frontou přesunula do Mokerské myslivny a pak za dramatických okolností až do Brna. 30. května 1945 byl zařazen do “divokého” odsunu a došel do Pohořelic. Odtud ho nemocného rodina vyreklamovala zpět do Brna, kde na následky přestálého utrpení umírá 16. června 1945. Pochován je na hřbitově v Podolí.<br>Šedesát let starý vetchý kříž na jaře 1995 shořel, buď od svíčky, nebo vandalstvím. Ale už na podzim téhož roku byl postaven a vysvěcen nový, podobný, na stejném místě.   ",
+        " <strong> Arnošt Pacher</strong> (1862 - 1945) byl lesník, který se z\xa0mladého adjunkta v\xa0Mokerské myslivně vypracoval na správce pozořického polesí  a ředitele velkostatku Podolí. Tuto funkci vykonával 37 let, do svých 80 let. V\xa0roce 1935 nechal zřídit dřevěný kříž na vyhlídce Nad skalama, jako poděkování za plodný život a za návrat syna z\xa0první světové války. Na konci druhé světové války ho ale čekala těžká doba. Byl Němec, manželka a dcera byly Češky.  Rodina se z\xa0vily v\xa0Podolí před frontou přesunula do Mokerské myslivny a pak za dramatických okolností až do Brna. 30. května 1945 byl zařazen do “divokého” odsunu a došel do Pohořelic. Odtud ho nemocného rodina vyreklamovala zpět do Brna, kde na následky přestálého utrpení umírá 16. června 1945. Pochován je na hřbitově v\xa0Podolí.<br>Šedesát let starý vetchý kříž na jaře 1995 shořel, buď od svíčky, nebo vandalstvím. Ale už na podzim téhož roku byl postaven a vysvěcen nový, podobný, na stejném místě.   ",
       naposledObnoveno: " 29.3.2021 ",
       souradnice: " 49.2350761N, 16.7369897E ",
       kodMapa:
@@ -8382,14 +8386,14 @@ export default {
       nazev: " Boží muka Singularistů ze Sivic  ",
       kdyVznikl: " 1913 ",
       popisCesty:
-        " Leží 2,5 kilometru SSZ od kaple v Sivicích,na plochém lesním hřbetu, na křižovatce lesních cest. Sto metrů odtud vede silnice z Mokré do Hostěnic.  ",
+        " Leží 2,5 kilometru SSZ od kaple v\xa0Sivicích,na plochém lesním hřbetu, na křižovatce lesních cest. Sto metrů odtud vede silnice z\xa0Mokré do Hostěnic.  ",
       popis:
-        "  Čtyřboká pilířová boží muka se čtyřmi výklenky je vysoká asi 3 metry a zakončená nahoře kovovým křížkem. Výklenky zdobí votivní obrázky. Ze Z strany je kamenná deska s textem a malá plechová tabulka.   ",
+        "  Čtyřboká pilířová boží muka se čtyřmi výklenky je vysoká asi 3 metry a zakončená nahoře kovovým křížkem. Výklenky zdobí votivní obrázky. Ze Z strany je kamenná deska s\xa0textem a malá plechová tabulka.   ",
       napis:
-        "  Na kamenné desce je nápis skoro nečitelný (stav 2020). Opsáno s chybami: ZNOVU  VYSTAVĚLY // SINKŮLARISTÉ // V  SIVICÍCH // L. P. 1913 // ŘED. A. KUBÍNEK // POK. M. HLADŮVKA  // W. BOČEK  ZEDNÍK //. Na plechové tabulce:  ZNOVU  VYSTAVĚNO  L. P.  1913 // OPRAVENO  L. P. 1993 //   ",
+        "  Na kamenné desce je nápis skoro nečitelný (stav 2020). Opsáno s\xa0chybami: ZNOVU  VYSTAVĚLY // SINKŮLARISTÉ // V  SIVICÍCH // L. P. 1913 // ŘED. A. KUBÍNEK // POK. M. HLADŮVKA  // W. BOČEK  ZEDNÍK //. Na plechové tabulce:  ZNOVU  VYSTAVĚNO  L. P.  1913 // OPRAVENO  L. P. 1993 //   ",
       odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
       pozn:
-        " Singularis - jednotlivý, ojedinělý (z latiny).Singularisté bylo sdružení sedláků a domkářů v jedné vesnici, kteří se společně starali o zděděný les. Za Rakouska se les nedělil, vlastnictví bylo v podílech. Podle lesního zákona z roku 1852 začaly ve 2. polovině 19. století vznikat spolky vlastníků lesa. Vydržely až do 50. let století dvacátého. Některé byly obnoveny v 90. letech.<br>Sivickým osadníkům darovala les převoryše kláštera sv. Anny v Brně už v roce 1617. Dala ho 37 usedlým rovným dílem. Listina ve starobylé češtině se zachovala. ",
+        " Singularis - jednotlivý, ojedinělý (z latiny).Singularisté bylo sdružení sedláků a domkářů v\xa0jedné vesnici, kteří se společně starali o zděděný les. Za Rakouska se les nedělil, vlastnictví bylo v\xa0podílech. Podle lesního zákona z\xa0roku 1852 začaly ve 2. polovině 19. století vznikat spolky vlastníků lesa. Vydržely až do 50. let století dvacátého. Některé byly obnoveny v\xa090. letech.<br>Sivickým osadníkům darovala les převoryše kláštera sv. Anny v\xa0Brně už v\xa0roce 1617. Dala ho 37 usedlým rovným dílem. Listina ve starobylé češtině se zachovala. ",
       naposledObnoveno: " 30.3.2021 ",
       souradnice: " 49.2252911N, 16.7733531E ",
       kodMapa:
@@ -8413,9 +8417,9 @@ export default {
       nazev: " Kříž Kolohnát nad Adamovem ",
       kdyVznikl: "  ",
       popisCesty:
-        " Nalézá se 1100 metrů V od myslivny na Vranově. Nejjednodušší cesta je začít od vranovské myslivny po lesní silničce, po 800 metrech přelézt svodidla a vydat se k V prudce dolů, po nevýrazném žebru, které se změní v klesající hřbet mezi Čertovým žlebem na S a údolím Pytláckého potoka na J. Ještě než klesneme ke kolejím, uvidíme na průseku kříž. Je za hranicí přírodní rezervace Jelení skok, která blízko něj prochází. Cesta není orientačně jednoduchá a místo je velmi zvláštní.  ",
+        " Nalézá se 1100 metrů V od myslivny na Vranově. Nejjednodušší cesta je začít od vranovské myslivny po lesní silničce, po 800 metrech přelézt svodidla a vydat se k\xa0V prudce dolů, po nevýrazném žebru, které se změní v\xa0klesající hřbet mezi Čertovým žlebem na S a údolím Pytláckého potoka na J. Ještě než klesneme ke kolejím, uvidíme na průseku kříž. Je za hranicí přírodní rezervace Jelení skok, která blízko něj prochází. Cesta není orientačně jednoduchá a místo je velmi zvláštní.  ",
       popis:
-        "  V podstavci z volně ložených kamenů je zasazen mohutný železný kříž s litinovým Kristem. Ponurost místa zvyšoval rezavý kříž. Od roku 2013 je kříž zbaven rzi a natřen.  ",
+        "  V podstavci z\xa0volně ložených kamenů je zasazen mohutný železný kříž s\xa0litinovým Kristem. Ponurost místa zvyšoval rezavý kříž. Od roku 2013 je kříž zbaven rzi a natřen.  ",
       napis: "   ",
       odkazy: [
         {
@@ -8424,7 +8428,7 @@ export default {
         },
       ],
       pozn:
-        "  Název kříže není odvozen jen od jeho velikosti. Stojí na místě, kde v roce 1807 nechali Lichtenštejnové vybudovat dřevěnou kolonádu s vyhlídkou do údolí Svitavy. Německý název Kolonnade se přenesl na později zbudovaný kříž. Kolonáda zanikla s přerušením cesty z Adamova kolejemi ve druhé polovině 19. století.<br> Spekulace, že tu bývala šibenice a popravovalo se, čemuž napovídal místní název lesa Katov, je třeba odsunout do říše bajek. Adamov neměl nikdy hrdelní právo.  ",
+        "  Název kříže není odvozen jen od jeho velikosti. Stojí na místě, kde v\xa0roce 1807 nechali Lichtenštejnové vybudovat dřevěnou kolonádu s\xa0vyhlídkou do údolí Svitavy. Německý název Kolonnade se přenesl na později zbudovaný kříž. Kolonáda zanikla s\xa0přerušením cesty z\xa0Adamova kolejemi ve druhé polovině 19. století.<br> Spekulace, že tu bývala šibenice a popravovalo se, čemuž napovídal místní název lesa Katov, je třeba odsunout do říše bajek. Adamov neměl nikdy hrdelní právo.  ",
       naposledObnoveno: " 30.3.2021 ",
       souradnice: " 49.3090442N, 16.6375536E ",
       kodMapa:
@@ -8448,11 +8452,11 @@ export default {
       jmeno: " Stern - kříž  ",
       nazev: " Sternův kříž na Výhonu ",
       kdyVznikl:
-        " 1764. Původně stál s dalšími barokními sochami téhož autora na mostě přes Svratku.",
+        " 1764. Původně stál s\xa0dalšími barokními sochami téhož autora na mostě přes Svratku.",
       popisCesty:
-        " Kříž najdeme na Z svahu Výhonu, 1,0 kilometru V od radnice v Židlochovicích. Je v zalesněné části kopce zvané Velký hájek. Blízko je upravená studánka Ve Velkém hájku a rozcestí s modrou značkou.  ",
+        " Kříž najdeme na Z svahu Výhonu, 1,0 kilometru V od radnice v\xa0Židlochovicích. Je v\xa0zalesněné části kopce zvané Velký hájek. Blízko je upravená studánka Ve Velkém hájku a rozcestí s\xa0modrou značkou.  ",
       popis:
-        "  Mohutný kamenný kříž s kamenným Kristem je vysoký asi 5 metrů. Krásná barokní práce z místního vápenatého pískovce. Kříž byl dlouho ve špatném stavu a nedávno (2016?) ho restaurovali.   ",
+        "  Mohutný kamenný kříž s\xa0kamenným Kristem je vysoký asi 5 metrů. Krásná barokní práce z\xa0místního vápenatého pískovce. Kříž byl dlouho ve špatném stavu a nedávno (2016?) ho restaurovali.   ",
       napis: " 1764  ",
       odkazy: [
         {
@@ -8462,7 +8466,7 @@ export default {
         },
       ],
       pozn:
-        "  Název kříže je dán jménem tvůrce. Sochař z doby baroka <strong>Johann Stern</strong> (+1773), bratr známějšího malíře Karla Sterna, pocházel ze Štýrského Hradce a usadil se v Židlochovicích. Tam lze vidět i jeho další sochy u vchodu do kostela a u vjezdu do nádvoří zámku.  ",
+        "  Název kříže je dán jménem tvůrce. Sochař z\xa0doby baroka <strong>Johann Stern</strong> (+1773), bratr známějšího malíře Karla Sterna, pocházel ze Štýrského Hradce a usadil se v\xa0Židlochovicích. Tam lze vidět i jeho další sochy u vchodu do kostela a u vjezdu do nádvoří zámku.  ",
       naposledObnoveno: " 30.3.2021 ",
       souradnice: " 49.0366447N, 16.6330433E ",
       kodMapa:
@@ -8485,13 +8489,13 @@ export default {
       jmeno: " Tři kříže - Chudčice  ",
       nazev: " U tří křížů ",
       kdyVznikl:
-        " Kamenné kříže pocházejí z roku 1902. Historie tohoto místa je ale daleko starší. Legendy sahají až k době cyrilometodějské. První spolehlivé zprávy jsou z farní kroniky Veverské Bítýšky z konce 17. století, že tu stávala poutní kaple Svatého Kříže. V roce 1764 si ji přijela prohlédnout diecézní komise a konstatovala, že je to kaple prastará. Zachoval se i stručný popis interiéru. Na oltáři byly tři votivní nápisy, nejstarší z roku 1451. Za Josefínských reforem byla stavba zrušena a 1784 zbourána. Místo ní se tu objevily tři dřevěné kříže a místo dostalo nové jméno. ",
+        " Kamenné kříže pocházejí z\xa0roku 1902. Historie tohoto místa je ale daleko starší. Legendy sahají až k\xa0době cyrilometodějské. První spolehlivé zprávy jsou z\xa0farní kroniky Veverské Bítýšky z\xa0konce 17. století, že tu stávala poutní kaple Svatého Kříže. V\xa0roce 1764 si ji přijela prohlédnout diecézní komise a konstatovala, že je to kaple prastará. Zachoval se i stručný popis interiéru. Na oltáři byly tři votivní nápisy, nejstarší z\xa0roku 1451. Za Josefínských reforem byla stavba zrušena a 1784 zbourána. Místo ní se tu objevily tři dřevěné kříže a místo dostalo nové jméno. ",
       popisCesty:
-        "Kříže leží 1200 metrů JV od středu Chudčic, na hraně rozsáhlé plošiny. Z Chudčic sem vede křížová cesta se zděnými zastaveními, pochází z roku 1856. Prochází tu modrá a zelená značka. Známé místo, nachází se v přístupné oboře.  ",
+        "Kříže leží 1200 metrů JV od středu Chudčic, na hraně rozsáhlé plošiny. Z\xa0Chudčic sem vede křížová cesta se zděnými zastaveními, pochází z\xa0roku 1856. Prochází tu modrá a zelená značka. Známé místo, nachází se v\xa0přístupné oboře.  ",
       popis:
-        " Na urovnané plošině průměru asi dvaceti metrů stojí tři kamenné kříže z pískovce, na všech třech je kovový Kristus. Opravily je Lesy české republiky v roce 2020. Do konce 19. století stálo mezi prostředním a S křížem torzo prastarého dubu - dvojáku s obvodem kmene 6 metrů, možná pamatující založení svatyně.   ",
+        " Na urovnané plošině průměru asi dvaceti metrů stojí tři kamenné kříže z\xa0pískovce, na všech třech je kovový Kristus. Opravily je Lesy české republiky v\xa0roce 2020. Do konce 19. století stálo mezi prostředním a S křížem torzo prastarého dubu - dvojáku s\xa0obvodem kmene 6 metrů, možná pamatující založení svatyně.   ",
       napis:
-        "// … // Tyto sv. kříže věnovali // Jan a Františka // PERKOVI // Rodáci z Chudčic // 1902 //  ",
+        "// … // Tyto sv. kříže věnovali // Jan a Františka // PERKOVI // Rodáci z\xa0Chudčic // 1902 //  ",
       odkazy: [
         {
           nazev: " Eichler ",
@@ -8504,7 +8508,7 @@ export default {
         },
       ],
       pozn:
-        "  Tři kříže jsou i poutním místem. Pouť se tu koná první neděli v červnu. ",
+        "  Tři kříže jsou i poutním místem. Pouť se tu koná první neděli v\xa0červnu. ",
       naposledObnoveno: " 20.4.2021 ",
       souradnice: " 49.2757250N, 16.4651108E ",
       kodMapa:
@@ -8531,9 +8535,9 @@ export default {
       popisCesty:
         " 1200 metrů SV od kaple ve Smolíně, u staré státní silnice do Pohořelic. Přístup po frekventované silnici je nebezpečný.  ",
       popis:
-        "  5 metrů vysoký pozdně barokní kamenný kříž s naivně tvarovaným kamenným Kristem, připomínajícím skřítka s velkou hlavou. Je dílem lidového umělce a kameníka  <strong>Josefa Sackla </strong> (1770-1809 TBC) z Moravského Krumlova. V devadesátých letech byl kříž poškozený a zašlý, v roce 2020 je v perfektním stavu.   ",
+        "  5 metrů vysoký pozdně barokní kamenný kříž s\xa0naivně tvarovaným kamenným Kristem, připomínajícím skřítka s\xa0velkou hlavou. Je dílem lidového umělce a kameníka  <strong>Josefa Sackla </strong> (1770-1809 TBC) z\xa0Moravského Krumlova. V\xa0devadesátých letech byl kříž poškozený a zašlý, v\xa0roce 2020 je v\xa0perfektním stavu.   ",
       napis:
-        " Ve staré němčině : JAKOB.HASCHKA. // GEBOHREN.DEN.21. // DECEMBER.1787. // GESTORBEN.DEN.13. // MÄRTZ.1806. // ERRICHTTETE.DIES. // H.[eilige] KREUZ.GLAUB.[igem] // WANDERER. UND. // BETHE.DAMIT.WIR. // DURCH. DEN. TOD. // IESU. ZUM. EWIG. // SELIGEN. LEBEN. // AUFERSTEHEN. // AMEN //<br> Za český překlad děkuji Tomáši Ž. : J. H. narozen 21. prosince 1787, zemřel 13. března 1806, zřídil tento svatý kříž věřícím poutníkům a prosí tímto, abychom my, skrze smrt Ježíše, došli vzkříšením k věčnému blaženému životu. Amen. ",
+        " Ve staré němčině : JAKOB.HASCHKA. // GEBOHREN.DEN.21. // DECEMBER.1787. // GESTORBEN.DEN.13. // MÄRTZ.1806. // ERRICHTTETE.DIES. // H.[eilige] KREUZ.GLAUB.[igem] // WANDERER. UND. // BETHE.DAMIT.WIR. // DURCH. DEN. TOD. // IESU. ZUM. EWIG. // SELIGEN. LEBEN. // AUFERSTEHEN. // AMEN //<br> Za český překlad děkuji Tomáši Ž. : J. H. narozen 21. prosince 1787, zemřel 13. března 1806, zřídil tento svatý kříž věřícím poutníkům a prosí tímto, abychom my, skrze smrt Ježíše, došli vzkříšením k\xa0věčnému blaženému životu. Amen. ",
       odkazy: [
         {
           nazev: " Grunová SOČ ",
@@ -8546,7 +8550,7 @@ export default {
         },
       ],
       pozn:
-        "  <strong>Jakob Haschka </strong> byl sirotek, jediné dítě po pololáníkovi z Přibic, který žil ve Smolíně. Zemřel v devatenácti letech na břišní tyfus.<br> V 90. letech 20. století se vyskytl názor, že u kříže byli pochováni Němci zahynulí při “pochodu smrti” z Brna do Pohořelic v květnu 1945. Šlo o legendu. Žádné hroby z této doby tady nebyly nalezeny.  ",
+        "  <strong>Jakob Haschka </strong> byl sirotek, jediné dítě po pololáníkovi z\xa0Přibic, který žil ve Smolíně. Zemřel v\xa0devatenácti letech na břišní tyfus.<br> V 90. letech 20. století se vyskytl názor, že u kříže byli pochováni Němci zahynulí při “pochodu smrti” z\xa0Brna do Pohořelic v\xa0květnu 1945. Šlo o legendu. Žádné hroby z\xa0této doby tady nebyly nalezeny.  ",
       naposledObnoveno: " 20.4.2021 ",
       souradnice: " 49.0138317N, 16.5536406E ",
       kodMapa:
@@ -8568,13 +8572,13 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Líšeň  ",
       jmeno: "  Kostelíček - Líšeň  ",
-      nazev: " Kostelíček v Líšni ",
+      nazev: " Kostelíček v\xa0Líšni ",
       kdyVznikl:
-        " 1914 na základech starší stavby. Historie sahá do roku 1630, kdy byla postavená dřevěná kaple Panny Marie Pomocnice, v roce 1634 ji postavili z kamene a z cihel a přijel ji vysvětit kardinál Dietrichstein. Kaple brzy přestala zvládat nápor poutníků a kolem byl vybudován areál ambitů a dalších tří kapliček, žil tu a o vše pečoval poustevník. Za josefínských reforem byla kaple zrušena a zbourána. Vzývaný oltářní obraz Bohorodičky byl přemístěn do kostela v Líšni. Na prázdném místě byl 1805 postaven kříž, který tu stojí dodnes. ",
+        " 1914 na základech starší stavby. Historie sahá do roku 1630, kdy byla postavená dřevěná kaple Panny Marie Pomocnice, v\xa0roce 1634 ji postavili z\xa0kamene a z\xa0cihel a přijel ji vysvětit kardinál Dietrichstein. Kaple brzy přestala zvládat nápor poutníků a kolem byl vybudován areál ambitů a dalších tří kapliček, žil tu a o vše pečoval poustevník. Za josefínských reforem byla kaple zrušena a zbourána. Vzývaný oltářní obraz Bohorodičky byl přemístěn do kostela v\xa0Líšni. Na prázdném místě byl 1805 postaven kříž, který tu stojí dodnes. ",
       popisCesty:
-        " Na mírném návrší SV od Líšně, nad Mariánským údolím. Dojedete-li na konečnou autobusu Líšeň hřbitov a vydáte se k J, nemůžete kostelík minout. Nápadné místo s dalekým kruhovým rozhledem.   ",
+        " Na mírném návrší SV od Líšně, nad Mariánským údolím. Dojedete-li na konečnou autobusu Líšeň hřbitov a vydáte se k\xa0J, nemůžete kostelík minout. Nápadné místo s\xa0dalekým kruhovým rozhledem.   ",
       popis:
-        " Obdélníková jednoduchá stavba 4,5 x 10 metrů je zakryta sedlovou střechou s vížkou.  ",
+        " Obdélníková jednoduchá stavba 4,5 x 10 metrů je zakryta sedlovou střechou s\xa0vížkou.  ",
       napis: "   ",
       odkazy: [
         {
@@ -8591,7 +8595,7 @@ export default {
         },
       ],
       pozn:
-        " Poutě tu bývají celý červenec, každou neděli po 2. 7.<br>V roce 1867 tu dal hrabě Belcredi vysázet rozsáhlý třešňový sad, stálo tu 5000 stromů. Proto se začalo kostelíčku říkat Panna Maria v třešních. Trosky sadu tu dožívaly ještě na konci 20. století. V roce 2004 byly znovu vysázeny čtyři řady třešní.<br>Pověst zachycená národopisci v Líšni před sto lety praví, že zbožná majitelka panství paní Eliška Bergrová dala postavit kapli, když se zde její synek uzdravil ze slepoty a vyprávěl, že uviděl Pannu Marii s Ježíškem na ruce ozářenou zvláštním světlem.  ",
+        " Poutě tu bývají celý červenec, každou neděli po 2. 7.<br>V roce 1867 tu dal hrabě Belcredi vysázet rozsáhlý třešňový sad, stálo tu 5000 stromů. Proto se začalo kostelíčku říkat Panna Maria v\xa0třešních. Trosky sadu tu dožívaly ještě na konci 20. století. V\xa0roce 2004 byly znovu vysázeny čtyři řady třešní.<br>Pověst zachycená národopisci v\xa0Líšni před sto lety praví, že zbožná majitelka panství paní Eliška Bergrová dala postavit kapli, když se zde její synek uzdravil ze slepoty a vyprávěl, že uviděl Pannu Marii s\xa0Ježíškem na ruce ozářenou zvláštním světlem.  ",
       naposledObnoveno: " 21.4.2021 ",
       souradnice: " 49.2097217N, 16.7055003E ",
       kodMapa:
@@ -8619,7 +8623,7 @@ export default {
         },
         {
           textOdstavce:
-            "V neděli 7. února 2021 nastala na Moravě zvláštní meteorologická situace. Po předchozí oblevě přišlo silné ochlazení a povrch země se silně vychladil. Na něj se začal nasouvat teplejší vlhký vzduch ze Středozemí,  z něj začalo pršet a déšť při podnulových teplotách mrznul. Skoro na celém území republiky začala silná ledovka. V pondělí se chodníky změnily v kluziště, kolabovala doprava, někde se trhaly dráty elektrického vedení a lámaly stromy. Zajímavé bylo, že ledovka sílila směrem k jihu a na jižní Moravě byla nejsilnější. Na vrcholu Výhonu byla na svislých plochách vystavených větru tlustá až 3 centimetry. Ledové počasí v příštích dnech tuto situaci zakonzervovalo.Možnost si prohlédnout následky tohoto zvláštního jevu, opakujícího se jednou za mnoho let, jsme využili hned příští sobotu a vypravili se v malé skupince přátel na Židlochovicko, konkrétně na vrch Výhon s rozhlednou Akátová věž. ",
+            "V neděli 7. února 2021 nastala na Moravě zvláštní meteorologická situace. Po předchozí oblevě přišlo silné ochlazení a povrch země se silně vychladil. Na něj se začal nasouvat teplejší vlhký vzduch ze Středozemí,  z\xa0něj začalo pršet a déšť při podnulových teplotách mrznul. Skoro na celém území republiky začala silná ledovka. V\xa0pondělí se chodníky změnily v\xa0kluziště, kolabovala doprava, někde se trhaly dráty elektrického vedení a lámaly stromy. Zajímavé bylo, že ledovka sílila směrem k\xa0jihu a na jižní Moravě byla nejsilnější. Na vrcholu Výhonu byla na svislých plochách vystavených větru tlustá až 3 centimetry. Ledové počasí v\xa0příštích dnech tuto situaci zakonzervovalo.Možnost si prohlédnout následky tohoto zvláštního jevu, opakujícího se jednou za mnoho let, jsme využili hned příští sobotu a vypravili se v\xa0malé skupince přátel na Židlochovicko, konkrétně na vrch Výhon s\xa0rozhlednou Akátová věž. ",
         },
         { foto: " vyhon1.jpg  ", naVysku: true },
         { foto: " vyhon2.jpg  " },
@@ -8654,7 +8658,7 @@ export default {
         { foto: " vyhon12.jpg  ", naVysku: true },
         {
           textOdstavce:
-            "Rozhledna Akátová věž poskytuje výhled od roku 2009. Ze železa a  akátového dřeva na obklad  ji vyprojektoval ing.arch. Pavel Jura. Na plošinu ve výši 14,5 metru vede 76 kovových schodů. Nahoře jsou umístěny panely s vyobrazením toho, co je nebo mělo by být vidět. Výhledy na Brno i na Pálavu. Nezajímavý vrchol dostal dominantu a důvod k návštěvě. ",
+            "Rozhledna Akátová věž poskytuje výhled od roku 2009. Ze železa a  akátového dřeva na obklad  ji vyprojektoval ing.arch. Pavel Jura. Na plošinu ve výši 14,5 metru vede 76 kovových schodů. Nahoře jsou umístěny panely s\xa0vyobrazením toho, co je nebo mělo by být vidět. Výhledy na Brno i na Pálavu. Nezajímavý vrchol dostal dominantu a důvod k\xa0návštěvě. ",
         },
         { foto: " vyhon13.jpg  ", naVysku: true },
         { foto: " vyhon14.jpg  " },
@@ -8662,12 +8666,12 @@ export default {
 
         {
           textOdstavce:
-            " Na jihovýchodním vrcholu Výhonu, který leží 700 metrů od rozhledny a je snad vyšší o půl metru (kóta 355), postavili v roce 2018 kovový kříž. ",
+            " Na jihovýchodním vrcholu Výhonu, který leží 700 metrů od rozhledny a je snad vyšší o půl metru (kóta 355), postavili v\xa0roce 2018 kovový kříž. ",
         },
         { foto: " vyhon16.jpg  " },
         {
           textOdstavce:
-            "  Z Výhonu jsme sestupovali po nové modré turistické značce kolem studánky Ve Velkém hájku, minuli Sternův kříž /skok na  ID 194/ a rozcestí Kyndlířky a klesli mezi vinicemi do Nosislavi. V poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.  ",
+            "  Z Výhonu jsme sestupovali po nové modré turistické značce kolem studánky Ve Velkém hájku, minuli Sternův kříž /skok na  ID 194/ a rozcestí Kyndlířky a klesli mezi vinicemi do Nosislavi. V\xa0poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.  ",
           vnitrniOdkazy: [
             {
               vnitrniOdkaz: 194,
@@ -8678,12 +8682,12 @@ export default {
                 " Z Výhonu jsme sestupovali po nové modré turistické značce kolem studánky Ve Velkém hájku, minuli  ",
               textOdkazu: "Sternův kříž",
               zaOdkazem:
-                ". V poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.",
+                ". V\xa0poledne začalo slunko více hřát a celá ledová nádhera byla za pár hodin na zemi. My ale na ni hned tak nezapomeneme.",
             },
           ],
         },
         { foto: " vyhon17.jpg " },
-        { foto: " vyhon18.jpg  ", popisek: "Pálava z Výhonu " },
+        { foto: " vyhon18.jpg  ", popisek: "Pálava z\xa0Výhonu " },
         { foto: " vyhon19.jpg  ", popisek: "Led na vinici (únor 2021) " },
         { foto: " vyhon20.jpg  " },
         { foto: " vyhon21.jpg  " },
@@ -8711,9 +8715,9 @@ export default {
       kdyVznikl:
         "1999 podle návrhu Petra Všetečky, Aleny Všetečkové a Milivoje Husáka. Vysvěcena byla 16. dubna 2000. ",
       popisCesty:
-        " Stojí 400 metrů JZ od kostela ve Křtinách u silnice k Výpustku. Vede tu červená a modrá značka a začíná Mariánská Radostná cesta. Místo, kde původně byla studánka k občerstvení přicházejících poutníků. Dnes studánku nahradila pumpa, ale voda není pitná. Na protější straně cesty stávala do 50. let kaplička, odstranili ji při rozšiřování silnice.   ",
+        " Stojí 400 metrů JZ od kostela ve Křtinách u silnice k\xa0Výpustku. Vede tu červená a modrá značka a začíná Mariánská Radostná cesta. Místo, kde původně byla studánka k\xa0občerstvení přicházejících poutníků. Dnes studánku nahradila pumpa, ale voda není pitná. Na protější straně cesty stávala do 50. let kaplička, odstranili ji při rozšiřování silnice.   ",
       popis:
-        " Zděná pilířová boží muka je vysoká tři metry a je zakončena sedlovou stříškou. V horní části je kruhový průzor a v něm se při vhodném úhlu pohledu objeví plastika Madony ze škrdlovického skla podle návrhu Milivoje Husáka. V dolní části je kovová deska s textem.  ",
+        " Zděná pilířová boží muka je vysoká tři metry a je zakončena sedlovou stříškou. V\xa0horní části je kruhový průzor a v\xa0něm se při vhodném úhlu pohledu objeví plastika Madony ze škrdlovického skla podle návrhu Milivoje Husáka. V\xa0dolní části je kovová deska s\xa0textem.  ",
       napis:
         " POŽEHNÁNA  V  DEN // 50. VÝROČÍ  KNĚŽSKÉHO  SVĚCENÍ // DĚKANA  P. TOMÁŠE  PRNKY // 16. 4. 2000 //  ",
       odkazy: [
@@ -8755,15 +8759,15 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Kuřim  ",
       jmeno: " Kaple vodní Kuřim  ",
-      nazev: " Vodní kaple sv. Jana Nepomuckého v Kuřimi ",
+      nazev: " Vodní kaple sv. Jana Nepomuckého v\xa0Kuřimi ",
       kdyVznikl:
         " Kapli postavili zřejmě na začátku 19. století, všude uváděný letopočet vzniku kapličky 1722 není věrohodný. ",
       popisCesty:
         " Kaple stojí na J okraji Kuřimi, pod S svahem Kuřimské hory na kraji lesa. Kolem vede žlutá značka.  ",
       popis:
-        "  Půlkruhová stavba se sedlovou střechou zakončenou křížkem. V horní části je za mříží s monogramem světce umístěna asi 1,5 metru vysoká socha Jana Nepomuckého, v dolní části vytéká voda ze dvou pramenů. Voda není vždy pitná, obecní úřad nechává dělat rozbory a vyvěšuje je u studánky (rok 2021)  ",
+        "  Půlkruhová stavba se sedlovou střechou zakončenou křížkem. V\xa0horní části je za mříží s\xa0monogramem světce umístěna asi 1,5 metru vysoká socha Jana Nepomuckého, v\xa0dolní části vytéká voda ze dvou pramenů. Voda není vždy pitná, obecní úřad nechává dělat rozbory a vyvěšuje je u studánky (rok 2021)  ",
       napis:
-        " Na podstavci sochy v kartuši : Tento svatej Jan // jest ochránce a radost // statku Kauřimského //. Chronogram v textu 1722 je datem vzniku sochy, která původně asi stála jinde. V letech 1685 - 1728 byl zámeckým hejtmanem v Kuřimi jmenován Jan František Kyssanek a ten patrně sochu pořídil.  ",
+        " Na podstavci sochy v\xa0kartuši : Tento svatej Jan // jest ochránce a radost // statku Kauřimského //. Chronogram v\xa0textu 1722 je datem vzniku sochy, která původně asi stála jinde. V\xa0letech 1685 - 1728 byl zámeckým hejtmanem v\xa0Kuřimi jmenován Jan František Kyssanek a ten patrně sochu pořídil.  ",
       odkazy: [
         {
           nazev: "Kuřim-památky ",
@@ -8799,11 +8803,11 @@ export default {
       jmeno: " Funibrouk  ",
       nazev: "Camp Funibrouk na Nešůrce  ",
       kdyVznikl:
-        " V roce 1972 si tu osada Aljaška z Unie trampů a samotářů postavila dřevěný srub. Ten po šesti letech někomu tak překážel, že ho v horkém létě 1978 zapálil. Zbylo jen stále kouzelné místo s ohořelými stromy a železná kamínka. Od roku 2004 sem jezdí S.T.S. Usada. ",
+        " V roce 1972 si tu osada Aljaška z\xa0Unie trampů a samotářů postavila dřevěný srub. Ten po šesti letech někomu tak překážel, že ho v\xa0horkém létě 1978 zapálil. Zbylo jen stále kouzelné místo s\xa0ohořelými stromy a železná kamínka. Od roku 2004 sem jezdí S.T.S. Usada. ",
       popisCesty:
         " Z Doubravice nad Svitavou proti proudu potoka Nešůrky, nedaleko Kuniček.  ",
       popis:
-        "  na rovném místě potoční terasy je ohniště, do dřeva vyřezaný nápis, přístřešek na dřevo, lebkovník, podsada na stan, zašlá tabulka s historií místa,    ",
+        "  na rovném místě potoční terasy je ohniště, do dřeva vyřezaný nápis, přístřešek na dřevo, lebkovník, podsada na stan, zašlá tabulka s\xa0historií místa,    ",
       napis: " 1978 funibrouk 2004  ",
       odkazy: [
         {
@@ -8812,7 +8816,7 @@ export default {
         },
       ],
       pozn:
-        "  V osadní knize jsme se dočetli, že camp nedávno trampové uklidili po nezvaných hostech. Aby se z něj nestalo piknikoviště pro místní mládež, odstranili lavice a jiný trampský nábytek.<br> Úmyslně tu není uvedena mapa a poloha campu. ",
+        "  V osadní knize jsme se dočetli, že camp nedávno trampové uklidili po nezvaných hostech. Aby se z\xa0něj nestalo piknikoviště pro místní mládež, odstranili lavice a jiný trampský nábytek.<br> Úmyslně tu není uvedena mapa a poloha campu. ",
       naposledObnoveno: " 2.5.2021 ",
       souradnice: "  ",
       kodMapa: "    ",
@@ -8833,16 +8837,16 @@ export default {
       obec: "  Újezd u Boskovic  ",
       jmeno: " Zemljanka - Němčice  ",
       nazev: " Památník partyzánské zemljanky u Němčic ",
-      kdyVznikl: " 1980. Zemljanka tu byla vykopána v červnu 1943. ",
+      kdyVznikl: " 1980. Zemljanka tu byla vykopána v\xa0červnu 1943. ",
       popisCesty:
-        " 1 kilometr S od kostela v Němčicích, SZ od kóty Perný (638 m) nad prudkým svahem. V roce 2021 tu zbyla vykácená paseka po starém smrkovém lese.  ",
+        " 1 kilometr S od kostela v\xa0Němčicích, SZ od kóty Perný (638 m) nad prudkým svahem. V\xa0roce 2021 tu zbyla vykácená paseka po starém smrkovém lese.  ",
       popis:
-        "  Tři kamenné zídky zapuštěné do terénu ohraničují místo zemljanky. Na prostřední vysoké asi metr je leštěná kamenná deska s hvězdou a textem.  ",
+        "  Tři kamenné zídky zapuštěné do terénu ohraničují místo zemljanky. Na prostřední vysoké asi metr je leštěná kamenná deska s\xa0hvězdou a textem.  ",
       napis:
-        " NA  TOMTO  MÍSTĚ  BYLA V ČERVNU 1943 VYBUDOVÁNA  ZA  POMOCI // ČSL.  OBČANŮ  DOLEŽALA  EDMUNDA, STAŇKA  EDUARDA  ST. z LUDÍKOVA // KRÁLE  ANTONÍNA z VALCHOVA a SOVĚTSKÝMI  DŮSTOJNÍKY // LISIČENKEM  ALEXANDREM,  LOGINOVEM  IVANOVEM a VOTINCEVEM  MELENTIJEM // PRVNÍ  PARTYZÁNSKÁ  ZEMLJANKA  NA  BOSKOVICKU // 9. 5. 1980 //  ",
+        " NA  TOMTO  MÍSTĚ  BYLA V ČERVNU 1943 VYBUDOVÁNA  ZA  POMOCI // ČSL.  OBČANŮ  DOLEŽALA  EDMUNDA, STAŇKA  EDUARDA  ST. z\xa0LUDÍKOVA // KRÁLE  ANTONÍNA z\xa0VALCHOVA a SOVĚTSKÝMI  DŮSTOJNÍKY // LISIČENKEM  ALEXANDREM,  LOGINOVEM  IVANOVEM a VOTINCEVEM  MELENTIJEM // PRVNÍ  PARTYZÁNSKÁ  ZEMLJANKA  NA  BOSKOVICKU // 9. 5. 1980 //  ",
       odkazy: [{ nazev: "  ", adresa: "  " }],
       pozn:
-        "  Památník vznikl patrně kvůli návštěvě bývalých sovětských partyzánů na Boskovicku v roce 1980  ",
+        "  Památník vznikl patrně kvůli návštěvě bývalých sovětských partyzánů na Boskovicku v\xa0roce 1980  ",
       naposledObnoveno: " 3.5.2021 ",
       souradnice: " 49.4577978N, 16.7133025E ",
       kodMapa:
@@ -8865,13 +8869,13 @@ export default {
       jmeno: " Partyzáni - Skály  ",
       nazev: " Partyzánský srub a pamětní deska na Skalách ",
       kdyVznikl:
-        "Chata byla postavena údajně 1810, určitě v první polovině 19. století. Říkalo se jí lovecká chata Hanačka, protože jednu dobu byl štít stavby pokryt hanáckými ornamenty. Deska pochází z roku 1978. ",
+        "Chata byla postavena údajně 1810, určitě v\xa0první polovině 19. století. Říkalo se jí lovecká chata Hanačka, protože jednu dobu byl štít stavby pokryt hanáckými ornamenty. Deska pochází z\xa0roku 1978. ",
       popisCesty:
-        " 3 kilometry ZSZ od kostela v Protivanově, na plochém vrcholu Skály (724 m). 150 metrů od srubu na Z prochází modrá značka. K chatě odbočuje zarostlá lesní cesta.  ",
+        " 3 kilometry ZSZ od kostela v\xa0Protivanově, na plochém vrcholu Skály (724 m). 150 metrů od srubu na Z prochází modrá značka . K\xa0chatě odbočuje zarostlá lesní cesta.  ",
       popis:
-        " menší chata se sedlovou střechou je obložena dřevěnými kuláči. U vchodu je leštěná pamětní deska s delším textem. Chata působí omšele a neudržovaně (rok 2021) ",
+        " menší chata se sedlovou střechou je obložena dřevěnými kuláči. U vchodu je leštěná pamětní deska s\xa0delším textem. Chata působí omšele a neudržovaně (rok 2021) ",
       napis:
-        " “SKÁLY” // 734 N. V. // ZA  DRUHÉ  SVĚTOVÉ  VÁLKY  SLOUŽILA  TATO  CHATA // JAKO  SÍDLO  ODBOJOVÉ  SKUPINY  JURAJ - ÚKRYT // SKUPINY  JERMAK A FAŠISTY  PRONÁSLEDO- // -VANÝCH  OBČANŮ Z OKOLNÍCH OBCÍ // V ROCE 1978  BYLO  TOTO  PAMÁTNÉ  MÍSTO  // OPRAVENO  ČLENY  ČSPB  BENEŠOV, JIMI // PŘEVZATO  DO  UŽÍVÁNÍ A SLOUŽÍ  JAKO // PAMÁTNÍK  ODBOJE //   <br> Opsáno i s chybou v nadmořské výšce. ",
+        " “SKÁLY” // 734 N. V. // ZA  DRUHÉ  SVĚTOVÉ  VÁLKY  SLOUŽILA  TATO  CHATA // JAKO  SÍDLO  ODBOJOVÉ  SKUPINY  JURAJ - ÚKRYT // SKUPINY  JERMAK A FAŠISTY  PRONÁSLEDO- // -VANÝCH  OBČANŮ Z OKOLNÍCH OBCÍ // V ROCE 1978  BYLO  TOTO  PAMÁTNÉ  MÍSTO  // OPRAVENO  ČLENY  ČSPB  BENEŠOV, JIMI // PŘEVZATO  DO  UŽÍVÁNÍ A SLOUŽÍ  JAKO // PAMÁTNÍK  ODBOJE //   <br> Opsáno i s\xa0chybou v\xa0nadmořské výšce. ",
       odkazy: [
         {
           nazev: " Kocourková-bakalářka ",
@@ -8880,7 +8884,7 @@ export default {
         },
       ],
       pozn:
-        " <strong>Partyzánská skupina Jermak</strong> působila v závěru druhé světové války na Drahanské vrchovině a ve svých řadách měla většinou uprchlé sovětské zajatce. 30. 9. 1944 byl její základ vysazen letecky v Rakoveckém údolí v počtu 14 Rusů, seskok se nepodařilo utajit. Historie dalších sedmi měsíců je velmi barvitá (Nýrov, Žďárná, Šerkovice, Javoříčko), ne vše je zcela objasněno. Skupina měla celkem 280 členů, rozdělených do mnoha skupin.<br> <strong>Partyzánský oddíl Juraj</strong>  založil na konci války Josef Jakeš, krycím jménem kapitán Juraj. Byl tvořen převážně Čechy. Hlavním úkolem bylo narušovat ústup Němců mezi Prostějovem a Boskovicemi. ",
+        " <strong>Partyzánská skupina Jermak</strong> působila v\xa0závěru druhé světové války na Drahanské vrchovině a ve svých řadách měla většinou uprchlé sovětské zajatce. 30. 9. 1944 byl její základ vysazen letecky v\xa0Rakoveckém údolí v\xa0počtu 14 Rusů, seskok se nepodařilo utajit. Historie dalších sedmi měsíců je velmi barvitá (Nýrov, Žďárná, Šerkovice, Javoříčko), ne vše je zcela objasněno. Skupina měla celkem 280 členů, rozdělených do mnoha skupin.<br> <strong>Partyzánský oddíl Juraj</strong>  založil na konci války Josef Jakeš, krycím jménem kapitán Juraj. Byl tvořen převážně Čechy. Hlavním úkolem bylo narušovat ústup Němců mezi Prostějovem a Boskovicemi. ",
       naposledObnoveno: " 2.5.2021 ",
       souradnice: " 49.4912106N, 16.7976006E ",
       kodMapa:
@@ -8905,9 +8909,9 @@ export default {
       nazev: " Meteorologická věž na Skalkách. ",
       kdyVznikl: " 1995. Autorem je Ing.arch. Luděk Šmeral. ",
       popisCesty:
-        " 1800 metrů od kostela v Benešově, blízko plochého vrcholu Skalky (kóta 735 m), na křižovatce lesních, turistických a lyžařských cest. Vede tu modrá značka.  ",
+        " 1800 metrů od kostela v\xa0Benešově, blízko plochého vrcholu Skalky (kóta 735 m), na křižovatce lesních, turistických a lyžařských cest. Vede tu modrá značka.  ",
       popis:
-        "  Věž je vysoká 35 metrů a bílá báně radaru vyčnívá nad koruny stromů. Z kruhové a zaoblené základny vystupuje štíhlý válec, zakončený ochozem s kopulí. Klenutý vchod je uzavřen mříží. Ve vchodu je kovová destička s textem. .<br> Radar funguje bez obsluhy. V přízemí je dieselagregát, náhradní zdroje a zázemí. Středem věže vede nákladní výtah, kolem je točité schodiště do kruhové místnosti s technikou. Nahoře pod bílou ochrannou kopulí se otáčí a naklápí pětimetrová parabola radaru.  ",
+        "  Věž je vysoká 35 metrů a bílá báně radaru vyčnívá nad koruny stromů. Z\xa0kruhové a zaoblené základny vystupuje štíhlý válec, zakončený ochozem s\xa0kopulí. Klenutý vchod je uzavřen mříží. Ve vchodu je kovová destička s\xa0textem. .<br> Radar funguje bez obsluhy. V\xa0přízemí je dieselagregát, náhradní zdroje a zázemí. Středem věže vede nákladní výtah, kolem je točité schodiště do kruhové místnosti s\xa0technikou. Nahoře pod bílou ochrannou kopulí se otáčí a naklápí pětimetrová parabola radaru.  ",
       napis:
         " ČESKÝ  HYDROMETEOROLOGICKÝ  ÚSTAV // RADIOLOKAČNÍ STANICE // PROJEKT // KOVOPROJEKTA, a.s. // AUTOR // ING.ARCH. LUDĚK  ŠMERAL // … // 1995   ",
       odkazy: [
@@ -8918,7 +8922,7 @@ export default {
         },
       ],
       pozn:
-        "  Občas pořádá meteorologický ústav den otevřených dveří, kdy lze stavbu navštívit, zájem je velký a kapacita  prohlídkové trasy malá. Výhled z horního ochozu je ale velkolepý. ",
+        "  Občas pořádá meteorologický ústav den otevřených dveří, kdy lze stavbu navštívit, zájem je velký a kapacita  prohlídkové trasy malá. Výhled z\xa0horního ochozu je ale velkolepý. ",
       naposledObnoveno: " 3. 5. 2021 ",
       souradnice: " 49.5010758N, 16.7884744E ",
       kodMapa:
@@ -8942,11 +8946,11 @@ export default {
       jmeno: " Piloti - Buková  ",
       nazev: "Pomník dvěma pilotům u Bukové  ",
       kdyVznikl:
-        " Po 1988, ze sbírky příslušníků 1. leteckého školního pluku v Přerově. ",
+        " Po 1988, ze sbírky příslušníků 1. leteckého školního pluku v\xa0Přerově. ",
       popisCesty:
-        " Pomník stojí 1100 metrů od kostela v Bukové, 200 metrů od potoka na kraji lesa. Lesní cesta je označena směrovkami. Letadlo se zřítilo do lesa asi 200 metrů Z od pomníku.  ",
+        " Pomník stojí 1100 metrů od kostela v\xa0Bukové, 200 metrů od potoka na kraji lesa. Lesní cesta je označena směrovkami. Letadlo se zřítilo do lesa asi 200 metrů Z od pomníku.  ",
       popis:
-        " Do betonového základu je vsazena směrové kormidlo tryskového letadla MIG 21. Na svislé ploše je reliéf hlavy Krista, umístěn dodatečně, a plechová tabulka s textem.   ",
+        " Do betonového základu je vsazena směrové kormidlo tryskového letadla MIG 21. Na svislé ploše je reliéf hlavy Krista, umístěn dodatečně, a plechová tabulka s\xa0textem.   ",
       napis:
         " NA  TOMTO  MÍSTĚ // DNE 14. 10. 1988 // TRAGICKY  ZAHYNULI // mjr.  ATTILA  SZABÓ  49 let // pplk. ing. JIŘÍ  POHNÁN 37 let // ...   ",
       odkazy: [
@@ -8957,7 +8961,7 @@ export default {
         },
       ],
       pozn:
-        "  Oba piloti byli zkušení letečtí instruktoři, pilotoval Jiří Pohnán. Úkolem byl předletový průzkum počasí nad oblastí Konice. MIG 21U odstartoval osudného dne v 7,36 a po devíti minutách zmizel z radaru. Příčina nehody nebyla objasněna. Po ostré zatáčce vlevo ve výšce 2,5 km začal letoun prudce klesat a v mírném úhlu narazil rychlostí 900 km/hod do země. Vzniklý průsek v lese byl dlouhý 400 metrů. Změna trajektorie letu byla úmyslná, možná se chtěl pilot dostat riskantním manévrem do nižší letové hladiny a neodhadl výšku nad terénem.  ",
+        "  Oba piloti byli zkušení letečtí instruktoři, pilotoval Jiří Pohnán. Úkolem byl předletový průzkum počasí nad oblastí Konice. MIG 21U odstartoval osudného dne v\xa07,36 a po devíti minutách zmizel z\xa0radaru. Příčina nehody nebyla objasněna. Po ostré zatáčce vlevo ve výšce 2,5 km začal letoun prudce klesat a v\xa0mírném úhlu narazil rychlostí 900 km/hod do země. Vzniklý průsek v\xa0lese byl dlouhý 400 metrů. Změna trajektorie letu byla úmyslná, možná se chtěl pilot dostat riskantním manévrem do nižší letové hladiny a neodhadl výšku nad terénem.  ",
       naposledObnoveno: " 3.5.2021 ",
       souradnice: " 49.5044950N, 16.8141097E ",
       kodMapa:
@@ -8983,7 +8987,7 @@ export default {
       text: [
         {
           textOdstavce:
-            "<p>Už jsme se nemohli dočkat.</p><p><strong>Devlá, vlk už řemen hryže a kůň tryskem běhá rád.</strong> Orkův rok starý výrok nejvíce odpovídá našemu duševnímu stavu. (Devlá znamená romsky povzdech Pane Bože). Po osmnáctiměsíční pauze, způsobené rodinnými problémy a koronavirem, chceme opět putovat se stanem - budem toho ještě schopni? Jen sbalit se nám dalo dost zabrat, úplně jsme vypadli z rutiny.</p><p>Začátkem dubna, půl dne po sněžení, jsme se rozjeli nedaleko. Lákalo nás <strong>Řehořkovo Kořenecko</strong>. Jen pro ten název se třemi EŘ. Kdo to neví, tak Kořenec je vesnice v líbezné krajině Drahanské vrchoviny Přírodní park Řehořkovo Kořenecko zabírá část plošiny mezi Boskovicemi, Protivanovem a Jaroměřicemi. Pan František Řehořek (1890 - 1982) byl krajinář, malíř kořeneckých obyvatel a žil v Kořenci 60 let.</p><p>K vládnímu nařízení neopouštět okres, který jsme tedy porušili, krátkou poznámku. Bydlíme na sídlišti s pětadvaceti tisíci spoluobčanů a při každém opuštění bytu nutně potkáváme lidi. Za tři dny v lesích, neboť vesnice jsme obcházeli obloukem, jsme potkali lidí jen pár. Nejrizikovější z hlediska infekce byla cesta tramvají na nádraží v Brně a zpět. K zásadám tří R je nutno dodat ještě čtvrtou, Rozum. A ještě oříšek pro právníky: vztahuje se zákaz nočního vycházení i na stan?</p>  ",
+            "<p>Už jsme se nemohli dočkat.</p><p><strong>Devlá, vlk už řemen hryže a kůň tryskem běhá rád.</strong> Orkův rok starý výrok nejvíce odpovídá našemu duševnímu stavu. (Devlá znamená romsky povzdech Pane Bože). Po osmnáctiměsíční pauze, způsobené rodinnými problémy a koronavirem, chceme opět putovat se stanem - budem toho ještě schopni? Jen sbalit se nám dalo dost zabrat, úplně jsme vypadli z\xa0rutiny.</p><p>Začátkem dubna, půl dne po sněžení, jsme se rozjeli nedaleko. Lákalo nás <strong>Řehořkovo Kořenecko</strong>. Jen pro ten název se třemi EŘ. Kdo to neví, tak Kořenec je vesnice v\xa0líbezné krajině Drahanské vrchoviny Přírodní park Řehořkovo Kořenecko zabírá část plošiny mezi Boskovicemi, Protivanovem a Jaroměřicemi. Pan František Řehořek (1890 - 1982) byl krajinář, malíř kořeneckých obyvatel a žil v\xa0Kořenci 60 let.</p><p>K vládnímu nařízení neopouštět okres, který jsme tedy porušili, krátkou poznámku. Bydlíme na sídlišti s\xa0pětadvaceti tisíci spoluobčanů a při každém opuštění bytu nutně potkáváme lidi. Za tři dny v\xa0lesích, neboť vesnice jsme obcházeli obloukem, jsme potkali lidí jen pár. Nejrizikovější z\xa0hlediska infekce byla cesta tramvají na nádraží v\xa0Brně a zpět . K\xa0zásadám tří R je nutno dodat ještě čtvrtou, Rozum. A ještě oříšek pro právníky: vztahuje se zákaz nočního vycházení i na stan?</p>  ",
         },
         {
           textOdstavce:
@@ -8995,12 +8999,12 @@ export default {
         },
         {
           textOdstavce:
-            " Prázdným vlakem jsme dojeli do Doubravice. V obci mě zaujala netradičně pojatá přístavba zřejmě rekreační chalupy.   ",
+            " Prázdným vlakem jsme dojeli do Doubravice. V\xa0obci mě zaujala netradičně pojatá přístavba zřejmě rekreační chalupy.   ",
         },
         { foto: " korenec01.jpg  ", popisek: "  Doubravice (duben 2021)  " },
         {
           textOdstavce:
-            "  A pak jsme šli údolí potoka Nešůrky stále proti proudu. Zprvu po slušné lesní cestě s lávkami, až ke zřícenině hradu Doubravice nad údolím. Z rozsáhlého hradu toho mnoho nezbylo. Dvojitý hradní příkop ze zranitelné strany, valy na místě hradeb a suťový kužel tam, kde stála obranná věž. Hrad fungoval od poloviny 13. do poloviny 15. století, tedy zhruba 200 let. Patřil několika majitelům a při prodeji roku 1529 se uvádí jako pustý.    ",
+            "  A pak jsme šli údolí potoka Nešůrky stále proti proudu. Zprvu po slušné lesní cestě s\xa0lávkami, až ke zřícenině hradu Doubravice nad údolím. Z\xa0rozsáhlého hradu toho mnoho nezbylo. Dvojitý hradní příkop ze zranitelné strany, valy na místě hradeb a suťový kužel tam, kde stála obranná věž. Hrad fungoval od poloviny 13. do poloviny 15. století, tedy zhruba 200 let. Patřil několika majitelům a při prodeji roku 1529 se uvádí jako pustý.    ",
         },
         { foto: " korenec02.jpg ", popisek: " Údolí Nešůrky  " },
         { foto: " korenec03.jpg  " },
@@ -9010,14 +9014,14 @@ export default {
         },
         {
           textOdstavce:
-            "  Na stráních se silně kácí, cesta se mění v pěšinu a i ta mizí.  ",
+            "  Na stráních se silně kácí, cesta se mění v\xa0pěšinu a i ta mizí.  ",
         },
         { foto: " korenec05.jpg  ", popisek: "   " },
         { foto: " korenec06.jpg  ", popisek: "   " },
         { foto: " korenec07.jpg  ", popisek: " vodopádky na Nešůrce  " },
         {
           textOdstavce:
-            " V divočejší části údolí přicházíme k plošině a na ní leží trampské tábořiště, camp Funibrouk(skok na ID 201). Trampský národ sem jezdí více jak 40 let. Stála tu i chata Aljaška, než ji někdo zapálil. Teď se ale ráz místa mění, starý smrkový les uschl, byl vytěžen a stíněné údolí se otevírá.   ",
+            " V divočejší části údolí přicházíme k\xa0plošině a na ní leží trampské tábořiště, camp Funibrouk(skok na ID 201). Trampský národ sem jezdí více jak 40 let. Stála tu i chata Aljaška, než ji někdo zapálil. Teď se ale ráz místa mění, starý smrkový les uschl, byl vytěžen a stíněné údolí se otevírá.   ",
           vnitrniOdkazy: [
             {
               vnitrniOdkaz: 201,
@@ -9025,7 +9029,7 @@ export default {
               odkazPodkategorie: 13,
               odkazKde: "odstavec",
               predOdkazem:
-                "V divočejší části údolí přicházíme k plošině a na ní leží trampské tábořiště, camp   ",
+                "V divočejší části údolí přicházíme k\xa0plošině a na ní leží trampské tábořiště, camp   ",
               textOdkazu: "Funibrouk",
               zaOdkazem:
                 " . Trampský národ sem jezdí více jak 40 let. Stála tu i chata Aljaška, než ji někdo zapálil. Teď se ale ráz místa mění, starý smrkový les uschl, byl vytěžen a stíněné údolí se otevírá.",
@@ -9039,16 +9043,16 @@ export default {
         },
         {
           textOdstavce:
-            "  Dál se probíjíme cestou necestou na Škatulec, který býval zalesněný a bez výhledu. Dnes je to jinak, návrší je uprostřed holiny. Bylo jedno, jestli jsme šli po zeleně značené cestě nebo beze značky, pláně jsou vykácené a značky není na co malovat. Všude se pracovalo, vícekrát jsme vyhýbali těžebním strojům. Tak nějak jsem si představoval Šumavu v románech Karla Klostermanna za časů broučkového ráje v 19. století ",
+            "  Dál se probíjíme cestou necestou na Škatulec, který býval zalesněný a bez výhledu. Dnes je to jinak, návrší je uprostřed holiny. Bylo jedno, jestli jsme šli po zeleně značené cestě nebo beze značky, pláně jsou vykácené a značky není na co malovat. Všude se pracovalo, vícekrát jsme vyhýbali těžebním strojům. Tak nějak jsem si představoval Šumavu v\xa0románech Karla Klostermanna za časů broučkového ráje v\xa019. století ",
         },
         { foto: " korenec09.jpg  " },
         {
           foto: " korenec10.jpg  ",
-          popisek: " Výhled z vrcholu Škatulce (duben 2021)  ",
+          popisek: " Výhled z\xa0vrcholu Škatulce (duben 2021)  ",
         },
         {
           textOdstavce:
-            " Na zastíněných místech se ještě drží sníh, silné sněhové přeháňky se tu proháněly ještě včera. Dnes je chladno, větrno a co je hlavní, svítí slunce. Zdálky míjíme Němčice i Ludíkov, mezi nimi na vrcholu Perný (638 m) jsme našli památník partyzánské zemljanky (skok na ID 202) . Určitě se schovávala v hustém lese, dnes je to holé.  ",
+            " Na zastíněných místech se ještě drží sníh, silné sněhové přeháňky se tu proháněly ještě včera. Dnes je chladno, větrno a co je hlavní, svítí slunce. Zdálky míjíme Němčice i Ludíkov, mezi nimi na vrcholu Perný (638 m) jsme našli památník partyzánské zemljanky (skok na ID 202) . Určitě se schovávala v\xa0hustém lese, dnes je to holé.  ",
           vnitrniOdkazy: [
             {
               vnitrniOdkaz: 202,
@@ -9059,7 +9063,7 @@ export default {
                 "Na zastíněných místech se ještě drží sníh, silné sněhové přeháňky se tu proháněly ještě včera. Dnes je chladno, větrno a co je hlavní, svítí slunce. Zdálky míjíme Němčice i Ludíkov, mezi nimi na vrcholu Perný (638 m) jsme našli  ",
               textOdkazu: "památník partyzánské zemljanky",
               zaOdkazem:
-                " . Určitě se schovávala v hustém lese, dnes je to holé.  ",
+                " . Určitě se schovávala v\xa0hustém lese, dnes je to holé.  ",
             },
           ],
         },
@@ -9071,7 +9075,7 @@ export default {
         },
         {
           textOdstavce:
-            "  Obloukem se vyhýbáme Ludíkovu po pastvinách, ale vesnici Žďárná minout nemůžeme. Tak si na návsi prohlédneme barokní kostel svatého Bartoloměje z poloviny 18. věku. Postavil ho brněnský stavitel František Antonín Grimm ve tvaru řeckého kříže a uvnitř má zajímavou sochařskou výzdobu. Tam jsme se ale nedostali.   ",
+            "  Obloukem se vyhýbáme Ludíkovu po pastvinách, ale vesnici Žďárná minout nemůžeme. Tak si na návsi prohlédneme barokní kostel svatého Bartoloměje z\xa0poloviny 18. věku. Postavil ho brněnský stavitel František Antonín Grimm ve tvaru řeckého kříže a uvnitř má zajímavou sochařskou výzdobu. Tam jsme se ale nedostali.   ",
         },
         { foto: " korenec15.jpg  ", popisek: " Ludíkov  " },
         { foto: " korenec16.jpg  ", popisek: " Žďárná  " },
@@ -9108,7 +9112,7 @@ export default {
         },
         {
           textOdstavce:
-            "  Noc byla dost studená a ráno ležela na loukách kolem jinovatka. Vrátili jsme se na rozcestí U Skal a zamířili k nejvyšším vrcholům Drahanské vrchoviny. Nutně jsme potřebovali doplnit zásobu vody a na odbočce modré značky leží pramen Luhy, která je hlavní zdrojnicí říčky Punkvy. Před patnácti lety pramen zpopularizoval televizní program Zpět k pramenům, pamatuji tu i hrneček s logem České televize, který tu po natáčení nechal herec Luděk Munzar. Studánka je od roku 2017 krásně upravená. Přísně hydrologicky vzniká Punkva soutokem Bílé vody a Luhy v podzemí Amatérské jeskyně a na povrchu se objeví na dně propasti Macocha. My jsme tu načepovali výbornou vodu ze silného pramene, protože jinak jsme na funkční studánku za tři dny nenarazili a byli nuceni brát  potoční vodu vytékající z lesa nebo z toho, co po nich zbylo.",
+            "  Noc byla dost studená a ráno ležela na loukách kolem jinovatka. Vrátili jsme se na rozcestí U Skal a zamířili k\xa0nejvyšším vrcholům Drahanské vrchoviny. Nutně jsme potřebovali doplnit zásobu vody a na odbočce modré značky leží pramen Luhy, která je hlavní zdrojnicí říčky Punkvy. Před patnácti lety pramen zpopularizoval televizní program Zpět k\xa0pramenům, pamatuji tu i hrneček s\xa0logem České televize, který tu po natáčení nechal herec Luděk Munzar. Studánka je od roku 2017 krásně upravená. Přísně hydrologicky vzniká Punkva soutokem Bílé vody a Luhy v\xa0podzemí Amatérské jeskyně a na povrchu se objeví na dně propasti Macocha. My jsme tu načepovali výbornou vodu ze silného pramene, protože jinak jsme na funkční studánku za tři dny nenarazili a byli nuceni brát  potoční vodu vytékající z\xa0lesa nebo z\xa0toho, co po nich zbylo.",
         },
         {
           foto: " korenec22.jpg  ",
@@ -9141,7 +9145,7 @@ export default {
 
         {
           textOdstavce:
-            " Z kopce Skály jsme se vydali po lesních cestách hledat pomník dvěma pilotům (skok na ID 205)  u Bukové. Našli jsme ho snadno, navedly nás malé dřevěné směrovky, které tu nějaký nadšenec rozmístil. V roce 1988 se tu z nezjištěných příčin zřítil MIG 21U se dvěma leteckými instruktory a udělal v lese průsek dlouhý 400 metrů. Z výšky je dodnes vidět  tvar obrovského kříže, který padající stroj vytvořil. Pomník je pěkný, nápaditý, letci se o své mrtvé kamarády umějí postarat.  ",
+            " Z kopce Skály jsme se vydali po lesních cestách hledat pomník dvěma pilotům (skok na ID 205)  u Bukové. Našli jsme ho snadno, navedly nás malé dřevěné směrovky, které tu nějaký nadšenec rozmístil. V\xa0roce 1988 se tu z\xa0nezjištěných příčin zřítil MIG 21U se dvěma leteckými instruktory a udělal v\xa0lese průsek dlouhý 400 metrů. Z\xa0výšky je dodnes vidět  tvar obrovského kříže, který padající stroj vytvořil. Pomník je pěkný, nápaditý, letci se o své mrtvé kamarády umějí postarat.  ",
           vnitrniOdkazy: [
             {
               vnitrniOdkaz: 205,
@@ -9152,7 +9156,7 @@ export default {
                 " Z kopce Skály jsme se vydali po lesních cestách hledat  ",
               textOdkazu: "pomník dvěma pilotům",
               zaOdkazem:
-                "  u Bukové. Našli jsme ho snadno, navedly nás malé dřevěné směrovky, které tu nějaký nadšenec rozmístil. V roce 1988 se tu z nezjištěných příčin zřítil MIG 21U se dvěma leteckými instruktory a udělal v lese průsek dlouhý 400 metrů. Z výšky je dodnes vidět  tvar obrovského kříže, který padající stroj vytvořil. Pomník je pěkný, nápaditý, letci se o své mrtvé kamarády umějí postarat.  ",
+                "  u Bukové. Našli jsme ho snadno, navedly nás malé dřevěné směrovky, které tu nějaký nadšenec rozmístil. V\xa0roce 1988 se tu z\xa0nezjištěných příčin zřítil MIG 21U se dvěma leteckými instruktory a udělal v\xa0lese průsek dlouhý 400 metrů. Z\xa0výšky je dodnes vidět  tvar obrovského kříže, který padající stroj vytvořil. Pomník je pěkný, nápaditý, letci se o své mrtvé kamarády umějí postarat.  ",
             },
           ],
         },
@@ -9163,14 +9167,14 @@ export default {
 
         {
           textOdstavce:
-            " Průsek v lese po pádu letadla jsme nenašli, také se tu hodně kácí. Zamířili jsme k nejvyššímu bodu Drahanské vrchoviny, tedy kótě Skalky (735 m). Stále do kopce dosud zachovalým smrkovým lesem jsme tam  došli za chvíli. Na plochém vrchu je zachován zbytek staré bučiny a mezi stromy bez listí prosvítá jiná zdejší zajímavost.  ",
+            " Průsek v\xa0lese po pádu letadla jsme nenašli, také se tu hodně kácí. Zamířili jsme k\xa0nejvyššímu bodu Drahanské vrchoviny, tedy kótě Skalky (735 m). Stále do kopce dosud zachovalým smrkovým lesem jsme tam  došli za chvíli. Na plochém vrchu je zachován zbytek staré bučiny a mezi stromy bez listí prosvítá jiná zdejší zajímavost.  ",
         },
         { foto: " korenec26.jpg  ", popisek: " Oběd na vrcholu Skalky  " },
         { foto: " korenec27.jpg  ", naVysku: true },
 
         {
           textOdstavce:
-            ' Je to meteorologický radar (skok na ID 204), jeden ze dvou v České republice. Ten druhý je v Brdech a nevím, jestli je tak dobře přístupný. S výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z věže k severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>- ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
+            ' Je to meteorologický radar (skok na ID 204), jeden ze dvou v\xa0České republice. Ten druhý je v\xa0Brdech a nevím, jestli je tak dobře přístupný. S\xa0výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v\xa0televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z\xa0věže k\xa0severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>- ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
           vnitrniOdkazy: [
             {
               vnitrniOdkaz: 204,
@@ -9180,7 +9184,7 @@ export default {
               predOdkazem: " Je to ",
               textOdkazu: "meteorologický radar",
               zaOdkazem:
-                ' jeden ze dvou v České republice. Ten druhý je v Brdech a nevím, jestli je tak dobře přístupný. S výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z věže k severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>, - ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
+                ' jeden ze dvou v\xa0České republice. Ten druhý je v\xa0Brdech a nevím, jestli je tak dobře přístupný. S\xa0výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v\xa0televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z\xa0věže k\xa0severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>, - ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
             },
           ],
         },
@@ -9192,7 +9196,7 @@ export default {
 
         {
           textOdstavce:
-            " My jsme k Pavlovu, nejvýše položené horské vísce daleko široko došli pěšky a konečně se dostali ke kýženému Řehořkovu Kořenecku, které tu začíná.  ",
+            " My jsme k\xa0Pavlovu, nejvýše položené horské vísce daleko široko došli pěšky a konečně se dostali ke kýženému Řehořkovu Kořenecku, které tu začíná.  ",
         },
         { foto: " korenec29.jpg  ", popisek: "  Pavlov " },
         { foto: " korenec30.jpg  ", naVysku: true },
@@ -9202,7 +9206,7 @@ export default {
         },
         {
           textOdstavce:
-            " <p>Do Kořence jsme nedošli, do cesty se nám postavil golfový resort Kořenec, krásné osmnáctijamkové hřiště na mírném svahu východně od obce, na ploše 60 hektarů. V mapě z roku 1996 jsou v místech golfového hřiště namalovány dvě přírodní památky, Kořenské pastvisko a Kocourov, obě v návrhu, luční společenstva s výskytem chráněných a ohrožených druhů. Golfový resort tehdy v návrhu nebyl. Zamokřená luka byla vydrenážována, voda svedena do rybníčků, luční společenstva nahrazena nizoučkým trávníčkem. Nabízí se otázky, co je cennější. Zda pohyb stovek hráčů v krásném zdravém přírodním prostředí a pracovní příležitost pro desítky zaměstnanců, nebo jedinečná luční společenstva relativně nedotčené přírody. Netroufám si odpovědět.</p><p>Podle hromádek sněhu to vypadalo, že se golf hrál i za sněžení, a ani koronavir golfisty nezastavil.</p>   ",
+            " <p>Do Kořence jsme nedošli, do cesty se nám postavil golfový resort Kořenec, krásné osmnáctijamkové hřiště na mírném svahu východně od obce, na ploše 60 hektarů. V\xa0mapě z\xa0roku 1996 jsou v\xa0místech golfového hřiště namalovány dvě přírodní památky, Kořenské pastvisko a Kocourov, obě v\xa0návrhu, luční společenstva s\xa0výskytem chráněných a ohrožených druhů. Golfový resort tehdy v\xa0návrhu nebyl. Zamokřená luka byla vydrenážována, voda svedena do rybníčků, luční společenstva nahrazena nizoučkým trávníčkem. Nabízí se otázky, co je cennější. Zda pohyb stovek hráčů v\xa0krásném zdravém přírodním prostředí a pracovní příležitost pro desítky zaměstnanců, nebo jedinečná luční společenstva relativně nedotčené přírody. Netroufám si odpovědět.</p><p>Podle hromádek sněhu to vypadalo, že se golf hrál i za sněžení, a ani koronavir golfisty nezastavil.</p>   ",
         },
         { foto: " korenec32.jpg  ", popisek: " Golfové hřiště Kořenec  " },
         { foto: " korenec33.jpg  " },
@@ -9217,12 +9221,12 @@ export default {
         },
         {
           foto: " korenec35.jpg  ",
-          popisek: " Výhled z Paprče na Kořenecko.  ",
+          popisek: " Výhled z\xa0Paprče na Kořenecko.  ",
         },
 
         {
           textOdstavce:
-            " Další cesta vedla kolem Horního Štěpánova, Brodku u Konice a Runářova. Cestou jsme si užili i jarního vyvalování s kávou na sluníčku v suché trávě. Den byl blažený, modrovětrný.  ",
+            " Další cesta vedla kolem Horního Štěpánova, Brodku u Konice a Runářova. Cestou jsme si užili i jarního vyvalování s\xa0kávou na sluníčku v\xa0suché trávě. Den byl blažený, modrovětrný.  ",
         },
         { foto: " korenec36.jpg  ", popisek: " Odpolední idyla  " },
         {
@@ -9256,7 +9260,7 @@ export default {
         },
         {
           textOdstavce:
-            " Poslední den jsme si nemohli dovolit žádné experimenty s trasou, aby nám neujel zpáteční vlak. Šli jsme raději po značených cestách, což bylo zdlouhavé a někdy i nudné. Prvně jsme dorazili ke Sládkově skále. Je tam starý zatopený lom a trochu záhadný secesní pomník, na kterém je beze slova vysvětlení nápis VĚČNĚ  ZNOVA  PŘEMOŽENI PÍSEŇ  PÍSNÍ  POČÍNÁME - - -. V lomu je hluboká, čistá a vždy studená voda, protože nemá odtok a slunce tam nedosvítí. Zvláštní místo.V létě roku 1917 sem přišla s kamarádkou sedmnáctiletá  <strong>Milada Mackerlová </strong>. Protože bylo vedro, skočila do studené vody a už se živá nevynořila. Její otec byl majitelem sodovkárny v Prostějově a dal jí zbudovat solidní pomník. Verš na pomník vybral její přítel a student gymnázia a patří  tehdy módnímu básníku Otokaru Březinovi.  ",
+            " Poslední den jsme si nemohli dovolit žádné experimenty s\xa0trasou, aby nám neujel zpáteční vlak. Šli jsme raději po značených cestách, což bylo zdlouhavé a někdy i nudné. Prvně jsme dorazili ke Sládkově skále. Je tam starý zatopený lom a trochu záhadný secesní pomník, na kterém je beze slova vysvětlení nápis VĚČNĚ  ZNOVA  PŘEMOŽENI PÍSEŇ  PÍSNÍ  POČÍNÁME - - -. V\xa0lomu je hluboká, čistá a vždy studená voda, protože nemá odtok a slunce tam nedosvítí. Zvláštní místo.V létě roku 1917 sem přišla s\xa0kamarádkou sedmnáctiletá  <strong>Milada Mackerlová </strong>. Protože bylo vedro, skočila do studené vody a už se živá nevynořila. Její otec byl majitelem sodovkárny v\xa0Prostějově a dal jí zbudovat solidní pomník. Verš na pomník vybral její přítel a student gymnázia a patří  tehdy módnímu básníku Otokaru Březinovi.  ",
         },
         { foto: " korenec43.jpg  ", popisek: " Zatopený lom Sládkova skála  " },
         { foto: " korenec44.jpg  ", popisek: " Pomník Milady Mackerlové  " },
@@ -9268,7 +9272,7 @@ export default {
 
         {
           textOdstavce:
-            " V severním svahu Sládkovy skály je v mapě zakreslena  <strong>Fialova studánka </strong>, která by měla být i pramenem říčky Romže. Studánku jsme našli, bohužel byla bez vody, která si našla jinou cestu do bažiny pod studánkou. Celá tato oblast je prameništěm několika moravských říček, pramenících nedaleko od sebe. Romže teče do Prostějova, Hloučela také, Punkva do Blanska, Bělá do Boskovic a Nectava do Jaroměřic.Taková střecha Moravy.  ",
+            " V severním svahu Sládkovy skály je v\xa0mapě zakreslena  <strong>Fialova studánka </strong>, která by měla být i pramenem říčky Romže. Studánku jsme našli, bohužel byla bez vody, která si našla jinou cestu do bažiny pod studánkou. Celá tato oblast je prameništěm několika moravských říček, pramenících nedaleko od sebe. Romže teče do Prostějova, Hloučela také, Punkva do Blanska, Bělá do Boskovic a Nectava do Jaroměřic.Taková střecha Moravy.  ",
         },
         {
           foto: " korenec46.jpg  ",
@@ -9278,7 +9282,7 @@ export default {
 
         {
           textOdstavce:
-            " Minuli jsme Slámovu louži u Šubířova a přes údolí došli k  <strong>hradisku Durana </strong> na relativně vysokém kopci. Moc z něj nezbylo, mělký příkop obkružuje oválnou plošinu o průměru asi 50 metrů. Jméno prý pochází od Durancie, manželky olomouckého knížete z 12. století, život na hradisku datovala archeologie do 13. a 14. století. Zajímavá je rozsáhlá rezervace staré bučiny s jedlemi na severní straně kopce.  ",
+            " Minuli jsme Slámovu louži u Šubířova a přes údolí došli k\xa0 <strong>hradisku Durana </strong> na relativně vysokém kopci. Moc z\xa0něj nezbylo, mělký příkop obkružuje oválnou plošinu o průměru asi 50 metrů. Jméno prý pochází od Durancie, manželky olomouckého knížete z\xa012. století, život na hradisku datovala archeologie do 13. a 14. století. Zajímavá je rozsáhlá rezervace staré bučiny s\xa0jedlemi na severní straně kopce.  ",
         },
         { foto: " korenec47.jpg  ", popisek: " U Šubířova.  " },
         {
@@ -9290,7 +9294,7 @@ export default {
 
         {
           textOdstavce:
-            " Pod osadou Pohora v údolí potoka stojí barokní  <strong>socha svaté Barbory</strong>. Osamělá socha v zalesněné krajině vždy slibuje nějaké překvapení. Socha je pěkná, zachovalá, stojí prý na místě šarvátky pruských a rakouských vojsk v roce 1866 a hromadného hrobu soupeřících stran. Jinde jsem se dočetl, že socha už tu stála před bojem. Těžko rozlišit, co je pověst a co historicky doložená pravda. Sochu jsme prohlédli a nezbylo než mašírovat k vlaku do Šebetova, který jel jen pro nás. Dlouho jsme byli jedinými pasažéry.   ",
+            " Pod osadou Pohora v\xa0údolí potoka stojí barokní  <strong>socha svaté Barbory</strong>. Osamělá socha v\xa0zalesněné krajině vždy slibuje nějaké překvapení. Socha je pěkná, zachovalá, stojí prý na místě šarvátky pruských a rakouských vojsk v\xa0roce 1866 a hromadného hrobu soupeřících stran. Jinde jsem se dočetl, že socha už tu stála před bojem. Těžko rozlišit, co je pověst a co historicky doložená pravda. Sochu jsme prohlédli a nezbylo než mašírovat k\xa0vlaku do Šebetova, který jel jen pro nás. Dlouho jsme byli jedinými pasažéry.   ",
         },
         {
           foto: " korenec51.jpg  ",
@@ -9318,11 +9322,11 @@ export default {
       nazev: " Kaple svatého Peregrina u Ořechova ",
       fotkaUvod: { fotka: " peregrin2.jpg " },
       kdyVznikl:
-        " Zděná kaple byla postavena 1863, její dřevěná předchůdkyně někdy v 18. století, protože 1759 už stála. ",
+        " Zděná kaple byla postavena 1863, její dřevěná předchůdkyně někdy v\xa018. století, protože 1759 už stála. ",
       popisCesty:
-        " Leží 2,5 kilometru SV od kostela v Ořechově, na okraji srázů spadajících do údolí Bobravy. Na palouku s rozcestím lesních cest.  ",
+        " Leží 2,5 kilometru SV od kostela v\xa0Ořechově, na okraji srázů spadajících do údolí Bobravy. Na palouku s\xa0rozcestím lesních cest.  ",
       popis:
-        " Zděná stavbička rozměrů 3 x 3 metry se sedlovou střechou. Ve vchodu je železná mříž, uvnitř oltářní obrázek s výjevem uzdravení sv. Peregrina.   ",
+        " Zděná stavbička rozměrů 3 x 3 metry se sedlovou střechou. Ve vchodu je železná mříž, uvnitř oltářní obrázek s\xa0výjevem uzdravení sv. Peregrina.   ",
       napis: "   ",
       odkazy: [
         {
@@ -9336,7 +9340,7 @@ export default {
         },
       ],
       pozn:
-        "  Kaple bývala první zastávkou na pěších poutích z Brna do Maria-Zell. Nyní tu bývá pouť 2. neděli v květnu.<strong> Svatý Peregrin Laziosi</strong>  (1265 - 1345), Ital z města Forli, stal se mnichem řádu servítů. Je vzýván při bolestech nohou a rakovině, neboť sám se z rakoviny nohy zázračně vyléčil.Někde je uváděn jako svatý Pelegrin. Peregrinus = lat. poutník, cizinec. Pellegrino = ital. poutník, cestující. Pèlerin = franc. poutník, pocestný. Kaple v roce 1759 posloužila jako pomocný trigonometrický bod, když astronom Josef Liesganig vyměřoval tzv. Vídeňský poledník od Soběšic k Vídni, aby zjistil rozměr zeměkoule. Na prostranství před kaplí vysadila Sušilova družina v roce 2018 lípu. Další dvě  lípy vysazené kolem roku 2005 rostou těsně u kaple.  ",
+        "  Kaple bývala první zastávkou na pěších poutích z\xa0Brna do Maria-Zell. Nyní tu bývá pouť 2. neděli v\xa0květnu.<strong> Svatý Peregrin Laziosi</strong>  (1265 - 1345), Ital z\xa0města Forli, stal se mnichem řádu servítů. Je vzýván při bolestech nohou a rakovině, neboť sám se z\xa0rakoviny nohy zázračně vyléčil.Někde je uváděn jako svatý Pelegrin. Peregrinus = lat. poutník, cizinec. Pellegrino = ital. poutník, cestující. Pèlerin = franc. poutník, pocestný. Kaple v\xa0roce 1759 posloužila jako pomocný trigonometrický bod, když astronom Josef Liesganig vyměřoval tzv. Vídeňský poledník od Soběšic k\xa0Vídni, aby zjistil rozměr zeměkoule. Na prostranství před kaplí vysadila Sušilova družina v\xa0roce 2018 lípu. Další dvě  lípy vysazené kolem roku 2005 rostou těsně u kaple.  ",
       naposledObnoveno: " 12.5.2021 ",
       souradnice: " 49.1245544N, 16.5485225E ",
       kodMapa:
@@ -9364,7 +9368,7 @@ export default {
       jmeno: " Kaple - Horákov  ",
       nazev: "Lesní kaple Mitrovských u Horákova  ",
       fotkaUvod: { fotka: " kaplehorakov1.jpg " },
-      kdyVznikl: " původní stavba v polovině 30. let. Obnovena 2006. ",
+      kdyVznikl: " původní stavba v\xa0polovině 30. let. Obnovena 2006. ",
       popisCesty:
         " 100 metrů V od Horákovské myslivny, na odbočce červené značky.  ",
       popis:
@@ -9383,7 +9387,7 @@ export default {
         },
       ],
       pozn:
-        "  Kapli dal postavit hrabě Hubert Vladimír Mitrovský po smrti jediného syna v polovině 30. let 20.století. Byla z bílých březových kmenů, bohužel stavba bez základu a izolace podléhala rychle zkáze. Pamatuji, že začátkem 60. let byla ve velmi špatném stavu. V polovině 70. let byla stržena a zůstala po ní jen plošina v lese. Roku 2003 vznikla myšlenka kapli obnovit. Projekt - repliku zhotovil Ing.arch. Antonín Závada. Začalo se stavět v srpnu 2005, dokončena byla v létě 2006. Nápis a kříž zhotovil řezbář František Moštěk, obraz Panny Marie lesní provedla technikou na plech líšeňská  malířka betlémů Jana Mošťková.  ",
+        "  Kapli dal postavit hrabě Hubert Vladimír Mitrovský po smrti jediného syna v\xa0polovině 30. let 20.století. Byla z\xa0bílých březových kmenů, bohužel stavba bez základu a izolace podléhala rychle zkáze. Pamatuji, že začátkem 60. let byla ve velmi špatném stavu. V\xa0polovině 70. let byla stržena a zůstala po ní jen plošina v\xa0lese. Roku 2003 vznikla myšlenka kapli obnovit. Projekt - repliku zhotovil Ing.arch. Antonín Závada. Začalo se stavět v\xa0srpnu 2005, dokončena byla v\xa0létě 2006. Nápis a kříž zhotovil řezbář František Moštěk, obraz Panny Marie lesní provedla technikou na plech líšeňská  malířka betlémů Jana Mošťková.  ",
       naposledObnoveno: " 13.5.2021 ",
       souradnice: " 49.2144897N, 16.7367131E ",
       kodMapa:
@@ -9414,7 +9418,7 @@ export default {
       popisCesty:
         " 1100 metrů SSV od středu Řícmanic, na kraji Konůpkovy louky. Vede tu modře značená cesta.   ",
       popis:
-        " Dřevěný sloup je vysoký 3,5 metru. Nahoře v rámečku obrázek Panny Marie, níže nápis vyřezaný do dřevěné tabulky, pod ním je tabulka s vlastivědným textem.   ",
+        " Dřevěný sloup je vysoký 3,5 metru. Nahoře v\xa0rámečku obrázek Panny Marie, níže nápis vyřezaný do dřevěné tabulky, pod ním je tabulka s\xa0vlastivědným textem.   ",
       napis: " U  OBRÁZKU  ",
       odkazy: [
         {
@@ -9423,7 +9427,7 @@ export default {
         },
       ],
       pozn:
-        " V minulosti tu býval zavěšen obrázek Panny Marie, odtud pochází i název místa. Bylo to pravděpodobně na připomenutí nešťastné události, která se odehrála nedaleko u cesty k Řícmanicím. V ohybu cesty byl písečník. Podkopaný svah se sesunul a zasypal domkáře Václava Hájka z Řícmanic, který si tam kopal písek. Lidé obrázek umístili na poutní cestu z Brna do Křtin.  ",
+        " V minulosti tu býval zavěšen obrázek Panny Marie, odtud pochází i název místa. Bylo to pravděpodobně na připomenutí nešťastné události, která se odehrála nedaleko u cesty k\xa0Řícmanicím. V\xa0ohybu cesty byl písečník. Podkopaný svah se sesunul a zasypal domkáře Václava Hájka z\xa0Řícmanic, který si tam kopal písek. Lidé obrázek umístili na poutní cestu z\xa0Brna do Křtin.  ",
       naposledObnoveno: " 16.5.2021 ",
       souradnice: " 49.2680142N, 16.6974406E ",
       kodMapa:
@@ -9446,10 +9450,10 @@ export default {
       kdyVznikl:
         " Kříž vyřezal roku 1911 pan Theodor Šenk (1881-1941) podle vzorů používaných na Slovácku.  ",
       popisCesty:
-        " Kříž stojí 900 metrů SV od středu Bílovic, u poutní cesty Brněnka z Bílovic do Křtin. Prochází tu červená značka.  ",
+        " Kříž stojí 900 metrů SV od středu Bílovic, u poutní cesty Brněnka z\xa0Bílovic do Křtin. Prochází tu červená značka.  ",
       popis:
-        "  Šest metrů vysoký dřevěný kříž s plechovým Kristem je zdobený pozoruhodnými řezbami s náboženskými motivy.   ",
-      napis: "  A.D. 1911 . Vedle kříže je tabulka s vlastivědným textem.  ",
+        "  Šest metrů vysoký dřevěný kříž s\xa0plechovým Kristem je zdobený pozoruhodnými řezbami s\xa0náboženskými motivy.   ",
+      napis: "  A.D. 1911 . Vedle kříže je tabulka s\xa0vlastivědným textem.  ",
       odkazy: [
         {
           nazev: " turistika ",
@@ -9457,7 +9461,7 @@ export default {
         },
       ],
       pozn:
-        "Když kříž zestárnul a barvy se oloupaly, byl v padesátých letech přetřen jednobarevně na červeno, později byl tmavohnědý. Řezby zanikaly. Až v roce 2009 byl kříž řádně restaurován, řezby zpevněny, dřevo konzervováno. Původní barevnost obnovila podle dochovaných fragmentů malířka Jana Ondrušová-Wünschová.   ",
+        "Když kříž zestárnul a barvy se oloupaly, byl v\xa0padesátých letech přetřen jednobarevně na červeno, později byl tmavohnědý. Řezby zanikaly. Až v\xa0roce 2009 byl kříž řádně restaurován, řezby zpevněny, dřevo konzervováno. Původní barevnost obnovila podle dochovaných fragmentů malířka Jana Ondrušová-Wünschová.   ",
       naposledObnoveno: " 16.5.2021 ",
       souradnice: "49.2539353N, 16.6781542E  ",
       kodMapa:
@@ -9482,7 +9486,7 @@ export default {
       cislo: " 521  ",
       kdeSeNaleza: " Na návrší Z od Křenovic.   ",
       popis:
-        "  Neforemný kříž s tlustými rameny z jemnozrnného pískovce je vysoký 1,1 metru. Jsou na něm důlky, údajně od střel napoleonských vojáků.   ",
+        "  Neforemný kříž s\xa0tlustými rameny z\xa0jemnozrnného pískovce je vysoký 1,1 metru. Jsou na něm důlky, údajně od střel napoleonských vojáků.   ",
       napis: "     ",
       povest:
         "  Cyrilometodějská legenda, obvyklá u starobyle vypadajících křížů na Moravě.  Také se traduje, že na původním místě usmrtil splašený kůň dívku, která žala trávu. Mohl být i rozcestníkem na Jantarové stezce. ",
@@ -9503,7 +9507,7 @@ export default {
         { nazev: " Preclík, Vladimír: Kameny pokání, 1992, s. 57-62. " },
       ],
       pozn:
-        " Omylem byl zaevidován i pod názvem 1296 Prace.<br> Stával původně o několik set metrů dál v poli blíže k Brnu, ale překážel při scelování pozemků ve 30. letech 20. století a tak ho přemístili na toto místo.   ",
+        " Omylem byl zaevidován i pod názvem 1296 Prace.<br> Stával původně o několik set metrů dál v\xa0poli blíže k\xa0Brnu, ale překážel při scelování pozemků ve 30. letech 20. století a tak ho přemístili na toto místo.   ",
       naposledObnoveno: " 27.5.2021 ",
       galerie: [
         { fotka: "krenovice1.jpg", popisek: " (leden 2021) " },
@@ -9523,11 +9527,11 @@ export default {
       okres: "  Brno - venkov  ",
       obec: " Přísnotice  ",
       cislo: " 1856  ",
-      kdeSeNaleza: " JZ od Přísnotic v polích, u polní cesty.   ",
+      kdeSeNaleza: " JZ od Přísnotic v\xa0polích, u polní cesty.   ",
       popis:
         "  Původně to byl dvouramenný metr vysoký kříž, ale obě horní ramena byla už dříve odlomena. Na kříži dlouhý, dnes těžko čitelný text. Kříž byl nedávno odborně ošetřen a znovu usazen, okolí upraveno (stav 2021).  ",
       napis:
-        " Opsal kronikář obce ve 30. letech. Mluví se v něm o zabití Kryštofa Krause z Grotky při pícování Tatarů v roce 1663. Kříž dala postavit jeho manželka. Kříž je popsán z obou stran, je možné, že je z jedné strany nápis český a z druhé nápis v němčině. ",
+        " Opsal kronikář obce ve 30. letech. Mluví se v\xa0něm o zabití Kryštofa Krause z\xa0Grotky při pícování Tatarů v\xa0roce 1663. Kříž dala postavit jeho manželka. Kříž je popsán z\xa0obou stran, je možné, že je z\xa0jedné strany nápis český a z\xa0druhé nápis v\xa0němčině. ",
       povest: "    ",
       odkazy: [
         {
@@ -9565,11 +9569,11 @@ export default {
       obec: " Hrušovany  ",
       cislo: " 1857  ",
       kdeSeNaleza:
-        "  V severní části Hrušovan u kaple. Původní poloha kamene byla na místě dnešní pískovny JZ od Hrušovan, při historické cestě z Brna do Vídně. Jak se písečník rozšiřoval, kámen několikrát stěhovali, až skončil v obci v prosklené skříni. ",
+        "  V severní části Hrušovan u kaple. Původní poloha kamene byla na místě dnešní pískovny JZ od Hrušovan, při historické cestě z\xa0Brna do Vídně. Jak se písečník rozšiřoval, kámen několikrát stěhovali, až skončil v\xa0obci v\xa0prosklené skříni. ",
       popis:
         "  Kámen tvaru kruhové stély je vysoký 0,9 metru. Nad líc kamene vystupuje latinský kříž. Na kříži je německý text.  ",
       napis:
-        "  Přečetl Vladimír Uminský roku 2013 takto: HANS // NEWBAWR  VON // TAEMITZ + AMAB  SN // MATTHEI // ANNO DNI // MDXCV .  AMAB znamená am Abend. Volně přeloženo: Hans Neubauer z Těmice zemřel večer na svatého Matěje (24. února) 1595.   ",
+        "  Přečetl Vladimír Uminský roku 2013 takto: HANS // NEWBAWR  VON // TAEMITZ + AMAB  SN // MATTHEI // ANNO DNI // MDXCV .  AMAB znamená am Abend. Volně přeloženo: Hans Neubauer z\xa0Těmice zemřel večer na svatého Matěje (24. února) 1595.   ",
       povest:
         "  Sedlák si odvezl kámen domů a položil na práh, ale ve snu se mu začal objevovat objevovat duch důstojníka. Až kámen vrátil, měl pokoj.  ",
       odkazy: [
@@ -9586,7 +9590,7 @@ export default {
         { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 57 " },
       ],
       pozn:
-        " Smírčí kámen si dali v roce 2014 místní za sklo. Už ho tedy nepoškozují povětrnostní vlivy, ale příliš připomíná muzejní expozici a s místem dávné vraždy nemá už nic společného.  ",
+        " Smírčí kámen si dali v\xa0roce 2014 místní za sklo. Už ho tedy nepoškozují povětrnostní vlivy, ale příliš připomíná muzejní expozici a s\xa0místem dávné vraždy nemá už nic společného.  ",
       naposledObnoveno: " 30.5.2021 ",
       galerie: [
         { fotka: "hrusovany1.jpg", popisek: " (únor 2021) " },
@@ -9607,7 +9611,7 @@ export default {
       cislo: " 1481  ",
       kdeSeNaleza: " U silnice ze Štěpánovic do Nových Štěpánovic.   ",
       popis:
-        "  Špičatá kamenná deska je vysoká 0,8 metru. Z ní vystupuje reliéf latinského kříže.  ",
+        "  Špičatá kamenná deska je vysoká 0,8 metru. Z\xa0ní vystupuje reliéf latinského kříže.  ",
       napis: "     ",
       povest: " Na tomto místě vlk roztrhal malé děvče.   ",
       odkazy: [
@@ -9644,7 +9648,7 @@ export default {
       cislo: " 1482  ",
       kdeSeNaleza: " Leží Z od Štěpánovic, u rozcestí lesních cest.  ",
       popis:
-        "  Mramorová deska má rozměr 0,9 x 0,6 metru. Do ní je zahlouben negativní reliéf kříže v kruhu.  ",
+        "  Mramorová deska má rozměr 0,9 x 0,6 metru. Do ní je zahlouben negativní reliéf kříže v\xa0kruhu.  ",
       napis: "     ",
       povest:
         "  Podle jedné pověsti se tu dva řezníci ve zlosti vzájemně usmrtili. Podle jiné zabil řezníka zdivočelý býk.  ",
@@ -9688,7 +9692,7 @@ export default {
       napis:
         "  Monogram J. O. a číslice 99, možná znamenají letopočet 1899.   ",
       povest:
-        "  Měl tu být koňský hřbitov hraběcí rodiny Serenyiů z Lomnice.    ",
+        "  Měl tu být koňský hřbitov hraběcí rodiny Serenyiů z\xa0Lomnice.    ",
       odkazy: [
         {
           nazev: " Lesy ČR ",
@@ -9705,6 +9709,175 @@ export default {
       naposledObnoveno: " 31.5.2021  ",
       galerie: [{ fotka: " synalov.jpg", popisek: " (kveten 2021) " }],
       proMe: "  XX/1146  24-143-46  21---051  ",
+    },
+    {
+      id: 210,
+
+      pridano: "27/05/2021",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: " Kde v\xa0Brně straší ",
+      datum: " prosinec 1997  ",
+      fotkaUvod: { fotka: "  brnostras06.jpg  " },
+
+      text: [
+        {
+          textOdstavce:
+            "    <p> Přátelé,</p><p>opět v\xa0čase vánočním rozdávám trochu čtení. Po studánkách, pomníčcích a Bystroušce se věnuji přehledu bytostí nadpřirozených. Dlužno vyslovit předem:<i> nic jsem si nevymyslel,</i> vše je popsáno v\xa0desítkách pověstí, často velmi poetických. Tentokrát se místo okolím Brna zabývám spíše městem samým, protože holt strašidla bez lidí nemohou existovat a platí, že čím více lidí, tím více záhad.</p>  ",
+          foto: "brnostras01.jpg",
+          umisteniFoto: " vpravo   ",
+          popisek: " Schwarzův palác na náměstí Svobody 17 (březen 2021)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Tedy začneme procházku Brnem odprostředka. Schwarzův palác nebo též  <strong>Dům pánů z\xa0Lipé</strong> na náměstí Svobody č. 17 je jediný soukromý renesanční palác, který přežil do našich dnů. V\xa0domě se v\xa0minulých 400 letech muselo stát něco hrozného, v\xa0noci tam strašilo a proto se odtud všichni stěhovali. Dodnes je budova prázdná. Ve sklepích je tam ukrytý poklad a ti kteří ho šli hledat, se živí nevrátili. Kdoví, jestli nezačne strašit o tři domy vedle v\xa0čísle 20, pádný důvod by tu byl.</p>  ",
+          foto: "   brnostras05.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Dům šlechtičen na Kobližné (březen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            "   <p>  <strong>Dům šlechtičen </strong> na Kobližné č. 1 a 3 byl nadační ústav pro výchovu dívek. Vydržel až do roku 1948, tedy skoro 300 let. Celou dobu tam obchází bílá paní, stará a vznešená. Zjevuje se na nádvoří,projde tiše palácem a o půlnoci zmizí v\xa0zadním traktu. Je to duch zřizovatelky Jany Františky Prisky Magnisové, zemřelé roku 1655, která dohlíží na konání následníků. Také se dívá do oken protějších paláců, Schrattenbachova, Říkovských z\xa0Dobrkovic a české policie. Ten, kdo ji zahlédne, zemře. Magnisovský dům č. 3 spojený vjedno s\xa0Domem šlechtičen byl ve válce vybombardován a zbořen. Na vzniklé proluce se později začal stavět dům služeb Racek, ale stavba byla jako zakletá, deset let se nehnula z\xa0místa. V\xa090. letech jej koupila Komerční banka a v\xa0roce 1994 dokončila v\xa0chladném stylu. Jestli bílá paní prochází i trezory nové banky, není známo.</p><p>  Restaurant  <strong>Černý medvěd </strong> na Jakubském náměstí bývala stará hospoda v\xa0ještě starším domě. Vykopávky na sousední parcele sahají do 13. století. Kolem kostela sv. Jakuba býval 500 let hřbitov, kde se nechávali pochovávat městští prominenti. Někteří neměli po smrti klid a často se tam v\xa0noci rozléhaly rány a kravál. Když hřbitov roku 1788 zrušili, nářek a hluk se přestěhoval do okolních domů. Nejvíce je slyšet právě od Černého medvěda, pokud ovšem nezaniká v\xa0řevu motorů provázejícím naši dobu.</p>  ",
+          foto: "  brnostras06.jpg   ",
+          umisteniFoto: " vpravo   ",
+          popisek: " Sklepy pod Domem šlechtičen (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Také v\xa0 <strong>paláci Chlumských </strong> na České č. 6 ještě za časů před druhou válkou, kdy v\xa0patře byla redakce Lidových novin a dole tiskárna, se hýbaly kliky samy od sebe, jako by se něco chtělo dostat dovnitř. V\xa0ten stejný den strčil mladý tiskař ruku mezi válce tiskařského stroje. Jindy zase, v\xa0nedávné době, byl slyšen starobylý zvuk spinetu v\xa0krásné skladbě, i když se tento nástroj daleko široko nevyskytoval. </p>  ",
+          foto: "   brnostras10.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Palác Chlumských Česká 6  (květen 2019) ",
+        },
+        {
+          textOdstavce:
+            "   <p>Tam, kde se Veselá ulice dotýká České, stávala od roku 1858 malá kašna. Do dřevěného bednění padal pramínek čisté vody, dovedený až z\xa0rybníku Gaisperk vedle Králova Pole. Podle sochy ženy se džbánem na rameni se kašně začalo říkat  <strong>Karolínka </strong>. Kdysi v\xa0kašně utopila svobodná matka své dítě. Od roku 1986 má Brno novou Karolínku, odlitou ve Štorkově slévárně. I v\xa0ní, když je úplné ticho, je slyšet slabý dětský pláč. </p>  ",
+          foto: "   brnostras11.jpg  ",
+          umisteniFoto: " vpravo   ",
+          popisek: "  Nová kašna Karolínka na České (březen 2021)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Na Nové radnici vlevo od vchodu je známá  <strong>křížová chodba </strong> ze 13. století, postavená v\xa0cisterciácko-burgundském slohu. Méně je známo, že tam někdy v\xa0pravé poledne straší. Chodbou se strhne veliký vítr, je slyšet kroky, ženský pláč, řinčení řetězů a nářek. Říká se, že se takto projevuje jeden z\xa0opatů Dominikánského kláštera jménem Ulrych, který provedl něco příšerně hříšného a nemá ani po smrti klid. </p>  ",
+          foto: "   brnostras17.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Křížová chodba na Nové radnici (červen 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>To ale není všechno. Velmi pozoruhodná jsou i  <strong>pravá vrata na Nové radnici </strong>. Povšimněte si, že jsou vždy zavřená, neotevírají se ani při návštěvách korunovaných hlav. Tudy chodí do sněmu staří moravští páni. V\xa0určitých dnech stoupají do sálů v\xa0prvním patře a tam se za osvětlenými okny radí, zda se mají účastnit povstání proti císaři nebo ne, tak jak to udělali před bitvou bělohorskou. Také se nedoporučuje vstupovat na  <strong>radniční balkón </strong>, má to potom zlé následky. Škoda, že to neřekli v\xa0dubnu 1996 prezidentu Havlovi a královně Alžbětě.</p>  ",
+          foto: "  brnostras16.jpg   ",
+          umisteniFoto: " vpravo   ",
+          popisek: "  Pravá radniční vrata (březen 2021) ",
+        },
+        {
+          textOdstavce:
+            "   <p>Když má někdo z\xa0úřednictva na radnici zemřít, vychází z\xa0budovy na nádvoří mohutný muž ve starodávných šatech, chodí těžce, jako by měl nohy z\xa0kamene a jeho kroky duní po dláždění. Projde chodby, nahlédne vrátnému do okýnka a pak někde zmizí. Zvěstuje zlou událost. Některé dny se nedoporučuje zůstávat v\xa0budově po šesté večer. Cosi začne shazovat klobouky z\xa0věšáků, kliky samy cvakají, zamčené dveře se samy otevírají, v\xa0sálech, kde nikdo není, se lustry samy rozsvěcují. Inu, Nová radnice je velmi pozoruhodná budova. </p>  ",
+          foto: "   brnostras15.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Nová radnice, Dominikánské náměstí (březen 2021)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>V Dominikánské ulici č. 9 v\xa0 <strong>Domě pánů z\xa0Kunštátu a Poděbrad </strong> se ještě před druhou válkou objevoval v\xa0noci mnich, který nesl otevřenou knihu, a z\xa0ní se modlil. Procházel se po nádvoří, nevšímal si okolí a mizel po půlnoci. Dole v\xa0klenuté místnosti bývala hospoda, kde se scházeli vlastenci Klácel, Helcelet s\xa0Havlíčkem a Němcovou, když přijeli do Brna. Dnes je starý dům deset let opuštěný, zpustlý, hrozivý a zeje prázdnotou. Na téže ulici je možno potkat v\xa0noci starobyle oděného rytíře, možná některého z\xa0popravených radních, kteří chtěli vydat město husitům v\xa0roce 1422. </p>  ",
+          foto: "   brnostras20.jpg  ",
+          umisteniFoto: " vpravo   ",
+          popisek: " Dům žďárských opatů, Zelný trh 10 (únor 2019) ",
+        },
+        {
+          textOdstavce:
+            "   <p> V  <strong>Domě opatů žďárského kláštera </strong> na Zelném trhu č. 10 dodnes obchází duch jeptišky, která má být v\xa0domě zazděná. Více zjevení se objevuje naproti v\xa0 <strong>č. 13, </strong> rohovém domě Malého špalíčku, který patřil pánům z\xa0Bubna. Obcházela tu postava hraběnky, která v\xa0domě bydlela a zabila narozené dítě. Jiná hraběnka si tu na stará kolena vydržovala mladé milence a když jí byli nevěrní, tak je zabíjela ve sklepeních, která sahají až pod Parnas. Za života jí nic nedokázali, přestože se dožila vysokého věku. Doteď se, zlomená v\xa0pase, plíží chodbami a schodišti a nemá klid. Pod domem jsou dvoupatrové sklepy, sahající pod náměstí. Sloužily řezníkům, kteří odtud zásobovali masný a kurný trh.</p>",
+          foto: "   brnostras21.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek:
+            " Dům žďárských opatů před opravou s\xa0bílou paní na ochozu (říjen 2010)  ",
+        },
+        {
+          textOdstavce:
+            "<p>V  <strong>Kapucínské hrobce </strong> se dodnes dvě noci v\xa0roce, před Všemi svatými a před Dušičkami, objevuje z\xa0večera u rakve s\xa0mumií pandura Trencka světlá ženská postava. Klečí bez pohnutí až do svítání a modlí se za jeho spásu.    </p> ",
+        },
+        {
+          textOdstavce:
+            "   <p>Na  <strong>Josefské ulici č. 17 </strong> stával dřív u městské hradby hostinec a veřejný dům. Ve sklepě se tam ozýval zvonek stříbrným hláskem. Jedno z\xa0děvčat zakopalo ve sklepě dítě, které se jí narodilo. Od té doby tam sklepeními obchází nekřtěňátko a zvoní stříbrným zvonečkem, aby na sebe upozornilo. Dnes je na tom místě vstup do podchodu a těžko říct, jestli se sklepy zachovaly.</p><p>   Na  <strong>Orlí č. 21 </strong> ještě nedávno o sobě dávalo vědět malé strašidýlko. Vidět moc nebylo, neb bylo temnější než noc a každý večer ťapkalo po světnici. Před léty byl v\xa0této světnici zavražděn člověk a vrah jeho tělo zazdil. V\xa0č. 16,  <strong>domě první brněnské pošty</strong>, mají na dvoře sochu dívky s\xa0odhalenými ňadry. Říká se jí Černá Johanka, na paměť dlouhé jímavé historie. Za jasných měsíčních nocí klečívá před sochou mladý muž bledé tváře a pláče pro nešťastnou lásku.  </p>  ",
+          foto: "   brnostras25.jpg  ",
+          umisteniFoto: " vpravo   ",
+          popisek: " Minoritský kostel ze střechy pasáže Alfa (duben 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>V  <strong>Minoritské ulici </strong> se před půlnocí objevuje nejznámější brněnské strašidlo. Je to rytíř Jan Šembera, poslední mužský potomek pánů z\xa0Boskovic. Lstí se zmocnil závěti, odkazující rodové jmění Minoritům a spálil ji. Za to jej kvardián kláštera proklel, a tak ani po smrti nenalézá pokoje. Jako zbídačený kůň se vynoří ze skály Žumbera u Obřan. Jede na něm ďábel, který ho bije. Dojede k\xa0fortně minoritského kláštera, černý kůň hrabe kopyty do zámkové dlažby, řičí a z\xa0nozder mu šlehá plamen. Chce, aby mu mniši odpustili. Teprve když na věži odbije půlnoc, projede pěší zónou k\xa0bývalé Brance v\xa0městské hradbě u obchodního domu Centrum, jede po Cejlu a přes Maloměřice, až zmizí v\xa0bílých skalách hádeckých. Ani duch kvardiánův to nemá lepší. Bývá viděn, jak stojí mezi pilíři kostela svatých Janů a oplakává bohaté dědictví po Boskovických. </p>  ",
+          foto: "  brnostras28.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Portál loretánské kaple u Minoritů (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Jiná pověst říká, že každou noc sedlá čert Šemberu a oře s\xa0ním skály na Hádecké planině. Až doorá, vletí s\xa0ním pekelník jeskyní rovnou do pekel. Skála, jeskyně i čertovy dlapy se dodnes ukazují. Další pověst se vztahuje k\xa0datu 12. dubna 1581. Toho dne došlo k\xa0souboji mezi rytířem Šemberou a panem Zikmundem ze Zástřizl, kteří předtím silně popíjeli, až na sebe zbraně tasili. Zikmund byl zabit nečestným způsobem a tak v\xa0den výročí vraždy tu obchází Šembera se zkrvaveným mečem v\xa0ruce. Když ještě stál Šemberův dům, přijížděl k\xa0němu krásný kočár se čtyřspřežím běloušů, vystoupil z\xa0něj vznešený pán a šel rovnou do domu. Byl to duch Jaroslava z\xa0Boskovic, kancléře Matyáše Korvína, který byl ve Vídni nevinně popraven. Dům stál  <strong>na rohu Jánské a Poštovské </strong>. Na jeho místě postavili roku 1938 funkcionalistický palác Alfa a přijíždějí k\xa0němu onačejší kočáry. </p>  ",
+          foto: "   brnostras29.jpg  ",
+          umisteniFoto: " vpravo   ",
+          popisek:
+            " Minoritský kostel z\xa0klášterního nádvoří (prosinec 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> V  <strong>královopolském kostele </strong> Nejsvětější trojice visí vlevo ve Švédské kapli milostný obraz Panny Marie ze 16. století. Každou noc u něj hodinu před půlnocí klečí bílá ženská postava. Modlí se a pláče. O půlnoci přejde šikmo lodí a mizí v\xa0koutě chrámu. Za švédského obléhání Brna byl klášter vypleněn a generál Torstenson si v\xa0něm zřídil hlavní stan. Švédští vojáci se bavili střelbou do mariánského obrazu. Tři z\xa0nich okamžitě oslepli a ani vojenský felčar jim nebyl nic platný. Když byl obraz v\xa0roce 1973 restaurován, napočítal restaurátor 48 průstřelů švédskými koulemi. Jiná pověst praví, že potupení kláštera nezůstalo bez odplaty. Jednu noc v\xa0roce, v\xa0den výročí švédského řádění, tu mají sraz kostlivci, kteří zbyli z\xa0Torstensonových vojáků. Se svými lebkami musí hrát až do rána příšerný biliár. </p>  ",
+          foto: "   brnostras31.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek:
+            "Oltář s\xa0obrazem Panny Marie prostříleným Švédy. (květen 2018)   ",
+        },
+        {
+          textOdstavce:
+            "   <p>V domě vedle královopolského kina Morava, kde se promítá od roku 1915, se děla zvláštní věc. Po odzvonění klekání začaly létat vzduchem sekyrky. Jedna za druhou svištěly vzduchem a zasekávaly se do zdi. Ráno po sekyrkách nebylo ani stopy.</p><p>           <strong>Rybářskou ulicí </strong> protékal až do 60. let našeho věku svratecký náhon. Přebýval v\xa0něm starobrněnský vodník. Občas ho bylo možno vidět u Kamenného mostu na Poříčí, kde sem tam utopil pacholka od koní. V\xa0posledních letech vidět nebývá, zato slyšet je o něm často. Přesídlil výše proti proudu a na novém jezu na Riviéře napočítali za pětadvacet let 16 utopených. </p>  ",
+          foto: "  brnostras32.jpg   ",
+          umisteniFoto: " vpravo   ",
+          popisek:
+            " Obraz Tanec mrtvých uchovávají v\xa0královopolském klášteře (únor 2008)  ",
+        },
+        {
+          textOdstavce:
+            "<p> Nočnímu návštěvníku  <strong>vinárny U Elišky </strong> za starobrněnským chrámem se může zjevit podivný pár. Starý pán provázený bílou husou. Je to brněnský filozof, lingvista a podivín František Vymazal. Před sto lety zde často navštěvoval hospůdku U Rašovských a velice si tu oblíbil hostinského husu, se kterou často rozmlouval. Jazykovědec se smrtelně urazil a vícekrát tam nevkročil, když zjistil, že mu jeho přítelkyni upekli a snědli.</p><p> Na poli za centrálkou stávala až do začátku 70. let  <strong>boží muka. </strong> Kolem ní v\xa0poledne straší pár mladých lidí, kteří se na tom místě zabili z\xa0nešťastné lásky. Jejich rodiče je tu pochovali oblečené ve svatebním rouchu. Sám jsem je jako kluk viděl. Boží muka byla ovšem starší než všechny pověsti. Nejméně od 12. do 18. století označovala trasu královské cesty, která tudy vedla z\xa0Brna do Znojma.</p>  ",
+          foto: "  brnostras40.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Zákoutí za starobrněnským kostelem (červenec 2019)",
+        },
+        {
+          textOdstavce:
+            "   <p> Nejdůležitější literatura :</p><p>Popelář B.: Urbář pověstí brněnských, 1946. <br> Kiliánova E.: Král moravských vodníků, 1974. <br> Sirovátka O.: Brněnské kolo a drak,1982, 1991. <br> Macků M.: Z brněnských pověstí, 1991. <br>Štěpaník J.: Vyprávění brněnského draka, 1994. <br> Svobodová J.: V Brně na Špilberku stojí vraný kůň, 1995. <br>Šrámková M.: pod brněnskými věžemi, 1995. <br> Šrámková M.: Před brněnskými hradbami, 1997 (nejlepší).</p>  ",
+          foto: "  brnostras45.jpg   ",
+          umisteniFoto: " vpravo   ",
+          popisek: "   ",
+        },
+        {
+          textOdstavce:
+            "   <p><h3> Přípodotek z\xa0roku 2021 :</h3> Po 24 letech se ledacos ve městě změnilo k\xa0lepšímu. Budova Schwarzova paláce už není prázdná, ale plná života, sídlí tu více firem, mj. Student-Agency. Na tragédii na náměstí Svobody 20, kdy se 22. října 1997 zřítil vnitřek překotně opravovaného domu a zahynulo při tom pět pracovníků, si už nikdo nevzpomene. Kolem kostela sv. Jakuba se prakticky nejezdí, je tu pěší zóna. Ale klid tu zásluhou hospody Na stojáka není nikdy. Palác Chlumských na České je z\xa0gruntu přestavěn, nelze projít průjezdem do dvora a poslouchat, zda se neozve hra na spinet. Zato Nová radnice se rozšířila i pod Dominikánské náměstí, byl objeven a zpřístupněn obrovský Mincmistrovský sklep pod náměstím. V\xa0opraveném Domě pánů z\xa0Kunštátu je výstavní síň. I Dům opatů žďárského kláštera prošel mnohaletou rekonstrukcí a na zazděnou jeptišku přitom nenarazili. V\xa0domě pánů z\xa0Bubna je východ z\xa0podzemí, lze projít část sklepů pod Zelným trhem. Dokonce i zazděný poklad stříbrných mincí se tu našel. Ale zase zmizel, jak už to s\xa0poklady bývá. Krásně zrenovovaný je i dům brněnské pošty na Orlí včetně sochy Černé Johanky, i studna, do které skočila. Perfektně opraven a dostavěn pro účely fakulty informatiky je i královopolský klášter, zdá se že v\xa0nových moderních interiérech se duchům nedaří. V\xa0kině Morava se od 90. let nepromítá, je z\xa0něj klub. Jez na Riviéře zrekonstruovali do bezpečnější podoby a od té doby se tam neutopil nikdo. </p>  ",
+          foto: "  brnostras50.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Černá Johanka z\xa0Orlí ulice (květen 2021)",
+        },
+        {
+          textOdstavce:
+            "   <p> Nejvíce pozornosti vzbudila  <strong>pověst o dvou strašidlech u boží muky za Ústředním hřbitovem </strong>. „Tys viděl strašidla?“ No - viděl. Může sloužit i jako návod, jak vznikají pověsti. Mohlo mi být tak devět let a v\xa0horkém odpoledni jsme se dvěma kamarády procházeli mezi poli za Bohunicemi. Asi jsme nešli potichu a když jsme došli k\xa0boží muce, uviděli jsme tam mladého muže a ženu, kteří seděli na kousku trávníku – tehdy bývaly všechny trávníky kvůli králíkům vysečené - a koukali na nás. Tehdy jsem nevěděl, co tam asi dělali, ale situace mě překvapila tak, že jsem si ji zapamatoval. A když jsem pak po mnoha letech četl tuto pověst, vybavila se mi dávná scéna horkého odpoledne v\xa0obilních lánech. Boží muka za Centrálkou ztratila svou funkci ve 30. letech po stavbě krematoria a byla zbytečně zbourána při stavbě bohunického sídliště v\xa070. letech. Nyní se tam rozkládá broskvoňový sad. </p>  ",
+        },
+        {
+          textOdstavce:
+            "   <p> I literatury s\xa0pověstmi přibylo. Nakladatelství Vitalis vydalo reprint vzácné knihy ze 30. let, Leopold Masur: Sagen aus Brünn, 2007, v\xa0němčině. Všechna nadpozemská zjevení systematicky zmapoval Roman Juránek v\xa0knize Brněnská strašidla, Vakát 2008, daleko důkladněji než tento článek. </p>  ",
+          foto: "   brnostras46.jpg  ",
+          umisteniFoto: " vpravo   ",
+          popisek: "   ",
+        },
+        {
+          textOdstavce:
+            "   <p> A ještě dvě podivné historky jsem vylovil z\xa0paměti posledních let. První: V údolí potoka Vrbovce pod Žebětínem je  <strong>Vrbovský mlýn </strong>, nyní restaurace a jezdecký klub Eliot. Ještě za Rakouska-Uherska tu mlynář zavraždil mlynářku, pěknou ženskou, snad ze žárlivosti. Mají tu její obrázek. Její duch se tu prý občas objevuje, v\xa0noci jako mlžný přízrak se tiše zjeví ve mlýně. Vidělo jej několik lidí nezávisle na sobě. </p>  ",
+        },
+
+        {
+          textOdstavce:
+            "   <p> Druhá: když se po svobodných volbách v\xa0roce 1992 jednalo o rozdělení našeho státu na dva, hlavní dohody byly uzavřeny 26. srpna 1992 ve  <strong>vile Tugendhat </strong>na poloviční cestě mezi Prahou a Bratislavou. Když oficiální jednání skončilo a smlouvy byly podepsány, sešli se dva protagonisté, předsedové vlád Klaus a Mečiar v\xa0parku vily pod starým platanem k\xa0neformální debatě. Měli tam jen stoleček a židle, novináři k\xa0nim nesměli, zachovaly se jen fotografie z\xa0dálky. Co si povídali, se neví, nikdo z\xa0nich dvou o tom nemluvil. Byl klidný, teplý letní večer.  Rozešli se v\xa0noci o půl třetí. Dvě hodiny nato, ve  4.30 se z\xa0platanu odlomila silná větev a padla na stolek, u kterého seděli. Případ vyšetřovala policie, ale nic nevyšetřila. </p>  ",
+        },
+      ],
+      galerie: [],
     },
   ],
 };

@@ -35,10 +35,10 @@
             clanek.kategorie === "vypraveni" || clanek.kategorie === "cesty"
         );
       }
+
       if (
         this.$route.name !== "DetailPomnicku" &&
-        this.$route.name !== "DetailKrize" &&
-        this.$route.name !== "NovePridane"
+        this.$route.name !== "DetailKrize"
       ) {
         this.getZalozky(this.mojeClanky);
       }
