@@ -64,7 +64,7 @@
     grid-row: 1/2;
     grid-column: 1/2;
     margin: 15px;
-    /* margin-bottom: 0; */
+    margin-bottom: 0;
   }
 
   .clanek h4 {
