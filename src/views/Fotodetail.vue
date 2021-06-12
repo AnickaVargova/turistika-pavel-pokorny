@@ -167,13 +167,13 @@
 
   #fotodetail figcaption {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 1vh;
   }
 
   #fotodetail button {
     position: absolute;
     right: 30px;
-    bottom: 30px;
+    bottom: 3vh;
     width: 100px;
     justify-content: left;
     padding-left: 30px;

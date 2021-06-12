@@ -1,12 +1,18 @@
 <template>
-  <div id="oknoPomnicky" v-if="!this.pomnickyZalozka">
+  <div id="oknoPomnicky" v-if="!this.pomnickyZalozka || !this.zalozkyButton">
     <div
       v-bind:class="{ ramecek: vybraneId !== clanek.id }"
       v-for="clanek in mojeClanky"
       v-bind:key="clanek.id"
     >
       <h2 style="textAlign:center">
-        {{ clanek.nazev ? clanek.nazev : clanek.jmeno }}
+        {{ clanek.nazev ? clanek.nazev : clanek.jmeno
+        }}{{
+          clanek.kategorie.trim() === "smircikrize" &&
+          $route.name === "NovePridane"
+            ? "  (smírčí kříž)"
+            : null
+        }}
       </h2>
 
       <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
@@ -222,7 +228,7 @@
 <script>
   import Klikaci from "./../components/Klikaci.vue";
   export default {
-    props: ["clanky", "kategoriePomnicky"],
+    props: ["clanky", "kategoriePomnicky", "zalozkyButton"],
     components: { Klikaci: Klikaci },
     data() {
       return {

@@ -145,7 +145,7 @@ export default {
 
       pozn:
         "Bedřich Soffer (1898 – 1928) byl známý brněnský sportovec a automobilový závodník, majitel autoškoly a tovární jezdec Zbrojovky. Neštěstí se stalo při zkušební jízdě  s\xa0novým speciálním šestiválcem  Z\xa06V  s\xa0maximální rychlostí 180 km za hod. Auto jelo směrem od Vyškova, ve vysoké rychlosti dostalo smyk, vyletělo ze silnice a několikrát se převrátilo. Řidič si volantem poranil hrudník, vyletěl z\xa0vozu a dopadl hlavou na kámen 11 metrů daleko. Zemřel při převozu do nemocnice. Spolujezdec, 24letý mechanik, přežil  s\xa0těžkým zraněním. Pomník zbudoval brněnský Automotoklub a je asi nejstarším pomníkem autohavárie  v\xa0brněnském okolí. Dodnes se u něj pořádají vzpomínkové akce  s\xa0veterány. ",
-      naposledObnoveno: "3.11..2020",
+      naposledObnoveno: "3.11.2020",
       odkazMapa: "https://frame.mapy.cz/s/jebesufefa",
       latitude: 49.1852547,
       longitude: 16.7816189,
@@ -5136,10 +5136,41 @@ export default {
         },
         {
           textOdstavce:
-            "   <p> Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v\xa0pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v\xa0knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p><p> I kámen <strong>1300 Tvarožná</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
+            "    Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž <strong>0521 Křenovice</strong>. Vypadá velmi zašle a starobyle, v\xa0pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v\xa0knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.</p>",
+
+          popisek: " 0648 Černčín 1  (květen 2019)  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 211,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "  Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž  ",
+              textOdkazu: "0521 Křenovice",
+              zaOdkazem:
+                ". Vypadá velmi zašle a starobyle, v\xa0pískovcovém povrchu jsou vidět důlky po střelách, které tu hustě létaly. Krásně beletristicky o něm psal Vladimír Preclík v\xa0knížce Kameny pokání (str. 57). O kamenu se neví nic, mohl sloužit jako znamení na Jantarové stezce. Jen cyrilometodějská legenda, ke kameni se vztahující, je nepravděpodobná, usoudil sochař. Měkký pískovec by nevydržel 1100 let nepohody, aniž by se rozpadl.",
+            },
+          ],
+        },
+        {
+          textOdstavce:
+            "   I kámen <strong>1300 Tvarožná</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
           foto: " cerncin1.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 0648 Černčín 1  (květen 2019)  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 147,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem: "  I kámen ",
+              textOdkazu: "1300 Tvarožná",
+              zaOdkazem:
+                " má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc.   ",
+            },
+          ],
         },
         {
           textOdstavce:
@@ -5296,6 +5327,19 @@ export default {
         {
           textOdstavce:
             "   <p>K nejzajímavějším křížům Jižní Moravy patří zejména další dva, tvarem i důvodem vzniku se podobající. Oba mají ulomená horní břevna, oba jsou spojeny s\xa0tatarským vpádem. Kříž <strong>1856 Přísnotice</strong> se nalézá jihozápadně od vsi na poli rovném jako stůl. Nejlépe se k\xa0němu jde ze silnice do Vranovic, ale i odtud je to 300 metrů po poli. Kříž byl původně dvouramenný, asi metr vysoký, ale už dávno o horní břevna přišel. Spodní břevno je popsáno textem o zabití Kryštofa Krause z\xa0Grotky roku 1663 při pícování Tatarů.</p>",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 212,
+              odkazKategorie: "smircikrize",
+              odkazPodkategorie: 4,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "K nejzajímavějším křížům Jižní Moravy patří zejména další dva, tvarem i důvodem vzniku se podobající. Oba mají ulomená horní břevna, oba jsou spojeny s\xa0tatarským vpádem. Kříž ",
+              textOdkazu: "1856 Přísnotice",
+              zaOdkazem:
+                " se nalézá jihozápadně od vsi na poli rovném jako stůl. Nejlépe se k\xa0němu jde ze silnice do Vranovic, ale i odtud je to 300 metrů po poli. Kříž byl původně dvouramenný, asi metr vysoký, ale už dávno o horní břevna přišel. Spodní břevno je popsáno textem o zabití Kryštofa Krause z\xa0Grotky roku 1663 při pícování Tatarů.",
+            },
+          ],
         },
         {
           textOdstavce:
@@ -9184,7 +9228,7 @@ export default {
               predOdkazem: " Je to ",
               textOdkazu: "meteorologický radar",
               zaOdkazem:
-                ' jeden ze dvou v\xa0České republice. Ten druhý je v\xa0Brdech a nevím, jestli je tak dobře přístupný. S\xa0výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v\xa0televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z\xa0věže k\xa0severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank">tady</a>, - ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
+                ', jeden ze dvou v\xa0České republice. Ten druhý je v\xa0Brdech a nevím, jestli je tak dobře přístupný. S\xa0výsledky činnosti radaru se setkal každý, kdo se někdy díval na počasí v\xa0televizi, radarové odrazy dešťových a bouřkových mraků pocházejí právě odtud. Překvapilo mě, že stavba je opuštěná, vše se děje automaticky. Na horním ochozu je webová kamera, která nepřetržitě snímá výhled z\xa0věže k\xa0severozápadu, dá se  na meteorologickém webu najít <a href="https://www.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=skalky" target = "blank" class="vnitrniOdkaz" >tady</a>, - ale žádnou dramatickou podívanou nečekejte. Jen výhled na smrkový les a střechy osady Pavlov.  ',
             },
           ],
         },
@@ -9878,6 +9922,146 @@ export default {
         },
       ],
       galerie: [],
+    },
+    {
+      id: 217,
+      kategorie: "smircikrize",
+      pridano: " 08/06/2021 ",
+      oblast: " Na východ  ",
+      jmeno: " Sivice   ",
+      fotkaUvod: { fotka: " 217sivice2 .jpg " },
+      podkategorie: 3,
+      okres: "  Brno - venkov  ",
+      obec: " Sivice  ",
+      cislo: " 1300  ",
+      kdeSeNaleza:
+        "  U silnice z Tvarožné do Sivic. Zdá se, že byl v posledních 100 letech přemístěn o pár set metrů.  ",
+      popis:
+        " Vápencová deska se zkosenými rohy je vysoká 0,7 metru. Do ní je vyrytý latinský kříž.   ",
+      napis: "     ",
+      povest:
+        "  Pod kamenem měl být pochován francouzský generál z napoleonských válek. Pověst může mít racionální jádro, ale generál to určitě nebyl. Mohl to být důstojník francouzské armády, venkované neznali generálské distinkce. Kámen je ale daleko starší než byla bitva u Slavkova roku 1805, od 12. do 18. století tudy vedla hlavní cesta z Brna do Olomouce.   ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Sivice.html ",
+        },
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/sivice.htm ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 65 " },
+      ],
+      pozn: " Vedle stojí kamenný kříž z roku 1772, krásná barokní práce.   ",
+      naposledObnoveno: " 8.6.2021 ",
+      galerie: [
+        { fotka: "217sivice1.jpg", popisek: " (duben 2021) " },
+        { fotka: "217sivice2.jpg", popisek: " (duben 2021) " },
+      ],
+      proMe: "  XIII/452  24-413-47  21---043  ",
+    },
+    {
+      id: 218,
+      kategorie: "pomnicky",
+      pridano: " 08/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Babice nad Svitavou   ",
+      jmeno: " Obrázek - Kanice  ",
+      nazev: "  U kanického obrázku ",
+      fotkaUvod: { fotka: "218kanickyobrazek1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Obrázek je přibitý na stromě 1100 metrů SV od středu Kanic, blízko lesní cesty na dně mělkého krasového údolí. Pěkné místo. 300 metrů od něj prochází zeleně značená cesta do Ochozi.  ",
+      popis:
+        "  Malý obrázek Panny Marie v dřevěném rámečku, na vedlejším stromě je zarámovaná pověst k tomuto místu se vztahující.  ",
+      napis:
+        " Podle pověsti zde uvedené:  V minulosti byli častými návštěvníky tohoto místa uhlíři, kteří ve zdejších bukových lesích pálili v milířích dřevěné uhlí. Jednoho dne se hnala bouřka, chystalo se na déšť a tak uhlíři místo práce sedli, vytáhli soudek rumu a popíjeli. Přidal se k nim i místní myslivec. Když byli poněkud v náladě, myslivec povstal, pozvedl pohár a silným hlasem zadeklamoval : “ Hrome bi, jen nám ten soudek nerozbi”. Načež do něj uhodil blesk a myslivce zabil. Od té doby se tu uhlíři báli, za bouřky to tu burácelo, jako by se po skalách sudy valily. Časem povolali kněze, aby místo vysvětil a na blízký strom pověsili obrázek Panenky Marie. Zavládl tu klid a generace Kaničáků nezapomínají obrázek obnovovat.  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
+      pozn:
+        " Dřevěné uhlí se tu pálilo v 18. a 19. století a vozilo do železáren v Adamově a Blansku. Dodnes jsou v lesích patrné kruhové plošiny urovnané pro milíře. ",
+      naposledObnoveno: " 8.6.2021 ",
+      souradnice: " 49.2714644N, 16.7234583E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/nufacuhare" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/nufacuhare",
+      galerie: [
+        { fotka: "218kanickyobrazek1.jpg", popisek: " (prosinec 2013) " },
+        { fotka: "218kanickyobrazek2.jpg", popisek: " (prosinec 2013) " },
+      ],
+      proMe: "  XIX/792  24-413-17  13--121  ",
+    },
+    {
+      id: 219,
+      kategorie: "pomnicky",
+      pridano: " 09/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Vyškov ",
+      obec: "  Drnovice  ",
+      jmeno: " Kříž - Fabrický  ",
+      nazev: " Fabrický kříž u Drnovic ",
+      fotkaUvod: { fotka: " 219fabrickykriz1.jpg " },
+      kdyVznikl:
+        " Asi 2013. Byl vysvěcen 28. 9. 2015 na místě, kde v minulosti stával kříž zvaný Dřevěný nebo také Fabrický. ",
+      popisCesty:
+        " Kříž stojí 3 kilometry ZSZ od Drnovic, v nejvyšším bodě silnice do Ježkovic.",
+      popis:
+        "  Novodobý, 6 metrů vysoký dřevěný kříž z trámů kruhového profilu. Na něm plechový kalich. Plechová tabulka s textem modlitby.   ",
+      napis:
+        " 28. 9. 2015 vysvětil tento kříž // farář Církve československé husitské // Martin  Kopecký // a věnuje tento text všem poutníkům // kteří se pozastaví na tomto krásném místě. // ...  ",
+      odkazy: [
+        {
+          nazev: " geocaching  ",
+          adresa:
+            " https://www.geocaching.com/geocache/GC5ACP6_u-dreveneho-krize?guid=6db9a184-7a5e-46ff-a004-9384391e4848 ",
+        },
+      ],
+      pozn:
+        " U kříže se loučili pozůstalí s nebožtíkem, kterého odváželi z Ježkovic na hřbitov do Drnovic, protože Ježkovice do roku 1937 neměly vlastní hřbitov. Když zanikl důvod, kříž chátral a po válce byl zničen. Obnovili ho Drahomír a Petr Gottwaldové z Ježkovic. Nedaleko něj mají pomníčky motorkáři zahynulí na tomto místě, na nepřehledném úseku frekventované silnice.  ",
+      naposledObnoveno: " 9.6.2021 ",
+      souradnice: " 49.2926508N, 16.9169669E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/nopatujugu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/nopatujugu",
+      galerie: [
+        { fotka: "219fabrickykriz1.jpg", popisek: " (září 2018) " },
+        { fotka: "219fabrickykriz2.jpg", popisek: " (září 2018) " },
+      ],
+      proMe: " XX/979  24-412-6  18---091   ",
+    },
+    {
+      id: 220,
+      kategorie: "pomnicky",
+      pridano: " 09/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Dolní Loučky  ",
+      jmeno: " Obrázek - Josífek  ",
+      nazev: " Obrázek u Josífka ",
+      fotkaUvod: { fotka: " 220ujosifka1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Obrázek je přibitý na torzu prastarého buku 500 metrů Z od vrcholu Pasníku, na rozcestí lesních cest. Prochází tu zelená značka z Chytálek do Tišnova.  ",
+      popis:
+        "  Na zlámaném buku, jehož kmen byl ve  výšce pěti metrů zakrytý dřevěnou stříškou, je malý obrázek svatého Josefa s Ježíškem v dřevěném rámu s křížkem. ",
+      napis: "   ",
+      odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
+      pozn:
+        " V roce 2011 byl buk čerstvě zlomen, upraven a ještě na něm žila jedna větev. Vedle lesníci vysadili mladý buk v ohrádce.<br> Asi 200 metrů vzhůru po značce od obrázku je štíhlý kamenný kříž z roku 1799 v železné ohrádce.   ",
+      naposledObnoveno: " 9.6.2021 ",
+      souradnice: " 49.3488900N, 16.3581947E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/fesabemuko" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/fesabemuko",
+      galerie: [
+        { fotka: " 220ujosifka1.jpg", popisek: " (únor 2016) " },
+        { fotka: " 220ujosifka2.jpg", popisek: " (září 2020) " },
+      ],
+      proMe: "  XX/708  24-321-49  16---023  20---091  ",
     },
   ],
 };

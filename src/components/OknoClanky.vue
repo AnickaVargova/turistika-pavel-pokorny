@@ -1,5 +1,5 @@
 <template>
-  <div id="oknoPomnicky" v-if="this.pomnickyZalozka">
+  <div id="oknoPomnicky" v-if="this.pomnickyZalozka && this.zalozkyButton">
     <div
       class="kontejnerClanek"
       v-for="(clanek, index) in mojeClanky"
@@ -13,7 +13,7 @@
 <script>
   import Zalozka from "./Zalozka";
   export default {
-    props: ["clanky", "stranka"],
+    props: ["clanky", "stranka", "zalozkyButton"],
     components: {
       Zalozka: Zalozka,
     },
