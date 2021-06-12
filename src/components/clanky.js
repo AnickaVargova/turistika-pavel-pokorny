@@ -5143,7 +5143,7 @@ export default {
             {
               vnitrniOdkaz: 211,
               odkazKategorie: "smircikrize",
-              odkazPodkategorie: 5,
+              odkazPodkategorie: 3,
               odkazKde: "odstavec",
               predOdkazem:
                 "  Na slavkovském bojišti na kopci u silnice do vsi Prace stojí kříž  ",
