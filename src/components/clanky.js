@@ -5155,18 +5155,18 @@ export default {
         },
         {
           textOdstavce:
-            "   I kámen <strong>1300 Tvarožná</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
+            "   I kámen <strong>1300 Sivice</strong> má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc. </p>  ",
           foto: " cerncin1.jpg   ",
           umisteniFoto: "  vpravo     ",
           popisek: " 0648 Černčín 1  (květen 2019)  ",
           vnitrniOdkazy: [
             {
-              vnitrniOdkaz: 147,
+              vnitrniOdkaz: 217,
               odkazKategorie: "smircikrize",
-              odkazPodkategorie: 4,
+              odkazPodkategorie: 3,
               odkazKde: "odstavec",
               predOdkazem: "  I kámen ",
-              textOdkazu: "1300 Tvarožná",
+              textOdkazu: "1300 Sivice",
               zaOdkazem:
                 " má něco společného s\xa0bitvou tří císařů. Podle tradice je pod ním pochován francouzský generál. Spolu s\xa0barokním křížem stojí v\xa0zátočině silnice do Sivic. Kámen je ale o hodně starší než bitva. Od 12. do 18. století kolem něho vedla hlavní cesta z\xa0Brna na Olomouc.   ",
             },
