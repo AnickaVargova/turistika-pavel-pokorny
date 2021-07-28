@@ -10063,5 +10063,239 @@ export default {
       ],
       proMe: "  XX/708  24-321-49  16---023  20---091  ",
     },
+    {
+      id: 221,
+      kategorie: "pomnicky",
+      pridano: " 29/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Blansko ",
+      obec: "  Malá Lhota  ",
+      jmeno: " Drábek - starosta  ",
+      nazev: " Kříž starosty Drábka ",
+      fotkaUvod: { fotka: "221drabek1.jpg" },
+      kdyVznikl: " 1856, odborně zrestaurováno 2019 ",
+      popisCesty:
+        " Kříž stojí 900 metrů JJV od kaple v Malé Lhotě na návrší u silnice. Pěkné místo s výhledem.  ",
+      popis:
+        "  Na štíhlý kamenný dřík se starobylým textem je nasazen menší litinový křížek s Kristem, patrně zde umístěný druhotně. Dva a půl metru vysoký kříž ohraničují čtyři kamenné sloupky. ",
+      napis:
+        "  Neumělý nápis opsán s chybami: NÁKLADEM // OBČANŮ MALÉLHOTKY // ZAČASU PŘEDSTAVIT // STAROSTY // FRANZE DRÁBKA // DTČ 17 SRPNA ROK // 1856 // ... ",
+      pozn: "    ",
+      naposledObnoveno: " 29.6.2021 ",
+      souradnice: " 49.3839128N, 16.5556475E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/fetutajeza" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/fetutajeza",
+      galerie: [
+        { fotka: "221drabek1.jpg", popisek: "(září 2019) " },
+        { fotka: "221drabek2.jpg", popisek: "(září 2019) " },
+      ],
+      proMe: " XX/1027  24-144-39  19---094   ",
+    },
+    {
+      id: 222,
+      kategorie: "pomnicky",
+      pridano: " 29/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Střelice   ",
+      jmeno: " Zvonička - Střelice ",
+      nazev: " Zvonička nad Zabitým žlebem u Střelic ",
+      fotkaUvod: { fotka: " 222zabityzleb1.jpg " },
+      kdyVznikl:
+        " Zbudována v roce 2019.  Autorem je řezbář Jaroslav Pecháček, který vyřezal zvoničku z jednoho kusu dubového kmene při veřejné produkci ve Střelicích před hasičkou.  Slavnostně vysvěcena v neděli 1. 9. 2019 za účasti zhruba 200 poutníků. ",
+      popisCesty:
+        " Ve Střelickém lese, 1,8 kilometru VJV od kostela ve Střelicích, na JV straně Zabitého žlebu, u lesní cesty spadající k silnici Střelice - Závist. ",
+      popis:
+        " Na upravený dubový kmen vysoký asi 4 metry je nasazena plechová stříška s křížkem. Ve vidlici je malý zvonek. Kmen stojí na betonovém soklu uprostřed kruhu z oblázků. Vedle na dřevěném sloupku je historie události staré 400 let.  ",
+      napis:
+        " Do dřeva vypáleno 1619 a z opačné strany kmene  L P 2019 . Nápis na zvonku: OBEC  STŘELICE // 2019 . ",
+      odkazy: [
+        {
+          nazev: " youtube ",
+          adresa: " https://www.youtube.com/watch?v=Owv3vGIqKP8 ",
+        },
+        {
+          nazev: " Střelice ",
+          adresa: " https://www.streliceubrna.cz/zvonicka/d-9474 ",
+        },
+      ],
+      pozn:
+        " Zvoničku nechala postavit obec Střelice k připomínce 400. výročí tragické události. V kronice kartouzského kláštera je psáno, že 16. srpna 1619 přitáhla ke Střelicím vojska protestantské strany. Obyvatelé i s majetkem a s dobytkem se narychlo ukryli v lesní úžlabině. Vojáci ves vyplundrovali, zapálili a pak se jali střelické hledat. Podle bučení dobytka je našli a kdo neuprchl, byl zabit. Ti, co přežili, pochovali oběti do hromadného hrobu na rozcestí k Brnu, dnes na tom místě stojí boží muka. Úžlabina dostala jméno Zabitý žleb.  ",
+      naposledObnoveno: " 29.6.2021 ",
+      souradnice: " 49.1427756N, 16.5241650E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pufubebebo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/pufubebebo",
+      galerie: [
+        { fotka: "222zabityzleb1.jpg", popisek: " (duben 2020) " },
+        { fotka: "222zabityzleb2.jpg", popisek: " (duben 2020) " },
+      ],
+      proMe: " XX/1063  24-342-55  20---042   ",
+    },
+    {
+      id: 223,
+      kategorie: "pomnicky",
+      pridano: " 30/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Níhov   ",
+      jmeno: " Křížová cesta - Chochol  ",
+      nazev: " Křížová cesta a skleněný kříž na Chocholu ",
+      fotkaUvod: { fotka: " 223krizchochol2.jpg " },
+      kdyVznikl:
+        " Křížová cesta byla vysvěcena na svátek svatého Václava 28. září 2016. ",
+      popisCesty:
+        " Nachází se 1,5 kilometru S od Níhova podél lesní cesty od Z na kótu Chochol 512 metrů. Skleněný kříž stojí na plochém vrcholu na mýtině. Místo jako stvořené k meditaci.   ",
+      popis:
+        " Na plochých metr vysokých kamenných deskách je na keramických křížcích velmi snově a symbolicky vyvedeno 14 zastavení křížové cesty. 150 metrů dlouhá cesta končí na kopci u šest metrů vysokého, subtilního skleněného kříže jehož střed i sokl je z umělého kamene.    ",
+      napis: " Římské číslice na jednotlivých zastaveních.  ",
+      odkazy: [
+        {
+          nazev: " rozhlas ",
+          adresa:
+            " https://brno.rozhlas.cz/sochar-lubomir-lacina-ma-pres-ctyricet-let-galerii-pod-nebesy-v-krajine-6447731 ",
+        },
+        {
+          nazev: " Kuželovi ",
+          adresa: " kuzelovi.cz/vylety/340-krizova-cesta-chochole-u-nihova",
+        },
+      ],
+      pozn:
+        " Tvůrcem křížové cesty i skleněného kříže je bítešský sochař Lubomír Lacina.    ",
+      naposledObnoveno: " 29.6.2021 ",
+      souradnice: " 49.3562989N, 16.2638639E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kujenepube" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/kujenepube",
+      galerie: [
+        {
+          fotka: "223krizchochol1.jpg",
+          popisek: " (páté zastavení křížové cesty - květen 2020) ",
+        },
+        {
+          fotka: "223krizchochol2.jpg",
+          popisek: " (detail kříže - květen 2020) ",
+        },
+        { fotka: "223krizchochol3.jpg", popisek: " (květen 2020) " },
+      ],
+      proMe: "  XX/1067  24-312-91  20---051  ",
+    },
+    {
+      id: 224,
+      kategorie: "pomnicky",
+      pridano: " 30/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Znojmo  ",
+      obec: " Moravský Krumlov   ",
+      jmeno: " Roztočil, Petr  ",
+      nazev: " Kříž sochaře Roztočila ",
+      fotkaUvod: { fotka: " 224roztocil1.jpg " },
+      kdyVznikl: " 1881 . Obnoven 28. září 2002 ",
+      popisCesty:
+        "  Kříž stojí na výrazném skalisku nad slepencovou strání na V od kostela v Moravském Krumlově. Krásné místo s výhledem. ",
+      popis:
+        "  Bytelný kamenný kříž je vysoký asi pět metrů s poměrně velkou vypracovanou sochou Krista. Zezadu je malá kovová tabulka s textem.  ",
+      napis:
+        " Zepředu 1881. Na kovové tabulce: Dne 28. září dal znovu postavit // tento kříž Ing. Václav PROCHÁZKA // s rodinou. // Moravský Krumlov, září 2002 // Kříž je dílem akademického sochaře Petra  ROZTOČILA  ",
+      odkazy: [{ nazev: "  ", adresa: "  " }, { nazev: "  " }],
+      pozn: "    ",
+      naposledObnoveno: " 30.6.2021 ",
+      souradnice: " 49.0526353N, 16.3190411E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/bufepuneno" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/bufepuneno",
+      galerie: [
+        { fotka: "224roztocil1.jpg", popisek: " (květen 2020) " },
+        { fotka: "224roztocil2.jpg", popisek: " (květen 2020) " },
+      ],
+      proMe: "  XX/1072  24-334-9  20---052  ",
+    },
+    {
+      id: 225,
+      kategorie: "pomnicky",
+      pridano: " 30/06/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Velatice  ",
+      jmeno: " Kříž - Hřebíkový  ",
+      nazev: " Hřebíkový kříž u Velatic ",
+      fotkaUvod: { fotka: "225krizhrebikovy1.jpg " },
+      kdyVznikl:
+        " 2014 . Byl postaven dobrovolníky a vysvěcen 8. června 2014 tvaroženským farářem Josefem Rybeckým. ",
+      popisCesty:
+        " Stojí 600 metrů JJV od kaple svaté Anny ve Velaticích, na kraji srázu nad přírodní památkou Velatické slepence, přímo proti hlavní silnici ve Velaticích. Místo s výhledem na obec.   ",
+      popis:
+        " Dřevěný kříž vysoký 3 metry je zasazen do betonového soklu. Ze strany Velatic je hustě naježen dlouhými hřebíky. Kladivo a hřeby byly v červnu 2020 k dispozici na místě.  ",
+      napis: "   ",
+      odkazy: [
+        { nazev: " Velatický zpravodaj, číslo 1/ 2018, str. 20 " },
+        {
+          nazev: "  ke stažení zde",
+          adresa: " http://velatice.cz/zpravodaj/2018.html ",
+        },
+      ],
+      pozn:
+        "  Autorem kříže je tehdejší student fakulty výtvarného umění Masarykovy univerzity Petr Pololáník, ve spolupráci se starostou Janem Grolichem. Ostatní občané se mohli podílet každý zatlučením svého hřebu, buď před vysvěcením na návsi, nebo po instalaci na kopci.<br>Svérázná výzdoba uměleckého díla. Symbolika zatloukání hřebíků do dřeva kříže mi ale uniká.",
+      naposledObnoveno: " 30.6.2021 ",
+      souradnice: " 49.1928786N, 16.7564919E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bekahesele" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/bekahesele",
+      galerie: [
+        { fotka: "225krizhrebikovy1.jpg", popisek: " (duben 2021) " },
+        { fotka: "225krizhrebikovy2.jpg", popisek: " (duben 2021) " },
+        { fotka: "225krizhrebikovy3.jpg", popisek: "detail - (červen 2020) " },
+      ],
+      proMe: "  XX/1073  24-431-58  20---061  21---043   ",
+    },
+    {
+      id: 226,
+      kategorie: "pomnicky",
+      pridano: " 01/07/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Nelepeč - Žernůvka  ",
+      jmeno: " Pieta - Žernůvka  ",
+      nazev: " Hřbitov a pietní místo u Žernůvky ",
+      fotkaUvod: { fotka: " 226pietazernuvka3.jpg " },
+      kdyVznikl: " 1934 ",
+      popisCesty:
+        " 200 metrů VJV od kláštera a Domova svaté Alžběty v Žernůvce je na svahu pod skalkami v lese pietní místo s několika objekty.  Zvláštní, tiché místo. ",
+      popis:
+        "  Na ploše zhruba 100 x 100 metrů jsem našel sedm jednotlivostí :<br> --lesní hřbitov se 30 hroby řeholnic z kláštera je ohrazen kamennou zdí a bývá zavřený.<br> --kříž z tmavého kamene před hřbitovem.<br> --dřevěný kříž vysoký 4 metry nad hřbitovem.<br> Další tři objekty lze najít pod skalkou u cesty:<br>  --kamenný latinský křížek vysoký 0,6 metru.<br>  --neumělý relief na kamenné desce.<br> --bílá kamenná deska s kalichem a hůře čitelným votivním nápisem.<br> Nad cestou na čtyřmetrové skalce, schován v lese :<br> --kříž na soklu, vysoký 1,4 metru, s biblickými nápisy. Je obtížněji přístupný.   ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: " Domov ",
+          adresa: " http://www.dosa.cz/o-nas/historie-domova/ ",
+        },
+      ],
+      pozn:
+        "V Domově svaté Alžběty pořádají (pokud nehrozí epidemie) v půli září pouť a den otevřených dveří. ",
+      naposledObnoveno: " 1.7.2021 ",
+      souradnice: " 49.3336622N, 16.3914864E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/hodehalagu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "https://frame.mapy.cz/s/hodehalagu",
+      galerie: [
+        {
+          fotka: "226pietazernuvka1.jpg",
+          popisek: "Lesní hřbitov (září 2020) ",
+        },
+        { fotka: "226pietazernuvka2.jpg", popisek: " (září 2020) " },
+        {
+          fotka: "226pietazernuvka3.jpg",
+          popisek: "Křížek na skále (září 2020) ",
+        },
+      ],
+      proMe: " XX/1084  24-321-74  20---091  ",
+    },
   ],
 };
