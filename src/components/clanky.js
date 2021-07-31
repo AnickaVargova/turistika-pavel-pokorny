@@ -10159,10 +10159,10 @@ export default {
           adresa:
             " https://brno.rozhlas.cz/sochar-lubomir-lacina-ma-pres-ctyricet-let-galerii-pod-nebesy-v-krajine-6447731 ",
         },
-        {
-          nazev: " Kuželovi ",
-          adresa: " kuzelovi.cz/vylety/340-krizova-cesta-chochole-u-nihova",
-        },
+        // {
+        //   nazev: " Kuželovi ",
+        //   adresa: " kuzelovi.cz/vylety/340-krizova-cesta-chochole-u-nihova",
+        // },
       ],
       pozn:
         " Tvůrcem křížové cesty i skleněného kříže je bítešský sochař Lubomír Lacina.    ",
