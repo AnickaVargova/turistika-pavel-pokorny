@@ -10297,5 +10297,674 @@ export default {
       ],
       proMe: " XX/1084  24-321-74  20---091  ",
     },
+    {
+      id: 227,
+      datum: " 11. - 19. června 2021  ",
+      formatDatum: "22/07/2021",
+      pridano: " 22/07/2021 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Kytičkový zájezd do pohoří Vîlcan a Malý Retezat v Rumunsku ",
+      fotkaUvod: { fotka: "  227vilcan36.jpg  " },
+
+      text: [
+        {
+          textOdstavce:
+            "  Rádi jezdíme s cestovní kanceláří Kudrna na každoroční “kytičkový” zájezd. Oficiálně se jmenuje Za probouzející se přírodou Karpat, ale uznejte, na název je to dlouhé. Proto se vžil název Kytky. Letos se jel po devatenácté, poprvé v roce 2002. Prvních 12 ročníků směřovalo do rumunských Karpat, počínaje rokem 2014 se jelo i do dalších balkánských zemí, Makedonie, Černé Hory, Bulharska. Z Balkánu vybočil jen zájezd na Zakarpatskou Ukrajinu, která ale má k severnímu Rumunsku docela blízko.   ",
+        },
+        {
+          textOdstavce:
+            " Kolem tohoto zájezdu se vytvořilo společenství mnoha desítek lidiček, amatérských botaniků a pohodářů, kteří neváhají si v červnu rezervovat týden času a vyrazit s partou známých na hory. To je hlavní výhoda tohoto zájezdu, netřeba se pracně seznamovat, tři čtvrtiny účastníků se znají léta. A vidíme se vzácně, tedy si nelezeme na nervy. Je jen škoda, že v posledních letech se tu objevuje trend - méně botaniků - více alkoholu. Jako kdyby alkohol botaniky hubil.    ",
+        },
+        {
+          textOdstavce:
+            " Letos to bylo trochu jiné. Koronavirová epidemie způsobila, že loni se zájezd neuskutečnil. I letos nad ním dlouho visel otazník, zda bude. Ještě měsíc před začátkem nebylo jasné, zda se pojede, jestli nás tam pustí. Nakonec vedení cestovky rozhodlo, že se zájezd odjede a udělalo dobře, tradice byla přerušena na přijatelnou míru. Hlásili jsme se na poslední chvíli a odjelo nás nakonec 18 včetně dvou vůdců, Ozzyho a Farmáře. Nových tváří tu bylo pět. Ozzy předal nejvytrvalejšímu účastníkovi dar cestovky, voucher na příští zájezd, protože Slávek Berry se jako jediný účastnil všech devatenácti ročníků.   ",
+        },
+        {
+          textOdstavce:
+            " V programu zájezdu bylo pohoří Vîlcan a Malý Retezat. Vlastně jsme obcházeli po hřebenech údolí říčky Riu de Vest.  Vîlcan je méně navštěvované pohoří v jižní části karpatského oblouku, délky zhruba 60 kilometrů, na západ od Parîngu, na jih od Retezatu a na východ od Godeanu. Přestože zní v češtině vulkanicky, nemá se sopkami nic společného. Významem zůstává za svými vyššími sousedy, na které poskytuje neomezené výhledy. Hřebeny jsou převážně holé a mají výšku od 1200 do 1700 metrů. Trochu se podobají východní části Nízkých Tater, včetně hlubokého sedla uprostřed. Na západním okraji hor se vypíná vápencový hřbet Oslea o dvě stě metrů vyšší. Malý Retezat je nedlouhé předhůří Retezatu z jižní strany a je prakticky celý tvořen vápencem. Jeho šest vrcholů ve výškách kolem 2000 metrů lze přejít za den, ale byl by blázen, kdo by to v červnu dělal, protože Malý Retezat patří k nejbohatěji kvetoucím lokalitám v Rumunsku. Ukázalo se, že těchto bláznů jsme potkali stovky.  ",
+        },
+        {
+          textOdstavce:
+            " <h3> První a druhý den: pátek 11. června  a  sobota 12. června 2021 </h3> ",
+        },
+        {
+          textOdstavce:
+            " <i> Celonoční cesta autobusem do Rumunska. Soutěska Banica u Petrosani. Tržnice v Petrosani. Letovisko Straja - kolem vleků na hřeben - pod horu Muncel (1553 m). 12 km, 1300 m převýšení, 4 hodiny  naší chůze. </i>  ",
+        },
+
+        {
+          textOdstavce:
+            " Odjíždělo se z Brna přesně v 18 hodin a čekala nás nečekaně pohodlná noc v poloprázdném autobusu. Na hraničním přejezdu v Oradei je skoro prázdno a za chvíli jsme odbaveni. Na doporučení cestovky jsme byli vybaveni certifikáty, potvrzeními a cizojazyčnými formuláři, ale nikdo po nás nic nechtěl. Posunuli hodiny, vyměnili peníze a spali dál. Ráno nás zastihlo u vsi Banita před Petrosani, kde voda vymlela do skály 300 metrů dlouhou soutěsku. Studená voda v soutěsce probudila každého, kdo do ní vlezl. ",
+        },
+        {
+          foto: " 227vilcan1.jpg  ",
+          popisek: " Soutěska Banita (červen 2021)  ",
+        },
+        { foto: " 227vilcan2.jpg  " },
+        { foto: " 227vilcan3.jpg  ", naVysku: true },
+
+        {
+          textOdstavce:
+            " Autobus se s námi “proháčkoval” úzkou silnicí vedoucí z hornického města Lupeni až do horského letoviska Straja v nadmořské výšce 1450 metrů, kde bylo po lyžařské sezóně liduprázdno. Měli jsme štěstí, krátce po našem průjezdu silnici uzavřeli a rozkopali na několik dní a řidič měl problémy se odtud dostat. Nabalili jsme se na čtyři dny a vyrazili natěžko na hřeben.    ",
+        },
+        {
+          foto: " 227vilcan4.jpg  ",
+          popisek: " Balíme v letovisku Straja (červen 2021)  ",
+        },
+        { foto: " 227vilcan5.jpg  " },
+
+        {
+          textOdstavce:
+            " Kolem lyžařských vleků jsme vystoupali asi 300 výškových metrů pod první vrchol na hřebeni, byl to virful Mutu (1737 m). Odtud jde hřeben zhruba západním směrem a několikrát se lomí. Ale za dobrého počasí, které jsme měli, není možné zabloudit, protože po hřebeni vede vyjetá cesta. Značení jsme tu neviděli žádné, maximálně vrcholy jsou označeny tyčkou. V průvodci se lze dočíst, že celý hřebenový přechod pohoří Vîlcan od nádraží Livezeni do sedla Jiul-Cerna trvá 28 hodin chůze.  ",
+        },
+        { foto: " 227vilcan8.jpg  " },
+
+        {
+          textOdstavce:
+            " Už první sněhová pole ve výškách kolem 1600 metrů nám ukázala, že kytičková sezóna je opožděná nejméně o 2 týdny. Zastihli jsme tu kvetení krokusů, divokých narcisů, kuklíků, dřípatek. O co bylo méně druhů, o to bylo více jednotlivých květů. Narcisů byly někde lány, zrovna tak krokusů bylo zdálky modro, pryskyřníků a kuklíků žluto.  ",
+        },
+        { foto: " 227vilcan6.jpg  " },
+        {
+          foto: " 227vilcan7.jpg  ",
+          popisek: "šafrán karpatský - Crocus heuffelianus ",
+        },
+        { foto: " 227vilcan9.jpg  " },
+        {
+          foto: " 227vilcan10.jpg  ",
+          popisek: " narcis bílý - Narcissus poeticus ",
+        },
+        {
+          foto: " 227vilcan11.jpg  ",
+          popisek: "  Lán narcisů na úbočí pohoří Vilcan (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Odpoledne se mraky zvedaly, viditelnost lepšila a bylo možno pozorovat na východ od nás přes údolí řeky Jiu horskou skupinu Parîng, druhou nejvyšší v Rumunsku, s vrcholy přes 2500 metrů. Není to daleko, asi 25 kilometrů. ",
+        },
+        { foto: " 227vilcan12.jpg  " },
+        {
+          foto: " 227vilcan13.jpg  ",
+          popisek: "  Pohoří Parîng (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Na noc jsme sešli z hřebene na jižní rozsochu hory Muncel (1553 m), kde se dal v blízké rokli najít i pramen vody. S vodou v této části hor byl problém. Na hřebenu nebyla nikde, muselo by se sestoupit do úbočí, naštěstí ne hluboko. V noci a ráno byl hlášen déšť a také na něj došlo. Ale to jsme byli zalezlí ve stanech a budoucnost nás nijak neznepokojovala.  ",
+        },
+        {
+          foto: " 227vilcan14.jpg  ",
+          popisek: "  Tábořiště pod horou Muncel (červen 2021).  ",
+        },
+
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/jevuvupuba" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/jevuvupuba",
+        },
+
+        {
+          textOdstavce: " <h3>Třetí den : neděle 13. června 2021 </h3> ",
+        },
+        {
+          textOdstavce:
+            "  <i>Tábořiště pod horou Muncel - po hřebeni k SZ - hora Siglau Mic (1581 m) - rozcestí La Table - traverz hory Siglau Mare (1681 m) - koliby - sedlo Saua Dilma Cazuta (1152 m) -opuštěná koliba - vrchol Rotunda (1423 m) - Poiana  Macrisului. 20 km, 1100 m převýšení, 9 hodin naší chůze. </i>  ",
+        },
+        {
+          textOdstavce:
+            "Čekala nás dlouhá a orientačně náročnější část hřebene. Ráno pršelo, a tak se odchod odložil o hodinu, až pršet přestalo. Záležet to na nás, odložili bychom odchod o celé dopoledne a hráli dle Nevrlého návodu hru na zelenou propast času. I předpověď věštila silný déšť. Jenže cestovka si nemůže dovolit to, co jednotlivec, a je třeba dojít tam, kam bylo v Brně naplánováno. Trochu chce poroučet větru, dešti a to se účastníkům často nevyplácí. Třeba tím, že krásné hřebenové úseky přejdou v mlze a dešti a získají jen rozmočené boty. Nebo zbytečným trápením ve větru, zimě a mlze, kterému se bylo možné vyhnout. Tedy se sbalily mokré stany a vyrazilo se do nejistého počasí.",
+        },
+        {
+          foto: " 227vilcan20.jpg  ",
+          popisek:
+            "Mlhy nevěstí nic dobrého. Pohled do severních údolí. (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan21.jpg  ",
+          popisek: " Zatím ještě neprší. (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            "Za hodinu přišla silná přeháňka, která se protáhla do hustého deště. To by tak nevadilo, všichni nasadili pláštěnky, ale déšť provázel bouřlivý vítr z boku, který se pokoušel pláštěnky roztrhat a s lehčími účastníky občas bouchl o zem. Odhaduji rychlost větru někdy až 100 km/hod. Fotky nemám, nebyla možnost fotit. Většina účastníků si sáhla na dno sil. Časem přestalo pršet, trochu jsme se schovali do jižního úbočí při traverzu hory Siglau Mare, kde foukalo méně. Za tři hodiny fronta přešla a ukázalo se slunce. Konečně se dalo za větrem posvačit. ",
+        },
+        {
+          foto: " 227vilcan22.jpg  ",
+          popisek: "  Pod buky nasazujem pršipláště ",
+        },
+        { foto: " 227vilcan23.jpg  " },
+        { foto: " 227vilcan24.jpg  " },
+
+        {
+          textOdstavce:
+            " Západně od hory Siglau Mare je skupina opuštěných kolib, dala se tam i nabrat voda. U nich se naše cesta otočila k jihu, schovala do lesů a prudkým sestupem s polomy a popadanými větvemi spadla do sedla Saua Dilma Cazuta, které dělí pohoří na dvě půlky. Odtud po hřebeni zmizely jakékoliv známky cesty a řídili jsme se červenými značkami od lesníků. Nepřehledný hřeben vyústil na louku s kolibou, která se už léta neužívala. Odtud vedla vozová cesta, docela dobře vyznačená modrým trojúhelníkem. Vedla na Poianu Macrisului, kde jsme u pramene zatábořili. Pramen nestál za moc, krávy ho rozdupaly. ",
+        },
+        {
+          foto: " 227vilcan25.jpg  ",
+          popisek: "  Opuštěná koliba na hřebeni (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan26.jpg  ",
+          popisek: "  Tábořiště na Poianě Macrisului. ",
+        },
+
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/casaloceve" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/casaloceve",
+        },
+
+        {
+          textOdstavce: "<h3> Čtvrtý den : pondělí 14. 6. 2021 </h3> ",
+        },
+
+        {
+          textOdstavce:
+            "  <i>Poiana Macrisului - stále po hlavním hřebenu po cestě nebo vyjetých kolejích - virful Arcana (1750 m) - virful Nedeia (1619 m) - sedlo Groapa Nedeutii (1475 m). 14 km, 700 m převýšení, 5 a půl hodiny našeho času chůze. </i>   ",
+        },
+
+        {
+          textOdstavce:
+            " Na tento den byla plánována túra kratší a orientačně jednodušší než v neděli. Po vyjetých kolejích a někde i značce modrého trojuhelníku jsme vyrazili k západu a cesta nás vedla po holých hřbetech se starými buky. Díky dobré viditelnosti se na západě začaly objevovat kontury pohoří Mehedinti, pohoří Cernei a hlavně hory Godeanu, které jsou považovány za nejodlehlejší a nejnedostupnější v Rumunsku.  ",
+        },
+        { foto: " 227vilcan30.jpg  " },
+        { foto: " 227vilcan31.jpg  " },
+        {
+          foto: " 227vilcan32.jpg  ",
+          popisek: " První pohledy na horstvo Godeanu  (červen 2021)  ",
+        },
+        { foto: " 227vilcan33.jpg  " },
+
+        {
+          textOdstavce:
+            " Kamenitá cesta nás vyvedla  až na severní svahy hory Arcanu. Tady u cesty byl důležitý pramen vody, jediný toho dne.    ",
+        },
+        {
+          foto: " 227vilcan34.jpg  ",
+          popisek: "  Cesta pod Arcanou (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan35.jpg  ",
+          popisek: "  Důležitá studánka v severním úbočí Arcany  ",
+        },
+
+        {
+          textOdstavce:
+            " Cestou jsme potkali několik volně se pasoucích stád koní. Na noc se mi zdají nebezpečnější než medvěd. Nemají strach z lidí a mezi stany s nataženými kotvícími provazy by mohli udělat docela velkou paseku.  ",
+        },
+        { foto: " 227vilcan36.jpg  " },
+        { foto: " 227vilcan37.jpg  " },
+        { foto: " 227vilcan38.jpg  " },
+        { foto: " 227vilcan43.jpg  " },
+
+        {
+          textOdstavce:
+            " Za celou cestu přes Vîlcan jsme nikoho nepotkali, ani pastevce, pohoří bylo opuštěné. Proto nás překvapilo, když nás v prudkém stoupání předjížděl traktor s maringotkou a posléze kodrcalo několik automobilů. Ukázalo se, že míří do stejného sedla jako my a jsou to lesní dělníci. Další den jsme viděli, co přijeli kácet. Chodili po pastvinách, na kterých se už léta nepase, a vyřezávali motorovými pilami náletové smrčky a jalovce. Vypadalo to, že i sem dosáhly dlouhé ruce a peníze Evropské unie, která nedopustí, aby krajina znovu zarostla lesem.  ",
+        },
+        { foto: " 227vilcan39.jpg  " },
+        { foto: " 227vilcan40.jpg  " },
+
+        {
+          textOdstavce:
+            " Odpoledne jsme dorazili do sedla Groapa Nedeutii (1475 m). Krásné chráněné místo na nocleh. Ke kladům letošního ročníku Kytek patřilo, že prakticky všechna místa na táboření byla výborně zvolena, s výhledy, ranním sluncem, s možností procházek do okolí, relativně rovná a nezahnojená - nesmějte se, je to důležité a málokde se povede. Také byl každý večer oheň a Prcek hrál na kytaru a deklamoval. Pamětníci vzpomněli, že kytičkový zájezd táboří na tomto místě už počtvrté a Ozzy prohlásil, že už je to naposled.  ",
+        },
+        {
+          foto: " 227vilcan41.jpg  ",
+          popisek: " Tábořiště v sedle Groapa Nedeutii (červen 2021)  ",
+        },
+        { foto: " 227vilcan42.jpg  " },
+
+        {
+          textOdstavce:
+            " Až dosud měla výprava spíše turistický než botanický ráz, protože jsme se pohybovali po žulovém podkladu. To se mělo změnit výstupem na vápencovou Osleu. Přesto se nějaké kytky nafotit daly. Třeba hořec bezlodyžný, u nás vyhynulý. Nebo kuklík horský, u nás roztroušeně v Krkonoších, tady milióny kuklíků. ",
+        },
+        {
+          foto: " 227vilcan44.jpg  ",
+          popisek: " hořec bezlodyžný - Gentiana acaulis  ",
+        },
+        {
+          foto: " 227vilcan45.jpg  ",
+          popisek: " kuklík horský - Geum montanum (červen 2021) ",
+        },
+
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/pohucaleje" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/pohucaleje",
+        },
+        {
+          textOdstavce: " <h3>Pátý den : úterý 15. června 2021</h3>  ",
+        },
+
+        {
+          textOdstavce:
+            "  </>Groapa Nedeutii (1475 m) - Coada Oslei (1899 m) - virful Oslea Mare (1946  m) - sedlo Pasul Jiu-Cerna (1409 m) - Campus (1180 m). 14 km, 600 m převýšení, 5 hodin naší chůze. </i>  ",
+        },
+
+        {
+          textOdstavce:
+            " Další den jsme zahajovali výstupem. Nebyl dlouhý, 450 výškových metrů, ale strmý ve dvou úsecích. Navíc zostřený silným větrem ve vyšších partiích - další těžké místo tohoto vandrování. Už po cestě rostlo tolik květin, že doslova nebylo kam šlápnout, aby jich člověk pár nezašlápl. Shora byl pak parádní výhled na hory Retezatu, Parîngu, Cernei a za Parîngem se v mracích objevoval Fagaraš, protože hřeben Oslei převyšuje okolní kopce o dobrých dvě stě metrů. Nebeská rozhledna.  ",
+        },
+        {
+          foto: " 227vilcan49.jpg  ",
+          popisek: " Výstup na Osleu (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan50.jpg  ",
+          popisek: "  Vpředu východní část Osley, vzadu Retezat v mracích. ",
+        },
+        { foto: " 227vilcan52.jpg " },
+        {
+          foto: " 227vilcan53.jpg  ",
+          popisek: " Pohoří Godeanu v celé kráse.  ",
+        },
+
+        {
+          textOdstavce:
+            "  Nahoře to bohatě kvetlo. Hořce jarní, dryádky osmiplátečné, pěnišníky, lomikámeny, milióny pryskyřníků. U těch jsem narazil, nedokázal jsem určit druh. Karpatský? Plazivý? Zlatožlutý? Mnohotvárný? Je jich moc. Myslím, že v rumunských pryskyřnících nemají úplně jasno ani botanici. ",
+        },
+        {
+          foto: " 227vilcan54.jpg  ",
+          popisek: " hořec jarní - Gentiana verna (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan55.jpg  ",
+          popisek: " pryskyřník - Ranunculus. (Oslea)  ",
+        },
+        {
+          foto: " 227vilcan56.jpg  ",
+          popisek: "  dryádka osmiplátečná - Dryas octopetala (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan57.jpg  ",
+          popisek:
+            " Lomikámen lemovaný - Saxifraga marginata var. rocheliana  ",
+        },
+
+        {
+          textOdstavce:
+            " Na prvním vrcholu Osley se počkalo na ty, kdo stoupali pomaleji. Patřilo k výhodám tohoto ročníku, že se chodilo většinou pohromadě, s malými rozestupy. Mezi prvním a posledním nebyla nikdy více než půlhodinka. Pamatuji roky, kdy poslední doráželi pět hodin za nejrychlejšími.<br> A pak se šlo vcelku pohodlně po hřebeni s velkolepými výhledy a fotografickými orgiemi. Naproti přes údolí defilovalo šest vrcholů Malého Retezatu, za nimi vykukoval z mraků vysoký Retezat. Před námi k jihozápadu vlnobití vrcholků pohoří Mehedinci, k severozápadu se táhla masa pohoří Godeanu. Cesta nám trvala dlouho, i když hřeben má délku asi dva kilometry.  ",
+        },
+        { foto: " 227vilcan58.jpg  " },
+        { foto: " 227vilcan59.jpg " },
+        {
+          foto: " 227vilcan60.jpg  ",
+          popisek: " Přes údolí je vidět Malý Retezat ",
+        },
+        {
+          foto: " 227vilcan62.jpg  ",
+          popisek:
+            "Začínají kvést rododendrony, vzadu Godeanu. (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Hřeben končí nejvyšším vrcholem Oslea Mare. Z něj se sestupuje po pláních a později lesem do sedla Jiu-Cerna. Tady jsme narazili na první ovčí stáda, ale byl to jen odvar toho, jak se tu páslo před léty. Sedlem prochází lesní cesta z údolí řeky Jiu do údolí Černé řeky. Tím končí pohoří Vilcan a začíná pohoří Godeanu. Tam jsme ale nešli a zatočili jsme do údolí Jiu, kde nás čekal autobus v místě zvaném Campus.  ",
+        },
+        { foto: " 227vilcan64.jpg  ", popisek: " Sestup z Oslea Mare  " },
+        {
+          foto: " 227vilcan65.jpg  ",
+          popisek: " Vzadu v mracích se rýsují vrcholy vysokého Retezatu  ",
+        },
+        {
+          foto: " 227vilcan66.jpg  ",
+          popisek: " Malý Retezat od sedla Jiu-Cernei  ",
+        },
+        { foto: " 227vilcan71.jpg  ", popisek: "  P (červen 2021)  " },
+
+        {
+          textOdstavce:
+            " Nechybělo mnoho a kouzelná údolí pramenů řek Jiu a Cernei mohla být nenávratně zničena výstavbou silnice a vpádem civilizace. Před deseti lety se za peníze Evropské unie začala stavět kvalitní asfaltka spojující hornické město Lupeni s lázněmi Baile Herculane. Z poslední vsi Cîmpu lui Neag  postavili asi 15 kilometrů a pak byla stavba zastavena kvůli ochraně přírody. Je div, že se to rumunským ochráncům přírody povedlo. Zůstala kamenitá lesní silnička, průjezdná terénními vozy. Široká silnice končí blízko místa zvaného Campusel, kam vyjel náš autobus a kde se to dost změnilo k horšímu. Horská louka, kde jsme kdysi svobodně tábořili, je soukromá, patří ke kempu, který byl ale mimo provoz. Stylovou hájenku lovců kamzíků zbourali a místo ní postavili jakousi chajdu. Kolem silnice přibylo ohnišť a ubylo vstavačů. Přesto jsme tam mohli pozorovat a fotit spoustu krásných květin. Mezi nimi vynikal vzácný tořič hmyzonosný, na Moravě vyhynulý, v Čechách kriticky ohrožený.   ",
+        },
+        {
+          foto: " 227vilcan69.jpg  ",
+          popisek: " kamzičník karpatský - Doronicum carpaticum  ",
+        },
+        {
+          foto: " 227vilcan70.jpg  ",
+          popisek: " řeřišnice hořká - Cardamine amara  ",
+        },
+        {
+          foto: " 227vilcan72.jpg  ",
+          popisek: "  vstavač vojenský - Orchis militaris  ",
+          naVysku: true,
+        },
+        {
+          foto: " 227vilcan73.jpg  ",
+          popisek: "  okrotice dlouholistá - Cephalanthera longifolia  ",
+          naVysku: true,
+        },
+        {
+          foto: " 227vilcan74.jpg  ",
+          popisek: "  plicník červený - Pulmonaria rubra ",
+        },
+        {
+          foto: " 227vilcan76.jpg  ",
+          popisek: "  tořič hmyzonosný - Ophrys insectifera ",
+        },
+        {
+          foto: " 227vilcan77.jpg  ",
+          popisek: "  ( údolí Jiul-west, červen 2021)  ",
+        },
+
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/mofovudoro" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/mofovudoro",
+        },
+
+        { textOdstavce: "<br><h3>Odkazy:</h3>" },
+
+        {
+          textOdstavce:
+            '<a href="https://rumunskehory.cz/pohori/show/vilcan" target="blank" class="vnitrniOdkaz">Vilcan</a><br>Čížek, Jiří: Rumunské a bulharské hory. 2. vyd. 1978, str. 111-115.<br>Čížek, Jiří: Rumunské a bulharské hory. 2. vyd. 1978, str. 111-115.<br>Edice Muntii Nostri číslo 21: Vilcan. Bucuresti 1979, rumunsky<br>Bulička, Michal: Rumunské Karpaty, 2002, str. 133-136<br>Nevrlý, Miloslav: Karpatské hry. 7. vydání 2006, str. 118<br><br>',
+        },
+
+        {
+          textOdstavce: " <h3>Šestý den : středa 16. června 2021 </h3> ",
+        },
+
+        {
+          textOdstavce:
+            "  <i>Campusel - odbočka do údolí Soarbele - Tau fara Fund - Lacul Soarbele (1720 m). 6 km, 550 m převýšení, 3 hodiny naší chůze. </i>  ",
+        },
+
+        {
+          textOdstavce:
+            " Středa byla lehký den. Dopoledne jsme zůstali na tábořišti “hlídat” stany, protože větší část výpravy odjela na nákupy do města.Vykoupali se pod přírodní sprchou v potoce a užívali si klidu před druhou polovinou zájezdu. Vyrazili jsme zprvu po silnici, pak po cestě a za odbočkou do údolí Soarbele sice po značce, ale ta vedla korytem vyschlého potoka. Břehy potoka byly geologickou sbírkou, jak se tu střídá vápenec se žulou a dalšími vyvřelými horninami. Ti, kteří šli první, vyplašili medvěda. Nahoře nad lesem se otevřelo morénové údolí Soarbele jako z učebnice geologických věd. Byly v něm tři morény, bohužel plesa, které za morénami bývají, jsou všechna zanesená naplaveninou nebo je hráz morény  protržená. Teplo bylo, ale vykoupat se dalo jen v hlubokém závrtu, částečně ještě zasypaném sněhem. Voda musela být ale pekelně studená, jen pro otužilce - viď Valášku.   ",
+        },
+        {
+          foto: " 227vilcan78.jpg  ",
+          popisek: " Značená cesta údolím Soarbele  ",
+        },
+        {
+          foto: " 227vilcan79.jpg  ",
+          popisek: " Nad hranicí lesa a pod první morénou  ",
+        },
+        {
+          foto: " 227vilcan80.jpg  ",
+          popisek: "  Opuštěná koliba v dolině Soarbele (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan81.jpg  ",
+          popisek: " Zaplavený závrt se zbytkem sněhu (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Den končil stejně pěkně, jak začal. Na ploše bývalého zaneseného plesa Lacul Soarbele jsme si postavili stany. Musím říci, že dlouho jsem nespal na tak rovném a měkkém podkladu. Protože do večera bylo ještě daleko, obešli jsme si nalehko závěr doliny, fotili kytky, prodírali se kosodřevinou, překonávali sněhová pole a  užívali si výhledů, dokud nás mlha nezahnala k tábořišti. Toto považuji za největší výhodu organizovaného zájezdu s cestovkou. Možnost nechat stan na tábořišti a volně se nalehko toulat po okolí. Jiní mají pochodování dost a tráví čas u ohně a u stanů. Užívali si všichni.   ",
+        },
+        {
+          foto: " 227vilcan83.jpg  ",
+          popisek: "Tábor na místě Lacul Soarbele (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan82.jpg  ",
+          popisek: " Na skalnatý Iorgoveanul  polezeme zítra.  ",
+        },
+
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/gafovakogu" width="400" height="280" frameborder="0"></iframe>   ',
+          odkazMapa: "https://frame.mapy.cz/s/gafovakogu",
+        },
+
+        {
+          textOdstavce: "<h3> Sedmý den : čtvrtek 17. června 2021 </h3>  ",
+        },
+
+        {
+          textOdstavce:
+            " <i> Lacul Soarbele - sedlo Saua Paltina (1935 m) - Piatra Iorgoveanul (2014 m) - Albele - vysněžený žlab - sedlo Saua Dragsanu. 8 km, 600 m převýšení, 4 hodiny naší chůze.  </i> ",
+        },
+
+        {
+          textOdstavce:
+            " Tento den jsme se měli pohybovat po Malém Retezatu. Začali jsme výstupem do sedla Soarbele, které odděluje hory Godeanu a Retezatu. Nejen geograficky, ale i botanicky. Stačilo ujít dvacet kroků a květena se úplně změnila, jak se změnil i geologický podklad ze žuly na vápenec.",
+        },
+        {
+          foto: " 227vilcan84.jpg  ",
+          popisek: " V sedle Soarbele (červen 2021)  ",
+        },
+        { foto: " 227vilcan85.jpg  " },
+        {
+          foto: " 227vilcan86.jpg  ",
+          popisek: " Piatra Iorgoveanul od západu  ",
+        },
+
+        {
+          textOdstavce:
+            " Vrchol Iorgoveanul patří k nejvýznamnějším botanickým lokalitám v Rumunsku. Přesto sem ještě ochrana přírody nedorazila, kolem se pasou ovce a po skalách se může chodit všemi směry. Když jsem tu byl před pár lety, dostala naše děvčata od bači  kytičku protěží jako odměnu za to, že mu vyčistila a ovázala ránu na ruce.  I tady jsme chytili první várku květů po odchodu sněhů, tedy krokusy, dryádky, hořce jarní i bezlodyžné, spoustu lomikámenů rocheliana a dva druhy dřípatek. ",
+        },
+        {
+          foto: " 227vilcan88.jpg  ",
+          popisek: "  Skalka s lomikámenem lemovaným var. rocheliana ",
+        },
+        {
+          foto: " 227vilcan89.jpg  ",
+          popisek: " dřípatka horská - Soldanella montana ",
+        },
+        {
+          foto: " 227vilcan115.jpg  ",
+          popisek: " dřípatka nizoučká - Soldanella pusilla ",
+        },
+        {
+          foto: " 227vilcan95.jpg  ",
+          popisek: " Loučka s hořci jarními (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Z vrcholové skály Iorgoveanul byl kruhový rozhled. Naproti přes údolí bylo vidět severní svahy Osley, kde jsme chodili předevčírem.  ",
+        },
+        {
+          foto: " 227vilcan91.jpg  ",
+          popisek: " Na vrcholové skále Iorgovanului (červen 2021)  ",
+        },
+        { foto: " 227vilcan92.jpg  ", popisek: " Oslea od severu  " },
+        { foto: " 227vilcan93.jpg   " },
+
+        {
+          textOdstavce:
+            " Na severovýchodním obzoru se začaly objevovat vrcholy vysokého Retezatu, které se konečně vynořily z mraků. Custura, Papusa, Peleaga, Bucura mají výšku kolem 2500 metrů. Bylo ale potřeba spěchat. Po obloze se začala po obědě honit šedá mračna. Stezkou vyšlapanou od ovcí jsme obešli vrchol Albele a za ním se spustili do zasněženého žlabu. Tam nás chytila kratší bouřka, ale to už bylo dobré, nebyli jsme na ráně na hřebenu. Byli i tací, kteří prošli dlouhým sněhovým žlabem v sandálech. Brrr. Dole tekl potok, který nedaleko pramenil ve studánce Izvoru la Balborosi. Pramen je dost důležitý, leží na značené hřebenové cestě, v krajině, kde je voda vzácná. Ještě jeden pramen je asi půl kilometru od něj směrem k sedlu Dragsanu u koliby. ",
+        },
+        {
+          foto: " 227vilcan97.jpg  ",
+          popisek: "  Vrcholy vysokého Retezatu (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan98.jpg  ",
+          popisek:
+            " Zprava Papusa Mica (2380 metrů), Papusa (2508), Peleaga (2509), Bucura (2433)  ",
+        },
+        {
+          foto: " 227vilcan99.jpg  ",
+          popisek: " Piatra Iorgoveanul od východu.  ",
+        },
+        {
+          foto: " 227vilcan100.jpg  ",
+          popisek: " Žlab v úbočí Albele byl letos pod sněhem.  ",
+        },
+
+        {
+          textOdstavce:
+            "  V sedle Dragsanu se tábořit kvůli bouřlivému počasí nedalo, vybrali jsme si chráněnou plošinku pod ním a zůstali tu dvě noci. Kolem plošiny se potulovali ovce i psi a měl jsem celou dobu pocit, že jsme ovcím zabrali noclehoviště. Přišli jsme dřív. Ovce zůstávaly přes noc o kus dál, bez ohrady, a hlídala je smečka psů. Nebylo radno chodit večer tím směrem. Objevili jsme uschlou kosodřevinu, Slávek vylovil z objemného batohu pilku Viskas - řezala jako čert - a mohl se dělat táborák.  ",
+        },
+        { foto: " 227vilcan101.jpg " },
+        { foto: " 227vilcan102.jpg  " },
+        { foto: " 227vilcan103.jpg  " },
+        {
+          foto: " 227vilcan104.jpg  ",
+          popisek: " Ovce zdolávají sněhové pole u tábořiště (červen 2021)  ",
+        },
+
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/mecajuvoso" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/mecajuvoso",
+        },
+
+        {
+          textOdstavce: " <h3>Osmý den : pátek 18. června 2021</h3>  ",
+        },
+        {
+          textOdstavce:
+            "  <i>pod sedlem Saua Dragsanu (1780 m) - virful Scorota (2021 m) - hřebenem bez cesty - virful Dragsanu (2080 m) - sedlo Saua Plaiul Mic (1879 m) a zpět na tábořiště. Odpoledne Capatina Albelor (1940 m).13 km, 600 m převýšení. </i>   ",
+        },
+        {
+          textOdstavce:
+            " Další den bylo volno bez zátěže. Mohlo se dojít na pivo na cabanu Buta, nebo na výhled na první vyšší vrchol Retezatu, což je Custura (2457 metrů). Nebo nedělat vůbec nic. Po značené cestě jsme šli v minulosti už třikrát a tak jsme se s Prckem dobrovolně podjali úkolu prozkoumat, zda vede nějaká schůdná pěšina z vrcholu Dragsan do sedla Piule. Příští den by nám to  ušetřilo sestup do doliny a obtížný výstup s batohy do sedla. Průchod hřebenem jsme sice nenašli, hřeben byl beznadějně zarostlý klečí, ale zato jsme prošli krásný bezcestný masiv Dragsanu, našli spousty konikleců alpínských bílých (u nás vzácně v Krkonoších), louky plné vřesovcovité rostliny skalenky poléhavé (v Tatrách kriticky ohrožená) a dalších vzácností.   ",
+        },
+        {
+          foto: " 227vilcan105.jpg  ",
+          popisek: "  Pod vrcholem Dragsanu (červen 2021)  ",
+        },
+        {
+          foto: " 227vilcan106.jpg  ",
+          popisek:
+            "  Hřeben z Dragsanu na Piule je zarostlý klečí. Pěšinu jsme nenašli.  ",
+        },
+        {
+          foto: " 227vilcan107.jpg  ",
+          popisek: " prvosenka nejmenší - Primula minima  ",
+        },
+        {
+          foto: " 227vilcan109.jpg  ",
+          popisek:
+            "  skalenka poléhavá - Kalmia procumbens (Dragsan - červen 2021) ",
+        },
+        {
+          foto: " 227vilcan111.jpg  ",
+          popisek: " koniklec alpinský bílý - Pulsatilla alpina ssp. alba   ",
+        },
+        {
+          foto: " 227vilcan112.jpg  ",
+          popisek:
+            "  Šafrán karpatský může vykvést i bíle. (saua  Plaiul Mic - červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Ozzy hlídal tábor a při té příležitosti se seznámil s místní Jarunou. Stačil k tomu krajíc suchého chleba. Nevím, kde se vzalo jméno Jaruna pro psy, kteří se rozhodnou doprovázet kytkovou výpravu. Je - li jich více, pak to jsou Jaruny.<br> My jsme si odpoledne vyšli na skalisko nad tábořištěm, v mapách má jméno Capatina Albelor (1940 m) nebo také Fata cu Lastuni. S rumunskými jmény i nadmořskými výškami je potíž. V různých mapách jsou různé názvy, liší se i nadmořské výšky. Jasno v tom nemají ani rumunští geografové, což je v době satelitních snímků dost ostuda. Pamatuji si ze základní školy, že nejvyšší rumunská hora byla Negoiu - dnes snad už definitivně je to Moldoveanul ve Fagaraši, vyšší o 8 metrů. Ale co záleží na pár metrech. ",
+        },
+        { foto: " 227vilcan113.jpg  ", popisek: "  Ozzy krmí Jarunu  " },
+        { foto: " 227vilcan119.jpg  ", popisek: "  Capatina Albelor  " },
+        { foto: " 227vilcan118.jpg " },
+
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/goferozubo" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/goferozubo",
+        },
+
+        {
+          textOdstavce:
+            "<h3> Devátý a poslední den : sobota 19. června 2021</h3>  ",
+        },
+        {
+          textOdstavce:
+            "  <i> tábořiště - sedlo Saua Dragsanu(1839 metrů) - salaš Stina Scorotei (1500 m) - sedlo Saua Scorota (1920 m) - Virful Piule (2081) - hřebenem - Virful Plesa (1840 m) - klášter Plesa - Piatra Scorbita, údolí Jiu  de Vest (900m). Nákupy v Petrosani. Noční návrat autobusem do Brna. 12 km, převýšení 700m, v sestupu 1700 m, 6 hodin naší chůze. </i>  ",
+        },
+        {
+          textOdstavce:
+            " Den měl být dlouhý a náročný. Byl. Přes sedlo Dragsanu jsme se překulili do hluboké doliny Scorotea, kde je salaš. Konec pastevecké  romantiky, i sem postupně proniká evropský civilizační duch. Nerezové nádobí na mléko, kachličky, vodovod, na střeše solární panely a satelitní anténa. Chybí snad jen dron nahánějící ovce. Od salaše je těžký výstup sutí a sněhem do sedla Scorota. V suti kvetly modré ladoňky.  ",
+        },
+        { foto: " 227vilcan121.jpg  ", popisek: " Sestup do doliny Scorota  " },
+        {
+          foto: " 227vilcan123.jpg  ",
+          popisek: " Salaš v dolině Scorota (červen 2021)  ",
+        },
+        { foto: " 227vilcan125.jpg  " },
+        {
+          foto: " 227vilcan124.jpg  ",
+          popisek: " ladoňka karpatská - Scilla kladnii  ",
+        },
+        {
+          foto: " 227vilcan126.jpg  ",
+          popisek: "  Vysněženým žlebem do sedla Scorota  ",
+        },
+
+        {
+          textOdstavce:
+            " Když jsem se blížil k sedlu Scorota, překvapil mě nezvyklý ruch a pohyb. Kroužil nad námi dron a s nosítky čekali záchranáři Salvamontu, to je rumunská horská služba. Tak špatně na tom nikdo z nás nebyl. Situace se rychle vysvětlila. Přimotali jsme se na trasu běžeckého závodu po hřebenech Retezatu, RETEZAT SKYRACE INTERSPORT,  a zrovna kolem defilovali první účastníci. Prvním dvaceti jsme fandili, ba i mexickou vlnu vytvořili, dalších asi 700 běžců nám spíš zavazelo. Měli před sebou ještě cestu kamsi za Custuru a okruh dlouhý 28 km s pekelným převýšením 2300 metrů zvládl nejrychlejší prý za tři hodiny. Většina ve značkovém oblečení, obutí, vybavení, všichni hubení. Vzpomněl jsem na výbavu rumunských poutníčků v sedmdesátých letech zrovna tady na Retezatu - vojenský batoh,  na něm deka a hrnec na vaření - velký skok udělali Rumuni za padesát let.<br>     Nás čekal strmý úsek ze sedla na vrchol Piule, na dvou místech zabezpečený lany, ale nebylo to těžké místo, lana nebyla zapotřebí. Z vrcholu krásné výhledy na blízké retezatské kopce. I další cesta po hřebenu je vyjímečná, jen kdybychom nemuseli stále někomu vyhýbat, uskakovat.    ",
+        },
+        {
+          foto: " 227vilcan127.jpg  ",
+          popisek: " Salvamonti v sedle Scorota  ",
+        },
+        {
+          foto: " 227vilcan128.jpg  ",
+          popisek: "  Fandíme a kocháme se. Vzadu Papusa a Peleaga.  ",
+        },
+        { foto: " 227vilcan130.jpg   " },
+        {
+          foto: " 227vilcan131.jpg  ",
+          popisek: " Vrchol Piule s běžci (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Nás ale zajímaly více kytky než dýchaviční běžci. Fotka bohužel nezprostředkuje tuhost polštářů lomikámenů rocheliana, nebo božskou vůni kvetoucích lýkovců vonných. Tyto lýkovce jsou u nás velmi vzácné. Nesměle na chráněných místech začínaly kvést i modroušky. Ty u nás nerostou, stejně jako rocheliany.  ",
+        },
+        {
+          foto: " 227vilcan132.jpg  ",
+          popisek: " Tuhý polštář lomikámenu rocheliana  ",
+        },
+        {
+          foto: " 227vilcan134.jpg  ",
+          popisek: " lýkovec vonný - Daphne cheorum  ",
+        },
+        { foto: " 227vilcan137.jpg  ", popisek: " Piule (červen 2021)  " },
+        {
+          foto: " 227vilcan141.jpg  ",
+          popisek: " modroušek trávolistý - Endraithus graminifolius  ",
+        },
+        {
+          foto: " 227vilcan138.jpg  ",
+          popisek: " úročník bolhoj - Anthyllis vulneraria  ",
+        },
+
+        {
+          textOdstavce:
+            " Nekončící skalka a výhledy na všechny strany, to byl hřeben Piule. Nedal se vyfotit, aniž by se do záběru dostal nějaký běžec. Zůstala po nich jen vydupaná pěšina. Škoda, že si tito sportovci pletou hory s cvičebním nářadím. Někteří měli v uších sluchátka - možná aby je při výkonu nerušil zpěv ptactva nebo šum větru. Posléze nás minul závěr závodu - paní s vysílačkou - a byl klid. Jenomže to už byl také konec hezkého hřebene Piule na vrcholu Plesa.  ",
+        },
+        { foto: " 227vilcan133.jpg " },
+        {
+          foto: " 227vilcan135.jpg  ",
+          popisek: "  Po běžcích zůstala vydupaná pěšinka (červen 2021)  ",
+        },
+        { foto: " 227vilcan139.jpg  " },
+        { foto: " 227vilcan140.jpg  " },
+
+        {
+          textOdstavce:
+            " Z vrcholu Plesa nás čekalo dlouhé, tisícimetrové klesání. Zprvu po loukách, pak smrkovými, posléze bukovými lesy v desítkách serpentin. Prošli jsme kolem kláštera  Plesa a cestou vroubenou božími mukami došli do údolí.  ",
+        },
+        {
+          foto: " 227vilcan142.jpg  ",
+          popisek: " Vrchol Plesa na konci hřebene Piule. ",
+        },
+        {
+          foto: " 227vilcan143.jpg  ",
+          popisek: " Pod námi je ves Cîmpu lui Neag.  ",
+        },
+        { foto: " 227vilcan144.jpg  " },
+        {
+          foto: " 227vilcan146.jpg  ",
+          popisek: " Klášter Schichtul Plesa (červen 2021)  ",
+        },
+
+        {
+          textOdstavce:
+            " Když jsme dopajdali k autobusu, čekaly nás ještě dvě podstatné věci. První - příjemnou - popíše lépe Miloslav Nevrlý :  <i> “Projdeme s nejlehčími batohy hřebenové pastviny a sestoupíme smrkovými lesy k čiré řece Jiu, k hlubokým zeleným tůním, v nich naposledy smyjeme horké poty, letní vůně.” </i> Tak se i stalo. Druhá - méně příjemná : noční cesta domů.   ",
+        },
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/monokubevu" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "https://frame.mapy.cz/s/monokubevu",
+        },
+      ],
+    },
   ],
 };
