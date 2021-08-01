@@ -1814,6 +1814,7 @@ export default {
       obec: " Brno - Bohunice  ",
       cislo: " 1280  ",
       jmeno: "Bohunice 1",
+      fotkaUvod: { fotka: " bohunice1-3.jpg " },
       kdeSeNaleza:
         "  V\xa0areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 2.  ",
       popis:
@@ -1859,6 +1860,7 @@ export default {
       obec: " Brno - Bohunice  ",
       cislo: " 1281  ",
       jmeno: "Bohunice 2",
+      fotkaUvod: { fotka: " bohunice2-2.jpg " },
       kdeSeNaleza:
         "   V\xa0areálu fakultní nemocnice, na trávníku před budovou H. Vedle něj stojí kámen Bohunice 1.  ",
       popis:
@@ -1896,6 +1898,7 @@ export default {
       obec: " Brno - Kníničky  ",
       cislo: " 1285  ",
       jmeno: "Kníničky",
+      fotkaUvod: { fotka: " kninicky1.jpg " },
       kdeSeNaleza:
         "U silnice od hráze Brněnské přehrady na Osadu, na rozcestí u pomníku U lva, zazděn do tarasu pod pomníkem.   ",
       popis:
@@ -1931,6 +1934,7 @@ export default {
       okres: " Brno - město  ",
       obec: " Brno - Líšeň  ",
       jmeno: "Líšeň 1",
+      fotkaUvod: { fotka: " lisen1.jpg " },
       cislo: " 1286  ",
       kdeSeNaleza: "   v\xa0Líšni u kostela na náměstí  ",
       popis:
@@ -1968,6 +1972,7 @@ export default {
       okres: " Brno - město  ",
       obec: " Brno - Líšeň  ",
       jmeno: "Líšeň 2  ",
+      fotkaUvod: { fotka: " lisen2-1.jpg " },
       cislo: "  1982  ",
       kdeSeNaleza: "v Líšni u kostela na náměstí  ",
       popis:
@@ -1993,6 +1998,7 @@ export default {
       okres: " Brno - město  ",
       obec: " Brno - Královo Pole  ",
       jmeno: "Královo Pole",
+      fotkaUvod: { fotka: " kralovoPole1.jpg " },
       cislo: " 1752  ",
       kdeSeNaleza: "  Na Slovanském náměstí,  v\xa0horní částí pod lípou.  ",
       popis:
@@ -2029,6 +2035,7 @@ export default {
       okres: " Brno - město  ",
       obec: " Brno - Žabovřesky  ",
       jmeno: "Žabovřesky  ",
+      fotkaUvod: { fotka: "zabovresky1.jpg " },
       cislo: " 0774  ",
       kdeSeNaleza: "  na ulici Minská u zastávky tramvaje   ",
       popis:
@@ -2057,6 +2064,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "  Alexovice   ",
+      fotkaUvod: { fotka: "alexovice1.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "  Ivančice - Alexovice  ",
@@ -2093,6 +2102,7 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "Biskoupky   ",
+      fotkaUvod: { fotka: " biskoupky1.jpg " },
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "Biskoupky   ",
@@ -2124,6 +2134,7 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na sever   ",
       jmeno: "Drásov 1   ",
+      fotkaUvod: { fotka: " drasov1.jpg " },
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Drásov  ",
@@ -2151,6 +2162,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever  ",
       jmeno: "Drásov 2   ",
+      fotkaUvod: { fotka: " drasov2-1.jpg " },
+
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: " Drásov   ",
@@ -2181,6 +2194,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ  ",
       jmeno: "  Deblín    ",
+      fotkaUvod: { fotka: " deblin1.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "  Deblín   ",
@@ -2212,6 +2227,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever  ",
       jmeno: "   Lelekovice   ",
+      fotkaUvod: { fotka: " lelekovice2.jpg " },
+
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Lelekovice  ",
@@ -2242,6 +2259,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na jih   ",
       jmeno: "Moravany 1   ",
+      fotkaUvod: { fotka: " moravany1.jpg " },
+
       podkategorie: 4,
       okres: " Brno - venkov  ",
       obec: " Moravany   ",
@@ -2270,6 +2289,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na jih   ",
       jmeno: "   Moravany 2   ",
+      fotkaUvod: { fotka: " moravany2-1.jpg " },
+
       podkategorie: 4,
       okres: " Brno - venkov  ",
       obec: " Moravany   ",
@@ -2304,6 +2325,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  V\xa0Brně  ",
       jmeno: "  Dolní Heršpice    ",
+      fotkaUvod: { fotka: " dolniHerspice1.jpg " },
+
       podkategorie: 1,
       okres: " Brno - město  ",
       obec: " Brno - Dolní Heršpice   ",
@@ -2341,6 +2364,7 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever  ",
       jmeno: "   Drásov 4   ",
+      fotkaUvod: { fotka: " drasov4-1.jpg " },
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Drásov  ",
@@ -2370,6 +2394,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na jih   ",
       jmeno: "  Bratčice    ",
+      fotkaUvod: { fotka: "bratcice.jpg " },
+
       podkategorie: 4,
       okres: " Brno - venkov  ",
       obec: " Bratčice   ",
@@ -2403,6 +2429,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na jih  ",
       jmeno: "  Opatovice 1    ",
+      fotkaUvod: { fotka: " opatovice1-1.jpg " },
+
       podkategorie: 4,
       okres: " Brno - venkov  ",
       obec: "  Opatovice  ",
@@ -2449,6 +2477,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na jih  ",
       jmeno: "   Opatovice 2   ",
+      fotkaUvod: { fotka: " opatovice2-3.jpg " },
+
       podkategorie: 4,
       okres: " Brno - venkov  ",
       obec: "  Opatovice  ",
@@ -2497,6 +2527,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "  Oslavany 1    ",
+      fotkaUvod: { fotka: " oslavany1.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec:
@@ -2531,6 +2563,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "   Oslavany 2   ",
+      fotkaUvod: { fotka: " oslavany2-2.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: " Oslavany  ",
@@ -2566,6 +2600,8 @@ export default {
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: " Popůvky   ",
+      fotkaUvod: { fotka: " popuvky1.jpg " },
+
       cislo: "  1946  ",
       kdeSeNaleza:
         "  na SZ od Popůvek u státní silnice poblíž vedení vysokého napětí  ",
@@ -2595,6 +2631,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na východ  ",
       jmeno: "   Podolí 1   ",
+      fotkaUvod: { fotka: " podoli1-1.jpg " },
+
       podkategorie: 3,
       okres: " Brno - venkov  ",
       obec: "  Podolí  ",
@@ -2631,6 +2669,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na východ  ",
       jmeno: "   Podolí 2   ",
+      fotkaUvod: { fotka: " podoli2-2.jpg " },
+
       podkategorie: 3,
       okres: " Brno - venkov  ",
       obec: "  Podolí  ",
@@ -2663,6 +2703,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na jih   ",
       jmeno: "   Sokolnice   ",
+      fotkaUvod: { fotka: " sokolnice1.jpg " },
+
       podkategorie: 4,
       okres: " Brno - venkov  ",
       obec: "  Sokolnice  ",
@@ -2700,6 +2742,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na východ  ",
       jmeno: "   Šlapanice 1   ",
+      fotkaUvod: { fotka: "slapanice2.jpg " },
+
       podkategorie: 3,
       okres: " Brno - venkov  ",
       obec: "  Šlapanice  ",
@@ -2732,6 +2776,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na východ  ",
       jmeno: "   Šlapanice 2   ",
+      fotkaUvod: { fotka: "slapanice2-1.jpg  " },
+
       podkategorie: 3,
       okres: " Brno - venkov  ",
       obec: "  Šlapanice  ",
@@ -2764,6 +2810,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "   Veverská Bítýška   ",
+      fotkaUvod: { fotka: "bityska2.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: " Veverská Bítýška   ",
@@ -2800,6 +2848,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ  ",
       jmeno: "  Zbraslav 2    ",
+      fotkaUvod: { fotka: " zbraslav3-1.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: " Zbraslav   ",
@@ -2843,6 +2893,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ  ",
       jmeno: "  Zbraslav 3    ",
+      fotkaUvod: { fotka: " zbraslav3-2.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: " Zbraslav   ",
@@ -2891,6 +2943,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "   Zakřany   ",
+      fotkaUvod: { fotka: " zakrany2.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "  Zakřany  ",
@@ -2927,6 +2981,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  V\xa0Brně  ",
       jmeno: "  Brno -  střed    ",
+      fotkaUvod: { fotka: "stred1.jpg " },
+
       podkategorie: 1,
       okres: " Brno - město  ",
       obec: " Brno - střed   ",
@@ -2957,6 +3013,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na východ  ",
       jmeno: "  Černčín 1    ",
+      fotkaUvod: { fotka: " cerncin1.jpg " },
+
       podkategorie: 3,
       okres: " Vyškov  ",
       obec: " Bučovice - Černčín   ",
@@ -3007,6 +3065,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na  východ ",
       jmeno: "  Černčín 2    ",
+      fotkaUvod: { fotka: "cerncin2-1.jpg " },
+
       podkategorie: 3,
       okres: "  Vyškov   ",
       obec: "  Bučovice - Černčín  ",
@@ -3054,6 +3114,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na jih  ",
       jmeno: "  Loděnice    ",
+      fotkaUvod: { fotka: " lodenice.jpg " },
+
       podkategorie: 4,
       okres: "  Brno - venkov  ",
       obec: " Loděnice   ",
@@ -3087,6 +3149,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na jih  ",
       jmeno: "  Nikolčice    ",
+      fotkaUvod: { fotka: " nikolcice1.jpg " },
+
       podkategorie: 4,
       okres: "  Břeclav   ",
       obec: "  Nikolčice   ",
@@ -3129,6 +3193,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na východ   ",
       jmeno: "  Archlebov    ",
+      fotkaUvod: { fotka: " archlebov2.jpg " },
+
       podkategorie: 3,
       okres: "   Hodonín  ",
       obec: " Archlebov   ",
@@ -3162,6 +3228,8 @@ export default {
       podkategorie: 5,
       okres: "  Znojmo   ",
       obec: "  Petrovice  ",
+      fotkaUvod: { fotka: " petrovice2-1.jpg " },
+
       cislo: "  2164  ",
       kdeSeNaleza:
         "  Na návsi  v\xa0Petrovicích,  v\xa0kapličce pro něj  v\xa0roce 2008  zbudované.  ",
@@ -3194,6 +3262,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ  ",
       jmeno: "  Moravský Krumlov    ",
+      fotkaUvod: { fotka: "krumlov1.jpg " },
+
       podkategorie: 5,
       okres: "  Znojmo   ",
       obec: "  Moravský Krumlov  ",
@@ -3227,6 +3297,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "  Kladeruby nad Oslavou    ",
+      fotkaUvod: { fotka: " kladeruby2.jpg " },
+
       podkategorie: 5,
       okres: "  Třebíč   ",
       obec: "  Kladeruby nad Oslavou  ",
@@ -3259,6 +3331,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ   ",
       jmeno: "  Naloučany 1    ",
+      fotkaUvod: { fotka: " naloucany1-2.jpg " },
+
       podkategorie: 5,
       okres: "  Třebíč   ",
       obec: " Naloučany   ",
@@ -3305,6 +3379,7 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ  ",
       jmeno: "  Naloučany 2    ",
+      fotkaUvod: { fotka: " naloucany2-2.jpg " },
       podkategorie: 5,
       okres: "  Třebíč   ",
       obec: " Naloučany   ",
@@ -3352,6 +3427,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ ",
       jmeno: "  Košíkov  1    ",
+      fotkaUvod: { fotka: " kosikov1-1.jpg " },
+
       podkategorie: 5,
       okres: "  Žďár nad Sázavou   ",
       obec: "  Velká Bíteš - Košíkov  ",
@@ -3410,6 +3487,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ ",
       jmeno: "  Košíkov 2     ",
+      fotkaUvod: { fotka: " kosikov2-2.jpg " },
+
       podkategorie: 5,
       okres: "  Žďár nad Sázavou  ",
       obec: "  Velká Bíteš - Košíkov  ",
@@ -3466,6 +3545,8 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ  ",
       jmeno: "   Nové Sady   ",
+      fotkaUvod: { fotka: " novesady1.jpg " },
+
       podkategorie: 5,
       okres: "  Žďár nad Sázavou   ",
       obec: " Nové Sady   ",
@@ -3501,6 +3582,7 @@ export default {
       kategorie: "smircikrize",
       oblast: " Na západ  ",
       jmeno: "   Sejřek   ",
+      fotkaUvod: { fotka: " sejrek1.jpg " },
       podkategorie: 5,
       okres: "   Žďár nad Sázavou    ",
       obec: " Sejřek   ",
@@ -3538,6 +3620,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ  ",
       jmeno: "   Dolní Loučky   ",
+      fotkaUvod: { fotka: " dolniloucky.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "  Dolní Loučky  ",
@@ -3571,6 +3655,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ  ",
       jmeno: "  Lipůvka   ",
+      fotkaUvod: { fotka: " lipuvka.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec:
@@ -3610,6 +3696,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever  ",
       jmeno: "  Doubravník 2    ",
+      fotkaUvod: { fotka: " doubravnik2-2.jpg " },
+
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: " Doubravník   ",
@@ -3654,6 +3742,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever  ",
       jmeno: "  Tišnov 1    ",
+      fotkaUvod: { fotka: " tisnov1.jpg " },
+
       podkategorie: 2,
       okres: " Brno - venkov ",
       obec: "  Tišnov  ",
@@ -3687,6 +3777,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "   Malá Lhota   ",
+      fotkaUvod: { fotka: " malalhota2.jpg " },
+
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "  Černá Hora. Kříž leží asi 200 metrů od katastru Malé Lhoty.  ",
@@ -3726,6 +3818,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ  ",
       jmeno: "   Tišnov 2   ",
+      fotkaUvod: { fotka: " tisnov2-1.jpg " },
+
       podkategorie: 21,
       okres: " Brno - venkov  ",
       obec: "  Tišnov  ",
@@ -3762,6 +3856,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "  Obora    ",
+      fotkaUvod: { fotka: " obora.jpg " },
+
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "  Obora  ",
@@ -3799,6 +3895,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "  Žernovník    ",
+      fotkaUvod: { fotka: " zernovnik1.jpg " },
+
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "  Žernovník  ",
@@ -3844,6 +3942,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "Újezd u Černé Hory 1    ",
+      fotkaUvod: { fotka: " ujezd1-2.jpg " },
+
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "  Újezd u Černé Hory    ",
@@ -3914,6 +4014,7 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "Újezd u Černé Hory 2   ",
+      fotkaUvod: { fotka: " ujezd2.jpg " },
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "   Újezd u Černé Hory   ",
@@ -3980,6 +4081,7 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "Újezd u Černé Hory 3  ",
+      fotkaUvod: { fotka: " ujezd3-2.jpg " },
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "   Újezd u Černé Hory   ",
@@ -4050,6 +4152,7 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "  Újezd u Černé Hory 4    ",
+      fotkaUvod: { fotka: " ujezd4.jpg " },
       podkategorie: 2,
       okres: " Blansko  ",
       obec: "   Újezd u Černé Hory   ",
@@ -4112,6 +4215,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ ",
       jmeno: "   Rojetín   ",
+      fotkaUvod: { fotka: " rojetin1.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "  Rojetín  ",
@@ -4137,6 +4242,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "  Bukovice 2    ",
+      fotkaUvod: { fotka: " bukovice2.jpg " },
+
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: " Bukovice    ",
@@ -4186,6 +4293,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na sever ",
       jmeno: "Bukovice 3",
+      fotkaUvod: { fotka: "bukovice3-2.jpg " },
+
       podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Bukovice  ",
@@ -4238,6 +4347,8 @@ export default {
       kategorie: "smircikrize",
       oblast: "  Na západ ",
       jmeno: "  Níhov    ",
+      fotkaUvod: { fotka: " nihov2.jpg " },
+
       podkategorie: 5,
       okres: " Brno - venkov  ",
       obec: "  Níhov  ",
@@ -4450,6 +4561,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Babice   ",
       jmeno: " Umučení lesníci  ",
+      fotkaUvod: { fotka: "umuceni2.jpg " },
+
       nazev: " Památník lesníků umučených za německé okupace ",
       kdyVznikl:
         " Slavnostně odhalen byl 26. října 1946. Stavět se začal v\xa0dubnu 1946. ",
@@ -4497,6 +4610,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Bílovice   ",
       jmeno: "Těsnohlídek, Rudolf",
+      fotkaUvod: { fotka: " tesnohlidek2.jpg " },
+
       nazev: "Památník Rudolfa Těsnohlídka",
       kdyVznikl: " 1929  ",
       popisCesty:
@@ -4545,6 +4660,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Bílovice   ",
       jmeno: "Těsnohlídek, Rudolf",
+      fotkaUvod: { fotka: " tesnohlidek2.jpg " },
+
       nazev: "Památník Rudolfa Těsnohlídka",
       kdyVznikl: " 1929  ",
       popisCesty:
@@ -4592,6 +4709,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Bílovice   ",
       jmeno: " Polanský, Bohuslav  ",
+      fotkaUvod: { fotka: " polansky2.jpg " },
+
       nazev: " Pomník Bohuslava Polanského  ",
       kdyVznikl:
         " Školní lesní podnik Křtiny vybudoval pomník v\xa0roce 2005. ",
@@ -4635,6 +4754,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Březina  ",
       jmeno: " Pocta půdě  ",
+      fotkaUvod: { fotka: " poctapude.jpg " },
+
       nazev: "  Památník Pocta půdě ",
       kdyVznikl: " 2002 ",
       popisCesty:
@@ -4667,6 +4788,7 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Habrůvka  ",
       jmeno: " Pelíšek, Josef  ",
+      fotkaUvod: { fotka: "pelisek1.jpg  " },
       nazev: " Pomník Josefa Pelíška ",
       kdyVznikl:
         " Byl odhalen v\xa0květnu 2001 při příležitosti Pedologických dnů na Mendelově univerzitě v\xa0Brně. ",
@@ -6470,6 +6592,8 @@ export default {
       okres: " Blansko ",
       obec: "  Olomučany  ",
       jmeno: " Wachtl, Jiří  ",
+      fotkaUvod: { fotka: " wachtl2.jpg " },
+
       nazev: " Památka Jiřího Wachtla  ",
       kdyVznikl: " 1929 ",
       popisCesty:
@@ -7150,6 +7274,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Příbram  ",
       jmeno: " Lev - Zastávka  ",
+      fotkaUvod: { fotka: " zastaveckylev2.jpg " },
+
       nazev: " Zastávecký lev ",
       kdyVznikl:
         " Odhaduji, že za 1. republiky, v\xa0době vypjatějšího nacionalismu. V\xa060. letech 20. století byl už reliéf  dosti omšelý. ",
@@ -7180,6 +7306,8 @@ export default {
       okres: " Blansko ",
       obec: "  Bořitov  ",
       jmeno: " Husitští bojovníci  ",
+      fotkaUvod: { fotka: "husite1.jpg " },
+
       nazev: " Sousoší husitských bojovníků ",
       kdyVznikl: " 1927 ",
       popisCesty:
@@ -7218,6 +7346,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Lelekovice  ",
       jmeno: " Lelkovadlo  ",
+      fotkaUvod: { fotka: " lelkovadlo1.jpg " },
+
       nazev: " Past na lelky u Lelekovic. ",
       kdyVznikl:
         " Jaro 2001. Byla to první socha v\xa0plenéru od amatérského řezbáře Jana Nováka. Do roku 2006 jich na Vranovsku vyřezal pět: Pohled za nekonečno, Ponávka u Lelekovic, Poseidónův trojzubec a Mojžíšovy desky ",
@@ -7264,6 +7394,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Česká  ",
       jmeno: " Chodec - Česká  ",
+      fotkaUvod: { fotka: "chodec4.jpg " },
+
       nazev: " Socha Chodce k\xa0České ",
       kdyVznikl:
         "  Na  jaře 2008 při slavnosti Dne Ponávky. První z\xa0několika soch Václava Kyselky, umístěných v\xa0mikroregionu Ponávka. Spojuje je naučná stezka značená vlnovkou. Další sochy stejného autora: Brejlení, Vraní sloup, Améba. ",
@@ -7303,6 +7435,8 @@ export default {
       okres: " Třebíč ",
       obec: "  Lesní Jakubov  ",
       jmeno: " Soukop František  ",
+      fotkaUvod: { fotka: "  soukop1.jpg " },
+
       nazev: " Památka Františka Soukopa ",
       kdyVznikl: " 1947 ",
       popisCesty:
@@ -7334,6 +7468,8 @@ export default {
       okres: " Třebíč ",
       obec: "  Lesní Jakubov  ",
       jmeno: " Soukop František  ",
+      fotkaUvod: { fotka: "  soukop1.jpg " },
+
       nazev: " Památka Františka Soukopa ",
       kdyVznikl: " 1947 ",
       popisCesty:
@@ -7364,6 +7500,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Maloměřice  ",
       jmeno: " Lojo  ",
+      fotkaUvod: { fotka: "  lojo1.jpg " },
+
       nazev: " Lojo u Maloměřic ",
       kdyVznikl: " 2006 ",
       popisCesty:
@@ -7391,6 +7529,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Senorady   ",
       jmeno: " Kamelot - Orel  ",
+      fotkaUvod: { fotka: "  orelkamelot1.jpg " },
+
       nazev: " Socha Orla - pocta skupině Kamelot ",
       kdyVznikl:
         " 2012. V\xa0roce 2017 byla socha vandalsky zničena - někdo orlovi pilou uřízl hlavu.  ",
@@ -7443,6 +7583,7 @@ export default {
       okres: " Brno - venkov ",
       obec: " Senorady   ",
       jmeno: " Kamelot - Orel  ",
+      fotkaUvod: { fotka: "  orelkamelot1.jpg " },
       nazev: " Socha Orla - pocta skupině Kamelot ",
       kdyVznikl:
         " 2012. V\xa0roce 2017 byla socha vandalsky zničena - někdo jí pilou uřízl hlavu.  ",
@@ -7493,6 +7634,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Senorady  ",
       jmeno: " Kamelot - Dívka  ",
+      fotkaUvod: { fotka: " divkakamelot1.jpg " },
+
       nazev: " Reliéf dívky - pocta skupině Kamelot ",
       kdyVznikl: " po roce 2017 ",
       popisCesty:
@@ -7533,6 +7676,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Židenice  ",
       jmeno: " Bílá hora ",
+      fotkaUvod: { fotka: "  bilahora2.jpg " },
+
       nazev: " Památník dělnického hnutí na Bílé hoře  ",
       kdyVznikl:
         " 1967. Autory jsou sochař Ladislav Martínek a architekt Jiří Auermüller. ",
@@ -7580,6 +7725,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Řečkovice  ",
       jmeno: " Pegas - Mokrá Hora ",
+      fotkaUvod: { fotka: " pegas1.jpg " },
+
       nazev: " Socha Pegasa u Mokré Hory ",
       kdyVznikl: "  ",
       popisCesty:
@@ -7617,6 +7764,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Kanice  ",
       jmeno: " Lev - Kanice  ",
+      fotkaUvod: { fotka: " kanickylev1.jpg " },
+
       nazev: " Kanický lev ",
       kdyVznikl:
         " socha vznikla za 1. republiky, na tomto místě byla instalována po roce 1993. ",
@@ -7653,6 +7802,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Ivančice  ",
       jmeno: " Ivančice - šnek  ",
+      fotkaUvod: { fotka: "ivancicesnek1.jpg " },
+
       nazev: " Ivančické zastavení U šneka ",
       kdyVznikl: " 2015 ",
       popisCesty:
@@ -7704,6 +7855,8 @@ export default {
       okres: " Blansko ",
       obec: "  Bořitov  ",
       jmeno: "  Lví hlava - Bořitov  ",
+      fotkaUvod: { fotka: "  hlavalva1.jpg " },
+
       nazev: " Hlava lva u Bořitova ",
       kdyVznikl: "  ",
       popisCesty:
@@ -7730,6 +7883,7 @@ export default {
       okres: " Blansko ",
       obec: "  Bořitov  ",
       jmeno: " Reliéfy - Bořitov  ",
+      fotkaUvod: { fotka: "  reliefyobora3.jpg " },
       nazev: " Pískovcové reliéfy u Bořitova  ",
       kdyVznikl: "  ",
       popisCesty:
@@ -7770,6 +7924,8 @@ export default {
       okres: " Břeclav ",
       obec: "  Strachotín  ",
       jmeno: " Věrozvěsti - Strachotín  ",
+      fotkaUvod: { fotka: " verozvestistrachotin2.jpg " },
+
       nazev: " Památník Cyrila a Metoděje ve Strachotíně ",
       kdyVznikl:
         " Slavnostní odhalení pomníku se konalo v\xa0sobotu 18. srpna 2013 ke 1150. výročí příchodu věrozvěstů na Moravu. Základní kameny k\xa0památníku položeny o 11 let dříve. ",
@@ -7813,6 +7969,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Letkovice ",
       jmeno: " Ivančice - rak  ",
+      fotkaUvod: { fotka: " ivancicerak2.jpg " },
+
       nazev: " Ivančické zastavení U raka ",
       kdyVznikl: " 2014 ",
       popisCesty:
@@ -7849,6 +8007,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Lažánky  ",
       jmeno: " Vodník - Slunná  ",
+      fotkaUvod: { fotka: " vodnikslunna1.jpg " },
+
       nazev: " Socha vodníka u nádržky Slunná ",
       kdyVznikl:
         " patrně v\xa0letech 2016 - 2017 po ukončení stavby retenční nádrže Horní Slunná ",
@@ -7883,6 +8043,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Níhov  ",
       jmeno: " Zdislava - Níhov  ",
+      fotkaUvod: { fotka: " zdislava1.jpg " },
+
       nazev: " Sousoší svaté Zdislavy u Níhova ",
       kdyVznikl: "  ",
       popisCesty:
@@ -7920,6 +8082,7 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Níhov  ",
       jmeno: " Zdislava - Níhov  ",
+      fotkaUvod: { fotka: " zdislava1.jpg " },
       nazev: " Sousoší svaté Zdislavy u Níhova ",
       kdyVznikl: "  ",
       popisCesty:
@@ -7956,6 +8119,7 @@ export default {
       okres: " Blansko ",
       obec: "  Suchdol v\xa0Moravském krasu  ",
       jmeno: " Wankel, Jindřich - busta  ",
+      fotkaUvod: { fotka: "  wankel1.jpg " },
       nazev: " Busta Jindřicha Wankla v\xa0Pustém žlebu ",
       kdyVznikl: "  ",
       popisCesty:
@@ -7992,6 +8156,8 @@ export default {
       okres: " Brno - venkov ",
       obec: " Kanice   ",
       jmeno: " Neumann, Stanislav Kostka  ",
+      fotkaUvod: { fotka: "  neumann1.jpg " },
+
       nazev: " Pomník S. K. Neumanna na Hádech ",
       kdyVznikl: " 1959 ",
       popisCesty:
@@ -8041,6 +8207,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Žabovřesky  ",
       jmeno: " Palacký, František  ",
+      fotkaUvod: { fotka: "  palacky1.jpg " },
+
       nazev: " Pomník Františka Palackého na Palackého vrchu ",
       kdyVznikl: " 6. 9. 1908 ",
       popisCesty:
@@ -8087,6 +8255,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Javůrek  ",
       jmeno: " Bezruč, Petr  ",
+      fotkaUvod: { fotka: " bezruc2.jpg " },
+
       nazev: " Pamětní desky Petru Bezručovi na Šmelcovně. ",
       kdyVznikl:
         " Levá rezavá deska byla slavnostně odhalena 24. března 1968 při tradičním srazu turistů Vítání jara, který organizoval Městský výbor turistiky v\xa0Brně. Pravá světlá deska je  o desítky let mladší. ",
@@ -8127,6 +8297,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Synalov  ",
       jmeno: " Cimrman, Jára  ",
+      fotkaUvod: { fotka: " cimrman1.jpg " },
+
       nazev: " Plostika Járy Cimrmana na Sýkoři ",
       kdyVznikl:
         " Pomník odhalili 22. 10. 1988 za přítomnosti dvou členů Divadla J. C. Nebylo to bez problémů. Státní lesy i národní výbor odvolaly svůj prvotní souhlas. Kvůli udání na nežádoucí srocování živlů byla socha tvůrci zavčas odstraněna a posléze “reinstalována a reodhalena” v\xa0roce 1989 na soukromém pozemku jako součást oplocení. Na původní místo se vrátila až po sedmi letech.  ",
@@ -8174,6 +8346,8 @@ export default {
       okres: " Blansko ",
       obec: "  Olomučany  ",
       jmeno: " Mácha, Karel Hynek  ",
+      fotkaUvod: { fotka: "macha2.jpg " },
+
       nazev: " Máchův pomník u Olomučan  ",
       kdyVznikl:
         " 1936, k\xa0uctění památky básníka při příležitosti 100. výročí úmrtí. ",
@@ -8223,7 +8397,7 @@ export default {
       okres: " Blansko ",
       obec: "  Olomučany  ",
       jmeno: " Mácha, Karel Hynek  ",
-
+      fotkaUvod: { fotka: "macha2.jpg " },
       nazev: " Máchův pomník u Olomučan  ",
       kdyVznikl:
         " 1936, k\xa0uctění památky básníka při příležitosti 100. výročí úmrtí. ",
@@ -8385,6 +8559,7 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Mokrá  ",
       jmeno: " Pacher, Arnošt  ",
+      fotkaUvod: { fotka: " pacher2.jpg " },
       nazev: " Pacherův kříž ",
       kdyVznikl:
         " V roce 1935 dal kříž vybudovat správce podolského velkostatku Pacher jako díkůvzdání za úspěšnou životní cestu. Kříž byl vysvěcen 5. října 1935.  ",
@@ -8427,6 +8602,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Sivice  ",
       jmeno: " Singularisté - Sivice  ",
+      fotkaUvod: { fotka: " singulariste1.jpg  " },
+
       nazev: " Boží muka Singularistů ze Sivic  ",
       kdyVznikl: " 1913 ",
       popisCesty:
@@ -8458,6 +8635,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Vranov  ",
       jmeno: " Kolohnát  ",
+      fotkaUvod: { fotka: " kolohnat1.jpg " },
+
       nazev: " Kříž Kolohnát nad Adamovem ",
       kdyVznikl: "  ",
       popisCesty:
@@ -8494,6 +8673,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Židlochovice  ",
       jmeno: " Stern - kříž  ",
+      fotkaUvod: { fotka: " stern2.jpg " },
+
       nazev: " Sternův kříž na Výhonu ",
       kdyVznikl:
         " 1764. Původně stál s\xa0dalšími barokními sochami téhož autora na mostě přes Svratku.",
@@ -8531,6 +8712,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Kníničky  ",
       jmeno: " Tři kříže - Chudčice  ",
+      fotkaUvod: { fotka: "  trikrize2.jpg " },
+
       nazev: " U tří křížů ",
       kdyVznikl:
         " Kamenné kříže pocházejí z\xa0roku 1902. Historie tohoto místa je ale daleko starší. Legendy sahají až k\xa0době cyrilometodějské. První spolehlivé zprávy jsou z\xa0farní kroniky Veverské Bítýšky z\xa0konce 17. století, že tu stávala poutní kaple Svatého Kříže. V\xa0roce 1764 si ji přijela prohlédnout diecézní komise a konstatovala, že je to kaple prastará. Zachoval se i stručný popis interiéru. Na oltáři byly tři votivní nápisy, nejstarší z\xa0roku 1451. Za Josefínských reforem byla stavba zrušena a 1784 zbourána. Místo ní se tu objevily tři dřevěné kříže a místo dostalo nové jméno. ",
@@ -8574,6 +8757,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Smolín  ",
       jmeno: " Haschka, Jakob  ",
+      fotkaUvod: { fotka: "haschka1.jpg " },
+
       nazev: " Kříž Jakoba Haschky ",
       kdyVznikl: " po 1806 ",
       popisCesty:
@@ -8616,6 +8801,8 @@ export default {
       okres: " Brno - město ",
       obec: "  Brno - Líšeň  ",
       jmeno: "  Kostelíček - Líšeň  ",
+      fotkaUvod: { fotka: " lisen-kostelik1.jpg " },
+
       nazev: " Kostelíček v\xa0Líšni ",
       kdyVznikl:
         " 1914 na základech starší stavby. Historie sahá do roku 1630, kdy byla postavená dřevěná kaple Panny Marie Pomocnice, v\xa0roce 1634 ji postavili z\xa0kamene a z\xa0cihel a přijel ji vysvětit kardinál Dietrichstein. Kaple brzy přestala zvládat nápor poutníků a kolem byl vybudován areál ambitů a dalších tří kapliček, žil tu a o vše pečoval poustevník. Za josefínských reforem byla kaple zrušena a zbourána. Vzývaný oltářní obraz Bohorodičky byl přemístěn do kostela v\xa0Líšni. Na prázdném místě byl 1805 postaven kříž, který tu stojí dodnes. ",
@@ -8755,6 +8942,8 @@ export default {
       okres: " Blansko ",
       obec: "  Křtiny  ",
       jmeno: " Poklona - Křtiny  ",
+      fotkaUvod: { fotka: " bmkrtiny2.jpg " },
+
       nazev: " Boží muka Poklona u Křtin ",
       kdyVznikl:
         "1999 podle návrhu Petra Všetečky, Aleny Všetečkové a Milivoje Husáka. Vysvěcena byla 16. dubna 2000. ",
@@ -8803,6 +8992,8 @@ export default {
       okres: " Brno - venkov ",
       obec: "  Kuřim  ",
       jmeno: " Kaple vodní Kuřim  ",
+      fotkaUvod: { fotka: " vodnikurim1.jpg " },
+
       nazev: " Vodní kaple sv. Jana Nepomuckého v\xa0Kuřimi ",
       kdyVznikl:
         " Kapli postavili zřejmě na začátku 19. století, všude uváděný letopočet vzniku kapličky 1722 není věrohodný. ",
@@ -8845,6 +9036,8 @@ export default {
       okres: " Blansko ",
       obec: "  Doubravice nad Svitavou  ",
       jmeno: " Funibrouk  ",
+      fotkaUvod: { fotka: " funibrouk2.jpg " },
+
       nazev: "Camp Funibrouk na Nešůrce  ",
       kdyVznikl:
         " V roce 1972 si tu osada Aljaška z\xa0Unie trampů a samotářů postavila dřevěný srub. Ten po šesti letech někomu tak překážel, že ho v\xa0horkém létě 1978 zapálil. Zbylo jen stále kouzelné místo s\xa0ohořelými stromy a železná kamínka. Od roku 2004 sem jezdí S.T.S. Usada. ",
@@ -8880,6 +9073,8 @@ export default {
       okres: " Blansko ",
       obec: "  Újezd u Boskovic  ",
       jmeno: " Zemljanka - Němčice  ",
+      fotkaUvod: { fotka: " zemljankanemc1.jpg " },
+
       nazev: " Památník partyzánské zemljanky u Němčic ",
       kdyVznikl: " 1980. Zemljanka tu byla vykopána v\xa0červnu 1943. ",
       popisCesty:
@@ -8911,6 +9106,8 @@ export default {
       okres: " Prostějov ",
       obec: "  Protivanov  ",
       jmeno: " Partyzáni - Skály  ",
+      fotkaUvod: { fotka: " partizaniskaly1.jpg " },
+
       nazev: " Partyzánský srub a pamětní deska na Skalách ",
       kdyVznikl:
         "Chata byla postavena údajně 1810, určitě v\xa0první polovině 19. století. Říkalo se jí lovecká chata Hanačka, protože jednu dobu byl štít stavby pokryt hanáckými ornamenty. Deska pochází z\xa0roku 1978. ",
@@ -8950,6 +9147,8 @@ export default {
       okres: " Prostějov ",
       obec: " Buková   ",
       jmeno: " Radar - Skalky  ",
+      fotkaUvod: { fotka: "radarskalky2.jpg " },
+
       nazev: " Meteorologická věž na Skalkách. ",
       kdyVznikl: " 1995. Autorem je Ing.arch. Luděk Šmeral. ",
       popisCesty:
@@ -8988,6 +9187,8 @@ export default {
       okres: " Prostějov ",
       obec: "  Buková  ",
       jmeno: " Piloti - Buková  ",
+      fotkaUvod: { fotka: " pilotibukova1.jpg " },
+
       nazev: "Pomník dvěma pilotům u Bukové  ",
       kdyVznikl:
         " Po 1988, ze sbírky příslušníků 1. leteckého školního pluku v\xa0Přerově. ",
@@ -9456,7 +9657,7 @@ export default {
       obec: "  Babice nad Svitavou  ",
       jmeno: " Obrázek - Řícmanice  ",
       nazev: " Obrázek u Řícmanic ",
-      fotkaUvod: { fotka: " uobrázku1.jpg " },
+      fotkaUvod: { fotka: " uobrazku1.jpg " },
       kdyVznikl:
         " Nový obrázek požehnal 27. 6. 2010 biskup Pavel Posád a poté byl nainstalován sem. ",
       popisCesty:
@@ -9929,7 +10130,7 @@ export default {
       pridano: " 08/06/2021 ",
       oblast: " Na východ  ",
       jmeno: " Sivice   ",
-      fotkaUvod: { fotka: " 217sivice2 .jpg " },
+      fotkaUvod: { fotka: " 217sivice2.jpg " },
       podkategorie: 3,
       okres: "  Brno - venkov  ",
       obec: " Sivice  ",
@@ -11038,7 +11239,7 @@ export default {
       obec: " Brno - Medlánky   ",
       jmeno: " Kaple -stromová- Medlánky  ",
       nazev: " Stromová kaple věčného pramene v Medlánkách ",
-      fotkaUvod: { fotka: " 231stromováMedlánky1.jpg " },
+      fotkaUvod: { fotka: " 231stromovaMedlanky1.jpg " },
       kdyVznikl:
         " Stromy byly vysázeny na podzim 2018. Zřídil odbor životního prostředí Magistrátu města Brna. ",
       popisCesty:
@@ -11070,15 +11271,16 @@ export default {
     },
     {
       id: 233,
+      dveId: true,
       kategorie: "pomnicky",
       pridano: " 30/07/2021 ",
       podkategorie: 10,
       druh: " Sochy v přírodě, sakrální ",
       okres: " Blansko ",
       obec: " Křtiny   ",
-      jmeno: " Sousoší Cyrila a Metoděje ve Křtinách  ",
-      nazev: " Věrozvěsti - Křtiny ",
-      fotkaUvod: { fotka: "  " },
+      jmeno: " Věrozvěsti - Křtiny ",
+      nazev: " Sousoší Cyrila a Metoděje ve Křtinách  ",
+      fotkaUvod: { fotka: " 233verozvestiKrtiny1.jpg " },
       kdyVznikl:
         " 2013. Slavnostně odhaleno 21. září 2013. Autorem soch je kamenosochař Bedřich Vašík z Vnorov. ",
       popisCesty:
@@ -11118,12 +11320,13 @@ export default {
       kategorie: "pomnicky",
       pridano: " 30/07/2021 ",
       podkategorie: 15,
+      dveId: true,
       druh: " Sakrální, sochy v přírodě ",
       okres: " Blansko ",
       obec: " Křtiny   ",
-      jmeno: " Sousoší Cyrila a Metoděje ve Křtinách  ",
-      nazev: " Věrozvěsti - Křtiny ",
-      fotkaUvod: { fotka: "  " },
+      jmeno: " Věrozvěsti - Křtiny ",
+      nazev: " Sousoší Cyrila a Metoděje ve Křtinách  ",
+      fotkaUvod: { fotka: " 233verozvestiKrtiny1.jpg " },
       kdyVznikl:
         " 2013. Slavnostně odhaleno 21. září 2013. Autorem soch je kamenosochař Bedřich Vašík z Vnorov. ",
       popisCesty:

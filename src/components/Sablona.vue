@@ -63,9 +63,8 @@
         id="rozbalit"
         class="pomnicekKategorie"
         v-if="
-          ($route.name === 'SmirciKrizeKategorie' ||
-            $route.name === 'PomnickyKategorie') &&
-            getZalozky(clankyPodKategorie)
+          $route.name === 'SmirciKrizeKategorie' ||
+            $route.name === 'PomnickyKategorie'
         "
         v-on:click="fullVersionToggler"
       >
@@ -201,8 +200,10 @@
           v-if="
             innerParams.stranka === 'cesty' ||
               innerParams.stranka === 'vypraveni' ||
-              innerParams.stranka === 'pomnicky' ||
-              innerParams.stranka === 'smircikrize' ||
+              (innerParams.stranka === 'pomnicky' &&
+                this.$route.name !== 'DetailPomnicku') ||
+              (innerParams.stranka === 'smircikrize' &&
+                this.$route.name !== 'DetailKrize') ||
               (innerParams.stranka === 'novepridane' && clankyUkazat)
           "
           v-bind:clanky="clankyPodKategorie"
@@ -667,7 +668,6 @@
 
   #rozbalit {
     grid-column: 5/6;
-    grid-row: 2/3;
     align-self: flex-end;
     justify-self: flex-end;
     /* margin-right: 30px; */

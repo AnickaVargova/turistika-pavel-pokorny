@@ -70,7 +70,7 @@
     grid-row-start: 3;
     margin: 30px;
     flex-wrap: wrap;
-    max-height: 1200px;
+    max-height: 1600px;
     max-width: 75vw;
   }
 

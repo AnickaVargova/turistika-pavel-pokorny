@@ -1,5 +1,5 @@
 <template>
-  <div id="oknoPomnicky" v-if="this.pomnickyZalozka && this.zalozkyButton">
+  <div id="oknoPomnicky" v-if="this.zalozkyButton">
     <div
       class="kontejnerClanek"
       v-for="(clanek, index) in mojeClanky"
@@ -20,27 +20,15 @@
     data() {
       return {
         mojeClanky: this.clanky,
-        pomnickyZalozka: false,
       };
     },
-    methods: {
-      getZalozky(pomnicky) {
-        this.pomnickyZalozka = pomnicky.every((pomnicek) => pomnicek.fotkaUvod);
-      },
-    },
+
     created() {
       if (this.$route.name === "NovePridane") {
         this.mojeClanky = this.clanky.filter(
           (clanek) =>
             clanek.kategorie === "vypraveni" || clanek.kategorie === "cesty"
         );
-      }
-
-      if (
-        this.$route.name !== "DetailPomnicku" &&
-        this.$route.name !== "DetailKrize"
-      ) {
-        this.getZalozky(this.mojeClanky);
       }
     },
   };

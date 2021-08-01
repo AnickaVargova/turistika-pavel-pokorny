@@ -1,11 +1,24 @@
 <template>
   <router-link v-bind:to="`/${stranka}/${clanek.podkategorie}/${clanek.id}`">
     <div class="clanek">
-      <h2>
+      <h2
+        v-if="
+          stranka === 'pomnicky' ||
+            stranka === 'vypraveni' ||
+            stranka === 'cesty' ||
+            stranka === 'novepridane'
+        "
+      >
         {{ clanek.nazev }}
       </h2>
-      <h4 v-if="stranka === 'pomnicky' || stranka === 'smircikrize'">
+      <h2 v-else-if="stranka === 'smircikrize'">
         {{ clanek.jmeno }}
+      </h2>
+      <h4 v-if="stranka === 'pomnicky'">
+        {{ clanek.jmeno }}
+      </h4>
+      <h4 v-else-if="stranka === 'smircikrize'">
+        Číslo v evidenci: {{ clanek.cislo }}
       </h4>
       <h3
         v-if="
@@ -22,7 +35,11 @@
 
       <div class="clanekFoto">
         <img
-          v-bind:src="require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)"
+          v-if="clanek.fotkaUvod"
+          v-bind:src="
+            clanek.fotkaUvod &&
+              require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
+          "
           v-bind:alt="clanek.jmeno"
         />
       </div>
