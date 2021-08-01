@@ -10966,5 +10966,277 @@ export default {
         },
       ],
     },
+    {
+      id: 228,
+      kategorie: "pomnicky",
+      pridano: " 29/07/2021 ",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Blansko ",
+      obec: "  Brťov  ",
+      jmeno: " Stěnička, Rudolf a Jan  ",
+      nazev: " Kříž bratří Stěničků ",
+      fotkaUvod: { fotka: " 228stenicku1.jpg " },
+      kdyVznikl: " 1925, zřídili rodiče Jan a Františka Stěničkovi z Brťova. ",
+      popisCesty:
+        " Kříž stojí 600 metrů JV od středu Brťova, na kopci zvaném Vršky, kóta 465, u polní cesty.  ",
+      popis:
+        "  Kamenný křížek z tmavé leštěné žuly. Neudržován, poškozen. Na přední straně je vytesán zašlý nápis.  ",
+      napis:
+        " Z dlouhého, místy těžce čitelného textu vyplývá, že rodičům Stěničkovým zahynuli ve světové válce dva synové, Rudolf a Jan. Roku 1925 dali na památku postavit tento kříž.  ",
+      pozn:
+        "  V obecní kronice Brťova je uvedeno, že z Brťova narukovalo do světové války 73 mužů. 7 padlo, 2 zemřeli doma na následky zranění, 2 zůstali nezvěstní. Rodina Stěničkova věnovala kříž k uctění památky svých dvou synů, Rudolf zemřel 3. 5. 1915, Jan zůstal nezvěstný. Kříž je jedinou památkou v obci na padlé vojáky z první světové války.  ",
+      naposledObnoveno: " 29.7.2021 ",
+      souradnice: " 49.4103414N, 16.5233075E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cogudeceke" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/cogudeceke ",
+      galerie: [
+        {
+          fotka: "228stenicku1.jpg",
+          popisek: "  Kříž bratří Stěničků (říjen 2020) ",
+        },
+        { fotka: "228stenicku2.jpg", popisek: " Detail nápisu (říjen 2020) " },
+      ],
+      proMe: "  XX/1090  24-144-41  20---103  ",
+    },
+    {
+      id: 230,
+      kategorie: "pomnicky",
+      pridano: " 29/07/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Zbýšov   ",
+      jmeno: " Tichých, rodina.  ",
+      nazev: " Kříž rodiny Tichých ",
+      fotkaUvod: { fotka: " 230krizTichych1.jpg " },
+      kdyVznikl: " 2020 ",
+      popisCesty:
+        " Kříž stojí 1200 metrů S od zvonice ve Zbýšově, na návrší s rozcestím polních cest. Vede tu zelená značka.   ",
+      popis:
+        "  Jednoduchý moderní křížek. Do kamenného soklu je vsazena trojice kovaných železných křížů, vzájemně propojených. Na soklu jsou kovové destičky s nápisy.  ",
+      napis:
+        " PANE  //  OCHRAŇUJ  //  NÁŠ  RODNÝ  KRAJ  //  RODINA  TICHÁ // ZE  ZBÝŠOVA // HOSTĚRÁDEK // A  LOMNICE // L. P. 2020  ",
+      pozn:
+        "  Konečně jeden moderní kříž, asi jediný na Brněnsku, který se svým vzhledem dokázal vymanit ustrnulým podobám křížů 19.století.  ",
+      naposledObnoveno: " 29.6.2021 ",
+      souradnice: " 49.1423319N, 16.8072528E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cevelumefa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/cevelumefa ",
+      galerie: [{ fotka: "230krizTichych1.jpg", popisek: "  (leden 2020) " }],
+      proMe: " XX/1103  24-431-61  21---013   ",
+    },
+    {
+      id: 231,
+      kategorie: "pomnicky",
+      pridano: " 30/07/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - město ",
+      obec: " Brno - Medlánky   ",
+      jmeno: " Kaple -stromová- Medlánky  ",
+      nazev: " Stromová kaple věčného pramene v Medlánkách ",
+      fotkaUvod: { fotka: " 231stromováMedlánky1.jpg " },
+      kdyVznikl:
+        " Stromy byly vysázeny na podzim 2018. Zřídil odbor životního prostředí Magistrátu města Brna. ",
+      popisCesty:
+        " 1100 metrů SZ od centra Medlánek, na úpatí kopce Bosně, před chatovou osadou a na kraji lesa. Do lesa vchází cesta k prameni Pergl.  ",
+      popis:
+        "  Urovnaný palouk zabírá plochu tří arů a po jeho obvodu ve tvaru kapky je vysazeno 17 buků lesních (Fagus sylvatica). Kaple je ve stavu zrodu. Jak budou stromy vyrůstat, počítá se s doplněním o lavice a oltář.  ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: " Medlánky ",
+          adresa:
+            " https://medlanky.cz/stromova-kaple-vecneho-pramene-v-medlankach/ ",
+        },
+      ],
+      pozn:
+        " Stromové kaple začal zřizovat spolek Na okraji počínaje rokem 2016, první byla kaple v Nové Lhotě na Hodonínsku, medlánecká je pátá na Moravě. Má sloužit jako přírodní duchovní prostor k rozjímání, meditaci, odpočinku. Až stromy vyrostou, utvoří stěny a klenbu z větví. To potrvá ale ještě aspoň dvacet let let.   ",
+      naposledObnoveno: " 29.6.2021 ",
+      souradnice: " 49.2482750N, 16.5623350E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kuvuvecazu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/kuvuvecazu ",
+      galerie: [
+        {
+          fotka: "231stromovaMedlanky1.jpg",
+          popisek: " Stromová kaple Medlánky (únor 2021) ",
+        },
+      ],
+      proMe: " XX/1119  24-324-67  21---022   ",
+    },
+    {
+      id: 233,
+      kategorie: "pomnicky",
+      pridano: " 30/07/2021 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě, sakrální ",
+      okres: " Blansko ",
+      obec: " Křtiny   ",
+      jmeno: " Sousoší Cyrila a Metoděje ve Křtinách  ",
+      nazev: " Věrozvěsti - Křtiny ",
+      fotkaUvod: { fotka: "  " },
+      kdyVznikl:
+        " 2013. Slavnostně odhaleno 21. září 2013. Autorem soch je kamenosochař Bedřich Vašík z Vnorov. ",
+      popisCesty:
+        " Ve křtinách v zámeckém parku, 200 metrů Z od křtinského kostela.  ",
+      popis:
+        "  Na metrovém soklu je  sousoší dvou svatých věrozvěstů. Mnich Cyril drží v ruce knihu, biskup Metoděj má na hlavě mitru a v ruce pravoslavný kříž. Sochy, vysoké 2,2 metru, jsou ze syntetického kamene s ocelovou výztuží, povrch má připomínat bronz s patinou. Zepředu a z boku jsou na soklu dvě desky s texty. ",
+      napis:
+        " Zepředu:  SV. CYRIL A METODĚJ  APOŠTOLOVÉ  SLOVANŮ // 863 -2013 // DĚDICTVÍ  OTCŮ  ZACHOVEJ  NÁM, PANE  . Poslední řádek znovu cyrilicí a glagolicí. <br> Z boku:  ŠLP  MENDELOVY  UNIVERZITY // MĚSTYS  KŘTINY // ŘÁD MORAVSKÝCH  RYTÍŘŮ // MONS. JAN  PEŇÁZ // 2013  ",
+      odkazy: [
+        {
+          nazev: " Adamov ",
+          adresa:
+            " https://www.adamovaokoli.cz/pamatniky/cyril_a_metodej.html ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 30.7.2021 ",
+      souradnice: " 49.2968722N, 16.7404122E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kugevabofo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/kugevabofo ",
+      galerie: [
+        {
+          fotka: "233verozvestiKrtiny1.jpg",
+          popisek: " Věrozvěsti ve Křtinách (únor 2021)",
+        },
+        { fotka: "233verozvestiKrtiny2.jpg", popisek: " (únor 2021)" },
+        {
+          fotka: "233verozvestiKrtiny3.jpg",
+          popisek: " detail nápisu (únor 2021)",
+        },
+      ],
+      proMe: " XX/1123  24-411-132  21---024  ",
+    },
+    {
+      id: 234,
+      kategorie: "pomnicky",
+      pridano: " 30/07/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální, sochy v přírodě ",
+      okres: " Blansko ",
+      obec: " Křtiny   ",
+      jmeno: " Sousoší Cyrila a Metoděje ve Křtinách  ",
+      nazev: " Věrozvěsti - Křtiny ",
+      fotkaUvod: { fotka: "  " },
+      kdyVznikl:
+        " 2013. Slavnostně odhaleno 21. září 2013. Autorem soch je kamenosochař Bedřich Vašík z Vnorov. ",
+      popisCesty:
+        " Ve křtinách v zámeckém parku, 200 metrů Z od křtinského kostela.  ",
+      popis:
+        "  Na metrovém soklu je  sousoší dvou svatých věrozvěstů. Mnich Cyril drží v ruce knihu, biskup Metoděj má na hlavě mitru a v ruce pravoslavný kříž. Sochy, vysoké 2,2 metru, jsou ze syntetického kamene s ocelovou výztuží, povrch má připomínat bronz s patinou. Zepředu a z boku jsou na soklu dvě desky s texty. ",
+      napis:
+        " Zepředu:  SV. CYRIL A METODĚJ  APOŠTOLOVÉ  SLOVANŮ // 863 -2013 // DĚDICTVÍ  OTCŮ  ZACHOVEJ  NÁM, PANE  . Poslední řádek znovu cyrilicí a glagolicí. <br> Z boku:  ŠLP  MENDELOVY  UNIVERZITY // MĚSTYS  KŘTINY // ŘÁD MORAVSKÝCH  RYTÍŘŮ // MONS. JAN  PEŇÁZ // 2013  ",
+      odkazy: [
+        {
+          nazev: " Adamov ",
+          adresa:
+            " https://www.adamovaokoli.cz/pamatniky/cyril_a_metodej.html ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 30.7.2021 ",
+      souradnice: " 49.2968722N, 16.7404122E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kugevabofo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/kugevabofo ",
+      galerie: [
+        {
+          fotka: "233verozvestiKrtiny1.jpg",
+          popisek: " Věrozvěsti ve Křtinách (únor 2021)",
+        },
+        { fotka: "233verozvestiKrtiny2.jpg", popisek: " (únor 2021)" },
+        {
+          fotka: "233verozvestiKrtiny3.jpg",
+          popisek: " detail nápisu (únor 2021)",
+        },
+      ],
+      proMe: " XX/1123  24-411-132  21---024  ",
+    },
+    {
+      id: 229,
+      kategorie: "pomnicky",
+      pridano: "30/07/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Blansko ",
+      obec: " Senetářov   ",
+      jmeno: " Pernica, Josef  ",
+      nazev: " Kříž hajného Pernice ",
+      fotkaUvod: { fotka: " 229hajnypernica1.jpg " },
+      kdyVznikl: " Po roce 1950 ",
+      popisCesty:
+        " Kříž stojí na J od Kotvrdovic, u lesní cesty vedoucí k rybníku Budkovan, asi 250 metrů od okraje lesa.  ",
+      popis:
+        "  Do soklu z umělého kamene je vsazen zdobený litinový kříž s Kristem. Dole je deska z bílého kamene se zašlým nápisem.  ",
+      napis:
+        "  K uctění památky // JOSEFA // PERNICE // lesního hajného v Senetářově // zemř. 4. 8. 1950 // “Mně přísluší pomsta // praví Hospodin”. // Mojžíš 32,35. ",
+      odkazy: [
+        {
+          nazev: " Němcová - diplomka ",
+          adresa:
+            " https://is.muni.cz/th/epuo7/Diplomova_prace_finalni_verze_k_odevzdani_a_tisku.pdf ",
+        },
+        {
+          nazev:
+            " Kamila Němcová: Z historie obce Kotvrdovice. MUNI 2016. Dipl.práce str. 62 ",
+        },
+      ],
+      pozn:
+        " Hajný Pernica na konci války podporoval jídlem i šatstvem uprchlé ruské zajatce, rudické partyzánské skupině poskytl pušku s náboji a podával jí zprávy o činnosti německého komanda, které sídlilo v Kotvrdovicích. V roce 1950 byl zákeřně zastřelen a tělo se našlo až za tři týdny v místech kříže. Pachatel vraždy nebyl dopaden.<br>Asi 70 metrů od kříže je pomníček letecké havárie Jaroslava Zikmunda. Jako by toto místo přitahovalo tragedie. ",
+      naposledObnoveno: " 30.6.2021 ",
+      souradnice: " 49.3448639N, 16.7854642E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/mubutezura" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: " https://frame.mapy.cz/s/mubutezura ",
+      galerie: [
+        {
+          fotka: "229hajnypernica1.jpg",
+          popisek: " Kříž hajného Pernice (únor 2021) ",
+        },
+        {
+          fotka: "229hajnypernica2.jpg",
+          popisek: " Detail nápisu (únor 2021) ",
+        },
+      ],
+      proMe: "  XX/1129  24-411-138  21---025  ",
+    },
+    {
+      id: 232,
+      kategorie: "pomnicky",
+      pridano: " 31/07/2021 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: " Kanice   ",
+      jmeno: " Liška, hajný  ",
+      nazev: " Kříž hajného Lišky ",
+      fotkaUvod: { fotka: " 232hajnyliska1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " 400 metrů SZ od Resslovy hájenky na rozcestí lesních cest. Vede tu zelená značka.   ",
+      popis:
+        " Dřevěný, nezvykle tvarovaný kříž je vysoký dva metry. Zdobí ho oválná okénka.   ",
+      napis: "   ",
+      pozn: " Hajný Liška sloužil v Resslově hájence.   ",
+      naposledObnoveno: " 31.7.2021 ",
+      souradnice: " 49.2391350N, 16.6940447E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/coguferuho" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: " https://frame.mapy.cz/s/coguferuho ",
+      galerie: [
+        {
+          fotka: "232hajnyliska1.jpg",
+          popisek: " Kříž hajného Lišky (prosinec 2020) ",
+        },
+        { fotka: "232hajnyliska2.jpg", popisek: "(prosinec 2020) " },
+      ],
+      proMe: " XX/1102  24-413-123  20---122   ",
+    },
   ],
 };
