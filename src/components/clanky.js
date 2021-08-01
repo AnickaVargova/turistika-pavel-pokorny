@@ -10740,7 +10740,7 @@ export default {
 
         {
           textOdstavce:
-            "  </>Groapa Nedeutii (1475 m) - Coada Oslei (1899 m) - virful Oslea Mare (1946  m) - sedlo Pasul Jiu-Cerna (1409 m) - Campus (1180 m). 14 km, 600 m převýšení, 5 hodin naší chůze. </i>  ",
+            "  <i>Groapa Nedeutii (1475 m) - Coada Oslei (1899 m) - virful Oslea Mare (1946  m) - sedlo Pasul Jiu-Cerna (1409 m) - Campus (1180 m). 14 km, 600 m převýšení, 5 hodin naší chůze. </i>  ",
         },
 
         {
@@ -10812,7 +10812,10 @@ export default {
           foto: " 227vilcan66.jpg  ",
           popisek: " Malý Retezat od sedla Jiu-Cernei  ",
         },
-        { foto: " 227vilcan71.jpg  ", popisek: "  P (červen 2021)  " },
+        {
+          foto: " 227vilcan71.jpg  ",
+          popisek: "   Campusel a v něm čeká autobus  ",
+        },
 
         {
           textOdstavce:
@@ -10859,7 +10862,7 @@ export default {
 
         {
           textOdstavce:
-            '<a href="https://rumunskehory.cz/pohori/show/vilcan" target="blank" class="vnitrniOdkaz">Vilcan</a><br>Čížek, Jiří: Rumunské a bulharské hory. 2. vyd. 1978, str. 111-115.<br>Čížek, Jiří: Rumunské a bulharské hory. 2. vyd. 1978, str. 111-115.<br>Edice Muntii Nostri číslo 21: Vilcan. Bucuresti 1979, rumunsky<br>Bulička, Michal: Rumunské Karpaty, 2002, str. 133-136<br>Nevrlý, Miloslav: Karpatské hry. 7. vydání 2006, str. 118<br><br>',
+            '<a href="https://rumunskehory.cz/pohori/show/vilcan" target="blank" class="vnitrniOdkaz">Vilcan</a><br>Čížek, Jiří: Rumunské a bulharské hory. 2. vyd. 1978, str. 111-115.<br>Edice Muntii Nostri číslo 21: Vilcan. Bucuresti 1979, rumunsky<br>Bulička, Michal: Rumunské Karpaty, 2002, str. 133-136<br>Nevrlý, Miloslav: Karpatské hry. 7. vydání 2006, str. 118<br><br>',
         },
 
         {
