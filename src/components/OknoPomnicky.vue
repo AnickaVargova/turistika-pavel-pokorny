@@ -27,7 +27,7 @@
         <div style="width: 100%; height:100%">
           <iframe
             style="border:none"
-            v-bind:src="clanek.odkazMapa"
+            v-bind:src="clanek.odkazMapa.trim()"
             width="400"
             height="280"
             frameborder="0"

@@ -100,7 +100,7 @@
             <iframe
               v-if="odstavec.odkazMapa"
               style="border:none"
-              v-bind:src="odstavec.odkazMapa"
+              v-bind:src="odstavec.odkazMapa.trim()"
               width="90%"
               height="400"
             >

@@ -11287,7 +11287,7 @@ export default {
       kdyVznikl:
         " 2013. Slavnostně odhaleno 21. září 2013. Autorem soch je kamenosochař Bedřich Vašík z Vnorov. ",
       popisCesty:
-        " Ve křtinách v zámeckém parku, 200 metrů Z od křtinského kostela.  ",
+        " Ve Křtinách v zámeckém parku, 200 metrů Z od křtinského kostela.  ",
       popis:
         "  Na metrovém soklu je  sousoší dvou svatých věrozvěstů. Mnich Cyril drží v ruce knihu, biskup Metoděj má na hlavě mitru a v ruce pravoslavný kříž. Sochy, vysoké 2,2 metru, jsou ze syntetického kamene s ocelovou výztuží, povrch má připomínat bronz s patinou. Zepředu a z boku jsou na soklu dvě desky s texty. ",
       napis:
