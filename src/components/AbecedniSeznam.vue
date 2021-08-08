@@ -3,7 +3,9 @@
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
-      v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
+      v-bind:to="
+        `${stranka}/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`
+      "
       class="kontejnerJmeno"
       v-bind:style="{ backgroundColor: '#e9f4f5' }"
     >
@@ -15,7 +17,9 @@
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
-      v-bind:to="`/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`"
+      v-bind:to="
+        `${stranka}/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`
+      "
       class="kontejnerJmeno"
     >
       {{ clanek.jmeno }}

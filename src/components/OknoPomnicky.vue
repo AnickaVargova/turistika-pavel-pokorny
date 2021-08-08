@@ -5,6 +5,8 @@
       this.$route.name === 'DetailPomnicku' ||
         this.$route.name === 'DetailKrize' ||
         this.$route.name === 'NovePridane' ||
+        this.$route.name === 'NovyPomnicek' ||
+        this.$route.name === 'NovyKriz' ||
         !this.zalozkyButton
     "
   >
@@ -244,7 +246,6 @@
         testData: undefined,
         mojeClanky: this.clanky,
         isEdgeChromium: false,
-        // pomnickyZalozka: false,
       };
     },
 
@@ -266,14 +267,6 @@
       },
     },
     created() {
-      if (this.$route.name === "NovePridane") {
-        this.mojeClanky = this.clanky.filter(
-          (clanek) =>
-            clanek.kategorie === "pomnicky" ||
-            clanek.kategorie === "smircikrize"
-        );
-      }
-
       if (this.kategoriePomnicky) {
         for (let clanek of this.clanky) {
           if (!clanek.dveId) {

@@ -34,12 +34,12 @@ const routes = [
     component: Odkazy,
   },
   {
-    path: "/vypraveni/:podkategorie/:id",
+    path: "/vypraveni/vypraveni/:podkategorie/:id",
     name: "Detail",
     component: Detail,
   },
   {
-    path: "/cesty/:podkategorie/:id",
+    path: "/cesty/cesty/:podkategorie/:id",
     name: "Detail",
     component: Detail,
   },
@@ -59,7 +59,7 @@ const routes = [
     component: Pomnicky,
   },
   {
-    path: "/pomnicky/:kategorie/:id",
+    path: "/pomnicky/pomnicky/:kategorie/:id",
     name: "DetailPomnicku",
     component: DetailPomnicku,
   },
@@ -84,7 +84,7 @@ const routes = [
     component: SmirciKrize,
   },
   {
-    path: "/smircikrize/:kategorie/:id",
+    path: "/smircikrize/smircikrize/:kategorie/:id",
     name: "DetailKrize",
     component: DetailKrize,
   },
@@ -105,15 +105,24 @@ const routes = [
     component: NovePridane,
   },
   {
-    path: "/novepridane/:podkategorie/:id",
-    name: "NovePridane",
+    path: "/novepridane/vypraveni/:kategorie/:id",
+    name: "NoveVypraveni",
     component: Detail,
   },
-
   {
-    path: "/smircikrize/vypraveni/:podkategorie/:id",
-    name: "SmirciKrizeVypraveni",
+    path: "/novepridane/cesty/:kategorie/:id",
+    name: "NovaCesta",
     component: Detail,
+  },
+  {
+    path: "/novepridane/pomnicky/:kategorie/:id",
+    name: "NovyPomnicek",
+    component: DetailPomnicku,
+  },
+  {
+    path: "/novepridane/smircikrize/:kategorie/:id",
+    name: "NovyKriz",
+    component: DetailPomnicku,
   },
 ];
 
@@ -122,9 +131,7 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
   scrollBehavior(to, from, savedPosition) {
-   
     if (savedPosition) {
-             
       return savedPosition;
     } else {
       return { x: 0, y: 0 };

@@ -22,15 +22,6 @@
         mojeClanky: this.clanky,
       };
     },
-
-    created() {
-      if (this.$route.name === "NovePridane") {
-        this.mojeClanky = this.clanky.filter(
-          (clanek) =>
-            clanek.kategorie === "vypraveni" || clanek.kategorie === "cesty"
-        );
-      }
-    },
   };
 </script>
 
@@ -100,7 +91,7 @@
       border: none;
       border-radius: 0;
       grid-template-rows: auto;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 3fr 1fr;
       max-width: unset;
       width: 90%;
     }

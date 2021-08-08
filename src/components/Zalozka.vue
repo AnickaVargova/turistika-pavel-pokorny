@@ -1,35 +1,38 @@
 <template>
-  <router-link v-bind:to="`/${stranka}/${clanek.podkategorie}/${clanek.id}`">
+  <router-link
+    v-bind:to="
+      `/${stranka}/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`
+    "
+  >
     <div class="clanek">
       <h2
         v-if="
-          stranka === 'pomnicky' ||
-            stranka === 'vypraveni' ||
-            stranka === 'cesty' ||
-            stranka === 'novepridane'
+          clanek.kategorie === 'pomnicky' ||
+            clanek.kategorie === 'vypraveni' ||
+            clanek.kategorie === 'cesty'
         "
       >
         {{ clanek.nazev }}
       </h2>
-      <h2 v-else-if="stranka === 'smircikrize'">
+      <h2 v-else-if="clanek.kategorie === 'smircikrize'">
         {{ clanek.jmeno }}
       </h2>
-      <h4 v-if="stranka === 'pomnicky'">
+      <h4 v-if="clanek.kategorie === 'pomnicky'">
         {{ clanek.jmeno }}
       </h4>
-      <h4 v-else-if="stranka === 'smircikrize'">
+      <h4 v-else-if="clanek.kategorie === 'smircikrize'">
         Číslo v evidenci: {{ clanek.cislo }}
       </h4>
       <h3
-        v-if="
-          stranka === 'cesty' ||
-            stranka === 'vypraveni' ||
-            stranka === 'novepridane'
-        "
+        v-if="clanek.kategorie === 'cesty' || clanek.kategorie === 'vypraveni'"
       >
         {{ clanek.datum }}
       </h3>
-      <h3 v-else-if="stranka === 'pomnicky' || stranka === 'smircikrize'">
+      <h3
+        v-if="
+          clanek.kategorie === 'pomnicky' || clanek.kategorie === 'smircikrize'
+        "
+      >
         {{ clanek.obec }}
       </h3>
 

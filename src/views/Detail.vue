@@ -11,14 +11,20 @@
       <router-link to="/" id="tlacitkoDomuDetail" class="pomnicekKategorie">
         Úvodní strana
       </router-link>
-      <router-link v-if="this.$route.name === 'NovePridane'" to="/novepridane">
+      <router-link
+        v-if="
+          this.$route.name === 'NoveVypraveni' ||
+            this.$route.name === 'NovaCesta'
+        "
+        to="/novepridane"
+      >
         <a name="top"></a>
         <div class="pomnicekKategorie" id="zpetNaClanky">
           Zpět na naposled přidané
         </div>
       </router-link>
       <router-link
-        v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
+        v-else-if="this.$route.name === 'SmirciKrize'"
         to="/smircikrize"
       >
         <a name="top"></a>
@@ -301,7 +307,7 @@
 
     #zpetNaClanky {
       width: unset;
-      min-width: 110px !important;
+      min-width: 110px;
     }
   }
 

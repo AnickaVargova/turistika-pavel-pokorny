@@ -160,14 +160,14 @@
 
       //zjisti se, ktere clanky z clanku podle data nejsou v poslednich 10 clancich podle id a tyto clanky se do 10 clanku podle id pridaji
 
-      let poslednich10 = clanky.data.slice(-10);
+      let poslednich20 = clanky.data.slice(-20);
 
       let vysledneNove = [];
 
       for (let clanek14 of clanky14dni) {
         let pridat = true;
-        for (let clanek10 of poslednich10) {
-          if (clanek10.id === clanek14.id) {
+        for (let clanek of poslednich20) {
+          if (clanek.id === clanek14.id) {
             pridat = false;
             break;
           }
@@ -177,7 +177,7 @@
         }
       }
 
-      vysledneNove = vysledneNove.concat(poslednich10);
+      vysledneNove = vysledneNove.concat(poslednich20);
 
       //vyhodi se duplikovane clanky (ruzne id,stejny nazev)
       let novaKategorie = [];

@@ -78,6 +78,19 @@
 
     <a id="tlacitkoNahoru" class="pomnicekKategorie" href="#top">Nahoru </a>
 
+    <div
+      class="naNovePridane"
+      v-if="
+        this.$route.name === 'NovyPomnicek' || this.$route.name === 'NovyKriz'
+      "
+    >
+      <router-link to="/novepridane">
+        <div class="pomnicekKategorie zpet" id="zpetNaClanky">
+          Naposled přidané
+        </div>
+      </router-link>
+    </div>
+
     <div class="pomnickyNavigace">
       <div
         v-on:click="toggleSeznam"
@@ -201,10 +214,12 @@
             innerParams.stranka === 'cesty' ||
               innerParams.stranka === 'vypraveni' ||
               (innerParams.stranka === 'pomnicky' &&
-                this.$route.name !== 'DetailPomnicku') ||
+                this.$route.name !== 'DetailPomnicku' &&
+                this.$route.name !== 'NovyPomnicek') ||
               (innerParams.stranka === 'smircikrize' &&
-                this.$route.name !== 'DetailKrize') ||
-              (innerParams.stranka === 'novepridane' && clankyUkazat)
+                this.$route.name !== 'DetailKrize' &&
+                this.$route.name !== 'NovyKriz') ||
+              innerParams.stranka === 'novepridane'
           "
           v-bind:clanky="clankyPodKategorie"
           v-bind:stranka="innerParams.stranka"
@@ -215,8 +230,7 @@
           v-if="
             innerParams.stranka === 'pomnicky' ||
               innerParams.stranka === 'studanky' ||
-              innerParams.stranka === 'smircikrize' ||
-              (innerParams.stranka === 'novepridane' && pomnickyUkazat)
+              innerParams.stranka === 'smircikrize'
           "
           v-bind:clanky="clankyPodKategorie"
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
@@ -257,7 +271,7 @@
         innerWidth: window.innerWidth,
         menuColumn: false,
         pomnickyUkazat: false,
-        clankyUkazat: false,
+        clankyUkazat: true,
         zalozkyUkazat: true,
         clankyKey: 0,
         pomnickyKey: 1,
@@ -393,7 +407,10 @@
     },
 
     created() {
-      if (this.$route.name === "DetailKrize") {
+      if (
+        this.$route.name === "DetailKrize" ||
+        this.$route.name === "NovyKriz"
+      ) {
         this.innerParams = this.paramsKrize;
       }
 
@@ -401,7 +418,6 @@
         this.clankyPodKategorie = this.clanky.filter(
           (clanek) => clanek.id == this.$route.params.id
         );
-
         //tady zacinaji nove pridane
       } else if (this.$route.name === "NovePridane") {
         //vyfiltruji se clanky podle data
@@ -412,15 +428,15 @@
 
         //zjisti se, ktere clanky z clanku podle data nejsou v poslednich 10 clancich podle id a tyto clanky se do 10 clanku podle id pridaji
 
-        let poslednich10 = this.clanky.slice(-10);
+        let poslednich20 = this.clanky.slice(-20);
 
         let vysledneNove = [];
 
         for (let clanek14 of clanky14dni) {
           let pridat = true;
 
-          for (let clanek10 of poslednich10) {
-            if (clanek10.id === clanek14.id) {
+          for (let clanek of poslednich20) {
+            if (clanek.id === clanek14.id) {
               pridat = false;
               break;
             }
@@ -430,7 +446,7 @@
           }
         }
 
-        vysledneNove = vysledneNove.concat(poslednich10);
+        vysledneNove = vysledneNove.concat(poslednich20);
 
         //vyhodi se duplikovane clanky (ruzne id,stejny nazev)
         let novaKategorie = [];
@@ -486,7 +502,10 @@
 
       this.vybraneId = this.$route.params.kategorie;
 
-      if (this.$route.name === "DetailPomnicku") {
+      if (
+        this.$route.name === "DetailPomnicku" ||
+        this.$route.name === "NovyPomnicek"
+      ) {
         for (let clanek of this.clanky) {
           if (clanek.id == this.$route.params.id) {
             let vybrany = clanek;
@@ -611,7 +630,7 @@
     text-transform: uppercase;
     box-shadow: 5px 2px 2px #395250;
     font-size: 13px;
-    min-width: 95%;
+    min-width: 100%;
     max-width: 170px;
     font-family: "Raleway", sans-serif;
   }
@@ -632,6 +651,31 @@
     grid-row: 3/4;
     grid-column: 1/4;
     margin-top: 20px;
+  }
+
+  .naNovePridane {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin-top: 16px;
+    justify-self: end;
+  }
+
+  .zpet {
+    width: unset !important;
+  }
+
+  @media (max-width: 600px) {
+    .naNovePridane {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      margin-top: 0;
+      width: unset;
+      max-width: 60px;
+    }
+
+    .zpet {
+      min-width: 70px !important;
+    }
   }
 
   #tlacitkoDomu {
