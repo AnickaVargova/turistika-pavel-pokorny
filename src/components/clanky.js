@@ -11444,5 +11444,308 @@ export default {
       ],
       proMe: " XX/1102  24-413-123  20---122   ",
     },
+    {
+      id: 235,
+      kategorie: "pomnicky",
+      pridano: " 06/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody, válečné ",
+      okres: " Brno - venkov ",
+      dveId: true,
+      obec: "  Babice  ",
+      jmeno: " Letkyně - Babice  ",
+      nazev: " Památník sovětské letkyni ",
+      fotkaUvod: { fotka: " 234letkyni2.jpg " },
+      kdyVznikl: " 1960. Památník byl slavnostně odhalen 9. května 1960.  ",
+      popisCesty:
+        " Památník leží na planině Zadní pole, 1300 metrů V od kostela v Babicích. Kolem vede silnice do Křtin. Na poli před ním havarovalo sestřelené letadlo.  ",
+      popis:
+        "  Hranol  z vápencových kamenů pospojovaných betonem. Při odhalení byl nahoře hluboký pískovcový reliéf dívčí tváře s vlajícími vlasy a na přední straně hranolu bílá deska s textem. Autorem reliéfu byl babický rodák František Pokorný. U paty pomníku spočíval kovový model padajícího letadla. Při rekonstrukci památníku v roce 1982 byla deska nahrazena jinou se změněným textem. Tehdy už se vědělo, kdo v letadle zahynul a že to byl muž.  Památník bývá častým cílem vandalů. Začátkem 90. let zmizel model letadla, později i reliéf. V roce 2010 obecní úřad v Babicích nechal pomník zrekonstruovat, autorem nového reliéfu je  Ivo Durec z Rajhradu. Nějakou dobu byl pomník bez desky, v srpnu 2021 má novou mramorovou desku s textem o letkyních.  ",
+      napis:
+        " původně 1960 : ZDE PADLA // V POSLEDNÍCH  DNECH  VÁLKY // V ROCE 1945 // SOVĚTSKÁ  LETKYNĚ // ČEST  JEJÍ  PAMÁTCE  později 1982 : HRDINNÝM  SOVĚTSKÝM //  LETKYNÍM  // Z DRUHÉ  SVĚTOVÉ  VÁLKY ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa:
+            " https://www.adamovaokoli.cz/pamatniky/sovetske_letkyne.html ",
+        },
+        {
+          nazev: "  badatelna ",
+          adresa: "  http://davar.cz/badatelna/xref/let_babice.htm ",
+        },
+        {
+          nazev: "Jiří Truhlář : Památníky adamovských lesů, 2003, str. 141. ",
+        },
+      ],
+      pozn:
+        " V poledne 25. dubna 1945 přilétly do prostoru Babic tři sovětské stíhačky a na nepřítele shazovaly malé bomby. Německé protiletadlové baterie zahájily palbu a jednu z nich zasáhly. Stíhačka Lavočkin ztratila křídlo, zřítila se na pole asi 100 metrů od lesa a explodovala a shořela. Podle zbytků vlasů a útlé postavy v hlubokém kráteru místní lidé usoudili, že letadlo pilotovala žena. Tehdy se zrodila legenda o babické letkyni. V roce 1960 jí slavnostně odhalili památník za účasti čtrnáctičlenné sovětské delegace. Ale už v roce 1974 bylo jasné, že v 5. letecké armádě za války ženy nelétaly. V inkriminovaný den přišla Rudá armáda v okolí Brna o pět letadel.<br>Stíhačka Lavočkin LA 7 je jednomístný jednomotorový dolnoplošník s rozpětím křídel 10 metrů, váhou 2600 kg a maximální rychlostí 665 km/hod. Vybavení 2 nebo 3 kanóny ráže 20 mm, posádka jeden muž.<br>Další posun ve znalostech nastal v roce 1978. Tehdy nově založená skupina vojenské historie  “Z77”  v čele s Vlastimilem Schildbergerem ve spolupráci s Moravským muzeem, Svazarmem a časopisem Zápisník se rozhodla vrak letadla vykopat. Z kráteru vyzvedli torzo motoru, podvozek, část kabiny s ostatky pilota a našli označení letadla na překližce. Kosterní pozůstatky jednoznačně ukázaly, že letadlo pilotoval mladý muž. Archivy ministerstva obrany SSSR pak vyjevily, že to byl gardový poručík Alexej Ivanovič Menšikov (1923 - 1945). Tělesné ostatky tohoto muže byly pietně pohřbeny 27. dubna 1982 na pohřebiště Rudé armády v Babicích k devatenácti padlým rudoarmějcům a jeho jméno bylo dodatečně vytesáno na pomník. Legenda letkyně ale žije dál a babičtí si letkyni nenechají vzít.Tedy stále máme v Babicích památník letkyni - nebo letkyním. A to je dobře.   ",
+      naposledObnoveno: " 6.8.2021 ",
+      souradnice: " 49.2865058N, 16.7161469E ",
+      odkazMapa: " https://frame.mapy.cz/s/celohojezo  ",
+      galerie: [
+        { fotka: "234letkyni1.jpg", popisek: " (únor 2019) " },
+        {
+          fotka: "234letkyni2.jpg",
+          popisek: "Památník letkyním (srpen 2021) ",
+        },
+        { fotka: "234letkyni3.jpg", popisek: " detail reliéfu (srpen 2021) " },
+      ],
+      proMe: "  II/34  24-411-34  19---022  ",
+    },
+    {
+      id: 236,
+      kategorie: "pomnicky",
+      pridano: " 06/08/2021 ",
+      podkategorie: 5,
+      dveId: true,
+      druh: " Válečné, letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: "  Babice  ",
+      jmeno: " Letkyně - Babice  ",
+      nazev: " Památník sovětské letkyni ",
+      fotkaUvod: { fotka: " 234letkyni2.jpg " },
+      kdyVznikl: " 1960. Památník byl slavnostně odhalen 9. května 1960.  ",
+      popisCesty:
+        " Památník leží na planině Zadní pole, 1300 metrů V od kostela v Babicích. Kolem vede silnice do Křtin. Na poli před ním havarovalo sestřelené letadlo.  ",
+      popis:
+        "  Hranol  z vápencových kamenů pospojovaných betonem. Při odhalení byl nahoře hluboký pískovcový reliéf dívčí tváře s vlajícími vlasy a na přední straně hranolu bílá deska s textem. Autorem reliéfu byl babický rodák František Pokorný. U paty pomníku spočíval kovový model padajícího letadla. Při rekonstrukci památníku v roce 1982 byla deska nahrazena jinou se změněným textem. Tehdy už se vědělo, kdo v letadle zahynul a že to byl muž.  Památník bývá častým cílem vandalů. Začátkem 90. let zmizel model letadla, později i reliéf. V roce 2010 obecní úřad v Babicích nechal pomník zrekonstruovat, autorem nového reliéfu je  Ivo Durec z Rajhradu. Nějakou dobu byl pomník bez desky, v srpnu 2021 má novou mramorovou desku s textem o letkyních.  ",
+      napis:
+        " původně 1960 : ZDE PADLA // V POSLEDNÍCH  DNECH  VÁLKY // V ROCE 1945 // SOVĚTSKÁ  LETKYNĚ // ČEST  JEJÍ  PAMÁTCE  později 1982 : HRDINNÝM  SOVĚTSKÝM //  LETKYNÍM  // Z DRUHÉ  SVĚTOVÉ  VÁLKY ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa:
+            " https://www.adamovaokoli.cz/pamatniky/sovetske_letkyne.html ",
+        },
+        {
+          nazev: "  badatelna ",
+          adresa: "  http://davar.cz/badatelna/xref/let_babice.htm ",
+        },
+        {
+          nazev: "Jiří Truhlář : Památníky adamovských lesů, 2003, str. 141. ",
+        },
+      ],
+      pozn:
+        " V poledne 25. dubna 1945 přilétly do prostoru Babic tři sovětské stíhačky a na nepřítele shazovaly malé bomby. Německé protiletadlové baterie zahájily palbu a jednu z nich zasáhly. Stíhačka Lavočkin ztratila křídlo, zřítila se na pole asi 100 metrů od lesa a explodovala a shořela. Podle zbytků vlasů a útlé postavy v hlubokém kráteru místní lidé usoudili, že letadlo pilotovala žena. Tehdy se zrodila legenda o babické letkyni. V roce 1960 jí slavnostně odhalili památník za účasti čtrnáctičlenné sovětské delegace. Ale už v roce 1974 bylo jasné, že v 5. letecké armádě za války ženy nelétaly. V inkriminovaný den přišla Rudá armáda v okolí Brna o pět letadel.<br>Stíhačka Lavočkin LA 7 je jednomístný jednomotorový dolnoplošník s rozpětím křídel 10 metrů, váhou 2600 kg a maximální rychlostí 665 km/hod. Vybavení 2 nebo 3 kanóny ráže 20 mm, posádka jeden muž.<br>Další posun ve znalostech nastal v roce 1978. Tehdy nově založená skupina vojenské historie  “Z77”  v čele s Vlastimilem Schildbergerem ve spolupráci s Moravským muzeem, Svazarmem a časopisem Zápisník se rozhodla vrak letadla vykopat. Z kráteru vyzvedli torzo motoru, podvozek, část kabiny s ostatky pilota a našli označení letadla na překližce. Kosterní pozůstatky jednoznačně ukázaly, že letadlo pilotoval mladý muž. Archivy ministerstva obrany SSSR pak vyjevily, že to byl gardový poručík Alexej Ivanovič Menšikov (1923 - 1945). Tělesné ostatky tohoto muže byly pietně pohřbeny 27. dubna 1982 na pohřebiště Rudé armády v Babicích k devatenácti padlým rudoarmějcům a jeho jméno bylo dodatečně vytesáno na pomník. Legenda letkyně ale žije dál a babičtí si letkyni nenechají vzít.Tedy stále máme v Babicích památník letkyni - nebo letkyním. A to je dobře.   ",
+      naposledObnoveno: " 6.8.2021 ",
+      souradnice: " 49.2865058N, 16.7161469E ",
+      odkazMapa: " https://frame.mapy.cz/s/celohojezo  ",
+      galerie: [
+        { fotka: "234letkyni1.jpg", popisek: " (únor 2019) " },
+        {
+          fotka: "234letkyni2.jpg",
+          popisek: "Památník letkyním (srpen 2021) ",
+        },
+        { fotka: "234letkyni3.jpg", popisek: " detail reliéfu (srpen 2021) " },
+      ],
+      proMe: "  II/34  24-411-34  19---022  ",
+    },
+    {
+      id: 237,
+      kategorie: "pomnicky",
+      pridano: " 06/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Břeclav ",
+      obec: "  Pavlov   ",
+      jmeno: " Drbal, Karel  ",
+      nazev: " Křížek rogalisty Drbala ",
+      fotkaUvod: { fotka: " 235drbal1.jpg " },
+      kdyVznikl: " po 1980 ",
+      popisCesty:
+        "  Křížek stojí 1600 metrů JZ od kostela v Pavlově, na J svahu Děvína, ve skalnaté stráni a prochází pod ním zeleně značená pěšina. Krásné místo. ",
+      popis:
+        "  Jednoduchý kovový křížek z trubek ve vysoký 0,6 metru. Na něm plechová tabulka s textem.  ",
+      napis:
+        "  KAREL  DRBAL // ROGALLISTA //   *  2. 8 1949  // + 13. 12. 1980  ",
+      pozn:
+        " O podrobnostech tragédie ze začátků tohoto způsobu létání jsem zatím nic nezjistil.    ",
+      naposledObnoveno: " 6.8.2021 ",
+      souradnice: " 48.8658606N, 16.6546194E ",
+      odkazMapa: "https://frame.mapy.cz/s/hazetuhoho",
+      galerie: [
+        {
+          fotka: "235drbal1.jpg",
+          popisek: " Křížek rogalisty Drbala(duben 2011) ",
+        },
+        { fotka: "235drbal2.jpg", popisek: " detail tabulky (duben 2011) " },
+      ],
+      proMe: "  V/156  34-124-2  cesty11---04  ",
+    },
+    {
+      id: 238,
+      kategorie: "pomnicky",
+      pridano: " 06/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: "  Zakřany  ",
+      jmeno: " Erban - Zach  ",
+      nazev: " Pomník zahynulým letcům u Zakřan ",
+      fotkaUvod: { fotka: " 236erbanzach1.jpg " },
+      kdyVznikl:
+        " 1945. Pomník po válce zbudoval Svaz české mládeže ve Zbýšově. ",
+      popisCesty:
+        "  Pomník stojí 1 kilometr JJV od kostela v Zakřanech, na nevýrazném návrší na kraji lesa.  ",
+      popis:
+        "  Pomník strohých geometrických tvarů je z umělého kamene, vysoký 2 metry. Na přední straně je připevněna tmavá kamenná deska s delším textem a fotografiemi letců. Deska je poškozená. Kolem pomníku je šestihranná obruba. Při obnově pomníku v letech 1995 a 2020 byly vyměněny rozbité fotografie. Na pomníku bývala i kovová maketa letounu Letov.",
+      napis:
+        " LETCŮM,  KTEŘÍ  ZDE // POLOŽILI  SVÉ  ŽIVOTY // NA OLTÁŘ  VLASTI // 30. 8. 1938. // LADISLAV  ERBAN // des. asp.  14. 10. 1916. // VÁCLAV  ZACH // čet. asp.  14. 9. 1917. // ZBUDOVAL // SVAZ  ČESKÉ  MLÁDEŽE // ZBÝŠOV // 1945. ",
+      odkazy: [
+        {
+          nazev: " letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/266/ ",
+        },
+        {
+          nazev: " mikroregion kahan ",
+          adresa:
+            " https://www.mikroregionkahan.cz/aktuality-a-akce/176-husta-mlha-zpecetila-pred-82-lety-zivot-dvou-pilotu-udalost-k-niz-se-vsak-objevily-nove-informace-pripomene-pietni-akt ",
+        },
+      ],
+      pozn:
+        " V nervózní atmosféře předválečného roku 1938 došlo k násobně více haváriím vojenských letadel než v letech předchozích.<br>K historii neštěstí: 30. 8. 1938 ráno vzlétl z letiště ve Vyškově vojenský letoun Letov Š 328 se dvěma muži, pilotem Zachem a pozorovatelem Erbanem. Jejich úkolem byl cvičný let na podporu dělostřeleckého oddílu v Třebíči. Počasí a dohlednost nebyly nejlepší, na Moravě byly četné mlhy a výška oblačnosti byla velmi proměnlivá. Piloti zřejmě ztratili orientaci a v husté mlze narazili do lesa. Letadlo přerazilo a vyvrátilo několik stromů, benzínové nádrže se vzňaly a piloti neměli šanci přežít, zahynuli v troskách. Letadlo náraz a požár úplně zničil.  Rakve s letci byly vystaveny v kostele, než byly převezeny do jejich rodišť.<br>Letov Š 328 byl pozorovací a bombardovací dvoumístný dvouplošník s jedním motorem, pevným podvozkem a otevřenou kabinou. Bylo jich vyrobeno asi 440 kusů a nezachoval se ani jeden. V letech 1935 - 39 je nakupovala československá armáda, po okupaci jich padla většina do rukou Němců. Délka 10 m, rozpětí 14 m, cestovní rychlost 250 km/hod, prázdná váha 1700 kg, unesl 500 kg bomb. ",
+      naposledObnoveno: " 7.8.2021 ",
+      souradnice: " 49.1615469N, 16.3294225E ",
+      odkazMapa: "https://frame.mapy.cz/s/gagukalega",
+      galerie: [
+        {
+          fotka: "236erbanzach1.jpg",
+          popisek: "Pomník zahynulým letcům u Zakřan(březen 2013) ",
+        },
+        { fotka: "236erbanzach2.jpg", popisek: " (březen 2013) " },
+      ],
+      proMe: "  VII/227  24-332-1  13---031  ",
+    },
+    {
+      id: 239,
+      kategorie: "pomnicky",
+      pridano: " 08/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      dveId: true,
+      okres: " Brno - město ",
+      obec: "  Brno - Žebětín  ",
+      jmeno: " Kašutin, Viktor Sergejevič  ",
+      nazev: " Památník sovětskému letci Kašutinovi.  ",
+      fotkaUvod: { fotka: " 237kasutin2.jpg " },
+      kdyVznikl:
+        " 1973. Budováno brigádami občanů Kohoutovic a Žebětína v březnu a dubnu 1973. Slavnostně odhalen 9. května 1973 jako památník sovětským letcům. Památník navrhl akademický sochař Miloš Axman (1926 - 1990) ve spolupráci s arch. Františkem Kočím. Za dva roky se podařilo identifikovat padlého letce a v roce 1975 bylo jeho jméno a fotografie doplněny na pomník. V listopadu 1975 navštívily Brno i pomník matka a sestra zahynulého pilota. ",
+      popisCesty:
+        " V oboře Holedná, 600 m SZ od křižovatky Kohoutovice hájenka, na boku údolí spadajícího k potoku Vrbovci, nad rybníčkem. Vede tu lesní cesta.  ",
+      popis:
+        "  Dva přírodní kameny z mrákotínské žuly představují trup a křídlo letadla. Větší kámen je na betonových patkách a jsou na něm nápisy, fotografie letce a pěticípá hvězda. Menší kámen je zapuštěn v zemi. Na betonové patce byl původně text z mosazných písmen, ten v 90. letech mizel. Nahrazen litinovou deskou.  ",
+      napis:
+        " Na kamenu azbukou: V. S. KAŠUTIN // LJOTČIK - ML. LEJTĚNANT // 1924 - 1945 . Na kovové desce : SOVĚTSKÝM // LETCŮM // PADLÝM  V  BOJI // ZA  OSVOBOZENÍ // BRNA - 1945 // OBČANÉ // KOHOUTOVIC // ŽEBĚTÍNA  ",
+      odkazy: [
+        {
+          nazev: " badatelna ",
+          adresa: " http://davar.cz/badatelna/xref/let_brno_kohoutovice.htm ",
+        },
+        {
+          nazev: " turistika ",
+          adresa: " https://www.turistika.cz/mista/pomnik-v-s-kasutina/detail ",
+        },
+      ],
+      pozn:
+        "  25. dubna 1945 zaútočily dvě stíhačky Lavočkin LA 7 na ustupující německou kolonu v Kohoutovicích. Svrhly na ně čtyři bomby. Dvě padly na silnici, jedna skončila v holičské oficíně a naštěstí nevybuchla a poslední se trefila do hájenky, kterou zničila. Jedno z letadel dostalo zásah od flaku a zřítilo se do obory. Narazilo do svahu v místech dnešního pomníku. Motor se vytrhl a skutálel se na dno údolí, trup a křídla shořely, pilot nepřežil. Místní se na místo dostali až za několik dní, pilota pohřbili provizorně na místě a na hrob mu vztyčili křídlo z letadla. Příští rok byly ostatky exhumovány a přemístěny na pohřebiště rudoarmějců do Nového Lískovce. Jiné prameny uvádějí, že byl pochován na Ústředním hřbitově.<br>Stíhačka Lavočkin LA 7 je jednomístný jednomotorový dolnoplošník s rozpětím křídel 10 metrů, váhou 2600 kg a maximální rychlostí 665 km/hod. Vybavení 2 nebo 3 kanóny ráže 20 mm, posádka jeden muž.<br>Každý rok v dubnu tu komunisté organizují pietní akt. ",
+      naposledObnoveno: " 8.8.2021 ",
+      souradnice: " 49.1987086N, 16.5243711E ",
+      odkazMapa: "https://frame.mapy.cz/s/kakocogana",
+      galerie: [
+        { fotka: "237kasutin1.jpg", popisek: " Pomník Kašutina (leden 2008) " },
+        { fotka: "237kasutin2.jpg", popisek: " Pomník Kašutina (září 2019) " },
+      ],
+      proMe: "  VIII/258  24-324-2  08---01. 19---095  ",
+    },
+    {
+      id: 240,
+      kategorie: "pomnicky",
+      pridano: " 08/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      podkategorie: 5,
+      dveId: true,
+      druh: " Válečné ",
+      okres: " Brno - město ",
+      obec: "  Brno - Žebětín  ",
+      jmeno: " Kašutin, Viktor Sergejevič  ",
+      nazev: " Památník sovětskému letci Kašutinovi.  ",
+      fotkaUvod: { fotka: " 237kasutin2.jpg " },
+      kdyVznikl:
+        " 1973. Budováno brigádami občanů Kohoutovic a Žebětína v březnu a dubnu 1973. Slavnostně odhalen 9. května 1973 jako památník sovětským letcům. Památník navrhl akademický sochař Miloš Axman (1926 - 1990) ve spolupráci s arch. Františkem Kočím. Za dva roky se podařilo identifikovat padlého letce a v roce 1975 bylo jeho jméno a fotografie doplněny na pomník. V listopadu 1975 navštívily Brno i pomník matka a sestra zahynulého pilota. ",
+      popisCesty:
+        " V oboře Holedná, 600 m SZ od křižovatky Kohoutovice hájenka, na boku údolí spadajícího k potoku Vrbovci, nad rybníčkem. Vede tu lesní cesta.  ",
+      popis:
+        "  Dva přírodní kameny z mrákotínské žuly představují trup a křídlo letadla. Větší kámen je na betonových patkách a jsou na něm nápisy, fotografie letce a pěticípá hvězda. Menší kámen je zapuštěn v zemi. Na betonové patce byl původně text z mosazných písmen, ten v 90. letech mizel. Nahrazen litinovou deskou.  ",
+      napis:
+        " Na kamenu azbukou: V. S. KAŠUTIN // LJOTČIK - ML. LEJTĚNANT // 1924 - 1945 . Na kovové desce : SOVĚTSKÝM // LETCŮM // PADLÝM  V  BOJI // ZA  OSVOBOZENÍ // BRNA - 1945 // OBČANÉ // KOHOUTOVIC // ŽEBĚTÍNA  ",
+      odkazy: [
+        {
+          nazev: " badatelna ",
+          adresa: " http://davar.cz/badatelna/xref/let_brno_kohoutovice.htm ",
+        },
+        {
+          nazev: " turistika ",
+          adresa: " https://www.turistika.cz/mista/pomnik-v-s-kasutina/detail ",
+        },
+      ],
+      pozn:
+        "  25. dubna 1945 zaútočily dvě stíhačky Lavočkin LA 7 na ustupující německou kolonu v Kohoutovicích. Svrhly na ně čtyři bomby. Dvě padly na silnici, jedna skončila v holičské oficíně a naštěstí nevybuchla a poslední se trefila do hájenky, kterou zničila. Jedno z letadel dostalo zásah od flaku a zřítilo se do obory. Narazilo do svahu v místech dnešního pomníku. Motor se vytrhl a skutálel se na dno údolí, trup a křídla shořely, pilot nepřežil. Místní se na místo dostali až za několik dní, pilota pohřbili provizorně na místě a na hrob mu vztyčili křídlo z letadla. Příští rok byly ostatky exhumovány a přemístěny na pohřebiště rudoarmějců do Nového Lískovce. Jiné prameny uvádějí, že byl pochován na Ústředním hřbitově.<br>Stíhačka Lavočkin LA 7 je jednomístný jednomotorový dolnoplošník s rozpětím křídel 10 metrů, váhou 2600 kg a maximální rychlostí 665 km/hod. Vybavení 2 nebo 3 kanóny ráže 20 mm, posádka jeden muž.<br>Každý rok v dubnu tu komunisté organizují pietní akt. ",
+      naposledObnoveno: " 8.8.2021 ",
+      souradnice: " 49.1987086N, 16.5243711E ",
+      odkazMapa: "https://frame.mapy.cz/s/kakocogana",
+      galerie: [
+        { fotka: "237kasutin1.jpg", popisek: " Pomník Kašutina (leden 2008) " },
+        { fotka: "237kasutin2.jpg", popisek: " Pomník Kašutina (září 2019) " },
+      ],
+      proMe: "  VIII/258  24-324-2  08---01. 19---095  ",
+    },
+    {
+      id: 241,
+      kategorie: "pomnicky",
+      pridano: " 05/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice  ",
+      jmeno: " Letci - Bílovice  ",
+      nazev: " Pomník pěti letcům Československé armády ",
+      fotkaUvod: { fotka: "240petletcu2.jpg" },
+      kdyVznikl:
+        " Po roce 1951. V 90. letech byl pomník poničen, mosazná deska se jmény zmizela. Ke znovuodhalení pomníku došlo k 50. výročí tragédie. 6. října 2001 byla na pomníku odhalena nová žulová deska s podobným textem. Jako host tu byl pilot RAF plukovník Emil Boček a další bývalí letci. ",
+      popisCesty:
+        " Pomník stojí na místě nehody, 2,5 kilometru SSZ od centra Bílovic, na pravém břehu Svitavy, u vyústění údolí Myší díra do údolí Svitavy. Kolem vede lesní cesta.  ",
+      popis:
+        "  Pomník výšky tří metrů je  z lomového kamene a betonu. Na kamenném podstavci je betonová deska a betonový sloup lichoběžníkového tvaru. Na sloupu je připevněna tmavá deska s textem.  ",
+      napis:
+        " původně:  REZEK  FRANTIŠEK // VESELÝ  MIROSLAV // HANEK  JIŘÍ // ROUBÍNEK  STANISLAV // CHYTIL  ŠTĚPÁN // 25. 9. 1951 <br> nyní: 25. 9. 1951 // JIŘÍ  HANEK // ŠTĚPÁN CHYTIL // FRANTIŠEK REZEK // STANISLAV ROUBÍNEK // MIROSLAV  VESELÝ // O. Ú. BÍLOVICE   ",
+      odkazy: [
+        {
+          nazev: " pomníky letců ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/ceskoslovenske-letectvo/ceskoslovenske-letectvo-1945---1992/pomniky-leteckych-katastrof/25.9.1951---c-47-babice-nad-svitavou.html ",
+        },
+        {
+          nazev: " Adamov a okolí ",
+          adresa:
+            " https://www.adamovaokoli.cz/pamatniky/letecka_nehoda_u_babic.html ",
+        },
+        {
+          nazev: "Jiří Truhlář : Památníky adamovských lesů, 2003, str. 142. ",
+        },
+      ],
+      pozn:
+        "  Letadlo Douglas DC-3 Dakota bylo koupeno z amerických poválečných rezerv a do Prahy přiletělo s dalšími v květnu 1946. Interiér byl vybaven čalouněním a luxusními křesly pro pohodlnou dopravu osob. Po Evropě i po republice v letadle létaly politické špičky a generalita. Sloužil jako osobní letoun veliteli letectva generálu Josefu Hanušovi.<br> Osudného dne podnikl letoun cestu z Prahy do Brna s generálem na palubě. Po 22. hodině vzlétl z černovického letiště k návratu do Prahy, ale generál Hanuš v něm neseděl. Krátce po startu se letoun dostal do potíží a otočil se k návratu do Brna. Podle svědectví přeletěl nízko nad zastávkou v Babicích, hořel mu motor a svítil reflektorem na zem, jako by hledal místo na přistání. To ale v úzkém svitavském údolí nemohl najít. Do cesty se mu postavil kopec s tunelem. Letadlo jej přeletělo, ale ztratilo rychlost a zřítilo se na kraj řeky, křídlo se ulomilo a přeletělo železniční násep. Vrtule se později našla ulomená v říčce Punkvě. Příčina nehody nebyla zcela vysvětlena, zřejmě šlo o technickou závadu. Po havárii se vyskytly spekulace, zda se nejednalo o sabotáž, Hanuš se podílel na perzekuci letců RAF po roce 1948. Nic se ale nevyšetřilo.   ",
+      naposledObnoveno: " 5.8.2021 ",
+      souradnice: " 49.2671031N, 16.6639872E ",
+      odkazMapa: "https://frame.mapy.cz/s/kuhupaduvu",
+      galerie: [
+        { fotka: "240petletcu1.jpg", popisek: " (listopad 2010)" },
+        { fotka: "240petletcu2.jpg", popisek: " (březen 2018)" },
+        { fotka: "240petletcu3.jpg", popisek: " (březen 2018)" },
+      ],
+      proMe: "  I/3  24-324-36  18---036  ",
+    },
   ],
 };
