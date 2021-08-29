@@ -11510,7 +11510,7 @@ export default {
       popis:
         "  Hranol  z vápencových kamenů pospojovaných betonem. Při odhalení byl nahoře hluboký pískovcový reliéf dívčí tváře s vlajícími vlasy a na přední straně hranolu bílá deska s textem. Autorem reliéfu byl babický rodák František Pokorný. U paty pomníku spočíval kovový model padajícího letadla. Při rekonstrukci památníku v roce 1982 byla deska nahrazena jinou se změněným textem. Tehdy už se vědělo, kdo v letadle zahynul a že to byl muž.  Památník bývá častým cílem vandalů. Začátkem 90. let zmizel model letadla, později i reliéf. V roce 2010 obecní úřad v Babicích nechal pomník zrekonstruovat, autorem nového reliéfu je  Ivo Durec z Rajhradu. Nějakou dobu byl pomník bez desky, v srpnu 2021 má novou mramorovou desku s textem o letkyních.  ",
       napis:
-        " původně 1960 : ZDE PADLA // V POSLEDNÍCH  DNECH  VÁLKY // V ROCE 1945 // SOVĚTSKÁ  LETKYNĚ // ČEST  JEJÍ  PAMÁTCE  později 1982 : HRDINNÝM  SOVĚTSKÝM //  LETKYNÍM  // Z DRUHÉ  SVĚTOVÉ  VÁLKY ",
+        " původně 1960 : ZDE PADLA // V POSLEDNÍCH  DNECH  VÁLKY // V ROCE 1945 // SOVĚTSKÁ  LETKYNĚ // ČEST  JEJÍ  PAMÁTCE <br> později 1982 : HRDINNÝM  SOVĚTSKÝM //  LETKYNÍM  // Z DRUHÉ  SVĚTOVÉ  VÁLKY ",
       odkazy: [
         {
           nazev: " Adamov a okolí ",

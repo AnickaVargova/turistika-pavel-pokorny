@@ -11,7 +11,7 @@
     "
   >
     <div
-      v-bind:class="{ ramecek: vybraneId !== clanek.id }"
+      v-bind:class="{ ramecek: idMapaUkazat !== clanek.id }"
       v-for="clanek in mojeClanky"
       v-bind:key="clanek.id"
     >
@@ -25,23 +25,7 @@
         }}
       </h2>
 
-      <div v-if="vybraneId === clanek.id" id="mapaPomnicky">
-        <div style="width: 100%; height:100%">
-          <iframe
-            style="border:none"
-            v-bind:src="clanek.odkazMapa.trim()"
-            width="400"
-            height="280"
-            frameborder="0"
-          ></iframe>
-
-          <button class="pomnicekKategorie" v-on:click="schovejMapu">
-            Schovat mapu
-          </button>
-        </div>
-      </div>
-
-      <table v-else>
+      <table>
         <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>Druh:</td>
           <td>{{ clanek.druh }}</td>
@@ -210,11 +194,15 @@
             </p>
           </td>
         </tr>
+        <tr>
+          <td>Naposled editováno:</td>
+          <td>{{ clanek.naposledObnoveno }}</td>
+        </tr>
         <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>
             <button
               class="pomnicekKategorie"
-              v-if="clanek.odkazMapa"
+              v-if="clanek.odkazMapa && idMapaUkazat !== clanek.id"
               v-bind:style="{
                 padding: '2%',
                 height: '40px',
@@ -226,11 +214,23 @@
             </button>
           </td>
         </tr>
-        <tr>
-          <td>Naposled editováno:</td>
-          <td>{{ clanek.naposledObnoveno }}</td>
-        </tr>
       </table>
+
+      <div v-if="idMapaUkazat === clanek.id" id="mapaPomnicky">
+        <div style="width: 100%; height:100%">
+          <iframe
+            style="border:none"
+            v-bind:src="clanek.odkazMapa.trim()"
+            width="400"
+            height="280"
+            frameborder="0"
+          ></iframe>
+
+          <button class="pomnicekKategorie" v-on:click="schovejMapu">
+            Schovat mapu
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -242,7 +242,7 @@
     components: { Klikaci: Klikaci },
     data() {
       return {
-        vybraneId: undefined,
+        idMapaUkazat: undefined,
         testData: undefined,
         mojeClanky: this.clanky,
         isEdgeChromium: false,
@@ -253,13 +253,13 @@
       ukazMapu(id) {
         for (let clanek of this.mojeClanky) {
           if (clanek.id === id) {
-            this.vybraneId = id;
+            this.idMapaUkazat = id;
           }
         }
       },
 
       schovejMapu() {
-        this.vybraneId = undefined;
+        this.idMapaUkazat = undefined;
       },
 
       vyfiltrujPomnicek(id) {
