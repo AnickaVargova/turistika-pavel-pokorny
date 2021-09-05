@@ -251,7 +251,7 @@
   @media (min-width: 900px) {
     body {
       width: 100vw;
-      max-width: 1600px;
+      max-width: 2000px;
       margin: auto;
       background-color: rgb(230, 236, 243);
     }

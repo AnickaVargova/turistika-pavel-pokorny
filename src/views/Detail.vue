@@ -24,7 +24,7 @@
         </div>
       </router-link>
       <router-link
-        v-else-if="this.$route.name === 'SmirciKrize'"
+        v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
         to="/smircikrize"
       >
         <a name="top"></a>

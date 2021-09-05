@@ -34,12 +34,12 @@ const routes = [
     component: Odkazy,
   },
   {
-    path: "/vypraveni/vypraveni/:podkategorie/:id",
+    path: "/vypraveni/:podkategorie/:id",
     name: "Detail",
     component: Detail,
   },
   {
-    path: "/cesty/cesty/:podkategorie/:id",
+    path: "/cesty/:podkategorie/:id",
     name: "Detail",
     component: Detail,
   },
@@ -59,7 +59,7 @@ const routes = [
     component: Pomnicky,
   },
   {
-    path: "/pomnicky/pomnicky/:kategorie/:id",
+    path: "/pomnicky/:kategorie/:id",
     name: "DetailPomnicku",
     component: DetailPomnicku,
   },
@@ -84,9 +84,14 @@ const routes = [
     component: SmirciKrize,
   },
   {
-    path: "/smircikrize/smircikrize/:kategorie/:id",
+    path: "/smircikrize/:kategorie/:id",
     name: "DetailKrize",
     component: DetailKrize,
+  },
+  {
+    path: "/smircikrize/vypraveni/:kategorie/:id",
+    name: "SmirciKrizeVypraveni",
+    component: Detail,
   },
 
   {

@@ -10527,7 +10527,7 @@ export default {
         },
         {
           textOdstavce:
-            " <h3> První a druhý den: pátek 11. června  a  sobota 12. června 2021 </h3> ",
+            " <h2 class='podnadpis'> První a druhý den: pátek 11. června  a  sobota 12. června 2021 </h2> ",
         },
         {
           textOdstavce:
@@ -10606,7 +10606,8 @@ export default {
         },
 
         {
-          textOdstavce: " <h3>Třetí den : neděle 13. června 2021 </h3> ",
+          textOdstavce:
+            " <h2 class='podnadpis'>Třetí den : neděle 13. června 2021 </h2> ",
         },
         {
           textOdstavce:
@@ -10657,7 +10658,8 @@ export default {
         },
 
         {
-          textOdstavce: "<h3> Čtvrtý den : pondělí 14. 6. 2021 </h3> ",
+          textOdstavce:
+            "<h2 class='podnadpis'> Čtvrtý den : pondělí 14. 6. 2021 </h2> ",
         },
 
         {
@@ -10735,7 +10737,8 @@ export default {
           odkazMapa: "https://frame.mapy.cz/s/pohucaleje",
         },
         {
-          textOdstavce: " <h3>Pátý den : úterý 15. června 2021</h3>  ",
+          textOdstavce:
+            " <h2 class='podnadpis'>Pátý den : úterý 15. června 2021</h2>  ",
         },
 
         {
@@ -10858,7 +10861,7 @@ export default {
           odkazMapa: "https://frame.mapy.cz/s/mofovudoro",
         },
 
-        { textOdstavce: "<br><h3>Odkazy:</h3>" },
+        { textOdstavce: "<br><h2 class='podnadpis'>Odkazy:</h2>" },
 
         {
           textOdstavce:
@@ -10866,7 +10869,8 @@ export default {
         },
 
         {
-          textOdstavce: " <h3>Šestý den : středa 16. června 2021 </h3> ",
+          textOdstavce:
+            "<h2 class='podnadpis'>Šestý den : středa 16. června 2021 </h2> ",
         },
 
         {
@@ -10915,7 +10919,8 @@ export default {
         },
 
         {
-          textOdstavce: "<h3> Sedmý den : čtvrtek 17. června 2021 </h3>  ",
+          textOdstavce:
+            "<h2 class='podnadpis'> Sedmý den : čtvrtek 17. června 2021 </h2>  ",
         },
 
         {
@@ -11010,7 +11015,8 @@ export default {
         },
 
         {
-          textOdstavce: " <h3>Osmý den : pátek 18. června 2021</h3>  ",
+          textOdstavce:
+            " <h2 class='podnadpis'>Osmý den : pátek 18. června 2021</h2>  ",
         },
         {
           textOdstavce:
@@ -11064,7 +11070,7 @@ export default {
 
         {
           textOdstavce:
-            "<h3> Devátý a poslední den : sobota 19. června 2021</h3>  ",
+            "<h2 class='podnadpis'> Devátý a poslední den : sobota 19. června 2021</h2>  ",
         },
         {
           textOdstavce:

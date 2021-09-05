@@ -1,9 +1,5 @@
 <template>
-  <router-link
-    v-bind:to="
-      `/${stranka}/${clanek.kategorie}/${clanek.podkategorie}/${clanek.id}`
-    "
-  >
+  <router-link v-bind:to="path">
     <div class="clanek">
       <h2
         v-if="
@@ -53,6 +49,14 @@
 <script>
   export default {
     props: ["clanek", "stranka"],
+    data() {
+      return {
+        path:
+          this.stranka === "novepridane"
+            ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
+            : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`,
+      };
+    },
   };
 </script>
 
