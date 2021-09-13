@@ -11753,5 +11753,367 @@ export default {
       ],
       proMe: "  I/3  24-324-36  18---036  ",
     },
+    {
+      id: 250,
+      datum: " 21. - 23. 7. 2021  ",
+      formatDatum: "31/08/2021",
+      pridano: " 31/08/2021 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Údolím říčky Rokytné ",
+      fotkaUvod: { fotka: " 250rokytna29.jpg " },
+
+      text: [
+        {
+          textOdstavce:
+            " Ke vzdělání brněnských turistů patří i projít si údolími západomoravských řek Oslavky, Jihlavky, Dyje a Rokytné. Na Oslavku jezdíme pravidelně každý rok, zvláště do přelomové části mezi Náměští a Oslavany. Jihlavka - bývávalo to nejhezčí údolí z těch čtyř, než v něm v roce 1972 začali stavět dvě přehrady. To, co zbývá pod Mohelnem, jsou jen paběrky. Dyje po moravské straně nám stačila jedinkrát na zbytek života <span><a href='https://turistapavel.rajce.idnes.cz/201905RETRO_Udoli_Dyje_2009' target='blank'  class='vnitrniOdkaz'>(VIZ ZDE)</a></span>. Na Rokytné, myslím střední tok mezi Jaroměřicemi a Krumlovem, jsem byl na den přesně před devětačtyřiceti lety ve trojici, s Helenou a Františkem G. Dost dlouhá doba na to, abych si to zopakoval a viděl, jak se změnilo údolí a hlavně, jak jsem se změnil já. Tentokrát jsem jel sólo.",
+        },
+        {
+          textOdstavce:
+            " <h2 class='podnadpis'> První den : středa 21. července 2021</h3> ",
+        },
+        {
+          textOdstavce:
+            "  <i> Jaroměřice nad Rokytnou. Město, hřbitov, zámecký park, - Příštpo - skála Justýnka - Spálený dub. 9 km. </i>  ",
+        },
+        {
+          textOdstavce:
+            "  V teplém odpoledni jsem dojel autobusem do Jaroměřic. Je známé zámkem a tím, že tam žil a zemřel básník Otokar Březina (1868 - 1929). Mají tu na něj několik památek. Na škole, kde učil, je pamětní deska, kousek dál je výstavný dům, kde bydlel. Dnes je z něj básníkovo muzeum. Zajímavé je, že Březina v Jaroměřicích už básně prakticky neskládal, pět sbírek symbolistní poezie napsal v Nové Říši. Do Jaroměřic se přestěhoval v roce 1901, učil, psal eseje a přijímal návštěvy ctitelů svých básní. Jeho básnické dílo se vejde do jedné, docela hubené knížky, ale přečíst a pochopit dá práci.  ",
+        },
+        {
+          foto: " 250rokytna1.jpg ",
+          popisek: " Škola, kde Březina učil (červenec 2021).  ",
+        },
+        { foto: " 250rokytna2.jpg  ", popisek: " Pamětní desky na škole.  " },
+        {
+          foto: " 250rokytna3.jpg  ",
+          popisek: " Muzeum Otokara Březiny v Jaroměřicích.  ",
+        },
+        {
+          textOdstavce:
+            " Na hřbitově na hrobě básníka je umístěna socha jeho přítele sochaře  Bílka nazvaná Tvůrce a jeho sestra bolest, vzniklá v roce 1932. Má to být nejhodnotnější výtvarné dílo v Jaroměřicích. Šel jsem se na ni podívat s obavou, jestli sochu najdu. Obavy byly zbytečné, Bílkovy hřbitovní sochy jsou nepřehlédnutelné.Před sedmi lety ukradl dvacetiosmiletý sběrač kovů z hrobu bronzovou knihu, plech rozstříhal a prodal za dva tisíce do sběrny. Škoda 200 tisíc Kč. Dnes je na hrobě pryskyřičná kopie knihy, pokrytá bronzovým práškem.  ",
+        },
+        {
+          foto: " 250rokytna4.jpg ",
+          popisek: "  František Bílek : Tvůrce a jeho sestra bolest ",
+        },
+        { foto: " 250rokytna5.jpg ", naVysku: true },
+        {
+          textOdstavce:
+            " Barokní kostel vedle zámku se opravoval a byl pod lešením. Na náměstí naproti zámku stojí morový sloup a vedle je kamenná kašna s klasicistním sousoším tří postav. Svatá Alžběta držící za ruku dítě - Jana Křtitele a zády k nim svatá Kateřina.  ",
+        },
+        {
+          foto: " 250rokytna6.jpg  ",
+          popisek: " Morový sloup na náměstí (červenec 2021)  ",
+        },
+        {
+          foto: " 250rokytna7.jpg  ",
+          popisek: " Vstup na zámecké nádvoří z náměstí  ",
+        },
+        {
+          foto: " 250rokytna8.jpg  ",
+          popisek: " Kašna na náměstí (červenec 2021)  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "   Na prohlídku zámku už bylo pozdě, viděl jsem jen udržovaný zámecký park ve francouzském stylu. Ale sochy a skulptury v parku nejsou v dobrém stavu, potřebovaly by opravu.  ",
+        },
+        { foto: " 250rokytna9.jpg  ", popisek: " (červenec 2021)  " },
+        { foto: " 250rokytna10.jpg  ", popisek: " Pohled na zámek z parku  " },
+        { foto: " 250rokytna11.jpg  " },
+        {
+          textOdstavce:
+            " V lepším stavu jsou čtyři sochy na mostě přes říčku. Byly čerstvě restaurovány. Kamenných barokních soch ze začátku 18. století je ve městě a okolí hodně.   ",
+        },
+        {
+          foto: "250rokytna12.jpg  ",
+          popisek: " Pieta a reliéfy sedmi servítů na mostě.  ",
+          naVysku: true,
+        },
+        {
+          foto: "250rokytna13.jpg  ",
+          popisek: " Kristus a Máří Magdalena. (červenec 2021)  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "  Konečně jsem se vymotal z městečka a šel směrem k Příštpu. Poněkud nudnou cestu poli zpříjemňovaly pozdní třešně ptáčnice. Příštpo je poslední ves ležící přímo u toku Rokytné, Biskupice i Tulešice leží nad říčkou. K jejímu ústí do Jihlavky v Ivančicích je  70 kilometrů. Na cestě do Moravského Krumlova jsem napočítal 13 mlýnů, 3 velká rekreační střediska, 12 mostů a více lávek a brodů. Začíná tu Přírodní park Rokytná a sahá až k Vémyslicím. ",
+        },
+        { foto: "250rokytna14.jpg " },
+        { foto: "250rokytna15.jpg  ", popisek: " Příštpo.  " },
+        {
+          textOdstavce:
+            " Kousek za Příštpem stojí na břehu osmimetrová skalka Justýnka, dokonce horolezecký terén. Ke svému jménu přišla podle pověsti zde uvedené takto: za švédských válek v 17. století dobyli Švédi tvrz v Příštpu a začali pronásledovat utíkající obyvatele. I dívka Justýnka běžela do lesa ze všech sil. Vydal se za ní voják na koni. Dívka doběhla na okraj srázu a vrhla se do hlubiny. Voják nevida děvče ještě pobídl koně a ten se s ním zřítil ze skály. Zabili se všichni tři.  ",
+        },
+        { foto: "250rokytna16.jpg  ", popisek: " Rulová skála Justýnka. " },
+        { foto: "250rokytna17.jpg " },
+        {
+          textOdstavce:
+            " Na noc jsem zabivakoval poblíž Spáleného dubu. Mohutný strom má obvod kmene 6 metrů, kmen je dutý a ohněm vypálený. Bylo naprosté bezvětří a pro obyvatele města neobvyklé večerní ticho by se dalo krájet.  ",
+        },
+        { foto: "250rokytna18.jpg  ", naVysku: true },
+        {
+          foto: "250rokytna19.jpg  ",
+          popisek: " Spálený dub (červenec 2021)  ",
+          naVysku: true,
+        },
+        {
+          kodMapa:
+            " <iframe style='border:none' src='https://frame.mapy.cz/s/gupahajuza' width='400' height='280' frameborder='0'></iframe>  ",
+          odkazMapa: " https://frame.mapy.cz/s/gupahajuza  ",
+        },
+        {
+          textOdstavce:
+            "<h2 class='podnadpis'> Druhý den : čtvrtek 22. července 2021 </h3> ",
+        },
+        {
+          textOdstavce:
+            "  <i> Spálený dub - Pulkovský mlýn - Biskupice - rekreační středisko Biskupice - Újezdský mlýn - Kašparův mlýn - Malá a Velká stěna - Vilímův mlýn - Nový mlýn - Tavíkovický most - Bendův mlýn - dolmen U dubu - Spálený mlýn - lávka Pod oborou - Alinkov. 31 km. </i> ",
+        },
+        {
+          textOdstavce:
+            " Jezdíváme s Lídou v červenci skoro pravidelně na dvou - třídenní vandry, většinou údolími řek, ale program se musí přizpůsobit očekávaným vedrům, kdy se odpoledne skoro nedá chodit. Tedy se vstává za úsvitu, dopoledne něco ujdeme, po obědě v chládku vaříme, kávičkujeme, pospáváme, případně se koupeme. Znovu vyrážíme až kolem páté, kdy je slunce nízko a jdeme skoro do tmy. Stan nenosíme, spacáky lehké na léto, proti komárům se chráníme moskytierou ze záclony. I tentokrát jsem zredukoval batoh na 8 kilo - tedy bez vody.   ",
+        },
+        {
+          foto: "250rokytna20.jpg  ",
+          popisek: " To co zbývá z Pulkovského mlýna (červenec 2021)  ",
+        },
+        { foto: "250rokytna21.jpg " },
+        { foto: "250rokytna22.jpg " },
+        {
+          textOdstavce:
+            "  Údolím prochází žlutě značená turistická cesta a mohu říct, že bez ní by bylo údolí většinu roku neschůdné. Značka v horní části údolí už dlouho nebyla obnovena a místy je obtížné ji najít. Na kole jsou sjízdné jen některé části, na sebe nenavazující. Místy sahaly kopřivy a bodláky po ramena. Dlouhé nohavice byly nutností,  doporučuji dlouhé rukávy. Moc se tu nechodí. Třicet kilometrů vzdálený Národní park Podyjí si naříká nad přemírou návštěvníků a musí jim zakazovat skoro vše. Tady jsem nepotkal člověka a nebylo zakázáno skoro nic. Rokytná dovede své krásy ubránit odlehlostí, kopřivami, polomy, bahnem, komáry a nepotřebuje k tomu strážce ochrany přírody. Hlavně aby tu nevyhlásili národní park - to by byla katastrofa.  ",
+        },
+        {
+          foto: "250rokytna24.jpg  ",
+          popisek: " Hledali byste tu značenou cestu? (červenec 2021)  ",
+        },
+        { foto: "250rokytna28.jpg  ", popisek: " Jinde to bylo vysečené.  " },
+        { foto: "250rokytna25.jpg  ", popisek: "   " },
+
+        {
+          textOdstavce:
+            " Rokytná z Jaroměřic je považována za řeku sjízdnou pro vodáky, samozřejmě při vyšším stavu vody než je v srpnu. Před šedesáti lety byla splouvána a kilometráž ji stále uvádí. Když jsem ale viděl každých dvě stě metrů popadané stromy v korytě, nebo vysoké hráze z naplavených klacků, přes které se voda cedí, myslím, že už ji mnoho let žádný vodák nesplul. Nedovedu si představit povodeň, která by tyto překážky odnesla a koryto vyčistila.  ",
+        },
+        { foto: "250rokytna26.jpg " },
+        { foto: "250rokytna27.jpg " },
+        {
+          textOdstavce:
+            " V Biskupicích mají přímo ve vsi dvě přírodní památky. Jsou to kolonie netopýra velkého. Jedna je pod střechou prázdné školy a druhá v kostelní věži. Obě jsou evropsky významnou lokalitou, netopýři se tam v sezoně počítají na stovky.  ",
+        },
+        {
+          foto: "250rokytna30.jpg  ",
+          popisek:
+            " Na půdě školy v Biskupicích mají přírodní památku. Kolonii netopýrů.  ",
+        },
+        {
+          foto: "250rokytna31.jpg  ",
+          popisek: " Kostel v Biskupicích. (červenec 2021)  ",
+        },
+        {
+          foto: "250rokytna32.jpg  ",
+          popisek: " Druhá kolonie netopýra velkého sídlí v kostelní věži.  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "V červenci bývají louky u řeky vysečené. Někde ale byly podmáčené, což by na začátku jara mohl být problém. Brodit přes řeku se nikde nemuselo, ale někde pěšina šplhala vysoko až nad údolí. Brodit by šlo, ale bahnité břehy a kalná voda k tomu nelákaly.  ",
+        },
+        { foto: "250rokytna33.jpg " },
+        {
+          foto: "250rokytna34.jpg  ",
+          popisek: " Nebylo třeba brodit se bahnem.  ",
+        },
+
+        {
+          textOdstavce:
+            " Ze všech mlýnů v údolí se mi nejvíc líbil Újezdský mlýn. Opečovávaný rekreační objekt, kde mají rádi keramiku.  ",
+        },
+        {
+          foto: "250rokytna35.jpg  ",
+          popisek: " Újezdský mlýn (červenec 2021) ",
+        },
+        { foto: "250rokytna36.jpg  " },
+        {
+          foto: "250rokytna37.jpg  ",
+          popisek: " Stará mlátička asi čeká na opravu. (červenec 2021)  ",
+        },
+        {
+          textOdstavce:
+            " Ke Kašparovu mlýnu mám dávnou osobní vzpomínku z konce 60. let. Potkal jsem tehdy svého o dva roky staršího kamaráda oblečeného v maskáčích s usárnou na zádech: Odkud jedeš Ivane? - Ále, byli jsme s osadou na Kašparáku - a vyprávěl, co tam s trampy zažil. Doma jsem se musel podívat do mapy, kde ten Kašparák leží, nikdy jsem to jméno neslyšel. A zjistil jsem, že to je moravský pól nedostupnosti, od vlaku z Náměště i od Krumlova je to nejméně 25 kilometrů. Dnes v době automobilů to není žádná vzdálenost, ale tehdy se chodilo od vlaku pěšky. Ivan už na Kašparák nejezdí, kdoví jestli ještě žije, ale kdyby se tento text dostal až k tobě, Ivane Křivánku ze Starého Lískovce (1946), ozvi se, měli bychom spolu po letech o čem mluvit.   ",
+        },
+        {
+          foto: "250rokytna38.jpg  ",
+          popisek: " Kašparův mlýn se tvářil nepřístupně, dnes je to pension  ",
+        },
+        {
+          textOdstavce:
+            " Cestou jsem minul několik skautských letních táborů,v každém se něco zajímavého dělo, v žádném z nich nechybělo teepee. Údolí je pro takový typ tábora jak stvořené. Dodatečně to dnešním dětem závidím, za mého dětství byly tábory jiné, pionýrské - ve zděných budovách, s tuhým polovojenským režimem. Děs i po letech. ",
+        },
+        { foto: "250rokytna23.jpg " },
+        { foto: "250rokytna41.jpg " },
+        { foto: "250rokytna42.jpg " },
+        { foto: "250rokytna50.jpg " },
+        { foto: "250rokytna55.jpg " },
+        {
+          textOdstavce:
+            " Z květin, které mě potkaly, nebyla žádná nijak vzácná, byly to běžné kytky horkého léta. Zato na ptactvo je údolí bohatší. Občas vyletěla přede mnou volavka šedivá, ať jsem šel sebetišeji, viděla mě vždycky dříve než já ji. Při odpoledním povalování přistál náhle nad mou hlavou na větvi jestřáb. Ani jsem se nehnul. Jestřáb si mě prohlédl, usoudil, že tam nepatřím a tak raději uletěl.  ",
+        },
+        { foto: "250rokytna43.jpg  ", popisek: "  Rulík zlomocný " },
+        { foto: "250rokytna44.jpg  ", popisek: " Divizna jižní rakouská  " },
+        { foto: "250rokytna45.jpg  ", popisek: " Kakost luční  " },
+        { foto: "250rokytna46.jpg  ", popisek: " Zvonek okrouhlolistý  " },
+        { foto: "250rokytna47.jpg  ", popisek: " Zvonek broskvolistý  " },
+        { foto: "250rokytna48.jpg " },
+        {
+          textOdstavce:
+            " Asi dva kilometry pod Kašparovým mlýnem vystupují z boku údolí Vranovické skály., Cvičný terén pro horolezce. Malá stěna je vysoká asi 15 metrů, Velká stěna má výšku 35 metrů a v horní převislé části poskytuje těžké výstupy. Ještě dále je pak skála s obličejem.   ",
+        },
+        { foto: "250rokytna39.jpg  ", naVysku: true },
+        {
+          foto: "250rokytna40.jpg  ",
+          popisek: " Velká stěna je vysoká 35 metrů  ",
+        },
+        {
+          foto: "250rokytna49.jpg  ",
+          popisek: " Skále s obličejem přimaloval někdo oči. (červenec 2021)  ",
+        },
+        {
+          textOdstavce:
+            " Jisté problémy v údolí jsou s pitnou vodou. Narazil jsem na jedinou použitelnou studánku. Kalná voda v řece se pít nedala a před žízní mě zachránila rekreační střediska, kde kromě vody bylo i pivo.  ",
+        },
+        {
+          foto: "250rokytna51.jpg  ",
+          popisek: " Studánka Na skalkách (červenec 2021)  ",
+        },
+        {
+          textOdstavce:
+            " Voda v Rokytné se nehodila ani ke koupání, břehy byly bahnité, zarostlé kopřivami. Koupat se dalo až v přírodním koupališti u Tavíkovic.  ",
+        },
+        { foto: "250rokytna52.jpg  ", popisek: " Vilímův mlýn  " },
+        {
+          foto: "250rokytna53.jpg  ",
+          popisek: " Přírodní koupaliště u Tavíkovic je dlouhé 150 metrů.  ",
+        },
+        { foto: "250rokytna54.jpg  ", popisek: " Nový mlýn  " },
+        {
+          textOdstavce:
+            " U Bendova mlýna jsem přešel řeku po lávce a zamířil do strmých svahů. Tady někde má být podle mapy dolmen, tedy vodorovný kámen na dvou svislých, pravěký zjev někde ze staré Bretaně nebo Irska. Po delším hledání ve vysoké trávě a bez cesty jsem ho skutečně našel. Ale s pravěkem neměl nic společného, výtvor nebyl starý ani sto let. Vede k němu odbočka zelené značky od Rešic a je to památník tragické smrti dvaadvacetiletého mládence.   ",
+        },
+        { foto: "250rokytna56.jpg  ", popisek: " Bendův mlýn  " },
+        { foto: "250rokytna61.jpg  ", popisek: " (červenec 2021)  " },
+        { foto: "250rokytna62.jpg  ", popisek: " Dolmen u Rešic  " },
+        { foto: "250rokytna63.jpg  " },
+        {
+          textOdstavce:
+            " V pozdním odpoledni se začínám zaobírat otázkou vhodného místa na spaní. Ale údolí je úzké, zarostlé, musil bych ležet přímo na cestě, a to není vhodné místo  pro spaní pod širákem.  ",
+        },
+        { foto: "250rokytna57.jpg " },
+        { foto: "250rokytna59.jpg " },
+        { foto: "250rokytna60.jpg  ", naVysku: true },
+        { foto: "250rokytna64.jpg " },
+        {
+          textOdstavce:
+            " Ani u trampského srubu pod Psí skálou se mi to nelíbí. Loučka je zarostlá, zřejmě srub už dlouho nikdo nenavštívil.Chat je v údolí poměrně málo. Pokud jsou, bývají skromné a nenápadné. A i v létě byly většinou prázdné, snad proto, že byl všední den. Dobré místo na bivak jsem našel až na kraji louky u Alinkova. Ale to už jsem byl civilizaci na dosah. Nad lesem se motaly lopaty větrné elektrárny a na mobilu se zčista jasna objevil signál.  ",
+        },
+        { foto: "250rokytna65.jpg  ", popisek: " Železná lávka Pod oborou  " },
+        { foto: "250rokytna66.jpg  ", popisek: " Srub pod Psí skálou.  " },
+        { foto: "250rokytna67.jpg  ", popisek: " Bivak před Alinkovem.  " },
+        {
+          kodMapa:
+            " <iframe style='border:none' src='https://frame.mapy.cz/s/nagolozelu' width='400' height='280' frameborder='0'></iframe>  ",
+          odkazMapa: " https://frame.mapy.cz/s/nagolozelu  ",
+        },
+
+        {
+          textOdstavce:
+            "<h2 class='podnadpis'> Třetí den : pátek 23. července 2021</h3>  ",
+        },
+        {
+          textOdstavce:
+            " <i> Alinkov - pod Čermákovicemi - Tulešice - Jarolímův mlýn - Kuchyňkův mlýn - Vémyslice - Rybníky - Týnský rybník - Moravský Krumlov. 15 km.  </i> ",
+        },
+        {
+          textOdstavce:
+            " Brzy ráno v Tulešicích na mostě jsem se musel rozhodnout, kudy půjdu dál. Buď riskovat cestu kolem řeky beze značky, která tam kdysi vedla. Značkař asi věděl, proč značku přeložil. Nebo po žluté značce s velkým obcházením. Nebo přes Tulešice a po silnici. Volím třetí možnost a brzy se ukáže, že to byla chyba. Silnice je úzká, frekventovaná i brzy ráno a s chodcem se tu vůbec nepočítá. Ještě že se dá jít místy po strništi. Martyrium končí až u Jarolímova mlýna zase u řeky.   ",
+        },
+        {
+          foto: "250rokytna68.jpg  ",
+          popisek: " Ocelový most v Tulešicích. (červenec 2021)  ",
+        },
+        { foto: "250rokytna69.jpg  ", popisek: " Rokytná u Vémyslic.  " },
+        {
+          textOdstavce:
+            " Od Vémyslic do Krumlova ztrácí řeka spád a stává se z ní líně tekoucí, místy regulovaná voda. Za vsí Rybníky jsem narazil na kříž vojína Řezníčka, (SKOK na ID 252), oběť světové války, které až zadlouho po skončení začali říkat první. Škoda, že jsem neodbočil k blízkému kostelíku svaté Markéty, má prý být docela hodnotný. Těšil jsem se na koupání v Týnském rybníku. Ale zklamal jsem se. Týnský rybník je plný vodního ptactva, ale na koupání se nehodí. Chovají v něm kapry a voda je kalná do zelena.  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 252,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 5,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Od Vémyslic do Krumlova ztrácí řeka spád a stává se z ní líně tekoucí, místy regulovaná voda. Za vsí Rybníky jsem narazil na ",
+              textOdkazu: "kříž vojína Řezníčka",
+              zaOdkazem:
+                ", oběť světové války, které až zadlouho po skončení začali říkat první. Škoda, že jsem neodbočil k blízkému kostelíku svaté Markéty, má prý být docela hodnotný. Těšil jsem se na koupání v Týnském rybníku. Ale zklamal jsem se. Týnský rybník je plný vodního ptactva, ale na koupání se nehodí. Chovají v něm kapry a voda je kalná do zelena.",
+            },
+          ],
+        },
+        {
+          foto: "250rokytna70.jpg  ",
+          popisek: " Kříž vojína Řezníčka.  ",
+          naVysku: true,
+        },
+        { foto: "250rokytna71.jpg  ", popisek: " Týnský rybník " },
+        { foto: "250rokytna72.jpg  " },
+        {
+          textOdstavce:
+            " V začínajícím horku jsem se dovlekl do Krumlova. Zámek se intenzívně opravuje a to je dobře, chátral sedmdesát let. Mám za sebou 55 kilometrů a celá anabáze netrvala ani 40 hodin. Dalších 15 kilometrů do Ivančic nechám na jindy, zvláště když od  půlky srpna  má být v zámku opět zpřístupněna Muchova Slovanská epopej.  ",
+        },
+        {
+          foto: "250rokytna73.jpg  ",
+          popisek: " Zámek v Moravském Krumlově (červenec 2021). ",
+        },
+
+        {
+          kodMapa:
+            " <iframe style='border:none' src='https://frame.mapy.cz/s/guralodago' width='400' height='280' frameborder='0'></iframe>",
+          odkazMapa: " https://frame.mapy.cz/s/guralodago ",
+        },
+      ],
+    },
+    {
+      id: 252,
+      kategorie: "pomnicky",
+      pridano: " 31/08/2021 ",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Znojmo ",
+      obec: "  Rybníky  ",
+      jmeno: " Řezníček, Josef  ",
+      nazev: " Kříž vojína Řezníčka ",
+      fotkaUvod: { fotka: " 252reznicek3.jpg " },
+      kdyVznikl: " 1919 ",
+      popisCesty:
+        " Kříž leží 1300 metrů V od kostela v obci Rybníky, na rozcestí polních cest. Vede tu žlutá značka.  ",
+      popis:
+        "  Obyčejný kříž z umělého kamene je vysoký 4 metry. Vpředu malá oválná fotografie. Zepředu i zezadu nápisy na bílém poli.  ",
+      napis:
+        " Opsáno s chybami: … na památku vojína Josefa // Řezníčka jenž padl ve světo // vé válce dne 28/9 1916 ve věku // 44 let u Duino Sistiana // v Přímoří.<br> Ze zadní strany: Na památku // padlého daly // postaviti jeho // sestry // roku 1919. ",
+      pozn: "    ",
+      naposledObnoveno: " 31.8.2021 ",
+      souradnice: " 49.0259525N, 16.2951528E ",
+      odkazMapa: " https://frame.mapy.cz/s/colevuzubu  ",
+      galerie: [
+        {
+          fotka: "252reznicek1.jpg",
+          popisek: " Kříž vojína Řezníčka (červenec 2021) ",
+        },
+        { fotka: "252reznicek2.jpg", popisek: " (červenec 2021) " },
+        { fotka: "252reznicek3.jpg", popisek: " (červenec 2021) " },
+      ],
+      proMe: " XX/1148  24-334-36  ces21---07   ",
+    },
   ],
 };
