@@ -12115,5 +12115,346 @@ export default {
       ],
       proMe: " XX/1148  24-334-36  ces21---07   ",
     },
+    {
+      id: 242,
+      kategorie: "pomnicky",
+      pridano: " 30/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: "  Prace  ",
+      jmeno: " Talárek - Jankových  ",
+      nazev: " Památka na dva zahynulé letce u obce Prace ",
+      fotkaUvod: { fotka: " 242talarekjankovych2_1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Pomník stojí 200 metrů J od kostela v obci Prace, u cesty mezi zahradami.  ",
+      popis:
+        "  Pomník z umělého kamene je 1,1 metru vysoký. Na čelní stěně je vyleptán křížek a velká bílá deska s textem zlatými písmeny.  ",
+      napis:
+        " PAMÁTCE // TRAGICKY  ZAHYNULÝM //  LETCŮM.  // ALOIS  TALÁREK // ČET. PILOT Z PORUBY. // JOSEF  JANKOVÝCH // SVOB. Z  ROVENSKA. // 9. ČERVNA 1938",
+      odkazy: [
+        {
+          nazev: " vets ",
+          adresa:
+            " https://www.vets.cz/vpm/mista/obec/4118-prace/K%20Mohyle%20m%C3%ADru/ ",
+        },
+      ],
+      pozn:
+        " Oba letci s letounem Š 328 cvičili střelbu na vlečný terč. Po splnění úkolu provedl pilot prudkou stoupavou zatáčku, letoun ztratil rychlost a dostal se do vývrtky. Pětkrát se otočil ve vzduchu než dopadl západně od pomníku. Posádka se nepokusila o záchranu. Délesloužícímu četaři Talárkovi bylo 25 let, svobodník aspirant Jankových byl o dva roky mladší.  Toho dne se v čs. armádě staly ještě dvě letecká neštěstí.  ",
+      naposledObnoveno: " 30.8.2021 ",
+      souradnice: " 49.1357742N, 16.7636617E ",
+      odkazMapa: "https://frame.mapy.cz/s/herajojuku",
+      galerie: [
+        {
+          fotka: " 242talarekjankovych1.jpg",
+          popisek: " Památka na dva zahynulé letce u Prace ",
+        },
+        { fotka: " 242talarekjankovych2_1.jpg", popisek: " (březen 2019) " },
+        { fotka: " 242talarekjankovych3_1.jpg", popisek: " Detail desky " },
+      ],
+      proMe: "  2002/445  24-431-13  19---031  ",
+    },
+    {
+      id: 243,
+      kategorie: "pomnicky",
+      pridano: " 30/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - město ",
+      obec: "  Brno - Komín  ",
+      jmeno: " Šimek - Ullmann  ",
+      nazev: " Pomníky Šimka a Ullmanna u medláneckého letiště ",
+      fotkaUvod: { fotka: " 243simekUlman3_1.jpg" },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Na S od Komína, na S úpatí kopce Netopýrky, nad plochou medláneckého letiště.  ",
+      popis:
+        "  Dva pomníky vedle sebe. Šimek: umělý kámen ve tvaru lichoběžníku je vysoký 1,3 metru, je zabudován do základu z kamenů. Na čelní ploše je bílá deska. Ullman: bílá deska je připevněna na soklík. Udržované místo.   ",
+      napis:
+        "  Levý: ZDE  TRAGICKY  ZAHYNUL  10. 9. 1978 // JAROSLAV  ŠIMEK // …  Pravý: MIREK  ULLMANN // ZVANÝ  “AMERIČAN” //  19. 11. 1921  +23. 4. 1994  // TRAGICKY  ZAHYNUL ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=1448 ",
+        },
+      ],
+      pozn:
+        "  Jaroslav Šimek patřil v 60. letech v Brně k zakladatelům a propagátorům vírníkového létání. Měl s vírníkem několik nehod, které neskončily katastrofou. 10. září 1978 ale technická závada - únavový lom ovládací páky - způsobila tragický pád jeho vírníku s fatálními následky pro pilota. Stroj dopadl do těchto míst. Ke druhé pamětní desce nejsou známy podrobnosti. ",
+      naposledObnoveno: " 30.8.2021 ",
+      souradnice: " 49.2340008N, 16.5529556E ",
+      odkazMapa: "https://frame.mapy.cz/s/gepenutonu",
+      galerie: [
+        {
+          fotka: " 243simekUlman1_1.jpg",
+          popisek: " Pomníky Šimka a Ullmanna (duben 2015) ",
+        },
+        { fotka: " 243simekUlman2_1.jpg", popisek: " (duben 2015) " },
+        { fotka: " 243simekUlman3_1.jpg", popisek: " (duben 2015) " },
+      ],
+      proMe: "  XIV/498  24-324-14  15---041  ",
+    },
+    {
+      id: 244,
+      kategorie: "pomnicky",
+      pridano: " 31/08/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Třebíč ",
+      obec: "  Kuroslepy   ",
+      jmeno: " Vojáci - Anglie  ",
+      nazev: " Tragédie britského vrtulníku u Kuroslep ",
+      fotkaUvod: { fotka: " 244vrtulnik1_1.jpg " },
+      kdyVznikl:
+        " Ihned po tragédii se na místě objevilo šest primitivních dřevěných křížků zasazených do kamení. Bylo to dílo okolních chatařů. Později dali na vedlejší skalku kamennou desku. Britská armáda instalovala za pár měsíců oficiální kamenný pomník. V posledních letech jeho viditelnost zvýšil monumentální podstavec a sympatické křížky zmizely. Vedle oficiálního pomníku tu spontánně vzniká mohyla z donesených kamenů. ",
+      popisCesty:
+        " JZ od Kuroslep v údolí Oslavky, na levém břehu. 600 metrů od mlýna Skřípina proti proudu řeky. Navštěvované místo, vede tu červená značka.  ",
+      popis:
+        " Na skalce upozaděná za pomníkem je pamětní deska z tmavého kamene s křížkem a českým textem. Pomník z hrubého kamene je vysoký 1,4 metru, přední stěna je vyleštěna pro anglický nápis a armádní symboly. Původně byl kámen jen zasazen do země, nyní je kolem něj kamenná plošina se schody. Vedle je plechová tabulka (původně byla na ohořelém kmenu) s výzvou k pokládání kamenů a za ní vyrůstá pyramida z donesených kamenů.  ",
+      napis:
+        " Na desce: V TĚCHTO   MÍSTECH // DNE  9. 9. 2004 // PŘI  PÁDU  VRTULNÍKU // TRAG. ZAHYNULO // 6  BRITSKÝCH  VOJÁKŮ // VĚNUJÍ  CHATAŘI <br> Na pomníku: 9TH SEPTEMBER // 2004 // XII. REGIMENT  ROYAL  ARTILLERY // CAPT  DOUC  LOOSE //  SGT  OLLIE  KEMP // GNR  VINCENT  CRAIN // GNR  KEVIN  DIMMOCK // GNR  BRADLEY  GOMERSALL <br> Capt je kapitán, sgt je seržant, četař a gnr znamená svobodník. Kapitán měl 33 roků, ostatní 19 - 26 let. <br> Na plechové tabulce: PŘILOŽ  KÁMEN // NA  MOHYLU // ZA  TRAGICKY // ZAHYNULÉ // BRITSKÉ  VOJÁKY ",
+      odkazy: [
+        {
+          nazev: " Pomníky letců ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/commonwealth-war-graves-commission/9.9.2004---kuroslepy---lynx-ah.9---army-air-corps.html ",
+        },
+        {
+          nazev: " idnes  ",
+          adresa:
+            " https://www.idnes.cz/zpravy/cerna-kronika/na-trebicsku-spadl-vrtulnik-uhorelo-6-lidi.A040909_140302_krimi_jpl ",
+        },
+      ],
+      pozn:
+        "  Vrtulník Lynx AH9 byl zalétán v roce 1986, modernizován v roce 1998. Spolu s dalšími letouny britského královského letectva se účastnil společného desetidenního cvičení české a britské armády v září 2004 nazvaného Flying Rhino, česky Létající nosorožec. Zvláštní název pochází od nosorožce, kterého má 1. britská obrněná divize ve znaku. Její letecká část je tedy Létající nosorožec.<br>K neštěstí došlo třetí den manévrů. Vrtulník vzlétl z Přerova, doplnil palivo v Náměšti a odletěl plnit bojový úkol. Na palubě byli kromě dvou pilotů i čtyři příslušníci jednotky protivzdušné obrany. Další tři sedačky byly prázdné. Vrtulník se snažil přízemním letem proniknout údolím Oslavky. Pilot si nevšiml elektrických drátů, natažených nad údolím ve výšce 25 metrů. Vrtulník do nich narazil, tři z nich přetrhl a zřítil se na břeh Oslavky v místě pomníku. Nehoda se stala v 12.54, za pět minut byla povolána záchranná služba. Trosky vrtulníku dopadly na břeh, vybuchly a začaly hořet. Ocas skončil ulomený v řece, úlomky byly rozmetány po okolí. První dorazil na místo správce vedlejšího tábora a se synem vynesli jednoho hořícího vojáka z kabiny, další vynést pro velký žár nemohli. I ten byl ale mrtev. Ostatní uhořeli v kabině. Sbíhali se chataři i lesní dělníci, pomoci ale nedokázal nikdo. Přijeli hasiči, uhasili trosky a oblast uzavřela armáda. Torzo vrtulníku odvezla armáda do Anglie. <br>Neštěstí patří k nejtragičtějším tohoto druhu u nás. Ještě za půl roku, když jsem na ta místa přišel, byly v okruhu deseti metrů shořelé stromy a spálená tráva sahala až k řece. Ve výroční den tu letci z Náměště každoročně pořádají pietní akt.   ",
+      naposledObnoveno: " 31.8.2021 ",
+      souradnice: " 49.1453211N, 16.1958944E ",
+      odkazMapa: "https://frame.mapy.cz/s/fofudagapu",
+      galerie: [
+        {
+          fotka: " 244vrtulnik1_1.jpg",
+          popisek: " Pomník britské armády (srpen 2018) ",
+        },
+        {
+          fotka: " 244vrtulnik2_1.jpg",
+          popisek: " Deska chatařů (srpen 2018) ",
+        },
+        {
+          fotka: " 244vrtulnik3_1.jpg",
+          popisek: " Plechová tabulka (srpen 2018) ",
+        },
+      ],
+      proMe: "  XV/516  24-332-36  18---082  ",
+    },
+    {
+      id: 245,
+      kategorie: "pomnicky",
+      pridano: " 01/09/2021 ",
+      podkategorie: 5,
+      dveId: true,
+      druh: " Válečné, letecké nehody ",
+      okres: " Vyškov ",
+      obec: "  Ruprechtov  ",
+      jmeno: " Větrov - Oslopov  ",
+      nazev: " Památka dvou vojenských letců u Ruprechtova ",
+      fotkaUvod: { fotka: " 245vetrov1_1.jpg " },
+      kdyVznikl: " pravděpodobně v roce 1980 ",
+      popisCesty:
+        " 2 km JJV  od kostela v Ruprechtově, na průseku vedoucím z plošiny Černov lesem do Rakoveckého údolí. Odbočka zelené značky.  ",
+      popis:
+        "  Tlustá obdélníková kamenná deska rozměrů metr x metr stojí na dvou podporách. Na ní hůře čitelná tabulka s delším textem. Poslední léta je pomník bez péče.  ",
+      napis:
+        " (opsán s chybami)  NA  VĚČNOU  PAMĚŤ  SOV. LETCŮM, - KTEŘÍ // BOJOVALI  ZA  NAŠE  OSVOBOZENÍ - OD // FAŠISTICKÝCH  OKUPANTŮ // V TĚCHTO  MÍSTECH, 25. 4. 1945 - POLOŽILI  SVÉ  ŽIVOTY ČLENOVÉ  SOV. // BOMBARDOVACÍHO  LETADLA A-20-Ž  LETEC - POR. A. A. VĚTROV, A  STŘ. // -  RADISTA  V .A. OSLOPOV // ČEST - JEJICH  PAMÁTCE // OBČANÉ  RUPRECHTOVA - REDAKCE  Z 78   ",
+      odkazy: [
+        {
+          nazev: " Letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/314/ ",
+        },
+        {
+          nazev: " vets ",
+          adresa: " https://www.vets.cz/vpm/mista/obec/144-jezkovice/ ",
+        },
+      ],
+      pozn:
+        " Letoun Douglas A-20 Boston se účastnil náletu deseti bombardérů na Brno. Během cesty ho sestřelil německý stíhač. Dva členové posádky, šturman Oleg Ivanovič Maximov a Mamažan Otožanov dokázali během pádu vyskočit padákem, zachránili se u obyvatelů Hostěnic a za pár dnů se dočkali osvobození. 2.5.1945 už znovu létali u své jednotky. Zbylí dva členové posádky, pilot Anatolij Alexejevič Větrov (23 let) a střelec - radista Vladimír Alexandrovič Ostapov (24 let) se zřítili s letadlem do rokle. Letadlo začalo hořet a v něm explodující bomby rozmetaly trosky do okolí. Letci byli tajně pohřbeni na hřbitově v Ruprechtově. Jejich ostatky spočívají od roku 1980 v urnách na pomníku padlých v Ruprechtově.<br>V roce 1978 se skupinka vojenské historie nazvaná Z77 spolu s místními nadšenci pokusila letadlo vykopat. Byla to jejich první větší akce. Zaštiťoval ji  časopis Zápisník, který v roce 1980 zveřejnil reportáž.  ",
+      naposledObnoveno: " 1.9.2021 ",
+      souradnice: " 49.3098300N, 16.8626675E ",
+      odkazMapa: " https://frame.mapy.cz/s/pejekocubo  ",
+      galerie: [
+        { fotka: "245vetrov1_1.jpg", popisek: " (září 2018) " },
+        { fotka: "245vetrov2_1.jpg", popisek: " (září 2018) " },
+      ],
+      proMe: "  XVI/568  24-412-23  18---091  ",
+    },
+    {
+      id: 246,
+      kategorie: "pomnicky",
+      pridano: " 01/09/2021 ",
+      podkategorie: 3,
+      dveId: true,
+      druh: " Letecké nehody, válečné ",
+      okres: " Vyškov ",
+      obec: "  Ruprechtov  ",
+      jmeno: " Větrov - Oslopov  ",
+      nazev: " Památka dvou vojenských letců u Ruprechtova ",
+      fotkaUvod: { fotka: " 245vetrov1_1.jpg " },
+      kdyVznikl: " pravděpodobně v roce 1980 ",
+      popisCesty:
+        " 2 km JJV  od kostela v Ruprechtově, na průseku vedoucím z plošiny Černov lesem do Rakoveckého údolí. Odbočka zelené značky.  ",
+      popis:
+        "  Tlustá obdélníková kamenná deska rozměrů metr x metr stojí na dvou podporách. Na ní hůře čitelná tabulka s delším textem. Poslední léta je pomník bez péče.  ",
+      napis:
+        " (opsán s chybami)  NA  VĚČNOU  PAMĚŤ  SOV. LETCŮM, - KTEŘÍ // BOJOVALI  ZA  NAŠE  OSVOBOZENÍ - OD // FAŠISTICKÝCH  OKUPANTŮ // V TĚCHTO  MÍSTECH, 25. 4. 1945 - POLOŽILI  SVÉ  ŽIVOTY ČLENOVÉ  SOV. // BOMBARDOVACÍHO  LETADLA A-20-Ž  LETEC - POR. A. A. VĚTROV, A  STŘ. // -  RADISTA  V .A. OSLOPOV // ČEST - JEJICH  PAMÁTCE // OBČANÉ  RUPRECHTOVA - REDAKCE  Z 78   ",
+      odkazy: [
+        {
+          nazev: " Letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/314/ ",
+        },
+        {
+          nazev: " vets ",
+          adresa: " https://www.vets.cz/vpm/mista/obec/144-jezkovice/ ",
+        },
+      ],
+      pozn:
+        " Letoun Douglas A-20 Boston se účastnil náletu deseti bombardérů na Brno. Během cesty ho sestřelil německý stíhač. Dva členové posádky, šturman Oleg Ivanovič Maximov a Mamažan Otožanov dokázali během pádu vyskočit padákem, zachránili se u obyvatelů Hostěnic a za pár dnů se dočkali osvobození. 2.5.1945 už znovu létali u své jednotky. Zbylí dva členové posádky, pilot Anatolij Alexejevič Větrov (23 let) a střelec - radista Vladimír Alexandrovič Ostapov (24 let) se zřítili s letadlem do rokle. Letadlo začalo hořet a v něm explodující bomby rozmetaly trosky do okolí. Letci byli tajně pohřbeni na hřbitově v Ruprechtově. Jejich ostatky spočívají od roku 1980 v urnách na pomníku padlých v Ruprechtově.<br>V roce 1978 se skupinka vojenské historie nazvaná Z77 spolu s místními nadšenci pokusila letadlo vykopat. Byla to jejich první větší akce. Zaštiťoval ji  časopis Zápisník, který v roce 1980 zveřejnil reportáž.  ",
+      naposledObnoveno: " 1.9.2021 ",
+      souradnice: " 49.3098300N, 16.8626675E ",
+      odkazMapa: " https://frame.mapy.cz/s/pejekocubo  ",
+      galerie: [
+        { fotka: "245vetrov1_1.jpg", popisek: " (září 2018) " },
+        { fotka: "245vetrov2_1.jpg", popisek: " (září 2018) " },
+      ],
+      proMe: "  XVI/568  24-412-23  18---091  ",
+    },
+    {
+      id: 247,
+      kategorie: "pomnicky",
+      pridano: " 01/09/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Třebíč ",
+      obec: "  Kladeruby  ",
+      jmeno: " Šigut, Lubomír  ",
+      nazev: " Křížek pilota Šiguta ",
+      fotkaUvod: { fotka: " 247sigut1_1.jpg" },
+      kdyVznikl: " po roce 2000  ",
+      popisCesty:
+        " Pomníček leží 700 metrů ZJZ od kaple v Kladerubech, na plochém vrcholu Mančalov (442 m),  uprostřed lesa bez cesty. U pomníku Krivošina u silnice je třeba odbočit kolmo k silnici a jít lesem asi 120 metrů. Hledá se těžko.  ",
+      popis:
+        "  Na světlém přírodním kamenu je umístěn bílý křížek z umělého kamene s nápisem. Pomník, vysoký 1,4 metru, postavili v místě nálezu těla pilota. Letadlo spadlo nedaleko. Udržováno, vyzdobeno. ",
+      napis: "  L. Š.  // + 16. 6. 2000  ",
+      odkazy: [
+        {
+          nazev: " Letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/571/ ",
+        },
+        {
+          nazev: " Pomníky letců ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/ceske-letectvo/16.6.2000---npor.lubomir-sigut.html ",
+        },
+      ],
+      pozn:
+        " Poručík Lubomír Šigut havaroval s letounem Suchoj SU 22 M4 16. června 2000 při přistávacím manévru čtyři kilometry před přistávací dráhou.<br>Čtyři letouny Suchoj se vracely ze cvičení Clean Hunter 2000 v Německu. Cestou měly ještě plnit další bojový úkol v součinnosti s dalšími dvěma stroji SU 22 a všichni se vraceli na základnu v Náměšti. Všech šest strojů mělo málo paliva a tedy vznikla snaha přistát co nejrychleji. Letoun por. Šiguta měl malý odstup od letounu před ním. Aby odstup zvětšil, letěl tedy co nejpomaleji a dělal prudké zatáčky. Ve stresu vlivem situace zapomněl vysunout vztlakové klapky. Stroj ve vysokém náklonu ztratil rychlost a začal padat. Pilot se sice katapultoval, ale bylo pozdě. Byl nízko nad zemí, padák se nestačil otevřít a sedačka narazila do země. ",
+      naposledObnoveno: " 1.9.2021 ",
+      souradnice: " 49.1431103N, 16.1611936E ",
+      odkazMapa: " https://frame.mapy.cz/s/juboradara  ",
+      galerie: [
+        { fotka: "247sigut1_1.jpg", popisek: " (duben 2010) " },
+        { fotka: "247sigut2_1.jpg", popisek: " Detail křížku (duben 2010) " },
+      ],
+      proMe: " XVII/647  24-331-10  10---04   ",
+    },
+    {
+      id: 248,
+      kategorie: "pomnicky",
+      pridano: " 12/09/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: " Jinačovice   ",
+      jmeno: " Tvrdoň - Rosa  ",
+      nazev: " Památka zahynulým letcům u Jinačovic ",
+      fotkaUvod: { fotka: " 248tvrdonRosa1_1.jpg " },
+      kdyVznikl: " po roce 1954 ",
+      popisCesty:
+        " 800 metrů S od kaple v Rozdrojovicích, na konci zalesněného údolí, v J svahu. Cesta k pomníku nevede, Č značka údolí obtáčí po obvodu.   ",
+      popis:
+        "  Do základu z umělého kamene je vetknuta světlá kamenná deska starobylého tvaru. Na ní je namalován drobný křížek, dvě oválné fotografie a text. Metr vysoký pomníček je zašlý a zapomenutý.  ",
+      napis:
+        " NA  PAMÁTKU // TRAGICKÉ  SMRTI . LETCŮ // JIŘÍHO  TVRDONĚ , IVANA  ROZY // 23. ŘÍJNA 1954  ",
+      odkazy: [
+        {
+          nazev: " Letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/450/ ",
+        },
+        {
+          nazev: " Pomníky letců ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/ceskoslovenske-letectvo/ceskoslovenske-letectvo-1945---1992/pomniky-leteckych-katastrof/23.10.1954---b-33-jinacovice.html ",
+        },
+      ],
+      pozn:
+        " Pilot poručík Jiří Tvrdoň z bitevního leteckého pluku v Brně - Černovicích zalétával 23. října 1954 letoun B33 po přechodu na zimní provoz. Bez povolení vzal na palubu další osobu, palubního střelce desátníka Jiřího Rozu. Ve výšce 1000 metrů uvedl stroj do vývrtky, což nebylo povolené. Vývrtku zvládl 100 metrů nad terénem, ale letadlo ztratilo rychlost a zřítilo se do svahu. Příčinou nehody byla letecká nekázeň.   ",
+      naposledObnoveno: " 12.9.2021 ",
+      souradnice: " 49.2621472N, 16.5121008E ",
+      odkazMapa: " https://frame.mapy.cz/s/refajohuge  ",
+      galerie: [
+        {
+          fotka: "248tvrdonRosa1_1.jpg",
+          popisek: " Památka zahynulým letcům u Rozdrojovic (prosinec 2010) ",
+        },
+        { fotka: "248tvrdonRosa2_1.jpg", popisek: " (prosinec 2010) " },
+      ],
+      proMe: "  XVII/678  24-324-37  obl---BO  ",
+    },
+    {
+      id: 249,
+      kategorie: "pomnicky",
+      pridano: " 13/09/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: "  Hlína  ",
+      jmeno: " Minx, Rostislav  ",
+      nazev: " Pomníček pilotu Minxovi u Hlíny ",
+      fotkaUvod: { fotka: "249minx2_1.jpg" },
+      kdyVznikl: " po 1965 ",
+      popisCesty:
+        " Pomníček stojí 1600 metrů JV od kostela v Hlíně, 1600 metrů Z od kaple v Silůvkách, na svahu kóty 387. Pod ním vede lesní svážnice, ze které nutno odbočit v místě ostrého ohybu, vzhůru po průseku. Nesnadné hledání.   ",
+      popis:
+        "  Na hranolu vyzděném z lomového kamene je šikmo připevněna tmavá lesklá deska se znakem letectva a textem. Před pomníčkem leží vodorovně dvě kamenné desky. Výška pomníčku je 0,7 metru. Udržované místo.  ",
+      napis:
+        " ZDE  TRAGICKY  ZAHYNUL  PŘI // VÝKONU  SLUŽBY NADPOR. LETECTVA // ROSTISLAV  MINX //  25. 9. 1939  + 15. 3. 1965 // OPRAVILA  OBEC  HLÍNA  2015  ",
+      odkazy: [
+        {
+          nazev: "Pomníky letců  ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/ceskoslovenske-letectvo/ceskoslovenske-letectvo-1945---1992/pomniky-leteckych-katastrof/15.3.1965---npor.rostislav-minks.html ",
+        },
+        {
+          nazev: " vets ",
+          adresa: " https://www.vets.cz/vpm/33660-pomnik-rostislav-minks/ ",
+        },
+      ],
+      pozn:
+        "  15. března 1965 odstartovala dvojice Migů 15 z náměšťského letiště k výcviku průzkumu provozu vojska na silnici Ořechov - Ivančice. Po nalezení cíle provedly oba letouny cvičnou zteč na kolonu vojska. Vedoucí dvojice klesl až na výšku 100 metrů nade dnem údolí, tedy pod úroveň okolních kopců a Minx ve druhém stroji ho následoval. Vlivem nesprávné pilotáže v malé výšce narazil rychlostí 550 km/hod do svahu asi 50 m pod vrcholem kóty 387. Příčinou nehody bylo nedodržení bezpečné výšky letounu nad terénem. Místo dopadu je asi 25 metrů od pomníčku.<br>Protože deska na památce byla puklá, nechala obec Hlína pomníček v roce 2015 opravit a vyrobit novou desku s mírně pozměněným nápisem.  ",
+      naposledObnoveno: " 13.9.2021 ",
+      souradnice: " 49.1068294N, 16.4459967E ",
+      odkazMapa: " https://frame.mapy.cz/s/duzavoberu",
+      galerie: [
+        {
+          fotka: "249minx1_1.jpg",
+          popisek: " Pomníček pilotu Minxovi u Hlíny (květen 2017) ",
+        },
+        { fotka: "249minx2_1.jpg", popisek: " (květen 2017) " },
+      ],
+      proMe: "  XIX/845  24-343-41  17---053  ",
+    },
   ],
 };
