@@ -12377,7 +12377,7 @@ export default {
       druh: " Letecké nehody ",
       okres: " Brno - venkov ",
       obec: " Jinačovice   ",
-      jmeno: " Tvrdoň - Rosa  ",
+      jmeno: " Tvrdoň - Roza  ",
       nazev: " Památka zahynulým letcům u Jinačovic ",
       fotkaUvod: { fotka: " 248tvrdonRosa1_1.jpg " },
       kdyVznikl: " po roce 1954 ",
@@ -12400,7 +12400,7 @@ export default {
         },
       ],
       pozn:
-        " Pilot poručík Jiří Tvrdoň z bitevního leteckého pluku v Brně - Černovicích zalétával 23. října 1954 letoun B33 po přechodu na zimní provoz. Bez povolení vzal na palubu další osobu, palubního střelce desátníka Jiřího Rozu. Ve výšce 1000 metrů uvedl stroj do vývrtky, což nebylo povolené. Vývrtku zvládl 100 metrů nad terénem, ale letadlo ztratilo rychlost a zřítilo se do svahu. Příčinou nehody byla letecká nekázeň.   ",
+        " Pilot poručík Jiří Tvrdoň z bitevního leteckého pluku v Brně - Černovicích zalétával 23. října 1954 letoun B33 po přechodu na zimní provoz. Bez povolení vzal na palubu další osobu, palubního střelce desátníka Jiřího Rozu  (někde je uveden jménem Rosa). Ve výšce 1000 metrů uvedl stroj do vývrtky, což nebylo povolené. Vývrtku zvládl 100 metrů nad terénem, ale letadlo ztratilo rychlost a zřítilo se do svahu. Příčinou nehody byla letecká nekázeň.   ",
       naposledObnoveno: " 12.9.2021 ",
       souradnice: " 49.2621472N, 16.5121008E ",
       odkazMapa: " https://frame.mapy.cz/s/refajohuge  ",
@@ -12430,7 +12430,7 @@ export default {
       popis:
         "  Na hranolu vyzděném z lomového kamene je šikmo připevněna tmavá lesklá deska se znakem letectva a textem. Před pomníčkem leží vodorovně dvě kamenné desky. Výška pomníčku je 0,7 metru. Udržované místo.  ",
       napis:
-        " ZDE  TRAGICKY  ZAHYNUL  PŘI // VÝKONU  SLUŽBY NADPOR. LETECTVA // ROSTISLAV  MINX //  25. 9. 1939  + 15. 3. 1965 // OPRAVILA  OBEC  HLÍNA  2015  ",
+        " ZDE  TRAGICKY  ZAHYNUL  PŘI // VÝKONU  SLUŽBY NADPOR. LETECTVA // ROSTISLAV  MINX //  *25.9. 1939  +15. 3. 1965 // OPRAVILA  OBEC  HLÍNA  2015  ",
       odkazy: [
         {
           nazev: "Pomníky letců  ",
