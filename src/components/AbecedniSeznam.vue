@@ -91,7 +91,7 @@
 
   @media (max-width: 1200px) {
     #abecedniSeznam {
-      max-height: 1700px;
+      max-height: 2000px;
     }
 
     .kontejnerJmeno {
@@ -101,7 +101,7 @@
 
   @media (max-width: 700px) {
     #abecedniSeznam {
-      max-height: 2000px;
+      max-height: 2400px;
     }
 
     .kontejnerJmeno {

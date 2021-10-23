@@ -9725,7 +9725,7 @@ export default {
       oblast: " Na východ  ",
       jmeno: " Křenovice  ",
       fotkaUvod: { fotka: " krenovice2.jpg " },
-      podkategorie: 5,
+      podkategorie: 3,
       okres: " Brno - venkov   ",
       obec: " Křenovice  ",
       cislo: " 521  ",
@@ -11770,7 +11770,7 @@ export default {
         },
         {
           textOdstavce:
-            " <h2 class='podnadpis'> První den : středa 21. července 2021</h3> ",
+            " <h2 class='podnadpis'> První den : středa 21. července 2021</h2> ",
         },
         {
           textOdstavce:
@@ -11865,7 +11865,7 @@ export default {
         },
         {
           textOdstavce:
-            "<h2 class='podnadpis'> Druhý den : čtvrtek 22. července 2021 </h3> ",
+            "<h2 class='podnadpis'> Druhý den : čtvrtek 22. července 2021 </h2> ",
         },
         {
           textOdstavce:
@@ -11962,10 +11962,18 @@ export default {
         },
         { foto: "250rokytna43.jpg  ", popisek: "  Rulík zlomocný " },
         { foto: "250rokytna44.jpg  ", popisek: " Divizna jižní rakouská  " },
-        { foto: "250rokytna45.jpg  ", popisek: " Kakost luční  " },
+        {
+          foto: "250rokytna45.jpg  ",
+          popisek: " Kakost luční  ",
+          naVysku: true,
+        },
         { foto: "250rokytna46.jpg  ", popisek: " Zvonek okrouhlolistý  " },
-        { foto: "250rokytna47.jpg  ", popisek: " Zvonek broskvolistý  " },
-        { foto: "250rokytna48.jpg " },
+        {
+          foto: "250rokytna47.jpg  ",
+          popisek: " Zvonek broskvolistý  ",
+          naVysku: true,
+        },
+        { foto: "250rokytna48.jpg ", naVysku: true },
         {
           textOdstavce:
             " Asi dva kilometry pod Kašparovým mlýnem vystupují z boku údolí Vranovické skály., Cvičný terén pro horolezce. Malá stěna je vysoká asi 15 metrů, Velká stěna má výšku 35 metrů a v horní převislé části poskytuje těžké výstupy. Ještě dále je pak skála s obličejem.   ",
@@ -12028,7 +12036,7 @@ export default {
 
         {
           textOdstavce:
-            "<h2 class='podnadpis'> Třetí den : pátek 23. července 2021</h3>  ",
+            "<h2 class='podnadpis'> Třetí den : pátek 23. července 2021</h2>  ",
         },
         {
           textOdstavce:
@@ -12455,6 +12463,999 @@ export default {
         { fotka: "249minx2_1.jpg", popisek: " (květen 2017) " },
       ],
       proMe: "  XIX/845  24-343-41  17---053  ",
+    },
+    {
+      id: 251,
+      kategorie: "pomnicky",
+      pridano: " 06/10/2021 ",
+      podkategorie: 3,
+      druh: " Letecké nehody ",
+      okres: " Brno - venkov ",
+      obec: "  Střelice  ",
+      jmeno: " Kubát, Jiří  ",
+      nazev: " Pomníček kapitána Kubáta ",
+      fotkaUvod: { fotka: " 251kubat1.jpg " },
+      kdyVznikl: " po roce 1965 ",
+      popisCesty:
+        " Nad údolím Bobravy, 1600 metrů JJZ od kostela ve Střelicích, JZ od kóty Vysoká hora (361 m). Ze zářezu pole do listnatého lesa vychází lesní cesta a po 100 metrech přechází nízké žebírko. Pod cestou ve svahu, nenápadné místo.  ",
+      popis:
+        "  Pomníček z umělého kamene je vysoký 0,6 metru. Na něm deska z tmavého kamene s ratolestí a textem. Zašlý nápis byl roku 2012 obnoven.  ",
+      napis:
+        " ZDE  TRAGICKY  ZAHYNUL // PŘI  VÝKONU  SLUŽBY // DNE 17. 6. 1965 // KAPITÁN // JIŘÍ  KUBÁT // VE  VĚKU  33  LET .  ",
+      odkazy: [
+        {
+          nazev: " Pomníky letců ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/ceskoslovenske-letectvo/ceskoslovenske-letectvo-1945---1992/pomniky-leteckych-katastrof/17.6.1965--kpt.jiri-kubat.html ",
+        },
+      ],
+      pozn:
+        "  Kapitán Kubát byl zkušený pilot, měl nalétáno 600 hodin. Osudného dne vzlétl s letounem Mig 19S z letiště v Piešťanech s úkolem cvičně zaútočit na protitankový kanón u Ořechova. Úkol splnil a po posledním náletu ve výšce 200 metrů udělal prudkou zatáčku do protisměru a začal stoupat směrem na Piešťany. Z nezjištěných příčin se za čtyři vteřiny letoun zřítil z tisícimetrové výšky, pilot se nekatapultoval a trosky se rozlétly do daleka. Vyšetřování označilo za pravděpodobný důvod havárie ztrátu orientace v prostoru během stoupání. Pomníček dala postavit rodina zahynulého.   ",
+      naposledObnoveno: " XX.8.2021 ",
+      souradnice: " 49.1382628N, 16.4947575E ",
+      kodMapa:
+        '<iframe style="border:none" src="https://frame.mapy.cz/s/nafufazuna" width="400" height="280" frameborder="0"></iframe>',
+      odkazMapa: " https://frame.mapy.cz/s/nafufazuna",
+      galerie: [
+        {
+          fotka: " 251kubat1.jpg",
+          popisek: "Pomníček kapitána Kubáta (březen 2016) ",
+        },
+        { fotka: " 251kubat2.jpg", popisek: " (březen 2016) " },
+      ],
+      proMe: "  XIX/893  24-341-49  16---036  ",
+    },
+    {
+      id: 253,
+      kategorie: "smircikrize",
+      pridano: " 6/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Lažany 1  ",
+      fotkaUvod: { fotka: " 253lazany12.jpg " },
+      podkategorie: 2,
+      okres: "  Blansko  ",
+      obec: " Lažany  ",
+      cislo: " 0362  ",
+      kdeSeNaleza:
+        "  Na S od Lažan na kraji lesa, blízko silnice z Lažan do Újezdu. Do roku 1972 ležel kámen vyvrácen poněkud více v lese. ",
+      popis:
+        "  Plochá kamenná deska s odlomeným pravým rohem je vysoká 0,8 metru. Na přední straně vystupuje latinský kříž a v pravém dolním rohu je zobrazena hůl - možná smrtící nástroj. Celou plochu pokrývá osmiřádkový nápis středověkou frakturou. Na betonovém základu, do kterého je kámen zasazen, je neumělý novodobý nápis. Kámen je starý nejméně 450 let. ",
+      napis:
+        "  (T)uto jest zabit (Ja) // kub z augezda syn waclava dwora // ka z milonic den // swate Sstiepana ge // hozto Dussi pan // buh rac milostiv // byti //.  Na základu: Opravil L.P. 1972 // Ing.  F. Zachoval. ",
+      povest:
+        "  Kámen postaven na místě přepadení kupců cestujících do Brna.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/lazany.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 27 ",
+        },
+      ],
+      pozn:
+        "  V okresním archivu v Blansku jsou uložena purkrechtní registra města Černá Hora. V nich dávní badatelé objevili zápis z roku 1567. Líčí případ vraždy, spáchané v den svatého Štěpána, tedy 26. 12. 1566. Tehdy otec zavražděného Jakuba, Václav Dvořák spolu s pozůstalou vdovou Annou, obvinili z vraždy Matouška Štědroně z Újezda. Mělo jít o hospodskou rvačku. Na přímluvu purkmistra a dalších mnoha přátel byl Štědroň zproštěn viny. Aby bylo zabráněno krevní mstě, podepsala řada rukojmích 7. listopadu 1567 tuto smlouvu, nařizující pod pokutou, že smír bude dodržen.   ",
+      naposledObnoveno: " 6.10.2021 ",
+      galerie: [
+        { fotka: "253lazany11.jpg", popisek: " (červenec 2021) " },
+        {
+          fotka: "253lazany12.jpg",
+          popisek: " Smírčí kámen 362 Lažany 1 (červenec 2021) ",
+        },
+      ],
+      proMe: " VII/213  24-144-28  21---071   ",
+    },
+    {
+      id: 254,
+      kategorie: "smircikrize",
+      pridano: " 06/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Kuřim 2  ",
+      fotkaUvod: { fotka: " 254kurim2.jpg " },
+      podkategorie: 2,
+      okres: "  Brno - venkov  ",
+      obec: " Kuřim  ",
+      cislo: " 1715  ",
+      kdeSeNaleza:
+        "  původní místo kamene bylo v trati Mózy na JV od Kuřimi. Odtud byl přestěhován ke kostelu svaté Máří Magdalény v Kuřimi a zazděn do kamenné zídky. Ani to ho neuchránilo před stěhováním a od roku 2018 je umístěn kdesi v muzeu.  ",
+      popis:
+        "  zvětralá pískovcová deska je vysoká 1,2 metru. Nahoře vystupuje jetelový křížek, pod ním je šestiřádkový nečitelný název a těžko určitelný útvar. Buď hlava se zaseknutou motykou, případně poutnická hůl s rancem.  ",
+      napis: "  DNE  26  APRIL...ZABITI   zbytek nápisu je nečitelný.   ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/kurim.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Kurim.html ",
+        },
+        {
+          nazev: " SCRáječko ",
+          adresa:
+            " http://www.scrajecko.cz/index.php?page=smirci_krize/kurim_02 ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 57 " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 6.10.2021 ",
+      galerie: [
+        {
+          fotka: "254kurim1.jpg",
+          popisek:
+            " Místo, kde byl zazděn SK 1715 Kuřim do roku 2018 (září 2021) ",
+        },
+        { fotka: "254kurim2.jpg", popisek: " Smírčí kámen 1715 Kuřim " },
+      ],
+      proMe: " XIIIN/408  24-322-88  21---09.   ",
+    },
+    {
+      id: 255,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Habrůvka  ",
+      fotkaUvod: { fotka: " 255habruvka1.jpg " },
+      podkategorie: 2,
+      okres: "  Blansko  ",
+      obec: " Habrůvka  ",
+      cislo: " 1561  ",
+      kdeSeNaleza:
+        "  Na návsi obce Habrůvka. Do roku 1970 stál na zahradě domu č. p. 18.  ",
+      popis:
+        " Obdélníková deska se zkosenými rohy je vysoká 1,1 metru. Pozitivní reliéf latinského kříže vyrůstá z oblouku zvaného oslí hřbet. Na zadní straně desky je tentýž reliéf v negativním provedení. Má vzhled středověkého náhrobníku.  ",
+      napis: "     ",
+      povest:
+        " Vztahuje se ke smrti důstojníka buď z napoleonských válek nebo prusko - rakouské války.   ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/habruvka.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Habruvka.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 45 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 20 ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        {
+          fotka: "255habruvka1.jpg",
+          popisek: " Smírčí kámen 1561 Habrůvka (únor 2021)",
+        },
+        { fotka: "255habruvka2.jpg", popisek: " (únor 2021)", naVysku: true },
+      ],
+      proMe: " XIIIN/387  24-411-51  21---024   ",
+    },
+    {
+      id: 256,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: " Na západ  ",
+      jmeno: " Tišnov 3  ",
+      fotkaUvod: { fotka: " 256tisnov32.jpg " },
+      podkategorie: 5,
+      okres: "  Brno - venkov  ",
+      obec: "  Tišnov ",
+      cislo: " 1485  ",
+      kdeSeNaleza:
+        "  V Tišnově na Klášterské ulici naproti ulici Pod Květnicí. Je na soukromém pozemku firmy, za drátěným plotem, přes léto není skoro vidět kvůli vegetaci (stav 2021). Dříve byl na stejném místě zazděn v kamenné ohradní zdi. ",
+      popis:
+        "  Na obdélníkové desce vysoké 0,9 metru je reliéf kříže s rozštěpenou nohou. ",
+      napis: "     ",
+      povest:
+        "  Podle nápisu v tišnovské radnici byl na tomto místě roku 1620 zabit tišnovský primátor Jiřík Mydlář, když se snažil zabránit polským žoldnéřům v plenění.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/tisnov.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Tisnov.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 65 " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 10.  " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        { fotka: " 256tisnov31.jpg", popisek: " (září 2021) " },
+        { fotka: " 256tisnov32.jpg", popisek: " Smírčí kámen 1485 Tišnov 3 " },
+      ],
+      proMe: "  XIIIN/391  24-321-32  21---09.  ",
+    },
+
+    {
+      id: 257,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: "  Na sever ",
+      jmeno: "  Drásov 3 ",
+      fotkaUvod: { fotka: " 257drasov32.jpg " },
+      podkategorie: 2,
+      okres: "  Brno - venkov  ",
+      obec: " Drásov  ",
+      cislo: " 1786  ",
+      kdeSeNaleza:
+        " Původně ležel u cesty ke Všechovicím. Nyní je zazděn do kamenné hřbitovní zdi v Drásově, vlevo od hlavní brány. Hřbitovní zeď byla stavěná kolem roku 1893.  ",
+      popis:
+        "  Trojúhelníkový kámen z červeného pískovce s vyrytým latinským křížem. Má rozměr 42 x 40 centimetrů. Jde zřejmě o zlomek smírčího kamene. ",
+      napis: "     ",
+      povest: "  Označoval hrob vojáků padlých ve třicetileté válce.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/drasov.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Drasov.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 56 " },
+        { nazev: "  " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        { fotka: "257drasov31.jpg", popisek: "  (září 2021)  " },
+        {
+          fotka: "257drasov32.jpg",
+          popisek: " Smírčí kámen 1786 Drásov 3 (září 2021) ",
+        },
+      ],
+      proMe: "  XX/1152  24-321-86  21---09.  ",
+    },
+    {
+      id: 258,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Lažany 2  ",
+      fotkaUvod: { fotka: " 258lazany2.jpg " },
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: " Lažany  ",
+      cislo: " 1728  ",
+      kdeSeNaleza:
+        "  V předzahrádce rodinného domku čp. 72 v Lažanech. Původně se nalézal při cestě z Lažan do Újezda na starém pastvisku. Později stál na dvoře domu čp. 72.  ",
+      popis:
+        "  Obdélníkový kámen s uraženým levým rohem je vysoký 0,8 metru. Na silně zvětralém povrchu vystupuje neznatelně maltézský kříž s rozštípenou patou.   ",
+      napis: "     ",
+      povest:
+        "  Dívka chodila se dvěma chlapci a chtěla se vdát za toho, který zvítězí v souboji. Oba nápadníci se ale výstřely z bambitek zastřelili navzájem. Divka se pak ze zoufalství vrhla ze skály. Aby toho nebylo málo, tak se její tělo rozpůlilo a každá půle byla  pochována s jiným sokem. V jiné verzi, zapsané na konci 19. století, šlo o urozenou dámu a nápadníci byli bratři.   ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/lazany.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 29 ",
+        },
+      ],
+      pozn:
+        "  Původní stanoviště kamene bylo na místě, kde se stýkaly hranice tří panství, černohorského, blanenského a brněnského. Mohlo tedy jít o hraniční kámen. Proti němu stál v poli jiný kámen (1727 Lažany 4), ale ten se nedochoval, byl zničen nebo ztracen kolem roku 1980. Údajně skončil v základech rodinného domu, tam stavěného. ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        {
+          fotka: "258lazany2.jpg",
+          popisek: " Smírčí kámen 1728 Lažany 2 (červenec 2021) ",
+        },
+      ],
+      proMe: " XVII/608  24-322-55  21---071   ",
+    },
+    {
+      id: 259,
+      kategorie: "smircikrize",
+      pridano: " 08/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Lažany 3  ",
+      fotkaUvod: { fotka: " 259lazany31.jpg " },
+      podkategorie: 2,
+      okres: "  Blansko  ",
+      obec: " Lažany  ",
+      cislo: " 1724  ",
+      kdeSeNaleza:
+        "  Kámen stojí v lese Brlohy S od Lažan, u lesní cesty. Hledání není úplně jednoduché.  ",
+      popis:
+        "  Mohutná mramorová deska obdélníkového tvaru je vysoká 1,4 metru. Zepředu je vysekán latinský kříž s rozštípenou patou. V břevnu a kůlu kříže jsou tři hřeby. Pod křížem jsou dva štítky se znaky soukenického řemesla, postřihovačské nůžky a soukenická štětka. Pod rameny kříže je třířádkový latinský nápis tesaný gotickou minuskulí. ",
+      napis:
+        "  Byl čten v minulosti více autory různě. Popisuje Nečasová. Poslední nejpravděpodobnější čtení je toto :   hic in  terem // (p)t(us) myc  hel  ka // isser  dict(us) , česky: Zde byl usmrcen Michael, zvaný Císař. Typ písma je z 15. století. ",
+      povest:
+        "  Podle lidového vyprávění byl kámen postaven na památku nějakého krále, který tudy prchal. Nedalekým údolím vedla významná Trstenická stezka.  ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 47 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 27 ",
+        },
+      ],
+      pozn:
+        "  Kámen se velikostí a provedením vymyká všem ostatním na Brněnsku. Od 19. století neuniká pozornosti vlastivědců a jejich spekulacím.<br>Někde používaný název kamene Milonice-Závist nemá opodstatnění, protože kámen leží na hranici katastrů Lažan a Újezdu.  ",
+      naposledObnoveno: " 8.10.2021 ",
+      galerie: [
+        {
+          fotka: "259lazany31.jpg",
+          popisek: " Smírčí kámen 1724 Lažany 3 (červenec 2021) ",
+        },
+        { fotka: "259lazany32.jpg", popisek: " (červenec 2021) " },
+        {
+          fotka: "259lazany33.jpg",
+          popisek: " Detail nápisu (červenec 2021) ",
+        },
+      ],
+      proMe: "  XVII/609  24-144-28  21---071  ",
+    },
+    {
+      id: 260,
+      datum: " 19. - 24. srpna 2021  ",
+      formatDatum: "05/10/2021",
+      pridano: " 05/10/2021 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Chočské vrchy ",
+      fotkaUvod: { fotka: " 260choc30.jpg " },
+
+      text: [
+        {
+          textOdstavce:
+            " Chočské vrchy nejsou úplně tuctovým pohořím. Nemají dominantní hřeben jako sousední hory. Z nevýrazného nízkého rozvodí vybíhají k jihu mohutné rozsochy s vrcholy. Jsou odděleny od sebe relativně hlubokými dolinami. Od Kralovan, kde na soutoku Oravy a Váhu pohoří začíná, až po Hutianské sedlo na východě jsem napočítal 20 vrcholků s výškou nad tisíc metrů, každý na zvláštním hřebínku, na některé ani nevede cesta. Kdysi v 80. letech vyšel v Krásách Slovenska popis “hřebenovky” Chočskými vrchy, vzniklý pospojováním kopců do jedné linie. Ale byl to tak šílený nápad s obrovským převýšením a neschůdným prodíráním bezcestnými pralesy, že pochybuji, zda to někdo podle tohoto nápadu absolvoval. I my jsme měli v plánu projít část pohoří systémem “kudy nás hora pustí” a navštívit několik vyhlídkových vrcholů. ",
+        },
+        {
+          textOdstavce:
+            "  <h2 class='podnadpis'>První den : čtvrtek 19. srpna 2021 </h2> ",
+        },
+        {
+          textOdstavce:
+            "  <i>Vlakem z Brna do Ružomberoka. Pěšky Likavka - Márna - sedlo Ondrejkov - sedlo Spuštiak - Polana pod Chočom (1250 m). 10 km, 800 m převýšení, 3.20 hodin našeho času.</i>  ",
+        },
+        {
+          textOdstavce:
+            "  Plány prvního dne zhatil hned zkraje rychlík Regiojet, který postupně nabral zpoždění 65 minut a tudíž nám ujel přípoj kterým jsme se chtěli dostat pod kopec Šíp. Nezbylo nám, než začít rovnou z Ružomberoka. Nerad bych vychvaloval staré časy, ale co se dopravy na Slovensko týče, musím nostalgicky vzpomínat na doby mládí, kdy stačilo přijít večer na hlavní nádraží, koupit jízdenku za zhruba padesátikorunu, sednout do nočního rychlíku Petrov a ráno se probudit s výhledem na slovenské končiare. Dnes je doprava na Slovensko celodenní záležitostí, spojená s přesedáním a nenavazujícími spoji. Zvláště zpáteční cesty bývají náročné. Tři železniční společnosti neuznávají jízdenky od konkurence, přes noc ruch na dráze usíná, je nutno měnit peníze, v době koronaviru vyplňovat a opatrovat jakási lejstra. Trochu to připomíná dobrodružné vlakové výpravy na Balkán v sedmdesátých letech, chybí jen celní a devizové prohlášení a bdělí pohraničníci.   ",
+        },
+        {
+          foto: " 260choc1.jpg  ",
+          popisek: " Obec Likavka, předměstí Ružomberoka.  ",
+        },
+        { foto: " 260choc2.jpg  ", popisek: " Zřícenina Likava z dálky.  " },
+        {
+          foto: " 260choc3.jpg  ",
+          popisek: " Stavba dálnice u Ružomberka. (srpen 2021)  ",
+        },
+        {
+          textOdstavce:
+            "  Kvůli pokročilé době jsme tedy vyrazili nejjednodušší cestou na Choč. Po modré značce se vystupuje poměrně rovnoměrně, jedno místo je poněkud prudší. V obci Likava jsme vypili první a poslední piva na tomto vandru. Z dálky jsme viděli mohutnou zříceninu Likavského hradu, ale nelákal nás, už jsme tam kdysi byli. Kolem Ružomberoka se po obrovských mostech bude vznášet dálnice Bratislava-Košice. Začala se budovat v osmdesátých letech a za 40 let se budovatelé dostali zhruba po Žilinu. Zdá se, že na Slovensku pokračuje výstavba nových dálnic stejným tempem, jako u nás. Obláček na snímku mostu vlevo je prach, když dálnici zametají.<br>V jednom místě jsme sešli ze značené cesty, ale bylo to ku prospěchu cesty, protože jsme objevili příjemné místo se studánkou Márna a několika chatami. Se západem slunce jsme dorazili na Polanu pod Chočem, kde je dost místa na stavění stanu. Na kraji stojí přístřešek, na Mapy.cz označený jako Hotel Choč, snad uživatelé pochopí ironii. Bylo v něm docela čisto, ale my raději spáváme ve svém.   ",
+        },
+        { foto: " 260choc4.jpg  ", popisek: " Studánka Márna. " },
+        { foto: " 260choc5.jpg  " },
+        {
+          foto: " 260choc6.jpg  ",
+          popisek: " Na Polaně pod Chočem zapadá slunce. ",
+        },
+        { foto: " 260choc7.jpg  " },
+        {
+          foto: " 260choc8.jpg  ",
+          popisek: " Hotel Choč na Polaně, z doby, kdy se tu páslo. ",
+        },
+        {
+          odkazMapa: " https://frame.mapy.cz/s/kodelehopu  ",
+        },
+
+        {
+          textOdstavce:
+            " <h2 class='podnadpis'>Druhý den : pátek 20. srpna 2021</h2>   ",
+        },
+        {
+          textOdstavce:
+            "  <i>Polana pod Chočom - zimná cesta - Velký Choč (1611 m) - sedlo Vráca - polana Uhliska - sedlo Vrchvarta - Ostrý vrch - Malatiná - údolí za Malatinou. 15 km, 700 m přev., 7.00 hodin naší chůze.</i>   ",
+        },
+        {
+          textOdstavce:
+            "  Těšili jsme se na pověstný východ slunce na Choči. Legendární záležitost, kterou vyhledávali slovenští vlastenci už od 80. let 19. století. Mistrně výstup popsal otec slovenské turistiky Miloš Janoška, který se ho v té době jako dítě účastnil. Tehdy to byla více společenská a národovecká záležitost než turistická, protože turistika na Slovensku ještě neexistovala. Blahé časy. Dnes na Choči nebudete sami ani ve všední den. Leč východ slunce se nepovedl, slunce vyšlo do mraků. Na Choč vedou čtyři značené cesty. Všechny jsou strmé. My jsme si vybrali nejjednodušší zimní cestu.  ",
+        },
+        { foto: " 260choc9.jpg  ", popisek: " Místo východu slunce.  " },
+        { foto: " 260choc10.jpg  ", popisek: "  Zimní cestou na Choč. " },
+        { foto: " 260choc11.jpg  ", popisek: " Velká Fatra od Choče.  " },
+        {
+          textOdstavce:
+            "  Všiml jsem si v posledních letech, že většina Slováků chodících po horách má chorobný strach z medvědů. Téma “medvede” bylo prvním v hovoru, zvláště když viděli, že budeme spát v lese. Jen díky tomu jsou tradiční horská  tábořiště i v plné sezóně prázdná. Řada osamocených turistů nosí na batohu rolničku a na dálku se ohlašují melodickým zvoněním. Až se medvědi naučí, že chutnou a nebránící se potravu najdou tam, kde to zvoní, bude zle. Zatím medvědi vybírají popelnice v podhorských obcích a o tom, že by vytahovali spící turisty ze stanů, jsem neslyšel. Máme ze šelem respekt, děláme při chůzi hluk, ale stále platí: Kdo se bojí, nesmí do lesa. Pozorování medvěda z bezpečné vzdálenosti je vrcholný zážitek.  ",
+        },
+        {
+          foto: " 260choc12.jpg  ",
+          popisek: " Pohled z Velkého Choče k východu, na Roháče.  ",
+        },
+        {
+          foto: " 260choc13.jpg  ",
+          popisek: " K západu byl vidět zamlžený Velký Rozsutec.  ",
+        },
+        {
+          foto: " 260choc14.jpg  ",
+          popisek: " Liptovská Mara z vrcholu Choče.  ",
+        },
+        {
+          textOdstavce:
+            "  Dohlednost z Velkého Choče byla na letní podmínky dobrá, ale nikoliv ideální. Zamlžené hory byly vidět do vzdálenosti sedmdesáti kilometrů. Až tady bylo vidět, jak rozsáhlý komplex kopců ten Choč je. Spousta rozsoch, předvrcholů, sedel, pasek, hlubokých dolin, z lesů vykukují skály. Týdny by se tu dalo chodit. K sestupu jsme si vybrali červenou značku směrem na Lúčky, ale brzy jsme ji opustili a lesní cestou klesli o 900 výškových metrů do doliny Uhliska. Zprvu byla pěšina jištěna na několika místech řetězy, posléze strmě padala do údolí. Jít tudy nebyl dobrý nápad, Lída si sestupem odrovnala kolena.    ",
+        },
+        { foto: " 260choc15.jpg  ", popisek: " Malý Choč (1465 metrů).  " },
+        {
+          foto: " 260choc16.jpg  ",
+          popisek: "  Máme sestup za sebou  ",
+          naVysku: true,
+        },
+        { foto: " 260choc17.jpg  ", popisek: " Velký Choč od východu  " },
+        {
+          textOdstavce:
+            "  Ještěže další terén byl mírnější. Prošli jsme Malatinou a za ní se na noc uchýlili do úzkého údolí, naštěstí vysečeného. Už druhý den jsme měli na hory nezvyklé bezčasí. V noci poměrně teplo, ve dne beze slunce a k tomu naprosté bezvětří. Ani na vrcholu Choče se vzduch nehnul. Nepamatuji nic takového. Náš stan je konstruován do větrného počasí, silný vítr mu nevadí. Ale za bezvětří se v něm poněkud dusíme, zvláště když tam vaříme. ",
+        },
+        {
+          foto: " 260choc18.jpg  ",
+          popisek: " Malatiná, vzadu jsou vidět Roháče. ",
+        },
+        { foto: " 260choc19.jpg  " },
+        {
+          textOdstavce:
+            " Byť byl konec srpna, na dolomitové kře Velkého Choče stále něco kvetlo. Největším špekem se ukázal hořeček fatranský, krásná nafialovělá rostlina, která rozkvétá v srpnu. Je to endemit středního Slovenska, který krom Fatry roste jen v Chočském pohoří a Tatrách, vždy na vápenci. I na Choči jsme našli jen pár těchto rostlin. ",
+        },
+        { foto: " 260choc20.jpg  ", popisek: " Hořeček fatranský " },
+        // {
+        //   foto: " 260choc21.jpg  ",
+        //   popisek: " Nálezy z Velkého Choče (srpen 2021) ",
+        // },
+        { foto: " 260choc22.jpg  ", popisek: " Chrpa parukářka " },
+        { foto: " 260choc23.jpg  ", popisek: " Oman " },
+        {
+          foto: " 260choc24.jpg  ",
+          popisek: " Oměj šalamounek ",
+          naVysku: true,
+        },
+        { foto: " 260choc25.jpg  ", popisek: " Zvonek " },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/fedukapugo" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/fedukapugo  ",
+        },
+
+        {
+          textOdstavce:
+            " <h2 class='podnadpis'>Třetí den : sobota 21. srpna 2021</h2>  ",
+        },
+        {
+          textOdstavce:
+            " <i>Za Malatinou - Grúň - Pajta na Grúni - severní svah Lomného - sedlo Rovne - sedlo Prietržná - Pravnáč (1206 m) - Liptovská Anna - Ižipovce - nad Prosiekem. 14 km, 600 m přev., 4.20 hod naší chůze.</i>   ",
+        },
+        {
+          textOdstavce:
+            " Předpověď na další dva dny byla příznivá, mělo být krásné letní počasí. Už z dálky bylo vidět, že na louce pod Grúněm stojí nějaký objekt přímo na hřebeni. V exponované poloze, viditelná ze všech stran tu stála kůlna - šopa, kterou po válce zbudovali malatinští gazdové na ustájení ovcí před letním nečasem. Stavba nemá v okolí obdobu, zahrála si v několika filmech. Jenže zub času zahlodal na dřevěných trámech a kůlna hrozila zřícením, nechybělo mnoho. Obec ji přihlásila do slovensko -  polského projektu na zachování památek na ovčáctví a našly se peníze na znovupostavení Pajty. Objekt byl právě dokončen, svítil novotou, dokonce písek na podlaze byl čerstvě uhrabán. Uvnitř bylo jen pár fotek z historie ovčáctví v Malatinej, byla tam i palanda na přenocování.  ",
+        },
+        { foto: " 260choc26.jpg " },
+        {
+          foto: " 260choc27.jpg  ",
+          popisek: " Pajta na Grúni, nad ní Lomné (1278 m) ",
+        },
+        { foto: " 260choc28.jpg  ", popisek: "  (srpen 2021)" },
+        { foto: " 260choc29.jpg  " },
+        {
+          textOdstavce:
+            " Odtud jsme stoupali mírným výstupem v severním svahu Lomného. Mířili jsme na Pravnáč, ale ne po značce, která jde hřebenem, ale po vrstevnicových lesních svážnicích. Smrkový les tu už přestal existovat, z úbočí byly daleké výhledy. Výstup na Pravnáč (1206 m) byl vcelku mírný, pohodlný. Na bezlesém vrcholu porostlém růžovou vrbovkou stál dřevěný kříž z podivně opracovaného dřeva. Místo dalekého kruhového výhledu. ",
+        },
+        { foto: " 260choc30.jpg " },
+        {
+          foto: " 260choc31.jpg  ",
+          popisek: " Medvědí stopu překrývá stopa mladé laně. ",
+        },
+        { foto: " 260choc32.jpg  ", popisek: "  Vrchol Pravnáče." },
+        {
+          foto: " 260choc33.jpg  ",
+          popisek: " Podivně vroubkovaný kříž na vrcholu Pravnáče.",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Sestup po značené cestě na jižní stranu byl velmi prudký. Rázem jsme spadli o 500 výškových metrů přímo ke zřícenině kostela v Liptovské Anně. Slovensky a místně Svätanna.  Ruina kostela pochází z poloviny 13. století. Kostel vyhořel roku 1805 a nebyl obnoven. U kostela stojí novodobá dřevěná zvonice. ",
+        },
+        { foto: " 260choc34.jpg  ", popisek: "  Sestup z  Pravnáče." },
+        {
+          foto: " 260choc35.jpg  ",
+          popisek: "  Ruina raně gotického kostela.",
+        },
+        {
+          foto: " 260choc36.jpg  ",
+          popisek: "  Kostel shořel roku 1805 a nebyl obnoven.",
+        },
+        {
+          textOdstavce:
+            " Na noc jsme se uložili na lučinatém hřbetě mezi Ižipovcemi a Prosieckou dolinou. V Ižipovcích si nějaký zbohatlík pořídil (nebo pronajal?) helikoptéru a podnikal si vyhlídkové lety mezi kopce. Viděli jsme ho startovat pod námi nejméně šestkrát, přistával na louce, kroužil mezi kopci, rachotil nad lesy. Musel nás vidět, létal nad námi. Tak už nejen čtyřkolky, ale i vrtulník. Bylo to nepříjemné.  ",
+        },
+        {
+          foto: " 260choc37.jpg  ",
+          popisek: " Nocleh nad Prosieckou dolinou.",
+        },
+        { foto: " 260choc38.jpg " },
+        { foto: " 260choc39.jpg " },
+        {
+          kodMapa:
+            '<iframe style="border:none" src="https://frame.mapy.cz/s/gujunosalo" width="400" height="280" frameborder="0"></iframe>',
+          odkazMapa: " https://frame.mapy.cz/s/gujunosalo  ",
+        },
+
+        {
+          textOdstavce:
+            "  <h2 class='podnadpis'>Čtvrtý den : neděle 22. srpna 2021</h2>  ",
+        },
+        {
+          textOdstavce:
+            " <i>Nad Prosiekem - Prosiek - Vráta - Prosiecká dolina - Červené piesky - Vyšný Stras - Svorad - Prosečné (1372 m) - a zpět na Svorad. 13 km, 800 metrů převýšení - 4.30 hodin průvodcovského času.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Tento den jsme si přivstali. Prosiecká dolina patří mezi turistické magnety a když jsme nechtěli jít v davu, nezbylo nám než vyrazit brzy ráno. V ústí doliny je malý kemp a parkoviště, kde se platí, za vstup do doliny po nás nikdo nic nechtěl. Plán nám vyšel, ten den jsme ji prošli první - aspoň tu spodní část. Ta se jmenuje Vráta.  ",
+        },
+        {
+          foto: " 260choc40.jpg  ",
+          popisek: " Vstup do Prosiecké doliny vypadá nenápadně.",
+        },
+        { foto: " 260choc41.jpg  ", popisek: " Úzká spodní část Vráta." },
+        { foto: " 260choc42.jpg " },
+        {
+          textOdstavce:
+            " Nad Vráty vyvěrá potok z mohutné vyvěračky a nad ním je údolí většinu roku suché, kamenitým korytem teče voda říčky Prosečianky jen při vodních přívalech. Kudy potok zdolá ty dva kilometry v podzemí, není známo. Asi se tu dají očekávat významné speleologické objevy. Povrchové krasové jevy, vstupy do podzemí, jsou známy všechny, ale objevy spojené s kopáním ještě na objevitele čekají.  ",
+        },
+        { foto: " 260choc43.jpg " },
+        { foto: " 260choc44.jpg " },
+        { foto: " 260choc45.jpg " },
+        {
+          textOdstavce:
+            " V horní části kaňonu je krátká odbočka k vodopádu Červené piesky. Protože už dlouho nepršelo, měl patnáctimetrový vodopád málo vody a i ta se brzy ztratila v kamení. Značená cesta ale pokračuje do nejromantičtější části, zvané Nižný a Vyšný Straz. V ní je několik železných žebříků a stezka je zabezpečena lany. Ty jsou velmi zapotřebí, protože vlivem značné návštěvnosti doliny jsou všechny stupy ohlazené a za mokra kloužou. Vysoko nad hlavami návštěvníků jsou vidět železné traverzy. Až v této výšce  byl uložen dřevěný most, než ho odnesla v letech 1944 a 1945 velká voda. Sloužil v zimě, kdy tudy gazdové z Prosečného vozili na saních seno, které v létě nasušili na lukách planiny Svorad. Musela to být hrozná práce. ",
+        },
+        { foto: "260choc46.jpg  ", popisek: " Vyšný Straz  ", naVysku: true },
+        { foto: " 260choc47.jpg " },
+        { foto: " 260choc48.jpg " },
+        {
+          textOdstavce:
+            " Chtěli jsme vyjít na nějaký kopec s výhledem, na který moc lidí nechodí. Volba padla na Prosečné. Horská služba varovala, že zelená značka ze Svoradu na Prosečné je zavalená polomy a zarostlá maliním a tedy těžko schůdná. To nám nevadilo. Dokonce se z chumlu výletníků na rozcestí dva odpoutali, když viděli, kam jdeme, a šli stejnou trasou. Nevím, jestli nelitovali. V lukách jsme nemohli najít značený chodník, pak jsme prudce stoupali úbočími, kde býval les a nezbylo z něj skoro nic. Pěšina v horní části byla silně zarostlá, protože se tudy momentálně nechodí. Byť byla neděle, letní sezona, krásné počasí - tady byl klid.  ",
+        },
+        { foto: "260choc49.jpg  ", popisek: " Planina Svorad  " },
+        {
+          foto: "260choc50.jpg  ",
+          popisek: " Výhled z úbočí Prosečného na Svorad ",
+        },
+        {
+          foto: "260choc51.jpg  ",
+          popisek: " Přes mrtvý les je vidět Liptovská Mara ",
+        },
+        { foto: "260choc52.jpg  ", popisek: " Tudy se nechodí " },
+        {
+          textOdstavce:
+            " Nahoře nebyl vrchol, ale hřebínek s několika vrcholy. Ten nejvyšší je Prosečné, kóta 1372 metrů. Výhledy na všechny strany ale byly výborné. Zvláště vodní nádrž Liptovskou Maru jsme měli jako na dlani. Byla postavena v roce 1975 a její vody zaplavily na Liptově 13 dědin. Funguje jako přečerpávací elektrárna, protože pod ní je menší nádrž Bešeňová. Nezatopené okolní obce si hodně pomohly, vtrhl do nich rekreační průmysl. Vrátili jsme se stejnou cestou na Svorad.  ",
+        },
+        {
+          foto: "260choc53.jpg  ",
+          popisek: " Prosečné je jen malá kupka v hřebeni. ",
+        },
+        { foto: "260choc54.jpg  ", popisek: " Roháče z Prosečného.  " },
+        { foto: "260choc55.jpg  ", popisek: " Liptovská Mara  " },
+        {
+          foto: "260choc56.jpg  ",
+          popisek: " Sestup stejnou cestou ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " I na vápencové kře Prosečného to pěkně kvetlo. Zvláště velké trsy modrého hořce tolitovitého zvěstovaly konec léta. Mýtiny po polomech a uschlý les ozvláštňovala fialová barva vrbovky úzkolisté, která tu rostla na velkých plochách. Měli jsme silný pocit, že nahoře ještě příroda vládne a člověk se jí do toho nemíchá.  ",
+        },
+        { foto: "260choc68.jpg  ", popisek: " Tolije bahenní. " },
+        { foto: "260choc69.jpg  " },
+        { foto: "260choc70.jpg  ", popisek: " Havez česnáčková. " },
+        { foto: "260choc71.jpg  " },
+        {
+          foto: "260choc72.jpg  ",
+          popisek: " Hořec tolitovitý.  ",
+          naVysku: true,
+        },
+        { foto: "260choc73.jpg  " },
+        {
+          foto: "260choc74.jpg  ",
+          popisek: " Zvonek maličký, v Česku neroste. ",
+        },
+        { foto: "260choc75.jpg  ", popisek: " Vrbovka úzkolistá. " },
+        {
+          textOdstavce:
+            " Krasová plošina Svorad je zvláštní útvar. Je pokrytá loukami s osaměle stojícími stromy. Voda z ní mizí ve velkém propadání uprostřed. Skoro celá se seče, některé části vypásá hovězí dobytek. My jsme si našli schované rovné místo na delší táboření, protože předpověď počasí věštila přechod studené fronty s dlouhým deštěm. Večer jsme důkladně postavili stan, obstarali zásobu vody a těšili se na hru na zelenou propast času, kterou dle návodu Mistra Miloslava Nevrlého při takových příležitostech hrajeme. Je k ní třeba šumění deště na stanové plátno, únava a dostatek času. Tehdy si na horách skutečně odpočineme. ",
+        },
+        { foto: "260choc57.jpg  ", popisek: " Pastva na Svoradu " },
+        { foto: "260choc58.jpg  ", popisek: " Velký Choč ze Svoradu. " },
+        {
+          foto: "260choc59.jpg  ",
+          popisek: " Tábořiště s výhledem na Roháče. ",
+        },
+        {
+          kodMapa:
+            '<iframe style="border:none" src="https://frame.mapy.cz/s/jecavazojo" width="400" height="280" frameborder="0"></iframe>',
+          odkazMapa: " https://frame.mapy.cz/s/jecavazojo  ",
+        },
+
+        {
+          textOdstavce:
+            " <h2 class='podnadpis'> Pátý a šestý den : pondělí  23. a úterý 24. srpna 2021<h2> ",
+        },
+        {
+          textOdstavce:
+            " <i>Svorad - Veľké Borové - Ráztoka - vodopády v Ráztoce - Kvačianská dolina - Oblazy - nad Kvačianskou dolinou - Roháč - Kvačany - nouzové přenocování nad Kvačany. Ráno autobusem Liptovský Mikuláš - vlaky přes Bohumín do Brna. 10 km, 3 hodiny průvodcovského času.</i> ",
+        },
+        {
+          textOdstavce:
+            " Předpověď počasí se vyplnila, celé dopoledne pršelo, přestalo až kolem 14. hodiny. To je hraniční čas na rozmyšlení, jestli vůbec stojí za to jít dál, nebo zůstat celý den na jednom místě. Tedy jsme se sbalili a s lítostí opustili suché a rovné místo.   ",
+        },
+        {
+          foto: "260choc60.jpg  ",
+          popisek: " Tentýž výhled druhý den v poledne. ",
+        },
+        { foto: "260choc61.jpg " },
+        { foto: "260choc62.jpg  ", popisek: " Velké Borové. " },
+        { foto: "260choc63.jpg " },
+        {
+          textOdstavce:
+            " Protože bylo krátce po dešti, nechodili výletníci a všechny občerstvovny po cestě přes Veľké Borové měly zavřeno. Zato vodopády v dolině Ráztoka měly vody dost. Sestoupili jsme na dno Kvačianské doliny. A dobrá zpráva je, že oba mlýny na Oblazech povstávají z ruin.  ",
+        },
+        { foto: "260choc64.jpg  ", popisek: " V dolině Ráztoka. " },
+        { foto: "260choc65.jpg " },
+        { foto: "260choc66.jpg " },
+        {
+          foto: "260choc67.jpg  ",
+          popisek: " Na mostě přes Kvačianku ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Silnička kolem Oblazů byla do 80. let jediným spojením, kudy se dalo dojet do tří nejzapadlejších liptovských obcí Veľkého a Malého Borového a Hutů. I když Oblazy patřily k nejzapadlejším koutům Slovenska, historie posledního sta let na tomto místě zaznamenala jejich rozkvět, úpadek, zánik a nový vzestup jako málokde. Ve 30. letech 20. století tu fungovaly 2 mlýny, mlynáři zmodernizovali vybavení, pořídili si elektrárnu, novou pilu - katr, mleli obilí pro celé okolí. První omezení přišlo za války a další po znárodňování, kdy jim úřady jako soukromníkům házely klacky pod nohy. Dopadlo to tak, že v 60. letech zařízení dosloužilo, rozpadlo se, mlynáři zemřeli. V 70. letech se tu nebydlelo, šindelové střechy se propadly, dřevěné vybavení shnilo, Horní mlýn se posunem svahu zbortil. To už měly mlýny památkovou ochranu, ale nebyla k ničemu. Zablýsklo se na lepší časy až v roce 1980. Tehdy skupina dobrovolných ochránců přírody a krajiny začala stavby obnovovat. Většinu museli postavit znovu. Šlo to pomalu, pracovali původními technikami. Od roku 1996 se v Dolním mlýně bydlí celoročně. V roce 2003 se roztočilo nové mlýnské kolo. ",
+        },
+        {
+          foto: "260choc76.jpg  ",
+          popisek:
+            " Stará cesta z Hutů do Veľkého Borového vedla kolem Oblazů. ",
+        },
+        {
+          foto: "260choc77.jpg  ",
+          popisek: " Horný mlýn se ještě opravuje. (září 2021)",
+        },
+        {
+          foto: "260choc78.jpg  ",
+          popisek: " Dolný neboli  Brunčiakovský mlýn. ",
+        },
+        {
+          textOdstavce:
+            "  V současné době se točí dvě mlýnská kola, pohání turbínu a vyrábí elektřinu, umí mlít obilí na mouku, řezat klády na prkénka. Celoročně tu žijí lidé, kteří se starají o zvířata a malé hospodářství. Bydlí v jedné místnosti v Dolním neboli Brunčiakovském mlýně. Prodávají návštěvníkům upomínkové předměty a vstupné nevybírají - je dobrovolné. Žijí skromně a bez vymožeností jak za starých časů, pro vodu se chodí do studny, místo koupelny mají splav, v létě se spává na seně. Lze nahlédnout do mlýnice a seznámit se s mlynářskými postupy i historií Oblazů. Vše tu je popsáno. Horní neboli Gejdošovský mlýn se nyní opravuje a zvenku je skoro hotov. Ale práce tu je ještě na mnoho let. Přes léto se tu střídají pomocníci z celého Slovenska. O návštěvníky, kteří si mohou vše prohlédnout, není nouze, přestože se sem nedá dojet autem. Byl jsem tu už vícekrát, poprvé v roce 1970 a dělá to tu na mě čím dál lepší dojem.",
+        },
+        { foto: "260choc79.jpg  ", popisek: " Ve mlýnici (září 2021). " },
+        { foto: "260choc80.jpg  ", popisek: " Mlýnské kolo se točí. " },
+        {
+          foto: "260choc81.jpg  ",
+          popisek: " Vantroky přivádějí vodu shora na mlýnské kolo. ",
+        },
+        { foto: "260choc82.jpg  ", popisek: " Mlýnské kameny. " },
+        { foto: "260choc83.jpg  ", popisek: " Dolný mlýn. " },
+
+        {
+          textOdstavce:
+            " Byli bychom tu ještě dlouho, ale bylo třeba jít dál. Vyšplhali jsme od mlýnů strmou pěšinou na starou silnici, která vysoko nad říčkou Kvačiankou vede ke Kvačanům. Do kaňonu lze shora na dvou místech nahlédnout, jsou tam vyhlídky pro ty, kteří netrpí závratí. ",
+        },
+        {
+          foto: "260choc84.jpg  ",
+          popisek: " Vyhlídka na dno Kvačianské doliny. ",
+        },
+        {
+          foto: "260choc85.jpg  ",
+          popisek: " Před pár lety tu ještě nebyla. (srpen 2021) ",
+        },
+        {
+          textOdstavce:
+            " Nad obcí Kvačany jsme si hledali nouzový nocleh, jakési trochu rovné místo jsme objevili nad vsí. Dalo by se jet domů i přes noc, ale vyhýbáme se tomu. I cesta vlakem je cesta a kvůli cestám jezdíme rádi na Slovensko. Ráno jsme se dali trochu do pořádku a vyrazili z Kvačan přes Liptovský Mikuláš a Bohumín domů.  ",
+        },
+        { foto: "260choc86.jpg  ", popisek: " Nocleh nad Kvačany. " },
+        { foto: "260choc87.jpg  ", popisek: " Kostel v Kvačanech. " },
+        {
+          kodMapa:
+            '<iframe style="border:none" src="https://frame.mapy.cz/s/pazezobeba" width="400" height="280" frameborder="0"></iframe>',
+          odkazMapa: " https://frame.mapy.cz/s/pazezobeba  ",
+        },
+        {
+          id: 253,
+          kategorie: "smircikrize",
+          pridano: " 6/10/2021 ",
+          oblast: " Na sever  ",
+          jmeno: " Lažany 1  ",
+          fotkaUvod: { fotka: " 253lazany12.jpg " },
+          podkategorie: 2,
+          okres: "  Blansko  ",
+          obec: " Lažany  ",
+          cislo: " 0362  ",
+          kdeSeNaleza:
+            "  Na S od Lažan na kraji lesa, blízko silnice z Lažan do Újezdu. Do roku 1972 ležel kámen vyvrácen poněkud více v lese. ",
+          popis:
+            "  Plochá kamenná deska s odlomeným pravým rohem je vysoká 0,8 metru. Na přední straně vystupuje latinský kříž a v pravém dolním rohu je zobrazena hůl - možná smrtící nástroj. Celou plochu pokrývá osmiřádkový nápis středověkou frakturou. Na betonovém základu, do kterého je kámen zasazen, je neumělý novodobý nápis. Kámen je starý nejméně 450 let. ",
+          napis:
+            "  (T)uto jest zabit (Ja) // kub z augezda syn waclava dwora // ka z milonic den // swate Sstiepana ge // hozto Dussi pan // buh rac milostiv // byti //.  Na základu: Opravil L.P. 1972 // Ing.  F. Zachoval. ",
+          povest:
+            "  Kámen postaven na místě přepadení kupců cestujících do Brna.  ",
+          odkazy: [
+            {
+              nazev: " smírčí kříže ",
+              adresa: " http://www.smircikrize.cz/lazany.htm ",
+            },
+            {
+              nazev: " euweb ",
+              adresa:
+                " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
+            },
+            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
+            {
+              nazev:
+                " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 27 ",
+            },
+          ],
+          pozn:
+            "  V okresním archivu v Blansku jsou uložena purkrechtní registra města Černá Hora. V nich dávní badatelé objevili zápis z roku 1567. Líčí případ vraždy, spáchané v den svatého Štěpána, tedy 26. 12. 1566. Tehdy otec zavražděného Jakuba, Václav Dvořák spolu s pozůstalou vdovou Annou, obvinili z vraždy Matouška Štědroně z Újezda. Mělo jít o hospodskou rvačku. Na přímluvu purkmistra a dalších mnoha přátel byl Štědroň zproštěn viny. Aby bylo zabráněno krevní mstě, podepsala řada rukojmích 7. listopadu 1567 tuto smlouvu, nařizující pod pokutou, že smír bude dodržen.   ",
+          naposledObnoveno: " 6.10.2021 ",
+          galerie: [
+            { fotka: "253lazany11.jpg", popisek: " (červenec 2021) " },
+            {
+              fotka: "253lazany12.jpg",
+              popisek: " Smírčí kámen 362 Lažany 1 (červenec 2021) ",
+            },
+          ],
+          proMe: " VII/213  24-144-28  21---071   ",
+        },
+        {
+          id: 254,
+          kategorie: "smircikrize",
+          pridano: " 06/10/2021 ",
+          oblast: " Na sever  ",
+          jmeno: " Kuřim 2  ",
+          fotkaUvod: { fotka: " 254kurim2.jpg " },
+          podkategorie: 2,
+          okres: "  Brno - venkov  ",
+          obec: " Kuřim  ",
+          cislo: " 1715  ",
+          kdeSeNaleza:
+            "  původní místo kamene bylo v trati Mózy na JV od Kuřimi. Odtud byl přestěhován ke kostelu svaté Máří Magdalény v Kuřimi a zazděn do kamenné zídky. Ani to ho neuchránilo před stěhováním a od roku 2018 je umístěn kdesi v muzeu.  ",
+          popis:
+            "  zvětralá pískovcová deska je vysoká 1,2 metru. Nahoře vystupuje jetelový křížek, pod ním je šestiřádkový nečitelný název a těžko určitelný útvar. Buď hlava se zaseknutou motykou, případně poutnická hůl s rancem.  ",
+          napis: "  DNE  26  APRIL...ZABITI   zbytek nápisu je nečitelný.   ",
+          povest: "    ",
+          odkazy: [
+            {
+              nazev: " smírčí kříže ",
+              adresa: " http://www.smircikrize.cz/kurim.htm ",
+            },
+            {
+              nazev: " euweb ",
+              adresa:
+                " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Kurim.html ",
+            },
+            {
+              nazev: " SCRáječko ",
+              adresa:
+                " http://www.scrajecko.cz/index.php?page=smirci_krize/kurim_02 ",
+            },
+            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 57 " },
+          ],
+          pozn: "    ",
+          naposledObnoveno: " 6.10.2021 ",
+          galerie: [
+            {
+              fotka: "254kurim1.jpg",
+              popisek:
+                " Místo, kde byl zazděn SK 1715 Kuřim do roku 2018 (září 2021) ",
+            },
+            { fotka: "254kurim2.jpg", popisek: " Smírčí kámen 1715 Kuřim " },
+          ],
+          proMe: " XIIIN/408  24-322-88  21---09.   ",
+        },
+        {
+          id: 255,
+          kategorie: "smircikrize",
+          pridano: " 07/10/2021 ",
+          oblast: " Na sever  ",
+          jmeno: " Habrůvka  ",
+          fotkaUvod: { fotka: " 255habruvka1.jpg " },
+          podkategorie: 2,
+          okres: "  Blansko  ",
+          obec: " Habrůvka  ",
+          cislo: " 1561  ",
+          kdeSeNaleza:
+            "  Na návsi obce Habrůvka. Do roku 1970 stál na zahradě domu č. p. 18.  ",
+          popis:
+            " Obdélníková deska se zkosenými rohy je vysoká 1,1 metru. Pozitivní reliéf latinského kříže vyrůstá z oblouku zvaného oslí hřbet. Na zadní straně desky je tentýž reliéf v negativním provedení. Má vzhled středověkého náhrobníku.  ",
+          napis: "     ",
+          povest:
+            " Vztahuje se ke smrti důstojníka buď z napoleonských válek nebo prusko - rakouské války.   ",
+          odkazy: [
+            {
+              nazev: " smírčí kříže ",
+              adresa: " http://www.smircikrize.cz/habruvka.htm ",
+            },
+            {
+              nazev: " euweb ",
+              adresa:
+                " http://www.smircikrize.euweb.cz/CR/Blansko/Habruvka.html ",
+            },
+            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 45 " },
+            {
+              nazev:
+                " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 20 ",
+            },
+          ],
+          pozn: "    ",
+          naposledObnoveno: " 7.10.2021 ",
+          galerie: [
+            {
+              fotka: "255habruvka1.jpg",
+              popisek: " Smírčí kámen 1561 Habrůvka (únor 2021)",
+            },
+            {
+              fotka: "255habruvka2.jpg",
+              popisek: " (únor 2021)",
+              naVysku: true,
+            },
+          ],
+          proMe: " XIIIN/387  24-411-51  21---024   ",
+        },
+        {
+          id: 256,
+          kategorie: "smircikrize",
+          pridano: " 07/10/2021 ",
+          oblast: " Na západ  ",
+          jmeno: " Tišnov 3  ",
+          fotkaUvod: { fotka: " 256tisnov32.jpg " },
+          podkategorie: 5,
+          okres: "  Brno - venkov  ",
+          obec: "  Tišnov ",
+          cislo: " 1485  ",
+          kdeSeNaleza:
+            "  V Tišnově na Klášterské ulici naproti ulici Pod Květnicí. Je na soukromém pozemku firmy, za drátěným plotem, přes léto není skoro vidět kvůli vegetaci (stav 2021). Dříve byl na stejném místě zazděn v kamenné ohradní zdi. ",
+          popis:
+            "  Na obdélníkové desce vysoké 0,9 metru je reliéf kříže s rozštěpenou nohou. ",
+          napis: "     ",
+          povest:
+            "  Podle nápisu v tišnovské radnici byl na tomto místě roku 1620 zabit tišnovský primátor Jiřík Mydlář, když se snažil zabránit polským žoldnéřům v plenění.  ",
+          odkazy: [
+            {
+              nazev: " smírčí kříže ",
+              adresa: " http://www.smircikrize.cz/tisnov.htm ",
+            },
+            {
+              nazev: " euweb ",
+              adresa:
+                " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Tisnov.html ",
+            },
+            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 65 " },
+            {
+              nazev:
+                " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 10.  ",
+            },
+          ],
+          pozn: "    ",
+          naposledObnoveno: " 7.10.2021 ",
+          galerie: [
+            { fotka: " 256tisnov31.jpg", popisek: " (září 2021) " },
+            {
+              fotka: " 256tisnov31.jpg",
+              popisek: " Smírčí kámen 1485 Tišnov 3 ",
+            },
+          ],
+          proMe: "  XIIIN/391  24-321-32  21---09.  ",
+        },
+        {
+          id: 257,
+          kategorie: "smircikrize",
+          pridano: " 07/10/2021 ",
+          oblast: "  Na sever ",
+          jmeno: "  Drásov 3 ",
+          fotkaUvod: { fotka: " 257drasov32.jpg " },
+          podkategorie: 2,
+          okres: "  Brno - venkov  ",
+          obec: " Drásov  ",
+          cislo: " 1786  ",
+          kdeSeNaleza:
+            " Původně ležel u cesty ke Všechovicím. Nyní je zazděn do kamenné hřbitovní zdi v Drásově, vlevo od hlavní brány. Hřbitovní zeď byla stavěná kolem roku 1893.  ",
+          popis:
+            "  Trojúhelníkový kámen z červeného pískovce s vyrytým latinským křížem. Má rozměr 42 x 40 centimetrů. Jde zřejmě o zlomek smírčího kamene. ",
+          napis: "     ",
+          povest: "  Označoval hrob vojáků padlých ve třicetileté válce.  ",
+          odkazy: [
+            {
+              nazev: " smírčí kříže ",
+              adresa: " http://www.smircikrize.cz/drasov.htm ",
+            },
+            {
+              nazev: " euweb ",
+              adresa:
+                " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Drasov.html ",
+            },
+            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 56 " },
+          ],
+          pozn: "    ",
+          naposledObnoveno: " 7.10.2021 ",
+          galerie: [
+            { fotka: "257drasov31.jpg", popisek: "  (září 2021)  " },
+            {
+              fotka: "257drasov32.jpg",
+              popisek: " Smírčí kámen 1786 Drásov 3 (září 2021) ",
+            },
+          ],
+          proMe: "  XX/1152  24-321-86  21---09.  ",
+        },
+        {
+          id: 258,
+          kategorie: "smircikrize",
+          pridano: " 07/10/2021 ",
+          oblast: " Na sever  ",
+          jmeno: " Lažany 2  ",
+          fotkaUvod: { fotka: " 258lazany2.jpg " },
+          podkategorie: 2,
+          okres: " Blansko  ",
+          obec: " Lažany  ",
+          cislo: " 1728  ",
+          kdeSeNaleza:
+            "  V předzahrádce rodinného domku čp. 72 v Lažanech. Původně se nalézal při cestě z Lažan do Újezda na starém pastvisku. Později stál na dvoře domu čp. 72.  ",
+          popis:
+            "  Obdélníkový kámen s uraženým levým rohem je vysoký 0,8 metru. Na silně zvětralém povrchu vystupuje neznatelně maltézský kříž s rozštípenou patou.   ",
+          napis: "     ",
+          povest:
+            "  Dívka chodila se dvěma chlapci a chtěla se vdát za toho, který zvítězí v souboji. Oba nápadníci se ale výstřely z bambitek zastřelili navzájem. Divka se pak ze zoufalství vrhla ze skály. Aby toho nebylo málo, tak se její tělo rozpůlilo a každá půle byla  pochována s jiným sokem. V jiné verzi, zapsané na konci 19. století, šlo o urozenou dámu a nápadníci byli bratři.   ",
+          odkazy: [
+            {
+              nazev: " smírčí kříže ",
+              adresa: " http://www.smircikrize.cz/lazany.htm ",
+            },
+            {
+              nazev: " euweb ",
+              adresa:
+                " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
+            },
+            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
+            {
+              nazev:
+                " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 29 ",
+            },
+          ],
+          pozn:
+            "  Původní stanoviště kamene bylo na místě, kde se stýkaly hranice tří panství, černohorského, blanenského a brněnského. Mohlo tedy jít o hraniční kámen. Proti němu stál v poli jiný kámen (1727 Lažany 4), ale ten se nedochoval, byl zničen nebo ztracen kolem roku 1980. Údajně skončil v základech rodinného domu, tam stavěného. ",
+          naposledObnoveno: " 7.10.2021 ",
+          galerie: [
+            {
+              fotka: "258lazany2.jpg",
+              popisek: " Smírčí kámen 1728 Lažany 2 (červenec 2021) ",
+            },
+          ],
+          proMe: " XVII/608  24-322-55  21---071   ",
+        },
+      ],
     },
   ],
 };
