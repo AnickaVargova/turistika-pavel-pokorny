@@ -5704,24 +5704,23 @@ export default {
     {
       id: 121,
       kategorie: "pomnicky",
-      pridano: " 11/01/2021 ",
-      podkategorie: 8,
-      druh: "  Lovecké a pytlácké   ",
+      pridano: " 12/10/2021 ",
+      podkategorie: 17,
+      druh: "  Zaniklé  ",
       okres: "  Blansko ",
       obec: "  Hořice  ",
       jmeno: " Formánek, Antonín  ",
-      fotkaUvod: { fotka: " formanek1.jpg " },
-
       nazev: " Deska Antonína Formánka ",
-      kdyVznikl: " po 1966  ",
+      fotkaUvod: { fotka: " formanek1.jpg " },
+      kdyVznikl: " po 1966.   ",
       popisCesty:
-        " 1700 metrů SZ od kapličky v\xa0 Hořicích, na křižovatce lesních silnic u Nepustilovy boudy.  ",
+        " 1700 metrů SZ od kapličky v Hořicích, na křižovatce lesních silnic u Nepustilovy boudy.  ",
       popis:
-        "  Do přírodního kamene vysokého 1 metr je zapuštěna kovová deska s\xa0textem  ",
+        "  Do přírodního kamene vysokého 1 metr je zapuštěna kovová deska s textem  ",
       napis: " …  //  ANT.  FORMÁNEK //  * 30. 3. 1931  + 7. 4. 1966 ",
-
-      pozn: "",
-      naposledObnoveno: "11.1.2021 ",
+      pozn:
+        "  Při kontrole v červenci 2021 nebyla deska nalezena a kámen byl odstraněn.  ",
+      naposledObnoveno: "12.10.2021 ",
       souradnice: " 49.3688517N, 16.6065431E ",
       kodMapa:
         ' <iframe style="border:none" src="https://frame.mapy.cz/s/jecucajufe" width="400" height="280" frameborder="0"></iframe>   ',
@@ -5732,6 +5731,7 @@ export default {
       ],
       proMe: " XIX/868  24-144-8  15---093   ",
     },
+
     {
       id: 122,
       kategorie: "pomnicky",
