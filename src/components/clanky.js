@@ -12879,8 +12879,8 @@ export default {
             "  Těšili jsme se na pověstný východ slunce na Choči. Legendární záležitost, kterou vyhledávali slovenští vlastenci už od 80. let 19. století. Mistrně výstup popsal otec slovenské turistiky Miloš Janoška, který se ho v té době jako dítě účastnil. Tehdy to byla více společenská a národovecká záležitost než turistická, protože turistika na Slovensku ještě neexistovala. Blahé časy. Dnes na Choči nebudete sami ani ve všední den. Leč východ slunce se nepovedl, slunce vyšlo do mraků. Na Choč vedou čtyři značené cesty. Všechny jsou strmé. My jsme si vybrali nejjednodušší zimní cestu.  ",
         },
         { foto: " 260choc9.jpg  ", popisek: " Místo východu slunce.  " },
-        { foto: " 260choc10.jpg  ", popisek: "  Zimní cestou na Choč. " },
-        { foto: " 260choc11.jpg  ", popisek: " Velká Fatra od Choče.  " },
+        { foto: " 260choc11.jpg  ", popisek: "  Zimní cestou na Choč. " },
+        { foto: " 260choc10.jpg  ", popisek: " Velká Fatra od Choče.  " },
         {
           textOdstavce:
             "  Všiml jsem si v posledních letech, že většina Slováků chodících po horách má chorobný strach z medvědů. Téma “medvede” bylo prvním v hovoru, zvláště když viděli, že budeme spát v lese. Jen díky tomu jsou tradiční horská  tábořiště i v plné sezóně prázdná. Řada osamocených turistů nosí na batohu rolničku a na dálku se ohlašují melodickým zvoněním. Až se medvědi naučí, že chutnou a nebránící se potravu najdou tam, kde to zvoní, bude zle. Zatím medvědi vybírají popelnice v podhorských obcích a o tom, že by vytahovali spící turisty ze stanů, jsem neslyšel. Máme ze šelem respekt, děláme při chůzi hluk, ale stále platí: Kdo se bojí, nesmí do lesa. Pozorování medvěda z bezpečné vzdálenosti je vrcholný zážitek.  ",
@@ -12922,10 +12922,10 @@ export default {
             " Byť byl konec srpna, na dolomitové kře Velkého Choče stále něco kvetlo. Největším špekem se ukázal hořeček fatranský, krásná nafialovělá rostlina, která rozkvétá v srpnu. Je to endemit středního Slovenska, který krom Fatry roste jen v Chočském pohoří a Tatrách, vždy na vápenci. I na Choči jsme našli jen pár těchto rostlin. ",
         },
         { foto: " 260choc20.jpg  ", popisek: " Hořeček fatranský " },
-        // {
-        //   foto: " 260choc21.jpg  ",
-        //   popisek: " Nálezy z Velkého Choče (srpen 2021) ",
-        // },
+        {
+          foto: " 260choc21.jpg  ",
+          popisek: " Nálezy z Velkého Choče (srpen 2021) ",
+        },
         { foto: " 260choc22.jpg  ", popisek: " Chrpa parukářka " },
         { foto: " 260choc23.jpg  ", popisek: " Oman " },
         {
