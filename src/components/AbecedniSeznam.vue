@@ -1,5 +1,5 @@
 <template>
-  <div v-if="stranka === 'smircikrize'" id="abecedniSeznam">
+  <div v-if="stranka === 'smircikrize'" id="abecedniSeznam" :style="cssVars">
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
@@ -11,7 +11,7 @@
     </router-link>
   </div>
 
-  <div v-else>
+  <div v-else :style="cssVars">
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
@@ -30,34 +30,38 @@
       return {
         seznam: [],
         oldPath: this.$route.path,
+        itemHeight: 34,
       };
     },
 
+    computed: {
+      cssVars() {
+        return {
+          "--columnHeightIpad":
+            Math.ceil(this.seznam.length / 2) * this.itemHeight + "px",
+          "--columnHeightSmallD":
+            Math.ceil(this.seznam.length / 3) * this.itemHeight + "px",
+          "--columnHeightBigD":
+            Math.ceil(this.seznam.length / 4) * this.itemHeight + "px",
+        };
+      },
+    },
     created() {
-      let seznamJednotlivych = [];
-      for (let clanek of this.clanky) {
-        if (clanek.kategorie === this.stranka) {
-          this.seznam.push(clanek);
-        }
-      }
-
-      if (this.stranka === "pomnicky") {
-        for (let clanek of this.seznam) {
-          seznamJednotlivych.push(clanek);
-          for (let i = 0; i < seznamJednotlivych.length - 1; i++) {
-            if (seznamJednotlivych[i].nazev === clanek.nazev) {
-              seznamJednotlivych.pop();
-            }
-          }
-        }
-
-        this.seznam = seznamJednotlivych;
-      }
-      this.seznam = this.seznam.sort((a, b) => {
-        return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
-          sensitivity: "accent",
+      this.seznam = this.clanky
+        .filter((clanek) => clanek.kategorie === this.stranka)
+        .sort((a, b) => {
+          return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
+            sensitivity: "accent",
+          });
         });
-      });
+      if (this.stranka === "pomnicky") {
+        const seznamNazvu = [];
+        this.seznam = this.seznam.filter((item) =>
+          seznamNazvu.includes(item.nazev)
+            ? false
+            : seznamNazvu.push(item.nazev)
+        );
+      }
     },
   };
 </script>
@@ -70,7 +74,7 @@
     grid-row-start: 3;
     margin: 30px;
     flex-wrap: wrap;
-    max-height: 1600px;
+    max-height: var(--columnHeightBigD);
     max-width: 75vw;
   }
 
@@ -91,7 +95,7 @@
 
   @media (max-width: 1200px) {
     #abecedniSeznam {
-      max-height: 2000px;
+      max-height: var(--columnHeightSmallD);
     }
 
     .kontejnerJmeno {
@@ -99,9 +103,9 @@
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 850px) {
     #abecedniSeznam {
-      max-height: 2400px;
+      max-height: var(--columnHeightIpad);
     }
 
     .kontejnerJmeno {
