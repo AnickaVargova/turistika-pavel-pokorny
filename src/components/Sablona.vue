@@ -389,18 +389,6 @@
 
           let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
 
-          if (last2weeks <= 14) {
-            if (
-              clanek.kategorie === "pomnicky" ||
-              clanek.kategorie === "smircikrize"
-            ) {
-            } else if (
-              clanek.kategorie === "vypraveni" ||
-              clanek.kategorie === "cesty"
-            ) {
-            }
-          }
-
           return last2weeks <= 14;
         }
       },
@@ -464,7 +452,6 @@
           }
         }
         novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
-
         this.clankyPodKategorie = novaKategorie;
 
         for (let clanek of this.clankyPodKategorie) {

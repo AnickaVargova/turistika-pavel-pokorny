@@ -13151,778 +13151,727 @@ export default {
             '<iframe style="border:none" src="https://frame.mapy.cz/s/pazezobeba" width="400" height="280" frameborder="0"></iframe>',
           odkazMapa: " https://frame.mapy.cz/s/pazezobeba  ",
         },
+      ],
+    },
+
+    {
+      id: 254,
+      kategorie: "smircikrize",
+      pridano: " 06/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Kuřim 2  ",
+      fotkaUvod: { fotka: " 254kurim2.jpg " },
+      podkategorie: 2,
+      okres: "  Brno - venkov  ",
+      obec: " Kuřim  ",
+      cislo: " 1715  ",
+      kdeSeNaleza:
+        "  původní místo kamene bylo v trati Mózy na JV od Kuřimi. Odtud byl přestěhován ke kostelu svaté Máří Magdalény v Kuřimi a zazděn do kamenné zídky. Ani to ho neuchránilo před stěhováním a od roku 2018 je umístěn kdesi v muzeu.  ",
+      popis:
+        "  zvětralá pískovcová deska je vysoká 1,2 metru. Nahoře vystupuje jetelový křížek, pod ním je šestiřádkový nečitelný název a těžko určitelný útvar. Buď hlava se zaseknutou motykou, případně poutnická hůl s rancem.  ",
+      napis: "  DNE  26  APRIL...ZABITI   zbytek nápisu je nečitelný.   ",
+      povest: "    ",
+      odkazy: [
         {
-          id: 253,
-          kategorie: "smircikrize",
-          pridano: " 6/10/2021 ",
-          oblast: " Na sever  ",
-          jmeno: " Lažany 1  ",
-          fotkaUvod: { fotka: " 253lazany12.jpg " },
-          podkategorie: 2,
-          okres: "  Blansko  ",
-          obec: " Lažany  ",
-          cislo: " 0362  ",
-          kdeSeNaleza:
-            "  Na S od Lažan na kraji lesa, blízko silnice z Lažan do Újezdu. Do roku 1972 ležel kámen vyvrácen poněkud více v lese. ",
-          popis:
-            "  Plochá kamenná deska s odlomeným pravým rohem je vysoká 0,8 metru. Na přední straně vystupuje latinský kříž a v pravém dolním rohu je zobrazena hůl - možná smrtící nástroj. Celou plochu pokrývá osmiřádkový nápis středověkou frakturou. Na betonovém základu, do kterého je kámen zasazen, je neumělý novodobý nápis. Kámen je starý nejméně 450 let. ",
-          napis:
-            "  (T)uto jest zabit (Ja) // kub z augezda syn waclava dwora // ka z milonic den // swate Sstiepana ge // hozto Dussi pan // buh rac milostiv // byti //.  Na základu: Opravil L.P. 1972 // Ing.  F. Zachoval. ",
-          povest:
-            "  Kámen postaven na místě přepadení kupců cestujících do Brna.  ",
-          odkazy: [
-            {
-              nazev: " smírčí kříže ",
-              adresa: " http://www.smircikrize.cz/lazany.htm ",
-            },
-            {
-              nazev: " euweb ",
-              adresa:
-                " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
-            },
-            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
-            {
-              nazev:
-                " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 27 ",
-            },
-          ],
-          pozn:
-            "  V okresním archivu v Blansku jsou uložena purkrechtní registra města Černá Hora. V nich dávní badatelé objevili zápis z roku 1567. Líčí případ vraždy, spáchané v den svatého Štěpána, tedy 26. 12. 1566. Tehdy otec zavražděného Jakuba, Václav Dvořák spolu s pozůstalou vdovou Annou, obvinili z vraždy Matouška Štědroně z Újezda. Mělo jít o hospodskou rvačku. Na přímluvu purkmistra a dalších mnoha přátel byl Štědroň zproštěn viny. Aby bylo zabráněno krevní mstě, podepsala řada rukojmích 7. listopadu 1567 tuto smlouvu, nařizující pod pokutou, že smír bude dodržen.   ",
-          naposledObnoveno: " 6.10.2021 ",
-          galerie: [
-            { fotka: "253lazany11.jpg", popisek: " (červenec 2021) " },
-            {
-              fotka: "253lazany12.jpg",
-              popisek: " Smírčí kámen 362 Lažany 1 (červenec 2021) ",
-            },
-          ],
-          proMe: " VII/213  24-144-28  21---071   ",
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/kurim.htm ",
         },
         {
-          id: 254,
-          kategorie: "smircikrize",
-          pridano: " 06/10/2021 ",
-          oblast: " Na sever  ",
-          jmeno: " Kuřim 2  ",
-          fotkaUvod: { fotka: " 254kurim2.jpg " },
-          podkategorie: 2,
-          okres: "  Brno - venkov  ",
-          obec: " Kuřim  ",
-          cislo: " 1715  ",
-          kdeSeNaleza:
-            "  původní místo kamene bylo v trati Mózy na JV od Kuřimi. Odtud byl přestěhován ke kostelu svaté Máří Magdalény v Kuřimi a zazděn do kamenné zídky. Ani to ho neuchránilo před stěhováním a od roku 2018 je umístěn kdesi v muzeu.  ",
-          popis:
-            "  zvětralá pískovcová deska je vysoká 1,2 metru. Nahoře vystupuje jetelový křížek, pod ním je šestiřádkový nečitelný název a těžko určitelný útvar. Buď hlava se zaseknutou motykou, případně poutnická hůl s rancem.  ",
-          napis: "  DNE  26  APRIL...ZABITI   zbytek nápisu je nečitelný.   ",
-          povest: "    ",
-          odkazy: [
-            {
-              nazev: " smírčí kříže ",
-              adresa: " http://www.smircikrize.cz/kurim.htm ",
-            },
-            {
-              nazev: " euweb ",
-              adresa:
-                " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Kurim.html ",
-            },
-            {
-              nazev: " SCRáječko ",
-              adresa:
-                " http://www.scrajecko.cz/index.php?page=smirci_krize/kurim_02 ",
-            },
-            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 57 " },
-          ],
-          pozn: "    ",
-          naposledObnoveno: " 6.10.2021 ",
-          galerie: [
-            {
-              fotka: "254kurim1.jpg",
-              popisek:
-                " Místo, kde byl zazděn SK 1715 Kuřim do roku 2018 (září 2021) ",
-            },
-            { fotka: "254kurim2.jpg", popisek: " Smírčí kámen 1715 Kuřim " },
-          ],
-          proMe: " XIIIN/408  24-322-88  21---09.   ",
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Kurim.html ",
         },
         {
-          id: 255,
-          kategorie: "smircikrize",
-          pridano: " 07/10/2021 ",
-          oblast: " Na sever  ",
-          jmeno: " Habrůvka  ",
-          fotkaUvod: { fotka: " 255habruvka1.jpg " },
-          podkategorie: 2,
-          okres: "  Blansko  ",
-          obec: " Habrůvka  ",
-          cislo: " 1561  ",
-          kdeSeNaleza:
-            "  Na návsi obce Habrůvka. Do roku 1970 stál na zahradě domu č. p. 18.  ",
-          popis:
-            " Obdélníková deska se zkosenými rohy je vysoká 1,1 metru. Pozitivní reliéf latinského kříže vyrůstá z oblouku zvaného oslí hřbet. Na zadní straně desky je tentýž reliéf v negativním provedení. Má vzhled středověkého náhrobníku.  ",
-          napis: "     ",
-          povest:
-            " Vztahuje se ke smrti důstojníka buď z napoleonských válek nebo prusko - rakouské války.   ",
-          odkazy: [
-            {
-              nazev: " smírčí kříže ",
-              adresa: " http://www.smircikrize.cz/habruvka.htm ",
-            },
-            {
-              nazev: " euweb ",
-              adresa:
-                " http://www.smircikrize.euweb.cz/CR/Blansko/Habruvka.html ",
-            },
-            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 45 " },
-            {
-              nazev:
-                " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 20 ",
-            },
-          ],
-          pozn: "    ",
-          naposledObnoveno: " 7.10.2021 ",
-          galerie: [
-            {
-              fotka: "255habruvka1.jpg",
-              popisek: " Smírčí kámen 1561 Habrůvka (únor 2021)",
-            },
-            {
-              fotka: "255habruvka2.jpg",
-              popisek: " (únor 2021)",
-              naVysku: true,
-            },
-          ],
-          proMe: " XIIIN/387  24-411-51  21---024   ",
+          nazev: " SCRáječko ",
+          adresa:
+            " http://www.scrajecko.cz/index.php?page=smirci_krize/kurim_02 ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 57 " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 6.10.2021 ",
+      galerie: [
+        {
+          fotka: "254kurim1.jpg",
+          popisek:
+            " Místo, kde byl zazděn SK 1715 Kuřim do roku 2018 (září 2021) ",
+        },
+        { fotka: "254kurim2.jpg", popisek: " Smírčí kámen 1715 Kuřim " },
+      ],
+      proMe: " XIIIN/408  24-322-88  21---09.   ",
+    },
+    {
+      id: 255,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Habrůvka  ",
+      fotkaUvod: { fotka: " 255habruvka1.jpg " },
+      podkategorie: 2,
+      okres: "  Blansko  ",
+      obec: " Habrůvka  ",
+      cislo: " 1561  ",
+      kdeSeNaleza:
+        "  Na návsi obce Habrůvka. Do roku 1970 stál na zahradě domu č. p. 18.  ",
+      popis:
+        " Obdélníková deska se zkosenými rohy je vysoká 1,1 metru. Pozitivní reliéf latinského kříže vyrůstá z oblouku zvaného oslí hřbet. Na zadní straně desky je tentýž reliéf v negativním provedení. Má vzhled středověkého náhrobníku.  ",
+      napis: "     ",
+      povest:
+        " Vztahuje se ke smrti důstojníka buď z napoleonských válek nebo prusko - rakouské války.   ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/habruvka.htm ",
         },
         {
-          id: 256,
-          kategorie: "smircikrize",
-          pridano: " 07/10/2021 ",
-          oblast: " Na západ  ",
-          jmeno: " Tišnov 3  ",
-          fotkaUvod: { fotka: " 256tisnov32.jpg " },
-          podkategorie: 5,
-          okres: "  Brno - venkov  ",
-          obec: "  Tišnov ",
-          cislo: " 1485  ",
-          kdeSeNaleza:
-            "  V Tišnově na Klášterské ulici naproti ulici Pod Květnicí. Je na soukromém pozemku firmy, za drátěným plotem, přes léto není skoro vidět kvůli vegetaci (stav 2021). Dříve byl na stejném místě zazděn v kamenné ohradní zdi. ",
-          popis:
-            "  Na obdélníkové desce vysoké 0,9 metru je reliéf kříže s rozštěpenou nohou. ",
-          napis: "     ",
-          povest:
-            "  Podle nápisu v tišnovské radnici byl na tomto místě roku 1620 zabit tišnovský primátor Jiřík Mydlář, když se snažil zabránit polským žoldnéřům v plenění.  ",
-          odkazy: [
-            {
-              nazev: " smírčí kříže ",
-              adresa: " http://www.smircikrize.cz/tisnov.htm ",
-            },
-            {
-              nazev: " euweb ",
-              adresa:
-                " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Tisnov.html ",
-            },
-            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 65 " },
-            {
-              nazev:
-                " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 10.  ",
-            },
-          ],
-          pozn: "    ",
-          naposledObnoveno: " 7.10.2021 ",
-          galerie: [
-            { fotka: " 256tisnov31.jpg", popisek: " (září 2021) " },
-            {
-              fotka: " 256tisnov31.jpg",
-              popisek: " Smírčí kámen 1485 Tišnov 3 ",
-            },
-          ],
-          proMe: "  XIIIN/391  24-321-32  21---09.  ",
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Habruvka.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 45 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 20 ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        {
+          fotka: "255habruvka1.jpg",
+          popisek: " Smírčí kámen 1561 Habrůvka (únor 2021)",
         },
         {
-          id: 257,
-          kategorie: "smircikrize",
-          pridano: " 07/10/2021 ",
-          oblast: "  Na sever ",
-          jmeno: "  Drásov 3 ",
-          fotkaUvod: { fotka: " 257drasov32.jpg " },
-          podkategorie: 2,
-          okres: "  Brno - venkov  ",
-          obec: " Drásov  ",
-          cislo: " 1786  ",
-          kdeSeNaleza:
-            " Původně ležel u cesty ke Všechovicím. Nyní je zazděn do kamenné hřbitovní zdi v Drásově, vlevo od hlavní brány. Hřbitovní zeď byla stavěná kolem roku 1893.  ",
-          popis:
-            "  Trojúhelníkový kámen z červeného pískovce s vyrytým latinským křížem. Má rozměr 42 x 40 centimetrů. Jde zřejmě o zlomek smírčího kamene. ",
-          napis: "     ",
-          povest: "  Označoval hrob vojáků padlých ve třicetileté válce.  ",
-          odkazy: [
-            {
-              nazev: " smírčí kříže ",
-              adresa: " http://www.smircikrize.cz/drasov.htm ",
-            },
-            {
-              nazev: " euweb ",
-              adresa:
-                " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Drasov.html ",
-            },
-            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 56 " },
-          ],
-          pozn: "    ",
-          naposledObnoveno: " 7.10.2021 ",
-          galerie: [
-            { fotka: "257drasov31.jpg", popisek: "  (září 2021)  " },
-            {
-              fotka: "257drasov32.jpg",
-              popisek: " Smírčí kámen 1786 Drásov 3 (září 2021) ",
-            },
-          ],
-          proMe: "  XX/1152  24-321-86  21---09.  ",
+          fotka: "255habruvka2.jpg",
+          popisek: " (únor 2021)",
+          naVysku: true,
+        },
+      ],
+      proMe: " XIIIN/387  24-411-51  21---024   ",
+    },
+    {
+      id: 256,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: " Na západ  ",
+      jmeno: " Tišnov 3  ",
+      fotkaUvod: { fotka: " 256tisnov32.jpg " },
+      podkategorie: 5,
+      okres: "  Brno - venkov  ",
+      obec: "  Tišnov ",
+      cislo: " 1485  ",
+      kdeSeNaleza:
+        "  V Tišnově na Klášterské ulici naproti ulici Pod Květnicí. Je na soukromém pozemku firmy, za drátěným plotem, přes léto není skoro vidět kvůli vegetaci (stav 2021). Dříve byl na stejném místě zazděn v kamenné ohradní zdi. ",
+      popis:
+        "  Na obdélníkové desce vysoké 0,9 metru je reliéf kříže s rozštěpenou nohou. ",
+      napis: "     ",
+      povest:
+        "  Podle nápisu v tišnovské radnici byl na tomto místě roku 1620 zabit tišnovský primátor Jiřík Mydlář, když se snažil zabránit polským žoldnéřům v plenění.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/tisnov.htm ",
         },
         {
-          id: 258,
-          kategorie: "smircikrize",
-          pridano: " 07/10/2021 ",
-          oblast: " Na sever  ",
-          jmeno: " Lažany 2  ",
-          fotkaUvod: { fotka: " 258lazany2.jpg " },
-          podkategorie: 2,
-          okres: " Blansko  ",
-          obec: " Lažany  ",
-          cislo: " 1728  ",
-          kdeSeNaleza:
-            "  V předzahrádce rodinného domku čp. 72 v Lažanech. Původně se nalézal při cestě z Lažan do Újezda na starém pastvisku. Později stál na dvoře domu čp. 72.  ",
-          popis:
-            "  Obdélníkový kámen s uraženým levým rohem je vysoký 0,8 metru. Na silně zvětralém povrchu vystupuje neznatelně maltézský kříž s rozštípenou patou.   ",
-          napis: "     ",
-          povest:
-            "  Dívka chodila se dvěma chlapci a chtěla se vdát za toho, který zvítězí v souboji. Oba nápadníci se ale výstřely z bambitek zastřelili navzájem. Divka se pak ze zoufalství vrhla ze skály. Aby toho nebylo málo, tak se její tělo rozpůlilo a každá půle byla  pochována s jiným sokem. V jiné verzi, zapsané na konci 19. století, šlo o urozenou dámu a nápadníci byli bratři.   ",
-          odkazy: [
-            {
-              nazev: " smírčí kříže ",
-              adresa: " http://www.smircikrize.cz/lazany.htm ",
-            },
-            {
-              nazev: " euweb ",
-              adresa:
-                " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
-            },
-            { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
-            {
-              nazev:
-                " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 29 ",
-            },
-          ],
-          pozn:
-            "  Původní stanoviště kamene bylo na místě, kde se stýkaly hranice tří panství, černohorského, blanenského a brněnského. Mohlo tedy jít o hraniční kámen. Proti němu stál v poli jiný kámen (1727 Lažany 4), ale ten se nedochoval, byl zničen nebo ztracen kolem roku 1980. Údajně skončil v základech rodinného domu, tam stavěného. ",
-          naposledObnoveno: " 7.10.2021 ",
-          galerie: [
-            {
-              fotka: "258lazany2.jpg",
-              popisek: " Smírčí kámen 1728 Lažany 2 (červenec 2021) ",
-            },
-          ],
-          proMe: " XVII/608  24-322-55  21---071   ",
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Tisnov.html ",
         },
-        // {
-        //   id: 270,
-        //   datum: " 16. - 22. září 2021  ",
-        //   formatDatum: "05/11/2021",
-        //   pridano: " 05/11/2021 ",
-        //   kategorie: "cesty",
-        //   podkategorie: 1,
-        //   nazev: " Levočské vrchy a Branisko ",
-        //   fotkaUvod: { fotka: " 270branisko77.jpg " },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 65 " },
+        {
+          nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 10.  ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        { fotka: " 256tisnov31.jpg", popisek: " (září 2021) " },
+        {
+          fotka: " 256tisnov31.jpg",
+          popisek: " Smírčí kámen 1485 Tišnov 3 ",
+        },
+      ],
+      proMe: "  XIIIN/391  24-321-32  21---09.  ",
+    },
+    {
+      id: 257,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: "  Na sever ",
+      jmeno: "  Drásov 3 ",
+      fotkaUvod: { fotka: " 257drasov32.jpg " },
+      podkategorie: 2,
+      okres: "  Brno - venkov  ",
+      obec: " Drásov  ",
+      cislo: " 1786  ",
+      kdeSeNaleza:
+        " Původně ležel u cesty ke Všechovicím. Nyní je zazděn do kamenné hřbitovní zdi v Drásově, vlevo od hlavní brány. Hřbitovní zeď byla stavěná kolem roku 1893.  ",
+      popis:
+        "  Trojúhelníkový kámen z červeného pískovce s vyrytým latinským křížem. Má rozměr 42 x 40 centimetrů. Jde zřejmě o zlomek smírčího kamene. ",
+      napis: "     ",
+      povest: "  Označoval hrob vojáků padlých ve třicetileté válce.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/drasov.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Drasov.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 56 " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        { fotka: "257drasov31.jpg", popisek: "  (září 2021)  " },
+        {
+          fotka: "257drasov32.jpg",
+          popisek: " Smírčí kámen 1786 Drásov 3 (září 2021) ",
+        },
+      ],
+      proMe: "  XX/1152  24-321-86  21---09.  ",
+    },
+    {
+      id: 258,
+      kategorie: "smircikrize",
+      pridano: " 07/10/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Lažany 2  ",
+      fotkaUvod: { fotka: " 258lazany2.jpg " },
+      podkategorie: 2,
+      okres: " Blansko  ",
+      obec: " Lažany  ",
+      cislo: " 1728  ",
+      kdeSeNaleza:
+        "  V předzahrádce rodinného domku čp. 72 v Lažanech. Původně se nalézal při cestě z Lažan do Újezda na starém pastvisku. Později stál na dvoře domu čp. 72.  ",
+      popis:
+        "  Obdélníkový kámen s uraženým levým rohem je vysoký 0,8 metru. Na silně zvětralém povrchu vystupuje neznatelně maltézský kříž s rozštípenou patou.   ",
+      napis: "     ",
+      povest:
+        "  Dívka chodila se dvěma chlapci a chtěla se vdát za toho, který zvítězí v souboji. Oba nápadníci se ale výstřely z bambitek zastřelili navzájem. Divka se pak ze zoufalství vrhla ze skály. Aby toho nebylo málo, tak se její tělo rozpůlilo a každá půle byla  pochována s jiným sokem. V jiné verzi, zapsané na konci 19. století, šlo o urozenou dámu a nápadníci byli bratři.   ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " http://www.smircikrize.cz/lazany.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 29 ",
+        },
+      ],
+      pozn:
+        "  Původní stanoviště kamene bylo na místě, kde se stýkaly hranice tří panství, černohorského, blanenského a brněnského. Mohlo tedy jít o hraniční kámen. Proti němu stál v poli jiný kámen (1727 Lažany 4), ale ten se nedochoval, byl zničen nebo ztracen kolem roku 1980. Údajně skončil v základech rodinného domu, tam stavěného. ",
+      naposledObnoveno: " 7.10.2021 ",
+      galerie: [
+        {
+          fotka: "258lazany2.jpg",
+          popisek: " Smírčí kámen 1728 Lažany 2 (červenec 2021) ",
+        },
+      ],
+      proMe: " XVII/608  24-322-55  21---071   ",
+    },
+    {
+      id: 270,
+      datum: " 16. - 22. září 2021  ",
+      formatDatum: "05/11/2021",
+      pridano: " 05/11/2021 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Levočské vrchy a Branisko ",
+      fotkaUvod: { fotka: " 270branisko77.jpg " },
 
-        //   text: [
-        //     {
-        //       textOdstavce:
-        //         " Za 58 let turistické exploatace Slovenska se mi podařilo navštívit prakticky všechny tamní horské skupiny, mnohé opakovaně. Včetně těch skoro neznámých. Schválně si ukažte na mapě Slovenska třeba Žiar, Milič, Burdu, nebo Cerovou vrchovinu. Jedinou výjimkou, kde jsem ještě nebyl, byly  <strong> Levočské vrchy </strong>. Od roku 1952 až do roku 2012 byly uzavřeným vojenským prostorem a tedy turistům zapovězeny. Tuto skvrnu na čistém turistickém štítu jsme se rozhodli odstranit a tak jsme se tam s Lídou rozjeli. Putování zapadá i do neukončené řady našich vandrů okolo slovensko-polské hranice. Od roku 2014 jdeme od trojmezného bodu u Hrčavy k východu a snad někdy dojdeme na Uličský Kremenec v Nízkých Beskydech, na ukrajinské hranici. Hory severního Slovenska jsou většinou málo navštěvované a tím pro nás přitažlivé.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         '  <h2 class="podnadpis"> První den : čtvrtek 16. září 2021 </h2>  ',
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "  <i>Vlakem do Spišské Nové Vsi, autobusem do Levoči. Prohlídka města. Pěšky na úbočí Mariánské hory. 3 km.</i>  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "  Cesta pro nás nezačala nejšťastněji. Expres Regiojetu nebyl moc expresní a nabral postupně zpoždění 110 minut. Firma Student Agency, se kterou jsme dříve jezdili často a rádi, dost ubrala z kvality svých služeb. Za zpoždění se neustále omlouvala, že to je vinou překážek na  trati, ale jízdní řády si sestavuje sama a nelze spoléhat na to, že na trase 500 kilometrů z Prahy do Košic půjde vše ideálně jak na drátkách. A nejde jen o zpoždění. Dveře nešly otevírat, WC mimo provoz nebo špinavé, klimatizace nefungovala a protože okna nejsou na otevírání, cestovali jsme v sauně. Vstřícný personál to nevynahradil. Nakonec jsme do Levoči dorazili v podvečer. Je to podivné město. V 16. století se velikostí i počtem obyvatel, tedy zhruba patnácti tisíc, mohlo srovnat s Brnem. Ale rozvoj se zastavil a hradby, brány a nízké domy v úzkých ulicích zůstaly dodnes. Na velkém náměstí uprostřed stojí renesanční radnice a dva kostely.   ",
-        //     },
-        //     {
-        //       foto: " 270branisko1.jpg  ",
-        //       popisek: "  Domy na náměstí v Levoči ",
-        //     },
-        //     {
-        //       foto: " 270branisko2.jpg  ",
-        //       popisek: " Známá levočská radnice (září 2021) ",
-        //     },
-        //     { foto: " 270branisko3.jpg  " },
-        //     {
-        //       foto: " 270branisko4.jpg  ",
-        //       popisek: " Radniční věž  ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "Město je památkovou rezervací a roku 2009 bylo zařazeno do seznamu Světového dědictví UNESCO. Před radnicí stojí “klietka hanby”. Byl to místní pranýř, do kterého se ve středověku lehko mohl dostat kdokoliv. Třeba žena, která se po setmění ubírala po městě bez mužského doprovodu. Stalo se to i dceři rychtáře. Ale hlavním magnetem, proč se davy hrnou do Levoče, je kostel svatého Jakuba a jeho vnitřní výzdoba. Sestává z jedenácti deskových oltářů, nástěnných maleb a jiných pokladů sakrálního umění. Nejvýznamnější památkou je gotický hlavní oltář vysoký 18 metrů vyřezaný z lipového dřeva., Jeho tvůrcem je Mistr Pavel z Levoči, který tu v 16. století prožil většinu života. Byl ale večer a my jsme se do kostela nedostali.   ",
-        //     },
-        //     {
-        //       foto: " 270branisko5.jpg  ",
-        //       popisek: " Klietka hanby ze 17. století.  ",
-        //     },
-        //     { foto: " 270branisko6.jpg  ", naVysku: true },
-        //     {
-        //       foto: " 270branisko7.jpg  ",
-        //       popisek: " Kostel svatého Jakuba  ",
-        //     },
-        //     {
-        //       foto: " 270branisko8.jpg  ",
-        //       popisek: " Evangelický kostel na náměstí ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Tedy jsme památky prohlédli jen letmo a zvenku. Ale přijeli jsme na východní Slovensko hlavně kvůli horám. Tedy jsme vyšli z opevněného města Košickou bránou a zamířili na Mariánskou horu. Museli jsme  si na noc vybrat dobré místo na spaní, protože se blížila studená fronta s deštěm a nebylo jasné, jak dlouho nás déšť na noclehovišti zdrží.  ",
-        //     },
-        //     { foto: " 270branisko9.jpg  ", popisek: "  Košická brána " },
-        //     {
-        //       foto: " 270branisko10.jpg  ",
-        //       popisek: "  Vedle ní stojí kostel sv. Ducha ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       foto: " 270branisko11.jpg  ",
-        //       popisek: " Košická brána a hradby při vstupu do města.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         ' <h2 class="podnadpis">Druhý den : pátek 17. září 2021 </h2>   ',
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " <i>Úbočí Mariánské hory - Mariánská hora - studánka s kaplí - Dlhá lúka - Levočská dolina - Zbojnická lúka - sedlo pod Krížovým vrchom. 8 km, 550 m převýšení, 3 hodiny průvodcovského času.</i>  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " K vysvětlení předchozího : Ke každé túře obvykle udávám kilometráž a převýšení. Pokud se držíme turistických značek, pak nechybí ani tzv. průvodcovský čas, tedy čas udávaný v průvodcích, na směrovkách nebo v některých mapách. Pokud nejdeme po značených cestách, udávám náš čas chůze, do kterého spadají i malé zastávky a  focení.<br>Dopoledne propršelo a tedy jsme ho strávili ve stanu. Odpoledne nezbylo než vyrazit k Mariánské hoře, jejíž světlo jsme viděli už v noci. Čekali jsme malý kostelík na kopci, ale pěkně jsme se spletli. Když jsme vyšli věkovitou alejí lip nahoru, zjistili jsme, že tu stojí nečekaně velká bazilika Navštívení Panny Marie, poutní místo, které v roce 1995 navštívil  papež Jan Pavel II.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko12.jpg  ",
-        //       popisek: " Jen suché místo zůstalo po našem stanu. ",
-        //     },
-        //     {
-        //       foto: " 270branisko13.jpg  ",
-        //       popisek:
-        //         " Lipová alej Jana Pavla II. vede z Levoči na Mariánskou horu. ",
-        //     },
-        //     {
-        //       foto: " 270branisko14.jpg  ",
-        //       popisek: " Bazilika Navštívení Panny Marie na Mariánské hoře.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Mše se sloužila na velké louce na svahu pod kostelem a Svatý otec musel mít od oltáře překrásný výhled na Levoču a Vysoké Tatry. Ostatně nápaditě vyřešený přístřešek tu zůstal dodnes.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko15.jpg  ",
-        //       popisek: "   Vchod do kostela s lunetovým oknem. ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       foto: " 270branisko16.jpg  ",
-        //       popisek: " Pamětní deska vedle vchodu.   (září 2021) ",
-        //     },
-        //     { foto: " 270branisko17.jpg  ", popisek: " Vnitřek chrámu. " },
-        //     {
-        //       textOdstavce:
-        //         " Z druhé strany hory sem vede silnice a kolem ní jsou zřízena parkoviště velikosti fotbalových hřišť. Drtivá většina poutníků přijede auty, co je to tedy za poutníky. Místo je na trase svatojakubské pouti z Polska do Santiaga de Compostela. To musí být trek - přes šest států, 3500 kilometrů až do Španělska. Mnoho kilometrů jsme šli trasou této cesty, byla vzorně značena žlutými šipečkami a někde i směrovkou s mušlí. Poutníka jsme tam ale nepotkali ani jednoho.  ",
-        //     },
-        //     { foto: " 270branisko18.jpg " },
-        //     {
-        //       foto: " 270branisko19.jpg  ",
-        //       popisek: " Kaple s pramenem vody. ",
-        //     },
+      text: [
+        {
+          textOdstavce:
+            " Za 58 let turistické exploatace Slovenska se mi podařilo navštívit prakticky všechny tamní horské skupiny, mnohé opakovaně. Včetně těch skoro neznámých. Schválně si ukažte na mapě Slovenska třeba Žiar, Milič, Burdu, nebo Cerovou vrchovinu. Jedinou výjimkou, kde jsem ještě nebyl, byly  <strong> Levočské vrchy </strong>. Od roku 1952 až do roku 2012 byly uzavřeným vojenským prostorem a tedy turistům zapovězeny. Tuto skvrnu na čistém turistickém štítu jsme se rozhodli odstranit a tak jsme se tam s Lídou rozjeli. Putování zapadá i do neukončené řady našich vandrů okolo slovensko-polské hranice. Od roku 2014 jdeme od trojmezného bodu u Hrčavy k východu a snad někdy dojdeme na Uličský Kremenec v Nízkých Beskydech, na ukrajinské hranici. Hory severního Slovenska jsou většinou málo navštěvované a tím pro nás přitažlivé.  ",
+        },
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis"> První den : čtvrtek 16. září 2021 </h2>  ',
+        },
+        {
+          textOdstavce:
+            "  <i>Vlakem do Spišské Nové Vsi, autobusem do Levoči. Prohlídka města. Pěšky na úbočí Mariánské hory. 3 km.</i>  ",
+        },
+        {
+          textOdstavce:
+            "  Cesta pro nás nezačala nejšťastněji. Expres Regiojetu nebyl moc expresní a nabral postupně zpoždění 110 minut. Firma Student Agency, se kterou jsme dříve jezdili často a rádi, dost ubrala z kvality svých služeb. Za zpoždění se neustále omlouvala, že to je vinou překážek na  trati, ale jízdní řády si sestavuje sama a nelze spoléhat na to, že na trase 500 kilometrů z Prahy do Košic půjde vše ideálně jak na drátkách. A nejde jen o zpoždění. Dveře nešly otevírat, WC mimo provoz nebo špinavé, klimatizace nefungovala a protože okna nejsou na otevírání, cestovali jsme v sauně. Vstřícný personál to nevynahradil. Nakonec jsme do Levoči dorazili v podvečer. Je to podivné město. V 16. století se velikostí i počtem obyvatel, tedy zhruba patnácti tisíc, mohlo srovnat s Brnem. Ale rozvoj se zastavil a hradby, brány a nízké domy v úzkých ulicích zůstaly dodnes. Na velkém náměstí uprostřed stojí renesanční radnice a dva kostely.   ",
+        },
+        {
+          foto: " 270branisko1.jpg  ",
+          popisek: "  Domy na náměstí v Levoči ",
+        },
+        {
+          foto: " 270branisko2.jpg  ",
+          popisek: " Známá levočská radnice (září 2021) ",
+        },
+        { foto: " 270branisko3.jpg  " },
+        {
+          foto: " 270branisko4.jpg  ",
+          popisek: " Radniční věž  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "Město je památkovou rezervací a roku 2009 bylo zařazeno do seznamu Světového dědictví UNESCO. Před radnicí stojí “klietka hanby”. Byl to místní pranýř, do kterého se ve středověku lehko mohl dostat kdokoliv. Třeba žena, která se po setmění ubírala po městě bez mužského doprovodu. Stalo se to i dceři rychtáře. Ale hlavním magnetem, proč se davy hrnou do Levoče, je kostel svatého Jakuba a jeho vnitřní výzdoba. Sestává z jedenácti deskových oltářů, nástěnných maleb a jiných pokladů sakrálního umění. Nejvýznamnější památkou je gotický hlavní oltář vysoký 18 metrů vyřezaný z lipového dřeva., Jeho tvůrcem je Mistr Pavel z Levoči, který tu v 16. století prožil většinu života. Byl ale večer a my jsme se do kostela nedostali.   ",
+        },
+        {
+          foto: " 270branisko5.jpg  ",
+          popisek: " Klietka hanby ze 17. století.  ",
+        },
+        { foto: " 270branisko6.jpg  ", naVysku: true },
+        {
+          foto: " 270branisko7.jpg  ",
+          popisek: " Kostel svatého Jakuba  ",
+        },
+        {
+          foto: " 270branisko8.jpg  ",
+          popisek: " Evangelický kostel na náměstí ",
+        },
+        {
+          textOdstavce:
+            " Tedy jsme památky prohlédli jen letmo a zvenku. Ale přijeli jsme na východní Slovensko hlavně kvůli horám. Tedy jsme vyšli z opevněného města Košickou bránou a zamířili na Mariánskou horu. Museli jsme  si na noc vybrat dobré místo na spaní, protože se blížila studená fronta s deštěm a nebylo jasné, jak dlouho nás déšť na noclehovišti zdrží.  ",
+        },
+        { foto: " 270branisko9.jpg  ", popisek: "  Košická brána " },
+        {
+          foto: " 270branisko10.jpg  ",
+          popisek: "  Vedle ní stojí kostel sv. Ducha ",
+          naVysku: true,
+        },
+        {
+          foto: " 270branisko11.jpg  ",
+          popisek: " Košická brána a hradby při vstupu do města.  ",
+        },
+        {
+          textOdstavce:
+            ' <h2 class="podnadpis">Druhý den : pátek 17. září 2021 </h2>   ',
+        },
+        {
+          textOdstavce:
+            " <i>Úbočí Mariánské hory - Mariánská hora - studánka s kaplí - Dlhá lúka - Levočská dolina - Zbojnická lúka - sedlo pod Krížovým vrchom. 8 km, 550 m převýšení, 3 hodiny průvodcovského času.</i>  ",
+        },
+        {
+          textOdstavce:
+            " K vysvětlení předchozího : Ke každé túře obvykle udávám kilometráž a převýšení. Pokud se držíme turistických značek, pak nechybí ani tzv. průvodcovský čas, tedy čas udávaný v průvodcích, na směrovkách nebo v některých mapách. Pokud nejdeme po značených cestách, udávám náš čas chůze, do kterého spadají i malé zastávky a  focení.<br>Dopoledne propršelo a tedy jsme ho strávili ve stanu. Odpoledne nezbylo než vyrazit k Mariánské hoře, jejíž světlo jsme viděli už v noci. Čekali jsme malý kostelík na kopci, ale pěkně jsme se spletli. Když jsme vyšli věkovitou alejí lip nahoru, zjistili jsme, že tu stojí nečekaně velká bazilika Navštívení Panny Marie, poutní místo, které v roce 1995 navštívil  papež Jan Pavel II.  ",
+        },
+        {
+          foto: " 270branisko12.jpg  ",
+          popisek: " Jen suché místo zůstalo po našem stanu. ",
+        },
+        {
+          foto: " 270branisko13.jpg  ",
+          popisek:
+            " Lipová alej Jana Pavla II. vede z Levoči na Mariánskou horu. ",
+        },
+        {
+          foto: " 270branisko14.jpg  ",
+          popisek: " Bazilika Navštívení Panny Marie na Mariánské hoře.  ",
+        },
+        {
+          textOdstavce:
+            " Mše se sloužila na velké louce na svahu pod kostelem a Svatý otec musel mít od oltáře překrásný výhled na Levoču a Vysoké Tatry. Ostatně nápaditě vyřešený přístřešek tu zůstal dodnes.  ",
+        },
+        {
+          foto: " 270branisko15.jpg  ",
+          popisek: "   Vchod do kostela s lunetovým oknem. ",
+          naVysku: true,
+        },
+        {
+          foto: " 270branisko16.jpg  ",
+          popisek: " Pamětní deska vedle vchodu.   (září 2021) ",
+        },
+        { foto: " 270branisko17.jpg  ", popisek: " Vnitřek chrámu. " },
+        {
+          textOdstavce:
+            " Z druhé strany hory sem vede silnice a kolem ní jsou zřízena parkoviště velikosti fotbalových hřišť. Drtivá většina poutníků přijede auty, co je to tedy za poutníky. Místo je na trase svatojakubské pouti z Polska do Santiaga de Compostela. To musí být trek - přes šest států, 3500 kilometrů až do Španělska. Mnoho kilometrů jsme šli trasou této cesty, byla vzorně značena žlutými šipečkami a někde i směrovkou s mušlí. Poutníka jsme tam ale nepotkali ani jednoho.  ",
+        },
+        { foto: " 270branisko18.jpg " },
+        {
+          foto: " 270branisko19.jpg  ",
+          popisek: " Kaple s pramenem vody. ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         " Poutní místo této důležitosti nemůže být bez studánky. Tedy jsme sestoupili ke kapli s pramenem a dočepovali zásobu vody na noc. A pak jsme šli přes Levočskou dolinu a vystoupali poměrně mírným výstupem na hlavní hřeben Levočských vrchů. Tento den jsme zatábořili až za šera ve zbytcích starého smrkového lesa před sedlem pod Křížovým vrchem. ",
-        //     },
-        //     {
-        //       foto: " 270branisko20.jpg  ",
-        //       popisek: " Mariánská hora je přes údolí.  ",
-        //     },
-        //     { foto: " 270branisko21.jpg   " },
-        //     {
-        //       kodMapa:
-        //         ' <iframe style="border:none" src="https://frame.mapy.cz/s/cekeresato" width="400" height="280" frameborder="0"></iframe>  ',
-        //       odkazMapa: " https://frame.mapy.cz/s/cekeresato ",
-        //     },
+        {
+          textOdstavce:
+            " Poutní místo této důležitosti nemůže být bez studánky. Tedy jsme sestoupili ke kapli s pramenem a dočepovali zásobu vody na noc. A pak jsme šli přes Levočskou dolinu a vystoupali poměrně mírným výstupem na hlavní hřeben Levočských vrchů. Tento den jsme zatábořili až za šera ve zbytcích starého smrkového lesa před sedlem pod Křížovým vrchem. ",
+        },
+        {
+          foto: " 270branisko20.jpg  ",
+          popisek: " Mariánská hora je přes údolí.  ",
+        },
+        { foto: " 270branisko21.jpg   " },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/cekeresato" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/cekeresato ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         ' <h2 class="podnadpis"> Třetí den : sobota 18. září 2021 </h2>   ',
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " <i>Sedlo pod Křížovým vrchem (860 m) - bývalá Corneliusova chata (1060 m) - Gehula, lovecká chata - bývalá chata pod Javorinkou - památník SNP - Javorina (1224 m) - Vinná, lovecká chata - Václavák - Jankovec (1169 m) - pod Piesočný vrch - pod Čiernohuzec - Chmelov (1093 m). 27 km. 600 m převýšení. 8,20 hodin našeho času.</i>  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Další den jsme strávili na hřebenových cestách. Jsou většinou pohodlné, z doby vojenského újezdu tu existují lesní silničky, vhodný terén pro horská kola. Také jsme  tu kromě několika cyklistů nikoho jiného nepotkali. Hlavní trasa, hřebenovka z Levoče do Nižných Ružbachov, je vyznačena červeně a měří 45 kilometrů. Pěšák by ji přešel za 12 hodin, na cestě by ale nenašel žádnou přístupnou chatu, osadu, jen pár loveckých chat většinu roku prázdných. Ostatní hřebeny vyznačeny nejsou, průchodné jsou ale dobře, vždy po nich vede aspoň stopa vyjetá od traktoru.  ",
-        //     },
-        //     { foto: " 270branisko24.jpg   " },
-        //     { foto: " 270branisko27.jpg   " },
-        //     {
-        //       textOdstavce:
-        //         " O komplex lesů pečují Vojenské lesy a zdá se, že se starají dobře. Budují krytá odpočívadla, studánky, na rozcestí umisťují řezbářské práce a vlastivědné tabule. Smrkový les na vrcholech postihla v listopadu 2004 stejně jako Vysoké Tatry katastrofální vichřice. Většina lesů byla zničena během jediné noci. Nové lesy, bohužel zase smrkové, jsou tedy staré zatím 15 let. A k něčemu to bylo dobré, mnohé paseky poskytují zajímavé výhledy.   ",
-        //     },
-        //     {
-        //       foto: " 270branisko22.jpg  ",
-        //       popisek: " Sedlo pod Krížovým vrchom  ",
-        //     },
+        {
+          textOdstavce:
+            ' <h2 class="podnadpis"> Třetí den : sobota 18. září 2021 </h2>   ',
+        },
+        {
+          textOdstavce:
+            " <i>Sedlo pod Křížovým vrchem (860 m) - bývalá Corneliusova chata (1060 m) - Gehula, lovecká chata - bývalá chata pod Javorinkou - památník SNP - Javorina (1224 m) - Vinná, lovecká chata - Václavák - Jankovec (1169 m) - pod Piesočný vrch - pod Čiernohuzec - Chmelov (1093 m). 27 km. 600 m převýšení. 8,20 hodin našeho času.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Další den jsme strávili na hřebenových cestách. Jsou většinou pohodlné, z doby vojenského újezdu tu existují lesní silničky, vhodný terén pro horská kola. Také jsme  tu kromě několika cyklistů nikoho jiného nepotkali. Hlavní trasa, hřebenovka z Levoče do Nižných Ružbachov, je vyznačena červeně a měří 45 kilometrů. Pěšák by ji přešel za 12 hodin, na cestě by ale nenašel žádnou přístupnou chatu, osadu, jen pár loveckých chat většinu roku prázdných. Ostatní hřebeny vyznačeny nejsou, průchodné jsou ale dobře, vždy po nich vede aspoň stopa vyjetá od traktoru.  ",
+        },
+        { foto: " 270branisko24.jpg   " },
+        { foto: " 270branisko27.jpg   " },
+        {
+          textOdstavce:
+            " O komplex lesů pečují Vojenské lesy a zdá se, že se starají dobře. Budují krytá odpočívadla, studánky, na rozcestí umisťují řezbářské práce a vlastivědné tabule. Smrkový les na vrcholech postihla v listopadu 2004 stejně jako Vysoké Tatry katastrofální vichřice. Většina lesů byla zničena během jediné noci. Nové lesy, bohužel zase smrkové, jsou tedy staré zatím 15 let. A k něčemu to bylo dobré, mnohé paseky poskytují zajímavé výhledy.   ",
+        },
+        {
+          foto: " 270branisko22.jpg  ",
+          popisek: " Sedlo pod Krížovým vrchom  ",
+        },
 
-        //     {
-        //       foto: " 270branisko23.jpg  ",
-        //       popisek: " Svatý Hubert, patron myslivců. (září 2021)  ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       foto: " 270branisko25.jpg  ",
-        //       popisek: " Studánka U sklenára.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "  V nejvyšších partiích pod Křížovým vrchem si němečtí turisté z Kežmaroku postavili v roce 1886 kamennou útulnu, Corneliusovu chatu. Byla na krásném místě s dokonalým výhledem. Její slavné období ukončila první světová válka. Po válce ji koupil nový nájemce ze Sudet, ale protože se hosté nehrnuli, živil se broušením skla. Od té doby se tu říkalo U sklenára. Dnes zbývá kamenná zřícenina, kterou pohlcuje les, a výhled také zarostl. ",
-        //     },
-        //     {
-        //       foto: " 270branisko26.jpg  ",
-        //       popisek: " Bývalá Corneliusova chata. (září 2021)  ",
-        //     },
-        //     {
-        //       foto: " 270branisko28.jpg  ",
-        //       popisek: " Rozcestí a lovecká chata Gehula  ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "  Nad loukou na jižním svahu kopce Javoriny ve výšce 1157 metrů si slovenští turisté z Levoči postavili v roce 1932 svoji turistickou chatku. Měla 18 postelí ve dvou místnostech a výstup z Levoče trval 4 hodiny. Po druhé světové válce ještě objekt rozšířili a už v srpnu 1947 (!!!) otevřeli vedle větší chatu. V osmi místnostech měla 40 lůžek řádných a 40 nouzových. V roce 1952 ale prostor opanovali vojáci a na dlouho tam civily nepustili. Dnes z obou chat zůstaly jen základy.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko29.jpg  ",
-        //       popisek: " Místo po chatách pod Javorinou.  ",
-        //     },
-        //     { foto: " 270branisko30.jpg  " },
-        //     {
-        //       textOdstavce:
-        //         " Uprostřed hor na rozvětvení hřebenů stojí kamenný Památník Slovenského národního povstání. Nachází se v místech kde umírali lidé. 23. října 1944 tu německý stíhač sestřelil sovětské dopravní letadlo, které převáželo raněné partyzány, Slováky, Čechy, Francouze z letiště Tri duby do Lvova. Zahynulo 11 lidí, zachránilo se 5. O pomník z roku 1965 vzorně pečuje letecký pluk z Kežmarku.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko31.jpg  ",
-        //       popisek: " Památník SNP na Javorince. (září 2021)  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "  Z pohodlné cesty pod hřebenem se hodí odbočit a vystoupit na vrchol Javoriny. Staví tu betonovou vyhlídkovou plošinu, zbytečně monstrózní stavbu. Počítám, že kruhový rozhled zanikne, jakmile vyrostou  okolní nově vysazené stromy. Daleko sympatičtější je v úbočí nedaleká Lavička lásky na výhledu k jihozápadu na Královu holu a Slovenské Rudohoří. ",
-        //     },
-        //     {
-        //       foto: " 270branisko32.jpg  ",
-        //       popisek: " Stavba vyhlídkové plošiny na Javorině. (září 2021)  ",
-        //     },
-        //     {
-        //       foto: " 270branisko33.jpg  ",
-        //       popisek: " Pohled na Tatry je zamlžený  ",
-        //     },
-        //     {
-        //       foto: " 270branisko34.jpg  ",
-        //       popisek: " Hřebeny Levočských vrchů z Javoriny (1224 m).  ",
-        //     },
-        //     { foto: " 270branisko35.jpg  ", popisek: " Lavička lásky. " },
-        //     {
-        //       textOdstavce:
-        //         'Když jsem začínal jezdit na hory natěžko, tedy koncem šedesátých let, tak každý článek o horském putování začínal nářkem na těžké batohy hřbetolamy o váze 25 kilo. Tehdy se jinak na týdenní puťák se stanem, třeba na Nízké nebo Západní Tatry, ani jet nedalo. Od té doby vývoj turistického vybavení pokročil k lehčím materiálům, takže se lze dostat na váhy zátěže zhruba poloviční. my dva jsme měli na začátku této cesty batohy o váze 13 a 11 kilo. Ale dostala se mi do ruky kniha Petra Koska: Nalehko (nakladatelství XYZ, 2019), kde autor z vlastních zkušeností popisuje, že i několikaměsíční trek lze absolvovat s váhou na zádech mezi 5 - 7 kg. Více se lze dočíst <a href="https://www.nalehko.com" target="blank">tady</a>. Tedy i na stará kolena se stále máme v čem vylepšovat.  ',
-        //     },
-        //     { foto: " 270branisko36.jpg " },
-        //     { foto: " 270branisko39.jpg " },
-        //     {
-        //       textOdstavce:
-        //         " Kolem lovecké chaty Vinné jsme došli na rozcestí lesních cest, zvané Václavák. Vzdor názvu jsme tu nikoho neviděli. Ze značené trasy jsme uhli na neznačené hřebeny. Levočské vrchy trochu připomínají Beskydy. Ale jenom terénem, jsou to táhlé, většinou zalesněné hřebeny ve výškách 900 - 1200 metrů, doliny pak jsou dlouhé a hluboké. Ale na rozdíl od Beskyd tu chybí jakékoliv osídlení a turistický průmysl, chaty, sjezdovky, ubytování. Jsou tu jen lesní svážnice a občas lovecké chaty, které přežily i  vojenský prostor. Značené cesty na bočních hřebenech nám nijak nechyběly, je to možná lepší.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko37.jpg  ",
-        //       popisek: " U lovecké chaty Vinná  ",
-        //     },
-        //     { foto: " 270branisko38.jpg " },
-        //     { foto: " 270branisko40.jpg " },
-        //     {
-        //       textOdstavce:
-        //         " Občas nás něco překvapilo. Třeba zřícenina myslivny na plochém hřebeni na líbezném místě s výhledem nebyla zakreslena v žádné mapě. Tedy ani jména jsem se nedopátral. Byla u ní i krytá studna s funkčním rumpálem. Voda se tahala kbelíkem na řetězu ze čtyřmetrové hloubky. Tak tady by se tábořilo, tady by nám nechybělo vůbec nic. Jenže na nocleh bylo ještě brzy.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko41.jpg  ",
-        //       popisek: "  Krytá studna s rumpálem, vzadu torzo myslivny. ",
-        //     },
-        //     {
-        //       foto: " 270branisko42.jpg  ",
-        //       popisek: " Vrch Černohuzec (1216 m)  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Na nocování jsme si vybírali místa skrytá v lese. Každá lovecká chajda byla v době jelení říje obsazená. Jeleni řvali každou noc, někdy i ve dne. A lovci jsou nebezpečný národ, zvláště potmě, viz třeba zde /skok na https://turistika-pavel-pokorny.netlify.app/pomnicky/8/29 /. Kulový náboj z kulovnice doletí až 3 kilometry, pokud se do něčeho netrefí.Nastávají dva scénáře. Buďto lovce potkáme a potom nás přesvědčují, že musíme odejít, že “o piatej sa tu budě poľovať “. Jenomže kam, když spíme v lese. Nebo na lovce nenarazíme a tudíž o nás neví. To je ten horší případ.  ",
-        //       vnitrniOdkazy: [
-        //         {
-        //           vnitrniOdkaz: 29,
-        //           odkazKategorie: "pomnicky",
-        //           odkazPodkategorie: 8,
-        //           odkazKde: "odstavec",
-        //           predOdkazem:
-        //             "Na nocování jsme si vybírali místa skrytá v lese. Každá lovecká chajda byla v době jelení říje obsazená. Jeleni řvali každou noc, někdy i ve dne. A lovci jsou nebezpečný národ, zvláště potmě, viz třeba ",
-        //           textOdkazu: "zde",
-        //           zaOdkazem:
-        //             ". Kulový náboj z kulovnice doletí až 3 kilometry, pokud se do něčeho netrefí.Nastávají dva scénáře. Buďto lovce potkáme a potom nás přesvědčují, že musíme odejít, že “o piatej sa tu budě poľovať “. Jenomže kam, když spíme v lese. Nebo na lovce nenarazíme a tudíž o nás neví. To je ten horší případ.  ",
-        //         },
-        //       ],
-        //     },
-        //     { foto: " 270branisko43.jpg " },
-        //     { foto: " 270branisko44.jpg " },
-        //     {
-        //       foto: " 270branisko45.jpg ",
-        //       popisek: " Na první pohled stále stejné obzory ",
-        //     },
-        //     {
-        //       kodMapa:
-        //         ' <iframe style="border:none" src="https://frame.mapy.cz/s/munebojaco" width="400" height="280" frameborder="0"></iframe>  ',
-        //       odkazMapa: " https://frame.mapy.cz/s/munebojaco  ",
-        //     },
+        {
+          foto: " 270branisko23.jpg  ",
+          popisek: " Svatý Hubert, patron myslivců. (září 2021)  ",
+          naVysku: true,
+        },
+        {
+          foto: " 270branisko25.jpg  ",
+          popisek: " Studánka U sklenára.  ",
+        },
+        {
+          textOdstavce:
+            "  V nejvyšších partiích pod Křížovým vrchem si němečtí turisté z Kežmaroku postavili v roce 1886 kamennou útulnu, Corneliusovu chatu. Byla na krásném místě s dokonalým výhledem. Její slavné období ukončila první světová válka. Po válce ji koupil nový nájemce ze Sudet, ale protože se hosté nehrnuli, živil se broušením skla. Od té doby se tu říkalo U sklenára. Dnes zbývá kamenná zřícenina, kterou pohlcuje les, a výhled také zarostl. ",
+        },
+        {
+          foto: " 270branisko26.jpg  ",
+          popisek: " Bývalá Corneliusova chata. (září 2021)  ",
+        },
+        {
+          foto: " 270branisko28.jpg  ",
+          popisek: " Rozcestí a lovecká chata Gehula  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "  Nad loukou na jižním svahu kopce Javoriny ve výšce 1157 metrů si slovenští turisté z Levoči postavili v roce 1932 svoji turistickou chatku. Měla 18 postelí ve dvou místnostech a výstup z Levoče trval 4 hodiny. Po druhé světové válce ještě objekt rozšířili a už v srpnu 1947 (!!!) otevřeli vedle větší chatu. V osmi místnostech měla 40 lůžek řádných a 40 nouzových. V roce 1952 ale prostor opanovali vojáci a na dlouho tam civily nepustili. Dnes z obou chat zůstaly jen základy.  ",
+        },
+        {
+          foto: " 270branisko29.jpg  ",
+          popisek: " Místo po chatách pod Javorinou.  ",
+        },
+        { foto: " 270branisko30.jpg  " },
+        {
+          textOdstavce:
+            " Uprostřed hor na rozvětvení hřebenů stojí kamenný Památník Slovenského národního povstání. Nachází se v místech kde umírali lidé. 23. října 1944 tu německý stíhač sestřelil sovětské dopravní letadlo, které převáželo raněné partyzány, Slováky, Čechy, Francouze z letiště Tri duby do Lvova. Zahynulo 11 lidí, zachránilo se 5. O pomník z roku 1965 vzorně pečuje letecký pluk z Kežmarku.  ",
+        },
+        {
+          foto: " 270branisko31.jpg  ",
+          popisek: " Památník SNP na Javorince. (září 2021)  ",
+        },
+        {
+          textOdstavce:
+            "  Z pohodlné cesty pod hřebenem se hodí odbočit a vystoupit na vrchol Javoriny. Staví tu betonovou vyhlídkovou plošinu, zbytečně monstrózní stavbu. Počítám, že kruhový rozhled zanikne, jakmile vyrostou  okolní nově vysazené stromy. Daleko sympatičtější je v úbočí nedaleká Lavička lásky na výhledu k jihozápadu na Královu holu a Slovenské Rudohoří. ",
+        },
+        {
+          foto: " 270branisko32.jpg  ",
+          popisek: " Stavba vyhlídkové plošiny na Javorině. (září 2021)  ",
+        },
+        {
+          foto: " 270branisko33.jpg  ",
+          popisek: " Pohled na Tatry je zamlžený  ",
+        },
+        {
+          foto: " 270branisko34.jpg  ",
+          popisek: " Hřebeny Levočských vrchů z Javoriny (1224 m).  ",
+        },
+        { foto: " 270branisko35.jpg  ", popisek: " Lavička lásky. " },
+        {
+          textOdstavce:
+            'Když jsem začínal jezdit na hory natěžko, tedy koncem šedesátých let, tak každý článek o horském putování začínal nářkem na těžké batohy hřbetolamy o váze 25 kilo. Tehdy se jinak na týdenní puťák se stanem, třeba na Nízké nebo Západní Tatry, ani jet nedalo. Od té doby vývoj turistického vybavení pokročil k lehčím materiálům, takže se lze dostat na váhy zátěže zhruba poloviční. my dva jsme měli na začátku této cesty batohy o váze 13 a 11 kilo. Ale dostala se mi do ruky kniha Petra Koska: Nalehko (nakladatelství XYZ, 2019), kde autor z vlastních zkušeností popisuje, že i několikaměsíční trek lze absolvovat s váhou na zádech mezi 5 - 7 kg. Více se lze dočíst <a href="https://www.nalehko.com" target="blank">tady</a>. Tedy i na stará kolena se stále máme v čem vylepšovat.  ',
+        },
+        { foto: " 270branisko36.jpg " },
+        { foto: " 270branisko39.jpg " },
+        {
+          textOdstavce:
+            " Kolem lovecké chaty Vinné jsme došli na rozcestí lesních cest, zvané Václavák. Vzdor názvu jsme tu nikoho neviděli. Ze značené trasy jsme uhli na neznačené hřebeny. Levočské vrchy trochu připomínají Beskydy. Ale jenom terénem, jsou to táhlé, většinou zalesněné hřebeny ve výškách 900 - 1200 metrů, doliny pak jsou dlouhé a hluboké. Ale na rozdíl od Beskyd tu chybí jakékoliv osídlení a turistický průmysl, chaty, sjezdovky, ubytování. Jsou tu jen lesní svážnice a občas lovecké chaty, které přežily i  vojenský prostor. Značené cesty na bočních hřebenech nám nijak nechyběly, je to možná lepší.  ",
+        },
+        {
+          foto: " 270branisko37.jpg  ",
+          popisek: " U lovecké chaty Vinná  ",
+        },
+        { foto: " 270branisko38.jpg " },
+        { foto: " 270branisko40.jpg " },
+        {
+          textOdstavce:
+            " Občas nás něco překvapilo. Třeba zřícenina myslivny na plochém hřebeni na líbezném místě s výhledem nebyla zakreslena v žádné mapě. Tedy ani jména jsem se nedopátral. Byla u ní i krytá studna s funkčním rumpálem. Voda se tahala kbelíkem na řetězu ze čtyřmetrové hloubky. Tak tady by se tábořilo, tady by nám nechybělo vůbec nic. Jenže na nocleh bylo ještě brzy.  ",
+        },
+        {
+          foto: " 270branisko41.jpg  ",
+          popisek: "  Krytá studna s rumpálem, vzadu torzo myslivny. ",
+        },
+        {
+          foto: " 270branisko42.jpg  ",
+          popisek: " Vrch Černohuzec (1216 m)  ",
+        },
+        {
+          textOdstavce:
+            " Na nocování jsme si vybírali místa skrytá v lese. Každá lovecká chajda byla v době jelení říje obsazená. Jeleni řvali každou noc, někdy i ve dne. A lovci jsou nebezpečný národ, zvláště potmě, viz třeba zde /skok na https://turistika-pavel-pokorny.netlify.app/pomnicky/8/29 /. Kulový náboj z kulovnice doletí až 3 kilometry, pokud se do něčeho netrefí.Nastávají dva scénáře. Buďto lovce potkáme a potom nás přesvědčují, že musíme odejít, že “o piatej sa tu budě poľovať “. Jenomže kam, když spíme v lese. Nebo na lovce nenarazíme a tudíž o nás neví. To je ten horší případ.  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 29,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 8,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Na nocování jsme si vybírali místa skrytá v lese. Každá lovecká chajda byla v době jelení říje obsazená. Jeleni řvali každou noc, někdy i ve dne. A lovci jsou nebezpečný národ, zvláště potmě, viz třeba ",
+              textOdkazu: "zde",
+              zaOdkazem:
+                ". Kulový náboj z kulovnice doletí až 3 kilometry, pokud se do něčeho netrefí.Nastávají dva scénáře. Buďto lovce potkáme a potom nás přesvědčují, že musíme odejít, že “o piatej sa tu budě poľovať “. Jenomže kam, když spíme v lese. Nebo na lovce nenarazíme a tudíž o nás neví. To je ten horší případ.  ",
+            },
+          ],
+        },
+        { foto: " 270branisko43.jpg " },
+        { foto: " 270branisko44.jpg " },
+        {
+          foto: " 270branisko45.jpg ",
+          popisek: " Na první pohled stále stejné obzory ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/munebojaco" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/munebojaco  ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         ' <h2 class="podnadpis"> Čtvrtý den : neděle 19. září 2021 </h2>  ',
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " <i>Chmelov - údolí Torysy - ústí Spišského potoka - louky pod Spišskou (1056 m) - Bišár(956 m) - Strieborná hora (949 m). 16 km, 400 m převýšení, 5 hodin našeho času.</i>   ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Ráno jsme vcelku pohodlně sestoupili neznačenou cestou do údolí Torysy, našli ústí Spišského potoka a začali jím stoupat. Jenže nelze napsat kam, protože poměrně velká hora nemá jednotné jméno. Má jen jednotlivé vrcholy, tedy jsme vystoupali pod Spišskou(1056 m) a mířili na Bišár (981 m). Cesta se změnila v pěšinu a i ta zmizela a zůstal jen chodník vyšlapaný jelení zvěří. Když už jsme ztráceli naději, že někam vede, dovedl nás na kouzelné louky se starými modříny obtáčející vrchol Spišské. Krásná a nenavštěvovaná místa. Lámáním křovin se prozradil jelen. Až na druhé straně kopce jsme narazili na žlutou značku.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko46.jpg  ",
-        //       popisek: " Most přes říčku Torysu  ",
-        //     },
-        //     { foto: " 270branisko47.jpg  ", popisek: "   " },
-        //     { foto: " 270branisko48.jpg  ", popisek: " Louky pod Spišskou  " },
-        //     {
-        //       foto: " 270branisko49.jpg  ",
-        //       popisek: " Stopa kapitálního jelena měřila 75 x 60 mm.  ",
-        //     },
+        {
+          textOdstavce:
+            ' <h2 class="podnadpis"> Čtvrtý den : neděle 19. září 2021 </h2>  ',
+        },
+        {
+          textOdstavce:
+            " <i>Chmelov - údolí Torysy - ústí Spišského potoka - louky pod Spišskou (1056 m) - Bišár(956 m) - Strieborná hora (949 m). 16 km, 400 m převýšení, 5 hodin našeho času.</i>   ",
+        },
+        {
+          textOdstavce:
+            " Ráno jsme vcelku pohodlně sestoupili neznačenou cestou do údolí Torysy, našli ústí Spišského potoka a začali jím stoupat. Jenže nelze napsat kam, protože poměrně velká hora nemá jednotné jméno. Má jen jednotlivé vrcholy, tedy jsme vystoupali pod Spišskou(1056 m) a mířili na Bišár (981 m). Cesta se změnila v pěšinu a i ta zmizela a zůstal jen chodník vyšlapaný jelení zvěří. Když už jsme ztráceli naději, že někam vede, dovedl nás na kouzelné louky se starými modříny obtáčející vrchol Spišské. Krásná a nenavštěvovaná místa. Lámáním křovin se prozradil jelen. Až na druhé straně kopce jsme narazili na žlutou značku.  ",
+        },
+        {
+          foto: " 270branisko46.jpg  ",
+          popisek: " Most přes říčku Torysu  ",
+        },
+        { foto: " 270branisko47.jpg  ", popisek: "   " },
+        { foto: " 270branisko48.jpg  ", popisek: " Louky pod Spišskou  " },
+        {
+          foto: " 270branisko49.jpg  ",
+          popisek: " Stopa kapitálního jelena měřila 75 x 60 mm.  ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         " Louky s výhledy se střídaly s lesními úseky a nebylo kam spěchat. Na konci hřebene jsme si našli pěkné místo na spaní na Strieborné hoře. Jen pro vodu bylo nutno sestoupit dost hluboko do údolí Strieborného potoka.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko50.jpg  ",
-        //       popisek: " Hory na obzoru patří k Branisku.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko51.jpg  ",
-        //       popisek: " Copak se tu událo v roce 2003? (září 2021) ",
-        //     },
-        //     {
-        //       foto: " 270branisko52.jpg  ",
-        //       popisek: "  Táboření na Striebornej hoře. ",
-        //     },
-        //     {
-        //       kodMapa:
-        //         ' <iframe style="border:none" src="https://frame.mapy.cz/s/lamonefeku" width="400" height="280" frameborder="0"></iframe>  ',
-        //       odkazMapa: " https://frame.mapy.cz/s/lamonefeku  ",
-        //     },
+        {
+          textOdstavce:
+            " Louky s výhledy se střídaly s lesními úseky a nebylo kam spěchat. Na konci hřebene jsme si našli pěkné místo na spaní na Strieborné hoře. Jen pro vodu bylo nutno sestoupit dost hluboko do údolí Strieborného potoka.  ",
+        },
+        {
+          foto: " 270branisko50.jpg  ",
+          popisek: " Hory na obzoru patří k Branisku.  ",
+        },
+        {
+          foto: " 270branisko51.jpg  ",
+          popisek: " Copak se tu událo v roce 2003? (září 2021) ",
+        },
+        {
+          foto: " 270branisko52.jpg  ",
+          popisek: "  Táboření na Striebornej hoře. ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/lamonefeku" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/lamonefeku  ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         '<h2 class="podnadpis">Pátý den : pondělí 20. září 2021</h2>   ',
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " <i>Strieborná hora - Nižný Slavkov - Čierny močiar - sedlo pod Bachurňou - sedlo pod Magurou - hřebenem Braniska - Lačnovské sedlo - Boldigaň (939 m). 18 km, 800 m převýšení, 6 hodin naší chůze.</i>  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Dosud příjemné slunečné počasí se změnilo. Zatáhlo se a vršky kopců pohltila mlha. Po červené značce jsme sestoupili do Nižného Slavkova. Obec ležela na obchodní stezce ze Spiše do Šariše, počátky sahají do 12. století.Při vstupu do obce nás zaujala výstavná boží muka Svaté rodiny, pocházející údajně ze 13. století. Mají připomínat krvavý tatarský vpád do vsi roku 1241. ",
-        //     },
-        //     {
-        //       foto: " 270branisko53.jpg  ",
-        //       popisek: " Do Nižného Slavkova se šlo i potokem. ",
-        //     },
-        //     {
-        //       foto: " 270branisko54.jpg  ",
-        //       popisek: " Boží muka Svaté rodiny.  ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       textOdstavce:
-        //         "  Mohli jsme si dokoupit jídlo a zvenku obhlédnout historický kostel Narození Panny Marie. Jeho nejstarší část, kaple svaté Anny, byla postavena začátkem 13. věku v pozdně románském slohu a dnes je vtělena z boku do hmoty kostela. Kostel je gotický a má románskou a gotickou klenbu. Do dnešní podoby  byl přestavěn po požáru v roce 1699. Zvláštní je, že před osmi lety objevili zvenku na fasádě fresku ze 14. století. Jedná se o nástěnnou malbu svatého Krištofa, vysokou skoro pět metrů. Krištof byl považován ve středověku za ochránce poutníků a stačilo na obraz jen pohlédnout z cesty, aby byl poutník po celý den pod jeho ochranou. Upravenou náves s kostelem doplňuje výhled na cikánskou osadu nad ní, běžný kolorit východoslovenských vesnic.   ",
-        //     },
-        //     {
-        //       foto: " 270branisko55.jpg  ",
-        //       popisek:
-        //         " Kostel v Nižném Slavkově, románská kaple je v popředí.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko56.jpg  ",
-        //       popisek: " Freska svatého Krištofa (září 2021).  ",
-        //     },
-        //     {
-        //       foto: " 270branisko57.jpg  ",
-        //       popisek: " Cikánská osada nad návsí (září 2021).  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Údolí Slavkovského potoka, ve kterém leží Nižný Slavkov, odděluje dvě pohoří, Levočské vrchy od Braniska. Stoupali jsme tedy údolím Čierny Močiar do pohoří Branisko a ráz krajiny se mírně změnil. Začala ostrá stoupání, v prudkých údolích překonává voda výškový rozdíl peřejemi nebo vodopády. Začalo pršet. Jak na zavolanou se před námi objevil chráněný přístřešek. Než jsme se najedli a uvařili kafe, pršet přestalo. Málokdy máme takovou kliku. Mlha nad kopci ale držela dál a tak jsme museli vypustit výstup na významnou horu Bachureň (1081 m) na severním Branisku. Nic bychom z ní neviděli. Naštěstí se k večeru mlha rozplynula.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko58.jpg  ",
-        //       popisek: " Vodopády v dolině ČIerny močiar.  ",
-        //     },
-        //     { foto: " 270branisko59.jpg " },
-        //     {
-        //       foto: " 270branisko60.jpg  ",
-        //       popisek: " Pohled zpátky na Levočské vrchy v mlze.  ",
-        //     },
-        //     { foto: " 270branisko61.jpg  " },
-        //     {
-        //       textOdstavce:
-        //         "  Pohoří  <strong>Branisko </strong> patří k menším východoslovenským horám.Je dlouhé zhruba 25 kilometrů a ohraničené od severu řekou Torysou a od jihu Hornádem. Hlavní hřeben leží severojižním směrem ve výškách 800 až 1200 metrů - to je výška nejvyššího vrcholu Smrekovica. Je zeleně vyznačen a lze ho zdolat v jednom dni, túra z Krompachů do Lipan by ale zabrala 12 hodin. V půli je pohoří rozděleno výrazným sedlem Chválabohu, pod ním vede dálniční tunel.  Místy se v horách nalézá vápencový nebo dolomitový podklad. Tedy někde se najdou jeskyně, skalky a rokliny s vodopády.<br>Na spaní jsme si vybrali schovanou loučku na hoře Boldigaň - už pro to jméno. A zase jsme měli dost štěstí. Mezerou mezi stromy - je vidět na obrázku před stanem - ráno vyšlo slunce, vysušilo stan a rozehřálo staré kosti.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko62.jpg  ",
-        //       popisek: " Táboření na hoře Boldigaň. ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       kodMapa:
-        //         ' <iframe style="border:none" src="https://frame.mapy.cz/s/joburodeka" width="400" height="280" frameborder="0"></iframe>  ',
-        //       odkazMapa: " https://frame.mapy.cz/s/joburodeka  ",
-        //     },
+        {
+          textOdstavce:
+            '<h2 class="podnadpis">Pátý den : pondělí 20. září 2021</h2>   ',
+        },
+        {
+          textOdstavce:
+            " <i>Strieborná hora - Nižný Slavkov - Čierny močiar - sedlo pod Bachurňou - sedlo pod Magurou - hřebenem Braniska - Lačnovské sedlo - Boldigaň (939 m). 18 km, 800 m převýšení, 6 hodin naší chůze.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Dosud příjemné slunečné počasí se změnilo. Zatáhlo se a vršky kopců pohltila mlha. Po červené značce jsme sestoupili do Nižného Slavkova. Obec ležela na obchodní stezce ze Spiše do Šariše, počátky sahají do 12. století.Při vstupu do obce nás zaujala výstavná boží muka Svaté rodiny, pocházející údajně ze 13. století. Mají připomínat krvavý tatarský vpád do vsi roku 1241. ",
+        },
+        {
+          foto: " 270branisko53.jpg  ",
+          popisek: " Do Nižného Slavkova se šlo i potokem. ",
+        },
+        {
+          foto: " 270branisko54.jpg  ",
+          popisek: " Boží muka Svaté rodiny.  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "  Mohli jsme si dokoupit jídlo a zvenku obhlédnout historický kostel Narození Panny Marie. Jeho nejstarší část, kaple svaté Anny, byla postavena začátkem 13. věku v pozdně románském slohu a dnes je vtělena z boku do hmoty kostela. Kostel je gotický a má románskou a gotickou klenbu. Do dnešní podoby  byl přestavěn po požáru v roce 1699. Zvláštní je, že před osmi lety objevili zvenku na fasádě fresku ze 14. století. Jedná se o nástěnnou malbu svatého Krištofa, vysokou skoro pět metrů. Krištof byl považován ve středověku za ochránce poutníků a stačilo na obraz jen pohlédnout z cesty, aby byl poutník po celý den pod jeho ochranou. Upravenou náves s kostelem doplňuje výhled na cikánskou osadu nad ní, běžný kolorit východoslovenských vesnic.   ",
+        },
+        {
+          foto: " 270branisko55.jpg  ",
+          popisek: " Kostel v Nižném Slavkově, románská kaple je v popředí.  ",
+        },
+        {
+          foto: " 270branisko56.jpg  ",
+          popisek: " Freska svatého Krištofa (září 2021).  ",
+        },
+        {
+          foto: " 270branisko57.jpg  ",
+          popisek: " Cikánská osada nad návsí (září 2021).  ",
+        },
+        {
+          textOdstavce:
+            " Údolí Slavkovského potoka, ve kterém leží Nižný Slavkov, odděluje dvě pohoří, Levočské vrchy od Braniska. Stoupali jsme tedy údolím Čierny Močiar do pohoří Branisko a ráz krajiny se mírně změnil. Začala ostrá stoupání, v prudkých údolích překonává voda výškový rozdíl peřejemi nebo vodopády. Začalo pršet. Jak na zavolanou se před námi objevil chráněný přístřešek. Než jsme se najedli a uvařili kafe, pršet přestalo. Málokdy máme takovou kliku. Mlha nad kopci ale držela dál a tak jsme museli vypustit výstup na významnou horu Bachureň (1081 m) na severním Branisku. Nic bychom z ní neviděli. Naštěstí se k večeru mlha rozplynula.  ",
+        },
+        {
+          foto: " 270branisko58.jpg  ",
+          popisek: " Vodopády v dolině ČIerny močiar.  ",
+        },
+        { foto: " 270branisko59.jpg " },
+        {
+          foto: " 270branisko60.jpg  ",
+          popisek: " Pohled zpátky na Levočské vrchy v mlze.  ",
+        },
+        { foto: " 270branisko61.jpg  " },
+        {
+          textOdstavce:
+            "  Pohoří  <strong>Branisko </strong> patří k menším východoslovenským horám.Je dlouhé zhruba 25 kilometrů a ohraničené od severu řekou Torysou a od jihu Hornádem. Hlavní hřeben leží severojižním směrem ve výškách 800 až 1200 metrů - to je výška nejvyššího vrcholu Smrekovica. Je zeleně vyznačen a lze ho zdolat v jednom dni, túra z Krompachů do Lipan by ale zabrala 12 hodin. V půli je pohoří rozděleno výrazným sedlem Chválabohu, pod ním vede dálniční tunel.  Místy se v horách nalézá vápencový nebo dolomitový podklad. Tedy někde se najdou jeskyně, skalky a rokliny s vodopády.<br>Na spaní jsme si vybrali schovanou loučku na hoře Boldigaň - už pro to jméno. A zase jsme měli dost štěstí. Mezerou mezi stromy - je vidět na obrázku před stanem - ráno vyšlo slunce, vysušilo stan a rozehřálo staré kosti.  ",
+        },
+        {
+          foto: " 270branisko62.jpg  ",
+          popisek: " Táboření na hoře Boldigaň. ",
+          naVysku: true,
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/joburodeka" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/joburodeka  ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         '<h2 class="podnadpis">Šestý den : úterý 21. září 2021</h2>  ',
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " <i>Boldigaň - pod Kravcovou - pramen Biela voda - Smrekovica (1199 m) - chaty - propadání Diablova diera - průsmyk Branisko (též Chválabohu, 750 m) - Rudník (1024 m) - skalní brána - Rajtopíky (1036 m) - sedlo Humenec - Slubica (1129 m) - sedlo Predky - Vojkovce - Kaľava - Kolinovce - Krompachy. Noční cesta vlaky do Brna. 25 km, 1000 m převýšení, 8.30 hodin průvodcovského času.</i>  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Tento den měl být dlouhý. Na další noc byla ohlášena studená fronta s deštěm a tak představa ranního bourání stanu v dešti nás přiměla dojít k vlaku stůj co stůj. Zatím ale bylo počasí dobré, sluníčko a teplota přiměřená měsíci září.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko63.jpg  ",
-        //       popisek: " Autoportrét na tábořišti v ranním slunci.  ",
-        //     },
-        //     { foto: " 270branisko64.jpg  " },
-        //     {
-        //       foto: " 270branisko65.jpg  ",
-        //       popisek: " Louky pod Kravcovou.  ",
-        //     },
+        {
+          textOdstavce:
+            '<h2 class="podnadpis">Šestý den : úterý 21. září 2021</h2>  ',
+        },
+        {
+          textOdstavce:
+            " <i>Boldigaň - pod Kravcovou - pramen Biela voda - Smrekovica (1199 m) - chaty - propadání Diablova diera - průsmyk Branisko (též Chválabohu, 750 m) - Rudník (1024 m) - skalní brána - Rajtopíky (1036 m) - sedlo Humenec - Slubica (1129 m) - sedlo Predky - Vojkovce - Kaľava - Kolinovce - Krompachy. Noční cesta vlaky do Brna. 25 km, 1000 m převýšení, 8.30 hodin průvodcovského času.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Tento den měl být dlouhý. Na další noc byla ohlášena studená fronta s deštěm a tak představa ranního bourání stanu v dešti nás přiměla dojít k vlaku stůj co stůj. Zatím ale bylo počasí dobré, sluníčko a teplota přiměřená měsíci září.  ",
+        },
+        {
+          foto: " 270branisko63.jpg  ",
+          popisek: " Autoportrét na tábořišti v ranním slunci.  ",
+        },
+        { foto: " 270branisko64.jpg  " },
+        {
+          foto: " 270branisko65.jpg  ",
+          popisek: " Louky pod Kravcovou.  ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         " Než jsme začali vystupovat na Smrekovicu, narazili jsme na upravenou studánku s nápisem “Prameň Biela voda”, přišla nám velmi vhod. Před několika lety ji upravil a od té doby se o ni stará Klub prešovských turistov. Neodpustím si tady krátkou poznámku. V dobách společného státu jsme se na turistiku na východním Slovensku dívali tak trochu přes prsty, že se tam toho moc neděje. Neměli mapy, průvodce, značení cest bylo v plenkách. Hlavní turistické děje se přece odehrávaly na Moravě, v Čechách, o Praze nemluvě. A dnes? Ukažte mi kolem Brna jedinou studánku, kterou zřídili a udržují turisté - nenajdete ji. Na východě nadšení lokální patrioti zhušťují síť značených cest různými místními značkami, zpřístupňují neznámé vodopády, prezentují nové vyhlídkové body, udržují naučné stezky na úrovni. Zdá se mi, že zatímco v Brně se už dávno organizovaná turistika změnila na vymírající kluby důchodců, na východě Slovenska to žije. ",
-        //     },
-        //     {
-        //       foto: " 270branisko66.jpg  ",
-        //       popisek: " Prameň Biela voda. (září 2021)  ",
-        //     },
-        //     { foto: " 270branisko67.jpg  ", popisek: " Hořec tolitovitý.  " },
-        //     {
-        //       foto: " 270branisko68.jpg  ",
-        //       popisek: " Výstup na Smrekovicu.  ",
-        //     },
+        {
+          textOdstavce:
+            " Než jsme začali vystupovat na Smrekovicu, narazili jsme na upravenou studánku s nápisem “Prameň Biela voda”, přišla nám velmi vhod. Před několika lety ji upravil a od té doby se o ni stará Klub prešovských turistov. Neodpustím si tady krátkou poznámku. V dobách společného státu jsme se na turistiku na východním Slovensku dívali tak trochu přes prsty, že se tam toho moc neděje. Neměli mapy, průvodce, značení cest bylo v plenkách. Hlavní turistické děje se přece odehrávaly na Moravě, v Čechách, o Praze nemluvě. A dnes? Ukažte mi kolem Brna jedinou studánku, kterou zřídili a udržují turisté - nenajdete ji. Na východě nadšení lokální patrioti zhušťují síť značených cest různými místními značkami, zpřístupňují neznámé vodopády, prezentují nové vyhlídkové body, udržují naučné stezky na úrovni. Zdá se mi, že zatímco v Brně se už dávno organizovaná turistika změnila na vymírající kluby důchodců, na východě Slovenska to žije. ",
+        },
+        {
+          foto: " 270branisko66.jpg  ",
+          popisek: " Prameň Biela voda. (září 2021)  ",
+        },
+        { foto: " 270branisko67.jpg  ", popisek: " Hořec tolitovitý.  " },
+        {
+          foto: " 270branisko68.jpg  ",
+          popisek: " Výstup na Smrekovicu.  ",
+        },
 
-        //     {
-        //       textOdstavce:
-        //         " Byť jsme vystupovali na Smrekovicu, mnoho smrků jsme cestou neviděli, byly uschlé, pokácené nebo vyvrácené. Návštěva vrcholu ve výši 1200 metrů - někde mu metr ubírají - stála za to. Nahoře stojí otevřená kaple, přístřešek, dokonce i houpačka s výhledem. Konají se tu poutě s bohoslužbou, kterých se účastní spousty poutníků - aspoň podle laviček před kaplí to tak vypadalo. Nechápu, jak sem dostávali materiál na tyto důkladné stavby, když vršek je přístupný jen strmými pěšinami.<br> Ale výhled na všechny strany byl ojedinělý, i když ne z jednoho místa. Smrekovica je nejvyšší kóta Braniska a dost strmá na to, aby pohledy na blízké dědiny byly jak z letadla. Na sever od ní není vyšší hory až do Norska. Na východ jsou vyšší až Bieszczady a Poloninské Karpaty, vzdálené 130 kilometrů. K jihu ji převyšuje Kojšovská hola o pár metrů, jinak nic. Ze vzdálenějších pohoří lze vidět vše od Tater, Královy hole, východní části Slovenského rudohoří až po všechna pohoří na východě Slovenska. V zimě, nebo za inverzí, to musí být pohádkový, nedoceňovaný výhled. Ten jsme ale neměli, s bídou jsme zahlédli obrysy Vysokých Tater.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko69.jpg  ",
-        //       popisek: " Dřevěná kaple na Smrekovici (září 2021)  ",
-        //     },
-        //     {
-        //       foto: " 270branisko70.jpg  ",
-        //       popisek: " Výhled ze Smrekovice k jihovýchodu.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko71.jpg  ",
-        //       popisek: " Výhled k jihozápadu. Dole je Spišský hrad.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko72.jpg  ",
-        //       popisek: " Výhled k severu na Vyšný Slavkov.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Od Smrekovice k průsmyku Branisko vede údolí s potokem. Zajímalo mě, kudy voda ze sedlové plochy steče do úbočí a které úbočí si vybere. Voda si poradila, vybrala si obě. 300 metrů před sedlem se propadla do ponoru Diablova diera, sluje, do které se prý dá vstoupit. No, nezkoušeli jsme to. Vytéká z vyvěračky na západní straně hřebene asi 250 metrů vzdálené za hřebenem. Je li vody více, pokračuje potokem na východní stranu hřebene, ale to jen málokdy.<br>Průsmyk Branisko představoval jediný strmý kopec na cestě na východ Slovenska z Bratislavy do Košic. Ze západní strany překonávala silnice výškový rozdíl osmnácti ostrými zátočinami, čtyřikrát se řidič stočil do protisměru. Pro řidiče kamionů v zimě to musel být zlý sen. Samo sedlo se nazývá Chválabohu, je v tom slyšet povzdech vozky, že už to má povoz za sebou. Dnes vede pod průsmykem dálniční tunel dvěma tubusy dlouhými 5 kilometrů. Budoval se v letech 1996 - 2003. ",
-        //     },
-        //     {
-        //       foto: " 270branisko73.jpg  ",
-        //       popisek: " Propadání Diablova diera.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko74.jpg  ",
-        //       popisek: " Sedlo Chválabohu (září 2021).  ",
-        //       naVysku: true,
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Za vrcholem Rudník se cesta změnila v pěšinu, protahující se mezi dolomitovými skalkami s výhledem. V jednom místě značka prochází skalní bránou na druhou stranu hřebene. Kdesi u vrcholu Rajtopíky má být i skalní město, ale nebyl čas je hledat, vše je kryto bukovými lesy.   ",
-        //     },
-        //     { foto: " 270branisko75.jpg " },
-        //     { foto: " 270branisko76.jpg  ", popisek: " Výstup na Rajtopíky  " },
-        //     {
-        //       foto: " 270branisko77.jpg  ",
-        //       popisek: " Skalní brána. Není na Branisku jediná.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " Přestože bylo září, kvetla na dolomitech řada květin. Ve flyšových Levočských kopcích nekvetlo tou dobou skoro nic. V pozdním odpoledni jsme dorazili na holý vrchol Sľubice (1129 m). Ani tady nechyběl kříž, ale monumentalitu Smrekovice to tu nemělo. Zato zde bylo vytyčené místo pro padákové létání, protože lučinatý terén dole umožňoval bezpečné přistání. ",
-        //     },
-        //     { foto: " 270branisko78.jpg  ", popisek: " Chrpa horská. " },
-        //     {
-        //       foto: " 270branisko79.jpg  ",
-        //       popisek: " Zvonek asi kopřivolistý. ",
-        //     },
-        //     { foto: " 270branisko81.jpg  ", popisek: " Knotovka červená.  " },
-        //     {
-        //       foto: " 270branisko80.jpg  ",
-        //       popisek: " Na vrcholku Sľubice.  ",
-        //     },
-        //     {
-        //       textOdstavce:
-        //         " První obec pod horami byly Vojkovce. Uprostřed vsi stojí moderní kostel. Zdá se mi, že všechny slovenské dědiny, které byly bez kostela, si ho v posledních třiceti letech pořídily. Nikde jsem neviděl tolik moderních kostelíků, jak na Slovensku. A tam, kde kostel už stál, si ho alespoň opravili. Za vesnicí se nám otevřel výhled na Vysoké Tatry z jihovýchodní strany, protože povětří se trochu vyčistilo. Tady jsme původně plánovali nocleh. Místo toho jsme metli únavnou silnicí do Krompachů na vlak. A čekalo nás ještě únavnější noční cestování domů. Do oken vlaku celou noc bily kapky deště, kterým jsme tentokrát unikli. ",
-        //     },
-        //     {
-        //       foto: " 270branisko82.jpg  ",
-        //       popisek: " Kostel ve Vojkovcích. (září 2021)  ",
-        //     },
-        //     {
-        //       foto: " 270branisko83.jpg  ",
-        //       popisek: " Pohled na Vysoké Tatry od Vojkovců.  ",
-        //     },
-        //     {
-        //       foto: " 270branisko84.jpg  ",
-        //       popisek: "  Originální turistická značka v křovinách.  ",
-        //     },
-        //     {
-        //       kodMapa:
-        //         ' <iframe style="border:none" src="https://frame.mapy.cz/s/nebeloduco" width="400" height="280" frameborder="0"></iframe>  ',
-        //       odkazMapa: " https://frame.mapy.cz/s/nebeloduco  ",
-        //     },
-        //   ],
-        // },
+        {
+          textOdstavce:
+            " Byť jsme vystupovali na Smrekovicu, mnoho smrků jsme cestou neviděli, byly uschlé, pokácené nebo vyvrácené. Návštěva vrcholu ve výši 1200 metrů - někde mu metr ubírají - stála za to. Nahoře stojí otevřená kaple, přístřešek, dokonce i houpačka s výhledem. Konají se tu poutě s bohoslužbou, kterých se účastní spousty poutníků - aspoň podle laviček před kaplí to tak vypadalo. Nechápu, jak sem dostávali materiál na tyto důkladné stavby, když vršek je přístupný jen strmými pěšinami.<br> Ale výhled na všechny strany byl ojedinělý, i když ne z jednoho místa. Smrekovica je nejvyšší kóta Braniska a dost strmá na to, aby pohledy na blízké dědiny byly jak z letadla. Na sever od ní není vyšší hory až do Norska. Na východ jsou vyšší až Bieszczady a Poloninské Karpaty, vzdálené 130 kilometrů. K jihu ji převyšuje Kojšovská hola o pár metrů, jinak nic. Ze vzdálenějších pohoří lze vidět vše od Tater, Královy hole, východní části Slovenského rudohoří až po všechna pohoří na východě Slovenska. V zimě, nebo za inverzí, to musí být pohádkový, nedoceňovaný výhled. Ten jsme ale neměli, s bídou jsme zahlédli obrysy Vysokých Tater.  ",
+        },
+        {
+          foto: " 270branisko69.jpg  ",
+          popisek: " Dřevěná kaple na Smrekovici (září 2021)  ",
+        },
+        {
+          foto: " 270branisko70.jpg  ",
+          popisek: " Výhled ze Smrekovice k jihovýchodu.  ",
+        },
+        {
+          foto: " 270branisko71.jpg  ",
+          popisek: " Výhled k jihozápadu. Dole je Spišský hrad.  ",
+        },
+        {
+          foto: " 270branisko72.jpg  ",
+          popisek: " Výhled k severu na Vyšný Slavkov.  ",
+        },
+        {
+          textOdstavce:
+            " Od Smrekovice k průsmyku Branisko vede údolí s potokem. Zajímalo mě, kudy voda ze sedlové plochy steče do úbočí a které úbočí si vybere. Voda si poradila, vybrala si obě. 300 metrů před sedlem se propadla do ponoru Diablova diera, sluje, do které se prý dá vstoupit. No, nezkoušeli jsme to. Vytéká z vyvěračky na západní straně hřebene asi 250 metrů vzdálené za hřebenem. Je li vody více, pokračuje potokem na východní stranu hřebene, ale to jen málokdy.<br>Průsmyk Branisko představoval jediný strmý kopec na cestě na východ Slovenska z Bratislavy do Košic. Ze západní strany překonávala silnice výškový rozdíl osmnácti ostrými zátočinami, čtyřikrát se řidič stočil do protisměru. Pro řidiče kamionů v zimě to musel být zlý sen. Samo sedlo se nazývá Chválabohu, je v tom slyšet povzdech vozky, že už to má povoz za sebou. Dnes vede pod průsmykem dálniční tunel dvěma tubusy dlouhými 5 kilometrů. Budoval se v letech 1996 - 2003. ",
+        },
+        {
+          foto: " 270branisko73.jpg  ",
+          popisek: " Propadání Diablova diera.  ",
+        },
+        {
+          foto: " 270branisko74.jpg  ",
+          popisek: " Sedlo Chválabohu (září 2021).  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Za vrcholem Rudník se cesta změnila v pěšinu, protahující se mezi dolomitovými skalkami s výhledem. V jednom místě značka prochází skalní bránou na druhou stranu hřebene. Kdesi u vrcholu Rajtopíky má být i skalní město, ale nebyl čas je hledat, vše je kryto bukovými lesy.   ",
+        },
+        { foto: " 270branisko75.jpg " },
+        { foto: " 270branisko76.jpg  ", popisek: " Výstup na Rajtopíky  " },
+        {
+          foto: " 270branisko77.jpg  ",
+          popisek: " Skalní brána. Není na Branisku jediná.  ",
+        },
+        {
+          textOdstavce:
+            " Přestože bylo září, kvetla na dolomitech řada květin. Ve flyšových Levočských kopcích nekvetlo tou dobou skoro nic. V pozdním odpoledni jsme dorazili na holý vrchol Sľubice (1129 m). Ani tady nechyběl kříž, ale monumentalitu Smrekovice to tu nemělo. Zato zde bylo vytyčené místo pro padákové létání, protože lučinatý terén dole umožňoval bezpečné přistání. ",
+        },
+        { foto: " 270branisko78.jpg  ", popisek: " Chrpa horská. " },
+        {
+          foto: " 270branisko79.jpg  ",
+          popisek: " Zvonek asi kopřivolistý. ",
+        },
+        { foto: " 270branisko81.jpg  ", popisek: " Knotovka červená.  " },
+        {
+          foto: " 270branisko80.jpg  ",
+          popisek: " Na vrcholku Sľubice.  ",
+        },
+        {
+          textOdstavce:
+            " První obec pod horami byly Vojkovce. Uprostřed vsi stojí moderní kostel. Zdá se mi, že všechny slovenské dědiny, které byly bez kostela, si ho v posledních třiceti letech pořídily. Nikde jsem neviděl tolik moderních kostelíků, jak na Slovensku. A tam, kde kostel už stál, si ho alespoň opravili. Za vesnicí se nám otevřel výhled na Vysoké Tatry z jihovýchodní strany, protože povětří se trochu vyčistilo. Tady jsme původně plánovali nocleh. Místo toho jsme metli únavnou silnicí do Krompachů na vlak. A čekalo nás ještě únavnější noční cestování domů. Do oken vlaku celou noc bily kapky deště, kterým jsme tentokrát unikli. ",
+        },
+        {
+          foto: " 270branisko82.jpg  ",
+          popisek: " Kostel ve Vojkovcích. (září 2021)  ",
+        },
+        {
+          foto: " 270branisko83.jpg  ",
+          popisek: " Pohled na Vysoké Tatry od Vojkovců.  ",
+        },
+        {
+          foto: " 270branisko84.jpg  ",
+          popisek: "  Originální turistická značka v křovinách.  ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/nebeloduco" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/nebeloduco  ",
+        },
       ],
     },
   ],
