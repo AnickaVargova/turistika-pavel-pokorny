@@ -12564,50 +12564,7 @@ export default {
       ],
       proMe: " XIIIN/408  24-322-88  21---09.   ",
     },
-    {
-      id: 255,
-      kategorie: "smircikrize",
-      pridano: " 07/10/2021 ",
-      oblast: " Na sever  ",
-      jmeno: " Habrůvka  ",
-      fotkaUvod: { fotka: " 255habruvka1.jpg " },
-      podkategorie: 2,
-      okres: "  Blansko  ",
-      obec: " Habrůvka  ",
-      cislo: " 1561  ",
-      kdeSeNaleza:
-        "  Na návsi obce Habrůvka. Do roku 1970 stál na zahradě domu č. p. 18.  ",
-      popis:
-        " Obdélníková deska se zkosenými rohy je vysoká 1,1 metru. Pozitivní reliéf latinského kříže vyrůstá z oblouku zvaného oslí hřbet. Na zadní straně desky je tentýž reliéf v negativním provedení. Má vzhled středověkého náhrobníku.  ",
-      napis: "     ",
-      povest:
-        " Vztahuje se ke smrti důstojníka buď z napoleonských válek nebo prusko - rakouské války.   ",
-      odkazy: [
-        {
-          nazev: " smírčí kříže ",
-          adresa: " http://www.smircikrize.cz/habruvka.htm ",
-        },
-        {
-          nazev: " euweb ",
-          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Habruvka.html ",
-        },
-        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 45 " },
-        {
-          nazev:
-            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 20 ",
-        },
-      ],
-      pozn: "    ",
-      naposledObnoveno: " 7.10.2021 ",
-      galerie: [
-        {
-          fotka: "255habruvka1.jpg",
-          popisek: " Smírčí kámen 1561 Habrůvka (únor 2021)",
-        },
-        { fotka: "255habruvka2.jpg", popisek: " (únor 2021)", naVysku: true },
-      ],
-      proMe: " XIIIN/387  24-411-51  21---024   ",
-    },
+
     {
       id: 256,
       kategorie: "smircikrize",
@@ -13153,52 +13110,6 @@ export default {
         },
       ],
     },
-
-    {
-      id: 254,
-      kategorie: "smircikrize",
-      pridano: " 06/10/2021 ",
-      oblast: " Na sever  ",
-      jmeno: " Kuřim 2  ",
-      fotkaUvod: { fotka: " 254kurim2.jpg " },
-      podkategorie: 2,
-      okres: "  Brno - venkov  ",
-      obec: " Kuřim  ",
-      cislo: " 1715  ",
-      kdeSeNaleza:
-        "  původní místo kamene bylo v trati Mózy na JV od Kuřimi. Odtud byl přestěhován ke kostelu svaté Máří Magdalény v Kuřimi a zazděn do kamenné zídky. Ani to ho neuchránilo před stěhováním a od roku 2018 je umístěn kdesi v muzeu.  ",
-      popis:
-        "  zvětralá pískovcová deska je vysoká 1,2 metru. Nahoře vystupuje jetelový křížek, pod ním je šestiřádkový nečitelný název a těžko určitelný útvar. Buď hlava se zaseknutou motykou, případně poutnická hůl s rancem.  ",
-      napis: "  DNE  26  APRIL...ZABITI   zbytek nápisu je nečitelný.   ",
-      povest: "    ",
-      odkazy: [
-        {
-          nazev: " smírčí kříže ",
-          adresa: " http://www.smircikrize.cz/kurim.htm ",
-        },
-        {
-          nazev: " euweb ",
-          adresa: " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Kurim.html ",
-        },
-        {
-          nazev: " SCRáječko ",
-          adresa:
-            " http://www.scrajecko.cz/index.php?page=smirci_krize/kurim_02 ",
-        },
-        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 57 " },
-      ],
-      pozn: "    ",
-      naposledObnoveno: " 6.10.2021 ",
-      galerie: [
-        {
-          fotka: "254kurim1.jpg",
-          popisek:
-            " Místo, kde byl zazděn SK 1715 Kuřim do roku 2018 (září 2021) ",
-        },
-        { fotka: "254kurim2.jpg", popisek: " Smírčí kámen 1715 Kuřim " },
-      ],
-      proMe: " XIIIN/408  24-322-88  21---09.   ",
-    },
     {
       id: 255,
       kategorie: "smircikrize",
@@ -13247,134 +13158,7 @@ export default {
       ],
       proMe: " XIIIN/387  24-411-51  21---024   ",
     },
-    {
-      id: 256,
-      kategorie: "smircikrize",
-      pridano: " 07/10/2021 ",
-      oblast: " Na západ  ",
-      jmeno: " Tišnov 3  ",
-      fotkaUvod: { fotka: " 256tisnov32.jpg " },
-      podkategorie: 5,
-      okres: "  Brno - venkov  ",
-      obec: "  Tišnov ",
-      cislo: " 1485  ",
-      kdeSeNaleza:
-        "  V Tišnově na Klášterské ulici naproti ulici Pod Květnicí. Je na soukromém pozemku firmy, za drátěným plotem, přes léto není skoro vidět kvůli vegetaci (stav 2021). Dříve byl na stejném místě zazděn v kamenné ohradní zdi. ",
-      popis:
-        "  Na obdélníkové desce vysoké 0,9 metru je reliéf kříže s rozštěpenou nohou. ",
-      napis: "     ",
-      povest:
-        "  Podle nápisu v tišnovské radnici byl na tomto místě roku 1620 zabit tišnovský primátor Jiřík Mydlář, když se snažil zabránit polským žoldnéřům v plenění.  ",
-      odkazy: [
-        {
-          nazev: " smírčí kříže ",
-          adresa: " http://www.smircikrize.cz/tisnov.htm ",
-        },
-        {
-          nazev: " euweb ",
-          adresa:
-            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Tisnov.html ",
-        },
-        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 65 " },
-        {
-          nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000. str. 10.  ",
-        },
-      ],
-      pozn: "    ",
-      naposledObnoveno: " 7.10.2021 ",
-      galerie: [
-        { fotka: " 256tisnov31.jpg", popisek: " (září 2021) " },
-        {
-          fotka: " 256tisnov31.jpg",
-          popisek: " Smírčí kámen 1485 Tišnov 3 ",
-        },
-      ],
-      proMe: "  XIIIN/391  24-321-32  21---09.  ",
-    },
-    {
-      id: 257,
-      kategorie: "smircikrize",
-      pridano: " 07/10/2021 ",
-      oblast: "  Na sever ",
-      jmeno: "  Drásov 3 ",
-      fotkaUvod: { fotka: " 257drasov32.jpg " },
-      podkategorie: 2,
-      okres: "  Brno - venkov  ",
-      obec: " Drásov  ",
-      cislo: " 1786  ",
-      kdeSeNaleza:
-        " Původně ležel u cesty ke Všechovicím. Nyní je zazděn do kamenné hřbitovní zdi v Drásově, vlevo od hlavní brány. Hřbitovní zeď byla stavěná kolem roku 1893.  ",
-      popis:
-        "  Trojúhelníkový kámen z červeného pískovce s vyrytým latinským křížem. Má rozměr 42 x 40 centimetrů. Jde zřejmě o zlomek smírčího kamene. ",
-      napis: "     ",
-      povest: "  Označoval hrob vojáků padlých ve třicetileté válce.  ",
-      odkazy: [
-        {
-          nazev: " smírčí kříže ",
-          adresa: " http://www.smircikrize.cz/drasov.htm ",
-        },
-        {
-          nazev: " euweb ",
-          adresa:
-            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Drasov.html ",
-        },
-        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 56 " },
-      ],
-      pozn: "    ",
-      naposledObnoveno: " 7.10.2021 ",
-      galerie: [
-        { fotka: "257drasov31.jpg", popisek: "  (září 2021)  " },
-        {
-          fotka: "257drasov32.jpg",
-          popisek: " Smírčí kámen 1786 Drásov 3 (září 2021) ",
-        },
-      ],
-      proMe: "  XX/1152  24-321-86  21---09.  ",
-    },
-    {
-      id: 258,
-      kategorie: "smircikrize",
-      pridano: " 07/10/2021 ",
-      oblast: " Na sever  ",
-      jmeno: " Lažany 2  ",
-      fotkaUvod: { fotka: " 258lazany2.jpg " },
-      podkategorie: 2,
-      okres: " Blansko  ",
-      obec: " Lažany  ",
-      cislo: " 1728  ",
-      kdeSeNaleza:
-        "  V předzahrádce rodinného domku čp. 72 v Lažanech. Původně se nalézal při cestě z Lažan do Újezda na starém pastvisku. Později stál na dvoře domu čp. 72.  ",
-      popis:
-        "  Obdélníkový kámen s uraženým levým rohem je vysoký 0,8 metru. Na silně zvětralém povrchu vystupuje neznatelně maltézský kříž s rozštípenou patou.   ",
-      napis: "     ",
-      povest:
-        "  Dívka chodila se dvěma chlapci a chtěla se vdát za toho, který zvítězí v souboji. Oba nápadníci se ale výstřely z bambitek zastřelili navzájem. Divka se pak ze zoufalství vrhla ze skály. Aby toho nebylo málo, tak se její tělo rozpůlilo a každá půle byla  pochována s jiným sokem. V jiné verzi, zapsané na konci 19. století, šlo o urozenou dámu a nápadníci byli bratři.   ",
-      odkazy: [
-        {
-          nazev: " smírčí kříže ",
-          adresa: " http://www.smircikrize.cz/lazany.htm ",
-        },
-        {
-          nazev: " euweb ",
-          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Lazany.html ",
-        },
-        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 46 " },
-        {
-          nazev:
-            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. str. 29 ",
-        },
-      ],
-      pozn:
-        "  Původní stanoviště kamene bylo na místě, kde se stýkaly hranice tří panství, černohorského, blanenského a brněnského. Mohlo tedy jít o hraniční kámen. Proti němu stál v poli jiný kámen (1727 Lažany 4), ale ten se nedochoval, byl zničen nebo ztracen kolem roku 1980. Údajně skončil v základech rodinného domu, tam stavěného. ",
-      naposledObnoveno: " 7.10.2021 ",
-      galerie: [
-        {
-          fotka: "258lazany2.jpg",
-          popisek: " Smírčí kámen 1728 Lažany 2 (červenec 2021) ",
-        },
-      ],
-      proMe: " XVII/608  24-322-55  21---071   ",
-    },
+
     {
       id: 270,
       datum: " 16. - 22. září 2021  ",
@@ -13873,6 +13657,350 @@ export default {
           odkazMapa: " https://frame.mapy.cz/s/nebeloduco  ",
         },
       ],
+    },
+    {
+      id: 261,
+      kategorie: "pomnicky",
+      pridano: " 07/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - město ",
+      obec: "  Obřany  ",
+      jmeno: " Lenka a Jan ",
+      nazev: " Vzpomínka na Lenku a Jana ",
+      fotkaUvod: { fotka: " 261lenkaajan.jpg " },
+      kdyVznikl: " 2003 ",
+      popisCesty:
+        " Pomníček leží 500 metrů S od kostela v Obřanech. Dojde se k němu po ulici Bílovické nahoru na kopec ke kříži.  ",
+      popis:
+        "  Přírodní kámen je vysoký 0,5 metru, na něm jsou připevněny dvě malé plechové cedulky.  ",
+      napis:
+        " Na větší cedulce : Láska a víra // je silnější než smrt<br> Na menší cedulce : Lence a Janovi // + 2003  ",
+      odkazy: [
+        {
+          nazev: " encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=832 ",
+        },
+      ],
+      pozn:
+        "  Pomníček dal zbudovat bývalý starosta Břicháček na památku tragicky zesnulé vnučky Lenky Ondráčkové a jejího přítele Jana Zlámala v roce 2003  ",
+      naposledObnoveno: " 7.11.2021 ",
+      souradnice: " 49.2355011N, 16.6506550E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/guhoganaja" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/guhoganaja  ",
+      galerie: [
+        {
+          fotka: "261lenkaajan.jpg",
+          popisek: " Vzpomínka na Lenku a Jana (duben 2021) ",
+        },
+      ],
+      proMe: "  XX/1136  24-324-71  21---041  ",
+    },
+    {
+      id: 262,
+      kategorie: "pomnicky",
+      pridano: " 08/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Jinačovice  ",
+      jmeno: " Čáp, Pavel  ",
+      nazev: " Křížek Pavla Čápa ",
+      fotkaUvod: { fotka: " 262cappavel1.jpg " },
+      kdyVznikl: " po roce 2013 ",
+      popisCesty:
+        " Křížek lze najít v lesním údolí u cesty, 850 metrů JV od kaple v Jinačovicích. Asi 100 metrů pod ním je studánka Barborka.  ",
+      popis:
+        "  Ke kmenu mohutného buku je připevněna dřevěná plotna. K ní je přišroubován dřevěný bílý křížek, vysoký 0,8 metru a malý plechový štítek s neuměle vyraženým textem. ",
+      napis: " PAVEL  ČÁP // 30. 6. 1987 - 25. 8. 2013 // MÁME  TĚ  RÁDI  ",
+      naposledObnoveno: " 8.11.2021 ",
+      souradnice: " 49.2627406N, 16.5384956E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pepehofale" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/pepehofale  ",
+      galerie: [
+        {
+          fotka: " 262cappavel1.jpg",
+          popisek: "Křížek Pavla Čápa ( únor 2021) ",
+        },
+        { fotka: " 262cappavel2.jpg", popisek: " (únor 2021 ) " },
+      ],
+      proMe: "  XX/1117  24-324-66  21---022  ",
+    },
+    {
+      id: 263,
+      kategorie: "pomnicky",
+      pridano: " 08/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Dolní Loučky  ",
+      jmeno: " Surman, Antonín  ",
+      nazev: " Pomníček Antonína Surmana ",
+      fotkaUvod: { fotka: " 263surman1.jpg " },
+      kdyVznikl: " po roce 1986  ",
+      popisCesty:
+        " Pomníček leží 1400 metrů JV od centra Dolních Louček, na S straně železniční trati. Naproti přes údolí je lom, vedle je poničená traťová bouda. Je vidět z vlaku.   ",
+      popis:
+        "  Úhledný pomníček je vysoký jeden metr. Základ z umělého kamene je vsazen do strmé stráně, do základu je vetknuta mramorová deska. Na desce je oválná fotka muže a text. Vedle je poškozená kovová lucerna. Připomíná pomník na hrobě a bývá tak i vyzdoben. ",
+      napis:
+        "  ANTONÍN  SURMAN //  * 24. 7. 1941 //  +  3. 11. 1986 // NEZAPOMENEME ",
+
+      pozn: "  Pravděpodobně oběť železničního neštěstí.  ",
+      naposledObnoveno: " 8.11.2021 ",
+      souradnice: " 49.3555808N, 16.3792689E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/namulejaka" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/namulejaka  ",
+      galerie: [
+        {
+          fotka: "263surman1.jpg",
+          popisek: " Pomníček Antonína Surmana (prosinec 2020) ",
+        },
+        { fotka: "263surman2.jpg", popisek: " (prosinec 2020 ) " },
+      ],
+      proMe: "  XX/1104  24-321-85  20-125  ",
+    },
+    {
+      id: 264,
+      kategorie: "pomnicky",
+      pridano: " 08/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Níhov  ",
+      jmeno: " Klíma, František  ",
+      nazev: " Kříž Františka Klímy ",
+      fotkaUvod: { fotka: " 264klima1.jpg " },
+      kdyVznikl: " po roce 1883 ",
+      popisCesty:
+        " Kříž stojí 400 metrů JV od kaple v Níhově, u silnice od železniční zastávky do Níhova.  ",
+      popis:
+        "  Obyčejný kamenný kříž je vysoký 2,5 metru, poněkud zašlý. Na čelní stěně je delší text.  ",
+      napis:
+        " …. // na památku od rodičů // FRANTIŠKA  KLÍMY // který 16. roku starý, 24. září 1883, // svůj život dokonál.   ",
+      pozn:
+        "  Těžko zjistit, co šestnáctiletého Františka potkalo, ale smrt v tomto věku je pro rodiče vždy tragédií.  ",
+      naposledObnoveno: " 8.11.2021 ",
+      souradnice: " 49.3401242N, 16.2626128E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/funulunupa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/funulunupa  ",
+      galerie: [
+        {
+          fotka: "264klima1.jpg",
+          popisek: " Kříž Františka Klímy (září 2020) ",
+        },
+        { fotka: "264klima2.jpg", popisek: " (září 2020) " },
+        { fotka: "264klima3.jpg", popisek: " (září 2020) " },
+      ],
+      proMe: "  XX/1079  24-312-27  20---084  ",
+    },
+    {
+      id: 265,
+      kategorie: "pomnicky",
+      pridano: " 08/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie",
+      okres: " Brno - venkov ",
+      obec: "  Kanice  ",
+      jmeno: "  Kopnická, Erika Karina ",
+      nazev: " Památka Eriky Kopnické ",
+      fotkaUvod: { fotka: " 265kopnicka1.jpg " },
+      kdyVznikl: " po roce 2014 ",
+      popisCesty:
+        " Na Hádech na hraně Etážového lomu, 500 metrů ZSZ od restaurace Velká Klajdovka.  ",
+      popis:
+        "  Leštěná deska z tmavé žuly, je vsazena do země. Na ní je fotografie mladé dívky a text. Stále vyzdobeno.  ",
+      napis:
+        " ERIKA // KARINA // KOPNICKÁ //  *  20. 8. 1994   + 9. 12. 2014  ",
+      naposledObnoveno: " 8.11.2021 ",
+      souradnice: " 49.2197917N, 16.6744083E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lezofanako" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lezofanako  ",
+      galerie: [
+        {
+          fotka: "265kopnicka1.jpg",
+          popisek: " Památka Eriky Kopnické (duben 2019 ) ",
+        },
+        { fotka: "265kopnicka2.jpg", popisek: " (prosinec 2020 ) " },
+      ],
+      proMe: "  XX/1103  24-413-125  20---125 Kytky19---044 ",
+    },
+    {
+      id: 266,
+      kategorie: "pomnicky",
+      pridano: " 10/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie",
+      okres: " Brno - venkov ",
+      obec: "  Kuřimská Nová Ves  ",
+      jmeno: "  Pochopov  ",
+      nazev: " Křížek emigranta Pochopova. ",
+      fotkaUvod: { fotka: " 266pochopov2.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " V údolí potoka Haldy 1100 metrů ZSZ od návsi v Kuřimské Nové Vsi. U zaniklé nádrže Kopyto je Pochopova skála. Na skalní římse tři metry nad zemí stojí křížek. V minulosti nebyl takto viditelně vystrčen, byl schován u paty skály.  ",
+      popis: "  Dokonale vypracovaný latinský křížek je vysoký 0,6 metru.  ",
+      napis: " Bez nápisu.  ",
+      odkazy: [
+        {
+          nazev:
+            " Vaněk, Miroslav: Diana. Továrna na smrt 1944 - 1945, str. 22 a 33. ",
+        },
+      ],
+      pozn:
+        "  Emigrant Pochopov pracoval v partě lamačů na stavbě nové trati a v blízkosti skály údajně zahynul. Skálu pojmenovali po něm. Na konci druhé světové války skála sloužila jako jeden z pilířů dřevěného mostu pro úzkokolejnou dráhu vedoucí k Níhovskému a Lubenskému tunelu. V nich se v utajené továrně Diana vyráběla letadla Messerschmidt.  ",
+      naposledObnoveno: " 10.11.2021 ",
+      souradnice: "  49.3505700N, 16.2835033E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lepejadufu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lepejadufu  ",
+      galerie: [
+        {
+          fotka: "266pochopov2.jpg",
+          popisek: " Křížek emigranta Pochopova (srpen 2020 ) ",
+        },
+        { fotka: "266pochopov1.jpg", popisek: " (srpen 2020 ) " },
+      ],
+      proMe: "  XX/1082  24-312-29  20---084  ",
+    },
+    {
+      id: 267,
+      kategorie: "pomnicky",
+      pridano: " 11/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Břeclav ",
+      obec: "  Nové Mlýny  ",
+      jmeno: " Rakvice - tragédie  ",
+      nazev: " Pomník Rakvické tragédie ",
+      fotkaUvod: { fotka: " 267rakvice1.jpg " },
+      kdyVznikl: " 1938 ",
+      popisCesty:
+        " Pomník stojí 300 metrů Z od návsi Nových Mlýnů, na konci zbytku staré silnice na břehu Dyje. Dříve tu býval most a ještě dříve přívoz, na kterém se tragédie odehrála. Nedaleko je nový most přes řeku a hráz Novomlýnské nádrže. Pamatuji, že na začátku 60. let stál pomník zašlý a zarostlý keři vedle silnice.  ",
+      popis:
+        "  Na kamenném hranolu je rozměrná světlá deska s textem a jmény zahynulých dětí. Pomník je 1,7 metru vysoký, obnovený v roce 2019 a pečlivě udržovaný.  ",
+      napis:
+        " NA  PAMÁTKU  DĚTEM  ZAHYNUVŠÍM // NA  ŠKOLNÍM  VÝLETĚ  PŘI  NEŠTĚSTÍ  NA  DYJI // DNE  26. KVĚTNA  1936 // POSTAVIL  T.  G.  MASARYK // … následuje 31 jmen zahynulých dětí.  ",
+      odkazy: [
+        {
+          nazev: " Moje Brno ",
+          adresa:
+            " https://mojebrno.jecool.net/inka--morava-nove-mlyny-pomnik.html  ",
+        },
+        {
+          nazev: " Deník ",
+          adresa:
+            " https://www.denik.cz/z_domova/rakvice-dyje-katastrofa.html ",
+        },
+        { nazev: " Kačor, Miroslav: Osudové okamžiky, 2003 str. 7 - 22. " },
+        { nazev: " Vajbar, Miroslav : Školní výlet 1936, 2014. " },
+      ],
+      pozn:
+        "  V úterý 26. května 1936 se 95 dětí v doprovodu tří učitelů, osmi kočích s povozy a několika rodičů vypravilo od školy v Rakvicích na školní výlet na Pálavu. Vyrazili brzy ráno a v 7.30 přijížděly první vozy k přívozu přes Dyji u Nových Mlýnů. Neregulovaná, 45 metrů široká řeka měla po bouřkách o jeden a půl metru zvýšený stav vody. Temný proud vody budil v dětech obavy a tak se na prám nijak nehrnuly. S prvním povozem přeplulo 7 dětí, se druhým 15 dětí bez problémů. Mezitím dorazily k přívozu i ostatní vozy. Děti si dodaly odvahy a na třetí jízdu přes řeku se jich natlačilo na pramici 52 a prám přetížily. S nimi tam byl i učitel Horanský, povozník se ženou, kočí s povozem a dva další kočí pomáhali, jeden držel neklidné koně, druhý pomáhal tahat lano.<br>Jedenáct let stará dřevěná pramice byla  12 metrů dlouhá a 3,5 metru široká. Nikdy neprošla žádnými opravami a byla ve špatném stavu, dřevo bylo vyhnilé a spáry ucpané hadry, které propuštěly dovnitř vodu. Loď byla pomocí dvou trámů s vodícími tyčemi napojena na ocelové lano nad vodou. Přes řeku se dostávala taháním za lano.<br>Při odjezdu se dvěma hochům zdálo plavidlo nespolehlivé a na poslední chvíli vyskočili do mělké vody a asi si tím skokem zachránili život. Jak byli koně nepokojní, děti se jich bály a tlačily se na záď plavidla. Došlo k přetížení zádi, voda na dně se hrnula dozadu, což situaci ještě zhoršilo tak, že se voda přelila přes zadní boky. To už byl prám uprostřed řeky, která tu byla hluboká pět metrů. Zteřelé bočnice povolily a loď se rozpadla. Během pěti vteřin se všichni ocitli ve vodě. Většina dětí neuměla plavat a rychlý proud je nesl ke splavu, který byl od přívozu vzdálen 120 metrů. Učitel a 4 děti, kteří byli na přídi lodi, se zachytili vodícího lana a dokázali se po něm dostat k břehu.<br> Druhý učitel s kočím na břehu odvázali loďku a pluli zachraňovat. Vytáhli do loďky asi deset dětí, ale proud loďku snesl do jezu, kde se převrátila a pod jezem se jí dokázali chytit jen někteří. Dívenky nadnášely škrobené sukně a jako balóny pluly po hladině k jezu. Celý příšerný výjev netrval ani tři minuty. Dětské hlavičky postupně mizely pod vodou. Na břehu se odehrávaly srdceryvné scény. Před očima matek se topily děti a ony jim neuměly pomoci. Kdo mohl, pomáhal tahat děti na břeh, ale ne vždy se to podařilo. Zachránilo se 21 dětí. Zahynulo 31 dětí, 22 děvčat a 9 kluků, všichni ve věku 10 - 12 let.<br>Jediná oběť z dospělých byl kočí Beleš (25 let). Poté, co vytáhl na břeh několik dětí, chtěl zachránit i spřežení tím, že přeřeže postraňky a topící se kůň ho kopl do hlavy.<br>Přijeli četníci, hasiči, lékař z Břeclavi, oddíl ženistů postavil pontonový most, níže na řece natáhli sítě, hledali v korytě celý den a celou noc za svitu reflektorů. Policie poprvé v historii nasadila potápěče. Nikoho živého už nenašli. Mrtvá těla se nacházela v dalších dnech daleko po proudu. V Rakvicích uspořádali tři hromadné pohřby, tak jak byly oběti nalézány. <br>Následné vyšetřování odhalilo tři příčiny nehody: dezolátní stav pramice, vysoký stav vody a nerovnoměrné zatížení lodice, která se v minulosti už dvakrát potopila. Soud určil dva viníky. Převozníka, který se o loď špatně staral a majitele prámu, bohatého mlynáře, který dal do provozu tak nebezpečné plavidlo. Převozník Schuster(53 let) dostal nepodmíněný trest 10 měsíců a do soudního procesu vstoupila politika. Mlynář Vaverka byl vlivným členem agrární strany a soud se spokojil s podmíněným trestem. Tři učitelé byli osvobozeni soudem druhé instance. Ale veřejné mínění bylo proti nim zaujaté, pokládalo je za viníky. Byli přeloženi a ze vsi se museli vystěhovat. Tragický byl osud nadučitele Bohumila Horanského (1895 - 1977). Vlastenec, legionář, duše kulturního dění na vsi, znal se osobně s Masarykem. Z oblíbené osobnosti se přes noc stal obecní nepřítel. Psychicky se po tragédii zhroutil. I když měl manželku z Rakvic, musel se odstěhovat. Zdrcený učitel už nikdy Rakvice nenavštívil. V září 2017, jako akt smíření, byla urna s jeho popelem uložena na rakvický hřbitov, mezi jeho žáky, kteří tam jsou pohromadě pochováni. <br>Událost měla vliv na celý stát. Konaly se sbírky, ale ty životy nevrátily. Školský úřad okamžitě zakázal všechny školní výlety a tento zákaz trval až do války.<br>Na neštěstí se nezapomíná dodnes, i když očití svědci události jsou po smrti. V roce 2000 začal režisér ostravské televize Miroslav Kačor natáčet televizní seriál Osudové okamžiky, věnující se nejtragičtějším neštěstím v Československu. Rakvická tragédie přišla na řadu mezi prvními a zachytila svědectví mnoha pamětníků. V posledních letech byl opraven pomník, restaurovány hroby obětí, uložena urna učitele Horanského. <br>I já mám osobní vzpomínku na výlet na Pálavu v květnu 1961, kdy nás jiný, menší přívoz mezi Šakvicemi a Pavlovem převážel přes vzedmutou Dyji. Vedoucí, jsa pamětníkem události, nám o neštěstí vyprávěl a pocity na vodě nebyly nejlepší. A to jsem uměl plavat. Cesta lužními lesy a výstup na Děvín ale vše zaplašily.  ",
+      naposledObnoveno: " 11.11.2021 ",
+      souradnice: " 48.8572778N, 16.7264681E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cavudejotu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cavudejotu  ",
+      galerie: [
+        {
+          fotka: " 267rakvice1.jpg",
+          popisek: " Pomník zahynulým dětem z Rakvic (únor 2020) ",
+        },
+        { fotka: " 267rakvice2.jpg", popisek: " ( únor 2020) " },
+        {
+          fotka: " 267rakvice3.jpg",
+          popisek: " Regulovaná Dyje v místě neštěstí v únoru 2020.",
+        },
+      ],
+      proMe: "  XX/1053  34-213-16  20---021  ",
+    },
+    {
+      id: 268,
+      kategorie: "pomnicky",
+      pridano: " 11/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Pernštejn  ",
+      jmeno: " Mazáč, Leopold  ",
+      nazev: " Památník vlastivědce Leopolda Mazáče. ",
+      fotkaUvod: { fotka: " 268mazac1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Na hradě Pernštejně, na třetím (nejvyšším) nádvoří, u paty skály.  ",
+      popis:
+        "  Pomníček jehlanovitého tvaru je vysoký 0,8 metru. Z přední strany je měděná destička a na ní text drobným písmem.  ",
+      napis:
+        " NA  TOMTO MÍSTĚ // ZEMŘEL 27.  1.  1997 // VE  SVÝCH  95  LETECH // VZÁCNÝ  ČLOVĚK, UČITEL // A  VLASTIVĚDNÝ  PRACOVNÍK // LEOPOLD  MAZÁČ // Z  DOUBRAVNÍKA   ",
+      odkazy: [
+        {
+          nazev: " Doubravník ",
+          adresa: " https://www.doubravnik.cz/view.php?cisloclanku=2007112201 ",
+        },
+        { nazev: " Jurman, Hynek: Nesmazatelné stopy. 2004, str. 11 - 16. " },
+        { nazev: " Urbánková, Vlasta: Jak srdce zvonu. 1997" },
+        { nazev: " Mazáč, Leopold a Bukal Bořivoj: Doubravník. 1972. " },
+      ],
+      pozn:
+        "  Pan <strong>Leopold Mazáč</strong> (1902 - 1997) byl učitel a vlastivědný pracovník v Doubravníku. Učil v malotřídních školách na Tišnovsku, ředitelem školy v Doubravníku byl v letech 1944 - 1964. Kronikář obce, archivář a doubravnický patriot. Vydal monografii o Doubravníku, napsal a publikoval mnoho vlastivědných článků. Manželka i jediná dcera mu zemřely a konec života trávil v domově důchodců na Mitrově. Jeho přátelé - vlastivědci mu chtěli udělat radost a vzali ho autem na hrad Pernštejn, na konzultační den památkářů. Tam v krátkém projevu ocenili jeho zásluhy za záchranu památek a odměnili ho potleskem. Neobvyklá námaha, možná i stres ze setkání způsobily, že pětadevadesátiletý pan řídící zkolaboval na nádvoří hradu a zemřel v náručí svých přátel v místech, která měl rád.  ",
+      naposledObnoveno: " 11.11.2021 ",
+      souradnice: "49.4507436N, 16.3181814E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nakupafato" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/nakupafato  ",
+      galerie: [
+        {
+          fotka: " 268mazac1.jpg",
+          popisek: " Památník Leopolda Mazáče (srpen 2019) ",
+        },
+        { fotka: " 268mazac2.jpg", popisek: " ( srpen 2019 ) " },
+        {
+          fotka: " 268mazac3.jpg",
+          popisek: " Třetí nádvoří hradu Pernštejna ",
+        },
+      ],
+      proMe: "  XX/1020  24-134-25  19---081  ",
+    },
+    {
+      id: 269,
+      kategorie: "pomnicky",
+      pridano: " 12/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Blansko ",
+      obec: "  Jedovnice  ",
+      jmeno: " Vodní motoristé - Olšovec  ",
+      nazev: " Památník zahynulým vodním motoristům u Olšovce. ",
+      fotkaUvod: { fotka: " 269vodni1.jpg " },
+      kdyVznikl:
+        " Nejstarší pomníček Ralfa Geista byl postaven ve stráni v roce 1987, pietní místo se třemi pomníčky bylo upraveno po roce 2000.  ",
+      popisCesty:
+        " Pietní místo vodních motoristů je na SV břehu rybníka Olšovce, 800 metrů JV od náměstí v  Jedovnicích, nad pobřežní asfaltovou cestou.  ",
+      popis:
+        "  Původní Geistův pomník byl metr vysoký hranol ze žulových kostek s deskou. Nově upravené pietní místo má půdorys kruhové úseče omezené do svahu metr vysokou kamennou zídkou. Na vydlážděné plošině jsou tři kamenné pomníčky, na každém je kovová deska s textem.     ",
+      napis:
+        " Na levém pomníčku relief motorového kluzáku a text: Martin  KONRÁD // závodník na motorovém člunu //  * 23. 1. 1974  + 20. 9. 1998 // …<br>Na prostředním pomníčku: JORDAN  JORDANOV // BULHARSKÝ  ZÁVODNÍK // TRAGICKY  ZAHYNUL // 5. 9. 1999<br>Na pravém pomníčku: RALF  GEIST // ZÁVODNÍK // NĚMECKÉ  DEMOKRATICKÉ //  REPUBLIKY // NA  MOTOROVÉM  ČLUNU // 27. 4. 1946 // + 8. 9. 1985   ",
+      naposledObnoveno: " 12.11.2021 ",
+      souradnice: " 49.3380692N, 16.7609947E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dosopusatu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dosopusatu  ",
+      galerie: [
+        {
+          fotka: "269vodni4.jpg",
+          popisek: "Pietní místo vodních motoristů (březen 2017 ) ",
+        },
+        { fotka: "269vodni3.jpg", popisek: " Pomníček Martina Konráda " },
+        { fotka: "269vodni9.jpg", popisek: " Pomníček Jordana Jordanova " },
+        { fotka: "269vodni2.jpg", popisek: " Pomíček Ralfa Gaista  " },
+      ],
+      proMe: "  XX/1001  24-411-129  17--033  ",
     },
   ],
 };
