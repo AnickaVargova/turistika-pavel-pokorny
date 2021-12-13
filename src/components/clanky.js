@@ -14002,5 +14002,528 @@ export default {
       ],
       proMe: "  XX/1001  24-411-129  17--033  ",
     },
+    {
+      id: 287,
+      kategorie: "smircikrize",
+      pridano: " 06/12/2021 ",
+      oblast: " Na západ  ",
+      jmeno: " Neslovice  ",
+      fotkaUvod: { fotka: "  287neslovice.jpg  " },
+      podkategorie: 5,
+      okres: "  Brno - venkov  ",
+      obec: " Ivančice  ",
+      cislo: " 1293  ",
+      kdeSeNaleza:
+        " Nacházel se 2,5 kilometru S od kostela v Ivančicích, na V straně frekventované silnice na Neslovice, v mezi u silnice.   ",
+      popis:
+        "  Na kamenné obdélníkové desce vysoké 0,9 metru byl vidět úzký latinský kříž a za ním vystupovalo loukoťové kolo s nejasnou postavou zkrouceného člověka.  ",
+      napis: "     ",
+      povest:
+        "  Pověst mluví o přepadení a oloupení svatby. Ne nadarmo se blízké údolí jmenuje Martálka, z němčiny Mordtal, údolí vraždy.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/neslovice.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://smircikrize.euweb.cz/CR/Brno_venkov/Neslovice.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 58 " },
+        { nazev: " Schwendtová, Andrea eds.: Ivančice, 2000 " },
+      ],
+      pozn:
+        "  Smírčí kámen v roce 2009 zmizel, byl ukraden. Kámen ležel 1300 metrů vzdálen od hranice neslovického katastru, tedy na katastru Ivančic a důvod pojmenování Neslovice neznám.  ",
+      naposledObnoveno: " 6.12.2021 ",
+      galerie: [
+        {
+          fotka: " 287neslovice.jpg",
+          popisek: " Smírčí kámen 1293 Neslovice. ",
+        },
+      ],
+      proMe: " XIIIN/410  24-341-27  kresba   ",
+    },
+    {
+      id: 288,
+      kategorie: "smircikrize",
+      pridano: " 07/12/2021 ",
+      oblast: " Na sever  ",
+      jmeno: " Doubravník 1  ",
+      fotkaUvod: { fotka: "  288doubravnik1.jpg  " },
+      podkategorie: 2,
+      okres: "  Brno - venkov   ",
+      obec: " Doubravník  ",
+      cislo: " 1351  ",
+      kdeSeNaleza:
+        "  Kříž leží 1300 metrů J od kostela v Doubravníku, v sedle mezi Doubravníkem a Boračí.  ",
+      popis:
+        "  Bílá mramorová deska je vysoká 1,2 metru a po okrajích olámaná. Na ní je reliéf latinského kříže. Kámen byl nedávno odborně restaurován a znovu osazen do skupiny lip.   ",
+      napis: "     ",
+      povest: "  Prý tu přišel o život při rvačce mládenec z Borače.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/doubravnik.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://smircikrize.euweb.cz/CR/Brno_venkov/Doubravnik.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 435 " },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 07.12.2021 ",
+      galerie: [
+        {
+          fotka: "  288doubravnik1.jpg",
+          popisek: " Smírčí kámen 1351 Doubravník 1  (říjen 2020 ",
+        },
+        { fotka: "  288doubravnik2.jpg", popisek: " (říjen 2020 " },
+      ],
+      proMe: "  XIIIN/462  24-143-20  21---103  ",
+    },
+    {
+      id: 289,
+      kategorie: "smircikrize",
+      pridano: " 07/12/2021 ",
+      oblast: " Na západ  ",
+      jmeno: " Kralice  ",
+      fotkaUvod: { fotka: " 289kralice2.jpg " },
+      podkategorie: 5,
+      okres: " Třebíč   ",
+      obec: " Kralice  ",
+      cislo: "  2518 ",
+      kdeSeNaleza:
+        "  Leží v dlažbě kolem kostelíku svatého Martina v Kralicích. Je dost nenápadný.  ",
+      popis:
+        "  Nepravidelný plochý kámen je dlouhý 1,3 metru. V horní části je vytesán jednoduchý latinský křížek.  ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        {
+          nazev: " euweb ",
+          adresa:
+            " http://smircikrize.euweb.cz/CR/Trebic/Kralice_nad_Oslavou.html ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 7.12.2021 ",
+      galerie: [
+        {
+          fotka: " 289kralice1.jpg",
+          popisek: " Kostel sv. Martina v Kralicích (říjen 2021) ",
+        },
+        {
+          fotka: " 289kralice2.jpg",
+          popisek: " Smírčí kámen 2518 Kralice (říjen 2021) ",
+        },
+        { fotka: " 289kralice3.jpg", popisek: " (říjen 2021) " },
+      ],
+      proMe: " XX/1154  24-314-82  21---101  ",
+    },
+    {
+      id: 271,
+      kategorie: "pomnicky",
+      pridano: " 21/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Biskoupky  ",
+      jmeno: " Robotka, David  ",
+      nazev: " Památka Davida Robotky. ",
+      fotkaUvod: { fotka: " 271robotka1.jpg " },
+      kdyVznikl: " po roce 2014 ",
+      popisCesty:
+        " Nalézá se na Z okraji obce Biskoupky, u posledního domu při cestě na Biskoupský kopec.  ",
+      popis:
+        "  Památník vysoký 0,7 metru je vystavěn z bílých cihel u zdi obytného domu. Uprostřed je tmavá leštěná deska.   ",
+      napis:
+        " 21. 9. 2014 // ZDE  TRAGICKY  ZEMŘEL // DAVID  ROBOTKA // VE  VĚKU  33  LET // ...  ",
+      pozn:
+        "  Po silném dešti čistili v neděli 21. září 2014 dva muži zanesený kanál od bahna. Nepočínali si opatrně a oba je strhl vodní proud, jeden se zachránil a druhý utopil. Voda odnesla tělo dvě stě metrů daleko.  ",
+      naposledObnoveno: " 21.11.2021 ",
+      souradnice: "  49.0995139N, 16.2791150E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dafototaze" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dafototaze  ",
+      galerie: [
+        {
+          fotka: "271robotka1.jpg",
+          popisek: "Památka Davida Robotky (duben 2018) ",
+        },
+        { fotka: "271robotka2.jpg", popisek: " (duben 2018) " },
+      ],
+      proMe: " XX/973  24-334-28  18---043 ",
+    },
+    {
+      id: 272,
+      kategorie: "pomnicky",
+      pridano: " 21/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice  ",
+      jmeno: " Strážmistr Kamarád ",
+      nazev: "  Kříž strážmistra Kamaráda ",
+      fotkaUvod: { fotka: " 272kamarad1.jpg " },
+      kdyVznikl: " v srpnu 2016 ",
+      popisCesty:
+        " 2400 metrů SSZ od mostu v Bílovicích, u kolejí na Z straně pod skalní stěnou, v místech kde spadá bezejmenné údolíčko ke Svitavě. 200 metrů dále je údolí Myší díra. Je třeba projít mostkem pod tratí. Kříž je vidět z vlaku. ",
+      popis:
+        "  Prostý  kříž z dřevěných  hranolů je vysoký 2,2 metru. Na něm uprostřed je plastová tabulka s textem.  ",
+      napis:
+        " V těchto místech // byl dne 28. října 1917 // sražen vlakem // stržm. četnictva // RUDOLF  KAMARÁD  ",
+      odkazy: [
+        {
+          nazev: " vets ",
+          adresa: " https://www.vets.cz/vpm/27722-pomnik-rudolf-kamarad/ ",
+        },
+        {
+          nazev: " hrady ",
+          adresa: " https://www.hrady.cz/kriz-strzm-rudolfa-kamarada ",
+        },
+      ],
+      pozn:
+        " Strážmistr Rudolf Kamarád byl 28. října 1917 zachycen projíždějící lokomotivou rychlíku při ostraze železniční trati ve válečné době. Událost se stala kolem 15. hodiny a strojvůdce si ničeho nevšiml. S torzem těla dojela lokomotiva až do Vídně.  Tento kříž zbudovali členové spolku vojenské historie, kteří si říkají Četnická stanice Bílovice nad Svitavou. ",
+      naposledObnoveno: " 21.11.2021 ",
+      souradnice: "  49.2658700N, 16.6633578E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/codukoruvo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/codukoruvo  ",
+      galerie: [
+        {
+          fotka: "272kamarad1.jpg",
+          popisek: " Kříž strážmistra Kamaráda (březen 2018 ) ",
+        },
+        { fotka: "272kamarad2.jpg", popisek: " (březen 2018 ) " },
+      ],
+      proMe: "  XX/962  24-324-57  18---032  ",
+    },
+    {
+      id: 273,
+      kategorie: "pomnicky",
+      pridano: " 22/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - město ",
+      obec: "  Brno - Komín  ",
+      jmeno: " Strážmistr Macourek  ",
+      nazev: " Kříž strážmistra Macourka ",
+      fotkaUvod: { fotka: " 273macourek1.jpg " },
+      kdyVznikl:
+        " 22. 9. 2013 s malou pietní vzpomínkou k 95. výročí události. Kříž postavili členové skupiny vojenské historie zvané Četnická stanice Bílovice nad Svitavou.  ",
+      popisCesty:
+        " Mezi Komínem a Bystrcí v ulici Kníničská, těsně u řeky pod dvěma mohutnými topoly.  ",
+      popis:
+        "  Prostý dřevěný kříž, namořený na žluto, vysoký dva metry je shora krytý stříškou. Uprostřed kříže je přišroubovaná plastová tabulka s textem.  ",
+      napis:
+        " Opsáno s chybou: V těchto místech byl dne 22. září 1918 // zavražděn vojenskými zběhy strážmistr // četnictva Josef Macourek ze Žabovřesk  ",
+      odkazy: [
+        {
+          nazev: " encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=12255 ",
+        },
+        {
+          nazev: " turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/brno-komin-kriz-josefa-macourka/detail ",
+        },
+        { nazev: " Lidové noviny, 14.6.2019, příl. str. 4 " },
+      ],
+      pozn:
+        "  V noci ze 22. na 23. října 1918 šel strážmistr Josef Macourek (1889 - 1918) ve službě z Komína po cestě podél řeky do Bystrce. Potkal dva muže, které vyzval, aby se legitimovali. Když zjistil, že to jsou dezertéři z rakouské armády, chtěl je zatknout a vytáhl revolver. Ale jeden z nich, Leopold Pauzer, zloděj a vrah, mu vyrazil revolver z ruky a svým bodákem zasadil strážmistrovi 27 bodných ran. Mrtvého oloupili o karabinu, revolver, boty, brašnu a tělo hodili do Svratky. Byli součástí čtyřčlenné bandy dezertérů, která se zabývala krádežemi v Brně.  Rozsáhlé pátrání k ničemu nevedlo. Až za měsíc, při domovní prohlídce spojené s jinou akcí, objevila policie revolver a boty u jiného účastníka zločinu. Vinu vraždy na sebe vzal Pauzer, dostal doživotí. Zemřel ve vězení ve 40 letech na TBC.   ",
+      naposledObnoveno: " 22.11.2021 ",
+      souradnice: "  49.2183192N, 16.5419422E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cahudazeva" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cahudazeva  ",
+      galerie: [
+        {
+          fotka: " 273macourek1.jpg",
+          popisek: " Kříž strážmistra Macourka ( duben 2015 ) ",
+        },
+        {
+          fotka: " 273macourek2.jpg",
+          popisek: " Detail tabulky ( duben 2015 ) ",
+        },
+      ],
+      proMe: " XIX/848  24-324-53  15---041   ",
+    },
+    {
+      id: 274,
+      kategorie: "pomnicky",
+      pridano: " 22/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: " Tinka, Aleš  ",
+      nazev: " Tinkova památka na Jelenici ",
+      fotkaUvod: { fotka: " 274tinka1.jpg " },
+      kdyVznikl: " Po roce 2011. ",
+      popisCesty:
+        " 2,3 kilometru V od Hostěnic, v údolí Hostěnického potoka, naproti junácké chaty Jelenice. U lesa na modré značce. Pařezová studánka je několik kroků vedle pomníčku. ",
+      popis:
+        "  V betonové skruži, jejíž vnitřek je pokryt oblázky, je přírodní kámen vysoký 0,7 metru a na něm kovová tabulka s textem. Vždy opečováváno a vyzdobeno.  ",
+      napis:
+        " ALEŠOVA  PAŘEZOVÁ  STUDÁNKA // ZASLOUŽIL SE O NI OCHRÁNCE PŘÍRODY, // PŘÍTEL  DĚTÍ, LESA  A  JELENICE // POZOŘICKÝ  UČITEL  MGR.  ALEŠ  TINKA // + 2. 11. 2011  ",
+      odkazy: [
+        {
+          nazev: " academia ",
+          adresa:
+            " https://www.academia.edu/1529877/Vzpom%C3%ADnka_na_Mgr._Ale%C5%A1e_Tinku_1968-2011_._In_English_Obituary_of_Mgr._Ale%C5%A1_Tinka_1968-2011_ ",
+        },
+        { nazev: " Vlastivědný věstník moravský, 64, 2012, č.1, str. 86 " },
+      ],
+      pozn:
+        "  Mgr. Aleš Tinka (1968 - 2011) byl učitelem v Pozořicích, zastupitelem i místostarostou v obci, skautským vůdcem, kronikářem Pozořic, vlastivědným badatelem, duší ekologických aktivit v okolí obce, hudebníkem ve folkové skupině a všeobecně aktivním a přátelským člověkem. Odešel z tohoto světa vlastní rukou mimořádně drastickým způsobem. Ve čtvrtek 3. listopadu 2011 bylo v ohništi u chaty Jelenice nalezeno jeho ohořelé tělo.   ",
+      naposledObnoveno: " 22.11.2021 ",
+      souradnice: "  49.2409056N, 16.8037283E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/nebatelegu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/nebatelegu  ",
+      galerie: [
+        {
+          fotka: " 274tinka1.jpg",
+          popisek: " Tinkova památka na Jelenici (listopad 2014) ",
+        },
+        { fotka: " 274tinka2.jpg", popisek: " (leden 2018) " },
+      ],
+      proMe: " XIX/826 XX/998  24-413-27  14---11?  18---012   ",
+    },
+    {
+      id: 275,
+      kategorie: "pomnicky",
+      pridano: " 23/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Moravské Bránice  ",
+      jmeno: " Plaček, Jan  ",
+      nazev: " Vražda rolníka Plačka ",
+      fotkaUvod: { fotka: " 275placek1.jpg " },
+      kdyVznikl: " V roce 1919 ho pořídili věrní pozůstalí. ",
+      popisCesty:
+        " Kříž stojí 1300 metrů SSV od nádraží Moravské Budějovice v údolí směřujícím na planinu Bukovinky. Je u polní cesty v hlubokém úvozu.  ",
+      popis:
+        " Obyčejný kamenný kříž s kovovým Kristem je vysoký 3 metry. Na čelní stěně je poškozená oválná fotografie muže a delší text. Kříž je zašlý a působí omšele.  ",
+      napis:
+        " Na tomto místě byl // dne 23. dubna 1919 //    zákeřně // utracen život na pole jedoucího // JANA  PLAČKA // rolníka // z Mor. Bránic čís. 39 // v 46. roce věku svého // ...  ",
+      pozn:
+        " Podle obecní kroniky byl Plaček zastřelen z brokovnice starostou obce Metodějem Pazourkem. Ten se sám zastřelil při pronásledování v polích u Moravan 26. 4. 1919.   ",
+      naposledObnoveno: " 23.11.2021 ",
+      souradnice: "  49.0963078N, 16.4339053E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gemerusoje" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gemerusoje  ",
+      galerie: [
+        {
+          fotka: " 275placek1.jpg",
+          popisek: " Kříž rolníka Plačka ( říjen 2013) ",
+        },
+        { fotka: " 275placek2.jpg", popisek: " Detail nápisu ( říjen 2013) " },
+      ],
+      proMe: " XVIII/789  24-343-40  13---101  ",
+    },
+    {
+      id: 276,
+      kategorie: "pomnicky",
+      pridano: " 23/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Znojmo ",
+      obec: "  Jamolice  ",
+      jmeno: " Smejkal, Jaroslav  ",
+      nazev: " Kříž Jaroslava Smejkala ",
+      fotkaUvod: { fotka: " 276smejkal1.jpg " },
+      kdyVznikl: " 1949 ",
+      popisCesty:
+        " Kříž stojí 1500 metrů V od kostela v Jamolicích, u silnice z Jamolic do Polánky v nejvyšším bodu na J straně.  ",
+      popis:
+        " Obyčejný kříž z umělého kamene stojí na betonovém soklu a je vysoký dva metry. Zepředu je reliéf hlavy Panny Marie a text na bílé desce.     ",
+      napis:
+        " V upomínku // na tragicky zemřelého // JAROSLAVA // SMEJKALA // z Jamolic // 1949  ",
+      pozn: "    ",
+      naposledObnoveno: " 23.11.2021 ",
+      souradnice: "  49.0735411N, 16.2718142E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/kalogapema" width="400" height="280" frameborder="0"></iframe> ',
+      odkazMapa: "  https://frame.mapy.cz/s/kalogapema  ",
+      galerie: [
+        {
+          fotka: " 276smejkal1.jpg",
+          popisek: " Kříž Jaroslava Smejkala (červenec 2013) ",
+        },
+        { fotka: " 276smejkal2.jpg", popisek: " (červenec 2013) " },
+      ],
+      proMe: "  XVII/777  24-334-24  13---073  ",
+    },
+    {
+      id: 277,
+      kategorie: "pomnicky",
+      pridano: " 25/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - venkov ",
+      obec: "  Lubné  ",
+      jmeno: " Kutiny - tragédie  ",
+      nazev: "  Železniční neštěstí u Řikonína ",
+      fotkaUvod: { fotka: " 277kutiny1.jpg " },
+      kdyVznikl:
+        " Až do 90. let 20. století nemělo tuto tragédii nic připomínat, nepočítáme-li dvě utržené vlakové nápravy ve svahu, které byly odstraněny prý v roce 1997. Jednoduchý kovový křížek na pilíři za potokem, jiný než dnešní, se objevil začátkem 90. let. V těch letech tu u cesty býval i dřevěný křížek s datem havárie. Už je odstraněn. Kolem roku 2015 instalovali na pilíři u cesty  černou pamětní desku. ",
+      popisCesty:
+        " Velký železniční most u Kutin je vzdálen 1500 metrů na Z od Řikonína a 400 metrů od samoty Kutiny. Vede pod ním zelená značka a teče říčka Libochovka. Památky jsou na pilířích mostu u cesty.  ",
+      popis:
+        " Na pilíři za říčkou je připevněn kovový křížek vysoký 0,7 metru. Uprostřed něj je kovová cedulka ze zničeného vlaku. Na pilíři u cesty je pietní místo s nalezenými drobnými železnými troskami a nad ním je připevněna tmavá leštěná deska. Na desce je realisticky vyobrazen rychlík Ex 57 Pannonia, malý křížek a delší text česky a polsky. V posledních letech vždy upraveno a vyzdobeno.   ",
+      napis:
+        " VZPOMÍNKA // NA 1 ČESKÉHO A 30 POLSKÝCH  OBČANŮ // KTEŘÍ  NA  TOMTO  MÍSTĚ  ZAHYNULI // PŘI  ŽELEZNIČNÍM  NEŠTĚSTÍ  DNE // 11. 12. 1970 //  … a podobný nápis polsky.  ",
+      odkazy: [
+        {
+          nazev: " Osudové okamžiky ",
+          adresa:
+            " https://www.ceskatelevize.cz/porady/1091682868-osudove-okamziky/401213100081068-rikonin-1970/ ",
+        },
+        {
+          nazev: " Železničář ",
+          adresa:
+            " https://zeleznicar.cd.cz/zeleznicar/provoz-a-technika/analyza-nehod-%7C-rikonin-1970--tragedie-expresu-pannonia/-10186/21,0,,/ ",
+        },
+        { nazev: " Kačor, Miroslav: Osudové okamžiky, 2003, str. 151 - 165 " },
+        {
+          nazev:
+            " Vaněk, Miloslav: Diana, továrna na smrt, 2003, str. 107 - 110 ",
+        },
+      ],
+      pozn:
+        "  Šlo o neuvěřitelnou shodu náhod dvou železničních nehod, na sebe navazujících. Několikrát chybělo málo, aby se nestalo nic a nebo aby byly následky ještě daleko horší.<br>V pátek 11. prosince 1970 zastavil nákladní vlak jedoucí od Vlkova k Tišnovu se 46 vozy u návěstidla před stanicí Řikonín. Na jím obsazenou kolej před Řikonínem pustila hláskařka v Níhově (byla to její první samostatná směna) omylem samotnou lokomotivu, která se vracela do Brna. Ta v zátočině za ranního šera na viaduktu narazila do konce nákladního vlaku. Bylo 7.17 hodin. Vcelku banální nehoda, vykolejilo posledních osm vagonů a v lokomotivě byli tři zranění železničáři. Jenomže tři vykolejené vagony zasahovaly do profilu sousední koleje a k místu se z druhé strany po viaduktu blížil zpožděný rychlík Pannonia. Do srážky chyběly tři minuty a rozjetý rychlík už nedokázal nikdo varovat. Plnou rychlostí narazil do vykolejených  nákladních vagonů. Rychlík mohl varovat výpravčí v Řikoníně, ale měl na rozmyšlení, že je něco v nepořádku, jen 45 sekund, mohl to udělat i strojvůdce nákladního vlaku rozsvícením červených světel na lokomotivě. <br>Následky srážky byly pro rychlík a pasažéry předních dvou vozů strašlivé. První vůz byl lůžkový a spali v něm polští železničáři a jejich rodiny, kteří se vraceli z dovolené. Z tohoto vozu se utrhla skříň od podvozku a spadla z mostu do hloubky 35 metrů. Tam bylo nejvíce mrtvých. Druhý vůz, jídelní, se vytrhl ze soupravy, převrátil na střechu a spadl 12 metrů hluboko na svah pod mostem. Třetí vůz se udržel na mostě ve velmi vratké poloze a hrozil zřícením. Kola vagonu prý stála deset centimetrů od hrany viaduktu. Pokud by i ten spadl z mostu, mohl stáhnout i ostatních devět plně obsazených vozů do hlubiny - to se naštěstí nestalo. Lokomotiva s podvozkem prvního vozu se utrhla od soupravy, udržela na trati a posádka zázrakem vyvázla z nehody bez zranění. Lokomotiva byla ale celá zničená. Zahynulo 30 osob na místě, jedna osoba po převozu do nemocnice, 13 osob bylo těžce zraněných. Bylo identifikováno 30 mrtvých polských občanů. Jediná česká oběť byl nešťastník, který ve zmatku vystoupil ze třetího vagonu přímo do hloubky před sebou. Celková škoda včetně odškodnění přesáhla 13 milionů Kčs.<br>Následovalo vyšetřování a soudní proces. Potrestána byla hláskařka z Níhova za ohrožení z nedbalosti, 6 a půl roku nepodmíněně, výpravčí z Řikonína dostal 4 a půl roku. O události se moc nepsalo, pamatuji na nijak výraznou zprávu v Rudém právu. Její větší část zabíral text soustrastného telegramu, který poslal předseda vlády Štrougal svému polskému protějšku. Za socíku se přece neštěstí nestávala a pokud ano, tak se o nich veřejně nemluvilo. Každému od železnic ale bylo jasné, že tak důležitá a  frekventovaná trať měla být zabezpečena daleko lépe, než byla. Nehoda na tomto úseku nebyla totiž ani první, ani poslední.  ",
+      naposledObnoveno: " 25.11.2021 ",
+      souradnice: "  49.3624544N, 16.2872422E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/jodadamotu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/jodadamotu  ",
+      galerie: [
+        {
+          fotka: " 277kutiny1.jpg",
+          popisek: " Velký viadukt u Kutin(květen 2020) ",
+        },
+        { fotka: " 277kutiny2.jpg", popisek: " Pietní místo (květen 2020) " },
+        { fotka: " 277kutiny3.jpg", popisek: " Detail desky(duben 2018) " },
+        { fotka: " 277kutiny4.jpg", popisek: " Detail kříže(duben 2018) " },
+      ],
+      proMe: " XIIIN/414  24-312-38  18---041  20---051   ",
+    },
+    {
+      id: 278,
+      kategorie: "pomnicky",
+      pridano: " 26/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - město ",
+      obec: "  Brno - Žebětín  ",
+      jmeno: " Baltisberger, Hans  ",
+      nazev: " Smrt závodníka Baltisbergera. ",
+      fotkaUvod: { fotka: " 278baltisberger2.jpg " },
+      kdyVznikl:
+        " V listopadu 1978. Dříve na něm byla malá cedulka s nápisem: In gedenken Adolf Sohlein nov. 1978 (česky K uctění památky Adolf Sohlein listop. 1978) ",
+      popisCesty:
+        " U frekventované silnice ze Žebětína do Kohoutovic, dnes u výjezdu ze Staré dálnice, na JZ straně silnice v lese. Na starém motocyklovém okruhu tu byla velmi mírná zatáčka.  ",
+      popis:
+        "  Přírodní hrubě tesaný kamenný kvádr je vysoký 0,8 metru, z přední strany je kamenná deska s nápisem, postupem času už třetí. Text doznává malých změn. Tvůrcem pomníku je Adolf Sohlein (1937 - 2007 trag.)   ",
+      napis:
+        " Poslední verze: HANS // BALTISBERGER // MOTOCYKLOVÝ  ZÁVODNÍK // MOTORRADRENNFAHRER //  * 16. 9. 1922  + 26. 8. 1956 . Na deskách se opakuje chybné datum narození, správně má být 10. 9. 1922.   ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=4171 ",
+        },
+        {
+          nazev: " idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/priloha/60-let-od-nehody-hans-baltisberger-velka-cena-brno-smrt.A160810_105824_brno-prilohy_daj ",
+        },
+        {
+          nazev: " Badatelna ",
+          adresa:
+            " http://davar.cz/badatelna/xref/ost_brno_pomnicek_baltisbergera.htm ",
+        },
+        {
+          nazev:
+            " Hrabal, Bohumil: Smrt pana Baltisbergera, 1963, povídka uveřejněna v knize Automat svět, 1966. ",
+        },
+        {
+          nazev:
+            " Zavřel, Zdeněk: Historie motocyklových závodů, 2002, str.17 - 20 ",
+        },
+      ],
+      pozn:
+        "  Jako každý rok se v neděli 26. srpna 1956 na okruhu Velké ceny Československa  (Masarykův okruh se mu říkat nemohlo) konaly motocyklové závody. Zájem lidu byl obrovský, od rána táhly davy všemi silnicemi i cestami. Počet fanoušků každoročně překračoval 200 000. Motorismus byl tehdy nebezpečný sport, skoro každý rok se na okruhu někdo zabil.<br>Závod třídy do 250 ccm byl odstartován jako třetí v pořadí, po krátkém dešti byla dráha mokrá a postupně vysychala. Někteří jezdci měli motocykly zakapotované ve tvaru kapky včetně předního kola, vypadalo to velmi elegantně, ale bylo to asi nebezpečné. Za dva roky to zakázali. V čele závodu se utvořila silná čtveřice závodníků, kteří se neustále stíhali a předjížděli. První na rychlou jízdu doplatil Angličan Brown, havaroval. Další oběť stíhací jízdy byl Australan Hinton, který těžce boural u Žebětína. V čele závodu zbyli dva Němci, Kassner a Baltisberger, oba zkušení matadoři tohoto okruhu. V předposledním kole za Žebětínem, kde silnice stoupá mírnou zatáčkou k Farince a jezdí se na plný plyn, vjelo bílé NSU Sportmax s Baltisbergerem v sedle na pravou část silnice, která byla mokrá. Motorka dostala smyk, kapota zachytila za asfalt a vše se řítilo do příkopu. V cestě ale stál telegrafní sloup, do kterého neovladatelný stroj narazil. Jezdce i stroj to vymrštilo do výše, motorka dopadla mezi diváky (8 zraněných) a jezdec letěl dál až do lesa. Hlavou narazil na pařez a byl na místě mrtev. Kassner pokračoval neztenčenou rychlostí a závod vyhrál. Zatáčka dostala po Baltisbergerovi jméno a na místě skonu stojí pomníček. Ten den nebyl jedinou obětí. U Nového Lískovce smrtelně havaroval nárazem do stromu Francouz Michael Mouty.<br>Celá historie vstoupila i do české literatury. Tehdy 42letý spisovatel Bohumil Hrabal byl na tomto závodu přítomen a napsal o něm povídku “Smrt pana Baltisbergera”. Povídka vyšla v jeho sbírce povídek Automat svět. V roce 1965 ji zfilmoval režisér Menzel.<br>I já si na tento závod pamatuji, byl jsem tam jako osmiletý s rodiči, tak, jako každý rok. Měl jsem okruh dva kilometry od domu. Ze žebře dvojáku jako z tribuny nad hlavami početného davu jsme pozorovali dění na trati v zatáčce za Novým Lískovcem. Honička čtyř motorek se všem divákům líbila a dohadovali jsme se, co se komu přihodilo, když se jejich počet tenčil.<br><strong>Hans Baltisberger</strong> (1922 - 1956) německý motocyklový závodník, dvojnásobný mistr Německa. Byl častým hostem na okruhu v Brně a dokázal zde i zvítězit. Pochován je v rodném městě Reutlingen, kde je po něm pojmenována ulice. Při příležitosti různých výročí přijíždějí fanoušci motocyklové historie z Německa do Brna a navštěvují pomníček Baltisbergerovy smrti.  ",
+      naposledObnoveno: " 26.11.2021 ",
+      souradnice: "  49.1973628N, 16.5178664E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nezudebuto" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/nezudebuto  ",
+      galerie: [
+        {
+          fotka: "278baltisberger1.jpg",
+          popisek: " Smrt závodníka Baltisbergera (leden 2011 ) ",
+        },
+        {
+          fotka: "278baltisberger2.jpg",
+          popisek: " S novou deskou (prosinec 2016) ",
+        },
+        { fotka: "278baltisberger3.jpg", popisek: " (prosinec 2016) " },
+      ],
+      proMe: " XII/359A  24-324-75  11---01?  16---123  ",
+    },
+    {
+      id: 279,
+      kategorie: "pomnicky",
+      pridano: " 24/11/2021 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Brno - město ",
+      obec: "  Brno - Slatina  ",
+      jmeno: " Dostálová, Vlastička  ",
+      nazev: " Památka Vlastičky Dostálové na Stránské skále. ",
+      fotkaUvod: { fotka: "  279dostalova2.jpg " },
+      kdyVznikl: " 1938, její otec sem dal desku umístit hned po tragédii. ",
+      popisCesty:
+        "  Asi 100 metrů J od konečné zastávky tramvaje pod Stránskou skálou, na skalní stěně nad vchodem 2/II do tunelů. Deská je nenápadná a hledá se těžce. ",
+      popis:
+        " Vysoko na skalní stěně je světlá kamenná deska, rozměrů 40 x 30 centimetrů. Je poškozená a text je těžko čitelný. Nahoře je vyryt malý křížek.  ",
+      napis: " ZDE // SKONALA // VLASTIČKA // DOSTÁLOVÁ // + 14. 10. 1938  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna  ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=12133 ",
+        },
+        {
+          nazev: " nehoda ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_udalosti&load=3511& ",
+        },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        " V pátek 14. října 1938 byl nahlášen policii pád člověka ze Stránské skály. Policie rychle zjistila, že se jedná o čtrnáctiletou Vlastu Dostálovou (24.9.1924 - 14.10.1938) z kolonie pod Stránskou skálou. Pitva prokázala zlomení vazu při pádu z výšky a policie případ uzavřela jako nešťastnou náhodu. Zdrcený otec nechal zřídit pamětní desku na místě neštěstí a tragédie začala žít v ústním podání vlastním životem. Přispěla k tomu smrt mladé dívky, její nejasný konec, ponurost místa pod Stránskou skálou i odloučenost nouzové kolonie ze 30. let od města. Dodnes není událost spolehlivě vysvětlena a asi ani nebude. Vynořily se pověsti o sáňkování, o sebevraždě kvůli vysvědčení, o nešťastné lásce, o tom, že její matka se oběsila na trámu ve štole.<br>Událostí se důkladně zabýval brněnský vlastivědný badatel Jiří Skoupý a po prostudování archivních dokumentů a shromáždění několika svědectví se mu jako nejpravděpodobnější jeví tato varianta události: Vlasta žila s otcem v domku pod Stránskou skálou (dnes Stránská 36b). Manželství rodičů bylo rozloučeno a s ní tam žila i macecha. Vlasta dokončila školu a našla si práci v textilce na Bratislavské. Přes týden bydlela u kamarádky a na víkend se vracela do domku k otci a pomáhala mu s malým hospodářstvím. Po třech měsících ale o práci přišla, což doma tajila. V osudný pátek jí otec naznačil, že pokud přijde o práci a plat, nebude moci u něj bydlet a odešel do města zjistit, jak se věci mají. Doma došlo k hádce Vlastičky s macechou. Rozrušená dívka  nevěděla, jak nastalou situaci vyřešit. Odešla na Stránskou skálu a tam se vrhla ze skalního srázu. Pamětní deska přežila dodnes, vzdor tomu, že se pod ní za války hloubily nedokončené tunely továrny na letecké motory Flugmotoren Ostmark Wien a v padesátých letech budoval protiatomový kryt Civilní obrany.<br>A ještě něco důležitého. Hrob Vlastičky Dostálové lze nalézt na židenickém hřbitově, skupina 8, číslo 479. Je na něm bílá socha dívky a hrob je vždy pečlivě upraven, byť všichni blízcí příbuzní jsou už dávno po smrti.  ",
+      naposledObnoveno: " 24.11.2021 ",
+      souradnice: "  49.1910917N, 16.6739900E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/henokutafa" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/henokutafa  ",
+      galerie: [
+        {
+          fotka: " 279dostalova1.jpg",
+          popisek: " Památka Vlastičky Dostálové (duben 2018) ",
+        },
+        { fotka: " 279dostalova2.jpg", popisek: " Detail desky (duben 2018) " },
+      ],
+      proMe: " XVII/658  24-431-37  18---04?   ",
+    },
   ],
 };
