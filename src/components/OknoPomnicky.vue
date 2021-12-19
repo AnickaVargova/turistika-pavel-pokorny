@@ -321,6 +321,10 @@
     width: 15%;
   }
 
+  td:nth-child(2) {
+    text-align: justify;
+  }
+
   .odkaz {
     margin-bottom: 5px !important;
     margin-top: 0 !important;
