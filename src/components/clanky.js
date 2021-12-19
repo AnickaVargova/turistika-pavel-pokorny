@@ -3556,10 +3556,10 @@ export default {
     {
       id: 91,
       kategorie: "smircikrize",
-      oblast: " Na západ  ",
+      oblast: " Na sever  ",
       jmeno: "   Sejřek   ",
       fotkaUvod: { fotka: " sejrek1.jpg " },
-      podkategorie: 5,
+      podkategorie: 2,
       okres: "   Žďár nad Sázavou    ",
       obec: " Sejřek   ",
       cislo: "  1464  ",
@@ -3594,11 +3594,11 @@ export default {
     {
       id: 92,
       kategorie: "smircikrize",
-      oblast: "  Na západ  ",
+      oblast: "  Na sever  ",
       jmeno: "   Dolní Loučky   ",
       fotkaUvod: { fotka: " dolniloucky.jpg " },
 
-      podkategorie: 5,
+      podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Dolní Loučky  ",
       cislo: "  1454  ",
@@ -3629,11 +3629,11 @@ export default {
     {
       id: 93,
       kategorie: "smircikrize",
-      oblast: "  Na západ  ",
+      oblast: "  Na sever  ",
       jmeno: "  Lipůvka   ",
       fotkaUvod: { fotka: " lipuvka.jpg " },
 
-      podkategorie: 5,
+      podkategorie: 2,
       okres: " Brno - venkov  ",
       obec:
         "  Nuzířov. Kámen je vzdálen asi 100 metrů od hranice katastru  s\xa0Lipůvkou.  ",
@@ -3789,11 +3789,11 @@ export default {
     {
       id: 96,
       kategorie: "smircikrize",
-      oblast: "  Na západ  ",
+      oblast: "  Na sever  ",
       jmeno: "   Tišnov 2   ",
       fotkaUvod: { fotka: " tisnov2-1.jpg " },
 
-      podkategorie: 21,
+      podkategorie: 2,
       okres: " Brno - venkov  ",
       obec: "  Tišnov  ",
       cislo: "  1484  ",
@@ -12569,10 +12569,10 @@ export default {
       id: 256,
       kategorie: "smircikrize",
       pridano: " 07/10/2021 ",
-      oblast: " Na západ  ",
+      oblast: " Na sever  ",
       jmeno: " Tišnov 3  ",
       fotkaUvod: { fotka: " 256tisnov32.jpg " },
-      podkategorie: 5,
+      podkategorie: 2,
       okres: "  Brno - venkov  ",
       obec: "  Tišnov ",
       cislo: " 1485  ",
@@ -14525,5 +14525,773 @@ export default {
       ],
       proMe: " XVII/658  24-431-37  18---04?   ",
     },
+    {
+      id: 290,
+      kategorie: "smircikrize",
+      pridano: " 07/12/2021 ",
+      oblast: "  Na jih ",
+      jmeno: " Pohořelice - 9 křížků  ",
+      fotkaUvod: { fotka: "  290pohorelice1.jpg  " },
+      podkategorie: 4,
+      okres: "   Brno - venkov  ",
+      obec: " Pohořelice  ",
+      cislo: " ----  ",
+      kdeSeNaleza:
+        "  U staré silnice na Mikulov, 1500 metrů JJZ od kostela v Pohořelicích, u pomníku vyhnání brněnských Němců  ",
+      popis:
+        "  na louce 100 krát 120 metrů na hromadném hrobě jsou tři trojice stejných kamenných křížů, věrně se podobajících křížům smírčím. Novodobá záležitost, kříže jsou staré asi 20 let. ",
+      napis: "     ",
+      povest: "    ",
+      odkazy: [
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Kříže tu stojí jako připomínka nešťastné události na konci druhé světové války, divokého odsunu německých obyvatel Brna. Tehdy v noci ze 30. na 31. května 1945 byli narychlo shromážděni brněnští Němci a v dlouhém průvodu vyvedeni z města k jihu. Staří lidé nad 60 let, ženy, děti do 14 let, některé v kočárcích, obtíženi zavazadly, museli urazit cestu do prvního většího města a to byly Pohořelice. Čekalo je 32 kilometrů po silnici v teplém počasí, cestou někteří zahazovali těžká zavazadla a pili infikovanou vodu ze studny u Ledců.  Nikdo je pořádně nespočítal, bylo jich 15 - 25 tisíc. Práceschopní muži od 14 do 60 let zůstali v Brně. Hlídalo a popohánělo je aktivní dělnictvo z brněnské Zbrojovky. Do večera dorazili do Pohořelic, kde s nimi nikdo nepočítal a nahnali je do prázdných továrních hal. Zdravotní, stravovací a hygienické podmínky byly katastrofální, vypukla epidemie úplavice. Vysílení lidé začali umírat po stovkách. Dodnes se němečtí a čeští historici přou o počty zemřelých. Na tomto místě jich v hromadných hrobech skončilo asi devět set.<br>Až do devadesátých let se o těchto hrozných událostech mlčelo, nesměla se tu objevit ani svíčka na Dušičky. Dokonce tu měl vést silniční obchvat, naštěstí stojí vedle. Nikde jsem se nedopátral, kdy byly křížky instalovány, odhaduji, že na přelomu tisíciletí.<br>K připomenutí události se ve výroční dny koná po stejné trase Pochod smíření. Začal roku 2006 se čtyřmi účastníky a rozrostl se na politickou akci s účastí několika set pochodujících, Čechů, Rakušanů, Němců. Poslední ročníky se chodí opačným směrem a končí na Mendlově náměstí, odkud průvod v roce 1945 vycházel. Na organizaci a financování se podílí české a německé spolky. ",
+      naposledObnoveno: " 7.12.2021 ",
+      galerie: [
+        {
+          fotka: " 290pohorelice1.jpg",
+          popisek: " Devět křížků u Pohořelic (září 2020) ",
+        },
+        { fotka: " 290pohorelice2.jpg", popisek: " (září 2020) " },
+      ],
+      proMe: "  XX/1161  34-122-30  20---093  ",
+    },
+    // {
+    //   id: 280,
+    //   fotkaUvod: { fotka: " 28032kamenyStepanovice2.jpg " },
+    //   pridano: " 15/12/2021 ",
+    //   kategorie: "vypraveni",
+    //   podkategorie: 1,
+    //   nazev: " Vyprávění o smírčích křížích na Brněnsku. Západ a sever.  ",
+    //   datum: " prosinec 2021  ",
+    //   text: [
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 116,
+    //           odkazKategorie: "vypraveni",
+    //           odkazPodkategorie: 1,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " <p> Přátelé,</p>letošní vánoční vyprávění úzce navazuje na  ",
+    //           textOdkazu: "loňské",
+    //           zaOdkazem:
+    //             ", kdy jsem popisoval smírčí kříže na východ a jih od Brna. Jsou tam i vysvětlivky k dnešnímu textu a povšechný úvod k původu, výskytu a hledání smírčích kamenů. K loňským 32 křížům přidám dalších 47 kousků. Až na dvě výjimky lze kříže najít na svých místech, dalších asi 30 křížů, o kterých nepíši, se na Brněnsku za posledních sto let ztratilo. Některé se mohou objevit.<br>    ",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 213,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 4,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "K doplnění loňské sbírky náleží ještě dvě místa ležící na jih od Brna, na která loni nedošlo.<br>Kříž  ",
+    //           textOdkazu: "1857 Hrušovany u Brna",
+    //           zaOdkazem:
+    //             " jsem několikrát hledal v polích u pískovny západně od městečka, kde měl podle popisu být. Nakonec jsem ho objevil u nové kaple v Hrušovanech, schovaný ve vitríně. Kámen trochu připomíná kruhové stély, známé ze západních Čech. Pískovec má na sobě německý nápis a letopočet. Podařilo se ho přečíst a stojí tam, že Hans Neubauer z Těmic zemřel večer na svatého Matěje 1595. Výhodou této takřka muzejní expozice je detailní historie kamene sepsaná na vedlejším panelu. Je s podivem, co se dá o kusu šutru ze 16. století zjistit. Nevýhodou je, že dnešní umístění nemá s místem tragédie nic společného.</p>",
+    //         },
+    //       ],
+
+    //       foto: "  28001kamenyHrusovany.jpg  ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 1857 Hrušovany u Brna (únor 2021) ",
+    //     },
+
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 290,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 4,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Smírčím křížům se podobá  ",
+    //           textOdkazu: "devět křížků u Pohořelic",
+    //           zaOdkazem:
+    //             " umístěných na hromadném hrobě brněnských Němců. Lze je najít u staré výpadovky z Pohořelic k Mikulovu. U silnice stojí výpravný pomník Vyhnání německých obyvatel Brna a za ním je louka asi 100 krát 120 metrů. Na louce jsou tři trojice kamenných latinských křížů s rozšířenou patou, všechny stejné. Velmi se podobají svým smírčím bratřím, ale původ je novodobý, jsou staré asi 20 let. Tady skončilo svoji pouť nejméně devět stovek obětí pochodu brněnských Němců při tzv. divokém odsunu. V noci ze 30. na 31. května 1945 byli němečtí obyvatelé Brna narychlo shromážděni a pak pěšky odsouváni směrem k rakouským hranicím. Pochodu se účastnilo 15 – 25 tisíců žen, dětí, některé v kočárcích, a starých lidí nad 60 let. Práceschopní muži 14 – 60 let zůstali v Brně, pokud neuprchli. Do Pohořelic to je 32 kilometrů. Městečko naprosto nebylo připraveno na nápor vyhnanců sedmkrát převyšující počet obyvatel. Zdravotní, hygienická, stravovací situace byla katastrofální. Vypukla epidemie úplavice, zemřelí se počítali na stovky. Dodnes se čeští a němečtí historici přou, kolik jich bylo. Od roku 2006 se organizuje ve výroční den Pochod smíření po stejné trase, poslední roky se chodí opačným směrem zpátky do Brna.",
+    //         },
+    //       ],
+    //       foto: "  28002kamenyPohorelice.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " Smírčí křížky na hromadném hrobě u Pohořelic (září 2020) ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         "   <p> Ale věnujme se kamenům západně od Brna. Smírčí kámen <strong>1946 Popůvky</strong>(5,67) leží blízko státní silnice na Velkou Bíteš mezi kasinem Victory a Kývalkou. Je dost nenápadný. Z olámané desky vystupuje reliéf latinského kříže. </p>  ",
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 67,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Ale věnujme se kamenům západně od Brna. Smírčí kámen  ",
+    //           textOdkazu: "1946 Popůvky",
+    //           zaOdkazem:
+    //             " leží blízko státní silnice na Velkou Bíteš mezi kasinem Victory a Kývalkou. Je dost nenápadný. Z olámané desky vystupuje reliéf latinského kříže. ",
+    //         },
+    //       ],
+    //       foto: " 28011kamenyPopuvky.jpg  ",
+    //       umisteniFoto: " vpravo   ",
+    //       popisek: " 1946 Popůvky (leden 2020).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 73,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Podstatně lépe se hledá kámen ",
+    //           textOdkazu: "0836R Veverská Bítýška",
+    //           zaOdkazem:
+    //             ". Ten je vidět na první pohled u silnice z Bítýšky do Hvozdce a místní si ho docela váží – asi před deseti lety nechali vyrobit kopii, protože původní zaoblená pískovcová deska byla tak zvětralá, že vystupující kříž v orámování nebyl skoro poznat.    ",
+    //         },
+    //       ],
+    //       foto: "  28011YkamenyBityska.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 0836R Veverská Bítýška (leden 2012).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 76,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Jeden z prvních křížů, které jsem na začátku devadesátek potkal, byl kříž ",
+    //           textOdkazu: "1301 Zakřany",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 287,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             ". Ani jsem ho za smírčí kámen nepovažoval. Placatý kámen s neznatelným vyrytým křížkem ležel zarostlý v křoví mezi kopřivami. Už mu vybrali důstojnější místo a najdete ho na mezi u polní cesty do Vysokých Popovic.<br>Krásný kámen   ",
+    //           textOdkazu: "1293 Neslovice",
+    //           zaOdkazem:
+    //             " stával u silnice z Neslovic do Ivančic. Psát o něm v minulém čase je zcela na místě, protože v roce 2009 byl ukraden a zmizel beze stop. Do pískovcové desky byl vyryt latinský kříž a za ním loukoťové kolo, které přejíždí nezřetelnou lidskou postavu. Nabízí se více vysvětlení. Přejel vůz člověka? Postava je vplétána do kola? Osobě jsou kolem lámány kosti? V tomto místě v lese byly přepadány formanské vozy ze zálohy, píše se i o oloupení svatby.    ",
+    //         },
+    //       ],
+    //       foto: "  28013kamenyZakrany.jpg  ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 1301 Zakřany (březen 2013).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 53,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Nad údolím Jihlavky leží ves Biskoupky. Na okraji vsi směrem k řece stojí velký kámen   ",
+    //           textOdkazu: "1658 Biskoupky",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 85,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             ". Do 1,5 metru vysokého kamenného sloupu je vysekán latinský kříž.<br>Torzo kamene  ",
+    //           textOdkazu: "1801 Kladeruby",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 75,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " se hledá těžko. Leží na západ od obce, na malé pasece u lesní cesty. Hledal jsem ho několikrát bezvýsledně, protože popisy polohy byly neurčité. Poradil mi až mapový server mapy.cz . Horní část desky je v místě ramen kříže uražena, zbytek ční ze země jen půl metru a lehko se přehlédne.<br>U Zbraslavi byly vždy dva kříže, 100 metrů od sebe. Momentálně se u bývalé hájenky, blízko silnice, nalézá jen jeden kříž, ",
+    //           textOdkazu: "1580R Zbraslav 3",
+    //           zaOdkazem:
+    //             " a je to kopie. Na bytelné kamenné desce je vytesán reliéf latinského kříže a letopočet 1596. Původní kámen 1580 Zbraslav 2 dal starosta přemístit do obce a kámen 1459 Zbraslav 1 není na svém místě.",
+    //         },
+    //       ],
+
+    //       foto: " 28018kamenyZbraslav3.jpg   ",
+    //       umisteniFoto: " vlevo   ",
+    //       popisek: " 1580R Zbraslav 3 (červen 2020).  ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         " <p> Smírčí kámen <strong>2518 Kralice</strong>(5,289) lze najít u kralického kostela v dlažbě. Je to nenápadný křížek na nepravidelně olámané desce dlouhé 1,3 metru. Mohl by to být i starý náhrobník; historie osady, tvrze a románského kostelíku sahá do 13. století.<br>V Košíkově u Velké Bíteše používají dva smírčí kameny prozaicky. Dvoumetrový <strong>1651 Košíkov 1</strong>(5,88)  i kratší<strong>1652 Košíkov 2</strong>(5,89) slouží na hřbitově jako schůdek, aby menší postavy dosáhly přes hřbitovní zeď. Oba kameny se našly při opravě hřbitovní zdi a zůstaly na místě. Každý je rozlomen na tři díly a na obou je reliéf křížkového kříže s rozšiřující se patou. Pověst praví, že pod kameny byly pochovány klečanské panny. To byly jeptišky z oslavanského kláštera, které žily na Klečanském dvoře.<br>Z kamene <strong>0704 Nové Sady</strong>(5,90) mnoho nezbývá. Je to torzo většího kamene se zbytkem golgotského kříže. Ale místo s výhledem na Bítešsko a se starou borovicí je zajímavé. Pověst mluví o třech řeznících, které usmrtili divocí býci. To se mi zdá silně nepravděpodobné. Vlastivědný badatel Hynek Jurman uvádí pravděpodobnější verzi pověsti, že se pobili mládenci jdoucí z tancovačky a tři za to zaplatili životy. </p>  ",
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 289,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Smírčí kámen   ",
+    //           textOdkazu: "2518 Kralice",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 88,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " lze najít u kralického kostela v dlažbě. Je to nenápadný křížek na nepravidelně olámané desce dlouhé 1,3 metru. Mohl by to být i starý náhrobník; historie osady, tvrze a románského kostelíku sahá do 13. století.<br>V Košíkově u Velké Bíteše používají dva smírčí kameny prozaicky. Dvoumetrový ",
+    //           textOdkazu: "1651 Košíkov 1",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 89,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " i kratší ",
+    //           textOdkazu: "1652 Košíkov 2",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 90,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " slouží na hřbitově jako schůdek, aby menší postavy dosáhly přes hřbitovní zeď. Oba kameny se našly při opravě hřbitovní zdi a zůstaly na místě. Každý je rozlomen na tři díly a na obou je reliéf křížkového kříže s rozšiřující se patou. Pověst praví, že pod kameny byly pochovány klečanské panny. To byly jeptišky z oslavanského kláštera, které žily na Klečanském dvoře.<br>Z kamene ",
+    //           textOdkazu: "0704 Nové Sady",
+    //           zaOdkazem:
+    //             " mnoho nezbývá. Je to torzo většího kamene se zbytkem golgotského kříže. Ale místo s výhledem na Bítešsko a se starou borovicí je zajímavé. Pověst mluví o třech řeznících, které usmrtili divocí býci. To se mi zdá silně nepravděpodobné. Vlastivědný badatel Hynek Jurman uvádí pravděpodobnější verzi pověsti, že se pobili mládenci jdoucí z tancovačky a tři za to zaplatili životy. ",
+    //         },
+    //       ],
+
+    //       foto: "  28017kamenyKosikov.jpg  ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 1651 Košíkov 1 (levý) a 1652 Košíkov 2 (březen 2014). ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 57,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Vraťme se ale k Brnu a cestujme severozápadním směrem. V Lelekovicích se smírčí kámen najde lehce.  ",
+    //           textOdkazu: "1749 Lelekovice",
+    //           zaOdkazem:
+    //             " je naležato zazděn zvenku do zdi kostela. Z 1,2 metru dlouhé desky z narůžovělého pískovce vystupuje latinský kříž s rozšířenou patou.",
+    //         },
+    //       ],
+    //       foto: "  28021kamenyLelekovice.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 1749 Lelekovice (únor 2019).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 254,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Hůře dopadl smírčí kámen ",
+    //           textOdkazu: "1715 Kuřim",
+    //           zaOdkazem:
+    //             " Léta byl zazděn do kamenného tarasu u kostela a ani to mu nepomohlo. V roce 2018 ho vybourali a přemístili kamsi do muzea. Na kamenné desce vysoké 1,2 metru byl šestiřádkový nečitelný nápis, jetelový křížek a podivný výjev hlavy a z ní trčící motyky.     ",
+    //         },
+    //       ],
+    //       foto: " 28022kamenyKurim.jpg   ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " Tady býval kámen 1715 Kuřim (září 2021).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 54,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "V Drásově u kostela je shromaždiště kamenů, které sem byly přemístěny z okolí obce.  ",
+    //           textOdkazu: "1659 Drásov 1",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 55,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " je deska s odlomeným horním okrajem a na ní je keltský kříž. Vedle stojí ",
+    //           textOdkazu: "1660 Drásov 2",
+    //           zaOdkazem:
+    //             ". Otlučená kamenná deska s latinským křížem stávala v 19. století u mlýna.",
+    //         },
+    //       ],
+    //       foto: "  28023kamenyDrasov2.jpg  ",
+    //       umisteniFoto: "vlevo",
+    //       popisek: "  1659 Drásov 1 (vpravo) a 1660 Drásov 2 (září 2021).    ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 61,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Ke kříži ",
+    //           textOdkazu: "2023 Drásov 4",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 257,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " se nedostanete, protože je zazděn do kostelní věže deset metrů nad zemí. Na kamenné desce je orámovaný maltézský kříž na tyči.<br>Kámen   ",
+    //           textOdkazu: "1786 Drásov 3",
+    //           zaOdkazem:
+    //             " lze najít zazděný do hřbitovní zdi vlevo od hlavního vchodu. Je to trojúhelníkový úlomek červeného pískovce s vyrytým latinským křížem. Ležel prý u Všechovic na hrobě vojáků ze švédských válek.",
+    //         },
+    //       ],
+    //       foto: " 28023kamenyDrasov4.jpg   ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 2023 Drásov 4 je na věži (září 2021).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 256,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Na katastru Tišnova lze nalézt tři smírčí kameny. Ve městě v Klášterské ulici za plotem na soukromém pozemku stojí   ",
+    //           textOdkazu: "1485 Tišnov 3",
+    //           zaOdkazem:
+    //             ". Z obdélníkové desky vysoké 0,8 metru vystupuje kříž s rozšířenou patou. Na tomto místě byl roku 1620 zabit primátor Jiřík Mydlář když vyšel v ústrety polskému vojsku. O události je zápis v kameni na tišnovské radnici. Kříž byl zazděn v obvodové kamenné zdi. Asi před 15 lety zeď zbořili a kámen kousek přestěhovali. Ale v létě skoro není vidět, protože mizí v bujícím záhonu.",
+    //         },
+    //       ],
+    //       foto: " 28025kamenyTisnov1.jpg   ",
+    //       umisteniFoto: " vlevo   ",
+    //       popisek: " 1483 Tišnov 1 (září 2020).  ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         "   <p> Kámen <strong>1484 Tišnov 2</strong>(2,96) se nachází na kraji města u silnice do Lomničky. Na kamenné desce, dole puklé, je latinský kříž a pod levým ramenem je vytesán meč. Jurman se zmiňuje o zabití dvou rejtarů, kteří v roce 1620 vybírali výpalné pro polského hejtmana.<br>Na opačné straně katastru, pod osadou Závist, je u silnice nenápadný kámen <strong>1483 Tišnov 1</strong>(2,95). Na metr vysoké kamenné desce s poškozeným pravým bokem vystupuje převýšený latinský kříž s rozšířenou patou. Pověst praví, že tu lupiči přepadli pana Václava z Černé Hory. Vyvázl životem a dal svého prvorozeného do služeb církve.</p>  ",
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 96,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " Kámen   ",
+    //           textOdkazu: "1484 Tišnov 2",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 95,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " se nachází na kraji města u silnice do Lomničky. Na kamenné desce, dole puklé, je latinský kříž a pod levým ramenem je vytesán meč. Jurman se zmiňuje o zabití dvou rejtarů, kteří v roce 1620 vybírali výpalné pro polského hejtmana.<br>Na opačné straně katastru, pod osadou Závist, je u silnice nenápadný kámen ",
+    //           textOdkazu: "1483 Tišnov 1",
+    //           zaOdkazem:
+    //             ". Na metr vysoké kamenné desce s poškozeným pravým bokem vystupuje převýšený latinský kříž s rozšířenou patou. Pověst praví, že tu lupiči přepadli pana Václava z Černé Hory. Vyvázl životem a dal svého prvorozeného do služeb církve.    ",
+    //         },
+    //       ],
+    //       foto: "  28027kamenyDeblin.jpg  ",
+    //       umisteniFoto: " vpravo   ",
+    //       popisek: " 1987 Deblín (srpen 2020).  ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         "   <p> Uprostřed Deblínského lesa, severovýchodně od osady Pánov stojí velká kamenná deska s výrazným reliéfem latinského kříže. Je to kámen <strong>1987 Deblín</strong>(5,86). Podle pověsti zde zabil býk řezníka, který ho vedl na porážku. V lesním zákoutí stojí jeden z nejhezčích kamenů na Brněnsku. </p>  ",
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 56,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Uprostřed Deblínského lesa, severovýchodně od osady Pánov stojí velká kamenná deska s výrazným reliéfem latinského kříže. Je to kámen   ",
+    //           textOdkazu: "1987 Deblín",
+    //           zaOdkazem:
+    //             ". Podle pověsti zde zabil býk řezníka, který ho vedl na porážku. V lesním zákoutí stojí jeden z nejhezčích kamenů na Brněnsku.",
+    //         },
+    //       ],
+    //       foto: " 28028kamenyRojetin.jpg   ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " Smírčí kámen —- Rojetín (květen 2020).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 104,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 5,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Asi před dvaceti lety mě u lesní cesty z Rojetína do Řikonína upoutal zvláštní kámen postavený na výšku se čtyřmi prohloubeními v podobě kříže.   ",
+    //           textOdkazu: "----Rojetín",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 107,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 6,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " není v evidenci smírčích křížů a tudíž nemá evidenční číslo. Dnes vede kolem zelená značka a kupodivu je vyznačen v mapách.<br>I další kámen   ",
+    //           textOdkazu: "----Níhov",
+    //           zaOdkazem:
+    //             " je bez čísla. Stojí na rozcestí severně od Níhova. Podle stáří zde vysazených stromů usuzuji, že jde o novodobou záležitost, údajně byl vztyčen roku 2015. Do kamenné desky vysoké 0,7 metru je vytesán jetelový kříž.",
+    //         },
+    //       ],
+    //       foto: "  28026kamenyNihov.jpg  ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " Smírčí kámen —- Níhov (srpen 2020).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 92,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " Kámen ",
+    //           textOdkazu: "1454 Dolní Loučky",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 214,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " je zazděn v ohradní zdi kolem kostela. Na kamenné desce z červeného pískovce je řecký kříž a tesařská sekera. Podle pověsti při opravě střechy spadl tesař a zlámal si vaz. Jurman vypátral ještě jinou historii. Roku 1741 přepadli faru lupiči. Farář Wittman se jim neohroženě postavil, jednoho zabil sekerou a druhého zranil.<br>Na katastru Štěpánovic se nacházejí dva smírčí kameny. O   ",
+    //           textOdkazu: "1481 Štěpánovice 1",
+    //           zaOdkazem:
+    //             " se říká, že zde vlk roztrhal děvče. Jurman z těchto tří slov dokázal vykřesat krátkou povídku inspirovanou pohádkou o Červené Karkulce. Špičatá deska s latinským křížem leží těsně u nebezpečně frekventované silnice do Nových Štěpánovic.    ",
+    //         },
+    //       ],
+    //       foto: "  28032kamenyStepanovice1.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 1481 Štěpánovice 1. (prosinec 2020)  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 215,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Druhý kámen   ",
+    //           textOdkazu: "1482 Štěpánovice 2",
+    //           zaOdkazem:
+    //             " stojí na rozcestí lesních cest západně od obce. Do čtvercové desky je zahlouben keltský kříž. Pověstí vztahujících se ke kamenu je více, dva řezníci se pobili, býk zabil řezníka, řezník oloupen lupičem.    ",
+    //         },
+    //       ],
+    //       foto: "  28032kamenyStepanovice2.jpg  ",
+    //       umisteniFoto: " vpravo   ",
+    //       popisek: " 1482 Štěpánovice 2  (prosinec 2020).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 288,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " I město Doubravník se pyšní dvěma smírčími kameny. Slovo pyšní je tu na místě, protože oba kameny byly předloni odborně ošetřeny, znovu zasazeny a jejich okolí upraveno.   ",
+    //           textOdkazu: "1351 Doubravník 1",
+    //           zaOdkazem:
+    //             " stojí v sedle mezi Doubravníkem a Boračí, u Boží muky. Bílá kamenná deska s latinským křížem je vysoká 1,2 metru. Prý tu byl ubit mládenec z Borače.    ",
+    //         },
+    //       ],
+
+    //       foto: " 28033kamenyDoubravnik1.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 1351 Doubravník 1 (říjen 2021)  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 94,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " Na mramorové obdélníkové desce kamene   ",
+    //           textOdkazu: "1455 Doubravník 2",
+    //           zaOdkazem:
+    //             " je latinský kříž, vidle a sedmiřádkový nápis. Škoda, že letopočet události je spolu s rohem desky odlomen. Text starou češtinou říká, že léta Páně …. tu byl zabit Pavlík od Konečnýho pastýře. Z těchto mizivých faktů vyfabuloval Hynek Jurman tklivý příběh o chudobném pasáčkovi, kterého na závěr nechtěně probodne sedlák vidlemi při nakládání sena. Kříž nemůžete minout, když půjdete po zelené značce na Plaňavu, je u silnice mezi novými domy.    ",
+    //         },
+    //       ],
+
+    //       foto: "  28033kamenyDoubravnik2.jpg  ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 1455 Doubravník 2 (duben 2020). ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 91,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " O kámen   ",
+    //           textOdkazu: "1464 Sejřek",
+    //           zaOdkazem:
+    //             " se nestará nikdo a málokdo se k němu dostane, protože přes léto je obklopen elektrickými ohradníky a mizí v kopřivách. Je na dně mělkého údolí naproti kravínu. Ze štíhlého kamene vystupuje reliéf svatopetrského kříže. Podle pověsti se tu měly povraždit nůžkami dvě střihačky ovcí ze vzájemné žárlivosti.    ",
+    //         },
+    //       ],
+
+    //       foto: "  28034kamenySejrek.jpg  ",
+    //       umisteniFoto: "vlevo",
+    //       popisek: " 1464 Sejřek (březen 2020) ",
+    //     },
+
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 93,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " Ještě zbývá popsat kameny na sever od Brna a začneme v Lipůvce. Asi 80 kroků od silnice z Lipůvky do Nuzířova a od rozcestí lze s obtížemi najít kámen   ",
+    //           textOdkazu: "1726 Lipůvka",
+    //           zaOdkazem:
+    //             ". Přes celou plochu tenké kamenné desky je vytesán reliéf kříže s rozšířenou patou. Ke kameni se vztahuje několik pověstí, v nichž šlo vždy o vraždu. Nečasová vypátrala v archivu, že v roce 1591 zabil lipůvecký fojt fojta z Malhostovic, možná to bylo zde. Další událost spojená s tímto kamenem není pověst, ale skutečnost. V březnu 2009 se kámen ztratil. Mezi lidmi z okolí to vzbudilo nebývalý zájem i pohoršení, o události se psalo v novinách a zmínila se o tom i regionální televize. S takovou reakcí asi zloděj nepočítal, a tak se poněkud poškozený kámen za dva týdny objevil pohozen nedaleko na rozcestí. Obec dala kámen zrestaurovat a znovu zabudovat na původní místo, bohužel restaurátor necitlivě zdůraznil reliéf kříže.",
+    //         },
+    //       ],
+
+    //       foto: " 28041kamenyLipuvka.jpg   ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 1726 Lipůvka (září 2019).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 253,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             "Dostáváme se k oblastem, kde je na malé ploše soustředěno relativně nejvíce smírčích křížů na Brněnsku. Kámen 0362 Lažany 1  ",
+    //           textOdkazu: "0362 Lažany 1",
+    //           zaOdkazem:
+    //             " najdeme na kraji lesa blízko silnice z Lažan do Újezdu. U tohoto kamene je známo stáří, asi 450 let. Na kamenné desce s křížem je v pravém rohu vytesána hůl. Celou plochu desky pokrývá sedmiřádkový nápis středověkou frakturou, že zde byl na svatého Štěpána zabit Jakub z Újezda, syn Václava Dvořáka z Milonic. Dávní badatelé objevili v blanenském archivu zápis v purkrechtních registrech z roku 1567, týkající se tohoto kamene. Píše se v něm o případu vraždy v den sv. Štěpána, tedy 26. prosince 1566, kdy otec zavražděného Jakuba Václav Dvořák spolu s pozůstalou vdovou Annou obvinili z vraždy Matouška Štědroně z Újezda. Na přímluvu purkmistra a mnoha přátel byl Matoušek zproštěn viny. Aby se zabránilo krevní mstě, podepsala řada rukojmích smírčí smlouvu a měli zajistit pod vysokou pokutou, že smír bude nadosmrti dodržen. K vraždě došlo po hospodské rvačce, do roku 1972 ležel kámen vyvrácen poněkud více v lese.    ",
+    //         },
+    //       ],
+
+    //       foto: "  28042kamenyLazany1.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 0362 Lažany 1  (červenec 2021).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 258,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " Kámen   ",
+    //           textOdkazu: "1728 Lažany 2",
+    //           zaOdkazem:
+    //             " stojí v severní části obce, v předzahrádce domu čp. 72. Je silně zvětralý a je na něm vidět maltézský kříž s rozšířenou patou. V posledních letech se stěhoval nejméně čtyřikrát. Původně stál u silnice do Újezda na pastvisku a naproti byl ještě jeden kříž, který se nedochoval. Pověst praví, že dívka chodila se dvěma chlapci a přednost chtěla dát tomu, kdo zvítězí v souboji. Podle jiné verze to byla šlechtična a sokové byli bratři. Ti se výstřelem z bambitek usmrtili navzájem. Dívka ze zoufalství skočila ze skály. Pádem se její tělo rozpůlilo a každá půle byla pochována s jedním z bratří – to je možné jen v pověsti.    ",
+    //         },
+    //       ],
+
+    //       foto: " 28043kamenyLazany2.jpg   ",
+    //       umisteniFoto: " vpravo   ",
+    //       popisek: " 1728 Lažany 2  (červenec 2021).  ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         "<p> Mohutný obdélníkový kámen má jméno <strong>1724 Lažany 3</strong>(2,259). Hledá se těžko, je v lese Brlohy u lesní cesty. Ale nalezení stojí za to, smírčí kámen se vymyká všem ostatním a v brněnském okolí patří k nejpozoruhodnějším. Mramorová deska je vysoká 1,4 metru. V orámování je latinský kříž s rozštípenou patou a třemi hřeby. Pod křížem jsou dva štítky, jsou na nich postřihovačské nůžky a soukenická štětka, nahoře letí opeřený šíp. Písmo pochází z 15. století. Latinský nápis, spíše kryptogram, gotickou minuskulí četli minulí badatelé různě, poslední verze přeložená do češtiny zní: Zde byl usmrcen Michael zvaný Císař. Pod kopcem vedla významná cesta, Trstenická stezka do Čech a těžko soudit, co se tu v 15. století mohlo odehrávat.</p>  ",
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 259,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " Mohutný obdélníkový kámen má jméno   ",
+    //           textOdkazu: "1724 Lažany 3",
+    //           zaOdkazem:
+    //             ". Hledá se těžko, je v lese Brlohy u lesní cesty. Ale nalezení stojí za to, smírčí kámen se vymyká všem ostatním a v brněnském okolí patří k nejpozoruhodnějším. Mramorová deska je vysoká 1,4 metru. V orámování je latinský kříž s rozštípenou patou a třemi hřeby. Pod křížem jsou dva štítky, jsou na nich postřihovačské nůžky a soukenická štětka, nahoře letí opeřený šíp. Písmo pochází z 15. století. Latinský nápis, spíše kryptogram, gotickou minuskulí četli minulí badatelé různě, poslední verze přeložená do češtiny zní: Zde byl usmrcen Michael zvaný Císař. Pod kopcem vedla významná cesta, Trstenická stezka do Čech a těžko soudit, co se tu v 15. století mohlo odehrávat.    ",
+    //         },
+    //       ],
+
+    //       foto: " 28044kamenyLazany3.jpg   ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 1724 Lažany 3  (červenec 2021).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 100,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " V Újezdu u Černé Hory mají čtyři smírčí kameny ",
+    //           textOdkazu: "1783",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 101,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: ", ",
+    //           textOdkazu: "1784",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 102,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: ", ",
+    //           textOdkazu: "1785",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 103,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: ", ",
+    //           textOdkazu: "2440",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 102,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " zazděné zvenčí do tří stran kamenné ohradní zdi kolem hřbitova. Ale hodí se tam jít jen v zimě, přes léto jsou beznadějně utopeny v kopřivách. Zvláště 1,4 metru dlouhý kámen  ",
+    //           textOdkazu: "1785 Újezd u Černé Hory 3",
+    //           zaOdkazem:
+    //             " v rohu zdi asi představuje vzácný románský náhrobník.",
+    //         },
+    //       ],
+
+    //       foto: "  28045kamenyUjezd3.jpg  ",
+    //       umisteniFoto: "  vpravo  ",
+    //       popisek: " 1785 Újezd u Černé Hory 3 (leden 2016). ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 97,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: " Další zvláštní kříž ",
+    //           textOdkazu: "1725 Malá Lhota",
+    //           zaOdkazem:
+    //             " stojí u lesní cesty poblíž rybníčku zvaného Na bahnech. Pravidelný latinský křížek byl v nedávné minulosti přeražen a jeho pata je slepena betonem. Když jsem ho našel poprvé, stál v hlubokém lese, nyní je na zarůstající pasece a v létě se ztrácí ve vegetaci. Byl prý vztyčen na místě vraždy obchodníka s prasaty, který se vracel s penězi za prodaný dobytek.    ",
+    //         },
+    //       ],
+    //       foto: "  28046kamenyMalaLhota.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " Smírčí kříž 1725 Malá Lhota (září 2019).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 105,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Ve vsi Bukovice mají tři kameny. První  ",
+    //           textOdkazu: "1978 Bukovice 2",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 106,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             " stojí na návsi u kapličky. Je nenápadný. Z hrubě otesaného pískovcového balvanu neznatelně vystupuje golgotský kříž. Pověst ho svazuje s druhým kamenem vzdáleným zhruba 100 metrů. Dva myslivci nebo šlechtici se tu utkali v souboji o dívku, jako v Lažanech, a oba zahynuli.<br>Druhý kámen ",
+    //           textOdkazu: "1979 Bukovice 3",
+    //           zaOdkazem:
+    //             " je na soukromém pozemku, na konci zahrady domu čp. 3 u plotu. Na straně k plotu je reliéf tlapatého kříže. Majitel zahrady byl na nás vlídný a podělil nás zralými švestkami. Říkal, že je na hledače křížů zvyklý.<br>Kámen <strong>1822 Bukovice 1</strong> je velmi nenápadný a vysoký jen 0,4 metru. Je do něj vyryt latinský křížek. Má být v zaniklém úvozu, který odbočuje k severu od silnice Jeneč – Bukovice. Hledá se těžko a při poslední kontrole v říjnu 2020 jsem ho nenašel. Asi tam někde bude.",
+    //         },
+    //       ],
+
+    //       foto: " 28047kamenyBukovice3.jpg   ",
+    //       umisteniFoto: " vpravo   ",
+    //       popisek: " 1979 Bukovice 3 (říjen 2020).  ",
+    //     },
+    //     {
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 99,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Metr vysoký kámen  ",
+    //           textOdkazu: "1722 Žernovník",
+    //           zaOdkazem:
+    //             " stojí na návsi u kaple. Pod rameny vytesaného kříže je znamení šipky a meče. Uprostřed kamene je těžce čitelný letopočet, který mohl být vytesán druhotně. Lze ho číst jako 1719. Kříž byl dříve zazděn v kamenné zídce nedaleké zahrady. Pověsti mluví o smrti švédského důstojníka, čemuž letopočet neodpovídá.<br>Těžké hledání provází i kámen <strong>1476 Bedřichov </strong>. Je v lese Hersica, u lesní cesty, asi kilometr za letním táborem. Na obdélníkové desce se zaoblenými rohy je vysekán řecký kříž, obrys mlýnského kola a kopí. Pověsti se zmiňují o vraždě mlynáře, který se vracel z jarmarku, nebo vozky. Bedřichovští mu říkají mlynářský kámen.  ",
+    //         },
+    //       ],
+    //       foto: " 28046YkamenyZernovnik.jpg   ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " 1722 Žernovník (říjen 2020). ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         "   <p> Je nutno se zmínit i o kamenu <strong>0363 Obora</strong> (2,98), i když na návsi je z něj jen nepatrný zbytek sotva 20 čísel vysoký. Před sto lety byl kámen metr vysoký s tlapatým křížem a stál u cesty k Huti sv. Antonie za vsí. Při stěhování se rozlomil a větší kus se ztratil. Pod kamenem se údajně našla lidská kostra. Pověst zapsaná Nečasovou praví, že když se stavěla věž boskovického kostela, založil mistr zednický základ a podle jeho mír dělal mistr tesař na zemi současně krov. Jenže zedníci věž směrem nahoru rozšířili a krov na ni nešel nasadit. Ti dva mistři se u Obory setkali a vyříkali si to tak, že zednický mistr Kromfus byl po smrti a tesařský mistr Malach na útěku. Krov věže boskovického kostela se dělal v roce 1531. <br>Trochu bokem, až v Moravském krasu, stojí na návsi vzhledem pozoruhodný kámen <strong>1561 Habrůvka</strong>(2,255). Kvádr se zkosenými hranami je vysoký 1,2 metru. Na obou stranách kamene je vysekán latinský kříž vystupující z oblouku zvaného oslí hřbet. Kámen má připomínat smrt francouzského důstojníka.</p>  ",
+    //       vnitrniOdkazy: [
+    //         {
+    //           vnitrniOdkaz: 98,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem: "Je nutno se zmínit i o kamenu  ",
+    //           textOdkazu: "0363 Obora",
+    //           zaOdkazem: "",
+    //         },
+    //         {
+    //           vnitrniOdkaz: 255,
+    //           odkazKategorie: "smircikrize",
+    //           odkazPodkategorie: 2,
+    //           odkazKde: "odstavec",
+    //           predOdkazem:
+    //             ", i když na návsi je z něj jen nepatrný zbytek sotva 20 čísel vysoký. Před sto lety byl kámen metr vysoký s tlapatým křížem a stál u cesty k Huti sv. Antonie za vsí. Při stěhování se rozlomil a větší kus se ztratil. Pod kamenem se údajně našla lidská kostra. Pověst zapsaná Nečasovou praví, že když se stavěla věž boskovického kostela, založil mistr zednický základ a podle jeho mír dělal mistr tesař na zemi současně krov. Jenže zedníci věž směrem nahoru rozšířili a krov na ni nešel nasadit. Ti dva mistři se u Obory setkali a vyříkali si to tak, že zednický mistr Kromfus byl po smrti a tesařský mistr Malach na útěku. Krov věže boskovického kostela se dělal v roce 1531. <br>Trochu bokem, až v Moravském krasu, stojí na návsi vzhledem pozoruhodný kámen   ",
+    //           textOdkazu: "1561 Habrůvka",
+    //           zaOdkazem:
+    //             ". Kvádr se zkosenými hranami je vysoký 1,2 metru. Na obou stranách kamene je vysekán latinský kříž vystupující z oblouku zvaného oslí hřbet. Kámen má připomínat smrt francouzského důstojníka.    ",
+    //         },
+    //       ],
+    //       foto: "  28056kamenyHabruvka.jpg  ",
+    //       umisteniFoto: " vpravo   ",
+    //       popisek: " 1561 Habrůvka (únor 2021).  ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         "   <p> Smírčí kameny mizí, ale také se objevují, například při bourání kamenných zdí. Zmíním kameny, které v minulých 40 letech zmizely z obvyklého místa : 0715 Velká Bíteš, 1293 Neslovice, 1353 Zahrada, 1459 Zbraslav 1, 1580 Zbraslav 2, 1715 Kuřim, 1830 Újezd u Č.Hory, 1861 Tetčice.<br>Kameny, které jsem hledal a zatím nenašel: 1926 Rozseč, 2163 Rakšice, 7123 Rašov.<br>Kameny, které jsem zatím nehledal (novinky): 0588 Bořetice, 2197 Doubravice, 2506 Sudice, 2522 Černovice, 2597 Rohozec, 2612 Újezd, 2666 Velká Bíteš 5, 2667 Velká Bíteš 2. Snad příště.</p>  ",
+    //       foto: "  28023kamenyDrasov1.jpg  ",
+    //       umisteniFoto: "  vlevo  ",
+    //       popisek: " Keltský kříž na kameni 1659 Drásov 1 (únor 2013).  ",
+    //     },
+    //     {
+    //       textOdstavce:
+    //         '  <p>Pokud byste chtěli vidět více obrázků k těmto křížům, najdete je <span><a href="https://turistapavel.rajce.idnes.cz/202112_Smirci_krize_na_Brnensku_zapad_a_sever" target="_blank" class="vnitrniOdkaz">ZDE</a></span>.',
+    //     },
+    //     {
+    //       textOdstavce: "   <p> V Bohunicích o adventu 2021</p>  ",
+    //     },
+    //   ],
+    //   galerie: [],
+    // },
   ],
 };

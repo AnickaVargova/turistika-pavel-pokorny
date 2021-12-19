@@ -1,7 +1,7 @@
 <template>
   <div>
     <span v-for="(odkaz, index) in odkazy" v-bind:key="index">
-      <span>{{ odkaz.predOdkazem }}</span>
+      <span v-html="odkaz.predOdkazem">{{ odkaz.predOdkazem }}</span>
       <span>
         <router-link
           v-if="$route.name === 'SmirciKrize'"
