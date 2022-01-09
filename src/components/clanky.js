@@ -15293,5 +15293,597 @@ export default {
       ],
       galerie: [],
     },
+    {
+      id: 281,
+      kategorie: "pomnicky",
+      pridano: " 17/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Blansko ",
+      obec: " Karolín   ",
+      jmeno: " Žedek, Jaroslav  ",
+      nazev: "  Pomník Jaroslava Žedka ",
+      fotkaUvod: { fotka: " 281zedek1.jpg " },
+      kdyVznikl: " po roce 1941 ",
+      popisCesty:
+        " Pomník stojí na holém hřbetu 600 metrů Z od kapličky v Karolíně, uprostřed louky. Cesta k němu nevede.  ",
+      popis:
+        "  Pomník ze žulového kamene je 1,2 metru vysoký. Ze přední strany je vyhlazena plocha s dobře čitelným nápisem.  ",
+      napis:
+        " ZDE  NA  TOMTO  MÍSTĚ // BLESKEM  ZASAŽEN  SKONAL // DNE 31. KVĚTNA 1941 //  JAROSLAV  //  ŽEDEK  // BYLO  MU  33  R.  ",
+
+      naposledObnoveno: " 17.12.2021 ",
+      souradnice: "  49.4074431N, 16.6610150E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dezaguguza" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dezaguguza  ",
+      galerie: [
+        {
+          fotka: " 281zedek1.jpg",
+          popisek: " Pomník Jaroslava Žedka (březen 2012) ",
+        },
+        { fotka: " 281zedek2.jpg", popisek: "Detail nápisu (březen 2012) " },
+      ],
+      proMe: "  XVIII/722  24-144-30  12—031 ",
+    },
+    {
+      id: 282,
+      kategorie: "pomnicky",
+      pridano: " 17/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Brno - venkov ",
+      obec: "  Újezd u Rosic  ",
+      jmeno: " Budínová, Marie  ",
+      nazev: " Pomník Marie Budínové  ",
+      fotkaUvod: { fotka: "  282budinova1.jpg " },
+      kdyVznikl: " po roce 1944 ",
+      popisCesty:
+        "  Pomník stojí v údolí potoka Chrábku, 500 metrů SZ od kaple v Újezdu. Světlý pomník na kraji pole je zdaleka vidět. ",
+      popis:
+        " Štíhlý pomník z bílého mramoru klasicistního tvaru je vysoký 1,8 metru. Do hladké přední plochy je vyryt kříž, pod ním je  zlacený nápis a oválná fotografie venkovské paní.    ",
+      napis:
+        "  V  UPOMÍNKU  NA //  MARII  //  BUDÍNOVOU  // ROZ. NĚMCOVOU // ZABITOU BLESKEM // 1. VI. 1944 .  ",
+      pozn:
+        "  Nezdá se mi, že by blesk někoho zasáhl v údolí u potoka. Neštěstí se pravděpodobně stalo uprostřed pole.  ",
+      naposledObnoveno: " 17.12.2021 ",
+      souradnice: "  49.2257906N, 16.2451281E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/lavavohala" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: " https://frame.mapy.cz/s/lavavohala   ",
+      galerie: [
+        {
+          fotka: "  282budinova1.jpg",
+          popisek: " Pomník Marie Budínové (říjen 2021 ) ",
+        },
+        {
+          fotka: "  282budinova2.jpg",
+          popisek: " Detail nápisu (říjen 2021 ) ",
+        },
+      ],
+      proMe: "  XVI/554  24-314-30  21—101  ",
+    },
+    {
+      id: 283,
+      kategorie: "pomnicky",
+      pridano: " 17/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Blansko ",
+      obec: "  Ráječko  ",
+      jmeno: " Klimeš, František  ",
+      nazev: " Obrázek hajného Klimeše  ",
+      fotkaUvod: { fotka: " 283klimes1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Asi 2,5 km V od Ráječka nad údolím Sloupečníku. Obrázek je přibitý na strom u lesní cesty vedoucí z Blanska do Petrovic. Vede tu zelená značka.  ",
+      popis:
+        "  Na dřevěnou pětiúhelníkovou tabulku je přibit kovový reliéf s motivem kříže.  Pod ním je na kovovém pásku amatérsky provedený nápis.  ",
+      napis:
+        " V  TĚCHTO  MÍSTECH  BYL  ZABIT  BLESKEM  DNE  22. 7. 1920 // HAJNÝ  FRANTIŠEK  KLIMEŠ .  ",
+      pozn:
+        "  Až do roku 2020 byl obrázek ponořen v hlubokém smrkovém lese. Kůrovcová kalamita obnažila hřebenovou cestu a z lesa zbyly rozsáhlé holiny.  ",
+      naposledObnoveno: " 17.12.2021 ",
+      souradnice: "  49.3957161N, 16.6761250E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dovujopunu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dovujopunu  ",
+      galerie: [
+        { fotka: "  283klimes1.jpg", popisek: " (červenec 2020) " },
+        {
+          fotka: "  283klimes2.jpg",
+          popisek: " Obrázek hajného Klimeše (červenec 2020) ",
+        },
+        {
+          fotka: "  283klimes3.jpg",
+          popisek: " Detail nápisu (červenec 2020) ",
+        },
+      ],
+      proMe: "  XII/374  24-233-35  20—074  ",
+    },
+    {
+      id: 284,
+      kategorie: "pomnicky",
+      pridano: " 18/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Žďár nad Sázavou ",
+      obec: "  Horní Čepí  ",
+      jmeno: " Pavelková, Josefa  ",
+      nazev: " Kříž Josefky Pavelkové  ",
+      fotkaUvod: { fotka: " 284pavelkova1.jpg " },
+      kdyVznikl: " po roce 1916 ",
+      popisCesty:
+        " Kříž stojí v sedle, 400 metrů ZSZ od Horního Čepí, u cesty na Kopicův vrch.  ",
+      popis:
+        " Mramorový kříž je vysoký 1,8 metru, pod kovovým Kristem bývala oválná fotografie, dole je delší text. Kříž je poněkud zašlý, písmo hůře čitelné.   ",
+      napis:
+        " Na tomto místě dne // 11. srpna 1916 odešla // náhle v taje věčnosti // moje drahá choť // JOSEFA  PAVELKOVÁ // rozená Karásková. // Byla bleskem zasahnuta. // Rozloučení krátké, ale trvanlivé.  ",
+      naposledObnoveno: " 18.12.2021 ",
+      souradnice: "  49.4880400N, 16.3518800E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hozadupoba" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hozadupoba  ",
+      galerie: [
+        {
+          fotka: "  284pavelkova1.jpg",
+          popisek: " Kříž Josefky Pavelkové (červenec 2013 ) ",
+        },
+        { fotka: "  284pavelkova2.jpg", popisek: " (červenec 2013 ) " },
+        {
+          fotka: "  284pavelkova3.jpg",
+          popisek: " Detail nápisu (červenec 2013 ) ",
+        },
+      ],
+      proMe: "  X/324  24-141-7  13—071  ",
+    },
+    {
+      id: 285,
+      kategorie: "pomnicky",
+      pridano: " 18/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Brno - venkov ",
+      obec: "  Husle  ",
+      jmeno: " Synek, Stanislav  ",
+      nazev: " Kříž Stanislava Synka  ",
+      fotkaUvod: { fotka: " 285synek1.jpg " },
+      kdyVznikl: "po roce 1927  ",
+      popisCesty: " Na silnici z Kalů do Litavy, u odbočky silnice do Huslí.  ",
+      popis:
+        "  Pod lipami na rozcestí stojí tři metry vysoký, zdobený mramorový kříž, v kovové ohrádce, v posledních letech vyčištěný a restaurovaný.  ",
+      napis:
+        " Zde byl // usmrcen bleskem // dne 16. července 1927 // STANISLAV //  SYNEK  // ve stáří 21 roků. //  ….  ",
+
+      naposledObnoveno: " 18.12.2021 ",
+      souradnice: "  49.3931978N, 16.3304781E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kazuzafaru" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/kazuzafaru  ",
+      galerie: [
+        {
+          fotka: "  285synek1.jpg",
+          popisek: " Kříž Stanislava Synka (říjen 2021) ",
+        },
+        { fotka: "  285synek2.jpg", popisek: " (říjen 2021) " },
+        { fotka: "  285synek3.jpg", popisek: "Detail nápisu (říjen 2021) " },
+      ],
+      proMe: "  X/300  24-143-51  21—103  ",
+    },
+    {
+      id: 286,
+      kategorie: "pomnicky",
+      pridano: " 18/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Brno - venkov ",
+      obec: "  Ostopovice  ",
+      jmeno: " Sojka, František  ",
+      nazev: " Pomník Františka Sojky  ",
+      fotkaUvod: { fotka: "  286sojka1.jpg " },
+      kdyVznikl: " po roce 1928 ",
+      popisCesty:
+        " U silnice z Ostopovic do Střelic, v poli 300 metrů za posledními ostopovickými domy.  ",
+      popis:
+        "  Kamenný pomník je vysoký 2,3 metru, v horní části je kovový reliéf Krista, pod ním je hůře čitelný delší text. Pomník je poškozen, chybí fotografie. ",
+      napis:
+        " Při bouři zde náhle zemřel // dne 1. srpna 1928 // zasažen bleskem // FRANTIŠEK // SOJKA // z OSTOPOVIC // nar. 12. září 1878 // ….   ",
+
+      naposledObnoveno: " 18.12.2021 ",
+      souradnice: "  49.1623111N, 16.5321333E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dukocofote" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dukocofote  ",
+      galerie: [
+        {
+          fotka: " 286sojka1.jpg",
+          popisek: "Pomník Františka Sojky (březen 2014) ",
+        },
+        { fotka: " 286sojka2.jpg", popisek: " (březen 2014) " },
+        { fotka: " 286sojka3.jpg", popisek: " Detail nápisu (březen 2014) " },
+      ],
+      proMe: " IV/113  24-342-21  14—033   ",
+    },
+    {
+      id: 292,
+      kategorie: "pomnicky",
+      pridano: " 26/12/2021 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem ",
+      okres: " Brno - město ",
+      obec: "  Ostopovice  ",
+      obec: "  Brno - Starý Lískovec  ",
+      jmeno: " Zedkovi, Zuzana a Jiří ",
+      nazev: "  Památka na sourozence Zedkovy  ",
+      fotkaUvod: { fotka: " 291zedkovi3.jpg " },
+      kdyVznikl:
+        " Po tragédii tu dlouho bylo jen vyzdobené místo. Deska se objevila v prvním desetiletí 21. století ",
+      popisCesty:
+        " V sídlišti Starý Lískovec, blízko křižovatky ulic Elišky Přemyslovny a Osová v malém parčíku.   ",
+      popis:
+        "  Tmavá leštěná deska vysoká 0,4 metru je vsazena do země. Do ní je vyryt bílý křížek a text. Památka je zdobena a opečovávána. ",
+      napis: " 20. 7. 1999 // ZUZANA  A  JIŘÍ // ZEDKOVI  ",
+      odkazy: [
+        {
+          nazev: " idnes ",
+          adresa:
+            " https://www.idnes.cz/zpravy/domaci/blesk-zabil-dva-sourozence-kteri-vencili-psa.A_990721_130142_domaci_jkl ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Tento pomníček se nalézá uprostřed sídliště. Okolnosti vzniku jsou ale natolik mimořádné, že je tady porušena zásada nehledat pomníčky v zástavbě mezi domy. Zdá se, že před bleskem není žádný úkryt dobrý.<br>V úterý 20. července 1999 se večer o půl osmé přihnala nad Brno náhlá bouřka. Sourozenci, čtyřiadvacetiletý Jiří a devatenáctiletá Zuzana, zrovna venčili v parku psa a schovali se pod strom nijak nepřevyšující okolní stavby a okolní smrky. Do stromu, pod kterým byli schovaní, ale uhodil blesk a oba sourozence zabil. Deset metrů od nich stála fara stejně vysoká jako ty smrky, kde se schovávali. Ve vzdálenosti 30 metrů stála kostelní věž. Sedmipodlažní panelák vyšší než věž kostela opatřený mnoha hromosvody je 50 metrů daleko od místa neštěstí. Nikdo si ničeho nevšiml a našli je náhodně až za dvě hodiny. To už bylo na záchranu pozdě. Pes přežil, byl údajně na koženém vodítku. Nikdo nechápal, jak mohl blesk uhodit zrovna na toto místo. ",
+      naposledObnoveno: " 26.12.2021 ",
+      souradnice: "  49.1660842N, 16.5685147E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dugopapuru" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dugopapuru  ",
+      galerie: [
+        {
+          fotka: " 291zedkovi1.jpg",
+          popisek: " Památka na sourozence Zedkovy (prosinec2021 ) ",
+        },
+        { fotka: " 291zedkovi2.jpg", popisek: " (prosinec2021 ) " },
+        { fotka: " 291zedkovi3.jpg", popisek: " (prosinec2021 ) " },
+      ],
+      proMe: "  XX/1164  24-342-61  Brno  ",
+    },
+    {
+      id: 293,
+      kategorie: "pomnicky",
+      pridano: " 27/12/2021 ",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké, Lesnický Slavín ",
+      okres: " Blansko ",
+      obec: "  Habrůvka  ",
+      jmeno: " Wankel, Jindřich - deska  ",
+      nazev: " Pamětní deska Jindřichu Wankelovi,  ",
+      fotkaUvod: { fotka: " 293wankelDeska.jpg " },
+      kdyVznikl:
+        " Portrét na desce vyhotovil prof. Opletal v roce 1950. Instaloval ji Vlastivědný kroužek ZK ADAST Adamov na konci 60. let - uvádí Truhlář. Já mám pocit, že jsem ji tam viděl dříve - možná se pletu. ",
+      popisCesty:
+        " V Josefovském údolí, na skalní stěně Býčí skály, uprostřed mezi vchody.  ",
+      popis:
+        "  Světlá pamětní deska obdélníkového tvaru je vysoká 0,6 metru. Na ní je podoba staršího muže v profilu. Dole je umístěn krátký text. Deska je na výšku připevněná šrouby ke skále tři metry nad zemí. Dříve byla na jiném místě na skále. ",
+      napis:
+        " MUDR.  JINDŘICH  WANKEL // 1821 - 1897 // OTEC  MORAVSKÉ  ARCHEOLOGIE, // A  OBJEVITEL  TAJŮ  BÝČÍ  SKÁLY   ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=445 ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 86. ",
+        },
+      ],
+      pozn:
+        " <strong> Jindřich Wankel </strong> (1821-1897), lékař v Salmovských železárnách v Blansku, má zásluhy v mnoha oborech. Zakladatel moravské archeologie, paleontolog, badatel v jeskyních Moravského krasu. V letech 1867-69 vykopal halštatské pohřebiště v Býčí skále. Sestavil první kostru jeskynního medvěda. Jeho vnuky jsou speleolog a archeolog Karel Absolon a zakladatel nemocnice na Žlutém kopci Jaroslav Bakeš. ",
+      naposledObnoveno: " 27.12.2021 ",
+      souradnice: "  49.3075436N, 16.6946419E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/galodanado" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/galodanado  ",
+      galerie: [
+        {
+          fotka: "  293wankelDeska.jpg",
+          popisek: "  Pamětní deska Jindřichu Wanklovi ( červen 2018) ",
+        },
+      ],
+      proMe: "  III/87  24-411-130  18—064  ",
+    },
+    {
+      id: 295,
+      kategorie: "pomnicky",
+      pridano: " 27/12/2021 ",
+      podkategorie: 1,
+      druh: "Lesnický Slavín, jeskyňářské a horolezecké",
+      okres: " Blansko ",
+      obec: "  Habrůvka  ",
+      jmeno: " Wankel, Jindřich - deska  ",
+      nazev: " Pamětní deska Jindřichu Wankelovi,  ",
+      fotkaUvod: { fotka: " 293wankelDeska.jpg " },
+      kdyVznikl:
+        " Portrét na desce vyhotovil prof. Opletal v roce 1950. Instaloval ji Vlastivědný kroužek ZK ADAST Adamov na konci 60. let - uvádí Truhlář. Já mám pocit, že jsem ji tam viděl dříve - možná se pletu. ",
+      popisCesty:
+        " V Josefovském údolí, na skalní stěně Býčí skály, uprostřed mezi vchody.  ",
+      popis:
+        "  Světlá pamětní deska obdélníkového tvaru je vysoká 0,6 metru. Na ní je podoba staršího muže v profilu. Dole je umístěn krátký text. Deska je na výšku připevněná šrouby ke skále tři metry nad zemí. Dříve byla na jiném místě na skále. ",
+      napis:
+        " MUDR.  JINDŘICH  WANKEL // 1821 - 1897 // OTEC  MORAVSKÉ  ARCHEOLOGIE, // A  OBJEVITEL  TAJŮ  BÝČÍ  SKÁLY   ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=445 ",
+        },
+        {
+          nazev: " Jiří Truhlář : Památníky adamovských lesů, 2003, str. 86. ",
+        },
+      ],
+      pozn:
+        " <strong> Jindřich Wankel </strong> (1821-1897), lékař v Salmovských železárnách v Blansku, má zásluhy v mnoha oborech. Zakladatel moravské archeologie, paleontolog, badatel v jeskyních Moravského krasu. V letech 1867-69 vykopal halštatské pohřebiště v Býčí skále. Sestavil první kostru jeskynního medvěda. Jeho vnuky jsou speleolog a archeolog Karel Absolon a zakladatel nemocnice na Žlutém kopci Jaroslav Bakeš. ",
+      naposledObnoveno: " 27.12.2021 ",
+      souradnice: "  49.3075436N, 16.6946419E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/galodanado" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/galodanado  ",
+      galerie: [
+        {
+          fotka: "  293wankelDeska.jpg",
+          popisek: "  Pamětní deska Jindřichu Wanklovi ( červen 2018) ",
+        },
+      ],
+      proMe: "  III/87  24-411-130  18—064  ",
+    },
+    {
+      id: 294,
+      kategorie: "pomnicky",
+      pridano: " 02/01/2022 ",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké ",
+      okres: " Blansko ",
+      obec: "  Holštejn  ",
+      jmeno: " Šlechta, Jiří  ",
+      nazev: " Památka Jiřího Šlechty  ",
+      fotkaUvod: { fotka: "  294slechtaJiri2.jpg " },
+      kdyVznikl: " po roce 1965 ",
+      popisCesty:
+        " V Ostrovském žlebu, asi 1 km JJZ od středu Holštejna je naproti jeskyni Michalka slepé údolíčko se vstupem do jeskyně Třináctka. Vedle něj na skalkách jsou dvě pamětní desky.   ",
+      popis:
+        "  Světlá leštěná obdélníková deska je široká asi 0,4 metru a je připevněna kovovými šrouby ke skále. Kdysi dávno bývala pod deskou i karbidová lampa.  ",
+      napis: " 13C // JIŘÍ  ŠLECHTA //  * 15. 4. 1943  + 5. 9. 1965   ",
+      pozn:
+        "  Člen Plánivské skupiny jeskyňářů Jiří Šlechta zahynul při potápěčském průzkumu koncového sifonu jeskyně 13C. Vyskružený vstup do jeskyně je nedaleko desky. Údajně při podplavávání sifonu se udeřil do hlavy, ztratil vědomí a utopil se. Jeho bratr, Milan Šlechta (1944-1970), zahynul v Amatérské jeskyni o pět let později. Oba dva jsou pochováni na Ústředním hřbitově v Brně, sk. 25C hrob č. 7.   ",
+      naposledObnoveno: " 2.1.2022 ",
+      souradnice: " 49.3973222N, 16.7722661E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/caguzesama" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/caguzesama  ",
+      galerie: [
+        {
+          fotka: "  294slechtaJiri1.jpg",
+          popisek: "Vzadu deska, vpravo vstup do Třináctky (srpen 2020) ",
+        },
+        {
+          fotka: "  294slechtaJiri2.jpg",
+          popisek: " Památka Jiřího Šlechty (srpen 2020) ",
+        },
+        { fotka: "  294slechtaJiri3.jpg", popisek: " (srpen 2020) " },
+      ],
+      proMe: " VI/202  24-233-7  20—074   ",
+    },
+    {
+      id: 296,
+      kategorie: "pomnicky",
+      pridano: " 02/01/2022 ",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké ",
+      okres: " Blansko ",
+      obec: "  Holštejn  ",
+      jmeno: " Památka jeskyňářům  ",
+      nazev: " Pamětní deska zahynulým jeskyňářům  ",
+      fotkaUvod: { fotka: " 296jeskynarum2.jpg " },
+      kdyVznikl: " kolem roku 2010 ",
+      popisCesty:
+        "  V Ostrovském žlebu, asi 1 km JJZ od středu Holštejna je naproti jeskyni Michalka slepé údolíčko se vstupem do jeskyně Třináctka. Vedle něj na skalkách jsou dvě pamětní desky.    ",
+      popis:
+        "  Do skalní stěny je vsazena leštěná žulová pamětní deska. Pod ní je nerezová police na svíčky.  ",
+      napis: " NA  PAMÁTKU  //  VŠEM  JESKYŇÁŘŮM  ",
+      odkazy: [
+        {
+          nazev: " turistika  ",
+          adresa: " https://www.turistika.cz/mista/jeskyne-trinactka/detail ",
+        },
+      ],
+      pozn:
+        "  V této oblasti zahynulo při zkoumání jeskyní nejméně osm jeskyňářů.  ",
+      naposledObnoveno: " 2.1.2022 ",
+      souradnice: " 49.3973133N, 16.7725825E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/helotuzava" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/helotuzava  ",
+      galerie: [
+        {
+          fotka: "  296jeskynarum1.jpg",
+          popisek: " Památka jeskyňářům (srpen 2020 ) ",
+        },
+        { fotka: "  296jeskynarum2.jpg", popisek: " (srpen 2020 ) " },
+      ],
+      proMe: "  XX/1168  24-233-7  20—074  ",
+    },
+    {
+      id: 297,
+      kategorie: "pomnicky",
+      pridano: " 02/01/2022 ",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké, zaniklé ",
+
+      okres: " Blansko ",
+      obec: "  Habrůvka  ",
+      jmeno: " Kudláček, Josef  ",
+      nazev: " Památka trampa Josefa Kudláčka  ",
+      fotkaUvod: { fotka: " 297kudlacek.jpg " },
+      kdyVznikl:
+        " Po skončení 2. světové války. Tabulka zmizela někdy na začátku 21. století. ",
+      popisCesty:
+        " V Josefovském údolí, u vchodu do Býčí skály stojí statný javor. Na něm bývala přibitá tabulka a pod stromem primitivní mohylka.  ",
+      popis:
+        "  Dřevěná tabulka z prkna s vypáleným nápisem byla vysoká 0,4 metru. V devadesátých letech značně omšelá, těžko čitelná. Pod stromem byla vyskládána z kamenů prostá mohylka a v ní vnořen primitivní dřevěný křížek.  ",
+      napis:
+        " Zde tragicky zahynul Josef Kudláček  * 14. 3. 1927  + 16. 4. 1944  ",
+      odkazy: [
+        {
+          nazev: " Býčí skála ",
+          adresa:
+            " https://www.byciskala.cz/MaRS/index.php?show=clanek&id=472 ",
+        },
+      ],
+      pozn:
+        " Kudláček lezl se Zdeňkem Lajfcem Laiferem skalní stěnou Býčí skály. Lezli na Svantovítovu věž, tehdy jí tak říkali. Kudláček spadl a s ním i lano a Lajfec zůstal ve stěně v šoku a bez lana. Zachraňovali ho trampové z osady Komáři, ke kterým patřil. Tehdy se trampové, horolezci a jeskyňáři od sebe příliš nelišili, všichni sdíleli společný prostor skal a jeskyní. Dělili se spíše podle národnosti. Jeden čas se uvažovalo (uvažuje?) o obnovení desky.   ",
+      naposledObnoveno: " 2.1.2022 ",
+      souradnice: "  49.3075436N, 16.6946419E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/galodanado" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/galodanado  ",
+      galerie: [
+        {
+          fotka: "  297kudlacek.jpg",
+          popisek:
+            " Kmen stromu, na kterém bývala tabulka Josefa Kudláčka( červen 2018) ",
+        },
+      ],
+      proMe: "  III/88  24-411-130  18—064  ",
+    },
+    {
+      id: 301,
+      kategorie: "pomnicky",
+      pridano: " 02/01/2022 ",
+      podkategorie: 17,
+      druh: " Zaniklé; jeskyňářské a horolezecké ",
+      okres: " Blansko ",
+      obec: "  Habrůvka  ",
+      jmeno: " Kudláček, Josef  ",
+      nazev: " Památka trampa Josefa Kudláčka  ",
+      fotkaUvod: { fotka: " 297kudlacek.jpg " },
+      kdyVznikl:
+        " Po skončení 2. světové války. Tabulka zmizela někdy na začátku 21. století. ",
+      popisCesty:
+        " V Josefovském údolí, u vchodu do Býčí skály stojí statný javor. Na něm bývala přibitá tabulka a pod stromem primitivní mohylka.  ",
+      popis:
+        "  Dřevěná tabulka z prkna s vypáleným nápisem byla vysoká 0,4 metru. V devadesátých letech značně omšelá, těžko čitelná. Pod stromem byla vyskládána z kamenů prostá mohylka a v ní vnořen primitivní dřevěný křížek.  ",
+      napis:
+        " Zde tragicky zahynul Josef Kudláček  * 14. 3. 1927  + 16. 4. 1944  ",
+      odkazy: [
+        {
+          nazev: " Býčí skála ",
+          adresa:
+            " https://www.byciskala.cz/MaRS/index.php?show=clanek&id=472 ",
+        },
+      ],
+      pozn:
+        " Kudláček lezl se Zdeňkem Lajfcem Laiferem skalní stěnou Býčí skály. Lezli na Svantovítovu věž, tehdy jí tak říkali. Kudláček spadl a s ním i lano a Lajfec zůstal ve stěně v šoku a bez lana. Zachraňovali ho trampové z osady Komáři, ke kterým patřil. Tehdy se trampové, horolezci a jeskyňáři od sebe příliš nelišili, všichni sdíleli společný prostor skal a jeskyní. Dělili se spíše podle národnosti. Jeden čas se uvažovalo (uvažuje?) o obnovení desky.   ",
+      naposledObnoveno: " 2.1.2022 ",
+      souradnice: "  49.3075436N, 16.6946419E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/galodanado" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/galodanado  ",
+      galerie: [
+        {
+          fotka: "  297kudlacek.jpg",
+          popisek:
+            " Kmen stromu, na kterém bývala tabulka Josefa Kudláčka( červen 2018) ",
+        },
+      ],
+      proMe: "  III/88  24-411-130  18—064  ",
+    },
+    {
+      id: 298,
+      kategorie: "pomnicky",
+      pridano: " 02/01/2022 ",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké ",
+      okres: " Blansko ",
+      obec: "  Vilémovice  ",
+      jmeno: " Dolní můstek  ",
+      nazev: " Dolní můstek na Macoše  ",
+      fotkaUvod: { fotka: " 298dolniMustek1.jpg " },
+      kdyVznikl:
+        " Dolní můstek zbudoval roku 1899 Klub českých turistů. Bez podstatných úprav sloužil do roku 2000. Z bezpečnostních důvodů byl pak zrekonstruován a otevřen na podzim roku 2001. Součástí rekonstrukce bylo i umístění části původního zábradlí na zadní kamennou stěnu. ",
+      popisCesty:
+        " Nad SZ částí propasti Macocha je ve výši 92 metrů nade dnem propasti vyhlídková plošina, obklopená kamennými opěrnými zdmi. Po schodišti sem vede odbočka žluté značky. Místo velmi navštěvované, zvláště v létě je tu stále plno.  ",
+      popis:
+        "   Na zadní zdi můstku je instalována dvoumetrová část původního ocelového zábradlí s obloukem vstupu na balkónek. Zábradlí je z páskového železa secesně zakrouceného, v horní části jsou písmena K. C. T.  z oceli. Mezi zábradlím zůstala původní 0,7 metru dlouhá kovová deska s textem.  ",
+      napis:
+        " POSTAVENO  NÁKLADEM  BRNĚNSKÉHO  ODBORU // KLUBU  ČESKÝCH  TURISTŮ // 1899  ",
+      pozn:
+        "  Náklad na zbudování v roce 1899 činil 800 zlatých. Náklady na nové zábradlí a  opravy zdí v roce 2001 činily půl milionu Kč.<br>Kovový oblouk v originálním zábradlí vedl na vzdušný balkónek zhruba metr krát metr, odkud byl nejlepší výhled  do propasti a na stěnu Macochy. V jeho podlaze přežívala kovová padací dvířka, spolehlivě zajištěná. Do dvířek ústil od roku 1913 ocelový žebřík, sahající na dno propasti. Žebř dal zbudovat Karel Absolon a byl to tehdy jediný přístup do propasti. Byl dlouhý 114 metrů a v jednom místě byl podepřen. Ovšem v roce 1914 se podařilo prokopat průchod z Punkevních jeskyní, tedy se vstup po žebříku používal méně.<br>Musel to být adrenalinový zážitek. Popisuje ho spisovatelka Marie Podešvová (1901-1994) v knize memoárů Když slunce září. Známý brněnský sportovec a  jeskyňář Karel Tunal Divíšek (1902-1956) ji pozval na prohlídku jeskyní. Ven z Macochy lezli po žebříku. Nahoře se ukázalo, že padací dvířka jsou zamčená. Tunal přelezl zábradlí, kamenem urazil zámek, dvířka otevřel a mladou dívku vysvobodil. Žebřík byl demontován v roce 1933. ",
+      naposledObnoveno: " 2.1.2022 ",
+      souradnice: "  49.3735633N, 16.7291656E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kugemusahe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/kugemusahe  ",
+      galerie: [
+        {
+          fotka: "  298dolniMustek2.jpg",
+          popisek:
+            " Tabulka a část historického zábradlí z roku 1899 (únor 2011) ",
+        },
+        {
+          fotka: "  298dolniMustek3.jpg",
+          popisek: " Pohled z Dolního můstku do Macochy (únor 2011) ",
+        },
+        {
+          fotka: "  298dolniMustek4.jpg",
+          popisek: "  Zábradlí z roku 2001 (únor 2011) ",
+        },
+      ],
+      proMe: "  X/319  XVI/689  24-233-30  11—02  ",
+    },
+    {
+      id: 299,
+      kategorie: "pomnicky",
+      pridano: " 02/01/2022",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké ",
+      okres: " Blansko ",
+      obec: "  Lažánky  ",
+      jmeno: " Zábranský, Vladimír  ",
+      nazev: " Památka horolezce Vladimíra Zábranského  ",
+      fotkaUvod: { fotka: "  299zabransky3.jpg " },
+      kdyVznikl:
+        " Pamětní deska byla instalována pravděpodobně roku 2013, křížek je mnohem starší. Jeho předchůdce byl kovový a byl těsně u skalní stěny. I deska měla předchůdkyni. ",
+      popisCesty:
+        " V Suchém žlebu asi 300 metrů od vchodu do Kateřinské jeskyně je po J straně silnice skála Býčí roh. Její S stěna otočená k silnici je vysoká 30 metrů. ",
+      popis:
+        "   V dolní části stěny na očištěné skále je přišroubovaná tmavá leštěná deska s textem provedeným bílým písmem. Pod deskou je kamenná mohylka a do ní je zasazen zašlý dřevěný křížek vysoký 0,4 metru.   ",
+      napis:
+        " STĚNA  // VLADIMÍRA // ZÁBRANSKÉHO //  * 20.7.1919  + 29.8.1943  ",
+      odkazy: [
+        {
+          nazev: " Plšek ",
+          adresa:
+            " http://fotonec.blogspot.com/2012/07/k-tragedii-na-bycim-rohu-dle-vzpominek.html ",
+        },
+      ],
+      pozn:
+        "  Zábranský byl vysokoškolák, který, aby unikl totálnímu nasazení na práce v Německu, získal s pomocí otce práci pomocníka na stavbě železnice v Obřanech. O nedělích lezli v Krasu. Podle vzpomínek horolezce Franty Plška (1927-2021), který lezl na vedlejší skále, dělal Zábranský s Pánkem novou cestu na Býčí roh. Už byl skoro nahoře, když se s ním utrhl plát mechu a začal padat. Staré konopné lano nevydrželo náraz metrákového těla a přetrhlo se. Lezec dopadl na kameny pod skálou a byl na místě mrtev.<br>Cestu dokončili Oldřich Hlavenka s Josefem Jirůškem v roce 1943, dnes se jmenuje Pilíř a má klasifikaci 5. Tehdy byly v celé stěně jen dvě cesty, dnes je jich nejméně devět.  ",
+      naposledObnoveno: " 2. 1. 2022 ",
+      souradnice: "  49.3603869N, 16.7126539E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/debojezovu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/debojezovu ",
+      galerie: [
+        { fotka: "  299zabransky1.jpg", popisek: " Býčí roh (únor 2014 ) " },
+        {
+          fotka: "  299zabransky2.jpg",
+          popisek: " Křížek a deska (únor 2014 ) ",
+        },
+        { fotka: "  299zabransky3.jpg", popisek: " (únor 2014 ) " },
+      ],
+      proMe: "  XIX/805  24-411-87  14—022  ",
+    },
   ],
 };
