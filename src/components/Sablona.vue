@@ -329,7 +329,9 @@
       seradClanky() {
         if (this.$route.name === "Vypraveni") {
           this.clankyPodKategorie.sort(
-            (a, b) => Number(b.datum.slice(-4)) - Number(a.datum.slice(-4))
+            (a, b) =>
+              Number(b.datum.trim().slice(-4)) -
+              Number(a.datum.trim().slice(-4))
           );
         } else if (this.$route.name === "Cesty") {
           this.clankyPodKategorie.sort(

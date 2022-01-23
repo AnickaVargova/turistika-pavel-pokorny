@@ -15885,5 +15885,362 @@ export default {
       ],
       proMe: "  XIX/805  24-411-87  14—022  ",
     },
+    {
+      id: 300,
+      datum: " prosinec 2017  ",
+      pridano: " 24/01/2022 ",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: " Vyprávění o sochách a památkách v Bohunicích. ",
+      text: [
+        {
+          textOdstavce:
+            "   <p> Přátelé,<br>letos se budu věnovat městské vlastivědě. Chci souvisle pojednat o bohunických pomnících, sochách a pamětních deskách. Mnohé se píše podrobněji v knize Antonína Crhy: Z historie Bohunic (2014), ze které jsem vycházel. Loňské stěhování do bohunického sídliště muselo zanechat stopu i na mém vlastivědném působení. Proto letošní vyprávění bude osobnější než v letech předchozích. Denně zažívám neskutečné déjà-vu, vidím, jak to tu vypadalo, kdo tu bydlel, co zmizelo a co přibylo. Žil jsem ve starých Bohunicích prvních 25 let života, prostřednictvím rodičů a prarodičů – starousedlíků sahají vzpomínky na začátek dvacátého století. V letech 1953 – 1963 jsem tu prožil kouzelné dětství venkovského kluka, vzdálen jen čtvrthodinku od středu Brna. Vrátil jsem se po pětačtyřiceti letech a viděl, jak se skoro vše změnilo. Ze starých Bohunic zbylo torzo, pár ulic obklopených ze tří stran panelovou výstavbou. V nich je část domů prázdná, starousedlíci se dílem odstěhovali, dílem pomřeli a potomci domy prodali. Zmizel přirozený střed obce tam, kde dnes stojí kaplička, zastavěny jsou plochy polí a zahrad okolo, vykáceny pověstné aleje třešní kolem silnic. Ze stovek stromů zbyla dodnes jediná opelichaná třešeň u staré Jihlavky. Přibylo ale mnoho soch a o těch budu dále psát</p>",
+          foto: " 300bohunice1.jpg   ",
+          umisteniFoto: "   vpravo  ",
+          popisek:
+            " Dva smírčí kameny v bohunické nemocnici (foto květen 2017)  ",
+        },
+
+        {
+          textOdstavce:
+            "   <p> Nejstarším bohunickým památníkem jsou <strong>dva smírčí kameny</strong>. Dnes je lze najít v areálu nemocnice v trávníku před budovou H. Stěhovány byly vícekrát. Až do konce 19. století byly rozmístěny kolem hlavní cesty z Brna na Prahu, která od středověku šla ze Starého Brna ulicí Vinohrady, překonala sedélko a po pláni nad Bohunicemi mířila k Bosonohám. Já pamatuji v šedesátých letech tři kameny shromážděné na rozcestí cest za nemocnicí, třetí kámen, zřejmě nejmenší, skoro nebyl vidět. Mezi námi dětmi se tradovala pověst, že až se kameny propadnou do země, nastane konec světa. V sedmdesátých letech, když se rozšiřovala silnice, dnes ulice Kamenice, byly dva kameny přestěhovány do areálu nemocnice ke garážím sanitek a od roku 2010 jsou na nynějším místě. Třetí kámen se při přesunech zřejmě ztratil. V evidenci smírčích křížů mají čísla 1280 (menší) a 1281 (větší). O stáří kamenů lze jen spekulovat, názory odborníků sahají od 14. po 17. století. Každopádně kameny označovaly místo tragédie. Podle středověkého práva viník tesáním kamene přiznával a smazával svoji vinu. </p>  ",
+          foto: " 300bohunice2.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Kopie boží muky v bohunické nemocnici (červen 2010)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Nedaleko kamenů stojí <strong>kopie historické boží muky</strong>. Původní boží muka označovala rozcestí na pláni mezi Bohunicemi a Pisárkami, kde se cesta větvila na zkratku přímo přes kopec po dnešní ulici Vinohrady nebo delší povlovnější trasu kolem dnešního krematoria. Pamatuji boží muku z 50. let jako zašlou otlučenou stavbu uprostřed obrovského lánu. Prý u ní byli pochováni vojáci po třicetileté válce. Pilířová stavba s výklenky pocházela z 18. století. Vznikla určitě před rokem 1748, kdy se za panování Marie Terezie stavěla císařská silnice z Brna na Jihlavu. Ta vedla o tři sta metrů jižněji – dnes ulice Jihlavská. Stavba byla údajně rozebrána a přenesena na nové místo, kde neoznačuje nic.</p>  ",
+          foto: "  300bohunice5.jpg   ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Socha svatého Jana Nepomuckého (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Řazeno podle stáří, je další na řadě barokní <strong>socha svatého Jana Nepomuckého</strong> z roku 1722, dnes umístěná v ulici Lány naproti zahradnické škole. Jedná se o kvalitní barokní práci, světec v jedné ruce drží kříž jako symbol umučení, ve druhé sundaný kvadrátek. Nestojí na původním místě. To leželo na významné křižovatce starých cest nad dnešní ulicí Jílovou, kde se rozdělovala středověká trasa na Jihlavu a na Znojmo. Socha je zachycena na staré vedutě Františka Richtera z roku 1827. V půli 20. století při rozšiřování Kohnovy cihelny byla socha přemístěna na Lány, kde stojí od roku 1952 dodnes. Tou dobou tu bylo rozcestí.</p> ",
+          foto: "  300bohunice6.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Detail sochy Jana Nepomuckého (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> <i>Jan z Pomuku (asi 1340 – 1393) kněz a církevní právník v Praze. Zapletl se do sporů krále Václava IV s arcibiskupem Janem z Jenštejna. Byl královými lidmi zajat, mučen a mrtvola tajně vržena z Karlova mostu do Vltavy. Proto bývají jeho sochy umisťovány na mosty. Známý fakt, že byl zpovědníkem královy manželky a nechtěl vyzradit králi zpovědní tajemství, patří do říše pohádek. Královna Johana byla tou dobou sedm let po smrti. Církev potřebovala mučedníka, který zemřel při obhajobě víry, nikoliv jako oběť domácí politiky. Jan Nepomucký (městečko Pomuk změnilo mezitím jméno na Nepomuk) byl blahoslaven 1719 a prohlášen za svatého 1729. Bylo to prohlášení dosti účelové, protože v době pobělohorské bylo třeba ukázat, že husitští Čechové se už polepšili a vzmohli se i na svatého.</i> </p>  ",
+          foto: "   300bohunice3.jpg  ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Socha papeže Inocence XI (květen 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Jen o málo mladší je barokní <strong>socha papeže Inocence XI</strong>, dnes umístěná nad zastávku tramvaje Běloruská směrem do Uzbecké. Pochází z roku 1724 a stála původně nad Kohnovou cihelnou na místě výhledu na Brno, nedaleko předchozí sochy. Četl jsem kdesi, že když žid Kohn rozšiřoval svoji cihelnu, tak koupil od obce pozemek i se sochou. Koupě se musela řádně oslavit, takže bohuničtí propili svatýho Vincka. Označení místa U Jána a U Vincka jsem od babičky běžně slýchal. Kvůli postupující těžbě hlíny se roku 1919 socha poprvé stěhovala na křižovatku Havelkova - Jihlavská a tam si ji pamatuji v dosti zuboženém stavu. Jeden čas i bez hlavy. Při rozšiřování sídliště v 70. letech křižovatka zanikla – dnes tu vedou koleje pod most. Socha překážela a šla do depozitáře. V roce 1998 byla nákladem obce restaurována a umístěna do sídliště. Na podstavci je latinský nápis : Innocenci jedenáctý, modli se za služebníky, kteří přicházejí. Ze zadní strany stojí, že sochu dal postavit kanovník petrské kapituly Ličovský. Proč si vybral zrovna tohoto světce, zůstává záhadou.</p>  ",
+          foto: "   300bohunice4.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Detail sochy papeže (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p><i> Ital Benedetto Odescalchi (1609 - 1689) byl kardinálem, když mu bylo 34 let. Papežem se stal jako 65 letý roku 1676 a přijal jméno Inocenc XI. Prý prosil ostatní kardinály na kolenou, aby ho nevolili. Kardinálové se rozhodli jinak a zvolili papežem dnešním slovníkem krizového manažera. Vatikánskému státu hrozil tehdy bankrot. Za doby Inocencova hospodaření se ekonomika dostala z červených čísel. Má zásluhu na zabránění islamizace střední Evropy, protože za jeho pontifikátu byli roku 1683 definitivně poraženi Turci u Vídně. Zemřel v roce 1689, blahořečen až po třech stech letech, v roce 1956.</i> </p>  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Ze sedmi křížů na území obce stojí za zmínku jediný, <strong>Morávkův kříž</strong> v ulici Lány. Vysoký kamenný kříž postaven roku 1851 prý na památku tragické události. Určitě měl předchůdce. Já na tomto místě pamatuji jinou rodinnou tragédii z jara 1961. Tehdy tu stál mostek přes úvoz a silnice byla dost úzká, bez chodníků. Šestiletá Liduška doprovázená babičkou vylezla na kamenný sloupek zábradlí lemujícího mostek. Projíždějící náklaďák ji sfoukl přímo pod svá kola. Byla na místě mrtvá. Za půl roku zemřela i babička.</p>  ",
+          foto: "  300bohunice7.jpg   ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Morávkův kříž z roku 1851 (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Ten úvoz pod mostkem byl docela důležitý. Vyhloubila ho kola nesčetných formanských vozů, které tudy jezdily od 13. do 18. století. Jednalo se o hlavní cestní spoj mezi moravskými centry Olomoucí, Brnem a Znojmem. Nechci spekulovat, ale stezka mezi hradisky Staré Zámky a Rokytná tu mohla vést už v době velkomoravské. Cesta šla od dnešní ulice Vídeňská, pozvolna stoupala svahem kolem sochy Jana Nepomuckého zmíněné výše, přes dnešní krematorium. Za ním stávala do 60. let boží muka na rozcestí. Pak cesta směřovala úvozem k ulici Lány a k tomuto kříži. Kříž je jedna z mála památek, které po cestě zbyly. Všimněte si jeho natočení bokem k ulici Lány, která byla tehdy nevýznamná. A určitě měl předchůdce, dálkové trasy tehdy byly značeny kříži, sochami, božími mukami na rozcestích. Dalším úvozem, hlubokým až tři metry, vedla cesta do údolí potoka Leskavy. Podmáčená místa překonala po hrázi rybníka, hráz tu ještě stojí. Kolmo na dnešní železniční trať mířila dalším úvozem na Moravanské kopce. Význam ztratila po stavbě císařské silnice z Brna na Znojmo v 18. století, ale jako pěší cesta byla užívána obyvateli Moravan, Nebovid, Ořechova až do 40. let dvacátého století. Já cestu pamatuji jako zarostlé několikasetmetrové úvozy vedoucí odnikud nikam. Kolem Brna se krajina scelením polí a následnou výstavbou zcela přeměnila. Ale z Pravlova do Znojma cesta dnes jako silnička stále existuje.<br>Pod ulicí Lány leží areál Zahradnické školy. Výstavná budova s dřevěnými štíty pochází z roku 1903 a projektoval ji v lidovém slohu Dušan Jurkovič. Zahradnická škola tu působila v letech 1903 – 2010, nyní tu začíná soukromá škola Montessori. Patrovou budovu obklopuje park vysázený exoty z doby založení stavby a v něm stojí <strong>pomník Františka Suchého</strong> (1860 – 1910), zakladatele školy a prvního ředitele. Pískovcová mohyla s bílým reliéfem byla odhalena roku 1914.</p>  ",
+          foto: " 300bohunice20.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: "  Pomník Františka Suchého (září 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> <strong>Památník obětem první a druhé světové války</strong> stojí dnes v horní části ulice Havelkovy, na místě, kde bohuničtí v letech 1880 - 1954 pochovávali své mrtvé. Ze hřbitova zbyly jen dva jasany u vchodu, jeho místo v sedmdesátých letech zaujalo velmi nepietně zdravotní středisko. Pomník svojí historií kopíruje dějiny obce ve 20. století. Stavba po skončení první světové války byla významnou událostí, na jeho pořízení se konala sbírka po domech. Akce se chopili sokolové a v květnu 1919 byl pomník slavnostně odhalen v Sadu svobody, kterému nikdo neřekl jinak než „na véhoně“. Dnes ulice Neužilova. Třenice mezi vesnickými organizacemi byly tehdy tak silné, že někteří pozůstalí nechtěli dát vyrýt jména svých padlých na „sokolský“ pomník. Na desce bylo vytesáno 26 jmen padlých v první válce. V padesátých letech pomník přežíval v zapomenutí na stejném místě, z parku se stala džungle a eldorádo našich klukovských her. Když se začalo stavět sídliště a plánovat tramvajová trať, stál památník v cestě. Byl proto přemístěn doprostřed vesnice a deska věnována padlým vojákům Rudé armády při osvobozování Bohunic. Ani tady dlouho nevydržel. S postupujícím bouráním starých Bohunic a výstavbou sídliště překážel i tady. Byl odvezen do družstva Kamena a posléze do depozitáře. V roce 1997 konečně odhalen na dnešním místě s novými deskami obětem obou světových válek z Bohunic. Každoročně tu při výročích radnice pokládá květiny.</p>  ",
+          foto: "   300bohunice8.jpg  ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Památník obětem světových válek (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Na dohled odtud stojí historický <strong>pomník Tomáše Garrigua Masaryka</strong>. Na žulovém soklu vysokém dva a půl metru s faksimilí podpisu státníka je bronzová busta prezidenta Osvoboditele od sochaře V. H. Macha (1882 – 1958). Osudy pomníku nebyly tuctové. Odhalen v parčíku uprostřed bohunické návsi 29. 8. 1937, pouhé dva týdny před úmrtím T.G.M. V červnu 1940 pomník někdo povalil a busta se ztratila, sokl bohuničtí schovali. V létě 1947 byl pomník opraven a odhalen podruhé. Vydržel pozapomenut celkem dlouho, jen ojediněle se tam v dobách normalizace objevila svíčka při výročích vzniku ČSR. Při stavbě sídliště v 80. letech pomník demontovali a odvezli. Jen díky sametové revoluci se mohl vrátit na skoro stejné místo při třetím odhalení v březnu 1990. Místo v těsné blízkosti paneláků na Spodní ulici nebylo ani vhodné, ani důstojné a tak následovalo čtvrté odhalení v roce 1995 v parčíku pod Běloruskou. Doufejme, že tu vydrží, kytice při výročích narození a úmrtí se tu objevují každý rok.</p>  ",
+          foto: "  300bohunice9.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Pomník T. G. Masaryka (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Ve staré bohunické škole, dnes Centrum volného času Lány 3, jsou v chodbě umístěny <strong>dvě pamětní desky</strong> z černé žuly. Jsou z roku 1935. Patří legionáři Rudolfu Marečkovi (1889 – 1918) padlému na Sibiři a řídícímu učiteli Eduardu Vohnoutovi (1858 – 1925), významnému osvětovému činovníku. Škola byla postavena 1883 a učilo se v ní do roku 1995, tedy se v ní vystřídaly čtyři generace bohunických obyvatelů.</p>  ",
+          foto: "  300bohunice10.jpg   ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Pamětní deska Josefu Žemličkovi (srpen 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Na den 21. 8. 1968 existuje také jedna připomínka. Toho dne ráno byl na Jihlavské ulici zastřelen příslušníkem Sovětské armády šestnáctiletý učeň Josef Žemlička z Omic. Měl odjet na chmelovou brigádu a jel se na pionýru zeptat, jak to s brigádou vypadá. Motorku musel odstavit už před Brnem, protože křižovatka u Nového Lískovce byla strážená vojskem, které bránilo projíždění aut. Podle očitých svědků se kdosi snažil objet křižovatku po poli a vojáci zahájili na něj palbu. Josef Žemlička se náhodou dostal střele do dráhy. Mládenec byl těžce raněn a zemřel v nemocnici. Na ten moment se pamatuji, stál jsem tehdy v Bohunicích ve frontě na potraviny, když kdosi přinesl tuto hroznou zprávu. Bronzová <strong>pamětní deska Josefu Žemličkovi</strong> od Jiřího Sobotky byla instalována až v roce 1991 a leží pár set metrů blíže k Brnu, protože na místě tragédie je dnes most a křížení s dálničním přivaděčem. Při výročním dnu tu představitelé města kladou kytice. </p>  ",
+          foto: "  300bohunice11.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Detail desky oběti srpnové okupace. (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> <strong>Památník ke 40. výročí osvobození</strong> Československa Sovětskou armádou , tedy z roku 1985, lze najít v malém parku vysázeném k této příležitosti u zastávky Běloruská. V roce 1973 se začalo stavět panelové sídliště kolem Bohunic, od východu směrem na západ. První domy vyrostly na ulici Uzbecké. Pověsti, že urbanisté do plánu ulic v sídlišti Československo – sovětského přátelství zakomponovali srp a kladivo viditelné jen z letadla, se naštěstí ukázaly liché. Zůstaly jen názvy ulic sovětských republik. Počítalo se s 30 tisíci přistěhovalých v 10 000 nových bytech. Hlavními projektanty byli architekti Jaroslav Ryška a Pavel Krchňák. V 70. letech se stavělo v polích kolem staré zástavby. Pohroma přišla v osmdesátých letech, kdy byl zbourán historický střed obce a ze starých Bohunic zbylo pár ulic nízkých domků. Byl to smutný pohled, domy opuštěné, bourané, silnice rozbité od těžkých nákladů, v létě prach a zimě bláto. Uprostřed staré vsi začala růst jedenáctipatrová monstra. Stavba sídliště trvala víc jak deset let a v některých směrech není dokončena dodnes.</p>  ",
+          foto: "  300bohunice12.jpg   ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Socha Vítěz je u hřiště Tatranu (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Při dokončování se v sídlišti začaly objevovat sochy. Investor měl povinnost věnovat jisté procento z ceny stavby na umění současných výtvarníků. Zdá se mi, že nejvíce se povedla bronzová <strong>socha Vítěz</strong> od Františka Navrátila (1932-2012) , sochaře z Borkovan. Vztyčili ji v září 1988 u staré haly Tatranu na vysoký sokl. Postava běžce v nadživotní velikosti vbíhajícího do cíle s roztaženýma rukama mi připomíná sochy Štursovy. Vyrobit sochu bylo složité i technicky. Prochází jí nerezová trubka až do výše prsou běžce, aby se noha, na které stojí, neulomila. Rozpažené ruce jsou uvnitř sochy spojené ocelovým lanem.</p>  ",
+          foto: " 300bohunice13.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Detail sochy Vítěz z roku 1988 (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Na začátku ulice Švermova u obchodního centra Kavkaz stojí od roku 1986 <strong>socha Táta letadélko</strong> od uměleckého kováře Antonína Nového z Říčan. Je vykovaná z aluminiové slitiny a představuje hru otce s dítětem. Zvláštní socha.</p>  ",
+          foto: " 300bohunice14.jpg   ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Socha Táta letadélko (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Za dalšími moderními sochami musíme k úřadu městské části a dnešnímu středu obce v ulici Běloruské. Nejvýraznější je <strong>Tulipán přátelství</strong>, obrovský kovový květ tvořený sedmi kovanými pruty zasazenými v kamenné desce. V osmdesátých letech ho vytvořil umělecký kovář Alfred Habermann (1930-2008). Tento umělec evropského jména žil do roku 1985 ve Studené, pak odešel do Německa a jeho vnuk stále provozuje jeho kovárnu v Klátovci u Studené.</p>  ",
+          foto: "  300bohunice15.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Habermannův Tulipán přátelství (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Vedle pod okny úřadu vysadili kolem roku 2005 symbolický vinohrad na počest vinohradnictví, provozovaného v Bohunicích od 13. do 19. století. Vinici zdobí dřevěná vstupní brána a </strong>boží muka s plastikou svatého Urbana</strong>, ochránce vinic. </p>  ",
+          foto: "  300bohunice16.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Vinice s boží mukou svatého Urbana. (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Kousek dál v trávníku stojí <strong>socha Venuše</strong> od Vladimíra Drápala (1921 – 2015) malíře a sochaře z Tvarožné. Původně stávala na schodech obchodního střediska Kavkaz na Švermově 9, po privatizaci objektu byla přestěhována a na 15 let „zmizela“. Po jejím objevu na dámských záchodcích ji noví majitelé velkoryse darovali obci a ta ji v roce 2009 nechala umístit na nové místo. Podobné sochy jsou i u Anthroposu a v Tvarožné. Na obecním úřadu v prvním patře lze najít <strong>čtyři reliéfy</strong> sochaře a keramika Zdeňka Lindovského z Kunštátu. Zdobily zasedací síň a po přestavbě jsou dva na chodbě a dva v kanceláři.</p>  ",
+          foto: " 300bohunice17.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Socha Venuše stojí před obecním úřadem. (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Pozvolna se dostáváme do porevolučních časů. Významnou realizací je <strong>památník účastníků protikomunistického odboje</strong>. Stojí za nákupním centrem Kalinka směrem do Moldavské ulice. Monumentální třídílný pylon je ze sliveneckého mramoru, na něm je nasazena trnová koruna a z ní jako z hnízda chce vzlétnout rodící se anděl svobody. Nápisy připomínají protikomunistický odboj, oběti komunistické zvůle a památku starých Bohunic, kdy bylo v době totality zbouráno 68 statků a domů. Pomník byl odhalen 16. listopadu 2009 a jeho tvůrci jsou Sabina a Jan Kratochvílovi. Není mnoho takových pomníků, kéž by nám dlouho vydržel.</p>  ",
+          foto: " 300bohunice18.jpg   ",
+          umisteniFoto: "  vpravo   ",
+          popisek:
+            " Památník účastníkům protikomunistického odboje  (září 2011)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Přesuňme svoji pozornost poněkud níže, k základní škole na Arménské 21. V atriu školy stojí pozoruhodná kameninová <strong>plastika Rozlet</strong> (1983) od Tamary Divíškové. Představuje let bílých ptáků po kouli. Sochařka a keramička Tamara Divíšková (nar. 1934) žije v Černých Polích a po Brně má několik realizací. Na zdi atria instalovali v roce 2013 <strong>dvě keramické desky</strong> od Zdeňka Lindovského, je na nich vypodobněn Cyril s Metodějem a Jan Amos Komenský. Atrium je přístupné omezeně. Na fasádě školy zvenku jsou od její stavby v roce 1984 umístěny <strong>dvě keramické stěny</strong>. Autory jsou Karla a Oldřich Vašicovi.</p>  ",
+          foto: "  300bohunice21.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Plastika Rozlet Tamary Divíškové (září 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Za dalšími sochami půjdeme nahoru nad Bohunice. Podél Jihlavské ulice se rozkládá Fakultní nemocnice Brno. Nevznikla naráz, ale natřikrát. Nejvýchodnější část byla dokončena 1936 jako Sociální ústavy, významná funkcionalistická stavba od městského architekta Oskara Pořízky (1897 – 1982). V červnu 1936 navštívil chorobinec prezident Beneš, moje maminka jako desetiletá se uvítání účastnila a často na tu slávu s prezidentem vzpomínala. Trávník před budovou dnes zdobí <strong>sousoší kamenných květů</strong> od Borka Bayera. Střední část areálu představuje budova psychiatrické kliniky dokončená 1965. To už se plánovala výstavba západní části, která se stavěla dvacet let. Podle projektu architekta Miroslava Spurného byla postavena ústřední osmnáctipatrová budova v moderním corbusierovském duchu, má asi 2000 lůžek, otevřena 1989. Areál se postupně doplňuje dodnes.</p>  ",
+          foto: "  300bohunice22.jpg  ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Dva reliéfy Stanislava Lindovského (září 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Před porodnickou klinikou stojí velká <strong>socha sedící matky s dítětem na klíně</strong> od brněnské sochařky Sylvy Lacinové. Za psychiatrickou klinikou u jezírka lze objevit zašlou <strong>sochu ležící matky s dítětem</strong> od Vincence Makovského. Byla sem instalována v roce 1979. Před budovou postavili v minulých letech dlouhou zprohýbanou <strong>mozaikovou lavici</strong>, velmi připomínající tvorbu Gaudího. <strong>Moderní socha dívky</strong> stojí vedle smírčích kamenů u pavilonu H. Jejím autorem je Jiří Marek (nar. 1972), vnuk slavného sochaře.</p>  ",
+          foto: "  300bohunice23.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Socha matky s dítětem od Sylvy Lacinové (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Vedle nemocnice leží moderní areál Univerzitního kampusu. Stavěl se v letech 2000 – 2010 ve čtyřech etapách, doplňování o studentské bydlení, tramvajovou trať a další stavby bude ještě trvat. Kampus i většinu okolních budov projektovala v technicistním stylu architektonická kancelář A PLUS. Pokud jste v těchto místech dlouho nebyli, budete překvapeni, tato architektura jako by ani nepatřila do nynějšího století. Čas ji zhodnotí. </p>  ",
+          foto: "  300bohunice24.jpg  ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Socha dívky od Jiřího Marka (červen 2009)  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Na moderní sochy je Kampus bohatý. Největší zásluhy o ně mají prof. Eduard Schmidt, rektor Masarykovy univerzity v letech 1992 – 98, a prof. Jiří Vorlíček, děkan Lékařské fakulty v letech 1997 – 2003, oba milovníci a sběratelé moderního umění. Nebáli se oslovit současné sochaře a jít do experimentu. Daleko podrobněji než toto vyprávění se níže popisovanými sochami zabývá kniha Horáček, Radek ed.: Sochařské Brno 1989 - 2019.<br>Hned u hlavního vstupu trčí nepřehlédnutelná <strong>plastika Krištofa Kintery : Red is Coming</strong> (Červená teče). Je jen zapůjčená, ale do tohoto interiéru docela zapadá. Jako by sochař červené budově pustil žilou. </p>  ",
+          foto: "  300bohunice30.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Krištof Kintera: Red is Coming(foto leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Autorem bronzové naleštěné <strong>busty presidenta T. G. Masaryka</strong> na čestném místě před aulou ve vstupním pavilonu je Vincenc Makovský. Tímto se universita hlásí k odkazu svého zakladatele, který v roce 1919 podepsal zákon o jejím zřízení. Busta byla odhalena roku 2010 při ukončení stavby a slavnostním otevření Kampusu. Máme tedy v Bohunicích dvě busty prvního prezidenta a musím konstatovat, že ta na Běloruské ulici na mě působí důstojněji. Přinejmenším proto, že je na ní prezident oblečený. </p>  ",
+          foto: "  300bohunice31.jpg  ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Busta T.G.M. od Vincence Makovského (prosinec 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Ke dvacátému výročí trvání partnerství měst Stuttgartu a Brna dostalo město dar, možná trochu danajský. Hranatou litinovou <strong>reliéfní plastiku</strong> s názvem P 495 Reliefplastik. Vytvořil ji stuttgartský sochař českého původu Otto Herbert Hajek (1927-2005), propagátor česko-německé vzájemnosti. Stála dlouho na nádvoří Nové radnice a pak ji umístili za červený pavilon, kde bude dál rezavět.</p> ",
+          foto: " 300bohunice32.jpg   ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Litinová plastika Otto Hajka (srpen 2019)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> V atriu mezi pavilony A18 a A19 se opírá rukama o zem bronzová <strong>postava Tanečníka</strong> od Michala Gabriela. Při odhalení v roce 2013 byly hadicové postavy tři, nyní zůstala jediná, kterou univerzita zakoupila. To není jediný případ, kdy sochy mizí, mění stanoviště, důležité je, že jich časem přibývá.</p>  ",
+          foto: "  300bohunice33.jpg  ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Tři bronzové postavy Michala Gabriela (leden 2014) ",
+        },
+        {
+          textOdstavce:
+            "   <p> V atriu mezi pavilony A18 a A16 stojí poněkud kose kovové <strong>Nakloněné kruhy</strong> od Viktora Kamila Nováka (1942-2014), vytvořené 2009. Byly určeny původně pro brněnský automobilový okruh, nyní je má univerzita zapůjčené od potomků sochaře.</p>  ",
+          foto: " 300bohunice34.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Nakloněné kruhy od V.K.Nováka (leden 2014) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Z druhé strany pavilonu A16 instaloval v roce 2010 Lukáš Rittstein veselé barevné <strong>plastiky Osvícení a Silná barva</strong>. Laminátová díla patří do cyklu Les, který sochař vytvořil po návratu z ostrovů Papua Nová Guinea. Od studentů dostaly přezdívky Šplouch a Žbluňk.</p>  ",
+          foto: "  300bohunice35.jpg  ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Lukáš Rittstein: Osvícení a Silná barva (leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> U pavilonu A6 stojí poněkud upozaděna <strong>busta Edvarda Babáka</strong> (1873-1926), zakladatele Lékařské fakulty Masarykovy univerzity. Je to už její čtvrté stanoviště, podle toho, jak se medicína stěhovala. Stála na křižovatce Úvoz (tam, kde je Kaplan), pak na Komenského náměstí (tam je teď T.G.M.), dokonce dvakrát ji postavili na Údolní před dnešní Fakultu sociálních studií. Protože tam to vypadalo, jako že socha stojí na zastávce mezi cestujícími a čeká na šalinu, přemístili ji do Kampusu. Bustu vytvořil sochař Vincenc Makovský v roce 1937.</p>  ",
+          foto: "  300bohunice36.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek:
+            " Bustu Edvarda Babáka vytvořil Vincenc Makovský (prosinec 2017) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Nad schodištěm u zadního vchodu C visí na zdi <strong>plastika Hnízdo</strong> z ocelového plechu od Dalibora Chatrného (1925-2012). V roce 2009 bylo Hnízdo instalováno do prostoru nad schodištěm u Univerzitní knihovny ve správné poloze, tedy vodorovně. Nyní visí na zdi svisle. To by se sochaři asi nelíbilo, ale bránit se nemůže. Vedle visí  barevný abstraktní <strong>obraz Stvoření</strong>, od Věry Kotlárové. Rozměrný obraz o ploše 10 metrů čtverečních vznikl v roce 2010.</p>  ",
+          foto: "  300bohunice37.jpg  ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Stvoření (únor 2018)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Hubená socha pod ním je významné dílo Zdeňka Palcra (1927 – 1996). Do bronzu byla roku 2004 odlita sádrová <strong>plastika Bez názvu</strong>, pocházející z roku 1964. Tehdy sochař redukoval lidská těla na štíhlé stély bez rozptylujících podrobností. Sbírku umění zde rozšiřuje v patře umístěný rozsáhlý <strong>reliéf Počátek věcí (Počátek kruhu)</strong> Stanislava Kolíbala. Reliéf vznikl v roce 1963 jako dělící stěna pro velvyslanectví v Brazílii. Vedle něj stojí malý <strong>zrcadlový objekt Dalibora Chatrného</strong> z roku 1999, nastolující téma iluze a skutečnosti.</p>  ",
+          foto: "  300bohunice38.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Zdeněk Palcr: Bez názvu (leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Kovové sousoší čtveřice poněkud rozevlátých postav mezi pavilony A2 a A3 je <strong>Rovnováha</strong> od slovenského sochaře Josefa Janukoviče. Vysloužilo si přezdívku Opilí studenti. Čtveřice dynamicky se překlápějících plochých postav vznikla pro tento prostor.<br>Mezi pavilony A5 a A10 lze spatřit masivní bronzovou plastiku <strong>Rozkvět vzdělanosti</strong> od Vladimíra Preclíka (1929 - 2008). Pochází ze 60. let a jejího odhalení 2009 tady se už sochař nedožil.</p>  ",
+          foto: "  300bohunice39.jpg  ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Sousoší Rovnováha od Josefa Janukoviče (leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Nejvíce se mi líbí zvláštní útvar <strong>Doteky a distance</strong> od Aleše Veselého, odhalený 2010 mezi pavilony A10 a A12 . Kámen navlečený na trubce se odráží v zakřiveném zrcadle, není poznat co je vpředu a co vzadu. Kámen představuje zemi a zrcadlo nekonečno. Pozoruhodné dílo, i když myšlenka asi není nová.</p>  ",
+          foto: "  300bohunice40.jpg  ",
+          umisteniFoto: " vlevo   ",
+          popisek: " Doteky a distance od Aleše Veselého (leden 2014) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Před fakultou sportovních studií na umělém návrší vytvořil umělecký kovář Pavel Tasovský v roce 2011 kovanou rozměrnou plastiku zvanou <strong>Stébla</strong>. Při větru se kovová stébla kývají, ale musí opravdu hodně foukat.<br><strong>Pamětní deska Kohnova budova</strong> na chodbě kampusu říká, že Kohnova rodina podpořila vkladem pozemků stavbu Kampusu. Dvě průběžné chodby procházejí celým Kampusem, jsou veřejně přístupné a z výše prvního patra si lze uvedené sochy dobře prohlédnout. K sochám je přístup i zvenku z ulice, byť to na první pohled nevypadá.</p>  ",
+          foto: " 300bohunice41.jpg   ",
+          umisteniFoto: "  vpravo   ",
+          popisek: " Kovaná plastika Stébla. (leden 2014)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Dříve než budovy kampusu byl už v roce 2001 postaven Anatomický ústav Lékařské fakulty, který dnes na kampus plynule navazuje. I v něm je několik pozoruhodných výtvarných děl. Ve vstupní části je vysoký <strong>reliéf Pieta</strong> od Jaromíra Garguláka, odhalený roku 2007. Vyjadřuje poděkování dárcům lidských těl pro lékařské výzkumy. Hned vedle je <strong>busta Jana Evangelisty Purkyně</strong>, jehož jméno univerzita dlouho nesla. Busta je dílo sochaře Rudolfa Svobody. V atriu Anatomického ústavu pak jsou umístěny nadživotní sochy  dvou žen, osudových pro jejich tvůrce, sochaře Olbrama Zoubka. Nazval je <strong>O Evě a O Marii</strong>.</p>  ",
+          foto: "   300bohunice43.jpg  ",
+          umisteniFoto: "   vlevo  ",
+          popisek: " Jaromír Gargulák : Pieta (únor 2018) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Dalo by se pokračovat sochami ve Starém Lískovci, který na bohunické sídliště organicky navazuje, samostatnou kapitolu by vydala architektura v Bohunicích, kterou jsem zmínil jen okrajově. Pomíjím i umělecká díla uvnitř budov nemocnice. Témat, které přihrálo moje stěhování do sídliště je více. Žiji si v novém bydlišti v teploučku spokojeně. Z výšky dvaceti metrů hledím na svět pod sebou a užívám výhledu jak na rozhledně. Na jihu vidím z okna Pálavu a Ždánický les, na severu Babí lom a Bukovec, na východě Hády, Kalečník a Mohylu míru a když je opravdu dobře vidět, zahlédnu i věž na Velké Javořině vzdálenou 90 km. Přeji vám, abyste v příštím roce i vy hleděli na svět a jeho události s nadhledem.</p>  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Pokud byste chtěli vidět více obrázků k těmto křížům, najdete je <span><a href='https://turistapavel.rajce.idnes.cz/201712_Sochy_v_Bohunicich/' target='_blank' class='vnitrniOdkaz'>zde</a></span>.</p>  ",
+        },
+
+        {
+          textOdstavce:
+            "   <p> V Bohunicích o druhé adventní neděli 2017<br>Upraveno a doplněno v lednu 2022</p>  ",
+        },
+      ],
+
+      fotkaUvod: { fotka: " 300bohunice30.jpg " },
+      galerie: [
+        {
+          fotka: " 300bohunice19.jpg ",
+          popisek:
+            " Památník účastníkům protikomunistického odboje - detail anděla  (září 2011) ",
+        },
+        {
+          fotka: " 300bohunice42.jpg ",
+          popisek: " Bysta J.E.Purkyně od Rudolfa Svobody (únor 2018) ",
+        },
+        {
+          fotka: " 300bohunice45.jpg ",
+          popisek: " Dvě sochy Borka Bajera (únor 2018) ",
+        },
+        {
+          fotka: " 300bohunice46.jpg ",
+          popisek: "Vladimír Preclík : Rozkvět vzdělanosti (leden 2014) ",
+        },
+        {
+          fotka: " 300bohunice47.jpg ",
+          popisek:
+            " Vincenc Makovský : Ležící matka s dítětem (prosinec 2017) ",
+        },
+        {
+          fotka: " 300bohunice48.jpg ",
+          popisek: " Lukáš Rittstein : Silná barva (prosinec 2017) ",
+        },
+        {
+          fotka: " 300bohunice49.jpg ",
+          popisek: "Lukáš Rittstein : Osvícení (prosinec 2017)",
+        },
+        {
+          fotka: " 300bohunice50.jpg ",
+          popisek: "Zrcadlový objekt Dalibora Chatrného (únor 2018) ",
+        },
+      ],
+      spodniGalerie: [
+        {
+          fotka: " 300bohunice19.jpg ",
+          popisek:
+            " Památník účastníkům protikomunistického odboje - detail anděla  (září 2011) ",
+        },
+        {
+          fotka: " 300bohunice42.jpg ",
+          popisek: " Bysta J.E.Purkyně od Rudolfa Svobody (únor 2018) ",
+        },
+        {
+          fotka: " 300bohunice45.jpg ",
+          popisek: " Dvě sochy Borka Bajera (únor 2018) ",
+        },
+        {
+          fotka: " 300bohunice46.jpg ",
+          popisek: "Vladimír Preclík : Rozkvět vzdělanosti (leden 2014) ",
+        },
+        {
+          fotka: " 300bohunice47.jpg ",
+          popisek:
+            " Vincenc Makovský : Ležící matka s dítětem (prosinec 2017) ",
+        },
+        {
+          fotka: " 300bohunice48.jpg ",
+          popisek: " Lukáš Rittstein : Silná barva (prosinec 2017) ",
+        },
+        {
+          fotka: " 300bohunice49.jpg ",
+          popisek: "Lukáš Rittstein : Osvícení (prosinec 2017)",
+        },
+        {
+          fotka: " 300bohunice50.jpg ",
+          popisek: "Zrcadlový objekt Dalibora Chatrného (únor 2018) ",
+        },
+      ],
+    },
   ],
 };
