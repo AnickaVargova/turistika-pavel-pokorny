@@ -16242,5 +16242,280 @@ export default {
         },
       ],
     },
+    {
+      id: 302,
+      kategorie: "pomnicky",
+      pridano: " 25/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Blansko ",
+      obec: "  Újezd u Černé Hory  ",
+      jmeno: " Camp Roháči  ",
+      nazev: " Camp a slavín T. O. Roháči  ",
+      fotkaUvod: { fotka: " 302rohaci1.jpg " },
+      kdyVznikl: " Trampský slavín po roce 1997. ",
+      popisCesty: " V údolí potoka Lubě na SSV od Skaličky.  ",
+      popis:
+        "  Slavín : plochý kámen s kovovými cedulkami zemřelých členů osady a jednou kamennou deskou. Šest jmen - přezdívek (v roce 2019). Nad kamenem dva křížky. Na osadním místě ohniště, přístřešek, posezení.  ",
+      pozn:
+        "  Trampská osada Roháči vznikla v roce 1968 a k 50. výročí uspořádali na tomto fleku mohutný potlach. Mapa a poloha campu tu nejsou uvedeny úmyslně.  ",
+      naposledObnoveno: " 25.01.2022 ",
+      galerie: [
+        { fotka: "  302rohaci1.jpg", popisek: "Slavín (září 2019 ) " },
+        { fotka: "  302rohaci2.jpg", popisek: " (září 2019 ) " },
+        {
+          fotka: "  302rohaci3.jpg",
+          popisek: "Camp T.O. Roháči (září 2019 ) ",
+        },
+      ],
+      proMe: " XX/1026  24-322-78  19—094  ",
+    },
+    {
+      id: 303,
+      kategorie: "pomnicky",
+      pridano: " 25/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Zňátky  ",
+      jmeno: " Camp Adler  ",
+      nazev: " Ádlerské flek  ",
+      fotkaUvod: { fotka: "303adler1.jpg " },
+
+      popisCesty: " V údolí Oslavky na pravém břehu pod Náměští nad Oslavou.  ",
+      popis:
+        " Ohniště, přístřešek, trampský nábytek, vlajkový stožár a hlavně krásně vyřezaný totem v hnědé barvě.   ",
+      napis: " Na totemu :  T. O. ADLER   T. O. SMRK  ",
+      odkazy: [
+        {
+          nazev: " Kapsa ",
+          adresa:
+            " https://www.trampsky-magazin.cz/priloha-329/novy-totem-na-fleku-to-adler-1727.html ",
+        },
+      ],
+      pozn:
+        " Trampská osada Adler vznikla v roce 1987, osada U smrku v roce 1989. Mapa a popis místa tu chybějí úmyslně.  ",
+      naposledObnoveno: " 25.01.2022 ",
+      galerie: [
+        { fotka: " 303adler1.jpg", popisek: " Camp Adler (srpen 2018) " },
+        {
+          fotka: " 303adler2.jpg",
+          popisek: "Totem T. O. Adler a  U Smrku (srpen 2018) ",
+        },
+      ],
+      proMe: "  XX/994  24-331-27  18—082  ",
+    },
+    {
+      id: 304,
+      kategorie: "pomnicky",
+      pridano: " 26/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Křížek - Rákos  ",
+      nazev: " Rákosův křížek a slavín osady Mňouci.  ",
+      fotkaUvod: { fotka: "  304rakos1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Místo leží 3 kilometry V od Sedlce v údolí Oslavky, na konci poloostrova se Sedleckým hradem, na skalce pod cestou.  ",
+      popis:
+        "  Železný kovaný křížek je vysoký 0,7 metru a byl zabetonován do nízké skalky. Pod ním na skále jsou dvě tabulky (stav 2018) začínajícího slavínu osady Mňouci.   ",
+      napis: " RÁKOS // ROMAN  LEMON //   *  22. 8. 1962 // + 29. 3. 1984  ",
+      pozn: "    ",
+      naposledObnoveno: " 26.01.2022 ",
+      souradnice: " 49.1651108N, 16.1714539E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kohezejula" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/kohezejula  ",
+      galerie: [
+        {
+          fotka: " 304rakos2.jpg",
+          popisek: " Slavín osady Mňouci ( duben 2018 ) ",
+        },
+        { fotka: " 304rakos3.jpg", popisek: " Rákosův křížek ( duben 2018 ) " },
+        { fotka: " 304rakos4.jpg", popisek: " Detail tabulky ( duben 2018 ) " },
+      ],
+      proMe: "  XX/969  24-332-64  18—042  ",
+    },
+    {
+      id: 305,
+      kategorie: "pomnicky",
+      pridano: " 26/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Brno - venkov ",
+      obec: " Katov   ",
+      jmeno: "  Slavín - Halda  ",
+      nazev: " Slavín trampské osady Llano Estacado na Haldě ",
+      fotkaUvod: { fotka: "  305slavinHalda1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        "  1300 metrů SSZ od Katova, v údolí Haldy, na Z straně kopce Brdo, na skalním útesu. ",
+      popis:
+        "  Na skalní římse stojí soška “Níhovské madony” od bítešského sochaře Lubomíra Laciny.  Vedle je přišroubováno na skálu pět nerezových tabulek (stav 2018) se jmény a přezdívkami zemřelých členů osady Llano Estacado.  ",
+      napis: "   ",
+      pozn: "    ",
+      naposledObnoveno: " 26.01.2022 ",
+      souradnice: "  49.3431419N, 16.2709425E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/palumojuva" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/palumojuva   ",
+      galerie: [
+        { fotka: " 305slavinHalda1.jpg", popisek: " (duben 2018 ) " },
+        { fotka: " 305slavinHalda2.jpg", popisek: " (duben 2018 ) " },
+        { fotka: " 305slavinHalda3.jpg", popisek: " (duben 2018 ) " },
+      ],
+      proMe: "  XX/967  24-312-75  18—041  ",
+    },
+    {
+      id: 306,
+      kategorie: "pomnicky",
+      pridano: " 26/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Březník  ",
+      jmeno: " Bouda - Vechtrovna  ",
+      nazev: " Trampský srub Vechtrovna Kečupa Toma  ",
+      fotkaUvod: { fotka: " 306vechtrovna1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Leží na levém břehu Oslavky vysoko nad řekou, na Z od Březníku. Okolí srubu je skalnaté a prakticky neschůdné.  ",
+      popis:
+        " Na skalních plošinkách je ohniště a malý srub vyzdobený samorosty, dobytčími lebkami, cedulemi.  ",
+      napis:
+        " Ve štítu srubu z březových větví :  VECHTROVNA //  U  // KEČUPA  TOMA  ",
+      pozn: "  Mapa a poloha srubu nejsou uvedeny úmyslně.  ",
+      naposledObnoveno: " 26.01.2022 ",
+      galerie: [
+        { fotka: "  306vechtrovna2.jpg", popisek: " (prosinec 2016 ) " },
+        {
+          fotka: "  306vechtrovna3.jpg",
+          popisek: " Vechtrovna u Kečupa Toma (prosinec 2016 ) ",
+        },
+        { fotka: "  306vechtrovna4.jpg", popisek: " (prosinec 2016 ) " },
+      ],
+      proMe: "  XX/916  24-332-63  16—122  ",
+    },
+    {
+      id: 307,
+      kategorie: "pomnicky",
+      pridano: " 26/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: " Sedlec   ",
+      jmeno: " Pedy - deska  ",
+      nazev: " Pamětní deska kamaráda Pedyho  ",
+      fotkaUvod: { fotka: " 307deskaPedy2.jpg " },
+      kdyVznikl: " po roce 1986 ",
+      popisCesty:
+        " Deska je v údolí Divoké Oslavky, 2,1 km VSV od Sedlce. Asi 50 výškových metrů nad řekou, na skále s převisem. Shora sem vede neznatelná pěšina. Přístup shora i zdola těžký, z boku po vrstevnici nemožný. Těžko se hledá. ",
+      popis:
+        " Bílá deska vysoká 0,4 metru je zasazena do skalní stěny. Na desce fotka mladíka, trampská lilie a text.   ",
+      napis:
+        " KAMARÁD // PEDY // 1. 6. 1959 // TRAGICKY  ZAHYNUL // 17. 8. 1986 // NA  VYHLÍDCE // T. O. PUSTINA // A  KAMARÁDI  ",
+      naposledObnoveno: " 26.01.2022 ",
+      souradnice: " 49.1733042N, 16.1614708E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/retonogugo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/retonogugo  ",
+      galerie: [
+        {
+          fotka: " 307deskaPedy1.jpg",
+          popisek: "Pamětní deska kamaráda Pedyho (duben 2016) ",
+        },
+        { fotka: " 307deskaPedy2.jpg", popisek: " Detail desky (duben 2016) " },
+        { fotka: " 307deskaPedy3.jpg", popisek: " Detail fotky(duben 2016) " },
+      ],
+      proMe: "  XIX/899  24-331-23  16—041  ",
+    },
+    {
+      id: 308,
+      kategorie: "pomnicky",
+      pridano: " 26/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Koněšín  ",
+      jmeno: " Slavín - Halířka  ",
+      nazev: " Trampský slavín na Halířce  ",
+      fotkaUvod: { fotka: " 308halirka1.jpg " },
+      kdyVznikl:
+        " Pietní místo na Halířce založili tři trampové z třebíčských osad v roce 1989. ",
+      popisCesty:
+        " Na hraně údolí řeky Jihlavky 1600 metrů ZJZ od kostela v Koněšíně na Halířově skále. Krásné tiché místo, najít ho je trochu složitější.  ",
+      popis:
+        "  Pietní místo třebíčských trampů je na větší ploše. Na hřbetu kopce je válcovitá mohyla o průměru dva metry, vyskládaná z přinesených kamenů, do ní je vetknut železný křížek. Celková výška mohyly je asi 2,5 metru. V přírodním amfiteátru je ohniště s lavicemi a dva barevné totemy. Pod mohylou na skalní stěně je připevněno asi 80 plechových cedulek. Na nich je nejméně 200 jmen a přezdívek zemřelých trampů z třebíčských osad. Dále po hřbetě na skále je lavička s výhledem k Z do údolí na jezero Dalešické přehrady. Do skály zasazen kovový křížek. ",
+      napis:
+        " nad cedulkami se jmény : HALÍŘKU // ZALOŽILI  KAMARÁDI // + PEPA  POŽÁR “ŠAŠEK” // ŠERIF  T. O. UKOPEPO // + JAN  VYBÍRAL  “JENČA” // T. O. KAVALÍŘI // DRAHOŠ  OBRŠLÍK “DRAHSON” // T.O. KAVALÍŘI // L. P. 1989   a níže: DĚKUJEME // KAMARÁDI  ",
+      odkazy: [
+        {
+          nazev: " Rozhlas ",
+          adresa:
+            " https://vysocina.rozhlas.cz/skala-halirka-nad-dalesickou-prehradou-je-plna-vzpominek-na-trampskou-historii-8267310 ",
+        },
+      ],
+      pozn:
+        "  Třebíčští trampové si tu dávají sraz v první jarní sobotu, kdy se tu koná pietní vzpomínka.<br>Halířka, přesněji Halířova skála, dostala jméno po chalupníkovi Jindřichu Halířovi, který se pod ní utopil v roce 1875. Šel tehdy pytlačit ryby do tůně pod skálou. Potopil se do tůně a sáhl rukou do dutiny pro rybu, ale už nemohl vytáhnout ruku ven z dutiny.<br>Dalešická přehrada se stavěla v letech 1971 - 1980 a tehdy bylo celé padesátikilometrové údolí od Vladislavi po Mohelno zaplaveno vzdutou vodou. ",
+      naposledObnoveno: " 26.01.2022 ",
+      souradnice: " 49.1859806N, 16.0163472E   ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/duhesojole" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/duhesojole  ",
+      galerie: [
+        {
+          fotka: " 308halirka1.jpg",
+          popisek: "Mohyla na Halířce (srpen 2015) ",
+        },
+        {
+          fotka: " 308halirka2.jpg",
+          popisek: " Pamětní deska zakladatelů (srpen 2015) ",
+        },
+        {
+          fotka: " 308halirka3.jpg",
+          popisek: " Část skály s cedulkami (srpen 2015) ",
+        },
+      ],
+      proMe: "  XIX/859  24-331-19  ces15—081  ",
+    },
+    {
+      id: 309,
+      kategorie: "pomnicky",
+      pridano: " 27/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Brno - venkov ",
+      obec: "  Újezd u Rosic  ",
+      jmeno: " Kamarád Bob  ",
+      nazev: " Pomníček kamaráda Boba  ",
+      fotkaUvod: { fotka: " 309kamaradBob2.jpg " },
+      kdyVznikl: " Po roce 1965, v posledních letech je poněkud pozapomenutý. ",
+      popisCesty:
+        "  Na soutoku Újezdského potoka s Chvojnicí, 1700 metrů JZ od kaple v Újezdu, na skalce vystupující ze svahu. ",
+      popis:
+        "  Pomníček vyzděný z kamenů je vysoký metr. V něm je vsazena do výklenku světlá tabulka s fotkou mladíka a textem. Tabulka i fotografie je patrně druhá(?) v pořadí. Text obtížně čitelný (stav 2020)  ",
+      napis:
+        " Motto : // Při vzpomínce // do očí se slza vkrádá… // 8. 6. 1946 // + 10. 6. 1965 // zahynul tragickou smrtí // kamarád //  BOB  // Čest jeho památce // T. O. // TETŘEV  ",
+
+      naposledObnoveno: " 27.01.2022 ",
+      souradnice: "  49.2116728N, 16.2361836E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bojubolobu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/bojubolobu  ",
+      galerie: [
+        {
+          fotka: " 309kamaradBob1.jpg",
+          popisek: "Pomníček kamaráda Boba (říjen 2021 ) ",
+        },
+        { fotka: " 309kamaradBob2.jpg", popisek: " (říjen 2021 ) " },
+        {
+          fotka: " 309kamaradBob3.jpg",
+          popisek: "Detail tabulky (únor 2014 ) ",
+        },
+      ],
+      proMe: " XIX/802  24-314-53  21—101  14—021  ",
+    },
   ],
 };
