@@ -6355,10 +6355,11 @@ export default {
     },
     {
       id: 140,
+      dveId: true,
       kategorie: "pomnicky",
       pridano: " 30/01/2021 ",
       podkategorie: 7,
-      druh: " Lesnické a dřevařské  ",
+      druh: " Lesnické a dřevařské, Válečné  ",
       okres: " Brno - venkov ",
       obec: " Lipůvka   ",
       jmeno: " Šotola, Josef  ",
@@ -6390,8 +6391,57 @@ export default {
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/fakovodahu" width="400" height="280" frameborder="0"></iframe>  ',
       odkazMapa: "https://frame.mapy.cz/s/fakovodahu",
       galerie: [
-        { fotka: "sotola1.jpg", popisek: " (únor 2017) " },
-        { fotka: "sotola2.jpg", popisek: " (únor 2017) " },
+        {
+          fotka: "sotola1.jpg",
+          popisek: " Památka na Josefa Šotolu (únor 2017) ",
+        },
+        { fotka: "sotola2.jpg", popisek: " Detail desky (únor 2017) " },
+      ],
+      proMe: "  VI/181  24-322-80  17---02.  ",
+    },
+    {
+      id: 330,
+      dveId: true,
+      kategorie: "pomnicky",
+      pridano: " 02/02/2022 ",
+      podkategorie: 5,
+      druh: " Válečné, Lesnické a dřevařské  ",
+      okres: " Brno - venkov ",
+      obec: " Lipůvka   ",
+      jmeno: " Šotola, Josef  ",
+      fotkaUvod: { fotka: " sotola1.jpg " },
+
+      nazev: " Památka na Josefa Šotolu ",
+      kdyVznikl: "  ",
+      popisCesty:
+        " SV od Lipůvky na Dubovém kopci. U lesní silničky na kraji lesa. Vede tu červená značka.  ",
+      popis:
+        "  Načervenalý slepencový balvan postavený na výšku je vysoký 1,5 metru. Do svislé plochy na přední straně kamene je vsazena černá leštěná deska s\xa0delším textem.  ",
+      napis:
+        " V  TĚCHTO  LESÍCH  PŮSOBIL // MĚSTSKÝ  LESNÍ  HAJNÝ // JOSEF  ŠOTOLA //  *  10. 2. 1918 // KTERÝ  OBĚTOVAL  ŽIVOT  //  ZA  SVOU  VLAST,  //   BYL  UMUČEN  9. 4. 1945  //  V  MAUTHAUSENU   ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=1430 ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Josef Šotola byl mladý lesník, který se v\xa0červnu 1943 přistěhoval do Lažan a pracoval  jako hajný v\xa0Lipůvce. Na konci války pomáhal partyzánům a v\xa0souvislosti s\xa0útokem Němců na partyzánský oddíl 3. úderné roty ve Skaličce byl 6. 3. 1945 zatčen gestapem a uvězněn v\xa0Kounicových kolejích. Spolu s\xa0dalšími asi 200 pomocníky partyzánů byl 8. 4. 1945 transportován do koncentračního tábora Mauthausen. Němci celý transport  popravili v\xa0plynové komoře.   ",
+      naposledObnoveno: " 30.1.2021 ",
+      souradnice: " 49.3487839N, 16.5728908E ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fakovodahu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "https://frame.mapy.cz/s/fakovodahu",
+      galerie: [
+        {
+          fotka: "sotola1.jpg",
+          popisek: " Památka na Josefa Šotolu (únor 2017) ",
+        },
+        { fotka: "sotola2.jpg", popisek: " Detail desky (únor 2017) " },
       ],
       proMe: "  VI/181  24-322-80  17---02.  ",
     },
@@ -15556,6 +15606,7 @@ export default {
       pridano: " 27/12/2021 ",
       podkategorie: 12,
       druh: " Jeskyňářské a horolezecké, Lesnický Slavín ",
+      dveId: true,
       okres: " Blansko ",
       obec: "  Habrůvka  ",
       jmeno: " Wankel, Jindřich - deska  ",
@@ -15720,7 +15771,7 @@ export default {
       pridano: " 02/01/2022 ",
       podkategorie: 12,
       druh: " Jeskyňářské a horolezecké, zaniklé ",
-
+      dveId: true,
       okres: " Blansko ",
       obec: "  Habrůvka  ",
       jmeno: " Kudláček, Josef  ",
@@ -15896,46 +15947,46 @@ export default {
         {
           textOdstavce:
             "   <p> Přátelé,<br>letos se budu věnovat městské vlastivědě. Chci souvisle pojednat o bohunických pomnících, sochách a pamětních deskách. Mnohé se píše podrobněji v knize Antonína Crhy: Z historie Bohunic (2014), ze které jsem vycházel. Loňské stěhování do bohunického sídliště muselo zanechat stopu i na mém vlastivědném působení. Proto letošní vyprávění bude osobnější než v letech předchozích. Denně zažívám neskutečné déjà-vu, vidím, jak to tu vypadalo, kdo tu bydlel, co zmizelo a co přibylo. Žil jsem ve starých Bohunicích prvních 25 let života, prostřednictvím rodičů a prarodičů – starousedlíků sahají vzpomínky na začátek dvacátého století. V letech 1953 – 1963 jsem tu prožil kouzelné dětství venkovského kluka, vzdálen jen čtvrthodinku od středu Brna. Vrátil jsem se po pětačtyřiceti letech a viděl, jak se skoro vše změnilo. Ze starých Bohunic zbylo torzo, pár ulic obklopených ze tří stran panelovou výstavbou. V nich je část domů prázdná, starousedlíci se dílem odstěhovali, dílem pomřeli a potomci domy prodali. Zmizel přirozený střed obce tam, kde dnes stojí kaplička, zastavěny jsou plochy polí a zahrad okolo, vykáceny pověstné aleje třešní kolem silnic. Ze stovek stromů zbyla dodnes jediná opelichaná třešeň u staré Jihlavky. Přibylo ale mnoho soch a o těch budu dále psát</p>",
-          foto: " 300bohunice1.jpg   ",
+          foto: " 300bohunice60.jpg   ",
           umisteniFoto: "   vpravo  ",
-          popisek:
-            " Dva smírčí kameny v bohunické nemocnici (foto květen 2017)  ",
+          popisek: " Sídliště Bohunice od jihozápadu (foto prosinec 2016)  ",
         },
 
         {
           textOdstavce:
             "   <p> Nejstarším bohunickým památníkem jsou <strong>dva smírčí kameny</strong>. Dnes je lze najít v areálu nemocnice v trávníku před budovou H. Stěhovány byly vícekrát. Až do konce 19. století byly rozmístěny kolem hlavní cesty z Brna na Prahu, která od středověku šla ze Starého Brna ulicí Vinohrady, překonala sedélko a po pláni nad Bohunicemi mířila k Bosonohám. Já pamatuji v šedesátých letech tři kameny shromážděné na rozcestí cest za nemocnicí, třetí kámen, zřejmě nejmenší, skoro nebyl vidět. Mezi námi dětmi se tradovala pověst, že až se kameny propadnou do země, nastane konec světa. V sedmdesátých letech, když se rozšiřovala silnice, dnes ulice Kamenice, byly dva kameny přestěhovány do areálu nemocnice ke garážím sanitek a od roku 2010 jsou na nynějším místě. Třetí kámen se při přesunech zřejmě ztratil. V evidenci smírčích křížů mají čísla 1280 (menší) a 1281 (větší). O stáří kamenů lze jen spekulovat, názory odborníků sahají od 14. po 17. století. Každopádně kameny označovaly místo tragédie. Podle středověkého práva viník tesáním kamene přiznával a smazával svoji vinu. </p>  ",
+          foto: " 300bohunice1.jpg   ",
+          umisteniFoto: "   vpravo  ",
+          popisek:
+            " Dva smírčí kameny v bohunické nemocnici (foto květen 2017)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Nedaleko kamenů stojí <strong>kopie historické boží muky</strong>. Původní boží muka označovala rozcestí na pláni mezi Bohunicemi a Pisárkami, kde se cesta větvila na zkratku přímo přes kopec po dnešní ulici Vinohrady nebo delší povlovnější trasu kolem dnešního krematoria. Pamatuji boží muku z 50. let jako zašlou otlučenou stavbu uprostřed obrovského lánu. Prý u ní byli pochováni vojáci po třicetileté válce. Pilířová stavba s výklenky pocházela z 18. století. Vznikla určitě před rokem 1748, kdy se za panování Marie Terezie stavěla císařská silnice z Brna na Jihlavu. Ta vedla o tři sta metrů jižněji – dnes ulice Jihlavská. Stavba byla údajně rozebrána a přenesena na nové místo, kde neoznačuje nic.</p>  ",
           foto: " 300bohunice2.jpg  ",
           umisteniFoto: "  vlevo  ",
           popisek: " Kopie boží muky v bohunické nemocnici (červen 2010)  ",
         },
         {
           textOdstavce:
-            "   <p> Nedaleko kamenů stojí <strong>kopie historické boží muky</strong>. Původní boží muka označovala rozcestí na pláni mezi Bohunicemi a Pisárkami, kde se cesta větvila na zkratku přímo přes kopec po dnešní ulici Vinohrady nebo delší povlovnější trasu kolem dnešního krematoria. Pamatuji boží muku z 50. let jako zašlou otlučenou stavbu uprostřed obrovského lánu. Prý u ní byli pochováni vojáci po třicetileté válce. Pilířová stavba s výklenky pocházela z 18. století. Vznikla určitě před rokem 1748, kdy se za panování Marie Terezie stavěla císařská silnice z Brna na Jihlavu. Ta vedla o tři sta metrů jižněji – dnes ulice Jihlavská. Stavba byla údajně rozebrána a přenesena na nové místo, kde neoznačuje nic.</p>  ",
+            "   <p> Řazeno podle stáří, je další na řadě barokní <strong>socha svatého Jana Nepomuckého</strong> z roku 1722, dnes umístěná v ulici Lány naproti zahradnické škole. Jedná se o kvalitní barokní práci, světec v jedné ruce drží kříž jako symbol umučení, ve druhé sundaný kvadrátek. Nestojí na původním místě. To leželo na významné křižovatce starých cest nad dnešní ulicí Jílovou, kde se rozdělovala středověká trasa na Jihlavu a na Znojmo. Socha je zachycena na staré vedutě Františka Richtera z roku 1827. V půli 20. století při rozšiřování Kohnovy cihelny byla socha přemístěna na Lány, kde stojí od roku 1952 dodnes. Tou dobou tu bylo rozcestí.</p> ",
           foto: "  300bohunice5.jpg   ",
           umisteniFoto: "  vpravo   ",
           popisek: " Socha svatého Jana Nepomuckého (září 2011)  ",
         },
         {
           textOdstavce:
-            "   <p> Řazeno podle stáří, je další na řadě barokní <strong>socha svatého Jana Nepomuckého</strong> z roku 1722, dnes umístěná v ulici Lány naproti zahradnické škole. Jedná se o kvalitní barokní práci, světec v jedné ruce drží kříž jako symbol umučení, ve druhé sundaný kvadrátek. Nestojí na původním místě. To leželo na významné křižovatce starých cest nad dnešní ulicí Jílovou, kde se rozdělovala středověká trasa na Jihlavu a na Znojmo. Socha je zachycena na staré vedutě Františka Richtera z roku 1827. V půli 20. století při rozšiřování Kohnovy cihelny byla socha přemístěna na Lány, kde stojí od roku 1952 dodnes. Tou dobou tu bylo rozcestí.</p> ",
+            "   <p> <i>Jan z Pomuku (asi 1340 – 1393) kněz a církevní právník v Praze. Zapletl se do sporů krále Václava IV s arcibiskupem Janem z Jenštejna. Byl královými lidmi zajat, mučen a mrtvola tajně vržena z Karlova mostu do Vltavy. Proto bývají jeho sochy umisťovány na mosty. Známý fakt, že byl zpovědníkem královy manželky a nechtěl vyzradit králi zpovědní tajemství, patří do říše pohádek. Královna Johana byla tou dobou sedm let po smrti. Církev potřebovala mučedníka, který zemřel při obhajobě víry, nikoliv jako oběť domácí politiky. Jan Nepomucký (městečko Pomuk změnilo mezitím jméno na Nepomuk) byl blahoslaven 1719 a prohlášen za svatého 1729. Bylo to prohlášení dosti účelové, protože v době pobělohorské bylo třeba ukázat, že husitští Čechové se už polepšili a vzmohli se i na svatého.</i> </p>  ",
           foto: "  300bohunice6.jpg  ",
           umisteniFoto: "  vlevo  ",
           popisek: " Detail sochy Jana Nepomuckého (září 2011)  ",
         },
         {
           textOdstavce:
-            "   <p> <i>Jan z Pomuku (asi 1340 – 1393) kněz a církevní právník v Praze. Zapletl se do sporů krále Václava IV s arcibiskupem Janem z Jenštejna. Byl královými lidmi zajat, mučen a mrtvola tajně vržena z Karlova mostu do Vltavy. Proto bývají jeho sochy umisťovány na mosty. Známý fakt, že byl zpovědníkem královy manželky a nechtěl vyzradit králi zpovědní tajemství, patří do říše pohádek. Královna Johana byla tou dobou sedm let po smrti. Církev potřebovala mučedníka, který zemřel při obhajobě víry, nikoliv jako oběť domácí politiky. Jan Nepomucký (městečko Pomuk změnilo mezitím jméno na Nepomuk) byl blahoslaven 1719 a prohlášen za svatého 1729. Bylo to prohlášení dosti účelové, protože v době pobělohorské bylo třeba ukázat, že husitští Čechové se už polepšili a vzmohli se i na svatého.</i> </p>  ",
+            "   <p> Jen o málo mladší je barokní <strong>socha papeže Inocence XI</strong>, dnes umístěná nad zastávku tramvaje Běloruská směrem do Uzbecké. Pochází z roku 1724 a stála původně nad Kohnovou cihelnou na místě výhledu na Brno, nedaleko předchozí sochy. Četl jsem kdesi, že když žid Kohn rozšiřoval svoji cihelnu, tak koupil od obce pozemek i se sochou. Koupě se musela řádně oslavit, takže bohuničtí propili svatýho Vincka. Označení místa U Jána a U Vincka jsem od babičky běžně slýchal. Kvůli postupující těžbě hlíny se roku 1919 socha poprvé stěhovala na křižovatku Havelkova - Jihlavská a tam si ji pamatuji v dosti zuboženém stavu. Jeden čas i bez hlavy. Při rozšiřování sídliště v 70. letech křižovatka zanikla – dnes tu vedou koleje pod most. Socha překážela a šla do depozitáře. V roce 1998 byla nákladem obce restaurována a umístěna do sídliště. Na podstavci je latinský nápis : Innocenci jedenáctý, modli se za služebníky, kteří přicházejí. Ze zadní strany stojí, že sochu dal postavit kanovník petrské kapituly Ličovský. Proč si vybral zrovna tohoto světce, zůstává záhadou.</p>  ",
           foto: "   300bohunice3.jpg  ",
           umisteniFoto: "   vpravo  ",
           popisek: " Socha papeže Inocence XI (květen 2014)  ",
-        },
-        {
-          textOdstavce:
-            "   <p> Jen o málo mladší je barokní <strong>socha papeže Inocence XI</strong>, dnes umístěná nad zastávku tramvaje Běloruská směrem do Uzbecké. Pochází z roku 1724 a stála původně nad Kohnovou cihelnou na místě výhledu na Brno, nedaleko předchozí sochy. Četl jsem kdesi, že když žid Kohn rozšiřoval svoji cihelnu, tak koupil od obce pozemek i se sochou. Koupě se musela řádně oslavit, takže bohuničtí propili svatýho Vincka. Označení místa U Jána a U Vincka jsem od babičky běžně slýchal. Kvůli postupující těžbě hlíny se roku 1919 socha poprvé stěhovala na křižovatku Havelkova - Jihlavská a tam si ji pamatuji v dosti zuboženém stavu. Jeden čas i bez hlavy. Při rozšiřování sídliště v 70. letech křižovatka zanikla – dnes tu vedou koleje pod most. Socha překážela a šla do depozitáře. V roce 1998 byla nákladem obce restaurována a umístěna do sídliště. Na podstavci je latinský nápis : Innocenci jedenáctý, modli se za služebníky, kteří přicházejí. Ze zadní strany stojí, že sochu dal postavit kanovník petrské kapituly Ličovský. Proč si vybral zrovna tohoto světce, zůstává záhadou.</p>  ",
-          foto: "   300bohunice4.jpg  ",
-          umisteniFoto: "  vlevo  ",
-          popisek: " Detail sochy papeže (prosinec 2017)  ",
         },
         {
           textOdstavce:
@@ -16159,7 +16210,7 @@ export default {
         },
         {
           textOdstavce:
-            "   <p>Pokud byste chtěli vidět více obrázků k těmto křížům, najdete je <span><a href='https://turistapavel.rajce.idnes.cz/201712_Sochy_v_Bohunicich/' target='_blank' class='vnitrniOdkaz'>zde</a></span>.</p>  ",
+            "   <p>Pokud byste chtěli vidět více obrázků k těmto sochám, najdete je <span><a href='https://turistapavel.rajce.idnes.cz/201712_Sochy_v_Bohunicich/' target='_blank' class='vnitrniOdkaz'>zde</a></span>.</p>  ",
         },
 
         {
@@ -16362,9 +16413,18 @@ export default {
         '  <iframe style="border:none" src="https://frame.mapy.cz/s/palumojuva" width="400" height="280" frameborder="0"></iframe>  ',
       odkazMapa: " https://frame.mapy.cz/s/palumojuva   ",
       galerie: [
-        { fotka: " 305slavinHalda1.jpg", popisek: " (duben 2018 ) " },
-        { fotka: " 305slavinHalda2.jpg", popisek: " (duben 2018 ) " },
-        { fotka: " 305slavinHalda3.jpg", popisek: " (duben 2018 ) " },
+        {
+          fotka: " 305slavinHalda1.jpg",
+          popisek: " Níhovská Madona (duben 2018 ) ",
+        },
+        {
+          fotka: " 305slavinHalda2.jpg",
+          popisek: " Trampský slavín na Haldě (duben 2018 ) ",
+        },
+        {
+          fotka: " 305slavinHalda3.jpg",
+          popisek: " Detail tabulek (duben 2018 ) ",
+        },
       ],
       proMe: "  XX/967  24-312-75  18—041  ",
     },
@@ -16511,11 +16571,213 @@ export default {
         },
         { fotka: " 309kamaradBob2.jpg", popisek: " (říjen 2021 ) " },
         {
-          fotka: " 309kamaradBob3.jpg",
+          fotka: " 309kamaradBob5.jpg",
           popisek: "Detail tabulky (únor 2014 ) ",
         },
       ],
       proMe: " XIX/802  24-314-53  21—101  14—021  ",
+    },
+    {
+      id: 307,
+      kategorie: "pomnicky",
+      pridano: " 26/01/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: " Sedlec   ",
+      jmeno: " Pedy - deska  ",
+      nazev: " Pamětní deska kamaráda Pedyho  ",
+      fotkaUvod: { fotka: " 307deskaPedy2.jpg " },
+      kdyVznikl: " po roce 1986 ",
+      popisCesty:
+        " Deska je v údolí Divoké Oslavky, 2,1 km VSV od Sedlce. Asi 50 výškových metrů nad řekou, na skále s převisem. Shora sem vede neznatelná pěšina. Přístup shora i zdola těžký, z boku po vrstevnici nemožný. Těžko se hledá. ",
+      popis:
+        " Bílá deska vysoká 0,4 metru je zasazena do skalní stěny. Na desce fotka mladíka, trampská lilie a text.   ",
+      napis:
+        " KAMARÁD // PEDY // 1. 6. 1959 // TRAGICKY  ZAHYNUL // 17. 8. 1986 // NA  VYHLÍDCE // T. O. PUSTINA // A  KAMARÁDI  ",
+
+      naposledObnoveno: " 26.01.2022 ",
+      souradnice: " 49.1733042N, 16.1614708E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/retonogugo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/retonogugo  ",
+      galerie: [
+        {
+          fotka: " 307deskaPedy1.jpg",
+          popisek: "Pamětní deska kamaráda Pedyho (duben 2016) ",
+        },
+        { fotka: " 307deskaPedy2.jpg", popisek: " Detail desky (duben 2016) " },
+        { fotka: " 307deskaPedy3.jpg", popisek: " Detail fotky(duben 2016) " },
+      ],
+      proMe: "  XIX/899  24-331-23  16—041  ",
+    },
+    {
+      id: 311,
+      kategorie: "pomnicky",
+      pridano: " 03/02/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Brno - město ",
+      obec: "  Brno - Bystrc  ",
+      jmeno: " Míňa a Viky  ",
+      nazev: " Památka dvou trampů u Veveří  ",
+      fotkaUvod: { fotka: " 311minaViki1.jpg " },
+      kdyVznikl: " začátkem 21. století ",
+      popisCesty:
+        " Oba pomníčky leží asi 100 metrů Z od brány do příhrádku hradu Veveří, na hraně svahu k přehradě. Nedaleko vede červená značka.  ",
+      popis:
+        " Dva pomníčky vedle sebe. Každý tvoří kamenná deska z přírodního kamene, zasazená do vybetonovaného kamenného základu. Do rovné plochy kamenů jsou vsazeny malé kovové desky s textem. Oba kameny jsou nenápadné.  ",
+      napis:
+        " Levý: KAMARÁD // MILAN  “MÍŇA”  CELBR //  *  17. 2. 1969 -  + 5. 8. 1999 // T. O. VEVEŘÍ<br>Pravý: Vítězslav “VIKI”  Bajer //  *  7. 10. 1943   + 9. 11. 2000    ",
+      naposledObnoveno: " 3.02.2022 ",
+      souradnice: "  49.2566522N, 16.4583297E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/porupegapu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/porupegapu  ",
+      galerie: [
+        {
+          fotka: "  311minaViki1.jpg",
+          popisek: "Památka dvou trampů u Veveří (leden 2020 ) ",
+        },
+        {
+          fotka: "  311minaViki2.jpg",
+          popisek: " Pomníček Míňa (prosinec 2007) ",
+        },
+        {
+          fotka: "  311minaViki3.jpg",
+          popisek: " Pomníček Viky (prosinec 2007) ",
+        },
+      ],
+      proMe: " XVI/582  24-323-20  07—12  20—01   ",
+    },
+    {
+      id: 312,
+      kategorie: "pomnicky",
+      pridano: " 04/02/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Převis - Oslavka  ",
+      nazev: " Skalní převis u peřeje Pět prstů  ",
+      fotkaUvod: { fotka: " 312previs2.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Skála s převisem stojí na pravém břehu Oslavky, těsně u břehu. Místo je vzdáleno 700 metrů JV od kamenného mostu Čertík nad potokem Hučákem. Naproti přes řeku s peřejí Pět prstů je camp Zlatá podkova. Okolí je nyní zavalené polomy a těžce průchodné. Území Národní přírodní rezervace Divoká Oslava.   ",
+      popis:
+        "  Skála s prostorným převisem, který za vyššího vodního stavu sahá až nad vodu. Na svislé skalní stěně je neuměle vymalována hlava indiána a vypsány názvy trampských osad.  ",
+      napis:
+        " Pod hlavou indiána: T. O. KONDOR<br>Na vedlejší stěně: T. O. TULÁCI // T. O. KLONDIKE // T. O. DIVOŠI // T. O. ORLI // T. O. SKALP // …  . Další nejsou čitelné.  ",
+      odkazy: [
+        {
+          nazev:
+            " Lucan - Jiří Skurovec: Trampská historie řeky Oslavky. 2004, str. 44. ",
+        },
+      ],
+      pozn:
+        "  V těchto místech stála od roku 1968 Škrčkova bouda. Shořela v roce 1983.  ",
+      naposledObnoveno: " 4.02.2022 ",
+      souradnice: "  49.1729444N, 16.1635603E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jesukedolo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/jesukedolo  ",
+      galerie: [
+        {
+          fotka: "  312previs1.jpg",
+          popisek: "Malba pod převisem (duben 2012) ",
+        },
+        {
+          fotka: "  312previs3.jpg",
+          popisek: "Nápisy pod převisem (duben 2012) ",
+        },
+        {
+          fotka: "  312previs4.jpg",
+          popisek: " Oslavka u peřeje Pět prstů (duben 2012) ",
+        },
+      ],
+      proMe: "  XVIII/732  24-332-41  12—041  ",
+    },
+    {
+      id: 313,
+      kategorie: "pomnicky",
+      pridano: " 04/02/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Máša, Milan  ",
+      nazev: " Pamětní deska Milana Máši na Jinošovnici.  ",
+      fotkaUvod: { fotka: " 313milanMasa1.jpg " },
+      kdyVznikl: " po 1992 ",
+      popisCesty:
+        " Na pravém břehu Oslavky pod altánem Gloriet je Kančí louka. Na jejím JZ konci, na úpatí skály Jinošovnice je připevněna pamětní deska.  ",
+      popis:
+        "  Malá černá lesknoucí se deska je z opaxitového skla. Na ní je oválná fotografie mladého kluka a vyrytý text.  ",
+      napis: " MILAN  MÁŠA //  *  14. 10. 1974  + 31. 12. 1992 // KAMARÁDI  ",
+      naposledObnoveno: " 4.2.2022 ",
+      souradnice: "  49.1591244N, 16.1631203E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/narodurune" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/narodurune  ",
+      galerie: [
+        {
+          fotka: " 313milanMasa1.jpg ",
+          popisek: " Deska Milana Máši (duben 2010) ",
+        },
+        {
+          fotka: " 313milanMasa2.jpg ",
+          popisek: " Pamětní deska pod Jinošovnicí (duben 2010) ",
+        },
+      ],
+      proMe: " XVII/654  24-331-11  10—04   ",
+    },
+    {
+      id: 314,
+      kategorie: "pomnicky",
+      pridano: " 04/02/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Pedy - křížek  ",
+      nazev: " Pedyho křížek na vyhlídce Holého kopce. ",
+      fotkaUvod: { fotka: " 314krizPedy1.jpg " },
+      kdyVznikl:
+        " V posledních třiceti letech vznikl nejméně dvakrát, byl zlikvidován a znovu zbudován o pár metrů vedle. ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 35,
+          odkazKategorie: "pomnicky",
+          odkazPodkategorie: 13,
+          odkazKde: "popisCesty",
+          predOdkazem:
+            " 2 km V od Sedlce, na hraně údolí Oslavky je vyhlídková skála Holý vrch. Vede tu zelená značka a je tu turistický rozcestník. Frekventované místo. Na skále má desku ",
+          textOdkazu: "Naďa Rorejs",
+          zaOdkazem: " .",
+        },
+      ],
+
+      popis:
+        "  Dřevěný křížek tmavě namořený je vysoký necelý metr. Na něm jsou řezby a stručný nápis vyřezaný do dřeva.  ",
+      napis: "  PEDY  //  *  1. 6. 1959   + 17. 8. 1986  ",
+      naposledObnoveno: " 4.2.2022 ",
+      souradnice: " 49.1661525N, 16.1653089E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/panepepoba" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/panepepoba  ",
+      galerie: [
+        {
+          fotka: " 314krizPedy1.jpg",
+          popisek: " Pedyho křížek(duben 2010 ) ",
+        },
+        {
+          fotka: " 314krizPedy2.jpg",
+          popisek: " Detail nápisu (duben 2010 ) ",
+        },
+        { fotka: " 307deskaPedy3.jpg", popisek: "Pedy (duben 2016 ) " },
+      ],
+
+      proMe: "  IX/281  24-332-23  18—042  ",
     },
   ],
 };
