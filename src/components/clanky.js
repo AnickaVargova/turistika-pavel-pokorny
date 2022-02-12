@@ -16578,40 +16578,6 @@ export default {
       proMe: " XIX/802  24-314-53  21—101  14—021  ",
     },
     {
-      id: 307,
-      kategorie: "pomnicky",
-      pridano: " 26/01/2022 ",
-      podkategorie: 13,
-      druh: " Trampské objekty ",
-      okres: " Třebíč ",
-      obec: " Sedlec   ",
-      jmeno: " Pedy - deska  ",
-      nazev: " Pamětní deska kamaráda Pedyho  ",
-      fotkaUvod: { fotka: " 307deskaPedy2.jpg " },
-      kdyVznikl: " po roce 1986 ",
-      popisCesty:
-        " Deska je v údolí Divoké Oslavky, 2,1 km VSV od Sedlce. Asi 50 výškových metrů nad řekou, na skále s převisem. Shora sem vede neznatelná pěšina. Přístup shora i zdola těžký, z boku po vrstevnici nemožný. Těžko se hledá. ",
-      popis:
-        " Bílá deska vysoká 0,4 metru je zasazena do skalní stěny. Na desce fotka mladíka, trampská lilie a text.   ",
-      napis:
-        " KAMARÁD // PEDY // 1. 6. 1959 // TRAGICKY  ZAHYNUL // 17. 8. 1986 // NA  VYHLÍDCE // T. O. PUSTINA // A  KAMARÁDI  ",
-
-      naposledObnoveno: " 26.01.2022 ",
-      souradnice: " 49.1733042N, 16.1614708E   ",
-      kodMapa:
-        '  <iframe style="border:none" src="https://frame.mapy.cz/s/retonogugo" width="400" height="280" frameborder="0"></iframe>  ',
-      odkazMapa: "  https://frame.mapy.cz/s/retonogugo  ",
-      galerie: [
-        {
-          fotka: " 307deskaPedy1.jpg",
-          popisek: "Pamětní deska kamaráda Pedyho (duben 2016) ",
-        },
-        { fotka: " 307deskaPedy2.jpg", popisek: " Detail desky (duben 2016) " },
-        { fotka: " 307deskaPedy3.jpg", popisek: " Detail fotky(duben 2016) " },
-      ],
-      proMe: "  XIX/899  24-331-23  16—041  ",
-    },
-    {
       id: 311,
       kategorie: "pomnicky",
       pridano: " 03/02/2022 ",
