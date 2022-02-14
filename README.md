@@ -1,4 +1,4 @@
-# tatuvweb
+# turistika-pavel-pokorny
 
 ## Project setup
 ```
