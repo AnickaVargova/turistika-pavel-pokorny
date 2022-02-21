@@ -16578,6 +16578,56 @@ export default {
       proMe: " XIX/802  24-314-53  21—101  14—021  ",
     },
     {
+      id: 310,
+      kategorie: "pomnicky",
+      pridano: " 10/02/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie ",
+      okres: " Břeclav ",
+      obec: " Hustopeče   ",
+      jmeno: " Tragédie - Šakvice  ",
+      nazev: " Pamětní deska železničního neštěstí u Šakvic  ",
+      fotkaUvod: { fotka: " 310sakvice1.jpg " },
+      kdyVznikl:
+        " Deska byla odhalena 13. prosince 2011 zásluhou dvou fanoušků železnice, tedy šotoušů. Do té doby nepřipomínalo u nás druhou (po Stéblové 1960) nejtragičtější železniční nehodu vůbec nic. ",
+      popisCesty:
+        " Deska je umístěna na budově nádraží Šakvice, na straně k silnici.  ",
+      popis:
+        "  Obdélníková deska ze šedého leštěného kamene. Do ní je vytesán dlouhý text.  ",
+      napis:
+        " K uctění památky // 106 zmařených lidských životů // při železničním neštěstí // u Šakvic 24. 12. 1953<br>Drobnějším písmem: V 1,06 hodin Štědrého dne roku 1953 najel rychlík R4 od Prahy // rychlostí 86 km/hod. na konec osobního vlaku č. 718 z Brna, //  stojícího před železniční stanicí Šakvice.  ",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa:
+            " https://cs.wikipedia.org/wiki/%C5%BDelezni%C4%8Dn%C3%AD_nehoda_u_%C5%A0akvic ",
+        },
+        {
+          nazev: " Martin vlaky ",
+          adresa:
+            " http://martinvlaky.cz/2013/12/60-let-od-tragedie-v-sakvicich/ ",
+        },
+        {
+          nazev: "  Kačor, Miroslav: Osudové okamžiky, 2003, str. 285 - 298. ",
+        },
+      ],
+      pozn:
+        "  Neštěstí předcházelo několik závažných událostí. Lokomotivní četa z Bratislavy, tedy 48letý strojvůdce a 34letý topič byli ve službě už pětadvacátou hodinu. Když měli ráno ve Štúrovu krátkou pauzu, využili ji k nákupu vína. To pak popíjeli celý den cestou ze Štúrova do Brna, společně vypili 2,5 litru. V lokomotivě rychlíku R4 z Prahy do Bratislavy, který vyjížděl z Brna pozdě v noci, únavou a alkoholem zmožení usnuli. Za Vranovicemi postupně projeli vysokou rychlostí tři návěsti, které je měly zpomalit a posléze zastavit. Po téže koleji před rychlíkem jel zpožděný osobní vlak 718 plný lidí jedoucích z práce, na vánoční svátky, vojáků na dovolené. V jednu hodinu v noci zastavil u návěstidla před stanicí Šakvice. Někteří šakvičtí z něj vystoupili mimo stanici a zachránili si možná život.<br>Osobák musel čekat, než z protisměru přejede rychlík R9 z Bratislavy do Brna, aby cestující nevystupovali před jedoucí rychlík. Hradlař za Vranovicemi zatím viděl, jak se nocí kolem něj řítí nezpomalující rychlík R4 od Brna. Vyběhl a dával znamení světlem a píšťalou, ale osádka vlaku nereagovala. V lokomotivě spali a vlakvedoucí vyplňoval služební lejstra. Hradlař varoval výpravčího v Šakvicích, ale bylo už pozdě. Výpravčí v Šakvicích dal osobáku volno a ten se začal pomalu rozjíždět. V protisměru projel rychlík od Bratislavy, ten utrpěl jen odřený lak na posledním vozu. Hluk tohoto rychlíku probral klimbající posádku lokomotivy, strojvůdce uviděl červená světla vlaku před sebou, začal brzdit a narazil se stotunovou lokomotivou Albatros do dřevěných vagonů před sebou rychlostí 86 km/hod. K neštěstí došlo zhruba kilometr před stanicí Šakvice, kde trať vedla zarostlým zářezem v Šibeničním vrchu.<br>Následky nárazu byly strašlivé. Místo bylo těžce přístupné, první zachránci - hasiči blízkých obcí - nebyli na takovou havárii vybaveni. Zranění lidé několik hodin nepředstavitelně trpěli zaklínění v troskách, než přišla pomoc, mnozí se pomoci nedočkali. Údajně došlo i k okrádání mrtvých, jiní - hasiči a zdravotníci - podávali heroické výkony. Těžce se pro tolik zraněných sháněla lékařská pomoc, sanitky a auta je rozvážely po celé jižní Moravě. Bylo povoláno vojsko.<br>Oficiálně přiznáno 106 mrtvých, 102 raněných, mnozí zranění si odnesli trvalé následky. Ranní světlo odhalilo obraz zkázy. Devět vagonů osobáku leželo rozbito mimo trať, jak je lokomotiva drtila před sebou. Z rychlíku byly zničeny první tři vozy, kolejový svršek poškozen v délce 150 metrů. Štěstí stálo při bratislavském rychlíku, od havárie ho dělilo pár vteřin, pár metrů.<br>Celé vyšetřování se dělo v režimu Tajné, byla padesátá léta. Přestože to bylo do té doby daleko největší železniční neštěstí u nás, do novin se dostaly jen dvě krátké úřední zprávy na druhé straně Rudého práva. Nezachovala se jediná fotka, o filmu nemluvě. Na místě nehody nemělo nic připomínat, co se stalo. Ani vynesené tresty nebyly vysoké. V době, kdy političtí dostávali 10, 15 let nebo i doživotí, potrestal soud strojvůdce - komunistu pěti lety, topič dostal 4 roky a vlakvedoucí 3 roky - měl sledovat trať.<br>I když se železniční nehoda odehrála na hranici katastrů Popic, Strachotína a Hustopečí a pamětní deska se nalézá na území Hustopečí, mluví se vždy o srážce vlaků u Šakvic.   ",
+      naposledObnoveno: " 10.02.2022 ",
+      souradnice: "  48.9128344N, 16.7066136E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gogefucoso" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gogefucoso  ",
+      galerie: [
+        {
+          fotka: " 310sakvice1.jpg ",
+          popisek: " Pamětní deska na nádraží v Šakvicích (únor 2020) ",
+        },
+      ],
+      proMe: "  XX/1050  34-213-12   20—021  ",
+    },
+
+    {
       id: 311,
       kategorie: "pomnicky",
       pridano: " 03/02/2022 ",
@@ -16744,6 +16794,167 @@ export default {
       ],
 
       proMe: "  IX/281  24-332-23  18—042  ",
+    },
+    {
+      id: 315,
+      kategorie: "pomnicky",
+      pridano: " 11/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice  ",
+      jmeno: " Hnilička, trumpetista  ",
+      nazev: " Lavička trumpetisty Jaromíra Hniličky.  ",
+      fotkaUvod: { fotka: "  315hnilicka1.jpg " },
+      kdyVznikl:
+        " V pondělí 15. června 2020 tu byla odhalena Lavička Jaromíra Hniličky, trumpetisty orchestru Gustava Broma, k 80. výročí prvního koncertu tohoto big bandu. Jaromír Hnilička sem rád chodil, sedával tu a sbíral inspiraci ke svým skladbám. ",
+      popisCesty:
+        "  Lavička stojí na všeobecně známém palouku U buku mezi Soběšicemi a Útěchovem, v jeho horní části. Pod ní je Doležalova a Tomečkova studánka. ",
+      popis:
+        "  Běžná zahradní lavička s kovovou kostrou,vylepšenou dvěma trubkovými náustky, dřevěným opěradlem a sedákem, dlouhá asi dva metry. Do opěradla je vypálena podoba trumpetisty a texty.   ",
+      napis:
+        " Vpravo: TOTO  JE  LOUKA // A  LAVIČKA // KAM  CHODIL // MISTR  HNILIČKA.<br>Vlevo pod obrázkem:  JAROMÍR // HNILIČKA .  ",
+      odkazy: [
+        {
+          nazev: " Vikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Jarom%C3%ADr_Hnili%C4%8Dka ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=29131 ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        " <strong>Jaromír Hnilička</strong> (1932 - 2016) jazzový trumpetista, hudební skladatel a aranžér. I když se narodil v Bratislavě, byl brněnským patriotem. Absolvoval konzervatoř v Bratislavě a od roku 1956 účinkoval přes padesát let v orchestru Gustava Broma. Složil několik písní, které zlidověly, např. Pozdrav astronautovi, známá spíše jako Dobrý den majore Gagarine, ale nejslavnějším dílem je jeho Jazzová mše.   ",
+      naposledObnoveno: " 11.2.2022 ",
+      souradnice: "  49.2767131N, 16.6317111E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cahogovero" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cahogovero  ",
+      galerie: [
+        {
+          fotka: "  315hnilicka1.jpg",
+          popisek: " Lavička Jaromíra Hniličky (prosinec 2020 ) ",
+        },
+        { fotka: "  315hnilicka2.jpg", popisek: " (prosinec 2020 ) " },
+        { fotka: "  315hnilicka3.jpg", popisek: " (prosinec 2020 ) " },
+      ],
+      proMe: "  XX/1101  24-324-58  20—122  ",
+    },
+
+    {
+      id: 316,
+      kategorie: "pomnicky",
+      pridano: " 11/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Žďár nad Sázavou ",
+      obec: "  Horní Čepí  ",
+      jmeno: " Štola - Horní Čepí ",
+      nazev: " Štola sv. Antonín Paduánský u Štěpánovic.  ",
+      fotkaUvod: { fotka: " 316stolaCepi2.jpg " },
+      kdyVznikl:
+        " Štola byla budována v letech 1767 - 1769. V osmdesátých letech 20. století byla vyčištěna při geologickém průzkumu. ",
+      popisCesty:
+        " Štola leží na úpatí Kopicova vrchu, 900 metrů SZ od Horního Čepí, v údolí potoka. Od červené značky je vzdálena 500 metrů.  ",
+      popis:
+        "  Zamřížovaný vchod vede do skalního nitra. Štola je zaplavena a pokud není sucho, vytéká z ní voda do blízkého potoka. Je dlouhá 58 metrů a vede k JV. Sloužila jako odvodňovací dědičná štola pro důlní dílo na stříbrnou rudu, vzdálené asi 200 metrů. To je zavalené a známé z literatury. ",
+      odkazy: [
+        { nazev: " Vecheta ", adresa: " http://m.taggmanager.cz/4240 " },
+      ],
+      naposledObnoveno: " 11.2.2022 ",
+      souradnice: "  49.4928694N, 16.3453925E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hajotorora" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hajotorora  ",
+      galerie: [
+        {
+          fotka: "  316stolaCepi1.jpg",
+          popisek: " Štola sv. Antonín Paduánský (červen 2019 ) ",
+        },
+      ],
+      proMe: "  XX/1015  24-141-46  19—061  ",
+    },
+
+    {
+      id: 317,
+      kategorie: "pomnicky",
+      pridano: " 12/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: " Strom - Hostěnice  ",
+      nazev: " Strom svobody v Hostěnicích.  ",
+      fotkaUvod: { fotka: " 317hostenice2.jpg " },
+      kdyVznikl: " Lipka vysazena a kámen osazen v říjnu 2018 ",
+      popisCesty:
+        "  Strom je zasazen 1200 metrů SZ od kaple v Hostěnicích, u odbočky cesty směrem k Hostěnickému propadání. Je trochu upozaděn za dětským hřištěm. Vede tu červená značka. ",
+      popis:
+        "  Lipový stromek. Vedle něho stojí hranatý lomový kámen vysoký jeden metr a na něm je přišroubovaná kovová tabulka s textem.  ",
+      napis:
+        " Strom svobody vysazený k výročí // 100 let od vzniku Československa // 50 let od vpádu vojsk Varšavské smlouvy // Spolkem Přátel sportu Hostěnice // L. P. 2018  ",
+      naposledObnoveno: " 12.2.2022 ",
+      souradnice: "  49.2425456N, 16.7618028E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jamenadozu" width="400" height="280" frameborder="0"></iframe> ',
+      odkazMapa: " https://frame.mapy.cz/s/jamenadozu  ",
+      galerie: [
+        {
+          fotka: " 317hostenice1.jpg",
+          popisek: " Strom svobody v Hostěnicích (listopad 2018) ",
+        },
+        { fotka: " 317hostenice2.jpg", popisek: " (listopad 2018) " },
+        {
+          fotka: " 317hostenice3.jpg",
+          popisek: " Detail tabulky (listopad 2018) ",
+        },
+      ],
+      proMe: "  XX/989  24-413-93  18—113  ",
+    },
+    {
+      id: 318,
+      kategorie: "pomnicky",
+      pridano: " 12/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - město ",
+      obec: "  Brno - Slatina  ",
+      jmeno: " Schéma - Stránská skála  ",
+      nazev: " Rozhledové schéma na Stránské skále.  ",
+      fotkaUvod: { fotka: " 318stranska1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        "  Na nejvyšším bodu Stránské skály nad lomem u trianglu, kóta 310 metrů. ",
+      popis:
+        "  Na soklu z lomového kamene vysokém půl metru je přibetonována leštěná žulová deska nepravidelného tvaru s nápisy a obrázky objektů, které jsou odtud vidět.  ",
+      napis:
+        " PÁLAVA // VÝHON // KOSTEL  TUŘANY // NEMOCNICE  BOHUNICE // AZ  TOWER // SPALOVNA // KOHOUTOVICE // PETROV // ŠPILBERK // VINOHRADY // BÍLÁ  HORA // ZETOR // LÍŠEŇ // HÁDY // KOSTELÍČEK // ŽURÁŇ ",
+      odkazy: [
+        {
+          nazev: " Vystrčil ",
+          adresa: " https://www.dusekarpat.cz/cesko/stranska-skala/ ",
+        },
+      ],
+      pozn: "  Místo dalekého, skoro kruhového výhledu.  ",
+      naposledObnoveno: " 12.2.2022 ",
+      souradnice: " 49.1904764N, 16.6756894E   ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/mekocabepo" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/mekocabepo  ",
+      galerie: [
+        { fotka: " 318stranska1.jpg", popisek: "Pohled na Brno (duben 2018) " },
+        { fotka: " 318stranska2.jpg", popisek: " (duben 2018) " },
+        {
+          fotka: " 318stranska3.jpg",
+          popisek: "Detail desky rozhledového schématu (duben 2018) ",
+        },
+      ],
+      proMe: "  XX/974  24-431-36  kyt18—04  ",
     },
   ],
 };
