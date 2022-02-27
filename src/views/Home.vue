@@ -6,7 +6,7 @@
 
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
-      <h1>Vítejte na našich zatím nedokončených webových stránkách.</h1>
+      <h1>Vítejte na našich webových stránkách.</h1>
       <h2>Postupně doplňujeme pomníčky, smírčí kříže, cesty a vyprávění.</h2>
       <p>
         Naše webové stránky se zabývají regionální vlastivědou v{{ "\xa0" }}Brně

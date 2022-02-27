@@ -16956,5 +16956,336 @@ export default {
       ],
       proMe: "  XX/974  24-431-36  kyt18—04  ",
     },
+    {
+      id: 319,
+      kategorie: "pomnicky",
+      pridano: " 15/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Křenovice  ",
+      jmeno: " Popraviště Křenovice  ",
+      nazev: " Šibeniční a popravčí vrch u Křenovic.  ",
+      fotkaUvod: { fotka: "  319krenovice2.jpg " },
+      kdyVznikl:
+        " Popravy na tomto místě povolil král Václav II. roku 1288. Popravovalo se tu pět set let a šibenice byla zrušena roku 1789 za vlády císaře Josefa II. Místo vykopal prof. Josef Unger se spolupracovníky z Ústavu antropologie Masarykovy univerzity roku 2015, proběhl tu archeologický průzkum a pietní úprava pohřebiště. Naučná stezka a popravčí místo byly slavnostně zpřístupněny a jako pohřebiště vysvěceny 25. června 2016. ",
+      popisCesty:
+        " Místo leží na kótě 246 asi 1,5 kilometru VSV od středu Křenovic, na hranici katastru. Říkalo se tu Na spravedlnosti. Z Křenovic k němu vede naučná stezka. 200 metrů dále po cestě je silnice z Křenovic do Slavkova.  ",
+      popis:
+        " Kamenný základ 6 x 6 metrů je vyzděn nově do výšky asi dvou metrů a vybaven dveřmi. Uvnitř stavby je kovaná mapa okolí. Před základem je na stožáru umístěno vozové kolo a kámen smíření s kovovým nápisem. Na trámové konstrukci v podobě šibenice visí tabule s posledním textem naučné stezky.    ",
+      napis:
+        " <i>perpetuam //  reis // memoriam</i> .  Přeloženo z latiny: Na věčnou paměť. ",
+      odkazy: [
+        {
+          nazev: " Křenovice ",
+          adresa:
+            " http://www.obec-krenovice.cz/naucna-stezka-sibenicni-a-popravci-vrch-v-krenovicich/ ",
+        },
+        {
+          nazev: " deník ",
+          adresa:
+            " https://www.denik.cz/jihomoravsky-kraj/pet-set-let-poprav-jako-vzpominka-i-na-nevinne-obeti-vznikne-naucna-stezka-20160525.html ",
+        },
+      ],
+      pozn:
+        "  Popravčí místo patřilo k městu Slavkovu, který získal hrdelní právo pro celé okolí. Původní šibenice měla dole kamennou místnost beze stropu, opatřenou dveřmi, v rozích stavby byly čtyři sloupy a na nich trámy. Celá stavba mohla být vysoká 6 metrů a byla zdaleka viditelná. Pro výstrahu.<br>Archeologický výzkum odhalil množství kostí včetně devíti lebek. Popravení neměli šanci být pohřbeni na křesťanském hřbitově a zůstávali tady. Obvinění byli až do 18. století podrobováni útrpnému právu - mučení a vymáhání přiznání. Často docházelo k nenapravitelným justičním omylům. Místo samo mělo štěstí, že je na něm výšková triangulační značka. Tedy se mu vyhýbaly traktory obdělávající okolní pole. K popravišti vede z centra Křenovic naučná stezka dlouhá 2,2 kilometru s pěti zastaveními a sklepem napodobujícím šatlavu. Jejím duchovním otcem je umělecký kovář Jiří Bartošek z Křenovic, který vytvořil všechny repliky mučicích nástrojů a začal s budováním stezky už v roce 2011.    ",
+      naposledObnoveno: " 15.2.2022 ",
+      souradnice: "  49.1493481N, 16.8449136E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/hubopekepe" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/hubopekepe  ",
+      galerie: [
+        {
+          fotka: " 319krenovice1.jpg",
+          popisek: " Šibeniční vrch u Křenovic (únor 2018 ) ",
+        },
+        {
+          fotka: " 319krenovice2.jpg",
+          popisek: " Popravčí místo (únor 2018 ) ",
+        },
+        {
+          fotka: " 319krenovice3.jpg",
+          popisek: " Kámen smíření (únor 2018 ) ",
+        },
+      ],
+      proMe: "  XX/950  24-432-31  18—021  ",
+    },
+    {
+      id: 320,
+      kategorie: "pomnicky",
+      pridano: " 15/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Tišnov  ",
+      jmeno: " Popraviště - Tišnov ",
+      nazev: " Popravčí místo v Tišnově.   ",
+      fotkaUvod: { fotka: " 320tisnov2.jpg " },
+      kdyVznikl:
+        " V Tišnově se popravovalo od poloviny 14. století, vykopaný základ stavby šibenice pochází z konce 16. století. Městský soud s výkonem hrdelního práva v Tišnově byl zrušen roku 1754, tím skončily i popravy. Místu se říkalo vždy Na spravedlnosti. V únoru 2014 tu bádala skupina antropologů a archeologů pod vedením prof. Josefa Ungera z Masarykovy univerzity. Z lesní půdy vykopali základy čtvercové stavby. Výstavba pietního místa byla dokončena v roce 2017, slavnostní odhalení se konalo v sobotu 29. července 2017 v rámci výročního trhu. ",
+      popisCesty:
+        " Místo leží na J předvrcholu Klucaniny, asi 1,5 km JV od radnice v Tišnově. Od radnice sem vede naučná stezka. Na odbočce modré značky. Dosti navštěvované místo.  ",
+      popis:
+        " Historicky cenný je zachovaný základ stavby šibenice. Čtvercový základ o hraně 5,3 metru a výšce 0,4 metru je vyzděn z červeného drásovského pískovce. Zesílené rohy mohly sahat až do výšky 6 metrů, na nich byly umístěny trámy  pro věšení provinilců. Spodek stavby sloužil i jako hrob popravených.<br>Byly zde nalezeny kosti nejméně 13 jedinců. Vedle základu byla nově postavena kaple svatého Dismase, lotra. Sestává ze tří hranolových kamenných stél, mezi které je umístěn kamenný oltářní stůl, za ním na stěně je kovaný kříž. Před kaplí je kamenný zkosený  sloupek s nápisy.    ",
+      napis:
+        " na čelní straně: KAPLE // SMÍŘENÍ // (SV. DISMASE // LOTRA)<br>shora: PODĚKOVÁNÍ<br>z boků: SPOLEČNOSTEM … DOTACE … REALIZACE … SBÍRKA … // AUTOŘI //CONTINUUM VITAE // M. HUSÁK // M. KLIMENT   ",
+      odkazy: [
+        { nazev: " Tišnov ", adresa: " https://www.tisnov.cz/o-sibenici " },
+        {
+          nazev: " Archeologický atlas ",
+          adresa:
+            " https://www.archeologickyatlas.cz/cs/lokace/tisnov_bi_sibenice ",
+        },
+      ],
+      pozn:
+        " Že je na tom místě základ stavby, věděli místní lidé odedávna. Nikdo si je ale nespojil s popravištěm, během osmi generací se na to zapomnělo.<br>Kaple souvisí se Stezkou /skok na ID 321/ hrdelního práva, která u kaple končí. Autorem projektu je arch. Miloš Klement z Ateliéru Tišnovka. Výtvarné řešení navrhl akad. malíř Milivoj Husák.  ",
+      naposledObnoveno: " 15.02.2022 ",
+      souradnice: "  49.3389392N, 16.4399700E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mabereguha" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/mabereguha  ",
+      galerie: [
+        {
+          fotka: "  320tisnov1.jpg",
+          popisek: " Popravčí místo v Tišnově (listopad 2017) ",
+        },
+        {
+          fotka: "  320tisnov2.jpg",
+          popisek: " Základy šibenice (listopad 2017) ",
+        },
+        {
+          fotka: "  320tisnov3.jpg",
+          popisek: " Kaple svatého Dismase (listopad 2017) ",
+        },
+      ],
+      proMe: "  XX/950  24-321-62  18—112 22—013  ",
+    },
+    {
+      id: 321,
+      kategorie: "pomnicky",
+      pridano: " 16/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Tišnov  ",
+      jmeno: " Stezka - Tišnov.  ",
+      nazev: " Stezka hrdelního práva v Tišnově.  ",
+      fotkaUvod: { fotka: "  321cestaprava4.jpg " },
+      kdyVznikl:
+        " Jde o novodobou záležitost. Sedm zastavení stezky se začalo budovat v červnu 2016 a slavnostní “odhalení” bylo v sobotu 29. července 2017 v rámci výročního trhu v Tišnově. ",
+      popisCesty:
+        " Stezka kopíruje cestu odsouzence. Začíná prvním zastavením pod radnicí v Tišnově, pokračuje ulicí Brněnskou k JV, pak ulicí Trnec k odbočce na Klucaninu, pak po modré značce až na předvrchol Klucaniny, kde končí na tišnovském popravišti. Není nijak vyznačena, ale na každém zastavení je kamenný plánek celé trasy. Měří 2,6 kilometru.  ",
+      popis:
+        "  Stezku tvoří sedm zastavení v jednotném stylu, s názvy sedmi těžkých hříchů a názvy odpovídajících ctností, latinsky a česky. Každé zastavení je tvořeno kamennou stélou vysokou 2 - 3 metry, sestavenou z nasucho kladených kamenů tmavého vápence z Lesního lomu u Líšně. Do zdiva jsou vloženy kamenné prvky z mrákotínské žuly s reliéfy zvířat a nápisy. Kovový kruh na každém zastavení symbolizuje připoutání člověka ke hříchu. První zastavení - Pýcha - stojí na místě šatlavy. Třetí zastavení - Smilstvo - je na stínadle, kde se v minulosti popravovalo mečem. Na pátém zastavení - Závist - stála kdysi kaple svaté Anny, kde bylo odsouzenci poskytnuto poslední rozhřešení.  ",
+      napis:
+        " První zastavení: PÝCHA - MATKA  VŠECH  HŘÍCHŮ // POKORA.<br>Druhé zastavení: OBŽERSTVÍ // STŘÍDMOST.<br>Třetí zastavení: SMILSTVO // CUDNOST.<br>Čtvrté zastavení: LAKOMSTVÍ // ŠTĚDROST.<br>Páté zastavení: ZÁVIST // PŘEJÍCNOST.<br>Šesté zastavení: LENOST // PÍLE.<br>Sedmé zastavení: HNĚV // MÍRNOST ",
+      odkazy: [
+        { nazev: " Tišnov ", adresa: " https://www.tisnov.cz/o-ceste " },
+        {
+          nazev: " Zvířetník ",
+          adresa:
+            " https://neviditelnypes.lidovky.cz/zviretnik/tisnov-hrichy-ctnosti.A171015_110031_p_zviretnik_kosa ",
+        },
+      ],
+      pozn:
+        "  Stezka končí u kaple smíření na tišnovském popravišti /skok na ID 320/ se kterou společně vznikla a ideově souvisí. Autorem projektu je arch. Miloš Klement z Ateliéru Tišnovka. Výtvarné řešení navrhl akad. malíř Milivoj Husák.<br>Stezka se vymyká obvyklé podobě zde prezentovaných pomníků. Část stezky je v zástavbě. Její podoba a zaměření je ale natolik výrazné, že tu nemůže chybět.",
+      naposledObnoveno: " 16.2.2022 ",
+      souradnice: "  49.3485322N, 16.4227978E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cemurumasu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cemurumasu  ",
+      galerie: [
+        {
+          fotka: "  321cestaprava1.jpg",
+          popisek: " Plánek stezky (listopad 2017 ) ",
+        },
+        {
+          fotka: "  321cestaprava2.jpg",
+          popisek: " Třetí zastavení - smilstvo(leden 2022 ) ",
+        },
+        {
+          fotka: "  321cestaprava3.jpg",
+          popisek: " Šesté zastavení - lenost(leden 2022 ) ",
+        },
+        {
+          fotka: "  321cestaprava5.jpg",
+          popisek: " Sedmé zastavení - hněv(leden 2022 ) ",
+        },
+      ],
+      proMe: "  XX/949    18—112  22—013  ",
+    },
+    {
+      id: 322,
+      kategorie: "pomnicky",
+      pridano: " 20/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: " Pozořice   ",
+      jmeno: " Malásková, Ludmila  ",
+      nazev: " Kamenná slunečnice Ludmily Maláskové  ",
+      fotkaUvod: { fotka: " 322malaskova1.jpg " },
+      kdyVznikl: " asi v létě 2017 ",
+      popisCesty:
+        " Pomníček se najde na významném rozcestí U Žalmanova kamene, kde je více vlastivědných objektů. Z Pohořelic 4 kilometry SV směrem, na Račické lesní cestě, prochází tu modrá a končí zelená značka. Frekventované rozcestí.   ",
+      popis:
+        "  Stylizovaná květina v podobě kostry oblepené světlými kamínky, vysoká 1,6 metru, nahoře se třemi plechovými květy. V květech je podobizna starší paní, báseň Jana Skácela a životopis paní Maláskové. Do okraje nejvyššího květu vyřezán nápis.  ",
+      napis: " LUDMILA  MALÁSKOVÁ // 21. 6. 1931  12. 8. 2016  ",
+      pozn:
+        " Ludmila Malásková (1931 - 2016), sociální pracovnice a vedoucí kroužku mladých ochránců přírody na blízké Jelenici.    ",
+      naposledObnoveno: " 20.2.2022 ",
+      souradnice: "  49.2360775N, 16.8206308E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dupucusegu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dupucusegu  ",
+      galerie: [
+        {
+          fotka: "  322malaskova1.jpg",
+          popisek: " Slunečnice Ludmily Maláskové (leden 2018 ) ",
+        },
+        {
+          fotka: "  322malaskova2.jpg",
+          popisek: " Detail nejvyššího květu (leden 2018 ) ",
+        },
+      ],
+      proMe: "  XX/957  24-413-91  18–012 22-02.  ",
+    },
+    {
+      id: 323,
+      kategorie: "pomnicky",
+      pridano: " 20/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Březina  ",
+      jmeno: " Salve - Vale  ",
+      nazev: " Skála Salve - Vale v Josefovském údolí  ",
+      fotkaUvod: { fotka: "  323salve4.jpg " },
+      kdyVznikl:
+        " Nápisy pocházejí z přelomu 18. a 19. století, kdy se majitelé panství Lichtenštejnové pokoušeli vylepšovat zdejší romantickou krajinu. V šedesátých letech 20. století byl Ovidiův verš psán přímo na plochu kamene a nápisy byly těžce čitelné, v osmdesátých letech prakticky zmizely. Verš byl obnoven v nultých letech barvou na skálu, na desku byl opsán  někdy kolem roku 2010 na jiném místě. Deska byla patrně zničena, a nová byla umístěna výše, aby se k ní vandal nedostal. Desky instaloval Školní lesní podnik.  ",
+      popisCesty:
+        " V Křtinském údolí, 1,7 kilometru ZJZ od kostela ve Křtinách je napříč údolím skalní ostroh. Na něm v ostré zátočině silnice jsou nápisy i deska.  ",
+      popis:
+        " Na balvanu ve skalním okně je umístěna obdélníková kamenná deska s textem. Na skalní stěně viditelný od Adamova je latinský nápis SALVE, tedy buď zdráv, vítej. Kousek dále, viditelné směrem od Křtin je nápis VALE, tedy sbohem, rozloučení.    ",
+      napis:
+        " NESCIO  QUA //NATALE  SOLUM // DULCEDINE // CUNCTOS  DUCIT // ET  IMMEMORES //  NON  SINIT  ESSE  SUI . Je to citát z Ovidia, přeložen zní: Jakýmsi sladkým kouzlem rodná hrouda všechny přitahuje a nedovoluje jim zapomenout.  ",
+      odkazy: [
+        {
+          nazev: " Adamov a okolí ",
+          adresa: " https://www.adamovaokoli.cz/pamatniky/salve-vale.html ",
+        },
+        {
+          nazev: " Truhlář, Jiří: Památníky adamovských lesů.  2003. s. 175. ",
+        },
+      ],
+      pozn:
+        " Truhlář je názoru, že skalní okno vzniklo uměle. U skály odkládali poutníci jdoucí do Křtin své poutnické hole.  ",
+      naposledObnoveno: " 20.02.2022 ",
+      souradnice: "  49.2938367N, 16.7195633E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gabokevobo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gabokevobo  ",
+      galerie: [
+        { fotka: " 323salve1.jpg", popisek: " Skalní ostroh (březen 2017) " },
+        { fotka: " 323salve2.jpg", popisek: " Nápis VALE (březen 2017) " },
+        { fotka: " 323salve3.jpg", popisek: " Detail desky (březen 2017) " },
+      ],
+      proMe: "  XX/937  24-411-112  17—034  ",
+    },
+    {
+      id: 324,
+      kategorie: "pomnicky",
+      pridano: " 21/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - město ",
+      obec: " Brno - Žebětín   ",
+      jmeno: " Krejčí, Amos  ",
+      nazev: " Pomníček publicisty Krejčího ve Farinově zatáčce.  ",
+      fotkaUvod: { fotka: " 324krejci2.jpg " },
+      kdyVznikl: " po roce 2012 ",
+      popisCesty:
+        " 700 metrů JZ od kohoutovické hájenky je na silnici do Žebětína Farinova zatáčka. Na J straně silnice vedle rozsáhlého pomníku Farinova zatáčka je podstatně menší pomníček Amose Krejčího.  ",
+      popis:
+        "  Do základu z žulových kostek je vsazen sloupek. Kamenný, hrubě tesaný patník je vysoký 0,8 metru. Na něm je připevněna černá deska s vyrytým textem. Vedle na silném buku je upevněn obraz Madony ve žlutohnědém zabarvení.  ",
+      napis:
+        "  AMOS  //  KREJČÍ  // MOTORISTICKÝ // NOVINÁŘ //  26. 11. 1945 // + 4. 7. 2012 ",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Amos_Krej%C4%8D%C3%AD ",
+        },
+        {
+          nazev: " Roadracing ",
+          adresa: " https://www.roadracing.sk/ostatne/amos-krejci-75/ ",
+        },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  <strong>Amos Krejčí</strong> (1945 - 2012), motoristický novinář, spisovatel a publicista. Znalec všech odvětví motoristického sportu, měl v paměti spousty výsledků závodů, událostí i historek. V oblibě měl zejména Masarykův okruh a jeho historii od třicátých let. Osobně se znal s mnoha jezdci zvučných jmen motoristického světa. Původně se živil jako kulisák. Psal do Lidové demokracie a Rovnosti, od začátku devadesátých let byl šéfem tiskového oddělení Masarykova okruhu.  ",
+      naposledObnoveno: " 21.2.2022 ",
+      souradnice: " 49.1947244N, 16.5203422E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jonotudadu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/jonotudadu  ",
+      galerie: [
+        {
+          fotka: "  324krejci1.jpg",
+          popisek: " Pomníček publicisty Krejčího (prosinec 2016) ",
+        },
+        { fotka: "  324krejci2.jpg", popisek: " (prosinec 2016) " },
+        {
+          fotka: "  324krejci3.jpg",
+          popisek: " Detail desky (prosinec 2016) ",
+        },
+      ],
+      proMe: " XX/923  24-342-36  16—123  ",
+    },
+    {
+      id: 325,
+      kategorie: "pomnicky",
+      pridano: " 22/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Třebíč ",
+      obec: "  Březník  ",
+      jmeno: " Sokol z Lamberka  ",
+      nazev: " Deska rytíře Jana Sokola z Lamberka.  ",
+      fotkaUvod: { fotka: " 325sokol1.jpg " },
+      kdyVznikl:
+        " Desku pořídili členové Veteran Vehicle Clubu z Březníka a odhalili v sobotu 22. září 2007. ",
+      popisCesty:
+        " Nad údolím Oslavky, 2,2 kilometru od kostela v Březníku, na odbočce červené značky, u vstupu ke zřícenině hradu Lamberka na nízké skalce nad pěšinou.  ",
+      popis:
+        "  Žulová deska obdélníkového tvaru se zaoblenými horními rohy je vysoká jeden metr a je vsazena do betonového základu. Na přední leštěné straně je delší text. ",
+      napis:
+        "(opsáno s chybou)  HRAD  LAMBERK // 1376 - 1446 // RYTÍŘ  JAN  SOKOL // 1357 - 1410 // HEJTMAN  KRÁLE  VÁCLAVA IV. // VOJEVŮDCE  EVROPSKÉHO // FORMÁTU A VÍTĚZ  BITVY // U  GRUNVALDU // K  UCTĚNÍ  JEHO  PAMÁTKY // V. V. C. BŘEZNÍK // 2007    ",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Jan_Sokol_z_Lamberka ",
+        },
+        {
+          nazev: " V.V.C. ",
+          adresa: " https://vvcbreznik.estranky.cz/clanky/jan-sokol-.html ",
+        },
+        { nazev: " Zejda, Radovan: Náměšťsko. 2004, str. 22 " },
+      ],
+      pozn:
+        "  <strong>Jan Sokol z Lamberka</strong> (1357 – 1410) byl významný válečník předhusitské doby. Sloužil králi Václavu IV a podílel se na jeho osvobození z vězení. Stál na straně krále hlavně proti biskupu olomouckému, jehož statky ničil. Stal se postrachem šlechty a církve a byl proto dán do klatby. Při obraně Znojma poprvé použil obrněné vozy, to později od něj odkoukal mladý Jan Žižka. Král ho poslal na pomoc Polákům proti Řádu německých rytířů, radil a pomáhal polskému králi Vladislavovi ve vítězné bitvě u Grunwaldu. Tímto se stal Vladislavovým oblíbencem, což se nelíbilo polské šlechtě. Dva měsíce po bitvě ho v Toruni otrávili. Polský král se postaral o výchovu jeho dvou synů, z Mikuláše z Lamberka se stal později vůdce sirotků. Příběh byl vícekrát beletristicky zpracován.  ",
+      naposledObnoveno: " 22.2.2022 ",
+      souradnice: "  49.1645514N, 16.1689542E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/molusovusu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/molusovusu  ",
+      galerie: [
+        {
+          fotka: "  325sokol1.jpg",
+          popisek: " Deska Sokola z Lamberka (květen 2016 ) ",
+        },
+      ],
+      proMe: "  XX/918  24-332-35  16—051  ",
+    },
   ],
 };
