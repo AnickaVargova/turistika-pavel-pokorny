@@ -17287,5 +17287,32 @@ export default {
       ],
       proMe: "  XX/918  24-332-35  16—051  ",
     },
+    {
+      id: 326,
+      kategorie: "pomnicky",
+      pridano: " 22/02/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Třebíč ",
+      obec: " Březník   ",
+      jmeno: " Ott, Jiří  ",
+      nazev: " Vzpomínka na vodáka Juru Otta.  ",
+      fotkaUvod: { fotka: " 326juraOtt1.jpg " },
+      kdyVznikl: " po roce 2015 ",
+      popisCesty:
+        " Deska je zasazena do pobřežní skály na levém břehu Oslavky, 2,5 km V od kostela v Březníku, nad peřejí Pět prstů. Není nápadná.  Kolem vede červená značka, nedaleko je camp a totem osady Zlatá podkova.  ",
+      popis:
+        "  Drobná světlá tabulka je přicementována ke skále těsně nad vodou. Na ní stylizovaná podobenka, skautská lilie s kotvou - znak vodních skautů a text.  ",
+      napis: " Jura Ott // 1930 - 2015 // Prvosjezd Oslavky // 1952 .  ",
+      pozn:
+        "  <strong>Jiří Ott</strong> (1930 - 2015), skautský a vodácký vůdce v Náměšti nad Oslavou. Odborný asistent na katedře tělesné výchovy VUT Brno. Vedl tam vodácký výcvik studentů na loděnici a získat u něho zápočet bylo velmi jednoduché, formality ho nezajímaly. Vídali  jsme se později na vodáckých akcích, tykali jsme si, občas mi barvitě vyprávěl historky od vody, ale o prvosjezdu Oslavky se nezmínil - asi to nepovažoval za důležité. Někdo musel být první, ale s tehdejším vybavením to musela být odvaha. Oslavka pod Náměští je považována za nejtěžší vodu na jižní Moravě, obtížnost WW IV. Spád řeky tu je 10 - 12 promile, je poznat, že řeka teče “z kopce”.  ",
+      naposledObnoveno: " 22.2.2022 ",
+      souradnice: "  49.1744911N, 16.1625597E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/halugabune" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/halugabune  ",
+      galerie: [{ fotka: "  326juraOtt1.jpg", popisek: " (listopad 2016) " }],
+      proMe: "  XX/917  24-331-4  16—122  ",
+    },
   ],
 };
