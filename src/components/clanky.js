@@ -17037,8 +17037,19 @@ export default {
             " https://www.archeologickyatlas.cz/cs/lokace/tisnov_bi_sibenice ",
         },
       ],
-      pozn:
-        " Že je na tom místě základ stavby, věděli místní lidé odedávna. Nikdo si je ale nespojil s popravištěm, během osmi generací se na to zapomnělo.<br>Kaple souvisí se Stezkou /skok na ID 321/ hrdelního práva, která u kaple končí. Autorem projektu je arch. Miloš Klement z Ateliéru Tišnovka. Výtvarné řešení navrhl akad. malíř Milivoj Husák.  ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 321,
+          odkazPodkategorie: 16,
+          odkazKategorie: "pomnicky",
+          odkazKde: "pozn",
+          predOdkazem:
+            "Že je na tom místě základ stavby, věděli místní lidé odedávna. Nikdo si je ale nespojil s popravištěm, během osmi generací se na to zapomnělo.<br>Kaple souvisí se ",
+          textOdkazu: "Stezkou",
+          zaOdkazem:
+            " hrdelního práva, která u kaple končí. Autorem projektu je arch. Miloš Klement z Ateliéru Tišnovka. Výtvarné řešení navrhl akad. malíř Milivoj Husák.",
+        },
+      ],
       naposledObnoveno: " 15.02.2022 ",
       souradnice: "  49.3389392N, 16.4399700E  ",
       kodMapa:
@@ -17087,8 +17098,18 @@ export default {
             " https://neviditelnypes.lidovky.cz/zviretnik/tisnov-hrichy-ctnosti.A171015_110031_p_zviretnik_kosa ",
         },
       ],
-      pozn:
-        "  Stezka končí u kaple smíření na tišnovském popravišti /skok na ID 320/ se kterou společně vznikla a ideově souvisí. Autorem projektu je arch. Miloš Klement z Ateliéru Tišnovka. Výtvarné řešení navrhl akad. malíř Milivoj Husák.<br>Stezka se vymyká obvyklé podobě zde prezentovaných pomníků. Část stezky je v zástavbě. Její podoba a zaměření je ale natolik výrazné, že tu nemůže chybět.",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 320,
+          odkazPodkategorie: 16,
+          odkazKategorie: "pomnicky",
+          odkazKde: "pozn",
+          predOdkazem: "Stezka končí u kaple smíření na tišnovském ",
+          textOdkazu: "popravišti",
+          zaOdkazem:
+            ", se kterou společně vznikla a ideově souvisí. Autorem projektu je arch. Miloš Klement z Ateliéru Tišnovka. Výtvarné řešení navrhl akad. malíř Milivoj Husák.<br>Stezka se vymyká obvyklé podobě zde prezentovaných pomníků. Část stezky je v zástavbě. Její podoba a zaměření je ale natolik výrazné, že tu nemůže chybět.",
+        },
+      ],
       naposledObnoveno: " 16.2.2022 ",
       souradnice: "  49.3485322N, 16.4227978E  ",
       kodMapa:
@@ -17256,7 +17277,7 @@ export default {
       kdyVznikl:
         " Desku pořídili členové Veteran Vehicle Clubu z Březníka a odhalili v sobotu 22. září 2007. ",
       popisCesty:
-        " Nad údolím Oslavky, 2,2 kilometru od kostela v Březníku, na odbočce červené značky, u vstupu ke zřícenině hradu Lamberka na nízké skalce nad pěšinou.  ",
+        " Nad údolím Oslavky, 2,2 kilometru  ZJZ od kostela v Březníku, na odbočce červené značky, u vstupu ke zřícenině hradu Lamberka na nízké skalce nad pěšinou.  ",
       popis:
         "  Žulová deska obdélníkového tvaru se zaoblenými horními rohy je vysoká jeden metr a je vsazena do betonového základu. Na přední leštěné straně je delší text. ",
       napis:
@@ -17313,6 +17334,111 @@ export default {
       odkazMapa: "  https://frame.mapy.cz/s/halugabune  ",
       galerie: [{ fotka: "  326juraOtt1.jpg", popisek: " (listopad 2016) " }],
       proMe: "  XX/917  24-331-4  16—122  ",
+    },
+    {
+      id: 327,
+      kategorie: "smircikrize",
+      pridano: " 25/02/2022",
+      oblast: "  Na jih  ",
+      jmeno: " Měnín  ",
+      fotkaUvod: { fotka: " 327SKmenin2.jpg   " },
+      podkategorie: 4,
+      okres: "  Brno - venkov  ",
+      obec: " Měnín  ",
+      cislo: " 1777  ",
+      kdeSeNaleza: "  Na návsi Měnína v trávníku před kostelem.  ",
+      popis:
+        " Žulová deska, vysoká 1,3 metru, má zaoblenou horní část. Na přední ploše vystupuje reliéf latinského kříže ve výrazném orámování.   ",
+      povest: "  Kámen je spojován s cyrilometodějskou tradicí.  ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Menin.html ",
+        },
+        {
+          nazev: " Smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/menin.htm ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 58 " },
+      ],
+      pozn:
+        "  Původně stál v polích kdesi u Otmarova. Omylem býval uváděn i jako 1298 Telnice. ",
+      naposledObnoveno: " 25.2.2022 ",
+      galerie: [
+        { fotka: "  327SKmenin1.jpg", popisek: "  (leden 2022) " },
+        { fotka: "  327SKmenin2.jpg", popisek: "  (leden 2022) " },
+        { fotka: "  327SKmenin3.jpg", popisek: "  (leden 2022) " },
+      ],
+      proMe: " XIIIN/471  24-433-21  22—012  ",
+    },
+    {
+      id: 328,
+      kategorie: "smircikrize",
+      pridano: " 25/02/2022 ",
+      oblast: " Na jih  ",
+      jmeno: " Těšany  ",
+      fotkaUvod: { fotka: "  328SKtesany1.jpg  " },
+      podkategorie: 4,
+      okres: "  Brno - venkov  ",
+      obec: " Těšany  ",
+      cislo: " 2025  ",
+      kdeSeNaleza:
+        "  Na rozlehlé návsi v Těšanech, vedle historické kovárny z boku. Vedle něj stojí pařez dvěstěletého jilmu, který stával před kovárnou.  ",
+      popis:
+        "  Kámen je vysoký 0,7 metru a z obou stran má silně vystupující latinský kříž.  ",
+      napis:
+        "  V betonovém základu, do kterého je kámen vnořen, je novodobý nápis: SMÍRČÍ  KŘÍŽ  1670 .   ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Brno_venkov/Tesany.html ",
+        },
+        {
+          nazev: " Smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/tesany.htm ",
+        },
+      ],
+      pozn: "  Stával údajně u silnice k Šitbořicím pod kopcem Strážka.  ",
+      naposledObnoveno: " 25.2.2022 ",
+      galerie: [
+        { fotka: " 328SKtesany2.jpg", popisek: "  (leden 2022) " },
+        { fotka: " 328SKtesany3.jpg", popisek: "  (leden 2022) " },
+        { fotka: " 328SKtesany4.jpg", popisek: " Pohled zezadu (leden 2022) " },
+      ],
+      proMe: "  XIIIN/396  24-433-33  22—012  ",
+    },
+    {
+      id: 329,
+      kategorie: "smircikrize",
+      pridano: " 25/02/2022 ",
+      oblast: " Na západ  ",
+      jmeno: " Vladislav  ",
+      fotkaUvod: { fotka: "   329SKvladislav2.jpg  " },
+      podkategorie: 5,
+      okres: "  Třebíč  ",
+      obec: " Vladislav 1  ",
+      cislo: " 570  ",
+      kdeSeNaleza: "  Na návsi obce Vladislav, je opřen o zeď kostela.  ",
+      popis:
+        "  Ulomené torzo smírčího kamene je vysoké 0,8 metru. Je na něm vystouplý reliéf křížkového kříže.  ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Trebic/Vladislav.html ",
+        },
+        {
+          nazev: " Smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/vladislav.htm ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 411 " },
+      ],
+      naposledObnoveno: " 25.2.2022 ",
+      galerie: [
+        { fotka: "  329SKvladislav1.jpg", popisek: "  (srpen 2015) " },
+        { fotka: "  329SKvladislav2.jpg", popisek: "  (srpen 2015) " },
+      ],
+      proMe: "  XIX/860    ces15—081  ",
     },
   ],
 };
