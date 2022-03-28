@@ -17413,11 +17413,11 @@ export default {
       kategorie: "smircikrize",
       pridano: " 25/02/2022 ",
       oblast: " Na západ  ",
-      jmeno: " Vladislav  ",
+      jmeno: " Vladislav 1 ",
       fotkaUvod: { fotka: "   329SKvladislav2.jpg  " },
       podkategorie: 5,
       okres: "  Třebíč  ",
-      obec: " Vladislav 1  ",
+      obec: " Vladislav  ",
       cislo: " 570  ",
       kdeSeNaleza: "  Na návsi obce Vladislav, je opřen o zeď kostela.  ",
       popis:
@@ -17439,6 +17439,219 @@ export default {
         { fotka: "  329SKvladislav2.jpg", popisek: "  (srpen 2015) " },
       ],
       proMe: "  XIX/860    ces15—081  ",
+    },
+    {
+      id: 331,
+      kategorie: "pomnicky",
+      pridano: " 07/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Velké Němčice  ",
+      jmeno: " Němčice - nejvyšší bod  ",
+      nazev: " Nejvyšší bod němčického katastru  ",
+      fotkaUvod: { fotka: " 331bodNemcice1.jpg " },
+      kdyVznikl: " 2011 ",
+      popisCesty:
+        " Bod leží 4,2 km VJV od Velkých Němčic, na J rozsoše Liščího vrchu, těsně u asfaltové cesty k vinicím. Kolem vede cyklotrasa. Je to nejvyšší bod bezejmenného kopečku a místo dalekého rozhledu.",
+      popis:
+        "  Kamenný sloupek z leštěné žuly je vysoký 0,8 metru.  Na něm je shora do černé žuly vyryta větrná růžice světových stran. Ze čtyř stran jsou tmavé žulové tabulky s nápisy.  ",
+      napis:
+        " NEJVYŠŠÍ // MÍSTO // KATASTRU // VELKÝCH  NĚMČIC<br>NADMOŘSKÁ // VÝŠKA // 337 m<br>SEVERNÍ  ŠÍŘKA  // 48° 58’ 48’’ // GPS 48.979990 // VÝCHODNÍ  DÉLKA // 16° 43’ 54’’ // GPS 16.731728<br>…. // L. P. 2011  ",
+      naposledObnoveno: " 7.03.2022 ",
+      souradnice: " 48.9799894N, 16.7317217E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/lonunedubu" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: " https://frame.mapy.cz/s/lonunedubu  ",
+      galerie: [
+        {
+          fotka: " 331bodNemcice1.jpg",
+          popisek: " Nejvyšší bod němčického katastru ( říjen 2016 ) ",
+        },
+        {
+          fotka: " 331bodNemcice2.jpg",
+          popisek: " Detail z druhé strany ( říjen 2016 ) ",
+        },
+      ],
+      proMe: " XIX/914  34-211-33  Obl—ost.  ",
+    },
+    {
+      id: 332,
+      kategorie: "pomnicky",
+      pridano: " 07/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Čučice  ",
+      jmeno: " Štola - Čučice  ",
+      nazev: " Staré důlní dílo Josefův důl v Čučicích  ",
+      fotkaUvod: { fotka: " 332stolaCucice1.jpg " },
+      kdyVznikl: " 1877 ",
+      popisCesty:
+        " Vstup do štoly se nachází 300 metrů V od kostela v Čučicích, na dně úzké rokle. Prochází tu zelená značka.  ",
+      popis:
+        "  Portál bývalého dolu na grafit je kamenný, vysoký 3 metry, s klenutým zamřížovaným vstupem do podzemí. Chodba uvnitř je dlouhá údajně 102 metrů. Nad vchodem jsou znaky zkřížených kladívek a velký nápis. Poslední velké úpravy portálu se dělaly v roce 2011.  ",
+      napis: " JOSEFŮV  DŮL  ",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa:
+            " https://cs.wikipedia.org/wiki/Grafitov%C3%A9_doly_%C4%8Cu%C4%8Dice ",
+        },
+        {
+          nazev: " geocaching ",
+          adresa:
+            " https://www.geocaching.com/geocache/GC16KBC_josefuv-dul?guid=9c6dc525-f3e8-419f-ade8-0719a5d9b4de ",
+        },
+        { nazev: " Zejda, Radovan : Náměšťsko. Průvodce, 2004, str. 26. " },
+      ],
+      pozn:
+        "  Grafitová sloj byla objevena v roce 1845, štoly Josef 1 a Josef 2 se začaly razit roku 1877. Intenzivně se těžilo do roku 1893, ale surovina nebyla kvalitní. Tedy šla těžba postupně do útlumu. V roce 1924 se opět krátce těžila tuha. Naposled v roce 1956 bylo ložisko revidováno, ale výsledek byl negativní. Chalupa naproti je bývalá plavírna, kde se grafit čistil.  ",
+      naposledObnoveno: " 7.3.2022 ",
+      souradnice: "  49.1374292N, 16.2814917E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/lajanavuje" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/lajanavuje  ",
+      galerie: [
+        {
+          fotka: "  332stolaCucice1.jpg",
+          popisek: " Josefův důl v Čučicích (duben 2015) ",
+        },
+        {
+          fotka: "  332stolaCucice2.jpg",
+          popisek: " Cedule u vchodu (duben 2015) ",
+        },
+      ],
+      proMe: " XIX/852  24-332-59  15—042  ",
+    },
+    {
+      id: 333,
+      kategorie: "pomnicky",
+      pridano: " 08/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Blansko ",
+      obec: "  Svinošice  ",
+      jmeno: " Ripka, Carl ",
+      nazev: "  Pamětní deska Karla Ripky na Babím lomu  ",
+      fotkaUvod: { fotka: " 333ripka1.jpg " },
+      kdyVznikl:
+        " Původní deska s německým nápisem tu byla instalována krátce po smrti Karla Ripky v roce 1874. Byla odstraněna zřejmě po první světové válce, kdy se likvidovalo vše rakouské. Pak tu devadesát let bylo jen prázdné místo vysekané ve skále. V roce 2013 sem Školní lesní podnik instaloval obnovenou desku s českým textem. ",
+      popisCesty:
+        " Deska je umístěná na vrcholové skále Babího lomu, kóta 562 metrů. Je vzdálená necelých 100 metrů S od rozcestí značených cest na Babím lomu. Kolem vede odbočka červené značky. ",
+      popis:
+        "  Do lůžka ve slepencové skále je vsazena obdélníková leštěná žulová deska s textem, vysoká 0,6 metru.  ",
+      napis:
+        " NA  PAMĚŤ  ZAKLADATELE // TURISTICKÝCH ZAŘÍZENÍ // NA  BABÍM  LOMĚ // CARL  RIPKA //  +  1874  // OBNOVENO  LESY  MĚSTA  BRNA  2013 .Původní německý nápis v překladu: Na paměť // budovatele tohoto vybavení // Carl Ripka // 1874 . ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=21267&f_search=true&q=ripka ",
+        },
+        { nazev: " Černohlávek, Jan: Babí lom. 2009, str. 130 " },
+      ],
+      pozn:
+        "  Carl Ripka (1818 - 1874) brněnský průmyslník a podnikatel, člen rozvětvené rodiny Ripků. Spolu s bratrem Adolfem, císařským radou, se velmi angažoval v brněnské turistice, kterou začali v polovině 19. století rozvíjet Brňané mluvící německou řečí. Jeho zásluhou vznikly přístupové cesty, chodníky a první vyhlídky na Babím lomu. Je pochován v rodinné hrobce na Ústředním hřbitově, skup. 2, číslo 104 - 110.<br>Těsně pod pamětní deskou začíná neudržovaný chodník, vedoucí po západním úbočí k Bukové studánce, kde stála v 19. století Wieserova chata rakouského turistického spolku. Torzo chodníku lze nalézt v terénu dodnes.  ",
+      naposledObnoveno: " 8.3.2022 ",
+      souradnice: "  49.3131372N, 16.5767022E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gejezupoge" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gejezupoge  ",
+      galerie: [
+        { fotka: "  333ripka2.jpg", popisek: " Vrcholová skála (leden 2021) " },
+        { fotka: "  333ripka3.jpg", popisek: " Detail desky (září 2014) " },
+        { fotka: "  333ripka4.jpg", popisek: " (leden 2021) " },
+      ],
+      proMe: " XIX/823     21—014  Obl.---BO—BL  ",
+    },
+    {
+      id: 334,
+      kategorie: "pomnicky",
+      pridano: " 11/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Pernštejn  ",
+      jmeno: " Haslinger, Rudolph  ",
+      nazev: " Haslingerův kříž pod Pernštejnem  ",
+      fotkaUvod: { fotka: "  334haslinger2.jpg " },
+      kdyVznikl: "  po roce 1865 ",
+      popisCesty:
+        " Kříž stojí na rozcestí silnice Nedvědice - Věžná a odbočky Pivovarské cesty ke hradu Pernštejnu.  ",
+      popis:
+        " Mezi třemi lípami stojí čtyřmetrový výpravný kříž. Do korpusu z nedvědického mramoru je vsazen železný kříž s Kristem a deska, obé pochází ze železáren ve Štěpánově. Na kovové desce s reliéfem klínového křížku v horní zakulacené části je německý text.   ",
+      napis:
+        " WLADIMIR  GRAF // MITTROVSKY // SEINEM  LANGJÄRIGEN // BEWÄHRTEN  DIENER // RUDOLPH // HASLINGER // GÜTER  INSPECTOR // GESTORBEN  10. MAI // 1865 <br> Přeloženo: Vladimír hrabě Mitrovský svému dlouholetému služebníkovi R. H. inspektorovi zboží a statků, zemřelému 10. května 1865 .   ",
+      pozn:
+        "  Rudolf Haslinger byl zvolen roku 1850 prvním starostou obce Pernštejn.  ",
+      naposledObnoveno: " 11.03.2022 ",
+      souradnice: " 49.4498089N, 16.3100892E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dorefomuce" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dorefomuce  ",
+      galerie: [
+        {
+          fotka: "  334haslinger1.jpg",
+          popisek: " Haslingerův kříž (březen 2014) ",
+        },
+        {
+          fotka: "  334haslinger2.jpg",
+          popisek: " Detail desky (březen 2014) ",
+        },
+      ],
+      proMe: " XIX/810  24-134-23  14—031  ",
+    },
+    {
+      id: 335,
+      kategorie: "pomnicky",
+      pridano: " 15/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - město ",
+      obec: "  Brno - Žebětín  ",
+      jmeno: " Farinova zatáčka  ",
+      nazev: " Farinova zatáčka u Kohoutovic.  ",
+      fotkaUvod: { fotka: " 335farinka1.jpg " },
+      kdyVznikl:
+        " Vzpomínkové místo s prvním pomníkem vzniklo roku 2010 a bylo slavnostně odhaleno v neděli 26. září 2010, 61 let po události, která mu dala jméno. Postupně se rozrůstalo o další kameny, které jsou popsané texty mapujícími historii původního Masarykova okruhu. ",
+      popisCesty:
+        " Pomníky stojí u frekventované silnice z Kohoutovic do Žebětína, ve vnějším oblouku Farinovy zatáčky. Známé místo, Brňané mu neřeknou jinak než Farinka.  ",
+      popis:
+        "  Původně tu stál jen ústřední pomník z lomového kamene, vysokého 2,5 metru, zasazený do nízkého kamenného soklu. Na čelní straně je připevněna tmavá leštěná deska s nápisem. Zezadu na vyleštěné ploše je další text. Postupně přibylo dalších 14 kamenů v jedné řadě kolem silnice a ještě později pětice kamenů vzadu. Všechny kameny jsou popsány. Monumentální dílo. ",
+      napis:
+        " Na desce: FARINOVA  ZATÁČKA // památný úsek // Masarykova okruhu. Ze zadní strany pomníku: Památník zbudovala společnost // Obřanské sdružení Větrník Brno // za finanční podpory // statutárního města Brna // a AUTO  RALLYE  CROSS s.r.o. // 25. 9. 2010 . Na ostatních devatenácti kamenech jsou jména vítězů motocyklových i automobilových závodů na Masarykově okruhu, jména nejslavnějších českých jezdců, jména diváckých obětí ve Farinově zatáčce, jména budovatelů okruhu v roce 1930 atd. ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=895 ",
+        },
+        {
+          nazev: " Idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/zpravy/tenkrat-poprve-farinova-zatacka-brno.A200530_550519_brno-zpravy_krut ",
+        },
+      ],
+      pozn:
+        "  Jméno dostala zatáčka v roce 1949. Tehdy se tu konalo neoficiální mistrovství světa automobilů, předchůdce dnešních závodů F1. Na Francouze Chirona, prince Biru ze Siamu, Itala Farinu a další 4 esa (v nejsilnější kategorii startovalo jen 7 vozů) se v neděli 25. září 1949 přišlo podívat 300 – 400 tisíc diváků, nikdo je přesně nespočítal. Diváci seděli i v příkopu této zatáčky, odkud je sice pořadatelé vykázali, ale nebylo to moc platné. V prvním kole přijel v čele závodu Bira, pronásledován horkokrevným Italem, který neudržel auto na silnici a vjel koly do příkopu s diváky, kde zranil 12 lidí, 2 smrtelně. (Jedna z obětí, septimán Jindřich Gregor má hrob na Ústředním hřbitově skup. 102 číslo 307). Otřesený Farina se vypotácel z auta na silnici, kde se již již na něho řítil za ním jedoucí Angličan. V poslední chvíli se od jeho vozu odrazil rukou !!, kterou si vymknul. Závod pokračoval dál bez něj. V příštím roce se Emilio Farina stal historicky prvním mistrem světa vozů F1. Ale už ne v Brně, tady se začalo jezdit na motorkách.<br><strong>Emilio Giuseppe Farina</strong> (1906 - 1966 trag.), italský automobilový závodník, pilot formule F1. Roku 1934 zvítězil v Brně v závodě slabších vozů. V roce 1950 se stal prvním mistrem světa formule F1 s vozem Alfa Romeo, za dalších 6 let ukončil závodní kariéru. Zemřel za volantem, narazil do sloupu.<br>Iniciátorem tohoto památníku motoristického sportu je pan Jiří Řezáč, komentátor na Masarykově okruhu a předseda společnosti Větrník Brno, provozující síť cukráren. Opatřil všechna povolení, zajistil finance, kámen i řemeslníky a stal se generálním sponzorem akce.  ",
+      naposledObnoveno: " 15.03.2022 ",
+      souradnice: "  49.1948050N, 16.5209550E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/fatacapepe" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/fatacapepe  ",
+      galerie: [
+        { fotka: "  335farinka1.jpg", popisek: "Původní pomník (leden 2011) " },
+        {
+          fotka: "  335farinka3.jpg",
+          popisek: " Zatáčka s pomníky (prosinec 2016) ",
+        },
+        {
+          fotka: "  335farinka4.jpg",
+          popisek: "Posledních pět přidaných kamenů (prosinec 2016) ",
+        },
+      ],
+      proMe: " XVIII/683  24-342-36  16—123  Obl-BM-Hol.  ",
     },
   ],
 };
