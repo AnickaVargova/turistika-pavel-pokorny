@@ -108,7 +108,7 @@
 
         <tr v-if="clanek.kategorie === 'pomnicky'">
           <td>Kdy vznikl?</td>
-          <td>{{ clanek.kdyVznikl }}</td>
+          <td v-html="clanek.kdyVznikl">{{ clanek.kdyVznikl }}</td>
         </tr>
 
         <tr>

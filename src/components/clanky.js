@@ -17653,5 +17653,201 @@ export default {
       ],
       proMe: " XVIII/683  24-342-36  16—123  Obl-BM-Hol.  ",
     },
+    {
+      id: 336,
+      kategorie: "pomnicky",
+      pridano: " 21/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Žďárec  ",
+      jmeno: " Fajtová, Ruth  ",
+      nazev: " Křížek Ruth Fajtové u Říkonína  ",
+      fotkaUvod: { fotka: " 336fajtova1.jpg " },
+      kdyVznikl: " 1999 ",
+      popisCesty:
+        " Křížek stojí na kopečku nad železniční tratí, 1200 metrů Z od kaple v Říkoníně. U cesty.  ",
+      popis:
+        "  Dřevěný křížek vysoký jeden metr je pečlivě oplechován a natřen. Do betonového základu je vyryt letopočet 1999. Uprostřed křížku je nerezová tabulka s textem.  ",
+      napis: " RUTH  FAJTOVÁ //  30. 11. 1924  //  7. 8. 1998 +  ",
+      naposledObnoveno: " 21.3.2022 ",
+      souradnice: "  49.3652206N, 16.2903803E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/loduvefaja" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/loduvefaja  ",
+      galerie: [
+        {
+          fotka: "  336fajtova1.jpg",
+          popisek: " Křížek Ruth Fajtové (prosinec 2009) ",
+        },
+        {
+          fotka: "  336fajtova2.jpg",
+          popisek: " Detail tabulky(prosinec 2009) ",
+        },
+        { fotka: "  336fajtova3.jpg", popisek: " (květen 2020) " },
+      ],
+      proMe: " XVII/634  24-312-55  Obl—ost.  20—051  ",
+    },
+    {
+      id: 337 ,
+      kategorie: 'pomnicky',
+      pridano: ' 22/03/2022 ',
+      podkategorie:16 ,
+      druh: ' Jiné nezařaditelné ',
+      okres:' Blansko ',
+      obec: '  Černovice  ',
+      jmeno: '  Mohyla - Zněcko ',
+      nazev: '  Kamenná mohyla na vrchu Zněcko ',
+      fotkaUvod: {fotka:' 337znecko2.jpg '},
+      kdyVznikl:   '  ', 
+      popisCesty: ' Nejvyšší bod lesního komplexu mezi Černovicemi a Hlubokým leží 1 kilometr V od kostela v Černovicích. Cesta tam nevede, zelená značka je vzdálena 100 metrů.  ',
+      popis: '  Štíhlý kamenný mužík poskládaný z šutrů posbíraných v okolí je vysoký asi dva metry. Výška se každoročně mění, podle toho, jak se kameny po zimních větrech podaří naskládat.  ',
+      napis: ' Ve spodku je barvou neuměle napsáno číslo 699, tedy nadmořská výška vrcholu. ',
+      pozn: '  Pozoruhodný kamenný mužík tu stojí desítky let a snaží se zvýšit nadmořskou výšku vrcholu nad hranici sedmi set metrů, ke které mu chybí jen 80 centimetrů.  ',
+      naposledObnoveno : ' 22.3.2022 ',
+      souradnice: '  49.4861442N, 16.4520117E  ',
+      kodMapa:   '  <iframe style="border:none" src="https://frame.mapy.cz/s/bapokozumu" width="400" height="280" frameborder="0"></iframe>  ' , 
+       odkazMapa:   '  https://frame.mapy.cz/s/bapokozumu  ',
+      galerie: [
+      {fotka: '  337znecko1.jpg' , popisek: ' (březen 2009) '},
+      {fotka: '  337znecko2.jpg' , popisek: ' (říjen 2018) '},
+      {fotka: '  337znecko3.jpg' , popisek: ' (říjen 2018) '},
+      ],
+      proMe:' XVI/592  24-141-37  Obl–BL–Zň  2018—105  ',   
+      },
+      
+    {
+      id: 338,
+      kategorie: "pomnicky",
+      pridano: " 22/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Kuřim  ",
+      jmeno: " Masaryk, Tomáš Garrigue  ",
+      nazev: " Masarykův kámen nad Kuřimí  ",
+      fotkaUvod: { fotka: " 338TGMkurim1.jpg " },
+      kdyVznikl: " Odhaduji, že vznikl začátkem tohoto století. ",
+      popisCesty:
+        " Na severním úbočí Kuřimské hory, 200 metrů od Vodní kaple sv. Jana Nepomuckého, u vrstevnicové cesty na vyhlídce na střechy Kuřimi. Kolem vede dětská naučná stezka. ",
+      popis:
+        " Světlý balvan zasazený do trávníku má výšku jeden metr. Na něm je připevněna leštěná kamenná tabulka s textem.   ",
+      napis:
+        " T. G. MASARYKOVI // NAŠEMU  PRVNÍMU  PREZIDENTOVI // MĚSTO  KUŘIM  ",
+      naposledObnoveno: " 22.3.2022 ",
+      souradnice: "  49.2965867N, 16.5365803E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jaluzuzaga" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/jaluzuzaga  ",
+      galerie: [
+        {
+          fotka: "  338TGMkurim2.jpg",
+          popisek: "Vyhlídka na Kuřim od kamene (prosinec 2017) ",
+        },
+        {
+          fotka: "  338TGMkurim3.jpg",
+          popisek: "Detail desky (prosinec 2017) ",
+        },
+        {
+          fotka: "  338TGMkurim4.jpg",
+          popisek: " Masarykův kámen nad Kuřimí (prosinec 2021) ",
+        },
+      ],
+      proMe: "  XV/544  24-322-96  17—123  21—121 ",
+    },
+    {
+      id: 339,
+      kategorie: "pomnicky",
+      pridano: " 24/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Třebíč ",
+      obec: "  Pucov  ",
+      jmeno: " Milénium - Bělizna ",
+      nazev: " Památník milénia na Bělizně u Jinošova.  ",
+      fotkaUvod: { fotka: " 339mileniumBelizna1.jpg " },
+      kdyVznikl: " 1999, slavnostní odhalení na Silvestra 31. prosince 1999. ",
+      popisCesty:
+        "  Pomník stojí na louce u rybníka Bělizna, 1700 metrů S od kostela v Jinošově. Vedle je studánka Na Bělizně. Kolem louky se rozkládá chatová osada.",
+      popis:
+        "  Nízký pomníček je vyzděn z kamenů spojených betonem. Shora ho kryje kamenná deska se sedmiřádkovým textem o odbahnění rybníka. Na straně k rybníku je kamenná deska s hůře čitelným textem (stav 2022).  ",
+      napis:
+        " Na svislé desce: V  UPOMÍNKU  NA DRUHÉ // TISÍCILETÍ S PŘÁNÍM  LÁSKY // A MÍRU  VŠEM  GENERACÍM // ŽIJÍCÍM  VE  TŘETÍM  MILÉNIU // OSADNÍCI Z BĚLIZNY. Na malém kovovém štítku :  MILÉNIUM . ",
+      pozn:
+        "  U rybníka Bělizna na kraji rozsáhlých lesů začala už v padesátých letech vznikat chatová osada. Činorodí osadníci už ve třetí generaci zvelebují své okolí, opravují studánky, scházejí se na Silvestra u pomníku Poslednímu vlkovi, v půli května spolupořádají pochod kolem Jinošovských studánek a zbudovali také tento pomník.  ",
+      naposledObnoveno: " 24.3.2022 ",
+      souradnice: " 49.2463314N, 16.1983056E   ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/lekerohedu" width="400" height="280" frameborder="0"></iframe> ',
+      odkazMapa: "  https://frame.mapy.cz/s/lekerohedu  ",
+      galerie: [
+        {
+          fotka: " 339mileniumBelizna1.jpg",
+          popisek: " Památník milénia na Bělizně (leden 2020) ",
+        },
+        {
+          fotka: " 339mileniumBelizna2.jpg",
+          popisek: " Detail kovového štítku (leden 2020) ",
+        },
+        {
+          fotka: " 339mileniumBelizna3.jpg",
+          popisek: " Pohled na louku s pomníkem (leden 2020) ",
+        },
+      ],
+      proMe: " XIIIN/441  24-314-68  20—014    ",
+    },
+    {
+      id: 340,
+      kategorie: "pomnicky",
+      pridano: " 25/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Vyškov ",
+      obec: "  Rousínov  ",
+      jmeno: " Císařská orba ",
+      nazev: "  Pomník císařské orbě u Rousínova  ",
+      fotkaUvod: { fotka: " 340orbaRousinov1.jpg " },
+      kdyVznikl:
+        " Tento pomník je pátým na tomto místě a byl odhalen 26. listopadu 1995.<br>Krátce po události dal zbudovat první pomník roku 1770 majitel panství kníže Lichtenstein. Byl to čtyřhranný sloup vysoký 2,5 metru. Nebyl z kvalitního kamene a po třiceti letech začal chátrat.<br>Druhý pomník umístila obec Slavíkovice kolem roku 1770 nedaleko, stál přímo na poli, kde se oralo. Měl podobu nevysokého hranečníku z pískovce. Ale v roce 1788 byl přeražen.<br>Protože oba pomníky byly roku 1804 v troskách, rozhodly Moravské stavy vybudovat nový monumentální pomník. Stavba se vlivem války protáhla a trvala do roku 1809. Obří monument byl vysoký 17 metrů, byl z pískovcových kamenů s deskami a nápisy. Jeho podoba se zachovala na obrazu brněnského vedutisty Františka Richtera. Pomník vydržel jen 20 let, musel být kvůli špatnému stavu zbourán. V roce 2007 byl náhodou nalezen metrový úlomek s nápisem z tohoto pomníku.<br>Roku 1836 se Moravské stavy rozhodly zbudovat něco věčného. Nechaly odlít v blanenských železárnách v pořadí čtvrtý pomník ze železa. Šest a půl metru vysoký pomník byl čtyřhranného tvaru, vážil 120 q, nahoře se leskl pozlacený orel a na boku byl reliéf s císařskou orbou. Podoba je dobře známa z fotografií a pohlednic. Po světové válce docházelo v českých zemích k likvidaci pomníků připomínajících rakouské mocnářství. I ve Slavíkovicích žádali vrátivší se legionáři zemskou vládu o povolení odstranit pomník. Nedostali ho se zdůvodněním, že se jedná o historickou památku. A tak v noci 17. listopadu 1920 povalili nezjištění pachatelé pomník a tím ho zničili. Dalších 75 let bylo místo bez připomenutí události. ",
+      popisCesty:
+        "   Pomník leží u státní silnice z Brna na Rousínov, zhruba 100 metrů od rousínovského nádraží. Naproti němu je odbočka silnice do Viničných Šumic. Býval daleko od lidských obydlí, ale nyní se noří do rozšiřující se sídelní kaše. ",
+      popis:
+        "  Několik přírodních oblých balvanů je vsazeno do kruhu vysypaného štěrkem. V největším kamenu je vsazen litinový reliéf s výjevem císařské orby. Pod reliéfem je malá odlitá tabulka s textem.  ",
+      napis:
+        " PAMĚTNÍ  DESKA // PŘIPOMÍNAJÍCÍ  ORBU  JOSEFA II // DNE  19. 8. 1769 // KTEROU  OCENIL  PRÁCI  SELSKÉHO  STAVU // ROUSÍNOV  1996  ",
+      odkazy: [
+        {
+          nazev: " Kudyznudy ",
+          adresa:
+            " https://www.kudyznudy.cz/aktivity/pomnik-orby-cisare-josefa-ii-u-slavikovic ",
+        },
+        {
+          nazev: " Slavíkovice ",
+          adresa: " http://www.slavikovice.info/?page_id=528 ",
+        },
+      ],
+      pozn:
+        "  K události: uvedeného dne jel císař Josef II s doprovodem navštívit vojenský tábor do Olšan u Prostějova. V těchto místech se jeho kočáru taženému šestispřežím zlomila náprava. Císař vystoupil z ekvipáže a opodál spatřil na poli orajícího čeledína Jana Kartoše. Přistoupil k němu a požádal ho o půjčení pluhu. Zkoprnělý čeledín mu samozřejmě vyhověl a císař se chopil klečí a vyoral na poli jednu brázdu. Myslím, že musel vyorat brázdy dvě, protože se musel ještě vrátit. Orbou uvedl v úžas svůj doprovod a později i císařský dvůr ve Vídni, když se to tam doneslo. Císařova matka Marie Terezie se přimluvila, aby na místě činu vznikla připomínka.<br>Událost se stala u Slavíkovic a pole i pluh patřily sedlákovi Ondřeji Trnkovi ze Slavíkovic. V roce 1942 byly Slavíkovice připojeny k Rousínovu, obě rozšiřující se obce splynuly do jednoho celku. Dřevěný pluh skončil v muzeu a dnes je z něj cenná památka na zemědělskou techniku 18. století.<br>Reliéf se podařilo zachránit, jeho model údajně uchovává Moravská galerie. Tvůrcem je vídeňský sochař Josef Klieber (1773 - 1850).  ",
+      naposledObnoveno: " 25.3.2022 ",
+      souradnice: " 49.1971111N, 16.8663072E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gucadofuze" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gucadofuze  ",
+      galerie: [
+        {
+          fotka: "  340orbaRousinov2.jpg",
+          popisek: " Pomník císařské orby (prosinec 2021) ",
+        },
+        {
+          fotka: "  340orbaRousinov3.jpg",
+          popisek: " Reliéf (prosinec 2021) ",
+        },
+        {
+          fotka: "  340orbaRousinov4.jpg",
+          popisek: " Detail císaře (prosinec 2021) ",
+        },
+      ],
+      proMe: " XIIIN/451  24-414-30  21—124    ",
+    },
   ],
 };
