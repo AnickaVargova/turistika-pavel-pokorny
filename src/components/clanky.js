@@ -17620,7 +17620,7 @@ export default {
       popis:
         "  Původně tu stál jen ústřední pomník z lomového kamene, vysokého 2,5 metru, zasazený do nízkého kamenného soklu. Na čelní straně je připevněna tmavá leštěná deska s nápisem. Zezadu na vyleštěné ploše je další text. Postupně přibylo dalších 14 kamenů v jedné řadě kolem silnice a ještě později pětice kamenů vzadu. Všechny kameny jsou popsány. Monumentální dílo. ",
       napis:
-        " Na desce: FARINOVA  ZATÁČKA // památný úsek // Masarykova okruhu. Ze zadní strany pomníku: Památník zbudovala společnost // Obřanské sdružení Větrník Brno // za finanční podpory // statutárního města Brna // a AUTO  RALLYE  CROSS s.r.o. // 25. 9. 2010 . Na ostatních devatenácti kamenech jsou jména vítězů motocyklových i automobilových závodů na Masarykově okruhu, jména nejslavnějších českých jezdců, jména diváckých obětí ve Farinově zatáčce, jména budovatelů okruhu v roce 1930 atd. ",
+        " Na desce: FARINOVA  ZATÁČKA // památný úsek // Masarykova okruhu. Ze zadní strany pomníku: Památník zbudovala společnost // Občanské sdružení Větrník Brno // za finanční podpory // statutárního města Brna // a AUTO  RALLYE  CROSS s.r.o. // 25. 9. 2010 . Na ostatních devatenácti kamenech jsou jména vítězů motocyklových i automobilových závodů na Masarykově okruhu, jména nejslavnějších českých jezdců, jména diváckých obětí ve Farinově zatáčce, jména budovatelů okruhu v roce 1930 atd. ",
       odkazy: [
         {
           nazev: " Encyklopedie Brna ",
@@ -17689,33 +17689,38 @@ export default {
       proMe: " XVII/634  24-312-55  Obl—ost.  20—051  ",
     },
     {
-      id: 337 ,
-      kategorie: 'pomnicky',
-      pridano: ' 22/03/2022 ',
-      podkategorie:16 ,
-      druh: ' Jiné nezařaditelné ',
-      okres:' Blansko ',
-      obec: '  Černovice  ',
-      jmeno: '  Mohyla - Zněcko ',
-      nazev: '  Kamenná mohyla na vrchu Zněcko ',
-      fotkaUvod: {fotka:' 337znecko2.jpg '},
-      kdyVznikl:   '  ', 
-      popisCesty: ' Nejvyšší bod lesního komplexu mezi Černovicemi a Hlubokým leží 1 kilometr V od kostela v Černovicích. Cesta tam nevede, zelená značka je vzdálena 100 metrů.  ',
-      popis: '  Štíhlý kamenný mužík poskládaný z šutrů posbíraných v okolí je vysoký asi dva metry. Výška se každoročně mění, podle toho, jak se kameny po zimních větrech podaří naskládat.  ',
-      napis: ' Ve spodku je barvou neuměle napsáno číslo 699, tedy nadmořská výška vrcholu. ',
-      pozn: '  Pozoruhodný kamenný mužík tu stojí desítky let a snaží se zvýšit nadmořskou výšku vrcholu nad hranici sedmi set metrů, ke které mu chybí jen 80 centimetrů.  ',
-      naposledObnoveno : ' 22.3.2022 ',
-      souradnice: '  49.4861442N, 16.4520117E  ',
-      kodMapa:   '  <iframe style="border:none" src="https://frame.mapy.cz/s/bapokozumu" width="400" height="280" frameborder="0"></iframe>  ' , 
-       odkazMapa:   '  https://frame.mapy.cz/s/bapokozumu  ',
+      id: 337,
+      kategorie: "pomnicky",
+      pridano: " 22/03/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Blansko ",
+      obec: "  Černovice  ",
+      jmeno: "  Mohyla - Zněcko ",
+      nazev: "  Kamenná mohyla na vrchu Zněcko ",
+      fotkaUvod: { fotka: " 337znecko2.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Nejvyšší bod lesního komplexu mezi Černovicemi a Hlubokým leží 1 kilometr V od kostela v Černovicích. Cesta tam nevede, zelená značka je vzdálena 100 metrů.  ",
+      popis:
+        "  Štíhlý kamenný mužík poskládaný z šutrů posbíraných v okolí je vysoký asi dva metry. Výška se každoročně mění, podle toho, jak se kameny po zimních větrech podaří naskládat.  ",
+      napis:
+        " Ve spodku je barvou neuměle napsáno číslo 699, tedy nadmořská výška vrcholu. ",
+      pozn:
+        "  Pozoruhodný kamenný mužík tu stojí desítky let a snaží se zvýšit nadmořskou výšku vrcholu nad hranici sedmi set metrů, ke které mu chybí jen 80 centimetrů.  ",
+      naposledObnoveno: " 22.3.2022 ",
+      souradnice: "  49.4861442N, 16.4520117E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bapokozumu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/bapokozumu  ",
       galerie: [
-      {fotka: '  337znecko1.jpg' , popisek: ' (březen 2009) '},
-      {fotka: '  337znecko2.jpg' , popisek: ' (říjen 2018) '},
-      {fotka: '  337znecko3.jpg' , popisek: ' (říjen 2018) '},
+        { fotka: "  337znecko1.jpg", popisek: " (březen 2009) " },
+        { fotka: "  337znecko2.jpg", popisek: " (říjen 2018) " },
+        { fotka: "  337znecko3.jpg", popisek: " (říjen 2018) " },
       ],
-      proMe:' XVI/592  24-141-37  Obl–BL–Zň  2018—105  ',   
-      },
-      
+      proMe: " XVI/592  24-141-37  Obl–BL–Zň  2018—105  ",
+    },
+
     {
       id: 338,
       kategorie: "pomnicky",
@@ -17825,9 +17830,13 @@ export default {
           nazev: " Slavíkovice ",
           adresa: " http://www.slavikovice.info/?page_id=528 ",
         },
+        {
+          nazev: " Josef_II. ",
+          adresa: "https://cs.wikipedia.org/wiki/Josef_II. ",
+        },
       ],
       pozn:
-        "  K události: uvedeného dne jel císař Josef II s doprovodem navštívit vojenský tábor do Olšan u Prostějova. V těchto místech se jeho kočáru taženému šestispřežím zlomila náprava. Císař vystoupil z ekvipáže a opodál spatřil na poli orajícího čeledína Jana Kartoše. Přistoupil k němu a požádal ho o půjčení pluhu. Zkoprnělý čeledín mu samozřejmě vyhověl a císař se chopil klečí a vyoral na poli jednu brázdu. Myslím, že musel vyorat brázdy dvě, protože se musel ještě vrátit. Orbou uvedl v úžas svůj doprovod a později i císařský dvůr ve Vídni, když se to tam doneslo. Císařova matka Marie Terezie se přimluvila, aby na místě činu vznikla připomínka.<br>Událost se stala u Slavíkovic a pole i pluh patřily sedlákovi Ondřeji Trnkovi ze Slavíkovic. V roce 1942 byly Slavíkovice připojeny k Rousínovu, obě rozšiřující se obce splynuly do jednoho celku. Dřevěný pluh skončil v muzeu a dnes je z něj cenná památka na zemědělskou techniku 18. století.<br>Reliéf se podařilo zachránit, jeho model údajně uchovává Moravská galerie. Tvůrcem je vídeňský sochař Josef Klieber (1773 - 1850).  ",
+        "  K události: uvedeného dne jel císař Josef II s doprovodem navštívit vojenský tábor do Olšan u Prostějova. V těchto místech se jeho kočáru taženému šestispřežím zlomila náprava. Císař vystoupil z ekvipáže a opodál spatřil na poli orajícího čeledína Jana Kartoše. Přistoupil k němu a požádal ho o půjčení pluhu. Zkoprnělý čeledín mu samozřejmě vyhověl a císař se chopil klečí a vyoral na poli jednu brázdu. Myslím, že musel vyorat brázdy dvě, protože se musel ještě vrátit. Orbou uvedl v úžas svůj doprovod a později i císařský dvůr ve Vídni, když se to tam doneslo. Císařova matka Marie Terezie se přimluvila, aby na místě činu vznikla připomínka.<br>Událost se stala u Slavíkovic a pole i pluh patřily sedlákovi Ondřeji Trnkovi ze Slavíkovic. V roce 1942 byly Slavíkovice připojeny k Rousínovu, obě rozšiřující se obce splynuly do jednoho celku. Dřevěný pluh skončil v muzeu a dnes je z něj cenná památka na zemědělskou techniku 18. století.<br>Reliéf se podařilo zachránit, jeho model údajně uchovává Moravská galerie. Tvůrcem je vídeňský sochař Josef Klieber (1773 - 1850). <br>K upřesnění: V roce 1769 byl tehdy osmadvacetiletý <strong>Josef II. (1741 - 1790)</strong> už čtyři roky císařem Svaté říše římské, což byl velmi volný svazek mnoha politických útvarů ve střední Evropě. Vládkyní Rakouského císařství byla jeho matka arcivévodkyně Marie Terezie až do své smrti v listopadu 1780. Josef II. jako následník trůnu se na vládnutí přirozeně podílel a s matkou se v mnohém rozcházel. Rakouským císařem se stal po její smrti.  ",
       naposledObnoveno: " 25.3.2022 ",
       souradnice: " 49.1971111N, 16.8663072E   ",
       kodMapa:
@@ -17848,6 +17857,337 @@ export default {
         },
       ],
       proMe: " XIIIN/451  24-414-30  21—124    ",
+    },
+    {
+      id: 341,
+      kategorie: "pomnicky",
+      pridano: " 30/03/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Břeclav ",
+      obec: " Boleradice  ",
+      jmeno: " Věrozvěsti - Boleradice  ",
+      nazev: " Sousoší Cyrila a Metoděje u Boleradic  ",
+      fotkaUvod: { fotka: " 341věrozvěstiBol1.jpg " },
+      kdyVznikl:
+        " Roku 2009 zřídila sousoší místní organizace Techsport Boleradice.  ",
+      popisCesty:
+        " Sousoší stojí nad Boleradicemi na JZ svahu vrchu Nedánov, 500 m JZ od rozhledny, na vyvýšenině s výhledem na Boleradice. Vede k němu cesta.  ",
+      popis:
+        "  Na betonové desce stojí dřevěné sochy věrozvěstů v mírně nadživotní velikosti. Mezi nimi je dřevěný patriarší kříž vysoký tři metry. Socha vlevo patří svatému Cyrilovi, drží knihu. Pravá socha je svatý Metoděj, má  biskupskou mitru a drží kříž.  ",
+      napis: " Nemá, jen vlastivědné cedule.  ",
+      odkazy: [
+        {
+          nazev: " Břeclavský deník ",
+          adresa:
+            " https://breclavsky.denik.cz/zpravy_region/sousosi-cyrila-a-metodeje-laka-na-vylet-do-boleradic-20130705.html ",
+        },
+        {
+          nazev: " Rozhlas ",
+          adresa:
+            " https://region.rozhlas.cz/pri-pohledu-od-sousosi-cyrila-a-metodeje-nad-boleradicemi-se-pred-vami-otevrou-8417702 ",
+        },
+      ],
+      pozn:
+        "  Autorem sousoší je řezbář a sochař Ivan “Dědek” Kříž. Každý rok se sochy musí přetřít lněným olejem, aby vydržely. Místo a vyhlídka jsou oblíbené, dokonce se tu odehrály i svatební obřady.  ",
+      naposledObnoveno: " 30.3.2022 ",
+      souradnice: "  48.9776808N, 16.8139539E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lumabazasu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lumabazasu  ",
+      galerie: [
+        {
+          fotka: "  341věrozvěstiBol2.jpg",
+          popisek: " Vyhlídka na Boleradice (únor 2022) ",
+        },
+        {
+          fotka: "  341věrozvěstiBol3.jpg",
+          popisek: " Sousoší Cyrila a Metoděje (únor 2022) ",
+        },
+        {
+          fotka: "  341věrozvěstiBol4.jpg",
+          popisek: " Detail sochy Metoděje (únor 2022) ",
+        },
+      ],
+      proMe: " XX/1182  34-211-37 22—024  ",
+    },
+    {
+      id: 342,
+      kategorie: "pomnicky",
+      pridano: " 31/03/2022 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - město ",
+      obec: "  Brno - Jehnice  ",
+      jmeno: " Boží muka - Jehnice  ",
+      nazev: " Bratelbrunnská boží muka u Jehnic  ",
+      fotkaUvod: { fotka: " 356dvemuky1.jpg " },
+      kdyVznikl: "  1674 - podle pověsti i letopočtu na sloupku ",
+      popisCesty:
+        "  Boží muka stojí u silnice z Jehnic na Vranov, 800 metrů SSV od kapličky v Jehnicích, 200 metrů od rozšiřující se obce. ",
+      popis:
+        "  Na podstavci s psaníčky, dnes zasypaném hlínou, je čtyřhranný sloup, původně z pískovce, nyní z betonu, s letopočtem. Na sloupu je čtyřhranná hlavice, orámovaná římsami, s plechovým obrázkem vranovské Panny Marie a nápisem. Stavbičku vysokou tři metry završuje kamenný latinský křížek. Olíčeno vápnem. ",
+      napis:
+        " na sloupu:  +  //  B B  //  1674 <br>na obrázku: Z vděčnosti k Panně Marii Vranovské // za odvrácení morové rány v obci Bratelsbrunn // nedaleko Mikulova v r. 1674 .<br>Písmena B B na sloupu znamenají Bratelsbrunn, dřívější název obce Březí u Mikulova.  ",
+      odkazy: [
+        {
+          nazev: " Vilém Walter ",
+          adresa: " http://vilemwalter.cz/dsa/jehnice.htm ",
+        },
+        {
+          nazev: " Památkový katalog ",
+          adresa: " https://www.pamatkovykatalog.cz/bozi-muka-18710227 ",
+        },
+        { nazev: " Staré stezky.11/2006. Sborník referátů, str.46 " },
+      ],
+      pozn:
+        "  K boží muce se vztahuje legenda, kterou opsal vranovský farář Weindlich z farní kroniky obce Bratelsbrunn a zveřejnil roku 1894. V obci Bratelsbrunn u rakouských hranic vypukl mor. Mrtvých přibývalo, modlitby a mše nepomáhaly. Brátelbrunští se tedy rozhodli, že vykonají prosebnou pouť na Vranov k Panně Marii. Šli pěšky několik dní a když došli na kraj hlubokých lesů do míst, kde stojí tato boží muka, modlili se za odvrácení morové rány. Pak pokračovali na Vranov a po vykonání pobožností se vraceli se strachem domů. Jaké bylo jejich překvapení, když v domovské vsi byli všichni živi a zdrávi. Vyptávali se, kdy nemoc ustoupila a zjistili, že to bylo zrovna v den, kdy se modlili za Jehnicemi. Na paměť tohoto zázraku pak zřídili tuto boží muku a na výroční den Narození Panny Marie, 8. září, se konala v brátelsbrunském kostele slavná mše s díkůvzdáním. Časem se ale na událost zapomnělo a roku 1713 nemoc udeřila znovu. I vzpomenul jeden pamětník na daný slib a tak se znovu vypravili na Vranov, u boží muky padli na kolena a prosili o odvrácení nemoci. Od té doby každý rok přicházeli poutníci z Bratelsbrunnu, u boží muky konali pobožnost a ozdobili ji věnečkem.<br>Farní kronika čistě německé obce Bratelsbrunn se po válce ztratila, zřejmě v souvislosti s odsunem německého obyvatelstva.<br>Vzdálenost 70 kilometrů nebyla pro poutníky nijak výjimečná, chodilo se na poutě i do vzdálenějších míst. Jistá potíž je v tom, že roku 1674 žádná morová rána na Moravě nezuřila. V roce 1713 byl černý mor kronikáři zaznamenán.<br>Boží muka byla několikrát v historii poškozena, ba zničena. Po druhé světové válce vyškrábal přičinlivý strážmistr z vlasteneckých důvodů německý nápis na obrázku (zněl: Heilige Maria Mutter Gottes bitte für uns). Ale brzy nechala soukromnice z Jehnic vyrobit dnešní obrázek s českým nápisem. V roce 1959 byla boží muka povalena opilými výrostky, sloup byl poškozen a nahrazen betonem. Starý sloup byl zahrnut do země, vykopán vlastivědci po pětačtyřiceti letech a jeho torzo odhaleno na návsi v Jehnicích o hodech roku 2010. Ale z podoby číslic letopočtu se zdá, že ani tento sloup není původní. ",
+      naposledObnoveno: " 31.3.2022 ",
+      souradnice: "  49.2785311N, 16.5986875E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/democunore" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/democunore  ",
+      galerie: [
+        {
+          fotka: "  354BMjehnice1.jpg",
+          popisek: " Bratelsbrunnská boží muka (březen 2022) ",
+        },
+        { fotka: "  354BMjehnice2.jpg", popisek: " (březen 2022) " },
+        {
+          fotka: "  354BMjehnice3.jpg",
+          popisek: " Detail obrázku (březen 2022) ",
+        },
+      ],
+      proMe: " XIV/478  24-324-11  22—032  ",
+    },
+    {
+      id: 343,
+      kategorie: "pomnicky",
+      pridano: " 01/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Ivančice  ",
+      jmeno: " Ivančice - stromokruh  ",
+      nazev: " Stromokruh Evropy u Ivančic  ",
+      fotkaUvod: { fotka: " 343stromokruh1.jpg " },
+      kdyVznikl:
+        " V neděli 29. března 2009 za deštivého počasí byly na společné akci vysázeny stromy do kruhu. Postupně přibyla uprostřed nich zvonice, trojlavička, v roce 2016 zavěsili do zvonice zvon. ",
+      popisCesty:
+        " 1,5 kilometru VJV od kostela v Ivančicích, na levém břehu řeky, na louce, kterou řeka obtéká širokým obloukem, než doteče k jezu u Stříbského mlýna. Nejlepší cesta vede kolem řeky od železniční zastávky Ivančice-město, cesta po silnici od Stříbského mlýna je nebezpečná.   ",
+      popis:
+        "  Uprostřed louky stojí osmimetrová dřevěná zvonice, krytá stanovou střechou. V ní je zavěšeno duté kované srdce. Ve zvonici je zavěšen zvon, má nápis Srdce Evropy. Nohy zvonice jsou ozdobeny nápisy. Kolem zvonice je v kruhu o průměru 48 metrů vysázeno 27 stromů, reprezentujících 27 členských zemí Evropské unie. Převažují lípy a duby. V horní části louky je odpočinkové místo, trojlavička a naučná cedule. Od silnice odděluje louku pás vysazených dubů, lip a olší. Autorem konstrukce zvonice a lavičky je sochař Josef Zahradník ze Stříbského mlýna. ",
+      napis:
+        "na sloupu:  POUTNÍKU // CINKNI // NA  SRDCE // A  VYJDI // Z TOHO // SVÉHO // VEN // PROBUĎ // V SOBĚ // PŘÁTELSTVÍ // A NAPLŇ // DÁVNÝ // LIDSKÝ // SEN  ",
+      odkazy: [
+        {
+          nazev: " Okrašlovací spolek ",
+          adresa: " http://okraslovacispolekivancice.cz/ ",
+        },
+      ],
+      pozn:
+        "  Autorem sympatického nápadu je Martina Kaménka Turečková, kovářka, jogínka, a hybatelka z Ivančic. Na společenské akci v březnu 2009 zasadili účastníci 27 stromů do kruhu. Předcházely tomu konzultace s velvyslanectvími, který druh stromu má jako národní strom reprezentovat jakou zemi a s botaniky Masarykovy univerzity, který strom je vhodný pro toto místo. Choulostivé druhy (oliva, korkový dub, cedr) byly nahrazeny domácími dřevinami.  V srpnu 2009 vykovali účastníci kurzu kovářů ve Stříbském mlýně 1,5metrové Srdce Evropy. Na podzim téhož roku vznikl okrašlovací spolek Ivančice, který se o louku stará a jehož iniciátory jsou manželé Turečkovi a Zahradníkovi. Srdce bylo příští rok zavěšeno do provizorní zvoničky uprostřed kruhu ze zasazených stromů. V roce 2011 vandal úmyslně podřezal všechny stromky, musely být znovu vysázeny, větší a silnější. Novou střechu na zvonici pořídili v roce 2015 a v dalším roce byl do zvonice zavěšen zvon, ulitý zvonařkou Leticií Vránovou-Dytrychovou z Brodku u Přerova. Každoroční úklid louky v dubnu se stal společenskou událostí pro spřízněné duše.<br>Stromokruh se stal prvním ze seriálu Ivančických zastavení, soch, sousoší a řezeb, které vytváří a do blízkého okolí Ivančic umísťuje výtvarník Jan Zahradník. Zatím jich vzniklo třináct (do roku 2021).  ",
+      naposledObnoveno: " 1.4.2022 ",
+      souradnice: " 49.0966053N, 16.3964303E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kecopurotu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/kecopurotu  ",
+      galerie: [
+        {
+          fotka: "  343stromokruh2.jpg",
+          popisek: "Stromokruh Evropy (únor 2022) ",
+        },
+        {
+          fotka: "  343stromokruh3.jpg",
+          popisek: " Pohled na zvonici uprostřed (únor 2022) ",
+        },
+        {
+          fotka: "  343stromokruh4.jpg",
+          popisek: " Detail nápisu na noze zvonice (únor 2022) ",
+        },
+      ],
+      proMe: " XX/1177  24-343-63  22—021  ",
+    },
+    {
+      id: 344,
+      kategorie: "pomnicky",
+      pridano: " 03/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Ivančice  ",
+      jmeno: " Ivančice - ptačí hotel  ",
+      nazev: "Zastavení Ptačí hotel pod Rénou                                ",
+      fotkaUvod: { fotka: "  344ptaciHotel2.jpg " },
+      kdyVznikl: " 2017, slavnostní otevření se konalo v pátek 1. září 2017. ",
+      popisCesty:
+        " Zastavení lze najít na pravém břehu Jihlavky, 1,6 kilometru VJV od kostela  v Ivančicích, na malé plošině pod svahem Rény. Kolem řeky vede upravená stezka. ",
+      popis:
+        "  Několik sochařských a řezbářských objektů je na malé plošince obklopené kameny. Ústřední objekt je třímetrová ptačí noha, vyzděná z lomového kamene na cementovou maltu. Je do ní vytesán nápis. Vedle stojí zděný kamenný sloup s tabulí. Na tabuli jsou vyobrazeni ptáci žijící v okolí. V zadní části plošiny je metr vysoká socha sovy z umně pospojovaných přitesaných kamenů. Celou kompozici doplňuje kamenný stůl a řezbářské prvky - lavičky a zdobené sloupy.     ",
+      napis:
+        " Na pařátu ptačí nohy:  PTAČÍ  //  HOTEL . Další nápisy jsou na dřevěných sloupech.  ",
+      odkazy: [
+        {
+          nazev: " Ivančice ",
+          adresa:
+            " https://ivancice.colosseum.eu/index.php/cs/informace-pro-turisty/ivancicka-zastaveni/236-zastaveni-ptaci-hotel ",
+        },
+      ],
+      pozn:
+        "  Toto sousoší patří do souboru Ivančických zastavení, která do okolí Ivančic rozmisťuje sochař samouk Josef Zahradník ze Stříbského mlýna.  ",
+      naposledObnoveno: " 3.4.2022 ",
+      souradnice: "  49.0948367N, 16.3964336E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pezobepabu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/pezobepabu  ",
+      galerie: [
+        {
+          fotka: "  344ptaciHotel1.jpg",
+          popisek: "Ivančické zastavení Ptačí hotel (únor 2022) ",
+        },
+        {
+          fotka: "  344ptaciHotel3.jpg",
+          popisek: " Detail ptačí nohy (únor 2022) ",
+        },
+        { fotka: "  344ptaciHotel4.jpg", popisek: "Detail sovy (únor 2022) " },
+      ],
+      proMe: "  XX/1176  24-343-62  22—021  ",
+    },
+    {
+      id: 345,
+      kategorie: "pomnicky",
+      pridano: " 05/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Ivančice ",
+      jmeno: "  Ivančice - bohyně Réna  ",
+      nazev: " Socha bohyně Rény u Ivančic  ",
+      fotkaUvod: { fotka: " 345bohyneRena1.jpg " },
+      kdyVznikl:
+        " 2018. Slavnostní otevření opravených stezek a vyhlídek se konalo v neděli 28. října 2018 . ",
+      popisCesty:
+        " Socha je součástí přírodního parku pod Rénou na JV od Ivančic. Stojí u upravené stezky k Muchově rozhledně.  ",
+      popis:
+        "  Třímetrová socha je tvořena třemi opracovanými kmeny, do nich je vyřezán hluboký reliéf pohádkové bytosti. Vedle je na podstavci otesaná kamenná deska s reliéfem tváře a nápisem.  ",
+      napis: " BOHYNĚ  //  RÉNA   ",
+      odkazy: [
+        {
+          nazev: " Ivančice ",
+          adresa:
+            " https://ivancice.cz/investice/rozhledna-alfonse-muchy-a-pristupova-cesta-byly-opraveny/ ",
+        },
+      ],
+      pozn:
+        "  Socha patří k souboru Ivančických zastavení, která v okolí Ivančic umísťuje amatérský sochař a řezbář Josef Zahradník. Pracuje s kombinací kovu, kamene a dřeva a mnoha dílům nechybí humor. V letech 2007 až 2020 jich vytvořil a rozmístil nejméně třináct, nepočítaje artefakty u Stříbského mlýna, který je sochařovou základnou.  ",
+      naposledObnoveno: " 5.4.2022 ",
+      souradnice: "  49.0974608N, 16.3866986E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/casonuboco" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/casonuboco  ",
+      galerie: [
+        { fotka: "  345bohyneRena4.jpg", popisek: " Bohyně Réna (únor 2022) " },
+        { fotka: "  345bohyneRena2.jpg", popisek: " (únor 2022) " },
+        {
+          fotka: "  345bohyneRena1.jpg",
+          popisek: " Detail nápisu (únor 2022) ",
+        },
+        {
+          fotka: "  345bohyneRena3.jpg",
+          popisek: " Detail postavy (únor 2022) ",
+        },
+      ],
+      proMe: "  XX/1175  24-343-61  22—021  ",
+    },
+    {
+      id: 346,
+      kategorie: "pomnicky",
+      pridano: " 05/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Ivančice  ",
+      jmeno: " Ivančice - liška  ",
+      nazev: " Zastavení U lišky na Réně  ",
+      fotkaUvod: { fotka: " 346uLisky1.jpg " },
+      kdyVznikl: " 2011 ",
+      popisCesty:
+        " Sochu lišky najdeme na vrcholové plošině kopce Réna, 1,8 km JV od kostela v Ivančicích. Kolem prochází červená značka.    ",
+      popis:
+        "  Dřevěná stylizovaná socha lišky slouží i jako lavička.  Součástí zastavení je i dřevěný altán se stolem a lavicemi, zastřešený stanovou střechou.  ",
+      odkazy: [
+        {
+          nazev: " Ivančice ",
+          adresa:
+            " https://ivancice.colosseum.eu/index.php/cs/informace-pro-turisty/ivancicka-zastaveni/230-zastaveni-u-lisky ",
+        },
+      ],
+      pozn:
+        "  Podle doby vzniku je to druhé ivančické zastavení a pochází z dílny místního výtvarníka Josefa Zahradníka ze Stříbského mlýna, který své objekty umisťuje do okolí Ivančic.  ",
+      naposledObnoveno: " 5.4.2022 ",
+      souradnice: "  49.0882836N, 16.3922506E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/febubavelo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/febubavelo  ",
+      galerie: [
+        {
+          fotka: "  346uLisky2.jpg",
+          popisek: " Zastavení U lišky (únor 2022 ) ",
+        },
+        { fotka: "  346uLisky3.jpg", popisek: " (únor 2022 ) " },
+      ],
+      proMe: " XX/1174  24-343-59  22—021 ",
+    },
+    {
+      id: 347,
+      kategorie: "pomnicky",
+      pridano: " 06/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Budkovice  ",
+      jmeno: " Ivančice - zvěrokruh  ",
+      nazev: " Znamení zvěrokruhu u Budkovic  ",
+      fotkaUvod: { fotka: " 347zverokruh1.jpg " },
+      kdyVznikl: " 2016 ",
+      popisCesty:
+        " Sousoší je umístěno na JV okraji Budkovic, u cesty směřující do údolí Rokytné. Vedle stojí pomník hasiče Karla Novotného. ",
+      popis:
+        " Nejrozsáhlejší z Ivančických zastavení ukazuje soubor dvanácti kamenných a dřevěných soch rozmístěných v kruhu o průměru asi 20 metrů. Uprostřed kruhu je kamenné ohniště. Součástí většiny soch je i dřevěná lavička, tedy lze na ně usednout. Popis začneme u výrazné sochy Panny ve směru hodinových ručiček, stejně jako na obloze. Vedle jsou Váhy, pak Štír s jedovatým ostnem. Následuje Střelec s vysokým kopím, Kozoroh s kovovými rohy a celokamenný Vodnář. Vedle něj je výrazné sousoší Ryb, následuje Beran a za ním Býk s kovovými rohy. Hůře určitelní jsou Blíženci, ale Raka a Lva pozná každé dítě. ",
+      napis:
+        " Na každém znamení je latinský název souhvězdí, na soše Panny - Virgo je zezadu nápis BUDKOVICKÁ  VENUŠE .  ",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Zv%C4%9Brokruh ",
+        },
+        {
+          nazev: " Rajče ",
+          adresa: " https://magrez.rajce.idnes.cz/Zverokruh-_Budkovice/ ",
+        },
+      ],
+      pozn:
+        "  Soubor soch vytvořil ivančický amatérský výtvarník Josef Zahradník ze Stříbského mlýna se spolupracovníky.<br>Zvěrokruh, <strong>zvířetník nebo též zodiac</strong> je pás na obloze široký 16°, ve kterém se pohybuje Slunce a všechny planety. Dávní astrologové před čtyřmi tisíci lety rozdělili tento pás na 12 obdélníkových dílů a pojmenovali podle souhvězdí v nich.  Znamení zvěrokruhu je odvozeno od polohy Slunce, které vstupuje v jistém čase do souhvězdí. Dodržuje se astrologické dělení z antiky, v dnešní době se slunce promítá do souhvězdí trochu jinak. Na začátku je jarní bod, kdy se ekliptika protne se zemským rovníkem. Tento okamžik nastane při jarní rovnodennosti, tedy většinou 20. března. Slunce vstoupí do prvního znamení a tím je Beran - Aries.  ",
+      naposledObnoveno: " 6.4.2022 ",
+      souradnice: "  49.0714089N, 16.3490006E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mamozeroze" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/mamozeroze  ",
+      galerie: [
+        {
+          fotka: "  347zverokruh2.jpg",
+          popisek: " Zvěrokruh u Budkovic (únor 2022) ",
+        },
+        {
+          fotka: "  347zverokruh3.jpg",
+          popisek: " Zleva Panna, Váhy a část Střelce (únor 2022) ",
+        },
+        {
+          fotka: "  347zverokruh4.jpg",
+          popisek: " Zleva Ryby, Beran, Býk (únor 2022) ",
+        },
+      ],
+      proMe: "  XX/1173  24-343-58  22—021  ",
     },
   ],
 };
