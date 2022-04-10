@@ -59,6 +59,11 @@ const routes = [
     component: Pomnicky,
   },
   {
+    path: "/pomnicky/:kategorie/long",
+    name: "PomnickyKategorieLong",
+    component: Pomnicky,
+  },
+  {
     path: "/pomnicky/:kategorie/:id",
     name: "DetailPomnicku",
     component: DetailPomnicku,
@@ -81,6 +86,11 @@ const routes = [
   {
     path: "/smircikrize/:kategorie",
     name: "SmirciKrizeKategorie",
+    component: SmirciKrize,
+  },
+  {
+    path: "/smircikrize/:kategorie/long",
+    name: "SmirciKrizeKategorieLong",
     component: SmirciKrize,
   },
   {

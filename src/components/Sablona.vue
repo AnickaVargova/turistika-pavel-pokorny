@@ -59,16 +59,27 @@
           {{ odstavec.textOdstavce }}
         </p>
       </div>
-      <div
-        id="rozbalit"
-        class="pomnicekKategorie"
-        v-if="
-          $route.name === 'SmirciKrizeKategorie' ||
-            $route.name === 'PomnickyKategorie'
-        "
-        v-on:click="fullVersionToggler"
-      >
-        {{ zalozkyUkazat ? "Rozbalit vše" : "Zkrácená verze" }}
+      <div id="rozbalitWrapper">
+        <router-link
+          v-bind:to="
+            `/${innerParams.stranka}/${$route.params.kategorie}${
+              !isLongVersion ? '/long' : ''
+            }`
+          "
+        >
+          <div
+            id="rozbalit"
+            class="pomnicekKategorie"
+            v-if="
+              $route.name === 'SmirciKrizeKategorie' ||
+                $route.name === 'PomnickyKategorie' ||
+                isLongVersion
+            "
+            v-on:click="fullVersionToggler"
+          >
+            {{ isLongVersion ? "Zkrácená verze" : "Rozbalit vše" }}
+          </div>
+        </router-link>
       </div>
     </div>
     <!-- <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" /> : -->
@@ -223,7 +234,7 @@
           "
           v-bind:clanky="clankyPodKategorie"
           v-bind:stranka="innerParams.stranka"
-          v-bind:zalozkyButton="zalozkyUkazat"
+          v-bind:zalozkyButton="!isLongVersion"
           v-bind:key="clankyKey"
         />
         <OknoPomnicky
@@ -235,7 +246,7 @@
           v-bind:clanky="clankyPodKategorie"
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
           v-on:kliknuti="vyfiltrujPomnicek"
-          v-bind:zalozkyButton="zalozkyUkazat"
+          v-bind:zalozkyButton="!isLongVersion"
           v-bind:key="pomnickyKey"
         />
       </div>
@@ -272,9 +283,11 @@
         menuColumn: false,
         pomnickyUkazat: false,
         clankyUkazat: true,
-        zalozkyUkazat: true,
         clankyKey: 0,
         pomnickyKey: 1,
+        isLongVersion:
+          this.$route.name === "PomnickyKategorieLong" ||
+          this.$route.name === "SmirciKrizeKategorieLong",
       };
     },
 
@@ -288,7 +301,6 @@
         return pomnicky.every((pomnicek) => pomnicek.fotkaUvod);
       },
       fullVersionToggler() {
-        this.zalozkyUkazat = !this.zalozkyUkazat;
         this.forceRerender();
       },
 
@@ -700,16 +712,18 @@
   }
 
   #rozbalit {
-    grid-column: 5/6;
-    align-self: flex-end;
-    justify-self: flex-end;
-    /* margin-right: 30px; */
     min-width: unset;
     max-width: unset;
     width: 116px !important;
     padding: 0 10px;
     height: 35px;
     background-color: #459ae6;
+  }
+
+  #rozbalitWrapper {
+    grid-column: 5/6;
+    align-self: flex-end;
+    justify-self: flex-end;
   }
 
   #tlacitkoDomu:hover,
