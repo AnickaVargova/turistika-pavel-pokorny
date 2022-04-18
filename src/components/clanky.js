@@ -18189,5 +18189,238 @@ export default {
       ],
       proMe: "  XX/1173  24-343-58  22—021  ",
     },
+    {
+      id: 348,
+      kategorie: "pomnicky",
+      pridano: " 07/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Koválovice  ",
+      jmeno: " Pomník koním ",
+      nazev: " Pomník zabitým koním na Staré poště  ",
+      fotkaUvod: { fotka: " 348sochaKonim1.jpg " },
+      kdyVznikl:
+        " Základní kámen k pomníku byl položen 10. prosince 2008, slavnostní odhalení bylo při Napoleonských dnech v neděli 15. srpna 2010. ",
+      popisCesty:
+        " Samota Stará pošta stojí u silnice z Brna na Vyškov, na SV od Holubic. K soše je třeba projít od penzionu uličkou dozadu k hospodářským budovám, je asi 100 metrů od silnice.  ",
+      popis:
+        "  Na kamenném základu s kovovou tabulkou je bronzová socha zraněného koně v životní velikosti, znázorněná v okamžiku zásahu do břicha.  ",
+      napis:
+        " … //  ZABITÝM  KONÍM // … //  AUSTERLITZ  1805 .  Totéž francouzsky, rusky, německy, anglicky.  ",
+      odkazy: [
+        {
+          nazev: " Idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/zpravy/bronzova-socha-pripomene-tisice-padlych-koni.A100728_1423536_brno-zpravy_bor ",
+        },
+        {
+          nazev: " Turistika ",
+          adresa:
+            " https://www.turistika.cz/mista/pomnik-konum-padlym-v-bitve-u-slavkova/detail ",
+        },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  V historickém objektu Staré pošty se koně chovají od roku 1785, kdy tu vznikla poštovní přepřahací stanice na trase tehdy nové silnice z Brna do Olomouce. Mají tu zrekonstruovanou původní konírnu. Při bitvě u Slavkova zahynulo nejvíce koní právě v polích okolo, kde se utkávala těžká ruská jízda s francouzskou kavalerií. Odhaduje se, že se bitvy účastnilo 40 tisíc koní, tažných i jezdeckých a z nich 6 až 8 tisíc zahynulo.<br>Majitelé zdejší usedlosti se zabývají chovem koní a přišli s myšlenkou uctít památku těchto zvířat. Autorem sochy je sochař Nikos Armutidis z Veverských Knínic. Socha je odlitek, váží 300 kilogramů a byla financována ze soukromých zdrojů.   ",
+      naposledObnoveno: " 7.4.2022 ",
+      souradnice: "  49.1859889N, 16.8256322E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bekunopeka" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/bekunopeka  ",
+      galerie: [
+        {
+          fotka: "  348sochaKonim2.jpg",
+          popisek: " Pomník zabitým koním (prosinec 2021) ",
+        },
+        { fotka: "  348sochaKonim3.jpg", popisek: " (prosinec 2021) " },
+        {
+          fotka: "  348sochaKonim4.jpg",
+          popisek: " Detail desky na podstavci(prosinec 2021) ",
+        },
+      ],
+      proMe: " XX/1166  24-431-67 21—124  ",
+    },
+    {
+      id: 349,
+      kategorie: "pomnicky",
+      pridano: " 07/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Třebíč ",
+      obec: "  Kralice  ",
+      jmeno: " Skulptura u rybníku Pivovárek  ",
+      nazev: " Skulptura - Pivovárek  ",
+      fotkaUvod: { fotka: " 349uPivovarku1.jpg " },
+      kdyVznikl:
+        "  Zřejmě roku 2011, jako součást revitalizace rybníku Pivovárek. ",
+      popisCesty:
+        " Rybník Pivovárek je vzdálen 400 metrů SSV od kostela v Kralicích, u silnice do Jinošova. Na jeho S břehu na loučce s lavičkami stojí skulptura.  ",
+      popis:
+        "  Na trojbokém metr vysokém betonovém podstavci s cedulkami stojí abstraktní betonové těleso s kanelovaným okrajem. ",
+      napis:
+        " <i>Ani jediná kapka vody // nesmí odejít do moře bez toho, // aby posloužila lidem…</i> //  Král Srí Lanky Parakramabahu Veliký (1153 - 1186) ",
+      pozn: "    ",
+      naposledObnoveno: " 7.4.2022 ",
+      souradnice: "  49.2032894N, 16.2041475E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/noladakalu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/noladakalu  ",
+      galerie: [
+        {
+          fotka: "  349uPivovarku2.jpg",
+          popisek: "  Rybník Pivovárek (říjen 2021) ",
+        },
+        {
+          fotka: "  349uPivovarku3.jpg",
+          popisek: " Skulptura na břehu (říjen 2021) ",
+        },
+        {
+          fotka: "  349uPivovarku4.jpg",
+          popisek: " Detail tabulky (říjen 2021) ",
+        },
+      ],
+      proMe: " XX/1154  24-314-40  21—101  ",
+    },
+    {
+      id: 350,
+      kategorie: "pomnicky",
+      pridano: " 08/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - venkov ",
+      obec: "  Kuřim  ",
+      jmeno: " Kamenný kruh  ",
+      nazev: " Kamenný kruh pod Zlobicí  ",
+      fotkaUvod: { fotka: " 350kruhKurim1.jpg " },
+      kdyVznikl: "  Novodobá záležitost, po roce 2010. ",
+      popisCesty:
+        " Kamenný kruh leží na polní pláni SZ od Kuřimi, 500 metrů S od rybníka Srpek. Červeně značená cesta a cyklostezka na Zlobici vedou sto metrů od něj. Kolem je vysázen sad a místo se vždy jmenovalo U hrušky. Opodál je nově vysazená hrušeň. ",
+      popis:
+        "  Na obvodu pomyslného kruhu o průměru 8 metrů je rozmístěno 13 lomových kamenů, osazených na výšku do trávníku. Jedenáct z nich vyčnívá zhruba metr, dva nejvyšší vedle sebe jsou vysoké 1,8 a 2,1 metru. Uprostřed kruhu je malý plochý kámen.    ",
+      odkazy: [
+        {
+          nazev: " Kudyznudy ",
+          adresa:
+            " https://www.kudyznudy.cz/aktuality/stonehenge-kamenne-kruhy-a-dalsi-mysticka-mista-v ",
+        },
+      ],
+      naposledObnoveno: " 8.4.2022 ",
+      souradnice: "  49.3093800N, 16.5216200E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hudodukove" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hudodukove  ",
+      galerie: [
+        {
+          fotka: "  350kruhKurim2.jpg",
+          popisek: "Vysazená hrušeň a pohled na Kuřim (září 2021) ",
+        },
+        {
+          fotka: "  350kruhKurim3.jpg",
+          popisek: "Kamenný kruh pod Zlobicí (září 2021) ",
+        },
+        { fotka: "  350kruhKurim4.jpg", popisek: " (září 2021) " },
+      ],
+      proMe: " XX/1150  24-322-89  21—091  ",
+    },
+    {
+      id: 351,
+      kategorie: "pomnicky",
+      pridano: " 14/04/2022 ",
+      podkategorie: 10,
+      druh: " Sakrální, sochy v přírodě ",
+      dveId: true,
+      okres: " Brno - venkov ",
+      obec: "  Strhaře  ",
+      jmeno: " Stanislav - Strhaře  ",
+      nazev: " Socha svatého Stanislava nad údolím Besénku  ",
+      fotkaUvod: { fotka: " 351stanislavZleby2.jpg " },
+      kdyVznikl:
+        " 18. století. Někdy v letech 1852 - 1859 sochu restauroval a upravoval tišnovský sochař Josef Břenek (1820 - 1878). ",
+      popisCesty:
+        " 900 metrů JZ od kapličky ve Strhařích, na strmém ostrohu nad údolím Besénku u osady Žleby, na V straně údolí, asi 100 metrů od silnice velmi strmě vzhůru. Od V tam vede pěšina.  ",
+      popis:
+        "  Monumentální socha světce stojí na nízkém podstavci a je vysoká přes tři metry. Je silně poškozená, soše chybí ruce, přesto v tomto prostředí, na hraně svahu a v lese působí velmi emotivně.  ",
+      odkazy: [
+        {
+          nazev: " Památky ",
+          adresa: " https://pamatkovykatalog.cz/socha-sv-stanislava-2174061 ",
+        },
+        {
+          nazev: " Wikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Svat%C3%BD_Stanislav ",
+        },
+      ],
+      pozn:
+        "  Místo je pověstí spojeno s nedalekým kostelíkem svatého Stanislava blízko Osik. Ten pochází nejméně ze začátku 15. století. Dle pověsti měl stát kostelík právě na místě sochy. Ale vždy v noci přiletěli dva orli a přenesli nachystaný materiál na protější  stranu údolí. Stavebníkům tedy nezbylo, než se podvolit zásahu vyšší moci a postavit kostel na druhé straně údolí.<br><strong>Svatý Stanislav I.</strong> ze Szczepanowa (1030 - 1079) je patronem Polska. Byl polský katolický biskup v Krakově. Měl rozepře s králem Boleslavem II. zvaným Krutý, kterého kritizoval za nemravný život. Zemřel v kostele při mši, když ho král vlastnoručně proklál mečem. Papež kanonizoval Stanislava roku 1253, atributy svatého jsou biskupský plášť a hůl, někdy i meč.  ",
+      naposledObnoveno: " 14.4.2022 ",
+      souradnice: "  49.4304400N, 16.4291969E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/muzohohavo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/muzohohavo  ",
+      galerie: [
+        {
+          fotka: " 351stanislavZleby2.jpg ",
+          popisek: " Socha svatého Stanislava (květen 2021) ",
+        },
+        { fotka: " 351stanislavZleby3.jpg ", popisek: " (květen 2021) " },
+        { fotka: " 351stanislavZleby4.jpg ", popisek: " (květen 2021) " },
+        {
+          fotka: " 351stanislavZleby5.jpg ",
+          popisek: " Detail postavy (květen 2021) ",
+        },
+      ],
+      proMe: " XX/1145  24-143-45  21—051  ",
+    },
+    {
+      id: 354,
+      kategorie: "pomnicky",
+      pridano: " 14/04/2022 ",
+      podkategorie: 15,
+      druh: " Sochy v přírodě, sakrální ",
+      dveId: true,
+      okres: " Brno - venkov ",
+      obec: "  Strhaře  ",
+      jmeno: " Stanislav - Strhaře  ",
+      nazev: " Socha svatého Stanislava nad údolím Besénku  ",
+      fotkaUvod: { fotka: " 351stanislavZleby2.jpg " },
+      kdyVznikl:
+        " 18. století. Někdy v letech 1852 - 1859 sochu restauroval a upravoval tišnovský sochař Josef Břenek (1820 - 1878). ",
+      popisCesty:
+        " 900 metrů JZ od kapličky ve Strhařích, na strmém ostrohu nad údolím Besénku u osady Žleby, na V straně údolí, asi 100 metrů od silnice velmi strmě vzhůru. Od V tam vede pěšina.  ",
+      popis:
+        "  Monumentální socha světce stojí na nízkém podstavci a je vysoká přes tři metry. Je silně poškozená, soše chybí ruce, přesto v tomto prostředí, na hraně svahu a v lese působí velmi emotivně.  ",
+      odkazy: [
+        {
+          nazev: " Památky ",
+          adresa: " https://pamatkovykatalog.cz/socha-sv-stanislava-2174061 ",
+        },
+        {
+          nazev: " Wikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Svat%C3%BD_Stanislav ",
+        },
+      ],
+      pozn:
+        "  Místo je pověstí spojeno s nedalekým kostelíkem svatého Stanislava blízko Osik. Ten pochází nejméně ze začátku 15. století. Dle pověsti měl stát kostelík právě na místě sochy. Ale vždy v noci přiletěli dva orli a přenesli nachystaný materiál na protější  stranu údolí. Stavebníkům tedy nezbylo, než se podvolit zásahu vyšší moci a postavit kostel na druhé straně údolí.<br><strong>Svatý Stanislav I.</strong> ze Szczepanowa (1030 - 1079) je patronem Polska. Byl polský katolický biskup v Krakově. Měl rozepře s králem Boleslavem II. zvaným Krutý, kterého kritizoval za nemravný život. Zemřel v kostele při mši, když ho král vlastnoručně proklál mečem. Papež kanonizoval Stanislava roku 1253, atributy svatého jsou biskupský plášť a hůl, někdy i meč.  ",
+      naposledObnoveno: " 14.4.2022 ",
+      souradnice: "  49.4304400N, 16.4291969E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/muzohohavo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/muzohohavo  ",
+      galerie: [
+        {
+          fotka: " 351stanislavZleby2.jpg ",
+          popisek: " Socha svatého Stanislava (květen 2021) ",
+        },
+        { fotka: " 351stanislavZleby3.jpg ", popisek: " (květen 2021) " },
+        { fotka: " 351stanislavZleby4.jpg ", popisek: " (květen 2021) " },
+        {
+          fotka: " 351stanislavZleby5.jpg ",
+          popisek: " Detail postavy (květen 2021) ",
+        },
+      ],
+      proMe: " XX/1145  24-143-45  21—051  ",
+    },
   ],
 };
