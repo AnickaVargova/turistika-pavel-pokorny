@@ -18384,7 +18384,7 @@ export default {
       obec: "  Strhaře  ",
       jmeno: " Stanislav - Strhaře  ",
       nazev: " Socha svatého Stanislava nad údolím Besénku  ",
-      fotkaUvod: { fotka: " 351stanislavZleby2.jpg " },
+      fotkaUvod: { fotka: " 351stanislavZleby1.jpg " },
       kdyVznikl:
         " 18. století. Někdy v letech 1852 - 1859 sochu restauroval a upravoval tišnovský sochař Josef Břenek (1820 - 1878). ",
       popisCesty:
