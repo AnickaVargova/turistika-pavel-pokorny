@@ -18250,8 +18250,8 @@ export default {
       druh: " Sochy v přírodě ",
       okres: " Třebíč ",
       obec: "  Kralice  ",
-      jmeno: " Skulptura u rybníku Pivovárek  ",
-      nazev: " Skulptura - Pivovárek  ",
+      jmeno: " Skulptura - Pivovárek  ",
+      nazev: " Skulptura u rybníku Pivovárek  ",
       fotkaUvod: { fotka: " 349uPivovarku1.jpg " },
       kdyVznikl:
         "  Zřejmě roku 2011, jako součást revitalizace rybníku Pivovárek. ",
@@ -18335,7 +18335,7 @@ export default {
       obec: "  Strhaře  ",
       jmeno: " Stanislav - Strhaře  ",
       nazev: " Socha svatého Stanislava nad údolím Besénku  ",
-      fotkaUvod: { fotka: " 351stanislavZleby2.jpg " },
+      fotkaUvod: { fotka: "  351stanislavZleby1.jpg " },
       kdyVznikl:
         " 18. století. Někdy v letech 1852 - 1859 sochu restauroval a upravoval tišnovský sochař Josef Břenek (1820 - 1878). ",
       popisCesty:
