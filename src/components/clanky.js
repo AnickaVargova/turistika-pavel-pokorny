@@ -17148,7 +17148,7 @@ export default {
       fotkaUvod: { fotka: " 322malaskova1.jpg " },
       kdyVznikl: " asi v létě 2017 ",
       popisCesty:
-        " Pomníček se najde na významném rozcestí U Žalmanova kamene, kde je více vlastivědných objektů. Z Pohořelic 4 kilometry SV směrem, na Račické lesní cestě, prochází tu modrá a končí zelená značka. Frekventované rozcestí.   ",
+        " Pomníček se najde na významném rozcestí U Žalmanova kamene, kde je více vlastivědných objektů. Z Pozořic 4 kilometry SV směrem, na Račické lesní cestě, prochází tu modrá a končí zelená značka. Frekventované rozcestí.   ",
       popis:
         "  Stylizovaná květina v podobě kostry oblepené světlými kamínky, vysoká 1,6 metru, nahoře se třemi plechovými květy. V květech je podobizna starší paní, báseň Jana Skácela a životopis paní Maláskové. Do okraje nejvyššího květu vyřezán nápis.  ",
       napis: " LUDMILA  MALÁSKOVÁ // 21. 6. 1931  12. 8. 2016  ",
@@ -18421,6 +18421,173 @@ export default {
         },
       ],
       proMe: " XX/1145  24-143-45  21—051  ",
+    },
+    {
+      id: 352,
+      kategorie: "pomnicky",
+      pridano: " 20/04/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - město ",
+      obec: "  Brno - Řečkovice  ",
+      jmeno: " Sochy - Vránův mlýn  ",
+      nazev: " Galerie v přírodě u Vránova mlýna v údolí Ponávky  ",
+      fotkaUvod: { fotka: " 352mlynVranuv1.jpg " },
+      kdyVznikl:
+        " První várka soch vznikla při sochařském symposiu v roce 1997, postupně vznikaly další sochy. ",
+      popisCesty:
+        "  Vránův mlýn leží v údolí potoka Ponávky, 1 kilometr SZ od kapličky v Mokré Hoře. Kolem něj v okruhu 300 metrů je rozmístěno nejméně osm sochařských objektů. ",
+      popis:
+        " Jdeme-li směrem od Řečkovic proti proudu Ponávky, narazíme na <strong>Hraničník</strong> (též Rozcestník) z roku 1999, z dubového dřeva, od autorů Miloše Vlčka a Lukáše Vlčka. Vedle zakrývá jímku na vodu <strong>Příkrov</strong> (též Pavučina, 1999, dubové dřevo, Patrik Vlček a Peter Macek). Následuje odpočívadlo v lese nazvané <strong>Tichý rozhovor</strong> (1999, dřevo a kámen, Zdeněk Macháček). Pěšina směřuje k monumentální <strong>Bráně kozorohů</strong> (1999, zdivo a keramika, Jiří Hlušička). Na souběhu cest stojí hodně poškozená <strong>Rybina</strong> (1997, dubové dřevo, Roger Mas z Andorry). Následuje <strong>Památník smíření</strong> (2014, kámen a keramika, Patrik Vlček) a vedle něj na břehu rybníka stojí lavičková konstrukce zvaná <strong>Sluneční besídka</strong> (1997, dubové dřevo, Patrik Vlček). Ještě dále k bývalé zastávce staré Tišnovky je lavička (2004, dřevo, Patrik Vlček) a záhadný objekt stavidla.  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=1586 ",
+        },
+        {
+          nazev: "Vlčkovi",
+          adresa:
+            " http://www.vlckovi.cz/galerie/111-sit-durat-regnum-zprava-o-slavnosti ",
+        },
+      ],
+      pozn:
+        "  Vránův mlýn je sídlem výtvarnické rodiny Vlčků. Sochaře, řezbáře a restaurátora Miloše Vlčka (1939 - 2019) a jeho synů sochaře a řezbáře Patrika (nar. 1970) a básníka a kreslíře Lukáše (nar. 1974). Tito umělci uspořádali v létě 1997 měsíční sochařské symposium zvané Vránův mlýn, dokonce s mezinárodní účastí. Z něj se dochovala Rybina a Sluneční besídka. O dva roky později se konalo další sochařské symposium zvané Tišnovka, ke kterému byl upraven třistametrový úsek tělesa staré železniční trati a kolem něj rozmístěna umělecká díla. Slavnostní vernisáž se konala 5. září 1999 a do března 2021 se zachovaly 4 objekty: Hraničník, Příkrov, Tichý rozhovor a Brána kozorohů.<br>Zvláštní postavení v tomto souboru má Památník smíření, zvaný též Sit durat regnum (Nechť království trvá). Klasicistní tvar pomníku má nahoře z plochy vystupující latinský kříž, ve spodní části je reliéf královské koruny a znak Brna. Je věnován tiché vzpomínce na první dvě oběti Velké války v roce 1914, tedy arcivévody Františka Ferdinanda d´Este a jeho choti Žofie z Hohenbergu rozené Chotkové. Slavnostního vysvěcení ve čtvrtek 18. prosince 2014 se zúčastnila i vnučka zahynulých manželů paní Sofie z Hohenbergu de Potesta spolu s členy Brněnského městského střeleckého sboru.   ",
+      naposledObnoveno: " 20.4.2022 ",
+      souradnice: "  49.2665028N, 16.5829511E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lehememume" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lehememume  ",
+      galerie: [
+        {
+          fotka: "  352mlynVranuv2.jpg",
+          popisek: " Brána kozorohů (březen 2021) ",
+        },
+        { fotka: "  352mlynVranuv3.jpg", popisek: " Rybina (březen 2021) " },
+        {
+          fotka: "  352mlynVranuv4.jpg",
+          popisek: " Sluneční besídka (březen 2021) ",
+        },
+      ],
+      proMe: " XX/1134  24-324-69  21—033  21—034  ",
+    },
+    {
+      id: 353,
+      kategorie: "pomnicky",
+      pridano: " 21/04/2022 ",
+      podkategorie: 12,
+      druh: " Jeskyňářské a horolezecké ",
+      okres: " Blansko ",
+      obec: "  Vilémovice  ",
+      jmeno: " Horní můstek  ",
+      nazev: "  Horní můstek na Macoše  ",
+      fotkaUvod: { fotka: " 353horniMustek1.jpg " },
+      kdyVznikl:
+        " Do roku 1820 se dalo do propasti nahlédnout jen vleže z plochého kamene na místě Horního můstku. Toho roku dal kníže Lichtenštejn zřídit dřevěný altán na hraně skály. Po šedesáti letech se dřevěná stavba údajně při bouři zřítila do propasti. Nové úpravy místa se ujala brněnská sekce Rakouského klubu turistů a 1. října 1882 tu otevřela vyhlídkovou plošinu, která v podstatě přečkala do dnešních dnů. Padlo na ni 2500 kilogramů železa z blanenských železáren. Zpočátku se nazývala Ripka Warte, na počest Adolfa Ripky (1812 - 1884), brněnského průmyslníka, politika, mecenáše a nadšeného turisty. V červnu 2007 byla vyhlídka důkladně opravena za 400 tisíc Kč.   ",
+      popisCesty:
+        " Vyhlídka se nachází na nejvyšším místě skalní stěny propasti Macocha, poblíž chaty na Macoše. Všeobecně známé a velmi navštěvované místo. Vypíná se 138,5 metru nad hladinou Dolního jezírka. Celková hloubka propasti je ale větší, je nutno započítat i hloubku jezírka, ze které je známo 50 metrů.  ",
+      popis:
+        "  Ocelová plošina rozměrů 2 x 5 metrů je vysunuta na krakorcích nad propast tak, aby z ní bylo možno dohlédnout na dno Macochy. Je ohraničena ze tří stran vysokým kovovým zábradlím. Vedle stojí dřevěný sloupek s nápisem a několik vlastivědných tabulí. ",
+      napis: " Na dřevěném sloupku: Macocha // Horní můstek . ",
+      odkazy: [
+        {
+          nazev: " Wikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Macocha ",
+        },
+        {
+          nazev: " Blanenský deník ",
+          adresa:
+            " https://blanensky.denik.cz/zpravy_region/horni_mustek_macocha20070930.html ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Tento turistický objekt se poněkud vymyká pojmu pomníček, přesto si myslím, že sem patří nebo že by tu pomník stát měl. A sice stovkám sebevrahů, kteří se v minulosti vrhli z tohoto místa do hlubiny. (Zatím visí na blízkém stromě obrázek Bohorodičky.) <br>První oběť známá jménem byl brněnský úředník Josef Pfaunder (+ 1829). Hrabě Salm dal tehdy spustit do propasti horníky, ti tělo pochovali nad Dolním jezírkem a na hrob umístili kříž. Známou obětí byl i rakouský alpinista Hynek Pulcher. Roku 1904 se rozhodl sestoupit na dno z Dolního můstku. Neuvědomil si, že propast má tvar přesýpacích hodin, což shora není vidět a z převisu se zřítil do Macochy.<br>Nešťastnou obětí z října 1981 je student architektury a katolický aktivista Pavel Švanda, po osmi dnech záhadné nepřítomnosti byl nalezen mrtev na dně propasti. Nebyla to sebevražda, ale vražda. Pavel Švanda byl prasynovec patera Tomáše Špidlíka, pozdějšího kardinála ve Vatikánu. V létě 1981 mu STB umožnila navštívit Řím a setkat se se svým strýcem. A po návratu asi žádali protislužbu. Vyšetřování o deset let později nikam nevedlo, potrestán nebyl nikdo. Švanda má pamětní desku na fakultě architektury na Poříčí.<br>Každoročně přibývá na tomto místě 1 - 4 úmrtí sebevraždou, těla nešťastníků se tříští o Kámen sebevrahů na dně Macochy. Pod něj instalovala správa jeskyní zábrany, které brání sklouznutí těla do Dolního jezírka.<br>Stěna pod Horním můstkem patří k obtížným horolezeckým terénům u nás. Poprve ji vylezli v roce 1944 tehdy sedmnáctiletý Franta Plšek se spolulezcem Vlkem, Plšek si po čtyřiceti letech výstup zopakoval. Dnes je ve stěnách Macochy na 30 cest nejvyšší obtížnosti.  ",
+      naposledObnoveno: " 21.4.2022 ",
+      souradnice: "  49.3731275N, 16.7293144E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/junojukedu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/junojukedu  ",
+      galerie: [
+        {
+          fotka: "  353horniMustek1.jpg",
+          popisek: " Horní můstek (únor 2022) ",
+        },
+        { fotka: "  353horniMustek2.jpg", popisek: " (březen 2018) " },
+        {
+          fotka: "  353horniMustek3.jpg",
+          popisek: " Horní část stěny Macochy (únor 2011) ",
+        },
+        {
+          fotka: "  353horniMustek4.jpg",
+          popisek: " Pohled z Dolního můstku (únor 2011) ",
+        },
+      ],
+      proMe: " XX/1180  24-233-75  11—02  22—023  ",
+    },
+    {
+      id: 355,
+      kategorie: "pomnicky",
+      pridano: " 22/04/2022 ",
+      podkategorie: 15,
+      druh: " Sakrální ",
+      okres: " Brno - venkov ",
+      obec: "  Vranov u Brna  ",
+      jmeno: " Boží muka - Havlásek  ",
+      nazev: "  Boží muka u Havláskova koutu na Vranově  ",
+      fotkaUvod: { fotka: " 356dvemuky3.jpg  " },
+      kdyVznikl: " 1674, letopočet je uveden na sloupu. Opravena roku 2009. ",
+      popisCesty:
+        " Boží muka stojí 400 m JJZ od kostela na Vranově, v sedle úzkého hřbetu Blatina, po kterém jde lesní cesta. K S klesá cesta ke Studýnce, k J vedou cesty do rozlehlého údolí zvaného Havláskův kout nebo krátce Havlásek.  ",
+      popis:
+        "  Pískovcová raně barokní boží muka je vysoká 3,5 metru. Na podstavci zdobeném psaníčky spočívá hranatý sloup s vyrytým erbem a letopočtem. Na profilované římse je kamenná lucerna zakončená kamenným křížkem.  ",
+      napis:
+        " Shora na sloupu je vyryta neznámá kamenická značka, písmena B B, erb se dvěma noži a letopočet 1674.  ",
+      odkazy: [
+        {
+          nazev: " Památkový katalog ",
+          adresa: " https://pamatkovykatalog.cz/bozi-muka-13885416 ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: " Staré stezky.11/2006. Sborník referátů, str. 50 " },
+        { nazev: "  " },
+      ],
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 342,
+          odkazPodkategorie: 15,
+          odkazKategorie: "pomnicky",
+          odkazKde: "pozn",
+          predOdkazem: " Boží muka svojí podobou i rokem vzniku souvisí s ",
+          textOdkazu: "Bratelsbrunnskou boží mukou",
+          zaOdkazem:
+            " u Jehnic. Záhadou jsou písmena B B, mohla by znamenat monogram donátora, Bernarda Brandisera, kominického mistra z Brna. To je historicky doložená postava, žil v Brně v 17. století. I ostatní symboly, erb a kamenická značka nejsou známy.<br>Je jisté, že kolem této boží muky vedla jedna z poutních cest na Vranov. Od Brna přes Jehnice, tam se vnořila do lesů a stoupala Havláskem k boží muce, kde poutníci poprvé spatřili poutní chrám na protějším kopci. Odtud sestoupili k pramenu Studýnka, kde se upravili a  dlouhým schodištěm, dnes neexistujícím, stoupali ke kostelu. Silnice bahnitým údolím Ponávky byla postavena 1907, od té doby se chodilo pohodlněji spodem a boží muka ztratila na významu.<br>Stála tam bez zájmu a čím dál víc se nakláněla. Až do listopadu roku 2005. Tehdy k ní dorazila skupinka vlastivědců a při lehkém doteku při zjišťování rozměrů se sloup zřítil a rozpojil na několik kusů. Následovalo několikaleté úsilí o nápravu věci. Díky mnoha dobrým lidem byla v květnu 2009 při Dni Ponávky zrestaurovaná boží muka představena veřejnosti jako nová, včetně kamenného křížku nahoře, který kdysi vzal čas.   ",
+        },
+      ],
+      naposledObnoveno: " 22.4.2022 ",
+      souradnice: "  49.3056203N, 16.6094594E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nohepabeha" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/nohepabeha  ",
+      galerie: [
+        {
+          fotka: "355BMhavlasek1.jpg",
+          popisek: " Pohled na vranovský kostel (březen 2022) ",
+        },
+        {
+          fotka: "355BMhavlasek2.jpg",
+          popisek: " Boží muka nad Havláskem (březen 2022) ",
+        },
+        {
+          fotka: "355BMhavlasek3.jpg",
+          popisek: " Detail nápisu (březen 2022) ",
+        },
+        {
+          fotka: "356dvemuky4.jpg",
+          popisek: " Detail soklu zdobeného psaníčky (březen 2022) ",
+        },
+      ],
+      proMe: " XX/1204   24-322-92  22—032  ",
     },
   ],
 };
