@@ -18589,5 +18589,128 @@ export default {
       ],
       proMe: " XX/1204   24-322-92  22—032  ",
     },
+    {
+      id: 356,
+      datum: " prosinec 2012  ",
+      pridano: " 26/04/2022 ",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: " Historie dvou božích muk ",
+      fotkaUvod: { fotka: " 355BMhavlasek1.jpg " },
+      text: [
+        {
+          textOdstavce:
+            "   <p><i>Toto čtení věnuji památce svého přítele Honzy Černohlávka, vodáka, lyžaře, lesáka a nakonec vlastivědce, z jehož myšlenek jsem vycházel a některé výzkumy v článku použil. Ing. Jan Černohlávek zemřel 18. června 2012 ve věku 84 let.</i></p>  ",
+        },
+        {
+          textOdstavce: "   <p> Přátelé,</p>  ",
+          foto: "  356dvemuky1.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Bratelbrunnská boží muka u Jehnic  ",
+        },
+        {
+          textOdstavce:
+            "   <p>  Před více lety jsem napsal text popisující 60 památek kolem Vranova a Babího lomu, snad se k němu někdy vrátím. Tehdy jsem se úmyslně nezmínil o dvou nejvýznamnějších, protože psaní o nich zabere více místa. Jsou to dvě sobě se podobající boží muky. První z nich, <strong>jehnická, /skok na ID 342/ stojí u silnice z Jehnic na Vranov, asi 300 metrů za vesnicí. Druhá, vranovská,/skok na ID 355/ se nachází v sedle nad vesnicí, 400 metrů jiho-jihozápadně od kostela na Vranově,</strong> v místě krásného výhledu na klášterní komplex. </p>  ",
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 342,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 15,
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Před více lety jsem napsal text popisující 60 památek kolem Vranova a Babího lomu, snad se k němu někdy vrátím. Tehdy jsem se úmyslně nezmínil o dvou nejvýznamnějších, protože psaní o nich zabere více místa. Jsou to dvě sobě se podobající boží muky. První z nich, ",
+              textOdkazu: "jehnická",
+              zaOdkazem:
+                "<strong>, stojí u silnice z Jehnic na Vranov, asi 300 metrů za vesnicí. Druhá,</strong> ",
+            },
+            {
+              vnitrniOdkaz: 355,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 15,
+              odkazKde: "odstavec",
+              predOdkazem: "",
+              textOdkazu: "vranovská",
+              zaOdkazem:
+                "<strong>, se nachází v sedle nad vesnicí, 400 metrů jiho-jihozápadně od kostela na Vranově</strong>, v místě krásného výhledu na klášterní komplex. </p>   ",
+            },
+          ],
+          foto: "  356dvemuky3.jpg  ",
+          umisteniFoto: " vlevo  ",
+          popisek: " Boží muka u Vranova nad Havláskem  ",
+        },
+        {
+          textOdstavce:
+            "   <p>  Na počátku byla pověst, zapsaná v roce 1881 a objevená ve farní kronice obce Bratelsbrunn. Dnes se tato vesnice jmenuje Březí a leží kousek od Mikulova, dva kilometry od rakouských hranic.Píše se :<br><i>V obci Bratelsbrunnu řádila roku 1674 těžká morová epidemie (černý mor) a denně umíralo mnoho lidí. Občané se v zoufalství rozhodli, že vykonají na odvrácení nemoci prosebnou pouť na posvátný Vranov k Panně Marii. Šli pěšky po mnoho dní, až došli za obec Jehnice, k blízkému Vranovu, na pokraj hlubokých lesů. V místě, kde dnes stojí boží muka, se zastavili ke krátkému odpočinku. Přitom se zbožně pomodlili, prosíce Pannu Marii, aby vyslyšela jejich prosby a slitovala se nad nešťastnými lidmi jejich obce a odvrátila hroznou chorobu.<br>Nato pokračovali dál v cestě do kostela na Vranov. Po vykonání prosebných modliteb se vrátili opět pěšky do rodného Bratelsbrunnu. Přicházeli zpět po mnoha dnech se strachem, čeho se doma nadějí. Jaké však bylo jejich překvapení, když zjistili, že všichni domácí lidé jsou živi a zdrávi. Vyptávali se, kdy přestala ta hrozná nemoc a nakonec zjistili, že od té doby, kdy se tak vroucně modlili na cestě k Vranovu za obcí Jehnice. Od té doby již nikdo nestonal. Na věčnou památku zbudovali svým nákladem, na místě svých modliteb za Jehnicemi, boží muku. Představení obce se usnesli, aby každoročně na den narození Panny Marie, 8. září, se v kostele sv. Jana Křtitele v Bratelsbrunnu konalo povinné díkůvzdání a sloužila slavná mše.<br>Po letech prožitých ve zdraví se na tento slib zapomnělo. V roce 1713 se však zlá nemoc opět vrátila. V tomto neštěstí vzpomněl občan Richter na slib obce z roku 1674. Zbožní lidé spatřovali v morové ráně prst Boží a vydali se, jako před léty, k Vranovu. Když došli k místu, kde jejich předkové postavili boží muku, padli na kolena a prosili o odpuštění a odvrácení nemoci. Jejich prosby byly vyslyšeny a od roku 1713 přicházeli každoročně v procesí na Vranov, vykonali pobožnost u boží muky a ozdobili ji věnečkem.</i></p>  ",
+          foto: "  356dvemuky2.jpg  ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Horní část boží muky u Jehnic  ",
+        },
+        {
+          textOdstavce:
+            "   <p>  Pověst opsal vranovský farář Weinlich do své vlastivědné knížky Vranov vydané roku 1892 a tím ji zachránil naší paměti, protože bratelsbrunnská farní kronika je dnes nezvěstná. V obci Březí, kam přišli po válce noví osadníci, nikdo netušil až do roku 2005, že existovala farní kronika a v ní tato pověst. Noví obyvatelé ve vsi do konce války stoprocentně německé měli po válce jiné starosti, než bádat ve starých vlastivědách. Nikdo netušil, kam jejich předchůdci chodili na poutě. Vzdálenost 70 kilometrů pěší chůze nebyla pro poutníky nijak velká. Sám z vyprávění své babičky vím, že se z Brna chodilo pěšky do Maria Zell, což obnáší 220 kilometrů jedna cesta. Procesí trvalo 14 dní. Naopak z rakouských městeček nezřídka docházeli poutníci do brněnského okolí a vyhledávali trojhvězdí slavných poutních míst – Tuřany, Křtiny a Vranov. Byl to jeden stát. </p>  ",
+          foto: "  354BMjehnice1.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " U silnice z Jehnic na Vranov  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Problematický je letopočet <strong>1674.</strong> V tomto roce ani v blízkých letech morová rána na Moravě nezuřila. Mohlo se ale stát, že vojenské jednotky ve snaze bránit šíření nemoci na velkých shromážděních lidí hlídaly přístupové cesty k poutnímu místu. V těchto místech stará cesta opouštěla louky a vstupovala do zarostlého úvozu, zarostlého keři a trnkovím. Poutníci se mohli na pár dní utábořit na místě, kam až je stráže pustily, a tam vykonávat pobožnosti. Je možné, že to bylo zrovna toto místo, poslední volné prostranství před vstupem do lesů. Druhý letopočet zmíněný v pověsti opodstatnění má, v roce <strong>1713</strong> se na mor umíralo. </p>  ",
+          foto: "  354BMjehnice2.jpg  ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Boží muka u Jehnic (foto březen 2022).  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Vandalismus se nevyhnul ani jehnické boží muce. V roce 1880 musela být nákladem bratelbrunnských poutníků důkladně opravena a ozdobena obrazem Panny Marie Vranovské s německým votivním textem „Heilige Maria Mutter Gottes bittel für uns“. Horlivý strážmistr z Jehnic německý nápis z vlasteneckých pohnutek vyškrábal, ovšem až po válce. Ale už v roce 1946 nechala soukromnice z Jehnic obrázek obnovit a opatřila ho českým nápisem „Z vděčnosti k Panně Marii Vranovské za odvrácení morové rány v obci Bratelsbrunn nedaleko Mikulova r. 1674“.Obrázek, pravda trochu omšelý, zdobí boží muku dodnes. V padesátých letech byla památka povalena opilými výrostky. Obětaví občané vybetonovali nový sloup, do něj vyryli letopočet i písmena BB a nahoru umístili jeřábem původní pískovcové části. Podle svědectví pamětníků zasypali starý sloup pod zem v blízkosti boží muky. </p>  ",
+          foto: "  354BMjehnice3.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Obrázek na jehnické boží muce  ",
+        },
+        {
+          textOdstavce:
+            "   <p>  Kolem roku 2005 po něm pátral Honza Černohlávek, který se jehnickou vlastivědou tou dobou důkladně zabýval. Lesnickou půdní sondou objevil v náspu silnice dva větší předměty. Se skupinkou vlastivědců vykopal dobře zachovalý starý sloup a překvapivě i vedle ležící základ boží muky zdobený psaníčky. Obě pískovcová torza byla ošetřena a v září 2011 o hodech odhalena na návsi v Jehnicích spolu s vysvětlující tabulkou. Zajímavé je, že tvar číslic na sloupu neodpovídá sedmnáctému stoleti, ale době mladší. Buďto byl zvětralý nápis letopočtu přesekán a nebo byl sloup už v minulosti nahrazen novějším. Nevíme. </p>  ",
+          foto: " 356dvemuky6.jpg   ",
+          umisteniFoto: "   vpravo  ",
+          popisek: " Torzo boží muky na návsi v Jehnicích.  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Další drama kolem jehnické boží muky se odehrálo 3. května 1945 v době válečných operací na Útěchovsku. Němci zřejmě z obranných důvodů narychlo vyhnali všechny obyvatele Jehnic ze svých domů a ti jen s nejnutnějším tudy prchali většinou do blízkých Lelekovic. Byly mezi nimi i desítky lidí z Brna, kteří se na venkov uchýlili před válkou ve městě. Brno bylo tento den už týden svobodné, tady se ještě úporně válčilo. Jen čtyři koňské povozy vezly nemocné a nemohoucí. Veškerý majetek a zvířectvo zůstalo bez dozoru v obci, včetně opuštěného zvěřince cirkusu Henry, kterého konec války zastihl právě zde. Vyhnanci se mohli vrátit zpět domů až po skončení války 9. května. </p>  ",
+          foto: "  356dvemuky7.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Detail nápisu na původním sloupu. (březen 2022)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Vranovská boží muka stála dlouho pozapomenuta na krásném místě bez péče a zájmu a postupně se nakláněla. Když k ní v listopadu 2005 dorazila skupinka vlastivědců v čele s Honzou Černohlávkem, aby stavbičku zdokumentovala, došlo při údajně nepatrném dotyku metrem – při stavu Honzových kolenou nemusel být nepatrný – k narušení stability a zřícení boží muky. Následovalo několikaleté usilování o nápravu věci. Bylo třeba sehnat peníze, vykoupit pozemek plochy metr čtvereční od soukromé osoby, zajistit zrestaurování kamenného torza, doplnit chybějící zvětralé části a obstarat montáž opravené boží muky. To vše se díky dobrým lidem podařilo a tak v květnu 2009 při Dnu Ponávky na Vranově byla boží muka jako nová předložena veřejnosti. Chybí jen obrázek, ale ten chyběl sto let a tak panují dohady, co na historický objekt památkově chráněný vlastně pověsit. </p>  ",
+          foto: "  355BMhavlasek2.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Vranovská boží muka nad Havláskem  ",
+        },
+        {
+          textOdstavce:
+            "   <p>  Další, třetí podobná boží muka, se nedochovala. Stála v údolí Babích dolů asi 300 metrů jihovýchodně od křižovatky dnešních silnic Jehnice-Vranov-Lelekovice, pod dnešním rybníkem. Ví se o ní ze starých map a z hraničního protokolu obce Jehnice z roku 1824. Ocituji zvláštní češtinu i pravopis <br><i>Popis hranic začíná, kde hranice Wranow – Orzeschin – Jehnitz w hromadě sau. u jedné hromádky dwa kroki w Jehnitzkem položena kamena boži muka stogi, která k poledni Wisekana z roku 1674 wiresowana gest.</i><br>Naposled byla zakreslena do Winikerovy mapy roku 1875, zanikla zřejmě na konci 19.století, možná při stavbě silnice z Jehnic. </p>  ",
+          foto: " 356dvemuky4.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Detail psaníček na soklu vranovské boží muky  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Existence tří božích muk se stejným letopočtem vylučuje pravdivost pověsti uvedené na začátku. Ovšem žádná pověst není úplně pravdivá, to by nebyla pověst. Zřejmě boží muky lemovaly starou poutní cestu od jihu k Vranovu, z Brna přes Řečkovice, Mokrou Horu, Jehnice. V 18. a 19. století se na Vranov nechodilo údolím kolem Ponávky, protože cesta tudy bývala špatná, bahnitá, silnici z Vranova údolím do Lelekovic postavili v roce 1906. Do té doby se chodilo úbočím přes Havláskův kout a cesta vyšla z lesa v sedle u vranovské boží muky, kde se poutníkům naskytl impozantní pohled na klášterní komplex. Odtud sestoupili k prameni Studýnka, který dodnes vytéká na spodním okraji Vranova, kde se unavení poutníci umyli, občerstvili a dali do gala. Mezitím vyslali posla na faru že se blíží procesí a se zpěvem za hlaholu zvonů stoupali ke kostelu. </p>  ",
+          foto: " 355BMhavlasek1.jpg   ",
+          umisteniFoto: "  vpravo  ",
+          popisek: "  Pohled od vranovské boží muky na poutní místo  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Zde by mohlo toto čtení končit, vše podstatné bylo sděleno. Ale nekončí. V říjnovém čísle  časopisu Turista ročník 2011 se objevila fotografie krajiny a boží muky, která jako by z oka vypadla boží muce vranovské a jehnické. Krajina ta leží v dolním Rakousku, nedaleko našich hranic. Neúnavný Honza Černohlávek se tam se synem vypravil, muku našel, vyfotografoval. Leží u vesnice Felling na turistické značce, je udržovaná, opečovávaná místními, vyzdobená, nikoho nenapadlo nalíčit ji vápnem jako v Jehnicích. Nabízí se otázky. Je takových muk v Rakousku více? Existuje spojitost s Vranovem? Kdo, kdy a proč je dal tesat? Jsou ze stejného pískovce? Tyto otázky zůstávají nezodpovězeny. </p>  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Psáno v Králově Poli o adventu roku 2012,<br>upraveno v dubnu 2022. </p>  ",
+        },
+      ],
+      galerie: [],
+    },
   ],
 };
