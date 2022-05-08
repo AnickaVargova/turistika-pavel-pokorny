@@ -18535,7 +18535,7 @@ export default {
       obec: "  Vranov u Brna  ",
       jmeno: " Boží muka - Havlásek  ",
       nazev: "  Boží muka u Havláskova koutu na Vranově  ",
-      fotkaUvod: { fotka: " 356dvemuky3.jpg  " },
+      fotkaUvod: { fotka: "356dvemuky3.jpg  " },
       kdyVznikl: " 1674, letopočet je uveden na sloupu. Opravena roku 2009. ",
       popisCesty:
         " Boží muka stojí 400 m JJZ od kostela na Vranově, v sedle úzkého hřbetu Blatina, po kterém jde lesní cesta. K S klesá cesta ke Studýnce, k J vedou cesty do rozlehlého údolí zvaného Havláskův kout nebo krátce Havlásek.  ",
@@ -18583,7 +18583,7 @@ export default {
           popisek: " Detail nápisu (březen 2022) ",
         },
         {
-          fotka: "356dvemuky4.jpg",
+          fotka: "355BMhavlasek4.jpg",
           popisek: " Detail soklu zdobeného psaníčky (březen 2022) ",
         },
       ],
@@ -18654,14 +18654,14 @@ export default {
         },
         {
           textOdstavce:
-            "   <p> Problematický je letopočet <strong>1674.</strong> V tomto roce ani v blízkých letech morová rána na Moravě nezuřila. Mohlo se ale stát, že vojenské jednotky ve snaze bránit šíření nemoci na velkých shromážděních lidí hlídaly přístupové cesty k poutnímu místu. V těchto místech stará cesta opouštěla louky a vstupovala do zarostlého úvozu, zarostlého keři a trnkovím. Poutníci se mohli na pár dní utábořit na místě, kam až je stráže pustily, a tam vykonávat pobožnosti. Je možné, že to bylo zrovna toto místo, poslední volné prostranství před vstupem do lesů. Druhý letopočet zmíněný v pověsti opodstatnění má, v roce <strong>1713</strong> se na mor umíralo. </p>  ",
+            "   <p> Problematický je letopočet <strong>1674.</strong> V tomto roce ani v blízkých letech morová rána na Moravě nezuřila. Mohlo se ale stát, že vojenské jednotky ve snaze bránit šíření nemoci na velkých shromážděních lidí hlídaly přístupové cesty k poutnímu místu. V těchto místech stará cesta opouštěla louky a vstupovala do úvozu, zarostlého keři a trnkovím. Poutníci se mohli na pár dní utábořit na místě, kam až je stráže pustily, a tam vykonávat pobožnosti. Je možné, že to bylo zrovna toto místo, poslední volné prostranství před vstupem do lesů. Druhý letopočet zmíněný v pověsti opodstatnění má, v roce <strong>1713</strong> se na mor umíralo. </p>  ",
           foto: "  354BMjehnice2.jpg  ",
           umisteniFoto: "   vpravo  ",
           popisek: " Boží muka u Jehnic (foto březen 2022).  ",
         },
         {
           textOdstavce:
-            "   <p> Vandalismus se nevyhnul ani jehnické boží muce. V roce 1880 musela být nákladem bratelbrunnských poutníků důkladně opravena a ozdobena obrazem Panny Marie Vranovské s německým votivním textem „Heilige Maria Mutter Gottes bittel für uns“. Horlivý strážmistr z Jehnic německý nápis z vlasteneckých pohnutek vyškrábal, ovšem až po válce. Ale už v roce 1946 nechala soukromnice z Jehnic obrázek obnovit a opatřila ho českým nápisem „Z vděčnosti k Panně Marii Vranovské za odvrácení morové rány v obci Bratelsbrunn nedaleko Mikulova r. 1674“.Obrázek, pravda trochu omšelý, zdobí boží muku dodnes. V padesátých letech byla památka povalena opilými výrostky. Obětaví občané vybetonovali nový sloup, do něj vyryli letopočet i písmena BB a nahoru umístili jeřábem původní pískovcové části. Podle svědectví pamětníků zasypali starý sloup pod zem v blízkosti boží muky. </p>  ",
+            "   <p> Vandalismus se nevyhnul ani jehnické boží muce. V roce 1880 musela být nákladem bratelbrunnských poutníků důkladně opravena a ozdobena obrazem Panny Marie Vranovské s německým votivním textem „Heilige Maria Mutter Gottes bitte für uns“. Horlivý strážmistr z Jehnic německý nápis z vlasteneckých pohnutek vyškrábal, ovšem až po válce. Ale už v roce 1946 nechala soukromnice z Jehnic obrázek obnovit a opatřila ho českým nápisem „Z vděčnosti k Panně Marii Vranovské za odvrácení morové rány v obci Bratelsbrunn nedaleko Mikulova r. 1674“.Obrázek, pravda trochu omšelý, zdobí boží muku dodnes. V padesátých letech byla památka povalena opilými výrostky. Obětaví občané vybetonovali nový sloup, do něj vyryli letopočet i písmena BB a nahoru umístili jeřábem původní pískovcové části. Podle svědectví pamětníků zasypali starý sloup pod zem v blízkosti boží muky. </p>  ",
           foto: "  354BMjehnice3.jpg  ",
           umisteniFoto: "  vlevo  ",
           popisek: " Obrázek na jehnické boží muce  ",
@@ -18683,7 +18683,7 @@ export default {
         {
           textOdstavce:
             "   <p> Vranovská boží muka stála dlouho pozapomenuta na krásném místě bez péče a zájmu a postupně se nakláněla. Když k ní v listopadu 2005 dorazila skupinka vlastivědců v čele s Honzou Černohlávkem, aby stavbičku zdokumentovala, došlo při údajně nepatrném dotyku metrem – při stavu Honzových kolenou nemusel být nepatrný – k narušení stability a zřícení boží muky. Následovalo několikaleté usilování o nápravu věci. Bylo třeba sehnat peníze, vykoupit pozemek plochy metr čtvereční od soukromé osoby, zajistit zrestaurování kamenného torza, doplnit chybějící zvětralé části a obstarat montáž opravené boží muky. To vše se díky dobrým lidem podařilo a tak v květnu 2009 při Dnu Ponávky na Vranově byla boží muka jako nová předložena veřejnosti. Chybí jen obrázek, ale ten chyběl sto let a tak panují dohady, co na historický objekt památkově chráněný vlastně pověsit. </p>  ",
-          foto: "  355BMhavlasek2.jpg  ",
+          foto: "  356BMhavlasek2.jpg  ",
           umisteniFoto: "  vpravo  ",
           popisek: " Vranovská boží muka nad Havláskem  ",
         },
@@ -18697,7 +18697,7 @@ export default {
         {
           textOdstavce:
             "   <p> Existence tří božích muk se stejným letopočtem vylučuje pravdivost pověsti uvedené na začátku. Ovšem žádná pověst není úplně pravdivá, to by nebyla pověst. Zřejmě boží muky lemovaly starou poutní cestu od jihu k Vranovu, z Brna přes Řečkovice, Mokrou Horu, Jehnice. V 18. a 19. století se na Vranov nechodilo údolím kolem Ponávky, protože cesta tudy bývala špatná, bahnitá, silnici z Vranova údolím do Lelekovic postavili v roce 1906. Do té doby se chodilo úbočím přes Havláskův kout a cesta vyšla z lesa v sedle u vranovské boží muky, kde se poutníkům naskytl impozantní pohled na klášterní komplex. Odtud sestoupili k prameni Studýnka, který dodnes vytéká na spodním okraji Vranova, kde se unavení poutníci umyli, občerstvili a dali do gala. Mezitím vyslali posla na faru že se blíží procesí a se zpěvem za hlaholu zvonů stoupali ke kostelu. </p>  ",
-          foto: " 355BMhavlasek1.jpg   ",
+          foto: " 356BMhavlasek1.jpg   ",
           umisteniFoto: "  vpravo  ",
           popisek: "  Pohled od vranovské boží muky na poutní místo  ",
         },
@@ -18711,6 +18711,267 @@ export default {
         },
       ],
       galerie: [],
+    },
+    {
+      id: 357,
+      dveId: true,
+      kategorie: "pomnicky",
+      pridano: " 01/05/2022 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské, lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: "  Pozořice  ",
+      jmeno: " Žalman, Josef - Kalečník ",
+      nazev: " Památník Josefa Žalmana pod Kalečníkem  ",
+      fotkaUvod: { fotka: " 357zalman2.jpg " },
+      kdyVznikl: " 1984 ",
+      popisCesty:
+        " Památník stojí na významném rozcestí Žalmanův kámen, kde je několik vlastivědných objektů, Slunečnice Ludmily Maláskové a symbolické kameny lesnického slavína.  Z Pozořic to je 4 kilometry SV směrem, na lesní Račické cestě, prochází tu modrá a končí zelená značka, vede tu cyklotrasa. Dnes frekventované rozcestí, před sto lety klidné místo, kam Žalman rád chodil.  ",
+      popis:
+        " Přírodní vápencový kámen je vysoký 1,4 metru. Na něm je připevněna litinová deska s textem. Původní deska byla z bronzu a byla na horní ploše kamene. Zmizela začátkem 90.let a dlouho tu byl jen neoznačený balvan. Po asi patnácti letech obnovili desku se stejným nápisem.   ",
+      napis:
+        " 100. VÝROČÍ // 1884 - 1984 // JOSEFA  ŽALMANA // SPOLUZAKLADATELE  ČESKOSLOVENSKÉ // MYSLIVOSTI  ",
+      odkazy: [
+        { nazev: " Lesnet ", adresa: " https://www.lesnet.cz/josef-zalman " },
+      ],
+      pozn:
+        "  <strong>Josef Žalman</strong> (1884 - 1947), myslivecký spisovatel a publicista, ředitel lichtenštejnských lesů v Pozořicích, zakladatel myslivecké organizace u nás. Pocházel z lesnického rodu. Vystudovaný lesník působil od roku 1912 na Pozořicku, zprvu jako hajný, později jako přednosta lesního úřadu. Byl nadšeným myslivcem a v roce 1923 se stal spoluzakladatelem Československé myslivecké jednoty. Vydal dvoudílné Základy myslivosti, dvanáctkrát vyšel populární Žalmanův myslivecký kalendář. Od roku 1923 začal vydávat časopis Stráž myslivosti, který pod názvem Myslivost vychází dodnes. Je pochován v Brně na Ústředním hřbitově, skupina H7, hrob č. 80.<br>Památník Josefa Žalmana pod Kalečníkem není jedinou památkou na tohoto muže. Nedaleko odtud je Žalmanova studánka a nad ní Žalmanův lovecký srub. Další pomník je pod Novým hradem v údolí Svitavy.  ",
+      naposledObnoveno: " 1.5.2022 ",
+      souradnice: " 49.2360625N, 16.8205567E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dujanonoco" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dujanonoco  ",
+      galerie: [
+        {
+          fotka: "  357zalman1.jpg",
+          popisek: " Památník Josefa Žalmana (únor 2022) ",
+        },
+        { fotka: "  357zalman2.jpg", popisek: " (listopad 2012) " },
+        {
+          fotka: "  357zalman3.jpg",
+          popisek: " Detail nové desky (únor 2022) ",
+        },
+      ],
+      proMe: "  III/96  24-413-91  Obl—Bo  22—022 ",
+    },
+
+    {
+      id: 358,
+      dveId: true,
+      kategorie: "pomnicky",
+      pridano: " 01/05/2022 ",
+      podkategorie: 8,
+      druh: " Lovecké a pytlácké, lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Pozořice  ",
+      jmeno: " Žalman, Josef - Kalečník ",
+      nazev: " Památník Josefa Žalmana pod Kalečníkem  ",
+      fotkaUvod: { fotka: " 357zalman2.jpg " },
+      kdyVznikl: " 1984 ",
+      popisCesty:
+        " Památník stojí na významném rozcestí Žalmanův kámen, kde je několik vlastivědných objektů, Slunečnice Ludmily Maláskové a symbolické kameny lesnického slavína.  Z Pozořic to je 4 kilometry SV směrem, na lesní Račické cestě, prochází tu modrá a končí zelená značka, vede tu cyklotrasa. Dnes frekventované rozcestí, před sto lety klidné místo, kam Žalman rád chodil.  ",
+      popis:
+        " Přírodní vápencový kámen je vysoký 1,4 metru. Na něm je připevněna litinová deska s textem. Původní deska byla z bronzu a byla na horní ploše kamene. Zmizela začátkem 90.let a dlouho tu byl jen neoznačený balvan. Po asi patnácti letech obnovili desku se stejným nápisem.   ",
+      napis:
+        " 100. VÝROČÍ // 1884 - 1984 // JOSEFA  ŽALMANA // SPOLUZAKLADATELE  ČESKOSLOVENSKÉ // MYSLIVOSTI  ",
+      odkazy: [
+        { nazev: " Lesnet ", adresa: " https://www.lesnet.cz/josef-zalman " },
+      ],
+      pozn:
+        "  <strong>Josef Žalman</strong> (1884 - 1947), myslivecký spisovatel a publicista, ředitel lichtenštejnských lesů v Pozořicích, zakladatel myslivecké organizace u nás. Pocházel z lesnického rodu. Vystudovaný lesník působil od roku 1912 na Pozořicku, zprvu jako hajný, později jako přednosta lesního úřadu. Byl nadšeným myslivcem a v roce 1923 se stal spoluzakladatelem Československé myslivecké jednoty. Vydal dvoudílné Základy myslivosti, dvanáctkrát vyšel populární Žalmanův myslivecký kalendář. Od roku 1923 začal vydávat časopis Stráž myslivosti, který pod názvem Myslivost vychází dodnes. Je pochován v Brně na Ústředním hřbitově, skupina H7, hrob č. 80.<br>Památník Josefa Žalmana pod Kalečníkem není jedinou památkou na tohoto muže. Nedaleko odtud je Žalmanova studánka a nad ní Žalmanův lovecký srub. Další pomník je pod Novým hradem v údolí Svitavy.  ",
+      naposledObnoveno: " 1.5.2022 ",
+      souradnice: " 49.2360625N, 16.8205567E   ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dujanonoco" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dujanonoco  ",
+      galerie: [
+        {
+          fotka: "  357zalman1.jpg",
+          popisek: " Památník Josefa Žalmana (únor 2022) ",
+        },
+        { fotka: "  357zalman2.jpg", popisek: " (listopad 2012) " },
+        {
+          fotka: "  357zalman3.jpg",
+          popisek: " Detail nové desky (únor 2022) ",
+        },
+      ],
+      proMe: "  III/96  24-413-91  Obl—Bo  22—022 ",
+    },
+    {
+      id: 359,
+      kategorie: "pomnicky",
+      pridano: " 01/05/2022 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Měnín  ",
+      jmeno: " Hejnal, Rudolf  ",
+      nazev: " Pomník hajného Hejnala  ",
+      fotkaUvod: { fotka: " 359hejnal2.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Pomník stojí u cesty na Z okraji bažantnice, na J od Měnína.  ",
+      popis:
+        "  Přírodní vápencový balvan postavený na výšku je vysoký 1,3 metru. Do něho je vsazena černá tabulka s textem.  ",
+      napis:
+        " Vzpomínáme // RUDOLFA  HEJNALA // stát. lesního hajného, // který zde hrdinně položil život // při výkonu služby // 17. 10. 1945  ",
+      pozn:
+        "  Kdoví, co mohlo jednačtyřicetiletého hajného potkat v lese krátce po válce. Jeho jméno je uvedeno mezi oběťmi 2. světové války na pomníku v Měníně.  ",
+      naposledObnoveno: " 1.5.2022 ",
+      souradnice: "  49.0666850N, 16.6885069E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/homelozaza" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/homelozaza  ",
+      galerie: [
+        {
+          fotka: "  359hejnal1.jpg",
+          popisek: " Hejnalův pomník na kraji bažantnice (leden 2022) ",
+        },
+        { fotka: "  359hejnal2.jpg", popisek: " (leden 2022) " },
+        { fotka: "  359hejnal3.jpg", popisek: " (leden 2022) " },
+        { fotka: "  359hejnal4.jpg", popisek: " Detail tabulky (leden 2022) " },
+      ],
+      proMe: " V/158    22—012  ",
+    },
+    {
+      id: 360,
+      kategorie: "pomnicky",
+      pridano: " 02/05/2022 ",
+      podkategorie: 7,
+      druh: "  Lovecké a pytlácké ",
+      okres: " Brno - venkov ",
+      obec: "  Doubravník  ",
+      jmeno: " Jelínek MUDr., myslivec  ",
+      nazev: " Kámen a dub doktora Františka Jelínka na Pláňavě.  ",
+      fotkaUvod: { fotka: " 360jelinek1.jpg " },
+      kdyVznikl: " před rokem 1974 ",
+      popisCesty:
+        " Kámen a dub stojí na V straně hřebene Pláňava nad Boračí, 2 kilometry JJV od kostela v Doubravníku, pár kroků od kraje lesa. Krásnému místu se říká na Lázech. Vede tu zelená značka.  ",
+      popis:
+        "  Mohutný vysoký dub má průměr asi jeden metr. Na něm je zeleně natřená plechová tabulka s textem. Pod stromem je opracovaný hranatý kámen vysoký 1,3 metru. Jeho čelní strana je hladká bez nápisu.   ",
+      napis:
+        " na tabulce: <i>1848 - 1923 - 1948 - 1983 // Co stvořil Bůh // to cti a opatruj // toť myslivče buď // první zákon tvůj.</i>  ",
+      odkazy: [
+        {
+          nazev: " Doubravník ",
+          adresa: " https://www.doubravnik.cz/view.php?cisloclanku=2004052201 ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=23265 ",
+        },
+        { nazev: " Karel Fic, Josef Zacpal: Tišnovsko. 1999, str. 74 a 190 " },
+      ],
+      pozn:
+        " <strong>MUDr František Jelínek</strong> (1887 - 1974), lékař lidumil v Nedvědicích, kulturní a vlastivědný činovník v Doubravníku, kde se narodil a bydlel. Byl vášnivým myslivcem, prý i za pacienty chodil v myslivecké uniformě. Zasadil se o zřízení přírodní rezervace Sokolí skála v roce 1949. Chtěl být pochován pod dubem na Lázech, kam chodil nejraději. Pořídil si tam náhrobní kámen, ale úřady to nepovolily a kámen tu zůstal.  ",
+      naposledObnoveno: " 2.5.2022 ",
+      souradnice: "  49.4100542N, 16.3641378E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/murenusahe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/murenusahe  ",
+      galerie: [
+        {
+          fotka: "  360jelinek2.jpg",
+          popisek: " Dub doktora Františka Jelínka (říjen 2021) ",
+        },
+        {
+          fotka: "  360jelinek3.jpg",
+          popisek: " Kámen doktora Jelínka na Pláňavě (říjen 2021) ",
+        },
+        {
+          fotka: "  360jelinek4.jpg",
+          popisek: " Detail tabulky na stromě (říjen 2021) ",
+        },
+      ],
+      proMe: " XIIIN/463  24-143-21  21—103  ",
+    },
+    {
+      id: 361,
+      kategorie: "pomnicky",
+      pridano: " 02/05/2022 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Hostěnice  ",
+      jmeno: " Filip, Bohumil  ",
+      nazev: " Kříž rolníka Filipa na horní Říčce  ",
+      fotkaUvod: { fotka: "  361filip3.jpg " },
+      kdyVznikl: " po roce 1952 ",
+      popisCesty:
+        " Kříž stojí 500 metrů S od rozcestí značených cest Malá Říčka, u starého nepoužívaného úvozu na kraji lesa. Modrá značka je vzdálena 80 metrů. Hledá se těžko.  ",
+      popis:
+        "  Zanedbaný obyčejný kříž z umělého kamene s kovovým Kristem je vysoký 1,8 metru. Zepředu je přišroubována tmavá tabulka s textem, zřejmě novějšího data.   ",
+      napis:
+        " na tomto místě // tragicky zahynul // dne 14. 7. 1952 // Bohumil FILIP // rolník z Kovalovic.<br>Na původní tabulce s mírně změněným nápisem bylo datum 12. 7. 1952   ",
+      pozn:
+        "  Nikde jsem se o tragédii nic nedozvěděl, předpokládám, že k neštěstí došlo pravděpodobně při těžbě dřeva.  ",
+      naposledObnoveno: " 2.5.2022 ",
+      souradnice: "  49.2728439N, 16.8116725E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/reketelota" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/reketelota  ",
+      galerie: [
+        {
+          fotka: "  361filip1.jpg",
+          popisek: "Kříž rolníka Filipa na horní Říčce (leden 2022) ",
+        },
+        { fotka: "  361filip2.jpg", popisek: " (leden 2022) " },
+        {
+          fotka: "  361filip4.jpg",
+          popisek: " Detail nápisu na desce (leden 2022) ",
+        },
+      ],
+      proMe: " VI/195  24-413-1  22—017  ",
+    },
+    {
+      id: 362,
+      kategorie: "pomnicky",
+      pridano: " 02/05/2022 ",
+      podkategorie: 4,
+      druh: " Napoleonské ",
+      okres: " Vyškov ",
+      obec: "  Slavkov u Brna  ",
+      jmeno: " Hřbitovní sloup - Urban  ",
+      nazev: " Pomník nad hromadným hrobem obětí napoleonských válek  ",
+      fotkaUvod: { fotka: " 362sloupekSlavkov1.jpg " },
+      kdyVznikl: "  Začátkem 19. století ",
+      popisCesty:
+        " Na J svahu kopce Urban, u vrstevnicové cesty nad zahradami, 500 metrů JV od kaple svatého Urbana.  ",
+      popis:
+        "  Zděná hranolová stavbička s výklenky je vysoká dva metry. Stanovou střechu z tašek zakončuje kovaný křížek. Dřívější úprava byla bez střechy, ta byla poskládaná ve tvaru pyramidy z cihel.",
+      napis:
+        " Dříve byly na římse znatelné letopočty 1805 a 1955, nyní po poslední opravě zmizely.   ",
+      odkazy: [
+        {
+          nazev: " Památkový katalog ",
+          adresa:
+            " https://pamatkovykatalog.cz/pomnik-bitvy-u-slavkova-15259899 ",
+        },
+        {
+          nazev: " Drobné památky ",
+          adresa: " https://www.drobnepamatky.cz/node/39528 ",
+        },
+      ],
+      pozn:
+        "  Hřbitovní sloup stojí údajně nad hromadným hrobem vojáků z napoleonské bitvy.  ",
+      naposledObnoveno: " 2.5.2022 ",
+      souradnice: "   49.1661331N, 16.8925953E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/pezusakeru" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/pezusakeru  ",
+      galerie: [
+        {
+          fotka: "  362sloupekSlavkov2.jpg",
+          popisek: " Pomník pod Urbanem (leden 2022) ",
+        },
+        { fotka: "  362sloupekSlavkov4.jpg", popisek: " (leden 2022) " },
+        {
+          fotka: "  362sloupekSlavkov3.jpg",
+          popisek: " Historické foto staré třicet let (únor 1993) ",
+        },
+      ],
+      proMe: " IX/271  24-432-12  22—014  ",
     },
   ],
 };
