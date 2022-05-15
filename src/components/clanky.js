@@ -18973,5 +18973,426 @@ export default {
       ],
       proMe: " IX/271  24-432-12  22—014  ",
     },
+    {
+      id: 363,
+      kategorie: "pomnicky",
+      pridano: " 04/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Archymova  ",
+      nazev: "  Archymova bouda nad vodopády ",
+      fotkaUvod: { fotka: " 363archymova3.jpg " },
+      popisCesty:
+        " Srub stojí na pravé straně Oslavky, v údolí potoka, nedaleko Sedlce.  ",
+      popis:
+        "  Malý úhledný srub s přečnívající pultovou střechou, pod kterou je podkroví. Kolem je ohniště se sezením, studánka, lávka a rozcestník se směry, odkud  sem přijíždějí trampové. Krásné místo.  ",
+      napis: " T. O. VODOPÁDY  2007  ",
+      odkazy: [
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 50. ",
+        },
+      ],
+      pozn:
+        "  Toto je první (tedy podle abecedy) ze dvanácti trampských srubů na Divoké Oslavce. Deset na pravé, tedy sedlecké straně řeky, zbytek na levé, březnické straně Oslavky. Jejich majitelé a osadníci nestojí o žádnou publicitu, na druhou stranu jsou boudy ve veřejném prostoru a na divokých a romantických místech. Proto zde nezveřejním jejich polohu v mapě a popisy cest k nim budou poněkud mlhavější. Ti, kteří se k nim chtějí dostat, je znají nebo si je najdou. K žádnému srubu nevede cesta, k některým pěšinka, často krkolomná. Boudy se začaly stavět koncem 60. let, většina z nich vyhořela a byla přestavěna. Problémy nastaly, když tu byla vyhlášena přírodní rezervace, postupně se zpřísňující. Dnes je celé údolí prohlášeno za Národní přírodní rezervaci Údolí Oslavy a Chvojnice, kde je zakázáno chodit mimo značené cesty. Což nelze dodržet. Dříve bývala většina srubů otevřená a přístupná příchozím, nyní je to spíše výjimka. ",
+      naposledObnoveno: " 4.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bomacedosu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/bomacedosu  ",
+      galerie: [
+        {
+          fotka: "  363archymova2.jpg",
+          popisek: " Archymova bouda (duben 2018) ",
+        },
+        { fotka: "  363archymova1.jpg", popisek: " (duben 2022) " },
+        { fotka: "  363archymova4.jpg", popisek: " Rozcestník (duben 2018) " },
+      ],
+      proMe: " XX/970  24-331-25  18—041  22—045  ",
+    },
+    {
+      id: 364,
+      kategorie: "pomnicky",
+      pridano: " 06/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Kellyho  ",
+      nazev: " Kellyho bouda na Divoké Oslavce  ",
+      fotkaUvod: { fotka: " 364kelyhobda3.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Srub stojí na pravé straně Divoké Oslavky, nedaleko mostu Čerťák. Dvě stě metrů nad ním je na skalce slavín T.O. Sedící býk.  ",
+      popis:
+        "  Dřevěný srub se sedlovou střechou a širokou verandou stojí v lese nad skálou. Vedle roste mohutný dub.  ",
+      odkazy: [
+        {
+          nazev:
+            "  Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 50. ",
+        },
+      ],
+      pozn:
+        "  Jméno vzniklo přesmyčkou jména stavitele. Jezdí tam osada Sedící býk. Úmyslně tu není vyznačena poloha srubu v mapě.  ",
+      naposledObnoveno: " 6.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jalefupera" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/jalefupera  ",
+      galerie: [
+        {
+          fotka: "  364kelyhobda1.jpg",
+          popisek: " Kellyho bouda na Divoké Oslavce (únor 2012) ",
+        },
+        { fotka: "  364kelyhobda2.jpg", popisek: " (duben 2016) " },
+      ],
+      proMe: " XVIII/721  24-331-13  12—021  16—041  ",
+    },
+    {
+      id: 365,
+      kategorie: "pomnicky",
+      pridano: " 07/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Kuroslepy  ",
+      jmeno: " Bouda - Pražce  ",
+      nazev: " Camp a srub T. O. Pražce na Chvojnici  ",
+      fotkaUvod: { fotka: " 365prazce1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Camp leží na pravém břehu říčky Chvojnice, blízko Kozích hřbetů.  ",
+      popis:
+        "  Do prudkého svahu je zapuštěna nízká dřevěná stavba se šikmou střechou. Pod srubem na rovině je ohniště a na skále umístěna pamětní deska. ",
+      napis:
+        " na srubu: T. O. PRAŽCE<br>na desce: DĚDEK //  * 9. 12 1975  + 6. 7. 2001 // PRAŽCE    KAMARÁDI  ",
+      odkazy: [
+        {
+          nazev: " Výroční oheň ",
+          adresa: " https://suof.rajce.idnes.cz/19._OHEN_T.O._PRAZCE_11-2017/ ",
+        },
+        {
+          nazev:
+            "  Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 70. ",
+        },
+      ],
+      pozn: "  Poloha campu není v mapě uvedena úmyslně.  ",
+      naposledObnoveno: " 7.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pahazedugo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/pahazedugo  ",
+      galerie: [
+        {
+          fotka: "  365prazce2.jpg",
+          popisek: " Srub T. O. Pražce na Chvojnici (duben 2015) ",
+        },
+        {
+          fotka: "  365prazce3.jpg",
+          popisek: " Camp T. O. Pražce (duben 2022) ",
+        },
+        { fotka: "  365prazce4.jpg", popisek: " Deska na skále (duben 2022) " },
+        { fotka: "  365prazce5.jpg", popisek: " (duben 2022) " },
+      ],
+      proMe: " XIX/854  24-332-61  15—042  22—043  ",
+    },
+    {
+      id: 366,
+      kategorie: "pomnicky",
+      pridano: " 07/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: " Březník   ",
+      jmeno: " Základ po boudě Žampion   ",
+      nazev: " Žampion  ",
+      fotkaUvod: { fotka: " 366zampion1.jpg " },
+      kdyVznikl:
+        " Začátkem 20. století tu dali majitelé panství Haugwitzové postavit dřevěnou stavbu, které dali jméno kaple svatého Huberta. Shořela v půlce šedesátých let jako zdevastovaný seník.  ",
+      popisCesty:
+        " Základ najdeme 2,5 kilometru JZ od centra Březníka, na svahu sklánějícím se z Pastýřky do údolí Oslavky. Je u cesty a vede tu modrá značka.  ",
+      popis:
+        "  Ze svahu vystupuje plošina 4 x 6 metrů, jejíž tři boky jsou vyskládány z lomového kamene. Uprostřed ní stojí od roku 2021 sloupek s metr vysokým modelem tehdejší boudy (až na křížek nahoře) a dvěma historickými fotkami. Vedle jsou lavičky a cedule s vlastivědným textem.  ",
+      odkazy: [
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 39. ",
+        },
+      ],
+      pozn:
+        "  Původně tu Haugwitzové zakončovali hony, konaly se tu výřady ulovené zvěře. Protože byla kaple natřena zelenou barvou, vžil se název <strong>Zelená bouda</strong>. Později začala stavba sloužit jako sklad krmení pro lesní zvěř. Po válce pustla, byla otevřená a stala se z ní příležitostná noclehárna. Mezi trampy ujal kvůli přečnívající střeše název <strong>Žampion</strong> nebo <strong>Gampl</strong>. Pamatuji, že když jsme tudy začátkem šedesátek jako kluci chodívali, pokaždé tu nějaká parta tábořila.<br>Není úplně jasné, kdy bouda, možná neopatrností, shořela. Vlastivědná cedule na místě uvádí srpen 1963, já ji pamatuji stát ještě v květnu 1964, Lucan uvádí rok 1965. Poté, co bouda přestala existovat, se začaly budovat trampské sruby na Oslavce.  ",
+      naposledObnoveno: " 7.5.2022 ",
+      souradnice: " 49.1581106N, 16.1701958E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gegajokone" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gegajokone  ",
+      galerie: [
+        {
+          fotka: "  366zampion1.jpg",
+          popisek: " Základ po boudě Žampion (duben 2022) ",
+        },
+        {
+          fotka: "  366zampion2.jpg",
+          popisek: " Model původní stavby (duben 2022) ",
+        },
+        {
+          fotka: "  366zampion3.jpg",
+          popisek: " Reprodukce historické fotky stavby ",
+        },
+      ],
+      proMe: " XVIII/737  24-332-51  22—045  ",
+    },
+    {
+      id: 367,
+      kategorie: "pomnicky",
+      pridano: " 08/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - na vodopádech  ",
+      nazev: "  Járova bouda na  vodopádech  ",
+      fotkaUvod: { fotka: "  367jarovabda2.jpg " },
+      kdyVznikl: " 1968. ",
+      popisCesty:
+        " Bouda stojí na pravé straně Oslavky, v úzkém údolí u potoka mezi vodopády. Nad chatou je čtyřmetrový vodopád, pod chatou padá voda v několika stupních asi osm metrů. Přístup je tedy poněkud ztížen, navíc jsou někde polomy. Romantické místo.  ",
+      popis:
+        "  Dřevěný srub s verandou a podkrovím pod asymetrickou sedlovou střechou patří k největším trampským srubům. Vedle je ohniště.  ",
+      napis: " NA  VODOPÁDECH  ",
+      odkazy: [
+        {
+          nazev: " Válek 2009, str. 151 ",
+          adresa:
+            " https://docplayer.cz/69310375-Jihoceska-univerzita-v-ceskych-budejovicich.html ",
+        },
+        { nazev: "  ", adresa: "  " },
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 48. ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Úmyslně není uvedena poloha srubu v mapě. Podle Lucana boudu postavil Jára a dva roky nato ji z pražců přestavěla osada Černý kondor. Na stejném potoce, ale trochu výše u soutoku potoků, stavěl v arktické zimě 1970/71 svůj srub Čárlí s druhy. Chtěli se tak přiblížit podmínkám panujícím na Yukonu před sto lety. Tenkrát šel v kinech americký film Zálesák a mnoho trampů ovlivnil. Mě ne-trampa též. Po čtyřech letech chajdu Čárlí zboural a chtěl postavit větší. K tomu už nedošlo, protože začal jezdit do Krasu a věnoval se jeskyním.    ",
+      naposledObnoveno: " 8.5.2022 ",
+      souradnice: "    ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fezuhonudu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/fezuhonudu  ",
+      galerie: [
+        {
+          fotka: "  367jarovabda1.jpg",
+          popisek: " Járova bouda na vodopádech (duben 2012 ) ",
+        },
+        { fotka: "  367jarovabda3.jpg", popisek: " (duben 2022 ) " },
+        { fotka: "  367jarovabda4.jpg", popisek: " (duben 2022 ) " },
+        {
+          fotka: "  367jarovabda5.jpg",
+          popisek: " Část vodopádu pod srubem (duben 2022 ) ",
+        },
+      ],
+      proMe: " XVIII/735  24-331-15  12—041  22—045  ",
+    },
+    {
+      id: 368,
+      kategorie: "pomnicky",
+      pridano: " 09/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Kobra  ",
+      nazev: " Srub Kobra na Divoké Oslavce  ",
+      fotkaUvod: { fotka: " 368srubkobra4.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Srub stojí na pravém břehu Oslavky naproti Lamberku. Cesta po břehu je  z obou stran dost náročná, shora nemožná. Velmi romantické místo.  ",
+      popis:
+        "  Malá nízká stavba se sedlovou střechou zapadá do zdejšího skalnatého terénu. Včetně ohniště a opěrných zídek.  ",
+      odkazy: [
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 50. ",
+        },
+      ],
+      pozn: "  V mapě není poloha srubu vyznačena úmyslně.  ",
+      naposledObnoveno: " 9.5.2022 ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/beboporaka" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/beboporaka  ",
+      galerie: [
+        {
+          fotka: "  368srubkobra1.jpg",
+          popisek: " Srub T. O. Kobra (duben 2012) ",
+        },
+        { fotka: "  368srubkobra2.jpg", popisek: " (duben 2012) " },
+        { fotka: "  368srubkobra3.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: "  368srubkobra5.jpg",
+          popisek: " Ke Kobře není jednoduchých cest (duben 2022) ",
+        },
+      ],
+      proMe: " XVIII/733  24-332-48  12—041  22—045  ",
+    },
+    {
+      id: 369,
+      kategorie: "pomnicky",
+      pridano: " 09/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Tabulka - Ivoška  ",
+      nazev: " Místo s tabulkou po boudě Ivošce na Divoké Oslavce  ",
+      fotkaUvod: { fotka: " 369ivoska1.jpg " },
+      kdyVznikl:
+        " Tabulka se vzpomínkou na legendární boudu tu je od roku 2010.  ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 312,
+          odkazPodkategorie: 12,
+          odkazKategorie: "pomnicky",
+          odkazKde: "popisCesty",
+          predOdkazem:
+            "Místo leží v samém srdci Divoké Oslavky, na pravém břehu řeky na nedlouhém kamenitém jesepu. Sto kroků odtud je ",
+          textOdkazu: "Převis na Oslavce",
+          zaOdkazem:
+            ", kousek vedle má desku kamarád Nimrod, nahoře na skále je Haryjovka. Dojít tam po břehu je dost náročné kvůli skalám a polomům. V létě lze přebrodit od campu Zlatá podkova, ale za vyššího vodního stavu to nedoporučuji - proud v peřeji má sílu. ",
+        },
+      ],
+      popis:
+        "  Dva metry vysoký dřevěný sloup je zasazen v hromadě kamení. Na sloupu je pečlivě provedená dřevěná tabulka se dvěma fotografiemi boudy Ivošky, krytá sedlovou stříškou. Kolem se povalují kovové součásti tehdejší boudy.  ",
+      napis:
+        " V TĚCHTO   MÍSTECH  STÁVALA  BOUDA //  IVOŠKA  // LEHLA  POPELEM V PÁTEK  16. 8. 1985 .Na druhé fotce opsáno s chybou : NEZAPOMĚLI  JSME // ANI  PO  PĚTADVACETI  LETECH. // KAMARÁDI // MIŠÁK, PEPA, LAĎA A ŽEBŘÍK. // 16. 8. 2010  ",
+      odkazy: [
+        {
+          nazev: " Válek 2009, str.150 ",
+          adresa:
+            " https://docplayer.cz/69310375-Jihoceska-univerzita-v-ceskych-budejovicich.html ",
+        },
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 46. ",
+        },
+      ],
+      pozn:
+        "  Trampové toto těžko přístupné místo začali navštěvovat v šedesátých letech. Podle Lucana tu stály tenkrát kostry pro dvě týpí. Na podzim 1968 tu postavili Gastovu boudu. Ze společenství kamarádů zůstal jen Rypoš, a tedy ji v roce 1970 přejmenovali na Rypošovu boudu a založili osadu Čtyřicátá míle. Bouda bývala vždy otevřená, uklizená. Byla spálena myslivci v roce 1976. Dva roky nato mladí kamarádi postavili novou boudu, které se říkalo Ivoška. I ta po sedmi letech shořela a nebyla obnovena. Spálených bud v 80. letech bylo více, panovalo nepřátelství mezi myslivci (s tichou podporou úřadů) a trampy.  ",
+      naposledObnoveno: " 9.5.2022 ",
+      souradnice: "  49.1718486N, 16.1639117E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/boforeluku" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/boforeluku  ",
+      galerie: [
+        {
+          fotka: "  369ivoska2.jpg",
+          popisek: " Místo po boudě Ivoška(duben 2022) ",
+        },
+        {
+          fotka: "  369ivoska3.jpg",
+          popisek: " Tabulka po Ivošce (duben 2012) ",
+        },
+        {
+          fotka: "  369ivoska4.jpg",
+          popisek: " Terén nad Ivoškou (duben 2022) ",
+        },
+        { fotka: "  369ivoska5.jpg", popisek: " Detail tabulky (duben 2022) " },
+      ],
+      proMe: " XVIII/731  24-332-41  12—041  22—045  ",
+    },
+    {
+      id: 370,
+      kategorie: "pomnicky",
+      pridano: " 10/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Umírajda  ",
+      nazev: " Trampská bouda Umírajda na Divoké Oslavce  ",
+      fotkaUvod: { fotka: " 370umirajda1.jpg " },
+      kdyVznikl:
+        " 1969 ji stavěli Umírák s Magdou. Několikrát byla přestavována a rozšiřována. ",
+      popisCesty:
+        " Bouda stojí na pravé straně Oslavky, na žebru spadajícím od Sedlce k řece. Protože je poměrně lehce přístupná, je dost navštěvovaná a málokdy je prázdná. 200 metrů odtud je ve stráni studánka Umírajda. ",
+      popis: "  Nízký srub s členitým půdorysem vzniklý přístavbou.   ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 50. ",
+        },
+      ],
+      pozn:
+        "  Umírajda (též Umírayda) je podle abecedy poslední, tedy dvanáctý srub ojedinělého souboru trampských staveb v pět kilometrů dlouhém přelomovém údolí Divoké Oslavky, mezi Vlasákem a novou lávkou pod Vlčím kopcem. K tomu je třeba připočíst více tábořišť, totemů, slavínů, pamětních desek, studánek a základů zaniklých bud. Na Moravě nemá takové území obdobu. Myslím, že by si zasloužilo ochranu, nejen přírodní, ale i kulturní. Od Náměště po levém břehu se nacházejí boudy: Kellyho - Umírajda - Haryjovka - Převis (Škrčkova) - základ Ivošky - Pedyho - Silverka - Kobra - Jimova - Fetoška - Archymova - Járova. Na pravém břehu Kečup Tom - Plechárna - základ Žampionu.  ",
+      naposledObnoveno: " 10.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/reboduzupu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/reboduzupu  ",
+      galerie: [
+        {
+          fotka: "  370umirajda2.jpg",
+          popisek: " Bouda Umírajda (duben 2012) ",
+        },
+        { fotka: "  370umirajda3.jpg", popisek: " (duben 2012) " },
+        { fotka: "  370umirajda4.jpg", popisek: " (duben 2022) " },
+      ],
+      proMe: " XVIII/730  24-331-14  12—041  22—045  ",
+    },
+
+    {
+      id: 371,
+      kategorie: "pomnicky",
+      pridano: " 11/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Camp Kančárna  ",
+      nazev: "  Trampské fleky na Kančí louce ",
+      fotkaUvod: { fotka: " 371kancarna1.jpg " },
+      kdyVznikl:
+        " Roku 1961 na tuto louku začala jezdit z Brna trampská osada Divocí kanci. Když tady po třech letech uspořádali výroční oheň, byla louka podle nich pojmenována Kančí, krátce Kančárna. Od té doby tu tábořily generace trempířů, odehrály se desítky potlachů, zahořely stovky ohňů, omačkalo se tisíce palců. ",
+      popisCesty:
+        " Kančí louka leží na pravém břehu Oslavky na V od Sedlece. Nejjednodušší přístup je od Glorietu, širokou vozovou cestou do údolí. Po břehu pod skálou Jinošovnicí nelze projít. Lze přebrodit řeku k trampskému slavínu na levém břehu. ",
+      popis:
+        " Legendární Kančárna je pás louky dlouhý asi 400 metrů, široký nanejvýš 50 metrů, místy zarůstající. Louka končí vysokou skálou Jinošovnicí. Camp je v její JZ půli. Dnes je tam obrovské slavnostní ohniště, obkroužené dvojím kruhem kamenů, po obvodu s lavicemi a konstrukce pro plachtovou střechu. Dříve místo zdobily totemy. Asi 200 metrů proti proudu leží tábořiště osady Bílý jelen s totemem a zarůstajícím ohništěm. Zdá se, že Bílí jeleni z Omic sem přestali jezdit.   ",
+      odkazy: [
+        {
+          nazev: " Válek 2009,str.145 ",
+          adresa:
+            " https://docplayer.cz/69310375-Jihoceska-univerzita-v-ceskych-budejovicich.html ",
+        },
+        {
+          nazev: " Kapsa ",
+          adresa:
+            " https://www.michalkupsa.cz/blog/3-trampske-koseni-kanci-louky-268.html ",
+        },
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 39. ",
+        },
+      ],
+      pozn:
+        " Protože louka byla od Kralic špatně přístupná a nízké lávky brala jarní voda, natáhli na podzim 1983 kamarádi Fetoš a Vlastík nad řeku dvě ocelová lana ve výši 4 metrů a vybudovali visutou lávku dlouhou 37 metrů. Fungovala do roku 1992, kdy ji odstranili samozvaní ochranáři. Další lávku, dřevěnou, vybudovali trampové až na přelomu století. Byla sezónní, na zimu se ukládala na břeh. V posledních letech ji už ale nikdo na léto nestaví, na Kančárně nastává jistý útlum táboření.<br>I když se zdá, že je louka dostatečně vysoko nad hladinou řeky, nemusí to stačit. Na konci zimy, když jdou ledy, se kry nahromadí v úzkém místě řeky, voda louku zaplaví a kusy ledu vše rozbíjejí a otloukají. Zažil jsem to v únoru 2012.<br>Tato místa byla pro trampský národ objevena poměrně pozdě, až v 60. letech 20. století. Na rozdíl od Ketkováku, kam přišli první trampové o čtyřicet let dříve. V roce 1961 byla založena osada Orli a jezdili na louku pod Březníkem, kde je dnes totem T. O. Klondike. Celému údolí až po camp Zlatá podkova se říkalo Orlák. Když se hoši vrátili z vojny, vztyčili vysoký totem, přejmenovali svou osadu na T. O. Klondike a tedy od roku 1965 nese údolí název Klondike. Tam také vznikl první trampský přístřešek, v roce 1967 si u potoka pod Březníkem zřídila osada Divoši svoji boudu Térka, krytou térovým papírem. Osady to byly maličké, 4 - 5 mladíků, většinou před vojnou. Jen někteří trampovali i po vojně.  ",
+      naposledObnoveno: " 11.5.2022 ",
+      souradnice: "  49.1595017N, 16.1645661E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nezedomalo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/nezedomalo  ",
+      galerie: [
+        {
+          fotka: "  371kancarna2.jpg",
+          popisek: " Kančí louka pod Jinošovnicí (duben 2022) ",
+        },
+        {
+          fotka: "  371kancarna3.jpg",
+          popisek: " Camp Kančárna (duben 2018) ",
+        },
+        {
+          fotka: "  371kancarna4.jpg",
+          popisek: " Camp Bílý jelen (duben 2018) ",
+        },
+      ],
+      proMe: " XVII/653  24-332-45  18—042  22—045  ",
+    },
   ],
 };
