@@ -18987,7 +18987,7 @@ export default {
       popisCesty:
         " Srub stojí na pravé straně Oslavky, v údolí potoka, nedaleko Sedlce.  ",
       popis:
-        "  Malý úhledný srub s přečnívající pultovou střechou, pod kterou je podkroví. Kolem je ohniště se sezením, studánka, lávka a rozcestník se směry, odkud  sem přijíždějí trampové. Krásné místo.  ",
+        "  Malý úhledný srub s přečnívající sedlovou  střechou, pod kterou je podkroví. Kolem je ohniště se sezením, studánka, lávka a rozcestník se směry, odkud  sem přijíždějí trampové. Krásné místo.  ",
       napis: " T. O. VODOPÁDY  2007  ",
       odkazy: [
         {
@@ -19393,6 +19393,231 @@ export default {
         },
       ],
       proMe: " XVII/653  24-332-45  18—042  22—045  ",
+    },
+    {
+      id: 372,
+      kategorie: "pomnicky",
+      pridano: " 13/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Fetoška  ",
+      nazev: " Trampský srub Fetoška na Divoké Oslavce  ",
+      fotkaUvod: { fotka: "  372fetoska2.jpg " },
+      kdyVznikl:
+        " 1969 ji začal stavět Mustang a říkalo se jí Mustangova bouda. Když se odstěhoval a nejezdil tam, chátrající boudu v roce 1981 opravil Fetoš s partnery a dostala jméno Fetoška. I ta v nultých letech chátrala, ale v posledních letech je opět v dobrém stavu. ",
+      popisCesty: " Bouda leží na pravé straně Oslavky, v lese u Glorietu.  ",
+      popis:
+        "  Dřevěný srub se sedlovou střechou je vchodem otočený ke svahu. Vchod je krytý tunelovým přístřeškem.  ",
+      odkazy: [
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 49. ",
+        },
+      ],
+      pozn: "  Poloha není do mapy vynesena úmyslně.  ",
+      naposledObnoveno: " 13.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jezenodugo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/jezenodugo  ",
+      galerie: [
+        {
+          fotka: "  372fetoska1.jpg",
+          popisek: " Bouda Fetoška pod Glorietem (duben 2018) ",
+        },
+        { fotka: "  372fetoska2.jpg", popisek: " (duben 2022) " },
+        { fotka: "  372fetoska3.jpg", popisek: " (duben 2022) " },
+      ],
+      proMe: " XVII/651  24-332-43  18—042  22—045  ",
+    },
+
+    {
+      id: 373,
+      kategorie: "pomnicky",
+      pridano: " 14/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: " Budkovice  ",
+      jmeno: " Novotný, Karel hasič  ",
+      nazev: " Pomník hasiče Karla Novotného u Budkovic  ",
+      fotkaUvod: { fotka: " 373novotny1.jpg " },
+      kdyVznikl: " po roce 1937 ",
+      vnitrniOdkazy: [
+        {
+          vnitrniOdkaz: 347,
+          odkazPodkategorie: 10,
+          odkazKategorie: "pomnicky",
+          odkazKde: "popisCesty",
+          predOdkazem:
+            "Pomník stojí na JV okraji Budkovic u cesty. Mnohem později byl vedle vztyčen ",
+          textOdkazu: "Zvěrokruh",
+          zaOdkazem: ".",
+        },
+      ],
+      popis:
+        "  pomník klasického tvaru z umělého kamene je dva metry vysoký. Na spodní části je hůře čitelný text.  ",
+      napis:
+        " ZDE  TRAGICKY  ZAHYNUL  PŘI // KONÁNÍ  HASIČSKÉ  POVINNOSTI // KAREL  NOVOTNÝ //  * 6. 10. 1912  + 14. 6. 1937  ",
+      odkazy: [{ nazev: " Pařilová, Danuše: Budkovice. 2010, str. 95 " }],
+      pozn:
+        "  13. června 1937 se pořádalo okrskové hasičské cvičení. Druhý den po cvičení se na dřevěný stožár rozvěšovaly mokré hadice, aby uschly. Stožár byl starý, vetchý a když na něj vylezli dva hasiči, tak neunesl váhu a zřítil se k zemi. Pádem na tomto místě se zabil Karel Novotný, Matěj Bartoš se těžce zranil. Po neštěstí došlo v hasičském sboru k velkým neshodám a mnoho členů z řad hasičstva vystoupilo. ",
+      naposledObnoveno: " 14.5.2022 ",
+      souradnice: "  49.0714178N, 16.3487022E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/matemuzafa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/matemuzafa  ",
+      galerie: [
+        {
+          fotka: "  373novotny4.jpg",
+          popisek: " Pomník Karla Novotného (únor 2022) ",
+        },
+        { fotka: "  373novotny2.jpg", popisek: " (únor 2022) " },
+        { fotka: "  373novotny3.jpg", popisek: " Detail nápisu (únor 2022) " },
+      ],
+      proMe: " XX/1172  24-343-58  22—021  ",
+    },
+
+    {
+      id: 374,
+      kategorie: "pomnicky",
+      pridano: " 15/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Tetčice  ",
+      jmeno: "  Sedm podkov ",
+      nazev: " Sedm zlatých podkov na Bučíně  ",
+      fotkaUvod: { fotka: "  374podkovy2.jpg  " },
+      kdyVznikl: " 1832 a 1938 ",
+      popisCesty:
+        " Místo leží 800 metrů SSZ od železniční zastávky Radostice, na křižovatce lesních cest. Prochází tu červená značka.  ",
+      popis:
+        "  U dřevěného altánu jsou dva kameny. Na svisle postaveném kamenném kvádru vysokém 0,6 metru je místy skoro nečitelný text. Pod ním leží betonový blok, do něhož je vsazeno sedm podkov natřených druhotně žlutou barvou. Do betonu jsou vtlačena písmena a datum.   ",
+      napis:
+        " na svislém kamenu: Ke cti a chvále // MATCE  BOŽÍ // věnoval // Tuto Nábožnou Památku // VINCENC  NOVOTNÝ // Roku Páně 1832<br>na betonu s podkovami:  Č  S  R  //  1938  //  21/5    ",
+      pozn:
+        "  O kamenech jsem se ničeho nedopátral. Podivné nápisy svádí ke spekulacím. Starší kámen z roku 1832 by mohl být sokl sochy nebo křížku na rozcestí. Traduje se, že v těchto místech stávala kdysi hospoda. Hájenka na Bučíně je doložena rokem 1531.<br>Mladší datum 21. května 1938 se může vztahovat k částečné mobilizaci československé armády před druhou světovou válkou, kterou vláda Československa vyhlásila 20. května 1938. Mobilizace spočívala v povolání jednoho ročníku záložníků do zbraně a dále povolání záložníků technických a speciálních oddílů.<br>Podkovy bývaly nenatřené, rezavé. Ale stačilo, aby je před patnácti lety někdo přetřel žlutou barvou a v mapách se objevil nový název rozcestí: Sedm zlatých podkov.   ",
+      naposledObnoveno: " 15.5.2022 ",
+      souradnice: " 49.1408017N, 16.4562053E   ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/falevaboje" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/falevaboje  ",
+      galerie: [
+        {
+          fotka: "  374podkovy3.jpg",
+          popisek: " Altán u sedmi podkov (leden 2022) ",
+        },
+        {
+          fotka: "  374podkovy4.jpg",
+          popisek: " Detail staršího kamene (leden 2022) ",
+        },
+        {
+          fotka: "  374podkovy1.jpg",
+          popisek: " Detail kamene s podkovami (leden 2022) ",
+        },
+      ],
+      proMe: " XX/1169  24-341-58  22—011  ",
+    },
+
+    {
+      id: 375,
+      kategorie: "pomnicky",
+      pridano: " 15/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Podolí  ",
+      jmeno: " Chléb náš vezdejší  ",
+      nazev: " Pomník hospodářů zbavených půdy po roce 1948  ",
+      fotkaUvod: { fotka: " 375chlebnas2.jpg " },
+      kdyVznikl:
+        " Na jaře 2020. Autorem a mecenášem je Miloš Vránek, amatérský sochař a majitel firmy Renocar. Kamenickou práci odvedl kameník Miloš Zimovčák. ",
+      popisCesty:
+        " Pomník stojí u rozcestí na kraji rozrůstající se obce, na S od Podolí. Prochází tu modrá značka.  ",
+      popis:
+        "  Nepravidelný lomový kámen je vysoký 1,6 metru. Na jeho přední straně je nápis, dvě sochařsky pojednané ruce a tmavá tabulka s textem.  ",
+      napis:
+        " chléb náš vezdejší…<br>dole na tabulce: K  POCTĚ  HOSPODÁŘŮ // ZBAVENÝCH  PO  ROCE  1948 // JEJICH  PŮDY A MAJETKU  ",
+      odkazy: [
+        {
+          nazev: " Idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/zpravy/pamatnik-hole-ruce-sedlaci-komuniste-podoli-u-brna-milos-vranek.A200504_545894_brno-zpravy_krut  ",
+        },
+      ],
+      pozn:
+        "  Prázdné ruce mají symbolizovat dlaně sedláků, kteří přišli na svět s prázdnýma rukama a po násilné kolektivizaci jim zase zbyly jen holé ruce.  ",
+      naposledObnoveno: " 15.5.2022 ",
+      souradnice: "  49.1930142N, 16.7297686E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/benodufuna" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/benodufuna  ",
+      galerie: [
+        {
+          fotka: "  375chlebnas1.jpg",
+          popisek: "Pomník Chléb náš vezdejší (duben 2021) ",
+        },
+        { fotka: "  375chlebnas2.jpg", popisek: " (duben 2021) " },
+        { fotka: "  375chlebnas3.jpg", popisek: " (duben 2021) " },
+        {
+          fotka: "  375chlebnas4.jpg",
+          popisek: " Detail nápisů (duben 2021) ",
+        },
+      ],
+      proMe: " XX/1142  24-341-65  21—043  ",
+    },
+
+    {
+      id: 376,
+      kategorie: "pomnicky",
+      pridano: " 16/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Bílovice  ",
+      jmeno: " Strom - vánoční  ",
+      nazev: " Památník prvního vánočního stromu    ",
+      fotkaUvod: { fotka: " 376vanocnistrom2.jpg " },
+      kdyVznikl:
+        " Základní kámen památníku tu byl uložen v roce 1994 při příležitosti 70. výročí těžby prvního Vánočního stromu republiky. Vlastní památník byl zbudován v roce 1999 a slavnostně odhalen 20. prosince 1999 za přítomnosti předsedkyně Senátu České republiky Libuše Benešové. ",
+      popisCesty:
+        " Památník leží v lesním údolí vedoucím k Resslově hájence, 1200 metrů VJV od mostu v Bílovicích. Kolem něj prochází zelená značka.  ",
+      popis:
+        "  Dva přírodní vápencové kameny. Levý, menší, je základní kámen k památníku. Pravý, větší, je metr dlouhý i široký a je na něm černá leštěná deska s delším textem.  ",
+      napis:
+        " V  TĚCHTO  MÍSTECH  BYL  SKÁCEN // 6. 12. 1924  PRVNÍ  VÁNOČNÍ  STROM // REPUBLIKY, KTERÝ  BÁSNÍK // RUDOLF  TĚSNOHLÍDEK UVEDL  SLOVY: // “ZA  LIDMI  PŮJDEŠ … OŽIJEŠ, // ROZKVETEŠ  SVĚTLEM …// STROME  NAŠICH  LESŮ.” // K  75. VÝROČÍ  VZNIKU  TRADICE // OBEC  BÍLOVICE  NAD  SVITAVOU. // PROSINEC  1999<br>Na památník byl použit úryvek z Těsnohlídkovy básně, otištěné 6. prosince 1924 v Lidových novinách. Celá báseň zní:<br>Za lidmi půjdeš. Uprostřed města<br>skončí se tvoje poslední cesta.<br>Kolébku tvou zde zavěje sníh.<br>Vstaneš tam, ožiješ, rozkveteš světlem,<br>poprvé uvidíš, co je to betlém,<br>bídu tam uvidíš, však šťastný smích<br>jako pták se ti usadí ve větvích,<br>strome našich lesů.  ",
+      odkazy: [
+        { nazev: " Bílovice ", adresa: " https://www.bilovicens.cz/pamatky " },
+        {
+          nazev:
+            "  Jiří Truhlář : Památníky adamovských lesů, 2003, str. 149. ",
+        },
+        {
+          nazev:
+            " Kraflová, Hana: Rudolf Těsnohlídek a Vánoční strom republiky. Moravské zem. muzeum 2008 ",
+        },
+      ],
+      pozn:
+        " Tradice Vánočního stromu republiky velmi souvisí s novinářem a spisovatelem Rudolfem Těsnohlídkem. Příběh započal nálezem opuštěného dítěte Lidušky před vánocemi 1919 v bílovickém polesí. Pokračoval snahou Těsnohlídka zajistit prostředky pro výstavbu útulku pro opuštěné děti. Podle skandinávského vzoru stavění vánočních stromů prosadil i u nás, že se první Vánoční strom republiky objeví v Brně před vánocemi 1924 a že se pod ním bude vybírat na domov pro opuštěné děti. Tak se i stalo. Byla vybrána patnáctimetrová jedle z bílovického polesí, v sobotu 6. prosince 1924 ručně skácena, naložena na vůz a párem koní odvezena. Na návsi v Bílovicích proběhlo o den později loučení se stromem, hlavním řečníkem byl Těsnohlídek. Celá akce měla vlastenecký ráz, měla ukázat, že se mladý stát dokáže postarat o své nejohroženější členy. Celou trasu provázely oslavy, účastnili se sokolové i skauti, recitovaly školní děti. Místo na Náměstí svobody bylo vybráno blíže k Zámečnické ulici než dnes, neboť tam stával za války Čechy nenáviděný Wehrmann, symbol němectví, kde se vybíralo na válečné sirotky.  Na náměstí byl strom vztyčen, ozdoben a slavnostně rozsvícen v pátek 12. prosince 1924. Pozván byl  dánský konzul, přivedli i šestiletou Lidušku Polákovou, hrály se hymny, fanfáry. Čestnou stráž tu stáli legionáři a kromě peněz se vybíraly i věcné dary.<br>Tradice vánočních stromů se odtud začala šířit do dalších měst. Za čtyři roky byl z darů zbudován v Žabovřeskách Dětský domov Dagmar, toho se už ale Rudolf Těsnohlídek (1882 - 1928) nedožil. Spáchal sebevraždu, zastřelil se 12. ledna 1928 v redakci Lidových novin na České ulici.<br>Tradice takřka stoletá byla přerušena jen totalitami. Za 2. světové války se strom nestavěl, po válce vydržel jen do vánoc 1949, v roce 1968 se pod stromem vybíralo na SOS vesničky, ale brzy se přestalo, strom nestál v Brně ani v letech 1974 - 1985, pokud mne paměť neklame. ",
+      naposledObnoveno: " 16.5.2022 ",
+      souradnice: "  49.2412125N, 16.6904989E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pekuzuvazo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/pekuzuvazo  ",
+      galerie: [
+        {
+          fotka: "  376vanocnistrom1.jpg",
+          popisek: " Památník vánočnímu stromu(prosinec 2017) ",
+        },
+        { fotka: "  376vanocnistrom2.jpg", popisek: " (prosinec 2016) " },
+        {
+          fotka: "  376vanocnistrom3.jpg",
+          popisek: " Detail desky (prosinec 2017) ",
+        },
+      ],
+      proMe: " XIIIN/423   16—124  17—122  ",
     },
   ],
 };
