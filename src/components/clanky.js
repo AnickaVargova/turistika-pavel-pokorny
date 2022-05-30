@@ -19436,8 +19436,8 @@ export default {
       id: 373,
       kategorie: "pomnicky",
       pridano: " 14/05/2022 ",
-      podkategorie: 16,
-      druh: " Jiné nezařaditelné ",
+      podkategorie: 9,
+      druh: "Ostatní tragédie ",
       okres: " Brno - venkov ",
       obec: " Budkovice  ",
       jmeno: " Novotný, Karel hasič  ",
@@ -19618,6 +19618,301 @@ export default {
         },
       ],
       proMe: " XIIIN/423   16—124  17—122  ",
+    },
+    {
+      id: 377,
+      kategorie: "pomnicky",
+      pridano: " 25/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Kuřimská Nová Ves  ",
+      jmeno: " Sloupek - Vodavka  ",
+      nazev: " Kamenný sloupek na Vodavce.  ",
+      fotkaUvod: { fotka: " 377vodavka1.jpg " },
+      kdyVznikl:
+        " Zřejmě v roce 1994 vyhotovil aktivní kronikář pan Mašek z Kuřimské Nové Vsi tabulku na sloupek, k 630. výročí první zmínky o obci. ",
+      popisCesty:
+        " Na J od Kuřimské Nové Vsi na nejvyšším bodu u silnice do Katova. Místo kruhového rozhledu. Nedaleko je kóta 495 metrů s názvem V oddavkách.  ",
+      popis:
+        "  kamenný sloupek čtvercového průřezu je vysoký 1,8 metru. Na něm je připevněna mosazná tabulka s vyraženým textem.  ",
+      napis:
+        " VODAVKA // 495 M N.M. // KUŘIMSKÁ // NOVÁ  VES // 1364 -1994  LAD.MAŠEK KRON.vedle je magický pětipísmenový čtverec, palindrom:<br>R  O  T  A  S<br>O  P  E  R  A<br>T  E  N  E  T<br>A  R  E  P  O<br>S  A  T  O  R<br>  ",
+      odkazy: [
+        {
+          nazev: " Vikipedie ",
+          adresa: " https://cs.wikipedia.org/wiki/Slovn%C3%AD_%C4%8Dtverec ",
+        },
+        {
+          nazev: " Wikijii ",
+          adresa: " https://wikijii.com/wiki/Sator_Square ",
+        },
+      ],
+      pozn:
+        "  Palindrom je nápis, který lze číst stejně zepředu i zezadu. Tento slovní čtverec je znám ze starověku, objevil se už v Pompejích. Je z latiny a lze ho velmi volně přeložit jako Rozsévač Arepo pracuje s pluhem, nebo: Stvořitel Arepo udržuje dílo v pohybu. Sator = sázeč, tenet = drží, opera = práce, rotas = kola. Překladů i výkladů může být více, jak už to u záhad bývá.  ",
+      naposledObnoveno: " 25.5.2022 ",
+      souradnice: "  49.3401203N, 16.2959003E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cohulusuco" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cohulusuco  ",
+      galerie: [
+        { fotka: "  377vodavka1.jpg", popisek: " Kopec Vodavka (srpen 2020) " },
+        {
+          fotka: "  377vodavka2.jpg",
+          popisek: " Sloupek na Vodavce (srpen 2020) ",
+        },
+        {
+          fotka: "  377vodavka3.jpg",
+          popisek: " Detail tabulky (srpen 2020) ",
+        },
+        {
+          fotka: "  377vodavka4.jpg",
+          popisek: " Výhled na Kuřimskou Novou Ves (srpen 2020) ",
+        },
+      ],
+      proMe: " XIIIN/399  24-312-30  20—084  ",
+    },
+
+    {
+      id: 378,
+      kategorie: "pomnicky",
+      pridano: " 25/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - město ",
+      obec: " Brno - Bystrc   ",
+      jmeno: " Zrušení roboty - Veveří  ",
+      nazev: "  Památka na zrušení roboty na hradě Veveří  ",
+      fotkaUvod: { fotka: " 378zruseniroboty1.jpg " },
+      kdyVznikl: "  Deska byla odhalena 30.9.1928. ",
+      popisCesty:
+        " U hlavní, jižní, brány do hradu Veveří je reliéf zazděn do opěrné kamenné zdi.  ",
+      popis:
+        " Metr vysoký pískovcový reliéf je rozdělen do tří částí. Levá představuje porobení, pravá svobodu a dole jsou letopočty a nápis. Reliéf je dost poškozen povětrností. Pod ním je tmavá leštěná deska s delším textem.   ",
+      napis:
+        " na reliéfu: 1848  1918  1928 // VZPOMEŇ  POROBY // VAŽ  SI  SVOBODY<br>na desce: Tato deska byla odhalena 30. září 1928 // na paměť 80. výročí zrušení roboty // a 10. výročí trvání Čs. republiky // pod protektorátem Dra J.VOŽENÍLKA, presidenta S.P.Ú. // péčí Komité pro povznesení kraje // MRŠTÍKOVY  POHÁDKY  MÁJE // a Státního pozemkového úřadu v Praze.  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=670 ",
+        },
+        {
+          nazev: " památkový katalog ",
+          adresa:
+            " https://www.pamatkovykatalog.cz/pamatnik-80-vyroci-zruseni-roboty-7796088 ",
+        },
+        {
+          nazev:
+            " Menšíková, Miroslava: Pamětní desky a pomníky v Brně, 2004, str. 180 ",
+        },
+      ],
+      pozn:
+        "  Autorem památníku je údajně akademický malíř <strong>František Hlavica</strong> (1887 - 1952).<br>Deska byla za války sňata a zničena, po válce obnovena se stejným textem. <strong>Dr. Jan Voženílek</strong> (1888 - 1953) byl státní úředník a president Státního pozemkového úřadu v Praze.  ",
+      naposledObnoveno: " 25.5.2022 ",
+      souradnice: "  49.2564072N, 16.4613392E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/rerelelebe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/rerelelebe  ",
+      galerie: [
+        {
+          fotka: "  378zruseniroboty2.jpg",
+          popisek: " Zrušení roboty na Veveří (leden 2022) ",
+        },
+        {
+          fotka: "  378zruseniroboty3.jpg",
+          popisek: " Detail desky (leden 2020) ",
+        },
+        {
+          fotka: "  378zruseniroboty4.jpg",
+          popisek: " Detail reliefu (leden 2020) ",
+        },
+      ],
+      proMe: " VIII/324  24-323-2  20—011  22—016  ",
+    },
+
+    {
+      id: 379,
+      kategorie: "pomnicky",
+      pridano: " 26/05/2022 ",
+      podkategorie: 16,
+      druh: " Jiné nezařaditelné ",
+      okres: " Brno - venkov ",
+      obec: "  Lelekovice  ",
+      jmeno: " Deska - Babí lom  ",
+      nazev: " Pamětní deska ke zbudování rozhledny na Babím lomu.  ",
+      fotkaUvod: { fotka: " 379deskaBabec2.jpg " },
+      kdyVznikl:
+        " Rozhledna se stavěla od roku 1959 a byla slavnostně otevřena 14. května 1961. V té době instalovali i první pamětní desku. Protože byla z bronzu, vandal ji na podzim 2008 ukradl. Byla nahrazena kamennou deskou se stejným textem.  ",
+      popisCesty:
+        " Deska je umístěna na kamenném soklu rozhledny na Babím lomu, ze Z strany. Známé a navštěvované místo, prochází tu červená a končí žlutá značka.   ",
+      popis: "  Na obdélníkové leštěné desce z červené žuly je delší text.  ",
+      napis:
+        " ROZHLEDNA  NA  “BABÍM  LOMĚ” // BYLA  POSTAVENA 1959 - 1961 // TJ. SOKOL  LELEKOVICE // PODLE  PROJEKTU // ING. ARCH. M. KORVASE Z BRNA // INVESTOR: KVČSTV. BRNO  ",
+      odkazy: [
+        {
+          nazev: " EB Albrecht ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=13691 ",
+        },
+        {
+          nazev: " Ilčíková ",
+          adresa: "  https://alena.ilcik.cz/rozhledny/rozhledna.php?k=3 ",
+        },
+        { nazev: " Černohlávek, Jan a kol.: Babí lom. 2009, str. 94 " },
+      ],
+      pozn:
+        "  První vyhlídka z této skály vznikla kolem roku 1870 a jmenovala se <strong>Ripkas Ruhe</strong> - Ripkův odpočinek. Zbudoval ji spolek brněnských německých turistů, který se později ustanovil jako brněnská pobočka ÖTC - Oesterreichischer Touristen Club ve Vídni. Jméno dostala vyhlídka po hlavním budovateli, <strong>Carlu Ripkovi</strong> (1818 - 1874), který se nejvíce zasloužil o zpřístupnění hřebene Babího lomu a budování zdejších turistických zařízení v 19. století. Byl to prostý dřevěný altán 4 x 4 metry, posazený na skalní plošinu, původně zasklený, s jednoduchou střechou. Není úplně jasné, dokdy stavba sloužila, zdá se že vydržela až do 50. let 20. století.<br>Na konci 50. let působil v lelekovické tělovýchově <strong>MUDr. Rudolf Albrecht</strong> (1911 - 2013). V roce 1957 zjistil, že na účtu tělovýchovy nebyla vyčerpána malá dotace (30 000 Kčs), a prosadil začátek brigádnického budování dnešní rozhledny. Návrh mu udělal jeho přítel architekt Korvas během jednoho večera při posezení u kávy. Zpočátku bylo nadšení pro budování rozhledny veliké, o nedělích se účastnilo až 250 brigádníků. Udělali lidský řetěz a dopravili na skálu zespodu desítky tun stavebního materiálu. Do konce stavby vydrželo jen pět nejvěrnějších, nejaktivnější byl Rudolf Albrecht, rozhledna bylo jeho dítě. Je jen škoda, že není vzpomenut na pamětní desce. Možná za to mohlo jeho věznění z politických důvodů v 50. letech, plně rehabilitován byl až v roce 1968.<br>Rozhledna na Babím lomu je 15 metrů vysoká, vyhlídková plošina je ve výši dvanácti metrů nad skálou. Náklad na vybudování byl prý 160 000 Kčs. Byla to jediná rozhledna postavená v republice ve dvacetiletí padesátých a šedesátých let. Za dobré viditelnosti je vidět většina Jižní Moravy, za výborných pozorovacích podmínek možno pozorovat Bílé Karpaty s Velkou Javořinou, špičky Malých Karpat a čtyři horské skupiny z Východních Alp. Nejvzdálenější z nich, Veitschalpe, je 205 km daleko. V letech 2021 - 2022 probíhá důkladná oprava šedesátileté věže.   ",
+      naposledObnoveno: " 26.5.2022 ",
+      souradnice: "  49.3051147N, 16.5761189E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gehuhajese" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gehuhajese  ",
+      galerie: [
+        {
+          fotka: "  379deskaBabec1.jpg",
+          popisek: "Původní deska zmizela v roce 2008 (leden 2008) ",
+        },
+        {
+          fotka: "  379deskaBabec2.jpg",
+          popisek: " Současná pamětní deska. (září 2010) ",
+        },
+        {
+          fotka: "  383babilom23.jpg",
+          popisek: " Rozhledna na Babím lomu. Foto Štulpa (únor 2004) ",
+        },
+      ],
+      proMe: " IV/114  24-322-98  obl—BO—B.L.  ",
+    },
+
+    {
+      id: 380,
+      kategorie: "pomnicky",
+      pridano: " 26/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Plechárna  ",
+      nazev: " Trampský srub Plechárna II na Divoké Oslavce ",
+      fotkaUvod: { fotka: " 380plecharna2.jpg " },
+      kdyVznikl:
+        " 1968 na tomto místě postavili Dykovu boudu. Brzy vyhořela a v roce 1972 byla obnovena jako Plechárna, druhá v pořadí.",
+      popisCesty:
+        " Chata stojí na levém břehu Oslavky, naproti poloostrovu Sedleckého hradu. Geniálně vybrané místo, po břehu se k němu nelze dostat.  ",
+      popis:
+        "  Na kamenné podezdívce sedí široký srub s podkrovím v sedlové střeše. Těsně vedle stojí mohutný smrk. Romantické místo. ",
+      odkazy: [
+        {
+          nazev: " Válek, str.149 ",
+          adresa:
+            " https://docplayer.cz/69310375-Jihoceska-univerzita-v-ceskych-budejovicich.html ",
+        },
+        { nazev: "  ", adresa: "  " },
+        {
+          nazev:
+            "  Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 46.  ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  První Plechárna stála jinde, shořela, název měla podle krytiny z plechu velkých konzerv. Dnešní střecha je z kanadských šindelů, ale název už zůstal. V roce 1989 přistavěli podkroví. Poloha boudy není do mapy vynesena úmyslně.   ",
+      naposledObnoveno: " 26.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bumurameha" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: '  src="https://frame.mapy.cz/s/bumurameha  ',
+      galerie: [
+        { fotka: "  380plecharna1.jpg", popisek: " (duben 2012) " },
+        {
+          fotka: "  380plecharna3.jpg",
+          popisek: " Bouda Plechárna II (duben 2018) ",
+        },
+        { fotka: "  380plecharna4.jpg", popisek: " (duben 2018) " },
+      ],
+      proMe: " XVII/650 24-322-46  12—041  18—041  18—082  ",
+    },
+
+    {
+      id: 381,
+      kategorie: "pomnicky",
+      pridano: " 26/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Silverka  ",
+      nazev: " Trampský srub Silverbóda na Divoké Oslavce ",
+      fotkaUvod: { fotka: " 381silverboda1.jpg " },
+      kdyVznikl: " 1970 stavěl tuto boudu Honza Silver s druhy. ",
+      popisCesty:
+        " Srub leží na pravé straně Oslavky nedaleko Sedleckého hradu, nad pásem skal.  ",
+      popis:
+        "  Nízký srub se sedlovou střechou je srouben z tlustých klád. Nad vchodem má lebku muflona. Vedle stojí totem.   ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev:
+            "  Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 49.  ",
+        },
+      ],
+      pozn: "  Úmyslně není poloha srubu vyznačena do mapy.  ",
+      naposledObnoveno: " 26.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bumurameha" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/bumurameha  ",
+      galerie: [
+        { fotka: "  381silverboda2.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: "  381silverboda3.jpg",
+          popisek: " Silverova bouda na Divoké Oslavce (duben 2010) ",
+        },
+      ],
+      proMe: " XVII/649  24-332-42  10—04  22—045  ",
+    },
+
+    {
+      id: 382,
+      kategorie: "pomnicky",
+      pridano: " 27/05/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Sedlec  ",
+      jmeno: " Bouda - Kódlovka  ",
+      nazev: " Trampský srub Kódlovka (Walden) na Divoké Oslavce ",
+      fotkaUvod: { fotka: " 382kodlovka4.jpg " },
+      kdyVznikl:
+        " Srub <strong>Walden</strong> začali stavět v roce 1970 Kódl z osady Klondike spolu s Nimrodem. Srub vyhořel v roce 1977 a později byl obnoven. Dnes se srubu říká také <strong>Kódlovka</strong>. ",
+      popisCesty:
+        " Chata leží na pravé straně Oslavky, na V od Sedlce, dost vysoko nad řekou.  ",
+      popis:
+        " Na úzké plošině stojí vzorně udržovaný malý srub se sedlovou střechou. Bokem je přilepen ke skále a nad vchodem je kravská lebka. Vedle je ohniště.    ",
+      napis: "   ",
+      odkazy: [
+        {
+          nazev: " Válek,str.151 ",
+          adresa:
+            " https://docplayer.cz/69310375-Jihoceska-univerzita-v-ceskych-budejovicich.html ",
+        },
+        {
+          nazev:
+            "  Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 47.  ",
+        },
+      ],
+      pozn: " Poloha srubu není vynesena do mapy úmyslně.   ",
+      naposledObnoveno: " 27.5.2022 ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/famojemefa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/famojemefa  ",
+      galerie: [
+        { fotka: "  382kodlovka2.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: "  382kodlovka1.jpg",
+          popisek: " Trampský srub Kódlovka (duben 2022) ",
+        },
+        { fotka: "  382kodlovka3.jpg", popisek: " (duben 2010) " },
+      ],
+      proMe: " XVII/648  24-332-47  10—04  22—045  ",
     },
   ],
 };
