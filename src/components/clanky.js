@@ -19914,223 +19914,223 @@ export default {
       ],
       proMe: " XVII/648  24-332-47  10—04  22—045  ",
     },
-    //   {
-    //     id: 383,
-    //     datum: " květen 2009  ",
-    //     pridano: "02/06/2021 ",
-    //     kategorie: "vypraveni",
-    //     podkategorie: 1,
-    //     nazev: "  Přechod hřebenem Babího lomu  ",
-    //     fotkaUvod: { fotka: "  383babilom03.jpg " },
+    {
+      id: 383,
+      datum: " květen 2009  ",
+      pridano: "02/06/2021 ",
+      kategorie: "vypraveni",
+      podkategorie: 1,
+      nazev: "  Přechod hřebenem Babího lomu  ",
+      fotkaUvod: { fotka: "  383babilom03.jpg " },
 
-    //     text: [
-    //       {
-    //         textOdstavce:
-    //           "   <p> Ne každý ví, že v bezprostřední blízkosti Brna lze nalézt terén, který si nijak nezadá s vysokohorskými partiemi. Jeho nevýhodou je, že je schovaný v lese; být tak o patnáct set metrů vyšší, snesl by srovnání s hřebenovkami Tater nebo Roháčů. Je podivné, že přechod hřebenem Babího lomu není popsán v žádných literárních pramenech. Horolezecký průvodce Doležel 1988 obsahuje jen náčrt skal a vyjmenování horolezeckých cest, průvodce Sitař 1960 je ještě stručnější. Nejnovější horolezecký průvodce Skýpala 2011 uvádí nákresy skal a všechny významné horolezecké cesty.<br>Terén přechodu není nijak obtížný, ale také není pouze chodecký, na více místech je nutno použít rukou, tedy lezení v I. stupni staré šestidílné horolezecké klasifikace. Časté jsou vyvrácené stromy a polomy. Lépe je jít v době, kdy jsou stromy holé, bez listí, tedy od listopadu do dubna. Jednak je terén přehlednější a pak máme výhledy i ze zalesněných míst, což je většina trasy. Cesta je dlouhá asi tři kilometry a beze spěchu ji lze absolvovat za dvě hodiny. Celou dobu se budete pohybovat na území přírodní rezervace, je nutno se chovat tiše, nenápadně, jako byste tu ani nebyli. Je výhodnější postupovat od severu k jihu, těžší místa máme ve výstupu, a této zásady se drží i můj popis. Navíc skončíme nad Lelekovicemi, tedy blíže civilizaci</p>  ",
-    //         foto: "  383babilom30.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " Foto Štulpa (březen 2005).  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Výstup začíná nad bývalou <strong>myslivnou Na Výrazích</strong>, na asfaltové lesní silnici asi 150 metrů od rozcestí. Prochází tudy žlutě značená turistická cesta. V mírném ohybu silničky je vidět v lese prudce se zvedající hřbet. Les tu je smíšený, dobře prostupný, s izolovanými kameny. Třicet metrů od silnice začíná na výrazném buku označeném červenými pruhy přírodní rezervace. Dvěma pruhy při pohledu do rezervace, jedním při pohledu ven. Na dohled jsou první slepencové skalky. Jdeme po neznatelné pěšince prudkým stoupáním k první věžičce vysoké asi tři metry, oddělené sedélkem od svahu. Pěšinka naznačuje, že tudy projde za rok několik desítek lidí. Jaký rozdíl oproti druhému konci Babího lomu s rozhlednou, kudy podobný počet návštěvníků projde za jediný všední den. Prostoupíme kamenné pole ve svahu a nad námi je bludiště Spálené skály. Lze stoupat vzhůru po spádnici a přelézt jedno těžší místo, nebo obejít tuto skálu od západu a vystoupat svahem kolem třímetrové skalní pokličky na skalnatý předvrchol. Pokud není listí, je z něj pěkný výhled na Svinošice a Lipůvku. </p>  ",
-    //         foto: "  383babilom01.jpg  ",
-    //         umisteniFoto: "  vpravo  ",
-    //         popisek: " Výstup na Spálenou skálu (únor 2004).  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p>Dál pokračuje skalnatý hřeben, jeho západní svah je posetý balvany v lese, východní sráz padá desetimetrovou stěnou přecházející do balvanitého pole. Objevují se první pokroucené borovice, které jsou pro hřeben charakteristické. Pěšina nás vede kolem obrovského dubu přímo na hřebenu a stoupá na <strong>Spálenou skálu</strong>, kóta 516 metrů. Z východní strany je pětimetrová skalní stěnka obtížně prostupná, ze západní strany je prudký lesní svah s kameny. Překonáváme vývraty, skalky a hřeben končí skalní kupkou s prudkou jižní stěnou, ta se obchází po římse z východní strany. Za ní hřeben klesá, skály mizí a po pěšince scházíme do širokého sedla, říkejme mu <strong>sedlo nad Srnávkou</strong>, kterým prochází lesní cesta. Tímto končí skupina Spálené skály, zatím jsme urazili asi 600 metrů. </p>  ",
-    //         foto: "   383babilom02.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " Na Spálené skále (únor 2004).  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Sedlem procházíme k jihu po dobře znatelné pěšině. Následují tři izolované skalky, které pěšina obchází ze západní strany. Až čtvrtá skalka je náročnější, na tu je třeba šplhat asi čtyři metry, nahoře je kamenitá plošina s padlým stromem. Kolem je listnatý les, duby, buky, habry. Další skalní kupa je vysoká asi 20 metrů, složená z balvanů a je z ní první pořádný výhled na vranovský kostel. Sestup z ní k jihu není těžký. Následuje stometrový skalní dobře schůdný úsek a v jednom místě přímo na hřebenu je pěkná skalní poklička, tedy placatý kámen ležící na podložce. </p>  ",
-    //         foto: "   383babilom03.jpg  ",
-    //         umisteniFoto: " vpravo  ",
-    //         popisek: " Skalní poklička (květen 2008)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Sestoupíme do dalšího sedélka, kde přesně uprostřed sedla trůní tlustý buk, a pár kroků od něj další buk troják zajímavě vrostlý mezi kameny. To je <strong>sedlo U dvou buků</strong>. Spád terénu k východu je mírný, k západu strmější, ale stále chodecký terén v listnatém lese. Další úsek jde po skalkách a vede do sedla s kamenem z boku silně připomínajícím stůl, i když na tloušťku má jen 30 centimetrů. Říkejme mu <strong>sedlo U stolu</strong>. O 50 metrů dále křižuje hřeben zašlá lesní cesta ve smrkovém hustníku. </p>  ",
-    //         foto: "  383babilom04.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " (únor 2004)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Odtud následuje další skalní skupina pojmenovaná <strong>Panenské skály</strong>. Zpočátku je terén chodecký s balvany, potom začne prudce a krátce stoupat hustníkem do skalního amfiteátru a jediným schůdným místem mezi skalami se protáhneme pod vrchol Panenských skal. Ten obejdeme lehce od východu, nebo s trochu těžším místem od západu se spustíme do sedla mezi Panenskými skalami a Parapletem. </p>  ",
-    //         foto: "  383babilom06.jpg  ",
-    //         umisteniFoto: "  vpravo  ",
-    //         popisek: " Panenské skály (únor 2004)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Jsme na nejdivočejším místě Babího lomu. Horolezecký průvodce zmiňuje několik cest obtížnosti III. až VI. v severní a západní stěně Paraplete, délky cest jsou 10 až 20 metrů. Dále je možno postupovat dvojím způsobem. Buďto lezeme přímo vzhůru přes zaklíněný balvan po hřebenu, což je poněkud obtížné, nebo obcházíme tuto skálu z východní strany kamenným mořem. Na jaře 2022 je průstup obtížným místem přes balvan ulehčen krátkým dřevěným žebříkem.</p>  ",
-    //         foto: " 383babilom07.jpg   ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " Výstup na Paraple (únor 2004)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Pokud vyšplháte na vrchol skály <strong>Paraple</strong>, uvidíte, že dostala jméno podle velké šikmo ukloněné skalní desky připomínající deštník. Dále se leze stále s pomocí rukou systémem „kudy skála pustí“, podchází se ostrý hřebínek připomínající pilu, dlouhý asi deset metrů, široký místy jen 20 centimetrů. Vyšlapaná pěšinka podchází skalky tvaru skalních koňů a brzy následují schůdky, které vedou na vrchol skály <strong>Stará rozhledna</strong>. Nahoře na nejvyšším bodu hřebene, na kótě 562 metrů, je hranatý kámen s letopočtem 1921. Zbyl tu po měřičské věži z první republiky. Ještě dříve tu stála dřevěná Rohrerova rozhledna, po ní zůstala upravená plošina. Dnes bývá místem pravidelných novoročních výstupů brněnských turistů. Účastnil jsem se a spoluorganizoval první ročník této dnes populární akce na Nový rok 1978. Nikdo z nás organizátorů netušil, jakou zakládáme tradici. Že to žije, je zásluhou nestárnoucího Miloše Stejskala (ročník 1940), který se ujal s pár přáteli organizace nejméně čtyřiceti ročníků Novoročního výstupu na Babí lom.</p>  ",
-    //         foto: "   383babilom12.jpg  ",
-    //         umisteniFoto: " vpravo  ",
-    //         popisek: "  Měřičský kámen na nejvyšším vrcholu (červenec 2004).  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Východní stěna této skály je vysoká deset metrů a částečně převislá. Odtud vede nahoru více popsaných výstupů obtížnosti III až VI. Nástupy některých jsou označeny na skále barvou. Stěna od západu je vyšší, ale členitější a všude vystupují šikmo skloněné skalní plotny. Lze jen obdivovat dávno mrtvé budovatele sto čtyřicet let starého chodníku s kamennými schůdky v tomto terénu.</p>  ",
-    //         foto: "  383babilom08.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " Vrcholová skála se schůdky.  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Pro srovnání je tu tentýž pohled uměleckýma očima, tedy konkrétně malířky Hany Berkové na obrazu z roku 2008. </p>  ",
-    //         foto: "  383babilom31.jpg  ",
-    //         umisteniFoto: "  vpravo  ",
-    //         popisek: " Hana Berková: Tajuplný Babí lom, 2008. Repro Štulpa.  ",
-    //       },
-    //       {
-    //         vnitrniOdkazy: [
-    //           {
-    //             vnitrniOdkaz: 333,
-    //             odkazKategorie: "pomnicky",
-    //             odkazPodkategorie: 16,
-    //             odkazKde: "odstavec",
-    //             predOdkazem:
-    //               " Scházíme po schodech z vrcholové plošiny a na první skále na západní straně je vidět pamětní deska věnovaná budovateli rozhledny, cest a schodišť ",
-    //             textOdkazu: "Carlu Ripkovi",
-    //             zaOdkazem:
-    //               ". Carl Ripka (1818 - 1874) byl brněnský průmyslník a podnikatel, člen rozvětvené rodiny Ripků. Spolu s bratrem Adolfem, císařským radou, se velmi angažoval v brněnské turistice, kterou začali v polovině 19. století rozvíjet Brňané mluvící německou řečí.     ",
-    //           },
-    //         ],
+      text: [
+        {
+          textOdstavce:
+            "   <p> Ne každý ví, že v bezprostřední blízkosti Brna lze nalézt terén, který si nijak nezadá s vysokohorskými partiemi. Jeho nevýhodou je, že je schovaný v lese; být tak o patnáct set metrů vyšší, snesl by srovnání s hřebenovkami Tater nebo Roháčů. Je podivné, že přechod hřebenem Babího lomu není popsán v žádných literárních pramenech. Horolezecký průvodce Doležel 1988 obsahuje jen náčrt skal a vyjmenování horolezeckých cest, průvodce Sitař 1960 je ještě stručnější. Nejnovější horolezecký průvodce Skýpala 2011 uvádí nákresy skal a všechny významné horolezecké cesty.<br>Terén přechodu není nijak obtížný, ale také není pouze chodecký, na více místech je nutno použít rukou, tedy lezení v I. stupni staré šestidílné horolezecké klasifikace. Časté jsou vyvrácené stromy a polomy. Lépe je jít v době, kdy jsou stromy holé, bez listí, tedy od listopadu do dubna. Jednak je terén přehlednější a pak máme výhledy i ze zalesněných míst, což je většina trasy. Cesta je dlouhá asi tři kilometry a beze spěchu ji lze absolvovat za dvě hodiny. Celou dobu se budete pohybovat na území přírodní rezervace, je nutno se chovat tiše, nenápadně, jako byste tu ani nebyli. Je výhodnější postupovat od severu k jihu, těžší místa máme ve výstupu, a této zásady se drží i můj popis. Navíc skončíme nad Lelekovicemi, tedy blíže civilizaci</p>  ",
+          foto: "  383babilom30.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Foto Štulpa (březen 2005).  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Výstup začíná nad bývalou <strong>myslivnou Na Výrazích</strong>, na asfaltové lesní silnici asi 150 metrů od rozcestí. Prochází tudy žlutě značená turistická cesta. V mírném ohybu silničky je vidět v lese prudce se zvedající hřbet. Les tu je smíšený, dobře prostupný, s izolovanými kameny. Třicet metrů od silnice začíná na výrazném buku označeném červenými pruhy přírodní rezervace. Dvěma pruhy při pohledu do rezervace, jedním při pohledu ven. Na dohled jsou první slepencové skalky. Jdeme po neznatelné pěšince prudkým stoupáním k první věžičce vysoké asi tři metry, oddělené sedélkem od svahu. Pěšinka naznačuje, že tudy projde za rok několik desítek lidí. Jaký rozdíl oproti druhému konci Babího lomu s rozhlednou, kudy podobný počet návštěvníků projde za jediný všední den. Prostoupíme kamenné pole ve svahu a nad námi je bludiště Spálené skály. Lze stoupat vzhůru po spádnici a přelézt jedno těžší místo, nebo obejít tuto skálu od západu a vystoupat svahem kolem třímetrové skalní pokličky na skalnatý předvrchol. Pokud není listí, je z něj pěkný výhled na Svinošice a Lipůvku. </p>  ",
+          foto: "  383babilom01.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Výstup na Spálenou skálu (únor 2004).  ",
+        },
+        {
+          textOdstavce:
+            "   <p>Dál pokračuje skalnatý hřeben, jeho západní svah je posetý balvany v lese, východní sráz padá desetimetrovou stěnou přecházející do balvanitého pole. Objevují se první pokroucené borovice, které jsou pro hřeben charakteristické. Pěšina nás vede kolem obrovského dubu přímo na hřebenu a stoupá na <strong>Spálenou skálu</strong>, kóta 516 metrů. Z východní strany je pětimetrová skalní stěnka obtížně prostupná, ze západní strany je prudký lesní svah s kameny. Překonáváme vývraty, skalky a hřeben končí skalní kupkou s prudkou jižní stěnou, ta se obchází po římse z východní strany. Za ní hřeben klesá, skály mizí a po pěšince scházíme do širokého sedla, říkejme mu <strong>sedlo nad Srnávkou</strong>, kterým prochází lesní cesta. Tímto končí skupina Spálené skály, zatím jsme urazili asi 600 metrů. </p>  ",
+          foto: "   383babilom02.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Na Spálené skále (únor 2004).  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Sedlem procházíme k jihu po dobře znatelné pěšině. Následují tři izolované skalky, které pěšina obchází ze západní strany. Až čtvrtá skalka je náročnější, na tu je třeba šplhat asi čtyři metry, nahoře je kamenitá plošina s padlým stromem. Kolem je listnatý les, duby, buky, habry. Další skalní kupa je vysoká asi 20 metrů, složená z balvanů a je z ní první pořádný výhled na vranovský kostel. Sestup z ní k jihu není těžký. Následuje stometrový skalní dobře schůdný úsek a v jednom místě přímo na hřebenu je pěkná skalní poklička, tedy placatý kámen ležící na podložce. </p>  ",
+          foto: "   383babilom03.jpg  ",
+          umisteniFoto: " vpravo  ",
+          popisek: " Skalní poklička (květen 2008)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Sestoupíme do dalšího sedélka, kde přesně uprostřed sedla trůní tlustý buk, a pár kroků od něj další buk troják zajímavě vrostlý mezi kameny. To je <strong>sedlo U dvou buků</strong>. Spád terénu k východu je mírný, k západu strmější, ale stále chodecký terén v listnatém lese. Další úsek jde po skalkách a vede do sedla s kamenem z boku silně připomínajícím stůl, i když na tloušťku má jen 30 centimetrů. Říkejme mu <strong>sedlo U stolu</strong>. O 50 metrů dále křižuje hřeben zašlá lesní cesta ve smrkovém hustníku. </p>  ",
+          foto: "  383babilom04.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " (únor 2004)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Odtud následuje další skalní skupina pojmenovaná <strong>Panenské skály</strong>. Zpočátku je terén chodecký s balvany, potom začne prudce a krátce stoupat hustníkem do skalního amfiteátru a jediným schůdným místem mezi skalami se protáhneme pod vrchol Panenských skal. Ten obejdeme lehce od východu, nebo s trochu těžším místem od západu se spustíme do sedla mezi Panenskými skalami a Parapletem. </p>  ",
+          foto: "  383babilom06.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Panenské skály (únor 2004)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Jsme na nejdivočejším místě Babího lomu. Horolezecký průvodce zmiňuje několik cest obtížnosti III. až VI. v severní a západní stěně Paraplete, délky cest jsou 10 až 20 metrů. Dále je možno postupovat dvojím způsobem. Buďto lezeme přímo vzhůru přes zaklíněný balvan po hřebenu, což je poněkud obtížné, nebo obcházíme tuto skálu z východní strany kamenným mořem. Na jaře 2022 je průstup obtížným místem přes balvan ulehčen krátkým dřevěným žebříkem.</p>  ",
+          foto: " 383babilom07.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Výstup na Paraple (únor 2004)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Pokud vyšplháte na vrchol skály <strong>Paraple</strong>, uvidíte, že dostala jméno podle velké šikmo ukloněné skalní desky připomínající deštník. Dále se leze stále s pomocí rukou systémem „kudy skála pustí“, podchází se ostrý hřebínek připomínající pilu, dlouhý asi deset metrů, široký místy jen 20 centimetrů. Vyšlapaná pěšinka podchází skalky tvaru skalních koňů a brzy následují schůdky, které vedou na vrchol skály <strong>Stará rozhledna</strong>. Nahoře na nejvyšším bodu hřebene, na kótě 562 metrů, je hranatý kámen s letopočtem 1921. Zbyl tu po měřičské věži z první republiky. Ještě dříve tu stála dřevěná Rohrerova rozhledna, po ní zůstala upravená plošina. Dnes bývá místem pravidelných novoročních výstupů brněnských turistů. Účastnil jsem se a spoluorganizoval první ročník této dnes populární akce na Nový rok 1978. Nikdo z nás organizátorů netušil, jakou zakládáme tradici. Že to žije, je zásluhou nestárnoucího Miloše Stejskala (ročník 1940), který se ujal s pár přáteli organizace nejméně čtyřiceti ročníků Novoročního výstupu na Babí lom.</p>  ",
+          foto: "   383babilom12.jpg  ",
+          umisteniFoto: " vpravo  ",
+          popisek: "  Měřičský kámen na nejvyšším vrcholu (červenec 2004).  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Východní stěna této skály je vysoká deset metrů a částečně převislá. Odtud vede nahoru více popsaných výstupů obtížnosti III až VI. Nástupy některých jsou označeny na skále barvou. Stěna od západu je vyšší, ale členitější a všude vystupují šikmo skloněné skalní plotny. Lze jen obdivovat dávno mrtvé budovatele sto čtyřicet let starého chodníku s kamennými schůdky v tomto terénu.</p>  ",
+          foto: "  383babilom08.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Vrcholová skála se schůdky.  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Pro srovnání je tu tentýž pohled uměleckýma očima, tedy konkrétně malířky Hany Berkové na obrazu z roku 2008. </p>  ",
+          foto: "  383babilom31.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Hana Berková: Tajuplný Babí lom, 2008. Repro Štulpa.  ",
+        },
+        {
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 333,
+              odkazKategorie: "pomnicky",
+              odkazPodkategorie: 16,
+              odkazKde: "odstavec",
+              predOdkazem:
+                " Scházíme po schodech z vrcholové plošiny a na první skále na západní straně je vidět pamětní deska věnovaná budovateli rozhledny, cest a schodišť ",
+              textOdkazu: "Carlu Ripkovi",
+              zaOdkazem:
+                ". Carl Ripka (1818 - 1874) byl brněnský průmyslník a podnikatel, člen rozvětvené rodiny Ripků. Spolu s bratrem Adolfem, císařským radou, se velmi angažoval v brněnské turistice, kterou začali v polovině 19. století rozvíjet Brňané mluvící německou řečí.     ",
+            },
+          ],
 
-    //         foto: " 383babilom20.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " Skalka s deskou z druhé strany. (duben 2009) ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> V sedélku pod pamětní deskou se cesta větví. Na západní stranu odbočuje nepoužívaný kamenný chodník, který traverzuje další kopec a míří šikmo dolů svahem ke studánce Nad Podlesím a bývalé Wieserově boudě. I po 140 letech je stále znatelný v terénu a dobře schůdný, pokud obejdeme pár padlých stromů. </p>  ",
-    //         foto: "   383babilom10.jpg  ",
-    //         umisteniFoto: "  vpravo  ",
-    //         popisek: " Rozcestí historických chodníků (únor 2004) ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> My však jdeme stále po hřbetě chodníkem do <strong>sedla u rozcestníku značených cest</strong>. Na ukazatelích se dočteme, že po červené lze dojít k Jelínkovi - 1 km, na Vranov - 2,5 km, na Macochu - 22,5 km. Opačným směrem k rozhledně - 0,5 km, do Lelekovic - 2,5 km, do Mokré Hory – 7,5 km. Modrá značka vede do Podlesí 2,5 km, do Kuřimi 4 km, na opačnou stranu do Blanska 8,5 km. Také sem umístili vlastivědnou ceduli o historii starých rozhleden. Odtud je hřeben velmi frekventovaný, rodiče tu vláčejí malé děti, milovníci psů tu venčí své miláčky.</p>  ",
-    //         foto: "  383babilom11.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: "   ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Od rozcestí s ukazateli jde velmi vyšlapaná stezka k jihu kolem skalek do malého sedla a z něj vystoupí po schodech na hřeben, kde skály mají podobu skalního koně v převisu těsně nad značeným chodníkem. Další skalní skupinu odděluje sedélko hluboké tři metry a následují skály šikmo ukloněné k západu o výšce asi 15 metrů. Pěšina tu jde po hřebenu, stále chodeckým terénem, je  to kamenitá cesta se schůdky. Potkal jsem zde skupinku tří pánů, kteří překonávali hřeben s bateriovými terénními autíčky na dálkové ovládání.</p>  ",
-    //         foto: "  383babilom05.jpg  ",
-    //         umisteniFoto: " vpravo  ",
-    //         popisek: "   ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p>  Scházíme do hlinitého sedla a stoupáme po schodech nad skalní změtí na velkou skalní kupu zvanou <strong>Balkón</strong>. Od západu na ni vede nejméně šestnáct horolezeckých výstupů, všechny v šikmo skloněných plotnách. Na vrcholu je plošina porostlá borovým lesem. Na tuto skálu mám osobní růžovou dětskou vzpomínku, starou přes šedesát let, ze své první návštěvy Babího lomu. Tady nás vypustil náš vůdce turistického kroužku, aby se sám oddal idyle svátečního zářijového poledne, zatímco my, dvanáctiletí kluci, podnikali průzkumy okolních skal. Přežili všichni. Rozhledna na Babím lomu byla tenkrát nová, čerstvě otevřená, pod ní seděl starý hajný a půjčoval zájemcům ošoupaný mosazný dalekohled. Cestu jsme zakončili na vranovské pouti. </p>  ",
-    //         foto: "   383babilom14.jpg  ",
-    //         umisteniFoto: " vlevo  ",
-    //         popisek: "  Stěna Balkónu od západu (únor 2004) ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Další věž je oddělená skalnatým sedélkem s jilmem a nemá jméno. Od západu i východu je mírná, skalní stěny nejsou vidět. Říkejme jí <strong>Malá šikmá věž</strong>. Značená pěšina jde tři metry pod vrcholem. Následuje asi stometrový úsek, kde jde cesta hřebenem po skále a na konci hřebene od jihu je velká šikmo skloněná skalní plotna s dutinou. Takto vypadala stará tatranská ohniska, úkryty na noc, před výstavbou horských chat. Dalo by se tu schovat před deštěm, ale při bouřce bych to nikomu nedoporučoval.</p>  ",
-    //         foto: "  383babilom17.jpg  ",
-    //         umisteniFoto: "  vpravo  ",
-    //         popisek: " (únor 2004)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Za hlinitým sedlem v lese následuje <strong>Velká šikmá věž</strong>. Značená pěšina nejde přes vrchol, ale podchází jej po východní straně. V tomto místě se ke značené cestě připojuje pěšina, která traverzuje hřeben z východní strany lesem a skalám se vyhýbá. Začíná kousek pod sedlem s rozcestníkem. Ze západní strany jsou na tuto věž pojmenovány čtyři horolezecké výstupy, ale nalezení nástupu ve skalní změti na západním svahu je dosti složité.</p>  ",
-    //         foto: "  383babilom18.jpg  ",
-    //         umisteniFoto: " vlevo  ",
-    //         popisek: " Červená stěna (duben 2009)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Přejdeme ploché zalesněné sedlo s pěšinou napříč naší cestě a krátce vystoupáme na skalnatý hřeben. Pěšina jde dále po hřebenu, ze kterého spadají na východ i na západ balvanitá pole. Další skála má jméno <strong>Červená stěna</strong> a pěšina jde po její východní straně. Cesta je viditelně upravena, vystřílena a nad ní se tyčí ještě zhruba čtyři metry skály. Západní strana Červené stěny je tvořena nepřehledným a obtížně prostupným systémem spár a ploten, jsou tu pojmenovány čtyři horolezecké cesty.</p>  ",
-    //         foto: "  383babilom19.jpg  ",
-    //         umisteniFoto: " vpravo  ",
-    //         popisek: "  Vrcholové plotny Červené stěny (březen 2005)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Oddělena mělkým sedélkem následuje <strong>Žlutá stěna</strong>, kterou značka míjí od východu. Krásná skalní věž nahoře s balvanem, na který není těžké vylézt, poskytuje omezený výhled. I na tuto skálu vedou horolezecké výstupy z jižní a západní strany, dlouhé asi l5 metrů.</p>  ",
-    //         foto: "  383babilom21.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: " Pěšina k rozhledně (únor 2004).  ",
-    //       },
-    //       {
-    //         vnitrniOdkazy: [
-    //           {
-    //             vnitrniOdkaz: 379,
-    //             odkazKategorie: "pomnicky ",
-    //             odkazPodkategorie: 16,
-    //             odkazKde: "odstavec",
-    //             predOdkazem:
-    //               " Skalnaté sedlo široké asi deset metrů a schůdný hřeben odděluje skupinu skal zvanou <strong>Slabikář</strong>, která leží na východ od značené pěšiny. I na tuto skalku lze bez problémů vylézt, je to poslední skalisko před novou rozhlednou. Horolezecké výstupy jsou na jižní a východní stěně v délkách asi deseti metrů. Na dohled před sebou máme <strong>novou rozhlednu na Babím lomu</strong>, kóta 521 metrů. Stojí na plošině upravené pro altán Ripkovy vyhlídky, tam kde se hřeben láme a začíná klesat do údolí. Je tu tabule s vlastivědným textem. Na západní stěně rozhledny je ",
-    //             textOdkazu: "pamětní deska",
-    //             zaOdkazem: " k postavení rozhledny v roce 1961. ",
-    //           },
-    //         ],
-    //         foto: " 383babilom22.jpg   ",
-    //         umisteniFoto: " vpravo  ",
-    //         popisek: " (duben 2009)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Hned dvacet metrů pod rozhlednou se ve skalách dělí chodník do tří směrů. Červeně značený odbočuje z hřebene k východu a klesá do Lelekovic, žlutě značený sestupuje strmě k západu a míří ke studánce nad Podlesím. Náš směr je ale jižní a po málo šlapané neznatelné pěšince obcházíme skalní bloky. Hřeben tu je méně výrazný, porostlý stromy, místo skal jsou jen balvany. Po padesáti metrech docházíme do sedla s pěšinou na obě strany hřebene. Vede tudy starý kamenný chodník, který po vrstevnici obchází skálu s rozhlednou a kterým lze pohodlně přejít od Lelekovic na západní stranu Babího lomu.</p>  ",
-    //         foto: " 383babilom24.jpg   ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek: "  (únor 2004)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Následuje velký balvan přímo na hřebenu, ten se obchází ze západní strany. Za ním je skupina malých skalek. Terén stále dosti klesá k jihu a pěšina jde stále po hřebenu. Na jednom starém dubu lze vidět starou zamalovanou červenou značku, zřejmě kdysi dávno vedl nástup na hřeben tudy. Další skupina skalek se třemi uschlými borovicemi na vrcholu je docela dobře schůdná, lze jít přímo, nebo obejít po úbočí lesem. Následují další dvě skalky, na vrcholu větší z nich jsou vypreparované struktury dvou uschlých stromů, za nimi v hřebenu leží dvoumetrový balvan, který vzdor šípkovému trní je nutné obejít z východu. Pod kamenem se nečekaně objeví <strong>skalní okno</strong> vysoké metr, kterým lze koukat na druhou stranu hřebene. Za šikmým uschlým stromem na skále se ztrácí skalnatý charakter a svah prudce klesá dubovým lesem, kousek vedle hřebenu začíná borová monokultura. Hřeben tu připomíná mohutné schody, kde na hraně schodu vystupují skaliska zespodu kolmá a shora se k nim přichází po rovině.</p>  ",
-    //         foto: "  383babilom25.jpg  ",
-    //         umisteniFoto: " vpravo  ",
-    //         popisek: "  (únor 2004)  ",
-    //       },
-    //       {
-    //         textOdstavce:
-    //           "   <p> Další stometrová část je lesnatá, po ní se les změní na kamenitý hřbítek a zvedá se ke skalnaté špici v borovém lese. Po jejím přelezení se ocitáme nad troskami dřevěného přístřešku, zasazeného ve skalní úžlabině. Igelitovou střechu vítr serval a odnesl pod skálu. Chcete-li se držet přísně hřebene, docela si zalezete, ale skalky se dají snadno obejít. Tady hřeben strmě padá dolů a i v létě prosvítají mezi listím střechy lelekovických domů. Další nenápadná kupka při pohledu dolů skrývá pás skalek šest metrů vysoký. Obchází se lesem a je poslední skálou naší pouti. Hřeben se sklání borovým lesem s vyčnívajícími kameny a definitivně končí svahem nad Lelekovicemi. Červeným pruhem tu končí přírodní rezervace a nad pasekou narazíme na vrstevnicovou lesní cestu. Vydáme se po ní k východu a zanedlouho nás dovede k červené značce, kterou jsme opustili u rozhledny a která směřuje mezi zahrádky, chaty a střechy <strong>Lelekovic</strong>.</p>  ",
-    //         foto: "  383babilom13.jpg  ",
-    //         umisteniFoto: "  vlevo  ",
-    //         popisek:
-    //           "  Typická ukázka hřebenové pěšiny ve střední části Babího lomu (únor 2004).  ",
-    //       },
-    //       {
-    //         kodMapa:
-    //           '  <iframe style="border:none" src="https://frame.mapy.cz/s/hakofedusa" width="400" height="280" frameborder="0"></iframe>  ',
-    //         odkazMapa: "  https://frame.mapy.cz/s/hakofedusa  ",
-    //       },
+          foto: " 383babilom20.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Skalka s deskou z druhé strany. (duben 2009) ",
+        },
+        {
+          textOdstavce:
+            "   <p> V sedélku pod pamětní deskou se cesta větví. Na západní stranu odbočuje nepoužívaný kamenný chodník, který traverzuje další kopec a míří šikmo dolů svahem ke studánce Nad Podlesím a bývalé Wieserově boudě. I po 140 letech je stále znatelný v terénu a dobře schůdný, pokud obejdeme pár padlých stromů. </p>  ",
+          foto: "   383babilom10.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " Rozcestí historických chodníků (únor 2004) ",
+        },
+        {
+          textOdstavce:
+            "   <p> My však jdeme stále po hřbetě chodníkem do <strong>sedla u rozcestníku značených cest</strong>. Na ukazatelích se dočteme, že po červené lze dojít k Jelínkovi - 1 km, na Vranov - 2,5 km, na Macochu - 22,5 km. Opačným směrem k rozhledně - 0,5 km, do Lelekovic - 2,5 km, do Mokré Hory – 7,5 km. Modrá značka vede do Podlesí 2,5 km, do Kuřimi 4 km, na opačnou stranu do Blanska 8,5 km. Také sem umístili vlastivědnou ceduli o historii starých rozhleden. Odtud je hřeben velmi frekventovaný, rodiče tu vláčejí malé děti, milovníci psů tu venčí své miláčky.</p>  ",
+          foto: "  383babilom11.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: "   ",
+        },
+        {
+          textOdstavce:
+            "   <p> Od rozcestí s ukazateli jde velmi vyšlapaná stezka k jihu kolem skalek do malého sedla a z něj vystoupí po schodech na hřeben, kde skály mají podobu skalního koně v převisu těsně nad značeným chodníkem. Další skalní skupinu odděluje sedélko hluboké tři metry a následují skály šikmo ukloněné k západu o výšce asi 15 metrů. Pěšina tu jde po hřebenu, stále chodeckým terénem, je  to kamenitá cesta se schůdky. Potkal jsem zde skupinku tří pánů, kteří překonávali hřeben s bateriovými terénními autíčky na dálkové ovládání.</p>  ",
+          foto: "  383babilom05.jpg  ",
+          umisteniFoto: " vpravo  ",
+          popisek: "   ",
+        },
+        {
+          textOdstavce:
+            "   <p>  Scházíme do hlinitého sedla a stoupáme po schodech nad skalní změtí na velkou skalní kupu zvanou <strong>Balkón</strong>. Od západu na ni vede nejméně šestnáct horolezeckých výstupů, všechny v šikmo skloněných plotnách. Na vrcholu je plošina porostlá borovým lesem. Na tuto skálu mám osobní růžovou dětskou vzpomínku, starou přes šedesát let, ze své první návštěvy Babího lomu. Tady nás vypustil náš vůdce turistického kroužku, aby se sám oddal idyle svátečního zářijového poledne, zatímco my, dvanáctiletí kluci, podnikali průzkumy okolních skal. Přežili všichni. Rozhledna na Babím lomu byla tenkrát nová, čerstvě otevřená, pod ní seděl starý hajný a půjčoval zájemcům ošoupaný mosazný dalekohled. Cestu jsme zakončili na vranovské pouti. </p>  ",
+          foto: "   383babilom14.jpg  ",
+          umisteniFoto: " vlevo  ",
+          popisek: "  Stěna Balkónu od západu (únor 2004) ",
+        },
+        {
+          textOdstavce:
+            "   <p> Další věž je oddělená skalnatým sedélkem s jilmem a nemá jméno. Od západu i východu je mírná, skalní stěny nejsou vidět. Říkejme jí <strong>Malá šikmá věž</strong>. Značená pěšina jde tři metry pod vrcholem. Následuje asi stometrový úsek, kde jde cesta hřebenem po skále a na konci hřebene od jihu je velká šikmo skloněná skalní plotna s dutinou. Takto vypadala stará tatranská ohniska, úkryty na noc, před výstavbou horských chat. Dalo by se tu schovat před deštěm, ale při bouřce bych to nikomu nedoporučoval.</p>  ",
+          foto: "  383babilom17.jpg  ",
+          umisteniFoto: "  vpravo  ",
+          popisek: " (únor 2004)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Za hlinitým sedlem v lese následuje <strong>Velká šikmá věž</strong>. Značená pěšina nejde přes vrchol, ale podchází jej po východní straně. V tomto místě se ke značené cestě připojuje pěšina, která traverzuje hřeben z východní strany lesem a skalám se vyhýbá. Začíná kousek pod sedlem s rozcestníkem. Ze západní strany jsou na tuto věž pojmenovány čtyři horolezecké výstupy, ale nalezení nástupu ve skalní změti na západním svahu je dosti složité.</p>  ",
+          foto: "  383babilom18.jpg  ",
+          umisteniFoto: " vlevo  ",
+          popisek: " Červená stěna (duben 2009)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Přejdeme ploché zalesněné sedlo s pěšinou napříč naší cestě a krátce vystoupáme na skalnatý hřeben. Pěšina jde dále po hřebenu, ze kterého spadají na východ i na západ balvanitá pole. Další skála má jméno <strong>Červená stěna</strong> a pěšina jde po její východní straně. Cesta je viditelně upravena, vystřílena a nad ní se tyčí ještě zhruba čtyři metry skály. Západní strana Červené stěny je tvořena nepřehledným a obtížně prostupným systémem spár a ploten, jsou tu pojmenovány čtyři horolezecké cesty.</p>  ",
+          foto: "  383babilom19.jpg  ",
+          umisteniFoto: " vpravo  ",
+          popisek: "  Vrcholové plotny Červené stěny (březen 2005)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Oddělena mělkým sedélkem následuje <strong>Žlutá stěna</strong>, kterou značka míjí od východu. Krásná skalní věž nahoře s balvanem, na který není těžké vylézt, poskytuje omezený výhled. I na tuto skálu vedou horolezecké výstupy z jižní a západní strany, dlouhé asi l5 metrů.</p>  ",
+          foto: "  383babilom21.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek: " Pěšina k rozhledně (únor 2004).  ",
+        },
+        {
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 379,
+              odkazKategorie: "pomnicky ",
+              odkazPodkategorie: 16,
+              odkazKde: "odstavec",
+              predOdkazem:
+                " Skalnaté sedlo široké asi deset metrů a schůdný hřeben odděluje skupinu skal zvanou <strong>Slabikář</strong>, která leží na východ od značené pěšiny. I na tuto skalku lze bez problémů vylézt, je to poslední skalisko před novou rozhlednou. Horolezecké výstupy jsou na jižní a východní stěně v délkách asi deseti metrů. Na dohled před sebou máme <strong>novou rozhlednu na Babím lomu</strong>, kóta 521 metrů. Stojí na plošině upravené pro altán Ripkovy vyhlídky, tam kde se hřeben láme a začíná klesat do údolí. Je tu tabule s vlastivědným textem. Na západní stěně rozhledny je ",
+              textOdkazu: "pamětní deska",
+              zaOdkazem: " k postavení rozhledny v roce 1961. ",
+            },
+          ],
+          foto: " 383babilom22.jpg   ",
+          umisteniFoto: " vpravo  ",
+          popisek: " (duben 2009)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Hned dvacet metrů pod rozhlednou se ve skalách dělí chodník do tří směrů. Červeně značený odbočuje z hřebene k východu a klesá do Lelekovic, žlutě značený sestupuje strmě k západu a míří ke studánce nad Podlesím. Náš směr je ale jižní a po málo šlapané neznatelné pěšince obcházíme skalní bloky. Hřeben tu je méně výrazný, porostlý stromy, místo skal jsou jen balvany. Po padesáti metrech docházíme do sedla s pěšinou na obě strany hřebene. Vede tudy starý kamenný chodník, který po vrstevnici obchází skálu s rozhlednou a kterým lze pohodlně přejít od Lelekovic na západní stranu Babího lomu.</p>  ",
+          foto: " 383babilom24.jpg   ",
+          umisteniFoto: "  vlevo  ",
+          popisek: "  (únor 2004)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Následuje velký balvan přímo na hřebenu, ten se obchází ze západní strany. Za ním je skupina malých skalek. Terén stále dosti klesá k jihu a pěšina jde stále po hřebenu. Na jednom starém dubu lze vidět starou zamalovanou červenou značku, zřejmě kdysi dávno vedl nástup na hřeben tudy. Další skupina skalek se třemi uschlými borovicemi na vrcholu je docela dobře schůdná, lze jít přímo, nebo obejít po úbočí lesem. Následují další dvě skalky, na vrcholu větší z nich jsou vypreparované struktury dvou uschlých stromů, za nimi v hřebenu leží dvoumetrový balvan, který vzdor šípkovému trní je nutné obejít z východu. Pod kamenem se nečekaně objeví <strong>skalní okno</strong> vysoké metr, kterým lze koukat na druhou stranu hřebene. Za šikmým uschlým stromem na skále se ztrácí skalnatý charakter a svah prudce klesá dubovým lesem, kousek vedle hřebenu začíná borová monokultura. Hřeben tu připomíná mohutné schody, kde na hraně schodu vystupují skaliska zespodu kolmá a shora se k nim přichází po rovině.</p>  ",
+          foto: "  383babilom25.jpg  ",
+          umisteniFoto: " vpravo  ",
+          popisek: "  (únor 2004)  ",
+        },
+        {
+          textOdstavce:
+            "   <p> Další stometrová část je lesnatá, po ní se les změní na kamenitý hřbítek a zvedá se ke skalnaté špici v borovém lese. Po jejím přelezení se ocitáme nad troskami dřevěného přístřešku, zasazeného ve skalní úžlabině. Igelitovou střechu vítr serval a odnesl pod skálu. Chcete-li se držet přísně hřebene, docela si zalezete, ale skalky se dají snadno obejít. Tady hřeben strmě padá dolů a i v létě prosvítají mezi listím střechy lelekovických domů. Další nenápadná kupka při pohledu dolů skrývá pás skalek šest metrů vysoký. Obchází se lesem a je poslední skálou naší pouti. Hřeben se sklání borovým lesem s vyčnívajícími kameny a definitivně končí svahem nad Lelekovicemi. Červeným pruhem tu končí přírodní rezervace a nad pasekou narazíme na vrstevnicovou lesní cestu. Vydáme se po ní k východu a zanedlouho nás dovede k červené značce, kterou jsme opustili u rozhledny a která směřuje mezi zahrádky, chaty a střechy <strong>Lelekovic</strong>.</p>  ",
+          foto: "  383babilom13.jpg  ",
+          umisteniFoto: "  vlevo  ",
+          popisek:
+            "  Typická ukázka hřebenové pěšiny ve střední části Babího lomu (únor 2004).  ",
+        },
+        {
+          kodMapa:
+            '  <iframe style="border:none" src="https://frame.mapy.cz/s/hakofedusa" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "  https://frame.mapy.cz/s/hakofedusa  ",
+        },
 
-    //       {
-    //         textOdstavce:
-    //           "   <p><i>Tento text vyšel jako součást knihy Jan Černohlávek a  kol.: Babí lom, 2009.<br>Rozdával se přátelům u vranovských jesliček na vánoce 2011.<br> Poslední úprava v květnu 2022.</i><br>Literatura:<br>Sitař, Ivan : Horolezecké terény na Moravě. Praha 1960<br>Doležel, Ferdinand a kol. : Cvičné skály na Moravě. Praha 1988<br>Skýpala, Vladimír a kol. : Moravské skály. Val.Meziříčí 2011<br> Všechny fotografie v tomto vyprávění pořídil kamarád Miloš Štulpa v letech 2004 - 2009. Za jejich poskytnutí mu děkuji. Nakonec ještě pár obrázků ze zasněženého Babího lomu. </p>  ",
-    //       },
-    //     ],
-    //     galerie: [
-    //       { fotka: "  383babilom26.jpg ", popisek: " (únor 2009) " },
-    //       { fotka: "  383babilom27.jpg ", popisek: " (únor 2009) " },
-    //       { fotka: "  383babilom28.jpg ", popisek: " (únor 2009) " },
-    //       { fotka: "  383babilom29.jpg ", popisek: " (leden 2006) " },
-    //     ],
-    //     spodniGalerie: [
-    //       { fotka: "  383babilom26.jpg ", popisek: " (únor 2009) " },
-    //       { fotka: "  383babilom27.jpg ", popisek: " (únor 2009) " },
-    //       { fotka: "  383babilom28.jpg ", popisek: " (únor 2009) " },
-    //       { fotka: "  383babilom29.jpg ", popisek: " (leden 2006) " },
-    //     ],
-    //   },
+        {
+          textOdstavce:
+            "   <p><i>Tento text vyšel jako součást knihy Jan Černohlávek a  kol.: Babí lom, 2009.<br>Rozdával se přátelům u vranovských jesliček na vánoce 2011.<br> Poslední úprava v květnu 2022.</i><br>Literatura:<br>Sitař, Ivan : Horolezecké terény na Moravě. Praha 1960<br>Doležel, Ferdinand a kol. : Cvičné skály na Moravě. Praha 1988<br>Skýpala, Vladimír a kol. : Moravské skály. Val.Meziříčí 2011<br> Všechny fotografie v tomto vyprávění pořídil kamarád Miloš Štulpa v letech 2004 - 2009. Za jejich poskytnutí mu děkuji. Nakonec ještě pár obrázků ze zasněženého Babího lomu. </p>  ",
+        },
+      ],
+      galerie: [
+        { fotka: "  383babilom26.jpg ", popisek: " (únor 2009) " },
+        { fotka: "  383babilom27.jpg ", popisek: " (únor 2009) " },
+        { fotka: "  383babilom28.jpg ", popisek: " (únor 2009) " },
+        { fotka: "  383babilom29_1.jpg ", popisek: " (leden 2006) " },
+      ],
+      spodniGalerie: [
+        { fotka: "  383babilom26.jpg ", popisek: " (únor 2009) " },
+        { fotka: "  383babilom27.jpg ", popisek: " (únor 2009) " },
+        { fotka: "  383babilom28.jpg ", popisek: " (únor 2009) " },
+        { fotka: "  383babilom29_1.jpg ", popisek: " (leden 2006) " },
+      ],
+    },
   ],
 };
