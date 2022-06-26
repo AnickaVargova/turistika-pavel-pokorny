@@ -20140,7 +20140,7 @@ export default {
       kategorie: "cesty",
       podkategorie: 1,
       nazev: " Loukami Bílých Karpat na Velkou Javořinu  ",
-      fotkaUvod: { fotka: " 384bileKarpaty01.jpg " },
+      fotkaUvod: { fotka: " 384bileKarpaty09.jpg " },
 
       text: [
         {
