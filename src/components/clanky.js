@@ -19103,8 +19103,8 @@ export default {
       druh: " Trampské objekty ",
       okres: "  Třebíč ",
       obec: " Březník   ",
-      jmeno: " Základ po boudě Žampion   ",
-      nazev: " Žampion  ",
+      jmeno: " Žampion   ",
+      nazev: " Základ po boudě Žampion  ",
       fotkaUvod: { fotka: " 366zampion1.jpg " },
       kdyVznikl:
         " Začátkem 20. století tu dali majitelé panství Haugwitzové postavit dřevěnou stavbu, které dali jméno kaple svatého Huberta. Shořela v půlce šedesátých let jako zdevastovaný seník.  ",
@@ -19917,7 +19917,7 @@ export default {
     {
       id: 383,
       datum: " květen 2009  ",
-      pridano: "02/06/2021 ",
+      pridano: "02/06/2022 ",
       kategorie: "vypraveni",
       podkategorie: 1,
       nazev: "  Přechod hřebenem Babího lomu  ",
@@ -20130,6 +20130,450 @@ export default {
         { fotka: "  383babilom27.jpg ", popisek: " (únor 2009) " },
         { fotka: "  383babilom28.jpg ", popisek: " (únor 2009) " },
         { fotka: "  383babilom29_1.jpg ", popisek: " (leden 2006) " },
+      ],
+    },
+    {
+      id: 384,
+      datum: " 18. - 20. května 2022  ",
+      formatDatum: "15/06/2022",
+      pridano: " 15/06/2022 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Loukami Bílých Karpat na Velkou Javořinu  ",
+      fotkaUvod: { fotka: " 384bileKarpaty01.jpg " },
+
+      text: [
+        {
+          textOdstavce:
+            " Všiml jsem si, že zhruba v polovině května nastává každý rok vícedenní slunečné období beze srážek, bez bouřek, bez veder. Někdy trvá tři, jindy čtrnáct dní a je to ideální čas pro turistiku. Nastalo i letos a tedy nezbylo, než vyrazit. Plán jsem měl smělý: navštívit rezervace vstavačů na bělokarpatských loukách v jižnější části pohoří a vystoupat na Velkou Javořinu, kde jsem také hromadu let nebyl. Doprava do těchto hor z Brna je jednoduchá. Stačí sednout do vlaku a za dvě hodinky už lze stát před první kvetoucí karpatskou loukou.    ",
+        },
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">První den: středa 18. května 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            "  <i>Javorník nad Veličkou zastávka - PP Nad vápenkou - Javorník - Kománkův mlýn - Petruchův mlýn - NPR Jazevčí - Stromová kaple nad Novou Lhotou - Kubíkův vrch - Šibenický vrch - pod Čupcem - Dibrovův pomník - hřebenem na Javořinu - pomníček Josefa Vavrouška - Velká Javořina (970 metrů) - Holubyho chata - Květná - PR Nová hora - Nová hora (552 m). 25 km, 950 metrů převýšení.</i>  ",
+        },
+        {
+          textOdstavce:
+            "   Jel jsem do zastávky Javorník a hned u kolejí jsou dvě přírodní památky (PP), PP Nad vápenkou a PP Velický hliník. Prvně jmenovaná památka je poměrně malá loučka na severním svahu nad vesnicí. Nezabírá ani hektar, tudíž se dá přehlédnout celá. Byl jsem tu poprvé, tak jsem jen prozkoumával, co tu kvete. Našel jsem několik vstavačů vojenských v začátku kvetení, zdá se, že na orchideje v Bílých Karpatech je ještě brzy. Asi 200 metrů odtud stávala dřevěná rozhledna Drahy, žalostný případ nakládání s evropskými penězi. Zbudována v roce 2009 za vydatného přispění evropských dotací v sedle pod horami, odkud se moc daleko nedohlédlo. Bez péče vydržela deset let, v roce 2020 uzavřena kvůli zchátralosti. Protože na opravy peníze nebyly, byla v únoru 2021 stržena a zbyla po ní jen hromada dřeva na topení.   ",
+        },
+        {
+          foto: " 384bileKarpaty01.jpg  ",
+          popisek: " Železniční zastávka Javorník nad Veličkou  ",
+        },
+        {
+          foto: " 384bileKarpaty03.jpg  ",
+          popisek: " Přírodní památka Nad vápenkou.  ",
+        },
+        {
+          foto: " 384bileKarpaty02.jpg  ",
+          popisek: " Vstavač vojenský  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            "  Vesnice Javorník, dnes prakticky spojená s Velkou nad Veličkou, patří k nejodlehlejším. Proto se tu udržela jako v jediné obci  evangelická víra v katolickém moři. Po třicetileté válce docházelo v českých zemích k násilné rekatolizaci, jiná vyznání byla zakazována a pronásledována. V Javorníku byl před čtyřmi sty lety silný sbor Jednoty bratrské. Zákazy se dotkly každé domácnosti, evangelíci se 140 let tajně scházeli v lesích a stodolách. Císař Josef II. vyhlásil v říjnu 1781 toleranční patent, byla povolena jiná náboženství než římsko-katolické, byť s mnoha omezeními. Stalo se to až po smrti jeho matky, císařovny Marie Terezie, ta by podobný patent nikdy neschválila. Na Horňácko dorazilo nové nařízení před vánocemi a už v létě 1782 přišel do Javorníku z Uher první evangelický kazatel v českých zemích. Povolení postavit si kostel dostali javorničtí v září 1782 a za rok kostel stál. Nesměl mít věž, musel být za vsí a vchodem měl nařízeno mířit do polí. Dnes tu má českobratrský evangelický sbor ještě faru, sborový dům a zvonici. Kromě toho je ve vsi památková rezervace vesnických staveb blízko kostela. Je to příjemné, tiché místo.  ",
+        },
+        {
+          foto: " 384bileKarpaty04.jpg  ",
+          popisek: " Toleranční kostel v Javorníku  ",
+        },
+        { foto: " 384bileKarpaty05.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty06.jpg  ",
+          popisek: " Seníky směrem k Suchovským mlýnům  ",
+        },
+        {
+          textOdstavce:
+            " Po silnici jsem došel k národní přírodní rezervaci <span><a href='https://nature.hyperlink.cz/Bile_Karpaty/Jazevci.htm' target='_blank' class='vnitrniOdkaz'>Jazevčí</a></span>.  Představuje květnaté louky v severních svazích údolí potoka Veličky v délce skoro čtyři kilometry, rozdělené dvěma stržemi. Plocha rezervace je 99 hektarů. Tak velké území nelze přehlédnout a projít celé, je třeba si vybrat, kudy jít. Nejsem tu poprvé, ale letos jsem měl smůlu. Byť tu má kvést asi čtrnáct druhů vstavačů, narazil jsem jen na vstavače mužské a vojenské. Kvetlo toho tu ale více a mnohé jsem nedokázal určit. Hledání kvetoucích vstavačů v Bílých Karpatech se dá přirovnat ke hledání hub. Výjimečně jsou jich záhony na jednom místě, spíše  sem tam rostou jednotlivé rostliny. O to větší je radost z nálezu. Kromě kruštíku širolistého jsou všechny vstavače zákonem chráněné. Orchidejí je v naší přírodě podle posledního Klíče k určování rostlin (Kubát, 2019) asi 77 druhů a poddruhů, z nich 36 je kriticky ohroženo a pět už neroste, vyhynulo v posledních padesáti letech.   ",
+        },
+        { foto: " 384bileKarpaty07.jpg  ", popisek: " NPR Jazevčí  " },
+        {
+          foto: " 384bileKarpaty08.jpg  ",
+          popisek: " Vstavač mužský znamenaný  ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty09.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty10.jpg  ",
+          popisek: " Kostival lékařský  ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty11.jpg  ", popisek: " (květen 2022)  " },
+        {
+          textOdstavce:
+            " Na kopci nad Novou Lhotou vysázeli do obdélníku stromovou kapli. Jmenuje se Stromová kaple vnitřního ticha. Zatím jsou stromky malé, je jim šest let, ale až vyrostou, bude tu zajímavé místo. Kolem opuštěných vleků jsem dorazil na Kubíkův vrch. Dále vedla cesta po hřebeni až na Velkou Javořinu. Výhledy od Šibeničního vrchu byly, zahlédl jsem i Pálavu. Pod vrcholem Čupec je upravená Anežčina studánka, jediná slušná voda po cestě. V sedle má bytelný pomník partyzánský velitel Ilja Danilovič Dibrov (1891 - 1944), který byl 13. října 1944 nedaleko odtud zákeřně zezadu zastřelen. Další cesta je na výhledy skoupá a jde po česko-slovenské hranici přes vrchol Durda (842 m), pozoruhodný jedině tím, že to je nejvyšší “hora” Jihomoravského kraje.   ",
+        },
+        {
+          foto: " 384bileKarpaty12.jpg  ",
+          popisek: " Nová Lhota, na obzoru věž na Velké Javořině  ",
+        },
+        {
+          foto: " 384bileKarpaty13.jpg  ",
+          popisek: " Ze Šibenického vrchu je slušný výhled  ",
+        },
+        { foto: " 384bileKarpaty14.jpg  ", popisek: " Dibrovův pomník  " },
+        { foto: " 384bileKarpaty15.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty16.jpg  ",
+          popisek: " V lese kvetla měsíčnice vytrvalá  ",
+        },
+        {
+          textOdstavce:
+            " Pohraniční cesta ústí na vrcholovou louku Velké Javořiny, brzy se ukazuje věž a sbírka pomníků. Mezi nimi dominuje pomník česko-slovenské vzájemnosti, u kterého se pokaždé na Nový rok od rozdělení státu scházejí národovci z obou stran hranice. Kovová výzdoba pomníku pochází od Otmara Olivy. Vedle je skromnější pomníček Josefa Vavrouška, ministra životního prostředí, tragicky zahynulého na jaře 1995 v Roháčích. Ten patřil k obnovitelům tradice setkávání Čechů a Slováků na Javořině. Další desky a pomníčky tu postupně přibývají. Kus dál leží velký pískovcový balvan, na kterém kdysi byla také nějaká deska.   ",
+        },
+        { foto: " 384bileKarpaty17.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty18.jpg  ",
+          popisek: " Vrcholová louka s pomníky  ",
+        },
+        {
+          foto: " 384bileKarpaty19.jpg  ",
+          popisek: " Pomníček Josefa Vavrouška  ",
+        },
+        {
+          foto: " 384bileKarpaty20.jpg  ",
+          popisek: " Pomník česko - slovenské vzájemnosti  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Na nejvyšším místě, kóta 970 metrů, stojí 130 metrů vysoký televizní vysílač. Postavili ho v roce 2004, předtím tu byly od padesátých let nižší stavby. Výhled z těchto výšin bývá za inverze impozantní. Na východě jsou vidět horstva Slovenska až po Vysoké Tatry, na jihozápadě se na obzoru rýsují nejbližší Alpy, je vidět i Praděd a Lysá hora. Tato situace ale nastává jen párkrát za rok. Já jsem takové štěstí neměl. Viděl jsem Bílé Karpaty po Vršatec a naproti přes údolí Váhu Povážský Inovec. Tím, že je na vrcholu charakteristická věž, lze pozorovat a poznat horu z velké dálky. I z Brna. Za dobrých pozorovacích podmínek je možné Javořinu vidět z Kamenného vrchu na východním obzoru ve vzdálenosti 85 kilometrů. ",
+        },
+        {
+          foto: " 384bileKarpaty21.jpg  ",
+          popisek: " Televizní věž na Javořině ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty22.jpg  ",
+          popisek: " Pohled přes Pováží na Povážský Inovec ",
+        },
+        {
+          textOdstavce:
+            " Při velkém přiblížení severního obzoru se ve vzdálenosti asi čtyřiceti kilometrů objevila skupina Vršatce. Zleva Biely vrch(819 m), nejvyšší Chmelová (925 m), dvouvrcholové Babky, vrch Chotuč (795 m). Vpravo vzadu je slabě vidět Malý a Velký Manín.  ",
+        },
+        {
+          foto: " 384bileKarpaty23.jpg  ",
+          popisek: " Vršatec z Velké Javořiny ",
+        },
+        {
+          textOdstavce:
+            " Holubyho chata měla zrovna zavírací den. Tak jsem aspoň dočepoval vodu a posvačil na terase. Moje přítomnost přitahovala další zájemce, za tu půlhodinku se do chaty snažilo dostat několik skupinek žíznivců. Holubyho chata byla postavena na jižním svahu hory u silného pramene. Základní kámen položili v roce 1923 a v červnu 1924 byla otevřena. Pojmenována byla podle vlasteneckého kněze, botanika a národopisce Jozefa Ľudovíta Holubyho (1836 - 1923) a jméno si udržela dodnes. V listopadu 1926 nešťastnou náhodou vyhořela a byla obnovena ve stejné podobě. Na začátku války tudy prchali na Balkán ti, kteří nechtěli zůstat v německém područí, na konci války se tu dost střílelo. Chata slouží hlavně v zimě, jsou tu tři vleky.  ",
+        },
+        {
+          foto: " 384bileKarpaty24.jpg  ",
+          popisek: " Povážský Inovec od Holubyho chaty ",
+        },
+        { foto: " 384bileKarpaty25.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty26.jpg  ",
+          popisek: " Pamětní desky na Holubyho chatě ",
+        },
+        {
+          textOdstavce:
+            " Od Holubyho chaty jsem hodně klesl do osady Květná a z ní vystoupal na protější hřeben. Nad osadou začíná přírodní rezervace <span><a href='https://nature.hyperlink.cz/uh/Nova_hora.htm' target='_blank' class='vnitrniOdkaz'>Nová hora</a></span>. Je to území květnatých luk, remízků,  zaniklých sadů a pastvin, vše na jižním svahu. Našel jsem tu vstavač bledý a okrotice dlouholisté. ",
+        },
+        {
+          foto: " 384bileKarpaty27.jpg  ",
+          popisek: " Sestup do Květné ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty28.jpg  ", popisek: " Vstavač bledý " },
+        {
+          foto: " 384bileKarpaty29.jpg  ",
+          popisek: " (květen 2022)  ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty30.jpg  ", popisek: " PR Nová hora  " },
+        {
+          foto: " 384bileKarpaty31.jpg  ",
+          popisek: " Okrotice dlouholistá  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty32.jpg  ",
+          popisek: " Dole v údolí je Strání  ",
+        },
+        { foto: " 384bileKarpaty33.jpg  ", popisek: " Stíny se dlouží  " },
+        {
+          textOdstavce:
+            " Stíny se prodlužovaly a bylo třeba najít místo na nocleh. Vzpomněl jsem, jak před osmnácti lety - jak ten čas letí - nás tu tábořilo patnáct na louce u slovenské hranice. Teď jsem musel najít skrytější místo na bivak, naštěstí bouřka ani déšť nehrozil. Našlo se v úzké nudli lesa přímo na hřebeni, odkud jsem večer sledoval už ze spacáku západ slunce a ráno doufal, že - rovněž ze spacáku - budu sledovat slunka východ. Trochu jsem se přepočítal, celý kraj byl ráno osluněný, jen na mě padal přes údolí stín Velkého Lopeníku. Ale čekal mě slunečný den.  ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/pukokatura" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "  https://frame.mapy.cz/s/pukokatura ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">Druhý den: čtvrtek 19. května 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            "  <i>Nová hora - sedlo před Doubravou - PP Dubiny - PP Cestiska - Březová - studánka Pod Kalábovou - PP Kalábová - hřebenová cesta - Studený vrch - rozhledna U křížku - Dubina - rozhledna Obecnice - rozcestí Javořina - PP Za lesem -  PP Sviní hnízdo - NPR Porážky - údolí potoka Kazivec - Suchovský Šumárník . 29 km, 600 metrů převýšení.</i>  ",
+        },
+        {
+          foto: " 384bileKarpaty34.jpg  ",
+          popisek: " Ranní zátiší v bivaku  ",
+        },
+        {
+          foto: " 384bileKarpaty35.jpg  ",
+          popisek: " Autoportrét nad Stráním  ",
+        },
+        {
+          textOdstavce:
+            " Spíše necestou než cestou jsem došel k přírodní památce Dubiny, Je to malá orchidejová loučka velikosti asi čtyři hektary se solitérními duby. Kolem je spleť oplocených pastvin, kde roste jen tráva. Ze vstavačů tam rostly pětiprstky a bradáčky, horší to bylo s určením jiných květin. Pár desítek druhů našich orchidejí se lze naučit, pár tisíc ostatních cévnatých rostlin už ne, musel bych se podruhé narodit a věnovat se přírodovědnému vzdělání. Bylo by to ale úplně zbytečné, protože aplikace v chytrém mobilu je znalejší než kdejaký botanik a určuje kytky podle fotky docela spolehlivě. Já ji nepoužívám - zatím.  Až doma jsem podle fotek určil třeba žlutý kostival hlíznatý, jiné kytky jsou pro mě tajemstvím doteď.  ",
+        },
+        {
+          foto: " 384bileKarpaty36.jpg  ",
+          popisek: " Přírodní památka Dubiny  ",
+        },
+        { foto: " 384bileKarpaty38.jpg  ", popisek: " Louka plná orlíčků  " },
+        { foto: " 384bileKarpaty37.jpg  ", popisek: " Orlíček obecný  " },
+        {
+          foto: " 384bileKarpaty39.jpg  ",
+          popisek: " Pětiprstka žežulník  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty40.jpg  ",
+          popisek: "  (květen 2022) ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty42.jpg  ", popisek: " Kostival hlíznatý " },
+        { foto: " 384bileKarpaty41.jpg  ", popisek: " (květen 2022)  " },
+        {
+          textOdstavce:
+            " I k další přírodní památce Cestiska. (skok na https://nature.hyperlink.cz/uh/Cestiska.htm)  jsem došel bez cest. Jsou to bývalé pastviny nad obcí Březová, suché stráně jsou řídce porostlé borovicemi a jalovci. Našel jsem tu vstavač nachový a začínal kvést bradáček vejčitý, na vyprahlém suchopáru se dařilo šalvějím i vítodům.  ",
+        },
+        {
+          foto: " 384bileKarpaty43.jpg  ",
+          popisek: " Podhorská ves Březová  ",
+        },
+        {
+          foto: " 384bileKarpaty45.jpg  ",
+          popisek: " Přírodní památka Cestiska  ",
+        },
+        { foto: " 384bileKarpaty44.jpg  ", popisek: " Vítod větší …. " },
+        {
+          foto: " 384bileKarpaty46.jpg  ",
+          popisek: " …roste na jihovýchodní Moravě.  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty47.jpg  ",
+          popisek: " Bradáček vejčitý  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty48.jpg  ",
+          popisek: " Vstavač nachový  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Sestoupil jsem do obce Březová a obdivoval dominantu obce. Je jí novogotický kostel svatých Cyrila a Metoděje. Pozoruhodný je i pomník padlým v druhé světové válce od nivnického sochaře Karla Veselého. Na konci války zažila Březová těžké chvíle. Ústupové boje německé armády v dubnu 1945 trvaly 18 dní a odhaduje se, že tu padlo více než sto sovětských a rumunských vojáků. Všechny domy byly poškozené nebo zničené, obyvatelé uprchli na Slovensko. ",
+        },
+        { foto: " 384bileKarpaty49.jpg  ", popisek: " Kostel v Březové  " },
+        {
+          foto: " 384bileKarpaty50.jpg  ",
+          popisek: " Pomník obětem bojů za II. světové války ",
+        },
+        {
+          textOdstavce:
+            " Potřeboval jsem nabrat vodu a v mapě je uvedena studánka pod Kalábovou. Je to krásně upravený silný pramen s kapličkou, se stolem a lavicemi. Vše vzorně opečováváno. Zatímco jsem se u pramene dával trochu dohromady, dorazili k pramenu starší manželé a přinesli další lavici. Vyšlo najevo, že jsou z Březové, o studánku se starají, kapličku opravili, lavice sami vyrábějí a že příští neděli tu bude májová pobožnost. Milí, obětaví lidé, jsou vidět na obrázku. ",
+        },
+        {
+          foto: " 384bileKarpaty51.jpg  ",
+          popisek: " Studánka pod Kalábovou…  ",
+        },
+        {
+          foto: " 384bileKarpaty52.jpg  ",
+          popisek: " …a její ochránci. (květen 2022)  ",
+        },
+        {
+          textOdstavce:
+            " Od pramene jsem šel hledat přírodní památky Kalábová (skok na https://nature.hyperlink.cz/uh/Kalabova.htm). Množné číslo je tu proto, že jsou dvě. Nevede k nim cesta a jsou dobře schované v lese. Na jediném místě na Moravě, na pár metrech čtverečních, roste botanická velevzácnost. Sotva 15 centimetrů vysoká zelená orchidejka hlízovec Loeselův. Hlízovce jsem nenašel, bylo na ně ještě brzo, ale celá podmáčená stráň na mě působila velmi zvláštně, tajemně. Asi sem mnoho lidí nepřijde. V bažině rostly vstavače májové a v lese jsem narazil na okrotice.  ",
+        },
+        {
+          foto: " 384bileKarpaty54.jpg  ",
+          popisek: " PP Kalábová  (květen 2022)  ",
+        },
+        {
+          foto: " 384bileKarpaty53.jpg  ",
+          popisek: " Okrotice dlouholistá  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty55.jpg  ",
+          popisek: " Prstnatec májový  ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty56.jpg  ", popisek: " (květen 2022)  " },
+        {
+          textOdstavce:
+            " Z bělokarpatských lesů jsem se vynořil na hlavní hřebenové cestě. Byť byl všední den, byla docela frekventovaná, hlavně cyklisty. A cyklistkami. Mladé dámy vyjížděly z lesa jedna po druhé, až se jich na výhledu k Lopeníku shromáždilo víc než deset. Měl jsem na jazyku okřídlený výrok naší party z Dámské jízdy 1984: “Doparoma baby kolko vás idě”, ale místo toho jsem je vyfotil. Snímek je úmyslně neostrý, neptal jsem se jich na souhlas se zveřejněním.    ",
+        },
+        {
+          foto: " 384bileKarpaty57.jpg  ",
+          popisek: " Horská osada Lopeník pod Mikulčiným vrchem  ",
+        },
+        {
+          foto: " 384bileKarpaty58.jpg  ",
+          popisek: " Že by dívčí škola na cyklistickém výletě?  ",
+        },
+        {
+          textOdstavce:
+            " Byl čas se otočit na zpáteční cestu. Byla pro mě novinkou. Pokaždé, když jsme šli po hřebeni Bílých Karpat, jsme si vybírali kratší a náročnější cestou přes Velký Lopeník, kde jsme se nevyhnuli prudkým výstupům a sestupům. Tudy je to skoro po rovině, vhodné zvláště pro seniory, způli lesem, způli loukami. Ovšem louky jsou hnojené, průmyslově sečené, kromě trávy tam neroste nic jiného. Květiny rostou jen na chráněných územích a těch je na počet dost, ale plošně maloučko. Před sedmdesáti lety, než se začalo s velkovýrobou sena a kolektivizací zemědělství, tu musel být kytičkový ráj všude, nejen v rezervacích. K hynutí vstavačů přispívají od padesátých let zřejmě i kyselé deště. Odstrašujícím případem budiž vstavač štěničný, původně rostl roztroušeně na všech loukách, poslední výskyt zaznamenán v roce 1970. Je považován za vyhynulý druh a chcete-li ho spatřit, musíte nejblíže do východního Rumunska, tam jich je zatím poměrně dost.  ",
+        },
+        { foto: " 384bileKarpaty61.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty59.jpg  ",
+          popisek: " Rozhledna U křížku…  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty60.jpg  ",
+          popisek: " …poskytuje výhled k jihu na Jelenec a Velkou Javořinu.  ",
+        },
+        {
+          textOdstavce:
+            " Cesta vede kolem dvojice rozhleden, vzniklých jak přes kopírák. První byla rozhledna U křížku s výhledem na Strání a k jihu na masiv Jelence a Velké Javořiny. Druhá je rozhledna Obecnice o čtyři kilometry dále. Vidět je z ní k severu na vesnici Korytná a Uherskobrodsko. Obě rozhledny jsou dřevěné, 13 metrů vysoké, plošina je ve výši deseti metrů a postaveny byly v roce 2011. Nejsou samy, dvojici doplňují na Uherskobrodsku ještě další čtyři stejné rozhledny: Králov nad Bánovem, U Trojice nad Nivnicí, Hráběcí u Vlčnova a Pod Vojanskú u Bystřice pod Lopeníkem.U rozhledny Obecnice bylo zajímavé, že i když stojí nedaleko značené cesty, nebyla tu žádná směrovka, odbočka, nic. Tedy se dá lehce minout, což by bylo škoda.  ",
+        },
+        {
+          foto: " 384bileKarpaty62.jpg  ",
+          popisek: " Rozhledna Obecnice nad Korytnou ",
+        },
+        {
+          foto: " 384bileKarpaty63.jpg  ",
+          popisek: "  (květen 2022)  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Na přírodní památce Za lesem nekvetlo nic pozoruhodného. Je to chráněný kousek louky s mokřadem, který až do roku 2015 byl ničen nadměrnou pastvou dobytka a hnojením kejdou. V posledních letech se tu vzpamatovává daleko široko jediné naleziště bílých krokusů. Brzy na jaře rozkvétá šafrán bělokvětý, jsou tu stovky rostlin. A dál pod kopcem Lesná začaly pozoruhodné louky s osamělými duby.  ",
+        },
+        { foto: " 384bileKarpaty64.jpg  ", popisek: " PP Za lesem  " },
+        { foto: " 384bileKarpaty65.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty66.jpg  ",
+          popisek: " Začínají solitérní duby v lukách  ",
+        },
+        {
+          foto: " 384bileKarpaty67.jpg  ",
+          popisek: "  Věž na Velké Javořině se zdá být blízko ",
+        },
+        {
+          textOdstavce:
+            " Přes lesní komplex kolem PP Sviní hnízdo jsem se opět bez cest dostal ke zlatému hřebíku výpravy, národní přírodní památce Porážky (skok na https://nature.hyperlink.cz/uh/Porazky.htm). Louka je zhruba půl kilometru čtverečního velká, po obou stranách hřebene, ochranné pásmo je nejméně šestkrát větší. Cest k ní je málo, značené žádné. Přitom v NPR je pohyb mimo značené cesty zakázán. Tedy se asi musí případní návštěvníci naučit létat. Naštěstí domorodci neberou zákazy doslova a do některých prostorů lze sledovat vyjeté koleje od traktoru. Tady jako na jediné lokalitě na Moravě roste  v létě 1,5 metru vysoký všivec statný. Mají pro něj udělanou dřevěnou ohradu.  Kvetly tu prstnatce bezové, pětiprstky, kukačky, i na jeden střevíčník jsem narazil. Místo je to krásné.  ",
+        },
+        { foto: " 384bileKarpaty68.jpg  ", popisek: "  NPR Porážky  " },
+        { foto: " 384bileKarpaty69.jpg  ", popisek: " (květen 2022)  " },
+        { foto: " 384bileKarpaty70.jpg" },
+        {
+          foto: " 384bileKarpaty74.jpg  ",
+          popisek: " Vstavač kukačka  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty75.jpg  ",
+          popisek: " Pětiprstka žežulník  ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty76.jpg  ", popisek: " Prstnatec bezový  " },
+        {
+          foto: " 384bileKarpaty77.jpg  ",
+          popisek: " Střevíčník pantoflíček  ",
+        },
+        {
+          textOdstavce:
+            " Z Porážek bylo třeba projít loukami k Suchovu. Cestu znám, jsem tu poněkolikáté, přesto jsem v ploché lučinaté krajině bloudil. Vzpomněl jsem na svoji první návštěvu před mnoha lety, tehdy to ještě nebylo ochranné pásmo rezervace. Šel jsem opačným směrem a chtěl dojít na Porážky. Za Suchovem se zprvu bytelná cesta brzy změnila na vyjetou kolej od traktoru a i ta brzy uhnula do údolí. V horkém dni jsem se probíjel bez cest neuvěřitelně hustou a vysokou trávou, prokládanou solitérními stromy v lukách. Ty louky kvetly naplno, občas se z trav vyloupl kvetoucí vstavač.  Ztratil jsem pojem o čase, hodiny běžely a stále jsem nenarazil na jakoukoliv lidskou přítomnost. Já, starej chlap, jsem byl u vytržení. Netušil jsem, že na Moravě existuje takto opuštěná krajina. Jen tehdy jsem našel metr vysoký trs kvetoucích kosatců, od té doby už nikdy. Náhle jsem před sebou spatřil dvě pohybující se hlavy. Byli to dva cyklisté, rovněž zbloudilí, ale ti tlačili kola v koleji od traktoru. Po ní jsme pak dorazili k ceduli na začátku rezervace.  ",
+        },
+        { foto: " 384bileKarpaty71.jpg " },
+        { foto: " 384bileKarpaty72.jpg " },
+        { foto: " 384bileKarpaty73.jpg " },
+        {
+          foto: " 384bileKarpaty78.jpg  ",
+          popisek: " Prstnatec bezový  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty79.jpg  ",
+          popisek: " (květen 2022)  ",
+          naVysku: true,
+        },
+        {
+          foto: " 384bileKarpaty80.jpg  ",
+          popisek: " Prstnatec pleťový  ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Zase byl večer a bylo potřeba najít noclehoviště. Vodu jsem v nouzi nabral z potoka Kazivce doufaje, že nebude příliš závadná. Uondán loukami, kytkami, výhledy a sluncem. Nebyly síly hledat lepší zdroj. Vhodné místo na bivak jsem našel na kraji lesa u kopce Suchovský Šumárník.  ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/hukodulosu" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: "  https://frame.mapy.cz/s/hukodulosu ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">Třetí den: pátek 20. května 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            " <i>Suchovský Šumárník - nad Suchovem - Háj - lovecká chata s pramenem - NPR Zahrady pod Hájem - Velká nad Veličkou . 9 km.</i>  ",
+        },
+        {
+          textOdstavce:
+            " Předpověď počasí pro dnešní den nebyla ideální, vedro a pak bouřky. Tedy jsem přes kopec Háj mířil po značce k Velké a pak rychle na vlak. Je potřeba upozornit na solidní pramen vody u lovecké chaty, který ústí do malého jezírka. Není v mapě, neleží na značce, ale 200 metrů od ní u lesní cesty a v horku je dost důležitý. ",
+        },
+        {
+          foto: " 384bileKarpaty82.jpg  ",
+          popisek: " Česneková záplava na kopci Háj  ",
+        },
+        {
+          foto: " 384bileKarpaty83.jpg  ",
+          popisek: " Česnek medvědí, módní rostlina  ",
+        },
+        {
+          foto: " 384bileKarpaty84.jpg  ",
+          popisek: "  Lovecká chata s pramenem vody ",
+        },
+        {
+          textOdstavce:
+            "  Přes les plný česnekové vůně jsem došel k národní přírodní rezervaci Zahrady pod Hájem (skok na https://nature.hyperlink.cz/Bile_Karpaty/Zahrady.htm). Kvetly tam vstavače, které jsem viděl minulé dva dny a navíc jsem našel jeden tořič čmelákovitý. V této rezervaci jich roste nejvíce z asi patnácti nalezišť v republice, všechny jsou v Bílých Karpatech. Je to krásná, nezvykle tvarovaná kytka, najít ji je svátek.  ",
+        },
+        {
+          foto: " 384bileKarpaty85.jpg  ",
+          popisek: "  NPR  Zahrady pod Hájem ",
+        },
+        { foto: " 384bileKarpaty86.jpg  ", popisek: " (květen 2022)  " },
+        {
+          foto: " 384bileKarpaty87.jpg  ",
+          popisek: " Tořič čmelákovitý Holubyho  ",
+          naVysku: true,
+        },
+        { foto: " 384bileKarpaty88.jpg  ", popisek: " (květen 2022)  " },
+        { foto: " 384bileKarpaty89.jpg   " },
+        {
+          textOdstavce:
+            " Ve Velké nad Veličkou býváme s Lídou v posledních letech pravidelnými hosty. Ne kvůli kytkám, ale kvůli národopisu. Každý rok v neděli po svaté Máří Magdaleně (22. července) se tu koná pouť, protože této světici je zasvěcen kostel ve Velké. A s poutí jsou už šedesát let spojeny Horňácké slavnosti, tři dny a hlavně noci horňáckých písniček, cimbálovek, tance a setkávání přátel. Mají zvláštní atmosféru. Tady se nic operetně nepředstírá, tady se folklorem žije od malička do smrti. Poslední dva roky se slavnosti nemohly kvůli covidu konat veřejně, tak snad se letos vydaří. A my dva budeme u toho.  ",
+        },
+        {
+          foto: " 384bileKarpaty90.jpg  ",
+          popisek: " Opevněný kostel ve Velké nad Veličkou ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/fumojojofe" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/fumojojofe  ",
+        },
       ],
     },
   ],
