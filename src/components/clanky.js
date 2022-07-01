@@ -20348,7 +20348,7 @@ export default {
         { foto: " 384bileKarpaty41.jpg  ", popisek: " (květen 2022)  " },
         {
           textOdstavce:
-            " I k další přírodní památce <span><a href='https://nature.hyperlink.cz/uh/Cestiska.htm' target='_blank' class='vnitrniOdkaz'>Cestiska</a></span>.   jsem došel bez cest. Jsou to bývalé pastviny nad obcí Březová, suché stráně jsou řídce porostlé borovicemi a jalovci. Našel jsem tu vstavač nachový a začínal kvést bradáček vejčitý, na vyprahlém suchopáru se dařilo šalvějím i vítodům.  ",
+            " I k další přírodní památce <span><a href='https://nature.hyperlink.cz/uh/Cestiska.htm' target='_blank' class='vnitrniOdkaz'>Cestiska</a></span>   jsem došel bez cest. Jsou to bývalé pastviny nad obcí Březová, suché stráně jsou řídce porostlé borovicemi a jalovci. Našel jsem tu vstavač nachový a začínal kvést bradáček vejčitý, na vyprahlém suchopáru se dařilo šalvějím i vítodům.  ",
         },
         {
           foto: " 384bileKarpaty43.jpg  ",
