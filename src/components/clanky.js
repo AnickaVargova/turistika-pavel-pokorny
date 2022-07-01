@@ -20348,7 +20348,7 @@ export default {
         { foto: " 384bileKarpaty41.jpg  ", popisek: " (květen 2022)  " },
         {
           textOdstavce:
-            " I k další přírodní památce Cestiska. (skok na https://nature.hyperlink.cz/uh/Cestiska.htm)  jsem došel bez cest. Jsou to bývalé pastviny nad obcí Březová, suché stráně jsou řídce porostlé borovicemi a jalovci. Našel jsem tu vstavač nachový a začínal kvést bradáček vejčitý, na vyprahlém suchopáru se dařilo šalvějím i vítodům.  ",
+            " I k další přírodní památce <span><a href='https://nature.hyperlink.cz/uh/Cestiska.htm' target='_blank' class='vnitrniOdkaz'>Cestiska</a></span>.   jsem došel bez cest. Jsou to bývalé pastviny nad obcí Březová, suché stráně jsou řídce porostlé borovicemi a jalovci. Našel jsem tu vstavač nachový a začínal kvést bradáček vejčitý, na vyprahlém suchopáru se dařilo šalvějím i vítodům.  ",
         },
         {
           foto: " 384bileKarpaty43.jpg  ",
@@ -20397,7 +20397,7 @@ export default {
         },
         {
           textOdstavce:
-            " Od pramene jsem šel hledat přírodní památky Kalábová (skok na https://nature.hyperlink.cz/uh/Kalabova.htm). Množné číslo je tu proto, že jsou dvě. Nevede k nim cesta a jsou dobře schované v lese. Na jediném místě na Moravě, na pár metrech čtverečních, roste botanická velevzácnost. Sotva 15 centimetrů vysoká zelená orchidejka hlízovec Loeselův. Hlízovce jsem nenašel, bylo na ně ještě brzo, ale celá podmáčená stráň na mě působila velmi zvláštně, tajemně. Asi sem mnoho lidí nepřijde. V bažině rostly vstavače májové a v lese jsem narazil na okrotice.  ",
+            " Od pramene jsem šel hledat přírodní památky <span><a href='https://nature.hyperlink.cz/uh/Kalabova.htm' target='_blank' class='vnitrniOdkaz'>Kalábová</a></span>. Množné číslo je tu proto, že jsou dvě. Nevede k nim cesta a jsou dobře schované v lese. Na jediném místě na Moravě, na pár metrech čtverečních, roste botanická velevzácnost. Sotva 15 centimetrů vysoká zelená orchidejka hlízovec Loeselův. Hlízovce jsem nenašel, bylo na ně ještě brzo, ale celá podmáčená stráň na mě působila velmi zvláštně, tajemně. Asi sem mnoho lidí nepřijde. V bažině rostly vstavače májové a v lese jsem narazil na okrotice.  ",
         },
         {
           foto: " 384bileKarpaty54.jpg  ",
@@ -20469,7 +20469,7 @@ export default {
         },
         {
           textOdstavce:
-            " Přes lesní komplex kolem PP Sviní hnízdo jsem se opět bez cest dostal ke zlatému hřebíku výpravy, národní přírodní památce Porážky (skok na https://nature.hyperlink.cz/uh/Porazky.htm). Louka je zhruba půl kilometru čtverečního velká, po obou stranách hřebene, ochranné pásmo je nejméně šestkrát větší. Cest k ní je málo, značené žádné. Přitom v NPR je pohyb mimo značené cesty zakázán. Tedy se asi musí případní návštěvníci naučit létat. Naštěstí domorodci neberou zákazy doslova a do některých prostorů lze sledovat vyjeté koleje od traktoru. Tady jako na jediné lokalitě na Moravě roste  v létě 1,5 metru vysoký všivec statný. Mají pro něj udělanou dřevěnou ohradu.  Kvetly tu prstnatce bezové, pětiprstky, kukačky, i na jeden střevíčník jsem narazil. Místo je to krásné.  ",
+            " Přes lesní komplex kolem PP Sviní hnízdo jsem se opět bez cest dostal ke zlatému hřebíku výpravy, národní přírodní památce <span><a href='https://nature.hyperlink.cz/uh/Porazky.htm' target='_blank' class='vnitrniOdkaz'>Porážky</a></span>. Louka je zhruba půl kilometru čtverečního velká, po obou stranách hřebene, ochranné pásmo je nejméně šestkrát větší. Cest k ní je málo, značené žádné. Přitom v NPR je pohyb mimo značené cesty zakázán. Tedy se asi musí případní návštěvníci naučit létat. Naštěstí domorodci neberou zákazy doslova a do některých prostorů lze sledovat vyjeté koleje od traktoru. Tady jako na jediné lokalitě na Moravě roste  v létě 1,5 metru vysoký všivec statný. Mají pro něj udělanou dřevěnou ohradu.  Kvetly tu prstnatce bezové, pětiprstky, kukačky, i na jeden střevíčník jsem narazil. Místo je to krásné.  ",
         },
         { foto: " 384bileKarpaty68.jpg  ", popisek: "  NPR Porážky  " },
         { foto: " 384bileKarpaty69.jpg  ", popisek: " (květen 2022)  " },
@@ -20547,7 +20547,7 @@ export default {
         },
         {
           textOdstavce:
-            "  Přes les plný česnekové vůně jsem došel k národní přírodní rezervaci Zahrady pod Hájem (skok na https://nature.hyperlink.cz/Bile_Karpaty/Zahrady.htm). Kvetly tam vstavače, které jsem viděl minulé dva dny a navíc jsem našel jeden tořič čmelákovitý. V této rezervaci jich roste nejvíce z asi patnácti nalezišť v republice, všechny jsou v Bílých Karpatech. Je to krásná, nezvykle tvarovaná kytka, najít ji je svátek.  ",
+            "  Přes les plný česnekové vůně jsem došel k národní přírodní rezervaci  <span><a href='https://nature.hyperlink.cz/Bile_Karpaty/Zahrady.htm' target='_blank' class='vnitrniOdkaz'>Zahrady pod Hájem</a></span>. Kvetly tam vstavače, které jsem viděl minulé dva dny a navíc jsem našel jeden tořič čmelákovitý. V této rezervaci jich roste nejvíce z asi patnácti nalezišť v republice, všechny jsou v Bílých Karpatech. Je to krásná, nezvykle tvarovaná kytka, najít ji je svátek.  ",
         },
         {
           foto: " 384bileKarpaty85.jpg  ",
@@ -20575,6 +20575,150 @@ export default {
           odkazMapa: " https://frame.mapy.cz/s/fumojojofe  ",
         },
       ],
+    },
+    {
+      id: 385,
+      kategorie: "pomnicky",
+      pridano: " 20/06/2022 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské ",
+      okres: " Brno - venkov ",
+      obec: "  Ketkovice  ",
+      jmeno: " Grossmidtti, St.  ",
+      nazev: " Zavřelovo panorama s pomníkem u Ketkovic  ",
+      fotkaUvod: { fotka: " 385Grosschmidtii3.jpg " },
+      kdyVznikl:
+        " Vyhlídka do údolí Oslavy a na meandr zvaný Čertův jazyk  tu byla odedávna, pojmenování dostala zřejmě až po smrti Františka Zavřela, tedy po roce 1905. V roce 2016 byla vyhlídka upravena firmou Vojenské lesy a statky, zbudován přístřešek, zábradlí, zrestaurován pomník a hlavně prořezán zarostlý výhled do doliny. ",
+      popisCesty:
+        "  Místo se nachází 1,2 kilometru JZ od kostela v Ketkovicích, na hraně svahu jménem Plánice, na rozcestí značených cest.  ",
+      popis:
+        "  Pomník tvoří hranol bílého krystalického vápence o výšce 1,2 metru. Na přední hladké straně má text. Kolem pomníku je zarůstající obruba z kamenů. ",
+      napis:
+        " na pomníku s chybou: In memoriam // St. Grosschmidtii // masistri silvarum. Přeloženo z latiny: Na památku S.G. správci lesů. ",
+      odkazy: [
+        { nazev: " Lysák, Jiří: Pojihlaví a Pooslaví, 1997, str. 76. " },
+      ],
+      pozn:
+        "  Pomník byl zbudován v neznámé době jako pocta vedoucímu lesního hospodářství na moravskokrumlovském statku.<br><strong>František Zavřel</strong> (1843 - 1905), učitel a ředitel školy v Třebíči, byl významný botanik, zabýval se květenou Třebíčska a Náměšťska, publikoval v odborných časopisech. Jeho syn Jan (1879 - 1946) se stal profesorem zoologie, děkanem i rektorem na Masarykově univerzitě v Brně.  ",
+      naposledObnoveno: " 20.6.2022 ",
+      souradnice: "  49.1490400N, 16.2552400E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mobeguzume" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/mobeguzume  ",
+      galerie: [
+        {
+          fotka: "  385Grosschmidtii1.jpg",
+          popisek: " Zašlý pomník před úpravou (září 2010) ",
+        },
+        {
+          fotka: "  385Grosschmidtii2.jpg",
+          popisek: " Grosschmidtův pomník (duben 2022) ",
+        },
+        { fotka: "  385Grosschmidtii4.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: "  385Grosschmidtii5.jpg",
+          popisek: " Zavřelovo panorama a Čertův jazyk (duben 2022) ",
+        },
+      ],
+      proMe: " IX/278  24-332-13 obl—ost.  22—042    ",
+    },
+
+    {
+      id: 386,
+      kategorie: "pomnicky",
+      pridano: " 20/06/2022 ",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Brno - venkov ",
+      obec: "  Zbraslav  ",
+      jmeno: " Joch, František  ",
+      nazev: " Kříž Františka Jocha u Zbraslavi  ",
+      fotkaUvod: { fotka: " 386Joch1.jpg " },
+      kdyVznikl: " 1920 ",
+      popisCesty:
+        " Kříž stojí 1 kilometr ZSZ od kostela ve Zbraslavi, u cesty na kraji lesa. Vedle něj rostou dvě lípy.   ",
+      popis:
+        " Železný kříž ozdobený kovovými prapory a meči je vsazen do kamenného soklu. V něm je bílá tabulka s hůře čitelným textem.   ",
+      napis:
+        " Tento svatý kříž věnován od // FRANTIŠKY  JOCHOVÉ // na památku padlého syna //  FRANTIŠKA  //  L. P. 1920.  ",
+      odkazy: [
+        {
+          nazev:
+            " Památník obětí světových válek…v okrese Brno-venkov, 2000, str.359 ",
+        },
+      ],
+      pozn: "    ",
+      naposledObnoveno: " 20.6.2022 ",
+      souradnice: "  49.2256306N, 16.2801506E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kapocohace" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/kapocohace  ",
+      galerie: [
+        {
+          fotka: "  386Joch2.jpg",
+          popisek: "  Kříž Františka Jocha(říjen 20001) ",
+        },
+        { fotka: "  386Joch3.jpg", popisek: " (říjen 20001) " },
+        { fotka: "  386Joch4.jpg", popisek: " Detail nápisu (říjen 20001) " },
+      ],
+      proMe: " XX/1157  24-314-87  21—101  ",
+    },
+
+    {
+      id: 387,
+      kategorie: "pomnicky",
+      pridano: " 21/06/2022 ",
+      podkategorie: 5,
+      druh: " Válečné ",
+      okres: " Brno - venkov ",
+      obec: "  Prace  ",
+      jmeno: " Tragédie - Prace  ",
+      nazev: " Památník sedmi klukům zahynulých výbuchem miny v Prace.  ",
+      fotkaUvod: { fotka: " 387sedmkluku2.jpg " },
+      kdyVznikl:
+        " Pomník tu byl instalován údajně v roce tragédie, jeho dnešní podoba je ale současná. Menší pomníček na kamenu vznikl při 50. výročí události, tedy v roce 2001. ",
+      popisCesty:
+        " Oba pomníky se nacházejí na místě události, na kraji vsi, na malé plošince vedle hřbitova a kostela.  ",
+      popis:
+        "  Dvě leštěné žulové desky jsou vysoké 1,8 metru, mezera mezi nimi má podobu latinského kříže. Na pravé desce jsou oválné fotografie dětí, jejich jména a věk. Na levé desce je delší text. Pomník vypadá, jakoby utekl ze hřbitova. Naproti na pískovcovém kamenu vytěženém v obci je malý kovový křížek, maketa letecké pumy a amatérská tabulka s textem.  ",
+      napis:
+        " na pomníku na levé desce: NA  TOMTO  MÍSTĚ // 30. 1. 1951  ZAHYNULO // TRAGICKOU  SMRTÍ // 7  MALÝCH  KAMARÁDŮ //  BYLI  JSME  NADĚJÍ // SVÝCH  MILÝCH  RODIČŮ // BŮH  VÍ  PROČ // JSOU  VRYTA  JEN // NAŠE  JMÉNA V POMNÍČKU<br>na kamenu: VZPOMÍNKA  NA  TRAG. UDÁLOST  PŘED // PADESÁTI  LÉTY - 30. 1. 1951. // NA  TOMTO  MÍSTĚ  VYBUCHLA  MINA // A  ZAHYNULO 7 KAMARÁDŮ // - VZPOMÍNAJÍ  KAMARÁDI      ",
+      odkazy: [
+        {
+          nazev: " Brněnský deník ",
+          adresa:
+            " https://brnensky.denik.cz/zpravy_region/-vybuch-miny-v-praci-zabil-sedm-deti20110130.html ",
+        },
+        { nazev: "  ", adresa: "  " },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  30. ledna 1951 si skupina kluků z Prace hrála na četníky a na zloděje. Dva se schovali ve farské zahradě a objevili tam dvě protipěchotní miny z druhé světové války. Vzali je s sebou aby se pochlubili ostatním. Jedna mina vybuchla, zrovna když bylo kolem nahloučeno dvanáct dětí. Dva byli mrtví na místě, dalších pět zemřelo v nemocnici během tří dnů, pět dětí střepiny poranily. Všem bylo mezi devíti a dvanácti roky. Událost otřásla celou vsí, pohřeb měly oběti společný 3. února 1950. V tehdejších novinách o tom nebylo ani slovo.<br>Vznikla otázka, kde se tam munice 6 let po skončení války vzala. Vyšlo najevo, že jeden občan z Prace si od války schovával doma výbušniny. Když hrozily sedlákům kontroly domů kvůli odvodům potravin, potřeboval se jich zbavit. Odnesl je do sousední farské zahrady a tam je kluci našli. Šel do vězení na 3,5 roku a rodina se musela z obce odstěhovat.   ",
+      naposledObnoveno: " 21.6.2022 ",
+      souradnice: "  49.1373389N, 16.7645692E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lecolutabu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lecolutabu  ",
+      galerie: [
+        {
+          fotka: "  387sedmkluku1.jpg",
+          popisek: " Pomník tragédii v Praci (leden 2021) ",
+        },
+        {
+          fotka: "  387sedmkluku3.jpg",
+          popisek: " Detail levé desky (leden 2021) ",
+        },
+        {
+          fotka: "  387sedmkluku4.jpg",
+          popisek: " Pomníček na kamenu (leden 2021) ",
+        },
+        {
+          fotka: "  387sedmkluku5.jpg",
+          popisek: " Detail tabulky na kamenu (leden 2021) ",
+        },
+      ],
+      proMe: "  XX/1108  24-431-63  21—013 ",
     },
   ],
 };
