@@ -20656,10 +20656,10 @@ export default {
       galerie: [
         {
           fotka: "  386Joch2.jpg",
-          popisek: "  Kříž Františka Jocha(říjen 20001) ",
+          popisek: "  Kříž Františka Jocha(říjen 2021) ",
         },
-        { fotka: "  386Joch3.jpg", popisek: " (říjen 20001) " },
-        { fotka: "  386Joch4.jpg", popisek: " Detail nápisu (říjen 20001) " },
+        { fotka: "  386Joch3.jpg", popisek: " (říjen 2021) " },
+        { fotka: "  386Joch4.jpg", popisek: " Detail nápisu (říjen 2021) " },
       ],
       proMe: " XX/1157  24-314-87  21—101  ",
     },
