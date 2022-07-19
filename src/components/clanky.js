@@ -20720,5 +20720,284 @@ export default {
       ],
       proMe: "  XX/1108  24-431-63  21—013 ",
     },
+    {
+      id: 388,
+      kategorie: "pomnicky",
+      pridano: " 21/06/2022 ",
+      podkategorie: 10,
+      druh: " Sochy v přírodě ",
+      okres: " Brno - město ",
+      obec: "  Brno - Maloměřice  ",
+      jmeno: " Setkání - Cacovice  ",
+      nazev: " Socha Setkání na Cacovickém ostrově  ",
+      fotkaUvod: { fotka: " 388Setkani1.jpg " },
+      kdyVznikl: " 2011 ",
+      popisCesty:
+        " Na Z od centra Maloměřic - ulice Selské, nutno přejít po lávce Svitavu. ",
+      popis:
+        " Dřevěné sousoší dvou stylizovaných postav je vysoké asi čtyři metry. Autorkou skulptury je výtvarnice Barbora Krejčířová, která absolvovala Ateliér sochařství na UMPRUM v Praze u Kurta Gebauera v roce 2013. Na noze jedné postavy bývala malá plechová tabulka s textem.    ",
+      napis: "  SETKÁNÍ  //  Barbora Krejčířová  // …  ",
+      odkazy: [
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=1634 ",
+        },
+      ],
+      pozn:
+        "   Cacovický ostrov je území na Z okraji Maloměřic, oddělené tokem Svitavy a náhonem k Cacovickému mlýnu. Vznikl snad už ve 13. století. Přístupný je dvěma lávkami přes Svitavu a několika mosty ze strany náhonu. Je dlouhý 800 a široký až 300 metrů. V roce 2011 byl jeho povrch rekultivován a přeměněn na rekreační území. Jsou tu hřiště, cyklostezky, prostory pro děti. Bylo tu vysázeno mnoho stromů a instalovány lavičky. Součástí rekultivace se stalo i umístění sochy Setkání na louce asi uprostřed ostrova, nedaleko Cacovického mlýna.  ",
+      naposledObnoveno: " 21.6.2022 ",
+      souradnice: "  49.2249439N, 16.6386331E  ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/lomegeluhu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lomegeluhu  ",
+      galerie: [
+        {
+          fotka: "  388Setkani2.jpg",
+          popisek: " Sousoší Setkání (duben 2021) ",
+        },
+        { fotka: "  388Setkani3.jpg", popisek: " (duben 2021) " },
+        { fotka: "  388Setkani4.jpg", popisek: " (červenec 2015) " },
+        {
+          fotka: "  388Setkani5.jpg",
+          popisek: " Detail tabulky (červenec 2015) ",
+        },
+      ],
+      proMe: " XX/1135  24-324-70  15—071  21—041   ",
+    },
+
+    {
+      id: 389,
+      kategorie: "pomnicky",
+      pridano: " 22/06/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: " Třebíč ",
+      obec: "  Kuroslepy  ",
+      jmeno: " Slavín - Chvojnice  ",
+      nazev: " Trampský slavín na Chvojnici  ",
+      fotkaUvod: { fotka: " 389slavinChvojnice1.jpg " },
+      kdyVznikl: " V sedmdesátých letech. Nejstarší destička má datum 1971. ",
+      popisCesty:
+        " Na pravém břehu Chvojnice, asi 800 metrů od ústí Chvojnice do Oslavky. Na skalní stěně nad modře značenou cestou údolím. ",
+      popis:
+        " Na skále natočené k SV je umístěno 7 (v dubnu 2022) kamenných tabulek s křestními jmény nebo přezdívkami, jedna přizdobena obrysem kytary.   ",
+      naposledObnoveno: " 22.6.2022 ",
+      souradnice: "  49.1409317N, 16.2371922E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dudojazupo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dudojazupo  ",
+      galerie: [
+        {
+          fotka: " 389slavinChvojnice1.jpg",
+          popisek: " Trampský slavín na Chvojnici (duben 2022) ",
+        },
+        { fotka: " 389slavinChvojnice1.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: " 389slavinChvojnice1.jpg",
+          popisek: " Detail jedné desky(duben 2022) ",
+        },
+      ],
+      proMe: " IX/311  24-332-25  22—042  ",
+    },
+
+    {
+      id: 390,
+      kategorie: "pomnicky",
+      pridano: " 22/06/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty ",
+      okres: "  Třebíč ",
+      obec: "  Březník  ",
+      jmeno: " Slavín - pod Lamberkem  ",
+      nazev: " Trampský slavín pod Lamberkem  ",
+      fotkaUvod: { fotka: " 390slavinLamberk5.jpg " },
+      kdyVznikl:
+        " Po roce 1965 tu připevnili první desku - Barona Bídy, v roce 1982 přibyla deska kamaráda Matesa z osady Lamberk. Oba zahynuli na tomto místě. V roce 1994, kdy jsem místo našel, tu byly jen tři desky a březový křížek. V novém tisíciletí desek přibývá, za posledních deset let se jejich počet zdvojnásobil. V dubnu 2022 jich tu bylo 40. ",
+      popisCesty:
+        " Slavín leží na levém břehu Oslavky, těsně u vody. 500 metrů SZ od nové lávky pod Vlčím kopcem. Naproti přes řeku je Kančí louka. Není dobré jít ke Slavínu těsně kolem řeky, lepší je jít po cestě.  ",
+      popis:
+        "  Na skalních stěnkách otočených k Z je umístěno zhruba 40 tabulek různých tvarů a velikostí se jmény, přezdívkami. Některé jsou z leštěného kamene, jiné kovové. Uprostřed území je zaražen v zemi nízký kamenný křížek. Desku tu má i písničkář Wabi Ryvola (1935 - 1995) a trampský historik Jiří Lysák (1926 - 2016). ",
+      napis:
+        " na dvou původních deskách: <br>LADISLAV  NOVOTNÝ //  *  3. 7. 1940 - + 6. 8. 1965 // KAMARÁD // BARON // BÍDA <br>ZAHYNUL  NA  STEZCE… <br>KAMARÁD // M A T E S // 11. 4. 1982 // T. O. LAMBERK  ",
+      odkazy: [
+        {
+          nazev:
+            " Skurovec, Jiří Lucan: Trampská historie řeky Oslavky. 2004, str. 51. ",
+        },
+      ],
+      pozn:
+        "  Slavín na tomto místě vznikl tak trochu nešťastnou náhodou.  Večer 6. srpna 1965 směřoval za kamarády na Kančí louku od vlaku Baron Bída - Ladislav Novotný z Prahy. Neznal pořádně cestu, nevěděl, že musí skály obejít a když shora uviděl ve tmě zář ohně, pustil se svahem rovnou dolů. Zřítil se ze skály a zemřel v místě kde má desku. Stejně dopadl 11. dubna 1982 i kamarád Mates z osady Lamberk. Cestou od brodu minul ve tmě odbočku a když si chtěl zkrátit cestu, spadl ze skal a smrtelně se zranil. K jejich dvěma pamětním deskám se postupně přidávaly další tabulky trampům, kteří zemřeli jinde a jinak.   ",
+      naposledObnoveno: " 22.6.2022 ",
+      souradnice: "  49.1590844N, 16.1641433E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/ceralonuko" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/ceralonuko  ",
+      galerie: [
+        {
+          fotka: "  390slavinLamberk1.jpg",
+          popisek: " Trampský slavín pod Lamberkem (srpen 2018) ",
+        },
+        {
+          fotka: "  390slavinLamberk2.jpg",
+          popisek: " Deska Barona Bídy (duben 2022) ",
+        },
+        {
+          fotka: "  390slavinLamberk3.jpg",
+          popisek: " Deska kamaráda Matesa (duben 2022) ",
+        },
+        { fotka: "  390slavinLamberk4.jpg", popisek: " (duben 2022) " },
+      ],
+      proMe: " X/313  XVII/612  24-331-40 18—082  22—044  ",
+    },
+
+    {
+      id: 391,
+      kategorie: "pomnicky",
+      pridano: " 23/06/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty  ",
+      okres: " Brno - venkov ",
+      obec: "  Újezd u Rosic  ",
+      jmeno: " Camp -  S.T.O. Black fields  ",
+      nazev: " Flek, totem a slavín osady Black fields  ",
+      fotkaUvod: { fotka: " 391Blackfields3.jpg " },
+      kdyVznikl:
+        " Na totemu je datum září 1967, je to i datum založení spojených trampských osad Black fields ",
+      popisCesty:
+        " Flek leží v údolí Újezdského potoka na J od Újezdu u Rosic. Jeho poloha v mapě není vyznačena úmyslně. ",
+      popis:
+        "  Louka u potoka je obklopena lesem. Na jejím kraji stojí pomník - trampský slavín. Je na něm umístěno deset cedulek (říjen 2021) zemřelým kamarádům a kamarádkám. Kus dál stojí možná nejhezčí <strong>totem</strong> v brněnském okolí. Propracovaná řezba na třímetrovém kmenu je natřena tmavohnědě. Dokonalá práce.   ",
+      napis:
+        " zepředu na totemu: 1967<br>zezadu na cedulce: S.T.O. BLACK FIELDS // ZÁŘÍ  1967   ",
+      pozn:
+        "  Osada Black fields byla založena v roce 1967 spojením šesti brněnských osad a postupně se k ní přidaly další. V brněnském hantecu blekfild znamená  městskou čtvrť Černá Pole.  ",
+      naposledObnoveno: " 23.6.2022 ",
+      souradnice: "    ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mopajumade" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/mopajumade  ",
+      galerie: [
+        { fotka: "  391Blackfields1.jpg", popisek: " (únor 2014) " },
+        { fotka: "  391Blackfields2.jpg", popisek: " (únor 2014) " },
+        { fotka: "  391Blackfields4.jpg", popisek: " (říjen 2021) " },
+        { fotka: "  391Blackfields5.jpg", popisek: " (říjen 2021) " },
+      ],
+      proMe: "  XIX/800  24-314-51  14—02.  21—101 ",
+    },
+
+    {
+      id: 392,
+      kategorie: "pomnicky",
+      pridano: " 23/06/2022 ",
+      podkategorie: 13,
+      druh: " Trampské objekty  ",
+      okres: " Brno - venkov ",
+      obec: "  Újezd u Rosic  ",
+      jmeno: " Camp - T. S. Obludárium  ",
+      nazev: " Flek Bubákov trampské skupiny Obludárium  ",
+      fotkaUvod: { fotka: " 392Obludarium1.jpg " },
+      kdyVznikl: " 1991 ",
+      popisCesty:
+        " Flek leží JZ od Újezdu u Rosic v údolí Újezdského potoka.  ",
+      popis:
+        "  Na loučce u potoka je ohniště, totem, vlajkový stožár a kámen se třemi (stav 2021) tabulkami zemřelých osadníků.   ",
+      pozn:
+        "  Partička z Chrlic a Holásek začala v roce 1991 jezdit na společné vandry, osadní flek si našli poblíž Chvojnice. Protože nikdo nechtěl být šerifem, založili trampskou skupinu, která prý šerifa nepotřebuje. Jméno prý vzniklo podle vzhledu obličejů příslušníků kmene.  ",
+      naposledObnoveno: " 23.6.2022 ",
+      souradnice: "    ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mopajumade" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/mopajumade  ",
+      galerie: [
+        {
+          fotka: "  392Obludarium2.jpg",
+          popisek: " Flek T.S. Obludárium (říjen 2021) ",
+        },
+        { fotka: "  392Obludarium3.jpg", popisek: " (únor 2014) " },
+        { fotka: "  392Obludarium4.jpg", popisek: " (říjen 2021) " },
+      ],
+      proMe: " XIX/801  24-314-52  14—02  21—101  ",
+    },
+
+    // {
+    //   id: 393,
+    //   kategorie: "pomnicky",
+    //   pridano: " 07/07/2022 ",
+    //   podkategorie: 9,
+    //   druh: " Ostatní tragédie  ",
+    //   okres: " Brno - město ",
+    //   obec: "  Brno - Obřany  ",
+    //   jmeno: " Harašta, Leopold  ",
+    //   nazev: " Haraštova smrt u Svitavy  ",
+    //   fotkaUvod: { fotka: " 393Harasta2.jpg " },
+    //   kdyVznikl: " po roce 1994 ",
+    //   popisCesty:
+    //     " Pomníček stojí na pravém břehu Svitavy u jezu na říčním kilometru 10,1 těsně u vody. Odbočuje tu Cacovický náhon a vede cesta. Na jezu zanechal nápis streetarter Timo.  ",
+    //   popis:
+    //     "  Na betonovém základu je kamenný kvádr s deskou s těžce čitelným nápisem. Pomníček je vysoký 0,5 metru.  ",
+    //   napis: " LEOPOLD  //  HARAŠTA  // 1941 - 1994 // NEZAPOMENEM  Kamarádi  ",
+    //   pozn:
+    //     "  Ke vzniku pomníčku jsem nic nenašel, údajně to je oběť vysokého stavu vody na jezu. Známější příběh je tragická smrt dvou vodáků v březnu 2005 na jezu na říčním kilometru 9,6 vzdáleném 500 metrů. Tehdy se tu převrátila loď se dvěma mládenci a oba se ve válci pod jezem utopili. Pomníček nemají. Tělo jednoho se našlo hned, druhého vytáhli až po několika dnech. Několik očitých svědků vidělo po nehodě běžet po břehu Svitavy mládence s pádlem v ruce a to zavdalo spekulace, že druhý člen posádky žije a v šoku utekl z místa. Později se to vysvětlilo. Náhodný běžec viděl u břehu Svitavy pádlo a vzal ho s sebou.<br>Splutí dvanáctikilometrového úseku po Svitavě přes Brno do Modřic nelze nikomu doporučit. Jde o nezáživnou jízdu městem po zregulované řece. Všech šest jezů po cestě je nesjízdných a musí se obtížně přenášet.To není za vyšších vodních stavů jednoduché, nad jezy chybí “volej”. Většina vodáků proto končí plavbu v Obřanech u tramvajové smyčky, pokud neskončili už v Bílovicích.  ",
+    //   naposledObnoveno: " 7.7.2022 ",
+    //   souradnice: "  49.2267692N, 16.6415619E  ",
+    //   kodMapa:
+    //     '  <iframe style="border:none" src="https://frame.mapy.cz/s/hodesozuka" width="400" height="280" frameborder="0"></iframe>  ',
+    //   odkazMapa: "  https://frame.mapy.cz/s/hodesozuka  ",
+    //   galerie: [
+    //     {
+    //       fotka: "  393Harasta2.jpg",
+    //       popisek: " Pomníček Haraštovy smrti (duben 2021) ",
+    //     },
+    //     { fotka: "  393Harasta3.jpg", popisek: " Detail desky (duben 2021) " },
+    //     {
+    //       fotka: "  393Harasta1.jpg",
+    //       popisek: " Jez 10,1 km na Svitavě (duben 2021) ",
+    //     },
+    //   ],
+    //   proMe: " XX/1132  24-324-74  21—041  ",
+    // },
+
+    // {
+    //   id: 394,
+    //   kategorie: "pomnicky",
+    //   pridano: " 10/07/2022 ",
+    //   podkategorie: 9,
+    //   druh: " Ostatní tragédie  ",
+    //   okres: " Blansko ",
+    //   obec: "  Jedovnice  ",
+    //   jmeno: "  Tomáš 1990  ",
+    //   nazev: " Tomášův křížek u Dymáku  ",
+    //   fotkaUvod: { fotka: "  394Tomas3.jpg " },
+    //   kdyVznikl: " v roce 1990 ",
+    //   popisCesty:
+    //     " Křížek stojí vedle dvou tújí na břehu rybníku Dymák v Jedovnicích.  ",
+    //   popis:
+    //     "  Dřevěný křížek jetelového typu je vysoký 0,8 metru. Je obklopen bílými kameny. Na ramenech kříže je vyřezán stručný nápis.  ",
+    //   napis: "  Tomáš   1990 - 2015  ",
+    //   odkazy: [
+    //     {
+    //       nazev: " Idnes ",
+    //       adresa:
+    //         " https://www.idnes.cz/brno/zpravy/utonuly-muz-v-jedovnickem-rybnice.A150120_131055_brno-zpravy_kol ",
+    //     },
+    //   ],
+    //   pozn:
+    //     "  V noci ze soboty na neděli 18. ledna 2015 popíjel čtyřiadvacetiletý mládenec v blízké restauraci. Při návratu domů spadl pod vlivem alkoholu do rybníku Dymák a utopil se. Ráno ho hledali a našli příbuzní. Policie po prošetření konstatovala nešťastnou událost a případ odložila.  ",
+    //   naposledObnoveno: " 10.7.2022 ",
+    //   souradnice: " 49.3385597N, 16.7492931E ",
+    //   kodMapa:
+    //     ' <iframe style="border:none" src="https://frame.mapy.cz/s/cetonaheke" width="400" height="280" frameborder="0"></iframe>  ',
+    //   odkazMapa: "  https://frame.mapy.cz/s/cetonaheke  ",
+    //   galerie: [
+    //     { fotka: "  394Tomas1.jpg", popisek: " (červenec 2017) " },
+    //     {
+    //       fotka: "  394Tomas2.jpg",
+    //       popisek: " Tomášův křížek u Dymáku (červenec 2017) ",
+    //     },
+    //     { fotka: "  394Tomas3.jpg", popisek: " (duben 2022) " },
+    //   ],
+    //   proMe: " XX/944  24-411-128  17—071   22—043  ",
+    // },
   ],
 };
