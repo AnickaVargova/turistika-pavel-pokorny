@@ -20792,9 +20792,9 @@ export default {
           fotka: " 389slavinChvojnice1.jpg",
           popisek: " Trampský slavín na Chvojnici (duben 2022) ",
         },
-        { fotka: " 389slavinChvojnice1.jpg", popisek: " (duben 2022) " },
+        { fotka: " 389slavinChvojnice2.jpg", popisek: " (duben 2022) " },
         {
-          fotka: " 389slavinChvojnice1.jpg",
+          fotka: " 389slavinChvojnice3.jpg",
           popisek: " Detail jedné desky(duben 2022) ",
         },
       ],
@@ -20819,7 +20819,7 @@ export default {
       popis:
         "  Na skalních stěnkách otočených k Z je umístěno zhruba 40 tabulek různých tvarů a velikostí se jmény, přezdívkami. Některé jsou z leštěného kamene, jiné kovové. Uprostřed území je zaražen v zemi nízký kamenný křížek. Desku tu má i písničkář Wabi Ryvola (1935 - 1995) a trampský historik Jiří Lysák (1926 - 2016). ",
       napis:
-        " na dvou původních deskách: <br>LADISLAV  NOVOTNÝ //  *  3. 7. 1940 - + 6. 8. 1965 // KAMARÁD // BARON // BÍDA <br>ZAHYNUL  NA  STEZCE… <br>KAMARÁD // M A T E S // 11. 4. 1982 // T. O. LAMBERK  ",
+        " na dvou původních deskách: <br>LADISLAV  NOVOTNÝ //  *  3. 7. 1940 - + 6. 8. 1965 // KAMARÁD // BARON // BÍDA <br>ZAHYNUL  NA  STEZCE…  // KAMARÁD // M A T E S // 11. 4. 1982 // T. O. LAMBERK  ",
       odkazy: [
         {
           nazev:
@@ -20920,84 +20920,260 @@ export default {
       proMe: " XIX/801  24-314-52  14—02  21—101  ",
     },
 
-    // {
-    //   id: 393,
-    //   kategorie: "pomnicky",
-    //   pridano: " 07/07/2022 ",
-    //   podkategorie: 9,
-    //   druh: " Ostatní tragédie  ",
-    //   okres: " Brno - město ",
-    //   obec: "  Brno - Obřany  ",
-    //   jmeno: " Harašta, Leopold  ",
-    //   nazev: " Haraštova smrt u Svitavy  ",
-    //   fotkaUvod: { fotka: " 393Harasta2.jpg " },
-    //   kdyVznikl: " po roce 1994 ",
-    //   popisCesty:
-    //     " Pomníček stojí na pravém břehu Svitavy u jezu na říčním kilometru 10,1 těsně u vody. Odbočuje tu Cacovický náhon a vede cesta. Na jezu zanechal nápis streetarter Timo.  ",
-    //   popis:
-    //     "  Na betonovém základu je kamenný kvádr s deskou s těžce čitelným nápisem. Pomníček je vysoký 0,5 metru.  ",
-    //   napis: " LEOPOLD  //  HARAŠTA  // 1941 - 1994 // NEZAPOMENEM  Kamarádi  ",
-    //   pozn:
-    //     "  Ke vzniku pomníčku jsem nic nenašel, údajně to je oběť vysokého stavu vody na jezu. Známější příběh je tragická smrt dvou vodáků v březnu 2005 na jezu na říčním kilometru 9,6 vzdáleném 500 metrů. Tehdy se tu převrátila loď se dvěma mládenci a oba se ve válci pod jezem utopili. Pomníček nemají. Tělo jednoho se našlo hned, druhého vytáhli až po několika dnech. Několik očitých svědků vidělo po nehodě běžet po břehu Svitavy mládence s pádlem v ruce a to zavdalo spekulace, že druhý člen posádky žije a v šoku utekl z místa. Později se to vysvětlilo. Náhodný běžec viděl u břehu Svitavy pádlo a vzal ho s sebou.<br>Splutí dvanáctikilometrového úseku po Svitavě přes Brno do Modřic nelze nikomu doporučit. Jde o nezáživnou jízdu městem po zregulované řece. Všech šest jezů po cestě je nesjízdných a musí se obtížně přenášet.To není za vyšších vodních stavů jednoduché, nad jezy chybí “volej”. Většina vodáků proto končí plavbu v Obřanech u tramvajové smyčky, pokud neskončili už v Bílovicích.  ",
-    //   naposledObnoveno: " 7.7.2022 ",
-    //   souradnice: "  49.2267692N, 16.6415619E  ",
-    //   kodMapa:
-    //     '  <iframe style="border:none" src="https://frame.mapy.cz/s/hodesozuka" width="400" height="280" frameborder="0"></iframe>  ',
-    //   odkazMapa: "  https://frame.mapy.cz/s/hodesozuka  ",
-    //   galerie: [
-    //     {
-    //       fotka: "  393Harasta2.jpg",
-    //       popisek: " Pomníček Haraštovy smrti (duben 2021) ",
-    //     },
-    //     { fotka: "  393Harasta3.jpg", popisek: " Detail desky (duben 2021) " },
-    //     {
-    //       fotka: "  393Harasta1.jpg",
-    //       popisek: " Jez 10,1 km na Svitavě (duben 2021) ",
-    //     },
-    //   ],
-    //   proMe: " XX/1132  24-324-74  21—041  ",
-    // },
+    {
+      id: 393,
+      kategorie: "pomnicky",
+      pridano: " 07/07/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Obřany  ",
+      jmeno: " Harašta, Leopold  ",
+      nazev: " Haraštova smrt u Svitavy  ",
+      fotkaUvod: { fotka: " 393Harasta2.jpg " },
+      kdyVznikl: " po roce 1994 ",
+      popisCesty:
+        " Pomníček stojí na pravém břehu Svitavy u jezu na říčním kilometru 10,1 těsně u vody. Odbočuje tu Cacovický náhon a vede cesta. Na jezu zanechal nápis streetarter Timo.  ",
+      popis:
+        "  Na betonovém základu je kamenný kvádr s deskou s těžce čitelným nápisem. Pomníček je vysoký 0,5 metru.  ",
+      napis: " LEOPOLD  //  HARAŠTA  // 1941 - 1994 // NEZAPOMENEM  Kamarádi  ",
+      pozn:
+        "  Ke vzniku pomníčku jsem nic nenašel, údajně to je oběť vysokého stavu vody na jezu. Známější příběh je tragická smrt dvou vodáků v březnu 2005 na jezu na říčním kilometru 9,6 vzdáleném 500 metrů. Tehdy se tu převrátila loď se dvěma mládenci a oba se ve válci pod jezem utopili. Pomníček nemají. Tělo jednoho se našlo hned, druhého vytáhli až po několika dnech. Několik očitých svědků vidělo po nehodě běžet po břehu Svitavy mládence s pádlem v ruce a to zavdalo spekulace, že druhý člen posádky žije a v šoku utekl z místa. Později se to vysvětlilo. Náhodný běžec viděl u břehu Svitavy pádlo a vzal ho s sebou.<br>Splutí dvanáctikilometrového úseku po Svitavě přes Brno do Modřic nelze nikomu doporučit. Jde o nezáživnou jízdu městem po zregulované řece. Všech šest jezů po cestě je nesjízdných a musí se obtížně přenášet.To není za vyšších vodních stavů jednoduché, nad jezy chybí “volej”. Většina vodáků proto končí plavbu v Obřanech u tramvajové smyčky, pokud neskončili už v Bílovicích.  ",
+      naposledObnoveno: " 7.7.2022 ",
+      souradnice: "  49.2267692N, 16.6415619E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hodesozuka" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hodesozuka  ",
+      galerie: [
+        {
+          fotka: "  393Harasta2.jpg",
+          popisek: " Pomníček Haraštovy smrti (duben 2021) ",
+        },
+        { fotka: "  393Harasta3.jpg", popisek: " Detail desky (duben 2021) " },
+        {
+          fotka: "  393Harasta1.jpg",
+          popisek: " Jez 10,1 km na Svitavě (duben 2021) ",
+        },
+      ],
+      proMe: " XX/1132  24-324-74  21—041  ",
+    },
 
-    // {
-    //   id: 394,
-    //   kategorie: "pomnicky",
-    //   pridano: " 10/07/2022 ",
-    //   podkategorie: 9,
-    //   druh: " Ostatní tragédie  ",
-    //   okres: " Blansko ",
-    //   obec: "  Jedovnice  ",
-    //   jmeno: "  Tomáš 1990  ",
-    //   nazev: " Tomášův křížek u Dymáku  ",
-    //   fotkaUvod: { fotka: "  394Tomas3.jpg " },
-    //   kdyVznikl: " v roce 1990 ",
-    //   popisCesty:
-    //     " Křížek stojí vedle dvou tújí na břehu rybníku Dymák v Jedovnicích.  ",
-    //   popis:
-    //     "  Dřevěný křížek jetelového typu je vysoký 0,8 metru. Je obklopen bílými kameny. Na ramenech kříže je vyřezán stručný nápis.  ",
-    //   napis: "  Tomáš   1990 - 2015  ",
-    //   odkazy: [
-    //     {
-    //       nazev: " Idnes ",
-    //       adresa:
-    //         " https://www.idnes.cz/brno/zpravy/utonuly-muz-v-jedovnickem-rybnice.A150120_131055_brno-zpravy_kol ",
-    //     },
-    //   ],
-    //   pozn:
-    //     "  V noci ze soboty na neděli 18. ledna 2015 popíjel čtyřiadvacetiletý mládenec v blízké restauraci. Při návratu domů spadl pod vlivem alkoholu do rybníku Dymák a utopil se. Ráno ho hledali a našli příbuzní. Policie po prošetření konstatovala nešťastnou událost a případ odložila.  ",
-    //   naposledObnoveno: " 10.7.2022 ",
-    //   souradnice: " 49.3385597N, 16.7492931E ",
-    //   kodMapa:
-    //     ' <iframe style="border:none" src="https://frame.mapy.cz/s/cetonaheke" width="400" height="280" frameborder="0"></iframe>  ',
-    //   odkazMapa: "  https://frame.mapy.cz/s/cetonaheke  ",
-    //   galerie: [
-    //     { fotka: "  394Tomas1.jpg", popisek: " (červenec 2017) " },
-    //     {
-    //       fotka: "  394Tomas2.jpg",
-    //       popisek: " Tomášův křížek u Dymáku (červenec 2017) ",
-    //     },
-    //     { fotka: "  394Tomas3.jpg", popisek: " (duben 2022) " },
-    //   ],
-    //   proMe: " XX/944  24-411-128  17—071   22—043  ",
-    // },
+    {
+      id: 394,
+      kategorie: "pomnicky",
+      pridano: " 10/07/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Blansko ",
+      obec: "  Jedovnice  ",
+      jmeno: "  Tomáš 1990  ",
+      nazev: " Tomášův křížek u Dymáku  ",
+      fotkaUvod: { fotka: "  394Tomas3.jpg " },
+      kdyVznikl: " v roce 1990 ",
+      popisCesty:
+        " Křížek stojí vedle dvou tújí na břehu rybníku Dymák v Jedovnicích.  ",
+      popis:
+        "  Dřevěný křížek jetelového typu je vysoký 0,8 metru. Je obklopen bílými kameny. Na ramenech kříže je vyřezán stručný nápis.  ",
+      napis: "  Tomáš   1990 - 2015  ",
+      odkazy: [
+        {
+          nazev: " Idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/zpravy/utonuly-muz-v-jedovnickem-rybnice.A150120_131055_brno-zpravy_kol ",
+        },
+      ],
+      pozn:
+        "  V noci ze soboty na neděli 18. ledna 2015 popíjel čtyřiadvacetiletý mládenec v blízké restauraci. Při návratu domů spadl pod vlivem alkoholu do rybníku Dymák a utopil se. Ráno ho hledali a našli příbuzní. Policie po prošetření konstatovala nešťastnou událost a případ odložila.  ",
+      naposledObnoveno: " 10.7.2022 ",
+      souradnice: " 49.3385597N, 16.7492931E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cetonaheke" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cetonaheke  ",
+      galerie: [
+        { fotka: "  394Tomas1.jpg", popisek: " (červenec 2017) " },
+        {
+          fotka: "  394Tomas2.jpg",
+          popisek: " Tomášův křížek u Dymáku (červenec 2017) ",
+        },
+        { fotka: "  394Tomas3.jpg", popisek: " (duben 2022) " },
+      ],
+      proMe: " XX/944  24-411-128  17—071   22—043  ",
+    },
+    {
+      id: 394,
+      kategorie: "pomnicky",
+      pridano: " 10/07/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Blansko ",
+      obec: "  Jedovnice  ",
+      jmeno: "  Tomáš 1990  ",
+      nazev: " Tomášův křížek u Dymáku  ",
+      fotkaUvod: { fotka: "  394Tomas3.jpg " },
+      kdyVznikl: " v roce 1990 ",
+      popisCesty:
+        " Křížek stojí vedle dvou tújí na břehu rybníku Dymák v Jedovnicích.  ",
+      popis:
+        "  Dřevěný křížek jetelového typu je vysoký 0,8 metru. Je obklopen bílými kameny. Na ramenech kříže je vyřezán stručný nápis.  ",
+      napis: "  Tomáš   1990 - 2015  ",
+      odkazy: [
+        {
+          nazev: " Idnes ",
+          adresa:
+            " https://www.idnes.cz/brno/zpravy/utonuly-muz-v-jedovnickem-rybnice.A150120_131055_brno-zpravy_kol ",
+        },
+      ],
+      pozn:
+        "  V noci ze soboty na neděli 18. ledna 2015 popíjel čtyřiadvacetiletý mládenec v blízké restauraci. Při návratu domů spadl pod vlivem alkoholu do rybníku Dymák a utopil se. Ráno ho hledali a našli příbuzní. Policie po prošetření konstatovala nešťastnou událost a případ odložila.  ",
+      naposledObnoveno: " 10.7.2022 ",
+      souradnice: " 49.3385597N, 16.7492931E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cetonaheke" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cetonaheke  ",
+      galerie: [
+        { fotka: "  394Tomas1.jpg", popisek: " (červenec 2017) " },
+        {
+          fotka: "  394Tomas2.jpg",
+          popisek: " Tomášův křížek u Dymáku (červenec 2017) ",
+        },
+        { fotka: "  394Tomas3.jpg", popisek: " (duben 2022) " },
+      ],
+      proMe: " XX/944  24-411-128  17—071   22—043  ",
+    },
+    {
+      id: 395,
+      kategorie: "pomnicky",
+      pridano: " 11/07/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Blansko ",
+      obec: "  Lažany  ",
+      jmeno: " Mičánek, František  ",
+      nazev: " Neštěstí Františka Mičánka u Újezdu  ",
+      fotkaUvod: { fotka: " 395Micanek1.jpg " },
+      kdyVznikl: " po roce 1915 ",
+      popisCesty:
+        " Pomníček se nachází u silnice z Lažan do Újezdu, po její JZ straně, u mostku pod silnicí. Je velmi nenápadný.  ",
+      popis:
+        "  Kamenný pomníček ve tvaru trojlístku je vysoký půl metru. Na čelní straně je místo po oválné fotografii a skoro nečitelný text.  ",
+      napis:
+        " Na tomto místě byl // FRANTIŠEK // MIČÁNEK // 3. 5. 1915 // neštěstím postihnut  ",
+      naposledObnoveno: " 11.7.2022 ",
+      souradnice: "  49.3674614N, 16.5496239E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nujamasena" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: " https://frame.mapy.cz/s/nujamasena   ",
+      galerie: [
+        {
+          fotka: "  395Micanek1.jpg",
+          popisek: " Neštěstí Františka Mičánka (červenec 2021) ",
+        },
+        {
+          fotka: "  395Micanek2.jpg",
+          popisek: " Detail nápisu (červenec 2021) ",
+        },
+      ],
+      proMe: " XIIIN/429  24-144-17  21—071  ",
+    },
+    {
+      id: 396,
+      kategorie: "pomnicky",
+      pridano: " 11/07/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Blansko ",
+      obec: "  Bukovinka  ",
+      jmeno: " Tři panny  ",
+      nazev: " Smrt tří panen z Vyškova  ",
+      fotkaUvod: { fotka: " 396Tripanny1.jpg " },
+      kdyVznikl:
+        " Těžko zjistit. Podle pověsti událost nastala roku 1711, obraz byl obnoven  1831. Pravděpodobné je, že nějaký obrázek tu byl už na konci 18. století. ",
+      popisCesty:
+        " U staré cesty z Bukovinky do Račic, 800 metrů V od kostela v Bukovince. Silnice jde rovnoběžně se zaniklou cestou a je vzdálená asi 60 metrů. Dříve stál obraz ve vysokém lese a byl zdaleka vidět. Nyní (stav 2022) je schován v nepěstěném mladém lese a je těžké ho spatřit.  ",
+      popis:
+        "  Na dřevěném sloupu je umístěn v dřevěném rámu metr vysoký obraz s náboženským výjevem zjevení Křtinské Panny Marie. Shora obraz kryje plechová stříška s křížkem. Před třiceti lety byly figury na obraze ještě docela zřetelné a obraz byl krytý sklem. Dole je delší šestiřádkový text. Z něho vyplývá, že obraz byl opravován v letech 1831, 1889, 1894, 1913, 1923, znovu zřízen 1941 a naposled opraven 1946 vyškovskými poutníky. Obraz je ve špatném stavu, nutně by potřeboval opravu.  ",
+      napis:
+        " JAK  POVĚST  JDE,  CHTĚLY  V  ROCE  1711  TŘI  PANNY  Z  VYŠKOVA  UTÉCI  PŘED  MOREM  DO  VRANOVA.  NA  TOMTO  MÍSTĚ  JE  VŠAK  ZASTIHLA  SMRT. …  ",
+      odkazy: [
+        {
+          nazev: " Vesmír ",
+          adresa:
+            " https://vesmir.cz/cz/casopis/archiv-casopisu/1995/cislo-9/historie-morovych-epidemii.html ",
+        },
+      ],
+      pozn:
+        "  Poslední morová epidemie zuřila v českých zemích v letech 1713 - 1715.  ",
+      naposledObnoveno: " 11.7.2022 ",
+      souradnice: "  49.2924400N, 16.8158272E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fecagakupo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/fecagakupo  ",
+      galerie: [
+        {
+          fotka: " 396Tripanny1.jpg",
+          popisek: "Obraz tří panen z Vyškova (leden 2022) ",
+        },
+        { fotka: " 396Tripanny3.jpg", popisek: " Detail nápisu (leden 2022) " },
+        { fotka: " 396Tripanny4.jpg", popisek: " Fotka z ledna 1991 " },
+        { fotka: " 396Tripanny2.jpg", popisek: " (duben 2011) " },
+      ],
+      proMe: " VI/194  24-411-11  22—017  skenP2 11—04  ",
+    },
+    {
+      id: 397,
+      kategorie: "pomnicky",
+      pridano: " 12/07/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Žebětín  ",
+      jmeno: " Drion - Stollová  ",
+      nazev: " Pomník sajdkáristům Jacku Drionovi a Inge Stollové  ",
+      fotkaUvod: { fotka: " 397DrionStollová1.jpg " },
+      kdyVznikl:
+        " Hned po nehodě se na místě objevily dva primitivní březové křížky, které rychle vzal čas. Dalších skoro padesát let bylo místo bez připomínky. V srpnu 2008 se tu objevil malý bíle natřený dřevěný křížek s tabulkou, později vystřídán metr vysokým křížem se stejnou tabulkou. V létě roku 2013 byl nahrazen dnešním kamenným pomníkem, který pořídila firma Větrník s hlavním sponzorem panem Jiřím Řezáčem.   ",
+      popisCesty:
+        " Pomník stojí u silnice z Kohoutovic do Žebětína, asi sto metrů od křižovatky se Starou dálnicí, směrem k Žebětínu. Zdá se, že se nehoda udála blíže k Žebětínu, tam, kde dnešní silnice mírnou zátočinou vjíždí do lesa. ",
+      popis:
+        " Na betonovém soklu je připevněna kamenná deska s textem. Nad ní je nepravidelná pětiúhelníková plotna se schematickým vyobrazením trasy okruhu v letech 1949 - 1963. Uprostřed ní je fotka obou závodníků na společenské akci.    ",
+      napis:
+        " SAJDKÁROVÁ  POSÁDKA - 8. ROČNÍK  VELKÉ  CENY  ČSR  1958 // JACQUES  DRION //  * 12. 2. 1921 PAŘÍŽ // + 25. 8. 1958 BRNO // 9. OBĚŤ  OKRUHU // 2. SAJDKÁROVÁ  OBĚŤ //<br>INGE  STOLLOVÁ  //  * 11. 2. 1930 BREINIG (D) // + 24. 8. 1958 BRNO // 8. OBĚŤ  OKRUHU // 1. SAJDKÁROVÁ  OBĚŤ // INGE BYLA JEDINÁ ŽENSKÁ  OBĚŤ  MASARYKOVA  OKRUHU // …    ",
+      odkazy: [
+        {
+          nazev: " Brnožurnál ",
+          adresa:
+            " https://www.brnozurnal.cz/rozhovory-vzpominky-medailonky/vzpominka-na-inge-stollovou-a-jacquese-driona/ ",
+        },
+        {
+          nazev: " Encyklopedie Brna ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=923 ",
+        },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  <strong>Ingeborg Stollová</strong>  pocházela ze závodnické rodiny a už v 17 letech závodila v sajdkáře s otcem. Jako první žena se účastnila závodu Tourist trophy na ostrově Man. Provdala se za sajdkáristu Grunwalda, mistra světa, který ale po těžkém zranění ukončil závodní kariéru. Ten svoji manželku doprovázel na závody a v Brně byl přítomen. V těchto letech byl motoristický sport ryze mužskou záležitostí. Den před osudným závodem byli mistři řídítek přijati předsedou národního výboru na Nové radnici. Zachovaly se fotografie, kde Inge září ve světlých šatech, je v centru pozornosti a v pánské společnosti rozdává úsměvy na všechny strany. Další den byla po smrti.<br>Na závody v neděli 24. srpna 1958 se přišlo podívat 200 tisíc diváků. Také proto, že poprvé v Brně jely kromě motocyklů i sajdkáry. Návštěvníky udivovaly akrobatické kousky spolujezdců na přívěsných vozících, s rodiči jsem to sledoval v zatáčce za Novým Lískovcem. Měli jsme tam tribunu - žebřík dvoják, já seděl na špičce a bylo mi deset let.  Favoritem byl Švýcar Florian Camathias, který ale přijel bez zraněného spolujezdce. Až v depu přesvědčil německého závodníka Kassnera, aby s ním jel. Závod byl vypsán na pět kol, mezinárodního závodu se zúčastnilo 9 posádek, dalších 11 sajdkár bylo českých v národním závodě. Hned po startu se ujal vedení Camathias. K němu se zezadu přibližoval francouzsko-německý pár. V předposledním kole za Žebětínem v táhlé zátočině jejich stroj ve vysoké rychlosti zachytil o patníky a vyletěl z trati. Inge byla mrtva na místě, Jacqese odvezli těžce zraněného do nemocnice, kde zemřel další den. Těžko spekulovat nad příčinou hrozné havárie.   ",
+      naposledObnoveno: " 12.7.2022 ",
+      souradnice: "  49.2018228N, 16.5159650E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/fojesuvuho" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/fojesuvuho  ",
+      galerie: [
+        {
+          fotka: " 397DrionStollová2.jpg",
+          popisek: " Křížek Drion-Stollová (červenec 2013) ",
+        },
+        {
+          fotka: " 397DrionStollová3.jpg",
+          popisek: " Pomník Driona a Stollové (duben 2015) ",
+        },
+        {
+          fotka: " 397DrionStollová4.jpg",
+          popisek: " Detail nápisu (duben 2015) ",
+        },
+      ],
+      proMe: " XVIII/780  XX/1223  24-324-48  13  15—043 ",
+    },
   ],
 };
