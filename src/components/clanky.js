@@ -21000,47 +21000,6 @@ export default {
       proMe: " XX/944  24-411-128  17—071   22—043  ",
     },
     {
-      id: 394,
-      kategorie: "pomnicky",
-      pridano: " 10/07/2022 ",
-      podkategorie: 9,
-      druh: " Ostatní tragédie  ",
-      okres: " Blansko ",
-      obec: "  Jedovnice  ",
-      jmeno: "  Tomáš 1990  ",
-      nazev: " Tomášův křížek u Dymáku  ",
-      fotkaUvod: { fotka: "  394Tomas3.jpg " },
-      kdyVznikl: " v roce 1990 ",
-      popisCesty:
-        " Křížek stojí vedle dvou tújí na břehu rybníku Dymák v Jedovnicích.  ",
-      popis:
-        "  Dřevěný křížek jetelového typu je vysoký 0,8 metru. Je obklopen bílými kameny. Na ramenech kříže je vyřezán stručný nápis.  ",
-      napis: "  Tomáš   1990 - 2015  ",
-      odkazy: [
-        {
-          nazev: " Idnes ",
-          adresa:
-            " https://www.idnes.cz/brno/zpravy/utonuly-muz-v-jedovnickem-rybnice.A150120_131055_brno-zpravy_kol ",
-        },
-      ],
-      pozn:
-        "  V noci ze soboty na neděli 18. ledna 2015 popíjel čtyřiadvacetiletý mládenec v blízké restauraci. Při návratu domů spadl pod vlivem alkoholu do rybníku Dymák a utopil se. Ráno ho hledali a našli příbuzní. Policie po prošetření konstatovala nešťastnou událost a případ odložila.  ",
-      naposledObnoveno: " 10.7.2022 ",
-      souradnice: " 49.3385597N, 16.7492931E ",
-      kodMapa:
-        ' <iframe style="border:none" src="https://frame.mapy.cz/s/cetonaheke" width="400" height="280" frameborder="0"></iframe>  ',
-      odkazMapa: "  https://frame.mapy.cz/s/cetonaheke  ",
-      galerie: [
-        { fotka: "  394Tomas1.jpg", popisek: " (červenec 2017) " },
-        {
-          fotka: "  394Tomas2.jpg",
-          popisek: " Tomášův křížek u Dymáku (červenec 2017) ",
-        },
-        { fotka: "  394Tomas3.jpg", popisek: " (duben 2022) " },
-      ],
-      proMe: " XX/944  24-411-128  17—071   22—043  ",
-    },
-    {
       id: 395,
       kategorie: "pomnicky",
       pridano: " 11/07/2022 ",
@@ -21174,6 +21133,198 @@ export default {
         },
       ],
       proMe: " XVIII/780  XX/1223  24-324-48  13  15—043 ",
+    },
+    {
+      id: 398,
+      kategorie: "pomnicky",
+      pridano: " 24/07/2022 ",
+      podkategorie: 2,
+      druh: " Dopravní tragédie  ",
+      okres: "  Vyškov  ",
+      obec: " Velešovice  ",
+      jmeno: " Kousal, Zdeněk  ",
+      nazev: " Deska Zdeňka Kousala u Staré pošty.  ",
+      fotkaUvod: { fotka: " 398Kousal4.jpg " },
+      kdyVznikl: " po 1995 ",
+      popisCesty:
+        " Na J straně státní silnice z Rousínova na Starou poštu u mostku. 400 metrů V od Staré pošty.  ",
+      popis:
+        " Do betonového základu je vsazena tmavá nepravidelná kamenná deska, vysoká 0,4 metru. Směrem k silnici je leštěná a je na ní text a fotka mladého muže.   ",
+      napis:
+        " ZDE  // TRAGICKY  ZAHYNUL //  ZDENĚK  //  KOUSAL //  * 24. 12. 70  + 12. 11. 1995 //   ",
+      pozn: "  Oběť dopravní nehody.  ",
+      naposledObnoveno: " 24.7.2022 ",
+      souradnice: "  49.1860314N, 16.8321114E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/lasecevetu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/lasecevetu  ",
+      galerie: [
+        {
+          fotka: "  398Kousal1.jpg",
+          popisek: "  Deska Zdeňka Kousala (prosinec 2021) ",
+        },
+        { fotka: "  398Kousal2.jpg", popisek: " (prosinec 2021) " },
+        {
+          fotka: "  398Kousal3.jpg",
+          popisek: "  Detail nápisu (prosinec 2021) ",
+        },
+      ],
+      proMe: " XX/1165  24-431-66  21—124  ",
+    },
+    {
+      id: 399,
+      kategorie: "pomnicky",
+      pridano: " 24/07/2022 ",
+      podkategorie: 2,
+      druh: " Dopravní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: "  Jilmoví  ",
+      jmeno: " Jaroš, Petr  ",
+      nazev: " Pomník Petra Jaroše u Huslí  ",
+      fotkaUvod: { fotka: " 399Jaros1.jpg " },
+      kdyVznikl: " po 1995 ",
+      popisCesty:
+        " Pomník stojí na JZ straně frekventované silnice mezi Kaly a Litavou, 400 metrů J od osady Husle.  ",
+      popis:
+        "  Na soklu z umělého kamene je leštěná tmavá deska s oválnou fotografií mládence a nápisem. Metr vysoký pomník stojí před tújemi.  ",
+      napis:
+        "  PETR  //  JAROŠ  //  * 9. 10. 1975  + 2. 6. 1996 //  VZPOMÍNAJÍ  //  KAMARÁDI.  ",
+      pozn: "  Oběť dopravní nehody.  ",
+      naposledObnoveno: " 24.7.2022 ",
+      souradnice: "  49.3911739N, 16.3331347E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/novehuramu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/novehuramu  ",
+      galerie: [
+        {
+          fotka: "  399Jaros2.jpg",
+          popisek: " Pomník Petra Jaroše (říjen 2021) ",
+        },
+        { fotka: "  399Jaros3.jpg", popisek: " Detail nápisu (říjen 2021) " },
+        { fotka: "  399Jaros4.jpg", popisek: " (říjen 2021) " },
+      ],
+      proMe: " XX/1159  24-143-52  21—103  ",
+    },
+    {
+      id: 400,
+      kategorie: "pomnicky",
+      pridano: " 25/07/2022 ",
+      podkategorie: 2,
+      druh: " Dopravní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: "  Vojkovice  ",
+      jmeno: " Neterder, Petr  ",
+      nazev: " Deska Petra Neterdera u Vojkovic.  ",
+      fotkaUvod: { fotka: "  400Neterder3.jpg " },
+      kdyVznikl: " po 2013 ",
+      popisCesty:
+        " Deska stojí na JV straně státní silnice z Rajhradu do Pohořelic, 3,1 kilometru SZ od kostela ve Vojkovicích.   ",
+      popis:
+        "  Tmavá kamenná nepravidelná deska je vsazena do betonového základu. Na straně k silnici je vyleštěna a je na ní text zlatými písmeny.  ",
+      napis:
+        "  PETR  //  NETERDER  // ZDE  TRAGICKY  ZAHYNUL // DNE  5. 6. 2013 ",
+      pozn:
+        "  Sedmapadesátiletý řidič červené Felicie vyjel z neznámých důvodů mimo silnici na rovném úseku a narazil do stromu. Hasiči ho vyprostili hydraulickým zařízením, během zásahu přestal dýchat. Záchranáři ho převezli do nemocnice, kde zemřel.  ",
+      naposledObnoveno: " 25.7.2022 ",
+      souradnice: "  49.0709572N, 16.5762072E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/dodekocalu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/dodekocalu  ",
+      galerie: [
+        {
+          fotka: "  400Neterder1.jpg",
+          popisek: " Deska Petra Neterdera (září 2020) ",
+        },
+        { fotka: "  400Neterder2.jpg", popisek: " (září 2020) " },
+      ],
+      proMe: " XX/1085  24-344-54  20—093  ",
+    },
+    {
+      id: 401,
+      kategorie: "pomnicky",
+      pridano: " 25/07/2022 ",
+      podkategorie: 2,
+      druh: " Dopravní tragédie  ",
+      okres: "  Břeclav  ",
+      obec: "  Hustopeče  ",
+      jmeno: " Serfözö, Josef  ",
+      nazev: " Tři pomníčky Pepovi Serfözöovi u nádraží v Šakvicích.  ",
+      fotkaUvod: { fotka: " 401Serfozo3.jpg " },
+      kdyVznikl: "  po roce 1998 ",
+      popisCesty:
+        " Pomníčky leží na S kraji průmyslové zóny u šakvického nádraží, na rohu odbočky do firmy.  ",
+      popis:
+        "  Pod stříbrným smrkem jsou tři připomínky motorkářské nehody. Vlevo tmavá deska na soklu z umělého kamene s delším textem. Uprostřed světlý přírodní kámen s hlazenou přední stranou, na ní je fotka motorkáře a text. Vpravo tmavý žulový hranol se slovem VZPOMÍNÁME.  ",
+      napis:
+        " vlevo: NA  VĚČNOU  VZPOMÍNKU // PEPOVI // SERFÖZÖOVI // KTERÝ  ZDE  TRAGICKY  ZAHYNUL  2. ČERVENCE 1998. // ….uprostřed: BUDEŠ S  NÁMI // JEZDIT  DÁL // MOTORKÁŘI   ",
+      pozn: "  Oběť dopravní nehody na motorce.  ",
+      naposledObnoveno: " 25.7.2022 ",
+      souradnice: "  48.9168464N, 16.7066539E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/gufobuluze" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/gufobuluze  ",
+      galerie: [
+        {
+          fotka: " 401Serfozo4.jpg",
+          popisek: "  Tři pomníčky Pepovi Serfözöovi (únor 2020) ",
+        },
+        {
+          fotka: " 401Serfozo1.jpg",
+          popisek: " Detail levého pomníčku (únor 2020) ",
+        },
+        {
+          fotka: " 401Serfozo2.jpg",
+          popisek: " Detail středního pomníčku(únor 2020) ",
+        },
+      ],
+      proMe: " XX/1051  34-213-17  20—021  ",
+    },
+    {
+      id: 402,
+      kategorie: "pomnicky",
+      pridano: " 26/07/2022 ",
+      podkategorie: 2,
+      druh: " Dopravní tragédie  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Kohoutovice  ",
+      jmeno: " Moravec, Vlastimil  ",
+      nazev: " Pamětní deska cyklisty Vlasty Moravce v Libušině údolí.  ",
+      fotkaUvod: { fotka: "  402Moravec2.jpg " },
+      kdyVznikl: " po 1986 ",
+      popisCesty:
+        " V dolní části Libušina údolí u křižovatky s vedlejší ulicí.  ",
+      popis:
+        "  Na soklu je šikmo umístěná leštěná deska 0,7 x 0,7 metru s textem. ",
+      napis:
+        " NA  TOMTO  MÍSTĚ // TRAGICKY  ZAHYNUL // ČESKOSLOVENSKÝ  REPREZENTANT // V  CYKLISTICE // VLASTIMIL  MORAVEC //  * 7. 5. 1949  + 15. 4. 1986 // …  ",
+      odkazy: [
+        {
+          nazev: " Lidovky ",
+          adresa:
+            " https://www.lidovky.cz/relax/lide/pohnute-osudy-odvazny-cyklista-vlastimil-moravec-zemrel-po-narazu-do-kamionu.A160507_202559_lide_ele ",
+        },
+        {
+          nazev: " Encyklopedie Brna  ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_objektu&load=983 ",
+        },
+      ],
+      pozn:
+        "  <strong>Vlastimil “Mrkva” Moravec</strong> (1949 - 1986), významný československý reprezentant v silniční cyklistice, vítěz Závodu míru v roce 1972. Z oddílu v Dobrušce přešel do Brna, odsloužit vojnu v Dukle. Provázela ho pověst výborného cyklisty, excelentního sjezdaře a časovkáře.  Po skončení závodní kariéry v roce 1981 přednášel na vojenské škole a byl trenérem juniorů v Dukle Brno. Byl odvážný ve sjezdech, což se mu stalo osudné, tragicky zahynul při nehodě ve sjezdu v Kohoutovicích. Na hrob na Ústředním hřbitově H2/53 mu dodnes přátelé věší medaile z cyklistických závodů.<br>V úterý 15. dubna 1986 končil Mrkva cyklistický trénink juniorů nahoře v Kohoutovicích. Následoval jako obvykle závod, kdo bude dřív bez šlapání v Pisárkách. S ještě jedním cyklistou se oba řítili osmdesátikilometrovou rychlostí po čtyřproudé Libušině třídě do údolí. Před nimi začal zpomalovat náklaďák s pískem. Míjeli ho každý z jedné strany. Nikdo už neobjasní, jestli chtěl náklaďák na křižovatce odbočit, nebo se otočit. Zabočil doleva a Moravec plnou rychlostí narazil do jeho kabiny. Byl na místě mrtev. Deset dní po svatbě, jeho dcera se narodila jako pohrobek.        ",
+      naposledObnoveno: " 26.7.2022 ",
+      souradnice: "  49.1978939N, 16.5489897E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/mucacometo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/mucacometo  ",
+      galerie: [
+        {
+          fotka: "  402Moravec1.jpg",
+          popisek: " Pomníček Vlasty Moravce (březen 2012) ",
+        },
+        { fotka: "  402Moravec2.jpg", popisek: " (březen 2012) " },
+        { fotka: "  402Moravec3.jpg", popisek: " Detail desky (březen 2012) " },
+      ],
+      proMe: " XVIII/727  24-324-44  BM—Kohout.  ",
     },
   ],
 };
