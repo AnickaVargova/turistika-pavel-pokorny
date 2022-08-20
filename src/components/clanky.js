@@ -21326,5 +21326,256 @@ export default {
       ],
       proMe: " XVIII/727  24-324-44  BM—Kohout.  ",
     },
+    {
+      id: 403,
+      kategorie: "pomnicky",
+      pridano: " 08/08/2022 ",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Brno - venkov ",
+      obec: "  Lomnice u Tišnova  ",
+      jmeno: " Oběti náletu - Lomnice ",
+      nazev: " Památník obětem náletu v Lomnici  ",
+      fotkaUvod: { fotka: " 403naletLomnice2.jpg " },
+      kdyVznikl:
+        " 2020. V neděli 3. května 2020 kříž vysvětil lomnický farář P. Jansa. ",
+      popisCesty:
+        " Na kraji obce u silnice na Brumov, 400 metrů SSV od kostela.  ",
+      popis:
+        "  Kovaný železný kříž z pásových profilů je vysoký 1,7 metru. Uprostřed kříže je rozřezaná mosazná nábojnice v podobě květu. Kříž je zasazen do kvádru z červeného pískovce. Na kamenném kvádru je železná tabule s vyřezaným textem.  ",
+      napis: " NA  PAMÁTKU // OBĚTEM  NÁLETU // 27. 4. 1945 // …  ",
+      odkazy: [
+        {
+          nazev: " Lomnice ",
+          adresa:
+            " http://www.lomnice.cz/novy%2Dpamatnik%2Dobetem%2Ddubnoveho%2Dnaletu%2Dna%2Dlomnici%2D3%2D5%2D2020/gs-6272 ",
+        },
+        { nazev: "   ", adresa: "  " },
+        { nazev: "  " },
+        {
+          nazev:
+            " Kol.: Lomnice, příroda historie osobnosti památky, 2007, str. 130 ",
+        },
+      ],
+      pozn:
+        "  Na konci války, den po osvobození Brna, byly bombardovány Tišnov i Lomnice. Letectvo Rudé armády se snažilo znemožnit ústup německým a maďarským jednotkám. Při útoku na most přes Besének v ulici Na potokách přišli o život čtyři obyvatelé Lomnice. V Tišnově při stejném náletu zahynulo 18 obětí.  ",
+      naposledObnoveno: " 8.8.2022 ",
+      souradnice: "  49.4084697N, 16.4145942E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/punabomapu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/punabomapu  ",
+      galerie: [
+        {
+          fotka: "  403naletLomnice1.jpg",
+          popisek: " Obětem náletu v Lomnici ( květen 2021) ",
+        },
+        {
+          fotka: "  403naletLomnice2.jpg",
+          popisek: " Detail desky ( květen 2021) ",
+        },
+      ],
+      proMe: " XX/1144  24-143-50  21—051  ",
+    },
+
+    {
+      id: 404,
+      kategorie: "pomnicky",
+      pridano: " 09/08/2022 ",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Ořešín   ",
+      jmeno: " Morbacherová, Marie  ",
+      nazev: " Památka Marie Morbacherové u Ořešína  ",
+      fotkaUvod: { fotka: " 404Morbacherova1.jpg " },
+      kdyVznikl: " 2005 ",
+      popisCesty:
+        " Nad Ořešínem na kopci Horka blízko rozcestí značených cest. ",
+      popis:
+        "  Zděná Boží muka s výklenkem, vysoká 2,5 metru, je kryta sedlovou stříškou. Ve výklenku je kovaný kříž a kamenná deska s textem.  ",
+      napis:
+        " V  UPOMÍNKU  NA // TRAGICKÉ  ÚMRTÍ // MANŽELKY  MARIE // DNE  3. 5. 1945 // VĚNUJE K VĚTŠÍ  CTI // A SLÁVĚ  BOŽÍ // JUDr. EUGEN  MORBACHER // L. P. 2005  ",
+      odkazy: [
+        {
+          nazev: " Řečkovický hřbitov ",
+          adresa:
+            " http://www.reckovice.info/index.php?option=com_content&view=article&id=763:kratce-z-historie-reckovicky-hrbitov-2&catid=85:spolecnost&Itemid=435 ",
+        },
+        { nazev: " Tonar, František eds.: Ořešín. 2005, str. 99 " },
+      ],
+      pozn:
+        "  Rodina Morbacherů se dvěma malými dětmi se na konci války uchýlila do Ořešína a ukrývali se v dnešní ulici Jasná. 2. května 1945, kdy bylo Brno už 6. den svobodné, plakala malá dcerka Morbacherů hladem. Matka odešla z krytu do kuchyně honem nachystat nějaké jídlo, jenže na dům dopadl dělostřelecký granát a střepina ji těžce poranila hlavu. Manžel ji naložil na vozík a vezl do Jehnic k lékaři. Ten po zběžné kontrole konstatoval smrtelné zranění a vystavil úmrtní list. S tím se ale pan Morbacher nesmířil a vezl dýchající manželku dál k Lelekovicím. Vyhledal německého lékaře ustupujících jednotek, ten ji ošetřil a přidal pár soucitných slov. Pak, stále pod palbou těžkých zbraní, ji Eugen Morbacher vezl zpět do Ořešína. Obec byla ale prázdná, z příkazu německé armády byla mezitím vysídlena. Naštěstí našel zbytek rodiny ukrytý ve sklepě v sousedství. Druhý den se vydal znovu k Lelekovicím hledat lékařskou pomoc. Když se vrátil, byla manželka po smrti. Se sousedy ji pohřbili narychlo na zahradě, po válce byl hrob exhumován a přenesen na řečkovický hřbitov.<br>Mladší sestra Marie Morbacherové zrušila zasnoubení, začala se starat o své neteře a po roce se za vdovce provdala. Po šedesáti letech od tragédie skoro antické dal čtyřiadevadesátiletý JUDr. Eugen Morbacher na svém pozemku zbudovat Boží muku na připomenutí smutné události. Potomci hlavních aktérů v Ořešíně stále žijí.   ",
+      naposledObnoveno: " 9.8.2022 ",
+      souradnice: "  49.2808497N, 16.6094250E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/bajuhuceve" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/bajuhuceve  ",
+      galerie: [
+        {
+          fotka: "  404Morbacherova2.jpg",
+          popisek: " Památka Marie Morbacherové (březen 2022) ",
+        },
+        { fotka: "  404Morbacherova3.jpg", popisek: " (březen 2022) " },
+        {
+          fotka: "  404Morbacherova4.jpg",
+          popisek: " Detail desky (březen 2022) ",
+        },
+        {
+          fotka: "  404Morbacherova5.jpg",
+          popisek: " Detail kříže (březen 2022) ",
+        },
+      ],
+      proMe: " XV/537  24-324-25  22—032  ",
+    },
+
+    {
+      id: 405,
+      kategorie: "pomnicky",
+      pridano: " 10/08/2022 ",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Brno - venkov ",
+      obec: "  Doubravník  ",
+      jmeno: " Mohyla třem zastřeleným mládencům z Křížovic.  ",
+      nazev: " Křížovičtí zastřelení  ",
+      fotkaUvod: { fotka: "  405Krizovicti2.jpg " },
+      kdyVznikl:
+        " 1946. Památka byla slavnostně odhalena 9. května 1946 za velké účasti lidu. ",
+      popisCesty:
+        " Mohyla stojí v lesní stráni údolí Rakovce, 1400 metrů Z od kostela v Doubravníku. Je třeba přejít potok, a stoupat cestou šikmo vzhůru do J úbočí. Nesnadné hledání v ostrém ohybu cesty nad dvěma chatami.  ",
+      popis:
+        " Metr vysoký památník v prudkém svahu je vyzděn z lomového kamene, v čelní stěně je bílá deska se zašlým textem. Poslední léta o pomník nikdo nepečuje.   ",
+      napis:
+        " Zde byli 9. května 1945 // německými vojáky zavražděni // OPATŘIL  STANISLAV // nar. 2. 5. 1912 // ŠTARHA  JINDŘICH // nar. 2. 8. 1920 // HEMZA  ALEŠ  // nar.  8.12. 1926    ",
+      odkazy: [
+        {
+          nazev: " Doubravník - kronika ",
+          adresa:
+            " https://www.doubravnik.cz/view.php?cisloclanku=2005050701  ",
+        },
+        { nazev: " Vlastivědný věstník moravský 39, 1987, č.1, str.9-10 " },
+      ],
+      pozn:
+        "  Smutná událost na samém konci války se pojí s ústupem německých vojsk přes Lomnici, Doubravník a Nedvědice. Němci podráždění přepadením své vojenské kolony a střelbou v Bělči tušili v každém podezřelém partyzána. 9. května 1945 ráno se v Křížovicích roznesla zpráva, že se v Doubravníku rozdávají zbraně. Vydali se pro ně čtyři křížovičtí občané, Opatřil, Štarha, Hemza a Josef Slezák. V městečku panoval zmatek, německé jednotky pálily dokumenty a střelivo. Přesto zřejmě mládenci nějaké granáty a náboje získali a vraceli se kolem zastávky v Doubravníku domů. Vypadali podezřele. Zastavilo u nich německé auto a vojáci Opatřila, Štarhu a Hemzu legitimovali. Protože neměli doklady a bylo u nich asi nalezeno střelivo, byli zatčeni. Slezák se ještě zdržel v městečku, tak toho nezatkli, ale on vše viděl. Strážní oddíl SS v Doubravníku odvlekl nešťastnou trojici do Rakovců a tam je zastřelil. Našli je pozdě odpoledne mrtvé za boudou na p.č. 1143. Hodinu nato přijelo do Doubravníku první auto s rudými vlajkami a válka tady skončila.   ",
+      naposledObnoveno: " 10.8.2022 ",
+      souradnice: "  49.4235325N, 16.3330142E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/budufujole" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/budufujole  ",
+      galerie: [
+        {
+          fotka: "  405Krizovicti1.jpg",
+          popisek: " Mohyla zastřeleným z Křížovic (březen 2020) ",
+        },
+        { fotka: "  405Krizovicti2.jpg", popisek: " (březen 2020) " },
+        {
+          fotka: "  405Krizovicti3.jpg",
+          popisek: " Detail desky (březen 2020) ",
+        },
+      ],
+      proMe: " XII/370  24-143-8  20—031 ",
+    },
+
+    {
+      id: 406,
+      kategorie: "pomnicky",
+      pridano: " 10/08/2022 ",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Brno - venkov ",
+      obec: "  Ketkovice  ",
+      jmeno: " Samodurov, Nikolaj  ",
+      nazev: " Památka rudoarmějce Samodurova u Ketkovického mlýna  ",
+      fotkaUvod: { fotka: "  406Samodurov1.jpg " },
+      kdyVznikl:
+        " po roce 1945. Původní deska byla skromnější. V roce 2005 byl pomník přebudován, deska vyměněná a nápis na ní mírně změněn.  ",
+      popisCesty:
+        " U cesty z Ketkovického (Vránova) mlýna 500 metrů údolím po proudu Oslavky. Snadno se přehlédne.  ",
+      popis:
+        "  Nad kamennými schůdky je v břehu ohrazený záhonek. Do kamenného základu je zasazena leštěná obdélníková deska s textem.   ",
+      napis:
+        " Původně: Zde padl 4. května 1945 // rudoarmějec // Nikolaj SAMODUROV // … Nyní: 4. KVĚTNA 1945 // ZDE PADL // NIKOLAJ  SAMODUROV // SERŽANT  RUDÉ  ARMÁDY // OPRAVENO  NA   NÁKLADY // OBCE  KETKOVICE  L. P. 2005  ",
+      odkazy: [
+        {
+          nazev:
+            " Památník obětí světových válek…v okrese Brno-venkov, 2000, str. 234 a 240 ",
+        },
+      ],
+      pozn:
+        "  Na konci války vzniklo mezi Ivančicemi a Kralicemi území nikoho. Německá armáda se 18. dubna 1945 stáhla bez boje až k Náměšti a ruské linie se zastavily na čáře Ivančice - Tetčice. Do území vnikaly jednotlivé hlídky ruské, maďarské a německé armády, ale nezdržovaly se tam. Občas docházelo k menším přestřelkám. Území se pokoušely zabrat partyzánské oddíly, ale neměly dost zbraní ani zkušeností, aby plochu několika vsí ovládly. Obětí jedné přestřelky v údolí Oslavky se stal i Nikolaj Samodurov na průzkumné výpravě. Situaci vyřešil až nápor Rudé armády, která se definitivně zmocnila této oblasti 8. května 1945.   ",
+      naposledObnoveno: " 10.8.2022 ",
+      souradnice: "  49.1402700N, 16.2490233E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pofolocoda" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/pofolocoda  ",
+      galerie: [
+        {
+          fotka: "  406Samodurov2.jpg",
+          popisek: " Samodurovova památka (duben 2015) ",
+        },
+        { fotka: "  406Samodurov3.jpg", popisek: " (duben 2015) " },
+        {
+          fotka: "  406Samodurov4.jpg",
+          popisek: " Detail desky (duben 2022) ",
+        },
+      ],
+      proMe: " IX/280  24-332-19  15—042  22—042 ",
+    },
+
+    {
+      id: 407,
+      kategorie: "pomnicky",
+      pridano: " 11/08/2022 ",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Brno - město ",
+      obec: "  Brno - Kníničky  ",
+      jmeno: " Šikula, František  ",
+      nazev: " Připomínka hrdinství hrázného Šikuly v Bystrci.  ",
+      fotkaUvod: { fotka: " 407Sikula1.jpg " },
+      kdyVznikl:
+        " Deska byla slavnostně odhalena v květnu 1976. Pyramida za ní je starší, vznikla po stavbě přehrady.  ",
+      popisCesty:
+        " Vedle hráze Brněnské přehrady na severní straně. Vede tu červená značka.  ",
+      popis:
+        "  Na šikmo skloněném betonovém soklu je bílá kamenná plotna a na ní kovová deska s vystupujícím delším textem. V pozadí je pyramida z betonových kostek, zbylých po zkouškách pevnosti betonu při stavbě hráze.  ",
+      napis:
+        " TATO  PŘEHRADA // BYLA // ZACHRÁNĚNA // HRDINNÝM  ČINEM // FRANTIŠKA //  ŠIKULY  // A SPOLUBOJOVNÍKŮ // DNE  26. DUBNA  1945 // PŘED  ZNIČENÍM // FAŠISTICKÝMI // VOJSKY  ",
+      odkazy: [
+        {
+          nazev: " Přehrada ",
+          adresa: "https://www.brnenskaprehrada.cz/sikula.pdf",
+        },
+        {
+          nazev: " Šikula EB  ",
+          adresa:
+            " https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=2280 ",
+        },
+        { nazev: "  " },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  Historie záchrany přehradní hráze patří k nejznámějším. Brněnská (tehdy Kníničská) přehrada se  stavěla v letech 1936 - 1940.  Hrázným byl ustanoven František Šikula (1894 - 1971). Součástí plánů bylo nařízení, že hráz musí mít ze strategických důvodů možnost rychlé likvidace. Byly tedy do těla hráze zabudovány trubky s možností naplnění trhavinou. Na začátku války je Šikula se spolupracovníky zabetonoval a skryl omítkou, aby je Němci nemohli použít. Němci skutečně uvažovali na konci války vyhodit hráz přehrady do vzduchu a zaplavením Jižní Moravy chtěli zpomalit postup Rudé armády. Možná ještě dnes je někde na fasádě Starého Brna nebo v Komíně zapomenutá modrá šipka, ukazující, kam by vystoupala voda protržené přehrady.<br>13. dubna 1945 přišel příkaz, že otvory mají být nalezeny, vyčištěny a připraveny k naplnění výbušninou. Zaměstnanci přehrady se rozhodli příkaz sabotovat, napřed “nemohli” otvory najít a potom je čistili tak pomalu, že mezitím destrukční jednotka odešla. Stačila ale zlikvidovat mosty v Pisárkách, Jundrově, Bystrci a betonovou lávku v Kamenném mlýně. 25. dubna byly kolem hráze rozmístěny německé protiletecké baterie, dělostřelectvo a začalo nepřetržité ostřelování okolí hráze. Elektrárna musela být zastavena a všichni zaměstnanci se skryli v revizní chodbě, která prochází přehradou, později našli útočiště pod generátorem elektrárny. 26. dubna, v den osvobození Brna, vyletěl do vzduchu  most pod hradem Veveří. Tento den odpoledne  přijelo k hrázi auto se třiceti vojáky SS a do vozovky v koruně hráze položili tři protitankové miny. Šikula znal jejich polohu a chtěl varovat vojska Rudé armády. Když se 27. dubna odpoledne k přehradě připlížil Ladislav Dolníček z Bystrce, informoval ho o minách pod silnicí. Protože si nebyl jist, jestli mu Dolníček pro hukot vody rozuměl, sám se plížil do Bystrce podat zprávu. Jenže Němci v kulometném hnízdě si ho všimli, zahájili palbu a Šikulu zranili do zad. Musil se stáhnout do revizní chodby. Za hodinu se na pravém břehu objevili rudoarmějci s Dolníčkem, ale kvůli kulometné palbě se nedostali přes řeku. Dělostřelecké ostřelování panovalo celou noc a další den.<br>Až 29. dubna, kdy na pravý břeh dorazil oddíl rudoarmějců,  se podařilo protáhnout revizní chodbou větší počet vojáků na levý břeh, kde vyčistili správní budovu a zlikvidovali německá postavení. Šikula přesně popsal veliteli oddílu umístění min pod vozovkou a ti je během hodiny odstranili. Teprve pak mohly přejet sovětské tanky přes hráz na levý břeh. Ostřelování přehradní hráze německými bateriemi u Kuřimi a Čebína ale trvalo dál,  až do 7. května. František Šikula byl po válce vyznamenán čs. válečným křížem za statečnost.  ",
+      naposledObnoveno: " 11.8.2022 ",
+      souradnice: "  49.2328381N, 16.5192289E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/jezesadege" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/jezesadege  ",
+      galerie: [
+        {
+          fotka: "  407Sikula1.jpg",
+          popisek: " Deska hrázného Šikuly (prosinec 2009) ",
+        },
+        {
+          fotka: "  407Sikula1.jpg",
+          popisek: " Detail desky (prosinec 2009) ",
+        },
+        {
+          fotka: "  407Sikula1.jpg",
+          popisek: " Pyramida z kostek (prosinec 2009) ",
+        },
+      ],
+      proMe: " VIII/260  24-324-4  16—08  ",
+    },
   ],
 };

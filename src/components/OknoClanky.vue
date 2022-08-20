@@ -93,6 +93,7 @@
       grid-template-rows: auto;
       grid-template-columns: 3fr 1fr;
       max-width: unset;
+      max-height: unset;
       width: 90%;
     }
   }
