@@ -21436,8 +21436,8 @@ export default {
       druh: " Válečné  ",
       okres: " Brno - venkov ",
       obec: "  Doubravník  ",
-      jmeno: " Mohyla třem zastřeleným mládencům z Křížovic.  ",
-      nazev: " Křížovičtí zastřelení  ",
+      jmeno: " Křížovičtí zastřelení ",
+      nazev: " Mohyla třem zastřeleným mládencům z Křížovic.  ",
       fotkaUvod: { fotka: "  405Krizovicti2.jpg " },
       kdyVznikl:
         " 1946. Památka byla slavnostně odhalena 9. května 1946 za velké účasti lidu. ",
@@ -21490,7 +21490,7 @@ export default {
       kdyVznikl:
         " po roce 1945. Původní deska byla skromnější. V roce 2005 byl pomník přebudován, deska vyměněná a nápis na ní mírně změněn.  ",
       popisCesty:
-        " U cesty z Ketkovického (Vránova) mlýna 500 metrů údolím po proudu Oslavky. Snadno se přehlédne.  ",
+        " U cesty z Ketkovického (Vydrova) mlýna 500 metrů údolím po proudu Oslavky. Snadno se přehlédne.  ",
       popis:
         "  Nad kamennými schůdky je v břehu ohrazený záhonek. Do kamenného základu je zasazena leštěná obdélníková deska s textem.   ",
       napis:
@@ -21567,15 +21567,212 @@ export default {
           popisek: " Deska hrázného Šikuly (prosinec 2009) ",
         },
         {
-          fotka: "  407Sikula1.jpg",
+          fotka: "  407Sikula2.jpg",
           popisek: " Detail desky (prosinec 2009) ",
         },
         {
-          fotka: "  407Sikula1.jpg",
+          fotka: "  407Sikula3.jpg",
           popisek: " Pyramida z kostek (prosinec 2009) ",
         },
       ],
       proMe: " VIII/260  24-324-4  16—08  ",
+    },
+    {
+      id: 408,
+      kategorie: "smircikrize",
+      pridano: " 20/08/2022 ",
+      oblast: " Na východ  ",
+      jmeno: " Bohdalice  ",
+      fotkaUvod: { fotka: "  408Bohdalice1.jpg  " },
+      podkategorie: 3,
+      okres: "  Vyškov  ",
+      obec: " Kučerov  ",
+      cislo: " 0647  ",
+      kdeSeNaleza:
+        " Na poli Z od Bohdalic pod dráty vysokého napětí. Cesta k němu nevede a v blátě nebo za vegetace je prakticky nedostupný.  ",
+      popis:
+        " Hrubě tesaný žulový kříž se zaoblenými rameny vyčnívá ze země do výšky 0,7 metru.  ",
+      povest: " Bývá spojován s cyrilometodějskou legendou.  ",
+      odkazy: [
+        {
+          nazev: " smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/bohdalice.htm ",
+        },
+        {
+          nazev: " euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Vyskov/Bohdalice.html ",
+        },
+        { nazev: "  Kolektiv: Kamenné kříže Čech a Moravy. 2001. str. 425 " },
+      ],
+      pozn:
+        "  I když se smírčí kříž nachází 50 metrů od hranice katastrů na katastrálním území obce Kučerov, všude se uvádí jméno tohoto kříže jako Bohdalice.  ",
+      naposledObnoveno: " 20. 8. 2022 ",
+      galerie: [
+        {
+          fotka: " 408Bohdalice2.jpg ",
+          popisek: " Smírčí kříž Bohdalice (duben 2022) ",
+        },
+        { fotka: " 408Bohdalice3.jpg ", popisek: " (duben 2022) " },
+        {
+          fotka: " 408Bohdalice4.jpg ",
+          popisek: " V pozadí obec Bohdalice (duben 2022) ",
+        },
+      ],
+      proMe: "  XX/1209  24-424-  22—045 ",
+    },
+    {
+      id: 409,
+      kategorie: "smircikrize",
+      pridano: " 20/08/2022 ",
+      oblast: " Na východ  ",
+      jmeno: " Manerov  ",
+      fotkaUvod: { fotka: "  409Manerov2.jpg  " },
+      podkategorie: 3,
+      okres: " Vyškov  ",
+      obec: " Bohdalice  ",
+      cislo: " 1834  ",
+      kdeSeNaleza: " Na návsi Manerova za kapličkou.  ",
+      popis:
+        " Křížový kámen je tvořen shora silně olámanou kamennou plotnou 0,7 x 0,7 metru. Na přední straně vystupuje reliéf paty kříže. Původní nápis ve starobylé češtině je nyní zcela nečitelný.  ",
+      napis:
+        "  Před sto lety dřívější badatelé přečetli: SPVSOBEM  LSTIWIM  PRZIDALI … ZAMORDOWANI  CE  DVUSSI  PAN  BVCH … IZAMILOSTIW  BYTI   ",
+      povest:
+        " V obci se vyprávělo, že v dobách, kdy tu byly lesy, jeden myslivec ze zdejší hájovny zastřelil svou milenku i sebe, protože jim bylo bráněno ve sňatku. Tomu ale neodpovídá text na kamenu.  ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa: "  http://www.smircikrize.euweb.cz/CR/Vyskov/Manerov.html ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 427 " },
+      ],
+      pozn:
+        " Přestože katastrální území osady Manerov neexistuje a Manerov územně patří do obce Bohdalice, všude tento smírčí kámen jmenují jako Manerov. V roce 1933 stál kámen u polní cesty z Manerova do Bohdalic. ",
+      naposledObnoveno: " 20.8.2022 ",
+      galerie: [
+        {
+          fotka: " 409Manerov1.jpg ",
+          popisek: " Smírčí kámen Manerov (duben 2022) ",
+        },
+        { fotka: " 409Manerov2.jpg ", popisek: " (duben 2022) " },
+        { fotka: " 409Manerov3.jpg ", popisek: " Detail desky(duben 2022) " },
+      ],
+      proMe: " XX/1207  24-424-  22—045  ",
+    },
+
+    {
+      id: 410,
+      kategorie: "smircikrize",
+      pridano: " 21/08/2022 ",
+      oblast: " Na západ  ",
+      jmeno: " Otradice  ",
+      fotkaUvod: { fotka: "  410Otradice1.jpg  " },
+      podkategorie: 5,
+      okres: "  Třebíč  ",
+      obec: " Otradice  ",
+      cislo: " - - - -  ",
+      kdeSeNaleza:
+        " JV od Jinošova u polní cesty vedoucí kolem lesa. Nedaleko je Dolíhalova studánka.  ",
+      popis:
+        " Zašpičatělý lomový kámen postavený na výšku je vysoký jeden metr. Do čelní stěny je vyřezán vystupující klínový kříž. Pod ním je vyryta kresba vycházejícího slunce.  ",
+      pozn:
+        " Křížový kámen je relativně mladý, před rokem 2010 tu nestál. Důvod vzniku neznám. ",
+      naposledObnoveno: " 21.8.2022 ",
+      galerie: [
+        {
+          fotka: " 410Otradice2.jpg ",
+          popisek: " Smírčí kříž Otradice (březen 2022)",
+        },
+        { fotka: " 410Otradice3.jpg ", popisek: "(březen 2022)" },
+        { fotka: " 410Otradice4.jpg ", popisek: "(březen 2022)" },
+      ],
+      proMe: " XX/1190  24-314-88  22—034  ",
+    },
+
+    {
+      id: 411,
+      kategorie: "smircikrize",
+      pridano: " 21/08/2022 ",
+      oblast: " Na západ  ",
+      jmeno: " Březí  ",
+      fotkaUvod: { fotka: "  411Brezi1.jpg  " },
+      podkategorie: 5,
+      okres: "  Žďár nad Sázavou  ",
+      obec: " Březí  ",
+      cislo: " 0698  ",
+      kdeSeNaleza: " U silnice z Březí do Milešína, blízko osady Ondrušky.  ",
+      popis:
+        " Silně otlučený žulový smírčí kříž je vysoký 0,7 metru. Ramena kříže jsou jen naznačena.  ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa:
+            " http://www.smircikrize.euweb.cz/CR/Zdar_nad_Sazavou/Brezi.html ",
+        },
+        {
+          nazev: " Smírčí kříže ",
+          adresa: " https://www.smircikrize.cz/brezi.htm ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 433 " },
+      ],
+      naposledObnoveno: " 21.8.2022 ",
+      galerie: [
+        {
+          fotka: " 411Brezi2.jpg ",
+          popisek: " Smírčí kříž Březí (březen 2022) ",
+        },
+        { fotka: " 411Brezi3.jpg ", popisek: " (březen 2022) " },
+        { fotka: " 411Brezi4.jpg ", popisek: " (březen 2022) " },
+      ],
+      proMe: " VIII/250  24-312-22  22—033  ",
+    },
+
+    {
+      id: 412,
+      kategorie: "smircikrize",
+      pridano: " 22/08/2022 ",
+      oblast: " Na sever  ",
+      jmeno: " Bedřichov  ",
+      fotkaUvod: { fotka: "  412Bedrichov1.jpg  " },
+      podkategorie: 2,
+      okres: " Blansko   ",
+      obec: " Bedřichov  ",
+      cislo: " 1476  ",
+      kdeSeNaleza:
+        " Nalezení není jednoduché, shodují se všichni publikující hledači křížů. Od Bedřichova na SZ leží skupina chat s čtvercovou nádrží na vodu. Od nádrže k Z mírně stoupá lesní cesta a stáčí se k S. Od nádrže asi 800 metrů. Na V od cesty v mělké rýze stojí kámen, v roce 2022 byl ve vysokém smrkovém lese.  ",
+      popis:
+        " Obdélníková kamenná deska je vysoká 0,6 metru. Do čelní strany je vyryt řecký kříž, kolo možná mlýnské a šíp nebo kopí.  ",
+      povest:
+        " Místní mu říkají mlynářský kámen. Pověst mluví o oloupení mlynáře nebo o loupežné vraždě vozky.  ",
+      odkazy: [
+        {
+          nazev: " Euweb ",
+          adresa: " http://www.smircikrize.euweb.cz/CR/Blansko/Bedrichov.html ",
+        },
+        {
+          nazev: " SC Ráječko ",
+          adresa:
+            " http://www.scrajecko.cz/index.php?page=smirci_krize/bedrichov  ",
+        },
+        { nazev: " Kolektiv: Kamenné kříže Čech a Moravy, 2001, str. 44 " },
+        { nazev: " Hynek Jurman: Smírčí kameny na Vysočině. 2000, str. 28 " },
+        {
+          nazev:
+            " Eva Nečasová: Křížové kameny a kamenné kříže okresu Blansko. 2001, str. 15 ",
+        },
+      ],
+      naposledObnoveno: " 22.8.2022 ",
+      galerie: [
+        {
+          fotka: " 412Bedrichov2.jpg ",
+          popisek: " Smírčí kámen Bedřichov (červen 2022) ",
+        },
+        {
+          fotka: " 412Bedrichov3.jpg ",
+          popisek: " Detail kamene (červen 2022) ",
+        },
+        { fotka: " 412Bedrichov4.jpg ", popisek: " (červen 2022) " },
+      ],
+      proMe: " XIIIN/443  24-141-25  22—062    ",
     },
   ],
 };
