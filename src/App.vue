@@ -21,6 +21,10 @@
     color: #2c3e50;
   }
 
+  .special {
+    color: #672d73;
+  }
+
   .podnadpis {
     margin: 40px;
   }

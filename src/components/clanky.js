@@ -21774,5 +21774,423 @@ export default {
       ],
       proMe: " XIIIN/443  24-141-25  22—062    ",
     },
+    {
+      id: 413,
+      datum: " 27. - 31. července 2022  ",
+      formatDatum: "31/08/2022",
+      pridano: " 31/08/2022 ",
+      kategorie: "cesty",
+      podkategorie: 1,
+      nazev: " Beskydy po šedesáti letech  ",
+      fotkaUvod: { fotka: " 413Beskydy48.jpg " },
+
+      text: [
+        {
+          textOdstavce:
+            " Není náhoda, že jsme si pro červencový vandr vybrali oblast tak notoricky známou jako jsou Beskydy. Před šedesáti lety, skoro na den přesně, tu Pavel ve věku čtrnácti roků absolvoval své první horské putování. Bylo to s turistickým kroužkem, nocovalo se ve školách a trvalo 11 dní. Lída tou dobou trávívala léto v chatě na Ostravici. Takže oba jsme Beskydami turisticky pokřtění. Šedesát let je v životě docela dlouhý úsek a chtěli jsme tedy srovnat, jak se hory, které máme z té doby v dobré paměti, změnily. Samozřejmě mezitím jsme Beskydy mnohokrát navštívili, v létě i v zimě, s kamarády i sami, s dětmi i bez nich, na lyžích i pěšky, na den i na týden. Určitě to jsou hory, kam jezdíme nejčastěji. Turistika se v Beskydech odehrává zhruba 120 let, tedy jejich druhou polovinu jsme mohli zažívat na vlastní kůži. ",
+        },
+        {
+          foto: " 413Beskydy68.jpg  ",
+          popisek:
+            " Turistický kroužek na Martiňáku pod bukem. Autor označen šipkou. Repro foto z 1962. ",
+        },
+        {
+          textOdstavce:
+            " <p  class='special'>Považuji za potřebné napsat o školním turistickém kroužku ze Starého Lískovce. Učitelé devítileté školy v Lískovci mi dali do života dost, ale nejvíce mě naučil školník, pan Vilém Dohnal (1905 - asi 1985). Vedl tamní turistický kroužek několik let, měl tam syna. Učil nás rozdělat oheň, poznávat stromy, vyznat se v mapě i v terénu, nabalit se na túru. Slovo skaut tam nikdy nepadlo, ale začátkem šedesátých let to byla skautská výchova. Nevyhýbal se ani politickým debatám, dosti odlišným od toho, co jsme slyšeli ve škole. Zavedl nás na všechna známá turistická místa kolem Brna, šli jsme i po stopách brněnských pověstí. Po dvou letech s jednodenními výlety jsme se odvážili na delší putování po Vysočině a další rok jeli do Beskyd. To byl zlatý hřeb a další puťák se neuskutečnil - zrušili trasu v Nízkých Tatrách.<br>Spávali jsme většinou ve školách na lehátkách, stravovali jsme se sami. Stát podporoval putování skupin dětí, mohli jsme si vybírat oblast. Putovní tábor se neplatil, za každý absolvovaný den jsme dostali 5 Kčs (v dnešních cenách asi padesátikorunu) - ale jen ti, kteří došli až do konce. Viděno dneškem jsme byli zoufale nevybavení a nezkušení, sebevědomí ale nechybělo. Pohorky neměl nikdo, snad ani neexistovaly. Někteří včetně vedoucího měli na nohou komule - to byly komisňáky, pracovní obuv. Já jsem šel v kožených polobotkách, jiní měli tenisky. Spacák byl neznámý pojem a dalo by se takto pokračovat.</p>   ",
+        },
+        {
+          foto: " 413Beskydy69.jpg  ",
+          popisek: " Na Pulčinských skalách v létě 1962. ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">První den : středa 27. července 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            "  <i>Vlakem Rožnov pod Radhoštěm. Pěšky: kolem skanzenu - rozc. pod chatou Mír - Černá hora - Velká Polana - Radhošť (1129 metrů) - socha Radegasta - vyhlídka Cyrilka - Pustevny - sedlo Tanečnica - skládka klád na severním úbočí Čertova mlýna. 16 km, 900 metrů převýšení. </i> ",
+        },
+        {
+          textOdstavce:
+            "  Protože nejsme zrovna přátelé procházení městskou zástavbou s batohem na zádech, bereme to z rožnovského nádraží nejkratší cestou do hor. Procházíme městským parkem a tam je zajímavý vodorovný pomník obětem válek. Park je vyzdoben laminátovými sochami od současných umělkyň, ale ty se nám nelíbily - tedy ty sochy. Následovalo Valašské muzeum v přírodě, i to jsme minuli. Líbí se mi lidové stavby ve svém prostředí, na vesnici. Svážet je na jedno místo a tvorba atrakcí z nich za účelem budování komerčního turismu mi vadí. Je to vybírání rozinek z koláče. Ale návštěvníkům se to líbí, jezdí jich sem hodně. ",
+        },
+        {
+          foto: " 413Beskydy01.jpg  ",
+          popisek: " Pomník obětem válek v Rožnově ",
+        },
+        {
+          foto: " 413Beskydy02.jpg  ",
+          popisek: " Současné sochařství v městském parku  (červenec 2022) ",
+        },
+        {
+          foto: " 413Beskydy03.jpg  ",
+          popisek: "  Plánek rožnovského skanzenu ",
+        },
+        {
+          vnitrniOdkazy: [
+            {
+              vnitrniOdkaz: 161,
+              odkazPodkategorie: 1,
+              odkazKategorie: "cesty",
+              odkazKde: "odstavec",
+              predOdkazem:
+                "Tedy jsme v bufetu u skanzenu vypili pivo a vydali se stoupat na Radhošť. Je to 700 výškových metrů. V odpoledním teple je to dost náročný úkol, Lída je v rekonvalescenci po operaci. O co má lehčí batoh, o to ho mám těžší já. Blíže k vrcholu turistů přibývá a přidávají se i borůvkáři. Naposledy, když jsme tu šli ",
+              textOdkazu: "v zimě",
+              zaOdkazem: ", převažovali běžci, nyní nás předjíždějí cyklisté.",
+            },
+          ],
+        },
+        {
+          foto: " 413Beskydy04.jpg  ",
+          popisek: " Kříž na Černé hoře, věnovaný ochraně lesních dělníků. ",
+        },
+        { foto: " 413Beskydy05.jpg  ", popisek: " První pohled na Radhošť  " },
+        { foto: " 413Beskydy06.jpg  ", popisek: " Výhled zpět k Rožnovu  " },
+        {
+          textOdstavce:
+            " Kaple svatých Cyrila a Metoděje na Radhošti bývá v sezóně otevřená, tedy jsme si ji prohlédli. Je to “turistická” svatyně, každý sem musí přijít po svých. Na její vysvěcení olomouckým arcibiskupem v roce 1898 přišlo 30 tisíc lidí, byla to nejen náboženská, ale i politická a národovecká událost. Ke kamenné stavbě byzantského tvaru v podobě kříže v půdorysu byla při přestavbě v letech 1925-27 přistavěna i dřevěná zvonice a celá stavba byla pokryta šindelem, aby lépe vzdorovala rozmarům počasí. Stavba dostala dnešní vzhled a v roce 1928 sem zavítal i president Masaryk. Hřeben střechy leží na hlavním evropském rozvodí. O kapli se od začátku stará spolek Matice radhošťská a stará se dobře. Dobrovolníci tu drží služby a za slušného počasí ji otevírají pro veřejnost.<br>Vedle kaple, trochu schovaná pod hřebenem, stála do 70. let skromná turistická chata U kaple. Vznikla z ubytovny dělníků při stavbě kaple a zbourali ji, když na jejím místě stavěli velmi necitlivě umístěnou telekomunikační věž. Ta násobně převyšuje výšku kaple a poněkud kazí vzhled vrcholu hory.<br>Sousoší Cyrila a Metoděje za kaplí vytvořil čechoamerický sochař Albín Polášek (1879 - 1965), rodák z Frenštátu. Zvolil bronz, jako ušlechtilý materiál, oproti kamennému Radegastovi. Svatý Cyril drží v ruce knihu a v ní je cyrilicí psán začátek Janova evangelia, Metoděj drží trojramenný byzantský kříž. U nohou věrozvěstů leží skolený pohanský bůžek na znamení vítězství křesťanství nad pohanstvím.  ",
+        },
+        {
+          foto: " 413Beskydy10.jpg  ",
+          popisek: " Kaple na Radhošti (červenec 2022) ",
+        },
+        {
+          foto: " 413Beskydy08.jpg  ",
+          popisek: " Svatí Cyril s knihou a Metoděj držící kříž ",
+        },
+        {
+          foto: " 413Beskydy07.jpg  ",
+          popisek: " Oltář vytvořil kroměřížský sochař Ferdinand Neumann.  ",
+        },
+        {
+          foto: " 413Beskydy09.jpg  ",
+          popisek: " Jedno z osmi vitrážových oken se sv. Ludmilou. ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Od kaple až po Pustevny je hřebenová trasa za pěkného počasí jedním velkým korzem výletníků, sem od parkovišť na Pustevnách dojde každý. S batohy nabalenými natěžko, holemi a pohorkami jsme tu jaksi nezapadali, připadal jsem si trochu jako vymřelý živočišný druh. Minuli jsme výstavný hotel Radegast a došli na místo, odkud byl v dubnu 1868 vylomen základní kámen č.1 do základů Národního divadla, největší z dvaceti základních kamenů, a slavnostně odvezen do Prahy. Ještě dále vede široká cesta k populární soše boha Radegasta. I tu vytvořil sochař Polášek, měla být protipólem pohanského boha k soše věrozvěstů. Obě sochy byly instalovány v roce 1931 a přivezlo je pětispřeží deseti koní. Sochař plánoval vytvoření pantheonu pohanských bohů, ale nakonec zůstalo jen u jednoho. Originál sochy byl z umělého kamene a protože trpěl rozmary počasí, musel být nahrazen žulovou kopií. Dále na skalnatém návrší stojí od roku 1894 vyhlídkový altán Cyrilka. ",
+        },
+        {
+          foto: " 413Beskydy12.jpg  ",
+          popisek: " Hotel Radegast postaven 1934-37  ",
+        },
+        { foto: " 413Beskydy13.jpg  ", popisek: " (červenec 2022) " },
+        {
+          foto: " 413Beskydy14.jpg  ",
+          popisek: " Kolem sochy Radegasta bývá plno lidí.  ",
+        },
+        {
+          foto: " 413Beskydy15.jpg  ",
+          popisek: " Vyhlídkový altán Cyrilka.  ",
+        },
+
+        {
+          textOdstavce:
+            "<p class='special'> Před šedesáti lety nás hnala bouřka, natlačili jsme se  tehdy před lijákem do chaty Maměnka, do sálu vyzdobeném sgrafity Mikoláše Alše. Tenkrát sloužil jako restaurační místnost. Na louce před historickými stavbami na Pustevnách bývalo v 60. letech turistické tábořiště. Bufety, stánky a restaurace na okraji lesa tam nebyly. Pamatuji si, že v roce 1969 jsme tam jednoho červencového večera s mnoha kamarády dorazili a uprostřed louky zabivakovali. To by dnes už neprošlo.</p>  ",
+        },
+        {
+          foto: " 413Beskydy16.jpg  ",
+          popisek: " Louka na Pustevnách (červenec 2022) ",
+        },
+        {
+          textOdstavce:
+            " Zajímavou stavbou uprostřed Pusteven je turistická útulna Šumná, dnes poněkud upozaděná barevnými Jurkovičovými chatami. Stála tu dříve než ony, už v roce 1894 ji dala postavit Pohorská jednota Radhošť, nejstarší česká turistická organizace u nás. Bohužel utrpěla zcela se nehodící přestavbou přední části. Ale nejstarší budovou je útulna Pustevňa z roku 1891, dnes spojená krčkem s Libušínem. ",
+        },
+        {
+          foto: " 413Beskydy18.jpg  ",
+          popisek: " Zadní trakt útulny Šumná (červenec 2022). ",
+        },
+        {
+          foto: " 413Beskydy04.jpg  ",
+          popisek: " Pamětní deska u původního vchodu.  ",
+        },
+        {
+          textOdstavce:
+            " Mladý slovenský architekt Dušan Jurkovič (1868 - 1948) navrhl pro Pustevny tři stavby. Útulny Libušín a Maměnka (stavěly se v letech 1897 - 1899 v národním slohu lidové secese) a po nich valašskou zvonici na spodním okraji louky. Dnes jsou všechny stavby obnoveny, z nápadných barev až zrak přechází. Jen zvonice si zachovala střízlivou nebarevnost.   ",
+        },
+        {
+          foto: " 413Beskydy17.jpg  ",
+          popisek: " Útulny Libušín a Maměnka (červenec 2022). ",
+        },
+        {
+          foto: " 413Beskydy04.jpg  ",
+          popisek: " Libušín shořel roku 2014, zrekonstruován 2020  ",
+        },
+        {
+          foto: " 413Beskydy04.jpg  ",
+          popisek: " Z opravené Maměnky je luxusní hotel.  ",
+        },
+        {
+          foto: " 413Beskydy04.jpg  ",
+          popisek: " Valašská zvonice. ",
+          naVysku: true,
+        },
+        {
+          textOdstavce:
+            " Za Pustevnami směrem k sedlu Tanečnica výletníků silně ubylo a bylo třeba myslet na nocleh. Vodu se nám podařilo nabrat z kaskády potoka, padajícího severním svahem Čertova mlýna. Skromné místo jsme našli na kraji lesní svážnice u bývalé skládky dřeva. Nebylo ideální, neradi spíme hned u cesty, ale nebylo na výběr - hnala se přeháňka.  ",
+        },
+        {
+          foto: " 413Beskydy24.jpg  ",
+          popisek: " Daleko široko jediné rovné místo.  ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/kuhapetumo" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/kuhapetumo  ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">Druhý den : čtvrtek 28. července 2022</h2>  ',
+        },
+
+        {
+          textOdstavce:
+            "<i> Skládka dřeva - sedlo Folvark - úbočí Kněhyně - sedlo Kněhyně - Čertův mlýn (1206 m) - Bukovina - Bařiny - Martiňák - Zadní Mečová - pod Kladnatou - údolí potoka Sergáč - přehrada na Horní Bečvě - Rališka - Janinova louka - Benešky. 21 km, 700 m převýšení. </i> ",
+        },
+        {
+          textOdstavce:
+            "Ráno jsme lesními svážnicemi vystoupali do úbočí Kněhyně a po značené pěšině šli do sedla pod Kněhyní. Tady už se pohybujeme na území Národní přírodní rezervace <span><a href='https://nature.hyperlink.cz/vsetinsko/Knehyne_Certuv_mlyn.htm' target='_blank' class='vnitrniOdkaz'>Kněhyně a Čertův mlýn</a></span> , kde je zakázáno se pohybovat mimo značenou pěšinu. Někde kvůli tomu přidělali i dřevěná zábradlí kolem cesty. V rezervaci přežívají chránění jeřábci, tetřev hlušec vyhynul vzdor veškeré ochraně přírody v 90. letech. Ochranáři to tu mají těžké. Lesy kolem rezervací mizí, kůrovec a sucho řádí, nápor turistického průmyslu v podhůří se zvyšuje. Před sto dvaceti lety tetřevy nikdo nechránil, markýz Gero na ně pořádal lovy, po lesích se pohybovalo množství dřevařů, pastevců a dalších (Maryčka Magdonova) a tetřevů neubývalo.  ",
+        },
+        {
+          foto: " 413Beskydy25.jpg  ",
+          popisek: " Tady jsme nabrali vodu.  ",
+          naVysku: true,
+        },
+        {
+          foto: " 413Beskydy26.jpg  ",
+          popisek: " Po lesní svážnici jsme došli…  ",
+          naVysku: true,
+        },
+        {
+          foto: " 413Beskydy27.jpg  ",
+          popisek: " ….ke značené pěšině obtáčející Kněhyni.   ",
+        },
+        { foto: " 413Beskydy28.jpg  ", popisek: "  (červenec 2022). " },
+        {
+          textOdstavce:
+            " V okolí sedla pod Kněhyní jsou čtyři pomníky, jeden patří lesníkovi a tři jsou partyzánské. Rezervace je tu vyhlášena od roku 1982. V 90. letech vedla na Kněhyni odbočka červené značky. Pak značku zrušili, ale pěšina zůstala, ještě před deseti lety se tam dalo dojít. A letos je cesta zahrazena bytelným zábradlím a zátarasem. Nechci vidět, co tu bude za dalších dvacet let. Dron s kamerou? Nebo rovnou s flintou? ",
+        },
+        {
+          foto: " 413Beskydy29.jpg  ",
+          popisek: " Pomník lesníkovi pod Kněhyní. ",
+        },
+        {
+          foto: " 413Beskydy30.jpg  ",
+          popisek:
+            " Pomník partyzánům. Tudy vedla pěšina na vrchol Kněhyně (červenec 2022). ",
+        },
+        {
+          textOdstavce:
+            " <p class='special'>Pod vrcholem Čertova mlýna je studánka, letos měla málo vody. K ní mám vzpomínku starou právě šedesát let. Náš vedoucí dbal na to, abychom měli aspoň jedno teplé jídlo denně. Tedy jeden z nás vlekl na zádech pětilitrový železný kotel a v něm se v poledne vařila polévka z toho, co kdo měl. Vznikaly neotřelé chutě. I na tomto místě jsme udělali z kamenů kruh, zapálili oheň a vařili na kamenech. Někdo ale dal k ohništi kámen vytažený z vody a to neměl dělat. Kámen praskl s výbuchem, kotel převrhl, polévku vylil, oheň uhasl a bylo po obědě. Od té doby vím, že mokré kameny k ohništi nepatří.</p>  ",
+        },
+        {
+          foto: " 413Beskydy32.jpg  ",
+          popisek: " Studánka pod Čertovým mlýnem (červenec 2022). ",
+        },
+        { foto: " 413Beskydy31.jpg " },
+        {
+          textOdstavce:
+            " Přes Martiňák jsme se posunuli k přehradě na Horní Bečvě. U ní jsme přečkali polední žár koupáním, vařením kávy a mírným lenošením. Až se slunce trochu sklonilo, vyrazili jsme opět vzhůru na hřeben Vsetínských vrchů.<br>Vodní dílo Horní Bečva se začalo stavět roku 1933. Má sypanou hráz vysokou 17 metrů, hloubka vody dosahuje až 13 metrů, plocha nádrže je 10 hektarů. Vedle je malá vodní elektrárna. Byla zbudována kvůli zabránění lokálním povodním, vyrovnávání průtoku v Rožnovské Bečvě a dnes hlavně slouží rekreaci. V šedesátých letech jsem tu strávil týden ve stanovém táboře. Kolem nestálo skoro nic. Dnes tu není kousek volné plochy, chaty, penziony, kempy, restaurace zabírají skoro všechno místo. Vše pospojováno asfaltkami. Výše pak začíná sjezdařský areál. Také jsme minuli rozlehlý autocamping. Auta, karavany, hluk a ještě to měli na šikmé louce. Nic pro nás, pryč odtud.   ",
+        },
+        { foto: " 413Beskydy33.jpg  ", popisek: " Přehrada na Horní Bečvě.  " },
+        { foto: " 413Beskydy34.jpg  ", popisek: " Dokonalá samota. " },
+        {
+          textOdstavce:
+            " Vystoupali jsme na Benešky a nezbylo než najít zašité místo na spaní. To se brzy podařilo. Za čtyři dny pohybu po frekventovaných horách jsme potkali šest nám podobných individuí, nesoucích si svůj nocleh na zádech. Mám pocit, že všude vyvěšené zákazy táboření ztrácejí význam, když tu stejně nikdo netáboří. Máme letité zkušenosti, že spát se dá skoro všude, kde je kousek rovného místa. Jde o  to zatábořit za šera a brzy ráno se sbalit, samozřejmě potichu, bez ohně a bez odpadků. Přesto si stále častěji na takových místech připadám jako psanec. ",
+        },
+        { foto: " 413Beskydy35.jpg  ", popisek: " Stan na Beneškách. " },
+        {
+          foto: " 413Beskydy36.jpg  ",
+          popisek: " Ranní výhled od stanu na hřeben Javorníků. ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="<iframe style="border:none" src="https://frame.mapy.cz/s/fuponaledo" width="400" height="280" frameborder="0"></iframe>" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/fuponaledo ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">Třetí den : pátek 29. července 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            "<i> Benešky - pod Vysokou - Člověčí - Leskoveček. Autobusem Velké Karlovice - Pod Kyčerou - Příschlop - Bukovina - Malý Javorník. 20 km, 700 m převýšení. </i> ",
+        },
+        {
+          foto: " 413Beskydy37.jpg  ",
+          popisek: " Hřebenem Vsetínských vrchů. ",
+        },
+        {
+          textOdstavce:
+            ' Hřebenem Vsackých vrchů jsme se brali východním směrem a před Vysokou odbočili na neznačenou jižní rozsochu Člověčí. Hned vysvětlím proč. Možná znáte jméno současného autora bestsellerů, publicistu Aleše Palána (nar.1965). Jeho kniha o šumavských samotářích  "Raději zešílet v divočině" získala titul Kniha roku v čtenářské anketě Lidových novin. V roce 2019 vydal další setkání se samotáři  "Jako v nebi, jenže jinak ". Jednou z hlavních postav v knize je paní Kateřina Provázková, která žije celý život na samotě Člověčí nad Karlovicemi. O svém bydlišti a životě promlouvá v knize tak zaníceně, že jsme se rozhodli se do těch míst podívat. Nebylo složité podle knihy vypátrat, ve kterém domě bydlí. Nechtěli jsme obtěžovat, říkali jsme si, že jen projdem okolo. To ale nešlo. Proběhlo setkání, jakých jsem zažil v životě jen málo.  ',
+        },
+        { foto: " 413Beskydy38.jpg  ", popisek: " Jsme na Člověčím " },
+        { foto: " 413Beskydy41.jpg  ", popisek: " Dům paní Provázkové " },
+        { foto: " 413Beskydy41.jpg  " },
+        {
+          textOdstavce:
+            '  Přišli jsme na krásnou louku s výhledem, nad loukou svítila nová kaplička, opravená chalupa vypadala z dálky jako podniková rekreace, což umocňoval nápadný nápis WC na stěně kůlny. Ledva jsem shodil batoh ze zad, že si stavbu vyfotím, vyšla z domu osmdesátiletá čiperná paní a se slovy  "turisti přišli, vitajtě na Člověčím, ja sem Katka" nám tiskla ruce a zvala dovnitř. Po chvíli jsme se osmělili, dostali pivo a začal dlouhý rozhovor. Ani chvíli jsme neměli pocit, že bychom přišli nevhod nebo překáželi. Tak otevřenou povahu člověk jen tak nepotká. Prozradila i to, co v knize nebylo, dozvěděli jsme se jak se žilo a žije na samotách, o dětech, o široké rodině, o sousedech, o zvířatech domácích i divokých, o spisovateli Palánovi, o budování příjezdové cesty, která tam končí, o stavbě kapličky nad chalupou. Vysvětlil se i nápis WC. Nedávno tu měli velkou slávu, svěcení kapličky, odložené kvůli covidu. Přišlo 200 návštěvníků, bylo třeba pamatovat na všechny potřeby.  ',
+        },
+        { foto: " 413Beskydy39.jpg  ", popisek: " Přišla paní Katka. " },
+        { foto: " 413Beskydy40.jpg  ", popisek: " (červenec 2022) " },
+        {
+          foto: " 413Beskydy43.jpg  ",
+          popisek: " Chalupa je obrácená k jihu. ",
+        },
+        {
+          textOdstavce:
+            "  Paní Katka nám jen tak mezi řečí prozradila, že naši návštěvu čekala, vysvětlila, jak aktivuje semena rostlin a ty pak krásně rostou. Viděli jsme na zahrádce. Tedy je trochu vědma, bosorka. Docela tomu věřím, u lidí, kteří žijí celý život v přírodě sami na kotárech, se mohou vyvinout schopnosti, o kterých my z elektrifikovaných betonových džunglí nevíme nic. Elektřinu už na Člověčím několik let mají, předtím zkoušeli i větrnou elektrárnu. Bylo třeba se rozloučit. Ještě jsme poseděli u kapličky, odkud jsou prý vidět i Tatry a s mnoha ohlíženími opouštěli místo velké duchovní síly. Kolem dalších samot a bez cest došli do Leskového, odkud jsme si cestu zkrátili autobusem. ",
+        },
+        { foto: " 413Beskydy44.jpg  ", popisek: " Nastal čas se rozloučit. " },
+        {
+          foto: " 413Beskydy42.jpg  ",
+          popisek: " Kaplička nad samotou. ",
+          naVysku: true,
+        },
+        { foto: " 413Beskydy46.jpg  ", popisek: " (červenec 2022) " },
+        { foto: " 413Beskydy47.jpg  ", popisek: " Dlouho jsme se ohlíželi." },
+        {
+          foto: " 413Beskydy48.jpg  ",
+          popisek: " Cestou necestou do Karlovic.",
+        },
+        {
+          textOdstavce:
+            " Kávou a pivem jsme se posilnili na výstup z Karlovic na hřeben Javorníků. Vyšel zrovna na dobu největšího slunečního úpalu. Tedy jsme na výhledu nad Velkými Karlovicemi vleže přemítali, jak se zdejší kraj rychle mění. Stovky soukromých chalup, chat, penzionů a v nich tisíce návštěvníků, rekreantů, dovolenkářů. Není divu, že jich je přes den na hřebenech plno. Před desátou tam nepotkáte nikoho. Příčinu vidím v ohromném zbohatnutí společnosti, zvláště v posledních pětadvaceti letech. Dnes pomalu neexistuje rodina bez auta a auto dojede skoro všude. Většina národa si může zaplatit tuzemskou dovolenou - mají na to. Pohyb po horských chodnících se za šedesát let zdesateronásobil. Heslo dne je “kudy z nudy” - vymyslet ještě více atrakcí, přitáhnout ještě více lidí na hory a vytáhnout z nich další korunky. ",
+        },
+        { foto: " 413Beskydy49.jpg  ", popisek: " Nad Velkými Karlovicemi " },
+        { foto: " 413Beskydy50.jpg  " },
+        { foto: " 413Beskydy51.jpg  " },
+        { foto: " 413Beskydy52.jpg  " },
+        { foto: " 413Beskydy53.jpg  ", popisek: " (červenec 2022) " },
+        { foto: " 413Beskydy54.jpg  ", popisek: " Pramen pod Gigulou " },
+        {
+          textOdstavce: " Na hřeben jsme došli v sedle Bukovina. ",
+        },
+        {
+          textOdstavce:
+            " <p class='special'>Pamatuji před šedesáti lety, že jsme se bez cesty vyškrábali na hřeben někde u Stratence, udělali oheň a vařili polévku. Tehdy tam nestálo vůbec nic, ani kříže, natož rozhledna. Celý hřeben až po Malý Javorník byl holý, travnatý, s výhledy na Valašsko i Slovensko. Pásly se tam ovečky a panující idyla na mě dělala velký dojem.</p>    ",
+        },
+        {
+          textOdstavce:
+            "Brzy se ale pást přestalo a následně louky zalesnili smrkovou monokulturou. Ale stromky byly dlouho nízké, v zimě mizely pod sněhem a výhledy zůstávaly. Teď už není výhled ani z Malého Javorníku, vše zarostlo smrčinou. Zato se po hřebenovce prohání spousta cyklistů, polovina na horských elektrokolech. Na Portáši mají veřejnou nabíjecí stanici. Začátkem sedmdesátých let uskutečnili čtyři kamarádi z našeho společenství Brněnské chasy přejezd hřebene Javorníků z Kasáren na Portáš na běžných cestovních kolech. Předběhli dobu, do vynálezu horského kola v Kalifornii chybělo ještě nejméně pět let a u nás se první bajky objevily až na konci osmdesátek. Tam, kde dnes jezdí sta cyklistů, byli prvními vlaštovkami. Protijdoucí výletníky překvapili otázkou: Nemáte s sebou náhodou klíč osmičku? ",
+        },
+        {
+          textOdstavce:
+            " Zatábořili jsme pod Malým Javorníkem, sice v lese, ale na hřebeni. Proto  jsem se v následující večerní bouřce necítil moc dobře. Ale naštěstí šla bokem. Táboření ve zdravém, vysokém smrkovém lese se stává kvůli smrkové kalamitě stále větší vzácností. Sem, jak se zdá, kalamita ještě nedorazila.   ",
+        },
+        {
+          foto: " 413Beskydy55.jpg  ",
+          popisek: " Stanujem pod Malým Javorníkem. ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/nohunusuze" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/nohunusuze  ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">Čtvrtý den : sobota 30. července 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            "<i> Malý Javorník - pramen Marikovského potoka - Frňovské sedlo - Stolečný vrch - Portáš - Kohútka - U kříže - Provazné. 9 km.</i> ",
+        },
+        {
+          textOdstavce:
+            " Mezi Malým Javorníkem a Portášem se zachovalo pár ostrůvků původního bukového pralesa. Některé jsou chráněné v přírodní rezervaci <span><a href='https://nature.hyperlink.cz/vsetinsko/Maly_Javornik.htm' target='_blank' class='vnitrniOdkaz'>Malý Javorník</a></span>.",
+        },
+        { foto: " 413Beskydy56.jpg  " },
+        { foto: " 413Beskydy57.jpg  ", naVysku: true },
+        { foto: " 413Beskydy58.jpg  ", naVysku: true },
+
+        {
+          textOdstavce:
+            "  Poblíž Frňovského sedla jsme narazili na nový pomníček Daniela Janečky. Podařilo se dohledat, že byl ze Vsetína, byl výkonným cyklistou, zemřel náhle a nečekaně 12. 6. 2021 ve věku 51 let. Důvod, proč je pomníček právě tady, nevím, byly by to jen spekulace. Ještě jedna barevná věc nás provázela po pohraničním hřebenu. Čerstvě omalované hraniční kameny s nápisy C a S. Kameny tu zůstaly z doby Slovenského štátu, kdoví, jestli zde nestály ještě dříve za časů Horních Uher, měnilo se jen označení. Před šedesáti lety jsme si jich všimli a divili se, proč tam jsou, nápisy byly ale jiné.  ",
+        },
+        {
+          foto: " 413Beskydy59.jpg  ",
+          popisek: " Pomníček Daniela Janečky (červenec 2022). ",
+        },
+        { foto: " 413Beskydy60.jpg" },
+
+        {
+          textOdstavce:
+            " Na Portáši už bylo živo, byla sobota. Kávě a pivu nešlo odolat. Před šedesáti lety tu byla poměrně mladá chata, nazývající se horský hotel. Postavená v roce 1932 a za první republiky byla trochu nóbl, pořádali tu i plesy.",
+        },
+        {
+          textOdstavce:
+            " <p class='special'> O třicet let později jsme tu spali dvě noci ve stanovém táboře, postaveném na plošince směrem ke Stolečnému vrchu. Kolem žádné šlepry, lanovky, auta, jen louky. V odpočinkovém dni jsme se dost nadřeli. Ráno nás správce tábora vybavil železnou konví na mléko a poslal na slovenskou stranu do Ráztoky koupit od selky mléko. Dolů to šlo rychle, ale nahoru jsme se s těžkou konví neskutečně nadřeli, i když jsme se s nesením střídali. Zato jsme poznali zapadlý kraj slovenského venkova, kde se ještě žilo po starodávnu. Odpoledne jsme pak zaběhli nakoupit si jídlo do Nového Hrozenkova, ten byl civilizačně na úplně jiné úrovni.</p>   ",
+        },
+        {
+          foto: " 413Beskydy61.jpg  ",
+          popisek: " Tady vlevo jsme roku 1962 stanovali ",
+        },
+        {
+          foto: " 413Beskydy62.jpg  ",
+          popisek:
+            " Horský hotel Portáš je čerstvě obložen dřevem. (červenec 2022) ",
+        },
+        {
+          foto: " 413Beskydy70.jpg  ",
+          popisek: " Portáš na pohlednici z roku 1962 ",
+        },
+
+        {
+          textOdstavce:
+            " Kolem chaty Kohútka je to silně zastavěno. Soukromé chaty jsou na slovenské straně hřebene, vleky a lanovky jen z moravské strany. Ze Slovenska na Moravu tu vede asfaltová silnice a je to silně poznat. Chaty končí až na rozcestí U kříže. ",
+        },
+        {
+          foto: " 413Beskydy63.jpg  ",
+          popisek: " Zleva Smrk, Malý Smrk, Lysá hora, Travný. ",
+        },
+        {
+          foto: " 413Beskydy64.jpg  ",
+          popisek: " Zátiší u Kohútky (červenec 2022) ",
+        },
+        { foto: " 413Beskydy65.jpg  ", popisek: " U kříže. " },
+        {
+          textOdstavce:
+            " Za Kohútkou se začalo počasí měnit. Místo včerejšího spalujícího vedra nastoupilo mírné mrholení, což byla vítaná změna. Mrholení ale přecházelo v déšť a tak jsme se zavčasu rozhodli postavit tropiko-stříšku stanu, dokud bylo v lese sucho a počkat, až ta přeháňka přejde. Jenže ona nepřecházela a déšť sílil. Po pár hodinách čekání bylo po obědě jasné, že odtud hned tak neodejdem, taky nám začala být pod stříškou zima. Tedy jsme natáhli i vnitřní stan, rozbalili spacáky a spali a spali. Ve stanu bylo dobře, ale venku se  ochladilo, začalo foukat a padla mlha jak v listopadu. Později jsme se dočetli, že na srážkoměrných stanicích v Rožnově naměřili 80 mm a na Lysé 120 mm vody. To už nastávají na beskydských řekách povodňové stavy.  ",
+        },
+        {
+          foto: " 413Beskydy66.jpg  ",
+          popisek: " Nouzové stanování u rozcestí Provazné. ",
+        },
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/hevepogohe" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/hevepogohe  ",
+        },
+
+        {
+          textOdstavce:
+            '  <h2 class="podnadpis">Pátý den : neděle 31. července 2022</h2>  ',
+        },
+        {
+          textOdstavce:
+            "<i> Provazné - Nad Březinou - po svážnici - Halenkov žel.st. 7 km. </i> ",
+        },
+        {
+          textOdstavce:
+            " Lilo celou noc a ani ráno nechtělo přestat. Stan Husky Flame máme už dvanáctou sezónu, zažil hodně a nejlepší léta má už za sebou. Na Lídu začalo kapat a bylo potřeba se zmáčknout. V poledne jsme naznali, že plán dojít na Pulčínské skály a do Lidečka se stal neuskutečnitelným. Po 27 hodinách čím dál nepohodlnějšího ležení jsme to vzdali. Začali jsme balit.<br>Rušit tábor v dešti tak, aby věci v batohu i na sobě zůstaly suché, považuji za vysokou školu turistického umění. Vyhýbáme se tomu, jak to jde, ale tady nebylo zbytí. Pak jsme stálým deštěm sešli k vlaku do Halenkova. Ještě štěstí, že Beskydy jsou hory, odkud je do civilizace odevšad jen kousek. U Meziříčí jsme z vlaku pozorovali ostrou hranici mraků nad námi, na východ v Beskydech dál pršelo a rozvodňovaly se říčky, na západ bylo jasno. ",
+        },
+        { foto: " 413Beskydy67.jpg " },
+        {
+          textOdstavce:
+            " <p class='special'>V roce 1962 nám to z Rožnova do Halenkova trvalo o den déle než letos. Ale pamatuji si, že udeřila velká vedra a vedoucí rozhodl,že další přesuny se budou dít hlavně vlakem. Došli jsme ještě do Lidečka, na Pulčinské skály a do Valašské Polanky. Kolem přehrady na Bystřičce jsme chodili bez batohů a skončili jsme jedenáctý den ve Valašském Meziříčí.</p>  ",
+        },
+
+        {
+          kodMapa:
+            ' <iframe style="border:none" src="https://frame.mapy.cz/s/nakobezovo" width="400" height="280" frameborder="0"></iframe>  ',
+          odkazMapa: " https://frame.mapy.cz/s/nakobezovo  ",
+        },
+      ],
+    },
   ],
 };
