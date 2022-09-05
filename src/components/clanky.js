@@ -21903,7 +21903,7 @@ export default {
           popisek: " Zadní trakt útulny Šumná (červenec 2022). ",
         },
         {
-          foto: " 413Beskydy04.jpg  ",
+          foto: " 413Beskydy19.jpg  ",
           popisek: " Pamětní deska u původního vchodu.  ",
         },
         {
@@ -21915,15 +21915,15 @@ export default {
           popisek: " Útulny Libušín a Maměnka (červenec 2022). ",
         },
         {
-          foto: " 413Beskydy04.jpg  ",
+          foto: " 413Beskydy20.jpg  ",
           popisek: " Libušín shořel roku 2014, zrekonstruován 2020  ",
         },
         {
-          foto: " 413Beskydy04.jpg  ",
+          foto: " 413Beskydy21.jpg  ",
           popisek: " Z opravené Maměnky je luxusní hotel.  ",
         },
         {
-          foto: " 413Beskydy04.jpg  ",
+          foto: " 413Beskydy22.jpg  ",
           popisek: " Valašská zvonice. ",
           naVysku: true,
         },
@@ -22029,7 +22029,7 @@ export default {
             ' Hřebenem Vsackých vrchů jsme se brali východním směrem a před Vysokou odbočili na neznačenou jižní rozsochu Člověčí. Hned vysvětlím proč. Možná znáte jméno současného autora bestsellerů, publicistu Aleše Palána (nar.1965). Jeho kniha o šumavských samotářích  "Raději zešílet v divočině" získala titul Kniha roku v čtenářské anketě Lidových novin. V roce 2019 vydal další setkání se samotáři  "Jako v nebi, jenže jinak ". Jednou z hlavních postav v knize je paní Kateřina Provázková, která žije celý život na samotě Člověčí nad Karlovicemi. O svém bydlišti a životě promlouvá v knize tak zaníceně, že jsme se rozhodli se do těch míst podívat. Nebylo složité podle knihy vypátrat, ve kterém domě bydlí. Nechtěli jsme obtěžovat, říkali jsme si, že jen projdem okolo. To ale nešlo. Proběhlo setkání, jakých jsem zažil v životě jen málo.  ',
         },
         { foto: " 413Beskydy38.jpg  ", popisek: " Jsme na Člověčím " },
-        { foto: " 413Beskydy41.jpg  ", popisek: " Dům paní Provázkové " },
+        { foto: " 413Beskydy45.jpg  ", popisek: " Dům paní Provázkové " },
         { foto: " 413Beskydy41.jpg  " },
         {
           textOdstavce:
