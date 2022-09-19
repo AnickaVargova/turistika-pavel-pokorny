@@ -21888,7 +21888,7 @@ export default {
 
         {
           textOdstavce:
-            "<p class='special'> Před šedesáti lety nás hnala bouřka, natlačili jsme se  tehdy před lijákem do chaty Maměnka, do sálu vyzdobeném sgrafity Mikoláše Alše. Tenkrát sloužil jako restaurační místnost. Na louce před historickými stavbami na Pustevnách bývalo v 60. letech turistické tábořiště. Bufety, stánky a restaurace na okraji lesa tam nebyly. Pamatuji si, že v roce 1969 jsme tam jednoho červencového večera s mnoha kamarády dorazili a uprostřed louky zabivakovali. To by dnes už neprošlo.</p>  ",
+            "<p class='special'> Před šedesáti lety nás hnala bouřka, natlačili jsme se  tehdy před lijákem do chaty Libušín, do sálu vyzdobeném sgrafity Mikoláše Alše. Tenkrát sloužil jako restaurační místnost. Na louce před historickými stavbami na Pustevnách bývalo v 60. letech turistické tábořiště. Bufety, stánky a restaurace na okraji lesa tam nebyly. Pamatuji si, že v roce 1969 jsme tam jednoho červencového večera s mnoha kamarády dorazili a uprostřed louky zabivakovali. To by dnes už neprošlo.</p>  ",
         },
         {
           foto: " 413Beskydy16.jpg  ",
@@ -22191,6 +22191,276 @@ export default {
           odkazMapa: " https://frame.mapy.cz/s/nakobezovo  ",
         },
       ],
+    },
+
+    {
+      id: 414,
+      kategorie: "pomnicky",
+      pridano: " 06/09/2022 ",
+      podkategorie: 6,
+      druh: " Usmrcení bleskem  ",
+      okres: " Třebíč ",
+      obec: "  Mohelno  ",
+      jmeno: " Hlavatý, Stanislav  ",
+      nazev: " Kříž Stanislava Hlavatého  ",
+      fotkaUvod: { fotka: " 414Hlavaty1.jpg " },
+      kdyVznikl: "  ",
+      popisCesty:
+        " Kříž stojí 800 metrů na Z od kostela v Mohelně, u cesty obcházející po poli rybník Suchánek.  ",
+      popis:
+        "  Žulový kříž z leštěného kamene je vysoký 2,2 metru. Z přední strany ho zdobí kovový Kristus a reliéf Panny Marie. Pod reliéfem je fotka kluka u prvního přijímání a nápis.   ",
+      napis:
+        " NA  TOMTO  MÍSTĚ // BYL  USMRCEN  BLESKEM //  STANISLAV  //  HLAVATÝ  // 6. 3. 1934 // + 13. 4. 1945  ",
+      naposledObnoveno: " 6.9.2022 ",
+      souradnice: "  49.1152214N, 16.1813011E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/rehuvusaro" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/rehuvusaro  ",
+      galerie: [
+        {
+          fotka: " 414Hlavaty2.jpg",
+          popisek: " Kříž Stanislava Hlavatého (duben 2022) ",
+        },
+        { fotka: " 414Hlavaty3.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: " 414Hlavaty4.jpg",
+          popisek: " Detail fotky na kříži(duben 2022) ",
+        },
+      ],
+      proMe: " XX/1211  24-332-77  22—046  ",
+    },
+
+    {
+      id: 415,
+      kategorie: "pomnicky",
+      pridano: " 14/09/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: "  Padochov  ",
+      jmeno: " Šurinka  ",
+      nazev: " Kámen zavražděné Marie Šuré  ",
+      fotkaUvod: { fotka: " 415Surinka1.jpg " },
+      kdyVznikl: " po roce 1919 ",
+      popisCesty:
+        " Kámen leží 500 metrů SSV od kapličky v Padochově, u cesty na kraji lesa. Kolem vede zelená značka. ",
+      popis:
+        "  Obdélníkový kámen je vysoký asi jeden metr. Na přední straně je vyryt křížek a pod ním text neumělými písmeny.  ",
+      napis:
+        " (opsáno s chybami) Zastav kroky svoje poutníče // a uvažuj. // Pečlivou matku ve hrob // sklátila zde // vražedná ruka synova // 24. března 1919. // synu pročjsito učinil // mě života zbavil? // Pečlivou matkou jsem byla // v lásce tebe vychovala //  ",
+      odkazy: [{ nazev: " Oslavanský zpravodaj 2019, č. 4, str. 18 - 19. " }],
+      pozn:
+        " Oslavanští regionální vlastivědci našli ve zbýšovské matrice zápis ze 31. 3. 1919, že Marie Šurá byla zavražděna roztříštěním lebky. Také se jim podařilo vyslechnout poslední pamětníky zločinu.<br>Paní Marie Šurá (1869 - 1919) byla šestým rokem vdovou po havíři. Žila ve Zbýšově v domě č.p. 110 se svými třemi dětmi, Annou, Janem a Rudolfem. Jako vdově ji úřady zařídily trafiku ve Zbýšově. V pondělí 31. března 1919 její třiadvacetiletý syn Jan vzal sekeru a odešel do lesa na dřevo. Věděl, že matka půjde do Ivančic pro zásoby kuřiva a ponese s sebou tržbu. Počkal si na ni v lese u Padochova a zasadil jí smrtelnou ránu sekerou do hlavy. Důvodem nebyla jen loupežná vražda, ale i silné rodinné rozepře. Matka se netajila tím, že chce přepsat jejich dům na prvorozenou dceru Annu. Když vrah u potoka umýval vražedný nástroj, potkal ho tam Josef Man z Padochova. Ten pak uviděl na kraji lesa i oběť vraždy a protože oba znal, vyvolal v Padochově poplach. Vraha chytili, svázali a zavolali četníky. Další osudy Jana Šurého nejsou zcela jasné.<br>Rozpor je v datu události na desce a v matrice, věrohodnější je matrika, protože památník mohl vzniknout s odstupem času. Pamětní desce říkají v Padochově Šurinka, dlouho nikdo nevěděl proč.  ",
+      naposledObnoveno: " 14.9.2022 ",
+      souradnice: "  49.1398314N, 16.3563292E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/honomutepa" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/honomutepa  ",
+      galerie: [
+        {
+          fotka: "  415Surinka2.jpg",
+          popisek: " Památník Šurinka u Padochova (březen 2022) ",
+        },
+        { fotka: "  415Surinka3.jpg", popisek: " (březen 2022) " },
+      ],
+      proMe: " XX/1185  24-341-61  22—031  ",
+    },
+
+    {
+      id: 416,
+      kategorie: "pomnicky",
+      pridano: " 14/09/2022 ",
+      podkategorie: 5,
+      druh: " Válečné  ",
+      okres: " Třebíč ",
+      obec: "  Kuroslepy  ",
+      jmeno: " Kameník Štěpánek  ",
+      nazev: " Památka na kameníka Jaroslava Štěpánka z Březníka.  ",
+      fotkaUvod: { fotka: " 416Stepanek1.jpg " },
+      kdyVznikl:
+        " V květnu 2015, ke vzpomínce na neštěstí a k 70. výročí ukončení 2. světové války zbudovalo šest občanů z Březníka.  ",
+      popisCesty:
+        " Kříž stojí 700 metrů SV od hájenky Zamazalky u cesty, na pravém břehu Chvojnice, naproti Kozím hřbetům, pod skalní stěnou.  ",
+      popis:
+        "  Nově zbudovaný kříž z ocelových tyčí je vysoký dva metry. Kryje ho plechová stříška a tkví v základu z kamenů spojených betonem. Na kříži je kovový Kristus, tabulka s vlastivědným textem, plechový štít s nápisem a oválná fotografie kameníka.  ",
+      napis:
+        " DNE  2. 4. 1946 // ZDE  TRAGICKY  ZAHYNUL // FRANTIŠEK // ŠTĚPÁNEK // KAMENÍK Z BŘEZNÍKA  Č. 55 // NAROZEN  12. 10. 1895 // …  ",
+      pozn:
+        " František Štěpánek (1895 - 1946) byl lamač kamene z Březníka. Po válce lámal kámen v lomu Kolečko v údolí Chvojnice. K trhacím pracím používal střelný prach z nábojů zbylých po ustupující německé armádě. Sbíral, odvážel a ukládal střelivo z okolí obce, doma pod postelí prý měl 26 dělostřeleckých granátů. Tím zabránil možnému zmrzačení a ztrátě životů lidí po válce. Manipulace s municí se mu ale stala osudnou. Při neopatrné demontáži dělostřeleckého náboje došlo k výbuchu. Tělo jedenapadesátiletého kameníka bylo roztrháno a rozmetáno do okolí.   ",
+      naposledObnoveno: " 14.9.2022 ",
+      souradnice: "  49.1632825N, 16.2261483E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/pafosukehu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/pafosukehu  ",
+      galerie: [
+        {
+          fotka: " 416Stepanek2.jpg",
+          popisek: "Památka na kameníka Štěpánka (duben 2022) ",
+        },
+        { fotka: " 416Stepanek3.jpg", popisek: " (duben 2022) " },
+        {
+          fotka: " 416Stepanek4.jpg",
+          popisek: " Detail nápisu na štítu (duben 2022) ",
+        },
+      ],
+      proMe: " XX/1193  24-332-72  22—042  ",
+    },
+
+    {
+      id: 417,
+      kategorie: "pomnicky",
+      pridano: " 15/09/2022 ",
+      podkategorie: 3,
+      druh: " Letecké nehody  ",
+      okres: " Blansko ",
+      obec: "  Senetářov  ",
+      jmeno: " Sigmund, Jaroslav  ",
+      nazev: " Pomníček letce Sigmunda u Kotvrdovic.  ",
+      fotkaUvod: { fotka: "  417Sigmund2.jpg " },
+      kdyVznikl:
+        " Po roce 1954. Pomníček údajně pořídila rodina poručíka Sigmunda, jméno druhého zahynulého pilota tu není uvedeno. Podivné. ",
+      popisCesty:
+        " Pomníček se nachází na J od Kotvrdovic, 300 metrů od kraje lesa, na rozhraní porostů. Je nenápadný a hledá se těžce. 70 metrů od něj má kříž hajný Pernica. ",
+      popis:
+        "  Na kamenném základu stojí hranol ve tvaru klínu a na něm je připevněna nerezová tabulka se znakem letectva a textem. Pomníček je vysoký jen 0,6 metru.   ",
+      napis:
+        " Zde tragicky zahynul // DNE 16. 4. 1954 // letec por. // SIGMUND  JAROSLAV // nar. 13. 12. 1932  ",
+      odkazy: [
+        {
+          nazev: " vets ",
+          adresa: " https://www.vets.cz/vpm/33374-pomnik-jaroslav-sigmund/ ",
+        },
+        {
+          nazev: " Letecká badatelna  ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/131/ ",
+        },
+        {
+          nazev: " Pomníky letců  ",
+          adresa:
+            " https://www.pomnikyletcu.cz/clanky/pomniky-letcu/ceska-republika/ceskoslovenske-letectvo/ceskoslovenske-letectvo-1945---1992/pomniky-leteckych-katastrof/16.4.1954---cs--199-kotvrdovice.html ",
+        },
+      ],
+      pozn:
+        "  Na Velký pátek 16. dubna 1954 před 16. hodinou vzlétla z prostějovského vojenského letiště dvoučlenná posádka ve složení instruktor poručík Jaroslav Sigmund a pilot žák četař Josef Kratochvíl. Jejich úkolem byl seznamovací let v prostoru letiště. Po 16. hodině ale došlo k prudké změně počasí a letoun se dostal do sněhové přeháňky. Instruktor neprošel výcvikem létání podle přístrojů a situaci nezvládl. Stroj se propadl do vývrtky a narazil v ostrém úhlu do lesa jižně od Kotvrdovic. Letadlo bylo zcela zničeno a oba piloti zahynuli. Na místě vznikl kráter a v něm změť plechů a trubek. První k němu doběhla skupinka vyděšených kluků z Kotvrdovic, po nich další lidé. Jakmile přijeli vojáci, celý prostor uzavřeli.<br>Cvičný letoun CS 199, ve kterém oba piloti letěli, byl smontován v Avii Čakovice z dílů německých letadel zbylých po válce. Podobal se Messerschmittu a motor měl z bombardéru. Horší letové vlastnosti letadla než měl původní Messerschmitt  se ale při nehodě nijak neprojevily.   ",
+      naposledObnoveno: " 15.9.2022 ",
+      souradnice: "  49.3443853N, 16.7861975E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hocofazuka" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hocofazuka  ",
+      galerie: [
+        {
+          fotka: "  417Sigmund1.jpg",
+          popisek: " Pomníček letce Sigmunda (únor 2021) ",
+        },
+        { fotka: "  417Sigmund2.jpg", popisek: " (únor 2021) " },
+        { fotka: "  417Sigmund3.jpg", popisek: " Detail tabulky (únor 2021) " },
+      ],
+      proMe: " XX/1128  24-411-137  21—025  ",
+    },
+
+    {
+      id: 418,
+      kategorie: "pomnicky",
+      pridano: " 17/09/2022 ",
+      podkategorie: 3,
+      druh: "  Letecké nehody, válečné  ",
+      dveId: true,
+      okres: " Brno - venkov ",
+      obec: " Tišnov   ",
+      jmeno: " Letci USA - Tišnov  ",
+      nazev: " Pomník zachráněné posádce Liberátoru u Tišnova.  ",
+      fotkaUvod: { fotka: " 418AmPiloti2.jpg " },
+      kdyVznikl:
+        " 1997. Pomník byl zbudován nákladem bývalého partyzána Jaroslava Skoupého. Slavnostně odhalen 9. května 1997 za účasti zachráněného letce Armanda Carlina a vojenského atašé USA v Praze. Pomník nestojí na místě dopadu letadla, ale na nejbližším vhodném místě. Letadlo dopadlo na pole od něho vzdálené asi 500 metrů SZ, mezi Tišnov, Březinu a Hradčany. V roce 1996 byly jeho zbytky nalezeny a vykopány ze země. ",
+      popisCesty:
+        "  Pomník stojí 400 metrů SZ od železniční zastávky Hradčany, v ulici Olbrachtova, nedaleko železničního podjezdu. Vedle je objekt Hasičského sboru. V době zřízení pomníku nebyla tato místa zastavěna  sídelní kaší jako nyní. V čase události tu byla pole mezi třemi obcemi, neexistovala ani silnice, ani železniční trať.  ",
+      popis:
+        " Lomový kámen trojúhelníkového tvaru je vysoký jeden metr. Na čelní stěně je kovový kulatý znak 15. letecké armády USAF a kovová deska s dlouhým textem a jmény osmi zachráněných amerických letců. Pomník připomínající událost, která skončila dobře, je vzácnou raritou.  ",
+      napis:
+        " 17. DUBNA 1945  V  0.30 H. DOPADL  NEDALEKO // ODTUD  HOŘÍCÍ  AMERICKÝ  ZÁSOBOVACÍ // LETOUN  LIBERATOR  B-24 // S NÁKLADEM  ZBRANÍ  PRO  ČS. ODBOJ. // PADÁKY  ZACHRÁNILY  POSÁDKU  PŘED // PLAMENY, ČEŠTÍ A ESTONŠTÍ  PARTYZÁNI // S OBĚTAVOU  POMOCÍ  VESNICKÉHO // OBYVATELSTVA  PŘED  NEPŘÍTELEM // … // TIŠNOV   1997   ",
+      odkazy: [
+        {
+          nazev: " Letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/219/ ",
+        },
+        {
+          nazev: " Voj.hist.ústav  ",
+          adresa:
+            " http://www.vhu.cz/letajici-neporadek-mel-stesti-v-nestesti/ ",
+        },
+        { nazev: " Kopečný,Petr a Krejčí, Karel : Da capo al fine. 2002. " },
+        { nazev: " Vlastivědný věstník moravský, roč. 1984, č.1, str. 14-18 " },
+      ],
+      pozn:
+        "  Bombardér B-24 Liberator patřil k páteři amerického bombardovacího letectva. Měl dolet 6000 km, rozpětí křídel 31 metrů, vážil prázdný 17 tun, vzletová hmotnost byla až 30 tun. Sestřelený stroj u Tišnova byl upraven na přepravu nákladu a byl to jeho 26. let s nákladem na území nepřítele. Posádka si ho překřtila na “Flying rumor” což někteří překládají jako Létající nepořádek, jiní správněji jako Létající latrína. Ta tam byla ostatně vymalována, jinak byl povrch letadla tmavě olivový - kvůli letům v temnotě.<br>Bombardér vystartoval večer 16. dubna 1945 z Livorna v Itálii na dlouhý let do Protektorátu. Na palubě byla osmičlenná posádka a náklad zbraní pro odboj. Jejich shoz byl dohodnut na cílovou plochu Kamna u Maršova. Tam je čekalo 28 mužů partyzánského oddílu Delta s povozy. Let na Moravu proběhl bez problémů a s pomocí rádiového naváděcího zařízení našli cílovou plochu. Když kroužili a snášeli se níže, zaměřil je radarem německý noční stíhač, přiblížil se k nim zespodu a zahájil kulometný útok. Pro bombardér byl fatální, trup a křídlo byly proděravěny. Začal hořet motor, zhaslo světlo a systémy k ovládání letadla přestaly fungovat. Nastal čas opustit nefunkční letadlo. Byl to poslední sestřel bombardéru na našem území. Neřízený letoun obkroužil smyčku nad Tišnovem a po nárazu do země explodoval a začal hořet.<br>Všem osmi letcům se podařilo vyskočit a na padácích se snesli na pole a lesy od Lažánek po Březinu. Zachránili  je místní obyvatelé. Desítky z nich je s nasazením života ukryli, zásobovali a předali místním odbojovým skupinám, u kterých se dočkali po 22 dnech ukrývání a přemísťování osvobození Tišnovska. Kniha “Da capo al fine” detailně popisuje jejich dramatické osudy v oněch dnech. Po osvobození se přesunuli do Brna, setkali se s prezidentem Benešem, následovala cesta do Prahy a k americké armádě v Plzni.<br>Po válce se osudy letců rozešly a po roce 1948 ustal i písemný styk s jejich pomocníky u nás. V padesátých letech bylo nebezpečné dopisovat si s vojáky nepřátelské mocnosti. Korespondence byla obnovena až po padesáti letech, kdy byli bývalí letci pozváni do míst, kde jim zachránili životy. V roce 1995 z nich žilo ještě pět, do Tišnova nakonec dorazil jen jediný, bombometčík Armando Carlino. S velkou slávou a pozorností přijel na několik dní v květnu 1997 a účastnil se odhalení pomníku. O rok později se při cestě do Evropy zastavil na tři dny v Tišnově navigátor Robert Beach s manželkou. V roce 2002 už žili jen dva ze zachráněných Američanů.<br>S odstupem času lze konstatovat, že američtí letci měli neuvěřitelné štěstí. Nezranil je kulometný útok německého stihače, všem se podařilo vyskočit z letounu a dopadnout v pořádku na zem. Letoun se zaryl do země špicí k Brnu, což zmátlo německé komando, které je hledalo napřed na západ od Tišnova a tím jim dalo několik dní náskoku. Všichni narazili na obětavé pomocníky, i když ne hned. Mezi pomahači nebyl žádný konfident, i když o jejich přítomnosti věděly desítky lidí. A konec války byl v dohledu, i když tehdy nevěděli, kdy a jak nastane. Jiné posádky sestřelených bombardérů na území Protektorátu takové štěstí neměly.    ",
+      naposledObnoveno: " 17.9.2022 ",
+      souradnice: "  49.3361522N, 16.4351522E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hohemazovo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hohemazovo  ",
+      galerie: [
+        {
+          fotka: "  418AmPiloti1.jpg",
+          popisek: " Pomník zachráněným letcům z Liberatoru (leden 2022) ",
+        },
+        { fotka: "  418AmPiloti2.jpg", popisek: " (leden 2022) " },
+        { fotka: "  418AmPiloti3.jpg", popisek: " Detail desky (leden 2022) " },
+      ],
+      proMe: " XX/1170  24-321-91  22—013  ",
+    },
+
+    {
+      id: 419,
+      kategorie: "pomnicky",
+      pridano: " 17/09/2022 ",
+      dveId: true,
+      podkategorie: 5,
+      druh: " Válečné, letecké nehody  ",
+      okres: " Brno - venkov ",
+      obec: " Tišnov   ",
+      jmeno: " Letci USA - Tišnov  ",
+      nazev: " Pomník zachráněné posádce Liberátoru u Tišnova.  ",
+      fotkaUvod: { fotka: " 418AmPiloti2.jpg " },
+      kdyVznikl:
+        " 1997. Pomník byl zbudován nákladem bývalého partyzána Jaroslava Skoupého. Slavnostně odhalen 9. května 1997 za účasti zachráněného letce Armanda Carlina a vojenského atašé USA v Praze. Pomník nestojí na místě dopadu letadla, ale na nejbližším vhodném místě. Letadlo dopadlo na pole od něho vzdálené asi 500 metrů SZ, mezi Tišnov, Březinu a Hradčany. V roce 1996 byly jeho zbytky nalezeny a vykopány ze země. ",
+      popisCesty:
+        "  Pomník stojí 400 metrů SZ od železniční zastávky Hradčany, v ulici Olbrachtova, nedaleko železničního podjezdu. Vedle je objekt Hasičského sboru. V době zřízení pomníku nebyla tato místa zastavěna  sídelní kaší jako nyní. V čase události tu byla pole mezi třemi obcemi, neexistovala ani silnice, ani železniční trať.  ",
+      popis:
+        " Lomový kámen trojúhelníkového tvaru je vysoký jeden metr. Na čelní stěně je kovový kulatý znak 15. letecké armády USAF a kovová deska s dlouhým textem a jmény osmi zachráněných amerických letců. Pomník připomínající událost, která skončila dobře, je vzácnou raritou.  ",
+      napis:
+        " 17. DUBNA 1945  V  0.30 H. DOPADL  NEDALEKO // ODTUD  HOŘÍCÍ  AMERICKÝ  ZÁSOBOVACÍ // LETOUN  LIBERATOR  B-24 // S NÁKLADEM  ZBRANÍ  PRO  ČS. ODBOJ. // PADÁKY  ZACHRÁNILY  POSÁDKU  PŘED // PLAMENY, ČEŠTÍ A ESTONŠTÍ  PARTYZÁNI // S OBĚTAVOU  POMOCÍ  VESNICKÉHO // OBYVATELSTVA  PŘED  NEPŘÍTELEM // … // TIŠNOV   1997   ",
+      odkazy: [
+        {
+          nazev: " Letecká badatelna ",
+          adresa:
+            " http://www.leteckabadatelna.cz/havarie-a-sestrely/detail/219/ ",
+        },
+        {
+          nazev: " Voj.hist.ústav  ",
+          adresa:
+            " http://www.vhu.cz/letajici-neporadek-mel-stesti-v-nestesti/ ",
+        },
+        { nazev: " Kopečný,Petr a Krejčí, Karel : Da capo al fine. 2002. " },
+        { nazev: " Vlastivědný věstník moravský, roč. 1984, č.1, str. 14-18 " },
+      ],
+      pozn:
+        "  Bombardér B-24 Liberator patřil k páteři amerického bombardovacího letectva. Měl dolet 6000 km, rozpětí křídel 31 metrů, vážil prázdný 17 tun, vzletová hmotnost byla až 30 tun. Sestřelený stroj u Tišnova byl upraven na přepravu nákladu a byl to jeho 26. let s nákladem na území nepřítele. Posádka si ho překřtila na “Flying rumor” což někteří překládají jako Létající nepořádek, jiní správněji jako Létající latrína. Ta tam byla ostatně vymalována, jinak byl povrch letadla tmavě olivový - kvůli letům v temnotě.<br>Bombardér vystartoval večer 16. dubna 1945 z Livorna v Itálii na dlouhý let do Protektorátu. Na palubě byla osmičlenná posádka a náklad zbraní pro odboj. Jejich shoz byl dohodnut na cílovou plochu Kamna u Maršova. Tam je čekalo 28 mužů partyzánského oddílu Delta s povozy. Let na Moravu proběhl bez problémů a s pomocí rádiového naváděcího zařízení našli cílovou plochu. Když kroužili a snášeli se níže, zaměřil je radarem německý noční stíhač, přiblížil se k nim zespodu a zahájil kulometný útok. Pro bombardér byl fatální, trup a křídlo byly proděravěny. Začal hořet motor, zhaslo světlo a systémy k ovládání letadla přestaly fungovat. Nastal čas opustit nefunkční letadlo. Byl to poslední sestřel bombardéru na našem území. Neřízený letoun obkroužil smyčku nad Tišnovem a po nárazu do země explodoval a začal hořet.<br>Všem osmi letcům se podařilo vyskočit a na padácích se snesli na pole a lesy od Lažánek po Březinu. Zachránili  je místní obyvatelé. Desítky z nich je s nasazením života ukryli, zásobovali a předali místním odbojovým skupinám, u kterých se dočkali po 22 dnech ukrývání a přemísťování osvobození Tišnovska. Kniha “Da capo al fine” detailně popisuje jejich dramatické osudy v oněch dnech. Po osvobození se přesunuli do Brna, setkali se s prezidentem Benešem, následovala cesta do Prahy a k americké armádě v Plzni.<br>Po válce se osudy letců rozešly a po roce 1948 ustal i písemný styk s jejich pomocníky u nás. V padesátých letech bylo nebezpečné dopisovat si s vojáky nepřátelské mocnosti. Korespondence byla obnovena až po padesáti letech, kdy byli bývalí letci pozváni do míst, kde jim zachránili životy. V roce 1995 z nich žilo ještě pět, do Tišnova nakonec dorazil jen jediný, bombometčík Armando Carlino. S velkou slávou a pozorností přijel na několik dní v květnu 1997 a účastnil se odhalení pomníku. O rok později se při cestě do Evropy zastavil na tři dny v Tišnově navigátor Robert Beach s manželkou. V roce 2002 už žili jen dva ze zachráněných Američanů.<br>S odstupem času lze konstatovat, že američtí letci měli neuvěřitelné štěstí. Nezranil je kulometný útok německého stihače, všem se podařilo vyskočit z letounu a dopadnout v pořádku na zem. Letoun se zaryl do země špicí k Brnu, což zmátlo německé komando, které je hledalo napřed na západ od Tišnova a tím jim dalo několik dní náskoku. Všichni narazili na obětavé pomocníky, i když ne hned. Mezi pomahači nebyl žádný konfident, i když o jejich přítomnosti věděly desítky lidí. A konec války byl v dohledu, i když tehdy nevěděli, kdy a jak nastane. Jiné posádky sestřelených bombardérů na území Protektorátu takové štěstí neměly.    ",
+      naposledObnoveno: " 17.9.2022 ",
+      souradnice: "  49.3361522N, 16.4351522E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/hohemazovo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/hohemazovo  ",
+      galerie: [
+        {
+          fotka: "  418AmPiloti1.jpg",
+          popisek: " Pomník zachráněným letcům z Liberatoru (leden 2022) ",
+        },
+        { fotka: "  418AmPiloti2.jpg", popisek: " (leden 2022) " },
+        { fotka: "  418AmPiloti3.jpg", popisek: " Detail desky (leden 2022) " },
+      ],
+      proMe: " XX/1170  24-321-91  22—013  ",
     },
   ],
 };
