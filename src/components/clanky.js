@@ -22358,7 +22358,6 @@ export default {
       ],
       proMe: " XX/1128  24-411-137  21—025  ",
     },
-
     {
       id: 418,
       kategorie: "pomnicky",
@@ -22410,7 +22409,6 @@ export default {
       ],
       proMe: " XX/1170  24-321-91  22—013  ",
     },
-
     {
       id: 419,
       kategorie: "pomnicky",
@@ -22461,6 +22459,122 @@ export default {
         { fotka: "  418AmPiloti3.jpg", popisek: " Detail desky (leden 2022) " },
       ],
       proMe: " XX/1170  24-321-91  22—013  ",
+    },
+    {
+      id: 420,
+      kategorie: "pomnicky",
+      pridano: " 20/09/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: "  Lomnice u Tišnova  ",
+      jmeno: " Nekouš, František  ",
+      nazev: "  Nekoušova památka v údolí Besénku. ",
+      fotkaUvod: { fotka: " 420Nekous1.jpg " },
+      kdyVznikl: " 1927 ",
+      popisCesty:
+        " Kříž stojí u silnice z Lomnice do Brumova, 150 metrů od rozcestí U obrázku.  ",
+      popis:
+        "  Mramorový kříž je vysoký 2,2 metru a byl v nedávné době opraven, obnoven a nápis dozlacen. Ve spodní části je oválná fotka malého kluka a text.  ",
+      napis:
+        " … // Na památku tragické smrti svého syna //  FRANTIŠKA  věnuje rodina // NEKOUŠOVA  // z  OSIKŮ  v  ROCE 1927  ",
+      pozn:
+        "  Osiky jsou vzdálené 4 kilometry. Proč je křížek zrovna tady, se mi nepodařilo zjistit, ale smrt dítěte je pro rodinu vždy tragédií.  ",
+      naposledObnoveno: " 20.9.2022 ",
+      souradnice: "  49.4203753N, 16.4259933E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/cadupatebo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/cadupatebo  ",
+      galerie: [
+        {
+          fotka: "  420Nekous1.jpg",
+          popisek: " Nekoušova památka ( květen 2009 ) ",
+        },
+        { fotka: "  420Nekous2.jpg", popisek: " ( květen 2009 ) " },
+        {
+          fotka: "  420Nekous3.jpg",
+          popisek: " Detail nápisu ( květen 2009 ) ",
+        },
+      ],
+      proMe: " X/298  24-143-4  obl—bl.  ",
+    },
+    {
+      id: 421,
+      kategorie: "pomnicky",
+      pridano: " 20/09/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Vyškov ",
+      obec: " Ruprechtov   ",
+      jmeno: " Gryc - ševcovský učeň ",
+      nazev: " Vzpomínka na zavražděného Františka Gryce v údolí Rakovce.  ",
+      fotkaUvod: { fotka: "  421Gryc3.jpg " },
+      kdyVznikl: " Tabulka tu je od začátku devadesátých let. ",
+      popisCesty:
+        " Tabulka je přibita na rozcestí značených cest v Rakoveckém údolí, 2,1 kilometru S od kostela v Bukovince. Vedle je dřevěný altán.  ",
+      popis:
+        "  Na silné borovici je připevněna podkova, pár kožených bot a nad nimi plechová tabulka s vysvětlujícím textem.  ",
+      napis:
+        " VZPOMÍNKA // … /NA  TOMTO  MÍSTĚ  BYL  R. 1922 ZAVRA- //ŽDĚN A OLOUPEN O NOVÉ  BOTY //16TI LETÝ ŠEVCOVSKÝ  UČEŇ  GRYC //FRANTIŠEK Z PODOMÍ, KDYŽ  JE / NESL  ZÁKAZNÍKOVI. PODEZŘELÝ //OBČAN Z BUKOVINKY NEBYL USVĚDČEN.  ",
+      odkazy: [
+        {
+          nazev: " Račice ",
+          adresa: " https://www.mestys-racice.cz/pribehy_racickych_lesu.php ",
+        },
+      ],
+      pozn:
+        "  Podle račické farní kroniky byl 28. října 1922 v místě, kde se říká U utopeného, nalezen zavražděný sedmnáctiletý ševcovský učeň František Gryc z Podomí, který nesl nové boty zákazníkovi do Bukovinky. Vrah ho oloupil a aby nebyl prozrazen, tak nebohého učedníka uškrtil a zatáhl do potoka. Podezřelému z Bukovinky se nepodařilo vinu prokázat, tedy vrah zůstal nepotrestán. Památku údajně zřídilo sdružení Barvínek z Podomí. Poslední dobou tu nikdy nechybí zavěšený pár bot. Do osmdesátých let tu visel svatý obrázek.  ",
+      naposledObnoveno: " 20.9.2022 ",
+      souradnice: "  49.3127506N, 16.8072272E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/nobuvagujo" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/nobuvagujo  ",
+      galerie: [
+        {
+          fotka: "  421Gryc1.jpg",
+          popisek: " Vzpomínka na Františka Gryce (červenec 2017) ",
+        },
+        { fotka: "  421Gryc2.jpg", popisek: " (březen 2017) " },
+        { fotka: "  421Gryc3.jpg", popisek: " Detail tabulky (březen 2017) " },
+      ],
+      proMe: " VI/199  24-411-143  17—033  17—071  ",
+    },
+    {
+      id: 422,
+      kategorie: "pomnicky",
+      pridano: " 21/09/2022 ",
+      podkategorie: 7,
+      druh: " Lesnické a dřevařské  ",
+      okres: " Blansko ",
+      obec: "  Bukovinka  ",
+      jmeno: " Kaláb, František  ",
+      nazev: " Boží muka rolníka Kalába u Lhotek ",
+      fotkaUvod: { fotka: " 422Kalab1.jpg " },
+      kdyVznikl: " po roce 1942 ",
+      popisCesty:
+        " Památník stojí 1,2 kilometru JZ od kostela v Bukovince, na cestě od chatové osady Lhotky na Malou Říčku, 150 metrů od rozcestí značených cest. Kolem vede modrá značka.  ",
+      popis:
+        "  Kamenná boží muka s lucernou na sloupu. Nahoře je oválná fotografie, níže obrázek Panny Marie Žarošické. Na soklu je černá deska s textem.  ",
+      napis:
+        " PAMÁTCE  FRANT.  KALÁBA // ROL. Z BLAŽOVIC, // KTERÝ  TRAGICKOU  SMRTÍ  ZEMŘEL // 31. 1. 1942 // V  28. r. VĚKU  SVÉHO.  ",
+      pozn: "  František Kaláb tady zahynul zřejmě při těžbě dřeva.  ",
+      naposledObnoveno: " 21.9.2022 ",
+      souradnice: "  49.2887703N, 16.7919014E ",
+      kodMapa:
+        ' <iframe style="border:none" src="https://frame.mapy.cz/s/rodenorapo" width="400" height="280" frameborder="0"></iframe>   ',
+      odkazMapa: "  https://frame.mapy.cz/s/rodenorapo  ",
+      galerie: [
+        {
+          fotka: "  422Kalab1.jpg",
+          popisek: " Boží muka rolníka Kalába (leden 2022) ",
+        },
+        { fotka: "  422Kalab2.jpg", popisek: " (leden 2022) " },
+        {
+          fotka: "  422Kalab3.jpg",
+          popisek: "Detail desky s nápisem (leden 2022) ",
+        },
+      ],
+      proMe: " XVI/501  24-411-135  22—017  ",
     },
   ],
 };
