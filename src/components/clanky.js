@@ -22576,5 +22576,144 @@ export default {
       ],
       proMe: " XVI/501  24-411-135  22—017  ",
     },
+    {
+      id: 423,
+      kategorie: "pomnicky",
+      pridano: " 28/09/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Znojmo ",
+      obec: "  Moravský Krumlov  ",
+      jmeno: " Šlapanský Rosalia  ",
+      nazev: " Kříž Rozálie Šlapanské v Krumlovském lese.  ",
+      fotkaUvod: { fotka: " 423Slapansky1.jpg " },
+      kdyVznikl: "  po 1906 ",
+      popisCesty:
+        " Kříž stojí u silnice z Krumlova do Jezeřan, v serpentině. Od nádraží v Krumlově to je 1 km k V. Lesní trať kolem se jmenuje U šlapanského kříže.  ",
+      popis:
+        "  Umělecky ztvárněný litinový kříž bez Krista je vysoký tři metry. Na kovovém soklu jsou odlity české a německé texty na všech čtyřech stranách.  ",
+      napis:
+        " Na čelní stěně: Šlapanský Rosalia.  // nar. 4. října // 1895 // zemřela zde // smrtí násilnou // dne 1. července // 1906. // … Na západní straně: Věnováno // hraběnkou a hrabětem // Ferdinandem Kinským. Na zbylých dvou stranách náboženské citáty česky a německy.  ",
+      pozn:
+        " O této tragédii nevím nic bližšího. Území Krumlovského lesa spadalo do Sudet. Po válce bylo německé obyvatelstvo vystěhováno a historická paměť míst byla přerušena.  ",
+      naposledObnoveno: " 28.9.2022 ",
+      souradnice: "  49.0434808N, 16.3515633E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/kagulaveto" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/kagulaveto  ",
+      galerie: [
+        {
+          fotka: "  423Slapansky2.jpg",
+          popisek: " Kříž Rozálie Šlapanské (prosinec 2009) ",
+        },
+        {
+          fotka: "  423Slapansky3.jpg",
+          popisek: " Nápis z čelní strany (prosinec 2009) ",
+        },
+        { fotka: "  423Slapansky4.jpg", popisek: " ( leden 2016) " },
+      ],
+      proMe: "  XVII/639  42-343-19  obl—ost.krum.   16—013 ",
+    },
+
+    {
+      id: 424,
+      kategorie: "pomnicky",
+      pridano: " 29/09/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: "  Lomnice u Tišnova  ",
+      jmeno: " Dobišar - hasič  ",
+      nazev: " Památka Zdeňka Dobišara v Lomnici.  ",
+      fotkaUvod: { fotka: " 424Dobisar2.jpg " },
+      kdyVznikl: " Kolem roku 2010. ",
+      popisCesty:
+        " U silnice z Lomnice do Brumova pod kopcem v ulici Pod starou farou. Nad pomníkem roste velká lípa.  ",
+      popis:
+        "  Neopracovaný lomový kámen je vysoký asi jeden metr. Na něm je připevněna tmavá leštěná deska s podobou vousatého mladého muže a textem.  ",
+      napis:
+        " BĚHEM  ZÁSAHU  PŘI // POVODNI // DNE 19. 6. 1986 // ZDE  TRAGICKY ZAHYNUL // VE  VĚKU  24  LET // DOBROVOLNÝ  HASIČ // A JESKYŇÁŘ // ZDENĚK  DOBIŠAR // Z TIŠNOVA   ",
+      odkazy: [
+        {
+          nazev: " Tišnovské noviny ",
+          adresa:
+            " https://tisnovskenoviny.cz/2016/07/01/katastrofalni-povoden-na-lomnicku-19-cervna-1986-30-vyroci/ ",
+        },
+        { nazev: "   ", adresa: "  " },
+        {
+          nazev:
+            " Konečný, Michal ed.: Lomnice příroda historie osobnosti památky. 2007, str.151. ",
+        },
+        { nazev: "  " },
+      ],
+      pozn:
+        "  19. června 1986 dorazila krátce po 16. hodině nad povodí Besénku nebývalá průtrž mračen. Ve dvou bouřkách za sebou s krupobitím napršelo až 120 litrů vody na metr čtvereční. Okamžitě se rozvodnily všechny přítoky Besénku a braly cestou pokácené klády z těžby dřeva nad Lomnicí. Ty pak jako beranidla rozbíjely vše, co jim stálo v cestě. Voda brala kameny, břehy, mosty a strhla jeden dům, který stál uprostřed nového koryta. Šířka toku u Lomnice dosahovala 40 metrů, hloubka čtyř metrů.Jednotka dobrovolných hasičů z Tišnova dostala hlášení, že v Osikách voda zaplavila sklepy. Okamžitě vyrazila na pomoc, povodni vstříc, aniž tušila, do čeho jedou. Hasiči dorazili do Lomnice a když sjeli z kopce ulicí Pod starou farou, sotva stačili zastavit na kraji rozvodněného toku. Dál byla silnice pod vodou. Všichni vystoupili na levou stranu auta, jen Dobišar  vyskočil vpravo, rovnou do valící se masy vody. V proudu dřev, větví a kamenů byl prý zasažen kládou do hlavy. Bezvládné tělo našli druhý den pod Lomnicí na fotbalovém hřišti. Škody jen v Lomnici vystoupaly na 51 milionů Kčs. Mluvilo se o stoleté vodě, která nemá pamětníka. Ale nebylo tomu tak. Ještě horší povodeň zaznamenaly kroniky a noviny v červenci 1922, kdy zahynulo sedm lidí, voda v Lomničce stoupla o 10 metrů, odnesla dva domy a všechny mosty, strhla 400 metrů železniční trati a z jižní části Tišnova udělala jezero. Nenápadný potok Besének může být nebezpečný.",
+      naposledObnoveno: " 29.9.2022 ",
+      souradnice: "  49.4070967N, 16.4146525E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/palunanazu" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/palunanazu  ",
+      galerie: [
+        {
+          fotka: "  424Dobisar1.jpg",
+          popisek: " Památka hasiče Dobišara (říjen 2011) ",
+        },
+        { fotka: "  424Dobisar3.jpg", popisek: " (duben 2019) " },
+        { fotka: "  424Dobisar4.jpg", popisek: " Detail desky (říjen 2011) " },
+      ],
+      proMe: " XVIII/703    11—ot. 19—046  ",
+    },
+
+    {
+      id: 425,
+      kategorie: "pomnicky",
+      pridano: " 29/09/2022 ",
+      podkategorie: 9,
+      druh: " Ostatní tragédie  ",
+      okres: " Brno - venkov ",
+      obec: "  Lesní Hluboké  ",
+      jmeno: " Devět křížů  ",
+      nazev: " Devět křížů u Domašova  ",
+      fotkaUvod: { fotka: " 425DevetKrizu2.jpg " },
+      kdyVznikl:
+        " První zmínka o křížích je z roku 1728. Benediktinští mniši z Rajhradu se starali dvě stě let o výměnu křížů a údržbu. Důvod jistě měli a ten není znám. Poslední výměna ztrouchnivělých křížů nastala v roce 2020. Nové kříže z modřínového dřeva vysvětili v Lesním Hlubokém o hodech 26. července 2020 a v prosinci téhož roku osadili na původní místo.  ",
+      popisCesty:
+        " Kříže stojí podél staré státní silnice vedoucí z Domašova do Velké Bíteše, u odbočky do Lesního Hlubokého a nájezdu na dálnici. Nedaleko stojí hotel Annahof, před postavením dálnice se jmenoval Motel u Devíti křížů.  ",
+      popis:
+        "  Devět dřevěných křížů v třímetrových rozestupech. Prostřední kříž s kovovým Kristem je nejvyšší, boční se postupně snižují.  ",
+      napis: " Kříže jsou bez nápisu. Na boku je tabulka s pověstí.  ",
+      odkazy: [
+        {
+          nazev: " Novinky ",
+          adresa:
+            " https://www.novinky.cz/clanek/historie-krvava-zahada-mista-u-deviti-krizu-40334451 ",
+        },
+        {
+          nazev: "  Vikipedie ",
+          adresa:
+            " https://cs.wikipedia.org/wiki/Dev%C4%9Bt_k%C5%99%C3%AD%C5%BE%C5%AF ",
+        },
+        {
+          nazev:
+            " Kotík, Jaroslav: Bítešské historky a pověsti. 1992, str. 24 - 26.  ",
+        },
+      ],
+      pozn:
+        "  Známá pověst o zabitých svatebčanech je jen legenda. Pověst vyšla v roce 1801 jako kramářská píseň, kterou sepsal a vydal flašinetář František Hais o události staré 261 roků (!!). Takto se došlo k datu události roku 1540. V písni se praví: Vesničan z Hlubokého našel v zimě u cesty nemocného a vyčerpaného syna bohatého kupce Veleslava. Odvezl ho domů a starala se o něj hospodářova dcera Johanka. Ti dva se do sebe zamilovali, ale rodiče svatbě nepřáli. Veleslav slíbil, že se vrátí a dal se naverbovat na vojnu proti Turkům. Za tři roky se vrátil jako poddůstojník a v domašovské hospodě se dozvěděl, že zrovna příští den se jeho Johanka vdává. S místním myslivcem, který na Johanku také myslíval, alkoholem posilněni, vymysleli krutý plán. Když se svatebčané vraceli z bítešského kostela do Hlubokého, svatbu přepadli. Píseň detailně líčí hrozný mord. Myslivec ale zastřelil i nevěstu, která měla být ušetřena. Když to Veleslav uviděl, zastřelil jeho i sebe. Píseň končí, že v lese u silnice všech devět tam pochovali, devět křížů tam dali.<br>V další verzi pověsti, vzniklé později a zapsané do kroniky obce  Hluboké je místo vesničana nejbohatší sedlák, místo Veleslava přepadený koňský handlíř z Uher, handlíř se vrátil už za rok, místo myslivce najal pomocníka atd. Jsou i další verze, vzniklé ještě později. Také se ujala legenda, že poutníkům spojeným se svatbou se tu zjevuje bílá zahalená postava.<br>Pověst není historicky doložena, i když ze 16. století existuje Smolná kniha Velké Bíteše, kde jsou zmíněny desítky zločinů, vražd a přepadení. Také místo činu může být jinde, cesta v té době vedla jinudy. V šedesátých letech při hloubení rýhy pro kabel se prý objevily nějaké menší kosti a byly uloženy k hlavnímu kříži. Terén tu je překopán pokládáním různých vedení, stavěla se a rozšiřovala silnice. Až do 70. let to byl hlavní tah na Prahu.<br>Roku 2012 tu reportéři české televize natáčeli o události dokument. Pozvali archeology a ti zkoumali podzemí georadarem. Kopali ručně i bagrem, ale objevili jen patky dřívějších křížů, odhalili elektrický kabel, kosti a hroby žádné.<br>V 16. století bylo technicky nemožné tehdejšími zbraněmi postřílet naráz devět lidí dvěma střelci. I kdyby k tomu došlo, pochovali by je na hřbitov do svěcené půdy. Tedy kromě vrahů. Zajímavý je i letopočet 1770. Tehdy si benediktini v Hlubokém postavili zámeček jako své letní sídlo. Souvisí to nějak s kříži a legendou? V každém případě se tu kdysi něco tragického přihodilo.  ",
+      naposledObnoveno: " 29.9.2022 ",
+      souradnice: "  49.2678939N, 16.2962325E  ",
+      kodMapa:
+        '  <iframe style="border:none" src="https://frame.mapy.cz/s/laveruhebe" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: "  https://frame.mapy.cz/s/laveruhebe  ",
+      galerie: [
+        { fotka: "  425DevetKrizu1.jpg", popisek: " Devět křížů (únor 2020) " },
+        { fotka: "  425DevetKrizu2.jpg", popisek: " (březen 2014) " },
+        {
+          fotka: "  425DevetKrizu3.jpg",
+          popisek: " Prostřední nevěstin kříž (březen 2014) ",
+        },
+      ],
+      proMe: "  VIII/255  24-314-2  14—032  20—026 ",
+    },
   ],
 };
