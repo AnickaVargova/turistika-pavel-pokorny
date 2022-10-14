@@ -10,8 +10,6 @@ import Studanky from "../views/Studanky.vue";
 import SmirciKrize from "../views/SmirciKrize.vue";
 import Cesty from "../views/Cesty.vue";
 import Vypraveni from "../views/Vypraveni.vue";
-import DetailPomnicku from "../views/DetailPomnicku.vue";
-import DetailKrize from "../views/DetailPomnicku.vue";
 import NovePridane from "../views/NovePridane.vue";
 
 Vue.use(VueRouter);
@@ -44,7 +42,7 @@ const routes = [
     component: Detail,
   },
   {
-    path: "/fotodetail/:podkategorie/:id",
+    path: "/fotodetail/:podkategorie/:id/:filename",
     name: "Fotodetail",
     component: Fotodetail,
   },
@@ -66,7 +64,7 @@ const routes = [
   {
     path: "/pomnicky/:kategorie/:id",
     name: "DetailPomnicku",
-    component: DetailPomnicku,
+    component: Pomnicky,
   },
   {
     path: "/studanky",
@@ -96,14 +94,13 @@ const routes = [
   {
     path: "/smircikrize/:kategorie/:id",
     name: "DetailKrize",
-    component: DetailKrize,
+    component: SmirciKrize,
   },
   {
     path: "/smircikrize/vypraveni/:kategorie/:id",
     name: "SmirciKrizeVypraveni",
     component: Detail,
   },
-
   {
     path: "/cesty",
     name: "Cesty",
@@ -132,12 +129,12 @@ const routes = [
   {
     path: "/novepridane/pomnicky/:kategorie/:id",
     name: "NovyPomnicek",
-    component: DetailPomnicku,
+    component: Pomnicky,
   },
   {
     path: "/novepridane/smircikrize/:kategorie/:id",
     name: "NovyKriz",
-    component: DetailPomnicku,
+    component: Pomnicky,
   },
 ];
 

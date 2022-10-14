@@ -161,14 +161,14 @@
 </template>
 
 <script>
-  import Clanky from "@/components/clanky.js";
+  import { clanky } from "@/components/clanky.js";
   import Klikaci from "./../components/Klikaci.vue";
   export default {
     props: ["vybraneClanky"],
     components: { Klikaci: Klikaci },
     data() {
       return {
-        clanky: Clanky.data,
+        clanky,
         rok: undefined,
         detailClanku: undefined,
         stranka: undefined,

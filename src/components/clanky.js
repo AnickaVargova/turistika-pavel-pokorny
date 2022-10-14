@@ -1,5 +1,4 @@
-export default {
-  data: [
+const clanky = [
     {
       id: 1,
       kategorie: "pomnicky",
@@ -22715,5 +22714,5 @@ export default {
       ],
       proMe: "  VIII/255  24-314-2  14—032  20—026 ",
     },
-  ],
-};
+  ];
+

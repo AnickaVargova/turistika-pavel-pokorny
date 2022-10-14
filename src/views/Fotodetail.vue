@@ -4,25 +4,19 @@
       v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
     >
       <img
-        v-bind:src="require(`./../assets/${vybranaFotka.fotka.trim()}`)"
-        v-bind:alt="vybranaFotka.popisek"
+        v-bind:src="`http://localhost:8080/photos/${this.$route.params.filename}`"
+       v-bind:alt="`${this.$route.params.filename}`"
       />
-      <figcaption v-if="vybranaFotka.datum && !vybranaFotka.poznamka">
+      <figcaption v-if="vybranaFotka.datum">
         ({{ vybranaFotka.datum }})
-      </figcaption>
-      <figcaption v-else-if="vybranaFotka.datum && vybranaFotka.poznamka">
-        ({{ vybranaFotka.datum }})
-        <p v-bind:style="{ fontStyle: 'normal' }">
-          {{ vybranaFotka.poznamka }}
-        </p>
       </figcaption>
       <figcaption
-        v-else-if="
-          vybranaFotka.popisek && !vybranaFotka.datum && !vybranaFotka.poznamka
+        v-if="
+          vybranaFotka.popisek
         "
       >
         {{ vybranaFotka.popisek }}
-      </figcaption>
+      </figcaption> 
     </figure>
     <a @click="$router.go(-1)"
       ><button class="pomnicekKategorie">Zpět</button></a
@@ -31,18 +25,10 @@
 </template>
 
 <script>
-  import Detail from "./Detail.vue";
-
-  import Clanky from "@/components/clanky.js";
   export default {
-    props: ["popisek"],
     data() {
       return {
         vybranaFotka: {},
-        vybranyIndex: undefined,
-        vybranaKategorie: undefined,
-        clanky: Clanky.data,
-        vybranyClanek: undefined,
         fotoOnas: [
           {
             fotka: "onas1.jpg",
@@ -67,70 +53,28 @@
             }
           }
         } else {
-          for (let clanek of this.clanky) {
-            if (clanek.text) {
-              for (let odstavec of clanek.text) {
-                if (odstavec.foto) {
-                  clanek?.galerie?.push({
-                    fotka: odstavec.foto.trim(),
-                    popisek: odstavec.popisek,
-                  });
-                }
-              }
-            }
-            if (clanek?.galerie) {
-              for (let obrazek of clanek?.galerie) {
-                if (obrazek.fotka.trim() == this.$route.params.id) {
-                  this.vybranaFotka = obrazek;
-                  this.vybranyIndex = clanek.id;
-                  this.vybranaKategorie = clanek.kategorie;
-                }
-              }
-            }
-          }
+
+          fetch(`http://localhost:8080/pomnicky/${this.$route.params.podkategorie}/${this.$route.params.id}`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => this.vybranaFotka = data.galerie.find(item => item.fotka.trim() === this.$route.params.filename))
+      }
         }
-      },
+      
     },
 
     created() {
       this.detailFotky();
-      // Opera 8.0+
-      // var isOpera =
-      //   (!!window.opr && !!opr.addons) ||
-      //   !!window.opera ||
-      //   navigator.userAgent.indexOf(" OPR/") >= 0;
-
-      // // Firefox 1.0+
-      // var isFirefox = typeof InstallTrigger !== "undefined";
-
-      // // Safari 3.0+ "[object HTMLElementConstructor]"
-      // var isSafari =
-      //   /constructor/i.test(window.HTMLElement) ||
-      //   (function(p) {
-      //     return p.toString() === "[object SafariRemoteNotification]";
-      //   })(
-      //     !window["safari"] ||
-      //       (typeof safari !== "undefined" && window["safari"].pushNotification)
-      //   );
-
-      // // Internet Explorer 6-11
-      // var isIE = /*@cc_on!@*/ false || !!document.documentMode;
-
-      // // Edge 20+
-      // var isEdge = !isIE && !!window.StyleMedia;
-
-      // Chrome 1 - 79
       var isChrome =
         !!window.chrome &&
         (!!window.chrome.webstore || !!window.chrome.runtime);
 
-      // Edge (based on chromium) detection
-      var isEdgeChromium = isChrome && navigator.userAgent.indexOf("Edg") != -1;
-
-      // Blink engine detection
-      // var isBlink = (isChrome || isOpera) && !!window.CSS;
-
-      this.isEdgeChromium = isEdgeChromium;
+    
+      this.isEdgeChromium = isChrome && navigator.userAgent.indexOf("Edg") != -1;
     },
   };
 </script>

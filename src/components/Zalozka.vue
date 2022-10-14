@@ -4,8 +4,8 @@
       <h2
         v-if="
           clanek.kategorie === 'pomnicky' ||
-            clanek.kategorie === 'vypraveni' ||
-            clanek.kategorie === 'cesty'
+          clanek.kategorie === 'vypraveni' ||
+          clanek.kategorie === 'cesty'
         "
       >
         {{ clanek.nazev }}
@@ -22,7 +22,7 @@
       <h3
         v-if="clanek.kategorie === 'cesty' || clanek.kategorie === 'vypraveni'"
       >
-        {{ clanek.datum }}
+        {{ clanek.datum }} -->
       </h3>
       <h3
         v-if="
@@ -37,7 +37,7 @@
           v-if="clanek.fotkaUvod"
           v-bind:src="
             clanek.fotkaUvod &&
-              require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
+            require(`./../assets/${clanek.fotkaUvod.fotka.trim()}`)
           "
           v-bind:alt="clanek.jmeno"
         />
@@ -47,17 +47,40 @@
 </template>
 
 <script>
-  export default {
-    props: ["clanek", "stranka"],
-    data() {
-      return {
-        path:
-          this.stranka === "novepridane"
-            ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
-            : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`,
-      };
+export default {
+  props: ["mujClanek", "stranka"],
+  data() {
+    return {
+      clanek: {},
+    };
+  },
+  computed: {
+    path() {
+      if (!this.clanek) {
+        return this.$route.path;
+      }
+      return this.stranka === "novepridane"
+        ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
+        : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
     },
-  };
+  },
+  created() {
+    if (this.clanek) {
+      fetch(
+        `http://localhost:8080/pomnicky/${this.clanek.podkategorie}/${this.mujClanek.id}`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
+        .then((response) => response.json())
+        .then((data) => (this.clanek = data))
+        .then(console.log(mujClanek));
+    }
+  },
+};
 </script>
 
 <style></style>

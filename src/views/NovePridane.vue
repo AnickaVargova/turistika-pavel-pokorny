@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import vsechnyClanky from "./../components/clanky.js";
+  import {clanky} from "./../components/clanky.js";
   import Sablona from "./../components/Sablona.vue";
   export default {
     components: {
@@ -12,7 +12,7 @@
 
     data() {
       return {
-        clanky: vsechnyClanky.data,
+        clanky,
         params: {
           nadpis: "Naposled přidané",
           uvodniText: [""],
@@ -23,6 +23,9 @@
         },
       };
     },
+    created(){
+      console.log('novePridane');
+    }
 
    
   };

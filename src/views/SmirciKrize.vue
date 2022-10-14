@@ -4,7 +4,7 @@
 
 <script>
   import Sablona from "./../components/Sablona.vue";
-  import vsechnyClanky from "./../components/clanky.js";
+  import {clanky} from "./../components/clanky.js";
   export default {
     components: {
       Sablona: Sablona,
@@ -12,7 +12,7 @@
 
     data() {
       return {
-        clanky: vsechnyClanky.data,
+        clanky,
         params: {
           nadpis: "Smírčí kříže",
           uvodniText: [

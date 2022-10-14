@@ -85,340 +85,289 @@
 </template>
 
 <script>
-  import clanky from "./../components/clanky.js";
-  export default {
-    data() {
-      return {
-        responsive: false,
-        pocetPomnicku: 0,
-        pocetKrizu: 0,
-        pocetCest: 0,
-        pocetVypraveni: 0,
-        pocetNovych: 0,
-      };
+import { clanky } from "./../components/clanky.js";
+export default {
+  data() {
+    return {
+      responsive: false,
+      pocetPomnicku: 0,
+      pocetKrizu: 0,
+      pocetCest: 0,
+      pocetVypraveni: 0,
+      pocetNovych: 0,
+    };
+  },
+
+  methods: {
+    toggleMenu() {
+      this.responsive = !this.responsive;
     },
+    filterRecent(clanek) {
+      if (clanek.pridano) {
+        let pridano = clanek.pridano;
+        pridano = Date.parse(
+          pridano.slice(3, 6).concat(pridano.slice(0, 3), pridano.slice(6))
+        );
 
-    methods: {
-      toggleMenu() {
-        this.responsive = !this.responsive;
-      },
-      filterRecent(clanek) {
-        if (clanek.pridano) {
-          let pridano = clanek.pridano;
-          pridano = Date.parse(
-            pridano.slice(3, 6).concat(pridano.slice(0, 3), pridano.slice(6))
-          );
+        let today = new Date().getTime();
 
-          let today = new Date().getTime();
+        let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
 
-          let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
-
-          if (last2weeks <= 14) {
-            if (
-              clanek.kategorie === "pomnicky" ||
-              clanek.kategorie === "smircikrize"
-            ) {
-              this.pomnickyUkazat = true;
-            } else if (
-              clanek.kategorie === "vypraveni" ||
-              clanek.kategorie === "cesty"
-            ) {
-              this.clankyUkazat = true;
-            }
-          }
-
-          return last2weeks <= 14;
-        }
-      },
-    },
-    created() {
-      for (let j = 0; j < clanky.data.length; j++) {
-        if (clanky.data[j].kategorie === "pomnicky") {
-          this.pocetPomnicku++;
-        } else if (clanky.data[j].kategorie === "smircikrize") {
-          this.pocetKrizu++;
-        } else if (clanky.data[j].kategorie === "cesty") {
-          this.pocetCest++;
-        } else if (clanky.data[j].kategorie === "vypraveni") {
-          this.pocetVypraveni++;
-        }
-        for (let i = 0; i < j; i++) {
+        if (last2weeks <= 14) {
           if (
-            clanky.data[j].kategorie === "pomnicky" &&
-            clanky.data[j].nazev === clanky.data[i].nazev
+            clanek.kategorie === "pomnicky" ||
+            clanek.kategorie === "smircikrize"
           ) {
-            this.pocetPomnicku--;
+            this.pomnickyUkazat = true;
+          } else if (
+            clanek.kategorie === "vypraveni" ||
+            clanek.kategorie === "cesty"
+          ) {
+            this.clankyUkazat = true;
           }
         }
+
+        return last2weeks <= 14;
       }
-
-      //vyfiltruji se clanky podle data
-
-      let clanky14dni = clanky.data.filter((clanek) =>
-        this.filterRecent(clanek)
-      );
-
-      //zjisti se, ktere clanky z clanku podle data nejsou v poslednich 10 clancich podle id a tyto clanky se do 10 clanku podle id pridaji
-
-      let poslednich20 = clanky.data.slice(-20);
-
-      let vysledneNove = [];
-
-      for (let clanek14 of clanky14dni) {
-        let pridat = true;
-        for (let clanek of poslednich20) {
-          if (clanek.id === clanek14.id) {
-            pridat = false;
-            break;
-          }
-        }
-        if (pridat) {
-          vysledneNove.push(clanek14);
-        }
-      }
-
-      vysledneNove = vysledneNove.concat(poslednich20);
-
-      //vyhodi se duplikovane clanky (ruzne id,stejny nazev)
-      let novaKategorie = [];
-
-      for (let i = 0; i < vysledneNove.length; i++) {
-        if (!vysledneNove[i].nazev) {
-          vysledneNove[i].nazev = vysledneNove[i].jmeno;
-        }
-        novaKategorie.push(vysledneNove[i]);
-
-        for (let j = 0; j < i; j++) {
-          if (novaKategorie[j].nazev === vysledneNove[i].nazev) {
-            novaKategorie[j].nezobrazuj = true;
-          }
-        }
-      }
-      novaKategorie = novaKategorie.filter((clanek) => !clanek.nezobrazuj);
-
-      this.pocetNovych = novaKategorie.length;
     },
-  };
+  },
+  created() {
+    fetch(`http://localhost:8080/pomnicky`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => (this.pocetPomnicku = data.length));
+
+    fetch(`http://localhost:8080/pomnicky/novePridane`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => (this.pocetNovych = data.length));
+  },
+};
 </script>
 
 <style>
+.icon {
+  display: none;
+  grid-column: 5/6;
+  grid-row: 1/2;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  color: darkslategrey;
+  margin-top: 20px;
+}
+
+#pocitadlo {
+  grid-row: 1/2;
+  grid-column: 5/6;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
   .icon {
-    display: none;
+    display: block;
+    margin-right: 40px;
     grid-column: 5/6;
-    grid-row: 1/2;
-    font-size: 50px;
-    justify-content: center;
-    align-content: center;
-    color: darkslategrey;
-    margin-top: 20px;
+    justify-self: end;
   }
-
   #pocitadlo {
-    grid-row: 1/2;
     grid-column: 5/6;
+    grid-row: 3/4;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+}
+.home {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: minmax(min-content, 100px) auto minmax(min-content, 100px);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 900px) {
+  body {
+    width: 100vw;
+    max-width: 2000px;
     margin: auto;
-    margin-top: 20px;
+    background-color: rgb(230, 236, 243);
   }
+}
 
-  @media (max-width: 600px) {
-    .icon {
-      display: block;
-      margin-right: 40px;
-      grid-column: 5/6;
-      justify-self: end;
-    }
-    #pocitadlo {
-      grid-column: 5/6;
-      grid-row: 3/4;
-      margin-left: 40px;
-      margin-right: 20px;
-    }
-  }
+#uvodniText {
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  grid-column: 2 / 6;
+  grid-row-start: 2;
+  margin: 5%;
+  margin-bottom: 0;
+  text-align: justify;
+  color: #1e0b3d;
+}
+
+#uvodniText h1 {
+  font-size: 40px;
+  color: #1e0b3d;
+}
+
+#uvodniText h2 {
+  font-family: "Patrick Hand", cursive;
+  color: #1e0b3d;
+  /* color: #2c3e50; */
+}
+
+#pozadi {
+  grid-row-start: 1;
+  grid-column: 1/7;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+}
+
+#pozadi img {
+  grid-column: 1 / 7;
+  object-fit: cover;
+}
+
+#transbox {
+  grid-column: 1 / 7;
+  grid-row: 1 / 4;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(246, 244, 250, 0.7);
+  /* background-color: rgba(178, 203, 223, 0.7); */
+  margin-right: 0;
+}
+
+footer {
+  grid-row: 3/4;
+  grid-column: 1/6;
+  margin: 0 0 20px 20px;
+  padding-top: 40px;
+  color: #1e0b3d;
+}
+
+footer a {
+  color: #1e0b3d;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: rgb(69, 67, 71);
+}
+
+@media (max-width: 600px) {
   .home {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(min-content, 100px) auto minmax(
-        min-content,
-        100px
-      );
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-  }
-
-  @media (min-width: 900px) {
-    body {
-      width: 100vw;
-      max-width: 2000px;
-      margin: auto;
-      background-color: rgb(230, 236, 243);
-    }
+    grid-template-rows:
+      minmax(min-content, 100px) auto minmax(min-content, 100px)
+      minmax(min-content, 100px);
   }
 
   #uvodniText {
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    grid-column: 2 / 6;
-    grid-row-start: 2;
-    margin: 5%;
-    margin-bottom: 0;
-    text-align: justify;
-    color: #1e0b3d;
+    grid-column: 1/6;
+    padding: 5%;
   }
 
   #uvodniText h1 {
-    font-size: 40px;
-    color: #1e0b3d;
-  }
-
-  #uvodniText h2 {
-    font-family: "Patrick Hand", cursive;
-    color: #1e0b3d;
-    /* color: #2c3e50; */
+    font-size: 30px;
   }
 
   #pozadi {
-    grid-row-start: 1;
-    grid-column: 1/7;
-    grid-row-end: 4;
-    width: 100%;
-    height: 100%;
-  }
-
-  #pozadi img {
-    grid-column: 1 / 7;
-    object-fit: cover;
+    grid-row: 1/5;
   }
 
   #transbox {
-    grid-column: 1 / 7;
-    grid-row: 1 / 4;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(246, 244, 250, 0.7);
-    /* background-color: rgba(178, 203, 223, 0.7); */
-    margin-right: 0;
+    grid-row: 1/5;
   }
 
   footer {
-    grid-row: 3/4;
-    grid-column: 1/6;
-    margin: 0 0 20px 20px;
-    padding-top: 40px;
-    color: #1e0b3d;
+    grid-row: 4/5;
   }
+}
 
-  footer a {
-    color: #1e0b3d;
-    text-decoration: underline;
+@media (max-width: 900px) {
+  #pozadi {
+    height: 100%;
   }
+}
 
-  footer a:hover {
-    color: rgb(69, 67, 71);
-  }
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
 
-  @media (max-width: 600px) {
-    .home {
-      grid-template-rows:
-        minmax(min-content, 100px) auto minmax(min-content, 100px)
-        minmax(min-content, 100px);
-    }
+.nav {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  padding: 0;
+  display: block;
+  gap: 10px;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: 1fr;
+  margin: 20px;
+}
 
-    #uvodniText {
-      grid-column: 1/6;
-      padding: 5%;
-    }
+.nav a {
+  grid-column: 1/2;
+  opacity: 1;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  border: 2px solid #2c3e50;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  align-items: center;
+  text-transform: uppercase;
+  box-shadow: 5px 2px 2px #395250;
+  background-color: #7695dd;
+  color: #13131d;
+  font-family: "Raleway", sans-serif;
+}
 
-    #uvodniText h1 {
-      font-size: 30px;
-    }
-
-    #pozadi {
-      grid-row: 1/5;
-    }
-
-    #transbox {
-      grid-row: 1/5;
-    }
-
-    footer {
-      grid-row: 4/5;
-    }
-  }
-
-  @media (max-width: 900px) {
-    #pozadi {
-      height: 100%;
-    }
-  }
-
-  h1 {
-    text-align: center;
-    color: #2c3e50;
-  }
-
-  .nav {
-    grid-column: 1/2;
-    grid-row: 1/4;
-    padding: 0;
-    display: block;
-    gap: 10px;
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-columns: 1fr;
-    margin: 20px;
-  }
-
+@media (max-width: 600px) {
   .nav a {
-    grid-column: 1/2;
-    opacity: 1;
-    font-weight: bold;
-    text-decoration: none;
-    width: 100%;
-    height: 50px;
-    margin: 5px;
-    border: 2px solid #2c3e50;
-    border-radius: 10px;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 10%;
-    align-items: center;
-    text-transform: uppercase;
-    box-shadow: 5px 2px 2px #395250;
-    background-color: #7695dd;
-    color: #13131d;
-    font-family: "Raleway", sans-serif;
-  }
-
-  @media (max-width: 600px) {
-    .nav a {
-      display: none;
-    }
-  }
-
-  .nav.responsive a {
-    display: flex;
-  }
-
-  #uvodniText.responsive {
     display: none;
   }
+}
 
-  .nav a:hover,
-  .nav a:active {
-    color: #13131d;
-    background-color: #9aacab;
-  }
+.nav.responsive a {
+  display: flex;
+}
 
-  #okno {
-    grid-column: 1/7;
-    grid-row: 1/43;
-    width: 100%;
-  }
+#uvodniText.responsive {
+  display: none;
+}
 
-  #pomnickyFiltry li:hover {
-    background-color: #30524f;
-  }
+.nav a:hover,
+.nav a:active {
+  color: #13131d;
+  background-color: #9aacab;
+}
+
+#okno {
+  grid-column: 1/7;
+  grid-row: 1/43;
+  width: 100%;
+}
+
+#pomnickyFiltry li:hover {
+  background-color: #30524f;
+}
 </style>

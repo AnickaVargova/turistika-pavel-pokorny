@@ -76,7 +76,7 @@
           <td>Kde se nachází?</td>
           <td
             v-if="
-              clanek.vnitrniOdkazy &&
+              clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
                 clanek.vnitrniOdkazy[0].odkazKde === 'popisCesty'
             "
           >
@@ -93,7 +93,7 @@
           <td>Kde se nachází?</td>
           <td
             v-if="
-              clanek.vnitrniOdkazy &&
+              clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
                 clanek.vnitrniOdkazy[0].odkazKde === 'kdeSeNaleza'
             "
           >
@@ -122,7 +122,7 @@
           <td>Nápis:</td>
           <td
             v-if="
-              clanek.vnitrniOdkazy &&
+              clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
                 clanek.vnitrniOdkazy[0].odkazKde === 'napis'
             "
           >
@@ -135,7 +135,7 @@
           <td>Pověst:</td>
           <td
             v-if="
-              clanek.vnitrniOdkazy &&
+              clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
                 clanek.vnitrniOdkazy[0].odkazKde === 'povest'
             "
           >
@@ -148,7 +148,7 @@
           <td>Poznámka:</td>
           <td
             v-if="
-              clanek.vnitrniOdkazy &&
+              clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
                 clanek.vnitrniOdkazy[0].odkazKde === 'pozn'
             "
           >
@@ -167,7 +167,7 @@
             >
               <router-link
                 v-bind:to="
-                  `/fotodetail/${clanek.podkategorie}/${obrazek.fotka.trim()}`
+                  `/fotodetail/${clanek.podkategorie}/${clanek.id}/${obrazek.fotka.trim()}`
                 "
                 ><img
                   v-bind:src="require(`./../assets/${obrazek.fotka.trim()}`)"
@@ -238,13 +238,13 @@
 <script>
   import Klikaci from "./../components/Klikaci.vue";
   export default {
-    props: ["clanky", "kategoriePomnicky", "zalozkyButton"],
+    props: ["kategoriePomnicky", "zalozkyButton"],
     components: { Klikaci: Klikaci },
     data() {
       return {
         idMapaUkazat: undefined,
         testData: undefined,
-        mojeClanky: this.clanky,
+        mojeClanky: [],
         isEdgeChromium: false,
       };
     },
@@ -267,6 +267,26 @@
       },
     },
     created() {
+      if (this.$route.name === 'DetailPomnicku' || this.$route.name === 'NovyPomnicek') {
+        fetch(`http://localhost:8080/pomnicky/${this.$route.params.kategorie}/${this.$route.params.id}`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => this.mojeClanky = [data])
+      }
+     else if (this.$route.name === 'PomnickyKategorie' || this.$route.name === 'PomnickyKategorieLong' ) {
+        fetch(`http://localhost:8080/pomnicky/${this.$route.params.kategorie}`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => this.mojeClanky = data)
+      }
       if (this.kategoriePomnicky) {
         for (let clanek of this.clanky) {
           if (!clanek.dveId) {
