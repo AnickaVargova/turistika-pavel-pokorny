@@ -22715,5 +22715,226 @@ export default {
       ],
       proMe: "  VIII/255  24-314-2  14—032  20—026 ",
     },
+    {
+      id:426  ,
+      datum: ' 22. - 26. 9. 2020  ',
+      formatDatum:  '10/10/2022',
+      pridano: ' 10/10/2022 ',
+      kategorie: 'cesty',
+      podkategorie: 1,
+      nazev: ' Podzimní Brdy ',
+      fotkaUvod: {fotka:' 426Brdy32.jpg '},
+      
+      text: 
+        [
+           {
+           textOdstavce: ' Brdy jsou pohoří uvnitř Čech, mimo věnec pohraničních hor. Nejvyšší vrcholy přesahují osmisetmetrovou výšku. Představují rozsáhlý zalesněný komplex uprostřed zalidněné krajiny. Dělí se na tři části. Severovýchodní, zvaná Hřebeny, začíná kousek za Prahou a je tudíž hodně navštěvovaná. Od střední části ji odděluje údolí říčky Litavky. Střední část Brdů se rozkládá mezi Příbramí a Rokycany a v ní jsou i nejvýše položená místa a nejopuštěnější prostory. Tato část byla skoro sto let nepřístupná veřejnosti, protože v ní byl vojenský prostor. Od jižní části ji odděluje silnice z Rožmitálu pod Třemšínem do Plzně. Tato část, Třemšínsko, má jiný typ lesů a byla vždy přístupná. My jsme o návštěvě těchto kopců začali uvažovat od roku 2017, kdy byl definitivně zrušen zákaz vstupu do vojenského prostoru a hory navráceny turistické exploataci. Prakticky současně tu ale byla vyhlášena Chráněná krajinná oblast Brdy, což prezentuje zase jiný typ zákazů. Zatím je k turistům smířlivější. Namířili jsme to od vlaku k vlaku, od severu k jihu, od Hořovic do Nepomuku. ',
+           },
+           {
+           textOdstavce: '  <h2 class="podnadpis">První den : čtvrtek 22. září 2022 </h2>  ',
+            },
+           {
+            textOdstavce: ' Vlakem Hořovice. Náměstí - U Krejcárku - Novinský rybník - Jedová hora - Neřežín - zřícenina Valdek - údolí Červeného potoka. 13 km.   ',
+            },
+            {
+            textOdstavce: '  Hořovice jsou malé městečko ( 7 tisíc obyvatel) nedaleko Berouna na rozhraní Brdů a Českého krasu. Vede tudy dálnice i železnice z Prahy na Plzeň. Ve městě mají zámek a  pěknou radnici na frekventovaném Palackého náměstí. Obešli jsme náměstí s barokním kostelem Nejsvětější Trojice, vedle něj stojí Mariánský sloup z roku 1711 a Loretánská kaple. Dlouho jsme se tu nezdrželi a v pozdním odpoledni vyrazili k brdským lesům.  ',
+            },
+          {foto: ' 426Brdy01.jpg  ', popisek: ' Neorenesanční radnice je z roku 1905.  '},
+          {foto: ' 426Brdy02.jpg  ', popisek: ' Kostel Nejsvětější Trojice z roku 1711. (září 2022) '},
+          {foto: ' 426Brdy03.jpg  ', popisek: ' Mariánský sloup a za ním stojí Loreta.  ', naVysku: true },
+            {
+            textOdstavce: '  Zkraje jsme šli po značce, a tudíž jsme občas bloudili. Jdeme-li bez značky, nemáme z čeho sejít a tedy nebloudíme. Zato se prodíráme cestou necestou. To je daň za cesty bez značek. Cestou bylo pár výhledů na Český kras, lesy Křivoklátska s hradem Točníkem, nebo na druhou stranu na severní stranu Brdů. Přes osadu Neřežin jsme dorazili na okraj dříve zakázaného vojenského prostoru a začali stoupat ke zřícenině Valdek.',
+            },
+          {foto: ' 426Brdy04.jpg  ', popisek: ' Pohled na Hořovicko a Křivoklátsko.  '},
+          {foto: ' 426Brdy05.jpg  ', popisek: ' Severní úbočí Brdů.  '},
+          {foto: ' 426Brdy06.jpg  ', popisek: ' Novinský rybník.  '},
+            {
+            textOdstavce: '  Mohutná zřícenina hradu Valdek stojí na skalnatém ostrohu nad Červeným potokem. Hrad byl založen ve 13. století, jeho význam postupně upadal a v 17. století je uváděn jako pustý. Zachovalo se torzo hradního paláce, válcová věž, příkopy, hradby. Romantickou zříceninu navštívili Mácha, Erben, Němcová, Vrchlický. Na konci 19. století ji majitelé trochu opravili a před válkou patřila Klubu českých turistů. Po válce se sem rozšířil vojenský prostor a nastalo další kolo chátrání, které pokračuje dodnes. Do zříceniny je nyní kvůli řícení zdí zakázán vstup a v podstatě se neví, co s ní. Peníze na nejnutnější zabezpečení nejsou, přestože je hrad od roku 1958 chráněnou památkou.  ',
+            },
+          {foto: ' 426Brdy07.jpg  ', popisek: ' Vstup do zříceniny byl opraven před patnácti lety. '},
+          {foto: ' 426Brdy08.jpg  ', popisek: ' Nádvoří hradu Valdeka.  '},
+          {foto: ' 426Brdy09.jpg  ', popisek: ' (září 2022)  '},
+          {foto: ' 426Brdy10.jpg  ', popisek: '  Jižní hradba nad příkopem. '},
+            {
+            textOdstavce: '  Sestoupili jsme do údolí Červeného potoka a nabrali vodu na vaření stejně jak ve vysokých horách. Voda teče z lesů, v nich není žádné osídlení, měla by být v pořádku. Ve vzrůstajícím šeru jsme našli u potůčku rovný flek na spaní. Noc byla studená, do rána se na volných místech dělala jinovatka. Padl “bílé mráz”, řekla by moje babička.   ',
+            },
+       {foto: ' 426Brdy11.jpg  ', popisek: ' Na klobouk na tyčce padá první sluneční paprsek  '},
+          { kodMapa: ' <iframe style="border:none" src="https://frame.mapy.cz/s/dajaforegu" width="400" height="280" frameborder="0"></iframe>  ', 
+            odkazMapa: ' https://frame.mapy.cz/s/dajaforegu  ' },
+      
+           {
+           textOdstavce: '  <h2 class="podnadpis">Druhý den : pátek 23. září 2022 </h2>  ',
+            },
+            {
+            textOdstavce: '  Červený potok - Jindřichova skála(588 m) - Pod Berankou - U Bílého křížku - letiště - dopadová plocha Jordán - Benešák - Houpák(794 m) - Dlouhý kámen -  dopadová plocha Tok - vrchol Tok(865 m) - Čihadelská cesta - Bohutínský vrch - Obecnická cesta - Bor - Třítrubecký potok - Trojhran - Na Rovinách - kóta 765 m. 21 km, 7 hod. chůze. ',
+            },
+            {
+            textOdstavce: ' Z noclehoviště jsme zostra začali stoupat balvanitými poli, hlavně proto, že bylo dost zima. Vyšli jsme na Jindřichovu skálu, zajímavé místo geologicky, floristicky, turisticky. Jde o 20 metrů vysoký skalní srub, obklopený kamennými moři. Na skalnatém chudém podloží se udržuje reliktní bor, soubor starých stromů, zvláště borovic a dubů. Vyhlídku dal zbudovat roku 1910 ředitel hořovického velkostatku a litinové zábradlí pochází z té doby. Jméno dostala podle majitele panství knížete Jindřicha. Zábradlí opravily státní lesy v roce 2014 podle starých vzorů. Sto metrů dlouhá vyhlídka poskytuje výhledy přes údolí na Valdek a na lesy a kopce centrálních Brdů. ',
+            },
+          {foto: ' 426Brdy12.jpg  ', popisek: ' Cesta k Jindřichově skále.  '},
+          {foto: ' 426Brdy13.jpg  ', popisek: ' Jindřichova skála (září 2022). '},
+          {foto: ' 426Brdy14.jpg  ', popisek: ' Zábradlí je staré 110 let.  '},
+          {foto: ' 426Brdy15.jpg  ', popisek: ' Skalní moře pod vyhlídkou.  '},
+          {foto: ' 426Brdy16.jpg  ', popisek: ' Východní konec vyhlídky.  ', naVysku: true },
+            {
+            textOdstavce: '  Nedaleko Jindřichovy skály je zajímavý kopec Beran, také se skalami. Jenže by to byla zacházka a ty si po trase moc nemůžeme dovolit, nikam bychom nedošli. Problém tohoto výšlapu byl ten, že řadu zajímavých míst jsme museli vypustit, nedalo se stihnout vše. Kolem Bílého křížku jsme náhle dorazili na široké a dlouhé vybetonované prostranství, které se jmenuje Letiště. Počítám, že mohlo sloužit letadlům tak před válkou, dnešním strojům by plocha byla krátká.  ',
+            },
+          {foto: ' 426Brdy18.jpg  ', popisek: ' Bílý křížek ', naVysku: true },
+          {foto: ' 426Brdy19.jpg  ', popisek: ' Letiště (září 2022). '},
+          {foto: ' 426Brdy17.jpg  ', popisek: ' Někde vedla cesta po šotolině….  '},
+          {foto: ' 426Brdy20.jpg  ', popisek: ' … jinde po rozbitém asfaltu.  '},
+            {
+            textOdstavce: ' Po vzniku  Československa v osmnáctém roce bylo potřeba pro nově vznikající armádu získat cvičiště. Armáda si vybrala mimo jiné Brdy. Marné byly protesty místních lidí, vědců, umělců, obrana dostala přednost. Pro výcvik dělostřelectva bylo nutno zaopatřit dopadové plochy. Na dopadové ploše Jordán se začalo s kácením lesa v roce 1928 a vykácela se plocha tří kilometrů čtverečních vzrostlého lesa v nejvyšších partiiích Brdů. Vše se dělo ručně, desítky drvoštěpů byly svezeny ze Slovenska a Podkarpatské Rusi. Za dva roky se mohlo střílet. Plochy začaly zarůstat vřesem, později břízami. Protože tam vyšší strom nemohl vyrůst, stal se hned cílem střeleb, vzniklo zvláštní vřesoviště, kde se držely rostliny, které by jinde nerostly. Na rovinách se zase v kráterech po střelách držela jezírka vody a vznikaly mokřady.<br>Došli jsme k dopadové ploše Jordán. Jméno dostala podle blízkého kopce. Kolem cesty se objevily staré bunkry. Armáda je začala stavět dlouho před válkou a zkoušela na nich, kolik vydrží při ostřelování děly. Zkušenosti se pak využily při stavbě pohraničního opevnění. Jeden z bunkrů se jmenuje Benešák, protože v době zkoušek ho přijel zhlédnout president Beneš. V témže díle pokračovali i Němci za války.  ',
+            },
+          {foto: ' 426Brdy21.jpg  ', popisek: '  Dopadová plocha Jordán. '},
+          {foto: ' 426Brdy22.jpg  ', popisek: ' Srub zvaný Piksla, podle hranatého tvaru.  '},
+          {foto: ' 426Brdy29.jpg'},
+            {
+            textOdstavce: ' Nahoře na kótě 794 metrů je srub zvaný Houpák. Zahrál si i ve filmu Obecná škola. Od mnoha dělostřeleckých zásahů je poněkud poškrábán, ale vše vydržel. Na Houpáku jsme potkali také nejvíce lidí, přestože byl všední den, byly jich desítky.    ',
+            },
+          {foto: ' 426Brdy24.jpg  ', popisek: ' Dělostřelecký srub Houpák.  '},
+          {foto: ' 426Brdy25.jpg  ', popisek: ' (září 2022).  '},
+          {foto: ' 426Brdy26.jpg'},
+          {foto: ' 426Brdy27.jpg  ', popisek: ' Dostal přímý zásah.  '},
+            {
+            textOdstavce: '   Z plošiny na Houpáku je takřka kruhový výhled. Kdyby byla dobrá viditelnost, byla by vidět Praha a všechny pohraniční hory. Při mimořádných podmínkách se za Šumavou někdy objevují Alpy. Závažný článek o výhledech nejen z Brdů najdete <span><a href="http://www.brdy.org/content/view/348/65/" target="_blank" class="vnitrniOdkaz">tady</a></span>.'
+            },
+          {foto: ' 426Brdy28.jpg  ', popisek: ' Vyhlídka z Houpáku. '},
+          {foto: ' 426Brdy30.jpg'},
+          {foto: ' 426Brdy31.jpg  ', popisek: ' (září 2022).  '},
+                    {
+            textOdstavce: ' Po rovnějších místech se rozlévala voda. Bylo to tím, že předcházející týdny bylo ve středních Čechách deštivé období, ale hlavně proto, že na skalnatém podloží se slabou vrstvou hlíny se voda nevsákne, ale hledá cesty jak odtéct. Někdy se to daří a proto je tu spousta malých potoků s nezahloubenými koryty. To je živá voda. Tam kde voda zůstává stát, vznikají rašeliniště a bažiny s kyselou vodou v loužích. To je mrtvá voda. Průstup těmito místy byl dost obtížný. Připomíná to Skandinávii, zažili jsme to na Rondane, v Laponsku i jinde. Vrchol hory Tok je zcela plochý, aby se dal označit, snesli nadšenci kameny na hromadu a vrcholek si vytvořili na uměle navršeném protipožárním valu. ', 
+            },
+       {foto: ' 426Brdy32.jpg '},
+       {foto: ' 426Brdy33.jpg  ', popisek: ' Slepýš na rozmáčené cestě.  '},
+       {foto: ' 426Brdy34.jpg  '},
+       {foto: ' 426Brdy34a.jpg '},
+       {foto: ' 426Brdy35.jpg  ', popisek: ' Zbytek smrčin na dopadové ploše.  '},
+       {foto: ' 426Brdy36.jpg  ', popisek: ' Vrcholová pyramidka hory Tok.  '},
+                    {
+            textOdstavce: ' Cestou jsme potkávali cyklisty, výletníky, houbaře, všichni byli nalehko. V horách přenocovali jen členové aktivních záloh, viděli jsme asi čtyři skupiny. Z dálky se zdálo, že jde proti nám parta trempů. Ale když přišli blíže, viděli jsme jejich nové maskáče, vlaječky na rukávech a hlavně nás zdravili Dobrý den. Jedni s sebou měli psa a ten si v postroji nesl žrádlo s sebou. Z jiného tábořiště záložek se ozýval ženský smích. Dobrá vojna. Dlouho jsem nechápal, jak se může někdo dobrovolně hlásit na vojenské cvičení. Ale doba se změnila, vojenské cvičení z 80. let, které jsem několikrát zažil, má s dnešním máloco společného. Dělají tady v podstatě to co my a armáda jim poskytne vybavení, volno a ještě jim zaplatí. No, neberte to.<br>Některé menší oblasti ještě nejsou pyrotechnicky prozkoumány, jsou ohraničeny cestami a označeny cedulemi. Také zhruba pětinu pohoří u Jinců si ještě armáda ponechala, tam se stále nesmi, asi se tam střílí.  ', 
+            },
+          {foto: ' 426Brdy40.jpg  ', popisek: ' Pes si nese žrádlo s sebou.  '},
+          {foto: ' 426Brdy41.jpg  ', popisek: ' Camp osady Sun valley v údolí Třítrubeckého potoka.  '},
+          {foto: ' 426Brdy44.jpg  ', popisek: ' (září 2022)  '},
+                    {
+            textOdstavce: ' Došli jsme na horskou louku Bor. Tady se už shromažďovala lesnická technika a další několikakilometrový pás smrčin byl prakticky vykácen. Vznikl pás holin, zatím bez porostu. Jestli tu v budoucnu nasadí smíšený les místo smrkové monokultury, bude to krajině jen ku prospěchu. Na jednom místě našli blízko sebe tři pomníčky ruských partyzánů, kteří tu padli v zimě 1945.  ', 
+            },
+          {foto: ' 426Brdy39.jpg  ', popisek: ' Horská louka Bor je příjemné místo.  '},
+          {foto: ' 426Brdy42.jpg  ', popisek: ' Tady všude stál smrkový les. (září 2022) '},
+          {foto: ' 426Brdy43.jpg  ', popisek: ' Pomníček neznámého ruského partyzána.  '},
+                    {
+            vnitrniOdkazy: [
+              {
+                vnitrniOdkaz: 204,
+                odkazPodkategorie: 16,
+                odkazKategorie: "pomnicky",
+                odkazKde: "odstavec",
+                predOdkazem:
+                  "Na kraji jedné velké holiny jsme si ustlali. Naproti přes údolí stál meteorologický radar na hoře Praha, jediný v Čechách. Každý večer ukazují v televizním počasí, co zachytil. Další radar je na Moravě na kopci ",
+                textOdkazu: "Skalka",
+                zaOdkazem: " a jejich záznamy se překrývají. Věž radaru v noci zářila do tmy červenými světly jako vánoční stromeček. Z ochozu věže, kdyby tam někoho pustili, by byl jedinečný kruhový rozhled po celé české kotlině. ",
+              },
+            ],
+            textOdstavce: '  Na kraji jedné velké holiny jsme si ustlali. Naproti přes údolí stál meteorologický radar na hoře Praha, jediný v Čechách. Každý večer ukazují v televizním počasí, co zachytil. Další radar je na Moravě na kopci Skalka /skok na ID204/a jejich záznamy se překrývají. Věž radaru v noci zářila do tmy červenými světly jako vánoční stromeček. Z ochozu věže, kdyby tam někoho pustili, by byl jedinečný kruhový rozhled po celé české kotlině. ', 
+            },
+          {foto: ' 426Brdy45.jpg  ', popisek: ' Táboření na holině pod radarem.  '},
+          {foto: ' 426Brdy46.jpg  ', popisek: ' Meteorologický radar na hoře Praha (862 m).  '},
+          { kodMapa: ' <iframe style="border:none" src="https://frame.mapy.cz/s/bojehukapo" width="400" height="280" frameborder="0"></iframe>  ', 
+            odkazMapa: ' https://frame.mapy.cz/s/bojehukapo  ' },
+      
+           {
+           textOdstavce: '  <h2 class="podnadpis">Třetí den : sobota 24. září 2022 </h2>  ',
+            },
+                    {
+            textOdstavce: ' Kóta 765 - Přední Záběhlá - Dolejší padrťský rybník - V aleji - Hořejší padrťský rybník - zřícenina kláštera Teslín - Břízkovec (719 m) - Teslíny - odbočka ke chráněnému buku - Getsemanka - Roubenka - Henšt - po hřebeni - Hřebence - Křemel - Třemšín (827 m) - Třemšínská studna - Gejzova studánka - buk Dvoják.  ', 
+            },
+                    {
+            textOdstavce: ' Hned ráno nás čekala oblast Padrťských rybníků. Dva největší vznikly někdy v 16. století a v mělkém lučinatém údolí jsou skutečnou přírodní perlou. Staré stromy, louky s výhledy, aleje, mokřady. Jen jedno nám vadilo, všechny cesty byly asfaltové a mimo cesty to kvůli bažinám nešlo. Uprostřed rybníků stála až do 50. let ves Padrť, obyvatelé se živili železářstvím a uprostřed vsi v 18. století dýmala vysoká pec. Dnes příroda vše skryla, armáda jí pomohla a po vsi není stopy. Zvláště Hořejší padrťský rybník s rozlohou 115 hektarů je ze všech stran obklopen podmáčenými lesy a dostat se k hladině je mimo hráz problém. Hnízdí tu orel mořský a má tu klid. ', 
+            },
+          {foto: ' 426Brdy38.jpg  ', popisek: ' Louky u Padrtě. (září 2022) '},
+          {foto: ' 426Brdy47.jpg  ', popisek: ' Aleje starých javorů dnes nevedou nikam.  '},
+          {foto: ' 426Brdy38a.jpg  ', popisek: ' Dolejší padrťský rybník z hráze.  '},
+          {foto: ' 426Brdy48.jpg  ', popisek: ' Břeh Hořejšího padrťského rybníka.  '},
+                    {
+            textOdstavce: ' Před osadou Teslíny je nenápadné lesní návrší Břízkovec (719 m). Tady se v letech 2008 - 2009 uvažovalo o stavbě amerického radaru. Akce vzbudila tak velkou nevoli a hlasité protesty části obyvatel, že USA ze stavby raději vycouvaly a vzájemné vztahy se velmi ochladily. Radar dnes stojí v Rumunsku. K nejhlasitějším protestujícím patřil starosta blízké vesničky Trokavec. Zaujal mě tehdy názor, že starosta obce s 96 obyvateli by neměl určovat mezinárodní politiku země.<br>V osadě Teslíny jsme překročili státní silnici z Rožmitálu do Plzně, která od jihu ohraničovala dřívější vojenský prostor. Také lesy se změnily. Z tmavých smrkových monokultur tu najednou byly veselejší smíšené lesy se starými buky, javory, lipami.  ', 
+            },
+       {foto: ' 426Brdy49.jpg  ', popisek: ' Hraniční buk u Teslínů…  ', naVysku: true },
+       {foto: ' 426Brdy50.jpg  ', popisek: ' …je starý 300 let a má obvod kmene šest a půl metru (září 2022).  ', naVysku: true },
+                    {
+            textOdstavce: ' Cestou ke Kobylí hlavě jsem si mohl prohlédnout zaparkovaný harvestor. Lesní stroj dokáže během minuty pokácet strom, zbavit větví a rozřezat kmen na polena požadované délky, aniž se ho tkne lidská ruka. Zbude po něm jen rozježděná spoušť a oblaka dýmu.  ', 
+            },
+            {foto: ' 426Brdy52.jpg  ', popisek: '  Harvestor. '},
+            {foto: ' 426Brdy51.jpg  ', popisek: ' Lesácká chata Roubenka (září 2022).  '},
+                    {
+            textOdstavce: ' Třetí nejvyšší vrch Brdů a nejvyšší v jižní části je Třemšín (827 m). Vede k němu skalnatý hřeben s občasnými výhledy a vrcholy Henšt (nověji Kobylí hlava), Hřebence a Křemel. Na Třemšíně jsou vidět četné valy rozsáhlé zříceniny  a níže stojí malá kaplička. Hrad byl založen kolem roku 1200 a v 15. století už nebyl osídlen, panstvo se stěhovalo dolů na hrad Rožmitál. Kaplička tu stojí od roku 1771.  ', 
+            },
+         {foto: ' 426Brdy53.jpg '},
+         {foto: ' 426Brdy54.jpg  ', popisek: ' Kamenité pole na Hřebencích.  '},
+         {foto: ' 426Brdy55.jpg  ', popisek: ' Valy na Třemšíně.  '},
+         {foto: ' 426Brdy56.jpg  ', popisek: ' Kaplička na Třemšíně (září 2022).  '},
+          {
+          textOdstavce: ' Třemšín převyšuje okolní krajinu aspoň o 300 metrů a výhledy na jižní stranu jsou fantastické. Muselo by ale být lepší počasí, než máme my.  Od poloviny 19. století se tu pořádaly národní poutě a výlety. Svědčí o tom kamenné desky v mostu přes hradní příkop. Byla snaha zde obnovit národovecké tábory lidu i na konci 20. století, ale zájem už není, co býval. Teď se sem chodí kvůli přírodě a vyhlídce.  ', 
+          },
+          {foto: ' 426Brdy57.jpg  ', popisek: ' Pamětní deska v hradním příkopu.  '},
+          {foto: ' 426Brdy58.jpg '},
+          {foto: ' 426Brdy59.jpg  ', popisek: '  Jižní svah Třemšína.  '},
+          {
+          textOdstavce: ' Kousek pod kapličkou byla obnovena třemšínská hradní studna s rumpálem, ale stojatá voda ze studny nevypadala důvěryhodně. Přestože jižní svah vypadal dost vysušeně, nějaké prameny se tu našly. Z jednoho z nich jsme nabrali vodu a dali se do hledání místa na spaní. Hnala se přeháňka a tedy bylo třeba rychle najít vhodné místo, dříve než zmokneme. V nouzi jsme uviděli rovné místo u starého zlámaného buku a ve spěchu postavili stan. ', 
+          },
+        {foto: ' 426Brdy60.jpg  ', popisek: ' Gejzova studánka pod Třemšínem.  '},
+        {foto: ' 426Brdy63.jpg  ', popisek: '  Stan stojí u buku Dvojáku. '},
+          {
+          textOdstavce: '  Dodatečně jsme zjistili, že táboříme před ikonickým místem - známým bukem Dvojákem. Zmiňují se o něm všichni tvůrci průvodců. No, napsáno to tam nebylo. Jako kdybychom zatábořili před Karlovým mostem. Ale za celou dobu naší přítomnosti se tu nikdo neobjevil, nikomu jsme nepřekáželi a po odchodu nikdo nepozná, že se tu nocovalo. Strom je v deseti metrech zlomený a většina větví leží na zemi, dřevěná brána ze dvou tlustých kmenů ale zůstala stát a pahýl stromu roste dál. Zvláštní tábořiště.  ', 
+          },
+        {foto: ' 426Brdy61.jpg  ', popisek: ' Jen aby na nás v noci nespadlo staré dřevo.  '},
+        {foto: ' 426Brdy62.jpg  ', popisek: ' (září 2022)  '},
+          { kodMapa: ' <iframe style="border:none" src="https://frame.mapy.cz/s/medozojure" width="400" height="280" frameborder="0"></iframe>  ', 
+            odkazMapa: ' https://frame.mapy.cz/s/medozojure  ' },
+      
+           {
+           textOdstavce: '  <h2 class="podnadpis">Čtvrtý den : neděle 25. září 2022 </h2>  ',
+            },
+          {
+          textOdstavce: ' Dvoják - Vrchy - Starý Smolivec - po cyklostezce - Brdský anděl - Smírčí křížek - pomník bitvy - pomník partyzána Pimoniče - kaple sv. Anny - kaple sv. Isidora - Dožice - Na samotě - Liškov - pod Štědrým. 17 km.  ', 
+          },
+          {
+          textOdstavce: '  Tento den měl být jednodušší, všechny těžší a orientačně náročné úseky jsme měli za sebou. Z lesů jsme vyšli u vsi Starý Smolivec. (Ještě tam mají menší Mladý Smolivec, ale tam jsme nebyli.) Škoda jen, že jsme nemohli sbírat houby, měli bychom jich brzy koš. Ale koše s sebou nevozíme. Ze Starého Smolivce vede asfaltová cyklostezka po bývalé trase formanské silnice od Příbrami do Plzně a dál do Bavor. Na vyhlídce na jižní Brdy stála na soklu socha Brdský anděl - strážce pozitivní energie. Autor Václav Česák měl volné pole působnosti, anděla si představí málokdo. O kus dál byl na nízkém soklu smírčí křížek 0255 Starý Smolivec. Má na sobě letopočet 1757 a možná souvisí s bitvou která se tu udála o století dříve.', 
+          },
+          {foto: ' 426Brdy64.jpg  ', popisek: ' Brdský anděl z roku 2000.  ', naVysku: true },
+          {foto: ' 426Brdy65.jpg  ', popisek: ' Smírčí křížek na výhledu (září 2022).  ' },
+          {
+          textOdstavce: ' K pomníku Bitvy na Vraždě v roce 1620 jsme dorazili za chvíli. Tehdy na sebe narazilo vojsko císařských s vojskem Českých stavů. Byla to předehra Bitvy na Bílé hoře a v této šarvátce stavovské vojsko zvítězilo - škoda, že se to nepovedlo i na Bílé hoře o měsíc později. V úterý 6. října 1620 postupovalo šestnáctitisícové vojsko císařských tudy na Plzeň. Zezadu na ně nečekaně zaútočilo stavovské vojsko a způsobilo v jeho řadách zmatek a paniku. Padlo 200 žoldnéřů, bylo zabito hodně koní táhnoucích vozy a vznikla škoda na vojenském materiálu.    ', 
+          },
+          {foto: ' 426Brdy66.jpg  ', popisek: '  Pomník bitvy na Vraždě postavili v roce 2011. '},
+          {
+          textOdstavce: ' Další vlastivědné objekty kolem cyklostezky následovaly rychle za sebou, pomníčky, mlýn, kapličky, pozoruhodné výhledy. Brzy jsme došli do Dožic. Mají tam několik pěkných barokních soch, bohužel o ně příliš nepečují - potřebovaly by údržbu. My jsme měli štěstí. Nabrali jsme vodu v zavřené hospodě. V civilizaci jsou s pitnou vodou vždy problémy, nelze nabrat z potoka a studánek je málo. Přes chalupářskou vesnici Liškov jsme se dostali pod vrch Štědrý, kde jsme hodlali v lese najít místo na spaní. A zase přicházela odpolední přeháňka, která nás donutila vzít první vhodné rovné místo bez vybírání.  ', 
+          },
+          {foto: ' 426Brdy68.jpg  ', popisek: ' Barokní socha svatého v Dožicích.  ', naVysku: true },
+          {foto: ' 426Brdy69.jpg  ', popisek: '  Liškov '},
+          {foto: ' 426Brdy70.jpg  '},
+          { kodMapa: ' <iframe style="border:none" src="https://frame.mapy.cz/s/mafatovape" width="400" height="280" frameborder="0"></iframe>  ', 
+            odkazMapa: ' https://frame.mapy.cz/s/mafatovape  ' },
+      
+           {
+           textOdstavce: '  <h2 class="podnadpis">Pátý den : pondělí 25. září 2022 </h2>  ',
+            },
+          {
+          textOdstavce: ' Pod Štědrým - Štědrý (668 m)- pramen Dobrá voda - Vrčeň - Nepomuk žel.stanice. 7 km.  ', 
+          },
+          {
+          textOdstavce: ' Další den jsme vstávali za hluboké tmy. Rychlík z Nepomuku odjížděl po desáté hodině, abychom tam byli včas, bylo třeba vyrazit, jen co se rozední. Navíc bylo ráno mlhavé, vršky kopců trčely do mraků. Na vrchol kopce Štědrý nás zavedla naučná stezka, nahoře je recesistický hrob posledního Kelta a výhledy do zamlženého kraje. Dolů jsme šli kolem studánky Dobrá voda, kdysi v 19. století napájela malé lázně na úpatí. A pak už jen šestihodinová cesta vlakem přes jihočeské pánve a Vysočinu, cesta, kterou máme mnohem raději než kratší trasu přes Prahu.   ', 
+          },
+          {foto: ' 426Brdy71.jpg  ', popisek: '  Pod vrcholem kopce Štědrý …  '},
+          {foto: ' 426Brdy72.jpg  ', popisek: ' …se noříme do mlhy.  '},
+          {foto: ' 426Brdy73.jpg  ', popisek: ' Studánka Dobrá voda.  '},
+          { kodMapa: ' <iframe style="border:none" src="https://frame.mapy.cz/s/leguceloce" width="400" height="280" frameborder="0"></iframe>  ', 
+            odkazMapa: ' https://frame.mapy.cz/s/leguceloce  ' },
+      
+          ]
+      }
+      
+      
+      
   ],
 };
