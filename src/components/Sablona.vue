@@ -133,17 +133,19 @@
 
       <!-- kategorie menu start -->
 
+      <Loader v-if="this.$route.name !== 'NovePridane' && !innerParams.kategoriePomnicky.length"/>
       <div
         v-if="
           (innerParams.stranka === 'pomnicky' ||
             innerParams.stranka === 'smircikrize') &&
-          innerWidth >= 600
+          innerWidth >= 600 &&
+          innerParams.kategoriePomnicky.length
         "
       >
         <div
           v-for="kategorie in innerParams.kategoriePomnicky"
           v-bind:key="kategorie.id"
-          v-on:click="handleClick(kategorie)"
+          v-on:click="handleClick()"
         >
           <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
             <div
@@ -173,14 +175,15 @@
         (innerParams.stranka === 'pomnicky' ||
           innerParams.stranka === 'smircikrize') &&
         innerWidth < 600 &&
-        menuColumn
+        menuColumn &&
+        innerParams.kategoriePomnicky.length
       "
       id="kategorieMobil"
     >
       <div
         v-for="kategorie in innerParams.kategoriePomnicky"
         v-bind:key="kategorie.id"
-        v-on:click="handleClick(kategorie)"
+        v-on:click="handleClick()"
       >
         <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
           <div
@@ -223,9 +226,7 @@
       }"
     >
       <div>
-        <OknoClanky
-          v-if="
-            innerParams.stranka === 'cesty' ||
+         <!-- innerParams.stranka === 'cesty' ||
             innerParams.stranka === 'vypraveni' ||
             (innerParams.stranka === 'pomnicky' &&
               this.$route.name !== 'DetailPomnicku' &&
@@ -233,7 +234,11 @@
             (innerParams.stranka === 'smircikrize' &&
               this.$route.name !== 'DetailKrize' &&
               this.$route.name !== 'NovyKriz') ||
-            innerParams.stranka === 'novepridane'
+            innerParams.stranka === 'novepridane' -->
+        <OknoClanky
+          v-if="
+           this.$route.name === 'NovePridane' || 
+           this.$route.name === 'PomnickyKategorie'
           "
           v-bind:stranka="innerParams.stranka"
           v-bind:zalozkyButton="!isLongVersion"
@@ -242,12 +247,12 @@
         />
         <OknoPomnicky
           v-if="
-            innerParams.stranka === 'pomnicky' ||
-            innerParams.stranka === 'studanky' ||
-            innerParams.stranka === 'smircikrize'
+           this.$route.name === 'PomnickyKategorieLong' ||
+           this.$route.name === 'DetailPomnicku' || 
+           this.$route.name === 'NovyPomnicek'
           "
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
-          v-on:kliknuti="vyfiltrujPomnicek"
+         
           v-bind:zalozkyButton="!isLongVersion"
           v-bind:key="pomnickyKey"
         />
@@ -257,32 +262,31 @@
 </template>
 
 <script>
-import { clanky } from "./../components/clanky.js";
-import OknoPomnicky from "./../components/OknoPomnicky.vue";
-import OknoClanky from "./../components/OknoClanky.vue";
-import AbecedniSeznam from "./../components/AbecedniSeznam.vue";
-import Klikaci from "./../components/Klikaci.vue";
+import OknoPomnicky from "./OknoPomnicky.vue";
+import OknoClanky from "./OknoClanky.vue";
+import AbecedniSeznam from ".//AbecedniSeznam.vue";
+import Klikaci from "./Klikaci.vue";
+import Loader from "./Loader.vue";
+
 export default {
   props: ["params", "paramsKrize"],
   components: {
-    OknoPomnicky: OknoPomnicky,
-    OknoClanky: OknoClanky,
-    AbecedniSeznam: AbecedniSeznam,
-    Klikaci: Klikaci,
+    OknoPomnicky,
+    OknoClanky,
+    AbecedniSeznam,
+    Klikaci,
+    Loader,
   },
 
   data() {
     return {
       innerParams: this.params,
-      vybraneId: undefined,
       vybranaId: [Number(this.$route.params.kategorie)],
       menuUkazat: false,
       oknoUkazat: true,
       seznamUkazat: true,
       innerWidth: window.innerWidth,
       menuColumn: false,
-      pomnickyUkazat: false,
-      clankyUkazat: true,
       clankyKey: 0,
       pomnickyKey: 1,
       isLongVersion:
@@ -304,27 +308,7 @@ export default {
       this.forceRerender();
     },
 
-    vyfiltrujPomnicek(id) {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) =>
-          clanek.kategorie === this.innerParams.stranka && clanek.id === id
-      );
-    },
-
-    handleClick(kategorie) {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) =>
-          clanek.kategorie === this.params.stranka &&
-          clanek.podkategorie == this.$route.params.kategorie
-      );
-
-      this.vybraneId = kategorie.id;
-      this.vybranaId.push(kategorie.id);
-      if (this.clankyPodKategorie.length === 0) {
-        this.clankyPodKategorie = null;
-      }
-      this.seradClanky();
-
+    handleClick() {
       this.oknoUkazat = true;
       this.menuUkazat = false;
       this.seznamUkazat = false;
@@ -336,35 +320,6 @@ export default {
         date.slice(3, 6).concat(date.slice(0, 3), date.slice(6))
       );
       return date;
-    },
-
-    seradClanky() {
-      if (this.$route.name === "Vypraveni") {
-        this.clankyPodKategorie.sort(
-          (a, b) =>
-            Number(b.datum.trim().slice(-4)) - Number(a.datum.trim().slice(-4))
-        );
-      } else if (this.$route.name === "Cesty") {
-        this.clankyPodKategorie.sort(
-          (a, b) =>
-            this.getDateNumber(b.formatDatum) -
-            this.getDateNumber(a.formatDatum)
-        );
-      } else if (this.$route.name === "NovePridane") {
-        this.clankyPodKategorie.sort((a, b) => b.id - a.id);
-      } else {
-        for (let clanek of this.clankyPodKategorie) {
-          if (!clanek.jmeno) {
-            clanek.jmeno = clanek.nazev;
-          }
-        }
-
-        this.clankyPodKategorie = this.clankyPodKategorie.sort((a, b) => {
-          return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
-            sensitivity: "accent",
-          });
-        });
-      }
     },
 
     toggleMenu() {
@@ -387,69 +342,30 @@ export default {
         this.menuUkazat = false;
       }
     },
-
-    filterRecent(clanek) {
-      if (clanek.pridano) {
-        const pridano = clanek.pridano.trim();
-
-        const parsed = Date.parse(
-          pridano
-            .slice(6)
-            .concat("-", pridano.slice(3, 5), "-", pridano.slice(0, 2))
-        );
-
-        const today = new Date().getTime();
-        const addedDaysAgo = (today - parsed) / 1000 / 60 / 60 / 24;
-        return addedDaysAgo <= 14;
-      }
-    },
   },
 
   created() {
     
     if (this.$route.name === "DetailKrize" || this.$route.name === "NovyKriz") {
       this.innerParams = this.paramsKrize;
-    }
-
-    else if (this.$route.name === "NovePridane") {
-
-      for (let clanek of this.clankyPodKategorie) {
-        if (
-          clanek.kategorie === "pomnicky" ||
-          clanek.kategorie === "smircikrize"
-        ) {
-          this.pomnickyUkazat = true;
-        } else if (
-          clanek.kategorie === "cesty" ||
-          clanek.kategorie === "vypraveni"
-        ) {
-          this.clankyUkazat = true;
-        }
-      }
-
-    } else if (this.$route.name === "Vypraveni") {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) => clanek.kategorie === "vypraveni"
-      );
-    } else if (this.$route.name === "Cesty") {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) => clanek.kategorie === "cesty"
-      );
-    } else {
-      this.clankyPodKategorie = this.clanky.filter(
-        (clanek) =>
-          clanek.kategorie === this.innerParams.stranka &&
-          clanek.podkategorie == this.$route.params.kategorie
-      );
-    }
-
-    this.seradClanky();
-
-    this.vybraneId = this.$route.params.kategorie;
-
-    if (this.clankyPodKategorie.length === 0) {
-      this.clankyPodKategorie = null;
+  
     } 
+    
+    // else if (this.$route.name === "Vypraveni") {
+    //   this.clankyPodKategorie = this.clanky.filter(
+    //     (clanek) => clanek.kategorie === "vypraveni"
+    //   );
+    // } else if (this.$route.name === "Cesty") {
+    //   this.clankyPodKategorie = this.clanky.filter(
+    //     (clanek) => clanek.kategorie === "cesty"
+    //   );
+    // } else {
+    //   this.clankyPodKategorie = this.clanky.filter(
+    //     (clanek) =>
+    //       clanek.kategorie === this.innerParams.stranka &&
+    //       clanek.podkategorie == this.$route.params.kategorie
+    //   );
+    // }
   },
 };
 </script>

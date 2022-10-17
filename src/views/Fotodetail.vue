@@ -1,5 +1,7 @@
 <template>
-  <div id="fotodetail">
+<div>
+  <Loader v-if="this.loading"/>
+  <div id="fotodetail" v-if="!this.loading">
     <figure
       v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
     >
@@ -22,12 +24,16 @@
       ><button class="pomnicekKategorie">Zpět</button></a
     >
   </div>
+  </div>
 </template>
 
 <script>
+  import Loader from "../components/Loader.vue";
   export default {
+    components: { Loader },
     data() {
       return {
+        loading: true,
         vybranaFotka: {},
         fotoOnas: [
           {
@@ -62,6 +68,7 @@
         })
           .then((response) => response.json())
           .then((data) => this.vybranaFotka = data.galerie.find(item => item.fotka.trim() === this.$route.params.filename))
+          .then(() => this.loading = false);
       }
         }
       

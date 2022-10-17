@@ -20,11 +20,9 @@
           background: "drevo.jpg",
           backgroundDescription: "Pozadí",
           transbox: "rgba(211, 214, 214, 0.8)",
+          kategoriePomnicky: []
         },
       };
-    },
-    created(){
-      console.log('novePridane');
     }
 
    

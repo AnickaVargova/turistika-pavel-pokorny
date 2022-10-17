@@ -42,31 +42,43 @@
     </footer>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
-      <router-link to="/novepridane"
-        >Naposled přidané ({{ pocetNovych }})</router-link
-      >
+      <div >
+        <Loader class="homeButton" v-if="loading.novePridane" />
+        <router-link to="/novepridane"
+          >Naposled přidané ({{ pocetNovych }})</router-link
+        >
+      </div>
+      <div >
+        <Loader class="homeButton" v-if="loading.pomnicky" />
+        <router-link to="/pomnicky"
+          >Pomníčky ({{ pocetPomnicku }})
+        </router-link>
 
-      <router-link to="/pomnicky">Pomníčky ({{ pocetPomnicku }}) </router-link>
+        <!-- <router-link to="/studanky">Studánky </router-link> -->
+      </div>
+      <div>
+        <router-link to="/smircikrize"
+          >Smírčí kříže ({{ pocetKrizu }})</router-link
+        >
+      </div>
+      <div>
+        <router-link to="/cesty">Cesty ({{ pocetCest }})</router-link>
 
-      <!-- <router-link to="/studanky">Studánky </router-link> -->
-
-      <router-link to="/smircikrize"
-        >Smírčí kříže ({{ pocetKrizu }})</router-link
-      >
-
-      <router-link to="/cesty">Cesty ({{ pocetCest }})</router-link>
-
-      <router-link to="/vypraveni"
-        >Vyprávění ({{ pocetVypraveni }})</router-link
-      >
-
-      <router-link to="/onas">O nás</router-link>
-
-      <router-link to="/odkazy">Sympatické weby</router-link>
-
-      <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
-        Moje rajče</a
-      >
+        <router-link to="/vypraveni"
+          >Vyprávění ({{ pocetVypraveni }})</router-link
+        >
+      </div>
+      <div>
+        <router-link to="/onas">O nás</router-link>
+      </div>
+      <div>
+        <router-link to="/odkazy">Sympatické weby</router-link>
+      </div>
+      <div>
+        <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
+          Moje rajče</a
+        >
+      </div>
     </div>
 
     <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
@@ -85,8 +97,9 @@
 </template>
 
 <script>
-import { clanky } from "./../components/clanky.js";
+import Loader from "../components/Loader.vue";
 export default {
+  components: { Loader },
   data() {
     return {
       responsive: false,
@@ -95,6 +108,10 @@ export default {
       pocetCest: 0,
       pocetVypraveni: 0,
       pocetNovych: 0,
+      loading: {
+        novePridane: true,
+        pomnicky: true,
+      },
     };
   },
 
@@ -139,7 +156,8 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => (this.pocetPomnicku = data.length));
+      .then((data) => (this.pocetPomnicku = data.length))
+      .then(() => (this.loading.pomnicky = false));
 
     fetch(`http://localhost:8080/pomnicky/novePridane`, {
       method: "GET",
@@ -148,7 +166,8 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => (this.pocetNovych = data.length));
+      .then((data) => (this.pocetNovych = data.length))
+      .then(() => (this.loading.novePridane = false));
   },
 };
 </script>
@@ -320,7 +339,7 @@ h1 {
   margin: 20px;
 }
 
-.nav a {
+.nav a, .homeButton {
   grid-column: 1/2;
   opacity: 1;
   font-weight: bold;

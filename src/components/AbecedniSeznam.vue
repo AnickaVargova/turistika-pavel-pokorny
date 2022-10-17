@@ -1,22 +1,12 @@
 <template>
-  <div v-if="stranka === 'smircikrize'" id="abecedniSeznam" :style="cssVars">
+  <div id="abecedniSeznam" :style="cssVars">
+    <Loader v-if="this.loading" />
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
       v-bind:to="`${stranka}/${clanek.kategorie}/${clanek.id}`"
       class="kontejnerJmeno"
-      v-bind:style="{ backgroundColor: '#e9f4f5' }"
-    >
-      {{ clanek.jmeno }}
-    </router-link>
-  </div>
-
-  <div v-else :style="cssVars">
-    <router-link
-      v-for="clanek in seznam"
-      v-bind:key="clanek.id"
-      v-bind:to="`${stranka}/${clanek.kategorie}/${clanek.id}`"
-      class="kontejnerJmeno"
+      v-bind:style="stranka === 'smircikrize' && { backgroundColor: '#e9f4f5'}"
     >
       {{ clanek.jmeno }}
     </router-link>
@@ -24,13 +14,17 @@
 </template>
 
 <script>
+import Loader from "./Loader.vue";
+
 export default {
+  components: { Loader },
   props: ["stranka"],
   data() {
     return {
       seznam: [],
       itemHeight: 34,
       componentKey: 0,
+      loading: true,
     };
   },
 
@@ -61,7 +55,8 @@ export default {
           });
         });
         this.seznam = data;
-      });
+      })
+    .then(() => (this.loading = false));
   },
 };
 </script>

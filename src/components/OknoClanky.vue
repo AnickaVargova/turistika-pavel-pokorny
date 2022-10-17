@@ -1,5 +1,8 @@
 <template>
-  <div id="oknoPomnicky" v-if="this.zalozkyButton">
+<div>
+  <Loader v-if="this.loading" />
+
+  <div id="oknoPomnicky" v-if="this.zalozkyButton && !this.loading">
     <div
       class="kontejnerClanek"
       v-for="(clanek, index) in mojeClanky"
@@ -8,22 +11,23 @@
       <Zalozka v-bind:mujClanek="clanek" v-bind:stranka="stranka" />
     </div>
   </div>
+  </div>
 </template>
 
 <script>
-import Zalozka from "./Zalozka";
+import Zalozka from "./Zalozka.vue";
+import  Loader from "./Loader.vue"
+
 export default {
-  props: ["stranka", "zalozkyButton", "clanky"],
-  components: {
-    Zalozka: Zalozka,
-  },
+  props: ["stranka", "zalozkyButton"],
+  components: { Zalozka, Loader},
   data() {
     return {
-      mojeClanky: this.clanky,
+      mojeClanky: [],
+      loading: true,
     };
   },
   created() {
-    console.log("oknoClanky");
     if (this.$route.name === "NovePridane") {
       fetch(`http://localhost:8080/pomnicky/novePridane`, {
         method: "GET",
@@ -32,8 +36,9 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data));
-    } else {
+        .then((data) => (this.mojeClanky = data))
+        .then(() => {this.loading = false});
+    } else if (this.$route.name === "PomnickyKategorie"){
       fetch(`http://localhost:8080/pomnicky/${this.$route.params.kategorie}`, {
         method: "GET",
         headers: {
@@ -41,7 +46,8 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data));
+        .then((data) => (this.mojeClanky = data))
+        .then(() => {this.loading = false});
     }
   },
 };
