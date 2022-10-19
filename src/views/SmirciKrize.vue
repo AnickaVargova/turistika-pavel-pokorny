@@ -52,11 +52,11 @@
 
           // /skok na: http://smircikrize.euweb.cz/index.html /
           kategoriePomnicky: [
-            { id: 1, nazev: "V Brně", pocet: undefined },
-            { id: 2, nazev: "Na sever", pocet: undefined },
-            { id: 3, nazev: "Na východ", pocet: undefined },
-            { id: 4, nazev: "Na jih", pocet: undefined },
-            { id: 5, nazev: "Na západ", pocet: undefined },
+            { id: 1, nazev: "V Brně"},
+            { id: 2, nazev: "Na sever"},
+            { id: 3, nazev: "Na východ" },
+            { id: 4, nazev: "Na jih" },
+            { id: 5, nazev: "Na západ"},
           ],
           stranka: "smircikrize",
           background: "pozadiKapky.jpg",

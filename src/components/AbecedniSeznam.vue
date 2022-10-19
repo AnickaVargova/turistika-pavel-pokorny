@@ -4,7 +4,7 @@
     <router-link
       v-for="clanek in seznam"
       v-bind:key="clanek.id"
-      v-bind:to="`${stranka}/${clanek.kategorie}/${clanek.id}`"
+      v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
       class="kontejnerJmeno"
       v-bind:style="stranka === 'smircikrize' && { backgroundColor: '#e9f4f5'}"
     >
@@ -41,7 +41,7 @@ export default {
     },
   },
   created() {
-    fetch(`http://localhost:8080/pomnicky`, {
+    fetch(`http://localhost:8080/${this.stranka}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

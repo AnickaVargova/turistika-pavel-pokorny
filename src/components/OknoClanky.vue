@@ -29,7 +29,7 @@ export default {
   },
   created() {
     if (this.$route.name === "NovePridane") {
-      fetch(`http://localhost:8080/pomnicky/novePridane`, {
+      fetch(`http://localhost:8080/novePridane`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -39,7 +39,7 @@ export default {
         .then((data) => (this.mojeClanky = data))
         .then(() => {this.loading = false});
     } else if (this.$route.name === "PomnickyKategorie"){
-      fetch(`http://localhost:8080/pomnicky/${this.$route.params.kategorie}`, {
+      fetch(`http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

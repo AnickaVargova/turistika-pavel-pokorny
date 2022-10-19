@@ -76,7 +76,7 @@ export default {
   created() {
     if (this.clanek) {
       fetch(
-        `http://localhost:8080/pomnicky/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
+        `http://localhost:8080/${this.mujClanek.kategorie}/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
         {
           method: "GET",
           headers: {

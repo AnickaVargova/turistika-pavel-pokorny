@@ -252,7 +252,7 @@
            this.$route.name === 'NovyPomnicek'
           "
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
-         
+          v-bind:stranka="innerParams.stranka"
           v-bind:zalozkyButton="!isLongVersion"
           v-bind:key="pomnickyKey"
         />

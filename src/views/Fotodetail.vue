@@ -6,7 +6,7 @@
       v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
     >
       <img
-        v-bind:src="`http://localhost:8080/photos/${this.$route.params.filename}`"
+        v-bind:src="this.$route.params.kategorie === 'onas' ? require(`./../assets/${this.$route.params.filename}`) : `http://localhost:8080/photos/${this.$route.params.filename}`"
        v-bind:alt="`${this.$route.params.filename}`"
       />
       <figcaption v-if="vybranaFotka.datum">
@@ -50,17 +50,14 @@
     },
 
     methods: {
+      
       detailFotky() {
-        if (this.$route.params.podkategorie === "onas") {
-          for (let item of this.fotoOnas) {
-            if (item.fotka == this.$route.params.id) {
-              this.vybranaFotka.fotka = item.fotka;
-              this.vybranaFotka.popisek = item.popisek;
-            }
-          }
+        if (this.$route.params.kategorie === "onas") {
+          this.loading = false;
+          this.vybranaFotka = this.fotoOnas.find(item => item.fotka === this.$route.params.filename);
         } else {
-
-          fetch(`http://localhost:8080/pomnicky/${this.$route.params.podkategorie}/${this.$route.params.id}`, {
+// only id is relevant for backend, kategorie is here twice because of format required by backend, podkategorie is not in params
+          fetch(`http://localhost:8080/${this.$route.params.kategorie}/${this.$route.params.kategorie}/${this.$route.params.id}`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

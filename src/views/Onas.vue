@@ -17,7 +17,7 @@
           >
             <router-link
               v-if="odstavec.foto"
-              v-bind:to="`/fotodetail/onas/${odstavec.foto}`"
+              v-bind:to="`/fotodetail/onas/1/${odstavec.foto}`"
               v-bind:popisek="odstavec.popisek"
             >
               <figure

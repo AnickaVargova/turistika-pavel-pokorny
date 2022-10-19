@@ -177,7 +177,7 @@
                 v-bind:class="{ jednaFotkaEdge: isEdgeChromium }"
               >
                 <router-link
-                  v-bind:to="`/fotodetail/${clanek.podkategorie}/${
+                  v-bind:to="`/fotodetail/${clanek.kategorie}/${
                     clanek.id
                   }/${obrazek.fotka.trim()}`"
                   ><img
@@ -252,7 +252,7 @@ import Klikaci from "./../components/Klikaci.vue";
 import Loader from "./Loader.vue";
 
 export default {
-  props: ["kategoriePomnicky", "zalozkyButton"],
+  props: ["kategoriePomnicky", "zalozkyButton", "stranka"],
   components: { Klikaci, Loader},
   data() {
     return {
@@ -283,7 +283,7 @@ export default {
       this.$route.name === "NovyPomnicek"
     ) {
       fetch(
-        `http://localhost:8080/pomnicky/${this.$route.params.kategorie}/${this.$route.params.id}`,
+        `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
         {
           method: "GET",
           headers: {
@@ -298,7 +298,7 @@ export default {
     } else if (
       this.$route.name === "PomnickyKategorieLong"
     ) {
-      fetch(`http://localhost:8080/pomnicky/${this.$route.params.kategorie}`, {
+      fetch(`http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

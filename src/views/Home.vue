@@ -159,7 +159,7 @@ export default {
       .then((data) => (this.pocetPomnicku = data.length))
       .then(() => (this.loading.pomnicky = false));
 
-    fetch(`http://localhost:8080/pomnicky/novePridane`, {
+    fetch(`http://localhost:8080/novePridane`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

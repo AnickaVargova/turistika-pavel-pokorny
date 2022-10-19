@@ -42,7 +42,7 @@ const routes = [
     component: Detail,
   },
   {
-    path: "/fotodetail/:podkategorie/:id/:filename",
+    path: "/fotodetail/:kategorie/:id/:filename",
     name: "Fotodetail",
     component: Fotodetail,
   },
