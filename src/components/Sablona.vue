@@ -14,20 +14,19 @@
     <div v-else id="transbox1"></div>
     <h1>
       <a name="top"></a>
-
       {{ innerParams.nadpis }}
     </h1>
 
     <AbecedniSeznam
       v-if="
         (this.$route.name === 'Pomnicky' ||
-          this.$route.name === 'Smircikrize') &&
+          this.$route.name === 'SmirciKrize') &&
         seznamUkazat &&
-        !innerParams.detail &&
+        !this.innerParams.detail &&
         !this.$route.params.kategorie
       "
       v-bind:stranka="innerParams.stranka"
-      id="abecedniSeznam"
+      id="abSeznam"
     />
 
     <div
@@ -105,8 +104,7 @@
         class="pomnicekKategorie domu"
         id="seznam"
         v-if="
-          innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'smircikrize'
+          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize'
         "
       >
         <router-link v-bind:to="`/${innerParams.stranka}`">
@@ -118,12 +116,11 @@
           pomnicekKategorie: true,
           ukazMenu: true,
           hneda: innerParams.stranka === 'pomnicky',
-          tyrkys: innerParams.stranka === 'smircikrize',
+          tyrkys: innerParams.stranka === 'krize',
         }"
         v-on:click="toggleMenu"
         v-if="
-          innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'smircikrize'
+          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize'
         "
       >
         Řazení podle skupin
@@ -133,11 +130,16 @@
 
       <!-- kategorie menu start -->
 
-      <Loader v-if="this.$route.name !== 'NovePridane' && !innerParams.kategoriePomnicky.length"/>
+      <Loader
+        v-if="
+          this.$route.name !== 'NovePridane' &&
+          !innerParams.kategoriePomnicky.length
+        "
+      />
       <div
         v-if="
           (innerParams.stranka === 'pomnicky' ||
-            innerParams.stranka === 'smircikrize') &&
+            innerParams.stranka === 'krize') &&
           innerWidth >= 600 &&
           innerParams.kategoriePomnicky.length
         "
@@ -150,12 +152,11 @@
           <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
             <div
               v-bind:class="{
-                tyrkys: innerParams.stranka === 'smircikrize',
+                tyrkys: innerParams.stranka === 'krize',
                 hneda: innerParams.stranka === 'pomnicky',
                 pomnicekKategorie: true,
                 kategorieTextCenter:
-                  innerParams === 'cesty' ||
-                  innerParams === 'vypraveni',
+                  innerParams === 'cesty' || innerParams === 'vypraveni',
                 active: vybranaId.includes(kategorie.id),
                 responsive: menuUkazat && !oknoUkazat,
                 pomnicekMenu: true,
@@ -173,7 +174,7 @@
     <div
       v-if="
         (innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'smircikrize') &&
+          innerParams.stranka === 'krize') &&
         innerWidth < 600 &&
         menuColumn &&
         innerParams.kategoriePomnicky.length
@@ -197,7 +198,7 @@
               responsive: menuUkazat && !oknoUkazat,
               pomnicekMenu: true,
               hneda: innerParams.stranka === 'pomnicky',
-              tyrkys: innerParams.stranka === 'smircikrize',
+              tyrkys: innerParams.stranka === 'krize',
             }"
           >
             {{ kategorie.nazev }} ({{ kategorie.pocet }})
@@ -208,16 +209,16 @@
 
     <!-- kategorie menu end -->
 
+    <!-- condition v-if for kontejner is here because otherwise it covers abecedniSeznam which becomes unclickable -->
     <div
       class="kontejner"
-      v-if="this.$route.name !== 'Pomnicky'"
+      v-if="this.$route.name !== 'Pomnicky' && this.$route.name !== 'SmirciKrize'"
       v-bind:class="{
         kontejnerBigMargin:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty',
         kontejnerSmallMargin:
-          innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'smircikrize',
+          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize',
         large:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty' ||
@@ -226,30 +227,24 @@
       }"
     >
       <div>
-         <!-- innerParams.stranka === 'cesty' ||
-            innerParams.stranka === 'vypraveni' ||
-            (innerParams.stranka === 'pomnicky' &&
-              this.$route.name !== 'DetailPomnicku' &&
-              this.$route.name !== 'NovyPomnicek') ||
-            (innerParams.stranka === 'smircikrize' &&
-              this.$route.name !== 'DetailKrize' &&
-              this.$route.name !== 'NovyKriz') ||
-            innerParams.stranka === 'novepridane' -->
         <OknoClanky
           v-if="
-           this.$route.name === 'NovePridane' || 
-           this.$route.name === 'PomnickyKategorie'
+            this.$route.name === 'NovePridane' ||
+            this.$route.name === 'PomnickyKategorie' ||
+            this.$route.name === 'SmirciKrizeKategorie'
           "
           v-bind:stranka="innerParams.stranka"
           v-bind:zalozkyButton="!isLongVersion"
           v-bind:key="clankyKey"
-         
         />
         <OknoPomnicky
           v-if="
-           this.$route.name === 'PomnickyKategorieLong' ||
-           this.$route.name === 'DetailPomnicku' || 
-           this.$route.name === 'NovyPomnicek'
+            this.$route.name === 'PomnickyKategorieLong' ||
+            this.$route.name === 'DetailPomnicku' ||
+            this.$route.name === 'SmirciKrizeKategorieLong' ||
+            this.$route.name === 'DetailKrize' ||
+            this.$route.name === 'NovyPomnicek' ||
+            this.$route.name === 'NovyKriz'
           "
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
           v-bind:stranka="innerParams.stranka"
@@ -269,7 +264,7 @@ import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
 
 export default {
-  props: ["params", "paramsKrize"],
+  props: ["params"],
   components: {
     OknoPomnicky,
     OknoClanky,
@@ -343,34 +338,16 @@ export default {
       }
     },
   },
-
-  created() {
-    
-    if (this.$route.name === "DetailKrize" || this.$route.name === "NovyKriz") {
-      this.innerParams = this.paramsKrize;
-  
-    } 
-    
-    // else if (this.$route.name === "Vypraveni") {
-    //   this.clankyPodKategorie = this.clanky.filter(
-    //     (clanek) => clanek.kategorie === "vypraveni"
-    //   );
-    // } else if (this.$route.name === "Cesty") {
-    //   this.clankyPodKategorie = this.clanky.filter(
-    //     (clanek) => clanek.kategorie === "cesty"
-    //   );
-    // } else {
-    //   this.clankyPodKategorie = this.clanky.filter(
-    //     (clanek) =>
-    //       clanek.kategorie === this.innerParams.stranka &&
-    //       clanek.podkategorie == this.$route.params.kategorie
-    //   );
-    // }
-  },
 };
 </script>
 
 <style>
+#abSeznam {
+  grid-column: 2/7;
+  grid-row-start: 3;
+  margin: 30px;
+}
+
 #pomnicky {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

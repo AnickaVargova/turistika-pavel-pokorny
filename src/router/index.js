@@ -77,27 +77,27 @@ const routes = [
     component: Studanky,
   },
   {
-    path: "/smircikrize",
+    path: "/krize",
     name: "SmirciKrize",
     component: SmirciKrize,
   },
   {
-    path: "/smircikrize/:kategorie",
+    path: "/krize/:kategorie",
     name: "SmirciKrizeKategorie",
     component: SmirciKrize,
   },
   {
-    path: "/smircikrize/:kategorie/long",
+    path: "/krize/:kategorie/long",
     name: "SmirciKrizeKategorieLong",
     component: SmirciKrize,
   },
   {
-    path: "/smircikrize/:kategorie/:id",
+    path: "/krize/:kategorie/:id",
     name: "DetailKrize",
     component: SmirciKrize,
   },
   {
-    path: "/smircikrize/vypraveni/:kategorie/:id",
+    path: "/krize/vypraveni/:kategorie/:id",
     name: "SmirciKrizeVypraveni",
     component: Detail,
   },
@@ -132,9 +132,9 @@ const routes = [
     component: Pomnicky,
   },
   {
-    path: "/novepridane/smircikrize/:kategorie/:id",
+    path: "/novepridane/krize/:kategorie/:id",
     name: "NovyKriz",
-    component: Pomnicky,
+    component: SmirciKrize,
   },
 ];
 

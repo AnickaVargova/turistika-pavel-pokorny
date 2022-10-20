@@ -12,26 +12,26 @@
         >
           {{ clanek.nazev }}
         </h2>
-        <h2 v-else-if="clanek.kategorie === 'smircikrize'">
+        <h2 v-else-if="clanek.kategorie.trim() === 'smircikrize'">
           {{ clanek.jmeno }}
         </h2>
         <h4 v-if="clanek.kategorie === 'pomnicky'">
           {{ clanek.jmeno }}
         </h4>
-        <h4 v-else-if="clanek.kategorie === 'smircikrize'">
+        <h4 v-else-if="clanek.kategorie.trim() === 'smircikrize'">
           Číslo v evidenci: {{ clanek.cislo }}
         </h4>
         <h3
           v-if="
-            clanek.kategorie === 'cesty' || clanek.kategorie === 'vypraveni'
+            clanek.kategorie.trim() === 'cesty' || clanek.kategorie.trim() === 'vypraveni'
           "
         >
           {{ clanek.datum }} -->
         </h3>
         <h3
           v-if="
-            clanek.kategorie === 'pomnicky' ||
-            clanek.kategorie === 'smircikrize'
+            clanek.kategorie.trim() === 'pomnicky' ||
+            clanek.kategorie.trim() === 'smircikrize'
           "
         >
           {{ clanek.obec }}
@@ -69,8 +69,8 @@ export default {
         return this.$route.path;
       }
       return this.stranka === "novepridane"
-        ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
-        : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
+        ? `novepridane/${this.clanek.kategorie === 'smircikrize' ? 'krize' : this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
+        : `/${this.clanek.kategorie === 'smircikrize' ? 'krize' : this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
     },
   },
   created() {

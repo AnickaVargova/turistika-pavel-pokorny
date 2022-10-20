@@ -3,7 +3,6 @@
 </template>
 
 <script>
-  // import {clanky} from "./../components/clanky.js";
   import Sablona from "./../components/Sablona.vue";
   export default {
     components: {
@@ -12,7 +11,6 @@
 
     data() {
       return {
-        // clanky,
         params: {
           nadpis: "Pomníčky",
           uvodniText: [

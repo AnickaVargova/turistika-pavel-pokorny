@@ -7,7 +7,7 @@
           v-if="$route.name === 'SmirciKrize'"
           class="vnitrniOdkaz"
           v-bind:to="
-            `/smircikrize/vypraveni/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`
+            `/krize/vypraveni/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`
           "
           >{{ odkaz.textOdkazu }}</router-link
         >

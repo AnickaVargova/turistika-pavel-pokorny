@@ -42,31 +42,25 @@
     </footer>
 
     <div v-bind:class="{ nav: true, responsive: responsive }">
-      <div >
+      <div>
         <Loader class="homeButton" v-if="loading.novePridane" />
         <router-link to="/novepridane"
           >Naposled přidané ({{ pocetNovych }})</router-link
         >
       </div>
-      <div >
+      <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
-        <router-link to="/pomnicky"
-          >Pomníčky ({{ pocetPomnicku }})
-        </router-link>
+        <router-link to="/pomnicky">Pomníčky ({{ pomnicky }}) </router-link>
 
         <!-- <router-link to="/studanky">Studánky </router-link> -->
       </div>
       <div>
-        <router-link to="/smircikrize"
-          >Smírčí kříže ({{ pocetKrizu }})</router-link
-        >
+        <router-link to="/krize">Smírčí kříže ({{ krize }})</router-link>
       </div>
       <div>
-        <router-link to="/cesty">Cesty ({{ pocetCest }})</router-link>
+        <router-link to="/cesty">Cesty ({{ cesty }})</router-link>
 
-        <router-link to="/vypraveni"
-          >Vyprávění ({{ pocetVypraveni }})</router-link
-        >
+        <router-link to="/vypraveni">Vyprávění ({{ vypraveni }})</router-link>
       </div>
       <div>
         <router-link to="/onas">O nás</router-link>
@@ -103,10 +97,10 @@ export default {
   data() {
     return {
       responsive: false,
-      pocetPomnicku: 0,
-      pocetKrizu: 0,
-      pocetCest: 0,
-      pocetVypraveni: 0,
+      pomnicky: 0,
+      krize: 0,
+      cesty: 0,
+      vypraveni: 0,
       pocetNovych: 0,
       loading: {
         novePridane: true,
@@ -149,16 +143,17 @@ export default {
     },
   },
   created() {
-    fetch(`http://localhost:8080/pomnicky`, {
+    ['pomnicky', 'krize'].map(kategorie => {
+    fetch(`http://localhost:8080/${kategorie}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
     })
       .then((response) => response.json())
-      .then((data) => (this.pocetPomnicku = data.length))
+      .then((data) => (this[kategorie] = data.names.length))
       .then(() => (this.loading.pomnicky = false));
-
+    });
     fetch(`http://localhost:8080/novePridane`, {
       method: "GET",
       headers: {
@@ -169,6 +164,7 @@ export default {
       .then((data) => (this.pocetNovych = data.length))
       .then(() => (this.loading.novePridane = false));
   },
+  
 };
 </script>
 
@@ -339,7 +335,8 @@ h1 {
   margin: 20px;
 }
 
-.nav a, .homeButton {
+.nav a,
+.homeButton {
   grid-column: 1/2;
   opacity: 1;
   font-weight: bold;

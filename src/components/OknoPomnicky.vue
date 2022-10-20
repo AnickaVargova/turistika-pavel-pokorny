@@ -34,7 +34,7 @@
             <td>Druh:</td>
             <td>{{ clanek.druh }}</td>
           </tr>
-          <tr v-else-if="clanek.kategorie === 'smircikrize'">
+          <tr v-else-if="clanek.kategorie.trim() === 'smircikrize'">
             <td>Umístění:</td>
             <td>{{ clanek.oblast }}</td>
           </tr>
@@ -48,7 +48,7 @@
             <td>{{ clanek.obec }}</td>
           </tr>
 
-          <tr v-if="clanek.kategorie === 'smircikrize'">
+          <tr v-if="clanek.kategorie.trim() === 'smircikrize'">
             <td>Číslo v evidenci:</td>
             <td>{{ clanek.cislo }}</td>
           </tr>
@@ -62,16 +62,16 @@
               <strong>{{ clanek.jmeno }}</strong>
             </td>
           </tr>
-          <tr v-else-if="clanek.kategorie === 'pomnicky'">
+          <tr v-else-if="clanek.kategorie.trim() === 'pomnicky'">
             <td>Název:</td>
             <td
               v-if="
-                clanek.jmeno !== clanek.nazev && clanek.kategorie === 'pomnicky'
+                clanek.jmeno !== clanek.nazev && clanek.kategorie.trim() === 'pomnicky'
               "
             >
               {{ clanek.nazev }}
             </td>
-            <td v-else-if="clanek.kategorie === 'pomnicky'">
+            <td v-else-if="clanek.kategorie.trim() === 'pomnicky'">
               <strong>{{ clanek.nazev }}</strong>
             </td>
           </tr>
@@ -82,19 +82,18 @@
               v-if="
                 clanek.vnitrniOdkazy &&
                 clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'popisCesty'
+                clanek.vnitrniOdkazy[0].odkazKde.trim() === 'popisCesty'
               "
             >
               <Klikaci
                 v-bind:clanek="clanek"
                 kdeJsem="popisCesty"
-                v-on:kliknuti="vyfiltrujPomnicek"
               />
             </td>
             <td v-else>{{ clanek.popisCesty }}</td>
           </tr>
 
-          <tr v-if="clanek.kategorie === 'smircikrize'">
+          <tr v-if="clanek.kategorie.trim() === 'smircikrize'">
             <td>Kde se nachází?</td>
             <td
               v-if="
@@ -106,7 +105,6 @@
               <Klikaci
                 v-bind:clanek="clanek"
                 kdeJsem="kdeSeNaleza"
-                v-on:kliknuti="vyfiltrujPomnicek"
               />
             </td>
             <td v-else>{{ clanek.kdeSeNaleza }}</td>
@@ -119,7 +117,7 @@
 
           <tr>
             <td v-if="clanek.kategorie === 'pomnicky'">Popis pomníčku:</td>
-            <td v-if="clanek.kategorie === 'smircikrize'">Popis kříže:</td>
+            <td v-if="clanek.kategorie.trim() === 'smircikrize'">Popis kříže:</td>
             <td v-html="clanek.popis">{{ clanek.popis }}</td>
           </tr>
           <tr>
@@ -136,7 +134,7 @@
             <td v-html="clanek.napis" v-else>{{ clanek.napis }}</td>
           </tr>
 
-          <tr v-if="clanek.kategorie === 'smircikrize'">
+          <tr v-if="clanek.kategorie.trim() === 'smircikrize'">
             <td>Pověst:</td>
             <td
               v-if="
@@ -278,10 +276,14 @@ export default {
     },
   },
   created() {
+    console.log(this.$route.name);
     if (
       this.$route.name === "DetailPomnicku" ||
-      this.$route.name === "NovyPomnicek"
+      this.$route.name === "NovyPomnicek" ||
+      this.$route.name === "DetailKrize" ||
+      this.$route.name === "NovyKriz" 
     ) {
+      
       fetch(
         `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
         {
@@ -296,7 +298,8 @@ export default {
         .then(() => {this.loading = false});
         
     } else if (
-      this.$route.name === "PomnickyKategorieLong"
+      this.$route.name === "PomnickyKategorieLong" ||
+      this.$route.name === "SmirciKrizeKategorieLong"
     ) {
       fetch(`http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`, {
         method: "GET",

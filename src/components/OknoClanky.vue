@@ -38,7 +38,7 @@ export default {
         .then((response) => response.json())
         .then((data) => (this.mojeClanky = data))
         .then(() => {this.loading = false});
-    } else if (this.$route.name === "PomnickyKategorie"){
+    } else if (this.$route.name === "PomnickyKategorie" || this.$route.name === "SmirciKrizeKategorie"){
       fetch(`http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`, {
         method: "GET",
         headers: {

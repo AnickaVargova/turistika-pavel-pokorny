@@ -1,15 +1,27 @@
 <template>
-  <div id="abecedniSeznam" :style="cssVars">
-    <Loader v-if="this.loading" />
-    <router-link
-      v-for="clanek in seznam"
-      v-bind:key="clanek.id"
-      v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
-      class="kontejnerJmeno"
-      v-bind:style="stranka === 'smircikrize' && { backgroundColor: '#e9f4f5'}"
-    >
-      {{ clanek.jmeno }}
-    </router-link>
+  <div>
+    <Loader v-if="loading" />
+    <div v-if="stranka === 'krize'" class="abecedniSeznam" :style="cssVars">
+      <router-link
+        v-for="clanek in seznam"
+        v-bind:key="clanek.id"
+        v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
+        class="kontejnerJmeno"
+        v-bind:style="{ backgroundColor: '#e9f4f5' }"
+      >
+        {{ clanek.jmeno }}
+      </router-link>
+    </div>
+    <div v-else class="abecedniSeznam" :style="cssVars">
+      <router-link
+        v-for="clanek in seznam"
+        v-bind:key="clanek.id"
+        v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
+        class="kontejnerJmeno"
+      >
+        {{ clanek.jmeno }}
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -49,25 +61,22 @@ export default {
     })
       .then((response) => response.json())
       .then((data) => {
-        data = data.sort((a, b) => {
+        data = data.names.sort((a, b) => {
           return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
             sensitivity: "accent",
           });
         });
         this.seznam = data;
       })
-    .then(() => (this.loading = false));
+      .then(() => (this.loading = false));
   },
 };
 </script>
 
 <style>
-#abecedniSeznam {
+.abecedniSeznam {
   display: flex;
   flex-direction: column;
-  grid-column: 2/7;
-  grid-row-start: 3;
-  margin: 30px;
   flex-wrap: wrap;
   max-height: var(--columnHeightBigD);
   max-width: 75vw;
