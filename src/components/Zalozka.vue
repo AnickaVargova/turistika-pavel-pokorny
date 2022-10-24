@@ -12,14 +12,14 @@
         >
           {{ clanek.nazev }}
         </h2>
-        <h2 v-else-if="clanek.kategorie.trim() === 'smircikrize'">
+        <h2 v-else-if="clanek.kategorie === 'krize'">
           {{ clanek.jmeno }}
         </h2>
         <h4 v-if="clanek.kategorie === 'pomnicky'">
           {{ clanek.jmeno }}
         </h4>
-        <h4 v-else-if="clanek.kategorie.trim() === 'smircikrize'">
-          Číslo v evidenci: {{ clanek.cislo }}
+        <h4 v-else-if="clanek.kategorie === 'krize'">
+          Číslo v evidenci: {{ clanek.cisloEvid }}
         </h4>
         <h3
           v-if="
@@ -31,7 +31,7 @@
         <h3
           v-if="
             clanek.kategorie.trim() === 'pomnicky' ||
-            clanek.kategorie.trim() === 'smircikrize'
+            clanek.kategorie === 'krize'
           "
         >
           {{ clanek.obec }}
@@ -69,8 +69,8 @@ export default {
         return this.$route.path;
       }
       return this.stranka === "novepridane"
-        ? `novepridane/${this.clanek.kategorie === 'smircikrize' ? 'krize' : this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
-        : `/${this.clanek.kategorie === 'smircikrize' ? 'krize' : this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
+        ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
+        : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
     },
   },
   created() {

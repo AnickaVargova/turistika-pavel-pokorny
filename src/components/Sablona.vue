@@ -231,7 +231,8 @@
           v-if="
             this.$route.name === 'NovePridane' ||
             this.$route.name === 'PomnickyKategorie' ||
-            this.$route.name === 'SmirciKrizeKategorie'
+            this.$route.name === 'SmirciKrizeKategorie' ||
+            this.$route.name === 'Vypraveni'
           "
           v-bind:stranka="innerParams.stranka"
           v-bind:zalozkyButton="!isLongVersion"

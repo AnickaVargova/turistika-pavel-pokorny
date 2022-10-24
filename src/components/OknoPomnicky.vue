@@ -5,7 +5,8 @@
     <div
       id="oknoPomnicky"
       v-if="
-        !this.loading && mojeClanky.length &&
+        !this.loading &&
+        mojeClanky.length &&
         (this.$route.name === 'DetailPomnicku' ||
           this.$route.name === 'DetailKrize' ||
           this.$route.name === 'NovePridane' ||
@@ -22,21 +23,18 @@
         <h2 style="text-align: center">
           {{ clanek.nazev ? clanek.nazev : clanek.jmeno
           }}{{
-            clanek.kategorie.trim() === "smircikrize" &&
-            $route.name === "NovePridane"
+            clanek.kategorie === "krize" && $route.name === "NovePridane"
               ? "  (smírčí kříž)"
               : null
           }}
         </h2>
 
         <table>
-          <tr v-if="clanek.kategorie === 'pomnicky'">
-            <td>Druh:</td>
+          <tr>
+            <td>
+              {{ clanek.kategorie === "pomnicky" ? "Druh:" : "Umístění:" }}
+            </td>
             <td>{{ clanek.druh }}</td>
-          </tr>
-          <tr v-else-if="clanek.kategorie.trim() === 'smircikrize'">
-            <td>Umístění:</td>
-            <td>{{ clanek.oblast }}</td>
           </tr>
 
           <tr>
@@ -48,35 +46,18 @@
             <td>{{ clanek.obec }}</td>
           </tr>
 
-          <tr v-if="clanek.kategorie.trim() === 'smircikrize'">
+          <tr v-if="clanek.kategorie === 'krize'">
             <td>Číslo v evidenci:</td>
-            <td>{{ clanek.cislo }}</td>
+            <td>{{ clanek.cisloEvid }}</td>
           </tr>
-          <tr
-            v-if="
-              clanek.jmeno !== clanek.nazev && clanek.kategorie === 'pomnicky'
-            "
-          >
+          <tr v-if="clanek.kategorie === 'pomnicky'">
             <td>Jméno:</td>
             <td>
               <strong>{{ clanek.jmeno }}</strong>
             </td>
           </tr>
-          <tr v-else-if="clanek.kategorie.trim() === 'pomnicky'">
-            <td>Název:</td>
-            <td
-              v-if="
-                clanek.jmeno !== clanek.nazev && clanek.kategorie.trim() === 'pomnicky'
-              "
-            >
-              {{ clanek.nazev }}
-            </td>
-            <td v-else-if="clanek.kategorie.trim() === 'pomnicky'">
-              <strong>{{ clanek.nazev }}</strong>
-            </td>
-          </tr>
 
-          <tr v-if="clanek.kategorie === 'pomnicky'">
+          <tr>
             <td>Kde se nachází?</td>
             <td
               v-if="
@@ -85,29 +66,9 @@
                 clanek.vnitrniOdkazy[0].odkazKde.trim() === 'popisCesty'
               "
             >
-              <Klikaci
-                v-bind:clanek="clanek"
-                kdeJsem="popisCesty"
-              />
+              <Klikaci v-bind:clanek="clanek" kdeJsem="popisCesty" />
             </td>
-            <td v-else>{{ clanek.popisCesty }}</td>
-          </tr>
-
-          <tr v-if="clanek.kategorie.trim() === 'smircikrize'">
-            <td>Kde se nachází?</td>
-            <td
-              v-if="
-                clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'kdeSeNaleza'
-              "
-            >
-              <Klikaci
-                v-bind:clanek="clanek"
-                kdeJsem="kdeSeNaleza"
-              />
-            </td>
-            <td v-else>{{ clanek.kdeSeNaleza }}</td>
+            <td v-html="clanek.popisCesty" v-else >{{ clanek.popisCesty }}</td>
           </tr>
 
           <tr v-if="clanek.kategorie === 'pomnicky'">
@@ -116,10 +77,10 @@
           </tr>
 
           <tr>
-            <td v-if="clanek.kategorie === 'pomnicky'">Popis pomníčku:</td>
-            <td v-if="clanek.kategorie.trim() === 'smircikrize'">Popis kříže:</td>
+            <td>{{clanek.kategorie === 'pomnicky' ? 'Popis pomníčku:' : 'Popis kříže:'}}</td>
             <td v-html="clanek.popis">{{ clanek.popis }}</td>
           </tr>
+
           <tr>
             <td>Nápis:</td>
             <td
@@ -134,7 +95,7 @@
             <td v-html="clanek.napis" v-else>{{ clanek.napis }}</td>
           </tr>
 
-          <tr v-if="clanek.kategorie.trim() === 'smircikrize'">
+          <tr v-if="clanek.kategorie === 'krize'">
             <td>Pověst:</td>
             <td
               v-if="
@@ -145,7 +106,7 @@
             >
               <Klikaci v-bind:clanek="clanek" kdeJsem="povest" />
             </td>
-            <td v-else>{{ clanek.povest }}</td>
+            <td v-html="clanek.povest" v-else>{{ clanek.povest }}</td>
           </tr>
 
           <tr>
@@ -161,6 +122,7 @@
             </td>
             <td v-html="clanek.pozn" v-else>{{ clanek.pozn }}</td>
           </tr>
+
           <tr>
             <td>Galerie:</td>
             <div
@@ -186,6 +148,7 @@
               </div>
             </div>
           </tr>
+
           <tr>
             <td>Odkazy:</td>
             <td v-if="clanek.odkazy">
@@ -240,8 +203,8 @@
             </button>
           </div>
         </div>
-      </div> 
-    </div> 
+      </div>
+    </div>
   </div>
 </template>
 
@@ -251,7 +214,7 @@ import Loader from "./Loader.vue";
 
 export default {
   props: ["kategoriePomnicky", "zalozkyButton", "stranka"],
-  components: { Klikaci, Loader},
+  components: { Klikaci, Loader },
   data() {
     return {
       idMapaUkazat: undefined,
@@ -276,14 +239,12 @@ export default {
     },
   },
   created() {
-    console.log(this.$route.name);
     if (
       this.$route.name === "DetailPomnicku" ||
       this.$route.name === "NovyPomnicek" ||
       this.$route.name === "DetailKrize" ||
-      this.$route.name === "NovyKriz" 
+      this.$route.name === "NovyKriz"
     ) {
-      
       fetch(
         `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
         {
@@ -295,23 +256,29 @@ export default {
       )
         .then((response) => response.json())
         .then((data) => (this.mojeClanky = [data]))
-        .then(() => {this.loading = false});
-        
+        .then(() => {
+          this.loading = false;
+        });
     } else if (
       this.$route.name === "PomnickyKategorieLong" ||
       this.$route.name === "SmirciKrizeKategorieLong"
     ) {
-      fetch(`http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
+      fetch(
+        `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
         .then((response) => response.json())
         .then((data) => (this.mojeClanky = data))
-        .then(() => {this.loading = false});
+        .then(() => {
+          this.loading = false;
+        });
     }
-    
+
     var isChrome =
       !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
 

@@ -1,4 +1,4 @@
-const clanky = [
+export const clanky = [
     {
       id: 1,
       kategorie: "pomnicky",

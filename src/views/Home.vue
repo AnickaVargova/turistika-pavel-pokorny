@@ -127,7 +127,7 @@ export default {
         if (last2weeks <= 14) {
           if (
             clanek.kategorie === "pomnicky" ||
-            clanek.kategorie === "smircikrize"
+            clanek.kategorie === "krize"
           ) {
             this.pomnickyUkazat = true;
           } else if (

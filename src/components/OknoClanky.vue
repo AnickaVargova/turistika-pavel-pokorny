@@ -16,13 +16,16 @@
 
 <script>
 import Zalozka from "./Zalozka.vue";
-import  Loader from "./Loader.vue"
+import  Loader from "./Loader.vue";
+import { clanky } from "./clanky";
 
 export default {
   props: ["stranka", "zalozkyButton"],
   components: { Zalozka, Loader},
   data() {
     return {
+      //remove
+      clanky,
       mojeClanky: [],
       loading: true,
     };
@@ -48,6 +51,11 @@ export default {
         .then((response) => response.json())
         .then((data) => (this.mojeClanky = data))
         .then(() => {this.loading = false});
+    }
+    //REMOVE
+    else {
+      this.mojeClanky = this.clanky.filter(item => item.kategorie === 'vypraveni');
+      this.loading = false;
     }
   },
 };
