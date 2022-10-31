@@ -59,16 +59,18 @@
 
           <tr>
             <td>Kde se nachází?</td>
-            <td
-              v-if="
-                clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy[0].odkazKde.trim() === 'popisCesty'
-              "
-            >
-              <Klikaci v-bind:clanek="clanek" kdeJsem="popisCesty" />
+            <td >
+              <span v-html="clanek.popisCesty">{{ clanek.popisCesty }}</span>
+              <Klikaci
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length &&
+                  clanek.vnitrniOdkazy[0].odkazKde.trim() === 'popisCesty'
+                "
+                v-bind:clanek="clanek"
+                kdeJsem="popisCesty"
+              />
             </td>
-            <td v-html="clanek.popisCesty" v-else >{{ clanek.popisCesty }}</td>
           </tr>
 
           <tr v-if="clanek.kategorie === 'pomnicky'">
@@ -77,50 +79,61 @@
           </tr>
 
           <tr>
-            <td>{{clanek.kategorie === 'pomnicky' ? 'Popis pomníčku:' : 'Popis kříže:'}}</td>
+            <td>
+              {{
+                clanek.kategorie === "pomnicky"
+                  ? "Popis pomníčku:"
+                  : "Popis kříže:"
+              }}
+            </td>
             <td v-html="clanek.popis">{{ clanek.popis }}</td>
           </tr>
 
           <tr>
             <td>Nápis:</td>
-            <td
-              v-if="
-                clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'napis'
-              "
-            >
-              <Klikaci kdeJsem="napis" v-bind:clanek="clanek" />
+            <td >
+              <span v-html="clanek.napis">{{ clanek.napis }}</span>
+              <Klikaci
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length &&
+                  clanek.vnitrniOdkazy[0].odkazKde.trim() === 'napis'
+                "
+                v-bind:clanek="clanek"
+                kdeJsem="napis"
+              />
             </td>
-            <td v-html="clanek.napis" v-else>{{ clanek.napis }}</td>
           </tr>
 
           <tr v-if="clanek.kategorie === 'krize'">
             <td>Pověst:</td>
-            <td
-              v-if="
-                clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'povest'
-              "
-            >
-              <Klikaci v-bind:clanek="clanek" kdeJsem="povest" />
+           <td >
+              <span v-html="clanek.povest">{{ clanek.povest }}</span>
+              <Klikaci
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length
+                "
+                v-bind:clanek="clanek"
+                kdeJsem="povest"
+              />
             </td>
-            <td v-html="clanek.povest" v-else>{{ clanek.povest }}</td>
           </tr>
 
           <tr>
             <td>Poznámka:</td>
-            <td
-              v-if="
-                clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'pozn'
-              "
-            >
-              <Klikaci kdeJsem="pozn" v-bind:clanek="clanek" />
+           <td >
+              <span v-html="clanek.pozn">{{ clanek.pozn }}</span>
+              <Klikaci
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length &&
+                  clanek.vnitrniOdkazy[0].odkazKde.trim() === 'pozn'
+                "
+                v-bind:clanek="clanek"
+                kdeJsem="pozn"
+              />
             </td>
-            <td v-html="clanek.pozn" v-else>{{ clanek.pozn }}</td>
           </tr>
 
           <tr>

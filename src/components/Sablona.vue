@@ -44,19 +44,17 @@
         v-for="(odstavec, index) in innerParams.uvodniText"
         v-bind:key="index"
       >
-        <p v-if="odstavec.vnitrniOdkazy">
-          <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
-        </p>
+        <p>
+          <span v-html="odstavec.textOdstavce">
+            {{ odstavec.textOdstavce }}
+          </span>
+          <span v-if="odstavec.vnitrniOdkazy">
+            <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
+          </span>
+        </p> 
+       </div>
 
-        <p
-          v-html="odstavec.textOdstavce"
-          v-else-if="!odstavec.vnitrniOdkazy && odstavec.textOdstavce"
-        >
-          {{ odstavec.textOdstavce }}
-        </p>
-      </div>
-
-      <!-- buttons start -->
+    
       <div id="rozbalitWrapper">
         <router-link
           v-bind:to="`/${innerParams.stranka}/${$route.params.kategorie}${
@@ -212,7 +210,9 @@
     <!-- condition v-if for kontejner is here because otherwise it covers abecedniSeznam which becomes unclickable -->
     <div
       class="kontejner"
-      v-if="this.$route.name !== 'Pomnicky' && this.$route.name !== 'SmirciKrize'"
+      v-if="
+        this.$route.name !== 'Pomnicky' && this.$route.name !== 'SmirciKrize'
+      "
       v-bind:class="{
         kontejnerBigMargin:
           innerParams.stranka === 'vypraveni' ||
