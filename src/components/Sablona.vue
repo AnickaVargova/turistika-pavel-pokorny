@@ -51,10 +51,9 @@
           <span v-if="odstavec.vnitrniOdkazy">
             <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
           </span>
-        </p> 
-       </div>
+        </p>
+      </div>
 
-    
       <div id="rozbalitWrapper">
         <router-link
           v-bind:to="`/${innerParams.stranka}/${$route.params.kategorie}${
@@ -96,15 +95,13 @@
       </router-link>
     </div>
 
-    <div class="pomnickyNavigace">
-      <div
-        v-on:click="toggleSeznam"
-        class="pomnicekKategorie domu"
-        id="seznam"
-        v-if="
-          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize'
-        "
-      >
+    <div
+      class="pomnickyNavigace"
+      v-if="
+        innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize'
+      "
+    >
+      <div v-on:click="toggleSeznam" class="pomnicekKategorie domu" id="seznam">
         <router-link v-bind:to="`/${innerParams.stranka}`">
           Abecední seznam
         </router-link>
@@ -117,9 +114,6 @@
           tyrkys: innerParams.stranka === 'krize',
         }"
         v-on:click="toggleMenu"
-        v-if="
-          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize'
-        "
       >
         Řazení podle skupin
       </div>
@@ -128,20 +122,8 @@
 
       <!-- kategorie menu start -->
 
-      <Loader
-        v-if="
-          this.$route.name !== 'NovePridane' &&
-          !innerParams.kategoriePomnicky.length
-        "
-      />
-      <div
-        v-if="
-          (innerParams.stranka === 'pomnicky' ||
-            innerParams.stranka === 'krize') &&
-          innerWidth >= 600 &&
-          innerParams.kategoriePomnicky.length
-        "
-      >
+      <Loader v-if="!innerParams.kategoriePomnicky.length" />
+      <div v-if="innerWidth >= 600 && innerParams.kategoriePomnicky.length">
         <div
           v-for="kategorie in innerParams.kategoriePomnicky"
           v-bind:key="kategorie.id"

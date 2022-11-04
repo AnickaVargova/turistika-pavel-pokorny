@@ -26,7 +26,7 @@
             clanek.kategorie.trim() === 'cesty' || clanek.kategorie.trim() === 'vypraveni'
           "
         >
-          {{ clanek.datum }} -->
+          {{ clanek.datum }} 
         </h3>
         <h3
           v-if="
@@ -42,7 +42,7 @@
             v-if="clanek.fotkaUvod"
             v-bind:src="
               clanek.fotkaUvod &&
-              `http://localhost:8080/photos/${clanek.fotkaUvod.fotka.trim()}`
+              `http://localhost:8080/photos/${clanek.kategorie.trim() ==='vypraveni' ? clanek.fotkaUvod.trim() : clanek.fotkaUvod.fotka.trim() }`
             "
             v-bind:alt="clanek.jmeno"
           />
@@ -65,16 +65,13 @@ export default {
   },
   computed: {
     path() {
-      if (!this.clanek) {
-        return this.$route.path;
-      }
       return this.stranka === "novepridane"
         ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
         : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
     },
   },
+  // TODO better to send this via props - don't know how to make it work
   created() {
-    if (this.clanek) {
       fetch(
         `http://localhost:8080/${this.mujClanek.kategorie}/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
         {
@@ -86,8 +83,7 @@ export default {
       )
         .then((response) => response.json())
         .then((data) => (this.clanek = data))
-        .then(() => (this.loading = false));
-    }
+        .then(() => (this.loading = false))
   },
 };
 </script>

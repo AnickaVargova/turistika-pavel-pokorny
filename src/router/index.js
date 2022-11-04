@@ -33,12 +33,12 @@ const routes = [
   },
   {
     path: "/vypraveni/:podkategorie/:id",
-    name: "Detail",
+    name: "DetailVypraveni",
     component: Detail,
   },
   {
     path: "/cesty/:podkategorie/:id",
-    name: "Detail",
+    name: "DetailCesty",
     component: Detail,
   },
   {

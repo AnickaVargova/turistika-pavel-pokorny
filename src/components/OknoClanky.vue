@@ -1,31 +1,28 @@
 <template>
-<div>
-  <Loader v-if="this.loading" />
+  <div>
+    <Loader v-if="this.loading" />
 
-  <div id="oknoPomnicky" v-if="this.zalozkyButton && !this.loading">
-    <div
-      class="kontejnerClanek"
-      v-for="(clanek, index) in mojeClanky"
-      v-bind:key="index"
-    >
-      <Zalozka v-bind:mujClanek="clanek" v-bind:stranka="stranka" />
+    <div id="oknoPomnicky" v-if="this.zalozkyButton && !this.loading">
+      <div
+        class="kontejnerClanek"
+        v-for="(clanek, index) in mojeClanky"
+        v-bind:key="index"
+      >
+        <Zalozka v-bind:mujClanek="clanek" v-bind:stranka="stranka" />
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
 <script>
 import Zalozka from "./Zalozka.vue";
-import  Loader from "./Loader.vue";
-import { clanky } from "./clanky";
+import Loader from "./Loader.vue";
 
 export default {
   props: ["stranka", "zalozkyButton"],
-  components: { Zalozka, Loader},
+  components: { Zalozka, Loader },
   data() {
     return {
-      //remove
-      clanky,
       mojeClanky: [],
       loading: true,
     };
@@ -40,9 +37,31 @@ export default {
       })
         .then((response) => response.json())
         .then((data) => (this.mojeClanky = data))
-        .then(() => {this.loading = false});
-    } else if (this.$route.name === "PomnickyKategorie" || this.$route.name === "SmirciKrizeKategorie"){
-      fetch(`http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`, {
+        .then(() => {
+          this.loading = false;
+        });
+    } else if (
+      this.$route.name === "PomnickyKategorie" ||
+      this.$route.name === "SmirciKrizeKategorie"
+    ) {
+      fetch(
+        `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
+        .then((response) => response.json())
+        .then((data) => (this.mojeClanky = data))
+        .then(() => {
+          this.loading = false;
+        });
+    }
+    //REMOVE
+    else {
+      fetch(`http://localhost:8080/${this.stranka}/1`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -50,12 +69,9 @@ export default {
       })
         .then((response) => response.json())
         .then((data) => (this.mojeClanky = data))
-        .then(() => {this.loading = false});
-    }
-    //REMOVE
-    else {
-      this.mojeClanky = this.clanky.filter(item => item.kategorie === 'vypraveni');
-      this.loading = false;
+        .then(() => {
+          this.loading = false;
+        });
     }
   },
 };

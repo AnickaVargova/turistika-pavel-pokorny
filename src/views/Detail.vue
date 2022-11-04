@@ -7,6 +7,7 @@
       padding: '2%',
     }"
   >
+    <Loader v-if="this.loading" />
     <div id="detailOkno">
       <router-link to="/" id="tlacitkoDomuDetail" class="pomnicekKategorie">
         Úvodní strana
@@ -14,7 +15,7 @@
       <router-link
         v-if="
           this.$route.name === 'NoveVypraveni' ||
-            this.$route.name === 'NovaCesta'
+          this.$route.name === 'NovaCesta'
         "
         to="/novepridane"
       >
@@ -34,9 +35,7 @@
       </router-link>
       <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
         <a name="top"></a>
-        <div class="pomnicekKategorie" id="zpetNaClanky">
-          Zpět na články
-        </div>
+        <div class="pomnicekKategorie" id="zpetNaClanky">Zpět na články</div>
       </router-link>
       <div
         id="tlacitkoNahoruDetail"
@@ -57,9 +56,9 @@
         >
           <router-link
             v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
-            v-bind:to="
-              `/fotodetail/${detailClanku.podkategorie}/${odstavec.foto.trim()}`
-            "
+            v-bind:to="`/fotodetail/${
+              detailClanku.kategorie}/${detailClanku.id
+            }/${odstavec.foto.trim()}`"
           >
             <figure
               id="fotoText"
@@ -70,33 +69,33 @@
               }"
             >
               <img
-                v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
+                v-bind:src="`http://localhost:8080/photos/${odstavec.foto.trim()}`"
                 v-bind:alt="detailClanku.nazev"
               />
               <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
             </figure>
           </router-link>
-          <p v-if="odstavec.vnitrniOdkazy">
-            <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
-          </p>
-          <p
-            v-html="odstavec.textOdstavce"
-            v-else-if="!odstavec.vnitrniOdkazy && odstavec.textOdstavce"
-          >
+          <p>
+          <span v-html="odstavec.textOdstavce">
             {{ odstavec.textOdstavce }}
+          </span>
+          <span v-if="odstavec.vnitrniOdkazy">
+            <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
+          </span>
           </p>
+          
           <figure
             v-bind:class="{
               figCesty: true,
               naVysku: odstavec.naVysku,
             }"
             v-bind:style="{ textAlign: 'center' }"
-            v-else-if="
+            v-if="
               odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy
             "
           >
             <img
-              v-bind:src="require(`./../assets/${odstavec.foto.trim()}`)"
+              v-bind:src="`http://localhost:8080/photos/${odstavec.foto.trim()}`"
               v-bind:alt="detailClanku.nazev"
               class="fotoCesty"
             />
@@ -105,7 +104,7 @@
           <div id="mapa">
             <iframe
               v-if="odstavec.odkazMapa"
-              style="border:none"
+              style="border: none"
               v-bind:src="odstavec.odkazMapa.trim()"
               width="90%"
               height="400"
@@ -124,7 +123,7 @@
         <p
           v-if="
             detailClanku.vnitrniOdkazy &&
-              detailClanku.vnitrniOdkazy[0].odkazKde === 'dodatekText'
+            detailClanku.vnitrniOdkazy[0].odkazKde === 'dodatekText'
           "
         >
           <Klikaci
@@ -135,20 +134,20 @@
         </p>
       </div>
 
-      <div id="galerieClanek" v-if="detailClanku.spodniGalerie">
+      <div id="galerieClanek" v-if="detailClanku.galerie">
         <div
           class="obrazek"
-          v-for="(obrazek, index) in detailClanku.spodniGalerie"
+          v-for="(obrazek, index) in detailClanku.galerie"
           v-bind:key="index"
         >
           <router-link
-            v-bind:to="
-              `/fotodetail/${detailClanku.podkategorie}/${obrazek.fotka.trim()}`
-            "
+            v-bind:to="`/fotodetail/${
+              detailClanku.podkategorie
+            }/${obrazek.fotka.trim()}`"
           >
             <figure>
               <img
-                v-bind:src="require(`./../assets/${obrazek.fotka.trim()}`)"
+                v-bind:src="`http://localhost:8080/photos/${obrazek.fotka.trim()}`"
                 v-bind:alt="obrazek.popisek"
               />
               <!-- <figcaption>{{ obrazek.popisek }}</figcaption> -->
@@ -161,285 +160,304 @@
 </template>
 
 <script>
-  import { clanky } from "@/components/clanky.js";
-  import Klikaci from "./../components/Klikaci.vue";
-  export default {
-    props: ["vybraneClanky"],
-    components: { Klikaci: Klikaci },
-    data() {
-      return {
-        clanky,
-        rok: undefined,
-        detailClanku: undefined,
-        stranka: undefined,
-      };
-    },
+import Klikaci from "./../components/Klikaci.vue";
+import Loader from "../components/Loader.vue";
 
-    methods: {
-      vyfiltrujPomnicek(id) {
-        this.$emit("kliknuti", id);
-      },
-      goToTop() {
-        this.$router
-          .replace({ hash: "#top" })
-          .then(this.$router.push({ hash: "" }));
-      },
-    },
+export default {
+  props: ["vybraneClanky"],
+  components: { Klikaci, Loader },
+  data() {
+    return {
+      rok: undefined,
+      detailClanku: undefined,
+      stranka: undefined,
+      loading: true,
+    };
+  },
 
-    created() {
-      for (let clanek of this.clanky) {
-        if (clanek.id == this.$route.params.id) {
-          this.detailClanku = clanek;
-        }
+  methods: {
+    vyfiltrujPomnicek(id) {
+      this.$emit("kliknuti", id);
+    },
+    goToTop() {
+      this.$router
+        .replace({ hash: "#top" })
+        .then(this.$router.push({ hash: "" }));
+    },
+  },
+
+  created() {
+    if(this.$route.name === 'DetailVypraveni' || this.$route.name === 'NoveVypraveni'){
+    fetch(
+      `http://localhost:8080/vypraveni/1/${this.$route.params.id}`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
       }
-    },
-  };
+    )
+      .then((response) => response.json())
+      .then((data) => (this.detailClanku = data))
+      .then(() => {
+        this.loading = false;
+        stranka = 'vypraveni';
+      });
+    }
+    
+    // for (let clanek of this.clanky) {
+    //   if (clanek.id == this.$route.params.id) {
+    //     this.detailClanku = clanek;
+    //   }
+    // }
+  },
+};
 </script>
 
 <style>
-  #detailClanku {
-    background-color: beige;
-    padding: 2%;
+#detailClanku {
+  background-color: beige;
+  padding: 2%;
+}
+
+#detailOkno {
+  margin: auto;
+  /* margin-top: 20px; */
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 2% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 20px; */
+  max-width: 800px;
+  background-color: white;
+}
+
+#tlacitkoNahoruDetail {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: 3px;
+  right: 0;
+  min-width: unset;
+  max-width: unset;
+  width: 116px;
+  padding: 0 10px;
+  height: 35px;
+  background-color: #459ae6;
+  justify-self: flex-end;
+  align-self: start;
+}
+
+#tlacitkoDomuDetail {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  min-width: unset;
+  max-width: unset;
+  width: 116px !important;
+  padding: 0 10px;
+  height: 35px;
+  background-color: #459ae6;
+  justify-self: flex-end;
+}
+
+#tlacitkoDomuDetail:hover,
+#tlacitkoNahoruDetail:hover {
+  background-color: #898a8b;
+}
+
+@media (max-width: 600px) {
+  #detailOkno {
+    border: none;
   }
 
-  #detailOkno {
-    margin: auto;
-    /* margin-top: 20px; */
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 2% 5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 20px; */
-    max-width: 800px;
-    background-color: white;
+  #detailClanku {
+    padding: 0;
+  }
+
+  #detailOkno p {
+    font-size: 15px;
   }
 
   #tlacitkoNahoruDetail {
-    grid-row: 1/2;
-    grid-column: 3/4;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    margin-top: 3px;
-    right: 0;
-    min-width: unset;
-    max-width: unset;
-    width: 116px;
-    padding: 0 10px;
-    height: 35px;
-    background-color: #459ae6;
-    justify-self: flex-end;
-    align-self: start;
+    width: 60px !important;
   }
 
   #tlacitkoDomuDetail {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    min-width: unset;
-    max-width: unset;
-    width: 116px !important;
-    padding: 0 10px;
-    height: 35px;
-    background-color: #459ae6;
-    justify-self: flex-end;
+    width: 60px !important;
   }
+}
 
-  #tlacitkoDomuDetail:hover,
-  #tlacitkoNahoruDetail:hover {
-    background-color: #898a8b;
-  }
+#zpetNaClanky {
+  width: 50%;
+  min-width: 80px;
+  padding: 10px;
+  height: auto;
+  background-color: #459ae6;
+}
 
-  @media (max-width: 600px) {
-    #detailOkno {
-      border: none;
-    }
+#zpetNaClanky:hover {
+  color: #13131d;
+  background-color: #9aacab;
+}
 
-    #detailClanku {
-      padding: 0;
-    }
+#detailClanku h1 {
+  grid-column: 1 / 4;
+  margin-top: 50px;
+}
 
-    #detailOkno p {
-      font-size: 15px;
-    }
+#detailClanku h3 {
+  grid-column: 1 / 4;
+}
 
-    #tlacitkoNahoruDetail {
-      width: 60px !important;
-    }
+#fotoText {
+  height: 200px;
+  width: min-content;
+}
 
-    #tlacitkoDomuDetail {
-      width: 60px !important;
-    }
+@media (max-width: 600px) {
+  #fotoText {
+    margin-bottom: 35px;
+    height: 150px;
   }
 
   #zpetNaClanky {
-    width: 50%;
-    min-width: 80px;
-    padding: 10px;
-    height: auto;
-    background-color: #459ae6;
+    width: unset;
+    min-width: 110px;
+  }
+}
+
+.vpravo {
+  float: right;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-left: 30px;
+}
+
+.vlevo {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-left: 0;
+}
+
+.nahore {
+  margin-top: 0;
+}
+
+#textClanku {
+  grid-column: 1 / span 3;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.naSirku {
+  width: 90%;
+}
+
+.figCesty {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.figCesty img {
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.naVysku {
+  width: 50%;
+  margin: 10px auto;
+}
+
+#fotoText img {
+  width: unset;
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+  figcaption {
+    font-size: 12px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.obrazek {
+  flex-basis: 25%;
+}
+
+.obrazek figure {
+  height: 200px;
+  width: min-content;
+  object-fit: cover;
+  margin-left: 0;
+  margin-bottom: 60px;
+}
+
+#detailClanku img {
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: unset;
+}
+
+#detailClanku img:hover,
+#detailClanku img:active {
+  border: 2px solid black;
+}
+
+.fotoCesty:hover {
+  border: 2px solid grey !important;
+}
+
+#galerieClanek {
+  grid-column: 1 / span3;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#detailClanku #mapa {
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  #galerieClanek {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #obrazek {
+    flex-basis: unset;
   }
 
-  #zpetNaClanky:hover {
-    color: #13131d;
-    background-color: #9aacab;
-  }
-
-  #detailClanku h1 {
-    grid-column: 1 / 4;
-    margin-top: 50px;
-  }
-
-  #detailClanku h3 {
-    grid-column: 1 / 4;
-  }
-
-  #fotoText {
-    height: 200px;
-    width: min-content;
-  }
-
-  @media (max-width: 600px) {
-    #fotoText {
-      margin-bottom: 35px;
-      height: 150px;
-    }
-
-    #zpetNaClanky {
-      width: unset;
-      min-width: 110px;
-    }
-  }
-
-  .vpravo {
-    float: right;
-    margin-right: 0;
-    margin-bottom: 20px;
-    margin-top: 16px;
-    margin-left: 30px;
-  }
-
-  .vlevo {
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    margin-top: 16px;
-    margin-left: 0;
-  }
-
-  .nahore {
-    margin-top: 0;
-  }
-
-  #textClanku {
-    grid-column: 1 / span 3;
-    margin-bottom: 20px;
-    text-align: justify;
-    line-height: 1.5;
-  }
-
-  .naSirku {
-    width: 90%;
-  }
-
-  .figCesty {
+  .fotoCesty {
+    max-width: 90vw;
     margin: auto;
-    margin-bottom: 10px;
   }
 
-  .figCesty img {
-    width: 100% !important;
-    object-fit: cover;
+  .naVysku,
+  .naSirku {
+    max-width: 90vw;
   }
 
   .naVysku {
-    width: 50%;
-    margin: 10px auto;
+    margin: 0 auto !important;
   }
-
-  #fotoText img {
-    width: unset;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  figcaption {
-    font-style: italic;
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-    line-height: 1.2;
-  }
-
-  @media (max-width: 600px) {
-    figcaption {
-      font-size: 12px;
-    }
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .obrazek {
-    flex-basis: 25%;
-  }
-
-  .obrazek figure {
-    height: 200px;
-    width: min-content;
-    object-fit: cover;
-    margin-left: 0;
-    margin-bottom: 60px;
-  }
-
-  #detailClanku img {
-    border: 2px solid grey;
-    border-radius: 5px;
-    width: unset;
-  }
-
-  #detailClanku img:hover,
-  #detailClanku img:active {
-    border: 2px solid black;
-  }
-
-  .fotoCesty:hover {
-    border: 2px solid grey !important;
-  }
-
-  #galerieClanek {
-    grid-column: 1 / span3;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-
-  #detailClanku #mapa {
-    text-align: center;
-  }
-
-  @media (max-width: 400px) {
-    #galerieClanek {
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    #obrazek {
-      flex-basis: unset;
-    }
-
-    .fotoCesty {
-      max-width: 90vw;
-      margin: auto;
-    }
-
-    .naVysku,
-    .naSirku {
-      max-width: 90vw;
-    }
-
-    .naVysku {
-      margin: 0 auto !important;
-    }
-  }
+}
 </style>

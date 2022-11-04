@@ -113,37 +113,9 @@ export default {
     toggleMenu() {
       this.responsive = !this.responsive;
     },
-    filterRecent(clanek) {
-      if (clanek.pridano) {
-        let pridano = clanek.pridano;
-        pridano = Date.parse(
-          pridano.slice(3, 6).concat(pridano.slice(0, 3), pridano.slice(6))
-        );
-
-        let today = new Date().getTime();
-
-        let last2weeks = (today - pridano) / 1000 / 60 / 60 / 24;
-
-        if (last2weeks <= 14) {
-          if (
-            clanek.kategorie === "pomnicky" ||
-            clanek.kategorie === "krize"
-          ) {
-            this.pomnickyUkazat = true;
-          } else if (
-            clanek.kategorie === "vypraveni" ||
-            clanek.kategorie === "cesty"
-          ) {
-            this.clankyUkazat = true;
-          }
-        }
-
-        return last2weeks <= 14;
-      }
-    },
   },
   created() {
-    ['pomnicky', 'krize'].map(kategorie => {
+    ['pomnicky', 'krize', 'vypraveni'].map(kategorie => {
     fetch(`http://localhost:8080/${kategorie}`, {
       method: "GET",
       headers: {
