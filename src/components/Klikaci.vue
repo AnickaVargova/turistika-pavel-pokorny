@@ -3,7 +3,7 @@
     <span v-for="(odkaz, index) in odkazy" v-bind:key="index">
       <span>
         <span v-if="odkaz.odkazKategorie === 'url'">
-          <a href="https://www.aktualne.cz/" target="_blank" class="vnitrniOdkaz">{{
+          <a v-bind:href="odkaz.kamMaVest" target="_blank" class="vnitrniOdkaz">{{
            odkaz.textOdkazu
           }}</a>
         </span>  

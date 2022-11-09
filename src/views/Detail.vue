@@ -8,7 +8,7 @@
     }"
   >
     <Loader v-if="this.loading" />
-    <div id="detailOkno">
+    <div v-else id="detailOkno">
       <router-link to="/" id="tlacitkoDomuDetail" class="pomnicekKategorie">
         Úvodní strana
       </router-link>
@@ -168,9 +168,7 @@ export default {
   components: { Klikaci, Loader },
   data() {
     return {
-      rok: undefined,
       detailClanku: undefined,
-      stranka: undefined,
       loading: true,
     };
   },
@@ -201,15 +199,8 @@ export default {
       .then((data) => (this.detailClanku = data))
       .then(() => {
         this.loading = false;
-        stranka = 'vypraveni';
       });
     }
-    
-    // for (let clanek of this.clanky) {
-    //   if (clanek.id == this.$route.params.id) {
-    //     this.detailClanku = clanek;
-    //   }
-    // }
   },
 };
 </script>
