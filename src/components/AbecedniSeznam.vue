@@ -1,23 +1,17 @@
 <template>
   <div>
     <Loader v-if="loading" />
-    <div v-if="stranka === 'krize'" class="abecedniSeznam" :style="cssVars">
+    <div class="abecedniSeznam" :style="cssVars">
       <router-link
         v-for="clanek in seznam"
         v-bind:key="clanek.id"
         v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
         class="kontejnerJmeno"
-        v-bind:style="{ backgroundColor: '#e9f4f5' }"
-      >
-        {{ clanek.jmeno }}
-      </router-link>
-    </div>
-    <div v-else class="abecedniSeznam" :style="cssVars">
-      <router-link
-        v-for="clanek in seznam"
-        v-bind:key="clanek.id"
-        v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
-        class="kontejnerJmeno"
+        v-bind:style="{
+          backgroundColor: `${
+            stranka === 'krize' ? '#e9f4f5' : '#e7e0d0'
+          }`,
+        }"
       >
         {{ clanek.jmeno }}
       </router-link>

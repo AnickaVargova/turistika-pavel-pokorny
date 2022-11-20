@@ -164,7 +164,6 @@ import Klikaci from "./../components/Klikaci.vue";
 import Loader from "../components/Loader.vue";
 
 export default {
-  props: ["vybraneClanky"],
   components: { Klikaci, Loader },
   data() {
     return {
