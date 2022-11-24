@@ -23161,35 +23161,35 @@ export default {
       proMe: '  XVIII/709  XX/1160  24-411-90  21—111 ',
     },
     {
-      id: 434 ,
+      id: 434,
       kategorie: 'pomnicky',
       pridano: '15/11/2022 ',
-      podkategorie:15 ,
+      podkategorie: 15,
       druh: ' Sakrální ',
-      okres:' Brno - venkov ',
+      okres: ' Brno - venkov ',
       obec: '  Lelekovice, Vranov  ',
       jmeno: ' Cesta - sedmiradostná, Lelekovice   ',
       nazev: ' Sedmiradostná poutní cesta z Lelekovic na Vranov  ',
-      fotkaUvod: {fotka:'  434poutniLelek2.jpg '},
-      kdyVznikl:   ' 2018.  Dohotovena v září 2018. ', 
+      fotkaUvod: { fotka: '  434poutniLelek2.jpg ' },
+      kdyVznikl: ' 2018.  Dohotovena v září 2018. ',
       popisCesty: ' Historická poutní cesta začíná u kaple České, stoupá kolem kostela v Lelekovicích na návrší Klužek a končí u kostela na Vranově. Měří 6,5 kilometrů. Je vyznačena hnědými směrovkami s logem. Informační cedule k cestě jsou v České, Lelekovicích a Vranově. Mezi lekovickým kostelem a návrším před Vranovem je rozmístěno na lesním úseku dlouhém 4 kilometry sedm zastavení Sedmiradostné cesty. U třetího zastavení je upravená studánka Míru. Poblíž sedmého zastavení je skulptura Pohled za nekonečno.  ',
       popis: ' Všechna zastavení mají stejnou podobu. Kamenný sloup zakončený sedlovou stříškou je vysoký 2,5 metru. V horní části ve výklenku je jednobarevný náboženský výjev, jehož součástí je text. U každého zastavení je kamenná lavička. Autorem obrazů a výběru textů je Milivoj Husák. Iniciátorem podoby cesty je Pavel Jordan z České.Výroby všech zastavení se zhostil brněnský kameník a restaurátor Jiří Zimovčák.    ',
       napis: ' 1.zastavení: BUĎ  ZDRÁVA // PLNÁ  MILOSTI  2.: ZVĚSTUJI // VÁM  VELKOU // RADOST  3. PADLI  NA  ZEM //KLANĚLI  SE  MU …  4.: JAK  TO // ŽE  JSTE // MNE HLEDALI?  5.: VSTAL // Z MRTVÝCH // JAK // ŘEKL  6.: SEŠLU // SVÉHO  DUCHA // NA  VŠECHNY // LIDI  7.: ZDRÁVAS  KRÁLOVNO  ',
-      odkazy:[{nazev: ' Sedmiradostná cesta ', adresa:' https://sedmiradostnacesta.com/ '}, {nazev: ' Milivoj Husák  ', adresa:' https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=41011  '} ],
+      odkazy: [{ nazev: ' Sedmiradostná cesta ', adresa: ' https://sedmiradostnacesta.com/ ' }, { nazev: ' Milivoj Husák  ', adresa: ' https://encyklopedie.brna.cz/home-mmb/?acc=profil_osobnosti&load=41011  ' }],
       pozn: '  <strong>Milivoj Husák</strong> ( * 1950) je český malíř, grafik a univerzální výtvarný umělec. Realizuje interiéry kaplí, oltářní obrazy, křížové cesty, pomníky, náhrobky, knižní ilustrace, scénické návrhy atd. V Brně a okolí má řadu realizací, např. výzdobu kostela v Žabovřeskách. Umělec se svobodným povoláním od 1985. Žije v Lelekovicích.  ',
-      naposledObnoveno : ' 15.11.2022 ',
+      naposledObnoveno: ' 15.11.2022 ',
       souradnice: '    ',
-      kodMapa:   '  <iframe style="border:none" src="https://frame.mapy.cz/s/lanozufuza" width="400" height="280" frameborder="0"></iframe>  ' , 
-      odkazMapa:   ' https://frame.mapy.cz/s/lanozufuza  ' ,
+      kodMapa: '  <iframe style="border:none" src="https://frame.mapy.cz/s/lanozufuza" width="400" height="280" frameborder="0"></iframe>  ',
+      odkazMapa: ' https://frame.mapy.cz/s/lanozufuza  ',
       galerie: [
-      {fotka: '  434poutniLelek1.jpg' , popisek: ' Čtvrté zastavení (únor 2019) '},
-      {fotka: '  434poutniLelek3.jpg' , popisek: ' Detail třetího zastavení (únor 2019) '},
-      {fotka: '  434poutniLelek4.jpg' , popisek: ' Detail pátého zastavení (únor 2019) '},
-      {fotka: '  434poutniLelek5.jpg' , popisek: ' Detail sedmého zastavení (únor 2019) '},
+        { fotka: '  434poutniLelek1.jpg', popisek: ' Čtvrté zastavení (únor 2019) ' },
+        { fotka: '  434poutniLelek3.jpg', popisek: ' Detail třetího zastavení (únor 2019) ' },
+        { fotka: '  434poutniLelek4.jpg', popisek: ' Detail pátého zastavení (únor 2019) ' },
+        { fotka: '  434poutniLelek5.jpg', popisek: ' Detail sedmého zastavení (únor 2019) ' },
       ],
-      proMe:' XX/995   19—021  ',   
-      },
-      
+      proMe: ' XX/995   19—021  ',
+    },
+
     {
       id: 435,
       kategorie: 'pomnicky',
@@ -23218,7 +23218,7 @@ export default {
       ],
       proMe: ' XX/1224    22—061  ',
     },
-   
+
     {
       id: 436,
       kategorie: 'pomnicky',
@@ -23481,6 +23481,272 @@ export default {
       ],
       proMe: ' XX/1241  24-414-36  22—092  ',
     },
+    {
+      id: 445,
+      pridano: ' 20/11/2022 ',
+      kategorie: 'vypraveni',
+      podkategorie: 1,
+      nazev: ' Trampské památky na Divoké Oslavce ',
+      datum: ' listopad 2022  ',
+      fotkaUvod: { fotka: ' 448Klondike1.jpg  ' },
+
+      text: [
+        {
+          odkazMapa: ' https://frame.mapy.cz/s/bolemeporo  '
+        },
+        {
+          textOdstavce: '   <p> <i>Toto vyprávění věnuji příteli Miloši Štulpovi, horolezci, jeskyňáři a bývalému trampovi, který mne do těchto míst nasměroval a poskytl cenné rady do začátku hledání.</i> </p>  ',
+        },
+        {
+          textOdstavce: '   <p> Přátelé, </p>  ',
+        },
+        {
+          textOdstavce: '   <p> budu se vlastivědně zabývat i vzdálenější oblastí od Brna. Zajímavým se ukázalo údolí řeky Oslavy pod Náměští. Nevelké území začíná u bývalé hájenky U Vlasáka (říční kilometr 28,7) a končí u brodu pod Vlčím kopcem (říční km 23,4). Tato dvě místa jsou vzdálena vzdušnou čarou tři kilometry a řeka tu v devíti mohutných zákrutech překonává 50 metrů výškového rozdílu. Název Divoká Oslavka dali tomuto údolí trampové a to zcela zaslouženě. Pokusím se vás o tom  přesvědčit následujícím textem. </p>  ',
+          foto: '  445Oslavka01.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Vyschlá řeka Oslava v srpnu 2018  ',
+        },
+        {
+          textOdstavce: '   <p> Údolím lze projít i po značených cestách. Po pravém – západním břehu vede zelená značka, po levém červená, romantické údolí projdete tam i zpět za čtyři hodinky. Potíž je v tom, že z níže popisovaných objektů neuvidíte skoro žádný. Vím to, léta jsem takto chodil. Je třeba sejít mimo značené cesty, přesněji mimo cesty vůbec. Pak je možné nalézt skryté sruby a památky na zacházející slávu trampingu na Oslavce. Trampské hnutí v těchto místech začalo před osmdesáti lety, zlatý věk zažívalo v šedesátých letech a dnes vymírá a degraduje na důchodcovské chataření v údolních romantických partiích. Z množství trampských slavínů usuzuji, že historie hnutí míří do ztracena. Ale kdo ví, čím se budou mladí zabývat za dvacet, za padesát let.</p>  ',
+          foto: '  445Oslavka02.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Oslavka u peřeje Pět prstů (duben 2022)  ',
+        },
+
+        {
+          textOdstavce: '   <p> Začneme na pravém břehu. Po zelené značce od Náměště a Zňátek mineme tábor U Vlasáka ležící na levém břehu a projdeme po louce s kaštany zvané Kaštánka. Důkladně dělaná vozová cesta vede na klenutý kamenný most <strong>Čerťák</strong>. </p>  ',
+          foto: '  445Oslavka03.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Klenutý most Čerťák (duben 2022)  ',
+        },
+        {
+          foto: '  445Oslavka04.jpg  ',
+          vnitrniOdkazy:
+            [
+              {
+                vnitrniOdkaz: 364,
+                odkazKategorie: 'pomnicky',
+                odkazPodkategorie: 13,
+                odkazKde: 'odstavec',
+                predOdkazem: 'Nad ním na skále na krásném místě s výhledem stojí  ',
+                textOdkazu: 'Kelyho bouda',
+                zaOdkazem: ', vedle ní silný dub. Název boudy vznikl přesmyčkou jména stavitele. Pod skálou někdy vyvěrá slabý <strong>pramen Kelyho studánky</strong>, ten se hledá těžko. Sto metrů po pěšině od boudy vzhůru je na skalním výchozu <strong>slavín trampské osady Sedící býk</strong>, pět tabulek se jmény, dole na jaře bouří <strong>kaskáda potoka Hučáku</strong>. </p>  ',
+              },
+            ],
+          umisteniFoto: ' vlevo   ',
+          popisek: ' Kelyho bouda (duben 2012)   ',
+        },
+        {
+          vnitrniOdkazy:
+            [
+              {
+                vnitrniOdkaz: 370,
+                odkazKategorie: 'pomnicky',
+                odkazPodkategorie: 13,
+                odkazKde: 'odstavec',
+                predOdkazem: 'Zelená značka stoupá od Čerťáku a z ní odbočuje vlevo dolů na skalnatý hřbet pěšina. Vede k další boudě. Nejznámější, nejpřístupnější, nejnavštěvovanější chata <strong>Umírajda</strong> též  ',
+                textOdkazu: 'Umírayda',
+                zaOdkazem: ' tu stojí od roku 1970 dodnes. Je otevřena všem a málokdy je tady prázdno. Patří k ní i <strong>studánka Umírajda</strong>, vzdálená asi 200 metrů k jihu, v úbočí, dnes zavaleném polomy.',
+              },
+            ],
+          foto: '  445Oslavka05.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Umírajda v dubnu 2016  ',
+        },
+        {
+          vnitrniOdkazy:
+            [
+              {
+                vnitrniOdkaz: 307,
+                odkazKategorie: 'pomnicky',
+                odkazPodkategorie: 13,
+                odkazKde: 'odstavec',
+                predOdkazem: 'K dalším srubům není jednoduchých cest. Buď se držet bez cesty břehu řeky, nebo shora k nim sestoupit po nenápadných pěšinkách. Nejnedostupnější je <strong>Pedyho bouda</strong>, postavená roku 1984 pod skálou na velmi strmém místě. Jezdí tam osada Pustina. Nedovedu si představit, jak sem dopravovali stavební materiál nebo třeba kamna. Na skále nad chajdou má <strong>pamětní desku kamarád</strong> ',
+                textOdkazu: 'Pedy',
+                zaOdkazem: ', který se tu v létě 1986 zabil. Pohybovat se těmito končinami není legrace.',
+              },
+            ],
+          foto: '  445Oslavka06.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Pedyho bouda (duben 2016)  ',
+        },
+
+        // TODO vnitrni odkazy dodelany sem
+        {
+          textOdstavce: '   <p> Jen sto metrů vedle stojí na krásném místě nad řekou na skalní plošince stará trampská bouda <strong>Haryjovka</strong>. Je jí 50 let, byla obnovena po požáru a jako jediná bouda má komín. Přímá cesta úbočím je ale nemožná, je třeba vystoupat žlabem vzhůru a pak se spustit po klesajícím žebru až nad řeku.</p>  ',
+          foto: '  445Oslavka07.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Haryjovka (duben 2009)  ',
+        },
+        {
+          textOdstavce: '   <p> Ty, co půjdou po břehu, tu čekají nejtěžší místa, na hranici schůdnosti, pokud ovšem nezvolí cestu vodou. Míjí peřej Pět prstů a přes řeku je vidět camp Zlaté podkovy na protějším břehu. Myslím, že za vyššího stavu vody je to kolem řeky neschůdné. Pod skálou na které stojí Haryjovka, je u řeky <strong>skalní převis/skok na 312/</strong>, pod kterým spávaly generace trempířů. Kdosi tu namaloval hlavu indiána a zvěčnil jména trampských osad: Tuláci, Klondike, Divoši, Orli, Skalp, Pepíci, Mňouci, jména dalších smazal čas. Romantika kape z pojmenování osad, které sem jezdily nebo jezdí - Bílý jelen, Bílý bůvol, Divocí kanci, Zlatá podkova, Lamberk, Dravci pustin, Levhart, Marion, Skaláci, Černý sup, Smoke River, Satan, Supi, Bílá peřej, Stříbrná peřej, Tichá peřej, Dva ohně, Orlíci, Oswego, Luna a dívčí osady Holubice a Stříbrná řeka. Na skále s převisem jsou dvě pamětní <strong>desky Tryvet a Prca</strong>. </p>  ',
+          foto: ' 445Oslavka08.jpg   ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Skalní převis (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Kus dál po proudu je na říčním jesepu dřevěný památník na místě, kde stávala bouda <strong>Ivoška/skok na id369/</strong>. Legendární bouda, vždy otevřená, lehla popelem v létě 1985. Čtyři kamarádi, kteří sem tenkrát jezdili, nezapomněli ani po 25 letech a postavili tento památník s fotografiemi. Ivoška tu nebyla první, před ní tu stála od roku 1968 Gastova bouda, pak ji překřtili na Rypošovu boudu, jezdila tam osada Čtyřicátá míle. Chata vyhořela po osmi letech. Jen pár kroků vedle má nenápadnou dřevěnou desku <strong>kamarád Nimrod</strong>, tragicky zahynulý v Jizerkách. </p>  ',
+          foto: '  445Oslavka09.jpg ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Nimrodova deska (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Tehdy v sedmdesátých letech panovala nevraživost mezi trampy a mezi myslivci s tichou podporou úřadů. Kdosi otevřené trampské sruby zapaloval. A jen některá chata byla obnovena a vydržela dodnes. Jen urovnanou plošinu ve svahu lze najít po boudách T.O. Bílý bůvol, Kudrnáčově, Škrčkově, Čárlího, Béďově budce a dalších. Níže po proudu ve výškové úrovni Haryjovky je <strong>srub Walden</strong> neboli Kódlovka/skok na id382/. Postavil ho Kódl v roce 1970, má za sebou požár a obnovu. Při mé  poslední návštěvě čekala na příchozího nejen návštěvní kniha, ale i láhev rumu a skleničky. Úhledný srub má ve štítě kravskou lebku. Ještě dále po proudu blízko zříceniny Sedleckého hradu je nad pobřežními skalami <strong>Silverbóda/skok na id 381/</strong>. Nízká stavba z tlustých klád tu stojí od roku 1970.</p>  ',
+          foto: '  445Oslavka10.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Srub Walden neboli Kódlovka (duben 2016)  ',
+        },
+        {
+          textOdstavce: '   <p> Není lehké boudy z dálky uvidět. Pokud mají stromy listí, je to skoro nemožné. Nanejvýš jsou pozorovatelné přes řeku, ale to se k nim málokdo dostane. Ideální měsíc na jejich hledání je duben, kdy je slunce vysoko a dosvítí i do úzkého kaňonu. Jezdit se sem dá v každé roční době, každá má jiné kouzlo. V zimě dostanou kameny v korytě bílé čepice, v létě je příjemné se brouzdat vodou mezi břehy (a nepříjemné pálit se o kopřivy), na podzim se obarví stráně žlutě a hnědě, ale nejlepší – nejlepší je to na jaře. Pár teplých dnů na konci dubna rozbalí světlé lístky tisíců buků a ozdobí jejich šedá těla nejkrásnější hráškovou zelení, pod nohama kvete koberec sasanek, dymnivek a petrklíčů. Škoda slov, to se musí vidět.</p>  ',
+          foto: '  445Oslavka13A.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Silverka (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Hodí se vystoupat na ostroh <strong>Sedleckého hradu</strong>. Byl to spíše hrádek, existoval mezi lety 1370 a 1440, postavil ho man třebíčského kláštera na obranu majetku proti Lamberku. Moc se o něm neví, ani na povrchu mnoho nezbylo. Patrný je jen hradní příkop přetínající hřbet. Na vrcholu zříceniny stávaly odedávna <strong>tři dřevěné kříže</strong>. Byly pravidelně obnovovány na památku legendy, podle které hradní pán ukryl manželku a dvě dcery, a když se na cestě zdržel, našel je po návratu všechny mrtvé. Kříže z dobrého dřeva posloužily v padesátých letech družstevníkům v Sedleci při stavbě krovu kravína. Jejich potomci z téže vsi památku v roce 2003 obnovili.</p>  ',
+          foto: ' 445Oslavka11.jpg   ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Tři kříže na Sedleckém hradě (duben 2018)  ',
+        },
+        {
+          textOdstavce: '   <p> Sestoupíme až na břeh Oslavky a octneme se na potlachovém místě <strong>T. O. Mňouci</strong>. Mají tu nově vyřezané totemy. Nad tábořištěm je do skály vsazen kovový <strong>křížek kamaráda Rákose/skok na id 304/</strong>. Ohnišť je tu více, podle mě až příliš. Kousek dál je nový dřevěný křížek z roku 2021 a na něm jediné slovo <strong>Lukke</strong>.</p>  ',
+          foto: '  445Oslavka12.jpg ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Rákosův křížek (srpen 2018)  ',
+        },
+        {
+          textOdstavce: '   <p> Pokračujeme po břehu a máme proti sobě skalnatý poloostrov se zříceninou Lamberku. Na „naší“ straně nízko nad vodou je obtížně přístupný <strong>srub T.O. Kobra/skok na id368/</strong>. Ještě nedávno býval otevřen, tak jako většina srubů, uvnitř čisto a útulno. Sem dojde málokdo. Další cesta po břehu bývala vždy obtížná, za vyššího stavu vody je skoro nemožná. Nezbývá než stoupat neznatelnou pěšinou vzhůru, jmenuje se příznačně Chilcoot.</p>  ',
+          foto: '  445Oslavka13.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Srub osady Kobra (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Časem dojdeme na vyhlídku na Holém kopci, je tu rozcestník a zelená značka s odbočkou na Sedlecký hrad. Stojí tu i dřevěný <strong>křížek Pedy</strong>, zřejmě pro ty, kteří nedojdou k pamětní desce ve skalách. Přímo pod nohama máme zajímavě umístěnou desku. Kovovou <strong>desku Naďa „Rorejs“/skok na id35/</strong> zdobí na jaře žlutá tařice a krásný výhled.</p>  ',
+          foto: '  445Oslavka14.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Pedálův křížek (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> V létě 2018 v těchto místech došlo další tragédii, zůstal po ní malý dřevěný <strong>křížek patera Josefa Kožicha Pelce/skok na id34/</strong>. Otec Josef jezdil rád do přírody, hrál na kytaru, cestoval. V pondělí ráno odsloužil mši a pak vyrazil s přáteli na dovolenou. Bivakovali nedaleko Glorietu. Večer se náhle vzdálil, možná si potřeboval odskočit, a nikdo už ho živého nespatřil. Kamarádi ho hledali celou noc a ráno zalarmovali policii. Nakonec ho našel ve skalách jeho přítel, také kněz, po šedesátimetrovém pádu. Bylo mu 46 let. Tělo z těžce přístupného terénu vyzvedl policejní vrtulník.</p>  ',
+          foto: '  445Oslavka15.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Jimova bouda (duben 2012)  ',
+        },
+        {
+          textOdstavce: '   <p> Ve skalnaté stráni pod vámi se na nepatrné terásce pod skálou ukrývá <strong>Jimova bouda</strong> nebo též Kančárna. Uvnitř jsou dvě palandy a čisto, uklizeno. Jezdí sem pořádní lidé. Od roku 1979 pamatuje chata ledacos, padl na ni strom, dvakrát ji přestavěli. Na jaře je tu bílo od sněženek. Od ní lze dojít po 300 metrech k <strong>Mustangově boudě</strong> neboli Fetošce/skok na id372/. Ta leží přímo pod Glorietem. <strong>Gloriet</strong> je empírová kruhová stavba, kterou zbudovali Haugwitzové někdy kolem roku 1830 na hraně plošiny na místě s výhledem. V druhé půli minulého století postupně velmi zpustla, i když původně měla dubová okna a dveře, kruhový stůl a parkety. Před patnácti lety ho krásně opravil gigant z Dukovan. </p>  ',
+          foto: ' 445Oslavka16.jpg   ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Altán Gloriet (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Z Glorietu vede dolů do údolí široká nepoužívaná cesta a po dvou serpentinách končí u <strong>campu Bílý jelen</strong>. Velké ohniště s dvojitým kruhem a sezením, vyřezávaný totem a vlajkový stožár najdete na rovném místě u řeky, které v posledním čase poněkud zarůstá. O 300 metrů níže po vodě je známý <strong>camp Kančí louka/skok na id371/</strong>. Přepychové ohniště obložené kameny, průměr venkovního kruhu je asi 15 metrů, sezení kolem na kládách. Často tu někdo táboří. Někdy se na Kančárně koná velký potlach a sejdou se tu stovky trampů. V létě 2022 se tu objevila lehká lávka přes řeku. Louka končí vysokou skálou. Říká se jí Jinošovnice a na její stěně má tmavou <strong>desku Milan Maša/skok na id313/</strong>. Zemřel na Silvestra 1992, bylo mu 18 let. Deska z opaxitového lesklého materiálu vydržela skoro 30 let, letos (2022) ji rozbil kámen uvolněný ze skály nad deskou.</p>  ',
+          foto: ' 445Oslavka17.jpg   ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Kančí louka (duben 2022).  ',
+        },
+        {
+          textOdstavce: '   <p> Až sem se dá z Náměště dojít se štěstím po břehu řeky, ale tady padá kolmá skála rovnou do vody a nezbývá než vystoupat na <strong>vrchol Jinošovnice</strong>. Odměnou je výhled na několik kilometrů rovného údolí, až někam ke Ketkováku, říká se mu Dlouhá Oslava. Značená cesta vede do údolí potoka Kotlík a v něm, nikoliv u cesty, leží <strong>Járova bouda/skok na id367/</strong> nad vodopády. Pod chatou i nad ní vytváří potok pěkné vodopády a k řece je odtud asi 300 metrů. Cesta ale není jednoduchá. Výše proti proudu potoka lze po nepatrné pěšince dojít k udržované <strong>Archymově boudě/skok na id363/</strong>. Jezdí sem pečliví lidé.</p>  ',
+          foto: '  445Oslavka18.jpg  ',
+          umisteniFoto: ' vpravo   ',
+          popisek: ' Járova bouda nad vodopády (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Zelená značka míří nahoru na Vlčí kopec. Na něm se rozkládá <strong>zámeček Heinrichslust</strong> a několik dalších stylových budov v klasicistním slohu. Stály uprostřed velké obory ohraničené ploty ze dřeva a drátu. Jméno lze přeložit jako Jindřichovo potěšení, dal ho zbudovat hrabě Jindřich Haugwitz kolem roku 1830. Sloužil panstvu jako letohrádek a místo lovů a honů na vysokou a černou zvěř. Po válce Haugwitzové jakožto Němci o náměšťské panství přišli a celý areál zpustl. Ujaly se ho energetické závody, které tu v šedesátých letech měly rekreační středisko. Dnes je areál školicího střediska vzorně opraven.</p>  ',
+          foto: '  445Oslavka19.jpg ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Archymova bouda (duben 2018)  ',
+        },
+        {
+          textOdstavce: '   <p> Pod Vlčím kopcem leží brod. U brodu na skále je německá <strong>pamětní deska Anna – strasse</strong>. Annina cesta byla zbudována pro kočáry v letech 1882-84 z Náměště na Vlčí kopec a k její stavbě byl využit i kámen ze zříceniny Lamberk, proto z něj tak málo zbylo. Do roku 1937 vedla přes vodu dřevěná Jindřichova lávka, ale vzala ji velká voda a zůstal jen kamenný pilíř. I ten ale voda podemlela a nyní (2022) leží v proudu řeky. Nevzpomínám si, že by v českých zemích ležel na značené cestě brod širší, než je tento. Od jara 2018 se už nebrodí. Břehy spojila moderní klenutá lávka. A má jméno, někdo ji pojmenoval <strong>Janina lávka</strong>. Škoda, další kousek romantiky na řece je pryč. Zvláště na jaře za vyšší vody býval přechod docela dobrodružný. S mosty a lávkami je na Oslavce potíž. V popisovaném úseku lze přejít řeku suchou nohou jedině po betonové lávce asi půl kilometru nad táborem U Vlasáka, nepočítáme-li příležitostnou lávku na Kančárně.</p>  ',
+          foto: '  445Oslavka21.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Janina lávka pod Vlčím kopcem (srpen 2018).  ',
+        },
+        {
+          textOdstavce: '   <p> Překonali jsme Oslavku a po východní straně řeky půjdeme proti proudu. U modře značené cesty se v lese rýsuje výrazný kamenný obdélník. Je to základ lesní Zelené boudy zvané též <strong>Žampión/skok na id366/</strong>. V dobách šlechty sloužila jako lovecká chata a konaly se tu výřady zvěře. Po poslední válce se z ní stal seník a dřevěná stavba se širokou střechou začala sloužit jako trampská noclehárna. Pokaždé, když jsme jako kluci tudy procházeli, tu někdo tábořil. Shořela prý v roce 1965 a tehdy se začaly budovat trampské sruby. V roce 2021 někdo vyrobil model seníku a umístil ho sem spolu s historií místa.</p>  ',
+          foto: ' 445Oslavka22.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Základ boudy Žampión (duben 2022).  ',
+        },
+        {
+          textOdstavce: '   <p> Těsně u řeky naproti Kančí louce má svoji desku <strong>Baron Bída</strong>, vlastním jménem Ladislav Novotný z Prahy. Přijel v noci a neznal pořádně cestu. Když uviděl dole u řeky zář ohně, zamířil rovnou dolů mezi skalami, spadl a tady se zabil. V létě 1965, bylo mu 25 let. Kamarádi mu na břeh Oslavky, kam už nedošel, nainstalovali kamennou desku. Na stejném místě o 17 let později zemřel kamarád Mates z T.O. Lamberk. Minul odbočku k řece a noční sestup po skalách se mu stal osudným. I ten tu má desku. Od té doby na skále přibývají cedulky trampů, kteří zemřeli jinde a vznikl <strong>trampský slavín/skok na id390/ osady Lamberk</strong>, momentálně (2022) je na něm asi 40 tabulek.</p>  ',
+          foto: '  445Oslavka23.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Trampský slavín pod Lamberkem (duben 2022).  ',
+        },
+        {
+          textOdstavce: '   <p> Vrcholové partie úzkého skalnatého ostrohu zabírá <strong>zřícenina Lamberk</strong>. Skála od severovýchodu je tak strmá, že bylo možno nabírat vodu do hradu přímo z řeky. Hrad postavili roku 1370 a nazvali podle tvaru Langenberg, počeštěním Lamberk. Hrad byl rozhodnutím českých stavů zbourán zřejmě roku 1446, aby se nestal centrem loupežníků. Dnes zbývá příkop, valy, základy a nepatrné zbytky zdí. Před zříceninou instalovali před pár lety kamennou pamětní <strong>desku rytíři Janu Sokolovi/skok na id325/</strong>, nejvýznamnějšímu zdejšímu obyvateli.</p>  ',
+          foto: '  445Oslavka20.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Vodopád v Kotlíku.  ',
+        },
+        {
+          textOdstavce: '   <p> <i>Jan Sokol z Lamberka (1357 – 1410) byl významný válečník předhusitské doby. Sloužil králi Václavu IV a podílel se na jeho osvobození z vězení. Stál na straně krále hlavně proti biskupu olomouckému, jehož statky ničil. Stal se postrachem šlechty a církve a byl proto dán do klatby. Při obraně Znojma poprvé použil obrněné vozy, to později od něj odkoukal mladý Jan Žižka. Král ho poslal na pomoc Polákům proti Řádu německých rytířů, radil a pomáhal polskému králi Vladislavovi ve vítězné bitvě u Grunwaldu. Tímto se stal Vladislavovým oblíbencem, což se nelíbilo polské šlechtě. Dva měsíce po bitvě ho v Toruni otrávili. Polský král se postaral o výchovu jeho dvou synů, z Mikuláše z Lamberka se stal později vůdce sirotků. Příběh byl vícekrát beletristicky zpracován.</i> </p>  ',
+          foto: '  445Oslavka24.jpg ',
+          umisteniFoto: ' vpravo   ',
+          popisek: ' Plechárna 2 (srpen 2018)  ',
+        },
+        {
+          textOdstavce: '   <p> Červená značka tu vede vysoko nad údolím, protože obchází skalní útesy sahající do vody. Nenápadná pěšinka klesá ke srubu <strong>Plechárna 2/skok na id380/</strong> přímo proti poloostrovu Sedleckého hradu. Geniálně vybrané místo, po břehu se tam nelze dostat. Když značka sestoupí k řece, nemůžeme minout tábořiště a vysoký <strong>totem Údolí Klondike</strong>. Jméno mu dali trampové v šedesátých letech. Krásně vyřezávaný totem je z roku 1968 a poslední dobou poněkud chátrá. Této části údolí se říká také Orlák, podle osady Orlů, kteří sem začali jezdit od roku 1961.</p>  ',
+          foto: '  445Oslavka25.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Totem na Orláku (srpen 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Jdeme dál proti proudu až ke <strong>kempu Zlatá podkova</strong>. Nad tábořištěm se tyčil krásně vyřezaný totem s nápisem Zlatá podkova 1965-1990. Naposled opraven 2010, ale uhnil odspodu a před pár lety se svalil. Zdá se, že osadníci už nemají sílu legendární totem obnovit. Svědčí o tom i trampský slavín této osady na vedlejší skále. V roce 2022 tu bylo tu 20 cedulek, všechno naše ročníky.</p>  ',
+          foto: '  445Oslavka26.jpg  ',
+          umisteniFoto: ' vpravo  ',
+          popisek: '  Totem Zlatá podkova (listopad 2016)  ',
+        },
+        {
+          textOdstavce: '   <p> Jsme v nejdivočejší části údolí. U tábořiště leží <strong>peřej Pět prstů</strong>. Stejně jako na Yukonu i tady velké kameny dělí řeku do několika ramen. Dost často tu leží z břehu na břeh padlý kmen, kterému vandráci pomohou, aby se dalo přejít přes řeku suchou nohou. Kamenům nad peřejí se říká Síto, rozsáhlé pole balvanů pod peřejí pojmenovali vodáci Schody. Je to nejkrásnější místo na Oslavce. Jednou jsem tu viděl zblízka vydru. Kvůli hukotu vody mě neslyšela a s rybou v tlamě koukala na mě. Za dvě vteřiny se vnořila do nory. Nedávno přibyla další deska na skále nad vodou nejblíže Pěti prstům. Patří bývalému skautu a známé brněnské vodácké figuře <strong>Jurovi Ottovi/skok na id326/</strong> (1930 – 2015), který jako první v roce 1952 sjel v lodi peřeje Divoké Oslavy. Znal jsem ho, tykali jsme si, ale s tímto se nikdy nepochlubil. Poděs, ale dobrý člověk. Že má desku zrovna tady, je zcela namístě. </p>  ',
+          foto: ' 445Oslavka27.jpg   ',
+          umisteniFoto: ' vlevo  ',
+          popisek: ' Slavín Zlaté podkovy (srpen 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Poslední z popisovaných srubů je nejromantičtější. <strong>Vechtrovna/skok na id306/ Kečupa Toma</strong> je v prudkém svahu nad místem s vodorovnými řetězy na značené cestě, dost vysoko nad řekou. Krčí se pod pásem skal a plošina na které stojí, je tak malá, že musela být rozšířena dřevěnou kulatinou, aby se do srubu dalo vejít. I tato chajda vadila někomu tak, že ji dvakrát spálil. Krásně zašité místo, naproti na hřbetu je vidět Umírajdu. Okolí srubu je ze tří stran prakticky neschůdné.</p>  ',
+          foto: ' 445Oslavka27A.jpg  ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' Vechtrovna Kečupa Toma (listopad 2016)  ',
+        },
+        {
+          textOdstavce: '   <p> Aniž si dělám nárok na úplnost, dá se na malém území Divoké Oslavky najít 12 trampských srubů, tři slavíny, desítky pamětních desek, totemů, křížků, tábořišť, upravených studánek. U nás nemá podobné území obdobu, jako kulturní dědictví by mělo být chráněno. Jedno chráněné území už tu je, a sice Národní přírodní rezervace Divoká Oslava. To ale zakazuje i vstup mimo značené cesty, natož táboření a rozdělávání ohně. Přírodní rezervace tu byla od roku 1975 a to již většina srubů stála, trampové sem jezdí od padesátých let. Snad se podaří najít způsob soužití ochrany přírody i trampského národa na Oslavce.</p>  ',
+          foto: '  445Oslavka28.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Peřej Pět prstů (duben 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Velice zvláštní zážitek je, když po Oslavce jdou ledy. Je to vlivem klimatické změny stále výjimečnější záležitost, v posledních deseti letech nenastala. Netrvá to dlouho, den nebo dva. Naposledy šly ledy v únoru 2012 a byli jsme u toho. Je třeba, aby zima byla opravdu tuhá a měsíc fest mrzlo. Led pak naroste na 20, 30 centimetrů. Při náhlé oblevě se pak v úzkém údolí dějí věci. Plovoucí led se zachytí za kameny v řečišti, led ucpe skuliny a voda začne stoupat. Nikdy při letní povodni nevystoupá tak vysoko.</p>  ',
+          foto: '  445Oslavka29.jpg  ',
+          umisteniFoto: ' vpravo  ',
+          popisek: '  Na Oslavce jdou ledy (únor 2012)  ',
+        },
+        {
+          textOdstavce: '   <p> Hráz vysoká někdy metr, ale i dva nebo tři, zvedá hladinu, plovoucí kry otloukají kůru pobřežních stromů a voda se rozlévá do šíře, má-li kam. Nemá-li kam, buduje kolem toku ledové bariéry, jako by je někdo naskládal jeřábem. Až ledová hráz přeteče nebo se protrhne, posunou se kry k další překážce. Led bere s sebou lávky i nízko položené chaty. Tehdy se Klondike podobá nejvíce svému aljašskému bratru, údolí je zcela neschůdné, pobřežní pěšiny pod vodou a ledem. Dlouho do jara jsou břehy posety tlustými krami. </p>  ',
+          foto: '  445Oslavka30.jpg  ',
+          umisteniFoto: '  vlevo  ',
+          popisek: ' Zamrzlé vodopády Kotlíku (únor 2012)  ',
+        },
+        {
+          textOdstavce: '   <p> Na opačném konci kalendáře je přechod kaňonem vodou/skok na https://turistapavel.rajce.idnes.cz/202208_Oslavka_s_brodenim/ /. V horkém letním počasí je to jeden z mála vhodných způsobů trávení turistického času. Je třeba se na to vybavit. Dlouhé kalhoty – kvůli kopřivám na břehu, boty, které vydrží časté máchání a turistické hole – budete je potřebovat. Pak se jde pobřežní rybářskou pěšinou a až skončí u skály, přebrodí se na druhý břeh. Buď jeden nebo druhý břeh je vždy schůdný. Příjemná cesta spojená s častým namáčením poskytuje neotřelé pohledy do údolí z prostředka toku.</p>  ',
+          foto: ' 445Oslavka31.jpg   ',
+          umisteniFoto: '  vpravo  ',
+          popisek: ' (srpen 2022)  ',
+        },
+        {
+          textOdstavce: '   <p> Končí se další pokračování nekonečného seriálu “Okolí Brna neznámé”, tentokrát o zajímavých objektech v údolí Divoké Oslavky. Nepíše se o nich v turistických průvodcích, nejsou – většinou – zakresleny v mapách. Nikdy bych si netroufl psát jako první o trampských boudách, které se jakémukoliv zveřejňování brání, asi tam nejsou legálně a zůstávají známy jen úzkému okruhu zasvěcených. Proto i moje popisy cest jsou často mlhavé a neurčité. O to větší je pak radost z nálezu. Ale v roce 2004 vydal tramp z nejpovolanějších Jiří „Lucan“ Skurovec knížečku Trampská historie řeky Oslavy, kde je historie i poloha chat popsána a ze které jsem se hodně dozvěděl. Tabu bylo prolomeno. Také na internetu létají kybernetickým prostorem fotografie většiny srubů. I tak je třeba se přírodou přesunovat tiše a nenápadně, vždyť se celou dobu pohybujeme v přísné přírodní rezervaci.</p><p>Tak suchou stezku a modré nebe.</>'
+        },
+        {
+          textOdstavce: 'Psáno v Bohunicích o adventu 2016<br>Doplněno na podzim 2018<br>Poslední úprava je z listopadu 2022'
+        },
+        {
+          textOdstavce: "   Pokud vám chybí obrazový doprovod, zkuste <a href='https://turistapavel.rajce.idnes.cz/' target: '_blank'>https://turistapavel.rajce.idnes.cz/</a>"
+
+        },
+      ],
+      galerie: [],
+    }
 
 
 
