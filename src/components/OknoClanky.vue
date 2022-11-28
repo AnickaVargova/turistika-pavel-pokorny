@@ -28,6 +28,7 @@ export default {
     };
   },
   created() {
+     console.log(this.stranka);
     if (this.$route.name === "NovePridane") {
       fetch(`http://localhost:8080/novePridane`, {
         method: "GET",
@@ -61,6 +62,7 @@ export default {
     }
     //REMOVE
     else {
+     
       fetch(`http://localhost:8080/${this.stranka}/1`, {
         method: "GET",
         headers: {

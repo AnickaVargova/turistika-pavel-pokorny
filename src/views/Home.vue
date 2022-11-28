@@ -115,7 +115,7 @@ export default {
     },
   },
   created() {
-    ['pomnicky', 'krize', 'vypraveni'].map(kategorie => {
+    ['pomnicky', 'krize', 'vypraveni', 'cesty'].map(kategorie => {
     fetch(`http://localhost:8080/${kategorie}`, {
       method: "GET",
       headers: {

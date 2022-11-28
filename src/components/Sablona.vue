@@ -214,7 +214,8 @@
             this.$route.name === 'NovePridane' ||
             this.$route.name === 'PomnickyKategorie' ||
             this.$route.name === 'SmirciKrizeKategorie' ||
-            this.$route.name === 'Vypraveni'
+            this.$route.name === 'Vypraveni' ||
+            this.$route.name === 'Cesty'
           "
           v-bind:stranka="innerParams.stranka"
           v-bind:zalozkyButton="!isLongVersion"

@@ -56,8 +56,8 @@
         >
           <router-link
             v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
-            v-bind:to="`/fotodetail/${
-              detailClanku.kategorie}/${detailClanku.id
+            v-bind:to="`/fotodetail/${detailClanku.kategorie}/${
+              detailClanku.id
             }/${odstavec.foto.trim()}`"
           >
             <figure
@@ -76,14 +76,14 @@
             </figure>
           </router-link>
           <p>
-          <span v-html="odstavec.textOdstavce">
-            {{ odstavec.textOdstavce }}
-          </span>
-          <span v-if="odstavec.vnitrniOdkazy">
-            <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
-          </span>
+            <span v-html="odstavec.textOdstavce">
+              {{ odstavec.textOdstavce }}
+            </span>
+            <span v-if="odstavec.vnitrniOdkazy">
+              <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
+            </span>
           </p>
-          
+
           <figure
             v-bind:class="{
               figCesty: true,
@@ -113,25 +113,6 @@
             >
           </div>
         </div>
-
-        <h3 v-if="detailClanku.dodatekNadpis">
-          {{ detailClanku.dodatekNadpis }}
-        </h3>
-        <p v-if="detailClanku.dodatekText">
-          {{ detailClanku.dodatekText }}
-        </p>
-        <p
-          v-if="
-            detailClanku.vnitrniOdkazy &&
-            detailClanku.vnitrniOdkazy[0].odkazKde === 'dodatekText'
-          "
-        >
-          <Klikaci
-            v-on:kliknuti="vyfiltrujPomnicek"
-            v-bind:clanek="detailClanku"
-            kdeJsem="dodatekText"
-          />
-        </p>
       </div>
 
       <div id="galerieClanek" v-if="detailClanku.galerie">
@@ -184,21 +165,36 @@ export default {
   },
 
   created() {
-    if(this.$route.name === 'DetailVypraveni' || this.$route.name === 'NoveVypraveni'){
-    fetch(
-      `http://localhost:8080/vypraveni/1/${this.$route.params.id}`,
-      {
+    if (
+      this.$route.name === "DetailVypraveni" ||
+      this.$route.name === "NoveVypraveni"
+    ) {
+      fetch(`http://localhost:8080/vypraveni/1/${this.$route.params.id}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
         },
-      }
-    )
-      .then((response) => response.json())
-      .then((data) => (this.detailClanku = data))
-      .then(() => {
-        this.loading = false;
-      });
+      })
+        .then((response) => response.json())
+        .then((data) => (this.detailClanku = data))
+        .then(() => {
+          this.loading = false;
+        });
+    } else if (
+      this.$route.name === "DetailCesty" ||
+      this.$route.name === "NovaCesta"
+    ) {
+      fetch(`http://localhost:8080/cesty/1/${this.$route.params.id}`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => (this.detailClanku = data))
+        .then(() => {
+          this.loading = false;
+        });
     }
   },
 };
