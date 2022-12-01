@@ -55,6 +55,7 @@ export default {
 .vnitrniOdkaz {
   color: rgb(59, 43, 204);
   text-decoration: underline;
+  font-weight: bold
 }
 
 .vnitrniOdkaz:hover,
