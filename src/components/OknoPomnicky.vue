@@ -77,7 +77,7 @@
           <td
             v-if="
               clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'popisCesty'
+                clanek.vnitrniOdkazy.find(item => item.odkazKde === 'popisCesty')
             "
           >
             <Klikaci
@@ -94,7 +94,7 @@
           <td
             v-if="
               clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'kdeSeNaleza'
+                clanek.vnitrniOdkazy.find(item => item.odkazKde === 'kdeSeNaleza')
             "
           >
             <Klikaci
@@ -116,14 +116,22 @@
             Popis pomníčku:
           </td>
           <td v-if="clanek.kategorie === 'smircikrize'">Popis kříže:</td>
-          <td v-html="clanek.popis">{{ clanek.popis }}</td>
+          <td
+            v-if="
+              clanek.vnitrniOdkazy &&
+                clanek.vnitrniOdkazy.find(item => item.odkazKde === 'popis')
+            "
+          >
+            <Klikaci kdeJsem="popis" v-bind:clanek="clanek" />
+          </td>
+          <td v-else v-html="clanek.popis">{{ clanek.popis }}</td>
         </tr>
         <tr>
           <td>Nápis:</td>
           <td
             v-if="
               clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'napis'
+                clanek.vnitrniOdkazy.find(item => item.odkazKde === 'napis')
             "
           >
             <Klikaci kdeJsem="napis" v-bind:clanek="clanek" />
@@ -136,7 +144,7 @@
           <td
             v-if="
               clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'povest'
+                clanek.vnitrniOdkazy.find(item => item.odkazKde === 'povest')
             "
           >
             <Klikaci v-bind:clanek="clanek" kdeJsem="povest" />
@@ -149,7 +157,7 @@
           <td
             v-if="
               clanek.vnitrniOdkazy &&
-                clanek.vnitrniOdkazy[0].odkazKde === 'pozn'
+                clanek.vnitrniOdkazy.find(item => item.odkazKde === 'pozn')
             "
           >
             <Klikaci kdeJsem="pozn" v-bind:clanek="clanek" />
