@@ -123,7 +123,7 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => (this[kategorie] = data.names.length))
+      .then((data) => (this[kategorie] = data.names.filter(item => !item.temp).length))
       .then(() => (this.loading.pomnicky = false));
     });
     fetch(`http://localhost:8080/novePridane`, {

@@ -55,7 +55,7 @@ export default {
     })
       .then((response) => response.json())
       .then((data) => {
-        data = data.names.sort((a, b) => {
+        data = data.names.filter(item => !item.temp).sort((a, b) => {
           return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
             sensitivity: "accent",
           });
