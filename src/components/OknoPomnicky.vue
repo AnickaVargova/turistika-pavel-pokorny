@@ -59,7 +59,7 @@
 
           <tr>
             <td>Kde se nachází?</td>
-            <td >
+            <td>
               <span v-html="clanek.popisCesty">{{ clanek.popisCesty }}</span>
               <Klikaci
                 v-if="
@@ -91,7 +91,7 @@
 
           <tr>
             <td>Nápis:</td>
-            <td >
+            <td>
               <span v-html="clanek.napis">{{ clanek.napis }}</span>
               <Klikaci
                 v-if="
@@ -107,13 +107,10 @@
 
           <tr v-if="clanek.kategorie === 'krize'">
             <td>Pověst:</td>
-           <td >
+            <td>
               <span v-html="clanek.povest">{{ clanek.povest }}</span>
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length
-                "
+                v-if="clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length"
                 v-bind:clanek="clanek"
                 kdeJsem="povest"
               />
@@ -122,7 +119,7 @@
 
           <tr>
             <td>Poznámka:</td>
-           <td >
+            <td>
               <span v-html="clanek.pozn">{{ clanek.pozn }}</span>
               <Klikaci
                 v-if="
@@ -235,6 +232,7 @@ export default {
       mojeClanky: [],
       isEdgeChromium: false,
       loading: true,
+      names: [],
     };
   },
 
@@ -268,7 +266,8 @@ export default {
         }
       )
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = [data]))
+        .then((data) => (
+          this.mojeClanky = [data]))
         .then(() => {
           this.loading = false;
         });

@@ -17,6 +17,7 @@
 <script>
 import Zalozka from "./Zalozka.vue";
 import Loader from "./Loader.vue";
+import { removeDuplicates} from "../utils/removeDuplicates";
 
 export default {
   props: ["stranka", "zalozkyButton"],
@@ -28,7 +29,6 @@ export default {
     };
   },
   created() {
-     console.log(this.stranka);
     if (this.$route.name === "NovePridane") {
       fetch(`http://localhost:8080/novePridane`, {
         method: "GET",
@@ -37,7 +37,7 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data))
+        .then((data) => (this.mojeClanky = removeDuplicates(data)))
         .then(() => {
           this.loading = false;
         });

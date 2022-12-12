@@ -21,6 +21,7 @@
 
 <script>
 import Loader from "./Loader.vue";
+import { removeDuplicates } from "../utils/removeDuplicates";
 
 export default {
   components: { Loader },
@@ -60,7 +61,7 @@ export default {
             sensitivity: "accent",
           });
         });
-        this.seznam = data;
+        this.seznam = removeDuplicates(data);
       })
       .then(() => (this.loading = false));
   },

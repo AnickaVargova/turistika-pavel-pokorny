@@ -92,6 +92,8 @@
 
 <script>
 import Loader from "../components/Loader.vue";
+import { removeDuplicates } from '../utils/removeDuplicates';
+
 export default {
   components: { Loader },
   data() {
@@ -133,7 +135,7 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => (this.pocetNovych = data.length))
+      .then((data) => (this.pocetNovych = removeDuplicates(data).length))
       .then(() => (this.loading.novePridane = false));
   },
   
