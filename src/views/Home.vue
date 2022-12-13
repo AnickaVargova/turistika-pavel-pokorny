@@ -135,7 +135,7 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => (this.pocetNovych = removeDuplicates(data).length))
+      .then((data) => {this.pocetNovych = data.length})
       .then(() => (this.loading.novePridane = false));
   },
   

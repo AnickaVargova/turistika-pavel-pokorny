@@ -37,7 +37,7 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = removeDuplicates(data)))
+        .then((data) => (this.mojeClanky = data))
         .then(() => {
           this.loading = false;
         });
