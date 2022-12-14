@@ -163,7 +163,7 @@
                     clanek.id
                   }/${obrazek.fotka.trim()}`"
                   ><img
-                    v-bind:src="`http://localhost:8080/photos/${obrazek.fotka.trim()}`"
+                    v-bind:src="`${apiUrl}/photos/${obrazek.fotka.trim()}`"
                     alt="Fotodetail"
                     v-bind:class="{ imgEdge: isEdgeChromium }"
                 /></router-link>
@@ -234,6 +234,8 @@
 import Klikaci from "./../components/Klikaci.vue";
 import Loader from "./Loader.vue";
 import { displayTestItems} from "../utils/displayTestItems";
+import { apiUrl } from "../utils/url";
+
 
 export default {
   props: ["kategoriePomnicky", "zalozkyButton", "stranka"],
@@ -246,6 +248,7 @@ export default {
       isEdgeChromium: false,
       loading: true,
       names: [],
+      apiUrl
     };
   },
 
@@ -270,7 +273,7 @@ export default {
       this.$route.name === "NovyKriz"
     ) {
       fetch(
-        `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
+        `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
         {
           method: "GET",
           headers: {
@@ -288,7 +291,7 @@ export default {
       this.$route.name === "SmirciKrizeKategorieLong"
     ) {
       fetch(
-        `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`,
+        `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
         {
           method: "GET",
           headers: {

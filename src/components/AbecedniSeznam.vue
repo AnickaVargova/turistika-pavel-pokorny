@@ -23,6 +23,7 @@
 import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { removeDuplicates } from "../utils/removeDuplicates";
+import { apiUrl } from "../utils/url";
 
 export default {
   components: { Loader },
@@ -49,7 +50,7 @@ export default {
     },
   },
   created() {
-    fetch(`http://localhost:8080/${this.stranka}`, {
+    fetch(`${apiUrl}/${this.stranka}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

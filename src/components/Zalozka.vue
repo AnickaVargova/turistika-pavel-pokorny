@@ -42,7 +42,7 @@
             v-if="clanek.fotkaUvod"
             v-bind:src="
               clanek.fotkaUvod &&
-              `http://localhost:8080/photos/${clanek.kategorie.trim() ==='vypraveni' || clanek.kategorie.trim() === 'cesty' ? clanek.fotkaUvod.trim() : clanek.fotkaUvod.fotka.trim() }`
+              `${apiUrl}/photos/${clanek.kategorie.trim() ==='vypraveni' || clanek.kategorie.trim() === 'cesty' ? clanek.fotkaUvod.trim() : clanek.fotkaUvod.fotka.trim() }`
             "
             v-bind:alt="clanek.jmeno"
           />
@@ -55,6 +55,8 @@
 <script>
 import Loader from "./Loader.vue";
 import {displayTestItems} from "../utils/displayTestItems";
+import { apiUrl } from "../utils/url";
+
 export default {
   props: ["mujClanek", "stranka"],
   components: { Loader },
@@ -62,6 +64,7 @@ export default {
     return {
       clanek: {},
       loading: true,
+      apiUrl
     };
   },
   computed: {
@@ -75,7 +78,7 @@ export default {
   created() {
    
       fetch(
-        `http://localhost:8080/${this.mujClanek.kategorie}/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
+        `${apiUrl}/${this.mujClanek.kategorie}/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
         {
           method: "GET",
           headers: {

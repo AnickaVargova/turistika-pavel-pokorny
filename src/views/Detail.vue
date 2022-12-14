@@ -69,7 +69,7 @@
               }"
             >
               <img
-                v-bind:src="`http://localhost:8080/photos/${odstavec.foto.trim()}`"
+                v-bind:src="`${apiUrl}/photos/${odstavec.foto.trim()}`"
                 v-bind:alt="detailClanku.nazev"
               />
               <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
@@ -95,7 +95,7 @@
             "
           >
             <img
-              v-bind:src="`http://localhost:8080/photos/${odstavec.foto.trim()}`"
+              v-bind:src="`${apiUrl}/photos/${odstavec.foto.trim()}`"
               v-bind:alt="detailClanku.nazev"
               class="fotoCesty"
             />
@@ -128,7 +128,7 @@
           >
             <figure>
               <img
-                v-bind:src="`http://localhost:8080/photos/${obrazek.fotka.trim()}`"
+                v-bind:src="`${apiUrl}/photos/${obrazek.fotka.trim()}`"
                 v-bind:alt="obrazek.popisek"
               />
               <!-- <figcaption>{{ obrazek.popisek }}</figcaption> -->
@@ -144,6 +144,8 @@
 import Klikaci from "./../components/Klikaci.vue";
 import Loader from "../components/Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
+import { apiUrl } from "../utils/url";
+
 
 export default {
   components: { Klikaci, Loader },
@@ -151,6 +153,7 @@ export default {
     return {
       detailClanku: undefined,
       loading: true,
+      apiUrl
     };
   },
 
@@ -171,7 +174,7 @@ export default {
       this.$route.name === "DetailVypraveni" ||
       this.$route.name === "NoveVypraveni"
     ) {
-      fetch(`http://localhost:8080/vypraveni/1/${this.$route.params.id}`, {
+      fetch(`${apiUrl}/vypraveni/1/${this.$route.params.id}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -186,7 +189,7 @@ export default {
       this.$route.name === "DetailCesty" ||
       this.$route.name === "NovaCesta"
     ) {
-      fetch(`http://localhost:8080/cesty/1/${this.$route.params.id}`, {
+      fetch(`${apiUrl}/cesty/1/${this.$route.params.id}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

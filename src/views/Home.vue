@@ -94,6 +94,8 @@
 import Loader from "../components/Loader.vue";
 import { removeDuplicates } from '../utils/removeDuplicates';
 import { displayTestItems} from "../utils/displayTestItems";
+import { apiUrl } from "../utils/url";
+
 
 export default {
   components: { Loader },
@@ -120,7 +122,7 @@ export default {
   created() {
   
     ['pomnicky', 'krize', 'vypraveni', 'cesty'].map(kategorie => {
-    fetch(`http://localhost:8080/${kategorie}`, {
+    fetch(`${apiUrl}/${kategorie}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -130,7 +132,7 @@ export default {
       .then((data) => (this[kategorie] = data.names.filter(item => !item.temp && (!displayTestItems() ? !item.test : true)).length))
       .then(() => (this.loading.pomnicky = false));
     });
-    fetch(`http://localhost:8080/novePridane`, {
+    fetch(`${apiUrl}/novePridane`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

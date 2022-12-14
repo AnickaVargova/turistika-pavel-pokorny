@@ -9,7 +9,7 @@
           v-bind:src="
             this.$route.params.kategorie === 'onas'
               ? require(`./../assets/${this.$route.params.filename}`)
-              : `http://localhost:8080/photos/${this.$route.params.filename}`
+              : `${apiUrl}/photos/${this.$route.params.filename}`
           "
           v-bind:alt="`${this.$route.params.filename}`"
         />
@@ -29,6 +29,8 @@
 
 <script>
 import Loader from "../components/Loader.vue";
+import { apiUrl } from "../utils/url";
+
 export default {
   components: { Loader },
   data() {
@@ -46,6 +48,7 @@ export default {
         },
       ],
       isEdgeChromium: false,
+      apiUrl
     };
   },
 
@@ -59,7 +62,7 @@ export default {
       } else {
         // only id is relevant for backend, kategorie is here twice because of format required by backend, podkategorie is not in params
         fetch(
-          `http://localhost:8080/${this.$route.params.kategorie}/${this.$route.params.kategorie}/${this.$route.params.id}`,
+          `${apiUrl}/${this.$route.params.kategorie}/${this.$route.params.kategorie}/${this.$route.params.id}`,
           {
             method: "GET",
             headers: {

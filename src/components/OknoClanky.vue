@@ -18,6 +18,8 @@
 import Zalozka from "./Zalozka.vue";
 import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
+import { apiUrl } from "../utils/url";
+
 
 export default {
   props: ["stranka", "zalozkyButton"],
@@ -30,7 +32,7 @@ export default {
   },
   created() {
     if (this.$route.name === "NovePridane") {
-      fetch(`http://localhost:8080/novePridane`, {
+      fetch(`${apiUrl}/novePridane`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -46,7 +48,7 @@ export default {
       this.$route.name === "SmirciKrizeKategorie"
     ) {
       fetch(
-        `http://localhost:8080/${this.stranka}/${this.$route.params.kategorie}`,
+        `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
         {
           method: "GET",
           headers: {
@@ -63,7 +65,7 @@ export default {
    
     else {
      
-      fetch(`http://localhost:8080/${this.stranka}/1`, {
+      fetch(`${apiUrl}/${this.stranka}/1`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

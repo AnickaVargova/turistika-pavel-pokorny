@@ -4,6 +4,8 @@
 
 <script>
 import Sablona from "./../components/Sablona.vue";
+import { apiUrl } from "../utils/url";
+
 export default {
   components: {
     Sablona: Sablona,
@@ -53,7 +55,7 @@ export default {
   },
 
   created() {
-    fetch(`http://localhost:8080/krize/categoryCount`, {
+    fetch(`${apiUrl}/krize/categoryCount`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
