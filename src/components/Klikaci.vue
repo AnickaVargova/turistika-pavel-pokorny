@@ -45,8 +45,6 @@ export default {
     this.odkazy = this.clanek.vnitrniOdkazy.filter(
       (odkaz) => odkaz.odkazKde.trim() === this.kdeJsem
     );
-    console.log(this.odkazy);
-    console.log(this.$route.name); 
   },
 };
 </script>

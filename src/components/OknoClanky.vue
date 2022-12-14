@@ -17,7 +17,7 @@
 <script>
 import Zalozka from "./Zalozka.vue";
 import Loader from "./Loader.vue";
-import { removeDuplicates} from "../utils/removeDuplicates";
+import { displayTestItems } from "../utils/displayTestItems";
 
 export default {
   props: ["stranka", "zalozkyButton"],
@@ -37,7 +37,7 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data))
+        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
         });
@@ -55,12 +55,12 @@ export default {
         }
       )
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data))
+        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
         });
     }
-    //REMOVE
+   
     else {
      
       fetch(`http://localhost:8080/${this.stranka}/1`, {
@@ -70,7 +70,7 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data))
+        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
         });

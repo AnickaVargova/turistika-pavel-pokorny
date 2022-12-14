@@ -93,6 +93,7 @@
 <script>
 import Loader from "../components/Loader.vue";
 import { removeDuplicates } from '../utils/removeDuplicates';
+import { displayTestItems} from "../utils/displayTestItems";
 
 export default {
   components: { Loader },
@@ -117,6 +118,7 @@ export default {
     },
   },
   created() {
+  
     ['pomnicky', 'krize', 'vypraveni', 'cesty'].map(kategorie => {
     fetch(`http://localhost:8080/${kategorie}`, {
       method: "GET",
@@ -125,7 +127,7 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => (this[kategorie] = data.names.filter(item => !item.temp).length))
+      .then((data) => (this[kategorie] = data.names.filter(item => !item.temp && (!displayTestItems() ? !item.test : true)).length))
       .then(() => (this.loading.pomnicky = false));
     });
     fetch(`http://localhost:8080/novePridane`, {

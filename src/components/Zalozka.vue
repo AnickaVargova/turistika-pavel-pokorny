@@ -54,6 +54,7 @@
 
 <script>
 import Loader from "./Loader.vue";
+import {displayTestItems} from "../utils/displayTestItems";
 export default {
   props: ["mujClanek", "stranka"],
   components: { Loader },
@@ -72,6 +73,7 @@ export default {
   },
   // TODO better to send this via props - don't know how to make it work
   created() {
+   
       fetch(
         `http://localhost:8080/${this.mujClanek.kategorie}/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
         {
@@ -82,7 +84,7 @@ export default {
         }
       )
         .then((response) => response.json())
-        .then((data) => (this.clanek = data))
+        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) {this.clanek = data}})
         .then(() => (this.loading = false))
   },
 };

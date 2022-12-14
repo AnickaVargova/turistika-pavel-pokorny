@@ -21,6 +21,7 @@
 
 <script>
 import Loader from "./Loader.vue";
+import { displayTestItems } from "../utils/displayTestItems";
 import { removeDuplicates } from "../utils/removeDuplicates";
 
 export default {
@@ -56,7 +57,7 @@ export default {
     })
       .then((response) => response.json())
       .then((data) => {
-        data = data.names.filter(item => !item.temp).sort((a, b) => {
+        data = data.names.filter(item => !item.temp && (!displayTestItems() ? !item.test : true)).sort((a, b) => {
           return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
             sensitivity: "accent",
           });

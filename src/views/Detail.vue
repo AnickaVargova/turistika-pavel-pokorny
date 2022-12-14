@@ -143,6 +143,7 @@
 <script>
 import Klikaci from "./../components/Klikaci.vue";
 import Loader from "../components/Loader.vue";
+import { displayTestItems } from "../utils/displayTestItems";
 
 export default {
   components: { Klikaci, Loader },
@@ -165,6 +166,7 @@ export default {
   },
 
   created() {
+   
     if (
       this.$route.name === "DetailVypraveni" ||
       this.$route.name === "NoveVypraveni"
@@ -176,7 +178,7 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.detailClanku = data))
+        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) this.detailClanku = data})
         .then(() => {
           this.loading = false;
         });
@@ -191,7 +193,7 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.detailClanku = data))
+        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) this.detailClanku = data})
         .then(() => {
           this.loading = false;
         });

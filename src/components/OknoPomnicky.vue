@@ -65,7 +65,7 @@
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy[0].odkazKde.trim() === 'popisCesty'
+                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'popisCesty')
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="popisCesty"
@@ -86,7 +86,18 @@
                   : "Popis kříže:"
               }}
             </td>
-            <td v-html="clanek.popis">{{ clanek.popis }}</td>
+            <td>
+              <span v-html="clanek.popis">{{ clanek.popis }}</span>
+              <Klikaci
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length &&
+                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'popis')
+                "
+                v-bind:clanek="clanek"
+                kdeJsem="popis"
+              />
+            </td>
           </tr>
 
           <tr>
@@ -97,7 +108,7 @@
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy[0].odkazKde.trim() === 'napis'
+                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'napis')
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="napis"
@@ -110,7 +121,8 @@
             <td>
               <span v-html="clanek.povest">{{ clanek.povest }}</span>
               <Klikaci
-                v-if="clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length"
+                v-if="clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
+                clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'povest')"
                 v-bind:clanek="clanek"
                 kdeJsem="povest"
               />
@@ -125,7 +137,7 @@
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy[0].odkazKde.trim() === 'pozn'
+                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'pozn')
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="pozn"
@@ -221,6 +233,7 @@
 <script>
 import Klikaci from "./../components/Klikaci.vue";
 import Loader from "./Loader.vue";
+import { displayTestItems} from "../utils/displayTestItems";
 
 export default {
   props: ["kategoriePomnicky", "zalozkyButton", "stranka"],
@@ -266,8 +279,7 @@ export default {
         }
       )
         .then((response) => response.json())
-        .then((data) => (
-          this.mojeClanky = [data]))
+        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) {this.mojeClanky = [data]}})
         .then(() => {
           this.loading = false;
         });
@@ -285,7 +297,7 @@ export default {
         }
       )
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data))
+        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
         });
