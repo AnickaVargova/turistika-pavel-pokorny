@@ -24232,7 +24232,38 @@ export default {
       ],
       proMe: ' VI/187  24-324-72  21—041  ',
     },
-
+    {
+      id: 456 ,
+      kategorie: 'pomnicky',
+      pridano: ' 12/12/2022 ',
+      podkategorie:5,
+      druh: ' Válečné ',
+      okres:' Vyškov ',
+      obec: ' Olšany  ',
+      jmeno: ' Žukov, Georgij  ',
+      nazev: ' Pomníček kapitána Žukova pod Kalečníkem ',
+      fotkaUvod: {fotka:' 456Zukov1.jpg '},
+      kdyVznikl:   ' kolem roku 1975 ', 
+      popisCesty: ' Pomníček stojí v lese na rozhraní porostů 1100 metrů S od rozcestí devíti cest pod Kalečníkem. Pod ním spadá svah k louce zvané Jitrnice. Cesta k němu nevede, hledá se těžko. ',
+      popis: ' Nepravidelný kamenný hranol je vysoký 0,8 metru. Shora je do něj vsazena kovová hvězda, natřená červenou barvou. Ze Z strany je neuměle vytesán padák a nápis azbukou.   ',
+      napis: ' G.  S.  //  ŽUKOV  //  +  4. 1. 1945  ',
+      odkazy:[{nazev: ' vets ', adresa:' https://www.vets.cz/vpm/mista/obec/4850-olsany/ '} ],
+      pozn: '  Do lesů pod Kalečníkem měla být vysazena sedmičlenná zpravodajská skupina Rudé armády, velitelem byl kpt. Žukov. Měla za úkol zjišťovat sílu, pozice a pohyby německé armády. V noci na 4. (nebo 6. ?) ledna 1945 byl výsadek shozen na louku Jitrnici v údolí Říčky. Asi to nebyli parašutisté, byli to zpravodajci a se seskoky padákem nemohli mít velké zkušenosti. Velitel vyskočil jako poslední a vítr ho odnesl mimo dopadový prostor do lesa. Padák se zachytil vysoko ve větvích buku. Kapitánovi nezbyla jiná možnost, než se odříznout od padákových šňůr. Při dopadu na zmrzlou zem si ale zlomil obě nohy a na tomto místě zmrzl. Divné je, že ho nenašli ostatní členové výsadku, louka Jitrnice je vzdálená asi 300 metrů. Je to záhadné a celou historii neznám. Zmrzlé tělo našel hajný z Vítovic prý až 19. února 1945 a další den byl Žukov pochován na hřbitově v Olšanech.<br>Pomníček vznikl před návštěvou ruských válečných veteránů. Považuji ho za pól nedostupnosti pro Brněnsko, je to na všechny strany daleko. Našel jsem ho na šestý pokus, protože jsem neměl informace o jeho poloze. ',
+      naposledObnoveno : ' 12.12.2022 ',
+      souradnice: ' 49.2561953N, 16.8232147E  ',
+      kodMapa:   ' <iframe style="border:none" src="https://frame.mapy.cz/s/ferujuraga" width="400" height="280" frameborder="0"></iframe>   ' , 
+      odkazMapa:   ' https://frame.mapy.cz/s/ferujuraga  ' ,
+      galerie: [
+      {fotka: '  456Zukov2.jpg' , popisek: ' Pomníček kpt. Žukova (září 2022) '},
+      {fotka: '  456Zukov3.jpg' , popisek: ' Zadní pohled,když tu byla mýtina (říjen 2010) '},
+      {fotka: '  456Zukov4.jpg' , popisek: ' (říjen 2010) '},
+      {fotka: '  456Zukov5.jpg' , popisek: ' (září 2022) '},
+      ],
+      proMe:' XVII/669  24-413-65  10—09  22—092  ',   
+      },
+      
+      
+      
 
   ],
 };
