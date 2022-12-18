@@ -1,11 +1,44 @@
 <template>
   <body>
-    <router-view :key="$route.fullPath" />
+     <Auth @authentication="handleAuthentication" v-if="!authenticated && origin === testUrl"/>
+    <router-view :key="$route.fullPath" v-else/>
   </body>
 </template>
 
 <script>
-  export default {};
+  import Auth from "./components/Auth.vue";
+  import { apiUrl, testUrl } from "./utils/url";
+
+  export default {
+  components: { Auth },
+  data() {
+    return {
+      authenticated: false,
+      testUrl,
+      origin: window.location.origin
+    };
+  },
+
+  methods: {
+    handleAuthentication(value){
+      if(value){
+        this.authenticated = true;
+      }
+    }
+  },
+  created(){
+    fetch(`${apiUrl}/auth`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          this.authenticated = data.isAuthenticated
+        });
+  }
+  }
 </script>
 
 <style>

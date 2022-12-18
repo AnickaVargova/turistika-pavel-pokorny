@@ -1,1 +1,4 @@
 export const apiUrl = 'http://localhost:8080';
+export const testUrl = 'https://turistika-test.netlify.app/';
+
+//TODO add both endpoints

@@ -273,7 +273,7 @@ export default {
       this.$route.name === "NovyKriz"
     ) {
       fetch(
-        `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
+        `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
         {
           method: "GET",
           headers: {
@@ -291,7 +291,7 @@ export default {
       this.$route.name === "SmirciKrizeKategorieLong"
     ) {
       fetch(
-        `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
+        `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
         {
           method: "GET",
           headers: {

@@ -92,13 +92,11 @@
 
 <script>
 import Loader from "../components/Loader.vue";
-import { removeDuplicates } from '../utils/removeDuplicates';
 import { displayTestItems} from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 
-
 export default {
-  components: { Loader },
+  components: { Loader},
   data() {
     return {
       responsive: false,

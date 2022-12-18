@@ -158,9 +158,6 @@ export default {
   },
 
   methods: {
-    vyfiltrujPomnicek(id) {
-      this.$emit("kliknuti", id);
-    },
     goToTop() {
       this.$router
         .replace({ hash: "#top" })
