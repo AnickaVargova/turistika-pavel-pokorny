@@ -39,7 +39,6 @@ export default {
       this.loading = true;
       setTimeout(
       () => {
-      console.log('going to fetch');
       fetch(`${apiUrl}/auth`, {
         method: "POST",
         headers: {
