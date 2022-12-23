@@ -9,9 +9,11 @@
         mojeClanky.length &&
         (this.$route.name === 'DetailPomnicku' ||
           this.$route.name === 'DetailKrize' ||
+          this.$route.name === 'DetailStudanky' ||
           this.$route.name === 'NovePridane' ||
           this.$route.name === 'NovyPomnicek' ||
           this.$route.name === 'NovyKriz' ||
+          this.$route.name === 'NovaStudanka' ||
           !this.zalozkyButton)
       "
     >
@@ -50,7 +52,7 @@
             <td>Číslo v evidenci:</td>
             <td>{{ clanek.cisloEvid }}</td>
           </tr>
-          <tr v-if="clanek.kategorie === 'pomnicky'">
+          <tr v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
             <td>Jméno:</td>
             <td>
               <strong>{{ clanek.jmeno }}</strong>
@@ -73,18 +75,14 @@
             </td>
           </tr>
 
-          <tr v-if="clanek.kategorie === 'pomnicky'">
-            <td>Kdy vznikl?</td>
+          <tr v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
+            <td>{{clanek.kategorie === 'pomnicky' ? 'Kdy vznikl?' : 'Kdy vznikla?'}}</td>
             <td v-html="clanek.kdyVznikl">{{ clanek.kdyVznikl }}</td>
           </tr>
 
           <tr>
             <td>
-              {{
-                clanek.kategorie === "pomnicky"
-                  ? "Popis pomníčku:"
-                  : "Popis kříže:"
-              }}
+             Popis:
             </td>
             <td>
               <span v-html="clanek.popis">{{ clanek.popis }}</span>
@@ -115,6 +113,23 @@
               />
             </td>
           </tr>
+
+           <tr v-if="clanek.kategorie === 'studanky'">
+            <td>Využitelnost:</td>
+            <td>
+              <span v-html="clanek.vyuzitelnost">{{ clanek.vyuzitelnost }}</span>
+              <Klikaci
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length &&
+                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'vyuzitelnost')
+                "
+                v-bind:clanek="clanek"
+                kdeJsem="vyuzitelnost"
+              />
+            </td>
+          </tr>
+
 
           <tr v-if="clanek.kategorie === 'krize'">
             <td>Pověst:</td>
@@ -270,7 +285,9 @@ export default {
       this.$route.name === "DetailPomnicku" ||
       this.$route.name === "NovyPomnicek" ||
       this.$route.name === "DetailKrize" ||
-      this.$route.name === "NovyKriz"
+      this.$route.name === "NovyKriz" ||
+      this.$route.name === "DetailStudanky" ||
+      this.$route.name === "NovaStudanka"
     ) {
       fetch(
         `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
@@ -288,7 +305,8 @@ export default {
         });
     } else if (
       this.$route.name === "PomnickyKategorieLong" ||
-      this.$route.name === "SmirciKrizeKategorieLong"
+      this.$route.name === "SmirciKrizeKategorieLong" ||
+      this.$route.name === "StudankyKategorieLong"
     ) {
       fetch(
         `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,

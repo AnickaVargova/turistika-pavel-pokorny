@@ -6,12 +6,13 @@
         v-bind:alt="`${innerParams.backgroundDescription}`"
       />
     </div>
-    <div
+   
+     <div
       v-if="innerParams.transbox"
       v-bind:style="{ backgroundColor: innerParams.transbox }"
-      id="transbox1"
+      class="transbox1"
     ></div>
-    <div v-else id="transbox1"></div>
+    <div v-else class="transbox1"></div>
     <h1>
       <a name="top"></a>
       {{ innerParams.nadpis }}
@@ -20,7 +21,7 @@
     <AbecedniSeznam
       v-if="
         (this.$route.name === 'Pomnicky' ||
-          this.$route.name === 'SmirciKrize') &&
+          this.$route.name === 'SmirciKrize' || this.$route.name === 'Studanky') &&
         seznamUkazat &&
         !this.innerParams.detail &&
         !this.$route.params.kategorie
@@ -66,6 +67,7 @@
             v-if="
               $route.name === 'SmirciKrizeKategorie' ||
               $route.name === 'PomnickyKategorie' ||
+              $route.name === 'StudankyKategorie' ||
               isLongVersion
             "
             v-on:click="fullVersionToggler"
@@ -85,7 +87,7 @@
     <div
       class="naNovePridane"
       v-if="
-        this.$route.name === 'NovyPomnicek' || this.$route.name === 'NovyKriz'
+        this.$route.name === 'NovyPomnicek' || this.$route.name === 'NovyKriz' || this.$route.name === 'NovaStudanka'
       "
     >
       <router-link to="/novepridane">
@@ -98,7 +100,7 @@
     <div
       class="pomnickyNavigace"
       v-if="
-        innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize'
+        innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize' || innerParams.stranka === 'studanky'
       "
     >
       <div v-on:click="toggleSeznam" class="pomnicekKategorie domu" id="seznam">
@@ -112,6 +114,7 @@
           ukazMenu: true,
           hneda: innerParams.stranka === 'pomnicky',
           tyrkys: innerParams.stranka === 'krize',
+          fialova: innerParams.stranka === 'studanky'
         }"
         v-on:click="toggleMenu"
       >
@@ -126,7 +129,7 @@
       <div v-if="innerWidth >= 600 && innerParams.kategoriePomnicky.length">
         <div
           v-for="kategorie in innerParams.kategoriePomnicky"
-          v-bind:key="kategorie.id"
+          v-bind:key="kategorie.nazev"
           v-on:click="handleClick()"
         >
           <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
@@ -134,6 +137,7 @@
               v-bind:class="{
                 tyrkys: innerParams.stranka === 'krize',
                 hneda: innerParams.stranka === 'pomnicky',
+                fialova: innerParams.stranka === 'studanky',
                 pomnicekKategorie: true,
                 kategorieTextCenter:
                   innerParams === 'cesty' || innerParams === 'vypraveni',
@@ -154,7 +158,7 @@
     <div
       v-if="
         (innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'krize') &&
+          innerParams.stranka === 'krize' || innerParams.stranka === 'studanky') &&
         innerWidth < 600 &&
         menuColumn &&
         innerParams.kategoriePomnicky.length
@@ -179,6 +183,7 @@
               pomnicekMenu: true,
               hneda: innerParams.stranka === 'pomnicky',
               tyrkys: innerParams.stranka === 'krize',
+              fialova: innerParams.stranka === 'studanky'
             }"
           >
             {{ kategorie.nazev }} ({{ kategorie.pocet }})
@@ -193,14 +198,14 @@
     <div
       class="kontejner"
       v-if="
-        this.$route.name !== 'Pomnicky' && this.$route.name !== 'SmirciKrize'
+        this.$route.name !== 'Pomnicky' && this.$route.name !== 'SmirciKrize' && this.$route.name !== 'Studanky'
       "
       v-bind:class="{
         kontejnerBigMargin:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty',
         kontejnerSmallMargin:
-          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize',
+          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize' || innerParams.stranka === 'studanky',
         large:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty' ||
@@ -214,6 +219,7 @@
             this.$route.name === 'NovePridane' ||
             this.$route.name === 'PomnickyKategorie' ||
             this.$route.name === 'SmirciKrizeKategorie' ||
+            this.$route.name === 'StudankyKategorie' ||
             this.$route.name === 'Vypraveni' ||
             this.$route.name === 'Cesty'
           "
@@ -226,9 +232,12 @@
             this.$route.name === 'PomnickyKategorieLong' ||
             this.$route.name === 'DetailPomnicku' ||
             this.$route.name === 'SmirciKrizeKategorieLong' ||
+            this.$route.name === 'StudankyKategorieLong' ||
             this.$route.name === 'DetailKrize' ||
+            this.$route.name === 'DetailStudanky' ||
             this.$route.name === 'NovyPomnicek' ||
-            this.$route.name === 'NovyKriz'
+            this.$route.name === 'NovyKriz' || 
+            this.$route.name === 'NovaStudanka' 
           "
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
           v-bind:stranka="innerParams.stranka"
@@ -270,7 +279,8 @@ export default {
       pomnickyKey: 1,
       isLongVersion:
         this.$route.name === "PomnickyKategorieLong" ||
-        this.$route.name === "SmirciKrizeKategorieLong",
+        this.$route.name === "SmirciKrizeKategorieLong" ||
+        this.$route.name === "StudankyKategorieLong"
     };
   },
 
@@ -322,6 +332,9 @@ export default {
       }
     },
   },
+  created(){
+    console.log(this.innerParams);
+  }
 };
 </script>
 
@@ -445,6 +458,10 @@ p.responsive {
 
 .tyrkys {
   background-color: #56cdd1;
+}
+
+.fialova {
+  background-color: #a059be;
 }
 
 .active {
@@ -636,7 +653,7 @@ p.responsive {
   width: 100%;
   height: 100%;
 }
-#transbox1 {
+.transbox1 {
   grid-column: 1 / 7;
   grid-row: 1 / 5;
   width: 100%;

@@ -73,7 +73,17 @@ const routes = [
   },
   {
     path: "/studanky/:kategorie",
-    name: "StudankKategorie",
+    name: "StudankyKategorie",
+    component: Studanky,
+  },
+  {
+    path: "/studanky/:kategorie/long",
+    name: "StudankyKategorieLong",
+    component: Studanky,
+  },
+  {
+    path: "/studanky/:kategorie/:id",
+    name: "DetailStudanky",
     component: Studanky,
   },
   {
@@ -135,6 +145,11 @@ const routes = [
     path: "/novepridane/krize/:kategorie/:id",
     name: "NovyKriz",
     component: SmirciKrize,
+  },
+  {
+    path: "/novepridane/studanky/:kategorie/:id",
+    name: "NovaStudanka",
+    component: Studanky,
   },
 ];
 

@@ -58,6 +58,9 @@
         <router-link to="/krize">Smírčí kříže ({{ krize }})</router-link>
       </div>
       <div>
+        <router-link to="/studanky">Studánky ({{ studanky }})</router-link>
+      </div>
+      <div>
         <router-link to="/cesty">Cesty ({{ cesty }})</router-link>
 
         <router-link to="/vypraveni">Vyprávění ({{ vypraveni }})</router-link>
@@ -102,6 +105,7 @@ export default {
       responsive: false,
       pomnicky: 0,
       krize: 0,
+      studanky: 0,
       cesty: 0,
       vypraveni: 0,
       pocetNovych: 0,
@@ -119,7 +123,7 @@ export default {
   },
   created() {
   
-    ['pomnicky', 'krize', 'vypraveni', 'cesty'].map(kategorie => {
+    ['pomnicky', 'krize', 'studanky', 'vypraveni', 'cesty'].map(kategorie => {
     fetch(`${apiUrl}/${kategorie}`, {
       method: "GET",
       headers: {

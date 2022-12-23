@@ -45,7 +45,8 @@ export default {
         });
     } else if (
       this.$route.name === "PomnickyKategorie" ||
-      this.$route.name === "SmirciKrizeKategorie"
+      this.$route.name === "SmirciKrizeKategorie" || 
+      this.$route.name === "StudankyKategorie"
     ) {
       fetch(
         `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
