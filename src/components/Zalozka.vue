@@ -12,7 +12,7 @@
         >
           {{ clanek.nazev }}
         </h2>
-        <h2 v-else-if="clanek.kategorie === 'krize'">
+        <h2 v-else-if="clanek.kategorie === 'krize' || clanek.kategorie === 'studanky'">
           {{ clanek.jmeno }}
         </h2>
         <h4 v-if="clanek.kategorie === 'pomnicky'">
@@ -31,7 +31,8 @@
         <h3
           v-if="
             clanek.kategorie.trim() === 'pomnicky' ||
-            clanek.kategorie === 'krize'
+            clanek.kategorie === 'krize' ||
+            clanek.kategorie === 'studanky'
           "
         >
           {{ clanek.obec }}
