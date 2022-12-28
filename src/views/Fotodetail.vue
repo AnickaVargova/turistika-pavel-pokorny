@@ -2,14 +2,19 @@
   <div>
     <Loader v-if="this.loading" />
     <div id="fotodetail" v-if="!this.loading">
+        <div
+          v-if="shouldDisplayArrows && currentIndex > 0"
+          id="arrowLeft"
+          v-on:click="slidePhoto('left')"
+        />
       <figure
         v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
       >
         <img
           v-bind:src="
             this.$route.params.kategorie === 'onas'
-              ? require(`./../assets/${this.$route.params.filename}`)
-              : `${apiUrl}/photos/${this.$route.params.filename}`
+              ? require(`./../assets/${vybranaFotka.fotka}`)
+              : `${apiUrl}/photos/${vybranaFotka.fotka.trim()}`
           "
           v-bind:alt="`${this.$route.params.filename}`"
         />
@@ -23,6 +28,11 @@
       <a @click="$router.go(-1)"
         ><button class="pomnicekKategorie">Zpět</button></a
       >
+        <div
+          v-if="shouldDisplayArrows && galerie.length > currentIndex + 1"
+          id="arrowRight"
+          v-on:click="slidePhoto('right')"
+        />
     </div>
   </div>
 </template>
@@ -48,7 +58,12 @@ export default {
         },
       ],
       isEdgeChromium: false,
-      apiUrl
+      apiUrl,
+      galerie: [],
+      currentIndex: null,
+      shouldDisplayArrows: ["pomnicky", "krize", "studanky"].includes(
+        this.$route.params.kategorie
+      ),
     };
   },
 
@@ -73,19 +88,30 @@ export default {
           .then((response) => response.json())
           .then((data) => {
             if (this.$route.params.kategorie === "vypraveni") {
+              const par = data.text.find(
+                (odstavec) =>
+                  odstavec.foto &&
+                  odstavec.foto.trim() === this.$route.params.filename
+              );
               this.vybranaFotka = {
-                popisek: data.text.find(
-                  (odstavec) => odstavec.foto && odstavec.foto.trim() === this.$route.params.filename
-                ).popisek,
+                popisek: par.popisek,
+                fotka: par.foto,
               };
             } else {
-              this.vybranaFotka = data.galerie.find(
+              this.galerie = data.galerie;
+              this.currentIndex = data.galerie.findIndex(
                 (item) => item.fotka.trim() === this.$route.params.filename
               );
+              this.vybranaFotka = data.galerie[this.currentIndex];
             }
           })
           .then(() => (this.loading = false));
       }
+    },
+    slidePhoto(dir) {
+      this.currentIndex =
+        dir === "left" ? --this.currentIndex : ++this.currentIndex;
+      this.vybranaFotka = this.galerie[this.currentIndex];
     },
   },
 
@@ -103,16 +129,51 @@ export default {
 #fotodetail {
   padding: 30px;
   padding-bottom: 60px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
   justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 #fotodetail figure {
-  /* height: 80vh; */
   margin-top: 30px;
   position: relative;
   border: 2px solid grey;
   border-radius: 5px;
+  grid-column: 2/3;
+}
+
+#arrowRight {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+#arrowRight::before {
+  content: " ";
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  display: block;
+}
+
+#arrowLeft {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#arrowLeft::before {
+  content: " ";
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  display: block;
 }
 
 .setHeight {
@@ -161,6 +222,7 @@ export default {
   #fotodetail figure {
     height: auto;
     margin: 0;
+    border: none;
   }
 }
 </style>

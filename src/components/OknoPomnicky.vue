@@ -388,6 +388,7 @@ td:nth-child(2) {
 #fotogalerie {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .galerieEdge {
