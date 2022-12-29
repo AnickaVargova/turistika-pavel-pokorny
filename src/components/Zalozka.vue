@@ -75,7 +75,7 @@ export default {
         : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
     },
   },
-  // TODO better to send this via props - don't know how to make it work
+ 
   created() {
    
       fetch(
