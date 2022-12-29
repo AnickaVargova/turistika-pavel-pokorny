@@ -33,6 +33,7 @@ export default {
     if (this.origin === this.testUrl) {
       fetch(`${apiUrl}/auth`, {
         method: "POST",
+        credentials: 'include', 
         headers: {
           "Content-Type": "application/json",
         },
