@@ -44,26 +44,29 @@
     <div v-bind:class="{ nav: true, responsive: responsive }">
       <div>
         <Loader class="homeButton" v-if="loading.novePridane" />
-        <router-link to="/novepridane"
+        <router-link v-else to="/novepridane"
           >Naposled přidané ({{ pocetNovych }})</router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
-        <router-link to="/pomnicky">Pomníčky ({{ pomnicky }}) </router-link>
-
-        <!-- <router-link to="/studanky">Studánky </router-link> -->
+        <router-link v-else to="/pomnicky">Pomníčky ({{ pomnicky }}) </router-link>
       </div>
       <div>
-        <router-link to="/krize">Smírčí kříže ({{ krize }})</router-link>
+        <Loader class="homeButton" v-if="loading.krize" />
+        <router-link v-else to="/krize">Smírčí kříže ({{ krize }})</router-link>
       </div>
       <div>
-        <router-link to="/studanky">Studánky ({{ studanky }})</router-link>
+        <Loader class="homeButton" v-if="loading.studanky" />
+        <router-link v-else to="/studanky">Studánky ({{ studanky }})</router-link>
       </div>
       <div>
-        <router-link to="/cesty">Cesty ({{ cesty }})</router-link>
-
-        <router-link to="/vypraveni">Vyprávění ({{ vypraveni }})</router-link>
+        <Loader class="homeButton" v-if="loading.cesty" />
+        <router-link v-else to="/cesty">Cesty ({{ cesty }})</router-link>
+</div>
+      <div>
+        <Loader class="homeButton" v-if="loading.vypraveni" />
+        <router-link v-else to="/vypraveni">Vyprávění ({{ vypraveni }})</router-link>
       </div>
       <div>
         <router-link to="/onas">O nás</router-link>
@@ -112,6 +115,10 @@ export default {
       loading: {
         novePridane: true,
         pomnicky: true,
+        krize: true,
+        studanky: true,
+        cesty: true,
+        vypraveni: true
       },
     };
   },
@@ -132,7 +139,7 @@ export default {
     })
       .then((response) => response.json())
       .then((data) => (this[kategorie] = data.names.filter(item => !item.temp && (!displayTestItems() ? !item.test : true)).length))
-      .then(() => (this.loading.pomnicky = false));
+      .then(() => (this.loading[kategorie] = false));
     });
     fetch(`${apiUrl}/novePridane`, {
       method: "GET",
