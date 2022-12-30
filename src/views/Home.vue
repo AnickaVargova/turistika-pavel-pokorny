@@ -6,7 +6,7 @@
 
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
-      <h1>Vítejte na našich webových stránkách.</h1>
+      <h1>{{isTest ? 'Vítejte na testovacím prostředí' : 'Vítejte na našich webových stránkách.'}}</h1>
       <h2>Postupně doplňujeme pomníčky, smírčí kříže, cesty a vyprávění.</h2>
       <p>
         Naše webové stránky se zabývají regionální vlastivědou v{{ "\xa0" }}Brně
@@ -99,12 +99,13 @@
 <script>
 import Loader from "../components/Loader.vue";
 import { displayTestItems} from "../utils/displayTestItems";
-import { apiUrl } from "../utils/url";
+import { apiUrl, testUrl } from "../utils/url";
 
 export default {
   components: { Loader},
   data() {
     return {
+      isTest: location.origin === testUrl,
       responsive: false,
       pomnicky: 0,
       krize: 0,
