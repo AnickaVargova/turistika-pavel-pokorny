@@ -332,9 +332,6 @@ export default {
       }
     },
   },
-  created(){
-    console.log(this.innerParams);
-  }
 };
 </script>
 
