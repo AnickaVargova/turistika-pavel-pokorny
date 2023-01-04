@@ -407,6 +407,10 @@ td:nth-child(2) {
   width: min-content;
 }
 
+.smallPhoto {
+  height: 150px;
+}
+
 .imgEdge {
   object-fit: cover;
   width: unset;
