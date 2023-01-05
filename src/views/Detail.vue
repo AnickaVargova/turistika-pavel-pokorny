@@ -69,7 +69,7 @@
               }"
             >
               <img
-                v-bind:src="`${apiUrl}/photos/small${odstavec.foto.trim()}`"
+                v-bind:src="`${apiUrl}/photos/small/${odstavec.foto.trim()}`"
                 v-bind:alt="detailClanku.nazev"
               />
               <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
