@@ -178,7 +178,7 @@
                     clanek.id
                   }/${obrazek.fotka.trim()}`"
                   ><img
-                    v-bind:src="`${apiUrl}/photos/${obrazek.fotka.trim()}`"
+                    v-bind:src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
                     alt="Fotodetail"
                     v-bind:class="{ imgEdge: isEdgeChromium }"
                 /></router-link>

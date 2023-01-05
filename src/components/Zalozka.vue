@@ -43,7 +43,7 @@
             v-if="clanek.fotkaUvod"
             v-bind:src="
               clanek.fotkaUvod &&
-              `${apiUrl}/photos/${clanek.kategorie.trim() ==='vypraveni' || clanek.kategorie.trim() === 'cesty' ? clanek.fotkaUvod.trim() : clanek.fotkaUvod.fotka.trim() }`
+              `${apiUrl}/photos/small/${clanek.kategorie.trim() ==='vypraveni' || clanek.kategorie.trim() === 'cesty' ? clanek.fotkaUvod.trim() : clanek.fotkaUvod.fotka.trim() }`
             "
             v-bind:alt="clanek.jmeno"
           />

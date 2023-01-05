@@ -69,7 +69,7 @@
               }"
             >
               <img
-                v-bind:src="`${apiUrl}/photos/${odstavec.foto.trim()}`"
+                v-bind:src="`${apiUrl}/photos/small${odstavec.foto.trim()}`"
                 v-bind:alt="detailClanku.nazev"
               />
               <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
@@ -128,7 +128,7 @@
           >
             <figure>
               <img
-                v-bind:src="`${apiUrl}/photos/${obrazek.fotka.trim()}`"
+                v-bind:src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
                 v-bind:alt="obrazek.popisek"
               />
               <!-- <figcaption>{{ obrazek.popisek }}</figcaption> -->
