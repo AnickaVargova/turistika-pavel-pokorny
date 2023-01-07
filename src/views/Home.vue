@@ -49,6 +49,11 @@
         >
       </div>
       <div>
+        <a v-bind:href="mapaUrl" target="_self">
+          Mapa pomníčků</a
+        >
+      </div>
+      <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
         <router-link v-else to="/pomnicky">Pomníčky ({{ pomnicky }}) </router-link>
       </div>
@@ -99,7 +104,7 @@
 <script>
 import Loader from "../components/Loader.vue";
 import { displayTestItems} from "../utils/displayTestItems";
-import { apiUrl, testUrl } from "../utils/url";
+import { apiUrl, testUrl, mapaUrl } from "../utils/url";
 
 export default {
   components: { Loader},
@@ -121,6 +126,7 @@ export default {
         cesty: true,
         vypraveni: true
       },
+      mapaUrl
     };
   },
 
