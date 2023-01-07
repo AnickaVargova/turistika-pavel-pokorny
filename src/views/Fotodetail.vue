@@ -87,7 +87,7 @@ export default {
         )
           .then((response) => response.json())
           .then((data) => {
-            if (this.$route.params.kategorie === "vypraveni") {
+            if (this.$route.params.kategorie === "vypraveni" && this.$route.name !== 'FotodetailVypraveniGalerie') {
               const par = data.text.find(
                 (odstavec) =>
                   odstavec.foto &&

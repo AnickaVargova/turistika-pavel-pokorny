@@ -5,6 +5,7 @@
       backgroundColor: 'beige',
       backgroundImage: 'none',
       padding: '2%',
+      minHeight: '100vh'
     }"
   >
     <Loader v-if="this.loading" />
@@ -123,7 +124,9 @@
         >
           <router-link
             v-bind:to="`/fotodetail/${
-              detailClanku.podkategorie
+              detailClanku.kategorie
+            }/galerie/${
+              detailClanku.id
             }/${obrazek.fotka.trim()}`"
           >
             <figure>

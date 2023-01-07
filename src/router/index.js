@@ -47,6 +47,11 @@ const routes = [
     component: Fotodetail,
   },
   {
+    path: "/fotodetail/:kategorie/galerie/:id/:filename",
+    name: "FotodetailVypraveniGalerie",
+    component: Fotodetail,
+  },
+  {
     path: "/pomnicky",
     name: "Pomnicky",
     component: Pomnicky,

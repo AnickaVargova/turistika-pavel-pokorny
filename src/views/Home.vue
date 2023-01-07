@@ -346,12 +346,12 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  .nav a {
+  .nav a, .nav .homeButton {
     display: none;
   }
 }
 
-.nav.responsive a {
+.nav.responsive a, .nav.responsive.homeButton {
   display: flex;
 }
 
