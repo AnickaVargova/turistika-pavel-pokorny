@@ -95,7 +95,7 @@ export default {
 }
 
 @media (max-width: 1200px) {
-  #abecedniSeznam {
+  .abecedniSeznam {
     max-height: var(--columnHeightSmallD);
   }
 
@@ -105,7 +105,7 @@ export default {
 }
 
 @media (max-width: 850px) {
-  #abecedniSeznam {
+  .abecedniSeznam {
     max-height: var(--columnHeightIpad);
   }
 
@@ -115,7 +115,7 @@ export default {
 }
 
 @media (max-width: 600px) {
-  #abecedniSeznam {
+  .abecedniSeznam {
     grid-row: 4/5;
     grid-column: 1/7;
     align-items: center;

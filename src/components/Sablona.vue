@@ -27,7 +27,7 @@
         !this.$route.params.kategorie
       "
       v-bind:stranka="innerParams.stranka"
-      id="abSeznam"
+      class="abSeznam"
     />
 
     <div
@@ -336,7 +336,7 @@ export default {
 </script>
 
 <style>
-#abSeznam {
+.abSeznam {
   grid-column: 2/7;
   grid-row-start: 3;
   margin: 30px;
@@ -414,6 +414,11 @@ export default {
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .abSeznam {
+    grid-column-start: 1;
+    grid-row-start: 4;
   }
 }
 
