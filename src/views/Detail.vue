@@ -96,7 +96,7 @@
             "
           >
             <img
-              v-bind:src="`${apiUrl}/photos/${odstavec.foto.trim()}`"
+              v-bind:src="`${apiUrl}/photos/medium/${odstavec.foto.trim()}`"
               v-bind:alt="detailClanku.nazev"
               class="fotoCesty"
             />

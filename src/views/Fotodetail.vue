@@ -14,7 +14,7 @@
           v-bind:src="
             this.$route.params.kategorie === 'onas'
               ? require(`./../assets/${vybranaFotka.fotka}`)
-              : `${apiUrl}/photos/${vybranaFotka.fotka.trim()}`
+              : `${apiUrl}/photos/medium/${vybranaFotka.fotka.trim()}`
           "
           v-bind:alt="`${this.$route.params.filename}`"
         />
