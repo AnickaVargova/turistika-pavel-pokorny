@@ -615,6 +615,7 @@ p.responsive {
     padding: 0;
     border-radius: 0;
     font-size: 15px;
+    padding-top: 10px;
   }
 }
 </style>
