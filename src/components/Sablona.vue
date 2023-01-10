@@ -619,9 +619,8 @@ p.responsive {
 
 @media (max-width: 600px) {
   #pomnicky .kontejner {
-    grid-column: 1/7;
-    grid-row: 6/7;
-    width: 100vw;
+    grid-column-start: 1;
+    grid-row-start: 6;
     font-size: 15px;
     margin: 0;
     margin-top: 40px;
