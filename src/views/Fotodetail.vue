@@ -26,7 +26,7 @@
         </figcaption>
       </figure>
       <a @click="$router.go(-1)"
-        ><button class="pomnicekKategorie">Zpět</button></a
+        ><button class="commonButton">Zpět</button></a
       >
         <div
           v-if="shouldDisplayArrows && galerie.length > currentIndex + 1"
@@ -87,7 +87,7 @@ export default {
         )
           .then((response) => response.json())
           .then((data) => {
-            if (this.$route.params.kategorie === "vypraveni" && this.$route.name !== 'FotodetailVypraveniGalerie') {
+            if ((this.$route.params.kategorie === "vypraveni" || this.$route.params.kategorie === "cesty") && this.$route.name !== 'FotodetailVypraveniGalerie') {
               const par = data.text.find(
                 (odstavec) =>
                   odstavec.foto &&
@@ -206,7 +206,7 @@ export default {
   background-color: #459ae6;
 }
 
-#fotodetail .pomnicekKategorie {
+#fotodetail .commonButton {
   min-width: 0;
 }
 #fotodetail button:active,
@@ -216,7 +216,9 @@ export default {
 
 @media (max-width: 600px) {
   #fotodetail {
+    padding: 10px;
     padding-top: 100px;
+    grid-template-columns: 1fr 8fr 1fr;
   }
 
   #fotodetail figure {

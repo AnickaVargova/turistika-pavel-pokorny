@@ -6,7 +6,7 @@
       id="oknoPomnicky"
       v-if="
         !this.loading &&
-        mojeClanky.length &&
+        this.mojeClanky.length &&
         (this.$route.name === 'DetailPomnicku' ||
           this.$route.name === 'DetailKrize' ||
           this.$route.name === 'DetailStudanky' ||
@@ -14,7 +14,7 @@
           this.$route.name === 'NovyPomnicek' ||
           this.$route.name === 'NovyKriz' ||
           this.$route.name === 'NovaStudanka' ||
-          !this.zalozkyButton)
+          !this.zalozky)
       "
     >
       <div
@@ -210,7 +210,7 @@
           <tr v-if="clanek.kategorie === 'pomnicky'">
             <td>
               <button
-                class="pomnicekKategorie"
+                class="commonButton"
                 v-if="clanek.odkazMapa && idMapaUkazat !== clanek.id"
                 v-bind:style="{
                   padding: '2%',
@@ -235,7 +235,7 @@
               frameborder="0"
             ></iframe>
 
-            <button class="pomnicekKategorie" v-on:click="schovejMapu">
+            <button class="commonButton" v-on:click="schovejMapu">
               Schovat mapu
             </button>
           </div>
@@ -253,7 +253,7 @@ import { apiUrl } from "../utils/url";
 
 
 export default {
-  props: ["kategoriePomnicky", "zalozkyButton", "stranka"],
+  props: ["kategoriePomnicky", "zalozky", "stranka"],
   components: { Klikaci, Loader },
   data() {
     return {
@@ -322,6 +322,7 @@ export default {
         .then(() => {
           this.loading = false;
         });
+        
     }
 
     var isChrome =
@@ -447,13 +448,13 @@ td:nth-child(2) {
   border: 2px solid black;
 }
 
-#mapaPomnicky .pomnicekKategorie {
+#mapaPomnicky .commonButton {
   padding-left: 2%;
   margin-bottom: 20px;
   min-width: 0;
 }
 
-td .pomnicekKategorie {
+td .commonButton {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 10px;

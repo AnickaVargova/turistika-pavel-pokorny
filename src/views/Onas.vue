@@ -3,7 +3,7 @@
     <div id="transboxOnas">
       <div id="detailOkno">
         <router-link v-bind:style="{gridColumn:'3/4', justifySelf:'flex-end'}" to="/">
-          <div class="pomnicekKategorie" id="domuOnas">
+          <div class="commonButton" id="domuOnas">
             Úvodní strana
           </div>
         </router-link>
@@ -32,8 +32,8 @@
                 <img
                   v-bind:src="require(`./../assets/${odstavec.foto}`)"
                   v-bind:alt="odstavec.popisek"
+                  class="fotoCesty"
                 />
-                <figcaption>{{ odstavec.popisek }}</figcaption>
               </figure>
             </router-link>
             <p>
@@ -123,7 +123,7 @@
     }
   }
 
-  #detailClanku .pomnicekKategorie {
+  #detailClanku .commonButton {
     min-width: 0;
   }
 

@@ -6,8 +6,8 @@
         v-bind:alt="`${innerParams.backgroundDescription}`"
       />
     </div>
-   
-     <div
+
+    <div
       v-if="innerParams.transbox"
       v-bind:style="{ backgroundColor: innerParams.transbox }"
       class="transbox1"
@@ -20,18 +20,17 @@
 
     <AbecedniSeznam
       v-if="
-        (this.$route.name === 'Pomnicky' ||
-          this.$route.name === 'SmirciKrize' || this.$route.name === 'Studanky') &&
-        seznamUkazat &&
-        !this.innerParams.detail &&
-        !this.$route.params.kategorie
+        !this.$route.params.kategorie &&
+        !this.$route.params.id &&
+        innerParams.stranka !== 'vypraveni' &&
+        innerParams.stranka !== 'cesty' &&
+        innerParams.stranka !== 'novepridane'
       "
       v-bind:stranka="innerParams.stranka"
       class="abSeznam"
     />
 
     <div
-      v-if="innerWidth > 600 || (innerWidth <= 600 && !menuUkazat)"
       v-bind:class="{
         pomnickyText: true,
         large:
@@ -63,14 +62,13 @@
         >
           <div
             id="rozbalit"
-            class="pomnicekKategorie"
+            class="commonButton"
             v-if="
               $route.name === 'SmirciKrizeKategorie' ||
               $route.name === 'PomnickyKategorie' ||
               $route.name === 'StudankyKategorie' ||
               isLongVersion
             "
-            v-on:click="fullVersionToggler"
           >
             {{ isLongVersion ? "Zkrácená verze" : "Rozbalit vše" }}
           </div>
@@ -78,59 +76,55 @@
       </div>
     </div>
 
-    <router-link to="/" id="tlacitkoDomu" class="pomnicekKategorie">
+    <router-link to="/" id="tlacitkoDomu" class="commonButton">
       Úvodní strana
     </router-link>
 
-    <a id="tlacitkoNahoru" class="pomnicekKategorie" href="#top">Nahoru </a>
+    <a id="tlacitkoNahoru" class="commonButton" href="#top">Nahoru </a>
 
     <div
       class="naNovePridane"
       v-if="
-        this.$route.name === 'NovyPomnicek' || this.$route.name === 'NovyKriz' || this.$route.name === 'NovaStudanka'
+        this.$route.name === 'NovyPomnicek' ||
+        this.$route.name === 'NovyKriz' ||
+        this.$route.name === 'NovaStudanka'
       "
     >
       <router-link to="/novepridane">
-        <div class="pomnicekKategorie zpet" id="zpetNaClanky">
-          Naposled přidané
-        </div>
+        <div class="commonButton zpetNaClanky">Nové</div>
       </router-link>
     </div>
 
     <div
       class="pomnickyNavigace"
       v-if="
-        innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize' || innerParams.stranka === 'studanky'
+        innerParams.stranka === 'pomnicky' ||
+        innerParams.stranka === 'krize' ||
+        innerParams.stranka === 'studanky'
       "
     >
-      <div v-on:click="toggleSeznam" class="pomnicekKategorie domu" id="seznam">
-        <router-link v-bind:to="`/${innerParams.stranka}`">
-          Abecední seznam
-        </router-link>
-      </div>
-      <div
-        v-bind:class="{
-          pomnicekKategorie: true,
-          ukazMenu: true,
-          hneda: innerParams.stranka === 'pomnicky',
-          tyrkys: innerParams.stranka === 'krize',
-          fialova: innerParams.stranka === 'studanky'
-        }"
-        v-on:click="toggleMenu"
-      >
-        Řazení podle skupin
-      </div>
-
+      <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
+        <div
+          class="commonButton domu"
+          id="seznam"
+          v-if="
+            this.$route.params.kategorie ||
+            (this.$route.params.id &&
+              innerParams.stranka !== 'vypraveni' &&
+              innerParams.stranka !== 'cesty')
+          "
+        >
+          ABC
+        </div>
+      </router-link>
       <!-- buttons end -->
 
       <!-- kategorie menu start -->
 
-      <Loader v-if="!innerParams.kategoriePomnicky.length" />
-      <div v-if="innerWidth >= 600 && innerParams.kategoriePomnicky.length">
+      <div>
         <div
           v-for="kategorie in innerParams.kategoriePomnicky"
           v-bind:key="kategorie.nazev"
-          v-on:click="handleClick()"
         >
           <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
             <div
@@ -138,12 +132,11 @@
                 tyrkys: innerParams.stranka === 'krize',
                 hneda: innerParams.stranka === 'pomnicky',
                 fialova: innerParams.stranka === 'studanky',
-                pomnicekKategorie: true,
+                commonButton: true,
                 kategorieTextCenter:
                   innerParams === 'cesty' || innerParams === 'vypraveni',
                 active: vybranaId.includes(kategorie.id),
-                responsive: menuUkazat && !oknoUkazat,
-                pomnicekMenu: true,
+                podkategorie: true,
               }"
               v-bind:style="{ backgroundColor: innerParams.buttonsColor }"
             >
@@ -154,58 +147,24 @@
       </div>
     </div>
 
-    <!-- kategorie menu, neni potomkem navigace - jen pro mobil -->
-    <div
-      v-if="
-        (innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'krize' || innerParams.stranka === 'studanky') &&
-        innerWidth < 600 &&
-        menuColumn &&
-        innerParams.kategoriePomnicky.length
-      "
-      id="kategorieMobil"
-    >
-      <div
-        v-for="kategorie in innerParams.kategoriePomnicky"
-        v-bind:key="kategorie.id"
-        v-on:click="handleClick()"
-      >
-        <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
-          <div
-            v-bind:class="{
-              pomnicekKategorie: true,
-              kategorieTextCenter:
-                innerParams.stranka === 'cesty' ||
-                innerParams.stranka === 'vypraveni',
-
-              active: vybranaId.includes(kategorie.id),
-              responsive: menuUkazat && !oknoUkazat,
-              pomnicekMenu: true,
-              hneda: innerParams.stranka === 'pomnicky',
-              tyrkys: innerParams.stranka === 'krize',
-              fialova: innerParams.stranka === 'studanky'
-            }"
-          >
-            {{ kategorie.nazev }} ({{ kategorie.pocet }})
-          </div>
-        </router-link>
-      </div>
-    </div>
-
     <!-- kategorie menu end -->
 
     <!-- condition v-if for kontejner is here because otherwise it covers abecedniSeznam which becomes unclickable -->
     <div
       class="kontejner"
       v-if="
-        this.$route.name !== 'Pomnicky' && this.$route.name !== 'SmirciKrize' && this.$route.name !== 'Studanky'
+        this.$route.name !== 'Pomnicky' &&
+        this.$route.name !== 'SmirciKrize' &&
+        this.$route.name !== 'Studanky'
       "
       v-bind:class="{
         kontejnerBigMargin:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty',
         kontejnerSmallMargin:
-          innerParams.stranka === 'pomnicky' || innerParams.stranka === 'krize' || innerParams.stranka === 'studanky',
+          innerParams.stranka === 'pomnicky' ||
+          innerParams.stranka === 'krize' ||
+          innerParams.stranka === 'studanky',
         large:
           innerParams.stranka === 'vypraveni' ||
           innerParams.stranka === 'cesty' ||
@@ -224,8 +183,7 @@
             this.$route.name === 'Cesty'
           "
           v-bind:stranka="innerParams.stranka"
-          v-bind:zalozkyButton="!isLongVersion"
-          v-bind:key="clankyKey"
+          v-bind:zalozky="!isLongVersion"
         />
         <OknoPomnicky
           v-if="
@@ -236,13 +194,12 @@
             this.$route.name === 'DetailKrize' ||
             this.$route.name === 'DetailStudanky' ||
             this.$route.name === 'NovyPomnicek' ||
-            this.$route.name === 'NovyKriz' || 
-            this.$route.name === 'NovaStudanka' 
+            this.$route.name === 'NovyKriz' ||
+            this.$route.name === 'NovaStudanka'
           "
           v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
           v-bind:stranka="innerParams.stranka"
-          v-bind:zalozkyButton="!isLongVersion"
-          v-bind:key="pomnickyKey"
+          v-bind:zalozky="!isLongVersion"
         />
       </div>
     </div>
@@ -270,67 +227,11 @@ export default {
     return {
       innerParams: this.params,
       vybranaId: [Number(this.$route.params.kategorie)],
-      menuUkazat: false,
-      oknoUkazat: true,
-      seznamUkazat: true,
-      innerWidth: window.innerWidth,
-      menuColumn: false,
-      clankyKey: 0,
-      pomnickyKey: 1,
       isLongVersion:
         this.$route.name === "PomnickyKategorieLong" ||
         this.$route.name === "SmirciKrizeKategorieLong" ||
-        this.$route.name === "StudankyKategorieLong"
+        this.$route.name === "StudankyKategorieLong",
     };
-  },
-
-  methods: {
-    forceRerender() {
-      this.clankyKey += 1;
-      this.pomnickyKey += 1;
-    },
-
-    getZalozky(pomnicky) {
-      return pomnicky.every((pomnicek) => pomnicek.fotkaUvod);
-    },
-    fullVersionToggler() {
-      this.forceRerender();
-    },
-
-    handleClick() {
-      this.oknoUkazat = true;
-      this.menuUkazat = false;
-      this.seznamUkazat = false;
-    },
-
-    getDateNumber(formatDatum) {
-      let date = formatDatum.trim();
-      date = Date.parse(
-        date.slice(3, 6).concat(date.slice(0, 3), date.slice(6))
-      );
-      return date;
-    },
-
-    toggleMenu() {
-      if (this.innerWidth > 600) {
-        this.menuUkazat = !this.menuUkazat;
-        this.oknoUkazat = false;
-      } else {
-        this.oknoUkazat = false;
-        this.menuUkazat = !this.menuUkazat;
-        this.seznamUkazat = false;
-        this.menuColumn = true;
-      }
-    },
-
-    toggleSeznam() {
-      if (this.innerWidth > 600) {
-        this.seznamUkazat = !this.seznamUkazat;
-      } else {
-        this.seznamUkazat = !this.seznamUkazat;
-        this.menuUkazat = false;
-      }
-    },
   },
 };
 </script>
@@ -338,7 +239,8 @@ export default {
 <style>
 .abSeznam {
   grid-column: 2/7;
-  grid-row-start: 3;
+  grid-row: 3;
+  min-height: 300px;
   margin: 30px;
 }
 
@@ -390,12 +292,12 @@ export default {
 }
 
 #pomnickyUvod {
-  grid-column: 1/6;
+  grid-column: 1/7;
 }
 
 @media screen and (max-width: 600px) {
   #pomnicky {
-    grid-template-rows: minmax(min-content, 120px) minmax(min-content, 50px) auto auto;
+    grid-template-rows: minmax(min-content, 50px) auto auto;
   }
 
   #pomnicky h1 {
@@ -405,15 +307,14 @@ export default {
     font-size: 30px;
     margin: 0;
     padding: 0;
+    margin-top: 20px;
   }
 
   .pomnickyText {
     grid-row: 3/4;
     grid-column: 1/7;
     font-size: 15px;
-    margin-bottom: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px 20px 0;
   }
 
   .abSeznam {
@@ -434,7 +335,7 @@ p.responsive {
   display: none;
 }
 
-.pomnicekKategorie {
+.commonButton {
   border: 2px solid black;
   margin: 3px;
   height: 35px;
@@ -476,15 +377,16 @@ p.responsive {
   margin-top: 20px;
 }
 
+#ABClink {
+  width: fit-content;
+  height: fit-content;
+}
+
 .naNovePridane {
   grid-column: 5/6;
   grid-row: 1/2;
   margin-top: 16px;
-  justify-self: end;
-}
-
-.zpet {
-  width: unset !important;
+  justify-self: start;
 }
 
 @media (max-width: 600px) {
@@ -492,12 +394,16 @@ p.responsive {
     grid-column: 1/2;
     grid-row: 2/3;
     margin-top: 0;
-    width: unset;
+    width: 60px;
+    min-width: unset;
     max-width: 60px;
+    margin-left: 8px;
   }
+}
 
-  .zpet {
-    min-width: 70px !important;
+@media (min-width: 1000px) {
+  .naNovePridane {
+    justify-self: end;
   }
 }
 
@@ -557,9 +463,11 @@ p.responsive {
   .pomnickyNavigace {
     flex-direction: row;
     grid-row: 1/2;
-    grid-column: 1 / span 4;
+    grid-column: 3;
     width: 95%;
-    margin: 10px 0 0 0;
+    margin: 17px 0 3px 0;
+    align-self: flex-end;
+    justify-self: flex-end;
   }
 
   .domu,
@@ -571,31 +479,35 @@ p.responsive {
 
   #tlacitkoDomu,
   #tlacitkoNahoru {
+    margin-right: 0;
     height: 45px;
     left: unset;
   }
 
   #tlacitkoDomu {
-    /* top: 10px; */
     width: 60px !important;
+    grid-column: 1/3;
+    margin-left: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
   }
 
   #tlacitkoNahoru {
-    /* top: 80px; */
-    margin-top: 13px;
     width: 60px !important;
+    grid-column: 5/7;
+    justify-self: center;
   }
 
-  #pomnicky .pomnicekKategorie.pomnicekMenu {
+  .podkategorie {
     display: none;
   }
 }
 
-#pomnicky .pomnicekKategorie.responsive {
+#pomnicky .commonButton.responsive {
   display: flex;
 }
 
-.pomnicekKategorie:hover,
+.commonButton:hover,
 .domu:hover,
 #seznam:hover {
   color: #13131d;
@@ -634,13 +546,13 @@ p.responsive {
     max-width: 150px;
   }
 
-  .pomnicekKategorie {
+  .commonButton {
     min-width: 70px;
     max-width: 150px;
   }
 
   #seznam {
-    margin-bottom: 0;
+    margin-bottom: 3px;
   }
 
   .ukazMenu {
@@ -651,13 +563,13 @@ p.responsive {
 #pozadi1 {
   grid-column: 1 / 7;
   grid-row-start: 1;
-  grid-row-end: 5;
+  grid-row-end: 6;
   width: 100%;
   height: 100%;
 }
 .transbox1 {
   grid-column: 1 / 7;
-  grid-row: 1 / 5;
+  grid-row: 1 / 6;
   width: 100%;
   height: 100%;
   background-color: rgba(204, 175, 127, 0.4);
@@ -690,7 +602,7 @@ p.responsive {
 @media (max-width: 600px) {
   #pomnicky .kontejner {
     grid-column: 1/7;
-    grid-row: 4/5;
+    grid-row: 5/6;
     width: 100vw;
     font-size: 15px;
     margin: 0;

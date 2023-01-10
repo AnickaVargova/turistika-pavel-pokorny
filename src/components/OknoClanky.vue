@@ -2,7 +2,7 @@
   <div>
     <Loader v-if="this.loading" />
 
-    <div id="oknoPomnicky" v-if="this.zalozkyButton && !this.loading">
+    <div id="oknoPomnicky" v-if="this.zalozky && !this.loading && this.mojeClanky.length">
       <div
         class="kontejnerClanek"
         v-for="(clanek, index) in mojeClanky"
@@ -22,7 +22,7 @@ import { apiUrl } from "../utils/url";
 
 
 export default {
-  props: ["stranka", "zalozkyButton"],
+  props: ["stranka", "zalozky"],
   components: { Zalozka, Loader },
   data() {
     return {

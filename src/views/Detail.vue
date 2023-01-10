@@ -5,12 +5,12 @@
       backgroundColor: 'beige',
       backgroundImage: 'none',
       padding: '2%',
-      minHeight: '100vh'
+      minHeight: '100vh',
     }"
   >
     <Loader v-if="this.loading" />
     <div v-else id="detailOkno">
-      <router-link to="/" id="tlacitkoDomuDetail" class="pomnicekKategorie">
+      <router-link to="/" id="tlacitkoDomuDetail" class="commonButton">
         Úvodní strana
       </router-link>
       <router-link
@@ -21,28 +21,20 @@
         to="/novepridane"
       >
         <a name="top"></a>
-        <div class="pomnicekKategorie" id="zpetNaClanky">
-          Zpět na naposled přidané
-        </div>
+        <div class="commonButton zpetNaClanky">Zpět na naposled přidané</div>
       </router-link>
       <router-link
         v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
         to="/krize"
       >
         <a name="top"></a>
-        <div class="pomnicekKategorie" id="zpetNaClanky">
-          Zpět na smírčí kříže
-        </div>
+        <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
       <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
         <a name="top"></a>
-        <div class="pomnicekKategorie" id="zpetNaClanky">Zpět na články</div>
+        <div class="commonButton zpetNaClanky">Zpět na články</div>
       </router-link>
-      <div
-        id="tlacitkoNahoruDetail"
-        class="pomnicekKategorie"
-        v-on:click="goToTop"
-      >
+      <div id="tlacitkoNahoruDetail" class="commonButton" v-on:click="goToTop">
         Nahoru
       </div>
       <h1>{{ detailClanku.nazev }}</h1>
@@ -85,23 +77,36 @@
             </span>
           </p>
 
-          <figure
-            v-bind:class="{
-              figCesty: true,
-              naVysku: odstavec.naVysku,
-            }"
-            v-bind:style="{ textAlign: 'center' }"
-            v-if="
-              odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy
+          <router-link
+            v-if="detailClanku.kategorie === 'cesty' && odstavec.foto"
+            v-bind:to="
+              innerWidth < 600
+                ? `/fotodetail/${detailClanku.kategorie}/${
+                    detailClanku.id
+                  }/${odstavec.foto.trim()}`
+                : ''
             "
           >
-            <img
-              v-bind:src="`${apiUrl}/photos/medium/${odstavec.foto.trim()}`"
-              v-bind:alt="detailClanku.nazev"
-              class="fotoCesty"
-            />
-            <figcaption>{{ odstavec.popisek }}</figcaption>
-          </figure>
+            <figure
+              v-bind:class="{
+                figCesty: true,
+                naVysku: odstavec.naVysku,
+              }"
+              v-bind:style="{ textAlign: 'center' }"
+              v-if="
+                odstavec.foto &&
+                !odstavec.textOdstavce &&
+                !odstavec.vnitrniOdkazy
+              "
+            >
+              <img
+                v-bind:src="`${apiUrl}/photos/medium/${odstavec.foto.trim()}`"
+                v-bind:alt="detailClanku.nazev"
+                class="fotoCesty"
+              />
+              <figcaption>{{ odstavec.popisek }}</figcaption>
+            </figure>
+          </router-link>
           <div id="mapa">
             <iframe
               v-if="odstavec.odkazMapa"
@@ -123,9 +128,7 @@
           v-bind:key="index"
         >
           <router-link
-            v-bind:to="`/fotodetail/${
-              detailClanku.kategorie
-            }/galerie/${
+            v-bind:to="`/fotodetail/${detailClanku.kategorie}/galerie/${
               detailClanku.id
             }/${obrazek.fotka.trim()}`"
           >
@@ -149,14 +152,14 @@ import Loader from "../components/Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 
-
 export default {
   components: { Klikaci, Loader },
   data() {
     return {
       detailClanku: undefined,
       loading: true,
-      apiUrl
+      apiUrl,
+      innerWidth: window.innerWidth,
     };
   },
 
@@ -169,7 +172,6 @@ export default {
   },
 
   created() {
-   
     if (
       this.$route.name === "DetailVypraveni" ||
       this.$route.name === "NoveVypraveni"
@@ -181,7 +183,10 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) this.detailClanku = data})
+        .then((data) => {
+          if (!data.temp && (!displayTestItems() ? !data.test : true))
+            this.detailClanku = data;
+        })
         .then(() => {
           this.loading = false;
         });
@@ -196,7 +201,10 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) this.detailClanku = data})
+        .then((data) => {
+          if (!data.temp && (!displayTestItems() ? !data.test : true))
+            this.detailClanku = data;
+        })
         .then(() => {
           this.loading = false;
         });
@@ -281,7 +289,7 @@ export default {
   }
 }
 
-#zpetNaClanky {
+.zpetNaClanky {
   width: 50%;
   min-width: 80px;
   padding: 10px;
@@ -289,7 +297,7 @@ export default {
   background-color: #459ae6;
 }
 
-#zpetNaClanky:hover {
+.zpetNaClanky:hover {
   color: #13131d;
   background-color: #9aacab;
 }
@@ -309,13 +317,8 @@ export default {
 }
 
 @media (max-width: 600px) {
-  #fotoText {
-    margin-bottom: 35px;
-    height: 150px;
-  }
-
-  #zpetNaClanky {
-    width: unset;
+  .zpetNaClanky {
+    width: 60px;
     min-width: 110px;
   }
 }
@@ -336,6 +339,18 @@ export default {
   margin-left: 0;
 }
 
+@media (max-width: 600px) {
+  .vlevo {
+    float: none;
+    margin: auto;
+  }
+
+  .vpravo {
+    float: none;
+    margin: auto;
+  }
+}
+
 .nahore {
   margin-top: 0;
 }
@@ -345,10 +360,6 @@ export default {
   margin-bottom: 20px;
   text-align: justify;
   line-height: 1.5;
-}
-
-.naSirku {
-  width: 90%;
 }
 
 .figCesty {
@@ -440,6 +451,10 @@ a {
   .fotoCesty {
     max-width: 90vw;
     margin: auto;
+  }
+
+  #fotoText {
+    max-width: 90vw;
   }
 
   .naVysku,

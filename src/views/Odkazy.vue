@@ -3,7 +3,7 @@
     <div id="transbox1">
       <router-link class="kontejnerDomuOnas" to="/">
         <div
-          class="pomnicekKategorie"
+          class="commonButton"
           id="domuOnas"
           v-bind:style="{ margin: '20px' }"
         >
@@ -60,7 +60,7 @@
     grid-row: 1/3;
   }
 
-  #odkazy .pomnicekKategorie {
+  #odkazy .commonButton {
     min-width: 0;
   }
 
