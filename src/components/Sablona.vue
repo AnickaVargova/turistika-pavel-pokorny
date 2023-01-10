@@ -53,27 +53,27 @@
           </span>
         </p>
       </div>
+    </div>
 
-      <div id="rozbalitWrapper">
-        <router-link
-          v-bind:to="`/${innerParams.stranka}/${$route.params.kategorie}${
-            !isLongVersion ? '/long' : ''
-          }`"
+    <div id="rozbalitWrapper">
+      <router-link
+        v-bind:to="`/${innerParams.stranka}/${$route.params.kategorie}${
+          !isLongVersion ? '/long' : ''
+        }`"
+      >
+        <div
+          id="rozbalit"
+          class="commonButton"
+          v-if="
+            $route.name === 'SmirciKrizeKategorie' ||
+            $route.name === 'PomnickyKategorie' ||
+            $route.name === 'StudankyKategorie' ||
+            isLongVersion
+          "
         >
-          <div
-            id="rozbalit"
-            class="commonButton"
-            v-if="
-              $route.name === 'SmirciKrizeKategorie' ||
-              $route.name === 'PomnickyKategorie' ||
-              $route.name === 'StudankyKategorie' ||
-              isLongVersion
-            "
-          >
-            {{ isLongVersion ? "Zkrácená verze" : "Rozbalit vše" }}
-          </div>
-        </router-link>
-      </div>
+          {{ isLongVersion ? "Zkrácená verze" : "Rozbalit vše" }}
+        </div>
+      </router-link>
     </div>
 
     <router-link to="/" id="tlacitkoDomu" class="commonButton">
@@ -95,6 +95,21 @@
       </router-link>
     </div>
 
+    <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
+      <div
+        class="commonButton domu"
+        id="seznam"
+        v-if="
+          this.$route.params.kategorie ||
+          (this.$route.params.id &&
+            innerParams.stranka !== 'vypraveni' &&
+            innerParams.stranka !== 'cesty')
+        "
+      >
+        ABC
+      </div>
+    </router-link>
+
     <div
       class="pomnickyNavigace"
       v-if="
@@ -103,47 +118,31 @@
         innerParams.stranka === 'studanky'
       "
     >
-      <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
-        <div
-          class="commonButton domu"
-          id="seznam"
-          v-if="
-            this.$route.params.kategorie ||
-            (this.$route.params.id &&
-              innerParams.stranka !== 'vypraveni' &&
-              innerParams.stranka !== 'cesty')
-          "
-        >
-          ABC
-        </div>
-      </router-link>
       <!-- buttons end -->
 
       <!-- kategorie menu start -->
 
-      <div>
-        <div
-          v-for="kategorie in innerParams.kategoriePomnicky"
-          v-bind:key="kategorie.nazev"
-        >
-          <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
-            <div
-              v-bind:class="{
-                tyrkys: innerParams.stranka === 'krize',
-                hneda: innerParams.stranka === 'pomnicky',
-                fialova: innerParams.stranka === 'studanky',
-                commonButton: true,
-                kategorieTextCenter:
-                  innerParams === 'cesty' || innerParams === 'vypraveni',
-                active: vybranaId.includes(kategorie.id),
-                podkategorie: true,
-              }"
-              v-bind:style="{ backgroundColor: innerParams.buttonsColor }"
-            >
-              {{ kategorie.nazev }} ({{ kategorie.pocet }})
-            </div>
-          </router-link>
-        </div>
+      <div
+        v-for="kategorie in innerParams.kategoriePomnicky"
+        v-bind:key="kategorie.nazev"
+      >
+        <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
+          <div
+            v-bind:class="{
+              tyrkys: innerParams.stranka === 'krize',
+              hneda: innerParams.stranka === 'pomnicky',
+              fialova: innerParams.stranka === 'studanky',
+              commonButton: true,
+              kategorieTextCenter:
+                innerParams === 'cesty' || innerParams === 'vypraveni',
+              active: vybranaId.includes(kategorie.id),
+              podkategorie: true,
+            }"
+            v-bind:style="{ backgroundColor: innerParams.buttonsColor }"
+          >
+            {{ kategorie.nazev }} ({{ kategorie.pocet }})
+          </div>
+        </router-link>
       </div>
     </div>
 
@@ -319,13 +318,13 @@ export default {
 
   .abSeznam {
     grid-column-start: 1;
-    grid-row-start: 4;
+    grid-row-start: 5;
   }
 }
 
 .pomnickyNavigace {
   grid-column: 1/2;
-  grid-row: 1/4;
+  grid-row: 2/5;
   margin: 23px;
   display: flex;
   flex-direction: column;
@@ -380,6 +379,10 @@ p.responsive {
 #ABClink {
   width: fit-content;
   height: fit-content;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 
 .naNovePridane {
@@ -398,6 +401,12 @@ p.responsive {
     min-width: unset;
     max-width: 60px;
     margin-left: 8px;
+  }
+
+  #ABClink {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-top: 17px;
   }
 }
 
@@ -449,9 +458,11 @@ p.responsive {
 }
 
 #rozbalitWrapper {
-  grid-column: 5/6;
+  grid-column: 6/7;
+  grid-row: 3/4;
   align-self: flex-end;
   justify-self: flex-end;
+  margin-right: 30px;
 }
 
 #tlacitkoDomu:hover,
@@ -462,12 +473,18 @@ p.responsive {
 @media (max-width: 600px) {
   .pomnickyNavigace {
     flex-direction: row;
-    grid-row: 1/2;
-    grid-column: 3;
-    width: 95%;
+    grid-row: 4/5;
+    grid-column: 1/7;
     margin: 17px 0 3px 0;
-    align-self: flex-end;
-    justify-self: flex-end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5fr);
+  }
+
+  #rozbalitWrapper {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    justify-self: flex-start;
   }
 
   .domu,
@@ -498,9 +515,9 @@ p.responsive {
     justify-self: center;
   }
 
-  .podkategorie {
+  /* .podkategorie {
     display: none;
-  }
+  } */
 }
 
 #pomnicky .commonButton.responsive {
@@ -549,6 +566,7 @@ p.responsive {
   .commonButton {
     min-width: 70px;
     max-width: 150px;
+    font-size: 11px;
   }
 
   #seznam {
@@ -563,13 +581,13 @@ p.responsive {
 #pozadi1 {
   grid-column: 1 / 7;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 7;
   width: 100%;
   height: 100%;
 }
 .transbox1 {
   grid-column: 1 / 7;
-  grid-row: 1 / 6;
+  grid-row: 1 / 7;
   width: 100%;
   height: 100%;
   background-color: rgba(204, 175, 127, 0.4);
@@ -578,7 +596,7 @@ p.responsive {
 
 #pomnicky .kontejner {
   grid-column: 2/7;
-  grid-row: 3/4;
+  grid-row: 4/5;
   margin-bottom: 20px;
 }
 
@@ -602,7 +620,7 @@ p.responsive {
 @media (max-width: 600px) {
   #pomnicky .kontejner {
     grid-column: 1/7;
-    grid-row: 5/6;
+    grid-row: 6/7;
     width: 100vw;
     font-size: 15px;
     margin: 0;
