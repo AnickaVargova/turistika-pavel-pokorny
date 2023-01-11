@@ -407,6 +407,7 @@ p.responsive {
     grid-row: 1/2;
     grid-column: 3/4;
     margin-top: 17px;
+    margin-left: 0;
   }
 }
 
@@ -485,6 +486,7 @@ p.responsive {
     grid-column: 1/2;
     grid-row: 5/6;
     justify-self: flex-start;
+    align-self: flex-start;
   }
 
   .domu,
@@ -503,7 +505,7 @@ p.responsive {
 
   #tlacitkoDomu {
     width: 60px !important;
-    grid-column: 1/3;
+    grid-column: 1/2;
     margin-left: 10px;
     justify-self: flex-start;
     align-self: flex-start;
@@ -581,13 +583,13 @@ p.responsive {
 #pozadi1 {
   grid-column: 1 / 7;
   grid-row-start: 1;
-  grid-row-end: 7;
+  grid-row-end: 8;
   width: 100%;
   height: 100%;
 }
 .transbox1 {
   grid-column: 1 / 7;
-  grid-row: 1 / 7;
+  grid-row: 1 / 8;
   width: 100%;
   height: 100%;
   background-color: rgba(204, 175, 127, 0.4);
@@ -620,7 +622,7 @@ p.responsive {
 @media (max-width: 600px) {
   #pomnicky .kontejner {
     grid-column-start: 1;
-    grid-row-start: 6;
+    grid-row-start: 7;
     font-size: 15px;
     margin: 0;
     margin-top: 40px;
@@ -633,6 +635,7 @@ p.responsive {
     border-radius: 0;
     font-size: 15px;
     padding-top: 10px;
+    margin-top: 10px;
   }
 }
 </style>
