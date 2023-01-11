@@ -343,8 +343,7 @@ p.responsive {
   border-radius: 10px;
   display: flex;
   justify-content: flex-start;
-  padding: 0 2%;
-  padding-left: 10%;
+  padding: 6% 2% 6% 10%;
   align-items: center;
   text-transform: uppercase;
   box-shadow: 5px 2px 2px #395250;
