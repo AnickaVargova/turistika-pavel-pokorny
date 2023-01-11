@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       seznam: [],
-      itemHeight: 34,
+      itemHeight: 35,
       componentKey: 0,
       loading: true,
     };
@@ -114,7 +114,7 @@ export default {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .abecedniSeznam {
     grid-row: 4/5;
     grid-column: 1/7;
