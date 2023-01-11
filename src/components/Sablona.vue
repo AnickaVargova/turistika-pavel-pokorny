@@ -97,7 +97,7 @@
 
     <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
       <div
-        class="commonButton domu"
+        class="commonButton"
         id="seznam"
         v-if="
           this.$route.params.kategorie ||
@@ -488,15 +488,9 @@ p.responsive {
     align-self: flex-start;
   }
 
-  .domu,
-  #seznam,
-  .ukazMenu {
-    height: 45px !important;
-    flex-basis: 30%;
-  }
-
   #tlacitkoDomu,
-  #tlacitkoNahoru {
+  #tlacitkoNahoru,
+  #seznam {
     margin-right: 0;
     height: 45px;
     left: unset;
@@ -525,9 +519,7 @@ p.responsive {
   display: flex;
 }
 
-.commonButton:hover,
-.domu:hover,
-#seznam:hover {
+.commonButton:hover {
   color: #13131d;
   background-color: #898a8b;
 }
@@ -537,33 +529,13 @@ p.responsive {
   padding-left: 0;
 }
 
-.domu {
-  min-width: 95%;
-  max-width: 170px;
-  height: 30px;
-}
-
-.domu a {
-  color: black;
-}
-
-.ukazMenu {
-  display: none;
-  grid-column: 5/6;
-  grid-row: 1/2;
-}
-
 #seznam {
   margin-bottom: 20px;
   background-color: #459ae6;
+  padding: 0 10px;
 }
 
 @media (max-width: 600px) {
-  .domu {
-    min-width: 70px;
-    max-width: 150px;
-  }
-
   .commonButton {
     min-width: 70px;
     max-width: 150px;
@@ -572,10 +544,6 @@ p.responsive {
 
   #seznam {
     margin-bottom: 3px;
-  }
-
-  .ukazMenu {
-    display: flex;
   }
 }
 
