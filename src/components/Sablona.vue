@@ -81,19 +81,16 @@
     </router-link>
 
     <a id="tlacitkoNahoru" class="commonButton" href="#top">Nahoru </a>
-
-    <div
-      class="naNovePridane"
+    <router-link
+      to="/novepridane"
+      id="naNovePridane"
+      class="commonButton"
       v-if="
         this.$route.name === 'NovyPomnicek' ||
         this.$route.name === 'NovyKriz' ||
         this.$route.name === 'NovaStudanka'
       "
-    >
-      <router-link to="/novepridane">
-        <div class="commonButton zpetNaClanky">Nové</div>
-      </router-link>
-    </div>
+    >Nové</router-link>
 
     <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
       <div
@@ -343,7 +340,7 @@ p.responsive {
   border-radius: 10px;
   display: flex;
   justify-content: flex-start;
-  padding: 7px 2px 7px 13px;
+  padding: 7px;
   align-items: center;
   text-transform: uppercase;
   box-shadow: 5px 2px 2px #395250;
@@ -384,22 +381,33 @@ p.responsive {
   margin-top: 20px;
 }
 
-.naNovePridane {
+#naNovePridane {
+  margin-right: 10px;
+  min-width: unset;
+  max-width: unset;
+  width: 70px;
+  padding: 0 10px;
+  height: 35px;
+  background-color: #459ae6;
+  margin-top: 20px;
   grid-column: 5/6;
   grid-row: 1/2;
-  margin-top: 16px;
-  justify-self: start;
+  justify-self: end;
 }
 
 @media (max-width: 600px) {
-  .naNovePridane {
+  #naNovePridane {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-top: 0;
-    width: 60px;
+    margin-top: 10px;
     min-width: unset;
     max-width: 60px;
-    margin-left: 8px;
+    width: 60px !important;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 10px;
+    justify-self: flex-start;
+    align-self: flex-start;
   }
 
   #ABClink {
@@ -407,12 +415,6 @@ p.responsive {
     grid-column: 3/4;
     margin-top: 17px;
     margin-left: 0;
-  }
-}
-
-@media (min-width: 1000px) {
-  .naNovePridane {
-    justify-self: end;
   }
 }
 
@@ -465,11 +467,6 @@ p.responsive {
   margin-right: 30px;
 }
 
-#tlacitkoDomu:hover,
-#tlacitkoNahoru:hover {
-  background-color: #898a8b;
-}
-
 @media (max-width: 600px) {
   .pomnickyNavigace {
     flex-direction: row;
@@ -490,10 +487,10 @@ p.responsive {
 
   #tlacitkoDomu,
   #tlacitkoNahoru,
+  #naNovePridane,
   #seznam {
     margin-right: 0;
     height: 45px;
-    left: unset;
   }
 
   #tlacitkoDomu {
@@ -509,10 +506,6 @@ p.responsive {
     grid-column: 5/7;
     justify-self: center;
   }
-
-  /* .podkategorie {
-    display: none;
-  } */
 }
 
 #pomnicky .commonButton.responsive {
@@ -520,8 +513,8 @@ p.responsive {
 }
 
 .commonButton:hover {
-  color: #13131d;
-  background-color: #898a8b;
+  color: #13131d !important;
+  background-color: #898a8b !important;
 }
 
 .kategorieTextCenter {
