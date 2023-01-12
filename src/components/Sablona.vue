@@ -385,14 +385,16 @@ p.responsive {
   margin-right: 10px;
   min-width: unset;
   max-width: unset;
-  width: 70px;
+  width: 56px;
   padding: 0 10px;
   height: 35px;
   background-color: #459ae6;
   margin-top: 20px;
-  grid-column: 5/6;
+  margin-left: 30px;
+  grid-column: 1/2;
   grid-row: 1/2;
-  justify-self: end;
+  justify-self: start;
+  align-self: end;
 }
 
 @media (max-width: 600px) {

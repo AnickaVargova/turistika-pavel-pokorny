@@ -21,7 +21,7 @@
         to="/novepridane"
       >
         <a name="top"></a>
-        <div class="commonButton zpetNaClanky">Zpět na naposled přidané</div>
+        <div class="commonButton zpetNaClanky">Nové</div>
       </router-link>
       <router-link
         v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
