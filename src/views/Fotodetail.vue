@@ -196,7 +196,7 @@ export default {
 }
 
 #fotodetail button {
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 3vh;
   width: 100px;
