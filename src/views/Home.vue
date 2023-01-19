@@ -50,7 +50,7 @@
       </div>
       <div>
         <a v-bind:href="mapaUrl" target="_self">
-          Mapa pomníčků</a
+          Mapa </a
         >
       </div>
       <div>
