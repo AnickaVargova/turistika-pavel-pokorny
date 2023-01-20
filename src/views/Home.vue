@@ -49,7 +49,7 @@
         >
       </div>
       <div>
-        <a v-bind:href="mapaUrl" target="_self" style="background: #72dac1">
+        <a v-bind:href="mapaUrl" target="_self" class="mapabutton">
           Mapa </a
         >
       </div>
@@ -179,6 +179,14 @@ export default {
   grid-column: 5/6;
   margin: auto;
   margin-top: 20px;
+}
+
+.mapabutton {
+  background: #72dac1;
+}
+
+.mapabutton:hover {
+  background: #9aacab;
 }
 
 @media (max-width: 600px) {
