@@ -6,16 +6,17 @@
         <h2
           v-if="
             clanek.kategorie === 'pomnicky' ||
+            clanek.kategorie === 'studanky' ||
             clanek.kategorie === 'vypraveni' ||
             clanek.kategorie === 'cesty'
           "
         >
           {{ clanek.nazev }}
         </h2>
-        <h2 v-else-if="clanek.kategorie === 'krize' || clanek.kategorie === 'studanky'">
+        <h2 v-else-if="clanek.kategorie === 'krize'">
           {{ clanek.jmeno }}
         </h2>
-        <h4 v-if="clanek.kategorie === 'pomnicky'">
+        <h4 v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
           {{ clanek.jmeno }}
         </h4>
         <h4 v-else-if="clanek.kategorie === 'krize'">
