@@ -49,7 +49,7 @@
         >
       </div>
       <div>
-        <a v-bind:href="mapaUrl" target="_self">
+        <a v-bind:href="mapaUrl" target="_self" style="background: #72dac1">
           Mapa </a
         >
       </div>
