@@ -207,7 +207,7 @@
             <td>Naposled editováno:</td>
             <td>{{ clanek.naposledObnoveno }}</td>
           </tr>
-          <tr v-if="clanek.kategorie === 'pomnicky'">
+          <tr v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
             <td>
               <button
                 class="commonButton"
