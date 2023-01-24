@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <Loader v-if="loading"/>
+    <Loader v-if="loading" />
     <div id="authForm" v-else>
       <div id="error" v-if="authenticationError">
         Nesprávné uživatelské jméno nebo heslo.
@@ -22,7 +22,7 @@
 import { apiUrl } from "../utils/url";
 import Loader from "../components/Loader.vue";
 export default {
-  components: { Loader},
+  components: { Loader },
   data() {
     return {
       isAuthenticated: false,
@@ -37,11 +37,10 @@ export default {
   methods: {
     authenticate() {
       this.loading = true;
-      setTimeout(
-      () => {
+
       fetch(`${apiUrl}/auth`, {
         method: "POST",
-        credentials: 'include', 
+        credentials: "include",
         headers: {
           "Content-Type": "application/json",
         },
@@ -53,7 +52,7 @@ export default {
           this.authenticationError = data.isAuthenticated ? false : true;
           this.loading = false;
           this.$emit("authentication", this.isAuthenticated);
-        })}, 2000);
+        });
     },
   },
 };
