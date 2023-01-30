@@ -21,6 +21,7 @@ export default {
   margin: 100px auto 0;
   width: 70px;
   text-align: center;
+  height: 150px;
 }
 
 .spinner > div {

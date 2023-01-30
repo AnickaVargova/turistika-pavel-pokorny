@@ -164,6 +164,7 @@ const router = new VueRouter({
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
+      sessionStorage.setItem("scrollY", savedPosition.y);
       return savedPosition;
     } else {
       return { x: 0, y: 0 };

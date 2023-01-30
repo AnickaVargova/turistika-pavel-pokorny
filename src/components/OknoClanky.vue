@@ -42,6 +42,10 @@ export default {
         .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
+        })
+         .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem('scrollY');
         });
     } else if (
       this.$route.name === "PomnickyKategorie" ||
@@ -61,6 +65,10 @@ export default {
         .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
+        })
+         .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem('scrollY');
         });
     }
    
@@ -76,6 +84,10 @@ export default {
         .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
           this.loading = false;
+        })
+        .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem('scrollY');
         });
     }
   },

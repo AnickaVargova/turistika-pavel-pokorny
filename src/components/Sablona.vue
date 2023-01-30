@@ -81,8 +81,8 @@
     </router-link>
 
     <a id="tlacitkoNahoru" class="commonButton" href="#top">Nahoru </a>
-    <router-link
-      to="/novepridane"
+    <span
+      v-on:click="$router.go(-1)"
       id="naNovePridane"
       class="commonButton"
       v-if="
@@ -90,7 +90,7 @@
         this.$route.name === 'NovyKriz' ||
         this.$route.name === 'NovaStudanka'
       "
-    >Nové</router-link>
+    >Nové</span>
 
     <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
       <div

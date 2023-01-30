@@ -13,27 +13,24 @@
       <router-link to="/" id="tlacitkoDomuDetail" class="commonButton">
         Úvodní strana
       </router-link>
-      <router-link
+      <span
         v-if="
           this.$route.name === 'NoveVypraveni' ||
           this.$route.name === 'NovaCesta'
         "
-        to="/novepridane"
+        v-on:click="$router.go(-1)"
       >
-        <a name="top"></a>
         <div class="commonButton zpetNaClanky">Nové</div>
-      </router-link>
+      </span>
       <router-link
         v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
         to="/krize"
       >
-        <a name="top"></a>
         <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
-      <router-link v-else v-bind:to="`/${detailClanku.kategorie}`">
-        <a name="top"></a>
+      <span v-else v-on:click="$router.go(-1)">
         <div class="commonButton zpetNaClanky">Zpět na články</div>
-      </router-link>
+      </span>
       <div id="tlacitkoNahoruDetail" class="commonButton" v-on:click="goToTop">
         Nahoru
       </div>
@@ -165,9 +162,7 @@ export default {
 
   methods: {
     goToTop() {
-      this.$router
-        .replace({ hash: "#top" })
-        .then(this.$router.push({ hash: "" }));
+      window.scroll(0, 0);
     },
   },
 
@@ -189,6 +184,10 @@ export default {
         })
         .then(() => {
           this.loading = false;
+        })
+         .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem('scrollY');
         });
     } else if (
       this.$route.name === "DetailCesty" ||

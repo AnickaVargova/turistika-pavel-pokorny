@@ -52,7 +52,11 @@
             <td>Číslo v evidenci:</td>
             <td>{{ clanek.cisloEvid }}</td>
           </tr>
-          <tr v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
+          <tr
+            v-if="
+              clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
+            "
+          >
             <td>Jméno:</td>
             <td>
               <strong>{{ clanek.jmeno }}</strong>
@@ -67,7 +71,9 @@
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'popisCesty')
+                  clanek.vnitrniOdkazy.find(
+                    (odkaz) => odkaz.odkazKde.trim() === 'popisCesty'
+                  )
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="popisCesty"
@@ -75,22 +81,30 @@
             </td>
           </tr>
 
-          <tr v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
-            <td>{{clanek.kategorie === 'pomnicky' ? 'Kdy vznikl?' : 'Kdy vznikla?'}}</td>
+          <tr
+            v-if="
+              clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
+            "
+          >
+            <td>
+              {{
+                clanek.kategorie === "pomnicky" ? "Kdy vznikl?" : "Kdy vznikla?"
+              }}
+            </td>
             <td v-html="clanek.kdyVznikl">{{ clanek.kdyVznikl }}</td>
           </tr>
 
           <tr>
-            <td>
-             Popis:
-            </td>
+            <td>Popis:</td>
             <td>
               <span v-html="clanek.popis">{{ clanek.popis }}</span>
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'popis')
+                  clanek.vnitrniOdkazy.find(
+                    (odkaz) => odkaz.odkazKde.trim() === 'popis'
+                  )
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="popis"
@@ -106,7 +120,9 @@
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'napis')
+                  clanek.vnitrniOdkazy.find(
+                    (odkaz) => odkaz.odkazKde.trim() === 'napis'
+                  )
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="napis"
@@ -114,15 +130,19 @@
             </td>
           </tr>
 
-           <tr v-if="clanek.kategorie === 'studanky'">
+          <tr v-if="clanek.kategorie === 'studanky'">
             <td>Využitelnost:</td>
             <td>
-              <span v-html="clanek.vyuzitelnost">{{ clanek.vyuzitelnost }}</span>
+              <span v-html="clanek.vyuzitelnost">{{
+                clanek.vyuzitelnost
+              }}</span>
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'vyuzitelnost')
+                  clanek.vnitrniOdkazy.find(
+                    (odkaz) => odkaz.odkazKde.trim() === 'vyuzitelnost'
+                  )
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="vyuzitelnost"
@@ -130,14 +150,18 @@
             </td>
           </tr>
 
-
           <tr v-if="clanek.kategorie === 'krize'">
             <td>Pověst:</td>
             <td>
               <span v-html="clanek.povest">{{ clanek.povest }}</span>
               <Klikaci
-                v-if="clanek.vnitrniOdkazy && clanek.vnitrniOdkazy.length &&
-                clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'povest')"
+                v-if="
+                  clanek.vnitrniOdkazy &&
+                  clanek.vnitrniOdkazy.length &&
+                  clanek.vnitrniOdkazy.find(
+                    (odkaz) => odkaz.odkazKde.trim() === 'povest'
+                  )
+                "
                 v-bind:clanek="clanek"
                 kdeJsem="povest"
               />
@@ -152,7 +176,9 @@
                 v-if="
                   clanek.vnitrniOdkazy &&
                   clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(odkaz => odkaz.odkazKde.trim() === 'pozn')
+                  clanek.vnitrniOdkazy.find(
+                    (odkaz) => odkaz.odkazKde.trim() === 'pozn'
+                  )
                 "
                 v-bind:clanek="clanek"
                 kdeJsem="pozn"
@@ -207,7 +233,11 @@
             <td>Naposled editováno:</td>
             <td>{{ clanek.naposledObnoveno }}</td>
           </tr>
-          <tr v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
+          <tr
+            v-if="
+              clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
+            "
+          >
             <td>
               <button
                 class="commonButton"
@@ -248,9 +278,8 @@
 <script>
 import Klikaci from "./../components/Klikaci.vue";
 import Loader from "./Loader.vue";
-import { displayTestItems} from "../utils/displayTestItems";
+import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
-
 
 export default {
   props: ["kategoriePomnicky", "zalozky", "stranka"],
@@ -263,7 +292,7 @@ export default {
       isEdgeChromium: false,
       loading: true,
       names: [],
-      apiUrl
+      apiUrl,
     };
   },
 
@@ -299,30 +328,43 @@ export default {
         }
       )
         .then((response) => response.json())
-        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) {this.mojeClanky = [data]}})
+        .then((data) => {
+          if (!data.temp && (!displayTestItems() ? !data.test : true)) {
+            this.mojeClanky = [data];
+          }
+        })
         .then(() => {
           this.loading = false;
+        })
+        .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem("scrollY");
         });
     } else if (
       this.$route.name === "PomnickyKategorieLong" ||
       this.$route.name === "SmirciKrizeKategorieLong" ||
       this.$route.name === "StudankyKategorieLong"
     ) {
-      fetch(
-        `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
-        {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      )
+      fetch(`${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
+        .then(
+          (data) =>
+            (this.mojeClanky = data.filter((item) =>
+              !displayTestItems() ? !item.test : true
+            ))
+        )
         .then(() => {
           this.loading = false;
+        })
+        .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem("scrollY");
         });
-        
     }
 
     var isChrome =
