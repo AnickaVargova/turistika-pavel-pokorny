@@ -14,7 +14,6 @@
     ></div>
     <div v-else class="transbox1"></div>
     <h1>
-      <a name="top"></a>
       {{ innerParams.nadpis }}
     </h1>
 
@@ -45,9 +44,7 @@
         v-bind:key="index"
       >
         <p>
-          <span v-html="odstavec.textOdstavce">
-            {{ odstavec.textOdstavce }}
-          </span>
+          <span v-html="odstavec.textOdstavce"/>
           <span v-if="odstavec.vnitrniOdkazy">
             <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
           </span>
@@ -57,7 +54,7 @@
 
     <div id="rozbalitWrapper">
       <router-link
-        v-bind:to="`/${innerParams.stranka}/${$route.params.kategorie}${
+        v-bind:to="`/${innerParams.stranka}${$route.name === 'NovePridane' || $route.name === 'NovePridaneLong' ? '' : '/' + $route.params.kategorie}${
           !isLongVersion ? '/long' : ''
         }`"
       >
@@ -68,6 +65,7 @@
             $route.name === 'SmirciKrizeKategorie' ||
             $route.name === 'PomnickyKategorie' ||
             $route.name === 'StudankyKategorie' ||
+            $route.name === 'NovePridane' ||
             isLongVersion
           "
         >
@@ -80,7 +78,7 @@
       Úvodní strana
     </router-link>
 
-    <a id="tlacitkoNahoru" class="commonButton" href="#top">Nahoru </a>
+    <div id="tlacitkoNahoru" class="commonButton" v-on:click="goToTop">Nahoru </div>
     <span
       v-on:click="$router.go(-1)"
       id="naNovePridane"
@@ -172,6 +170,7 @@
         <OknoClanky
           v-if="
             this.$route.name === 'NovePridane' ||
+            this.$route.name === 'NovePridaneLong' ||
             this.$route.name === 'PomnickyKategorie' ||
             this.$route.name === 'SmirciKrizeKategorie' ||
             this.$route.name === 'StudankyKategorie' ||
@@ -187,6 +186,7 @@
             this.$route.name === 'DetailPomnicku' ||
             this.$route.name === 'SmirciKrizeKategorieLong' ||
             this.$route.name === 'StudankyKategorieLong' ||
+            this.$route.name === 'NovePridaneLong' ||
             this.$route.name === 'DetailKrize' ||
             this.$route.name === 'DetailStudanky' ||
             this.$route.name === 'NovyPomnicek' ||
@@ -226,8 +226,15 @@ export default {
       isLongVersion:
         this.$route.name === "PomnickyKategorieLong" ||
         this.$route.name === "SmirciKrizeKategorieLong" ||
-        this.$route.name === "StudankyKategorieLong",
+        this.$route.name === "StudankyKategorieLong"||
+        this.$route.name === "NovePridaneLong"
     };
+  },
+
+  methods: {
+    goToTop() {
+      window.scroll(0, 0);
+    },
   },
 };
 </script>

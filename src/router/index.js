@@ -132,6 +132,11 @@ const routes = [
     component: NovePridane,
   },
   {
+    path: "/novepridane/long",
+    name: "NovePridaneLong",
+    component: NovePridane,
+  },
+  {
     path: "/novepridane/vypraveni/:kategorie/:id",
     name: "NoveVypraveni",
     component: Detail,
