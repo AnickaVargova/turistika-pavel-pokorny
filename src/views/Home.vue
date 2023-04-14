@@ -6,9 +6,7 @@
 
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
-      <!-- <h1>{{isTest ? 'Vítejte na testovacím prostředí' : 'Vítejte na našich webových stránkách.'}}</h1> -->
-       <!-- <h1>{{isTest ? 'Vítejte na testovacím prostředí' : 'Vítejte na našich webových stránkách.'}}</h1> -->
-      <h2>Omlouváme se, stránky jsou dočasně mimo provoz.</h2>
+      <h1>{{isTest ? 'Vítejte na testovacím prostředí' : 'Vítejte na našich webových stránkách.'}}</h1>
       <p>
         Naše webové stránky se zabývají regionální vlastivědou v{{ "\xa0" }}Brně
         a okolí, turistikou a cestováním po republice i po Evropě. Popisují
