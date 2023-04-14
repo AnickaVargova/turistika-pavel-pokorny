@@ -1,8 +1,7 @@
 <template>
   <div>
-    <Loader v-if="this.loading"/>
     <router-link v-bind:to="path">
-      <div class="clanek" v-if="!this.loading">
+      <div class="clanek" >
         <h2
           v-if="
             clanek.kategorie === 'pomnicky' ||
@@ -56,7 +55,6 @@
 
 <script>
 import Loader from "./Loader.vue";
-import {displayTestItems} from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 
 export default {
@@ -64,33 +62,16 @@ export default {
   components: { Loader },
   data() {
     return {
-      clanek: {},
-      loading: true,
+      clanek: this.mujClanek,
       apiUrl
     };
   },
   computed: {
     path() {
       return this.stranka === "novepridane"
-        ? `novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
+        ? `/novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`
         : `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
     },
-  },
- 
-  created() {
-   
-      fetch(
-        `${apiUrl}/${this.mujClanek.kategorie}/${this.mujClanek.podkategorie}/${this.mujClanek.id}`,
-        {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      )
-        .then((response) => response.json())
-        .then((data) => {if(!data.temp && (!displayTestItems() ? !data.test : true)) {this.clanek = data}})
-        .then(() => (this.loading = false))
   },
 };
 </script>

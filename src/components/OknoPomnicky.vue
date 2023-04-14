@@ -66,7 +66,7 @@
           <tr>
             <td>Kde se nachází?</td>
             <td>
-              <span v-html="clanek.popisCesty">{{ clanek.popisCesty }}</span>
+              <span v-html="clanek.popisCesty"></span>
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -91,13 +91,13 @@
                 clanek.kategorie === "pomnicky" ? "Kdy vznikl?" : "Kdy vznikla?"
               }}
             </td>
-            <td v-html="clanek.kdyVznikl">{{ clanek.kdyVznikl }}</td>
+            <td v-html="clanek.kdyVznikl" />
           </tr>
 
           <tr>
             <td>Popis:</td>
             <td>
-              <span v-html="clanek.popis">{{ clanek.popis }}</span>
+              <span v-html="clanek.popis" />
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -115,7 +115,7 @@
           <tr>
             <td>Nápis:</td>
             <td>
-              <span v-html="clanek.napis">{{ clanek.napis }}</span>
+              <span v-html="clanek.napis" />
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -133,9 +133,7 @@
           <tr v-if="clanek.kategorie === 'studanky'">
             <td>Využitelnost:</td>
             <td>
-              <span v-html="clanek.vyuzitelnost">{{
-                clanek.vyuzitelnost
-              }}</span>
+              <span v-html="clanek.vyuzitelnost" />
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -153,7 +151,7 @@
           <tr v-if="clanek.kategorie === 'krize'">
             <td>Pověst:</td>
             <td>
-              <span v-html="clanek.povest">{{ clanek.povest }}</span>
+              <span v-html="clanek.povest" />
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -171,7 +169,7 @@
           <tr>
             <td>Poznámka:</td>
             <td>
-              <span v-html="clanek.pozn">{{ clanek.pozn }}</span>
+              <span v-html="clanek.pozn" />
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -289,6 +287,7 @@ export default {
       idMapaUkazat: undefined,
       testData: undefined,
       mojeClanky: [],
+      metadata: [],
       isEdgeChromium: false,
       loading: true,
       names: [],
@@ -365,8 +364,26 @@ export default {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
           sessionStorage.removeItem("scrollY");
         });
+    } else if (this.$route.name === "NovePridaneLong") {
+      fetch(`${this.apiUrl}/novePridane/long`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then(
+          (data) =>
+            (this.mojeClanky = data.filter((item) =>
+              !displayTestItems() ? !item.test : true
+            ))
+        )
+        .then(() => (this.loading = false))
+        .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem("scrollY");
+        });
     }
-
     var isChrome =
       !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
 

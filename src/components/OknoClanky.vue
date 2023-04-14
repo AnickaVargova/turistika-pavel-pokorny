@@ -2,7 +2,10 @@
   <div>
     <Loader v-if="this.loading" />
 
-    <div id="oknoPomnicky" v-if="this.zalozky && !this.loading && this.mojeClanky.length">
+    <div
+      id="oknoPomnicky"
+      v-if="!this.loading && this.mojeClanky.length"
+    >
       <div
         class="kontejnerClanek"
         v-for="(clanek, index) in mojeClanky"
@@ -20,7 +23,6 @@ import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 
-
 export default {
   props: ["stranka", "zalozky"],
   components: { Zalozka, Loader },
@@ -32,48 +34,73 @@ export default {
   },
   created() {
     if (this.$route.name === "NovePridane") {
-      fetch(`${apiUrl}/novePridane`, {
+      fetch(`${apiUrl}/novePridane/long`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
+        .then(
+          (data) =>
+            (this.mojeClanky = data.filter((item) =>
+              !displayTestItems() ? !item.test : true
+            ))
+        )
         .then(() => {
           this.loading = false;
         })
-         .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem('scrollY');
-        });
-    } else if (
-      this.$route.name === "PomnickyKategorie" ||
-      this.$route.name === "SmirciKrizeKategorie" || 
-      this.$route.name === "StudankyKategorie"
-    ) {
-      fetch(
-        `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`,
-        {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      )
-        .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
         .then(() => {
-          this.loading = false;
-        })
-         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem('scrollY');
+          sessionStorage.removeItem("scrollY");
         });
     }
-   
-    else {
-     
+    else if (this.$route.name === "NovePridaneLong") {
+      fetch(`${apiUrl}/novePridane/long`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then(
+          (data) =>
+            (this.mojeClanky = data
+              .filter(
+                (item) =>
+                  item.kategorie === "vypraveni" || item.kategorie === "cesty"
+              )
+              .filter((item) => (!displayTestItems() ? !item.test : true)))
+        )
+        .then(() => {
+          this.loading = false;
+        })
+    } else if (
+      this.$route.name === "PomnickyKategorie" ||
+      this.$route.name === "SmirciKrizeKategorie" ||
+      this.$route.name === "StudankyKategorie"
+    ) {
+      fetch(`${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then(
+          (data) =>
+            (this.mojeClanky = data.filter((item) =>
+              !displayTestItems() ? !item.test : true
+            ))
+        )
+        .then(() => {
+          this.loading = false;
+        })
+        .then(() => {
+          window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          sessionStorage.removeItem("scrollY");
+        });
+    } else {
       fetch(`${apiUrl}/${this.stranka}/1`, {
         method: "GET",
         headers: {
@@ -81,13 +108,18 @@ export default {
         },
       })
         .then((response) => response.json())
-        .then((data) => (this.mojeClanky = data.filter(item => !displayTestItems() ? !item.test : true)))
+        .then(
+          (data) =>
+            (this.mojeClanky = data.filter((item) =>
+              !displayTestItems() ? !item.test : true
+            ))
+        )
         .then(() => {
           this.loading = false;
         })
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem('scrollY');
+          sessionStorage.removeItem("scrollY");
         });
     }
   },
