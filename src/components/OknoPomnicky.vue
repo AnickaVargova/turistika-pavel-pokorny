@@ -374,9 +374,12 @@ export default {
         .then((response) => response.json())
         .then(
           (data) =>
-            (this.mojeClanky = data.filter((item) =>
-              !displayTestItems() ? !item.test : true
-            ))
+            (this.mojeClanky = data
+              .filter((item) => (!displayTestItems() ? !item.test : true))
+              .filter(
+                (item) =>
+                  item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
+              ))
         )
         .then(() => (this.loading = false))
         .then(() => {
