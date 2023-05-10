@@ -116,7 +116,7 @@
         </div>
       </div>
 
-      <div id="galerieClanek" v-if="detailClanku.galerie">
+      <div id="galerieClanek" v-if="detailClanku.galerie && detailClanku.kategorie !== 'cesty'">
         <div
           class="obrazek"
           v-for="(obrazek, index) in detailClanku.galerie"
