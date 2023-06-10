@@ -1,0 +1,35 @@
+<template>
+    <div class = 'zalozkaSmall' v-on:click="goToPar">
+        {{zalozka.text}}
+    </div>
+</template>
+
+<script>
+export default {
+  props: ["zalozka"],
+ 
+  methods: {
+    goToPar(){
+        sessionStorage.setItem("paragraphId", this.zalozka.paragraphId);
+    }
+  }
+};
+</script>
+
+<style>
+.zalozkaSmall {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #cae0f0;
+    color: #2c3e50;
+}
+
+.zalozkaSmall:hover {
+  border: 1px solid black;
+  color: black;
+  background-color: #b7d8f0;
+}
+
+</style>

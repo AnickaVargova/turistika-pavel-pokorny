@@ -35,7 +35,15 @@
         Nahoru
       </div>
       <h1>{{ detailClanku.nazev }}</h1>
-
+      <div class="smallZalozkaTop">
+        <div
+          v-for="zalozka in detailClanku.zalozky"
+          v-bind:key="zalozka.paragraphId"
+          v-on:click="goToParagraph"
+        >
+          <SmallZalozka :zalozka="zalozka" />
+        </div>
+      </div>
       <h3>{{ detailClanku.datum }}</h3>
 
       <div id="textClanku">
@@ -43,6 +51,7 @@
           v-for="(odstavec, index) in detailClanku.text"
           v-bind:key="index"
           class="odstavec"
+          v-bind:id="String(odstavec.paragraphId)"
         >
           <router-link
             v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
@@ -66,7 +75,7 @@
             </figure>
           </router-link>
           <p>
-            <span v-html="odstavec.textOdstavce"/>
+            <span v-html="odstavec.textOdstavce" />
             <span v-if="odstavec.vnitrniOdkazy">
               <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
             </span>
@@ -116,7 +125,10 @@
         </div>
       </div>
 
-      <div id="galerieClanek" v-if="detailClanku.galerie && detailClanku.kategorie !== 'cesty'">
+      <div
+        id="galerieClanek"
+        v-if="detailClanku.galerie && detailClanku.kategorie !== 'cesty'"
+      >
         <div
           class="obrazek"
           v-for="(obrazek, index) in detailClanku.galerie"
@@ -146,9 +158,10 @@ import Klikaci from "./../components/Klikaci.vue";
 import Loader from "../components/Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
+import SmallZalozka from "../components/SmallZalozka.vue";
 
 export default {
-  components: { Klikaci, Loader },
+  components: { Klikaci, Loader, SmallZalozka },
   data() {
     return {
       detailClanku: undefined,
@@ -161,6 +174,15 @@ export default {
   methods: {
     goToTop() {
       window.scroll(0, 0);
+    },
+
+    goToParagraph() {
+      const paragraph = document.getElementById(
+        String(sessionStorage.getItem("paragraphId"))
+      );
+      const top = paragraph?.getBoundingClientRect().top;
+      window.scrollTo(0, top);
+      sessionStorage.removeItem("paragraphId");
     },
   },
 
@@ -178,14 +200,30 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           if (!data.temp && (!displayTestItems() ? !data.test : true))
-            this.detailClanku = data;
+            //TODO remove when api is updated
+            this.detailClanku = {
+              ...data,
+              text: [
+                ...data.text,
+                { paragraphId: 1, textOdstavce: "blabla" },
+                { paragraphId: 3, textOdstavce: "bleble" },
+              ],
+              zalozky: [
+                { text: "zalozka1", paragraphId: 1 },
+                { text: "zalozka2", paragraphId: 3 },
+              ],
+            };
         })
         .then(() => {
           this.loading = false;
         })
-         .then(() => {
+        .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem('scrollY');
+          sessionStorage.removeItem("scrollY");
+        })
+        .then(() => {
+          this.goToParagraph(sessionStorage.getItem("paragraphId"));
+          sessionStorage.removeItem("paragraphId");
         });
     } else if (
       this.$route.name === "DetailCesty" ||
@@ -204,6 +242,9 @@ export default {
         })
         .then(() => {
           this.loading = false;
+        })
+        .then(() => {
+          this.goToParagraph();
         });
     }
   },
@@ -262,6 +303,12 @@ export default {
 #tlacitkoDomuDetail:hover,
 #tlacitkoNahoruDetail:hover {
   background-color: #898a8b;
+}
+
+.smallZalozkaTop {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: 4;
 }
 
 @media (max-width: 600px) {

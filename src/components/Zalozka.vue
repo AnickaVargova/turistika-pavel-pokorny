@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link v-bind:to="path">
-      <div class="clanek" >
+      <div class="clanek">
         <h2
           v-if="
             clanek.kategorie === 'pomnicky' ||
@@ -15,7 +15,18 @@
         <h2 v-else-if="clanek.kategorie === 'krize'">
           {{ clanek.jmeno }}
         </h2>
-        <h4 v-if="clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'">
+        <div class="smallZalozkaWrapper">
+          <SmallZalozka
+            v-for="zalozka in clanek.zalozky"
+            v-bind:key="zalozka.paragraphId"
+            :zalozka="zalozka"
+          />
+        </div>
+        <h4
+          v-if="
+            clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
+          "
+        >
           {{ clanek.jmeno }}
         </h4>
         <h4 v-else-if="clanek.kategorie === 'krize'">
@@ -23,10 +34,11 @@
         </h4>
         <h3
           v-if="
-            clanek.kategorie.trim() === 'cesty' || clanek.kategorie.trim() === 'vypraveni'
+            clanek.kategorie.trim() === 'cesty' ||
+            clanek.kategorie.trim() === 'vypraveni'
           "
         >
-          {{ clanek.datum }} 
+          {{ clanek.datum }}
         </h3>
         <h3
           v-if="
@@ -43,7 +55,12 @@
             v-if="clanek.fotkaUvod"
             v-bind:src="
               clanek.fotkaUvod &&
-              `${apiUrl}/photos/small/${clanek.kategorie.trim() ==='vypraveni' || clanek.kategorie.trim() === 'cesty' ? clanek.fotkaUvod.trim() : clanek.fotkaUvod.fotka.trim() }`
+              `${apiUrl}/photos/small/${
+                clanek.kategorie.trim() === 'vypraveni' ||
+                clanek.kategorie.trim() === 'cesty'
+                  ? clanek.fotkaUvod.trim()
+                  : clanek.fotkaUvod.fotka.trim()
+              }`
             "
             v-bind:alt="clanek.jmeno"
           />
@@ -56,14 +73,21 @@
 <script>
 import Loader from "./Loader.vue";
 import { apiUrl } from "../utils/url";
+import SmallZalozka from "./SmallZalozka.vue";
 
 export default {
   props: ["mujClanek", "stranka"],
-  components: { Loader },
+  components: { Loader, SmallZalozka },
   data() {
     return {
-      clanek: this.mujClanek,
-      apiUrl
+      clanek: {
+        ...this.mujClanek,
+        zalozky: [
+          { text: "zalozka1", paragraphId: 1 },
+          { text: "zalozka2", paragraphId: 3 },
+        ],
+      },
+      apiUrl,
     };
   },
   computed: {
@@ -76,4 +100,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+.smallZalozkaWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>

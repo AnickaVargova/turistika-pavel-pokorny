@@ -2,10 +2,7 @@
   <div>
     <Loader v-if="this.loading" />
 
-    <div
-      id="oknoPomnicky"
-      v-if="!this.loading && this.mojeClanky.length"
-    >
+    <div id="oknoPomnicky" v-if="!this.loading && this.mojeClanky.length">
       <div
         class="kontejnerClanek"
         v-for="(clanek, index) in mojeClanky"
@@ -54,8 +51,7 @@ export default {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
           sessionStorage.removeItem("scrollY");
         });
-    }
-    else if (this.$route.name === "NovePridaneLong") {
+    } else if (this.$route.name === "NovePridaneLong") {
       fetch(`${apiUrl}/novePridane/long`, {
         method: "GET",
         headers: {
@@ -74,7 +70,7 @@ export default {
         )
         .then(() => {
           this.loading = false;
-        })
+        });
     } else if (
       this.$route.name === "PomnickyKategorie" ||
       this.$route.name === "SmirciKrizeKategorie" ||
@@ -120,7 +116,7 @@ export default {
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
           sessionStorage.removeItem("scrollY");
-        });
+        })
     }
   },
 };
@@ -135,7 +131,6 @@ export default {
   margin-bottom: 5px;
   border-radius: 10px;
   padding: 10px;
-  max-height: 200px;
   max-width: 70vw;
   color: rgb(87, 81, 81);
 }
