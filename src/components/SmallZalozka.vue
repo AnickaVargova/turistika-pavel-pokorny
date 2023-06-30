@@ -20,10 +20,13 @@ export default {
 .zalozkaSmall {
     border: 1px solid grey;
     padding: 5px;
-    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
     background-color: #cae0f0;
     color: #2c3e50;
+    display:flex;
+    align-items: center;
 }
 
 .zalozkaSmall:hover {

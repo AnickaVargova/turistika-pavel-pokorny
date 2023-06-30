@@ -139,7 +139,6 @@ export default {
   grid-row: 1/2;
   grid-column: 1/2;
   margin: 15px;
-  margin-bottom: 0;
 }
 
 .clanek h4 {
@@ -155,8 +154,9 @@ export default {
   grid-column: 1/2;
   justify-items: center;
   align-items: center;
-  margin: 5px;
+  margin: 10px 5px 5px 5px;
   margin-left: 15px;
+  display: flex;
 }
 
 .clanekFoto {

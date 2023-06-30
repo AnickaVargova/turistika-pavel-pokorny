@@ -82,10 +82,7 @@ export default {
     return {
       clanek: {
         ...this.mujClanek,
-        zalozky: [
-          { text: "zalozka1", paragraphId: 1 },
-          { text: "zalozka2", paragraphId: 3 },
-        ],
+        zalozky: this.mujClanek.zalozky
       },
       apiUrl,
     };
@@ -105,5 +102,6 @@ export default {
 .smallZalozkaWrapper {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 15px;
 }
 </style>

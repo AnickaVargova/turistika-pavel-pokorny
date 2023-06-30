@@ -51,7 +51,7 @@
           v-for="(odstavec, index) in detailClanku.text"
           v-bind:key="index"
           class="odstavec"
-          v-bind:id="String(odstavec.paragraphId)"
+          v-bind:id="String(odstavec.id)"
         >
           <router-link
             v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
@@ -201,18 +201,7 @@ export default {
         .then((data) => {
           if (!data.temp && (!displayTestItems() ? !data.test : true))
             //TODO remove when api is updated
-            this.detailClanku = {
-              ...data,
-              text: [
-                ...data.text,
-                { paragraphId: 1, textOdstavce: "blabla" },
-                { paragraphId: 3, textOdstavce: "bleble" },
-              ],
-              zalozky: [
-                { text: "zalozka1", paragraphId: 1 },
-                { text: "zalozka2", paragraphId: 3 },
-              ],
-            };
+            this.detailClanku = data
         })
         .then(() => {
           this.loading = false;
@@ -309,6 +298,8 @@ export default {
   display: flex;
   flex-wrap: wrap;
   grid-row: 4;
+  grid-column: 1/5;
+  padding: 15px 0;
 }
 
 @media (max-width: 600px) {
