@@ -154,7 +154,7 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => {this.pocetNovych = data.length})
+      .then((data) => {this.pocetNovych = data.filter(item => !item.test).length})
       .then(() => (this.loading.novePridane = false));
   },
   
