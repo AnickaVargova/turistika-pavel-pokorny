@@ -49,9 +49,11 @@ export default {
         })
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
+          console.log('scrolling');
           sessionStorage.removeItem("scrollY");
         });
-    } else if (this.$route.name === "NovePridaneLong") {
+    }
+    else if (this.$route.name === "NovePridaneLong") {
       fetch(`${apiUrl}/novePridane/long`, {
         method: "GET",
         headers: {
@@ -70,7 +72,11 @@ export default {
         )
         .then(() => {
           this.loading = false;
-        });
+        })
+        // .then(() => {
+        //   window.scrollTo(0, sessionStorage.getItem("scrollY"));
+        //   sessionStorage.removeItem("scrollY");
+        // });
     } else if (
       this.$route.name === "PomnickyKategorie" ||
       this.$route.name === "SmirciKrizeKategorie" ||
@@ -94,6 +100,7 @@ export default {
         })
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
+           console.log('scrolling');
           sessionStorage.removeItem("scrollY");
         });
     } else {
@@ -115,8 +122,9 @@ export default {
         })
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
+           console.log('scrolling');
           sessionStorage.removeItem("scrollY");
-        })
+        });
     }
   },
 };

@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link v-bind:to="path">
-      <div class="clanek">
+      <div class="clanek" >
         <h2
           v-if="
             clanek.kategorie === 'pomnicky' ||
