@@ -201,7 +201,6 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           if (!data.temp && (!displayTestItems() ? !data.test : true))
-            //TODO remove when api is updated
             this.detailClanku = data
         })
         .then(() => {

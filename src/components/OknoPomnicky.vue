@@ -67,7 +67,6 @@
             <td>Kde se nachází?</td>
             <td>
               <span v-html="clanek.popisCesty"></span>
-              <span v-html="clanek.popisCesty"></span>
               <Klikaci
                 v-if="
                   clanek.vnitrniOdkazy &&
@@ -338,7 +337,6 @@ export default {
         })
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          console.log("scrolling");
           sessionStorage.removeItem("scrollY");
         });
     } else if (
@@ -376,19 +374,16 @@ export default {
         .then((response) => response.json())
         .then(
           (data) =>
-            (this.mojeClanky = data.filter((item) =>
-              !displayTestItems() ? !item.test : true
-            ))
+          (this.mojeClanky = data
+              .filter((item) => (!displayTestItems() ? !item.test : true))
+              .filter(
+                (item) =>
+                  item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
+              ))
         )
         .then(() => (this.loading = false))
         .then(() => {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          // console.log(
-          //   "scrolling long",
-          //   sessionStorage.getItem("scrollY"),
-          //   "height:",
-          //   document.getElementById("pomnicky").scrollHeight
-          // );
           sessionStorage.removeItem("scrollY");
         });
     }
