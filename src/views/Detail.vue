@@ -75,7 +75,6 @@
             </figure>
           </router-link>
           <p>
-            <span v-html="odstavec.textOdstavce"/>
             <span v-html="odstavec.textOdstavce" />
             <span v-if="odstavec.vnitrniOdkazy">
               <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
