@@ -13,6 +13,10 @@
         <label class="label">Heslo:</label>
         <input class="input" type="password" v-model="authObj.password" />
       </div>
+      <div class="bottom">
+        <span>Pamatovat si mě na tomto počítači?</span>
+        <input type="checkbox" v-model="authObj.permanent" />
+      </div>
       <button id="authButton" v-on:click="authenticate">Odeslat</button>
     </div>
   </div>
@@ -31,6 +35,7 @@ export default {
       authObj: {
         username: "",
         password: "",
+        permanent: false
       },
     };
   },
@@ -92,6 +97,13 @@ export default {
 
 .label {
   align-self: center;
+}
+
+.bottom {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  justify-content: space-between;
 }
 
 #error {
