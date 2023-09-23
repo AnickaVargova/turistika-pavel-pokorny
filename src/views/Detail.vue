@@ -114,10 +114,7 @@
           <div id="mapa">
             <iframe
               v-if="odstavec.odkazMapa"
-              style="border: none"
               v-bind:src="odstavec.odkazMapa.trim()"
-              width="90%"
-              height="400"
             >
               frameborder="0" ></iframe
             >
@@ -240,6 +237,19 @@ export default {
 </script>
 
 <style>
+
+iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  iframe {
+  height: 400px;
+}
+}
+
 #detailClanku {
   background-color: beige;
   padding: 2%;
