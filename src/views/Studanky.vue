@@ -29,6 +29,7 @@ export default {
     };
   },
   created() {
+    window.dataLayer.push({'page': location.pathname, 'id': '1'});
     fetch(`${apiUrl}/studanky/categoryCount`, {
       method: "GET",
       headers: {

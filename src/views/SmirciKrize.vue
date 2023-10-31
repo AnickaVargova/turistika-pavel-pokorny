@@ -55,6 +55,7 @@ export default {
   },
 
   created() {
+    window.dataLayer.push({'page': location.pathname, 'id': '2'});
     fetch(`${apiUrl}/krize/categoryCount`, {
       method: "GET",
       headers: {
