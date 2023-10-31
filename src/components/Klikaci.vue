@@ -3,32 +3,42 @@
     <span v-for="(odkaz, index) in odkazy" v-bind:key="index">
       <span>
         <span v-if="odkaz.odkazKategorie === 'url'">
-          <a v-bind:href="odkaz.targetUrl" target="_blank" class="vnitrniOdkaz">{{
-           odkaz.textOdkazu
-          }}</a>
-        </span>  
+          <a
+            v-bind:href="odkaz.targetUrl"
+            target="_blank"
+            class="vnitrniOdkaz"
+            >{{ odkaz.textOdkazu }}</a
+          >
+        </span>
+
         <router-link
-           v-else-if="$route.name === 'SmirciKrize'"
+          v-else-if="odkaz.odkazKategorie === 'vypraveni'"
           class="vnitrniOdkaz"
-          v-bind:to="`/krize/vypraveni/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`"
+          v-bind:to="`/vypraveni/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`"
           >{{ odkaz.textOdkazu }}</router-link
         >
-        <router-link
-          v-else-if="odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz"
-          class="vnitrniOdkaz"
-          v-bind:to="`/${odkaz.odkazKategorie.trim()}/${
-            odkaz.odkazPodkategorie
-          }/${odkaz.vnitrniOdkaz}`"
-          >{{ odkaz.textOdkazu }}</router-link
-        >
-        <router-link
-          v-else-if="odkaz.odkazKategorie"
-          class="vnitrniOdkaz"
-          v-bind:to="`/${odkaz.odkazKategorie}`"
-          >{{ odkaz.textOdkazu }}</router-link
-        >
+        <span v-else-if="odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz">
+          <a
+            v-bind:href="`/${odkaz.odkazKategorie.trim()}/${
+              odkaz.odkazPodkategorie
+            }/${odkaz.vnitrniOdkaz}`"
+            target="_blank"
+            class="vnitrniOdkaz"
+          >
+            {{ odkaz.textOdkazu }}
+          </a>
+        </span>
+        <span v-else-if="odkaz.odkazKategorie">
+          <a
+            v-bind:href="`/${odkaz.odkazKategorie}`"
+            target="_blank"
+            class="vnitrniOdkaz"
+          >
+            {{ odkaz.textOdkazu }}
+          </a>
+        </span>
       </span>
-      <span v-html="odkaz.zaOdkazem">{{ odkaz.zaOdkazem }}</span>
+      <span v-html="odkaz.zaOdkazem"></span>
     </span>
   </span>
 </template>
@@ -53,7 +63,7 @@ export default {
 .vnitrniOdkaz {
   color: rgb(59, 43, 204);
   text-decoration: underline;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .vnitrniOdkaz:hover,
