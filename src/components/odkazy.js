@@ -10,7 +10,7 @@ const odkazy = [
     { adresa: " http://www.vetrelciavolavky.cz/", jmeno: "vetrelciavolavky.cz", popis: "O sochách a sochařích doby normalizace v ČR." },
     { adresa: " http://druhebrno.smerem.cz/Tema/Druh%C3%A9%20Brno", jmeno: "druhebrno.smerem.cz", popis: "Brněnský vlastivědný web píše o podzemí, nádražích, vlečkách a zapomenutých částech města." },
     { adresa: "https://ivcajirka.estranky.cz/", jmeno: "ivcajirka.estranky.cz", popis: "Dobře udělané botanické výpravy kolem Brna, bohužel tvůrci se v posledních letech odmlčeli."},
-
+    { adresa: "https://multipage-anna.netlify.app/", jmeno: "testovací stránky", popis: "Jen pro potřeby vývojářského týmu - nic zvláštního tam není"},
 ];
 
 export default odkazy;
