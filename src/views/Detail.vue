@@ -197,7 +197,7 @@ export default {
         .then((response) => response.json())
         .then((data) => {
           if (!data.temp && (!displayTestItems() ? !data.test : true))
-            this.detailClanku = data
+            this.detailClanku = data;
         })
         .then(() => {
           this.loading = false;
@@ -207,8 +207,10 @@ export default {
           sessionStorage.removeItem("scrollY");
         })
         .then(() => {
-          this.goToParagraph(sessionStorage.getItem("paragraphId"));
-          sessionStorage.removeItem("paragraphId");
+          if (sessionStorage.getItem("paragraphId") !== null) {
+            this.goToParagraph(sessionStorage.getItem("paragraphId"));
+            sessionStorage.removeItem("paragraphId");
+          }
         });
     } else if (
       this.$route.name === "DetailCesty" ||
@@ -237,7 +239,6 @@ export default {
 </script>
 
 <style>
-
 iframe {
   width: 100%;
   height: 700px;
@@ -246,8 +247,8 @@ iframe {
 
 @media (max-width: 600px) {
   iframe {
-  height: 400px;
-}
+    height: 400px;
+  }
 }
 
 #detailClanku {
