@@ -10,13 +10,6 @@
             >{{ odkaz.textOdkazu }}</a
           >
         </span>
-
-        <router-link
-          v-else-if="odkaz.odkazKategorie === 'vypraveni'"
-          class="vnitrniOdkaz"
-          v-bind:to="`/vypraveni/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`"
-          >{{ odkaz.textOdkazu }}</router-link
-        >
         <span v-else-if="odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz">
           <a
             v-bind:href="`/${odkaz.odkazKategorie.trim()}/${
