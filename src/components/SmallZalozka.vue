@@ -1,5 +1,5 @@
 <template>
-    <div class = 'zalozkaSmall' v-on:click="goToPar">
+    <div class = 'zalozkaSmall' v-on:click="goToPar" v-if="zalozka.text">
         {{zalozka.text}}
     </div>
 </template>

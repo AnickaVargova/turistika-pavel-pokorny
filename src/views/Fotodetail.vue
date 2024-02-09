@@ -3,7 +3,7 @@
     <Loader v-if="this.loading" />
     <div id="fotodetail" v-if="!this.loading">
         <div
-          v-if="shouldDisplayArrows && currentIndex > 0"
+          v-if="currentIndex > 0"
           id="arrowLeft"
           v-on:click="slidePhoto('left')"
         />
@@ -29,7 +29,7 @@
         ><button class="commonButton">Zpět</button></a
       >
         <div
-          v-if="shouldDisplayArrows && galerie.length > currentIndex + 1"
+          v-if="galerie.length > currentIndex + 1"
           id="arrowRight"
           v-on:click="slidePhoto('right')"
         />
@@ -61,9 +61,6 @@ export default {
       apiUrl,
       galerie: [],
       currentIndex: null,
-      shouldDisplayArrows: ["pomnicky", "krize", "studanky"].includes(
-        this.$route.params.kategorie
-      ),
     };
   },
 

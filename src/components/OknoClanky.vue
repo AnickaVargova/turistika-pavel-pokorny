@@ -29,6 +29,14 @@ export default {
       loading: true,
     };
   },
+
+  // methods: {
+  //   setPositionCookie() {
+  //     console.log(window.scrollY);
+  //     sessionStorage.setItem("positionY", String(window.scrollY));
+  //   },
+  // },
+
   created() {
     if (this.$route.name === "NovePridane") {
       fetch(`${apiUrl}/novePridane/long`, {
@@ -51,8 +59,7 @@ export default {
           window.scrollTo(0, sessionStorage.getItem("scrollY"));
           sessionStorage.removeItem("scrollY");
         });
-    }
-    else if (this.$route.name === "NovePridaneLong") {
+    } else if (this.$route.name === "NovePridaneLong") {
       fetch(`${apiUrl}/novePridane/long`, {
         method: "GET",
         headers: {
@@ -71,7 +78,7 @@ export default {
         )
         .then(() => {
           this.loading = false;
-        })
+        });
     } else if (
       this.$route.name === "PomnickyKategorie" ||
       this.$route.name === "SmirciKrizeKategorie" ||

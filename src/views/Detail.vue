@@ -28,6 +28,12 @@
       >
         <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
+      <router-link v-else-if="this.$route.name === 'DetailVypraveni'" to="/vypraveni">
+        <div class="commonButton zpetNaClanky">Zpět na články</div>
+      </router-link>
+      <router-link v-else-if="this.$route.name === 'DetailCesty'" to="/cesty">
+        <div class="commonButton zpetNaClanky">Zpět na články</div>
+      </router-link>
       <span v-else v-on:click="$router.go(-1)">
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </span>
