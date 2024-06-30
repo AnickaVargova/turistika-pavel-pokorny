@@ -28,7 +28,10 @@
       >
         <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
-      <router-link v-else-if="this.$route.name === 'DetailVypraveni'" to="/vypraveni">
+      <router-link
+        v-else-if="this.$route.name === 'DetailVypraveni'"
+        to="/vypraveni"
+      >
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </router-link>
       <router-link v-else-if="this.$route.name === 'DetailCesty'" to="/cesty">
@@ -47,7 +50,7 @@
           v-bind:key="zalozka.paragraphId"
           v-on:click="goToParagraph"
         >
-          <SmallZalozka :zalozka="zalozka" />
+          <SmallZalozka :zalozka="zalozka" v-if="zalozka.text.length" />
         </div>
       </div>
       <h3>{{ detailClanku.datum }}</h3>
