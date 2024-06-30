@@ -50,7 +50,10 @@
           v-bind:key="zalozka.paragraphId"
           v-on:click="goToParagraph"
         >
-          <SmallZalozka :zalozka="zalozka" v-if="zalozka.text.length" />
+          <SmallZalozka
+            :zalozka="zalozka"
+            v-if="zalozka.text.length && zalozka.text.position"
+          />
         </div>
       </div>
       <h3>{{ detailClanku.datum }}</h3>
