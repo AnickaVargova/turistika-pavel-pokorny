@@ -52,7 +52,7 @@
         >
           <SmallZalozka
             :zalozka="zalozka"
-            v-if="zalozka.text.length && zalozka.text.position"
+            v-if="zalozka.text.length && zalozka.position"
           />
         </div>
       </div>
