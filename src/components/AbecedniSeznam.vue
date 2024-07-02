@@ -8,13 +8,10 @@
         v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
         class="kontejnerJmeno"
         v-bind:style="{
-          backgroundColor: `${
-            stranka === 'krize' ? '#e9f4f5' : '#e7e0d0'
-          }`,
+          backgroundColor: `${stranka === 'krize' ? '#e9f4f5' : '#e7e0d0'}`,
         }"
-      >
-        {{ clanek.jmeno }}
-      </router-link>
+        v-html="clanek.jmeno"
+      />
     </div>
   </div>
 </template>
@@ -58,11 +55,15 @@ export default {
     })
       .then((response) => response.json())
       .then((data) => {
-        data = data.names.filter(item => !item.temp && (!displayTestItems() ? !item.test : true)).sort((a, b) => {
-          return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
-            sensitivity: "accent",
+        data = data.names
+          .filter(
+            (item) => !item.temp && (!displayTestItems() ? !item.test : true)
+          )
+          .sort((a, b) => {
+            return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
+              sensitivity: "accent",
+            });
           });
-        });
         this.seznam = removeDuplicates(data);
       })
       .then(() => (this.loading = false));

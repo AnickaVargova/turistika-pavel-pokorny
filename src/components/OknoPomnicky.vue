@@ -23,7 +23,15 @@
         v-bind:key="clanek.id"
       >
         <h2 style="text-align: center">
-          {{ clanek.nazev ? clanek.nazev : clanek.jmeno
+          {{
+            clanek.nazev
+              ? clanek.nazev
+              : clanek.jmeno.slice(
+                  0,
+                  clanek.jmeno.indexOf("<") < 0
+                    ? clanek.jmeno.length
+                    : clanek.jmeno.indexOf("<")
+                )
           }}{{
             clanek.kategorie === "krize" && $route.name === "NovePridane"
               ? "  (smírčí kříž)"
@@ -59,7 +67,14 @@
           >
             <td>Jméno:</td>
             <td>
-              <strong>{{ clanek.jmeno }}</strong>
+              <strong>{{
+                clanek.jmeno.slice(
+                  0,
+                  clanek.jmeno.indexOf("<") < 0
+                    ? clanek.jmeno.length
+                    : clanek.jmeno.indexOf("<")
+                )
+              }}</strong>
             </td>
           </tr>
 
@@ -374,7 +389,7 @@ export default {
         .then((response) => response.json())
         .then(
           (data) =>
-          (this.mojeClanky = data
+            (this.mojeClanky = data
               .filter((item) => (!displayTestItems() ? !item.test : true))
               .filter(
                 (item) =>

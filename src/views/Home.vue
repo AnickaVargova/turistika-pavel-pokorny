@@ -6,7 +6,13 @@
 
     <div id="transbox"></div>
     <div v-bind:class="{ responsive: responsive }" id="uvodniText">
-      <h1>{{isTest ? 'Vítejte na testovacím prostředí' : 'Vítejte na našich webových stránkách.'}}</h1>
+      <h1>
+        {{
+          isTest
+            ? "Vítejte na testovacím prostředí"
+            : "Vítejte na našich webových stránkách."
+        }}
+      </h1>
       <p>
         Naše webové stránky se zabývají regionální vlastivědou v{{ "\xa0" }}Brně
         a okolí, turistikou a cestováním po republice i po Evropě. Popisují
@@ -48,13 +54,13 @@
         >
       </div>
       <div>
-        <a v-bind:href="mapaUrl" target="_self" id="mapabutton">
-          Mapa </a
-        >
+        <a v-bind:href="mapaUrl" target="_self" id="mapabutton"> Mapa </a>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
-        <router-link v-else to="/pomnicky">Pomníčky ({{ pomnicky }}) </router-link>
+        <router-link v-else to="/pomnicky"
+          >Pomníčky ({{ pomnicky }})
+        </router-link>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.krize" />
@@ -62,15 +68,19 @@
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.studanky" />
-        <router-link v-else to="/studanky">Studánky ({{ studanky }})</router-link>
+        <router-link v-else to="/studanky"
+          >Studánky ({{ studanky }})</router-link
+        >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.cesty" />
         <router-link v-else to="/cesty">Cesty ({{ cesty }})</router-link>
-</div>
+      </div>
       <div>
         <Loader class="homeButton" v-if="loading.vypraveni" />
-        <router-link v-else to="/vypraveni">Vyprávění ({{ vypraveni }})</router-link>
+        <router-link v-else to="/vypraveni"
+          >Vyprávění ({{ vypraveni }})</router-link
+        >
       </div>
       <div>
         <router-link to="/onas">O nás</router-link>
@@ -102,11 +112,11 @@
 
 <script>
 import Loader from "../components/Loader.vue";
-import { displayTestItems} from "../utils/displayTestItems";
+import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl, testUrl, mapaUrl } from "../utils/url";
 
 export default {
-  components: { Loader},
+  components: { Loader },
   data() {
     return {
       isTest: location.origin === testUrl,
@@ -123,9 +133,9 @@ export default {
         krize: true,
         studanky: true,
         cesty: true,
-        vypraveni: true
+        vypraveni: true,
       },
-      mapaUrl
+      mapaUrl,
     };
   },
 
@@ -135,17 +145,21 @@ export default {
     },
   },
   created() {
-  
-    ['pomnicky', 'krize', 'studanky', 'vypraveni', 'cesty'].map(kategorie => {
-    fetch(`${apiUrl}/${kategorie}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => (this[kategorie] = data.names.filter(item => !item.temp && (!displayTestItems() ? !item.test : true)).length))
-      .then(() => (this.loading[kategorie] = false));
+    ["pomnicky", "krize", "studanky", "vypraveni", "cesty"].map((kategorie) => {
+      fetch(`${apiUrl}/${kategorie}`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then(
+          (data) =>
+            (this[kategorie] = data.names.filter(
+              (item) => !item.temp && (!displayTestItems() ? !item.test : true)
+            ).length)
+        )
+        .then(() => (this.loading[kategorie] = false));
     });
     fetch(`${apiUrl}/novePridane`, {
       method: "GET",
@@ -154,10 +168,11 @@ export default {
       },
     })
       .then((response) => response.json())
-      .then((data) => {this.pocetNovych = data.filter(item => !item.test).length})
+      .then((data) => {
+        this.pocetNovych = data.filter((item) => !item.test).length;
+      })
       .then(() => (this.loading.novePridane = false));
   },
-  
 };
 </script>
 
@@ -359,12 +374,14 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  .nav a, .nav .homeButton {
+  .nav a,
+  .nav .homeButton {
     display: none;
   }
 }
 
-.nav.responsive a, .nav.responsive.homeButton {
+.nav.responsive a,
+.nav.responsive.homeButton {
   display: flex;
 }
 

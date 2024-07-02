@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link v-bind:to="path">
-      <div class="clanek" >
+      <div class="clanek">
         <h2
           v-if="
             clanek.kategorie === 'pomnicky' ||
@@ -13,7 +13,14 @@
           {{ clanek.nazev }}
         </h2>
         <h2 v-else-if="clanek.kategorie === 'krize'">
-          {{ clanek.jmeno }}
+          {{
+            clanek.jmeno.slice(
+              0,
+              clanek.jmeno.indexOf("<") < 0
+                ? clanek.jmeno.length
+                : clanek.jmeno.indexOf("<")
+            )
+          }}
         </h2>
         <div class="smallZalozkaWrapper">
           <SmallZalozka
@@ -27,7 +34,14 @@
             clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
           "
         >
-          {{ clanek.jmeno }}
+          {{
+            clanek.jmeno.slice(
+              0,
+              clanek.jmeno.indexOf("<") < 0
+                ? clanek.jmeno.length
+                : clanek.jmeno.indexOf("<")
+            )
+          }}
         </h4>
         <h4 v-else-if="clanek.kategorie === 'krize'">
           Číslo v evidenci: {{ clanek.cisloEvid }}
@@ -82,7 +96,7 @@ export default {
     return {
       clanek: {
         ...this.mujClanek,
-        zalozky: this.mujClanek.zalozky
+        zalozky: this.mujClanek.zalozky,
       },
       apiUrl,
     };
@@ -98,7 +112,6 @@ export default {
 </script>
 
 <style>
-
 .smallZalozkaWrapper {
   display: flex;
   flex-wrap: wrap;
