@@ -33,16 +33,8 @@
           v-if="
             clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
           "
-        >
-          {{
-            clanek.jmeno.slice(
-              0,
-              clanek.jmeno.indexOf("<") < 0
-                ? clanek.jmeno.length
-                : clanek.jmeno.indexOf("<")
-            )
-          }}
-        </h4>
+          v-html="clanek.jmeno"
+        ></h4>
         <h4 v-else-if="clanek.kategorie === 'krize'">
           Číslo v evidenci: {{ clanek.cisloEvid }}
         </h4>
