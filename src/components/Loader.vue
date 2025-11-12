@@ -8,12 +8,8 @@
 
 <script>
 export default {
-  data() {
-    return {
-     
-    }
-  }
-}
+  // No data or methods needed for this simple component
+};
 </script>
 
 <style>

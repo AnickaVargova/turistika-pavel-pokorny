@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Loader v-if="this.loading" />
+    <Loader v-if="loading" />
 
-    <div id="oknoPomnicky" v-if="!this.loading && this.mojeClanky.length">
+    <div v-if="!loading && mojeClanky.length" id="oknoPomnicky">
       <div
-        class="kontejnerClanek"
         v-for="(clanek, index) in mojeClanky"
-        v-bind:key="index"
+        :key="index"
+        class="kontejnerClanek"
       >
-        <Zalozka v-bind:mujClanek="clanek" v-bind:stranka="stranka" />
+        <Zalozka :mujClanek="clanek" :stranka="stranka" />
       </div>
     </div>
   </div>
@@ -20,112 +20,112 @@ import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 
+// Route name constants
+const CATEGORY_ROUTES = [
+  "PomnickyKategorie",
+  "SmirciKrizeKategorie",
+  "StudankyKategorie",
+];
+
 export default {
-  props: ["stranka", "zalozky"],
+  props: {
+    stranka: {
+      type: String,
+      required: true,
+    },
+    zalozky: {
+      type: Boolean,
+      default: true,
+    },
+  },
   components: { Zalozka, Loader },
   data() {
     return {
       mojeClanky: [],
       loading: true,
+      error: null,
     };
   },
 
-  // methods: {
-  //   setPositionCookie() {
-  //     console.log(window.scrollY);
-  //     sessionStorage.setItem("positionY", String(window.scrollY));
-  //   },
-  // },
+  computed: {
+    routeName() {
+      return this.$route.name;
+    },
+  },
 
-  created() {
-    if (this.$route.name === "NovePridane") {
-      fetch(`${apiUrl}/novePridane/long`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this.mojeClanky = data.filter((item) =>
-              !displayTestItems() ? !item.test : true
-            ))
-        )
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
+  async created() {
+    await this.fetchArticles();
+  },
+
+  methods: {
+    filterTestItems(data) {
+      const showTestItems = displayTestItems();
+      return data.filter((item) => showTestItems || !item.test);
+    },
+
+    restoreScrollPosition() {
+      const scrollY = sessionStorage.getItem("scrollY");
+      if (scrollY) {
+        window.scrollTo(0, Number(scrollY));
+        sessionStorage.removeItem("scrollY");
+      }
+    },
+
+    async fetchArticles() {
+      try {
+        this.loading = true;
+        this.error = null;
+
+        let url;
+        let additionalFilter = null;
+
+        if (this.routeName === "NovePridane") {
+          url = `${apiUrl}/novePridane/long`;
+        } else if (this.routeName === "NovePridaneLong") {
+          url = `${apiUrl}/novePridane/long`;
+          additionalFilter = (item) =>
+            item.kategorie === "vypraveni" || item.kategorie === "cesty";
+        } else if (CATEGORY_ROUTES.includes(this.routeName)) {
+          url = `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`;
+        } else {
+          url = `${apiUrl}/${this.stranka}/1`;
+        }
+
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
         });
-    } else if (this.$route.name === "NovePridaneLong") {
-      fetch(`${apiUrl}/novePridane/long`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this.mojeClanky = data
-              .filter(
-                (item) =>
-                  item.kategorie === "vypraveni" || item.kategorie === "cesty"
-              )
-              .filter((item) => (!displayTestItems() ? !item.test : true)))
-        )
-        .then(() => {
-          this.loading = false;
-        });
-    } else if (
-      this.$route.name === "PomnickyKategorie" ||
-      this.$route.name === "SmirciKrizeKategorie" ||
-      this.$route.name === "StudankyKategorie"
-    ) {
-      fetch(`${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this.mojeClanky = data.filter((item) =>
-              !displayTestItems() ? !item.test : true
-            ))
-        )
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
-        });
-    } else {
-      fetch(`${apiUrl}/${this.stranka}/1`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this.mojeClanky = data.filter((item) =>
-              !displayTestItems() ? !item.test : true
-            ))
-        )
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
-        });
-    }
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch articles: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        let filtered = this.filterTestItems(data);
+
+        if (additionalFilter) {
+          filtered = filtered.filter(additionalFilter);
+        }
+
+        this.mojeClanky = filtered;
+
+        // Restore scroll position for routes that need it
+        if (
+          this.routeName === "NovePridane" ||
+          CATEGORY_ROUTES.includes(this.routeName) ||
+          this.routeName !== "NovePridaneLong"
+        ) {
+          this.restoreScrollPosition();
+        }
+      } catch (error) {
+        console.error("Error fetching articles:", error);
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    },
   },
 };
 </script>

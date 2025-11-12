@@ -1,49 +1,20 @@
 <template>
   <div>
-    <Loader v-if="this.loading" />
+    <Loader v-if="loading" />
 
-    <div
-      id="oknoPomnicky"
-      v-if="
-        !this.loading &&
-        this.mojeClanky.length &&
-        (this.$route.name === 'DetailPomnicku' ||
-          this.$route.name === 'DetailKrize' ||
-          this.$route.name === 'DetailStudanky' ||
-          this.$route.name === 'NovePridane' ||
-          this.$route.name === 'NovyPomnicek' ||
-          this.$route.name === 'NovyKriz' ||
-          this.$route.name === 'NovaStudanka' ||
-          !this.zalozky)
-      "
-    >
+    <div v-if="showContent" id="oknoPomnicky">
       <div
-        v-bind:class="{ ramecek: idMapaUkazat !== clanek.id }"
         v-for="clanek in mojeClanky"
-        v-bind:key="clanek.id"
+        :key="clanek.id"
+        :class="{ ramecek: idMapaUkazat !== clanek.id }"
       >
         <h2 style="text-align: center">
-          {{
-            clanek.nazev
-              ? clanek.nazev
-              : clanek.jmeno.slice(
-                  0,
-                  clanek.jmeno.indexOf("<") < 0
-                    ? clanek.jmeno.length
-                    : clanek.jmeno.indexOf("<")
-                )
-          }}{{
-            clanek.kategorie === "krize" && $route.name === "NovePridane"
-              ? "  (smírčí kříž)"
-              : null
-          }}
+          {{ getArticleTitle(clanek) }}
         </h2>
 
         <table>
           <tr>
-            <td>
-              {{ clanek.kategorie === "pomnicky" ? "Druh:" : "Umístění:" }}
-            </td>
+            <td>{{ getDruhLabel(clanek) }}</td>
             <td>{{ clanek.druh }}</td>
           </tr>
 
@@ -67,14 +38,7 @@
           >
             <td>Jméno:</td>
             <td>
-              <strong>{{
-                clanek.jmeno.slice(
-                  0,
-                  clanek.jmeno.indexOf("<") < 0
-                    ? clanek.jmeno.length
-                    : clanek.jmeno.indexOf("<")
-                )
-              }}</strong>
+              <strong>{{ getCleanJmeno(clanek.jmeno) }}</strong>
             </td>
           </tr>
 
@@ -83,14 +47,8 @@
             <td>
               <span v-html="clanek.popisCesty"></span>
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(
-                    (odkaz) => odkaz.odkazKde.trim() === 'popisCesty'
-                  )
-                "
-                v-bind:clanek="clanek"
+                v-if="hasInternalLink(clanek, 'popisCesty')"
+                :clanek="clanek"
                 kdeJsem="popisCesty"
               />
             </td>
@@ -101,11 +59,7 @@
               clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
             "
           >
-            <td>
-              {{
-                clanek.kategorie === "pomnicky" ? "Kdy vznikl?" : "Kdy vznikla?"
-              }}
-            </td>
+            <td>{{ getKdyVzniklLabel(clanek) }}</td>
             <td v-html="clanek.kdyVznikl" />
           </tr>
 
@@ -114,14 +68,8 @@
             <td>
               <span v-html="clanek.popis" />
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(
-                    (odkaz) => odkaz.odkazKde.trim() === 'popis'
-                  )
-                "
-                v-bind:clanek="clanek"
+                v-if="hasInternalLink(clanek, 'popis')"
+                :clanek="clanek"
                 kdeJsem="popis"
               />
             </td>
@@ -132,14 +80,8 @@
             <td>
               <span v-html="clanek.napis" />
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(
-                    (odkaz) => odkaz.odkazKde.trim() === 'napis'
-                  )
-                "
-                v-bind:clanek="clanek"
+                v-if="hasInternalLink(clanek, 'napis')"
+                :clanek="clanek"
                 kdeJsem="napis"
               />
             </td>
@@ -150,14 +92,8 @@
             <td>
               <span v-html="clanek.vyuzitelnost" />
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(
-                    (odkaz) => odkaz.odkazKde.trim() === 'vyuzitelnost'
-                  )
-                "
-                v-bind:clanek="clanek"
+                v-if="hasInternalLink(clanek, 'vyuzitelnost')"
+                :clanek="clanek"
                 kdeJsem="vyuzitelnost"
               />
             </td>
@@ -168,14 +104,8 @@
             <td>
               <span v-html="clanek.povest" />
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(
-                    (odkaz) => odkaz.odkazKde.trim() === 'povest'
-                  )
-                "
-                v-bind:clanek="clanek"
+                v-if="hasInternalLink(clanek, 'povest')"
+                :clanek="clanek"
                 kdeJsem="povest"
               />
             </td>
@@ -186,14 +116,8 @@
             <td>
               <span v-html="clanek.pozn" />
               <Klikaci
-                v-if="
-                  clanek.vnitrniOdkazy &&
-                  clanek.vnitrniOdkazy.length &&
-                  clanek.vnitrniOdkazy.find(
-                    (odkaz) => odkaz.odkazKde.trim() === 'pozn'
-                  )
-                "
-                v-bind:clanek="clanek"
+                v-if="hasInternalLink(clanek, 'pozn')"
+                :clanek="clanek"
                 kdeJsem="pozn"
               />
             </td>
@@ -202,25 +126,25 @@
           <tr>
             <td>Galerie:</td>
             <div
-              id="fotogalerie"
               v-if="clanek.galerie"
-              v-bind:class="{ galerieEdge: isEdgeChromium }"
+              id="fotogalerie"
+              :class="{ galerieEdge: isEdgeChromium }"
             >
               <div
                 v-for="(obrazek, index) in clanek.galerie"
-                v-bind:key="index"
+                :key="index"
                 class="jednaFotka"
-                v-bind:class="{ jednaFotkaEdge: isEdgeChromium }"
+                :class="{ jednaFotkaEdge: isEdgeChromium }"
               >
                 <router-link
-                  v-bind:to="`/fotodetail/${clanek.kategorie}/${
-                    clanek.id
-                  }/${obrazek.fotka.trim()}`"
-                  ><img
-                    v-bind:src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
+                  :to="`/fotodetail/${clanek.kategorie}/${clanek.id}/${obrazek.fotka.trim()}`"
+                >
+                  <img
+                    :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
                     alt="Fotodetail"
-                    v-bind:class="{ imgEdge: isEdgeChromium }"
-                /></router-link>
+                    :class="{ imgEdge: isEdgeChromium }"
+                  />
+                </router-link>
               </div>
             </div>
           </tr>
@@ -229,15 +153,13 @@
             <td>Odkazy:</td>
             <td v-if="clanek.odkazy">
               <p
-                class="odkaz"
                 v-for="(odkaz, index) in clanek.odkazy"
-                v-bind:key="index"
+                :key="index"
+                class="odkaz"
               >
-                <span v-if="odkaz.adresa"
-                  ><a v-bind:href="odkaz.adresa" target="_blank"
-                    >{{ odkaz.nazev }}
-                  </a></span
-                >
+                <span v-if="odkaz.adresa">
+                  <a :href="odkaz.adresa" target="_blank">{{ odkaz.nazev }}</a>
+                </span>
                 <span v-else>{{ odkaz.nazev }}</span>
               </p>
             </td>
@@ -253,14 +175,10 @@
           >
             <td>
               <button
-                class="commonButton"
                 v-if="clanek.odkazMapa && idMapaUkazat !== clanek.id"
-                v-bind:style="{
-                  padding: '2%',
-                  height: '40px',
-                  paddingLeft: '10%',
-                }"
-                v-on:click="ukazMapu(clanek.id)"
+                class="commonButton"
+                :style="mapButtonStyle"
+                @click="ukazMapu(clanek.id)"
               >
                 Ukázat na mapě
               </button>
@@ -272,13 +190,13 @@
           <div style="width: 100%; height: 100%">
             <iframe
               style="border: none"
-              v-bind:src="clanek.odkazMapa.trim()"
+              :src="clanek.odkazMapa.trim()"
               width="400"
               height="280"
               frameborder="0"
             ></iframe>
 
-            <button class="commonButton" v-on:click="schovejMapu">
+            <button class="commonButton" @click="schovejMapu">
               Schovat mapu
             </button>
           </div>
@@ -289,129 +207,209 @@
 </template>
 
 <script>
-import Klikaci from "./../components/Klikaci.vue";
+import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 
+// Route name constants
+const DETAIL_ROUTES = [
+  "DetailPomnicku",
+  "NovyPomnicek",
+  "DetailKrize",
+  "NovyKriz",
+  "DetailStudanky",
+  "NovaStudanka",
+];
+
+const LONG_CATEGORY_ROUTES = [
+  "PomnickyKategorieLong",
+  "SmirciKrizeKategorieLong",
+  "StudankyKategorieLong",
+];
+
 export default {
-  props: ["kategoriePomnicky", "zalozky", "stranka"],
+  props: {
+    kategoriePomnicky: {
+      type: Array,
+      default: () => [],
+    },
+    zalozky: {
+      type: Boolean,
+      default: true,
+    },
+    stranka: {
+      type: String,
+      required: true,
+    },
+  },
   components: { Klikaci, Loader },
   data() {
     return {
       idMapaUkazat: undefined,
-      testData: undefined,
       mojeClanky: [],
-      metadata: [],
       isEdgeChromium: false,
       loading: true,
-      names: [],
+      error: null,
       apiUrl,
     };
   },
 
+  computed: {
+    routeName() {
+      return this.$route.name;
+    },
+
+    showContent() {
+      return (
+        !this.loading &&
+        this.mojeClanky.length &&
+        (DETAIL_ROUTES.includes(this.routeName) ||
+          this.routeName === "NovePridane" ||
+          !this.zalozky)
+      );
+    },
+
+    mapButtonStyle() {
+      return {
+        padding: "2%",
+        height: "40px",
+        paddingLeft: "10%",
+      };
+    },
+  },
+
   methods: {
+    getCleanJmeno(jmeno) {
+      if (!jmeno) return "";
+      const index = jmeno.indexOf("<");
+      return index < 0 ? jmeno : jmeno.slice(0, index);
+    },
+
+    getArticleTitle(clanek) {
+      const title = clanek.nazev || this.getCleanJmeno(clanek.jmeno);
+      const suffix =
+        clanek.kategorie === "krize" && this.routeName === "NovePridane"
+          ? "  (smírčí kříž)"
+          : "";
+      return title + suffix;
+    },
+
+    getDruhLabel(clanek) {
+      return clanek.kategorie === "pomnicky" ? "Druh:" : "Umístění:";
+    },
+
+    getKdyVzniklLabel(clanek) {
+      return clanek.kategorie === "pomnicky" ? "Kdy vznikl?" : "Kdy vznikla?";
+    },
+
+    hasInternalLink(clanek, location) {
+      return (
+        clanek.vnitrniOdkazy &&
+        clanek.vnitrniOdkazy.length > 0 &&
+        clanek.vnitrniOdkazy.some(
+          (odkaz) => odkaz.odkazKde?.trim() === location
+        )
+      );
+    },
+
     ukazMapu(id) {
-      for (let clanek of this.mojeClanky) {
-        if (clanek.id === id) {
-          this.idMapaUkazat = id;
-        }
-      }
+      this.idMapaUkazat = id;
     },
 
     schovejMapu() {
       this.idMapaUkazat = undefined;
     },
-  },
-  created() {
-    if (
-      this.$route.name === "DetailPomnicku" ||
-      this.$route.name === "NovyPomnicek" ||
-      this.$route.name === "DetailKrize" ||
-      this.$route.name === "NovyKriz" ||
-      this.$route.name === "DetailStudanky" ||
-      this.$route.name === "NovaStudanka"
-    ) {
-      fetch(
-        `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`,
-        {
+
+    filterTestItems(data) {
+      const showTestItems = displayTestItems();
+      return data.filter((item) => showTestItems || !item.test);
+    },
+
+    restoreScrollPosition() {
+      const scrollY = sessionStorage.getItem("scrollY");
+      if (scrollY) {
+        window.scrollTo(0, Number(scrollY));
+        sessionStorage.removeItem("scrollY");
+      }
+    },
+
+    detectEdgeChromium() {
+      const isChrome =
+        !!window.chrome &&
+        (!!window.chrome.webstore || !!window.chrome.runtime);
+      return isChrome && navigator.userAgent.indexOf("Edg") !== -1;
+    },
+
+    async fetchArticles() {
+      try {
+        this.loading = true;
+        this.error = null;
+
+        let url;
+        let isSingleItem = false;
+
+        if (DETAIL_ROUTES.includes(this.routeName)) {
+          url = `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`;
+          isSingleItem = true;
+        } else if (LONG_CATEGORY_ROUTES.includes(this.routeName)) {
+          url = `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`;
+        } else if (this.routeName === "NovePridaneLong") {
+          url = `${this.apiUrl}/novePridane/long`;
+        } else {
+          return; // No fetch needed for other routes
+        }
+
+        const response = await fetch(url, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
           },
+        });
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch articles: ${response.statusText}`);
         }
-      )
-        .then((response) => response.json())
-        .then((data) => {
-          if (!data.temp && (!displayTestItems() ? !data.test : true)) {
+
+        const data = await response.json();
+
+        if (isSingleItem) {
+          const showTestItems = displayTestItems();
+          if (!data.temp && (showTestItems || !data.test)) {
             this.mojeClanky = [data];
           }
-        })
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
-        });
-    } else if (
-      this.$route.name === "PomnickyKategorieLong" ||
-      this.$route.name === "SmirciKrizeKategorieLong" ||
-      this.$route.name === "StudankyKategorieLong"
-    ) {
-      fetch(`${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this.mojeClanky = data.filter((item) =>
-              !displayTestItems() ? !item.test : true
-            ))
-        )
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
-        });
-    } else if (this.$route.name === "NovePridaneLong") {
-      fetch(`${this.apiUrl}/novePridane/long`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this.mojeClanky = data
-              .filter((item) => (!displayTestItems() ? !item.test : true))
-              .filter(
-                (item) =>
-                  item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
-              ))
-        )
-        .then(() => (this.loading = false))
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
-        });
-    }
-    var isChrome =
-      !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+        } else {
+          let filtered = this.filterTestItems(data);
+          if (this.routeName === "NovePridaneLong") {
+            filtered = filtered.filter(
+              (item) =>
+                item.kategorie !== "vypraveni" &&
+                item.kategorie !== "cesty"
+            );
+          }
+          this.mojeClanky = filtered;
+        }
 
-    // Edge (based on chromium) detection
-    var isEdgeChromium = isChrome && navigator.userAgent.indexOf("Edg") != -1;
+        // Restore scroll position for routes that need it
+        if (
+          DETAIL_ROUTES.includes(this.routeName) ||
+          LONG_CATEGORY_ROUTES.includes(this.routeName) ||
+          this.routeName === "NovePridaneLong"
+        ) {
+          this.restoreScrollPosition();
+        }
+      } catch (error) {
+        console.error("Error fetching articles:", error);
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    },
+  },
 
-    // Blink engine detection
-    // var isBlink = (isChrome || isOpera) && !!window.CSS;
-
-    this.isEdgeChromium = isEdgeChromium;
+  async created() {
+    this.isEdgeChromium = this.detectEdgeChromium();
+    await this.fetchArticles();
   },
 };
 </script>

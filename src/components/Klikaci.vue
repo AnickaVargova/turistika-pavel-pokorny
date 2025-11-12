@@ -1,35 +1,15 @@
 <template>
   <span>
-    <span v-for="(odkaz, index) in odkazy" v-bind:key="index">
+    <span v-for="(odkaz, index) in odkazy" :key="index">
       <span>
-        <span v-if="odkaz.odkazKategorie === 'url'">
-          <a
-            v-bind:href="odkaz.targetUrl"
-            target="_blank"
-            class="vnitrniOdkaz"
-            >{{ odkaz.textOdkazu }}</a
-          >
-        </span>
-        <span v-else-if="odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz">
-          <a
-            v-bind:href="`/${odkaz.odkazKategorie.trim()}/${
-              odkaz.odkazPodkategorie
-            }/${odkaz.vnitrniOdkaz}`"
-            target="_blank"
-            class="vnitrniOdkaz"
-          >
-            {{ odkaz.textOdkazu }}
-          </a>
-        </span>
-        <span v-else-if="odkaz.odkazKategorie">
-          <a
-            v-bind:href="`/${odkaz.odkazKategorie}`"
-            target="_blank"
-            class="vnitrniOdkaz"
-          >
-            {{ odkaz.textOdkazu }}
-          </a>
-        </span>
+        <a
+          v-if="getLinkUrl(odkaz)"
+          :href="getLinkUrl(odkaz)"
+          target="_blank"
+          class="vnitrniOdkaz"
+        >
+          {{ odkaz.textOdkazu }}
+        </a>
       </span>
       <span v-html="odkaz.zaOdkazem"></span>
     </span>
@@ -38,16 +18,39 @@
 
 <script>
 export default {
-  props: ["clanek", "kdeJsem"],
-  data() {
-    return {
-      odkazy: undefined,
-    };
+  props: {
+    clanek: {
+      type: Object,
+      required: true,
+    },
+    kdeJsem: {
+      type: String,
+      required: true,
+    },
   },
-  created() {
-    this.odkazy = this.clanek.vnitrniOdkazy.filter(
-      (odkaz) => odkaz.odkazKde.trim() === this.kdeJsem
-    );
+  computed: {
+    odkazy() {
+      if (!this.clanek.vnitrniOdkazy) {
+        return [];
+      }
+      return this.clanek.vnitrniOdkazy.filter(
+        (odkaz) => odkaz.odkazKde?.trim() === this.kdeJsem
+      );
+    },
+  },
+  methods: {
+    getLinkUrl(odkaz) {
+      if (odkaz.odkazKategorie === "url") {
+        return odkaz.targetUrl;
+      }
+      if (odkaz.odkazPodkategorie && odkaz.vnitrniOdkaz) {
+        return `/${odkaz.odkazKategorie.trim()}/${odkaz.odkazPodkategorie}/${odkaz.vnitrniOdkaz}`;
+      }
+      if (odkaz.odkazKategorie) {
+        return `/${odkaz.odkazKategorie}`;
+      }
+      return null;
+    },
   },
 };
 </script>

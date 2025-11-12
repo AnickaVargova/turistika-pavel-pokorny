@@ -1,12 +1,17 @@
 <template>
-  <div class="zalozkaSmall" v-on:click="goToPar" v-if="zalozka.text.length">
+  <div v-if="zalozka.text.length" class="zalozkaSmall" @click="goToPar">
     {{ zalozka.text }}
   </div>
 </template>
 
 <script>
 export default {
-  props: ["zalozka"],
+  props: {
+    zalozka: {
+      type: Object,
+      required: true,
+    },
+  },
 
   methods: {
     goToPar() {

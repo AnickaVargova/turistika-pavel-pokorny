@@ -1,8 +1,8 @@
 <template>
   <div id="wrapper">
     <Loader v-if="loading" />
-    <div id="authForm" v-else>
-      <div id="error" v-if="authenticationError">
+    <div v-else id="authForm">
+      <div v-if="authenticationError" id="error">
         Nesprávné uživatelské jméno nebo heslo.
       </div>
       <div class="area">
@@ -17,14 +17,15 @@
         <span>Pamatovat si mě na tomto počítači?</span>
         <input type="checkbox" v-model="authObj.permanent" />
       </div>
-      <button id="authButton" v-on:click="authenticate">Odeslat</button>
+      <button id="authButton" @click="authenticate">Odeslat</button>
     </div>
   </div>
 </template>
 
 <script>
 import { apiUrl } from "../utils/url";
-import Loader from "../components/Loader.vue";
+import Loader from "./Loader.vue";
+
 export default {
   components: { Loader },
   data() {
@@ -35,29 +36,40 @@ export default {
       authObj: {
         username: "",
         password: "",
-        permanent: false
+        permanent: false,
       },
     };
   },
   methods: {
-    authenticate() {
-      this.loading = true;
+    async authenticate() {
+      try {
+        this.loading = true;
+        this.authenticationError = false;
 
-      fetch(`${apiUrl}/auth`, {
-        method: "POST",
-        credentials: "include",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(this.authObj),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          this.isAuthenticated = data.isAuthenticated;
-          this.authenticationError = data.isAuthenticated ? false : true;
-          this.loading = false;
-          this.$emit("authentication", this.isAuthenticated);
+        const response = await fetch(`${apiUrl}/auth`, {
+          method: "POST",
+          credentials: "include",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(this.authObj),
         });
+
+        if (!response.ok) {
+          throw new Error(`Authentication failed: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        this.isAuthenticated = data.isAuthenticated;
+        this.authenticationError = !data.isAuthenticated;
+        this.$emit("authentication", this.isAuthenticated);
+      } catch (error) {
+        console.error("Authentication error:", error);
+        this.authenticationError = true;
+        this.isAuthenticated = false;
+      } finally {
+        this.loading = false;
+      }
     },
   },
 };
@@ -75,7 +87,6 @@ export default {
 }
 
 #authForm {
-  padding: 30px;
   padding: 30px;
   background-color: white;
   border: 2px solid green;

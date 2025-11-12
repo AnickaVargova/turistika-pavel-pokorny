@@ -4,12 +4,10 @@
     <div class="abecedniSeznam" :style="cssVars">
       <router-link
         v-for="clanek in seznam"
-        v-bind:key="clanek.id"
-        v-bind:to="`${stranka}/${clanek.podkategorie}/${clanek.id}`"
+        :key="clanek.id"
+        :to="getArticleLink(clanek)"
         class="kontejnerJmeno"
-        v-bind:style="{
-          backgroundColor: `${stranka === 'krize' ? '#e9f4f5' : '#e7e0d0'}`,
-        }"
+        :style="{ backgroundColor: backgroundColor }"
         v-html="clanek.jmeno"
       />
     </div>
@@ -22,51 +20,104 @@ import { displayTestItems } from "../utils/displayTestItems";
 import { removeDuplicates } from "../utils/removeDuplicates";
 import { apiUrl } from "../utils/url";
 
+// Constants
+const ITEM_HEIGHT = 35;
+const BACKGROUND_COLORS = {
+  krize: "#e9f4f5",
+  default: "#e7e0d0",
+};
+
+const COLUMNS = {
+  ipad: 2,
+  smallDesktop: 3,
+  bigDesktop: 4,
+};
+
 export default {
   components: { Loader },
-  props: ["stranka"],
+  props: {
+    stranka: {
+      type: String,
+      required: true,
+    },
+  },
   data() {
     return {
       seznam: [],
-      itemHeight: 35,
-      componentKey: 0,
       loading: true,
+      error: null,
     };
   },
 
   computed: {
+    backgroundColor() {
+      return this.stranka === "krize"
+        ? BACKGROUND_COLORS.krize
+        : BACKGROUND_COLORS.default;
+    },
+
     cssVars() {
+      const { length } = this.seznam;
       return {
         "--columnHeightIpad":
-          Math.ceil(this.seznam.length / 2) * this.itemHeight + "px",
+          Math.ceil(length / COLUMNS.ipad) * ITEM_HEIGHT + "px",
         "--columnHeightSmallD":
-          Math.ceil(this.seznam.length / 3) * this.itemHeight + "px",
+          Math.ceil(length / COLUMNS.smallDesktop) * ITEM_HEIGHT + "px",
         "--columnHeightBigD":
-          Math.ceil(this.seznam.length / 4) * this.itemHeight + "px",
+          Math.ceil(length / COLUMNS.bigDesktop) * ITEM_HEIGHT + "px",
       };
     },
   },
-  created() {
-    fetch(`${apiUrl}/${this.stranka}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        data = data.names
-          .filter(
-            (item) => !item.temp && (!displayTestItems() ? !item.test : true)
-          )
-          .sort((a, b) => {
-            return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
-              sensitivity: "accent",
-            });
-          });
-        this.seznam = removeDuplicates(data);
-      })
-      .then(() => (this.loading = false));
+
+  async created() {
+    await this.fetchArticles();
+  },
+
+  methods: {
+    getArticleLink(clanek) {
+      return `${this.stranka}/${clanek.podkategorie}/${clanek.id}`;
+    },
+
+    filterArticles(data) {
+      const showTestItems = displayTestItems();
+      return data.filter((item) => !item.temp && (showTestItems || !item.test));
+    },
+
+    sortArticles(articles) {
+      return [...articles].sort((a, b) => {
+        return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
+          sensitivity: "accent",
+        });
+      });
+    },
+
+    async fetchArticles() {
+      try {
+        this.loading = true;
+        this.error = null;
+
+        const response = await fetch(`${apiUrl}/${this.stranka}`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch articles: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        const filtered = this.filterArticles(data.names);
+        const sorted = this.sortArticles(filtered);
+        this.seznam = removeDuplicates(sorted);
+      } catch (error) {
+        console.error("Error fetching articles:", error);
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    },
   },
 };
 </script>

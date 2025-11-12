@@ -2,73 +2,39 @@
   <div id="pomnicky">
     <div id="pozadi1">
       <img
-        v-bind:src="require(`./../assets/${innerParams.background}`)"
-        v-bind:alt="`${innerParams.backgroundDescription}`"
+        :src="require(`./../assets/${innerParams.background}`)"
+        :alt="innerParams.backgroundDescription"
       />
     </div>
 
-    <div
-      v-if="innerParams.transbox"
-      v-bind:style="{ backgroundColor: innerParams.transbox }"
-      class="transbox1"
-    ></div>
-    <div v-else class="transbox1"></div>
-    <h1>
-      {{ innerParams.nadpis }}
-    </h1>
+    <div :class="['transbox1']" :style="transboxStyle"></div>
+
+    <h1>{{ innerParams.nadpis }}</h1>
 
     <AbecedniSeznam
-      v-if="
-        !this.$route.params.kategorie &&
-        !this.$route.params.id &&
-        innerParams.stranka !== 'vypraveni' &&
-        innerParams.stranka !== 'cesty' &&
-        innerParams.stranka !== 'novepridane'
-      "
-      v-bind:stranka="innerParams.stranka"
+      v-if="showAbecedniSeznam"
+      :stranka="innerParams.stranka"
       class="abSeznam"
     />
 
-    <div
-      v-bind:class="{
-        pomnickyText: true,
-        large:
-          innerParams.stranka === 'vypraveni' ||
-          innerParams.stranka === 'cesty' ||
-          innerParams.stranka === 'novepridane',
-      }"
-    >
+    <div :class="textContainerClasses">
       <div
         id="pomnickyUvod"
         v-for="(odstavec, index) in innerParams.uvodniText"
-        v-bind:key="index"
+        :key="index"
       >
         <p>
-          <span v-html="odstavec.textOdstavce"/>
+          <span v-html="odstavec.textOdstavce" />
           <span v-if="odstavec.vnitrniOdkazy">
-            <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
+            <Klikaci :clanek="odstavec" kdeJsem="odstavec" />
           </span>
         </p>
       </div>
     </div>
 
     <div id="rozbalitWrapper">
-      <router-link
-        v-bind:to="`/${innerParams.stranka}${$route.name === 'NovePridane' || $route.name === 'NovePridaneLong' ? '' : '/' + $route.params.kategorie}${
-          !isLongVersion ? '/long' : ''
-        }`"
-      >
-        <div
-          id="rozbalit"
-          class="commonButton"
-          v-if="
-            $route.name === 'SmirciKrizeKategorie' ||
-            $route.name === 'PomnickyKategorie' ||
-            $route.name === 'StudankyKategorie' ||
-            $route.name === 'NovePridane' ||
-            isLongVersion
-          "
-        >
+      <router-link :to="expandLink">
+        <div v-if="showExpandButton" id="rozbalit" class="commonButton">
           {{ isLongVersion ? "Zkrácená verze" : "Rozbalit vše" }}
         </div>
       </router-link>
@@ -78,62 +44,30 @@
       Úvodní strana
     </router-link>
 
-    <div id="tlacitkoNahoru" class="commonButton" v-on:click="goToTop">Nahoru </div>
+    <div id="tlacitkoNahoru" class="commonButton" @click="goToTop">Nahoru</div>
+
     <span
-      v-on:click="$router.go(-1)"
+      v-if="showNewButton"
+      @click="$router.go(-1)"
       id="naNovePridane"
       class="commonButton"
-      v-if="
-        this.$route.name === 'NovyPomnicek' ||
-        this.$route.name === 'NovyKriz' ||
-        this.$route.name === 'NovaStudanka'
-      "
-    >Nové</span>
+    >
+      Nové
+    </span>
 
-    <router-link v-bind:to="`/${innerParams.stranka}`" id="ABClink">
-      <div
-        class="commonButton"
-        id="seznam"
-        v-if="
-          this.$route.params.kategorie ||
-          (this.$route.params.id &&
-            innerParams.stranka !== 'vypraveni' &&
-            innerParams.stranka !== 'cesty')
-        "
-      >
-        ABC
-      </div>
+    <router-link :to="`/${innerParams.stranka}`" id="ABClink">
+      <div v-if="showAbcButton" class="commonButton" id="seznam">ABC</div>
     </router-link>
 
-    <div
-      class="pomnickyNavigace"
-      v-if="
-        innerParams.stranka === 'pomnicky' ||
-        innerParams.stranka === 'krize' ||
-        innerParams.stranka === 'studanky'
-      "
-    >
-      <!-- buttons end -->
-
-      <!-- kategorie menu start -->
-
+    <div v-if="showCategoryNavigation" class="pomnickyNavigace">
       <div
         v-for="kategorie in innerParams.kategoriePomnicky"
-        v-bind:key="kategorie.nazev"
+        :key="kategorie.nazev"
       >
-        <router-link v-bind:to="`/${innerParams.stranka}/${kategorie.id}`">
+        <router-link :to="`/${innerParams.stranka}/${kategorie.id}`">
           <div
-            v-bind:class="{
-              tyrkys: innerParams.stranka === 'krize',
-              hneda: innerParams.stranka === 'pomnicky',
-              fialova: innerParams.stranka === 'studanky',
-              commonButton: true,
-              kategorieTextCenter:
-                innerParams === 'cesty' || innerParams === 'vypraveni',
-              active: vybranaId.includes(kategorie.id),
-              podkategorie: true,
-            }"
-            v-bind:style="{ backgroundColor: innerParams.buttonsColor }"
+            :class="categoryButtonClasses(kategorie)"
+            :style="{ backgroundColor: innerParams.buttonsColor }"
           >
             {{ kategorie.nazev }} ({{ kategorie.pocet }})
           </div>
@@ -141,61 +75,18 @@
       </div>
     </div>
 
-    <!-- kategorie menu end -->
-
-    <!-- condition v-if for kontejner is here because otherwise it covers abecedniSeznam which becomes unclickable -->
-    <div
-      class="kontejner"
-      v-if="
-        this.$route.name !== 'Pomnicky' &&
-        this.$route.name !== 'SmirciKrize' &&
-        this.$route.name !== 'Studanky'
-      "
-      v-bind:class="{
-        kontejnerBigMargin:
-          innerParams.stranka === 'vypraveni' ||
-          innerParams.stranka === 'cesty',
-        kontejnerSmallMargin:
-          innerParams.stranka === 'pomnicky' ||
-          innerParams.stranka === 'krize' ||
-          innerParams.stranka === 'studanky',
-        large:
-          innerParams.stranka === 'vypraveni' ||
-          innerParams.stranka === 'cesty' ||
-          innerParams.stranka === 'novepridane',
-        bezTextu: innerParams.detail,
-      }"
-    >
+    <div v-if="showContainer" :class="containerClasses">
       <div>
         <OknoClanky
-          v-if="
-            this.$route.name === 'NovePridane' ||
-            this.$route.name === 'NovePridaneLong' ||
-            this.$route.name === 'PomnickyKategorie' ||
-            this.$route.name === 'SmirciKrizeKategorie' ||
-            this.$route.name === 'StudankyKategorie' ||
-            this.$route.name === 'Vypraveni' ||
-            this.$route.name === 'Cesty'
-          "
-          v-bind:stranka="innerParams.stranka"
-          v-bind:zalozky="!isLongVersion"
+          v-if="showOknoClanky"
+          :stranka="innerParams.stranka"
+          :zalozky="!isLongVersion"
         />
         <OknoPomnicky
-          v-if="
-            this.$route.name === 'PomnickyKategorieLong' ||
-            this.$route.name === 'DetailPomnicku' ||
-            this.$route.name === 'SmirciKrizeKategorieLong' ||
-            this.$route.name === 'StudankyKategorieLong' ||
-            this.$route.name === 'NovePridaneLong' ||
-            this.$route.name === 'DetailKrize' ||
-            this.$route.name === 'DetailStudanky' ||
-            this.$route.name === 'NovyPomnicek' ||
-            this.$route.name === 'NovyKriz' ||
-            this.$route.name === 'NovaStudanka'
-          "
-          v-bind:kategoriePomnicky="innerParams.kategoriePomnicky"
-          v-bind:stranka="innerParams.stranka"
-          v-bind:zalozky="!isLongVersion"
+          v-if="showOknoPomnicky"
+          :kategoriePomnicky="innerParams.kategoriePomnicky"
+          :stranka="innerParams.stranka"
+          :zalozky="!isLongVersion"
         />
       </div>
     </div>
@@ -205,9 +96,50 @@
 <script>
 import OknoPomnicky from "./OknoPomnicky.vue";
 import OknoClanky from "./OknoClanky.vue";
-import AbecedniSeznam from ".//AbecedniSeznam.vue";
+import AbecedniSeznam from "./AbecedniSeznam.vue";
 import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
+
+// Route name constants
+const LONG_VERSION_ROUTES = [
+  "PomnickyKategorieLong",
+  "SmirciKrizeKategorieLong",
+  "StudankyKategorieLong",
+  "NovePridaneLong",
+];
+
+const CATEGORY_ROUTES = [
+  "PomnickyKategorie",
+  "SmirciKrizeKategorie",
+  "StudankyKategorie",
+];
+
+const MAIN_ROUTES = ["Pomnicky", "SmirciKrize", "Studanky"];
+
+const NEW_ITEM_ROUTES = ["NovyPomnicek", "NovyKriz", "NovaStudanka"];
+
+const ARTICLE_ROUTES = [
+  "NovePridane",
+  "NovePridaneLong",
+  "PomnickyKategorie",
+  "SmirciKrizeKategorie",
+  "StudankyKategorie",
+  "Vypraveni",
+  "Cesty",
+];
+
+const DETAIL_ROUTES = [
+  "PomnickyKategorieLong",
+  "DetailPomnicku",
+  "SmirciKrizeKategorieLong",
+  "StudankyKategorieLong",
+  "NovePridaneLong",
+  "DetailKrize",
+  "DetailStudanky",
+  "NovyPomnicek",
+  "NovyKriz",
+  "NovaStudanka",
+];
 
 export default {
   props: ["params"],
@@ -223,17 +155,124 @@ export default {
     return {
       innerParams: this.params,
       vybranaId: [Number(this.$route.params.kategorie)],
-      isLongVersion:
-        this.$route.name === "PomnickyKategorieLong" ||
-        this.$route.name === "SmirciKrizeKategorieLong" ||
-        this.$route.name === "StudankyKategorieLong"||
-        this.$route.name === "NovePridaneLong"
     };
+  },
+
+  computed: {
+    routeName() {
+      return this.$route.name;
+    },
+
+    isLongVersion() {
+      return LONG_VERSION_ROUTES.includes(this.routeName);
+    },
+
+    transboxStyle() {
+      return this.innerParams.transbox
+        ? { backgroundColor: this.innerParams.transbox }
+        : {};
+    },
+
+    showAbecedniSeznam() {
+      const { kategorie, id } = this.$route.params;
+      const { stranka } = this.innerParams;
+      const excludedPages = ["vypraveni", "cesty", "novepridane"];
+
+      return !kategorie && !id && !excludedPages.includes(stranka);
+    },
+
+    textContainerClasses() {
+      const { stranka } = this.innerParams;
+      const largePages = ["vypraveni", "cesty", "novepridane"];
+
+      return {
+        pomnickyText: true,
+        large: largePages.includes(stranka),
+      };
+    },
+
+    showExpandButton() {
+      return (
+        CATEGORY_ROUTES.includes(this.routeName) ||
+        this.routeName === "NovePridane" ||
+        this.isLongVersion
+      );
+    },
+
+    expandLink() {
+      const { stranka } = this.innerParams;
+      const { kategorie } = this.$route.params;
+      const isNovePridane =
+        this.routeName === "NovePridane" ||
+        this.routeName === "NovePridaneLong";
+      const categoryPath = isNovePridane ? "" : `/${kategorie}`;
+      const longPath = !this.isLongVersion ? "/long" : "";
+
+      return `/${stranka}${categoryPath}${longPath}`;
+    },
+
+    showNewButton() {
+      return NEW_ITEM_ROUTES.includes(this.routeName);
+    },
+
+    showAbcButton() {
+      const { kategorie, id } = this.$route.params;
+      const { stranka } = this.innerParams;
+      const excludedPages = ["vypraveni", "cesty"];
+
+      return kategorie || (id && !excludedPages.includes(stranka));
+    },
+
+    showCategoryNavigation() {
+      const { stranka } = this.innerParams;
+      return ["pomnicky", "krize", "studanky"].includes(stranka);
+    },
+
+    showContainer() {
+      return !MAIN_ROUTES.includes(this.routeName);
+    },
+
+    containerClasses() {
+      const { stranka, detail } = this.innerParams;
+      const largePages = ["vypraveni", "cesty", "novepridane"];
+      const smallMarginPages = ["pomnicky", "krize", "studanky"];
+
+      return {
+        kontejner: true,
+        kontejnerBigMargin: largePages.includes(stranka),
+        kontejnerSmallMargin: smallMarginPages.includes(stranka),
+        large: largePages.includes(stranka) || stranka === "novepridane",
+        bezTextu: detail,
+      };
+    },
+
+    showOknoClanky() {
+      return ARTICLE_ROUTES.includes(this.routeName);
+    },
+
+    showOknoPomnicky() {
+      return DETAIL_ROUTES.includes(this.routeName);
+    },
   },
 
   methods: {
     goToTop() {
-      window.scroll(0, 0);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+
+    categoryButtonClasses(kategorie) {
+      const { stranka } = this.innerParams;
+      const isActive = this.vybranaId.includes(kategorie.id);
+
+      return {
+        tyrkys: stranka === "krize",
+        hneda: stranka === "pomnicky",
+        fialova: stranka === "studanky",
+        commonButton: true,
+        kategorieTextCenter: stranka === "cesty" || stranka === "vypraveni",
+        active: isActive,
+        podkategorie: true,
+      };
     },
   },
 };
@@ -409,12 +448,9 @@ p.responsive {
     grid-column: 1/2;
     grid-row: 2/3;
     margin-top: 10px;
-    min-width: unset;
+    margin-left: 10px;
     max-width: 60px;
     width: 60px !important;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-left: 10px;
     justify-self: flex-start;
     align-self: flex-start;
   }
@@ -427,18 +463,24 @@ p.responsive {
   }
 }
 
-#tlacitkoDomu {
-  grid-column: 6/7;
-  grid-row: 1/2;
-  align-self: flex-end;
-  justify-self: flex-end;
-  margin-right: 30px;
+/* Common button styles for top-right buttons */
+#tlacitkoDomu,
+#tlacitkoNahoru,
+#rozbalit {
   min-width: unset;
   max-width: unset;
   width: 116px !important;
   padding: 0 10px;
   height: 35px;
   background-color: #459ae6;
+}
+
+#tlacitkoDomu {
+  grid-column: 6/7;
+  grid-row: 1/2;
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: 30px;
   margin-top: 20px;
 }
 
@@ -451,21 +493,6 @@ p.responsive {
   justify-self: flex-end;
   margin-right: 30px;
   margin-top: 20px;
-  min-width: unset;
-  max-width: unset;
-  width: 116px !important;
-  padding: 0 10px;
-  height: 35px;
-  background-color: #459ae6;
-}
-
-#rozbalit {
-  min-width: unset;
-  max-width: unset;
-  width: 116px !important;
-  padding: 0 10px;
-  height: 35px;
-  background-color: #459ae6;
 }
 
 #rozbalitWrapper {
@@ -492,14 +519,6 @@ p.responsive {
     grid-row: 5/6;
     justify-self: flex-start;
     align-self: flex-start;
-  }
-
-  #tlacitkoDomu,
-  #tlacitkoNahoru,
-  #naNovePridane,
-  #seznam {
-    margin-right: 0;
-    height: 45px;
   }
 
   #tlacitkoDomu {
@@ -546,6 +565,14 @@ p.responsive {
 
   #seznam {
     margin-bottom: 3px;
+  }
+
+  #tlacitkoDomu,
+  #tlacitkoNahoru,
+  #naNovePridane,
+  #seznam {
+    margin-right: 0;
+    height: 45px;
   }
 }
 
