@@ -1,44 +1,41 @@
 <template>
-  <div id="detailClanku" v-bind:style="{padding:'0'}">
+  <div id="detailClanku" :style="{ padding: '0' }">
     <div id="transboxOnas">
       <div id="detailOkno">
-        <router-link v-bind:style="{gridColumn:'3/4', justifySelf:'flex-end'}" to="/">
+        <router-link :style="{ gridColumn: '3/4', justifySelf: 'flex-end' }" to="/">
           <div class="commonButton" id="domuOnas">
             Úvodní strana
           </div>
         </router-link>
-        <h1 v-bind:style="{marginTop:'0'}">O nás</h1>
+        <h1 :style="{ marginTop: '0' }">O nás</h1>
 
         <div id="textClanku">
           <div
             v-for="(odstavec, index) in detailClanku.text"
-            v-bind:key="index"
+            :key="index"
             class="odstavec"
           >
             <router-link
               v-if="odstavec.foto"
-              v-bind:to="`/fotodetail/onas/1/${odstavec.foto}`"
-              v-bind:popisek="odstavec.popisek"
+              :to="`/fotodetail/onas/1/${odstavec.foto}`"
             >
               <figure
                 v-if="odstavec.foto"
                 id="fotoText"
-                v-bind:class="{
+                :class="{
                   vpravo: odstavec.umisteniFoto === 'vpravo',
                   vlevo: odstavec.umisteniFoto === 'vlevo',
                   nahore: index === 0,
                 }"
               >
                 <img
-                  v-bind:src="require(`./../assets/${odstavec.foto}`)"
-                  v-bind:alt="odstavec.popisek"
+                  :src="require(`./../assets/${odstavec.foto}`)"
+                  :alt="odstavec.popisek"
                   class="fotoCesty"
                 />
               </figure>
             </router-link>
-            <p>
-              {{ odstavec.textOdstavce }}
-            </p>
+            <p>{{ odstavec.textOdstavce }}</p>
           </div>
         </div>
         <p id="kontakt">Kontakt: pokorny.pavel1@centrum.cz</p>
@@ -83,31 +80,54 @@
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --link-color: #2563eb;
+  --link-hover: #1d4ed8;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+#detailClanku {
+  background-image: url("./../assets/bileTahy.jpg");
+  padding: 0;
+  position: relative;
+}
 
-  #detailClanku {
-    background-image: url("./../assets/bileTahy.jpg");
-    padding: 0;
-  }
+#transboxOnas {
+  width: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(248, 250, 252, 0.7) 100%);
+  backdrop-filter: blur(2px);
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
 
-  #transboxOnas {
-    width: 100%;
-    background-color: rgba(234, 235, 224, 0.7);
-    /* padding: 2%; */
-  }
+#transboxOnas > * {
+  pointer-events: auto;
+}
 
-  #detailOkno {
-    margin: auto;
-    /* margin-top: 20px; */
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 2% 5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 20px; */
-    max-width: 800px;
-    background-color: white;
-  }
+#detailOkno {
+  margin: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 2% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 800px;
+  background-color: var(--bg-primary);
+  box-shadow: var(--shadow-lg);
+}
 
   @media (max-width: 600px) {
     #detailOkno {
@@ -123,18 +143,33 @@
     }
   }
 
-  #detailClanku .commonButton {
-    min-width: 0;
-  }
+#detailClanku .commonButton {
+  min-width: 0;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border: none;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
 
-  #detailClanku h1 {
-    grid-column: 1 / 4;
-    margin-top: 50px;
-  }
+#detailClanku .commonButton:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
 
-  #detailClanku h3 {
-    grid-column: 1 / 4;
-  }
+#detailClanku h1 {
+  grid-column: 1 / 4;
+  margin-top: 50px;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.5px;
+}
+
+#detailClanku h3 {
+  grid-column: 1 / 4;
+  color: var(--text-secondary);
+}
 
   #fotoText {
     height: 200px;
@@ -163,49 +198,60 @@
     margin-top: 0;
   }
 
-  #textClanku {
-    grid-column: 1 / span 3;
-    margin-bottom: 20px;
-    text-align: justify;
-    line-height: 1.5;
-  }
+#textClanku {
+  grid-column: 1 / span 3;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
 
-  #fotoText img {
-    width: unset;
-    height: 100%;
-    object-fit:cover;
-    
-  }
+#fotoText img {
+  width: unset;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
 
-  figcaption {
-    font-style: italic;
-    font-size: 12px;
-    line-height: 1.2;
-    text-decoration: none;
-    color: black;
-  }
+#fotoText img:hover {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-md);
+  transform: scale(1.02);
+}
 
- 
+figcaption {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.4;
+  text-decoration: none;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
 
-   #kontakt {
-    grid-column: 1/7;
-    grid-row: 6/7;
-    /* margin-left: 5%;
-    margin-right: 5%; */
-    font-size: 20px;
-    color: black
-    /* text-decoration: underline; */
-  }
+#kontakt {
+  grid-column: 1/7;
+  grid-row: 6/7;
+  font-size: 18px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
 
-    #kontakt a {
-    text-decoration: underline;
-     color: rgb(23, 59, 37);
-  }
+#kontakt a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: 600;
+  transition: var(--transition);
+  border-bottom: 2px solid transparent;
+}
 
-  #kontakt a:hover,
-  #kontakt a:active {
-    color: darkolivegreen;
-  }
+#kontakt a:hover,
+#kontakt a:active {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
 
   .obrazek {
     flex-basis: 33.33%;
@@ -220,10 +266,12 @@
 
   
 
-  #detailClanku img:hover,
-  #detailClanku img:active {
-    border: 2px solid black;
-  }
+#detailClanku img:hover,
+#detailClanku img:active {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-md);
+  transform: scale(1.02);
+}
 
   #galerieClanek {
     grid-column: 1 / span3;

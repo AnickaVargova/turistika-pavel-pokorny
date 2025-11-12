@@ -1,22 +1,16 @@
 <template>
   <div>
-    <Loader v-if="this.loading" />
-    <div id="fotodetail" v-if="!this.loading">
-        <div
-          v-if="currentIndex > 0"
-          id="arrowLeft"
-          v-on:click="slidePhoto('left')"
-        />
-      <figure
-        v-bind:class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }"
-      >
+    <Loader v-if="loading" />
+    <div v-if="!loading" id="fotodetail">
+      <div
+        v-if="currentIndex > 0"
+        id="arrowLeft"
+        @click="slidePhoto('left')"
+      />
+      <figure :class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }">
         <img
-          v-bind:src="
-            this.$route.params.kategorie === 'onas'
-              ? require(`./../assets/${vybranaFotka.fotka}`)
-              : `${apiUrl}/photos/medium/${vybranaFotka.fotka.trim()}`
-          "
-          v-bind:alt="`${this.$route.params.filename}`"
+          :src="photoUrl"
+          :alt="routeFilename"
         />
         <figcaption v-if="vybranaFotka.datum">
           ({{ vybranaFotka.datum }})
@@ -25,14 +19,14 @@
           {{ vybranaFotka.popisek }}
         </figcaption>
       </figure>
-      <a @click="$router.go(-1)"
-        ><button class="commonButton">Zpět</button></a
-      >
-        <div
-          v-if="galerie.length > currentIndex + 1"
-          id="arrowRight"
-          v-on:click="slidePhoto('right')"
-        />
+      <a @click="$router.go(-1)">
+        <button class="commonButton">Zpět</button>
+      </a>
+      <div
+        v-if="hasNextPhoto"
+        id="arrowRight"
+        @click="slidePhoto('right')"
+      />
     </div>
   </div>
 </template>
@@ -41,22 +35,24 @@
 import Loader from "../components/Loader.vue";
 import { apiUrl } from "../utils/url";
 
+const FOTO_ONAS = [
+  {
+    fotka: "onas1.jpg",
+    popisek: "Rumunsko, Trascau  (září 2016)",
+  },
+  {
+    fotka: "onas2.jpg",
+    popisek: "Polsko, Czarna Hancza  (červenec 2018)",
+  },
+];
+
 export default {
   components: { Loader },
   data() {
     return {
       loading: true,
+      error: null,
       vybranaFotka: {},
-      fotoOnas: [
-        {
-          fotka: "onas1.jpg",
-          popisek: "Rumunsko, Trascau  (září 2016)",
-        },
-        {
-          fotka: "onas2.jpg",
-          popisek: "Polsko, Czarna Hancza  (červenec 2018)",
-        },
-      ],
       isEdgeChromium: false,
       apiUrl,
       galerie: [],
@@ -64,65 +60,150 @@ export default {
     };
   },
 
+  computed: {
+    routeKategorie() {
+      return this.$route.params.kategorie;
+    },
+
+    routeFilename() {
+      return this.$route.params.filename;
+    },
+
+    routeId() {
+      return this.$route.params.id;
+    },
+
+    routeName() {
+      return this.$route.name;
+    },
+
+    isOnas() {
+      return this.routeKategorie === "onas";
+    },
+
+    isFromText() {
+      return (
+        (this.routeKategorie === "vypraveni" ||
+          this.routeKategorie === "cesty") &&
+        this.routeName !== "FotodetailVypraveniGalerie"
+      );
+    },
+
+    photoUrl() {
+      if (this.isOnas) {
+        return require(`./../assets/${this.vybranaFotka.fotka}`);
+      }
+      return `${this.apiUrl}/photos/medium/${this.vybranaFotka.fotka?.trim()}`;
+    },
+
+    hasNextPhoto() {
+      return this.galerie.length > this.currentIndex + 1;
+    },
+  },
+
   methods: {
-    detailFotky() {
-      if (this.$route.params.kategorie === "onas") {
-        this.loading = false;
-        this.vybranaFotka = this.fotoOnas.find(
-          (item) => item.fotka === this.$route.params.filename
-        );
+    detectEdgeChromium() {
+      const isChrome =
+        !!window.chrome &&
+        (!!window.chrome.webstore || !!window.chrome.runtime);
+      return isChrome && navigator.userAgent.indexOf("Edg") !== -1;
+    },
+
+    slidePhoto(dir) {
+      if (dir === "left") {
+        this.currentIndex--;
       } else {
-        // only id is relevant for backend, kategorie is here twice because of format required by backend, podkategorie is not in params
-        fetch(
-          `${apiUrl}/${this.$route.params.kategorie}/${this.$route.params.kategorie}/${this.$route.params.id}`,
-          {
+        this.currentIndex++;
+      }
+      this.vybranaFotka = this.galerie[this.currentIndex];
+    },
+
+    async fetchPhotoFromText(data) {
+      const par = data.text.find(
+        (odstavec) =>
+          odstavec.foto &&
+          odstavec.foto.trim() === this.routeFilename
+      );
+      if (par) {
+        this.vybranaFotka = {
+          popisek: par.popisek,
+          fotka: par.foto,
+        };
+      }
+    },
+
+    async fetchPhotoFromGallery(data) {
+      this.galerie = data.galerie;
+      this.currentIndex = data.galerie.findIndex(
+        (item) => item.fotka.trim() === this.routeFilename
+      );
+      if (this.currentIndex >= 0) {
+        this.vybranaFotka = data.galerie[this.currentIndex];
+      }
+    },
+
+    async detailFotky() {
+      try {
+        this.loading = true;
+        this.error = null;
+
+        if (this.isOnas) {
+          this.vybranaFotka = FOTO_ONAS.find(
+            (item) => item.fotka === this.routeFilename
+          );
+        } else {
+          const url = `${this.apiUrl}/${this.routeKategorie}/${this.routeKategorie}/${this.routeId}`;
+          const response = await fetch(url, {
             method: "GET",
             headers: {
               "Content-Type": "application/json",
             },
+          });
+
+          if (!response.ok) {
+            throw new Error(`Failed to fetch photo: ${response.statusText}`);
           }
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            if ((this.$route.params.kategorie === "vypraveni" || this.$route.params.kategorie === "cesty") && this.$route.name !== 'FotodetailVypraveniGalerie') {
-              const par = data.text.find(
-                (odstavec) =>
-                  odstavec.foto &&
-                  odstavec.foto.trim() === this.$route.params.filename
-              );
-              this.vybranaFotka = {
-                popisek: par.popisek,
-                fotka: par.foto,
-              };
-            } else {
-              this.galerie = data.galerie;
-              this.currentIndex = data.galerie.findIndex(
-                (item) => item.fotka.trim() === this.$route.params.filename
-              );
-              this.vybranaFotka = data.galerie[this.currentIndex];
-            }
-          })
-          .then(() => (this.loading = false));
+
+          const data = await response.json();
+
+          if (this.isFromText) {
+            await this.fetchPhotoFromText(data);
+          } else {
+            await this.fetchPhotoFromGallery(data);
+          }
+        }
+      } catch (error) {
+        console.error("Error fetching photo:", error);
+        this.error = error.message;
+      } finally {
+        this.loading = false;
       }
-    },
-    slidePhoto(dir) {
-      this.currentIndex =
-        dir === "left" ? --this.currentIndex : ++this.currentIndex;
-      this.vybranaFotka = this.galerie[this.currentIndex];
     },
   },
 
-  created() {
-    this.detailFotky();
-    var isChrome =
-      !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
-
-    this.isEdgeChromium = isChrome && navigator.userAgent.indexOf("Edg") != -1;
+  async created() {
+    this.isEdgeChromium = this.detectEdgeChromium();
+    await this.detailFotky();
   },
 };
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --bg-primary: #ffffff;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 #fotodetail {
   padding: 30px;
   padding-bottom: 60px;
@@ -131,46 +212,68 @@ export default {
   justify-content: center;
   align-items: center;
   justify-items: center;
+  background: var(--bg-secondary);
 }
 
 #fotodetail figure {
   margin-top: 30px;
   position: relative;
-  border: 2px solid grey;
-  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
   grid-column: 2/3;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+#fotodetail figure:hover {
+  box-shadow: var(--shadow-lg);
 }
 
 #arrowRight {
   grid-column: 3/4;
   grid-row: 1/2;
+  transition: var(--transition);
 }
 
 #arrowRight::before {
   content: " ";
-  border-right: 2px solid #000;
-  border-top: 2px solid #000;
-  width: 20px;
-  height: 20px;
+  border-right: 3px solid var(--primary-color);
+  border-top: 3px solid var(--primary-color);
+  width: 24px;
+  height: 24px;
   transform: rotate(45deg);
   cursor: pointer;
   display: block;
+  transition: var(--transition);
+}
+
+#arrowRight:hover::before {
+  border-color: var(--primary-hover);
+  transform: rotate(45deg) scale(1.2);
 }
 
 #arrowLeft {
   grid-column: 1/2;
   grid-row: 1/2;
+  transition: var(--transition);
 }
 
 #arrowLeft::before {
   content: " ";
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
-  width: 20px;
-  height: 20px;
+  border-left: 3px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  width: 24px;
+  height: 24px;
   transform: rotate(45deg);
   cursor: pointer;
   display: block;
+  transition: var(--transition);
+}
+
+#arrowLeft:hover::before {
+  border-color: var(--primary-hover);
+  transform: rotate(45deg) scale(1.2);
 }
 
 .setHeight {
@@ -190,6 +293,8 @@ export default {
 #fotodetail figcaption {
   font-size: 15px;
   margin-top: 1vh;
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
 #fotodetail button {
@@ -200,15 +305,21 @@ export default {
   justify-content: left;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #459ae6;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border: none;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
 }
 
 #fotodetail .commonButton {
   min-width: 0;
 }
+
 #fotodetail button:active,
 #fotodetail button:hover {
-  background-color: grey;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 600px) {

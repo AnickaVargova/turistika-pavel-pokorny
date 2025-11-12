@@ -1,5 +1,5 @@
 <template>
-  <Sablona v-bind:params="params" />
+  <Sablona :params="params" />
 </template>
 
 <script>
@@ -8,7 +8,7 @@ import { apiUrl } from "../utils/url";
 
 export default {
   components: {
-    Sablona: Sablona,
+    Sablona,
   },
 
   data() {
@@ -51,18 +51,29 @@ export default {
         transbox: "rgba(211, 214, 214, 0.8)",
         backgroundDescription: "Pozadí",
       },
+      error: null,
     };
   },
 
-  created() {
-    fetch(`${apiUrl}/krize/categoryCount`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => (this.params.kategoriePomnicky = data));
+  async created() {
+    try {
+      const response = await fetch(`${apiUrl}/krize/categoryCount`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch categories: ${response.statusText}`);
+      }
+
+      const data = await response.json();
+      this.params.kategoriePomnicky = data;
+    } catch (error) {
+      console.error("Error fetching categories:", error);
+      this.error = error.message;
+    }
   },
 };
 </script>

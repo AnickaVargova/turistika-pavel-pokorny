@@ -1,12 +1,13 @@
 <template>
-  <Sablona v-bind:params="params" />
+  <Sablona :params="params" />
 </template>
 
 <script>
 import Sablona from "./../components/Sablona.vue";
+
 export default {
   components: {
-    Sablona: Sablona,
+    Sablona,
   },
 
   data() {

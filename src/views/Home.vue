@@ -5,14 +5,8 @@
     </div>
 
     <div id="transbox"></div>
-    <div v-bind:class="{ responsive: responsive }" id="uvodniText">
-      <h1>
-        {{
-          isTest
-            ? "Vítejte na testovacím prostředí"
-            : "Vítejte na našich webových stránkách."
-        }}
-      </h1>
+    <div :class="{ responsive: responsive }" id="uvodniText">
+      <h1>{{ welcomeMessage }}</h1>
       <p>
         Naše webové stránky se zabývají regionální vlastivědou v{{ "\xa0" }}Brně
         a okolí, turistikou a cestováním po republice i po Evropě. Popisují
@@ -46,15 +40,15 @@
       >
     </footer>
 
-    <div v-bind:class="{ nav: true, responsive: responsive }">
+    <div :class="{ nav: true, responsive: responsive }">
       <div>
-        <Loader class="homeButton" v-if="loading.novePridane" />
-        <router-link v-else to="/novepridane"
-          >Naposled přidané ({{ pocetNovych }})</router-link
-        >
+        <Loader v-if="loading.novePridane" class="homeButton" />
+        <router-link v-else to="/novepridane">
+          Naposled přidané ({{ pocetNovych }})
+        </router-link>
       </div>
       <div>
-        <a v-bind:href="mapaUrl" target="_self" id="mapabutton"> Mapa </a>
+        <a :href="mapaUrl" target="_self" id="mapabutton"> Mapa </a>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
@@ -95,7 +89,7 @@
       </div>
     </div>
 
-    <a href="javascript:void(0);" class="icon" v-on:click="toggleMenu">
+    <a href="javascript:void(0);" class="icon" @click="toggleMenu">
       <i class="fa fa-bars"></i>
     </a>
     <div id="pocitadlo">
@@ -115,11 +109,12 @@ import Loader from "../components/Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl, testUrl, mapaUrl } from "../utils/url";
 
+const CATEGORIES = ["pomnicky", "krize", "studanky", "vypraveni", "cesty"];
+
 export default {
   components: { Loader },
   data() {
     return {
-      isTest: location.origin === testUrl,
       responsive: false,
       pomnicky: 0,
       krize: 0,
@@ -136,47 +131,111 @@ export default {
         vypraveni: true,
       },
       mapaUrl,
+      error: null,
     };
+  },
+
+  computed: {
+    isTest() {
+      return location.origin === testUrl;
+    },
+
+    welcomeMessage() {
+      return this.isTest
+        ? "Vítejte na testovacím prostředí"
+        : "Vítejte na našich webových stránkách.";
+    },
   },
 
   methods: {
     toggleMenu() {
       this.responsive = !this.responsive;
     },
-  },
-  created() {
-    ["pomnicky", "krize", "studanky", "vypraveni", "cesty"].map((kategorie) => {
-      fetch(`${apiUrl}/${kategorie}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then(
-          (data) =>
-            (this[kategorie] = data.names.filter(
-              (item) => !item.temp && (!displayTestItems() ? !item.test : true)
-            ).length)
-        )
-        .then(() => (this.loading[kategorie] = false));
-    });
-    fetch(`${apiUrl}/novePridane`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
+
+    filterTestItems(data) {
+      const showTestItems = displayTestItems();
+      return data.filter((item) => !item.temp && (showTestItems || !item.test));
+    },
+
+    async fetchCategoryCount(kategorie) {
+      try {
+        const response = await fetch(`${apiUrl}/${kategorie}`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error(
+            `Failed to fetch ${kategorie}: ${response.statusText}`
+          );
+        }
+
+        const data = await response.json();
+        const filtered = this.filterTestItems(data.names);
+        this[kategorie] = filtered.length;
+      } catch (error) {
+        console.error(`Error fetching ${kategorie}:`, error);
+        this.error = error.message;
+      } finally {
+        this.loading[kategorie] = false;
+      }
+    },
+
+    async fetchNovePridane() {
+      try {
+        const response = await fetch(`${apiUrl}/novePridane`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error(
+            `Failed to fetch novePridane: ${response.statusText}`
+          );
+        }
+
+        const data = await response.json();
         this.pocetNovych = data.filter((item) => !item.test).length;
-      })
-      .then(() => (this.loading.novePridane = false));
+      } catch (error) {
+        console.error("Error fetching novePridane:", error);
+        this.error = error.message;
+      } finally {
+        this.loading.novePridane = false;
+      }
+    },
+  },
+
+  async created() {
+    await Promise.all([
+      ...CATEGORIES.map((kategorie) => this.fetchCategoryCount(kategorie)),
+      this.fetchNovePridane(),
+    ]);
   },
 };
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .icon {
   display: none;
   grid-column: 5/6;
@@ -184,8 +243,14 @@ export default {
   font-size: 50px;
   justify-content: center;
   align-content: center;
-  color: darkslategrey;
+  color: var(--text-primary);
   margin-top: 20px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: var(--primary-color);
 }
 
 #pocitadlo {
@@ -196,11 +261,14 @@ export default {
 }
 
 #mapabutton {
-  background: #72dac1;
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  transition: var(--transition);
 }
 
 #mapabutton:hover {
-  background: #9aacab;
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 @media (max-width: 600px) {
@@ -240,24 +308,28 @@ export default {
 #uvodniText {
   justify-content: center;
   align-items: center;
-  line-height: 1.5;
+  line-height: 1.7;
   grid-column: 2 / 6;
   grid-row-start: 2;
   margin: 5%;
   margin-bottom: 0;
   text-align: justify;
-  color: #1e0b3d;
+  color: var(--text-primary);
+  position: relative;
+  z-index: 10;
 }
 
 #uvodniText h1 {
-  font-size: 40px;
-  color: #1e0b3d;
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
 }
 
 #uvodniText h2 {
   font-family: "Patrick Hand", cursive;
-  color: #1e0b3d;
-  /* color: #2c3e50; */
+  color: var(--text-primary);
 }
 
 #pozadi {
@@ -266,6 +338,8 @@ export default {
   grid-row-end: 4;
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 #pozadi img {
@@ -278,9 +352,16 @@ export default {
   grid-row: 1 / 4;
   width: 100%;
   height: 100%;
-  background-color: rgba(246, 244, 250, 0.7);
-  /* background-color: rgba(178, 203, 223, 0.7); */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.75) 0%,
+    rgba(248, 250, 252, 0.65) 100%
+  );
+  backdrop-filter: blur(2px);
   margin-right: 0;
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
 }
 
 footer {
@@ -288,16 +369,22 @@ footer {
   grid-column: 1/6;
   margin: 0 0 20px 20px;
   padding-top: 40px;
-  color: #1e0b3d;
+  color: var(--text-primary);
+  position: relative;
+  z-index: 10;
 }
 
 footer a {
-  color: #1e0b3d;
-  text-decoration: underline;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  border-bottom: 1px solid transparent;
 }
 
 footer a:hover {
-  color: rgb(69, 67, 71);
+  color: var(--primary-hover);
+  border-bottom-color: var(--primary-hover);
 }
 
 @media (max-width: 600px) {
@@ -337,7 +424,7 @@ footer a:hover {
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: var(--text-primary);
 }
 
 .nav {
@@ -349,28 +436,36 @@ h1 {
   grid-template-rows: repeat(7, 1fr);
   grid-template-columns: 1fr;
   margin: 20px;
+  position: relative;
+  z-index: 10;
 }
 
 .nav a,
 .homeButton {
   grid-column: 1/2;
   opacity: 1;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   width: 100%;
   height: 50px;
   margin: 5px;
-  border: 2px solid #2c3e50;
-  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
   display: flex;
   justify-content: flex-start;
   padding-left: 10%;
   align-items: center;
   text-transform: uppercase;
-  box-shadow: 5px 2px 2px #395250;
-  background-color: #7695dd;
-  color: #13131d;
+  box-shadow: var(--shadow-sm);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
+  color: white;
   font-family: "Raleway", sans-serif;
+  transition: var(--transition);
+  letter-spacing: 0.5px;
 }
 
 @media (max-width: 600px) {
@@ -391,8 +486,9 @@ h1 {
 
 .nav a:hover,
 .nav a:active {
-  color: #13131d;
-  background-color: #9aacab;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: white;
 }
 
 #okno {

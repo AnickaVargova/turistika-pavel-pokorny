@@ -1,56 +1,45 @@
 <template>
-  <div
-    id="detailClanku"
-    v-bind:style="{
-      backgroundColor: 'beige',
-      backgroundImage: 'none',
-      padding: '2%',
-      minHeight: '100vh',
-    }"
-  >
-    <Loader v-if="this.loading" />
+  <div id="detailClanku" :style="detailClankuStyle">
+    <Loader v-if="loading" />
     <div v-else id="detailOkno">
       <router-link to="/" id="tlacitkoDomuDetail" class="commonButton">
         Úvodní strana
       </router-link>
       <span
-        v-if="
-          this.$route.name === 'NoveVypraveni' ||
-          this.$route.name === 'NovaCesta'
-        "
-        v-on:click="$router.go(-1)"
+        v-if="showNewButton"
+        @click="$router.go(-1)"
       >
         <div class="commonButton zpetNaClanky">Nové</div>
       </span>
       <router-link
-        v-else-if="this.$route.name === 'SmirciKrizeVypraveni'"
+        v-else-if="routeName === 'SmirciKrizeVypraveni'"
         to="/krize"
       >
         <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
       <router-link
-        v-else-if="this.$route.name === 'DetailVypraveni'"
+        v-else-if="routeName === 'DetailVypraveni'"
         to="/vypraveni"
       >
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </router-link>
-      <router-link v-else-if="this.$route.name === 'DetailCesty'" to="/cesty">
+      <router-link v-else-if="routeName === 'DetailCesty'" to="/cesty">
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </router-link>
-      <span v-else v-on:click="$router.go(-1)">
+      <span v-else @click="$router.go(-1)">
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </span>
-      <div id="tlacitkoNahoruDetail" class="commonButton" v-on:click="goToTop">
+      <div id="tlacitkoNahoruDetail" class="commonButton" @click="goToTop">
         Nahoru
       </div>
       <h1>{{ detailClanku.nazev }}</h1>
       <div class="smallZalozkaTop">
         <div
           v-for="zalozka in detailClanku.zalozky"
-          v-bind:key="zalozka.paragraphId"
-          v-on:click="goToParagraph"
+          :key="zalozka.paragraphId"
+          @click="goToParagraph"
         >
-          <SmallZalozka :zalozka="zalozka" v-if="zalozka.text.length" />
+          <SmallZalozka v-if="zalozka.text.length" :zalozka="zalozka" />
         </div>
       </div>
       <h3>{{ detailClanku.datum }}</h3>
@@ -58,63 +47,50 @@
       <div id="textClanku">
         <div
           v-for="(odstavec, index) in detailClanku.text"
-          v-bind:key="index"
+          :key="index"
           class="odstavec"
-          v-bind:id="String(odstavec.id)"
+          :id="String(odstavec.id)"
         >
           <router-link
             v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
-            v-bind:to="`/fotodetail/${detailClanku.kategorie}/${
-              detailClanku.id
-            }/${odstavec.foto.trim()}`"
+            :to="`/fotodetail/${detailClanku.kategorie}/${detailClanku.id}/${odstavec.foto.trim()}`"
           >
             <figure
               id="fotoText"
-              v-bind:class="{
+              :class="{
                 vpravo: odstavec.umisteniFoto.trim() === 'vpravo',
                 vlevo: odstavec.umisteniFoto.trim() === 'vlevo',
                 nahore: index === 0,
               }"
             >
               <img
-                v-bind:src="`${apiUrl}/photos/small/${odstavec.foto.trim()}`"
-                v-bind:alt="detailClanku.nazev"
+                :src="`${apiUrl}/photos/small/${odstavec.foto.trim()}`"
+                :alt="detailClanku.nazev"
               />
-              <!-- <figcaption>{{ odstavec.popisek }}</figcaption> -->
             </figure>
           </router-link>
           <p>
             <span v-html="odstavec.textOdstavce" />
             <span v-if="odstavec.vnitrniOdkazy">
-              <Klikaci v-bind:clanek="odstavec" kdeJsem="odstavec" />
+              <Klikaci :clanek="odstavec" kdeJsem="odstavec" />
             </span>
           </p>
 
           <router-link
             v-if="detailClanku.kategorie === 'cesty' && odstavec.foto"
-            v-bind:to="
-              innerWidth < 600
-                ? `/fotodetail/${detailClanku.kategorie}/${
-                    detailClanku.id
-                  }/${odstavec.foto.trim()}`
-                : ''
-            "
+            :to="getCestyPhotoLink(odstavec)"
           >
             <figure
-              v-bind:class="{
+              v-if="shouldShowCestyPhoto(odstavec)"
+              :class="{
                 figCesty: true,
                 naVysku: odstavec.naVysku,
               }"
-              v-bind:style="{ textAlign: 'center' }"
-              v-if="
-                odstavec.foto &&
-                !odstavec.textOdstavce &&
-                !odstavec.vnitrniOdkazy
-              "
+              :style="{ textAlign: 'center' }"
             >
               <img
-                v-bind:src="`${apiUrl}/photos/medium/${odstavec.foto.trim()}`"
-                v-bind:alt="detailClanku.nazev"
+                :src="`${apiUrl}/photos/medium/${odstavec.foto.trim()}`"
+                :alt="detailClanku.nazev"
                 class="fotoCesty"
               />
               <figcaption>{{ odstavec.popisek }}</figcaption>
@@ -123,34 +99,30 @@
           <div id="mapa">
             <iframe
               v-if="odstavec.odkazMapa"
-              v-bind:src="odstavec.odkazMapa.trim()"
-            >
-              frameborder="0" ></iframe
-            >
+              :src="odstavec.odkazMapa.trim()"
+              frameborder="0"
+            ></iframe>
           </div>
         </div>
       </div>
 
       <div
+        v-if="showGallery"
         id="galerieClanek"
-        v-if="detailClanku.galerie && detailClanku.kategorie !== 'cesty'"
       >
         <div
-          class="obrazek"
           v-for="(obrazek, index) in detailClanku.galerie"
-          v-bind:key="index"
+          :key="index"
+          class="obrazek"
         >
           <router-link
-            v-bind:to="`/fotodetail/${detailClanku.kategorie}/galerie/${
-              detailClanku.id
-            }/${obrazek.fotka.trim()}`"
+            :to="`/fotodetail/${detailClanku.kategorie}/galerie/${detailClanku.id}/${obrazek.fotka.trim()}`"
           >
             <figure>
               <img
-                v-bind:src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
-                v-bind:alt="obrazek.popisek"
+                :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
+                :alt="obrazek.popisek"
               />
-              <!-- <figcaption>{{ obrazek.popisek }}</figcaption> -->
             </figure>
           </router-link>
         </div>
@@ -166,92 +138,174 @@ import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 import SmallZalozka from "../components/SmallZalozka.vue";
 
+const VYPRAVENI_ROUTES = ["DetailVypraveni", "NoveVypraveni"];
+const CESTY_ROUTES = ["DetailCesty", "NovaCesta"];
+
 export default {
   components: { Klikaci, Loader, SmallZalozka },
   data() {
     return {
       detailClanku: undefined,
       loading: true,
+      error: null,
       apiUrl,
       innerWidth: window.innerWidth,
     };
   },
 
-  methods: {
-    goToTop() {
-      window.scroll(0, 0);
+  computed: {
+    routeName() {
+      return this.$route.name;
     },
 
-    goToParagraph() {
-      const paragraph = document.getElementById(
-        String(sessionStorage.getItem("paragraphId"))
+    detailClankuStyle() {
+      return {
+        backgroundColor: "beige",
+        backgroundImage: "none",
+        padding: "2%",
+        minHeight: "100vh",
+      };
+    },
+
+    showNewButton() {
+      return (
+        this.routeName === "NoveVypraveni" || this.routeName === "NovaCesta"
       );
-      const top = paragraph?.getBoundingClientRect().top;
-      window.scrollTo(0, top);
-      sessionStorage.removeItem("paragraphId");
+    },
+
+    showGallery() {
+      return (
+        this.detailClanku?.galerie &&
+        this.detailClanku.kategorie !== "cesty"
+      );
     },
   },
 
-  created() {
-    if (
-      this.$route.name === "DetailVypraveni" ||
-      this.$route.name === "NoveVypraveni"
-    ) {
-      fetch(`${apiUrl}/vypraveni/1/${this.$route.params.id}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          if (!data.temp && (!displayTestItems() ? !data.test : true))
-            this.detailClanku = data;
-        })
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
-          window.scrollTo(0, sessionStorage.getItem("scrollY"));
-          sessionStorage.removeItem("scrollY");
-        })
-        .then(() => {
-          if (sessionStorage.getItem("paragraphId") !== null) {
-            this.goToParagraph(sessionStorage.getItem("paragraphId"));
-            sessionStorage.removeItem("paragraphId");
-          }
+  methods: {
+    goToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+
+    goToParagraph() {
+      const paragraphId = sessionStorage.getItem("paragraphId");
+      if (!paragraphId) return;
+
+      const paragraph = document.getElementById(String(paragraphId));
+      if (paragraph) {
+        const top = paragraph.getBoundingClientRect().top;
+        window.scrollTo({ top: top + window.scrollY, behavior: "smooth" });
+      }
+      sessionStorage.removeItem("paragraphId");
+    },
+
+    restoreScrollPosition() {
+      const scrollY = sessionStorage.getItem("scrollY");
+      if (scrollY) {
+        window.scrollTo(0, Number(scrollY));
+        sessionStorage.removeItem("scrollY");
+      }
+    },
+
+    getCestyPhotoLink(odstavec) {
+      if (this.innerWidth < 600) {
+        return `/fotodetail/${this.detailClanku.kategorie}/${this.detailClanku.id}/${odstavec.foto.trim()}`;
+      }
+      return "";
+    },
+
+    shouldShowCestyPhoto(odstavec) {
+      return (
+        odstavec.foto &&
+        !odstavec.textOdstavce &&
+        !odstavec.vnitrniOdkazy
+      );
+    },
+
+    filterTestItems(data) {
+      const showTestItems = displayTestItems();
+      return !data.temp && (showTestItems || !data.test);
+    },
+
+    async fetchArticle(url) {
+      try {
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
         });
-    } else if (
-      this.$route.name === "DetailCesty" ||
-      this.$route.name === "NovaCesta"
-    ) {
-      fetch(`${apiUrl}/cesty/1/${this.$route.params.id}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          if (!data.temp && (!displayTestItems() ? !data.test : true))
-            this.detailClanku = data;
-        })
-        .then(() => {
-          this.loading = false;
-        })
-        .then(() => {
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch article: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        if (this.filterTestItems(data)) {
+          this.detailClanku = data;
+        }
+      } catch (error) {
+        console.error("Error fetching article:", error);
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    },
+  },
+
+  async created() {
+    let url;
+
+    if (VYPRAVENI_ROUTES.includes(this.routeName)) {
+      url = `${apiUrl}/vypraveni/1/${this.$route.params.id}`;
+    } else if (CESTY_ROUTES.includes(this.routeName)) {
+      url = `${apiUrl}/cesty/1/${this.$route.params.id}`;
+    } else {
+      this.loading = false;
+      return;
+    }
+
+    await this.fetchArticle(url);
+
+    if (VYPRAVENI_ROUTES.includes(this.routeName)) {
+      this.restoreScrollPosition();
+      // Small delay to ensure DOM is ready
+      this.$nextTick(() => {
+        if (sessionStorage.getItem("paragraphId")) {
           this.goToParagraph();
-        });
+        }
+      });
+    } else if (CESTY_ROUTES.includes(this.routeName)) {
+      this.$nextTick(() => {
+        this.goToParagraph();
+      });
     }
   },
 };
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 iframe {
   width: 100%;
   height: 700px;
   border: none;
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-md);
 }
 
 @media (max-width: 600px) {
@@ -261,27 +315,25 @@ iframe {
 }
 
 #detailClanku {
-  background-color: beige;
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
   padding: 2%;
 }
 
 #detailOkno {
   margin: auto;
-  /* margin-top: 20px; */
-  border: 2px solid grey;
-  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
   padding: 2% 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* gap: 20px; */
   max-width: 800px;
-  background-color: white;
+  background-color: var(--bg-primary);
+  box-shadow: var(--shadow-lg);
 }
 
 #tlacitkoNahoruDetail {
   grid-row: 1/2;
   grid-column: 3/4;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   margin-top: 3px;
@@ -289,11 +341,15 @@ iframe {
   min-width: unset;
   max-width: unset;
   width: 116px;
-  padding: 0 10px;
-  height: 35px;
-  background-color: #459ae6;
+  padding: 0 14px;
+  height: 38px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border: none;
   justify-self: flex-end;
   align-self: start;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
 }
 
 #tlacitkoDomuDetail {
@@ -302,15 +358,20 @@ iframe {
   min-width: unset;
   max-width: unset;
   width: 116px !important;
-  padding: 0 10px;
-  height: 35px;
-  background-color: #459ae6;
+  padding: 0 14px;
+  height: 38px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border: none;
   justify-self: flex-end;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
 }
 
 #tlacitkoDomuDetail:hover,
 #tlacitkoNahoruDetail:hover {
-  background-color: #898a8b;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 .smallZalozkaTop {
@@ -346,23 +407,34 @@ iframe {
 .zpetNaClanky {
   width: 50%;
   min-width: 80px;
-  padding: 10px;
+  padding: 10px 14px;
   height: auto;
-  background-color: #459ae6;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border: none;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
 }
 
 .zpetNaClanky:hover {
-  color: #13131d;
-  background-color: #9aacab;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: white;
 }
 
 #detailClanku h1 {
   grid-column: 1 / 4;
   margin-top: 50px;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.5px;
 }
 
 #detailClanku h3 {
   grid-column: 1 / 4;
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 #fotoText {
@@ -413,7 +485,12 @@ iframe {
   grid-column: 1 / span 3;
   margin-bottom: 20px;
   text-align: justify;
-  line-height: 1.5;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+#textClanku p {
+  margin-bottom: 16px;
 }
 
 .figCesty {
@@ -439,10 +516,11 @@ iframe {
 
 figcaption {
   font-style: italic;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
-  color: black;
-  line-height: 1.2;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-top: 8px;
 }
 
 @media (max-width: 600px) {
@@ -465,21 +543,31 @@ a {
   object-fit: cover;
   margin-left: 0;
   margin-bottom: 60px;
+  transition: var(--transition);
+}
+
+.obrazek figure:hover {
+  transform: translateY(-4px);
 }
 
 #detailClanku img {
-  border: 2px solid grey;
-  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
   width: unset;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 
 #detailClanku img:hover,
 #detailClanku img:active {
-  border: 2px solid black;
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-md);
+  transform: scale(1.02);
 }
 
 .fotoCesty:hover {
-  border: 2px solid grey !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: var(--shadow-md) !important;
 }
 
 #galerieClanek {
