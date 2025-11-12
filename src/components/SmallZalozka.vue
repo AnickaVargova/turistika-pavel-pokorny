@@ -22,21 +22,40 @@ export default {
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-primary: #1e293b;
+  --bg-accent: #dbeafe;
+  --bg-hover: #bfdbfe;
+  --border-color: #e2e8f0;
+  --border-radius-sm: 6px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .zalozkaSmall {
-  border: 1px solid grey;
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  background-color: #cae0f0;
-  color: #2c3e50;
+  border: 1px solid var(--border-color);
+  padding: 6px 12px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: var(--border-radius-sm);
+  background: var(--bg-accent);
+  color: var(--primary-color);
   display: flex;
   align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 
 .zalozkaSmall:hover {
-  border: 1px solid black;
-  color: black;
-  background-color: #b7d8f0;
+  border-color: var(--primary-color);
+  color: var(--primary-hover);
+  background: var(--bg-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.1);
 }
 </style>

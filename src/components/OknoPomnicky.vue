@@ -415,56 +415,97 @@ export default {
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --link-color: #2563eb;
+  --link-hover: #1d4ed8;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 #pomnicky h2 {
   text-align: start;
-  color: #3784c7;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
 }
 
 #oknoPomnicky button {
-  background-color: #459ae6;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border: none;
+  transition: var(--transition);
 }
 
 #oknoPomnicky button:hover {
-  background-color: #898a8b;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 table {
-  padding: 10px;
+  padding: 20px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 tr {
-  height: 20px;
+  height: auto;
+  min-height: 40px;
 }
 
 td:nth-child(odd) {
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: top;
   width: 15%;
+  color: var(--text-primary);
+  padding: 12px 16px 12px 0;
 }
 
 td:nth-child(2) {
   text-align: justify;
+  padding: 12px 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 
 .odkaz {
-  margin-bottom: 5px !important;
+  margin-bottom: 8px !important;
   margin-top: 0 !important;
 }
 
 .odkaz a {
-  color: rgb(59, 43, 204) !important;
-  text-decoration: underline;
+  color: var(--link-color) !important;
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  border-bottom: 1px solid transparent;
 }
 
 .odkaz a:hover,
 .odkaz a:active {
-  color: rgb(93, 102, 143) !important;
+  color: var(--link-hover) !important;
+  border-bottom-color: var(--link-hover);
 }
 
 #fotogalerie {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
 }
 
 .galerieEdge {
@@ -472,11 +513,13 @@ td:nth-child(2) {
 }
 
 .jednaFotka {
-  border: 2px solid grey;
-  border-radius: 3px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
   height: 150px;
-  margin: 20px;
-  margin-left: 0;
+  margin: 0;
+  overflow: hidden;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 
 .jednaFotkaEdge {
@@ -494,15 +537,24 @@ td:nth-child(2) {
 }
 
 .jednaFotka:hover {
-  border: 2px solid black;
+  border-color: var(--primary-color);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
 }
 
 .ramecek {
-  border: 1px solid grey;
-  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
   margin: auto;
-  margin-top: 10px;
+  margin-top: 16px;
   max-width: 70vw;
+  background: var(--bg-primary);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.ramecek:hover {
+  box-shadow: var(--shadow-lg);
 }
 
 #mapaPomnicky {
@@ -514,13 +566,16 @@ td:nth-child(2) {
 #mapaPomnicky iframe {
   height: 90%;
   width: 100%;
-  margin-bottom: 10px;
-  border: 2px solid grey;
-  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
 }
 
 #mapaPomnicky iframe:hover {
-  border: 2px solid black;
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-lg);
 }
 
 #mapaPomnicky .commonButton {
@@ -532,7 +587,7 @@ td:nth-child(2) {
 td .commonButton {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 14px;
   width: 100%;
   height: 100%;
 }

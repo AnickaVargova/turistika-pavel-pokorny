@@ -56,14 +56,24 @@ export default {
 </script>
 
 <style>
+:root {
+  --link-color: #2563eb;
+  --link-hover: #1d4ed8;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .vnitrniOdkaz {
-  color: rgb(59, 43, 204);
-  text-decoration: underline;
-  font-weight: bold;
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: var(--transition);
+  padding-bottom: 1px;
 }
 
 .vnitrniOdkaz:hover,
 .vnitrniOdkaz:active {
-  color: rgb(93, 102, 143);
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
 }
 </style>

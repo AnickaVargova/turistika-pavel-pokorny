@@ -279,6 +279,25 @@ export default {
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary-color: #64748b;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-accent: #f1f5f9;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .abSeznam {
   grid-column: 2/7;
   grid-row: 3;
@@ -291,7 +310,14 @@ export default {
   grid-template-columns: repeat(6, 1fr);
   min-height: 100vh;
   grid-template-rows: auto auto auto auto;
-  color: #131e36;
+  color: var(--text-primary);
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  position: relative;
+}
+
+#pomnicky > *:not(#pozadi1):not(.transbox1) {
+  position: relative;
+  z-index: 10;
 }
 
 .large {
@@ -318,8 +344,12 @@ export default {
   grid-column: 1/7;
   justify-self: center;
   align-self: center;
-  font-size: 40px;
-  color: #131e36;
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .pomnickyText {
@@ -331,6 +361,8 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto;
+  line-height: 1.7;
+  color: var(--text-secondary);
 }
 
 #pomnickyUvod {
@@ -378,38 +410,61 @@ p.responsive {
 }
 
 .commonButton {
-  border: 2px solid black;
-  margin: 3px;
-  height: 35px;
-  font-weight: bold;
-  color: black;
-  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  margin: 4px;
+  height: 38px;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-radius: var(--border-radius-sm);
   display: flex;
   justify-content: flex-start;
-  padding: 7px;
+  padding: 8px 14px;
   align-items: center;
   text-transform: uppercase;
-  box-shadow: 5px 2px 2px #395250;
   font-size: 13px;
+  letter-spacing: 0.5px;
   min-width: 100%;
   max-width: 170px;
   font-family: "Raleway", sans-serif;
+  background: var(--bg-primary);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.commonButton:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-color);
 }
 
 .hneda {
-  background-color: #956c4a;
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  color: white;
+  border-color: #b45309;
 }
 
 .tyrkys {
-  background-color: #56cdd1;
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  color: white;
+  border-color: #0891b2;
 }
 
 .fialova {
-  background-color: #a059be;
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+  color: white;
+  border-color: #9333ea;
 }
 
 .active {
-  background-color: #898a8b;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
+  color: white;
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-md);
 }
 
 #kategorieMobil {
@@ -432,15 +487,28 @@ p.responsive {
   min-width: unset;
   max-width: unset;
   width: 56px;
-  padding: 0 10px;
-  height: 35px;
-  background-color: #459ae6;
+  padding: 0 12px;
+  height: 38px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
+  color: white;
+  border: none;
+  box-shadow: var(--shadow-md);
   margin-top: 20px;
   margin-left: 30px;
   grid-column: 1/2;
   grid-row: 1/2;
   justify-self: start;
   align-self: end;
+  transition: var(--transition);
+}
+
+#naNovePridane:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 600px) {
@@ -470,9 +538,23 @@ p.responsive {
   min-width: unset;
   max-width: unset;
   width: 116px !important;
-  padding: 0 10px;
-  height: 35px;
-  background-color: #459ae6;
+  padding: 0 14px;
+  height: 38px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
+  color: white;
+  border: none;
+  box-shadow: var(--shadow-md);
+}
+
+#tlacitkoDomu:hover,
+#tlacitkoNahoru:hover,
+#rozbalit:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 #tlacitkoDomu {
@@ -540,9 +622,9 @@ p.responsive {
   display: flex;
 }
 
-.commonButton:hover {
-  color: #13131d !important;
-  background-color: #898a8b !important;
+.commonButton:hover:not(.active):not(.hneda):not(.tyrkys):not(.fialova) {
+  color: var(--primary-color) !important;
+  background-color: var(--bg-accent) !important;
 }
 
 .kategorieTextCenter {
@@ -552,8 +634,20 @@ p.responsive {
 
 #seznam {
   margin-bottom: 20px;
-  background-color: #459ae6;
-  padding: 0 10px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
+  color: white;
+  border: none;
+  padding: 0 14px;
+  box-shadow: var(--shadow-md);
+}
+
+#seznam:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 600px) {
@@ -582,14 +676,25 @@ p.responsive {
   grid-row-end: 8;
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 1;
 }
+
 .transbox1 {
   grid-column: 1 / 7;
   grid-row: 1 / 8;
   width: 100%;
   height: 100%;
-  background-color: rgba(204, 175, 127, 0.4);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(248, 250, 252, 0.5) 100%
+  );
+  backdrop-filter: blur(2px);
   margin-right: 0;
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
 }
 
 #pomnicky .kontejner {
@@ -607,12 +712,14 @@ p.responsive {
 }
 
 #oknoPomnicky {
-  background-color: #f5f2ed;
+  background: var(--bg-primary);
   margin: 0;
   margin-bottom: 10px;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   font-size: 15px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
 }
 
 @media (max-width: 600px) {

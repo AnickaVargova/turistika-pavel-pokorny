@@ -131,30 +131,54 @@ export default {
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-accent: #2563eb;
+  --bg-primary: #ffffff;
+  --bg-hover: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .clanek {
   display: grid;
   grid-template-columns: 75% 25%;
-  border: 2px solid grey;
+  border: 1px solid var(--border-color);
   margin: auto;
-  margin-bottom: 5px;
-  border-radius: 10px;
-  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+  padding: 20px;
   max-width: 70vw;
-  color: rgb(87, 81, 81);
+  color: var(--text-secondary);
+  background: var(--bg-primary);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
 }
 
 .clanek h2 {
   grid-row: 1/2;
   grid-column: 1/2;
-  margin: 15px;
+  margin: 0 0 12px 0;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.5px;
 }
 
 .clanek h4 {
   grid-row: 2/3;
   grid-column: 1/2;
-  margin-left: 15px;
-  margin-top: 5px;
-  color: rgb(63, 58, 139);
+  margin: 8px 0;
+  color: var(--text-accent);
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .clanek h3 {
@@ -162,9 +186,10 @@ export default {
   grid-column: 1/2;
   justify-items: center;
   align-items: center;
-  margin: 10px 5px 5px 5px;
-  margin-left: 15px;
+  margin: 8px 0;
   display: flex;
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 .clanekFoto {
@@ -172,14 +197,17 @@ export default {
   grid-column: 2/3;
   width: 100%;
   height: 148px;
-  border: 2px solid grey;
-  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
 }
 
 .clanekFoto img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+  transition: var(--transition);
 }
 
 @media (max-width: 600px) {
@@ -203,8 +231,14 @@ export default {
 }
 
 .clanek:hover {
-  border: 2px solid black;
-  color: black;
-  background-color: whitesmoke;
+  border-color: var(--primary-color);
+  color: var(--text-primary);
+  background-color: var(--bg-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.clanek:hover .clanekFoto img {
+  transform: scale(1.05);
 }
 </style>

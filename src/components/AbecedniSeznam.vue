@@ -123,27 +123,49 @@ export default {
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --bg-primary: #ffffff;
+  --bg-accent: #f1f5f9;
+  --border-color: #e2e8f0;
+  --border-radius-sm: 8px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .abecedniSeznam {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   max-height: var(--columnHeightBigD);
   max-width: 75vw;
+  gap: 8px;
 }
 
 .kontejnerJmeno {
   flex-basis: auto;
-  padding: 5px;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-  margin: 1px;
-  background-color: #e7e0d0;
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  margin: 0;
+  background: var(--bg-primary);
   width: 25%;
-  color: #2f5bad;
+  color: var(--primary-color);
+  font-weight: 500;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
 }
 
 .kontejnerJmeno:hover {
-  color: grey;
+  color: var(--primary-color);
+  background: var(--bg-accent);
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 @media (max-width: 1200px) {

@@ -76,63 +76,122 @@ export default {
 </script>
 
 <style>
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --error-color: #ef4444;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-radius: 16px;
+  --border-radius-sm: 8px;
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 #wrapper {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lavender;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: absolute;
 }
 
 #authForm {
-  padding: 30px;
-  background-color: white;
-  border: 2px solid green;
-  border-radius: 10px;
+  padding: 40px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-xl);
+  min-width: 400px;
+  max-width: 500px;
 }
 
 .input {
-  height: 30px;
-  padding: 10px;
-  border: 2px solid green;
-  border-radius: 10px;
-  margin: 30px;
+  height: 44px;
+  padding: 12px 16px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  margin: 20px 30px;
+  font-size: 15px;
+  transition: var(--transition);
+  background: var(--bg-secondary);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: var(--bg-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
 .area {
   display: grid;
   grid-template-columns: 30% 70%;
+  gap: 10px;
 }
 
 .label {
   align-self: center;
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .bottom {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   margin-right: 30px;
   justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.bottom input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--primary-color);
 }
 
 #error {
-  color: red;
+  color: var(--error-color);
+  background: #fee2e2;
+  padding: 12px 16px;
+  border-radius: var(--border-radius-sm);
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid #fecaca;
 }
 
 #authButton {
   margin: 0;
-  width: 100px;
-  height: 50px;
-  border: 2px solid darkgreen;
-  background: springgreen;
-  color: black;
-  border-radius: 5px;
-  margin: 10px;
+  width: 100%;
+  height: 48px;
+  border: none;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  border-radius: var(--border-radius-sm);
+  margin: 10px 30px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
 }
 
 #authButton:hover {
-  background: lightslategrey;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+#authButton:active {
+  transform: translateY(0);
 }
 </style>
