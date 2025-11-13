@@ -488,7 +488,7 @@ p.responsive {
   grid-row: 1/2;
   grid-column: 1/2;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 6px;
 }
 
 #naNovePridane {
@@ -512,6 +512,7 @@ p.responsive {
   justify-self: start;
   align-self: end;
   transition: var(--transition);
+  width: 60px;
 }
 
 #naNovePridane:hover {
@@ -574,6 +575,7 @@ p.responsive {
   justify-self: flex-end;
   margin-right: 30px;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 #tlacitkoNahoru {
@@ -652,6 +654,7 @@ p.responsive {
   border: none;
   padding: 0 14px;
   box-shadow: var(--shadow-md);
+  width: 20px;
 }
 
 #seznam:hover {

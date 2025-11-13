@@ -127,4 +127,8 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+a {
+  text-decoration: none;
+}
 </style>
