@@ -22,18 +22,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --text-primary: #1e293b;
-  --bg-accent: #dbeafe;
-  --bg-hover: #bfdbfe;
-  --border-color: #e2e8f0;
-  --border-radius-sm: 6px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .zalozkaSmall {
   border: 1px solid var(--border-color);
   padding: 6px 12px;

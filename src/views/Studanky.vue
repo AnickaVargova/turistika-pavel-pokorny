@@ -24,7 +24,7 @@ export default {
         kategoriePomnicky: [],
         stranka: "studanky",
         background: "studanka.jpg",
-        transbox: "rgba(170, 173, 201, 0.8)",
+        transbox: "rgba(212, 225, 233, 0.5)",
         backgroundDescription: "Foto studánky",
       },
       error: null,

@@ -2,16 +2,9 @@
   <div>
     <Loader v-if="loading" />
     <div v-if="!loading" id="fotodetail">
-      <div
-        v-if="currentIndex > 0"
-        id="arrowLeft"
-        @click="slidePhoto('left')"
-      />
+      <div v-if="currentIndex > 0" id="arrowLeft" @click="slidePhoto('left')" />
       <figure :class="{ setHeight: !isEdgeChromium, setWidth: isEdgeChromium }">
-        <img
-          :src="photoUrl"
-          :alt="routeFilename"
-        />
+        <img :src="photoUrl" :alt="routeFilename" />
         <figcaption v-if="vybranaFotka.datum">
           ({{ vybranaFotka.datum }})
         </figcaption>
@@ -22,11 +15,7 @@
       <a @click="$router.go(-1)">
         <button class="commonButton">Zpět</button>
       </a>
-      <div
-        v-if="hasNextPhoto"
-        id="arrowRight"
-        @click="slidePhoto('right')"
-      />
+      <div v-if="hasNextPhoto" id="arrowRight" @click="slidePhoto('right')" />
     </div>
   </div>
 </template>
@@ -121,8 +110,7 @@ export default {
     async fetchPhotoFromText(data) {
       const par = data.text.find(
         (odstavec) =>
-          odstavec.foto &&
-          odstavec.foto.trim() === this.routeFilename
+          odstavec.foto && odstavec.foto.trim() === this.routeFilename
       );
       if (par) {
         this.vybranaFotka = {
@@ -189,30 +177,17 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --bg-primary: #ffffff;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 #fotodetail {
   padding: 30px;
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
   justify-items: center;
-  background: var(--bg-secondary);
+  background-color: rgb(230, 236, 243);
+  height: 100vh;
 }
 
 #fotodetail figure {
@@ -224,6 +199,8 @@ export default {
   box-shadow: var(--shadow-lg);
   overflow: hidden;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 #fotodetail figure:hover {
@@ -277,7 +254,12 @@ export default {
 }
 
 .setHeight {
-  height: 80vh;
+  max-height: 80vh;
+}
+
+.setHeight img {
+  max-height: calc(80vh - 60px);
+  height: auto;
 }
 
 .setWidth {
@@ -285,16 +267,20 @@ export default {
 }
 
 #fotodetail img {
-  height: 100%;
   width: 100%;
+  height: auto;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 #fotodetail figcaption {
   font-size: 15px;
-  margin-top: 1vh;
+  padding: 12px 16px;
   color: var(--text-secondary);
   font-style: italic;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-color);
+  flex-shrink: 0;
 }
 
 #fotodetail button {
@@ -305,8 +291,11 @@ export default {
   justify-content: left;
   padding-left: 30px;
   padding-right: 30px;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   border: none;
   box-shadow: var(--shadow-md);
   transition: var(--transition);
@@ -318,7 +307,6 @@ export default {
 
 #fotodetail button:active,
 #fotodetail button:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 

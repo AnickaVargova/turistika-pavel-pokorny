@@ -3,11 +3,7 @@
     <Loader v-if="loading" />
 
     <div v-if="!loading && mojeClanky.length" id="oknoPomnicky">
-      <div
-        v-for="(clanek, index) in mojeClanky"
-        :key="index"
-        class="kontejnerClanek"
-      >
+      <div v-for="(clanek, index) in mojeClanky" :key="index">
         <Zalozka :mujClanek="clanek" :stranka="stranka" />
       </div>
     </div>
@@ -131,22 +127,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --text-accent: #2563eb;
-  --bg-primary: #ffffff;
-  --bg-hover: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .clanek {
   display: grid;
   grid-template-columns: 75% 25%;
@@ -158,8 +138,9 @@ export default {
   max-width: 70vw;
   color: var(--text-secondary);
   background: var(--bg-primary);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-md);
   transition: var(--transition);
+  width: 100%;
 }
 
 .clanek h2 {
@@ -167,7 +148,7 @@ export default {
   grid-column: 1/2;
   margin: 0 0 12px 0;
   color: var(--text-primary);
-  font-weight: 700;
+  font-weight: 550;
   font-size: 24px;
   letter-spacing: -0.5px;
 }
@@ -211,22 +192,15 @@ export default {
 }
 
 @media (max-width: 600px) {
-  .kontejnerClanek {
-    border-bottom: 2px solid grey;
-  }
-
-  .kontejnerClanek:last-child {
-    border-bottom: none;
-  }
-
   .clanek {
-    border: none;
-    border-radius: 0;
     grid-template-rows: auto;
     grid-template-columns: 3fr 1fr;
     max-width: unset;
     max-height: unset;
     width: 90%;
+    margin: 2px;
+    padding: 10px;
+    box-shadow: var(--shadow-md);
   }
 }
 
@@ -234,7 +208,6 @@ export default {
   border-color: var(--primary-color);
   color: var(--text-primary);
   background-color: var(--bg-hover);
-  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 

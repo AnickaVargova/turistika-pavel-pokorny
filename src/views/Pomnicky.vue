@@ -24,6 +24,7 @@ export default {
         kategoriePomnicky: [],
         stranka: "pomnicky",
         background: "pozadiPomnicky.jpg",
+        transbox: "rgba(220, 224, 226, 0.2)",
         backgroundDescription: "Pozadí",
       },
       error: null,

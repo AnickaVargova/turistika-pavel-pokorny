@@ -5,22 +5,13 @@
       <router-link to="/" id="tlacitkoDomuDetail" class="commonButton">
         Úvodní strana
       </router-link>
-      <span
-        v-if="showNewButton"
-        @click="$router.go(-1)"
-      >
+      <span v-if="showNewButton" @click="$router.go(-1)">
         <div class="commonButton zpetNaClanky">Nové</div>
       </span>
-      <router-link
-        v-else-if="routeName === 'SmirciKrizeVypraveni'"
-        to="/krize"
-      >
+      <router-link v-else-if="routeName === 'SmirciKrizeVypraveni'" to="/krize">
         <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
-      <router-link
-        v-else-if="routeName === 'DetailVypraveni'"
-        to="/vypraveni"
-      >
+      <router-link v-else-if="routeName === 'DetailVypraveni'" to="/vypraveni">
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </router-link>
       <router-link v-else-if="routeName === 'DetailCesty'" to="/cesty">
@@ -53,7 +44,9 @@
         >
           <router-link
             v-if="odstavec.foto && detailClanku.kategorie === 'vypraveni'"
-            :to="`/fotodetail/${detailClanku.kategorie}/${detailClanku.id}/${odstavec.foto.trim()}`"
+            :to="`/fotodetail/${detailClanku.kategorie}/${
+              detailClanku.id
+            }/${odstavec.foto.trim()}`"
           >
             <figure
               id="fotoText"
@@ -106,17 +99,16 @@
         </div>
       </div>
 
-      <div
-        v-if="showGallery"
-        id="galerieClanek"
-      >
+      <div v-if="showGallery" id="galerieClanek">
         <div
           v-for="(obrazek, index) in detailClanku.galerie"
           :key="index"
           class="obrazek"
         >
           <router-link
-            :to="`/fotodetail/${detailClanku.kategorie}/galerie/${detailClanku.id}/${obrazek.fotka.trim()}`"
+            :to="`/fotodetail/${detailClanku.kategorie}/galerie/${
+              detailClanku.id
+            }/${obrazek.fotka.trim()}`"
           >
             <figure>
               <img
@@ -158,15 +150,6 @@ export default {
       return this.$route.name;
     },
 
-    detailClankuStyle() {
-      return {
-        backgroundColor: "beige",
-        backgroundImage: "none",
-        padding: "2%",
-        minHeight: "100vh",
-      };
-    },
-
     showNewButton() {
       return (
         this.routeName === "NoveVypraveni" || this.routeName === "NovaCesta"
@@ -175,8 +158,7 @@ export default {
 
     showGallery() {
       return (
-        this.detailClanku?.galerie &&
-        this.detailClanku.kategorie !== "cesty"
+        this.detailClanku?.galerie && this.detailClanku.kategorie !== "cesty"
       );
     },
   },
@@ -208,17 +190,15 @@ export default {
 
     getCestyPhotoLink(odstavec) {
       if (this.innerWidth < 600) {
-        return `/fotodetail/${this.detailClanku.kategorie}/${this.detailClanku.id}/${odstavec.foto.trim()}`;
+        return `/fotodetail/${this.detailClanku.kategorie}/${
+          this.detailClanku.id
+        }/${odstavec.foto.trim()}`;
       }
       return "";
     },
 
     shouldShowCestyPhoto(odstavec) {
-      return (
-        odstavec.foto &&
-        !odstavec.textOdstavce &&
-        !odstavec.vnitrniOdkazy
-      );
+      return odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy;
     },
 
     filterTestItems(data) {
@@ -284,22 +264,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 iframe {
   width: 100%;
   height: 700px;
@@ -315,8 +279,10 @@ iframe {
 }
 
 #detailClanku {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  background: linear-gradient(135deg, #b9cbe5 0%, #809dcf 100%);
+  background-image: none;
   padding: 2%;
+  min-height: 100vh;
 }
 
 #detailOkno {
@@ -343,8 +309,11 @@ iframe {
   width: 116px;
   padding: 0 14px;
   height: 38px;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   border: none;
   justify-self: flex-end;
   align-self: start;
@@ -360,8 +329,11 @@ iframe {
   width: 116px !important;
   padding: 0 14px;
   height: 38px;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   border: none;
   justify-self: flex-end;
   box-shadow: var(--shadow-md);
@@ -370,7 +342,6 @@ iframe {
 
 #tlacitkoDomuDetail:hover,
 #tlacitkoNahoruDetail:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -409,25 +380,26 @@ iframe {
   min-width: 80px;
   padding: 10px 14px;
   height: auto;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   border: none;
   box-shadow: var(--shadow-md);
   transition: var(--transition);
 }
 
 .zpetNaClanky:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
-  color: white;
 }
 
 #detailClanku h1 {
   grid-column: 1 / 4;
-  margin-top: 50px;
+  margin-top: 40px;
   color: var(--text-primary);
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 35px;
   letter-spacing: -0.5px;
 }
 

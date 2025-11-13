@@ -137,7 +137,9 @@
                 :class="{ jednaFotkaEdge: isEdgeChromium }"
               >
                 <router-link
-                  :to="`/fotodetail/${clanek.kategorie}/${clanek.id}/${obrazek.fotka.trim()}`"
+                  :to="`/fotodetail/${clanek.kategorie}/${
+                    clanek.id
+                  }/${obrazek.fotka.trim()}`"
                 >
                   <img
                     :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
@@ -383,8 +385,7 @@ export default {
           if (this.routeName === "NovePridaneLong") {
             filtered = filtered.filter(
               (item) =>
-                item.kategorie !== "vypraveni" &&
-                item.kategorie !== "cesty"
+                item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
             );
           }
           this.mojeClanky = filtered;
@@ -415,42 +416,26 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --link-color: #2563eb;
-  --link-hover: #1d4ed8;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 #pomnicky h2 {
   text-align: start;
   color: var(--primary-color);
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 550;
+  font-size: 24px;
   margin-bottom: 20px;
   letter-spacing: -0.5px;
 }
 
 #oknoPomnicky button {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   border: none;
   transition: var(--transition);
 }
 
 #oknoPomnicky button:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 

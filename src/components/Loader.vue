@@ -1,9 +1,9 @@
 <template>
   <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-          </div>
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
 </template>
 
 <script>
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style>
-  .spinner {
+.spinner {
   margin: 100px auto 0;
   width: 70px;
   text-align: center;
@@ -23,12 +23,19 @@ export default {
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color: #333;
-
+  background-color: #475569;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+/* Keep light background when spinner is inside buttons */
+.spinner.homeButton > div,
+.spinner.commonButton > div,
+button .spinner > div,
+.commonButton .spinner > div {
+  background-color: #f9f7f7;
 }
 
 .spinner .bounce1 {
@@ -64,5 +71,4 @@ export default {
     transform: scale(1);
   }
 }
-
 </style>

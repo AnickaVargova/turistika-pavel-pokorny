@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link :to="path">
+    <router-link :to="path" class="clanekLink">
       <div class="clanek">
         <h2 v-if="showNazev">{{ clanek.nazev }}</h2>
         <h2 v-else-if="isKrize">{{ getCleanJmeno(clanek.jmeno) }}</h2>
@@ -120,5 +120,11 @@ export default {
   display: flex;
   flex-wrap: wrap;
   margin: 0 15px;
+}
+
+.clanekLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

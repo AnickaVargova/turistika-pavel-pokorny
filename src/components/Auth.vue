@@ -76,23 +76,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --error-color: #ef4444;
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-radius: 16px;
-  --border-radius-sm: 8px;
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 #wrapper {
   height: 100vh;
   width: 100vw;
@@ -187,7 +170,6 @@ export default {
 }
 
 #authButton:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 

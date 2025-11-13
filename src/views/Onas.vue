@@ -80,24 +80,6 @@
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --link-color: #2563eb;
-  --link-hover: #1d4ed8;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 #detailClanku {
   background-image: url("./../assets/bileTahy.jpg");
   padding: 0;
@@ -146,23 +128,21 @@
 #detailClanku .commonButton {
   min-width: 0;
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  color: white;
   border: none;
   box-shadow: var(--shadow-md);
   transition: var(--transition);
 }
 
 #detailClanku .commonButton:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 
 #detailClanku h1 {
   grid-column: 1 / 4;
-  margin-top: 50px;
+  margin-top: 40px;
   color: var(--text-primary);
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 35px;
   letter-spacing: -0.5px;
 }
 

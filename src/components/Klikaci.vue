@@ -56,12 +56,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --link-color: #2563eb;
-  --link-hover: #1d4ed8;
-  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .vnitrniOdkaz {
   color: var(--link-color);
   text-decoration: none;

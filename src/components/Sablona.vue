@@ -279,25 +279,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --secondary-color: #64748b;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-accent: #f1f5f9;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
-    0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .abSeznam {
   grid-column: 2/7;
   grid-row: 3;
@@ -315,7 +296,7 @@ export default {
   position: relative;
 }
 
-#pomnicky > *:not(#pozadi1):not(.transbox1) {
+#pomnicky > *:not(#pozadi1):not(.transbox1):not(#tlacitkoNahoru) {
   position: relative;
   z-index: 10;
 }
@@ -344,8 +325,8 @@ export default {
   grid-column: 1/7;
   justify-self: center;
   align-self: center;
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 500;
   color: var(--text-primary);
   letter-spacing: -0.5px;
   margin-bottom: 10px;
@@ -410,11 +391,10 @@ p.responsive {
 }
 
 .commonButton {
-  border: 1px solid var(--border-color);
   margin: 4px;
   height: 38px;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--button-text-color);
   border-radius: var(--border-radius-sm);
   display: flex;
   justify-content: flex-start;
@@ -426,45 +406,74 @@ p.responsive {
   min-width: 100%;
   max-width: 170px;
   font-family: "Raleway", sans-serif;
-  background: var(--bg-primary);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
   cursor: pointer;
 }
 
 .commonButton:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
+  color: var(--button-text-hover);
+  background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
 }
 
 .hneda {
-  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
-  color: white;
-  border-color: #b45309;
+  background: linear-gradient(135deg, #5b3f20 0%, #95460a 100%);
+  color: var(--button-text-color);
+  border-color: #6f3306;
+}
+
+.hneda:hover {
+  border-color: #2a1709;
+  background: linear-gradient(135deg, #96734c 0%, #b56d37 100%);
 }
 
 .tyrkys {
   background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
-  color: white;
+  color: var(--button-text-color);
   border-color: #0891b2;
 }
 
 .fialova {
-  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
-  color: white;
-  border-color: #9333ea;
+  background: linear-gradient(135deg, #8252db 0%, #4a1f8f 100%);
+  color: var(--button-text-color);
+  border-color: #6731bd;
 }
 
-.active {
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--primary-hover) 100%
-  );
-  color: white;
-  border-color: var(--primary-color);
-  box-shadow: var(--shadow-md);
+.hneda:hover {
+  color: var(--button-text-hover);
+}
+
+.tyrkys:hover {
+  color: var(--button-text-hover);
+  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+}
+
+.fialova:hover {
+  color: var(--button-text-hover);
+  background: linear-gradient(135deg, #9465c2 0%, #8e49cf 100%);
+}
+
+/* .active {
+  color: var(--button-text-hover);
+  background: linear-gradient(135deg, #96734c 0%, #b56d37 100%);
+} */
+
+.active.hneda {
+  background: linear-gradient(135deg, #96734c 0%, #b56d37 100%);
+}
+
+.active.tyrkys {
+  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+}
+
+.active.fialova {
+  background: linear-gradient(135deg, #9465c2 0%, #8e49cf 100%);
 }
 
 #kategorieMobil {
@@ -494,7 +503,6 @@ p.responsive {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  color: white;
   border: none;
   box-shadow: var(--shadow-md);
   margin-top: 20px;
@@ -507,7 +515,6 @@ p.responsive {
 }
 
 #naNovePridane:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
 
@@ -545,16 +552,19 @@ p.responsive {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  color: white;
-  border: none;
+  color: var(--button-text-color);
   box-shadow: var(--shadow-md);
+  transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #tlacitkoDomu:hover,
 #tlacitkoNahoru:hover,
 #rozbalit:hover {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
+  color: var(--button-text-hover);
+  background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
 }
 
 #tlacitkoDomu {
@@ -572,9 +582,10 @@ p.responsive {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 20;
   justify-self: flex-end;
   margin-right: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #rozbalitWrapper {
@@ -613,6 +624,7 @@ p.responsive {
 
   #tlacitkoNahoru {
     width: 60px !important;
+    margin-top: 21px;
     grid-column: 5/7;
     justify-self: center;
   }
@@ -622,10 +634,12 @@ p.responsive {
   display: flex;
 }
 
-.commonButton:hover:not(.active):not(.hneda):not(.tyrkys):not(.fialova) {
+/* .commonButton:hover:not(.active):not(.hneda):not(.tyrkys):not(.fialova):not(
+    #seznam
+  ) {
   color: var(--primary-color) !important;
   background-color: var(--bg-accent) !important;
-}
+} */
 
 .kategorieTextCenter {
   justify-content: center;
@@ -634,20 +648,14 @@ p.responsive {
 
 #seznam {
   margin-bottom: 20px;
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--primary-hover) 100%
-  );
-  color: white;
+  color: var(--button-text-color);
   border: none;
   padding: 0 14px;
   box-shadow: var(--shadow-md);
 }
 
 #seznam:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  color: var(--button-text-hover);
 }
 
 @media (max-width: 600px) {
@@ -685,11 +693,6 @@ p.responsive {
   grid-row: 1 / 8;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.7) 0%,
-    rgba(248, 250, 252, 0.5) 100%
-  );
   backdrop-filter: blur(2px);
   margin-right: 0;
   position: relative;

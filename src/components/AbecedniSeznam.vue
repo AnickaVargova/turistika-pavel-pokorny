@@ -24,6 +24,7 @@ import { apiUrl } from "../utils/url";
 const ITEM_HEIGHT = 35;
 const BACKGROUND_COLORS = {
   krize: "#e9f4f5",
+  studanky: "#ebf1f0",
   default: "#e7e0d0",
 };
 
@@ -51,9 +52,14 @@ export default {
 
   computed: {
     backgroundColor() {
-      return this.stranka === "krize"
-        ? BACKGROUND_COLORS.krize
-        : BACKGROUND_COLORS.default;
+      switch (this.stranka) {
+        case "krize":
+          return BACKGROUND_COLORS.krize;
+        case "studanky":
+          return BACKGROUND_COLORS.studanky;
+        default:
+          return BACKGROUND_COLORS.default;
+      }
     },
 
     cssVars() {
@@ -123,19 +129,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --bg-primary: #ffffff;
-  --bg-accent: #f1f5f9;
-  --border-color: #e2e8f0;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .abecedniSeznam {
   display: flex;
   flex-direction: column;

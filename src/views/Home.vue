@@ -44,7 +44,7 @@
       <div>
         <Loader v-if="loading.novePridane" class="homeButton" />
         <router-link v-else to="/novepridane">
-          Naposled přidané ({{ pocetNovych }})
+          Naposled přidané <span class="count">&nbsp;{{ pocetNovych }}</span>
         </router-link>
       </div>
       <div>
@@ -53,27 +53,33 @@
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
         <router-link v-else to="/pomnicky"
-          >Pomníčky ({{ pomnicky }})
+          >Pomníčky <span class="count">&nbsp;{{ pomnicky }}</span>
         </router-link>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.krize" />
-        <router-link v-else to="/krize">Smírčí kříže ({{ krize }})</router-link>
+        <router-link v-else to="/krize"
+          >Smírčí kříže
+          <span class="count">&nbsp;{{ krize }}</span></router-link
+        >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.studanky" />
         <router-link v-else to="/studanky"
-          >Studánky ({{ studanky }})</router-link
+          >Studánky <span class="count">&nbsp;{{ studanky }}</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.cesty" />
-        <router-link v-else to="/cesty">Cesty ({{ cesty }})</router-link>
+        <router-link v-else to="/cesty"
+          >Cesty <span class="count">&nbsp;{{ cesty }}</span></router-link
+        >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.vypraveni" />
         <router-link v-else to="/vypraveni"
-          >Vyprávění ({{ vypraveni }})</router-link
+          >Vyprávění
+          <span class="count">&nbsp;{{ vypraveni }}</span></router-link
         >
       </div>
       <div>
@@ -143,7 +149,7 @@ export default {
     welcomeMessage() {
       return this.isTest
         ? "Vítejte na testovacím prostředí"
-        : "Vítejte na našich webových stránkách.";
+        : "Vítejte na našich webových stránkách";
     },
   },
 
@@ -219,23 +225,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
-  --text-primary: #1e293b;
-  --text-secondary: #475569;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-radius: 12px;
-  --border-radius-sm: 8px;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
-    0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .icon {
   display: none;
   grid-column: 5/6;
@@ -247,6 +236,8 @@ export default {
   margin-top: 20px;
   transition: var(--transition);
   cursor: pointer;
+  z-index: 100;
+  position: relative;
 }
 
 .icon:hover {
@@ -258,6 +249,8 @@ export default {
   grid-column: 5/6;
   margin: auto;
   margin-top: 20px;
+  z-index: 100;
+  position: relative;
 }
 
 #mapabutton {
@@ -267,7 +260,6 @@ export default {
 
 #mapabutton:hover {
   background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
-  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 
@@ -320,8 +312,8 @@ export default {
 }
 
 #uvodniText h1 {
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 500;
   color: var(--text-primary);
   letter-spacing: -0.5px;
   margin-bottom: 20px;
@@ -462,7 +454,7 @@ h1 {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  color: white;
+  color: var(--button-text-color);
   font-family: "Raleway", sans-serif;
   transition: var(--transition);
   letter-spacing: 0.5px;
@@ -486,9 +478,9 @@ h1 {
 
 .nav a:hover,
 .nav a:active {
-  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
   color: white;
+  border-color: #2a1709;
 }
 
 #okno {
@@ -497,7 +489,17 @@ h1 {
   width: 100%;
 }
 
+#pomnickyFiltry li {
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 #pomnickyFiltry li:hover {
   background-color: #30524f;
+}
+
+.count {
+  color: var(--button-text-color);
+  font-size: 14px;
+  font-weight: 500;
 }
 </style>
