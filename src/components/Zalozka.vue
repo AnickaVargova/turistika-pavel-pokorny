@@ -20,7 +20,10 @@
           <img
             v-if="clanek.fotkaUvod"
             :src="getPhotoUrl(clanek)"
+            :srcset="getPhotoSrcSet(clanek)"
+            sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
             :alt="clanek.jmeno"
+            loading="lazy"
           />
         </div>
       </div>
@@ -110,6 +113,16 @@ export default {
           ? clanek.fotkaUvod.trim()
           : clanek.fotkaUvod.fotka.trim();
       return `${this.apiUrl}/photos/small/${photoName}`;
+    },
+
+    getPhotoSrcSet(clanek) {
+      if (!clanek.fotkaUvod) return "";
+      const { kategorie } = clanek;
+      const photoName =
+        kategorie?.trim() === "vypraveni" || kategorie?.trim() === "cesty"
+          ? clanek.fotkaUvod.trim()
+          : clanek.fotkaUvod.fotka.trim();
+      return `${this.apiUrl}/photos/small/${photoName} 300w, ${this.apiUrl}/photos/medium/${photoName} 600w`;
     },
   },
 };

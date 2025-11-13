@@ -6,6 +6,8 @@
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes in milliseconds
 
 const cache = new Map();
+// Track ongoing requests to prevent duplicate simultaneous requests
+const pendingRequests = new Map();
 
 /**
  * Get cached response if available and not expired
@@ -53,11 +55,13 @@ function clearCache() {
  */
 function clearCachedUrl(url) {
   cache.delete(url);
+  pendingRequests.delete(url);
 }
 
 /**
  * Cached fetch wrapper
  * Automatically caches GET requests and returns cached data if available
+ * Prevents duplicate simultaneous requests (request deduplication)
  * @param {string} url - The API URL
  * @param {Object} options - Fetch options (method, headers, etc.)
  * @returns {Promise<Response>} - Fetch response
@@ -77,23 +81,47 @@ async function cachedFetch(url, options = {}) {
         statusText: "OK (cached)",
       };
     }
-  }
 
-  // Make the actual fetch request
-  const response = await fetch(url, options);
-
-  // Cache successful GET responses
-  if (isGetRequest && response.ok) {
-    try {
-      const data = await response.clone().json(); // Clone to avoid consuming the response
-      setCached(url, data);
-    } catch (error) {
-      // If response is not JSON, don't cache
-      console.warn(`Failed to cache non-JSON response for ${url}:`, error);
+    // Check if there's already a pending request for this URL
+    const pendingRequest = pendingRequests.get(url);
+    if (pendingRequest) {
+      // Return the existing promise to prevent duplicate requests
+      return pendingRequest;
     }
   }
 
-  return response;
+  // Create a new fetch request
+  const fetchPromise = (async () => {
+    try {
+      // Make the actual fetch request
+      const response = await fetch(url, options);
+
+      // Cache successful GET responses
+      if (isGetRequest && response.ok) {
+        try {
+          const data = await response.clone().json(); // Clone to avoid consuming the response
+          setCached(url, data);
+        } catch (error) {
+          // If response is not JSON, don't cache
+          console.warn(`Failed to cache non-JSON response for ${url}:`, error);
+        }
+      }
+
+      return response;
+    } finally {
+      // Remove from pending requests when done (success or failure)
+      if (isGetRequest) {
+        pendingRequests.delete(url);
+      }
+    }
+  })();
+
+  // Store the pending request for GET requests
+  if (isGetRequest) {
+    pendingRequests.set(url, fetchPromise);
+  }
+
+  return fetchPromise;
 }
 
 export { cachedFetch, clearCache, clearCachedUrl, getCached, setCached };

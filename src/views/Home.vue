@@ -99,11 +99,17 @@
       <i class="fa fa-bars"></i>
     </a>
     <div id="pocitadlo">
-      <a href="https://www.toplist.cz/stat/1802686/">
+      <a
+        href="https://www.toplist.cz/stat/1802686/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="https://www.toplist.cz/count.asp?id=1802686&amp;logo=mc&amp;http=https%3A//www.google.com/&amp;wi=1440&amp;he=900&amp;cd=24&amp;t=Turistika Pavel Pokorný"
           style="border: 1; width: 88px; height: 60px"
           alt="Toplist"
+          loading="lazy"
+          decoding="async"
         />
       </a>
     </div>
@@ -138,7 +144,7 @@ export default {
         vypraveni: true,
       },
       mapaUrl,
-      error: null,
+      errors: {}, // Track errors per category instead of single error
     };
   },
 
@@ -184,7 +190,10 @@ export default {
         this[kategorie] = filtered.length;
       } catch (error) {
         console.error(`Error fetching ${kategorie}:`, error);
-        this.error = error.message;
+        // Store error per category instead of blocking all
+        this.errors[kategorie] = error.message;
+        // Set count to 0 or keep previous value on error
+        this[kategorie] = this[kategorie] || 0;
       } finally {
         this.loading[kategorie] = false;
       }
@@ -209,7 +218,10 @@ export default {
         this.pocetNovych = data.filter((item) => !item.test).length;
       } catch (error) {
         console.error("Error fetching novePridane:", error);
-        this.error = error.message;
+        // Store error per category instead of blocking all
+        this.errors.novePridane = error.message;
+        // Set count to 0 or keep previous value on error
+        this.pocetNovych = this.pocetNovych || 0;
       } finally {
         this.loading.novePridane = false;
       }
@@ -217,10 +229,21 @@ export default {
   },
 
   async created() {
-    await Promise.all([
+    // Use Promise.allSettled to prevent one failure from blocking others
+    // This provides error boundaries - each request can fail independently
+    const results = await Promise.allSettled([
       ...CATEGORIES.map((kategorie) => this.fetchCategoryCount(kategorie)),
       this.fetchNovePridane(),
     ]);
+
+    // Log any failures for debugging (errors are already handled in individual methods)
+    results.forEach((result, index) => {
+      if (result.status === "rejected") {
+        const categoryName =
+          index < CATEGORIES.length ? CATEGORIES[index] : "novePridane";
+        console.warn(`Failed to fetch ${categoryName}:`, result.reason);
+      }
+    });
   },
 };
 </script>

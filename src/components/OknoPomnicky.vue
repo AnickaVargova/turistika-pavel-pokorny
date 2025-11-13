@@ -143,8 +143,11 @@
                 >
                   <img
                     :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
+                    :srcset="`${apiUrl}/photos/small/${obrazek.fotka.trim()} 300w, ${apiUrl}/photos/medium/${obrazek.fotka.trim()} 600w`"
+                    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 25vw"
                     alt="Fotodetail"
                     :class="{ imgEdge: isEdgeChromium }"
+                    loading="lazy"
                   />
                 </router-link>
               </div>

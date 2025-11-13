@@ -59,6 +59,7 @@
               <img
                 :src="`${apiUrl}/photos/small/${odstavec.foto.trim()}`"
                 :alt="detailClanku.nazev"
+                loading="lazy"
               />
             </figure>
           </router-link>
@@ -85,6 +86,7 @@
                 :src="`${apiUrl}/photos/medium/${odstavec.foto.trim()}`"
                 :alt="detailClanku.nazev"
                 class="fotoCesty"
+                loading="lazy"
               />
               <figcaption>{{ odstavec.popisek }}</figcaption>
             </figure>
@@ -113,7 +115,10 @@
             <figure>
               <img
                 :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
+                :srcset="`${apiUrl}/photos/small/${obrazek.fotka.trim()} 300w, ${apiUrl}/photos/medium/${obrazek.fotka.trim()} 600w`"
+                sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 :alt="obrazek.popisek"
+                loading="lazy"
               />
             </figure>
           </router-link>
