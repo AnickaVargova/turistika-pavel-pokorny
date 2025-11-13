@@ -23,6 +23,7 @@
 <script>
 import Loader from "../components/Loader.vue";
 import { apiUrl } from "../utils/url";
+import { cachedFetch } from "../utils/apiCache";
 
 const FOTO_ONAS = [
   {
@@ -141,7 +142,7 @@ export default {
           );
         } else {
           const url = `${this.apiUrl}/${this.routeKategorie}/${this.routeKategorie}/${this.routeId}`;
-          const response = await fetch(url, {
+          const response = await cachedFetch(url, {
             method: "GET",
             headers: {
               "Content-Type": "application/json",

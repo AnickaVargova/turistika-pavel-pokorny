@@ -129,6 +129,7 @@ import Loader from "../components/Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
 import SmallZalozka from "../components/SmallZalozka.vue";
+import { cachedFetch } from "../utils/apiCache";
 
 const VYPRAVENI_ROUTES = ["DetailVypraveni", "NoveVypraveni"];
 const CESTY_ROUTES = ["DetailCesty", "NovaCesta"];
@@ -208,7 +209,7 @@ export default {
 
     async fetchArticle(url) {
       try {
-        const response = await fetch(url, {
+        const response = await cachedFetch(url, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

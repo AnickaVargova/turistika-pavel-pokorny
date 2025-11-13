@@ -15,6 +15,7 @@ import Zalozka from "./Zalozka.vue";
 import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
+import { cachedFetch } from "../utils/apiCache";
 
 // Route name constants
 const CATEGORY_ROUTES = [
@@ -87,7 +88,7 @@ export default {
           url = `${apiUrl}/${this.stranka}/1`;
         }
 
-        const response = await fetch(url, {
+        const response = await cachedFetch(url, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

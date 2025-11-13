@@ -1,16 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Onas from "../views/Onas.vue";
-import Odkazy from "../views/Odkazy.vue";
-import Detail from "../views/Detail.vue";
-import Fotodetail from "../views/Fotodetail.vue";
-import Pomnicky from "../views/Pomnicky.vue";
-import Studanky from "../views/Studanky.vue";
-import SmirciKrize from "../views/SmirciKrize.vue";
-import Cesty from "../views/Cesty.vue";
-import Vypraveni from "../views/Vypraveni.vue";
-import NovePridane from "../views/NovePridane.vue";
 
 Vue.use(VueRouter);
 
@@ -18,148 +7,148 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: () => import("../views/Home.vue"),
   },
   {
     path: "/onas",
     name: "Onas",
-    component: Onas,
+    component: () => import("../views/Onas.vue"),
   },
 
   {
     path: "/odkazy",
     name: "Odkazy",
-    component: Odkazy,
+    component: () => import("../views/Odkazy.vue"),
   },
   {
     path: "/vypraveni/:podkategorie/:id",
     name: "DetailVypraveni",
-    component: Detail,
+    component: () => import("../views/Detail.vue"),
   },
   {
     path: "/cesty/:podkategorie/:id",
     name: "DetailCesty",
-    component: Detail,
+    component: () => import("../views/Detail.vue"),
   },
   {
     path: "/fotodetail/:kategorie/:id/:filename",
     name: "Fotodetail",
-    component: Fotodetail,
+    component: () => import("../views/Fotodetail.vue"),
   },
   {
     path: "/fotodetail/:kategorie/galerie/:id/:filename",
     name: "FotodetailVypraveniGalerie",
-    component: Fotodetail,
+    component: () => import("../views/Fotodetail.vue"),
   },
   {
     path: "/pomnicky",
     name: "Pomnicky",
-    component: Pomnicky,
+    component: () => import("../views/Pomnicky.vue"),
   },
   {
     path: "/pomnicky/:kategorie",
     name: "PomnickyKategorie",
-    component: Pomnicky,
+    component: () => import("../views/Pomnicky.vue"),
   },
   {
     path: "/pomnicky/:kategorie/long",
     name: "PomnickyKategorieLong",
-    component: Pomnicky,
+    component: () => import("../views/Pomnicky.vue"),
   },
   {
     path: "/pomnicky/:kategorie/:id",
     name: "DetailPomnicku",
-    component: Pomnicky,
+    component: () => import("../views/Pomnicky.vue"),
   },
   {
     path: "/studanky",
     name: "Studanky",
-    component: Studanky,
+    component: () => import("../views/Studanky.vue"),
   },
   {
     path: "/studanky/:kategorie",
     name: "StudankyKategorie",
-    component: Studanky,
+    component: () => import("../views/Studanky.vue"),
   },
   {
     path: "/studanky/:kategorie/long",
     name: "StudankyKategorieLong",
-    component: Studanky,
+    component: () => import("../views/Studanky.vue"),
   },
   {
     path: "/studanky/:kategorie/:id",
     name: "DetailStudanky",
-    component: Studanky,
+    component: () => import("../views/Studanky.vue"),
   },
   {
     path: "/krize",
     name: "SmirciKrize",
-    component: SmirciKrize,
+    component: () => import("../views/SmirciKrize.vue"),
   },
   {
     path: "/krize/:kategorie",
     name: "SmirciKrizeKategorie",
-    component: SmirciKrize,
+    component: () => import("../views/SmirciKrize.vue"),
   },
   {
     path: "/krize/:kategorie/long",
     name: "SmirciKrizeKategorieLong",
-    component: SmirciKrize,
+    component: () => import("../views/SmirciKrize.vue"),
   },
   {
     path: "/krize/:kategorie/:id",
     name: "DetailKrize",
-    component: SmirciKrize,
+    component: () => import("../views/SmirciKrize.vue"),
   },
   {
     path: "/krize/vypraveni/:kategorie/:id",
     name: "SmirciKrizeVypraveni",
-    component: Detail,
+    component: () => import("../views/Detail.vue"),
   },
   {
     path: "/cesty",
     name: "Cesty",
-    component: Cesty,
+    component: () => import("../views/Cesty.vue"),
   },
   {
     path: "/vypraveni",
     name: "Vypraveni",
-    component: Vypraveni,
+    component: () => import("../views/Vypraveni.vue"),
   },
   {
     path: "/novepridane",
     name: "NovePridane",
-    component: NovePridane,
+    component: () => import("../views/NovePridane.vue"),
   },
   {
     path: "/novepridane/long",
     name: "NovePridaneLong",
-    component: NovePridane,
+    component: () => import("../views/NovePridane.vue"),
   },
   {
     path: "/novepridane/vypraveni/:kategorie/:id",
     name: "NoveVypraveni",
-    component: Detail,
+    component: () => import("../views/Detail.vue"),
   },
   {
     path: "/novepridane/cesty/:kategorie/:id",
     name: "NovaCesta",
-    component: Detail,
+    component: () => import("../views/Detail.vue"),
   },
   {
     path: "/novepridane/pomnicky/:kategorie/:id",
     name: "NovyPomnicek",
-    component: Pomnicky,
+    component: () => import("../views/Pomnicky.vue"),
   },
   {
     path: "/novepridane/krize/:kategorie/:id",
     name: "NovyKriz",
-    component: SmirciKrize,
+    component: () => import("../views/SmirciKrize.vue"),
   },
   {
     path: "/novepridane/studanky/:kategorie/:id",
     name: "NovaStudanka",
-    component: Studanky,
+    component: () => import("../views/Studanky.vue"),
   },
 ];
 

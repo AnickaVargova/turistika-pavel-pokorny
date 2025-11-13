@@ -114,6 +114,7 @@
 import Loader from "../components/Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl, testUrl, mapaUrl } from "../utils/url";
+import { cachedFetch } from "../utils/apiCache";
 
 const CATEGORIES = ["pomnicky", "krize", "studanky", "vypraveni", "cesty"];
 
@@ -165,7 +166,7 @@ export default {
 
     async fetchCategoryCount(kategorie) {
       try {
-        const response = await fetch(`${apiUrl}/${kategorie}`, {
+        const response = await cachedFetch(`${apiUrl}/${kategorie}`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -191,7 +192,7 @@ export default {
 
     async fetchNovePridane() {
       try {
-        const response = await fetch(`${apiUrl}/novePridane`, {
+        const response = await cachedFetch(`${apiUrl}/novePridane`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

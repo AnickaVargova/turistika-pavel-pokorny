@@ -213,6 +213,7 @@ import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { apiUrl } from "../utils/url";
+import { cachedFetch } from "../utils/apiCache";
 
 // Route name constants
 const DETAIL_ROUTES = [
@@ -362,7 +363,7 @@ export default {
           return; // No fetch needed for other routes
         }
 
-        const response = await fetch(url, {
+        const response = await cachedFetch(url, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

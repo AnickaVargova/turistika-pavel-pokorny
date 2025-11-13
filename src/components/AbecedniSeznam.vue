@@ -19,6 +19,7 @@ import Loader from "./Loader.vue";
 import { displayTestItems } from "../utils/displayTestItems";
 import { removeDuplicates } from "../utils/removeDuplicates";
 import { apiUrl } from "../utils/url";
+import { cachedFetch } from "../utils/apiCache";
 
 // Constants
 const ITEM_HEIGHT = 35;
@@ -102,7 +103,7 @@ export default {
         this.loading = true;
         this.error = null;
 
-        const response = await fetch(`${apiUrl}/${this.stranka}`, {
+        const response = await cachedFetch(`${apiUrl}/${this.stranka}`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
