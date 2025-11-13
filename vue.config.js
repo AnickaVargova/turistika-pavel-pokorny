@@ -1,8 +1,4 @@
-const { defineConfig } = require("@vue/cli-service");
-
-module.exports = defineConfig({
-  transpileDependencies: true,
-
+module.exports = {
   // Production optimizations
   productionSourceMap: false, // Disable source maps in production for smaller bundle
 
@@ -55,4 +51,4 @@ module.exports = defineConfig({
       });
     }
   },
-});
+};

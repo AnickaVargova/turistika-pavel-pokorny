@@ -1,7 +1,18 @@
 <template>
   <div class="home">
     <div id="pozadi">
-      <img src="./../assets/uvodniStrana.jpg" alt="hory" />
+      <picture>
+        <!-- WebP format for modern browsers (better compression) -->
+        <!-- Uncomment when uvodniStrana.webp is created -->
+        <!-- <source srcset="./../assets/uvodniStrana.webp" type="image/webp" /> -->
+        <!-- Fallback to JPEG for older browsers -->
+        <img
+          src="./../assets/uvodniStrana.jpg"
+          alt="hory"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
     </div>
 
     <div id="transbox"></div>
@@ -358,9 +369,18 @@ export default {
   z-index: 1;
 }
 
-#pozadi img {
+#pozadi img,
+#pozadi picture {
   grid-column: 1 / 7;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+#pozadi picture {
+  width: 100%;
+  height: 100%;
 }
 
 #transbox {
