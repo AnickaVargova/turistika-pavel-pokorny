@@ -6,8 +6,8 @@
         <h2 v-else-if="isKrize">{{ getCleanJmeno(clanek.jmeno) }}</h2>
         <div class="smallZalozkaWrapper">
           <SmallZalozka
-            v-for="zalozka in clanek.zalozky"
-            :key="zalozka.paragraphId"
+            v-for="(zalozka, index) in clanek.zalozky"
+            :key="zalozka.paragraphId || `${clanek.id}-zalozka-${index}`"
             :zalozka="zalozka"
           />
         </div>

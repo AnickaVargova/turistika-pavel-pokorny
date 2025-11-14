@@ -3,7 +3,7 @@
     <Loader v-if="loading" />
 
     <div v-if="!loading && mojeClanky.length" id="oknoPomnicky">
-      <div v-for="(clanek, index) in mojeClanky" :key="index">
+      <div v-for="clanek in mojeClanky" :key="clanek.id">
         <Zalozka :mujClanek="clanek" :stranka="stranka" />
       </div>
     </div>

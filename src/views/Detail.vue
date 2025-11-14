@@ -1,5 +1,5 @@
 <template>
-  <div id="detailClanku" :style="detailClankuStyle">
+  <div id="detailClanku">
     <Loader v-if="loading" />
     <div v-else id="detailOkno">
       <router-link to="/" id="tlacitkoDomuDetail" class="commonButton">
