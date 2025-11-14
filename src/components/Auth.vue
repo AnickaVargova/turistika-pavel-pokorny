@@ -154,11 +154,15 @@ export default {
 }
 
 #authButton {
-  margin: 0;
-  width: 100%;
+  display: block;
+  width: calc(100% - 60px);
   height: 48px;
   border: none;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   color: white;
   border-radius: var(--border-radius-sm);
   margin: 10px 30px;
