@@ -94,6 +94,17 @@ export default {
   box-shadow: var(--shadow-xl);
   min-width: 400px;
   max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #authForm {
+    min-width: unset;
+    max-width: calc(100vw - 40px);
+    padding: 30px 20px;
+    margin: 20px;
+  }
 }
 
 .input {
@@ -105,6 +116,16 @@ export default {
   font-size: 15px;
   transition: var(--transition);
   background: var(--bg-secondary);
+  box-sizing: border-box;
+  width: calc(100% - 60px);
+}
+
+@media (max-width: 600px) {
+  .input {
+    margin: 8px 0;
+    width: 100%;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
 }
 
 .input:focus {
@@ -118,6 +139,17 @@ export default {
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .area {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .label {
+    margin-bottom: 4px;
+  }
 }
 
 .label {
@@ -136,6 +168,19 @@ export default {
   color: var(--text-secondary);
 }
 
+@media (max-width: 600px) {
+  .bottom {
+    margin-right: 0;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .bottom span {
+    font-size: 13px;
+  }
+}
+
 .bottom input[type="checkbox"] {
   width: 18px;
   height: 18px;
@@ -151,6 +196,15 @@ export default {
   margin-bottom: 20px;
   font-size: 14px;
   border: 1px solid #fecaca;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #error {
+    padding: 10px 12px;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
 }
 
 #authButton {
@@ -171,6 +225,16 @@ export default {
   cursor: pointer;
   transition: var(--transition);
   box-shadow: var(--shadow-md);
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #authButton {
+    width: 100%;
+    margin: 10px 0;
+    height: 44px;
+    font-size: 14px;
+  }
 }
 
 #authButton:hover {
