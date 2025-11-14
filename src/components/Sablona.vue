@@ -617,9 +617,7 @@ p.responsive {
   }
 
   .pomnickyNavigace > div {
-    width: 100%;
     max-width: 100%;
-    box-sizing: border-box;
   }
 
   .pomnickyNavigace .commonButton {
