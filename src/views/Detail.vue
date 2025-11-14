@@ -357,6 +357,7 @@ iframe {
   align-self: start;
   box-shadow: var(--shadow-md);
   transition: var(--transition);
+  z-index: 100;
 }
 
 #tlacitkoDomuDetail {
