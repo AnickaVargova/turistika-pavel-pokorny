@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 8081",
-    "build": "vue-cli-service build"
+    "dev": "cross-env NODE_ENV=development vue-cli-service serve --port 8081",
+    "serve": "cross-env NODE_ENV=development vue-cli-service serve --port 8081",
+    "build": "cross-env NODE_ENV=production vue-cli-service build",
+    "build:dev": "cross-env NODE_ENV=development vue-cli-service build --mode development",
+    "build:prod": "cross-env NODE_ENV=production vue-cli-service build --mode production",
+    "start": "npm run build:prod && npx serve -s dist -l 8081"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -17,6 +21,7 @@
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
     "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

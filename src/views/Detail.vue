@@ -20,7 +20,7 @@
       <span v-else @click="$router.go(-1)">
         <div class="commonButton zpetNaClanky">Zpět na články</div>
       </span>
-      <div id="tlacitkoNahoruDetail" class="commonButton" @click="goToTop">
+      <div class="commonButton tlacitkoNahoruDetail" @click="goToTop">
         Nahoru
       </div>
       <h1>{{ detailClanku.nazev }}</h1>
@@ -291,6 +291,38 @@ iframe {
   min-height: 100vh;
 }
 
+#detailClanku .commonButton {
+  margin: 4px;
+  height: 38px;
+  font-weight: 600;
+  color: var(--button-text-color);
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px 14px;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  max-width: 170px;
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  cursor: pointer;
+  min-width: unset;
+}
+
+#detailClanku .commonButton:hover {
+  box-shadow: var(--shadow-md);
+  color: var(--button-text-hover);
+  background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
+}
+
 #detailOkno {
   margin: auto;
   border: 1px solid var(--border-color);
@@ -303,7 +335,7 @@ iframe {
   box-shadow: var(--shadow-lg);
 }
 
-#tlacitkoNahoruDetail {
+.tlacitkoNahoruDetail {
   grid-row: 1/2;
   grid-column: 3/4;
   position: sticky;
@@ -347,7 +379,7 @@ iframe {
 }
 
 #tlacitkoDomuDetail:hover,
-#tlacitkoNahoruDetail:hover {
+.tlacitkoNahoruDetail:hover {
   box-shadow: var(--shadow-lg);
 }
 
@@ -372,7 +404,7 @@ iframe {
     font-size: 15px;
   }
 
-  #tlacitkoNahoruDetail {
+  .tlacitkoNahoruDetail {
     width: 60px !important;
   }
 

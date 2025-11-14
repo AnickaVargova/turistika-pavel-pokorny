@@ -43,6 +43,14 @@ export default {
           this.authenticated = data.isAuthenticated;
         });
     }
+
+    // Handle service worker updates
+    if ("serviceWorker" in navigator && process.env.NODE_ENV === "production") {
+      navigator.serviceWorker.addEventListener("controllerchange", () => {
+        // Service worker updated, reload page to get new version
+        window.location.reload();
+      });
+    }
   },
 };
 </script>

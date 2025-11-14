@@ -542,7 +542,8 @@ p.responsive {
 /* Common button styles for top-right buttons */
 #tlacitkoDomu,
 #tlacitkoNahoru,
-#rozbalit {
+#rozbalit,
+#domuOnas {
   min-width: unset;
   max-width: unset;
   width: 116px !important;
@@ -562,7 +563,8 @@ p.responsive {
 
 #tlacitkoDomu:hover,
 #tlacitkoNahoru:hover,
-#rozbalit:hover {
+#rozbalit:hover,
+#domuOnas:hover {
   box-shadow: var(--shadow-lg);
   color: var(--button-text-hover);
   background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
@@ -655,6 +657,7 @@ p.responsive {
   padding: 0 14px;
   box-shadow: var(--shadow-md);
   width: 20px;
+  min-width: 100%;
 }
 
 #seznam:hover {
