@@ -605,10 +605,32 @@ p.responsive {
     flex-direction: row;
     grid-row: 4/5;
     grid-column: 1/7;
-    margin: 17px 0 3px 0;
+    margin: 17px 10px 3px 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 5fr);
+    max-width: calc(100% - 20px);
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    gap: 8px;
+    padding: 0;
+  }
+
+  .pomnickyNavigace > div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .pomnickyNavigace .commonButton {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    padding: 8px 10px;
+    font-size: 11px;
   }
 
   #rozbalitWrapper {
