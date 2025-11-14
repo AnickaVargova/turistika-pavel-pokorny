@@ -613,6 +613,7 @@ p.responsive {
     width: calc(100% - 20px);
     box-sizing: border-box;
     padding: 0;
+    gap: 2px;
   }
 
   .pomnickyNavigace > div {
@@ -692,6 +693,7 @@ p.responsive {
 
   #seznam {
     margin-bottom: 3px;
+    min-width: 50%;
   }
 
   #tlacitkoDomu,
