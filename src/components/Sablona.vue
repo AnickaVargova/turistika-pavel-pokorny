@@ -605,7 +605,7 @@ p.responsive {
     flex-direction: row;
     grid-row: 4/5;
     grid-column: 1/7;
-    margin: 17px 10px 3px 10px;
+    margin: 17px 0 3px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 5fr);
