@@ -135,23 +135,33 @@ export default {
   flex-direction: column;
   flex-wrap: wrap;
   max-height: var(--columnHeightBigD);
-  max-width: 75vw;
+  max-width: 100%;
+  width: 100%;
   gap: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .kontejnerJmeno {
   flex-basis: auto;
+  flex-shrink: 1;
   padding: 10px 14px;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-sm);
   margin: 0;
   background: var(--bg-primary);
-  width: 25%;
+  width: calc(25% - 6px);
+  min-width: 0;
+  max-width: calc(25% - 6px);
   color: var(--primary-color);
   font-weight: 500;
   transition: var(--transition);
   box-shadow: var(--shadow-sm);
   text-decoration: none;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .kontejnerJmeno:hover {
@@ -168,7 +178,8 @@ export default {
   }
 
   .kontejnerJmeno {
-    width: 32%;
+    width: calc(33.333% - 5.33px);
+    max-width: calc(33.333% - 5.33px);
   }
 }
 
@@ -178,7 +189,8 @@ export default {
   }
 
   .kontejnerJmeno {
-    width: 50%;
+    width: calc(50% - 4px);
+    max-width: calc(50% - 4px);
   }
 }
 
