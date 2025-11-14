@@ -612,7 +612,6 @@ p.responsive {
     max-width: calc(100% - 20px);
     width: calc(100% - 20px);
     box-sizing: border-box;
-    gap: 8px;
     padding: 0;
   }
 
