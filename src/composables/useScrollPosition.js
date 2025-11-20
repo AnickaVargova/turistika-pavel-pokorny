@@ -51,7 +51,7 @@ export function useScrollPosition() {
     const paragraph = document.getElementById(String(paragraphId));
     if (paragraph) {
       const top = paragraph.getBoundingClientRect().top;
-      window.scrollTo({ top: top + window.scrollY, behavior: "smooth" });
+      window.scrollTo({ top: top + window.scrollY, behavior: "instant" });
     }
   };
 
@@ -71,4 +71,3 @@ export function useScrollPosition() {
     saveParagraphId,
   };
 }
-
