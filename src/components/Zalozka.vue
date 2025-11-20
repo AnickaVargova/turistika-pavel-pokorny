@@ -31,100 +31,90 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue";
 import Loader from "./Loader.vue";
 import { apiUrl } from "../utils/url";
 import SmallZalozka from "./SmallZalozka.vue";
 
-export default {
-  props: {
-    mujClanek: {
-      type: Object,
-      required: true,
-    },
-    stranka: {
-      type: String,
-      required: true,
-    },
+const props = defineProps({
+  mujClanek: {
+    type: Object,
+    required: true,
   },
-  components: { Loader, SmallZalozka },
-  data() {
-    return {
-      clanek: {
-        ...this.mujClanek,
-        zalozky: this.mujClanek.zalozky,
-      },
-      apiUrl,
-    };
+  stranka: {
+    type: String,
+    required: true,
   },
-  computed: {
-    path() {
-      if (this.stranka === "novepridane") {
-        return `/novepridane/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
-      }
-      return `/${this.clanek.kategorie}/${this.clanek.podkategorie}/${this.clanek.id}`;
-    },
+});
 
-    showNazev() {
-      const { kategorie } = this.clanek;
-      return (
-        kategorie === "pomnicky" ||
-        kategorie === "studanky" ||
-        kategorie === "vypraveni" ||
-        kategorie === "cesty"
-      );
-    },
+const clanek = computed(() => ({
+  ...props.mujClanek,
+  zalozky: props.mujClanek.zalozky,
+}));
 
-    isKrize() {
-      return this.clanek.kategorie === "krize";
-    },
+const path = computed(() => {
+  if (props.stranka === "novepridane") {
+    return `/novepridane/${clanek.value.kategorie}/${clanek.value.podkategorie}/${clanek.value.id}`;
+  }
+  return `/${clanek.value.kategorie}/${clanek.value.podkategorie}/${clanek.value.id}`;
+});
 
-    showJmeno() {
-      const { kategorie } = this.clanek;
-      return kategorie === "pomnicky" || kategorie === "studanky";
-    },
+const showNazev = computed(() => {
+  const { kategorie } = clanek.value;
+  return (
+    kategorie === "pomnicky" ||
+    kategorie === "studanky" ||
+    kategorie === "vypraveni" ||
+    kategorie === "cesty"
+  );
+});
 
-    showDatum() {
-      const { kategorie } = this.clanek;
-      return kategorie?.trim() === "cesty" || kategorie?.trim() === "vypraveni";
-    },
+const isKrize = computed(() => clanek.value.kategorie === "krize");
 
-    showObec() {
-      const { kategorie } = this.clanek;
-      return (
-        kategorie?.trim() === "pomnicky" ||
-        kategorie === "krize" ||
-        kategorie === "studanky"
-      );
-    },
-  },
-  methods: {
-    getCleanJmeno(jmeno) {
-      if (!jmeno) return "";
-      const index = jmeno.indexOf("<");
-      return index < 0 ? jmeno : jmeno.slice(0, index);
-    },
+const showJmeno = computed(() => {
+  const { kategorie } = clanek.value;
+  return kategorie === "pomnicky" || kategorie === "studanky";
+});
 
-    getPhotoUrl(clanek) {
-      if (!clanek.fotkaUvod) return "";
-      const { kategorie } = clanek;
-      const photoName =
-        kategorie?.trim() === "vypraveni" || kategorie?.trim() === "cesty"
-          ? clanek.fotkaUvod.trim()
-          : clanek.fotkaUvod.fotka.trim();
-      return `${this.apiUrl}/photos/small/${photoName}`;
-    },
+const showDatum = computed(() => {
+  const { kategorie } = clanek.value;
+  return kategorie?.trim() === "cesty" || kategorie?.trim() === "vypraveni";
+});
 
-    getPhotoSrcSet(clanek) {
-      if (!clanek.fotkaUvod) return "";
-      const { kategorie } = clanek;
-      const photoName =
-        kategorie?.trim() === "vypraveni" || kategorie?.trim() === "cesty"
-          ? clanek.fotkaUvod.trim()
-          : clanek.fotkaUvod.fotka.trim();
-      return `${this.apiUrl}/photos/small/${photoName} 300w, ${this.apiUrl}/photos/medium/${photoName} 600w`;
-    },
-  },
+const showObec = computed(() => {
+  const { kategorie } = clanek.value;
+  return (
+    kategorie?.trim() === "pomnicky" ||
+    kategorie === "krize" ||
+    kategorie === "studanky"
+  );
+});
+
+const getCleanJmeno = (jmeno) => {
+  if (!jmeno) return "";
+  const index = jmeno.indexOf("<");
+  return index < 0 ? jmeno : jmeno.slice(0, index);
+};
+
+const getPhotoUrl = (clanek) => {
+  if (!clanek.fotkaUvod) return "";
+  const { kategorie } = clanek;
+  const photoName =
+    kategorie?.trim() === "vypraveni" || kategorie?.trim() === "cesty"
+      ? clanek.fotkaUvod.trim()
+      : clanek.fotkaUvod.fotka.trim();
+  return `${apiUrl}/photos/small/${photoName}`;
+};
+
+const getPhotoSrcSet = (clanek) => {
+  if (!clanek.fotkaUvod) return "";
+  const { kategorie } = clanek;
+  const photoName =
+    kategorie?.trim() === "vypraveni" || kategorie?.trim() === "cesty"
+      ? clanek.fotkaUvod.trim()
+      : clanek.fotkaUvod.fotka.trim();
+  return `${apiUrl}/photos/small/${photoName} 300w, ${apiUrl}/photos/medium/${photoName} 600w`;
 };
 </script>
 

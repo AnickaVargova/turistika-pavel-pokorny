@@ -13,10 +13,11 @@
         </h2>
 
         <table>
-          <tr>
-            <td>{{ getDruhLabel(clanek) }}</td>
-            <td>{{ clanek.druh }}</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>{{ getDruhLabel(clanek) }}</td>
+              <td>{{ clanek.druh }}</td>
+            </tr>
 
           <tr>
             <td>Okres:</td>
@@ -189,6 +190,7 @@
               </button>
             </td>
           </tr>
+          </tbody>
         </table>
 
         <div v-if="idMapaUkazat === clanek.id" id="mapaPomnicky">
@@ -211,212 +213,158 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, onMounted, watch } from "vue";
+import { useRoute } from "vue-router";
 import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
-import { displayTestItems } from "../utils/displayTestItems";
+import { useArticles } from "../composables/useArticles";
+import { useScrollPosition } from "../composables/useScrollPosition";
+import { DETAIL_ROUTES, LONG_CATEGORY_ROUTES } from "../router/constants";
 import { apiUrl } from "../utils/url";
-import { cachedFetch } from "../utils/apiCache";
 
-// Route name constants
-const DETAIL_ROUTES = [
-  "DetailPomnicku",
-  "NovyPomnicek",
-  "DetailKrize",
-  "NovyKriz",
-  "DetailStudanky",
-  "NovaStudanka",
-];
-
-const LONG_CATEGORY_ROUTES = [
-  "PomnickyKategorieLong",
-  "SmirciKrizeKategorieLong",
-  "StudankyKategorieLong",
-];
-
-export default {
-  props: {
-    kategoriePomnicky: {
-      type: Array,
-      default: () => [],
-    },
-    zalozky: {
-      type: Boolean,
-      default: true,
-    },
-    stranka: {
-      type: String,
-      required: true,
-    },
+const props = defineProps({
+  kategoriePomnicky: {
+    type: Array,
+    default: () => [],
   },
-  components: { Klikaci, Loader },
-  data() {
-    return {
-      idMapaUkazat: undefined,
-      mojeClanky: [],
-      isEdgeChromium: false,
-      loading: true,
-      error: null,
-      apiUrl,
-    };
+  zalozky: {
+    type: Boolean,
+    default: true,
   },
-
-  computed: {
-    routeName() {
-      return this.$route.name;
-    },
-
-    showContent() {
-      return (
-        !this.loading &&
-        this.mojeClanky.length &&
-        (DETAIL_ROUTES.includes(this.routeName) ||
-          this.routeName === "NovePridane" ||
-          !this.zalozky)
-      );
-    },
-
-    mapButtonStyle() {
-      return {
-        padding: "2%",
-        height: "40px",
-        paddingLeft: "10%",
-      };
-    },
+  stranka: {
+    type: String,
+    required: true,
   },
+});
 
-  methods: {
-    getCleanJmeno(jmeno) {
-      if (!jmeno) return "";
-      const index = jmeno.indexOf("<");
-      return index < 0 ? jmeno : jmeno.slice(0, index);
-    },
+const route = useRoute();
+const { articles, article, loading, error, fetchArticles, filterSingleItem } = useArticles();
+const { restoreScrollPosition } = useScrollPosition();
 
-    getArticleTitle(clanek) {
-      const title = clanek.nazev || this.getCleanJmeno(clanek.jmeno);
-      const suffix =
-        clanek.kategorie === "krize" && this.routeName === "NovePridane"
-          ? "  (smírčí kříž)"
-          : "";
-      return title + suffix;
-    },
+const idMapaUkazat = ref(undefined);
+const isEdgeChromium = ref(false);
 
-    getDruhLabel(clanek) {
-      return clanek.kategorie === "pomnicky" ? "Druh:" : "Umístění:";
-    },
+const routeName = computed(() => route.name);
 
-    getKdyVzniklLabel(clanek) {
-      return clanek.kategorie === "pomnicky" ? "Kdy vznikl?" : "Kdy vznikla?";
-    },
+// Combine single article and articles array into one array for display
+const mojeClanky = computed(() => {
+  if (article.value) {
+    return [article.value];
+  }
+  return articles.value || [];
+});
 
-    hasInternalLink(clanek, location) {
-      return (
-        clanek.vnitrniOdkazy &&
-        clanek.vnitrniOdkazy.length > 0 &&
-        clanek.vnitrniOdkazy.some(
-          (odkaz) => odkaz.odkazKde?.trim() === location
-        )
-      );
-    },
+const showContent = computed(() => {
+  return (
+    !loading.value &&
+    mojeClanky.value.length &&
+    (DETAIL_ROUTES.includes(routeName.value) ||
+      LONG_CATEGORY_ROUTES.includes(routeName.value) ||
+      routeName.value === "NovePridane" ||
+      routeName.value === "NovePridaneLong" ||
+      !props.zalozky)
+  );
+});
 
-    ukazMapu(id) {
-      this.idMapaUkazat = id;
-    },
+const mapButtonStyle = computed(() => ({
+  padding: "2%",
+  height: "40px",
+  paddingLeft: "10%",
+}));
 
-    schovejMapu() {
-      this.idMapaUkazat = undefined;
-    },
-
-    filterTestItems(data) {
-      const showTestItems = displayTestItems();
-      return data.filter((item) => showTestItems || !item.test);
-    },
-
-    restoreScrollPosition() {
-      const scrollY = sessionStorage.getItem("scrollY");
-      if (scrollY) {
-        window.scrollTo(0, Number(scrollY));
-        sessionStorage.removeItem("scrollY");
-      }
-    },
-
-    detectEdgeChromium() {
-      const isChrome =
-        !!window.chrome &&
-        (!!window.chrome.webstore || !!window.chrome.runtime);
-      return isChrome && navigator.userAgent.indexOf("Edg") !== -1;
-    },
-
-    async fetchArticles() {
-      try {
-        this.loading = true;
-        this.error = null;
-
-        let url;
-        let isSingleItem = false;
-
-        if (DETAIL_ROUTES.includes(this.routeName)) {
-          url = `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}/${this.$route.params.id}`;
-          isSingleItem = true;
-        } else if (LONG_CATEGORY_ROUTES.includes(this.routeName)) {
-          url = `${this.apiUrl}/${this.stranka}/${this.$route.params.kategorie}`;
-        } else if (this.routeName === "NovePridaneLong") {
-          url = `${this.apiUrl}/novePridane/long`;
-        } else {
-          return; // No fetch needed for other routes
-        }
-
-        const response = await cachedFetch(url, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(`Failed to fetch articles: ${response.statusText}`);
-        }
-
-        const data = await response.json();
-
-        if (isSingleItem) {
-          const showTestItems = displayTestItems();
-          if (!data.temp && (showTestItems || !data.test)) {
-            this.mojeClanky = [data];
-          }
-        } else {
-          let filtered = this.filterTestItems(data);
-          if (this.routeName === "NovePridaneLong") {
-            filtered = filtered.filter(
-              (item) =>
-                item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
-            );
-          }
-          this.mojeClanky = filtered;
-        }
-
-        // Restore scroll position for routes that need it
-        if (
-          DETAIL_ROUTES.includes(this.routeName) ||
-          LONG_CATEGORY_ROUTES.includes(this.routeName) ||
-          this.routeName === "NovePridaneLong"
-        ) {
-          this.restoreScrollPosition();
-        }
-      } catch (error) {
-        console.error("Error fetching articles:", error);
-        this.error = error.message;
-      } finally {
-        this.loading = false;
-      }
-    },
-  },
-
-  async created() {
-    this.isEdgeChromium = this.detectEdgeChromium();
-    await this.fetchArticles();
-  },
+const getCleanJmeno = (jmeno) => {
+  if (!jmeno) return "";
+  const index = jmeno.indexOf("<");
+  return index < 0 ? jmeno : jmeno.slice(0, index);
 };
+
+const getArticleTitle = (clanek) => {
+  const title = clanek.nazev || getCleanJmeno(clanek.jmeno);
+  const suffix =
+    clanek.kategorie === "krize" && routeName.value === "NovePridane"
+      ? "  (smírčí kříž)"
+      : "";
+  return title + suffix;
+};
+
+const getDruhLabel = (clanek) => {
+  return clanek.kategorie === "pomnicky" ? "Druh:" : "Umístění:";
+};
+
+const getKdyVzniklLabel = (clanek) => {
+  return clanek.kategorie === "pomnicky" ? "Kdy vznikl?" : "Kdy vznikla?";
+};
+
+const hasInternalLink = (clanek, location) => {
+  return (
+    clanek.vnitrniOdkazy &&
+    clanek.vnitrniOdkazy.length > 0 &&
+    clanek.vnitrniOdkazy.some(
+      (odkaz) => odkaz.odkazKde?.trim() === location
+    )
+  );
+};
+
+const ukazMapu = (id) => {
+  idMapaUkazat.value = id;
+};
+
+const schovejMapu = () => {
+  idMapaUkazat.value = undefined;
+};
+
+const detectEdgeChromium = () => {
+  const isChrome =
+    !!window.chrome &&
+    (!!window.chrome.webstore || !!window.chrome.runtime);
+  return isChrome && navigator.userAgent.indexOf("Edg") !== -1;
+};
+
+const fetchData = async () => {
+  let endpoint;
+  let isSingleItem = false;
+
+  if (DETAIL_ROUTES.includes(routeName.value)) {
+    endpoint = `/${props.stranka}/${route.params.kategorie}/${route.params.id}`;
+    isSingleItem = true;
+  } else if (LONG_CATEGORY_ROUTES.includes(routeName.value)) {
+    endpoint = `/${props.stranka}/${route.params.kategorie}`;
+  } else if (routeName.value === "NovePridaneLong") {
+    endpoint = "/novePridane/long";
+  } else {
+    return; // No fetch needed for other routes
+  }
+
+  const additionalFilter = routeName.value === "NovePridaneLong"
+    ? (item) => item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
+    : null;
+
+  await fetchArticles(endpoint, { isSingleItem, additionalFilter });
+
+  // Restore scroll position for routes that need it
+  if (
+    DETAIL_ROUTES.includes(routeName.value) ||
+    LONG_CATEGORY_ROUTES.includes(routeName.value) ||
+    routeName.value === "NovePridaneLong"
+  ) {
+    restoreScrollPosition();
+  }
+};
+
+onMounted(async () => {
+  isEdgeChromium.value = detectEdgeChromium();
+  await fetchData();
+});
+
+// Watch for route changes to refetch data
+watch(
+  () => route.params,
+  async () => {
+    await fetchData();
+  },
+  { deep: true }
+);
 </script>
 
 <style>

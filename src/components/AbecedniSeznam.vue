@@ -14,12 +14,11 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, onMounted } from "vue";
 import Loader from "./Loader.vue";
-import { displayTestItems } from "../utils/displayTestItems";
+import { useArticles } from "../composables/useArticles";
 import { removeDuplicates } from "../utils/removeDuplicates";
-import { apiUrl } from "../utils/url";
-import { cachedFetch } from "../utils/apiCache";
 
 // Constants
 const ITEM_HEIGHT = 35;
@@ -35,98 +34,52 @@ const COLUMNS = {
   bigDesktop: 4,
 };
 
-export default {
-  components: { Loader },
-  props: {
-    stranka: {
-      type: String,
-      required: true,
-    },
+const props = defineProps({
+  stranka: {
+    type: String,
+    required: true,
   },
-  data() {
-    return {
-      seznam: [],
-      loading: true,
-      error: null,
-    };
-  },
+});
 
-  computed: {
-    backgroundColor() {
-      switch (this.stranka) {
-        case "krize":
-          return BACKGROUND_COLORS.krize;
-        case "studanky":
-          return BACKGROUND_COLORS.studanky;
-        default:
-          return BACKGROUND_COLORS.default;
-      }
-    },
+const { fetchNames, sortAlphabetically, loading, error } = useArticles();
+const seznam = ref([]);
 
-    cssVars() {
-      const { length } = this.seznam;
-      return {
-        "--columnHeightIpad":
-          Math.ceil(length / COLUMNS.ipad) * ITEM_HEIGHT + "px",
-        "--columnHeightSmallD":
-          Math.ceil(length / COLUMNS.smallDesktop) * ITEM_HEIGHT + "px",
-        "--columnHeightBigD":
-          Math.ceil(length / COLUMNS.bigDesktop) * ITEM_HEIGHT + "px",
-      };
-    },
-  },
+const backgroundColor = computed(() => {
+  switch (props.stranka) {
+    case "krize":
+      return BACKGROUND_COLORS.krize;
+    case "studanky":
+      return BACKGROUND_COLORS.studanky;
+    default:
+      return BACKGROUND_COLORS.default;
+  }
+});
 
-  async created() {
-    await this.fetchArticles();
-  },
+const cssVars = computed(() => {
+  const { length } = seznam.value;
+  return {
+    "--columnHeightIpad":
+      Math.ceil(length / COLUMNS.ipad) * ITEM_HEIGHT + "px",
+    "--columnHeightSmallD":
+      Math.ceil(length / COLUMNS.smallDesktop) * ITEM_HEIGHT + "px",
+    "--columnHeightBigD":
+      Math.ceil(length / COLUMNS.bigDesktop) * ITEM_HEIGHT + "px",
+  };
+});
 
-  methods: {
-    getArticleLink(clanek) {
-      return `${this.stranka}/${clanek.podkategorie}/${clanek.id}`;
-    },
-
-    filterArticles(data) {
-      const showTestItems = displayTestItems();
-      return data.filter((item) => !item.temp && (showTestItems || !item.test));
-    },
-
-    sortArticles(articles) {
-      return [...articles].sort((a, b) => {
-        return a.jmeno.trim().localeCompare(b.jmeno.trim(), "cs", {
-          sensitivity: "accent",
-        });
-      });
-    },
-
-    async fetchArticles() {
-      try {
-        this.loading = true;
-        this.error = null;
-
-        const response = await cachedFetch(`${apiUrl}/${this.stranka}`, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(`Failed to fetch articles: ${response.statusText}`);
-        }
-
-        const data = await response.json();
-        const filtered = this.filterArticles(data.names);
-        const sorted = this.sortArticles(filtered);
-        this.seznam = removeDuplicates(sorted);
-      } catch (error) {
-        console.error("Error fetching articles:", error);
-        this.error = error.message;
-      } finally {
-        this.loading = false;
-      }
-    },
-  },
+const getArticleLink = (clanek) => {
+  return `${props.stranka}/${clanek.podkategorie}/${clanek.id}`;
 };
+
+const fetchData = async () => {
+  const data = await fetchNames(props.stranka);
+  const sorted = sortAlphabetically(data);
+  seznam.value = removeDuplicates(sorted);
+};
+
+onMounted(async () => {
+  await fetchData();
+});
 </script>
 
 <style>

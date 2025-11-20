@@ -2,57 +2,49 @@
   <body>
     <Auth
       @authentication="handleAuthentication"
-      v-if="!authenticated && origin === testUrl"
+      v-if="!authenticated"
     />
     <router-view :key="$route.fullPath" v-else />
   </body>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted } from "vue";
 import Auth from "./components/Auth.vue";
 import { apiUrl, testUrl } from "./utils/url";
 
-export default {
-  components: { Auth },
-  data() {
-    return {
-      authenticated: origin === testUrl ? false : true,
-      testUrl,
-      origin: window.location.origin,
-    };
-  },
+const origin = window.location.origin;
+const authenticated = ref(origin === testUrl ? false : true);
 
-  methods: {
-    handleAuthentication(value) {
-      if (value) {
-        this.authenticated = true;
-      }
-    },
-  },
-  created() {
-    if (this.origin === this.testUrl) {
-      fetch(`${apiUrl}/auth`, {
-        method: "POST",
-        credentials: "include",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          this.authenticated = data.isAuthenticated;
-        });
-    }
-
-    // Handle service worker updates
-    if ("serviceWorker" in navigator && process.env.NODE_ENV === "production") {
-      navigator.serviceWorker.addEventListener("controllerchange", () => {
-        // Service worker updated, reload page to get new version
-        window.location.reload();
-      });
-    }
-  },
+const handleAuthentication = (value) => {
+  if (value) {
+    authenticated.value = true;
+  }
 };
+
+onMounted(() => {
+  if (origin === testUrl) {
+    fetch(`${apiUrl}/auth`, {
+      method: "POST",
+      credentials: "include",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        authenticated.value = data.isAuthenticated;
+      });
+  }
+
+  // Handle service worker updates
+  if ("serviceWorker" in navigator && import.meta.env.PROD) {
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      // Service worker updated, reload page to get new version
+      window.location.reload();
+    });
+  }
+});
 </script>
 
 <style>

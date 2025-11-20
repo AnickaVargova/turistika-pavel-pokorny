@@ -55,7 +55,7 @@
       <div>
         <Loader v-if="loading.novePridane" class="homeButton" />
         <router-link v-else to="/novepridane">
-          Naposled přidané <span class="count">&nbsp;{{ pocetNovych }}</span>
+          Naposled přidané <span class="count">&nbsp;{{ counts.novePridane }}</span>
         </router-link>
       </div>
       <div>
@@ -64,33 +64,33 @@
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
         <router-link v-else to="/pomnicky"
-          >Pomníčky <span class="count">&nbsp;{{ pomnicky }}</span>
+          >Pomníčky <span class="count">&nbsp;{{ counts.pomnicky }}</span>
         </router-link>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.krize" />
         <router-link v-else to="/krize"
           >Smírčí kříže
-          <span class="count">&nbsp;{{ krize }}</span></router-link
+          <span class="count">&nbsp;{{ counts.krize }}</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.studanky" />
         <router-link v-else to="/studanky"
-          >Studánky <span class="count">&nbsp;{{ studanky }}</span></router-link
+          >Studánky <span class="count">&nbsp;{{ counts.studanky }}</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.cesty" />
         <router-link v-else to="/cesty"
-          >Cesty <span class="count">&nbsp;{{ cesty }}</span></router-link
+          >Cesty <span class="count">&nbsp;{{ counts.cesty }}</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.vypraveni" />
         <router-link v-else to="/vypraveni"
           >Vyprávění
-          <span class="count">&nbsp;{{ vypraveni }}</span></router-link
+          <span class="count">&nbsp;{{ counts.vypraveni }}</span></router-link
         >
       </div>
       <div>
@@ -127,136 +127,33 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, onMounted } from "vue";
 import Loader from "../components/Loader.vue";
-import { displayTestItems } from "../utils/displayTestItems";
-import { apiUrl, testUrl, mapaUrl } from "../utils/url";
-import { cachedFetch } from "../utils/apiCache";
+import { testUrl, mapaUrl } from "../utils/url";
+import { useCategoryStats } from "../composables/useCategoryStats";
 
-const CATEGORIES = ["pomnicky", "krize", "studanky", "vypraveni", "cesty"];
+const { counts, loading, fetchAllCounts } = useCategoryStats();
 
-export default {
-  components: { Loader },
-  data() {
-    return {
-      responsive: false,
-      pomnicky: 0,
-      krize: 0,
-      studanky: 0,
-      cesty: 0,
-      vypraveni: 0,
-      pocetNovych: 0,
-      loading: {
-        novePridane: true,
-        pomnicky: true,
-        krize: true,
-        studanky: true,
-        cesty: true,
-        vypraveni: true,
-      },
-      mapaUrl,
-      errors: {}, // Track errors per category instead of single error
-    };
-  },
+const responsive = ref(false);
 
-  computed: {
-    isTest() {
-      return location.origin === testUrl;
-    },
+const isTest = computed(() => {
+  return location.origin === testUrl;
+});
 
-    welcomeMessage() {
-      return this.isTest
-        ? "Vítejte na testovacím prostředí"
-        : "Vítejte na našich webových stránkách";
-    },
-  },
+const welcomeMessage = computed(() => {
+  return isTest.value
+    ? "Vítejte na testovacím prostředí"
+    : "Vítejte na našich webových stránkách";
+});
 
-  methods: {
-    toggleMenu() {
-      this.responsive = !this.responsive;
-    },
-
-    filterTestItems(data) {
-      const showTestItems = displayTestItems();
-      return data.filter((item) => !item.temp && (showTestItems || !item.test));
-    },
-
-    async fetchCategoryCount(kategorie) {
-      try {
-        const response = await cachedFetch(`${apiUrl}/${kategorie}`, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(
-            `Failed to fetch ${kategorie}: ${response.statusText}`
-          );
-        }
-
-        const data = await response.json();
-        const filtered = this.filterTestItems(data.names);
-        this[kategorie] = filtered.length;
-      } catch (error) {
-        console.error(`Error fetching ${kategorie}:`, error);
-        // Store error per category instead of blocking all
-        this.errors[kategorie] = error.message;
-        // Set count to 0 or keep previous value on error
-        this[kategorie] = this[kategorie] || 0;
-      } finally {
-        this.loading[kategorie] = false;
-      }
-    },
-
-    async fetchNovePridane() {
-      try {
-        const response = await cachedFetch(`${apiUrl}/novePridane`, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(
-            `Failed to fetch novePridane: ${response.statusText}`
-          );
-        }
-
-        const data = await response.json();
-        this.pocetNovych = data.filter((item) => !item.test).length;
-      } catch (error) {
-        console.error("Error fetching novePridane:", error);
-        // Store error per category instead of blocking all
-        this.errors.novePridane = error.message;
-        // Set count to 0 or keep previous value on error
-        this.pocetNovych = this.pocetNovych || 0;
-      } finally {
-        this.loading.novePridane = false;
-      }
-    },
-  },
-
-  async created() {
-    // Use Promise.allSettled to prevent one failure from blocking others
-    // This provides error boundaries - each request can fail independently
-    const results = await Promise.allSettled([
-      ...CATEGORIES.map((kategorie) => this.fetchCategoryCount(kategorie)),
-      this.fetchNovePridane(),
-    ]);
-
-    // Log any failures for debugging (errors are already handled in individual methods)
-    results.forEach((result, index) => {
-      if (result.status === "rejected") {
-        const categoryName =
-          index < CATEGORIES.length ? CATEGORIES[index] : "novePridane";
-        console.warn(`Failed to fetch ${categoryName}:`, result.reason);
-      }
-    });
-  },
+const toggleMenu = () => {
+  responsive.value = !responsive.value;
 };
+
+onMounted(async () => {
+  await fetchAllCounts();
+});
 </script>
 
 <style>

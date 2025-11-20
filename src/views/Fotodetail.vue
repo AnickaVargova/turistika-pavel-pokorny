@@ -81,7 +81,7 @@ export default {
 
     photoUrl() {
       if (this.isOnas) {
-        return require(`./../assets/${this.vybranaFotka.fotka}`);
+        return new URL(`../assets/${this.vybranaFotka.fotka}`, import.meta.url).href;
       }
       return `${this.apiUrl}/photos/medium/${this.vybranaFotka.fotka?.trim()}`;
     },

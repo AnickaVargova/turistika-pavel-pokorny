@@ -10,121 +10,64 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, onMounted } from "vue";
+import { useRoute } from "vue-router";
 import Zalozka from "./Zalozka.vue";
 import Loader from "./Loader.vue";
-import { displayTestItems } from "../utils/displayTestItems";
+import { useArticles } from "../composables/useArticles";
+import { useScrollPosition } from "../composables/useScrollPosition";
+import { CATEGORY_ROUTES } from "../router/constants";
 import { apiUrl } from "../utils/url";
-import { cachedFetch } from "../utils/apiCache";
 
-// Route name constants
-const CATEGORY_ROUTES = [
-  "PomnickyKategorie",
-  "SmirciKrizeKategorie",
-  "StudankyKategorie",
-];
-
-export default {
-  props: {
-    stranka: {
-      type: String,
-      required: true,
-    },
-    zalozky: {
-      type: Boolean,
-      default: true,
-    },
+const props = defineProps({
+  stranka: {
+    type: String,
+    required: true,
   },
-  components: { Zalozka, Loader },
-  data() {
-    return {
-      mojeClanky: [],
-      loading: true,
-      error: null,
-    };
+  zalozky: {
+    type: Boolean,
+    default: true,
   },
+});
 
-  computed: {
-    routeName() {
-      return this.$route.name;
-    },
-  },
+const route = useRoute();
+const { articles: mojeClanky, loading, error, fetchArticles } = useArticles();
+const { restoreScrollPosition } = useScrollPosition();
 
-  async created() {
-    await this.fetchArticles();
-  },
+const routeName = computed(() => route.name);
 
-  methods: {
-    filterTestItems(data) {
-      const showTestItems = displayTestItems();
-      return data.filter((item) => showTestItems || !item.test);
-    },
+const fetchData = async () => {
+  let endpoint;
+  let additionalFilter = null;
 
-    restoreScrollPosition() {
-      const scrollY = sessionStorage.getItem("scrollY");
-      if (scrollY) {
-        window.scrollTo(0, Number(scrollY));
-        sessionStorage.removeItem("scrollY");
-      }
-    },
+  if (routeName.value === "NovePridane") {
+    endpoint = "/novePridane/long";
+  } else if (routeName.value === "NovePridaneLong") {
+    endpoint = "/novePridane/long";
+    additionalFilter = (item) =>
+      item.kategorie === "vypraveni" || item.kategorie === "cesty";
+  } else if (CATEGORY_ROUTES.includes(routeName.value)) {
+    endpoint = `/${props.stranka}/${route.params.kategorie}`;
+  } else {
+    endpoint = `/${props.stranka}/1`;
+  }
 
-    async fetchArticles() {
-      try {
-        this.loading = true;
-        this.error = null;
+  await fetchArticles(endpoint, { additionalFilter });
 
-        let url;
-        let additionalFilter = null;
-
-        if (this.routeName === "NovePridane") {
-          url = `${apiUrl}/novePridane/long`;
-        } else if (this.routeName === "NovePridaneLong") {
-          url = `${apiUrl}/novePridane/long`;
-          additionalFilter = (item) =>
-            item.kategorie === "vypraveni" || item.kategorie === "cesty";
-        } else if (CATEGORY_ROUTES.includes(this.routeName)) {
-          url = `${apiUrl}/${this.stranka}/${this.$route.params.kategorie}`;
-        } else {
-          url = `${apiUrl}/${this.stranka}/1`;
-        }
-
-        const response = await cachedFetch(url, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(`Failed to fetch articles: ${response.statusText}`);
-        }
-
-        const data = await response.json();
-        let filtered = this.filterTestItems(data);
-
-        if (additionalFilter) {
-          filtered = filtered.filter(additionalFilter);
-        }
-
-        this.mojeClanky = filtered;
-
-        // Restore scroll position for routes that need it
-        if (
-          this.routeName === "NovePridane" ||
-          CATEGORY_ROUTES.includes(this.routeName) ||
-          this.routeName !== "NovePridaneLong"
-        ) {
-          this.restoreScrollPosition();
-        }
-      } catch (error) {
-        console.error("Error fetching articles:", error);
-        this.error = error.message;
-      } finally {
-        this.loading = false;
-      }
-    },
-  },
+  // Restore scroll position for routes that need it
+  if (
+    routeName.value === "NovePridane" ||
+    CATEGORY_ROUTES.includes(routeName.value) ||
+    routeName.value !== "NovePridaneLong"
+  ) {
+    restoreScrollPosition();
+  }
 };
+
+onMounted(async () => {
+  await fetchData();
+});
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 <template>
   <div id="detailClanku">
     <Loader v-if="loading" />
-    <div v-else id="detailOkno">
+    <div v-else-if="detailClanku" id="detailOkno">
       <router-link to="/" id="tlacitkoDomuDetail" class="commonButton">
         Úvodní strana
       </router-link>
@@ -128,145 +128,80 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed, onMounted, nextTick } from "vue";
+import { useRoute } from "vue-router";
 import Klikaci from "./../components/Klikaci.vue";
 import Loader from "../components/Loader.vue";
-import { displayTestItems } from "../utils/displayTestItems";
-import { apiUrl } from "../utils/url";
 import SmallZalozka from "../components/SmallZalozka.vue";
-import { cachedFetch } from "../utils/apiCache";
+import { useArticles } from "../composables/useArticles";
+import { useScrollPosition } from "../composables/useScrollPosition";
+import { VYPRAVENI_ROUTES, CESTY_ROUTES } from "../router/constants";
+import { apiUrl } from "../utils/url";
 
-const VYPRAVENI_ROUTES = ["DetailVypraveni", "NoveVypraveni"];
-const CESTY_ROUTES = ["DetailCesty", "NovaCesta"];
+const route = useRoute();
+const { article: detailClanku, loading, error, fetchArticles } = useArticles();
+const { restoreScrollPosition, scrollToParagraph, scrollToTop } = useScrollPosition();
 
-export default {
-  components: { Klikaci, Loader, SmallZalozka },
-  data() {
-    return {
-      detailClanku: undefined,
-      loading: true,
-      error: null,
-      apiUrl,
-      innerWidth: window.innerWidth,
-    };
-  },
+const innerWidth = ref(window.innerWidth);
 
-  computed: {
-    routeName() {
-      return this.$route.name;
-    },
+const routeName = computed(() => route.name);
 
-    showNewButton() {
-      return (
-        this.routeName === "NoveVypraveni" || this.routeName === "NovaCesta"
-      );
-    },
+const showNewButton = computed(() => {
+  return routeName.value === "NoveVypraveni" || routeName.value === "NovaCesta";
+});
 
-    showGallery() {
-      return (
-        this.detailClanku?.galerie && this.detailClanku.kategorie !== "cesty"
-      );
-    },
-  },
+const showGallery = computed(() => {
+  return detailClanku.value?.galerie && detailClanku.value.kategorie !== "cesty";
+});
 
-  methods: {
-    goToTop() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    },
-
-    goToParagraph() {
-      const paragraphId = sessionStorage.getItem("paragraphId");
-      if (!paragraphId) return;
-
-      const paragraph = document.getElementById(String(paragraphId));
-      if (paragraph) {
-        const top = paragraph.getBoundingClientRect().top;
-        window.scrollTo({ top: top + window.scrollY, behavior: "smooth" });
-      }
-      sessionStorage.removeItem("paragraphId");
-    },
-
-    restoreScrollPosition() {
-      const scrollY = sessionStorage.getItem("scrollY");
-      if (scrollY) {
-        window.scrollTo(0, Number(scrollY));
-        sessionStorage.removeItem("scrollY");
-      }
-    },
-
-    getCestyPhotoLink(odstavec) {
-      if (this.innerWidth < 600) {
-        return `/fotodetail/${this.detailClanku.kategorie}/${
-          this.detailClanku.id
-        }/${odstavec.foto.trim()}`;
-      }
-      return "";
-    },
-
-    shouldShowCestyPhoto(odstavec) {
-      return odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy;
-    },
-
-    filterTestItems(data) {
-      const showTestItems = displayTestItems();
-      return !data.temp && (showTestItems || !data.test);
-    },
-
-    async fetchArticle(url) {
-      try {
-        const response = await cachedFetch(url, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-
-        if (!response.ok) {
-          throw new Error(`Failed to fetch article: ${response.statusText}`);
-        }
-
-        const data = await response.json();
-        if (this.filterTestItems(data)) {
-          this.detailClanku = data;
-        }
-      } catch (error) {
-        console.error("Error fetching article:", error);
-        this.error = error.message;
-      } finally {
-        this.loading = false;
-      }
-    },
-  },
-
-  async created() {
-    let url;
-
-    if (VYPRAVENI_ROUTES.includes(this.routeName)) {
-      url = `${apiUrl}/vypraveni/1/${this.$route.params.id}`;
-    } else if (CESTY_ROUTES.includes(this.routeName)) {
-      url = `${apiUrl}/cesty/1/${this.$route.params.id}`;
-    } else {
-      this.loading = false;
-      return;
-    }
-
-    await this.fetchArticle(url);
-
-    if (VYPRAVENI_ROUTES.includes(this.routeName)) {
-      this.restoreScrollPosition();
-      // Small delay to ensure DOM is ready
-      this.$nextTick(() => {
-        if (sessionStorage.getItem("paragraphId")) {
-          this.goToParagraph();
-        }
-      });
-    } else if (CESTY_ROUTES.includes(this.routeName)) {
-      this.$nextTick(() => {
-        this.goToParagraph();
-      });
-    }
-  },
+const goToTop = () => {
+  scrollToTop();
 };
+
+const goToParagraph = () => {
+  scrollToParagraph();
+};
+
+const getCestyPhotoLink = (odstavec) => {
+  if (innerWidth.value < 600) {
+    return `/fotodetail/${detailClanku.value.kategorie}/${
+      detailClanku.value.id
+    }/${odstavec.foto.trim()}`;
+  }
+  return "";
+};
+
+const shouldShowCestyPhoto = (odstavec) => {
+  return odstavec.foto && !odstavec.textOdstavce && !odstavec.vnitrniOdkazy;
+};
+
+onMounted(async () => {
+  let endpoint;
+
+  if (VYPRAVENI_ROUTES.includes(routeName.value)) {
+    endpoint = `/vypraveni/1/${route.params.id}`;
+  } else if (CESTY_ROUTES.includes(routeName.value)) {
+    endpoint = `/cesty/1/${route.params.id}`;
+  } else {
+    loading.value = false;
+    return;
+  }
+
+  await fetchArticles(endpoint, { isSingleItem: true });
+
+  if (VYPRAVENI_ROUTES.includes(routeName.value)) {
+    restoreScrollPosition();
+    // Small delay to ensure DOM is ready
+    await nextTick();
+    if (sessionStorage.getItem("paragraphId")) {
+      goToParagraph();
+    }
+  } else if (CESTY_ROUTES.includes(routeName.value)) {
+    await nextTick();
+    goToParagraph();
+  }
+});
 </script>
 
 <style>

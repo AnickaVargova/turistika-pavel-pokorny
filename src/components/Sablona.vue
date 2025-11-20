@@ -2,7 +2,7 @@
   <div id="pomnicky">
     <div id="pozadi1">
       <img
-        :src="require(`./../assets/${innerParams.background}`)"
+        :src="getImageUrl(innerParams.background)"
         :alt="innerParams.backgroundDescription"
       />
     </div>
@@ -93,188 +93,157 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, computed } from "vue";
+import { useRoute } from "vue-router";
 import OknoPomnicky from "./OknoPomnicky.vue";
 import OknoClanky from "./OknoClanky.vue";
 import AbecedniSeznam from "./AbecedniSeznam.vue";
 import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
+import { useScrollPosition } from "../composables/useScrollPosition";
+import {
+  LONG_VERSION_ROUTES,
+  CATEGORY_ROUTES,
+  MAIN_ROUTES,
+  NEW_ITEM_ROUTES,
+  ARTICLE_ROUTES,
+  DETAIL_ROUTES,
+  LONG_CATEGORY_ROUTES,
+} from "../router/constants";
 
-// Route name constants
-const LONG_VERSION_ROUTES = [
-  "PomnickyKategorieLong",
-  "SmirciKrizeKategorieLong",
-  "StudankyKategorieLong",
-  "NovePridaneLong",
-];
-
-const CATEGORY_ROUTES = [
-  "PomnickyKategorie",
-  "SmirciKrizeKategorie",
-  "StudankyKategorie",
-];
-
-const MAIN_ROUTES = ["Pomnicky", "SmirciKrize", "Studanky"];
-
-const NEW_ITEM_ROUTES = ["NovyPomnicek", "NovyKriz", "NovaStudanka"];
-
-const ARTICLE_ROUTES = [
-  "NovePridane",
-  "NovePridaneLong",
-  "PomnickyKategorie",
-  "SmirciKrizeKategorie",
-  "StudankyKategorie",
-  "Vypraveni",
-  "Cesty",
-];
-
-const DETAIL_ROUTES = [
-  "PomnickyKategorieLong",
-  "DetailPomnicku",
-  "SmirciKrizeKategorieLong",
-  "StudankyKategorieLong",
-  "NovePridaneLong",
-  "DetailKrize",
-  "DetailStudanky",
-  "NovyPomnicek",
-  "NovyKriz",
-  "NovaStudanka",
-];
-
-export default {
-  props: ["params"],
-  components: {
-    OknoPomnicky,
-    OknoClanky,
-    AbecedniSeznam,
-    Klikaci,
-    Loader,
+const props = defineProps({
+  params: {
+    type: Object,
+    required: true,
   },
+});
 
-  data() {
-    return {
-      innerParams: this.params,
-      vybranaId: [Number(this.$route.params.kategorie)],
-    };
-  },
+const route = useRoute();
+const { scrollToTop } = useScrollPosition();
 
-  computed: {
-    routeName() {
-      return this.$route.name;
-    },
+const innerParams = ref(props.params);
+const vybranaId = ref([Number(route.params.kategorie)]);
 
-    isLongVersion() {
-      return LONG_VERSION_ROUTES.includes(this.routeName);
-    },
+const routeName = computed(() => route.name);
 
-    transboxStyle() {
-      return this.innerParams.transbox
-        ? { backgroundColor: this.innerParams.transbox }
-        : {};
-    },
+const isLongVersion = computed(() => {
+  return LONG_VERSION_ROUTES.includes(routeName.value);
+});
 
-    showAbecedniSeznam() {
-      const { kategorie, id } = this.$route.params;
-      const { stranka } = this.innerParams;
-      const excludedPages = ["vypraveni", "cesty", "novepridane"];
+const transboxStyle = computed(() => {
+  return innerParams.value.transbox
+    ? { backgroundColor: innerParams.value.transbox }
+    : {};
+});
 
-      return !kategorie && !id && !excludedPages.includes(stranka);
-    },
+const showAbecedniSeznam = computed(() => {
+  const { kategorie, id } = route.params;
+  const { stranka } = innerParams.value;
+  const excludedPages = ["vypraveni", "cesty", "novepridane"];
 
-    textContainerClasses() {
-      const { stranka } = this.innerParams;
-      const largePages = ["vypraveni", "cesty", "novepridane"];
+  return !kategorie && !id && !excludedPages.includes(stranka);
+});
 
-      return {
-        pomnickyText: true,
-        large: largePages.includes(stranka),
-      };
-    },
+const textContainerClasses = computed(() => {
+  const { stranka } = innerParams.value;
+  const largePages = ["vypraveni", "cesty", "novepridane"];
 
-    showExpandButton() {
-      return (
-        CATEGORY_ROUTES.includes(this.routeName) ||
-        this.routeName === "NovePridane" ||
-        this.isLongVersion
-      );
-    },
+  return {
+    pomnickyText: true,
+    large: largePages.includes(stranka),
+  };
+});
 
-    expandLink() {
-      const { stranka } = this.innerParams;
-      const { kategorie } = this.$route.params;
-      const isNovePridane =
-        this.routeName === "NovePridane" ||
-        this.routeName === "NovePridaneLong";
-      const categoryPath = isNovePridane ? "" : `/${kategorie}`;
-      const longPath = !this.isLongVersion ? "/long" : "";
+const showExpandButton = computed(() => {
+  return (
+    CATEGORY_ROUTES.includes(routeName.value) ||
+    routeName.value === "NovePridane" ||
+    isLongVersion.value
+  );
+});
 
-      return `/${stranka}${categoryPath}${longPath}`;
-    },
+const expandLink = computed(() => {
+  const { stranka } = innerParams.value;
+  const { kategorie } = route.params;
+  const isNovePridane =
+    routeName.value === "NovePridane" ||
+    routeName.value === "NovePridaneLong";
+  const categoryPath = isNovePridane ? "" : `/${kategorie}`;
+  const longPath = !isLongVersion.value ? "/long" : "";
 
-    showNewButton() {
-      return NEW_ITEM_ROUTES.includes(this.routeName);
-    },
+  return `/${stranka}${categoryPath}${longPath}`;
+});
 
-    showAbcButton() {
-      const { kategorie, id } = this.$route.params;
-      const { stranka } = this.innerParams;
-      const excludedPages = ["vypraveni", "cesty"];
+const showNewButton = computed(() => {
+  return NEW_ITEM_ROUTES.includes(routeName.value);
+});
 
-      return kategorie || (id && !excludedPages.includes(stranka));
-    },
+const showAbcButton = computed(() => {
+  const { kategorie, id } = route.params;
+  const { stranka } = innerParams.value;
+  const excludedPages = ["vypraveni", "cesty"];
 
-    showCategoryNavigation() {
-      const { stranka } = this.innerParams;
-      return ["pomnicky", "krize", "studanky"].includes(stranka);
-    },
+  return kategorie || (id && !excludedPages.includes(stranka));
+});
 
-    showContainer() {
-      return !MAIN_ROUTES.includes(this.routeName);
-    },
+const showCategoryNavigation = computed(() => {
+  const { stranka } = innerParams.value;
+  return ["pomnicky", "krize", "studanky"].includes(stranka);
+});
 
-    containerClasses() {
-      const { stranka, detail } = this.innerParams;
-      const largePages = ["vypraveni", "cesty", "novepridane"];
-      const smallMarginPages = ["pomnicky", "krize", "studanky"];
+const showContainer = computed(() => {
+  return !MAIN_ROUTES.includes(routeName.value);
+});
 
-      return {
-        kontejner: true,
-        kontejnerBigMargin: largePages.includes(stranka),
-        kontejnerSmallMargin: smallMarginPages.includes(stranka),
-        large: largePages.includes(stranka) || stranka === "novepridane",
-        bezTextu: detail,
-      };
-    },
+const containerClasses = computed(() => {
+  const { stranka, detail } = innerParams.value;
+  const largePages = ["vypraveni", "cesty", "novepridane"];
+  const smallMarginPages = ["pomnicky", "krize", "studanky"];
 
-    showOknoClanky() {
-      return ARTICLE_ROUTES.includes(this.routeName);
-    },
+  return {
+    kontejner: true,
+    kontejnerBigMargin: largePages.includes(stranka),
+    kontejnerSmallMargin: smallMarginPages.includes(stranka),
+    large: largePages.includes(stranka) || stranka === "novepridane",
+    bezTextu: detail,
+  };
+});
 
-    showOknoPomnicky() {
-      return DETAIL_ROUTES.includes(this.routeName);
-    },
-  },
+const showOknoClanky = computed(() => {
+  return ARTICLE_ROUTES.includes(routeName.value);
+});
 
-  methods: {
-    goToTop() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    },
+const showOknoPomnicky = computed(() => {
+  return (
+    DETAIL_ROUTES.includes(routeName.value) ||
+    LONG_CATEGORY_ROUTES.includes(routeName.value) ||
+    routeName.value === "NovePridaneLong"
+  );
+});
 
-    categoryButtonClasses(kategorie) {
-      const { stranka } = this.innerParams;
-      const isActive = this.vybranaId.includes(kategorie.id);
+const goToTop = () => {
+  scrollToTop();
+};
 
-      return {
-        tyrkys: stranka === "krize",
-        hneda: stranka === "pomnicky",
-        fialova: stranka === "studanky",
-        commonButton: true,
-        kategorieTextCenter: stranka === "cesty" || stranka === "vypraveni",
-        active: isActive,
-        podkategorie: true,
-      };
-    },
-  },
+const categoryButtonClasses = (kategorie) => {
+  const { stranka } = innerParams.value;
+  const isActive = vybranaId.value.includes(kategorie.id);
+
+  return {
+    tyrkys: stranka === "krize",
+    hneda: stranka === "pomnicky",
+    fialova: stranka === "studanky",
+    commonButton: true,
+    kategorieTextCenter: stranka === "cesty" || stranka === "vypraveni",
+    active: isActive,
+    podkategorie: true,
+  };
+};
+
+// Vite dynamic import for images
+const getImageUrl = (imageName) => {
+  return new URL(`../assets/${imageName}`, import.meta.url).href;
 };
 </script>
 
