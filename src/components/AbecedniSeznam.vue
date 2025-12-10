@@ -1,7 +1,7 @@
 <template>
   <div>
     <Loader v-if="loading" />
-    <div class="abecedniSeznam" :style="cssVars">
+    <div class="abecedniSeznam">
       <router-link
         v-for="clanek in seznam"
         :key="clanek.id"
@@ -20,18 +20,10 @@ import Loader from "./Loader.vue";
 import { useArticles } from "../composables/useArticles";
 import { removeDuplicates } from "../utils/removeDuplicates";
 
-// Constants
-const ITEM_HEIGHT = 35;
 const BACKGROUND_COLORS = {
   krize: "#e9f4f5",
   studanky: "#ebf1f0",
   default: "#e7e0d0",
-};
-
-const COLUMNS = {
-  ipad: 2,
-  smallDesktop: 3,
-  bigDesktop: 4,
 };
 
 const props = defineProps({
@@ -55,18 +47,6 @@ const backgroundColor = computed(() => {
   }
 });
 
-const cssVars = computed(() => {
-  const { length } = seznam.value;
-  return {
-    "--columnHeightIpad":
-      Math.ceil(length / COLUMNS.ipad) * ITEM_HEIGHT + "px",
-    "--columnHeightSmallD":
-      Math.ceil(length / COLUMNS.smallDesktop) * ITEM_HEIGHT + "px",
-    "--columnHeightBigD":
-      Math.ceil(length / COLUMNS.bigDesktop) * ITEM_HEIGHT + "px",
-  };
-});
-
 const getArticleLink = (clanek) => {
   return `${props.stranka}/${clanek.podkategorie}/${clanek.id}`;
 };
@@ -84,28 +64,19 @@ onMounted(async () => {
 
 <style>
 .abecedniSeznam {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: var(--columnHeightBigD);
-  max-width: 100%;
+  column-count: 4;
+  column-gap: 12px;
   width: 100%;
-  gap: 8px;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .kontejnerJmeno {
-  flex-basis: auto;
-  flex-shrink: 1;
+  display: block;
+  margin-bottom: 8px;
   padding: 10px 14px;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-sm);
-  margin: 0;
   background: var(--bg-primary);
-  width: calc(25% - 6px);
-  min-width: 0;
-  max-width: calc(25% - 6px);
   color: var(--primary-color);
   font-weight: 500;
   transition: var(--transition);
@@ -127,39 +98,19 @@ onMounted(async () => {
 
 @media (max-width: 1200px) {
   .abecedniSeznam {
-    max-height: var(--columnHeightSmallD);
-  }
-
-  .kontejnerJmeno {
-    width: calc(33.333% - 5.33px);
-    max-width: calc(33.333% - 5.33px);
+    column-count: 3;
   }
 }
 
 @media (max-width: 850px) {
   .abecedniSeznam {
-    max-height: var(--columnHeightIpad);
-  }
-
-  .kontejnerJmeno {
-    width: calc(50% - 4px);
-    max-width: calc(50% - 4px);
+    column-count: 2;
   }
 }
 
 @media (max-width: 700px) {
   .abecedniSeznam {
-    grid-row: 4/5;
-    grid-column: 1/7;
-    align-items: center;
-    flex-wrap: nowrap;
-    max-width: 100vw;
-    max-height: unset;
-  }
-
-  .kontejnerJmeno {
-    max-width: unset;
-    width: 100%;
+    column-count: 1;
   }
 }
 </style>
