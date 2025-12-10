@@ -167,8 +167,7 @@ const expandLink = computed(() => {
   const { stranka } = innerParams.value;
   const { kategorie } = route.params;
   const isNovePridane =
-    routeName.value === "NovePridane" ||
-    routeName.value === "NovePridaneLong";
+    routeName.value === "NovePridane" || routeName.value === "NovePridaneLong";
   const categoryPath = isNovePridane ? "" : `/${kategorie}`;
   const longPath = !isLongVersion.value ? "/long" : "";
 

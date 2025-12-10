@@ -141,7 +141,7 @@ import { apiUrl } from "../utils/url";
 
 const route = useRoute();
 const { article: detailClanku, loading, error, fetchArticles } = useArticles();
-const { restoreScrollPosition, scrollToParagraph, scrollToTop } = useScrollPosition();
+const { scrollToParagraph, scrollToTop } = useScrollPosition();
 
 const innerWidth = ref(window.innerWidth);
 
@@ -152,7 +152,9 @@ const showNewButton = computed(() => {
 });
 
 const showGallery = computed(() => {
-  return detailClanku.value?.galerie && detailClanku.value.kategorie !== "cesty";
+  return (
+    detailClanku.value?.galerie && detailClanku.value.kategorie !== "cesty"
+  );
 });
 
 const goToTop = () => {
@@ -190,16 +192,17 @@ onMounted(async () => {
 
   await fetchArticles(endpoint, { isSingleItem: true });
 
-  if (VYPRAVENI_ROUTES.includes(routeName.value)) {
-    restoreScrollPosition();
+  if (
+    VYPRAVENI_ROUTES.includes(routeName.value) ||
+    CESTY_ROUTES.includes(routeName.value)
+  ) {
     // Small delay to ensure DOM is ready
     await nextTick();
     if (sessionStorage.getItem("paragraphId")) {
       goToParagraph();
+    } else {
+      scrollToTop(false);
     }
-  } else if (CESTY_ROUTES.includes(routeName.value)) {
-    await nextTick();
-    goToParagraph();
   }
 });
 </script>

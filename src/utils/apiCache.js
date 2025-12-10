@@ -85,8 +85,8 @@ async function cachedFetch(url, options = {}) {
     // Check if there's already a pending request for this URL
     const pendingRequest = pendingRequests.get(url);
     if (pendingRequest) {
-      // Return the existing promise to prevent duplicate requests
-      return pendingRequest;
+      // Return a cloned response so each consumer can read the body
+      return pendingRequest.then((response) => response.clone());
     }
   }
 
@@ -116,13 +116,13 @@ async function cachedFetch(url, options = {}) {
     }
   })();
 
-  // Store the pending request for GET requests
+  // Store the pending request for GET requests and return cloned responses
   if (isGetRequest) {
     pendingRequests.set(url, fetchPromise);
+    return fetchPromise.then((response) => response.clone());
   }
 
   return fetchPromise;
 }
 
 export { cachedFetch, clearCache, clearCachedUrl, getCached, setCached };
-

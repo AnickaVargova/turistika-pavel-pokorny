@@ -55,7 +55,8 @@
       <div>
         <Loader v-if="loading.novePridane" class="homeButton" />
         <router-link v-else to="/novepridane">
-          Naposled přidané <span class="count">&nbsp;{{ counts.novePridane }}</span>
+          Naposled přidané
+          <span class="count">&nbsp;{{ counts.novePridane }}</span>
         </router-link>
       </div>
       <div>
@@ -77,13 +78,15 @@
       <div>
         <Loader class="homeButton" v-if="loading.studanky" />
         <router-link v-else to="/studanky"
-          >Studánky <span class="count">&nbsp;{{ counts.studanky }}</span></router-link
+          >Studánky
+          <span class="count">&nbsp;{{ counts.studanky }}</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.cesty" />
         <router-link v-else to="/cesty"
-          >Cesty <span class="count">&nbsp;{{ counts.cesty }}</span></router-link
+          >Cesty
+          <span class="count">&nbsp;{{ counts.cesty }}</span></router-link
         >
       </div>
       <div>
