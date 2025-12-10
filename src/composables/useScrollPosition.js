@@ -4,24 +4,43 @@
  */
 
 export function useScrollPosition() {
+  const getStorageKey = (routeName) => {
+    if (typeof routeName === "string" && routeName.length) {
+      return `scrollY:${routeName}`;
+    }
+    return "scrollY";
+  };
+
   /**
    * Save current scroll position to sessionStorage
    */
-  const saveScrollPosition = () => {
+  const saveScrollPosition = (routeName, clear = true) => {
     const scrollY = window.scrollY || window.pageYOffset;
-    sessionStorage.setItem("scrollY", String(scrollY));
+    const storageKey = getStorageKey(routeName);
+    if (clear) {
+      // clear all sessionStorage keys except for paragraphId
+      const paragraphId = sessionStorage.getItem("paragraphId");
+      sessionStorage.clear();
+      if (paragraphId !== null) {
+        sessionStorage.setItem("paragraphId", paragraphId);
+      }
+    }
+    sessionStorage.setItem(storageKey, String(scrollY));
   };
 
   /**
    * Restore scroll position from sessionStorage
    * @param {boolean} remove - Whether to remove the stored position after restoring
    */
-  const restoreScrollPosition = (remove = true) => {
-    const scrollY = sessionStorage.getItem("scrollY");
+  const restoreScrollPosition = (clear = true) => {
+    const pathName = window.location.pathname;
+    const storageKey = getStorageKey(pathName);
+    const scrollY = sessionStorage.getItem(storageKey);
     if (scrollY) {
       window.scrollTo(0, Number(scrollY));
-      if (remove) {
-        sessionStorage.removeItem("scrollY");
+      if (clear) {
+        // clear all sessionStorage so as not to remember previous scroll positions
+        sessionStorage.clear();
       }
     }
   };
@@ -29,8 +48,8 @@ export function useScrollPosition() {
   /**
    * Scroll to top of page smoothly
    */
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  const scrollToTop = (smooth = true) => {
+    window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "instant" });
   };
 
   /**

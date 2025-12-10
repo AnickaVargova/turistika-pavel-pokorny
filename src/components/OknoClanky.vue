@@ -11,14 +11,13 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from "vue";
+import { computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import Zalozka from "./Zalozka.vue";
 import Loader from "./Loader.vue";
 import { useArticles } from "../composables/useArticles";
 import { useScrollPosition } from "../composables/useScrollPosition";
 import { CATEGORY_ROUTES } from "../router/constants";
-import { apiUrl } from "../utils/url";
 
 const props = defineProps({
   stranka: {

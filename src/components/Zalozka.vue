@@ -1,6 +1,10 @@
 <template>
   <div>
-    <router-link :to="path" class="clanekLink">
+    <router-link
+      :to="path"
+      class="clanekLink"
+      @click="handleSaveScrollPosition"
+    >
       <div class="clanek">
         <h2 v-if="showNazev">{{ clanek.nazev }}</h2>
         <h2 v-else-if="isKrize">{{ getCleanJmeno(clanek.jmeno) }}</h2>
@@ -36,6 +40,12 @@ import { computed } from "vue";
 import Loader from "./Loader.vue";
 import { apiUrl } from "../utils/url";
 import SmallZalozka from "./SmallZalozka.vue";
+import { useScrollPosition } from "../composables/useScrollPosition";
+
+const { saveScrollPosition } = useScrollPosition();
+const handleSaveScrollPosition = () => {
+  saveScrollPosition(window.location.pathname);
+};
 
 const props = defineProps({
   mujClanek: {

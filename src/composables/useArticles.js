@@ -44,7 +44,7 @@ export function useArticles() {
   const fetchArticles = async (endpoint, options = {}) => {
     try {
       const data = await get(endpoint);
-      
+
       // Support both isSingle and isSingleItem parameter names
       const isSingleItem = options.isSingle || options.isSingleItem;
 
@@ -138,4 +138,3 @@ export function useArticles() {
     sortAlphabetically,
   };
 }
-

@@ -19,177 +19,182 @@
               <td>{{ clanek.druh }}</td>
             </tr>
 
-          <tr>
-            <td>Okres:</td>
-            <td>{{ clanek.okres }}</td>
-          </tr>
-          <tr>
-            <td>Obec:</td>
-            <td>{{ clanek.obec }}</td>
-          </tr>
+            <tr>
+              <td>Okres:</td>
+              <td>{{ clanek.okres }}</td>
+            </tr>
+            <tr>
+              <td>Obec:</td>
+              <td>{{ clanek.obec }}</td>
+            </tr>
 
-          <tr v-if="clanek.kategorie === 'krize'">
-            <td>Číslo v evidenci:</td>
-            <td>{{ clanek.cisloEvid }}</td>
-          </tr>
-          <tr
-            v-if="
-              clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
-            "
-          >
-            <td>Jméno:</td>
-            <td>
-              <strong>{{ getCleanJmeno(clanek.jmeno) }}</strong>
-            </td>
-          </tr>
-
-          <tr>
-            <td>Kde se nachází?</td>
-            <td>
-              <span v-html="clanek.popisCesty"></span>
-              <Klikaci
-                v-if="hasInternalLink(clanek, 'popisCesty')"
-                :clanek="clanek"
-                kdeJsem="popisCesty"
-              />
-            </td>
-          </tr>
-
-          <tr
-            v-if="
-              clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
-            "
-          >
-            <td>{{ getKdyVzniklLabel(clanek) }}</td>
-            <td v-html="clanek.kdyVznikl" />
-          </tr>
-
-          <tr>
-            <td>Popis:</td>
-            <td>
-              <span v-html="clanek.popis" />
-              <Klikaci
-                v-if="hasInternalLink(clanek, 'popis')"
-                :clanek="clanek"
-                kdeJsem="popis"
-              />
-            </td>
-          </tr>
-
-          <tr>
-            <td>Nápis:</td>
-            <td>
-              <span v-html="clanek.napis" />
-              <Klikaci
-                v-if="hasInternalLink(clanek, 'napis')"
-                :clanek="clanek"
-                kdeJsem="napis"
-              />
-            </td>
-          </tr>
-
-          <tr v-if="clanek.kategorie === 'studanky'">
-            <td>Využitelnost:</td>
-            <td>
-              <span v-html="clanek.vyuzitelnost" />
-              <Klikaci
-                v-if="hasInternalLink(clanek, 'vyuzitelnost')"
-                :clanek="clanek"
-                kdeJsem="vyuzitelnost"
-              />
-            </td>
-          </tr>
-
-          <tr v-if="clanek.kategorie === 'krize'">
-            <td>Pověst:</td>
-            <td>
-              <span v-html="clanek.povest" />
-              <Klikaci
-                v-if="hasInternalLink(clanek, 'povest')"
-                :clanek="clanek"
-                kdeJsem="povest"
-              />
-            </td>
-          </tr>
-
-          <tr>
-            <td>Poznámka:</td>
-            <td>
-              <span v-html="clanek.pozn" />
-              <Klikaci
-                v-if="hasInternalLink(clanek, 'pozn')"
-                :clanek="clanek"
-                kdeJsem="pozn"
-              />
-            </td>
-          </tr>
-
-          <tr>
-            <td>Galerie:</td>
-            <div
-              v-if="clanek.galerie"
-              id="fotogalerie"
-              :class="{ galerieEdge: isEdgeChromium }"
+            <tr v-if="clanek.kategorie === 'krize'">
+              <td>Číslo v evidenci:</td>
+              <td>{{ clanek.cisloEvid }}</td>
+            </tr>
+            <tr
+              v-if="
+                clanek.kategorie === 'pomnicky' ||
+                clanek.kategorie === 'studanky'
+              "
             >
-              <div
-                v-for="(obrazek, index) in clanek.galerie"
-                :key="index"
-                class="jednaFotka"
-                :class="{ jednaFotkaEdge: isEdgeChromium }"
-              >
-                <router-link
-                  :to="`/fotodetail/${clanek.kategorie}/${
-                    clanek.id
-                  }/${obrazek.fotka.trim()}`"
-                >
-                  <img
-                    :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
-                    :srcset="`${apiUrl}/photos/small/${obrazek.fotka.trim()} 300w, ${apiUrl}/photos/medium/${obrazek.fotka.trim()} 600w`"
-                    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                    alt="Fotodetail"
-                    :class="{ imgEdge: isEdgeChromium }"
-                    loading="lazy"
-                  />
-                </router-link>
-              </div>
-            </div>
-          </tr>
+              <td>Jméno:</td>
+              <td>
+                <strong>{{ getCleanJmeno(clanek.jmeno) }}</strong>
+              </td>
+            </tr>
 
-          <tr>
-            <td>Odkazy:</td>
-            <td v-if="clanek.odkazy">
-              <p
-                v-for="(odkaz, index) in clanek.odkazy"
-                :key="index"
-                class="odkaz"
+            <tr>
+              <td>Kde se nachází?</td>
+              <td>
+                <span v-html="clanek.popisCesty"></span>
+                <Klikaci
+                  v-if="hasInternalLink(clanek, 'popisCesty')"
+                  :clanek="clanek"
+                  kdeJsem="popisCesty"
+                />
+              </td>
+            </tr>
+
+            <tr
+              v-if="
+                clanek.kategorie === 'pomnicky' ||
+                clanek.kategorie === 'studanky'
+              "
+            >
+              <td>{{ getKdyVzniklLabel(clanek) }}</td>
+              <td v-html="clanek.kdyVznikl" />
+            </tr>
+
+            <tr>
+              <td>Popis:</td>
+              <td>
+                <span v-html="clanek.popis" />
+                <Klikaci
+                  v-if="hasInternalLink(clanek, 'popis')"
+                  :clanek="clanek"
+                  kdeJsem="popis"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Nápis:</td>
+              <td>
+                <span v-html="clanek.napis" />
+                <Klikaci
+                  v-if="hasInternalLink(clanek, 'napis')"
+                  :clanek="clanek"
+                  kdeJsem="napis"
+                />
+              </td>
+            </tr>
+
+            <tr v-if="clanek.kategorie === 'studanky'">
+              <td>Využitelnost:</td>
+              <td>
+                <span v-html="clanek.vyuzitelnost" />
+                <Klikaci
+                  v-if="hasInternalLink(clanek, 'vyuzitelnost')"
+                  :clanek="clanek"
+                  kdeJsem="vyuzitelnost"
+                />
+              </td>
+            </tr>
+
+            <tr v-if="clanek.kategorie === 'krize'">
+              <td>Pověst:</td>
+              <td>
+                <span v-html="clanek.povest" />
+                <Klikaci
+                  v-if="hasInternalLink(clanek, 'povest')"
+                  :clanek="clanek"
+                  kdeJsem="povest"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Poznámka:</td>
+              <td>
+                <span v-html="clanek.pozn" />
+                <Klikaci
+                  v-if="hasInternalLink(clanek, 'pozn')"
+                  :clanek="clanek"
+                  kdeJsem="pozn"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Galerie:</td>
+              <div
+                v-if="clanek.galerie"
+                id="fotogalerie"
+                :class="{ galerieEdge: isEdgeChromium }"
               >
-                <span v-if="odkaz.adresa">
-                  <a :href="odkaz.adresa" target="_blank">{{ odkaz.nazev }}</a>
-                </span>
-                <span v-else>{{ odkaz.nazev }}</span>
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>Naposled editováno:</td>
-            <td>{{ clanek.naposledObnoveno }}</td>
-          </tr>
-          <tr
-            v-if="
-              clanek.kategorie === 'pomnicky' || clanek.kategorie === 'studanky'
-            "
-          >
-            <td>
-              <button
-                v-if="clanek.odkazMapa && idMapaUkazat !== clanek.id"
-                class="commonButton"
-                :style="mapButtonStyle"
-                @click="ukazMapu(clanek.id)"
-              >
-                Ukázat na mapě
-              </button>
-            </td>
-          </tr>
+                <div
+                  v-for="(obrazek, index) in clanek.galerie"
+                  :key="index"
+                  class="jednaFotka"
+                  :class="{ jednaFotkaEdge: isEdgeChromium }"
+                >
+                  <router-link
+                    :to="`/fotodetail/${clanek.kategorie}/${
+                      clanek.id
+                    }/${obrazek.fotka.trim()}`"
+                  >
+                    <img
+                      :src="`${apiUrl}/photos/small/${obrazek.fotka.trim()}`"
+                      :srcset="`${apiUrl}/photos/small/${obrazek.fotka.trim()} 300w, ${apiUrl}/photos/medium/${obrazek.fotka.trim()} 600w`"
+                      sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      alt="Fotodetail"
+                      :class="{ imgEdge: isEdgeChromium }"
+                      loading="lazy"
+                    />
+                  </router-link>
+                </div>
+              </div>
+            </tr>
+
+            <tr>
+              <td>Odkazy:</td>
+              <td v-if="clanek.odkazy">
+                <p
+                  v-for="(odkaz, index) in clanek.odkazy"
+                  :key="index"
+                  class="odkaz"
+                >
+                  <span v-if="odkaz.adresa">
+                    <a :href="odkaz.adresa" target="_blank">{{
+                      odkaz.nazev
+                    }}</a>
+                  </span>
+                  <span v-else>{{ odkaz.nazev }}</span>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>Naposled editováno:</td>
+              <td>{{ clanek.naposledObnoveno }}</td>
+            </tr>
+            <tr
+              v-if="
+                clanek.kategorie === 'pomnicky' ||
+                clanek.kategorie === 'studanky'
+              "
+            >
+              <td>
+                <button
+                  v-if="clanek.odkazMapa && idMapaUkazat !== clanek.id"
+                  class="commonButton"
+                  :style="mapButtonStyle"
+                  @click="ukazMapu(clanek.id)"
+                >
+                  Ukázat na mapě
+                </button>
+              </td>
+            </tr>
           </tbody>
         </table>
 
@@ -214,7 +219,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from "vue";
+import { ref, computed, onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vue-router";
 import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
@@ -239,8 +244,9 @@ const props = defineProps({
 });
 
 const route = useRoute();
-const { articles, article, loading, error, fetchArticles, filterSingleItem } = useArticles();
-const { restoreScrollPosition } = useScrollPosition();
+const { articles, article, loading, error, fetchArticles, filterSingleItem } =
+  useArticles();
+const { restoreScrollPosition, scrollToTop } = useScrollPosition();
 
 const idMapaUkazat = ref(undefined);
 const isEdgeChromium = ref(false);
@@ -300,9 +306,7 @@ const hasInternalLink = (clanek, location) => {
   return (
     clanek.vnitrniOdkazy &&
     clanek.vnitrniOdkazy.length > 0 &&
-    clanek.vnitrniOdkazy.some(
-      (odkaz) => odkaz.odkazKde?.trim() === location
-    )
+    clanek.vnitrniOdkazy.some((odkaz) => odkaz.odkazKde?.trim() === location)
   );
 };
 
@@ -316,8 +320,7 @@ const schovejMapu = () => {
 
 const detectEdgeChromium = () => {
   const isChrome =
-    !!window.chrome &&
-    (!!window.chrome.webstore || !!window.chrome.runtime);
+    !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
   return isChrome && navigator.userAgent.indexOf("Edg") !== -1;
 };
 
@@ -336,25 +339,30 @@ const fetchData = async () => {
     return; // No fetch needed for other routes
   }
 
-  const additionalFilter = routeName.value === "NovePridaneLong"
-    ? (item) => item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
-    : null;
+  const additionalFilter =
+    routeName.value === "NovePridaneLong"
+      ? (item) => item.kategorie !== "vypraveni" && item.kategorie !== "cesty"
+      : null;
 
   await fetchArticles(endpoint, { isSingleItem, additionalFilter });
 
   // Restore scroll position for routes that need it
-  if (
-    DETAIL_ROUTES.includes(routeName.value) ||
-    LONG_CATEGORY_ROUTES.includes(routeName.value) ||
-    routeName.value === "NovePridaneLong"
-  ) {
-    restoreScrollPosition();
-  }
 };
 
 onMounted(async () => {
   isEdgeChromium.value = detectEdgeChromium();
   await fetchData();
+  if (
+    LONG_CATEGORY_ROUTES.includes(routeName.value) ||
+    routeName.value === "NovePridaneLong" ||
+    routeName.value === "NovePridane"
+  ) {
+    restoreScrollPosition();
+  }
+
+  if (DETAIL_ROUTES.includes(routeName.value)) {
+    scrollToTop(false);
+  }
 });
 
 // Watch for route changes to refetch data
@@ -392,7 +400,7 @@ watch(
 }
 
 table {
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
@@ -400,22 +408,22 @@ table {
 
 tr {
   height: auto;
-  min-height: 40px;
+  min-height: 30px;
 }
 
 td:nth-child(odd) {
   font-weight: 600;
   vertical-align: top;
   width: 15%;
-  color: var(--text-primary);
-  padding: 12px 16px 12px 0;
+  color: var(--text-secondary);
+  padding: 0 12px 0 0;
 }
 
 td:nth-child(2) {
   text-align: justify;
-  padding: 12px 16px;
+  padding: 0 12px;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .odkaz {
@@ -450,7 +458,7 @@ td:nth-child(2) {
 }
 
 .jednaFotka {
-  border: 2px solid var(--border-color);
+  border: 2px solid var(--primary-color);
   border-radius: var(--border-radius-sm);
   height: 150px;
   margin: 0;
@@ -474,7 +482,7 @@ td:nth-child(2) {
 }
 
 .jednaFotka:hover {
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
 }

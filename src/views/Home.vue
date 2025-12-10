@@ -3,6 +3,98 @@
     <!-- Hero Section with Carousel -->
     <HeroSection :slides="heroSlides" />
 
+    <!-- Quick Access Navigation -->
+    <section class="nav-section">
+      <div class="container">
+        <div class="nav-header">
+          <div class="nav-heading">
+            <p class="eyebrow">{{ welcomeMessage }}</p>
+            <h2>Prozkoumejte naši databázi</h2>
+          </div>
+          <button
+            class="icon"
+            type="button"
+            aria-label="Zobrazit nabídku"
+            @click="toggleMenu"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+
+        <div :class="{ nav: true, responsive: responsive }">
+          <div>
+            <Loader v-if="loading.novePridane" class="homeButton" />
+            <router-link v-else to="/novepridane">
+              Naposled přidané
+              <span class="count">&nbsp;{{ counts.novePridane }}</span>
+            </router-link>
+          </div>
+          <div>
+            <a :href="mapaUrl" target="_self" id="mapabutton">Mapa</a>
+          </div>
+          <div>
+            <Loader class="homeButton" v-if="loading.pomnicky" />
+            <router-link v-else to="/pomnicky">
+              Pomníčky <span class="count">&nbsp;{{ counts.pomnicky }}</span>
+            </router-link>
+          </div>
+          <div>
+            <Loader class="homeButton" v-if="loading.krize" />
+            <router-link v-else to="/krize">
+              Smírčí kříže
+              <span class="count">&nbsp;{{ counts.krize }}</span>
+            </router-link>
+          </div>
+          <div>
+            <Loader class="homeButton" v-if="loading.studanky" />
+            <router-link v-else to="/studanky">
+              Studánky <span class="count">&nbsp;{{ counts.studanky }}</span>
+            </router-link>
+          </div>
+          <div>
+            <Loader class="homeButton" v-if="loading.cesty" />
+            <router-link v-else to="/cesty">
+              Cesty <span class="count">&nbsp;{{ counts.cesty }}</span>
+            </router-link>
+          </div>
+          <div>
+            <Loader class="homeButton" v-if="loading.vypraveni" />
+            <router-link v-else to="/vypraveni">
+              Vyprávění
+              <span class="count">&nbsp;{{ counts.vypraveni }}</span>
+            </router-link>
+          </div>
+          <div>
+            <router-link to="/onas">O nás</router-link>
+          </div>
+          <div>
+            <router-link to="/odkazy">Sympatické weby</router-link>
+          </div>
+          <div>
+            <a href="https://turistapavel.rajce.idnes.cz/" target="_blank">
+              Moje rajče
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-counter">
+          <a
+            href="https://www.toplist.cz/stat/1802686/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://www.toplist.cz/count.asp?id=1802686&amp;logo=mc&amp;http=https%3A//www.google.com/&amp;wi=1440&amp;he=900&amp;cd=24&amp;t=Turistika Pavel Pokorný"
+              style="border: 0; width: 88px; height: 60px"
+              alt="Toplist"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- Categories Section -->
     <CategoriesSection />
 
@@ -90,10 +182,33 @@
 </template>
 
 <script setup>
+import { ref, computed, onMounted } from "vue";
+import Loader from "../components/Loader.vue";
 import HeroSection from "../components/HeroSection.vue";
 import CategoriesSection from "../components/CategoriesSection.vue";
 import { heroSlides } from "../data/heroSlides";
-import { mapaUrl } from "../utils/url";
+import { testUrl, mapaUrl } from "../utils/url";
+import { useCategoryStats } from "../composables/useCategoryStats";
+
+const { counts, loading, fetchAllCounts } = useCategoryStats();
+
+const responsive = ref(false);
+
+const isTest = computed(() => location.origin === testUrl);
+
+const welcomeMessage = computed(() => {
+  return isTest.value
+    ? "Vítejte na testovacím prostředí"
+    : "Vítejte na našich webových stránkách";
+});
+
+const toggleMenu = () => {
+  responsive.value = !responsive.value;
+};
+
+onMounted(async () => {
+  await fetchAllCounts();
+});
 </script>
 
 <style scoped>
@@ -112,6 +227,143 @@ import { mapaUrl } from "../utils/url";
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Quick Navigation */
+.nav-section {
+  padding: 80px 20px 40px;
+  background: #f8fafc;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.nav-heading h2 {
+  font-size: 36px;
+  margin: 10px 0 0;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+}
+
+.eyebrow {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.icon {
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  color: #4c6793;
+  border-color: #4c6793;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.nav > div {
+  background: white;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.12);
+}
+
+.nav a,
+.nav .homeButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #0f172a;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav .homeButton {
+  justify-content: center;
+}
+
+#mapabutton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  color: white;
+  border-radius: 999px;
+  padding: 0 20px;
+}
+
+#mapabutton:hover {
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+  box-shadow: 0 12px 24px rgba(6, 182, 212, 0.35);
+}
+
+.count {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-counter {
+  margin-top: 30px;
+  text-align: right;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.nav-counter:hover {
+  opacity: 1;
+}
+
+@media (min-width: 901px) {
+  .icon {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+
+  .nav.responsive {
+    display: grid;
+  }
 }
 
 .section-title {
@@ -309,291 +561,3 @@ import { mapaUrl } from "../utils/url";
 }
 </style>
 
-<style>
-.icon {
-  display: none;
-  grid-column: 5/6;
-  grid-row: 1/2;
-  font-size: 50px;
-  justify-content: center;
-  align-content: center;
-  color: var(--text-primary);
-  margin-top: 20px;
-  transition: var(--transition);
-  cursor: pointer;
-  z-index: 100;
-  position: relative;
-}
-
-.icon:hover {
-  color: var(--primary-color);
-}
-
-#pocitadlo {
-  grid-row: 1/2;
-  grid-column: 5/6;
-  margin: auto;
-  margin-top: 20px;
-  z-index: 100;
-  position: relative;
-}
-
-#mapabutton {
-  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
-  transition: var(--transition);
-}
-
-#mapabutton:hover {
-  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
-  box-shadow: var(--shadow-md);
-}
-
-@media (max-width: 600px) {
-  .icon {
-    display: block;
-    margin-right: 40px;
-    grid-column: 5/6;
-    justify-self: end;
-  }
-  #pocitadlo {
-    grid-column: 5/6;
-    grid-row: 3/4;
-    margin-left: 40px;
-    margin-right: 20px;
-  }
-}
-.home {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: minmax(min-content, 100px) auto minmax(min-content, 100px);
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 900px) {
-  body {
-    width: 100vw;
-    max-width: 2000px;
-    margin: auto;
-    background-color: rgb(230, 236, 243);
-  }
-}
-
-#uvodniText {
-  justify-content: center;
-  align-items: center;
-  line-height: 1.7;
-  grid-column: 2 / 6;
-  grid-row-start: 2;
-  margin: 5%;
-  margin-bottom: 0;
-  text-align: justify;
-  color: var(--text-primary);
-  position: relative;
-  z-index: 10;
-}
-
-#uvodniText h1 {
-  font-size: 35px;
-  font-weight: 500;
-  color: var(--text-primary);
-  letter-spacing: -0.5px;
-  margin-bottom: 20px;
-}
-
-#uvodniText h2 {
-  font-family: "Patrick Hand", cursive;
-  color: var(--text-primary);
-}
-
-#pozadi {
-  grid-row-start: 1;
-  grid-column: 1/7;
-  grid-row-end: 4;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-#pozadi img,
-#pozadi picture {
-  grid-column: 1 / 7;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-#pozadi picture {
-  width: 100%;
-  height: 100%;
-}
-
-#transbox {
-  grid-column: 1 / 7;
-  grid-row: 1 / 4;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(248, 250, 252, 0.65) 100%
-  );
-  backdrop-filter: blur(2px);
-  margin-right: 0;
-  position: relative;
-  z-index: 2;
-  pointer-events: none;
-}
-
-footer {
-  grid-row: 3/4;
-  grid-column: 1/6;
-  margin: 0 0 20px 20px;
-  padding-top: 40px;
-  color: var(--text-primary);
-  position: relative;
-  z-index: 10;
-}
-
-footer a {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 500;
-  transition: var(--transition);
-  border-bottom: 1px solid transparent;
-}
-
-footer a:hover {
-  color: var(--primary-hover);
-  border-bottom-color: var(--primary-hover);
-}
-
-@media (max-width: 600px) {
-  .home {
-    grid-template-rows:
-      minmax(min-content, 100px) auto minmax(min-content, 100px)
-      minmax(min-content, 100px);
-  }
-
-  #uvodniText {
-    grid-column: 1/6;
-    padding: 5%;
-  }
-
-  #uvodniText h1 {
-    font-size: 30px;
-  }
-
-  #pozadi {
-    grid-row: 1/5;
-  }
-
-  #transbox {
-    grid-row: 1/5;
-  }
-
-  footer {
-    grid-row: 4/5;
-  }
-}
-
-@media (max-width: 900px) {
-  #pozadi {
-    height: 100%;
-  }
-}
-
-h1 {
-  text-align: center;
-  color: var(--text-primary);
-}
-
-.nav {
-  grid-column: 1/2;
-  grid-row: 1/4;
-  padding: 0;
-  display: block;
-  gap: 10px;
-  grid-template-rows: repeat(7, 1fr);
-  grid-template-columns: 1fr;
-  margin: 20px;
-  position: relative;
-  z-index: 10;
-}
-
-.nav a,
-.homeButton {
-  grid-column: 1/2;
-  opacity: 1;
-  font-weight: 600;
-  text-decoration: none;
-  width: 100%;
-  height: 50px;
-  margin: 5px;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-sm);
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 10%;
-  align-items: center;
-  text-transform: uppercase;
-  box-shadow: var(--shadow-sm);
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--primary-hover) 100%
-  );
-  color: var(--button-text-color);
-  font-family: "Raleway", sans-serif;
-  transition: var(--transition);
-  letter-spacing: 0.5px;
-}
-
-@media (max-width: 600px) {
-  .nav a,
-  .nav .homeButton {
-    display: none;
-  }
-}
-
-.nav.responsive a,
-.nav.responsive.homeButton {
-  display: flex;
-}
-
-#uvodniText.responsive {
-  display: none;
-}
-
-.nav a:hover,
-.nav a:active {
-  box-shadow: var(--shadow-md);
-  color: white;
-  border-color: #2a1709;
-}
-
-#okno {
-  grid-column: 1/7;
-  grid-row: 1/43;
-  width: 100%;
-}
-
-#pomnickyFiltry li {
-  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#pomnickyFiltry li:hover {
-  background-color: #30524f;
-}
-
-.count {
-  color: var(--button-text-color);
-  font-size: 14px;
-  font-weight: 500;
-}
-</style>
