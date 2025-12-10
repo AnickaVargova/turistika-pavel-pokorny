@@ -94,7 +94,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import OknoPomnicky from "./OknoPomnicky.vue";
 import OknoClanky from "./OknoClanky.vue";
@@ -244,6 +244,12 @@ const categoryButtonClasses = (kategorie) => {
 const getImageUrl = (imageName) => {
   return new URL(`../assets/${imageName}`, import.meta.url).href;
 };
+
+onMounted(() => {
+  if (!localStorage.getItem("scrollY")) {
+    scrollToTop(false);
+  }
+});
 </script>
 
 <style>

@@ -104,17 +104,17 @@
         <h2 class="section-title">O projektu</h2>
         <div class="about-content">
           <p>
-            Naše webové stránky se zabývají regionální vlastivědou v Brně
-            a okolí, turistikou a cestováním po republice i po Evropě. Popisují
-            pomníčky, smírčí kříže, studánky a další objekty turistického zájmu v
-            okruhu zhruba třiceti kilometrů od Brna.
+            Naše webové stránky se zabývají regionální vlastivědou v Brně a
+            okolí, turistikou a cestováním po republice i po Evropě. Popisují
+            pomníčky, smírčí kříže, studánky a další objekty turistického zájmu
+            v okruhu zhruba třiceti kilometrů od Brna.
           </p>
           <p>
             V osmdesátých letech jsme začali hledat pomníčky kolem Brna a dosud
-            nepřestali. Počet těchto objektů přesahuje odhadem
-            tisícovku a mění se, některé přibývají, jiné zanikají. Doufáme, že tyto
-            stránky se mohou stát vaší inspirací k výletům a vyjížďkám do
-            spanilého okolí brněnského.
+            nepřestali. Počet těchto objektů přesahuje odhadem tisícovku a mění
+            se, některé přibývají, jiné zanikají. Doufáme, že tyto stránky se
+            mohou stát vaší inspirací k výletům a vyjížďkám do spanilého okolí
+            brněnského.
           </p>
           <router-link to="/onas" class="read-more-button">
             Více o nás <i class="fas fa-arrow-right"></i>
@@ -147,7 +147,11 @@
             <div class="footer-links">
               <router-link to="/odkazy">Sympatické weby</router-link>
               <a :href="mapaUrl" target="_self">Mapa</a>
-              <a href="https://turistapavel.rajce.idnes.cz/" target="_blank" rel="noopener">
+              <a
+                href="https://turistapavel.rajce.idnes.cz/"
+                target="_blank"
+                rel="noopener"
+              >
                 Moje rajče
               </a>
             </div>
