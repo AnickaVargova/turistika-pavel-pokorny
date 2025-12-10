@@ -30,12 +30,18 @@
 
       <!-- Main Navigation -->
       <nav class="hero-nav" role="navigation" aria-label="Main navigation">
-        <router-link to="/">Úvod</router-link>
-        <router-link to="/pomnicky">Pomníčky</router-link>
-        <router-link to="/krize">Smírčí kříže</router-link>
-        <router-link to="/studanky">Studánky</router-link>
-        <router-link to="/vypraveni">Vyprávění</router-link>
-        <router-link to="/cesty">Cesty</router-link>
+        <component
+          v-for="link in heroNavLinks"
+          :key="link.key"
+          :is="link.to ? 'router-link' : 'a'"
+          :class="getLinkClasses(link)"
+          v-bind="getLinkBindings(link)"
+        >
+          <span class="hero-nav-text">{{ link.text }}</span>
+          <span v-if="link.countKey" class="hero-nav-count">
+            {{ loading[link.countKey] ? "..." : counts[link.countKey] }}
+          </span>
+        </component>
       </nav>
 
       <!-- Hamburger Menu (mobile) -->
@@ -54,7 +60,10 @@
       <div class="hero-text">
         <Transition name="slide-up" mode="out-in">
           <div :key="currentSlide" class="hero-text-content">
-            <h1 class="hero-title" v-html="slides[currentSlide].title.replace('\n', '<br />')"></h1>
+            <h1
+              class="hero-title"
+              v-html="slides[currentSlide].title.replace('\n', '<br />')"
+            ></h1>
             <p class="hero-subtitle">{{ slides[currentSlide].subtitle }}</p>
             <router-link :to="slides[currentSlide].cta.link" class="cta-button">
               {{ slides[currentSlide].cta.text }}
@@ -62,13 +71,6 @@
           </div>
         </Transition>
       </div>
-
-      <!-- Decorative Route Path -->
-      <AnimatedRoutePath
-        v-if="slides[currentSlide].routePath"
-        :start-point="slides[currentSlide].routePath.start"
-        :end-point="slides[currentSlide].routePath.end"
-      />
 
       <!-- Carousel Indicators -->
       <div v-if="slides.length > 1" class="carousel-indicators">
@@ -96,16 +98,20 @@
     </div>
 
     <!-- Mobile Menu -->
-    <MobileMenu :is-open="mobileMenuOpen" :links="mobileLinks" @close="toggleMenu" />
+    <MobileMenu
+      :is-open="mobileMenuOpen"
+      :links="mobileLinks"
+      @close="toggleMenu"
+    />
   </section>
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
-import AnimatedRoutePath from "./AnimatedRoutePath.vue";
+import { ref, computed, onMounted } from "vue";
 import MobileMenu from "./MobileMenu.vue";
 import { useHeroCarousel } from "../composables/useHeroCarousel";
 import { useCategoryStats } from "../composables/useCategoryStats";
+import { mapaUrl } from "../utils/url";
 
 const props = defineProps({
   slides: {
@@ -120,25 +126,76 @@ const { currentSlide, goToSlide } = useHeroCarousel(props.slides);
 // Mobile menu state
 const mobileMenuOpen = ref(false);
 
-// Category stats for mobile menu
-const { counts } = useCategoryStats();
+// Category stats for navigation
+const { counts, loading, fetchAllCounts } = useCategoryStats();
 
-// Mobile menu links
-const mobileLinks = computed(() => [
-  { to: "/", text: "Úvod" },
-  { to: "/novepridane", text: "Naposled přidané", count: counts.novePridane },
-  { to: "/pomnicky", text: "Pomníčky", count: counts.pomnicky },
-  { to: "/krize", text: "Smírčí kříže", count: counts.krize },
-  { to: "/studanky", text: "Studánky", count: counts.studanky },
-  { to: "/vypraveni", text: "Vyprávění", count: counts.vypraveni },
-  { to: "/cesty", text: "Cesty", count: counts.cesty },
-  { to: "/onas", text: "O nás" },
-  { to: "/odkazy", text: "Sympatické weby" },
-]);
+const heroNavLinks = [
+  { key: "uvod", text: "Úvod", to: "/" },
+  {
+    key: "novepridane",
+    text: "Naposled přidané",
+    to: "/novepridane",
+    countKey: "novePridane",
+  },
+  { key: "mapa", text: "Mapa", href: mapaUrl, target: "_self" },
+  { key: "pomnicky", text: "Pomníčky", to: "/pomnicky", countKey: "pomnicky" },
+  { key: "krize", text: "Smírčí kříže", to: "/krize", countKey: "krize" },
+  { key: "studanky", text: "Studánky", to: "/studanky", countKey: "studanky" },
+  { key: "cesty", text: "Cesty", to: "/cesty", countKey: "cesty" },
+  {
+    key: "vypraveni",
+    text: "Vyprávění",
+    to: "/vypraveni",
+    countKey: "vypraveni",
+  },
+  { key: "onas", text: "O nás", to: "/onas" },
+  { key: "odkazy", text: "Sympatické weby", to: "/odkazy" },
+  {
+    key: "rajce",
+    text: "Moje rajče",
+    href: "https://turistapavel.rajce.idnes.cz/",
+    target: "_blank",
+    external: true,
+  },
+];
+
+// Mobile menu links (include counts/external links)
+const mobileLinks = computed(() =>
+  heroNavLinks.map((link) => ({
+    ...link,
+    count:
+      link.countKey !== undefined
+        ? loading[link.countKey]
+          ? "..."
+          : counts[link.countKey]
+        : undefined,
+  }))
+);
+
+const getLinkClasses = (link) => [
+  "hero-nav-link",
+  { "hero-nav-link--mapa": link.key === "mapa" },
+];
+
+const getLinkBindings = (link) => {
+  if (link.to) {
+    return { to: link.to };
+  }
+
+  return {
+    href: link.href,
+    target: link.target ?? (link.external ? "_blank" : "_self"),
+    rel: link.external ? "noopener noreferrer" : undefined,
+  };
+};
 
 const toggleMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;
 };
+
+onMounted(() => {
+  fetchAllCounts();
+});
 
 // Get image URL using Vite's dynamic import
 const getImageUrl = (imageName) => {
@@ -237,11 +294,11 @@ const getImageUrl = (imageName) => {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 16px 24px;
   flex-wrap: wrap;
 }
 
-.hero-nav a {
+.hero-nav-link {
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -252,9 +309,13 @@ const getImageUrl = (imageName) => {
   position: relative;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
 }
 
-.hero-nav a::after {
+.hero-nav-link::after {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -265,9 +326,27 @@ const getImageUrl = (imageName) => {
   transition: width 0.3s ease;
 }
 
-.hero-nav a:hover::after,
-.hero-nav a.router-link-active::after {
+.hero-nav-link:hover::after,
+.hero-nav-link.router-link-active::after {
   width: 100%;
+}
+
+.hero-nav-link--mapa {
+  color: #a5f3fc;
+}
+
+.hero-nav-link--mapa::after {
+  background: currentColor;
+}
+
+.hero-nav-count {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
 }
 
 /* Menu Toggle (Mobile) */

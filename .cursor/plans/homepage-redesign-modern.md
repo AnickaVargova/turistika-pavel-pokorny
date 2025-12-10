@@ -95,7 +95,7 @@ Transform the current text-heavy, sidebar-navigation homepage into a modern, her
         <button class="cta-button" @click="explore">Explore</button>
       </div>
 
-      <!-- Decorative Route Path -->
+      Decorative Route Path
       <svg class="route-path" viewBox="0 0 400 300">
         <path
           d="M 200,50 Q 250,100 220,150 Q 190,200 240,250"
@@ -540,109 +540,6 @@ export function useHeroCarousel(slides, autoplayDelay = 5000) {
 }
 ```
 
-#### 3.2 Animated Route Path
-
-**File:** `src/components/AnimatedRoutePath.vue`
-
-```vue
-<template>
-  <svg class="route-path" viewBox="0 0 400 300">
-    <!-- Animated dashed path -->
-    <path
-      ref="pathRef"
-      :d="pathData"
-      stroke="white"
-      stroke-width="2"
-      fill="none"
-      stroke-dasharray="5,5"
-      class="animated-path"
-    />
-
-    <!-- Start pin -->
-    <g class="pin start-pin">
-      <circle :cx="startPoint.x" :cy="startPoint.y" r="12" fill="#ef4444" />
-      <path
-        :d="`M ${startPoint.x} ${startPoint.y - 20} 
-             L ${startPoint.x} ${startPoint.y - 5}`"
-        stroke="white"
-        stroke-width="2"
-      />
-    </g>
-
-    <!-- End pin -->
-    <g class="pin end-pin">
-      <circle :cx="endPoint.x" :cy="endPoint.y" r="12" fill="#ef4444" />
-      <path
-        :d="`M ${endPoint.x} ${endPoint.y - 20} 
-             L ${endPoint.x} ${endPoint.y - 5}`"
-        stroke="white"
-        stroke-width="2"
-      />
-    </g>
-  </svg>
-</template>
-
-<script setup>
-import { ref, computed } from "vue";
-
-const props = defineProps({
-  startPoint: {
-    type: Object,
-    default: () => ({ x: 200, y: 50 }),
-  },
-  endPoint: {
-    type: Object,
-    default: () => ({ x: 240, y: 250 }),
-  },
-});
-
-const pathData = computed(() => {
-  const { x: x1, y: y1 } = props.startPoint;
-  const { x: x2, y: y2 } = props.endPoint;
-
-  // Create curved path
-  const midX = (x1 + x2) / 2;
-  const midY = (y1 + y2) / 2;
-
-  return `M ${x1},${y1} Q ${midX + 50},${midY} ${midX},${midY + 50} Q ${
-    midX - 30
-  },${midY + 100} ${x2},${y2}`;
-});
-</script>
-
-<style scoped>
-.animated-path {
-  animation: dash 20s linear infinite;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: -100;
-  }
-}
-
-.pin {
-  animation: bounce 2s ease-in-out infinite;
-}
-
-.end-pin {
-  animation-delay: 1s;
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-</style>
-```
-
----
-
 ### Phase 4: Content Integration (1-2 hours)
 
 #### 4.1 Hero Slides Data Structure
@@ -659,10 +556,6 @@ export const heroSlides = [
     cta: {
       text: "Prozkoumat",
       link: "/pomnicky",
-    },
-    routePath: {
-      start: { x: 200, y: 50 },
-      end: { x: 240, y: 250 },
     },
   },
   {

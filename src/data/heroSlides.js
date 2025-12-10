@@ -12,10 +12,6 @@ export const heroSlides = [
       text: "Prozkoumat",
       link: "/pomnicky",
     },
-    routePath: {
-      start: { x: 200, y: 50 },
-      end: { x: 240, y: 250 },
-    },
   },
   {
     id: 2,
@@ -25,10 +21,6 @@ export const heroSlides = [
     cta: {
       text: "Zjistit více",
       link: "/krize",
-    },
-    routePath: {
-      start: { x: 180, y: 60 },
-      end: { x: 260, y: 240 },
     },
   },
   {
@@ -40,10 +32,5 @@ export const heroSlides = [
       text: "Navštívit",
       link: "/studanky",
     },
-    routePath: {
-      start: { x: 220, y: 40 },
-      end: { x: 220, y: 260 },
-    },
   },
 ];
-
