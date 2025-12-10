@@ -3,22 +3,29 @@
     <div v-if="isOpen" class="mobile-menu">
       <div class="mobile-menu-overlay" @click="close"></div>
 
-      <nav class="mobile-menu-content" role="navigation" aria-label="Mobile navigation">
+      <nav
+        class="mobile-menu-content"
+        role="navigation"
+        aria-label="Mobile navigation"
+      >
         <button class="close-button" @click="close" aria-label="Close menu">
           <i class="fas fa-times"></i>
         </button>
 
         <div class="mobile-menu-links">
-          <router-link
+          <component
             v-for="link in links"
-            :key="link.to"
-            :to="link.to"
-            @click="close"
+            :key="link.key || link.to || link.href || link.text"
+            :is="link.to ? 'router-link' : 'a'"
             class="mobile-menu-link"
+            v-bind="getLinkBindings(link)"
+            @click="handleLinkClick"
           >
             {{ link.text }}
-            <span v-if="link.count !== undefined" class="link-count">{{ link.count }}</span>
-          </router-link>
+            <span v-if="link.count !== undefined" class="link-count">{{
+              link.count
+            }}</span>
+          </component>
         </div>
       </nav>
     </div>
@@ -41,6 +48,22 @@ const emit = defineEmits(["close"]);
 
 const close = () => {
   emit("close");
+};
+
+const getLinkBindings = (link) => {
+  if (link.to) {
+    return { to: link.to };
+  }
+
+  return {
+    href: link.href,
+    target: link.target ?? (link.external ? "_blank" : "_self"),
+    rel: link.external ? "noopener noreferrer" : undefined,
+  };
+};
+
+const handleLinkClick = () => {
+  close();
 };
 </script>
 
