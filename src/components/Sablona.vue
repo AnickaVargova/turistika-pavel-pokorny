@@ -358,38 +358,6 @@ p.responsive {
   display: none;
 }
 
-.commonButton {
-  margin: 4px;
-  height: 38px;
-  font-weight: 600;
-  color: var(--button-text-color);
-  border-radius: var(--border-radius-sm);
-  display: flex;
-  justify-content: flex-start;
-  padding: 8px 14px;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  min-width: 100%;
-  max-width: 170px;
-  font-family: "Raleway", sans-serif;
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--primary-hover) 100%
-  );
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
-  cursor: pointer;
-}
-
-.commonButton:hover {
-  box-shadow: var(--shadow-md);
-  color: var(--button-text-hover);
-  background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
-}
-
 .hneda {
   background: linear-gradient(135deg, #5b3f20 0%, #95460a 100%);
   color: var(--button-text-color);
@@ -653,12 +621,6 @@ p.responsive {
 }
 
 @media (max-width: 600px) {
-  .commonButton {
-    min-width: 70px;
-    max-width: 150px;
-    font-size: 11px;
-  }
-
   #seznam {
     margin-bottom: 3px;
     min-width: 50%;
