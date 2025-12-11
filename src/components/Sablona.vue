@@ -69,7 +69,8 @@
             :class="categoryButtonClasses(kategorie)"
             :style="{ backgroundColor: innerParams.buttonsColor }"
           >
-            {{ kategorie.nazev }} ({{ kategorie.pocet }})
+            {{ kategorie.nazev }}
+            <span class="count">&nbsp;({{ kategorie.pocet }})</span>
           </div>
         </router-link>
       </div>
@@ -354,6 +355,12 @@ const getImageUrl = (imageName) => {
   flex-direction: column;
 }
 
+.pomnickyNavigace .count {
+  color: var(--button-text-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+
 p.responsive {
   display: none;
 }
@@ -517,7 +524,7 @@ p.responsive {
   z-index: 20;
   justify-self: flex-end;
   margin-right: 30px;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #rozbalitWrapper {
