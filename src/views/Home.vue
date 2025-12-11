@@ -3,26 +3,33 @@
     <!-- Hero Section with Carousel -->
     <HeroSection :slides="heroSlides" />
 
-    <!-- Categories Section -->
-    <CategoriesSection />
-
     <!-- About Section -->
     <section class="about-section">
       <div class="container">
-        <h2 class="section-title">O projektu</h2>
+        <h2 class="section-title">Kdo jsme</h2>
         <div class="about-content">
           <p>
             Naše webové stránky se zabývají regionální vlastivědou v Brně a
             okolí, turistikou a cestováním po republice i po Evropě. Popisují
             pomníčky, smírčí kříže, studánky a další objekty turistického zájmu
-            v okruhu zhruba třiceti kilometrů od Brna.
+            v okruhu zhruba třiceti kilometrů od Brna, tedy oblast vymezenou
+            Vyškovem Ždánicemi na východě, Novomlýnskými nádržemi na jihu,
+            Moravským Krumlovem, Náměští a Velkou Bíteší na západě a Nedvědicemi
+            a Boskovicemi na severu. Až na výjimky se nalézají v přírodě, mimo
+            zástavbu.
           </p>
           <p>
-            V osmdesátých letech jsme začali hledat pomníčky kolem Brna a dosud
-            nepřestali. Počet těchto objektů přesahuje odhadem tisícovku a mění
-            se, některé přibývají, jiné zanikají. Doufáme, že tyto stránky se
-            mohou stát vaší inspirací k výletům a vyjížďkám do spanilého okolí
-            brněnského.
+            Návodem se pro nás stala Kniha o Jizerských horách od Miloslava
+            Nevrlého, která vyšla poprvé v roce 1978 a od té doby ještě
+            čtyřikrát. Navazovala na odvěkou touhu člověka hledat, nalézat,
+            objevovat. V osmdesátých letech jsme začali hledat pomníčky kolem
+            Brna a dosud nepřestali. Tehdy byly k dispozici jen nepřesné mapy a
+            GPS ještě nebylo vynalezeno. Počet těchto objektů přesahuje odhadem
+            tisícovku a mění se, některé přibývají, jiné zanikají.
+          </p>
+          <p>
+            Doufáme, že tyto stránky se mohou stát vaší inspirací k výletům a
+            vyjížďkám do spanilého okolí brněnského.
           </p>
           <router-link to="/onas" class="read-more-button">
             Více o nás <i class="fas fa-arrow-right"></i>
@@ -95,7 +102,6 @@
 
 <script setup>
 import HeroSection from "../components/HeroSection.vue";
-import CategoriesSection from "../components/CategoriesSection.vue";
 import { heroSlides } from "../data/heroSlides";
 import { mapaUrl } from "../utils/url";
 </script>
