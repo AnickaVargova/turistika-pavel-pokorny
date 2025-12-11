@@ -56,7 +56,7 @@
         <Loader v-if="loading.novePridane" class="homeButton" />
         <router-link v-else to="/novepridane">
           Naposled přidané
-          <span class="count">&nbsp;{{ counts.novePridane }}</span>
+          <span class="count">&nbsp;({{ counts.novePridane }})</span>
         </router-link>
       </div>
       <div>
@@ -65,35 +65,35 @@
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
         <router-link v-else to="/pomnicky"
-          >Pomníčky <span class="count">&nbsp;{{ counts.pomnicky }}</span>
+          >Pomníčky <span class="count">&nbsp;({{ counts.pomnicky }})</span>
         </router-link>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.krize" />
         <router-link v-else to="/krize"
           >Smírčí kříže
-          <span class="count">&nbsp;{{ counts.krize }}</span></router-link
+          <span class="count">&nbsp;({{ counts.krize }})</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.studanky" />
         <router-link v-else to="/studanky"
           >Studánky
-          <span class="count">&nbsp;{{ counts.studanky }}</span></router-link
+          <span class="count">&nbsp;({{ counts.studanky }})</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.cesty" />
         <router-link v-else to="/cesty"
           >Cesty
-          <span class="count">&nbsp;{{ counts.cesty }}</span></router-link
+          <span class="count">&nbsp;({{ counts.cesty }})</span></router-link
         >
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.vypraveni" />
         <router-link v-else to="/vypraveni"
           >Vyprávění
-          <span class="count">&nbsp;{{ counts.vypraveni }}</span></router-link
+          <span class="count">&nbsp;({{ counts.vypraveni }})</span></router-link
         >
       </div>
       <div>
@@ -385,14 +385,14 @@ h1 {
   width: 100%;
   height: 50px;
   margin: 5px;
-  border: 1px solid var(--border-color);
+  border: 1px solid #63686e;
   border-radius: var(--border-radius-sm);
   display: flex;
   justify-content: flex-start;
   padding-left: 10%;
   align-items: center;
   text-transform: uppercase;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 4px 2px 6px rgba(87, 97, 119, 0.6);
   background: linear-gradient(
     135deg,
     var(--primary-color) 0%,
@@ -422,7 +422,7 @@ h1 {
 
 .nav a:hover,
 .nav a:active {
-  box-shadow: var(--shadow-md);
+  box-shadow: 4px 2px 6px rgba(46, 51, 62, 0.9);
   color: white;
   border-color: #2a1709;
 }

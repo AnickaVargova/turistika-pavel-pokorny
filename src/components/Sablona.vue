@@ -439,8 +439,6 @@ p.responsive {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  border: none;
-  box-shadow: var(--shadow-md);
   margin-top: 20px;
   margin-left: 30px;
   grid-column: 1/2;
@@ -449,10 +447,6 @@ p.responsive {
   align-self: end;
   transition: var(--transition);
   width: 60px;
-}
-
-#naNovePridane:hover {
-  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 600px) {
@@ -491,7 +485,6 @@ p.responsive {
     var(--primary-hover) 100%
   );
   color: var(--button-text-color);
-  box-shadow: var(--shadow-md);
   transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -501,7 +494,6 @@ p.responsive {
 #tlacitkoNahoru:hover,
 #rozbalit:hover,
 #domuOnas:hover {
-  box-shadow: var(--shadow-lg);
   color: var(--button-text-hover);
   background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
 }
@@ -584,7 +576,7 @@ p.responsive {
 
   #tlacitkoNahoru {
     width: 60px !important;
-    margin-top: 21px;
+    margin-top: 20px;
     grid-column: 5/7;
     justify-self: center;
   }
@@ -609,9 +601,7 @@ p.responsive {
 #seznam {
   margin-bottom: 20px;
   color: var(--button-text-color);
-  border: none;
   padding: 0 14px;
-  box-shadow: var(--shadow-md);
   width: 20px;
   min-width: 100%;
 }

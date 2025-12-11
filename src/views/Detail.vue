@@ -249,14 +249,12 @@ iframe {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  box-shadow: var(--shadow-sm);
   transition: var(--transition);
   cursor: pointer;
   min-width: unset;
 }
 
 #detailClanku .commonButton:hover {
-  box-shadow: var(--shadow-md);
   color: var(--button-text-hover);
   background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
 }
@@ -290,10 +288,8 @@ iframe {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  border: none;
   justify-self: flex-end;
   align-self: start;
-  box-shadow: var(--shadow-md);
   transition: var(--transition);
   z-index: 100;
 }
@@ -311,15 +307,8 @@ iframe {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  border: none;
   justify-self: flex-end;
-  box-shadow: var(--shadow-md);
   transition: var(--transition);
-}
-
-#tlacitkoDomuDetail:hover,
-.tlacitkoNahoruDetail:hover {
-  box-shadow: var(--shadow-lg);
 }
 
 .smallZalozkaTop {
@@ -362,13 +351,7 @@ iframe {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  border: none;
-  box-shadow: var(--shadow-md);
   transition: var(--transition);
-}
-
-.zpetNaClanky:hover {
-  box-shadow: var(--shadow-lg);
 }
 
 #detailClanku h1 {

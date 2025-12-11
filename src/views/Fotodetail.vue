@@ -81,7 +81,8 @@ export default {
 
     photoUrl() {
       if (this.isOnas) {
-        return new URL(`../assets/${this.vybranaFotka.fotka}`, import.meta.url).href;
+        return new URL(`../assets/${this.vybranaFotka.fotka}`, import.meta.url)
+          .href;
       }
       return `${this.apiUrl}/photos/medium/${this.vybranaFotka.fotka?.trim()}`;
     },
@@ -297,18 +298,11 @@ export default {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  border: none;
-  box-shadow: var(--shadow-md);
   transition: var(--transition);
 }
 
 #fotodetail .commonButton {
   min-width: 0;
-}
-
-#fotodetail button:active,
-#fotodetail button:hover {
-  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 600px) {

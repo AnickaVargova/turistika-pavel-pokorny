@@ -395,10 +395,6 @@ watch(
   transition: var(--transition);
 }
 
-#oknoPomnicky button:hover {
-  box-shadow: var(--shadow-lg);
-}
-
 table {
   padding: 10px;
   width: 100%;

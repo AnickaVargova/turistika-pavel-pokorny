@@ -48,13 +48,7 @@ export default {
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  border: none;
-  box-shadow: var(--shadow-md);
   transition: var(--transition);
-}
-
-#domuOnas:hover {
-  box-shadow: var(--shadow-lg);
 }
 
 .kontejnerDomuOnas {

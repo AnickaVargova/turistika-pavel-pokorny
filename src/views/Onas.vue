@@ -2,10 +2,11 @@
   <div id="detailClanku" :style="{ padding: '0' }">
     <div id="transboxOnas">
       <div id="detailOkno">
-        <router-link :style="{ gridColumn: '3/4', justifySelf: 'flex-end' }" to="/">
-          <div class="commonButton" id="domuOnas">
-            Úvodní strana
-          </div>
+        <router-link
+          :style="{ gridColumn: '3/4', justifySelf: 'flex-end' }"
+          to="/"
+        >
+          <div class="commonButton" id="domuOnas">Úvodní strana</div>
         </router-link>
         <h1 :style="{ marginTop: '0' }">O nás</h1>
 
@@ -45,7 +46,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const detailClanku = ref({
   text: [
@@ -89,7 +90,11 @@ const getImageUrl = (imageName) => {
 
 #transboxOnas {
   width: 100%;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(248, 250, 252, 0.7) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(248, 250, 252, 0.7) 100%
+  );
   backdrop-filter: blur(2px);
   position: relative;
   z-index: 2;
@@ -112,30 +117,28 @@ const getImageUrl = (imageName) => {
   box-shadow: var(--shadow-lg);
 }
 
-  @media (max-width: 600px) {
-    #detailOkno {
-      border: none;
-    }
-
-    #detailClanku {
-      padding: 0;
-    }
-
-    #detailOkno p {
-      font-size: 15px;
-    }
+@media (max-width: 600px) {
+  #detailOkno {
+    border: none;
   }
+
+  #detailClanku {
+    padding: 0;
+  }
+
+  #detailOkno p {
+    font-size: 15px;
+  }
+}
 
 #detailClanku .commonButton {
   min-width: 0;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
-  border: none;
-  box-shadow: var(--shadow-md);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-hover) 100%
+  );
   transition: var(--transition);
-}
-
-#detailClanku .commonButton:hover {
-  box-shadow: var(--shadow-lg);
 }
 
 #detailClanku h1 {
@@ -152,32 +155,32 @@ const getImageUrl = (imageName) => {
   color: var(--text-secondary);
 }
 
-  #fotoText {
-    height: 200px;
-    width: min-content;
-    /* max-width: 40%;
+#fotoText {
+  height: 200px;
+  width: min-content;
+  /* max-width: 40%;
     min-width: 150px; */
-  }
+}
 
-  .vpravo {
-    float: right;
-    margin-right: 0;
-    margin-bottom: 30px;
-    margin-top: 16px;
-    margin-left: 30px;
-  }
+.vpravo {
+  float: right;
+  margin-right: 0;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  margin-left: 30px;
+}
 
-  .vlevo {
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 16px;
-    margin-left: 0;
-  }
+.vlevo {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  margin-left: 0;
+}
 
-  .nahore {
-    margin-top: 0;
-  }
+.nahore {
+  margin-top: 0;
+}
 
 #textClanku {
   grid-column: 1 / span 3;
@@ -234,18 +237,16 @@ figcaption {
   border-bottom-color: var(--link-hover);
 }
 
-  .obrazek {
-    flex-basis: 33.33%;
-  }
+.obrazek {
+  flex-basis: 33.33%;
+}
 
-  .obrazek figure {
-    width: 90%;
-    height: 80%;
-    object-fit: cover;
-    margin-left: 0;
-  }
-
-  
+.obrazek figure {
+  width: 90%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: 0;
+}
 
 #detailClanku img:hover,
 #detailClanku img:active {
@@ -254,15 +255,15 @@ figcaption {
   transform: scale(1.02);
 }
 
-  #galerieClanek {
-    grid-column: 1 / span3;
-    display: flex;
-    justify-content: flex-start;
-  }
+#galerieClanek {
+  grid-column: 1 / span3;
+  display: flex;
+  justify-content: flex-start;
+}
 
-  @media (max-width: 600px) {
-    #galerieClanek {
-      flex-direction: column;
-    }
+@media (max-width: 600px) {
+  #galerieClanek {
+    flex-direction: column;
   }
+}
 </style>

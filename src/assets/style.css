@@ -3,6 +3,7 @@
   height: 38px;
   font-weight: 600;
   color: var(--button-text-color);
+  border: 1px solid #63686e;
   border-radius: var(--border-radius-sm);
   display: flex;
   justify-content: flex-start;
@@ -19,13 +20,15 @@
     var(--primary-color) 0%,
     var(--primary-hover) 100%
   );
-  box-shadow: var(--shadow-sm);
+  box-shadow: 4px 2px 6px rgba(87, 97, 119, 0.6);
   transition: var(--transition);
   cursor: pointer;
 }
 
-.commonButton:hover {
-  box-shadow: var(--shadow-md);
+.commonButton:hover,
+.commonButton:active {
+  box-shadow: 4px 2px 6px rgba(46, 51, 62, 0.9);
+  border-color: #2a1709;
   color: var(--button-text-hover);
   background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
 }
