@@ -195,7 +195,7 @@ onMounted(async () => {
 
 #mapabutton:hover {
   background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
-  box-shadow: var(--shadow-md);
+  box-shadow: 4px 2px 6px rgba(46, 51, 62, 0.9);
 }
 
 @media (max-width: 600px) {
