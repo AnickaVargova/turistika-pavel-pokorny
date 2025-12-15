@@ -19,30 +19,31 @@
 
     <!-- Content Layer -->
     <div class="hero-content">
-      <!-- Logo/Brand -->
-      <div class="hero-brand">
-        <router-link to="/" class="brand-link">
-          <span class="brand-text">
-            Turistika <span class="brand-accent">Pavel Pokorný</span>
-          </span>
-        </router-link>
-      </div>
+      <!-- Logo + Sidebar Navigation -->
+      <aside class="hero-sidebar">
+        <div class="hero-brand">
+          <router-link to="/" class="brand-link">
+            <span class="brand-text">
+              Turistika <span class="brand-accent">Pavel Pokorný</span>
+            </span>
+          </router-link>
+        </div>
 
-      <!-- Main Navigation -->
-      <nav class="hero-nav" role="navigation" aria-label="Main navigation">
-        <component
-          v-for="link in heroNavLinks"
-          :key="link.key"
-          :is="link.to ? 'router-link' : 'a'"
-          :class="getLinkClasses(link)"
-          v-bind="getLinkBindings(link)"
-        >
-          <span class="hero-nav-text">{{ link.text }}</span>
-          <span v-if="link.countKey" class="hero-nav-count">
-            {{ loading[link.countKey] ? "..." : counts[link.countKey] }}
-          </span>
-        </component>
-      </nav>
+        <nav class="hero-nav" role="navigation" aria-label="Main navigation">
+          <component
+            v-for="link in heroNavLinks"
+            :key="link.key"
+            :is="link.to ? 'router-link' : 'a'"
+            :class="getLinkClasses(link)"
+            v-bind="getLinkBindings(link)"
+          >
+            <span class="hero-nav-text">{{ link.text }}</span>
+            <span v-if="link.countKey" class="hero-nav-count">
+              {{ loading[link.countKey] ? "..." : counts[link.countKey] }}
+            </span>
+          </component>
+        </nav>
+      </aside>
 
       <!-- Hamburger Menu (mobile) -->
       <button
@@ -84,17 +85,14 @@
         ></button>
       </div>
 
-      <!-- Bottom Info Cards -->
-      <div class="info-cards">
-        <div class="info-card">
-          <i class="fas fa-map-marked-alt"></i>
-          <p>Objevujte historické památky a přírodní krásy v okolí Brna</p>
-        </div>
-        <div class="info-card">
-          <i class="fas fa-hiking"></i>
-          <p>Inspirace pro výlety a vyjížďky do spanilého okolí brněnského</p>
-        </div>
-      </div>
+      <button
+        type="button"
+        class="animation-toggle"
+        @click="toggleAutoplay"
+      >
+        {{ isAutoplay ? "Zastavit animaci" : "Spustit animaci" }}
+      </button>
+
     </div>
 
     <!-- Mobile Menu -->
@@ -121,7 +119,9 @@ const props = defineProps({
 });
 
 // Carousel functionality
-const { currentSlide, goToSlide } = useHeroCarousel(props.slides);
+const { currentSlide, goToSlide, isAutoplay, toggleAutoplay } = useHeroCarousel(
+  props.slides
+);
 
 // Mobile menu state
 const mobileMenuOpen = ref(false);
@@ -212,6 +212,8 @@ const getImageUrl = (imageName) => {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 /* Background Image */
@@ -254,20 +256,31 @@ const getImageUrl = (imageName) => {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 80px 1fr 120px;
-  padding: 20px;
+  grid-template-columns: minmax(260px, 320px) 1fr;
+  grid-template-rows: auto 1fr 120px;
+  padding: 40px 60px;
   max-width: 1920px;
   margin: 0 auto;
+  column-gap: 40px;
+  align-items: center;
+  align-content: center;
+}
+
+.hero-sidebar {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
 }
 
 /* Brand/Logo */
 .hero-brand {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  margin-bottom: 28px;
 }
 
 .brand-link {
@@ -289,19 +302,16 @@ const getImageUrl = (imageName) => {
 
 /* Navigation */
 .hero-nav {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px 24px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .hero-nav-link {
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.5px;
@@ -309,16 +319,20 @@ const getImageUrl = (imageName) => {
   position: relative;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 10px;
   padding: 4px 0;
+  border-left: none;
+  border-radius: 0;
+  width: 100%;
 }
 
 .hero-nav-link::after {
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: 6px;
   left: 0;
   width: 0;
   height: 2px;
@@ -328,7 +342,7 @@ const getImageUrl = (imageName) => {
 
 .hero-nav-link:hover::after,
 .hero-nav-link.router-link-active::after {
-  width: 100%;
+  width: 60%;
 }
 
 .hero-nav-link--mapa {
@@ -345,13 +359,13 @@ const getImageUrl = (imageName) => {
   letter-spacing: 0;
   padding: 2px 8px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
   color: white;
 }
 
 /* Menu Toggle (Mobile) */
 .menu-toggle {
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   grid-row: 1 / 2;
   display: none;
   flex-direction: column;
@@ -383,8 +397,8 @@ const getImageUrl = (imageName) => {
 
 /* Hero Text */
 .hero-text {
-  grid-column: 1 / 4;
-  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -446,6 +460,32 @@ const getImageUrl = (imageName) => {
   box-shadow: 0 15px 35px rgba(255, 255, 255, 0.4);
 }
 
+/* Animation Toggle */
+.animation-toggle {
+  position: absolute;
+  left: 60px;
+  bottom: 40px;
+  z-index: 20;
+  padding: 6px 16px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.animation-toggle:hover,
+.animation-toggle:focus-visible {
+  background: white;
+  color: #111827;
+  outline: none;
+}
+
 /* Carousel Indicators */
 .carousel-indicators {
   grid-column: 2 / 3;
@@ -473,41 +513,6 @@ const getImageUrl = (imageName) => {
 .carousel-indicators button.active {
   background: white;
   width: 80px;
-}
-
-/* Info Cards */
-.info-cards {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-left: 20px;
-  align-self: end;
-  padding-bottom: 20px;
-}
-
-.info-card {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  color: white;
-  max-width: 300px;
-}
-
-.info-card i {
-  font-size: 28px;
-  color: white;
-  opacity: 0.9;
-  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.info-card p {
-  font-size: 13px;
-  line-height: 1.5;
-  margin: 0;
-  opacity: 0.95;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Transitions */
@@ -541,51 +546,67 @@ const getImageUrl = (imageName) => {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
-  .hero-nav {
-    gap: 20px;
+  .hero-content {
+    column-gap: 24px;
+    padding: 20px 24px;
   }
 
-  .hero-nav a {
+  .hero-nav-link {
     font-size: 14px;
   }
 }
 
 @media (max-width: 900px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr 100px;
+    row-gap: 20px;
+    column-gap: 0;
+    padding: 20px;
+  }
+
+  .hero-sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 100%;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
   .hero-nav {
     display: none;
   }
 
   .menu-toggle {
     display: flex;
-  }
-
-  .info-cards {
-    display: none;
-  }
-
-  .hero-content {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 1fr 100px;
-  }
-
-  .hero-brand {
     grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: end;
+    align-self: center;
+    margin-right: 0;
   }
 
   .hero-text {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
   }
 
   .carousel-indicators {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .animation-toggle {
+    left: 24px;
+    bottom: 24px;
+    padding: 6px 14px;
+    font-size: 10px;
   }
 }
 
 @media (max-width: 600px) {
-  .hero-brand {
-    padding-left: 10px;
-  }
-
   .brand-text {
     font-size: 18px;
   }
@@ -609,6 +630,13 @@ const getImageUrl = (imageName) => {
 
   .carousel-indicators button.active {
     width: 60px;
+  }
+
+  .animation-toggle {
+    left: 16px;
+    bottom: 16px;
+    padding: 5px 12px;
+    font-size: 9px;
   }
 }
 </style>

@@ -1,13 +1,6 @@
 <template>
   <div id="pomnicky">
-    <div id="pozadi1">
-      <img
-        :src="getImageUrl(innerParams.background)"
-        :alt="innerParams.backgroundDescription"
-      />
-    </div>
-
-    <div :class="['transbox1']" :style="transboxStyle"></div>
+    <div id="pozadi1"></div>
 
     <h1>{{ innerParams.nadpis }}</h1>
 
@@ -131,12 +124,6 @@ const isLongVersion = computed(() => {
   return LONG_VERSION_ROUTES.includes(routeName.value);
 });
 
-const transboxStyle = computed(() => {
-  return innerParams.value.transbox
-    ? { backgroundColor: innerParams.value.transbox }
-    : {};
-});
-
 const showAbecedniSeznam = computed(() => {
   const { kategorie, id } = route.params;
   const { stranka } = innerParams.value;
@@ -240,11 +227,6 @@ const categoryButtonClasses = (kategorie) => {
   };
 };
 
-// Vite dynamic import for images
-const getImageUrl = (imageName) => {
-  return new URL(`../assets/${imageName}`, import.meta.url).href;
-};
-
 onMounted(() => {
   if (!localStorage.getItem("scrollY")) {
     scrollToTop(false);
@@ -265,8 +247,8 @@ onMounted(() => {
   grid-template-columns: repeat(6, 1fr);
   min-height: 100vh;
   grid-template-rows: auto auto auto auto;
-  color: var(--text-primary);
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  color: #e2e8f0;
+  background: linear-gradient(135deg, #0c1424 0%, #1f2937 45%, #0c1424 100%);
   position: relative;
 }
 
@@ -301,10 +283,10 @@ onMounted(() => {
   align-self: center;
   font-size: 35px;
   font-weight: 500;
-  color: var(--text-primary);
+  color: #e8f1ff;
   letter-spacing: -0.5px;
   margin-bottom: 10px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
 }
 
 .pomnickyText {
@@ -312,12 +294,17 @@ onMounted(() => {
   grid-column: 2/7;
   margin: 30px;
   margin-bottom: 0;
+  padding: 28px 32px;
+  background: rgba(236, 244, 252, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 22px 40px rgba(12, 20, 36, 0.35);
   text-align: justify;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   line-height: 1.7;
-  color: var(--text-secondary);
+  color: #0f172a;
 }
 
 #pomnickyUvod {
@@ -357,7 +344,13 @@ onMounted(() => {
   grid-row: 2/5;
   margin: 23px;
   display: flex;
+  height: fit-content;
   flex-direction: column;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 14px;
+  padding: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 p.responsive {
@@ -365,40 +358,40 @@ p.responsive {
 }
 
 .hneda {
-  background: linear-gradient(135deg, #5b3f20 0%, #95460a 100%);
-  color: var(--button-text-color);
-  border-color: #6f3306;
+  background: linear-gradient(135deg, #334155 0%, #475569 100%);
+  color: #f8fafc;
+  border-color: #1f2937;
 }
 
 .hneda:hover {
-  border-color: #2a1709;
-  background: linear-gradient(135deg, #96734c 0%, #b56d37 100%);
+  border-color: #0f172a;
+  background: linear-gradient(135deg, #556070 0%, #64748b 100%);
 }
 
 .tyrkys {
-  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
-  color: var(--button-text-color);
-  border-color: #0891b2;
+  background: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 100%);
+  color: #0b1220;
+  border-color: #0ea5e9;
 }
 
 .fialova {
-  background: linear-gradient(135deg, #8252db 0%, #4a1f8f 100%);
-  color: var(--button-text-color);
-  border-color: #6731bd;
+  background: linear-gradient(135deg, #f59f0b 0%, #f97316 100%);
+  color: #0b1220;
+  border-color: #ea580c;
 }
 
 .hneda:hover {
-  color: var(--button-text-hover);
+  color: #e2e8f0;
 }
 
 .tyrkys:hover {
-  color: var(--button-text-hover);
-  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+  color: #0b1220;
+  background: linear-gradient(135deg, #38e0f5 0%, #22c3f3 100%);
 }
 
 .fialova:hover {
-  color: var(--button-text-hover);
-  background: linear-gradient(135deg, #9465c2 0%, #8e49cf 100%);
+  color: #0b1220;
+  background: linear-gradient(135deg, #fbbf24 0%, #fb923c 100%);
 }
 
 /* .active {
@@ -407,15 +400,15 @@ p.responsive {
 } */
 
 .active.hneda {
-  background: linear-gradient(135deg, #96734c 0%, #b56d37 100%);
+  background: linear-gradient(135deg, #64748b 0%, #94a3b8 100%);
 }
 
 .active.tyrkys {
-  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+  background: linear-gradient(135deg, #38e0f5 0%, #22c3f3 100%);
 }
 
 .active.fialova {
-  background: linear-gradient(135deg, #9465c2 0%, #8e49cf 100%);
+  background: linear-gradient(135deg, #fbbf24 0%, #fb923c 100%);
 }
 
 #kategorieMobil {
@@ -491,13 +484,10 @@ p.responsive {
   width: 116px !important;
   padding: 0 14px;
   height: 38px;
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--primary-hover) 100%
-  );
-  color: var(--button-text-color);
-  box-shadow: var(--shadow-md);
+  background: linear-gradient(135deg, #38bdf8 0%, #2563eb 100%);
+  border: 2px solid #e2e8f0;
+  color: #0b1220;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
   transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -507,9 +497,9 @@ p.responsive {
 #tlacitkoNahoru:hover,
 #rozbalit:hover,
 #domuOnas:hover {
-  box-shadow: var(--shadow-lg);
-  color: var(--button-text-hover);
-  background: linear-gradient(135deg, #4c5e96f2 0%, #3355a6 100%);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+  color: #0b1220;
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
 }
 
 #tlacitkoDomu {
@@ -518,7 +508,7 @@ p.responsive {
   align-self: flex-end;
   justify-self: flex-end;
   margin-right: 30px;
-  margin-top: 20px;
+  margin-top: 60px;
   text-decoration: none;
 }
 
@@ -614,16 +604,19 @@ p.responsive {
 
 #seznam {
   margin-bottom: 20px;
-  color: var(--button-text-color);
-  border: none;
+  color: #0b1220;
+  border: 2px solid #e2e8f0;
   padding: 0 14px;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
   width: 20px;
   min-width: 100%;
+  background: linear-gradient(135deg, #38bdf8 0%, #2563eb 100%);
 }
 
 #seznam:hover {
-  color: var(--button-text-hover);
+  color: #0b1220;
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
 }
 
 @media (max-width: 600px) {
@@ -649,18 +642,7 @@ p.responsive {
   height: 100%;
   position: relative;
   z-index: 1;
-}
-
-.transbox1 {
-  grid-column: 1 / 7;
-  grid-row: 1 / 8;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(2px);
-  margin-right: 0;
-  position: relative;
-  z-index: 2;
-  pointer-events: none;
+  background: linear-gradient(135deg, #1f3a5f 0%, #2563eb 45%, #0ea5e9 100%);
 }
 
 #pomnicky .kontejner {
