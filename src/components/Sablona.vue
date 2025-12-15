@@ -359,6 +359,8 @@ const getImageUrl = (imageName) => {
   color: var(--button-text-color);
   font-size: 14px;
   font-weight: 500;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 p.responsive {
@@ -540,19 +542,21 @@ p.responsive {
     flex-direction: row;
     grid-row: 4/5;
     grid-column: 1/7;
-    margin: 17px 0 3px;
+    margin: 12px 0 3px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 5fr);
-    max-width: calc(100% - 20px);
-    width: calc(100% - 20px);
+    max-width: 100%;
+    width: 100%;
     box-sizing: border-box;
-    padding: 0;
+    padding: 0 10px;
     gap: 2px;
   }
 
   .pomnickyNavigace > div {
     max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .pomnickyNavigace .commonButton {
@@ -560,10 +564,19 @@ p.responsive {
     max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
+    margin: 2px 0;
+    padding: 10px;
+    font-size: 11px;
+    height: 56px;
+    min-height: 56px;
+    line-height: 1.3;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: normal;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    padding: 8px 10px;
-    font-size: 11px;
+    word-break: break-word;
+    overflow: hidden;
   }
 
   #rozbalitWrapper {
