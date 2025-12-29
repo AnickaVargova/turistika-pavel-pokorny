@@ -32,6 +32,10 @@
       </div>
     </div>
 
+    <div v-if="showCestyMap" class="mapWrapper">
+      <CestyMap />
+    </div>
+
     <div id="rozbalitWrapper">
       <router-link :to="expandLink">
         <div v-if="showExpandButton" id="rozbalit" class="commonButton">
@@ -102,6 +106,7 @@ import OknoClanky from "./OknoClanky.vue";
 import AbecedniSeznam from "./AbecedniSeznam.vue";
 import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
+import CestyMap from "./CestyMap.vue";
 import { useScrollPosition } from "../composables/useScrollPosition";
 import {
   LONG_VERSION_ROUTES,
@@ -128,6 +133,13 @@ const vybranaId = ref([Number(route.params.kategorie)]);
 
 const routeName = computed(() => route.name);
 
+const isLargePage = computed(() => {
+  const { stranka } = innerParams.value;
+  const largePages = ["vypraveni", "cesty", "novepridane"];
+
+  return largePages.includes(stranka);
+});
+
 const isLongVersion = computed(() => {
   return LONG_VERSION_ROUTES.includes(routeName.value);
 });
@@ -147,14 +159,13 @@ const showAbecedniSeznam = computed(() => {
 });
 
 const textContainerClasses = computed(() => {
-  const { stranka } = innerParams.value;
-  const largePages = ["vypraveni", "cesty", "novepridane"];
-
   return {
     pomnickyText: true,
-    large: largePages.includes(stranka),
+    large: isLargePage.value,
   };
 });
+
+const showCestyMap = computed(() => innerParams.value.stranka === "cesty");
 
 const showExpandButton = computed(() => {
   return (
@@ -278,10 +289,28 @@ const getImageUrl = (imageName) => {
   width: 900px;
 }
 
+.mapWrapper {
+  grid-column: 1/7;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px 10px;
+  margin: 0 auto;
+}
+
 @media (max-width: 950px) {
   .large {
     width: unset;
     max-width: 900px;
+  }
+
+  .mapWrapper {
+    grid-column: 1/7;
+    display: flex;
+    justify-content: center;
+    padding: 0;
   }
 }
 
@@ -339,6 +368,15 @@ const getImageUrl = (imageName) => {
     grid-column: 1/7;
     font-size: 15px;
     margin: 10px 20px 0;
+  }
+
+  .mapWrapper {
+    grid-row: 4/5;
+    grid-column: 1/7;
+    margin: 10px 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .abSeznam {
