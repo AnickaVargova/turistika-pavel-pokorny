@@ -419,10 +419,20 @@ onBeforeUnmount(() => {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+  transition: color var(--transition, 0.2s ease);
 }
 
 .mapyCardClickable:hover {
   text-decoration: none;
+  color: #0f172a;
+}
+
+:deep(.mapyCardClickable strong) {
+  transition: color var(--transition, 0.2s ease);
+}
+
+:deep(.mapyCardClickable:hover strong) {
+  color: #0f172a;
 }
 
 .mapyCardImage {

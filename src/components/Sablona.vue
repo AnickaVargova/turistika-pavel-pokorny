@@ -373,7 +373,7 @@ const getImageUrl = (imageName) => {
   .mapWrapper {
     grid-row: 4/5;
     grid-column: 1/7;
-    margin: 10px 20px 0;
+    margin: 10px 0 0;
     padding: 0;
     display: flex;
     justify-content: center;
