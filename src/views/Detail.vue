@@ -12,13 +12,19 @@
         <div class="commonButton zpetNaClanky">Zpět na smírčí kříže</div>
       </router-link>
       <router-link v-else-if="routeName === 'DetailVypraveni'" to="/vypraveni">
-        <div class="commonButton zpetNaClanky">Zpět na články</div>
+        <div class="commonButton zpetNaClanky">Články</div>
       </router-link>
       <router-link v-else-if="routeName === 'DetailCesty'" to="/cesty">
-        <div class="commonButton zpetNaClanky">Zpět na články</div>
+        <div class="commonButton zpetNaClanky">Články</div>
+      </router-link>
+      <router-link
+        v-if="routeName === 'DetailCesty' || routeName === 'NovaCesta'"
+        to="/mapa_cest"
+      >
+        <div class="commonButton zpetNaClanky">Mapa cest</div>
       </router-link>
       <span v-else @click="$router.go(-1)">
-        <div class="commonButton zpetNaClanky">Zpět na články</div>
+        <div class="commonButton zpetNaClanky">Články</div>
       </span>
       <div class="commonButton tlacitkoNahoruDetail" @click="goToTop">
         Nahoru

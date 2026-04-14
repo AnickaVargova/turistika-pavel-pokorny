@@ -60,7 +60,7 @@
         </router-link>
       </div>
       <div>
-        <a :href="mapaUrl" target="_self" id="mapabutton"> Mapa </a>
+        <a :href="mapaUrl" target="_self" id="mapabutton">Mapa pomníčků</a>
       </div>
       <div>
         <Loader class="homeButton" v-if="loading.pomnicky" />
@@ -87,6 +87,11 @@
         <router-link v-else to="/cesty"
           >Cesty
           <span class="count">&nbsp;({{ counts.cesty }})</span></router-link
+        >
+      </div>
+      <div>
+        <router-link to="/mapa_cest" id="mapacestybutton"
+          >Mapa cest <span class="newBadge">Nové</span></router-link
         >
       </div>
       <div>
@@ -196,6 +201,34 @@ onMounted(async () => {
 #mapabutton:hover {
   background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   box-shadow: 4px 2px 6px rgba(46, 51, 62, 0.9);
+}
+
+#mapacestybutton {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  transition: var(--transition);
+  position: relative;
+}
+
+#mapacestybutton:hover {
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+  box-shadow: 4px 2px 6px rgba(46, 51, 62, 0.9);
+}
+
+.newBadge {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #fde68a 0%, #fbbf24 100%);
+  color: #5a3b00;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-transform: none;
+  line-height: 1.2;
+  box-shadow: 0 1px 2px rgba(46, 51, 62, 0.35);
+  border: 1px solid rgba(90, 59, 0, 0.25);
 }
 
 @media (max-width: 600px) {

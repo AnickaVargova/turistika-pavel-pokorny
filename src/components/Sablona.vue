@@ -32,10 +32,6 @@
       </div>
     </div>
 
-    <div v-if="showCestyMap" class="mapWrapper">
-      <CestyMap />
-    </div>
-
     <div id="rozbalitWrapper">
       <router-link :to="expandLink">
         <div v-if="showExpandButton" id="rozbalit" class="commonButton">
@@ -106,7 +102,6 @@ import OknoClanky from "./OknoClanky.vue";
 import AbecedniSeznam from "./AbecedniSeznam.vue";
 import Klikaci from "./Klikaci.vue";
 import Loader from "./Loader.vue";
-import CestyMap from "./CestyMap.vue";
 import { useScrollPosition } from "../composables/useScrollPosition";
 import {
   LONG_VERSION_ROUTES,
@@ -164,8 +159,6 @@ const textContainerClasses = computed(() => {
     large: isLargePage.value,
   };
 });
-
-const showCestyMap = computed(() => innerParams.value.stranka === "cesty");
 
 const showExpandButton = computed(() => {
   return (

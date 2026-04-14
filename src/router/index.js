@@ -108,6 +108,11 @@ const routes = [
     component: () => import("../views/Cesty.vue"),
   },
   {
+    path: "/mapa_cest",
+    name: "MapaCest",
+    component: () => import("../views/MapaCest.vue"),
+  },
+  {
     path: "/vypraveni",
     name: "Vypraveni",
     component: () => import("../views/Vypraveni.vue"),
