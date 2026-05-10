@@ -193,7 +193,6 @@ export default {
 }
 
 #fotodetail figure {
-  margin-top: 30px;
   position: relative;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
@@ -255,12 +254,8 @@ export default {
   transform: rotate(45deg) scale(1.2);
 }
 
-.setHeight {
-  max-height: 80vh;
-}
-
 .setHeight img {
-  max-height: calc(80vh - 60px);
+  max-height: calc(100vh - 60px);
   height: auto;
 }
 
@@ -271,7 +266,7 @@ export default {
 #fotodetail img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
@@ -283,6 +278,7 @@ export default {
   background: var(--bg-primary);
   border-top: 1px solid var(--border-color);
   flex-shrink: 0;
+  margin-top: 0;
 }
 
 #fotodetail button {

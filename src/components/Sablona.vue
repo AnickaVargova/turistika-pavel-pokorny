@@ -46,14 +46,14 @@
 
     <div id="tlacitkoNahoru" class="commonButton" @click="goToTop">Nahoru</div>
 
-    <span
+    <router-link
       v-if="showNewButton"
-      @click="$router.go(-1)"
+      to="/novepridane"
       id="naNovePridane"
       class="commonButton"
     >
       Nové
-    </span>
+    </router-link>
 
     <router-link :to="`/${innerParams.stranka}`" id="ABClink">
       <div v-if="showAbcButton" class="commonButton" id="seznam">ABC</div>
@@ -650,7 +650,6 @@ p.responsive {
 }
 
 #seznam {
-  margin-bottom: 20px;
   color: var(--button-text-color);
   padding: 0 14px;
   width: 20px;
