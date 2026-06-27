@@ -23,9 +23,6 @@
       >
         <div class="commonButton zpetNaClanky">Mapa cest</div>
       </router-link>
-      <span v-else @click="$router.go(-1)">
-        <div class="commonButton zpetNaClanky">Články</div>
-      </span>
       <div class="commonButton tlacitkoNahoruDetail" @click="goToTop">
         Nahoru
       </div>
